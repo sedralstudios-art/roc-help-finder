@@ -1,0 +1,77 @@
+# ROC Help Finder — Weekly Audit
+# Place this file at: .github/workflows/roc_audit.yml
+#
+# Runs every Monday at 8am ET.
+# Checks all program URLs, dates, phones, and content changes.
+# Creates a GitHub Issue with the report if any issues are found.
+# Commits updated URL hashes for content change detection.
+#
+# SETUP:
+# 1. Put roc_help.jsx and roc_audit_bot.py in your repo root
+# 2. Put this file at .github/workflows/roc_audit.yml
+# 3. Enable GitHub Actions in your repo settings
+# 4. The bot will auto-run every Monday (or you can trigger manually)
+
+name: ROC Help Finder Weekly Audit
+
+on:
+  schedule:
+    # 8am ET every Monday (12:00 UTC, adjusts for DST)
+    - cron: '0 12 * * 1'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run audit
+        run: |
+          python roc_audit_bot.py > audit_report.md
+          cat audit_report.md
+
+      - name: Commit hash file (for content change detection)
+        run: |
+          git config user.name "ROC Audit Bot"
+          git config user.email "audit@sedral.studio"
+          git add .roc_url_hashes.json || true
+          git diff --cached --quiet || git commit -m "Update URL content hashes [audit bot]"
+          git push || true
+
+      - name: Check for issues
+        id: check
+        run: |
+          if grep -q "⚠️\|🔴\|🟡" audit_report.md; then
+            echo "has_issues=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_issues=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create issue if problems found
+        if: steps.check.outputs.has_issues == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔍 Weekly Audit — Issues Found (${{ github.run_number }})"
+          content-filepath: audit_report.md
+          labels: audit, maintenance
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: audit_report.md
+          retention-days: 90
