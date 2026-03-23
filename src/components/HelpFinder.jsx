@@ -94,6 +94,7 @@ const UI = {
     findMore: "Can't find what you need?",
     findMoreLink: "Search more programs on findhelp.org",
     alsoNeed: "I also need help with something else",
+    parentalProtectionDisclaimer: "This information is not legal advice. Laws and procedures change. Always consult a lawyer for your specific situation. Legal Aid and LawNY offer free legal help.",
   },
   es: {
     title: "HelpFinder",
@@ -493,7 +494,7 @@ const TABS = {
     my: "အခုပဲအကူအညီလိုတယ်",
     so: "Waxaan u baahanahay caawimo hadda",
     zh: "我现在需要帮助",
-    needs: ["crisis", "domesticSvc", "crisisChild", "weather", "documents"],
+    needs: ["crisis", "domesticSvc", "parentalProtection", "crisisChild", "weather", "documents"],
   },
   foodhome: {
     icon: "🍎",
@@ -557,6 +558,7 @@ const TABS = {
       "education",
       "employment",
       "legal",
+      "parentalProtection",
       "veteranSvc",
       "refugeeSvc",
       "lgbtq",
@@ -603,6 +605,7 @@ const CATEGORIES = {
   documents: { icon: "📄", en: "I need an ID, passport, or papers", es: "Necesito identificación, pasaporte, o papeles", ne: "परिचयपत्र, राहदानी, वा कागजात चाहिन्छ", ar: "أحتاج بطاقة هوية أو جواز سفر أو أوراق", sw: "Nahitaji kitambulisho, pasipoti, au nyaraka", my: "ID ကတ်၊ ပတ်စ်ပို့ သို့ စာရွက်စာတမ်းလိုတယ်", so: "Waxaan u baahanahay aqoonsi, baasaboor, ama warqado", zh: "我需要身份证、护照或文件" },
   vision: { icon: "👓", en: "I need glasses or an eye exam", es: "Necesito lentes o un examen de ojos", ne: "चश्मा वा आँखा जाँच चाहिन्छ", ar: "أحتاج نظارات أو فحص عيون", sw: "Nahitaji miwani au uchunguzi wa macho", my: "မျက်မှန် သို့ မျက်စိစစ်ဆေးမှု လိုတယ်", so: "Waxaan u baahanahay muraayadaha ama baarista indhaha", zh: "需要眼镜或眼科检查" },
   funeral: { icon: "🕯️", en: "Help paying for a funeral", es: "Ayuda para pagar un funeral", ne: "अन्त्येष्टि खर्चमा सहयोग", ar: "مساعدة في دفع تكاليف الجنازة", sw: "Msaada wa kulipa mazishi", my: "ဈာပနစရိတ်အကူအညီ", so: "Caawimada bixinta aaska", zh: "丧葬费用帮助" },
+  parentalProtection: { icon: "⚖️", en: "Protect myself or my children from another parent", es: "Protegerme a mí o a mis hijos de otro padre/madre", ne: "अर्को अभिभावकबाट आफूलाई वा बच्चाहरूलाई जोगाउनुहोस्", ar: "حماية نفسي أو أطفالي من أحد الوالدين", sw: "Kujilinda mimi au watoto wangu kutoka kwa mzazi mwingine", my: "အခြားမိဘမှ ကျွန်တော်/မ သို့ ကလေးများကို ကာကွယ်ပါ", so: "Difaaca naftagayga ama carruurtayda ka waalidka kale", zh: "保护我自己或我的孩子不受另一方父母伤害" },
   caregiver: { icon: "🤲", en: "I take care of someone and need help", es: "Cuido a alguien y necesito ayuda", ne: "म कसैको हेरचाह गर्छु र सहयोग चाहिन्छ", ar: "أعتني بشخص وأحتاج مساعدة", sw: "Ninatunza mtu na nahitaji msaada", my: "တစ်ယောက်ယောက်ကို ပြုစုနေပြီး အကူအညီလိုတယ်", so: "Waxaan daryeelayaa qof waxaanan u baahanahay caawimaad", zh: "我在照顾某人，需要帮助" },
 };
 
@@ -904,7 +907,28 @@ const PROGRAMS = [
   { id:"familyvoices", n:"Family Voices of NY", c:"caregiver", d:"Help for families of children with special healthcare needs. Insurance navigation, care coordination, advocacy.", url:"https://fvny.org", hr:"M-F", doc:"None", tg:["kids","dis","any"] },
 ];
 
-// ── COMMUNITY GROUPS ──
+  // PARENTAL PROTECTION — Orders of Protection, Family Court, Custody Safety
+  // ── LEGAL DISCLAIMER: Information only. Not legal advice. Consult a lawyer for your situation. ──
+  // ── New York Family Court OPs are civil. Criminal OPs come through City/Criminal Court. ──
+  // ── Violation of a valid Order of Protection is a CRIMINAL OFFENSE in New York State. ──
+  { id:"familycourt", n:"Monroe County Family Court", c:"parentalProtection", d:"File for an Order of Protection, custody, visitation, or child support. Emergency Temporary Orders of Protection (ETOP) can be issued the same day you file. You do NOT need a lawyer to file.", ph:"585-371-3490", ad:"99 Exchange Blvd, Rochester NY 14614", url:"https://ww2.nycourts.gov/courts/7jd/Monroe/family/index.shtml", hr:"M-F 9am-4:30pm (arrive early — allow several hours)", doc:"Photo ID; respondent's full name, DOB, last known address; children's full names and DOBs; any police reports, screenshots of threatening texts, photos of injuries, or medical records; any existing court orders. All court forms are FREE at the clerk window.", tg:["any"], nt:"Ask the clerk for a 'Family Offense Petition' to get an Order of Protection, or a 'Petition for Custody/Visitation.' No filing fee for family offense petitions. A judge can issue an Emergency Temporary Order of Protection on the spot if they find immediate danger. The other parent is served AFTER you leave — they do not know you filed until after it is issued." },
+  { id:"rochcitycourt", n:"Rochester City Court — Criminal Order of Protection", c:"parentalProtection", d:"If police responded and made an arrest, a Criminal Order of Protection may be issued automatically at arraignment. You can request conditions be added. Contact the DA's Victim Assistance Unit for help navigating this.", ph:"585-428-2444", ad:"185 Exchange Blvd, Rochester NY 14614", url:"https://ww2.nycourts.gov/courts/7jd/Monroe/cityct/index.shtml", hr:"M-F 9am-5pm", doc:"Your case/complaint number if available. Police report.", tg:["any"], nt:"Criminal OPs are issued as part of a criminal case — not the same as a Family Court OP. You can have BOTH at the same time. Contact DA Victim Assistance: 585-753-4750." },
+  { id:"daunit", n:"Monroe County DA — Victim Assistance Unit", c:"parentalProtection", d:"Support for crime victims involving family members. Help navigating criminal orders of protection, court hearings, and safety planning. Free and confidential.", ph:"585-753-4750", ad:"47 S Fitzhugh St, Rochester NY 14614", url:"https://www.monroecounty.gov/da", hr:"M-F 9am-5pm", doc:"Police report if available. They can assist even without a prior report.", tg:["any"] },
+  { id:"selfhelpcourt", n:"NY Courts Self-Help (Free Court Forms)", c:"parentalProtection", d:"Free downloadable forms for Order of Protection, custody, visitation, and child support in New York. Step-by-step plain-language instructions included.", url:"https://www.nycourts.gov/courthelp/", hr:"24/7 online", doc:"None — forms are free and downloadable", tg:["any"], nt:"Start here before going to court. Search for 'Family Court' forms. The OCA packet explains every step." },
+  { id:"familycourthelp", n:"Family Court Self-Help Center (Courthouse)", c:"parentalProtection", d:"Free in-person help filling out Family Court forms at the courthouse. Legal Aid volunteers on-site. No appointment needed.", ph:"585-232-4090", ad:"99 Exchange Blvd, 1st Floor (Family Court)", url:"https://lasroc.org", hr:"M-F 9am-12pm and 1pm-4pm (call ahead)", doc:"Bring everything: ID, police reports, photos, texts, medical records, any existing orders.", tg:["any"] },
+  { id:"supervvisit", n:"Supervised Visitation — Monroe County", c:"parentalProtection", d:"If you have safety concerns about the other parent being alone with your child, the court can order supervised visitation or supervised exchanges. Must be requested from a judge.", ph:"585-371-3490", ad:"99 Exchange Blvd (Family Court)", url:"https://ww2.nycourts.gov/courts/7jd/Monroe/family/index.shtml", hr:"Request through Family Court", doc:"Court order required. Tell your attorney or the judge that you are requesting supervised visitation due to safety concerns.", tg:["any","kids"], nt:"'Safe exchange' (custody swap in a neutral monitored location) can also be court-ordered separately. Both can be in effect at the same time." },
+  { id:"mclerk", n:"Monroe County Clerk — File Court Papers & Get Certified Copies", c:"parentalProtection", d:"File court documents, obtain certified copies of orders of protection, search case records. If you cannot afford fees, ask about Poor Person Relief (fee waiver).", ph:"585-753-1600", ad:"39 W Main St, Rochester NY 14614", url:"https://www.monroecounty.gov/clerk", hr:"M-F 8am-5pm", doc:"Filing fees may apply. Ask staff about 'Poor Person Relief' — the fee waiver form — if cost is a barrier.", tg:["any"], nt:"Keep certified copies of ALL orders of protection on your person. Give one to your child's school, one to your employer if appropriate, and one to your phone's photo library." },
+  { id:"townhall", n:"Rochester City Hall — City Services & Emergency Help", c:"parentalProtection", d:"City Hall connects residents to city services including housing inspection, emergency assistance, and council member constituent help. Your City Council member can help if city agencies aren't responding.", ph:"585-428-5990", ad:"30 Church St, Rochester NY 14614", url:"https://www.cityofrochester.gov", hr:"M-F 8am-5pm", doc:"None", tg:["any"] },
+  { id:"mclegislature", n:"Monroe County Legislature — County Services", c:"parentalProtection", d:"Your County Legislator can help escalate county service issues — DSS, housing, child services. Find your district representative on the county website.", ph:"585-753-1950", ad:"39 W Main St, Rochester NY 14614", url:"https://www.monroecounty.gov/legislature", hr:"M-F 8am-5pm", doc:"None", tg:["any"] },
+  { id:"willowsafety", n:"Willow Center — Safety Planning for Parents", c:"parentalProtection", d:"24-hour hotline. Crisis counselors help you and your children create a safety plan. Help understanding your legal options including orders of protection and custody safety.", ph:"585-222-7233", url:"https://www.willowcenterny.org", hr:"24/7 — call or text", doc:"Nothing needed — just call", tg:["any"], nt:"Safety planning is free and can be done by phone. A counselor will help you think through what to do if the order is violated, how to talk to your children, and what evidence to preserve." },
+  { id:"lawnyparent", n:"LawNY — Free Family Law Legal Help", c:"parentalProtection", d:"Free civil legal help for low-income residents. Handles custody, visitation, orders of protection, and child support. Income-based.", ph:"585-295-5700", url:"https://www.lawny.org", hr:"M-F 9am-5pm", doc:"Proof of income", tg:["any"] },
+  { id:"laparent", n:"Legal Aid Society — Family Law Unit", c:"parentalProtection", d:"Free lawyers for low-income residents facing family law cases: custody, visitation, orders of protection. They can appear with you in court.", inc:200, ph:"585-232-4090", ad:"1 W Main St Suite 800, Rochester NY 14614", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income, any existing court documents", tg:["any"] },
+  { id:"vlspfamily", n:"Volunteer Legal Services — Family Law Clinic", c:"parentalProtection", d:"Free legal clinics including family law. Volunteer attorneys can advise on custody and OP cases.", ph:"585-232-3051", url:"https://vlsp.org", hr:"By appointment", doc:"Proof of income", tg:["any"] },
+  { id:"cpsparent", n:"Child Protective Services — Report Child Endangerment", c:"parentalProtection", d:"If you believe the other parent is abusing or neglecting your child, call CPS to report. Reports can be made anonymously. CPS investigates and can take action to protect the child.", ph:"585-753-6532", hr:"After hours/weekends: 585-753-2699 (24/7)", doc:"None — anonymous reports accepted. Helpful to have: child's name and DOB, other parent's name and address, description of what happened and when.", tg:["any","kids"], nt:"Making a report to CPS does NOT automatically affect your own custody case. A CPS investigation is separate from Family Court proceedings — though findings can be used in court." },
+  { id:"opdvinfo", n:"NYS Office for Prevention of DV — Know Your Rights", c:"parentalProtection", d:"Clear information on New York State law: what an Order of Protection covers, what happens if it's violated, how custody and OP cases interact.", url:"https://opdv.ny.gov", hr:"24/7 online", doc:"None", tg:["any"], nt:"Key fact: in NY, violating an Order of Protection — even 'just' a text message — is a criminal offense (Criminal Contempt). The protected person can call 911 immediately." },
+  { id:"nychncustoday", n:"NY Courts — Custody & Visitation Information", c:"parentalProtection", d:"Plain-language explanation of how New York family courts decide custody, what 'best interests of the child' means, and how to prepare for a custody hearing.", url:"https://www.nycourts.gov/courthelp/family/custodyVisitation.shtml", hr:"24/7 online", doc:"None", tg:["any"], nt:"'Legal custody' (who makes decisions) and 'physical custody' (where child lives) are separate issues in NY. Both can be shared or given to one parent. The court always decides based on the child's best interests." },
+
+// COMMUNITY GROUPS
 const COMMUNITY = [
   { n:"Rochester Hope", d:"Saturday: free food, clothing, haircuts, health screenings, legal aid, 50+ agencies. Every Saturday 9:30am-3:30pm.", loc:"869 N Clinton Ave", url:"https://rochesterhope.org" },
   { n:"Roc Food Not Bombs", d:"Free hot meals and grocery stands across Rochester. No ID, no questions.", url:"https://www.facebook.com/rocfoodnotbombs/" },
@@ -922,9 +946,9 @@ const COMMUNITY = [
 const FEATURED_IDS = ["211", "snap", "medicaid", "foodlink", "myb", "988", "mcvital"];
 
 // ── SENSITIVE CATEGORIES (show privacy notice) ──
-const SENSITIVE = new Set(["mental","grief","addiction","domesticSvc","hivsti","reentry","lgbtq"]);
+const SENSITIVE = new Set(["mental","grief","addiction","domesticSvc","hivsti","reentry","lgbtq","parentalProtection"]);
 // ── DV CATEGORIES (show safety notice + quick exit) ──
-const DV_CATS = new Set(["domesticSvc"]);
+const DV_CATS = new Set(["domesticSvc","parentalProtection"]);
 
 // Haversine distance in miles
 function distanceMiles(lat1, lon1, lat2, lon2) {
@@ -1332,11 +1356,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
       }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8, cursor: onExit ? "pointer" : "default" }} onClick={() => onExit && onExit()}>
-            <div style={{ position: "relative", width: 38, height: 28, flexShrink: 0 }}>
-              <div style={{ position: "absolute", left: 0, top: 0, width: 24, height: 24, borderRadius: "50%", background: "#d4a056" }} />
-              <div style={{ position: "absolute", right: 0, top: 0, width: 24, height: 24, borderRadius: "50%", background: "#fff", border: "0.5px solid #ddd" }} />
-              <div style={{ position: "absolute", left: 7, top: 0, width: 24, height: 24, borderRadius: "50%", background: "#2e7d32", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 11, fontWeight: 700, color: "#fff", letterSpacing: -1 }}>HF</div>
-            </div>
+            <div style={{ width: 28, height: 28, borderRadius: "50%", background: "#2e7d32", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 11, fontWeight: 700, color: "#fff", letterSpacing: -1, flexShrink: 0 }}>HF</div>
             <div>
               <div style={{ fontSize: 18, fontWeight: 700, letterSpacing: -0.5, fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
                 {t(lang, "title")}
@@ -1637,6 +1657,11 @@ function RocHelpInner({ onExit, city = "your area" }) {
 
             {SENSITIVE.has(category) && <PrivacyBadge lang={lang} sensitive />}
             <DVSafetyNotice lang={lang} category={category} />
+            {category === "parentalProtection" && (
+              <div style={{ background: "#fff8e1", border: "1px solid #ffe082", borderRadius: 10, padding: "10px 14px", margin: "8px 0", fontSize: 13, color: "#5d4037" }}>
+                ⚖️ <strong>Important:</strong> This information is not legal advice. Laws and court procedures change. For your specific situation, free legal help is available — see Legal Aid Society and LawNY below.
+              </div>
+            )}
             <InterpreterNotice lang={lang} />
 
             {filteredPrograms.length === 0 && (

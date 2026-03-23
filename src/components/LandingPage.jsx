@@ -96,7 +96,7 @@ const UI = {
     supportDisclaimer: "Sedral Studios is not a registered nonprofit. Donations support hosting, research, and expansion to new cities. Thank you.",
     privacyTitle: "Privacy",
     privacyShort: "The short version: we don't collect personal data. (We're learning what Rochester needs.)",
-    privacyP1: "No accounts. No cookies from us. No tracking pixels. No analytics that identify you. No data is saved when you use the Help Finder or the Clarity Reading. We count how many times each resource is clicked so we know what help people need most — but we never track who clicks. Third-party services (donation platforms) may set their own cookies if you visit them.",
+    privacyP1: "No accounts. No cookies from us. No tracking pixels. No analytics that identify you. No data is saved when you use HelpFinder. We count how many times each resource is clicked so we know what help people need most — but we never track who clicks. Third-party services (donation platforms) may set their own cookies if you visit them.",
     privacyP2: "We don't know who you are. We don't know what you searched for. We don't know if you came back. That's by design.",
     privacyP3: "The Clarity Reading uses AI (Claude by Anthropic) to generate your reading. Your answers are processed to create the reading, then discarded on our end. We store nothing. The AI provider does not use your data for training but may retain it briefly for safety monitoring per their privacy policy.",
     privacyP4: "If you're in a situation where someone might check your device, you can close this site and it leaves no trace. There's nothing to find.",
