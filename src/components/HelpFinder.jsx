@@ -905,7 +905,6 @@ const PROGRAMS = [
   { id:"cdpapcg", n:"CDPAP (Get Paid to Be Their Caregiver)", c:"caregiver", d:"You may qualify to get PAID by Medicaid for the care you're already providing. Any family member or friend can apply.", ph:"585-325-1880", url:"https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm", hr:"M-F", doc:"Your loved one needs Medicaid + a doctor's order for home care", tg:["dis","sen","any"], nt:"Many caregivers don't know this exists. If your loved one has Medicaid, ask about CDPAP." },
   { id:"parentnetwork", n:"Parent Network of WNY", c:"caregiver", d:"Parent-to-parent support for families of children with special needs. Help navigating school, services, and systems.", ph:"716-332-4170", url:"https://parentnetworkwny.org", hr:"M-F", doc:"None", tg:["kids","dis","any"] },
   { id:"familyvoices", n:"Family Voices of NY", c:"caregiver", d:"Help for families of children with special healthcare needs. Insurance navigation, care coordination, advocacy.", url:"https://fvny.org", hr:"M-F", doc:"None", tg:["kids","dis","any"] },
-];
 
   // PARENTAL PROTECTION — Orders of Protection, Family Court, Custody Safety
   // ── LEGAL DISCLAIMER: Information only. Not legal advice. Consult a lawyer for your situation. ──
@@ -927,6 +926,7 @@ const PROGRAMS = [
   { id:"cpsparent", n:"Child Protective Services — Report Child Endangerment", c:"parentalProtection", d:"If you believe the other parent is abusing or neglecting your child, call CPS to report. Reports can be made anonymously. CPS investigates and can take action to protect the child.", ph:"585-753-6532", hr:"After hours/weekends: 585-753-2699 (24/7)", doc:"None — anonymous reports accepted. Helpful to have: child's name and DOB, other parent's name and address, description of what happened and when.", tg:["any","kids"], nt:"Making a report to CPS does NOT automatically affect your own custody case. A CPS investigation is separate from Family Court proceedings — though findings can be used in court." },
   { id:"opdvinfo", n:"NYS Office for Prevention of DV — Know Your Rights", c:"parentalProtection", d:"Clear information on New York State law: what an Order of Protection covers, what happens if it's violated, how custody and OP cases interact.", url:"https://opdv.ny.gov", hr:"24/7 online", doc:"None", tg:["any"], nt:"Key fact: in NY, violating an Order of Protection — even 'just' a text message — is a criminal offense (Criminal Contempt). The protected person can call 911 immediately." },
   { id:"nychncustoday", n:"NY Courts — Custody & Visitation Information", c:"parentalProtection", d:"Plain-language explanation of how New York family courts decide custody, what 'best interests of the child' means, and how to prepare for a custody hearing.", url:"https://www.nycourts.gov/courthelp/family/custodyVisitation.shtml", hr:"24/7 online", doc:"None", tg:["any"], nt:"'Legal custody' (who makes decisions) and 'physical custody' (where child lives) are separate issues in NY. Both can be shared or given to one parent. The court always decides based on the child's best interests." },
+];
 
 // COMMUNITY GROUPS
 const COMMUNITY = [
