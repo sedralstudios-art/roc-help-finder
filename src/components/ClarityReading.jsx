@@ -7,7 +7,7 @@ import { getRandomClosing } from "../data/clarity_closings.js";
 // Free path: tree + closings + crisis detection (fully wired)
 // Paid path: Claude API + hidden tiers (wired, needs /api/clarity endpoint)
 
-// checkCrisis is now called with the lang prop — see inside the component
+const checkCrisis = (t) => checkCrisisMultilingual(t, "en"); // TODO: pass user language when multilingual UI is wired
 const getTier = (a) => PAID_TIERS.find((t) => a >= t.min && a <= t.max) || PAID_TIERS[0];
 
 // MASTER ACCESS CODE — change this to whatever you want
@@ -143,34 +143,7 @@ const DonScr = ({ pre, onDonate, onSkip }) => {
 // FLOW CONSTANTS
 const F = { MC1:0, MC2:1, MC3:2, FQ1:10, FQ2:11, FQ3:12, FREFL:13, FUPG:14, PDON:20, PQ:30, PLOAD:40, PREAD:41, DONE:99 };
 
-
-// Animated loading screen with rotating messages
-const LOAD_MSGS = [
-  "Reading your answers...",
-  "Finding the pattern...",
-  "Almost there...",
-  "Finishing your reading...",
-];
-const LoadingScreen = () => {
-  const [idx, setIdx] = useState(0);
-  useEffect(() => {
-    const t = setInterval(() => setIdx((i) => (i + 1) % LOAD_MSGS.length), 2200);
-    return () => clearInterval(t);
-  }, []);
-  return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "40vh", gap: 24 }}>
-      <div style={{ display: "flex", gap: 8 }}>
-        {[0,1,2].map((i) => (
-          <div key={i} style={{ width: 8, height: 8, borderRadius: "50%", background: "#d4a056", opacity: 0.3, animation: `dotPulse 1.4s ease ${i * 0.2}s infinite` }} />
-        ))}
-      </div>
-      <div style={{ fontSize: 14, color: "#666", fontFamily: "Georgia, serif", letterSpacing: 1, transition: "opacity 0.4s" }}>{LOAD_MSGS[idx]}</div>
-      <style>{`@keyframes dotPulse{0%,100%{opacity:.2;transform:scale(1)}50%{opacity:1;transform:scale(1.3)}}`}</style>
-    </div>
-  );
-};
-
-export default function ClarityReading({ initialDoor, lang = "en", onExit }) {
+export default function ClarityReading({ initialDoor, onExit }) {
   const [step, setStep] = useState(F.MC1);
   const [area, setArea] = useState(null);
   const [sit, setSit] = useState(null);
@@ -196,7 +169,7 @@ export default function ClarityReading({ initialDoor, lang = "en", onExit }) {
   useEffect(() => { cRef.current?.scrollTo(0, 0); }, [step]);
   useEffect(() => { if (initialDoor === "shadow") setPath("paid"); else if (initialDoor === "mirror") setPath("free"); }, [initialDoor]);
 
-  const addAnswer = (t) => { if (checkCrisisMultilingual(t, lang)) setCrisis(true); setAnswers((p) => [...p, t]); };
+  const addAnswer = (t) => { if (checkCrisis(t)) setCrisis(true); setAnswers((p) => [...p, t]); };
 
   const genQ = useCallback(async (idx, prev) => {
     const m = [{ role: "user", content: "Profile: Area=" + area + ", Situation=" + sit + ", State=" + emo + "\n\nGenerate question " + (idx+1) + " of 6." + (idx > 0 ? "\nPrevious answers:\n" + prev.map((a,i) => "Q" + (i+1) + ": \"" + a + "\"").join("\n") : " This is the first question.") + "\n\nOne question only. Short. Go deeper than the last." }];
@@ -260,7 +233,7 @@ export default function ClarityReading({ initialDoor, lang = "en", onExit }) {
           <TxtIn onSubmit={(t) => { addAnswer(t); if (pqIdx >= 5) { setReveal(false); setStep(F.PLOAD); } else { const n = pqIdx + 1; setPqIdx(n); setPqText(""); genQ(n, [...answers, t]).then(setPqText); }}} />
         </Fade>}
 
-        {step === F.PLOAD && <LoadingScreen />}
+        {step === F.PLOAD && <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "40vh" }}><div style={{ width: 8, height: 8, borderRadius: "50%", background: "#d4a056", animation: "pulse 1.5s ease infinite" }} /><style>{`@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}`}</style></div>}
 
         {step === F.PREAD && <Fade k="pr"><div style={{ opacity: reveal ? 1 : 0, transition: "opacity 1.5s ease" }}>
           <div style={{ fontSize: 10, color: "#555", letterSpacing: 2, textTransform: "uppercase", marginBottom: 20 }}>{tier.name}</div>
@@ -274,15 +247,6 @@ export default function ClarityReading({ initialDoor, lang = "en", onExit }) {
         {step === F.DONE && <Fade k="done"><div style={{ textAlign: "center", paddingTop: 40 }}>
           <div style={{ fontSize: 22, color: "#fff", marginBottom: 12, fontFamily: "Georgia, serif" }}>Thank you.</div>
           <div style={{ fontSize: 14, color: "#666", lineHeight: 1.6, marginBottom: 32 }}>Nothing was saved. Nothing was sent.<br/>This was between you and the page.</div>
-          <button onClick={() => {
-            if (navigator.share) {
-              navigator.share({ title: "HelpFinder", text: "Free help in Rochester, NY — 225 programs, 8 languages.", url: "https://helpfinder.help" });
-            } else {
-              navigator.clipboard.writeText("https://helpfinder.help");
-              alert("Link copied.");
-            }
-          }} style={{ background: "#d4a056", color: "#000", border: "none", borderRadius: 28, padding: "14px 32px", fontSize: 15, fontWeight: 700, cursor: "pointer", fontFamily: "inherit", width: "100%", maxWidth: 280, marginBottom: 12 }}>Share with someone who needs this</button>
-          <div style={{ marginBottom: 20 }} />
           <button onClick={home} style={{ background: "none", border: "1px solid #333", borderRadius: 28, padding: "14px 28px", fontSize: 15, color: "#999", cursor: "pointer", fontFamily: "inherit" }}>Return home</button>
         </div></Fade>}
 

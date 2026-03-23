@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 // Brand: HF (product) / SS (studio)
 // ═══════════════════════════════════════════════════
 
-const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3 };
+const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, SUPPORT: 3, CLARITY_INTRO: 4, TERMS: 5 };
 
 const LANGS = [
   { code: "en", label: "English" },
@@ -421,28 +421,11 @@ const C = {
   amberLight: "#fdf6ec", white: "#fff", border: "#e8e4dc",
 };
 
-export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCityDetected }) {
+export default function HelpFinderLanding({ onNavigateHelp, onNavigateClarity }) {
   const [page, setPage] = useState(PAGES.HOME);
   const [lang, setLang] = useState("en");
   const [menuOpen, setMenuOpen] = useState(false);
   const [search, setSearch] = useState("");
-  const [city, setCity] = useState("your area");
-
-  // Detect city via geolocation + free reverse geocode
-  useEffect(() => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition((pos) => {
-      const { latitude, longitude } = pos.coords;
-      fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`)
-        .then((r) => r.json())
-        .then((d) => {
-          const addr = d.address || {};
-          const place = addr.city || addr.town || addr.village || addr.county || null;
-          if (place) { setCity(place); if (onCityDetected) onCityDetected(place); }
-        })
-        .catch(() => {});
-    }, () => {});
-  }, []);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => { const tm = setTimeout(() => setLoaded(true), 50); return () => clearTimeout(tm); }, []);
@@ -474,7 +457,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       `}</style>
 
       {/* ═══ HEADER ═══ */}
-      (
+      {page !== PAGES.CLARITY_INTRO && (
         <header style={{ padding: "14px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <button onClick={() => nav(PAGES.HOME)} style={{
             background: "none", border: "none", cursor: "pointer",
@@ -493,7 +476,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <select
-              value={lang} onChange={(e) => { setLang(e.target.value); if (onLangChange) onLangChange(e.target.value); }}
+              value={lang} onChange={(e) => setLang(e.target.value)}
               aria-label="Language"
               style={{
                 background: C.white, color: C.bark, border: `1px solid ${C.border}`,
@@ -521,7 +504,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       )}
 
       {/* ═══ MOBILE NAV ═══ */}
-      {menuOpen && (
+      {page !== PAGES.CLARITY_INTRO && menuOpen && (
         <nav style={{
           position: "absolute", top: 52, left: 0, right: 0, zIndex: 100,
           background: C.white, borderBottom: `1px solid ${C.border}`,
@@ -530,6 +513,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         }}>
           <button className="hf-nav-link" onClick={() => nav(PAGES.HOME)}>{t(lang,"navHome")}</button>
           <button className="hf-nav-link" onClick={() => nav(PAGES.ABOUT)}>{t(lang,"navAbout")}</button>
+          <button className="hf-nav-link" onClick={() => nav(PAGES.SUPPORT)}>{t(lang,"navSupport")}</button>
           <button className="hf-nav-link" onClick={() => nav(PAGES.PRIVACY)}>{t(lang,"navPrivacy")}</button>
         </nav>
       )}
@@ -568,7 +552,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
               letterSpacing: -1, lineHeight: 1.1, marginBottom: 8,
             }}>HelpFinder</h1>
             <div style={{ fontSize: 13, color: C.dust, letterSpacing: 0.5 }}>
-              Free help in {city}.
+              Rochester, NY
             </div>
           </div>
 
@@ -596,30 +580,77 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             </div>
           </div>
 
-          {/* ── ENTER BUTTON ── */}
-          <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 32 }}>
-            <a href="/help"
+          {/* ── THREE DOORS ── */}
+          <div style={{
+            display: "flex", justifyContent: "center", gap: 20, marginTop: 28,
+            flexWrap: "wrap",
+          }}>
+
+            {/* DOOR 1: HELP */}
+            <a href="/help" className="hf-door hf-fade-in hf-d3"
               onClick={(e) => { e.preventDefault(); if (onNavigateHelp) onNavigateHelp(); }}
               style={{
                 display: "flex", flexDirection: "column", alignItems: "center",
-                textDecoration: "none",
+                textAlign: "center", width: 140,
               }}>
               <div style={{
-                width: 140, height: 140, borderRadius: "50%",
+                width: 120, height: 120, borderRadius: "50%",
                 background: `linear-gradient(135deg, ${C.forest} 0%, ${C.leaf} 100%)`,
                 display: "flex", flexDirection: "column", alignItems: "center",
                 justifyContent: "center", color: C.white,
-                boxShadow: "0 8px 32px rgba(46,125,50,0.30)",
-                transition: "transform 0.15s ease, box-shadow 0.15s ease",
-              }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "scale(1.04)"; e.currentTarget.style.boxShadow = "0 12px 40px rgba(46,125,50,0.40)"; }}
-              onMouseLeave={(e) => { e.currentTarget.style.transform = "scale(1)"; e.currentTarget.style.boxShadow = "0 8px 32px rgba(46,125,50,0.30)"; }}
-              >
-                <div style={{ fontSize: 32, marginBottom: 4 }}>🏠</div>
-                <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.1 }}>{t(lang,"door1Btn")}</div>
+                boxShadow: "0 6px 20px rgba(46,125,50,0.25)",
+              }}>
+                <div style={{ fontSize: 28, marginBottom: 2 }}>🏠</div>
+                <div style={{ fontSize: 13, fontWeight: 700, lineHeight: 1.1 }}>{t(lang,"door1Btn")}</div>
               </div>
-              <div style={{ marginTop: 14, fontSize: 16, fontWeight: 700, color: C.forest }}>{t(lang,"door1Title")}</div>
-              <div style={{ marginTop: 4, fontSize: 12, color: C.stone, textAlign: "center", maxWidth: 200, lineHeight: 1.4 }}>{t(lang,"door1Desc")}</div>
+              <div style={{ marginTop: 12, fontSize: 15, fontWeight: 700, color: C.forest, lineHeight: 1.2 }}>{t(lang,"door1Title")}</div>
+              <div style={{ marginTop: 4, fontSize: 11, color: C.bark, lineHeight: 1.3 }}>{t(lang,"door1Hook")}</div>
+              <div style={{ marginTop: 4, fontSize: 11, color: C.bark, lineHeight: 1.3 }}>{t(lang,"door1Desc")}</div>
+              <div style={{ marginTop: 6, fontSize: 10, fontStyle: "italic", color: C.forest }}>{t(lang,"door2Footer")}</div>
+            </a>
+
+            {/* DOOR 2: CLARITY */}
+            <a href="/clarity" className="hf-door hf-fade-in hf-d4"
+              onClick={(e) => { e.preventDefault(); nav(PAGES.CLARITY_INTRO); }}
+              style={{
+                display: "flex", flexDirection: "column", alignItems: "center",
+                textAlign: "center", width: 140,
+              }}>
+              <div style={{
+                width: 120, height: 120, borderRadius: "50%",
+                background: C.white, border: `2px solid ${C.border}`,
+                display: "flex", flexDirection: "column", alignItems: "center",
+                justifyContent: "center", color: C.bark,
+                boxShadow: "0 6px 20px rgba(0,0,0,0.06)",
+              }}>
+                <div style={{ fontSize: 28, marginBottom: 2 }}>✦</div>
+                <div style={{ fontSize: 13, fontWeight: 700, color: C.amber, lineHeight: 1.1 }}>{t(lang,"door2Btn")}</div>
+              </div>
+              <div style={{ marginTop: 12, fontSize: 15, fontWeight: 700, color: C.amber, lineHeight: 1.2 }}>{t(lang,"door2Title")}</div>
+              <div style={{ marginTop: 4, fontSize: 11, color: C.bark, lineHeight: 1.3 }}>{t(lang,"door2Desc")}</div>
+              <div style={{ marginTop: 6, fontSize: 10, fontStyle: "italic", color: C.amber }}>{t(lang,"door2Hook")}</div>
+            </a>
+
+            {/* DOOR 3: DONATE */}
+            <a href="#support" className="hf-door hf-fade-in hf-d5"
+              onClick={(e) => { e.preventDefault(); nav(PAGES.SUPPORT); }}
+              style={{
+                display: "flex", flexDirection: "column", alignItems: "center",
+                textAlign: "center", width: 140,
+              }}>
+              <div style={{
+                width: 120, height: 120, borderRadius: "50%",
+                background: C.cream, border: `2px solid #e8dcc8`,
+                display: "flex", flexDirection: "column", alignItems: "center",
+                justifyContent: "center", color: C.bark,
+                boxShadow: "0 6px 20px rgba(0,0,0,0.04)",
+              }}>
+                <div style={{ fontSize: 28, marginBottom: 2 }}>♡</div>
+                <div style={{ fontSize: 12, fontWeight: 700, color: C.gold, lineHeight: 1.1 }}>{t(lang,"navSupport")}</div>
+              </div>
+              <div style={{ marginTop: 12, fontSize: 15, fontWeight: 700, color: C.gold, lineHeight: 1.2 }}>{t(lang,"door3Title")}</div>
+              <div style={{ marginTop: 4, fontSize: 11, color: C.bark, lineHeight: 1.3 }}>{t(lang,"door3Desc")}</div>
+              <div style={{ marginTop: 6, fontSize: 10, fontStyle: "italic", color: C.gold }}>{t(lang,"teamwork")}</div>
             </a>
           </div>
 
@@ -639,7 +670,26 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
           {/* ── BELOW FOLD ── */}
 
+          {/* LIBRARY */}
+          <div style={{ marginTop: 44, padding: "20px 0", borderTop: `1px solid ${C.border}` }}>
+            <div style={{ fontSize: 11, color: C.dust, letterSpacing: 2, textTransform: "uppercase", marginBottom: 8 }}>{t(lang,"comingSoon")}</div>
+            <div style={{ fontSize: 17, fontWeight: 700, marginBottom: 4, color: C.bark }}>{t(lang,"libraryTitle")}</div>
+            <div style={{ fontSize: 14, color: C.stone, lineHeight: 1.5 }}>{t(lang,"libraryDesc")}</div>
+          </div>
 
+          {/* SUBMIT CREATIVE WORKS */}
+          <div style={{ padding: "14px 0 20px" }}>
+            <div style={{ fontSize: 10, color: C.dust, letterSpacing: 2, textTransform: "uppercase", marginBottom: 5 }}>{t(lang,"comingSoon")}</div>
+            <div style={{ fontSize: 15, fontWeight: 600, marginBottom: 3, color: C.bark }}>{t(lang,"submitTitle")}</div>
+            <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.4 }}>{t(lang,"submitDesc")}</div>
+          </div>
+
+          {/* COMMUNITY HELP BULLETIN BOARD */}
+          <div style={{ padding: "14px 0 20px", borderTop: `1px solid ${C.border}` }}>
+            <div style={{ fontSize: 10, color: C.dust, letterSpacing: 2, textTransform: "uppercase", marginBottom: 5 }}>{t(lang,"comingSoon")}</div>
+            <div style={{ fontSize: 15, fontWeight: 600, marginBottom: 3, color: C.bark }}>{t(lang,"bulletinTitle")}</div>
+            <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.4 }}>{t(lang,"bulletinDesc")}</div>
+          </div>
 
           {/* FEEDBACK / COMMENTS → hello@ email */}
           <div style={{ padding: "20px 18px", background: C.sage, borderRadius: 24, border: "1px solid #c8e6c9", marginTop: 8 }}>
@@ -672,10 +722,11 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           <div style={{ fontSize: 15, lineHeight: 1.7, color: C.bark }}>
             <p style={{ marginBottom: 16 }}>{t(lang,"aboutP1")}</p>
             <p style={{ marginBottom: 16 }}>{t(lang,"aboutP2")}</p>
-                        <p style={{ marginBottom: 16 }}>{t(lang,"aboutPersonal")}</p>
+            <p style={{ marginBottom: 16 }}>{t(lang,"aboutP3")}</p>
+            <p style={{ marginBottom: 16 }}>{t(lang,"aboutPersonal")}</p>
             <p style={{ marginBottom: 16 }}>{t(lang,"aboutFamily")}</p>
             <p style={{ marginBottom: 16, fontStyle: "italic", color: C.stone }}>{t(lang,"aboutSedral")}</p>
-            <p style={{ marginBottom: 16 }}>Everything here is free. If you want to help keep it free, reach out at hello@helpfinder.help. If you can't, use the tools. That's enough.</p>
+            <p style={{ marginBottom: 16 }}>{t(lang,"aboutClose")}</p>
             <p style={{ marginBottom: 16, fontStyle: "italic", color: C.stone }}>{t(lang,"aboutSign")}</p>
             <p style={{ marginBottom: 0, color: C.stone, fontSize: 14 }}>{t(lang,"aboutAgency")}</p>
           </div>
@@ -686,7 +737,31 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         </main>
       )}
 
+      {/* ═══════════════════ SUPPORT ═══════════════════ */}
+      {page === PAGES.SUPPORT && (
+        <main style={{ padding: "0 20px 40px" }}>
+          <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
+          <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 8, color: C.bark }}>{t(lang,"supportTitle")}</h2>
+          <p style={{ fontSize: 15, color: C.stone, lineHeight: 1.6, marginBottom: 28 }}>{t(lang,"supportDesc")}</p>
 
+          {[
+            { amount: "$5", desc: t(lang,"tier1") },
+            { amount: "$20", desc: t(lang,"tier2") },
+            { amount: "$50", desc: t(lang,"tier3") },
+          ].map((tier, i) => (
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: 14, padding: "14px 0", borderBottom: i < 2 ? `1px solid ${C.border}` : "none" }}>
+              <div style={{ width: 48, height: 48, borderRadius: "50%", background: C.amberLight, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 700, color: C.gold, flexShrink: 0 }}>{tier.amount}</div>
+              <div style={{ fontSize: 15, color: C.bark }}>{tier.desc}</div>
+            </div>
+          ))}
+
+          <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 28 }}>
+            <a href="https://paypal.me/sedralstudios" target="_blank" rel="noopener noreferrer" style={{ display: "block", textAlign: "center", padding: "14px 20px", background: C.forest, color: C.white, borderRadius: 28, fontSize: 16, fontWeight: 700, textDecoration: "none" }}>{t(lang,"donatePaypal")}</a>
+          </div>
+
+          <p style={{ fontSize: 12, color: C.dust, textAlign: "center", marginTop: 20, lineHeight: 1.5 }}>{t(lang,"supportDisclaimer")}</p>
+        </main>
+      )}
 
       {/* ═══════════════════ PRIVACY ═══════════════════ */}
       {page === PAGES.PRIVACY && (
@@ -697,7 +772,8 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <p style={{ marginBottom: 16, fontWeight: 600 }}>{t(lang,"privacyShort")}</p>
             <p style={{ marginBottom: 16 }}>{t(lang,"privacyP1")}</p>
             <p style={{ marginBottom: 16 }}>{t(lang,"privacyP2")}</p>
-                        <p style={{ marginBottom: 16 }}>{t(lang,"privacyP4")}</p>
+            <p style={{ marginBottom: 16 }}>{t(lang,"privacyP3")}</p>
+            <p style={{ marginBottom: 16 }}>{t(lang,"privacyP4")}</p>
             <p style={{ marginBottom: 0, color: C.stone, fontSize: 14 }}>{t(lang,"privacyQ")} <a href="mailto:hello@helpfinder.help" style={{ color: C.forest }}>hello@helpfinder.help</a></p>
           </div>
         </main>
@@ -711,20 +787,146 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           <div style={{ fontSize: 14, lineHeight: 1.7, color: C.bark }}>
             <p style={{ marginBottom: 14, fontWeight: 600 }}>{t(lang,"termsP1")}</p>
             <p style={{ marginBottom: 14 }}>{t(lang,"termsP2")}</p>
-                                    <p style={{ marginBottom: 14 }}>{t(lang,"termsP5")}</p>
+            <p style={{ marginBottom: 14 }}>{t(lang,"termsP3")}</p>
+            <p style={{ marginBottom: 14 }}>{t(lang,"termsP4")}</p>
+            <p style={{ marginBottom: 14 }}>{t(lang,"termsP5")}</p>
             <p style={{ marginBottom: 14 }}>{t(lang,"termsP6")}</p>
             <p style={{ marginBottom: 0, fontSize: 12, color: C.stone }}>{t(lang,"termsP7")}</p>
           </div>
         </main>
       )}
 
+      {/* ═══════════════════ CLARITY INTRO ═══════════════════ */}
+      {page === PAGES.CLARITY_INTRO && (
+        <main style={{
+          background: "#000", minHeight: "100vh", padding: "0 24px",
+          display: "flex", flexDirection: "column", justifyContent: "center",
+          alignItems: "center", textAlign: "center",
+          position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 200,
+          overflowY: "auto",
+        }}>
+          <style>{`
+            .cl-fade { animation: clFade 0.8s ease forwards; opacity: 0; }
+            .cl-d1 { animation-delay: 0.5s; } .cl-d2 { animation-delay: 1.5s; }
+            .cl-d3 { animation-delay: 2.8s; } .cl-d4 { animation-delay: 3.8s; }
+            .cl-d5 { animation-delay: 4.8s; } .cl-d55 { animation-delay: 5.8s; } .cl-d6 { animation-delay: 7s; }
+            .cl-d7 { animation-delay: 8.5s; }
+            @keyframes clFade { from { opacity: 0; } to { opacity: 1; } }
+            .cl-door { transition: transform 0.15s ease, border-color 0.15s ease; cursor: pointer; }
+            .cl-door:active { transform: scale(0.97); }
+            @media (hover: hover) { .cl-door:hover { border-color: ${C.amber} !important; } }
+          `}</style>
 
-            {/* ═══ FOOTER ═══ */}
-      <footer style={{ textAlign: "center", padding: "20px 20px 32px", borderTop: `1px solid ${C.border}` }}>
+          <div style={{ maxWidth: 380, padding: "40px 0" }}>
+            {/* Intro text */}
+            <div className="cl-fade cl-d1" style={{
+              fontSize: 22, fontWeight: 700, color: "#fff", lineHeight: 1.3, marginBottom: 28,
+              fontFamily: "'DM Serif Display', Georgia, serif",
+            }}>
+              {t(lang,"clarityLine1")}
+            </div>
+
+            <div className="cl-fade cl-d2" style={{
+              fontSize: 15, color: "#999", lineHeight: 1.5, marginBottom: 28,
+            }}>
+              {t(lang,"clarityLine2")}
+            </div>
+
+            <div className="cl-fade cl-d3" style={{
+              fontSize: 14, color: "#777", lineHeight: 1.6, marginBottom: 8,
+            }}>
+              {t(lang,"clarityLine3")}
+            </div>
+
+            <div className="cl-fade cl-d4" style={{
+              fontSize: 14, color: "#777", lineHeight: 1.6, marginBottom: 28,
+            }}>
+              {t(lang,"clarityLine4")}
+            </div>
+
+            <div className="cl-fade cl-d5" style={{
+              fontSize: 18, fontWeight: 600, color: C.amber, marginBottom: 24,
+              fontStyle: "italic",
+            }}>
+              {t(lang,"clarityLine5")}
+            </div>
+
+            {/* Privacy reassurance */}
+            <div className="cl-fade cl-d55" style={{
+              fontSize: 12, color: "#666", lineHeight: 1.6, marginBottom: 32,
+              padding: "14px 16px", border: "1px solid #222", borderRadius: 20,
+            }}>
+              <span style={{ fontSize: 14 }}>🔒</span>{" "}
+              {t(lang,"clarityPrivacy")}
+            </div>
+
+            {/* ── THREE DOORS ── */}
+            <div className="cl-fade cl-d6" style={{
+              display: "flex", flexDirection: "column", gap: 12,
+            }}>
+
+              {/* DOOR 1: PAID */}
+              <button className="cl-door" onClick={() => { if (onNavigateClarity) onNavigateClarity("shadow"); }}
+                style={{
+                  background: "transparent", border: "1px solid #333",
+                  borderRadius: 24, padding: "20px 24px", textAlign: "left",
+                  fontFamily: "inherit", width: "100%",
+                }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: C.amber }}>{t(lang,"cdoor1Title")}</div>
+                  <div style={{ fontSize: 10, color: "#555", textTransform: "uppercase", letterSpacing: 1.5, border: "1px solid #444", borderRadius: 4, padding: "2px 8px" }}>{t(lang,"cdoor1Label")}</div>
+                </div>
+                <div style={{ fontSize: 13, color: "#888", lineHeight: 1.4, fontStyle: "italic" }}>{t(lang,"cdoor1Desc")}</div>
+              </button>
+
+              {/* DOOR 2: FREE */}
+              <button className="cl-door" onClick={() => { if (onNavigateClarity) onNavigateClarity("mirror"); }}
+                style={{
+                  background: "transparent", border: "1px solid #333",
+                  borderRadius: 24, padding: "20px 24px", textAlign: "left",
+                  fontFamily: "inherit", width: "100%",
+                }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: "#ccc" }}>{t(lang,"cdoor2Title")}</div>
+                  <div style={{ fontSize: 10, color: "#555", textTransform: "uppercase", letterSpacing: 1.5, border: "1px solid #444", borderRadius: 4, padding: "2px 8px" }}>{t(lang,"cdoor2Label")}</div>
+                </div>
+                <div style={{ fontSize: 13, color: "#888", lineHeight: 1.4, fontStyle: "italic" }}>{t(lang,"cdoor2Desc")}</div>
+              </button>
+
+              {/* DOOR 3: TURN BACK */}
+              <button className="cl-door" onClick={() => nav(PAGES.HOME)}
+                style={{
+                  background: "transparent", border: "1px solid #222",
+                  borderRadius: 24, padding: "20px 24px", textAlign: "left",
+                  fontFamily: "inherit", width: "100%",
+                }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: "#555" }}>{t(lang,"cdoor3Title")}</div>
+                  <div style={{ fontSize: 10, color: "#444", textTransform: "uppercase", letterSpacing: 1.5 }}>{t(lang,"cdoor3Label")}</div>
+                </div>
+                <div style={{ fontSize: 13, color: "#555", lineHeight: 1.4, fontStyle: "italic" }}>{t(lang,"cdoor3Desc")}</div>
+              </button>
+            </div>
+
+            {/* Disclaimer */}
+            <div className="cl-fade cl-d7" style={{
+              marginTop: 36, fontSize: 10, color: "#444", lineHeight: 1.6,
+              maxWidth: 320, margin: "36px auto 0",
+            }}>
+              {t(lang,"disclaimer")}
+            </div>
+          </div>
+        </main>
+      )}
+
+      {/* ═══ FOOTER ═══ */}
+      {page !== PAGES.CLARITY_INTRO && (
+        <footer style={{ textAlign: "center", padding: "20px 20px 32px", borderTop: `1px solid ${C.border}` }}>
           <div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap", marginBottom: 12 }}>
             <button className="hf-nav-link" onClick={() => nav(PAGES.ABOUT)} style={{ fontSize: 12 }}>{t(lang,"navAbout")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.PRIVACY)} style={{ fontSize: 12 }}>{t(lang,"navPrivacy")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.TERMS)} style={{ fontSize: 12 }}>{t(lang,"navTerms")}</button>
+            <button className="hf-nav-link" onClick={() => nav(PAGES.SUPPORT)} style={{ fontSize: 12 }}>{t(lang,"navSupport")}</button>
             <a href="mailto:hello@helpfinder.help" className="hf-nav-link" style={{ fontSize: 12, textDecoration: "none", color: C.stone }}>{t(lang,"navContact")}</a>
           </div>
           <div style={{ fontSize: 11, color: C.dust, lineHeight: 1.6 }}>
@@ -735,7 +937,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             {t(lang,"helpDisclaimer")}
           </div>
         </footer>
-      
+      )}
     </div>
   );
 }
