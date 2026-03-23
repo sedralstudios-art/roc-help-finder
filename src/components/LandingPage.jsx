@@ -481,9 +481,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             display: "flex", alignItems: "center", gap: 8,
           }}>
             <div style={{ position: "relative", width: 38, height: 32, flexShrink: 0 }}>
-              <div style={{ position: "absolute", left: 0, top: 2, width: 24, height: 24, borderRadius: "50%", background: C.amber }} />
-              <div style={{ position: "absolute", right: 0, top: 2, width: 24, height: 24, borderRadius: "50%", background: C.white, border: "0.5px solid #ddd" }} />
-              <div style={{ position: "absolute", left: 7, top: 2, width: 24, height: 24, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 11, fontWeight: 700, color: "#fff", letterSpacing: -1 }}>HF</div>
+              <div style={{ position: "absolute", left: 0, top: 2, width: 28, height: 28, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 11, fontWeight: 700, color: "#fff", letterSpacing: -1 }}>HF</div>
             </div>
             <span style={{
               fontFamily: "'DM Serif Display', Georgia, serif",
@@ -553,14 +551,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           {/* MARK */}
           <div className="hf-fade-in hf-d1" style={{ textAlign: "center", padding: "8px 0" }}>
             <div style={{ position: "relative", width: 80, height: 60, margin: "0 auto 12px" }}>
-              <div style={{ position: "absolute", left: 0, top: 4, width: 52, height: 52, borderRadius: "50%", background: C.amber }} />
-              <div style={{ position: "absolute", right: 0, top: 4, width: 52, height: 52, borderRadius: "50%", background: C.white, border: "1px solid #ddd" }} />
-              <div style={{
-                position: "absolute", left: 14, top: 4, width: 52, height: 52, borderRadius: "50%",
-                background: C.forest, display: "flex", alignItems: "center", justifyContent: "center",
-                fontFamily: "Georgia, serif", fontSize: 22, fontWeight: 700,
-                color: "#fff", letterSpacing: -1.5,
-              }}>HF</div>
+              <div style={{ width: 60, height: 60, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 22, fontWeight: 700, color: "#fff", letterSpacing: -1 }}>HF</div>
             </div>
             <h1 style={{
               fontFamily: "'DM Serif Display', Georgia, serif",
