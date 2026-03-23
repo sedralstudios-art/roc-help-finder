@@ -474,49 +474,45 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       `}</style>
 
       {/* ═══ HEADER ═══ */}
-      (
-        <header style={{ padding: "14px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <button onClick={() => nav(PAGES.HOME)} style={{
-            background: "none", border: "none", cursor: "pointer",
-            display: "flex", alignItems: "center", gap: 8,
+      <header style={{ padding: "14px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <button onClick={() => nav(PAGES.HOME)} style={{
+          background: "none", border: "none", cursor: "pointer",
+          display: "flex", alignItems: "center", gap: 8,
+        }}>
+          <div style={{ width: 28, height: 28, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 11, fontWeight: 700, color: "#fff", letterSpacing: -1, flexShrink: 0 }}>HF</div>
+          <span style={{
+          fontFamily: "'DM Serif Display', Georgia, serif",
+          fontSize: 18, color: C.bark, letterSpacing: -0.3,
+          }}>HelpFinder</span>
+        </button>
+
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <select
+          value={lang} onChange={(e) => { setLang(e.target.value); if (onLangChange) onLangChange(e.target.value); }}
+          aria-label="Language"
+          style={{
+            background: C.white, color: C.bark, border: `1px solid ${C.border}`,
+            borderRadius: 20, padding: "5px 12px", fontSize: 13, cursor: "pointer",
+            fontFamily: "inherit",
+          }}
+          >
+          {LANGS.map((l) => <option key={l.code} value={l.code}>{l.label}</option>)}
+          </select>
+
+          <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu" style={{
+          background: "none", border: "none", cursor: "pointer", padding: 8,
+          display: "flex", flexDirection: "column", gap: 4,
           }}>
-            <div style={{ position: "relative", width: 38, height: 32, flexShrink: 0 }}>
-              <div style={{ position: "absolute", left: 0, top: 2, width: 28, height: 28, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 11, fontWeight: 700, color: "#fff", letterSpacing: -1 }}>HF</div>
-            </div>
-            <span style={{
-              fontFamily: "'DM Serif Display', Georgia, serif",
-              fontSize: 18, color: C.bark, letterSpacing: -0.3,
-            }}>HelpFinder</span>
+          {[0,1,2].map(i => (
+            <div key={i} style={{
+            width: 20, height: 2, background: C.bark, borderRadius: 1, transition: "all 0.2s",
+            transform: menuOpen ? i===0 ? "rotate(45deg) translate(4px,4px)" : i===2 ? "rotate(-45deg) translate(4px,-4px)" : "scaleX(0)" : "none",
+            opacity: menuOpen && i===1 ? 0 : 1,
+            }} />
+          ))}
           </button>
-
-          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <select
-              value={lang} onChange={(e) => { setLang(e.target.value); if (onLangChange) onLangChange(e.target.value); }}
-              aria-label="Language"
-              style={{
-                background: C.white, color: C.bark, border: `1px solid ${C.border}`,
-                borderRadius: 20, padding: "5px 12px", fontSize: 13, cursor: "pointer",
-                fontFamily: "inherit",
-              }}
-            >
-              {LANGS.map((l) => <option key={l.code} value={l.code}>{l.label}</option>)}
-            </select>
-
-            <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu" style={{
-              background: "none", border: "none", cursor: "pointer", padding: 8,
-              display: "flex", flexDirection: "column", gap: 4,
-            }}>
-              {[0,1,2].map(i => (
-                <div key={i} style={{
-                  width: 20, height: 2, background: C.bark, borderRadius: 1, transition: "all 0.2s",
-                  transform: menuOpen ? i===0 ? "rotate(45deg) translate(4px,4px)" : i===2 ? "rotate(-45deg) translate(4px,-4px)" : "scaleX(0)" : "none",
-                  opacity: menuOpen && i===1 ? 0 : 1,
-                }} />
-              ))}
-            </button>
-          </div>
-        </header>
-      )}
+        </div>
+      </header>
 
       {/* ═══ MOBILE NAV ═══ */}
       {menuOpen && (
@@ -550,9 +546,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
           {/* MARK */}
           <div className="hf-fade-in hf-d1" style={{ textAlign: "center", padding: "8px 0" }}>
-            <div style={{ position: "relative", width: 80, height: 60, margin: "0 auto 12px" }}>
-              <div style={{ width: 60, height: 60, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 22, fontWeight: 700, color: "#fff", letterSpacing: -1 }}>HF</div>
-            </div>
+            <div style={{ width: 60, height: 60, borderRadius: "50%", background: C.forest, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 22, fontWeight: 700, color: "#fff", letterSpacing: -1, margin: "0 auto 12px" }}>HF</div>
             <h1 style={{
               fontFamily: "'DM Serif Display', Georgia, serif",
               fontSize: 34, fontWeight: 700, color: C.bark,

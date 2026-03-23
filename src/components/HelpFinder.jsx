@@ -1181,7 +1181,7 @@ const btnStyle = (accent) => ({
 // ════════════════════════════════════
 const STEPS = { HOME: 0, WHAT_TAB: 1, WHAT_CAT: 2, WHO: 3, HOW: 4, RESULTS: 5 };
 
-function RocHelpInner({ onExit }) {
+function RocHelpInner({ onExit, city = "your area" }) {
   const [lang, setLang] = useState("en");
   const [step, setStep] = useState(STEPS.HOME);
   const [tab, setTab] = useState(null);
@@ -1751,7 +1751,7 @@ function RocHelpInner({ onExit }) {
 export default function RocHelp({ onExit, city = "your area" }) {
   return (
     <ErrorBoundary>
-      <RocHelpInner onExit={onExit} />
+      <RocHelpInner onExit={onExit} city={city} />
     </ErrorBoundary>
   );
 }
