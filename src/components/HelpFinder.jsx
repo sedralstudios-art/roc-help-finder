@@ -925,6 +925,23 @@ const FEATURED_IDS = ["211", "snap", "medicaid", "foodlink", "myb", "988", "mcvi
 const SENSITIVE = new Set(["mental","grief","addiction","domesticSvc","hivsti","reentry","lgbtq"]);
 // ── DV CATEGORIES (show safety notice + quick exit) ──
 const DV_CATS = new Set(["domesticSvc"]);
+
+// Haversine distance in miles
+function distanceMiles(lat1, lon1, lat2, lon2) {
+  const R = 3958.8;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+// Programs with coordinates for Near Me (food-related)
+const FOOD_COORDS = {
+  "foodlink": [43.1566, -77.6088],
+  "salvation": [43.1610, -77.6219],
+  "food_stamps": null,
+  "pantry": [43.1490, -77.6011],
+};
 // ── CRISIS CATEGORIES (show crisis intercept) ──
 const CRISIS_CATS = new Set(["crisis","domesticSvc","mental"]);
 
@@ -1169,6 +1186,10 @@ function RocHelpInner({ onExit }) {
   const [step, setStep] = useState(STEPS.HOME);
   const [tab, setTab] = useState(null);
   const [category, setCategory] = useState(null);
+  const [nearMe, setNearMe] = useState(false);
+  const [userCoords, setUserCoords] = useState(null);
+  const [geoError, setGeoError] = useState(false);
+  const [geoLoading, setGeoLoading] = useState(false);
   const [who, setWho] = useState(null);
   const [how, setHow] = useState(null);
   const [expandedCard, setExpandedCard] = useState(null);
@@ -1222,6 +1243,7 @@ function RocHelpInner({ onExit }) {
 
   const reset = () => {
     setStep(STEPS.HOME); setTab(null); setCategory(null);
+    setNearMe(false); setUserCoords(null); setGeoError(false);
     setWho(null); setHow(null); setExpandedCard(null);
     // NOTE: showDVExit intentionally NOT cleared — once activated, stays visible for safety
     scrollTop();
@@ -1320,7 +1342,7 @@ function RocHelpInner({ onExit }) {
                 {t(lang, "title")}
               </div>
               <div style={{ fontSize: 11, color: "#767676", marginTop: 1 }}>
-                Rochester, NY
+                {city}
               </div>
             </div>
           </div>
@@ -1574,6 +1596,33 @@ function RocHelpInner({ onExit }) {
               <strong>{filteredPrograms.length}</strong> {({es:"programas",ne:"कार्यक्रमहरू",ar:"برامج",sw:"programu",my:"အစီအစဉ်",so:"barnaamijyo",zh:"项目"}[lang] || "programs")}
             </div>
 
+            {/* Near Me button — food category only */}
+            {category === "food" && (
+              <div style={{ marginBottom: 16 }}>
+                {!nearMe ? (
+                  <button
+                    onClick={() => {
+                      setGeoLoading(true);
+                      navigator.geolocation.getCurrentPosition(
+                        (pos) => { setUserCoords([pos.coords.latitude, pos.coords.longitude]); setNearMe(true); setGeoLoading(false); },
+                        () => { setGeoError(true); setGeoLoading(false); },
+                        { timeout: 8000 }
+                      );
+                    }}
+                    style={{ background: "#2e7d32", color: "#fff", border: "none", borderRadius: 20, padding: "10px 22px", fontSize: 14, fontWeight: 600, cursor: "pointer", display: "flex", alignItems: "center", gap: 8 }}
+                  >
+                    {geoLoading ? "Finding you..." : "📍 Food within walking distance"}
+                  </button>
+                ) : (
+                  <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                    <span style={{ fontSize: 13, color: "#2e7d32", fontWeight: 600 }}>📍 Sorted by distance from you</span>
+                    <button onClick={() => { setNearMe(false); setUserCoords(null); }} style={{ background: "none", border: "1px solid #ccc", borderRadius: 12, padding: "4px 12px", fontSize: 12, cursor: "pointer", color: "#767676" }}>Clear</button>
+                  </div>
+                )}
+                {geoError && <div style={{ fontSize: 12, color: "#c0392b", marginTop: 6 }}>Location unavailable. Enable location access in your browser.</div>}
+              </div>
+            )}
+
             <div style={{ fontSize: 14, color: "#2e7d32", marginBottom: 14, fontWeight: 500 }}>
               {({
                 es: "Estos son programas reales, y quieren ayudar.",
@@ -1683,7 +1732,7 @@ function RocHelpInner({ onExit }) {
         textAlign: "center", padding: "16px 20px 24px",
         fontSize: 11, color: "#767676", borderTop: "1px solid #e8e4dc",
       }}>
-        Sedral Studios · Rochester, NY<br />
+        Sedral Studios · {city}<br />
         Built with nothing. Built for everyone.<br />
         <span style={{ fontSize: 9, color: "#bbb" }}>© 2026 Sedral Studios. All rights reserved.</span>
         <div style={{ marginTop: 8 }}>
@@ -1699,7 +1748,7 @@ function RocHelpInner({ onExit }) {
   );
 }
 
-export default function RocHelp({ onExit }) {
+export default function RocHelp({ onExit, city = "your area" }) {
   return (
     <ErrorBoundary>
       <RocHelpInner onExit={onExit} />
