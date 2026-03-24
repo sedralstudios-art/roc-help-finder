@@ -57,7 +57,7 @@ const UI = {
     helpDisclaimer: "HelpFinder is an informational tool. Program details may change without notice. Always contact programs directly to confirm eligibility, hours, and availability. This is not legal, medical, or financial advice.",
     door3Title: "I want to support this",
     door3Desc: "Every dollar keeps this free for everyone.",
-    trust: "No personal data collected. No accounts. No tracking. Ever. (We're learning what Rochester needs.)",
+    trust: "No personal data collected. No accounts. No tracking. Ever.",
     libraryTitle: "The Library",
     libraryDesc: "Free essays on noticing, healing, and honest conversation. The framework behind the tools.",
     comingSoon: "Coming Soon",
@@ -77,8 +77,8 @@ const UI = {
     navContact: "Contact",
     back: "← Back",
     aboutTitle: "About",
-    aboutP1: "HelpFinder is a free tool that connects people with real programs in their city. No accounts. No personal data collected. No ads. Just answers. (We're learning what Rochester needs.)",
-    aboutP2: "The first city is Rochester, NY — with 180+ programs across 34 categories. Food, housing, healthcare, legal help, mental health, job training, and more. Every program is verified by hand.",
+    aboutP1: "HelpFinder is a free tool that connects people with real programs in their city. No accounts. No personal data collected. No ads. Just answers.",
+    aboutP2: "Starting in Rochester, NY — with 250+ programs across 36 categories in 8 languages. Food, housing, healthcare, legal help, mental health, job training, and more. Every program is verified by hand.",
     aboutP3: "The Clarity Reading is a guided reflection tool. Six questions. An honest reading based on what you share. Nothing is saved. Nothing is sold. The basic reading is free. Deeper tiers are donation-based. Clarity shouldn't have a price tag — but keeping this running does.",
     aboutPersonal: "I'm Anthony DiMarzo of Rochester. I have a CDL and I spend my days building roads. I spend my nights building this. I'd rather be building a better future for tomorrow. I noticed people in crisis can't find help — not because it doesn't exist, but because nobody put it in one place in plain language. So I did. No degree. No funding. No investors. Just me and a computer.",
     aboutFamily: "I live in Brockport with my fiancée and our son. He's six. He's the reason this exists. The world he inherits should be better than the one he was born into.",
@@ -95,7 +95,7 @@ const UI = {
     donatePaypal: "Donate via PayPal", teamwork: "Teamwork makes the dream work.",
     supportDisclaimer: "Sedral Studios is not a registered nonprofit. Donations support hosting, research, and expansion to new cities. Thank you.",
     privacyTitle: "Privacy",
-    privacyShort: "The short version: we don't collect personal data. (We're learning what Rochester needs.)",
+    privacyShort: "The short version: we don't collect personal data.",
     privacyP1: "No accounts. No cookies from us. No tracking pixels. No analytics that identify you. No data is saved when you use HelpFinder. We count how many times each resource is clicked so we know what help people need most — but we never track who clicks. Third-party services (donation platforms) may set their own cookies if you visit them.",
     privacyP2: "We don't know who you are. We don't know what you searched for. We don't know if you came back. That's by design.",
     privacyP3: "The Clarity Reading uses AI (Claude by Anthropic) to generate your reading. Your answers are processed to create the reading, then discarded on our end. We store nothing. The AI provider does not use your data for training but may retain it briefly for safety monitoring per their privacy policy.",
@@ -150,7 +150,7 @@ const UI = {
     back: "← Atrás",
     aboutTitle: "Acerca de",
     aboutP1: "HelpFinder es una herramienta gratuita que conecta a las personas con programas reales en su ciudad. Sin cuentas. Sin datos recopilados. Sin anuncios. Solo respuestas.",
-    aboutP2: "La primera ciudad es Rochester, NY — con más de 180 programas en 34 categorías. Comida, vivienda, salud, ayuda legal, salud mental, capacitación laboral y más. Cada programa verificado a mano.",
+    aboutP2: "Comenzando en Rochester, NY — con más de 250 programas en 36 categorías en 8 idiomas. Comida, vivienda, salud, ayuda legal, salud mental, capacitación laboral y más. Cada programa verificado a mano.",
     aboutP3: "La Lectura de Claridad es una herramienta de reflexión guiada. Seis preguntas. Una lectura honesta. Nada se guarda. Nada se vende. La lectura básica es gratis. Los niveles más profundos son por donación. La claridad no debería tener precio — pero mantener esto funcionando sí.",
     aboutPersonal: "Soy Anthony DiMarzo de Rochester. Tengo una licencia comercial y paso mis días construyendo caminos. Paso mis noches construyendo esto. Prefiero construir un mejor futuro para mañana. Noté que la gente en crisis no puede encontrar ayuda — no porque no exista, sino porque nadie la puso en un solo lugar en lenguaje sencillo. Así que lo hice yo. Sin título. Sin financiamiento. Sin inversionistas. Solo yo y una computadora.",
     aboutFamily: "Vivo en Brockport con mi prometida y nuestro hijo. Tiene seis años. Él es la razón por la que esto existe. El mundo que hereda debería ser mejor que en el que nació.",
@@ -167,7 +167,7 @@ const UI = {
     donatePaypal: "Donar vía PayPal", teamwork: "El trabajo en equipo hace realidad el sueño.",
     supportDisclaimer: "Sedral Studios no es una organización sin fines de lucro registrada. Las donaciones apoyan el hosting, investigación y expansión a nuevas ciudades. Gracias.",
     privacyTitle: "Privacidad",
-    privacyShort: "La versión corta: no recopilamos datos personales. (Estamos aprendiendo lo que Rochester necesita.)",
+    privacyShort: "La versión corta: no recopilamos datos personales.",
     privacyP1: "Sin cuentas. Sin cookies de nuestra parte. Sin píxeles de rastreo. Sin analíticas que te identifiquen. Contamos cuántas veces se hace clic en cada recurso para saber qué ayuda necesitan las personas — pero nunca rastreamos quién hace clic. No se guardan datos al usar el Buscador de Ayuda ni la Lectura de Claridad. Servicios de terceros (plataformas de donación) pueden establecer sus propias cookies.",
     privacyP2: "No sabemos quién eres. No sabemos qué buscaste. No sabemos si regresaste. Eso es por diseño.",
     privacyP3: "La Lectura de Claridad usa IA (Claude de Anthropic) para generar tu lectura. Tus respuestas se procesan para crear la lectura y luego se descartan de nuestra parte. No almacenamos nada. El proveedor de IA no usa tus datos para entrenamiento, pero puede retenerlos brevemente para monitoreo de seguridad.",
@@ -295,7 +295,7 @@ const UI = {
     tier3: "Inasaidia kuongeza mji mpya",
     donatePaypal: "Changia kupitia PayPal", teamwork: "Kazi ya pamoja hufanya ndoto kuwa kweli.",
     supportDisclaimer: "Michango inasaidia hosting na upanuzi. Asante.",
-    privacyTitle: "Faragha", privacyShort: "Toleo fupi: hatukusanyi data binafsi. (Tunajifunza Rochester inahitaji nini.)",
+    privacyTitle: "Faragha", privacyShort: "Toleo fupi: hatukusanyi data binafsi.",
     privacyP1: "Hakuna akaunti. Hakuna kuki. Hakuna ufuatiliaji.", privacyP2: "Hatujui wewe ni nani.",
     privacyP3: "Usomaji hutumia AI. Kila kitu kinatoweka.", privacyP4: "Hakuna athari kwenye kifaa chako.",
     privacyQ: "Maswali?", footer: "Imejengwa kutoka kwa chochote. Imejengwa kwa wote.",
@@ -367,7 +367,7 @@ const UI = {
     tier1: "Websaydhka toddobaad u shaqeeysiiya", tier2: "Bil hosting", tier3: "Magaalo cusub ku darida",
     donatePaypal: "Ku deeq PayPal", teamwork: "Wadashaqayntu waxay noqotaa riyada run.",
     supportDisclaimer: "Deeqaha waxay taageeraan hosting iyo ballaarinta. Mahadsanid.",
-    privacyTitle: "Asturnaanta", privacyShort: "Gaabis: xogta shaqsiga ma uruurino. (Waxaan baranayaa waxay Rochester u baahan tahay.)",
+    privacyTitle: "Asturnaanta", privacyShort: "Gaabis: xogta shaqsiga ma uruurino.",
     privacyP1: "Akoon ma jirto. Cookies ma jirto.", privacyP2: "Kuma aqoonsano.",
     privacyP3: "AI ayuu isticmaalaa. Wax walba waa libdhaan.", privacyP4: "Raad ma ka hadhayo qalabkaaga.",
     privacyQ: "Su'aallo?", footer: "Wax la'aan laga dhisay. Qof walba loogu dhisay.",
@@ -713,7 +713,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <a href="mailto:hello@helpfinder.help" className="hf-nav-link" style={{ fontSize: 12, textDecoration: "none", color: C.stone }}>{t(lang,"navContact")}</a>
           </div>
           <div style={{ fontSize: 11, color: C.dust, lineHeight: 1.6 }}>
-            Sedral Studios · Rochester, NY<br />{t(lang,"footer")}<br />
+            Sedral Studios<br />{t(lang,"footer")}<br />
             <span style={{ fontSize: 9, color: "#bbb" }}>© 2026 Sedral Studios. All rights reserved.</span>
           </div>
           <div style={{ fontSize: 9, color: "#aaa", lineHeight: 1.5, marginTop: 12, maxWidth: 400, margin: "12px auto 0" }}>

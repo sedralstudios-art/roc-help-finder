@@ -52,7 +52,8 @@ const LANGS = [
 const UI = {
   en: {
     title: "HelpFinder",
-    subtitle: "You're not alone. All free help in Rochester. No personal data collected.",
+    subtitle: "You're not alone. All free help, near you. No personal data collected.",
+    subtitleCity: "You're not alone. All free help in {city}. No personal data collected.",
     start: "Find Help Now",
     back: "Back",
     startOver: "Start Over",
@@ -73,7 +74,7 @@ const UI = {
     howCrisis: "We can't pay for basics",
     howNone: "No income right now",
     call211: "Call 211 — they can help with anything, anytime.",
-    privacy: "Nothing you share here is saved or sent anywhere. Ever. (We're learning what Rochester needs.)",
+    privacy: "Nothing you share here is saved or sent anywhere. Ever.",
     privacySensitive: "This is private. We don't save or share anything. No one will know you looked here.",
     crisisNotice: "If you're in danger right now, help is available 24/7.",
     dvSafety: "If someone might check your phone or computer, you can close this page quickly.",
@@ -98,7 +99,7 @@ const UI = {
   },
   es: {
     title: "HelpFinder",
-    subtitle: "No estás en esto a solas. Toda la ayuda es gratuita en Rochester. Sin datos recolectados.",
+    subtitle: "No estás en esto a solas. Toda la ayuda es gratuita, cerca de ti. Sin datos recolectados.",
     start: "Buscar Ayuda",
     back: "Atrás",
     startOver: "Empezar de nuevo",
@@ -119,7 +120,7 @@ const UI = {
     howCrisis: "No podemos pagar lo básico",
     howNone: "Sin ingresos ahora",
     call211: "Llame al 211 — pueden ayudar con cualquier cosa, a cualquier hora.",
-    privacy: "Nada de lo que comparte aquí se guarda ni se envía a ningún lado. Nunca. (Estamos aprendiendo lo que Rochester necesita.)",
+    privacy: "Nada de lo que comparte aquí se guarda ni se envía a ningún lado. Nunca.",
     privacySensitive: "Esto es privado. No guardamos ni compartimos nada. Nadie sabrá que buscó aquí.",
     crisisNotice: "Si está en peligro ahora mismo, hay ayuda disponible 24/7.",
     dvSafety: "Si alguien podría revisar su teléfono o computadora, puede cerrar esta página rápidamente.",
@@ -149,7 +150,7 @@ const t = (lang, key) => (UI[lang] && UI[lang][key]) || UI.en[key] || key;
 Object.assign(UI, {
   ne: {
     title: "HelpFinder",
-    subtitle: "रोचेस्टरमा निःशुल्क सहायता। कुनै निर्णय छैन। कुनै डाटा सङ्कलन छैन।",
+    subtitle: "निःशुल्क सहायता, तपाईंको नजिक। कुनै निर्णय छैन। कुनै डाटा सङ्कलन छैन।",
     start: "अहिले सहायता खोज्नुहोस्",
     back: "पछाडि",
     startOver: "फेरि सुरु गर्नुहोस्",
@@ -194,7 +195,7 @@ Object.assign(UI, {
   },
   ar: {
     title: "HelpFinder",
-    subtitle: "مساعدة مجانية في روتشستر. بدون أحكام. بدون جمع بيانات.",
+    subtitle: "مساعدة مجانية بالقرب منك. بدون أحكام. بدون جمع بيانات.",
     start: "ابحث عن مساعدة الآن",
     back: "رجوع",
     startOver: "ابدأ من جديد",
@@ -239,7 +240,7 @@ Object.assign(UI, {
   },
   sw: {
     title: "HelpFinder",
-    subtitle: "Msaada wa bure huko Rochester. Bila hukumu. Bila kukusanya data.",
+    subtitle: "Msaada wa bure karibu nawe. Bila hukumu. Bila kukusanya data.",
     start: "Tafuta Msaada Sasa",
     back: "Rudi",
     startOver: "Anza Upya",
@@ -329,7 +330,7 @@ Object.assign(UI, {
   },
   so: {
     title: "HelpFinder",
-    subtitle: "Caawimo bilaash ah Rochester. Xukun la'aan. Xog lama uruuriyo.",
+    subtitle: "Caawimo bilaash ah, kuu dhow. Xukun la'aan. Xog lama uruuriyo.",
     start: "Raadi Caawimo Hadda",
     back: "Dib",
     startOver: "Dib u Bilow",
@@ -374,7 +375,7 @@ Object.assign(UI, {
   },
   zh: {
     title: "HelpFinder",
-    subtitle: "罗切斯特的免费帮助。不评判。不收集数据。",
+    subtitle: "附近的免费帮助。不评判。不收集数据。",
     start: "立即寻找帮助",
     back: "返回",
     startOver: "重新开始",
@@ -558,6 +559,14 @@ const TABS = {
       "education",
       "employment",
       "legal",
+      "legalEviction",
+      "legalWorkers",
+      "legalBenefits",
+      "legalImmigration",
+      "legalDiscrim",
+      "legalDebt",
+      "legalSmallClaims",
+      "legalCrimRecord",
       "parentalProtection",
       "veteranSvc",
       "refugeeSvc",
@@ -595,6 +604,14 @@ const CATEGORIES = {
   lgbtq: { icon: "🏳️‍🌈", en: "LGBTQ+ support", es: "Apoyo LGBTQ+", ne: "LGBTQ+ सहयोग", ar: "دعم LGBTQ+", sw: "Msaada wa LGBTQ+", my: "LGBTQ+ ပံ့ပိုးမှု", so: "Taageerada LGBTQ+", zh: "LGBTQ+支持" },
   veteranSvc: { icon: "🎖️", en: "I served in the military", es: "Serví en el ejército", ne: "मैले सेनामा सेवा गरें", ar: "خدمت في الجيش", sw: "Nilitumikia jeshini", my: "စစ်မှုထမ်းခဲ့တယ်", so: "Waxaan u adeegay ciidanka", zh: "我曾在军队服役" },
   legal: { icon: "⚖️", en: "A lawyer or legal help", es: "Un abogado o ayuda legal", ne: "वकिल वा कानुनी सहयोग", ar: "محامي أو مساعدة قانونية", sw: "Wakili au msaada wa kisheria", my: "ရှေ့နေ သို့ တရားရေးအကူအညီ", so: "Qareen ama caawimo sharci", zh: "律师或法律帮助" },
+  legalEviction: { icon: "🏚️", en: "My landlord is trying to evict me", es: "Mi arrendador intenta desahuciarme", ne: "मेरो घरबेटीले मलाई निकाल्न खोज्दैछ", ar: "المالك يحاول طردي", sw: "Mwenye nyumba anataka kunifukuza", my: "ငှားရမ်းသူက ကျွန်တော်ကို နှင်ထုတ်ဖို့ကြိုးစားနေတယ်", so: "Mulkiilaha wuxuu isku dayayaa inuu ii eryo", zh: "房东试图驱逐我" },
+  legalWorkers: { icon: "💼", en: "My employer is treating me unfairly", es: "Mi empleador me trata injustamente", ne: "मेरो रोजगारदाताले मलाई अन्यायपूर्ण व्यवहार गर्दैछ", ar: "صاحب العمل يعاملني بشكل غير عادل", sw: "Mwajiri wangu ananidanganya au kunishinda", my: "အလုပ်ရှင်က ကျွန်တော်ကို မတရားဆက်ဆံနေတယ်", so: "Shaqo-siiyahaagu si xun buu ii la dhaqmayaa", zh: "雇主对我不公平" },
+  legalBenefits: { icon: "📋", en: "My benefits were cut or denied", es: "Mis beneficios fueron cortados o negados", ne: "मेरो सुविधाहरू काटिए वा अस्वीकार गरियो", ar: "تم قطع مزاياي أو رفضها", sw: "Faida zangu zilikatwa au kukataliwa", my: "ကျွန်တော့်ခံစားခွင့်တွေ ဖြတ်တောက်ခြင်း သို့ ငြင်းဆိုခံရတယ်", so: "Faa'iidadaydu waa la jarjaray ama la diiday", zh: "我的福利被削减或拒绝" },
+  legalImmigration: { icon: "🌍", en: "I need immigration legal help", es: "Necesito ayuda legal de inmigración", ne: "मलाई आप्रवासन कानुनी सहयोग चाहिन्छ", ar: "أحتاج مساعدة قانونية في الهجرة", sw: "Nahitaji msaada wa kisheria wa uhamiaji", my: "လူဝင်မှုကြီးကြပ်ရေး တရားရေးအကူအညီ လိုတယ်", so: "Waxaan u baahanahay caawimo sharci oo socdaal ah", zh: "我需要移民法律帮助" },
+  legalDiscrim: { icon: "🚫", en: "I was discriminated against", es: "Fui discriminado/a", ne: "मैसँग भेदभाव गरियो", ar: "تعرضت للتمييز", sw: "Nilidhulumiwa kwa ubaguzi", my: "ကျွန်တော် ခွဲခြားဆက်ဆံမှုခံခဲ့ရတယ်", so: "Waxaa iga dherbiyey takoorid", zh: "我遭受了歧视" },
+  legalDebt: { icon: "💳", en: "I'm being sued or harassed over debt", es: "Me están demandando o acosando por deudas", ne: "ऋणको लागि मलाई मुद्दा लगाइएको वा उत्पीडन गरिएको छ", ar: "يتم مقاضاتي أو مضايقتي بسبب الديون", sw: "Ninafuatwa kwa madai ya deni", my: "ကြွေးမြီကြောင့် တရားစွဲဆိုခြင်း သို့ နှောင့်ယှက်ခြင်းခံနေရတယ်", so: "Waxaa ila dacweeya ama ila xariiraya deynta", zh: "我因债务被起诉或骚扰" },
+  legalSmallClaims: { icon: "🏛️", en: "I want to take someone to small claims court", es: "Quiero llevar a alguien a la corte de reclamos menores", ne: "म कसैलाई साना दावी अदालतमा लैजान चाहन्छु", ar: "أريد أخذ شخص ما إلى محكمة المطالبات الصغيرة", sw: "Nataka kumpeleka mtu mahakamani kwa madai madogo", my: "တစ်ယောက်ကို Small Claims Court မှာ တရားစွဲချင်တယ်", so: "Waxaan rabaa in aan qof u qaado maxkamadda dacwaadaha yaryar", zh: "我想在小额索赔法庭起诉某人" },
+  legalCrimRecord: { icon: "🔑", en: "I want to clear my criminal record", es: "Quiero limpiar mi historial criminal", ne: "म मेरो आपराधिक रेकर्ड सफा गर्न चाहन्छु", ar: "أريد محو سجلي الجنائي", sw: "Nataka kufuta rekodi yangu ya uhalifu", my: "ကျွန်တော့် ရာဇဝတ်မှတ်တမ်းကို ဖျက်ချင်တယ်", so: "Waxaan rabaa inaan nadiifiyo diiwaankaygii dambiyada", zh: "我想清除我的犯罪记录" },
   transport: { icon: "🚌", en: "I need a ride or bus pass", es: "Necesito transporte o pase de autobús", ne: "सवारी वा बस पास चाहिन्छ", ar: "أحتاج توصيلة أو بطاقة حافلة", sw: "Nahitaji usafiri au pasi ya basi", my: "စီးစရာ သို့ ဘတ်စ်ကတ်လိုတယ်", so: "Waxaan u baahanahay raacdo ama kaarka baska", zh: "需要搭车或公交卡" },
   internet: { icon: "📱", en: "Internet, WiFi, or a phone", es: "Internet, WiFi, o un teléfono", ne: "इन्टरनेट, WiFi, वा फोन", ar: "إنترنت أو WiFi أو هاتف", sw: "Mtandao, WiFi, au simu", my: "အင်တာနက်၊ WiFi၊ ဖုန်း", so: "Internet, WiFi, ama telefoon", zh: "互联网、WiFi或手机" },
   clothing: { icon: "👕", en: "Clothes, coats, or toiletries", es: "Ropa, abrigos, o artículos de aseo", ne: "लुगा, कोट, वा सरसफाइ सामान", ar: "ملابس أو معاطف أو مستلزمات نظافة", sw: "Nguo, koti, au vifaa vya usafi", my: "အဝတ်အစား၊ ကုတ်အင်္ကျီ၊ သန့်ရှင်းရေးပစ္စည်း", so: "Dharka, jaakadaha, ama walxaha nadaafadda", zh: "衣服、外套或洗漱用品" },
@@ -926,7 +943,84 @@ const PROGRAMS = [
   { id:"cpsparent", n:"Child Protective Services — Report Child Endangerment", c:"parentalProtection", d:"If you believe the other parent is abusing or neglecting your child, call CPS to report. Reports can be made anonymously. CPS investigates and can take action to protect the child.", ph:"585-753-6532", hr:"After hours/weekends: 585-753-2699 (24/7)", doc:"None — anonymous reports accepted. Helpful to have: child's name and DOB, other parent's name and address, description of what happened and when.", tg:["any","kids"], nt:"Making a report to CPS does NOT automatically affect your own custody case. A CPS investigation is separate from Family Court proceedings — though findings can be used in court." },
   { id:"opdvinfo", n:"NYS Office for Prevention of DV — Know Your Rights", c:"parentalProtection", d:"Clear information on New York State law: what an Order of Protection covers, what happens if it's violated, how custody and OP cases interact.", url:"https://opdv.ny.gov", hr:"24/7 online", doc:"None", tg:["any"], nt:"Key fact: in NY, violating an Order of Protection — even 'just' a text message — is a criminal offense (Criminal Contempt). The protected person can call 911 immediately." },
   { id:"nychncustoday", n:"NY Courts — Custody & Visitation Information", c:"parentalProtection", d:"Plain-language explanation of how New York family courts decide custody, what 'best interests of the child' means, and how to prepare for a custody hearing.", url:"https://www.nycourts.gov/courthelp/family/custodyVisitation.shtml", hr:"24/7 online", doc:"None", tg:["any"], nt:"'Legal custody' (who makes decisions) and 'physical custody' (where child lives) are separate issues in NY. Both can be shared or given to one parent. The court always decides based on the child's best interests." },
-];
+
+  // TENANT / RENTER RIGHTS
+  { id:"tenantdefense2", n:"Tenant Defense Project", c:"legal", d:"Free lawyer if you're facing eviction. They show up in court with you.", ph:"585-504-6195", url:"https://www.tenantdefense.org", hr:"M-F 9am-5pm", doc:"Eviction papers if you have them", tg:["any"] },
+  { id:"housingcouncillegal", n:"Housing Council — Tenant Rights", c:"legal", d:"Tenant rights counseling, landlord disputes, housing discrimination, and foreclosure prevention. Free.", ph:"585-546-3700", url:"https://www.thehousingcouncil.org", hr:"M-F 9am-5pm", doc:"None — call to describe your situation", tg:["any"], nt:"Handles complaints about landlords who retaliate, fail to make repairs, or illegally lock you out." },
+  { id:"hcpdiscrim", n:"NYS Human Rights Division — Housing Discrimination", c:"legal", d:"File a complaint if a landlord discriminates based on race, gender, disability, family status, or source of income (including Section 8). Free. No lawyer needed.", ph:"888-392-3644", url:"https://dhr.ny.gov", hr:"M-F 9am-5pm", doc:"Dates, what was said, who said it", tg:["any"], nt:"In NY it is ILLEGAL for a landlord to refuse a tenant because they use a housing voucher (Section 8). This is source-of-income discrimination — you can file a complaint." },
+  { id:"hud", n:"HUD Housing Discrimination Hotline", c:"legal", d:"Federal complaint line for housing discrimination. Covers all protected classes.", ph:"800-669-9777", url:"https://www.hud.gov/program_offices/fair_housing_equal_opp", hr:"M-F 8:30am-5pm", doc:"None — just call and describe what happened", tg:["any"] },
+  { id:"renterhelpny", n:"NY Tenant Helpline (Statewide)", c:"legal", d:"Free legal advice for tenants facing eviction, harassment, or unsafe conditions anywhere in New York State.", ph:"833-499-0318", url:"https://www.housingjusticeny.org", hr:"M-F 9am-5pm", doc:"None", tg:["any"], nt:"Available statewide. If you're outside Monroe County this is your first call." },
+  { id:"warrantsvc", n:"Housing Court — Warrant of Habitability", c:"legal", d:"If your landlord refuses to fix unsafe conditions (no heat, mold, pests, broken locks), housing court can compel repairs or reduce your rent.", ph:"585-371-3608", ad:"99 Exchange Blvd, Rochester NY 14614", hr:"M-F 9am-4:30pm", doc:"Photos of conditions, written requests to landlord if you have them", tg:["any"], nt:"In NY you can withhold rent into escrow if a landlord refuses emergency repairs. This is a formal legal process — talk to Legal Aid first." },
+
+  // EMERGENCY FLIGHTS
+  { id:"angelflight", n:"Angel Flight NE (Free Medical Flights)", c:"transport", d:"Free air transportation to medical treatment for patients who cannot afford or endure commercial travel. Volunteer pilots fly you in small aircraft.", ph:"603-766-9501", url:"https://www.angelflightne.org", hr:"M-F 9am-5pm", doc:"Medical documentation, physician's statement of need", tg:["any"], nt:"Covers patients in the Northeast including NY. Must be able to walk. Not for emergencies — for ongoing treatment at distant medical centers." },
+  { id:"aircarealliance", n:"Air Care Alliance (Medical Flight Referral)", c:"transport", d:"Connects patients with the right volunteer aviation program for their situation and route. Start here if you don't know which program covers your area.", ph:"888-260-9707", url:"https://www.aircarealliance.org", hr:"M-F 9am-5pm", doc:"Medical need documentation, origin and destination, travel dates", tg:["any"] },
+  { id:"mercymedical", n:"Mercy Medical Airlift", c:"transport", d:"Free long-distance air transport for medical patients who must travel far for treatment and cannot afford commercial airfare.", ph:"757-318-9174", url:"https://www.mercymedical.org", hr:"M-F 9am-5pm", doc:"Physician's referral letter, financial need documentation", tg:["any"] },
+  { id:"compassionatetravel", n:"Airline Compassionate Fares (Bereavement/Medical)", c:"transport", d:"Most major airlines offer deeply discounted bereavement or medical emergency fares. Call the airline directly — these are not advertised online. Ask specifically for compassionate fare.", hr:"Call airline directly — available 24/7 for emergencies", doc:"Death certificate or medical documentation depending on airline", tg:["any"], nt:"Discounts vary but can be 50-90% off. Also ask about companion tickets for caregivers traveling with a patient." },
+
+  // EXPANDED TRANSPORT
+  { id:"rtsplanner", n:"RTS Trip Planner (Bus Routes)", c:"transport", d:"Plan any bus trip in Rochester. Real-time arrivals, route maps, transfers. Free.", ph:"585-288-1700", url:"https://www.myrts.com/Plan-Your-Trip", hr:"Bus service runs roughly 5am-midnight daily", doc:"None", tg:["any"], nt:"RTS app available on iPhone and Android. Text your stop number to 321-123 for next arrival times." },
+  { id:"taxivoucher", n:"DSS Transportation Vouchers (Taxi/Rides)", c:"transport", d:"If you receive Temporary Assistance, you may qualify for taxi or transportation vouchers to get to medical appointments, job interviews, or DSS appointments.", ph:"585-753-6960", ad:"691 St. Paul St, Rochester NY 14605", hr:"M-F 8am-4pm", doc:"TA case number, appointment documentation", tg:["hh"], nt:"Ask your DSS caseworker specifically about transportation vouchers — they are not automatically offered. You have to request them." },
+  { id:"uberlyfthealth", n:"Uber Health / Lyft Healthcare Rides", c:"transport", d:"Hospitals and social service agencies partner with Uber and Lyft to provide subsidized rides to medical appointments. Ask your doctor's office, hospital social worker, or Medicaid coordinator if they offer a ride program.", url:"https://www.uberhealth.com", hr:"Varies by partner program", doc:"Must be enrolled through a partner health organization", tg:["any"], nt:"If you have Medicaid, you likely qualify for free rides through the Medicaid Transportation program (separate entry above). Uber/Lyft health programs are a supplement through healthcare partners." },
+]
+
+  // LEGAL SUB-CATEGORY PROGRAMS
+
+  // EVICTION
+  { id:"nyhomesadvocacy", n:"NY State Homes & Community Renewal — Tenant Rights", c:"legalEviction", d:"State agency overseeing housing rights and programs. Resources for tenants facing eviction, unsafe conditions, and housing discrimination.", ph:"800-432-4210", url:"https://hcr.ny.gov", hr:"M-F 9am-5pm", doc:"None", tg:["any"] },
+  { id:"tenantdefenseevict", n:"Tenant Defense Project (Eviction Help)", c:"legalEviction", d:"Free lawyer if you're facing eviction. They appear in housing court with you. One of the most important calls you can make when served eviction papers.", ph:"585-504-6195", url:"https://www.tenantdefense.org", hr:"M-F 9am-5pm", doc:"Eviction papers (petition/notice)", tg:["any"], nt:"Call immediately when you receive court papers. Do not wait. You may have as few as 10 days to respond." },
+  { id:"legalaidevict", n:"Legal Aid Society — Housing Unit", c:"legalEviction", d:"Free lawyers for low-income tenants facing eviction, landlord harassment, or unsafe conditions.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income, eviction papers", tg:["any"] },
+  { id:"lawnyevict", n:"LawNY — Tenant Legal Help", c:"legalEviction", d:"Free civil legal help for tenants statewide. Handles eviction defense, lease disputes, habitability complaints.", ph:"585-295-5700", url:"https://www.lawny.org", hr:"M-F 9am-5pm", doc:"Proof of income", tg:["any"] },
+  { id:"housingcourtevict", n:"Rochester Housing Court", c:"legalEviction", d:"Where eviction cases are heard. You can file a response to an eviction petition here. Ask the clerk for the self-help forms.", ph:"585-371-3608", ad:"99 Exchange Blvd, Rochester NY 14614", hr:"M-F 9am-4:30pm", doc:"Your eviction papers", tg:["any"], nt:"Tell the clerk you need the 'Answer' form to respond to an eviction petition. It's free. Do not miss your court date." },
+  { id:"housingcouncilrent", n:"Housing Council at PathStone — Renter Help", c:"legalEviction", d:"Free counseling for renters facing eviction, landlord disputes, unsafe conditions. They explain your rights and options.", ph:"585-546-3700", url:"https://www.thehousingcouncil.org", hr:"M-F 9am-5pm", doc:"None", tg:["any"] },
+
+  // WORKERS RIGHTS
+  { id:"nydol", n:"NY Department of Labor — File a Wage Claim", c:"legalWorkers", d:"If your employer owes you wages, overtime, or tips, file a claim online or by phone. NY DOL investigates and can recover your wages plus penalties.", ph:"888-469-7365", url:"https://labor.ny.gov/workerprotection/laborstandards/LSforms.shtm", hr:"M-F 8am-5pm", doc:"Pay stubs, work schedule, employer contact info", tg:["any"] },
+  { id:"eeoc", n:"EEOC — Employment Discrimination Complaint", c:"legalWorkers", d:"File a federal employment discrimination complaint. Covers race, sex, age, disability, religion, national origin, pregnancy. Must file within 300 days.", ph:"800-669-4000", url:"https://www.eeoc.gov/filing-charge-discrimination", hr:"M-F 8am-8pm", doc:"Dates of incidents, names of witnesses, any documentation", tg:["any"], nt:"You must file with the EEOC before you can sue in federal court. The 300-day deadline is strict." },
+  { id:"nydhr", n:"NYS Division of Human Rights — Employment", c:"legalWorkers", d:"File a state discrimination complaint. Covers all EEOC categories plus gender identity, marital status, domestic violence victim status.", ph:"888-392-3644", url:"https://dhr.ny.gov", hr:"M-F 9am-5pm", doc:"Incident documentation", tg:["any"] },
+  { id:"unemployment", n:"NY Unemployment Insurance", c:"legalWorkers", d:"If you lost your job through no fault of your own, you likely qualify. Apply within 14 days of job loss for fastest processing.", ph:"888-209-8124", url:"https://labor.ny.gov/ui/claimantinfo/beforeyouapplyfaq.shtm", aurl:"https://applications.labor.ny.gov/IndividualReg", hr:"Online 24/7, phone M-F 8am-5pm", doc:"Last employer info, SSN, work history for 18 months", tg:["any"], nt:"Apply online — phone wait times are very long. If denied, appeal within 30 days." },
+  { id:"nycosh", n:"NYCOSH — Workplace Safety Rights", c:"legalWorkers", d:"Free information and advocacy for workers with unsafe working conditions. Covers all industries.", ph:"212-227-6440", url:"https://nycosh.org", hr:"M-F 9am-5pm", doc:"None", tg:["any"] },
+  { id:"legalaidworkers", n:"Legal Aid Society — Workers Rights", c:"legalWorkers", d:"Free legal help for workers with wage theft, discrimination, retaliation, or wrongful termination.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income, pay stubs, any documentation of the issue", tg:["any"] },
+
+  // BENEFITS DENIALS
+  { id:"fairhearing", n:"NY Office of Temporary & Disability Assistance — Fair Hearings", c:"legalBenefits", d:"Request a free fair hearing to appeal any denial or reduction of SNAP, cash assistance, Medicaid, or childcare benefits. Benefits can continue while you appeal.", ph:"518-473-3332", url:"https://otda.ny.gov/programs/fair-hearings/", hr:"M-F 8am-5pm", doc:"Your denial letter, case number", tg:["any"], nt:"You have 90 days from a SNAP denial, 60 days from a Medicaid or TA denial. Call immediately. Request 'Aid Continuing' to keep benefits during the hearing." },
+  { id:"legalaidbenefits", n:"Legal Aid Society — Benefits Help", c:"legalBenefits", d:"Free legal help appealing SNAP, Medicaid, SSI, and public assistance denials.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Denial letter, case number, proof of income", tg:["any"] },
+  { id:"disabilityadvocacy", n:"NY Legal Assistance Group — Disability Benefits", c:"legalBenefits", d:"Free help with SSI and Social Security Disability appeals. Many disability lawyers work on contingency — no fee unless you win.", ph:"212-613-5000", url:"https://www.nylag.org", hr:"M-F 9am-5pm", doc:"Denial letter, medical records", tg:["dis","any"] },
+  { id:"medicaidadvocate", n:"Community Health Advocates (Medicaid Help)", c:"legalBenefits", d:"Free help navigating Medicaid denials, billing problems, and coverage disputes.", ph:"888-614-5400", url:"https://communityhealthadvocates.org", hr:"M-F 9am-5pm", doc:"Insurance card, denial letter", tg:["any"] },
+  { id:"snaphotline", n:"NYS SNAP Hotline", c:"legalBenefits", d:"Questions about SNAP eligibility, your case, or how to apply or appeal.", ph:"800-342-3009", url:"https://mybenefits.ny.gov", hr:"M-F 8am-5pm", doc:"Case number if you have one", tg:["any"] },
+
+  // IMMIGRATION LEGAL
+  { id:"cfcimmiglaw", n:"Catholic Charities Immigration Legal Services", c:"legalImmigration", d:"DOJ-accredited immigration legal services. Citizenship, green cards, family petitions, DACA renewals, deportation defense.", ph:"585-546-7220", ad:"87 N Clinton Ave, Rochester NY 14604", url:"https://ww2.fcscharities.org/services/immigration/", hr:"M-F by appointment", doc:"All immigration documents, passport, any notices from USCIS or immigration court", tg:["any"], nt:"DOJ-accredited means they are legally authorized to represent you in immigration proceedings. Always verify accreditation before paying anyone for immigration help." },
+  { id:"newhopeilslaw", n:"New Hope Immigration Legal Services", c:"legalImmigration", d:"Low-cost immigration help. Citizenship, green cards, family visas, work permits, DACA. $5 intake fee only.", ph:"585-760-4328", url:"http://www.newhopefree.org/ils", hr:"By appointment", doc:"All immigration documents you have", tg:["any"] },
+  { id:"laimmig", n:"Legal Aid Society — Immigration Unit", c:"legalImmigration", d:"Free immigration legal help for low-income individuals. Deportation defense, asylum, DACA, family cases.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income, all immigration documents", tg:["any"] },
+  { id:"nycairr", n:"NYLAG Immigration — Deportation Defense", c:"legalImmigration", d:"Free legal help for people in immigration court proceedings or facing deportation.", ph:"212-613-5000", url:"https://www.nylag.org/units/immigration/", hr:"M-F 9am-5pm", doc:"Immigration court notices, all documents", tg:["any"] },
+  { id:"iactcenter", n:"IACT Center — Immigrant Rights", c:"legalImmigration", d:"Know your rights presentations, immigration legal screenings, community advocacy for immigrants in Rochester.", url:"https://www.iactcenter.org", hr:"See website", doc:"None for rights presentations", tg:["any"] },
+
+  // DISCRIMINATION
+  { id:"eeocdisc", n:"EEOC — File an Employment Discrimination Charge", c:"legalDiscrim", d:"Federal agency. File a charge for discrimination based on race, sex, age (40+), disability, religion, national origin, pregnancy. 300-day deadline from incident.", ph:"800-669-4000", url:"https://www.eeoc.gov/filing-charge-discrimination", hr:"M-F 8am-8pm", doc:"Dates, what happened, witnesses, any documentation", tg:["any"] },
+  { id:"nydhrdisc", n:"NYS Division of Human Rights", c:"legalDiscrim", d:"State agency for discrimination complaints in employment, housing, credit, and education. Broader protections than federal law — includes gender identity, source of income.", ph:"888-392-3644", url:"https://dhr.ny.gov", hr:"M-F 9am-5pm", doc:"Incident documentation", tg:["any"] },
+  { id:"huddisc", n:"HUD — Housing Discrimination Complaint", c:"legalDiscrim", d:"Federal housing discrimination complaints. Section 8 refusal, disability accommodations denied, race-based rental refusals.", ph:"800-669-9777", url:"https://www.hud.gov/program_offices/fair_housing_equal_opp", hr:"M-F 8:30am-5pm", doc:"None required to start — describe what happened", tg:["any"] },
+  { id:"adarochester", n:"Disability Rights NY — ADA Complaints", c:"legalDiscrim", d:"Free legal help for people with disabilities facing discrimination in employment, housing, or public accommodation.", ph:"800-993-8982", url:"https://www.drny.org", hr:"M-F 9am-5pm", doc:"Description of the discrimination, any written communications", tg:["dis","any"] },
+  { id:"urbanleaguedisc", n:"Urban League of Rochester — Discrimination Advocacy", c:"legalDiscrim", d:"Civil rights advocacy and referrals for discrimination complaints in housing, employment, and education.", ph:"585-325-6530", url:"https://www.urbanleagueroc.org", hr:"M-F 9am-5pm", doc:"None", tg:["any"] },
+
+  // DEBT
+  { id:"legalaiddebt", n:"Legal Aid Society — Debt & Consumer Help", c:"legalDebt", d:"Free legal help for low-income residents facing debt lawsuits, wage garnishment, or debt collector harassment.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Court papers, debt letters, pay stubs", tg:["any"] },
+  { id:"cfpb", n:"CFPB — Report Debt Collector Violations", c:"legalDebt", d:"If a debt collector is violating the law (calling too early/late, threatening arrest, lying), report them to the Consumer Financial Protection Bureau.", url:"https://www.consumerfinance.gov/complaint/", hr:"24/7 online", doc:"Collector name, phone number, description of violation", tg:["any"], nt:"You can also sue a debt collector in small claims court for FDCPA violations and recover up to $1,000 in damages plus attorney fees." },
+  { id:"nysag", n:"NYS Attorney General — Consumer Complaints", c:"legalDebt", d:"File a complaint against debt collectors, scammers, or businesses that treat you unfairly.", ph:"800-771-7755", url:"https://ag.ny.gov/consumer-frauds-and-protection", hr:"M-F 9am-5pm", doc:"Company name, what happened, any documentation", tg:["any"] },
+  { id:"bankruptcyhelp", n:"Bankruptcy Legal Clinics (Free)", c:"legalDebt", d:"Volunteer Legal Services runs free bankruptcy clinics. Learn if Chapter 7 (eliminate debt) or Chapter 13 (repayment plan) is right for you.", ph:"585-232-3051", url:"https://vlsp.org", hr:"By appointment", doc:"List of debts, income info, assets", tg:["any"], nt:"Chapter 7 can eliminate most credit card debt, medical bills, and personal loans. Mortgage and student loans generally cannot be discharged. A lawyer can tell you if you qualify." },
+  { id:"creditcounseling", n:"Free Credit Counseling (NFCC)", c:"legalDebt", d:"Nonprofit credit counseling. Debt management plans, budget help, creditor negotiations. Never pay for credit counseling — it's available free.", ph:"800-388-2227", url:"https://www.nfcc.org", hr:"M-F 8am-8pm", doc:"List of debts and creditors", tg:["any"] },
+
+  // SMALL CLAIMS
+  { id:"rochcitycourt_sc", n:"Rochester City Court — Small Claims", c:"legalSmallClaims", d:"File a small claims case for up to $10,000. No lawyer needed. Come to the court clerk's window to start.", ph:"585-428-2444", ad:"99 Exchange Blvd, Rochester NY 14614", url:"https://ww2.nycourts.gov/courts/7jd/Monroe/cityct/index.shtml", hr:"M-F 9am-5pm (file by 4pm)", doc:"Defendant's name and address, description of your claim, any supporting documents", tg:["any"], nt:"Security deposit cases: If your landlord hasn't returned your deposit within 14 days of move-out with an itemized list, you can sue for DOUBLE the deposit amount under NY law." },
+  { id:"nycourtssc", n:"NY Courts — Small Claims Self-Help", c:"legalSmallClaims", d:"Step-by-step guide to filing a small claims case in New York. Plain language. Free.", url:"https://www.nycourts.gov/courthelp/civil/smallClaims.shtml", hr:"24/7 online", doc:"None", tg:["any"] },
+  { id:"legalaidsc", n:"Legal Aid Society — Small Claims Advice", c:"legalSmallClaims", d:"Free advice on whether and how to file a small claims case. Can help you prepare your evidence.", ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"None for initial advice", tg:["any"] },
+
+  // CRIMINAL RECORD
+  { id:"rawnyrecord", n:"RAWNY — Criminal Record Help", c:"legalCrimRecord", d:"Help understanding your record, getting RAP sheets, applying for Certificates of Relief and Certificates of Good Conduct.", ph:"585-851-8886", ad:"186-188 N Water St, Rochester NY", url:"https://www.rawny.org", hr:"M-F", doc:"None — they help you figure out what you need", tg:["any"] },
+  { id:"jpcrecord", n:"Judicial Process Commission — Record Clearing", c:"legalCrimRecord", d:"Help with RAP sheets, Certificates of Rehabilitation, expungement questions, and mentoring.", ph:"585-325-7727", url:"https://www.rocjpc.org", hr:"M-F", doc:"None", tg:["any"] },
+  { id:"cleanslate", n:"NY Clean Slate Act — Automatic Sealing (2024)", c:"legalCrimRecord", d:"As of November 2024, most NY misdemeanors are automatically sealed after 3 years and most felonies after 8 years. This happened automatically — you don't need to apply. Check if your record was sealed.", url:"https://www.criminaljustice.ny.gov/cleanslate", hr:"24/7 online", doc:"None", tg:["any"], nt:"Sealed records are hidden from most private background checks but remain visible to courts and law enforcement. Certain serious offenses (sex crimes, class A felonies) are excluded from Clean Slate." },
+  { id:"certrelief", n:"Certificate of Relief from Civil Disabilities", c:"legalCrimRecord", d:"Removes automatic bars to employment, licenses, and housing caused by a criminal record. Apply through the court that sentenced you. Free.", ph:"585-371-3608", ad:"99 Exchange Blvd, Rochester NY 14614", url:"https://www.criminaljustice.ny.gov/pio/press_releases/2023-09-27_pressrelease.html", hr:"M-F 9am-4:30pm", doc:"Your case/docket number, sentencing records", tg:["any"], nt:"This is one of the most underused tools for people with records. It doesn't erase your record but removes legal barriers to jobs and licenses. Ask RAWNY or Legal Aid for help applying." },
+  { id:"legalaidrecord", n:"Legal Aid Society — Criminal Record Help", c:"legalCrimRecord", d:"Free legal help understanding your record, sealing options, and certificates.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income", tg:["any"] },;
 
 // COMMUNITY GROUPS
 const COMMUNITY = [
@@ -946,9 +1040,97 @@ const COMMUNITY = [
 const FEATURED_IDS = ["211", "snap", "medicaid", "foodlink", "myb", "988", "mcvital"];
 
 // ── SENSITIVE CATEGORIES (show privacy notice) ──
-const SENSITIVE = new Set(["mental","grief","addiction","domesticSvc","hivsti","reentry","lgbtq","parentalProtection"]);
+const SENSITIVE = new Set(["mental","grief","addiction","domesticSvc","hivsti","reentry","lgbtq","parentalProtection","legalImmigration","legalCrimRecord"]);
 // ── DV CATEGORIES (show safety notice + quick exit) ──
 const DV_CATS = new Set(["domesticSvc","parentalProtection"]);
+// ── LEGAL CATEGORIES (show disclaimer + explainer) ──
+const LEGAL_CATS = new Set(["legal","legalEviction","legalWorkers","legalBenefits","legalImmigration","legalDiscrim","legalDebt","legalSmallClaims","legalCrimRecord","parentalProtection"]);
+
+// ── PLAIN LANGUAGE LEGAL EXPLAINERS ──
+// Static text — no API, no cost, instant. One explainer per legal category, all 8 languages.
+// These render ABOVE the programs to orient users before they see resources.
+const LEGAL_EXPLAINERS = {
+  legalEviction: {
+    en: "YOUR RIGHTS AS A TENANT IN NEW YORK:\n• Your landlord CANNOT lock you out, remove belongings, or shut off utilities to force you to leave — this is illegal self-help eviction.\n• To legally evict you, they must give written notice first: 14 days for nonpayment, 30+ days for other reasons.\n• After notice, they must FILE IN COURT. You get to respond.\n• If you get court papers, you have the right to FREE legal help. Call the Tenant Defense Project immediately.\n• DEADLINE: You typically have 10 days to respond to a court petition. Do not ignore court papers.\n• If heat or conditions are dangerous, you can withhold rent into escrow — but do this through Legal Aid, not on your own.",
+    es: "SUS DERECHOS COMO INQUILINO EN NUEVA YORK:\n• El arrendador NO puede cambiar las cerraduras ni cortar servicios para obligarle a irse. Eso es ilegal.\n• Para desahuciarle legalmente, debe darle aviso escrito primero: 14 días por falta de pago.\n• Si recibe papeles de la corte, tiene derecho a AYUDA LEGAL GRATUITA. Llame al Tenant Defense Project.\n• PLAZO: Generalmente tiene 10 días para responder a una petición judicial.",
+    ne: "न्युयोर्कमा भाडावालको अधिकारहरू:\n• घरबेटीले ताला लगाउन, सामान हटाउन वा सेवाहरू काट्न सक्दैन — यो गैरकानुनी हो।\n• कानुनी रूपमा निकाल्न पहिले लिखित सूचना दिनुपर्छ: भाडा नतिरेकोमा १४ दिन।\n• अदालती कागजात पाउनुभयो भने निःशुल्क कानुनी सहायताको अधिकार छ।\n• समय सीमा: अदालती निवेदनमा जवाफ दिन सामान्यतः १० दिन।",
+    ar: "حقوقك كمستأجر في نيويورك:\n• لا يمكن للمالك قفل الأبواب أو قطع الخدمات لإجبارك على المغادرة — هذا غير قانوني.\n• لطردك قانونياً، يجب إعطاءك إشعاراً كتابياً أولاً: 14 يوماً لعدم الدفع.\n• إذا تلقيت أوراق المحكمة، لديك الحق في مساعدة قانونية مجانية.\n• الموعد النهائي: عادةً 10 أيام للرد.",
+    sw: "HAKI ZAKO KAMA MPANGAJI NEW YORK:\n• Mwenye nyumba hawezi kukufungia nje au kukata huduma kukufanya uondoke — hii ni kinyume cha sheria.\n• Kukufukuza kisheria, lazima akupe taarifa ya maandishi kwanza: siku 14 kwa kutolipa.\n• Ukipata karatasi za mahakama, una haki ya msaada wa kisheria BURE.\n• MUDA: Kawaida una siku 10 kujibu.",
+    my: "နယူးယောက်တွင် အငှားသူ၏ အခွင့်အရေးများ:\n• မြေရှင်သည် သင့်ကို ထွက်ခိုင်းရန် သော့ပိတ်ခြင်း သို့ ဝန်ဆောင်မှုဖြတ်တောက်ခြင်းမပြုနိုင် — တရားမဝင်ပါ။\n• တရားဝင်နှင်ထုတ်ရန် ရေးသားသောအကြောင်းကြားစာ ပေးရမည်: ငွေမပေးသောအတွက် ၁၄ ရက်။\n• တရားရုံးစာရွက်ရရှိပါက အခမဲ့ဥပဒေအကူအညီ ခံစားပိုင်ခွင့်ရှိသည်။\n• သတ်မှတ်ချိန်: ပုံမှန် ၁၀ ရက်။",
+    so: "XUQUUQDAADA KIREYSTAHA NEW YORK:\n• Milkiilahu kuma xidhi karo albaabka ama goyn karo adeegyada kuu qasba inaad tagto — tan waa sharci-xumaysid.\n• Si sharci ah kuu eryi karo, waa inuu kuu siiyaa ogeysiin qoraal ah: 14 maalmood oo lacag-la'aanta.\n• Warqadaha maxkamadda heshid, waxaad xaq u leedahay caawimo sharci BILAASH ah.\n• MUDDADA: Caadi ahaan 10 maalmood.",
+    zh: "作为纽约租客的权利：\n• 房东不能换锁或切断水电强迫您离开 — 这是违法的。\n• 要合法驱逐您，必须先给书面通知：欠租14天。\n• 收到法院文件，您有权获得免费法律援助。\n• 截止日期：通常有10天时间回应。",
+  },
+  legalWorkers: {
+    en: "YOUR RIGHTS AS A WORKER IN NEW YORK:\n• MINIMUM WAGE: $16/hour (2024). Paid less? File a wage claim with NY DOL.\n• UNPAID WAGES: Employer owes you money? File at labor.ny.gov — you may get back pay plus penalties.\n• OVERTIME: Most workers get 1.5x pay over 40 hours/week. 'Salaried' doesn't automatically mean exempt.\n• TIPS: Your employer cannot take your tips.\n• RETALIATION: Illegal to fire you for reporting wage theft or safety violations.\n• UNDOCUMENTED WORKERS: Same rights as documented workers. A wage claim does NOT affect your immigration status.",
+    es: "SUS DERECHOS COMO TRABAJADOR EN NUEVA YORK:\n• SALARIO MÍNIMO: $16/hora. ¿Le pagan menos? Presente una queja.\n• SALARIOS NO PAGADOS: Presente una queja en labor.ny.gov.\n• TRABAJADORES INDOCUMENTADOS: Los mismos derechos. Una queja NO afecta su estatus migratorio.",
+    ne: "कामदारको अधिकारहरू:\n• न्यूनतम ज्याला: $१६/घन्टा। कम पाउनुभयो? दावी दायर गर्नुहोस्।\n• अवैतनिक ज्याला: labor.ny.gov मा उजुरी दिनुहोस्।\n• अनियमित कामदारहरू: समान अधिकार। दावीले आप्रवासन स्थितिलाई असर गर्दैन।",
+    ar: "حقوقك كعامل في نيويورك:\n• الحد الأدنى للأجر: 16 دولاراً/ساعة. أقل؟ قدم مطالبة.\n• الأجور غير المدفوعة: قدم شكوى على labor.ny.gov.\n• العمال غير الموثقين: نفس الحقوق. المطالبة لا تؤثر على وضعك المهاجر.",
+    sw: "HAKI ZAKO KAMA MFANYAKAZI NEW YORK:\n• MSHAHARA WA CHINI: $16/saa. Unapewa kidogo? Wasilisha madai.\n• MISHAHARA ISIYOLIPWA: Wasilisha malalamiko kwenye labor.ny.gov.\n• WAFANYAKAZI WASIO NA NYARAKA: Haki sawa. Madai hayaathiri hali yako ya uhamiaji.",
+    my: "အလုပ်သမားအခွင့်အရေးများ:\n• အနည်းဆုံးလုပ်ခ: $၁၆/နာရီ။ နည်းပါးစွာပေးလျှင် တောင်းဆိုပါ။\n• မပေးသောလုပ်ခ: labor.ny.gov တွင် တိုင်ကြားပါ။\n• မှတ်ပုံမတင်ရသေးသောအလုပ်သမားများ: တူညီသောအခွင့်အရေး။ တိုင်ကြားခြင်းသည် နေထိုင်ခွင့်ကို မထိခိုက်ပါ။",
+    so: "XUQUUQDAADA SHAQAALE AHAAN NEW YORK:\n• MUSHAHAR HOOSE: $16/saacad. Ka yar? Geli dacwad.\n• MUSHAHARKA LA SIININ: Geli cabasho labor.ny.gov.\n• SHAQAALAHA DIIWAANGALINTA LAHAYN: Xuquuq isku mid ah. Dacwaddu kuma saameeyso xaaladaada socdaalka.",
+    zh: "作为纽约工人的权利：\n• 最低工资：$16/小时。被少付？提出索赔。\n• 未付工资：在labor.ny.gov投诉。\n• 无证件工人：同等权利。索赔不影响移民身份。",
+  },
+  legalBenefits: {
+    en: "IF YOUR BENEFITS WERE DENIED OR CUT IN NEW YORK:\n• YOU HAVE THE RIGHT TO APPEAL every denial.\n• SNAP: 90 days to request a fair hearing. Benefits can continue during appeal if you request it.\n• Medicaid: 60 days to appeal. Request 'continuation of benefits' to keep coverage during review.\n• Temporary Assistance: 60 days to appeal reductions or terminations.\n• SSI/Disability: 60 days to appeal. Get a lawyer — many work on contingency (no fee unless you win).\n• REQUEST A FAIR HEARING: Call 518-473-3332 for any state benefit. It's free and your caseworker cannot retaliate.",
+    es: "SI SUS BENEFICIOS FUERON NEGADOS O CORTADOS:\n• TIENE DERECHO A APELAR cada negación.\n• SNAP: 90 días para audiencia justa. Los beneficios pueden continuar durante la apelación.\n• Medicaid: 60 días para apelar.\n• AUDIENCIA JUSTA: Llame al 518-473-3332. Es gratis.",
+    ne: "सुविधाहरू अस्वीकार वा कटौती गरियो भने:\n• हरेक अस्वीकृतिमा अपिल गर्ने अधिकार छ।\n• SNAP: निष्पक्ष सुनुवाइको लागि ९० दिन।\n• निष्पक्ष सुनुवाइ: 518-473-3332 मा कल गर्नुहोस्।",
+    ar: "إذا رُفضت مزاياك أو قُطعت:\n• لديك الحق في الاستئناف على كل رفض.\n• SNAP: 90 يوماً لجلسة استماع عادلة.\n• جلسة استماع عادلة: اتصل بـ 518-473-3332. مجاني.",
+    sw: "FAIDA ZAKO ZIKIKATALIWA AU KUPUNGUZWA:\n• UNA HAKI YA KUKATA RUFAA kwa kila kukataliwa.\n• SNAP: Siku 90 kwa kusikilizwa kwa haki.\n• KUSIKILIZWA KWA HAKI: Piga 518-473-3332. Bure.",
+    my: "ခံစားခွင့်ငြင်းဆို သို့ ဖြတ်တောက်ခြင်းခံရပါက:\n• ငြင်းဆိုမှုတိုင်းတွင် အယူခံပိုင်ခွင့်ရှိသည်။\n• SNAP: တရားမျှတသောကြားနာမှုတောင်းဆိုရန် ၉၀ ရက်။\n• ဖုန်း: 518-473-3332",
+    so: "HADDII FAAIDO DAHAADU LA DIIDAY AMA LA JARJARAY:\n• WAXAAD XAQ U LEEDAHAY CABASHO kasta oo la diiday.\n• SNAP: 90 maalmood dhageysiga xaqa ah.\n• DHAGEYSIGA XAQA AH: Wac 518-473-3332. Bilaash.",
+    zh: "福利被拒绝或削减：\n• 您有权对每次拒绝上诉。\n• SNAP：90天申请公平听证。\n• 公平听证：致电518-473-3332。免费。",
+  },
+  legalImmigration: {
+    en: "IMPORTANT — IMMIGRATION LEGAL HELP IN NEW YORK:\n• ONLY use attorneys or DOJ-accredited representatives. 'Notarios' and immigration consultants who are NOT lawyers can cause serious harm.\n• IF ICE CONTACTS YOU: You have the right to remain silent. Do not answer questions about your birthplace or status. Ask for a lawyer.\n• DACA holders: You have work authorization while your status is valid. Renew on time.\n• SANCTUARY: Local police do not ask about immigration status for routine matters.\n• FREE LEGAL HELP: Catholic Charities and New Hope ILS provide DOJ-accredited immigration legal services.",
+    es: "AYUDA LEGAL DE INMIGRACIÓN — IMPORTANTE:\n• SOLO use abogados o representantes acreditados por el DOJ. Los 'notarios' no son abogados.\n• SI ICE LE CONTACTA: Tiene derecho a guardar silencio.\n• Protección: La policía local no pregunta sobre estatus migratorio en interacciones rutinarias.",
+    ne: "आप्रवासन कानुनी सहायता — महत्त्वपूर्ण:\n• केवल DOJ-मान्यताप्राप्त वकिलहरू प्रयोग गर्नुहोस्।\n• ICE ले सम्पर्क गर्छ भने: मौन रहने अधिकार छ।\n• स्थानीय प्रहरीले नियमित अन्तरक्रियामा आप्रवासन स्थितिको बारेमा सोध्दैन।",
+    ar: "مساعدة قانونية في الهجرة — مهم:\n• استخدم فقط المحامين أو الممثلين المعتمدين من DOJ.\n• إذا اتصل بك ICE: لديك الحق في الصمت.\n• الشرطة المحلية لا تسأل عن الوضع المهاجر في التفاعلات الروتينية.",
+    sw: "MSAADA WA KISHERIA WA UHAMIAJI — MUHIMU:\n• Tumia tu mawakili au wawakilishi walioidhinishwa na DOJ.\n• IKIWA ICE ITAWASILIANA NAWE: Una haki ya kukaa kimya.\n• Polisi wa ndani hawaulizi kuhusu hali ya uhamiaji kwa mambo ya kawaida.",
+    my: "လူဝင်မှုကြီးကြပ်ရေး တရားရေးအကူအညီ — အရေးကြီး:\n• DOJ-အသိအမှတ်ပြုချက်ရှိသောရှေ့နေများသာ သုံးပါ။\n• ICE ဆက်သွယ်ပါက: ဆိတ်ဆိတ်နေပိုင်ခွင့်ရှိသည်။\n• ဒေသဆိုင်ရာရဲများသည် ပုံမှန်ဆက်ဆံမှုများတွင် နေထိုင်မှုအဆင့်အတန်းကို မမေးပါ။",
+    so: "CAAWIMADA SHARCIGA SOCDAALKA — MUHIIM:\n• Isticmaal oo keliya wakiilada DOJ ee la ansixiyey.\n• HADDII ICE KAA XIRIIRTO: Waxaad xaq u leedahay inaad aamusto.\n• Booliska maxalliga ah kama weydiin karaan xaaladda socdaalka arrimaha caadiga ah.",
+    zh: "移民法律帮助 — 重要：\n• 只使用律师或司法部认可的代理人。\n• 如果ICE联系您：您有权保持沉默。\n• 当地警察在日常事务中不询问移民身份。",
+  },
+  legalDiscrim: {
+    en: "IF YOU WERE DISCRIMINATED AGAINST IN NEW YORK:\n• PROTECTED IN NY: race, color, national origin, sex, pregnancy, age, disability, religion, sexual orientation, gender identity, marital status, military status, source of income.\n• EMPLOYMENT: File with EEOC (federal) or NYS Division of Human Rights. Deadline: 300 days from the incident. Do not wait.\n• HOUSING: Refusing to rent based on any protected class — including Section 8 vouchers — is illegal.\n• DISABILITY: Employers with 15+ staff must provide reasonable accommodations. Refusing is discrimination.\n• RETALIATION: Filing a complaint is protected. Retaliation is illegal.",
+    es: "SI SUFRIÓ DISCRIMINACIÓN EN NUEVA YORK:\n• PROTEGIDO EN NY: raza, sexo, edad, discapacidad, orientación sexual, identidad de género, fuente de ingresos.\n• EMPLEO: Presente una queja con el EEOC o la División de Derechos Humanos de NYS. Plazo: 300 días.\n• VIVIENDA: Negarse a alquilar basándose en cualquier clase protegida — incluyendo la Sección 8 — es ilegal.",
+    ne: "भेदभाव भोग्नुभयो भने:\n• NY मा संरक्षित: जाति, लिंग, उमेर, अपाङ्गता, यौन अभिमुखीकरण, आय स्रोत।\n• रोजगार: EEOC वा NYS मानव अधिकार विभागमा उजुरी दिनुहोस्। समय सीमा: ३०० दिन।\n• आवास: धारा ८ भाउचर सहितको संरक्षित वर्गको आधारमा भाडा दिन अस्वीकार गर्नु गैरकानुनी हो।",
+    ar: "إذا تعرضت للتمييز في نيويورك:\n• المحمي في نيويورك: العرق والجنس والعمر والإعاقة والتوجه الجنسي ومصدر الدخل.\n• التوظيف: قدم شكوى مع EEOC أو قسم حقوق الإنسان في نيويورك. الموعد: 300 يوم.\n• السكن: رفض الإيجار بسبب أي فئة محمية — بما في ذلك القسم 8 — غير قانوني.",
+    sw: "UKIDHULUMIWA UBAGUZI NEW YORK:\n• KULINDWA NY: rangi, jinsia, umri, ulemavu, mwelekeo wa kijinsia, chanzo cha mapato.\n• AJIRA: Wasilisha malalamiko kwa EEOC au Idara ya Haki za Binadamu ya NYS. Muda: siku 300.\n• MAKAZI: Kukataa kukodisha kwa misingi ya kikundi chochote kinachohifadhiwa — ikiwemo Kifungu cha 8 — ni kinyume cha sheria.",
+    my: "ခွဲခြားဆက်ဆံမှုခံရပါက:\n• NY တွင် ကာကွယ်ထားသောအမျိုးအစားများ: လူမျိုး၊ ကျားမ၊ အသက်၊ မသန်စွမ်းမှု၊ ကျား-မဆက်ဆံမှုဦးတည်ချက်၊ ဝင်ငွေရင်းမြစ်။\n• အလုပ်: EEOC သို့မဟုတ် NYS လူ့အခွင့်အရေးဌာနသို့ တိုင်ကြားပါ။ သတ်မှတ်ချိန်: ၃၀၀ ရက်။",
+    so: "HADDAAD TAKOORRID LA KULMAY NEW YORK:\n• ILAALINTA NY: jins, jinsi, da', naafonimo, dookha galmoodka, ilo dakhli.\n• SHAQADA: Geli cabasho EEOC ama Qaybta Xuquuqda Aadanaha NYS. Muddada: 300 maalmood.\n• GURIYAYNTA: Diidmada kirada iyada oo ku saleysan koox kasta oo ilaalinta leh — oo ay ku jirto Qeybta 8 — waa sharci-darro.",
+    zh: "在纽约遭受歧视：\n• 纽约保护类别：种族、性别、年龄、残疾、性取向、收入来源。\n• 就业：向EEOC或纽约州人权部门投诉。截止日期：300天。\n• 住房：基于任何受保护类别（包括第8节）拒绝出租是违法的。",
+  },
+  legalDebt: {
+    en: "IF YOU'RE BEING SUED OR HARASSED OVER DEBT IN NEW YORK:\n• DEBT COLLECTORS CANNOT: call before 8am or after 9pm, threaten arrest, use abusive language, or lie about what you owe. These violate federal law (FDCPA).\n• YOU CAN STOP THE CALLS: Send a written cease-communication letter. They must stop except to notify you of legal action.\n• STATUTE OF LIMITATIONS: Most debts in NY expire after 3 years. They may not be able to sue you on old debt — but do NOT ignore a court summons.\n• IF SUED: Respond. Ignoring it = automatic default judgment against you.\n• WAGE GARNISHMENT: NY creditors can garnish up to 10% of gross wages. SNAP, SSI, and unemployment CANNOT be garnished.",
+    es: "SI LO DEMANDAN O ACOSAN POR DEUDAS:\n• Los cobradores NO pueden llamar antes de las 8am o después de las 9pm, amenazar con arresto, o mentir.\n• PUEDE DETENER LAS LLAMADAS: Envíe una carta de cese de comunicación.\n• ESTATUTO DE LIMITACIONES: La mayoría de las deudas en NY expiran en 3 años.\n• SI LO DEMANDAN: Responda. Ignorarlo = fallo por incumplimiento.",
+    ne: "ऋणको लागि मुद्दा वा उत्पीडन:\n• ऋण संकलकहरूले बिहान ८ बजाभन्दा पहिले वा राति ९ बजापछि कल गर्न सक्दैनन्, गिरफ्तारीको धम्की दिन सक्दैनन्।\n• NY मा अधिकांश ऋणहरू ३ वर्षपछि समाप्त हुन्छन्।\n• मुद्दा लगाइयो भने: जवाफ दिनुहोस्। बेवास्ता गर्नु भनेको स्वचालित निर्णय हो।",
+    ar: "إذا تمت مقاضاتك أو مضايقتك بسبب الديون:\n• جامعو الديون لا يمكنهم الاتصال قبل 8 صباحاً أو بعد 9 مساءً، أو التهديد بالاعتقال.\n• معظم الديون في نيويورك تنتهي بعد 3 سنوات.\n• إذا تمت مقاضاتك: رد. التجاهل = حكم تلقائي ضدك.",
+    sw: "UKIFUATWA KWA MADAI YA DENI:\n• Wakusanyaji HAWAWEZI kupiga simu kabla ya 8am au baada ya 9pm, au kutishia kukamatwa.\n• Madeni mengi ya NY yanaisha baada ya miaka 3.\n• UKISHITAKIWA: Jibu. Kupuuza = hukumu ya moja kwa moja dhidi yako.",
+    my: "ကြွေးမြီကြောင့် တရားစွဲဆိုခြင်း သို့ နှောင့်ယှက်ခြင်း:\n• ကြွေးတောင်းသူများသည် နံနက် ၈ နာရီမတိုင်မီ သို့ ညနေ ၉ နာရီနောက်တွင် ဆက်သွယ်ခွင့်မရှိ၊ ဖမ်းဆီးမည်ဟု ခြိမ်းခြောက်ခွင့်မရှိပါ။\n• NY ကြွေးအများစု ၃ နှစ်နောက် သက်တမ်းကုန်ဆုံးသည်။\n• တရားစွဲဆိုခြင်းခံရပါက: ဖြေကြားပါ။",
+    so: "DACWAD AMA XARIIRID DEYNTA:\n• Uruuriyayaasha KUMA XIRIIRI KARAAN ka hor 8am ama ka dib 9pm, ama cabsi gelinaya xirashada.\n• Deymaha badankood ee NY waxay dhacaan 3 sano ka dib.\n• HADDAAD DACWAD LAGU SAMEEYEY: Jawaab. Aamusnaan = xukunka tooska ah ee kuu dhan.",
+    zh: "因债务被起诉或骚扰：\n• 债务催收员不能在早上8点前或晚上9点后致电，不能威胁逮捕。\n• 纽约大多数债务3年后失效。\n• 如果被起诉：回应。忽视等于自动败诉。",
+  },
+  legalSmallClaims: {
+    en: "SMALL CLAIMS COURT IN NEW YORK — NO LAWYER NEEDED:\n• Handles disputes up to $10,000 (City Court) or $3,000 (Town/Village Court).\n• COMMON USES: Landlord won't return security deposit, contractor did bad work, someone owes you money, property damage.\n• HOW TO FILE: Go to Rochester City Court, 99 Exchange Blvd. Filing fee: $15–$20. Court date usually within 2–3 months.\n• BRING: All documentation — receipts, contracts, photos, texts, estimates. Organize everything.\n• SECURITY DEPOSITS: In NY, your landlord must return your deposit within 14 days with an itemized list. If they don't, you can sue for DOUBLE the amount.",
+    es: "CORTE DE RECLAMOS MENORES — SIN ABOGADO NECESARIO:\n• Maneja disputas hasta $10,000.\n• USOS COMUNES: Depósito de seguridad no devuelto, trabajo deficiente de contratista.\n• CÓMO PRESENTAR: Corte de la Ciudad de Rochester, 99 Exchange Blvd. Cuota: $15-$20.\n• DEPÓSITOS: El arrendador debe devolverlos en 14 días. Si no, puede demandar el DOBLE.",
+    ne: "साना दावी अदालत — वकिल चाहिँदैन:\n• $१०,००० सम्मको विवादहरू हेर्छ।\n• सामान्य प्रयोगहरू: धरौटी फिर्ता नगर्नु, खराब काम।\n• दायर गर्न: Rochester City Court, ९९ Exchange Blvd। शुल्क: $१५-$२०।\n• धरौटी: घरबेटीले १४ दिनभित्र फिर्ता गर्नुपर्छ। नगरे दोब्बर रकम दावी गर्न सक्नुहुन्छ।",
+    ar: "محكمة المطالبات الصغيرة — لا تحتاج محامياً:\n• تتعامل مع النزاعات حتى 10,000 دولار.\n• الاستخدامات الشائعة: التأمين غير المُعاد، عمل المقاول السيء.\n• كيفية التقديم: محكمة مدينة روتشستر، 99 Exchange Blvd. الرسوم: 15-20 دولاراً.\n• الودائع: يجب إعادتها خلال 14 يوماً. إذا لم تُعَد، يمكنك المطالبة بضعف المبلغ.",
+    sw: "MAHAKAMA YA MADAI MADOGO — HAKUNA WAKILI UNAOHITAJIKA:\n• Inashughulikia migogoro hadi $10,000.\n• MATUMIZI YA KAWAIDA: Amana haijarudishwa, kazi mbaya ya mkandarasi.\n• JINSI YA KUWASILISHA: Mahakama ya Mji wa Rochester, 99 Exchange Blvd. Ada: $15-$20.\n• AMANA: Lazima zirudishwe ndani ya siku 14. Zisiporudishwa, unaweza kudai MARA MBILI.",
+    my: "Small Claims Court — ရှေ့နေမလိုပါ:\n• $၁၀,၀၀၀ အထိ အငြင်းပွားမှုများကို ကိုင်တွယ်သည်။\n• ဘုံသုံးမှုများ: စပေါ်ငွေမပြန်အမ်း၊ ဆောက်လုပ်ရေးလုပ်သားညံ့ဖျင်းမှု။\n• ဖိုင်တင်ရန်: Rochester City Court, ၉၉ Exchange Blvd။ ကြေး: $၁၅-$၂၀။\n• စပေါ်ငွေ: ၁၄ ရက်အတွင်း ပြန်အမ်းရမည်။ မပြန်ပါက နှစ်ဆ တောင်းဆိုနိုင်သည်။",
+    so: "MAXKAMADDA DACWAADAHA YARYAR — XEER-ILAALIYE MA BAAHNA:\n• Waxay xukuntaa khilaafaadka ilaa $10,000.\n• ISTICMAALKA CAADIGA AH: Amaanahda la siinayno, shaqada xun ee qabsoomaha.\n• SIDA LOO GUDBINAYO: Maxkamadda Magaalada Rochester, 99 Exchange Blvd. Khidmad: $15-$20.\n• AMAANAHDA: Waa in la soo celiyaa 14 maalmood gudahood. Haddaan la soo celin, waxaad ku dacweyn kartaa LABA JIBBAAR.",
+    zh: "小额索赔法庭 — 不需要律师：\n• 处理最高$10,000的纠纷。\n• 常见用途：押金未退，承包商工作质量差。\n• 如何申请：罗切斯特市法院，99 Exchange Blvd。费用：$15-$20。\n• 押金：必须在14天内退还。否则可起诉双倍金额。",
+  },
+  legalCrimRecord: {
+    en: "CLEARING YOUR CRIMINAL RECORD IN NEW YORK:\n• NY CLEAN SLATE ACT (2024): As of November 2024, most misdemeanors are automatically sealed after 3 years and most felonies after 8 years — if no new convictions. This happened automatically.\n• SEALED vs. EXPUNGED: Sealed records are hidden from most background checks but still visible to courts and law enforcement.\n• CERTIFICATES OF RELIEF: Removes automatic bars to employment and licensing. Apply through the sentencing court.\n• MARIJUANA: Most marijuana convictions were automatically expunged under the MRTA (2021).\n• FREE HELP: RAWNY and the Judicial Process Commission help with this process for free.",
+    es: "LIMPIEZA DE ANTECEDENTES EN NUEVA YORK:\n• LEY DE PIZARRA LIMPIA DE NY (2024): La mayoría de los delitos menores se sellan automáticamente después de 3 años y los delitos graves después de 8 años.\n• CERTIFICADOS DE ALIVIO: Elimina barreras automáticas al empleo.\n• MARIHUANA: La mayoría de las condenas fueron eliminadas automáticamente bajo la MRTA (2021).\n• AYUDA GRATUITA: RAWNY y la Comisión de Proceso Judicial ayudan gratis.",
+    ne: "आपराधिक रेकर्ड सफा गर्ने:\n• NY Clean Slate Act (२०२४): अधिकांश दुष्कर्महरू ३ वर्षपछि र अपराधहरू ८ वर्षपछि स्वचालित रूपमा सिल हुन्छन्।\n• राहत प्रमाणपत्रहरू: रोजगार र लाइसेन्सिङमा अवरोधहरू हटाउँछ।\n• मारिजुआना: MRTA (२०२१) अन्तर्गत अधिकांश दोषहरू स्वचालित रूपमा मेटाइयो।\n• निःशुल्क सहयोग: RAWNY र Judicial Process Commission।",
+    ar: "محو السجل الجنائي في نيويورك:\n• قانون Clean Slate في نيويورك (2024): معظم الجرائم البسيطة تُغلق تلقائياً بعد 3 سنوات والجرائم الجسيمة بعد 8 سنوات.\n• شهادات الإعفاء: تزيل الحواجز التلقائية أمام التوظيف.\n• الماريجوانا: معظم الإدانات مُحيت تلقائياً بموجب MRTA (2021).\n• مساعدة مجانية: RAWNY وعمولة العملية القضائية.",
+    sw: "KUFUTA REKODI YA UHALIFU NEW YORK:\n• NY Clean Slate Act (2024): Makosa mengi madogo yanafungwa kiotomatiki baada ya miaka 3, makosa makubwa baada ya miaka 8.\n• Vyeti vya Msaada: Vinaondoa vizuizi vya ajira.\n• Bangi: Hukumu nyingi zilifutwa kiotomatiki chini ya MRTA (2021).\n• MSAADA WA BURE: RAWNY na Tume ya Mchakato wa Mahakama.",
+    my: "ရာဇဝတ်မှတ်တမ်းဖျက်ခြင်း:\n• NY Clean Slate Act (၂၀၂၄): ပြစ်မှုအများစုသည် ၃ နှစ်နောက် အလိုလိုပိတ်ဆို့ပြီး ၈ နှစ်နောက် ပြစ်ဒဏ်ကြီးများဖြစ်သည်။\n• သက်သာချောင်ချိမှုလက်မှတ်များ: အလုပ်အကိုင်ဆိုင်ရာ အတားအဆီးများဖယ်ရှားပေးသည်။\n• မာရိဖောင်း: MRTA (၂၀၂၁) အောက်တွင် အများစု အလိုလိုဖျက်ပြီး။\n• အခမဲ့အကူအညီ: RAWNY နှင့် Judicial Process Commission။",
+    so: "NADIIFINTA DIIWAANKAAGA DAMBIYADA NEW YORK:\n• NY Clean Slate Act (2024): Dambiyada badankood waxay si toos ah ugu xidhmaan 3 sano ka dib, 8 sano dambiyada culus.\n• Shahaadooyinka Gargaarka: Waxay ka saartaa caqabadaha shaqada.\n• Marixuaana: Xukumaadii badankood waxaa si toos ah lagu bedelay MRTA (2021) hoosteeda.\n• CAAWIMO BILAASH AH: RAWNY iyo Gudiga Habka Garsoorka.",
+    zh: "清除纽约犯罪记录：\n• 纽约清白法案（2024）：大多数轻罪在3年后自动封存，重罪在8年后封存。\n• 救济证书：消除就业和执照方面的障碍。\n• 大麻：根据MRTA（2021），大多数定罪已自动清除。\n• 免费帮助：RAWNY和司法程序委员会免费提供帮助。",
+  },
+};
 
 // Haversine distance in miles
 function distanceMiles(lat1, lon1, lat2, lon2) {
@@ -1423,7 +1605,9 @@ function RocHelpInner({ onExit, city = "your area" }) {
         {step === STEPS.HOME && (
           <div style={{ textAlign: "center", paddingTop: 20 }}>
             <p style={{ fontSize: 15, color: "#555", lineHeight: 1.5, marginBottom: 24 }}>
-              {t(lang, "subtitle")}
+              {city && city !== "your area"
+                ? t(lang, "subtitle").replace("near you", `in ${city}`).replace("cerca de ti", `en ${city}`).replace("कू dhow", ``)
+                : t(lang, "subtitle")}
             </p>
             <button
               onClick={() => goTo(STEPS.WHAT_TAB)}
@@ -1657,11 +1841,26 @@ function RocHelpInner({ onExit, city = "your area" }) {
 
             {SENSITIVE.has(category) && <PrivacyBadge lang={lang} sensitive />}
             <DVSafetyNotice lang={lang} category={category} />
-            {category === "parentalProtection" && (
-              <div style={{ background: "#fff8e1", border: "1px solid #ffe082", borderRadius: 10, padding: "10px 14px", margin: "8px 0", fontSize: 13, color: "#5d4037" }}>
-                ⚖️ <strong>Important:</strong> This information is not legal advice. Laws and court procedures change. For your specific situation, free legal help is available — see Legal Aid Society and LawNY below.
+
+            {/* Legal disclaimer + plain language explainer */}
+            {LEGAL_CATS.has(category) && (
+              <div style={{ margin: "8px 0" }}>
+                <div style={{ background: "#fff8e1", border: "1px solid #ffe082", borderRadius: 10, padding: "10px 14px", marginBottom: 8, fontSize: 12, color: "#5d4037" }}>
+                  ⚖️ <strong>Not legal advice.</strong> This information explains your general rights. Laws change. For your specific situation, use the free legal resources below.
+                </div>
+                {LEGAL_EXPLAINERS[category] && (
+                  <details style={{ background: "#f3f8ff", border: "1px solid #bbdefb", borderRadius: 10, padding: "10px 14px", marginBottom: 8 }}>
+                    <summary style={{ fontSize: 13, fontWeight: 700, color: "#1565c0", cursor: "pointer", userSelect: "none" }}>
+                      📖 Know your rights — plain language explainer
+                    </summary>
+                    <pre style={{ fontSize: 12, color: "#1a1a1a", lineHeight: 1.6, marginTop: 10, whiteSpace: "pre-wrap", fontFamily: "inherit" }}>
+                      {LEGAL_EXPLAINERS[category][lang] || LEGAL_EXPLAINERS[category].en}
+                    </pre>
+                  </details>
+                )}
               </div>
             )}
+
             <InterpreterNotice lang={lang} />
 
             {filteredPrograms.length === 0 && (
