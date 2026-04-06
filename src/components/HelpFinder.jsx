@@ -541,40 +541,67 @@ const TABS = {
     zh: "压力、悲伤或成瘾",
     needs: ["mental", "grief", "addiction", "caregiver"],
   },
-  situation: {
+  family: {
     icon: "👨‍👩‍👧",
-    en: "My family, my job, or my rights",
-    es: "Mi familia, mi trabajo, o mis derechos",
-    ne: "मेरो परिवार, काम, वा अधिकार",
-    ar: "عائلتي أو عملي أو حقوقي",
-    sw: "Familia yangu, kazi, au haki zangu",
-    my: "မိသားစု၊ အလုပ်၊ အခွင့်အရေး",
-    so: "Qoyskayga, shaqadayda, ama xuquuqdayda",
-    zh: "家庭、工作或权利",
+    en: "My family",
+    es: "Mi familia",
+    ne: "मेरो परिवार",
+    ar: "عائلتي",
+    sw: "Familia yangu",
+    my: "မိသားစု",
+    so: "Qoyskayga",
+    zh: "家庭",
     needs: [
       "childcare",
       "youth",
       "seniorSvc",
-      "disabilitySvc",
-      "education",
+      "parentalProtection",
+      "caregiver",
+      "funeral",
+    ],
+  },
+  work: {
+    icon: "💼",
+    en: "My job",
+    es: "Mi trabajo",
+    ne: "मेरो काम",
+    ar: "عملي",
+    sw: "Kazi yangu",
+    my: "အလုပ်",
+    so: "Shaqadayda",
+    zh: "工作",
+    needs: [
       "employment",
+      "education",
+      "legalWorkers",
+    ],
+  },
+  rights: {
+    icon: "⚖️",
+    en: "My rights",
+    es: "Mis derechos",
+    ne: "मेरो अधिकार",
+    ar: "حقوقي",
+    sw: "Haki zangu",
+    my: "အခွင့်အရေး",
+    so: "Xuquuqdayda",
+    zh: "我的权利",
+    needs: [
       "legal",
       "legalEviction",
-      "legalWorkers",
       "legalBenefits",
       "legalImmigration",
       "legalDiscrim",
       "legalDebt",
       "legalSmallClaims",
       "legalCrimRecord",
-      "parentalProtection",
+      "disabilitySvc",
       "veteranSvc",
       "refugeeSvc",
       "lgbtq",
       "reentry",
       "internet",
       "pets",
-      "funeral",
     ],
   },
 };
@@ -1603,23 +1630,46 @@ function RocHelpInner({ onExit, city = "your area" }) {
 
         {/* ── HOME ── */}
         {step === STEPS.HOME && (
-          <div style={{ textAlign: "center", paddingTop: 20 }}>
-            <p style={{ fontSize: 15, color: "#555", lineHeight: 1.5, marginBottom: 24 }}>
-              {city && city !== "your area"
-                ? t(lang, "subtitle").replace("near you", `in ${city}`).replace("cerca de ti", `en ${city}`).replace("कू dhow", ``)
-                : t(lang, "subtitle")}
+          <div style={{ paddingTop: 12 }}>
+            <div style={{ textAlign: "center", marginBottom: 20 }}>
+              <h2 style={{ fontSize: 22, fontWeight: 700, color: "#333", marginBottom: 6, lineHeight: 1.3 }}>
+                {PROGRAMS.length} free programs{city && city !== "your area" ? ` in ${city}` : ""}
+              </h2>
+              <p style={{ fontSize: 15, color: "#555", lineHeight: 1.5 }}>
+                {t(lang, "subtitle")}
+              </p>
+            </div>
+
+            <h3 style={{ fontSize: 16, fontWeight: 700, color: "#333", marginBottom: 10 }}>
+              {t(lang, "stepWhat")}
+            </h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 16 }}>
+              {Object.entries(TABS).map(([key, tabData]) => {
+                const count = tabData.needs.reduce((sum, catKey) => sum + PROGRAMS.filter(p => p.c === catKey).length, 0);
+                return (
+                  <button
+                    key={key}
+                    onClick={() => selectTab(key)}
+                    className="roc-btn" style={{
+                      ...btnStyle(),
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <span style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                      <span style={{ fontSize: 24 }}>{tabData.icon}</span>
+                      <span>{tabData[lang] || tabData.en}</span>
+                    </span>
+                    <span style={{ fontSize: 12, color: "#888", fontWeight: 600 }}>
+                      {count} →
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            <p style={{ textAlign: "center", fontSize: 13, color: "#888", marginBottom: 20 }}>
+              Every program has a phone number, hours, and address.
             </p>
-            <button
-              onClick={() => goTo(STEPS.WHAT_TAB)}
-              style={{
-                background: "#2e7d32", color: "#fff", border: "none",
-                borderRadius: 28, padding: "16px 32px", fontSize: 18,
-                fontWeight: 700, cursor: "pointer", width: "100%",
-                boxShadow: "0 4px 14px rgba(46,125,50,0.3)",
-              }}
-            >
-              {t(lang, "start")} →
-            </button>
 
             <PrivacyBadge lang={lang} />
 
