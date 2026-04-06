@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER.HELP — Landing Page v2
-// Sedral Studios · Rochester NY · March 2026
+// Sedral Studios · Rochester NY · April 2026
 // Section 3: Home Page + Site Shell
 // 8 Languages · 3 Doors · Search · Full Translation
 // Brand: HF (product) / SS (studio)

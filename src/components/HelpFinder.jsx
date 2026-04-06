@@ -2,7 +2,7 @@ import React, { useState, useMemo, useRef } from "react";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER — Help Directory
-// Sedral Studios · Rochester NY · March 2026
+// Sedral Studios · Rochester NY · April 2026
 // 34 Categories · 183 Programs · 8 Languages
 // Updated: Branding aligned with landing page v2
 // ═══════════════════════════════════════════════════
@@ -654,8 +654,8 @@ const CATEGORIES = {
 };
 
 // ── PROGRAMS (all 130+) ──
-// Data last verified: March 2026. Phone numbers and hours may change.
-const DATA_VERIFIED = "March 2026";
+// Data last verified: April 2026. Phone numbers and hours may change.
+const DATA_VERIFIED = "April 2026";
 const PROGRAMS = [
   // CRISIS
   { id:"211", n:"211 Lifeline (Call for Anything)", c:"crisis", d:"Don't know where to start? Call 211. Free, anytime, for anything.", tr:{es:"¿No sabe por dónde empezar? Llame al 211. Gratis, a cualquier hora.",ne:"कहाँबाट सुरु गर्ने थाहा छैन? 211 मा कल गर्नुहोस्। निःशुल्क, जुनसुकै बेला।",ar:"لا تعرف من أين تبدأ؟ اتصل بـ 211. مجاني، في أي وقت.",so:"Ma ogtid halka aad ka bilowdo? Wac 211. Bilaash, wakhti kasta.",sw:"Hujui wapi kuanzia? Piga 211. Bure, wakati wowote.",my:"ဘယ်ကစရမှန်းမသိဘူးလား? 211 ခေါ်ပါ။ အခမဲ့၊ အချိန်မရွေး။",zh:"不知从何开始？拨打211。免费，随时。"}, ph:"211", url:"https://211lifeline.org", aurl:"https://211lifeline.org/search.php", hr:"24/7", doc:"None — call or text your ZIP to 898-211", tg:["any"] },
