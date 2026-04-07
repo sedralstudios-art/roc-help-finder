@@ -1,0 +1,1335 @@
+{
+  "generated": "2026-04-06T15:42:12.965Z",
+  "month": "April 2026",
+  "site": {
+    "url": "https://helpfinder.help",
+    "status": "LIVE"
+  },
+  "summary": {
+    "total_urls": 215,
+    "live": 157,
+    "bot_blocked_assumed_live": 14,
+    "dead": 25,
+    "errors": 19,
+    "total_phones": 255,
+    "valid_phones": 250,
+    "invalid_phones": 5,
+    "dead_programs": 0,
+    "pass": false
+  },
+  "dead_urls": [
+    {
+      "url": "https://www.rcsdk12.org/nutrition",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.lifespan-roch.org/meals-on-wheels",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.auw.org/freetaxprep",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.racf.org/rmapi",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.plannedparenthood.org/health-center/new-york/rochester",
+      "code": 403,
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/dental",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://namiroc.org",
+      "code": 403,
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/mental-health-wellness/addiction",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.nyssbdc.org/centers/centers-details.aspx?centid=15",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.brockport.edu/reoc/",
+      "code": 403,
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://www.lifespan-roch.org/hiicap",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://agriculture.ny.gov/farming/senior-farmers-market-nutrition-program",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs-youth",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://rainn.org",
+      "code": 403,
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs-earlyintervention",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs-preschoolspecialed",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.rcsdk12.org/adulted",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.trilliumhealth.org/services/the-mocha-center",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://pflag.org/chapter/pflag-rochester/",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.va.gov/rochester-health-care/",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/office-violence-prevention/reentry-program",
+      "code": 403,
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://www.lionsclubs.org",
+      "code": 403,
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://ag.ny.gov/consumer-frauds-and-protection",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.criminaljustice.ny.gov/cleanslate",
+      "code": 404,
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://www.criminaljustice.ny.gov/pio/press_releases/2023-09-27_pressrelease.html",
+      "code": 404,
+      "note": "HTTP 404"
+    }
+  ],
+  "error_urls": [
+    {
+      "url": "https://www.rge.com",
+      "note": "Request timed out after 10s"
+    },
+    {
+      "url": "https://www.rochesterfec.org",
+      "note": "getaddrinfo ENOTFOUND www.rochesterfec.org"
+    },
+    {
+      "url": "/mental-health-wellness",
+      "note": "Invalid URL"
+    },
+    {
+      "url": "https://rochesteraa.com",
+      "note": "getaddrinfo ENOTFOUND rochesteraa.com"
+    },
+    {
+      "url": "https://lllrochester.org",
+      "note": "getaddrinfo ENOTFOUND lllrochester.org"
+    },
+    {
+      "url": "https://www.perinatalnetwork.org",
+      "note": "certificate has expired"
+    },
+    {
+      "url": "https://dfsrochester.org/",
+      "note": "getaddrinfo ENOTFOUND dfsrochester.org"
+    },
+    {
+      "url": "https://vlsp.org",
+      "note": "write EPROTO 349D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:918:SSL alert number 80\n"
+    },
+    {
+      "url": "https://eldersource.org",
+      "note": "write EPROTO 349D0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:openssl\\ssl\\record\\rec_layer_s3.c:918:SSL alert number 112\n"
+    },
+    {
+      "url": "https://www.bfroch.org",
+      "note": "getaddrinfo ENOTFOUND www.bfroch.org"
+    },
+    {
+      "url": "https://www.bivonacac.org",
+      "note": "certificate has expired"
+    },
+    {
+      "url": "https://saathirochester.org",
+      "note": "getaddrinfo ENOTFOUND saathirochester.org"
+    },
+    {
+      "url": "https://www.arcofmonroe.org",
+      "note": "getaddrinfo ENOTFOUND www.arcofmonroe.org"
+    },
+    {
+      "url": "https://www.marysplaceoutreach.org",
+      "note": "Hostname/IP does not match certificate's altnames: Host: www.marysplaceoutreach.org. is not in the cert's altnames: DNS:server313.com, DNS:www.server313.com"
+    },
+    {
+      "url": "https://www.voaupstateny.org",
+      "note": "read ECONNRESET"
+    },
+    {
+      "url": "https://www.dimitrihouse.org",
+      "note": "getaddrinfo ENOTFOUND www.dimitrihouse.org"
+    },
+    {
+      "url": "https://fvny.org",
+      "note": "getaddrinfo ENOTFOUND fvny.org"
+    },
+    {
+      "url": "https://www.housingjusticeny.org",
+      "note": "getaddrinfo ENOTFOUND www.housingjusticeny.org"
+    },
+    {
+      "url": "https://www.iactcenter.org",
+      "note": "Request timed out after 10s"
+    }
+  ],
+  "invalid_phones": [
+    {
+      "phone": "311",
+      "valid": false,
+      "type": "invalid_format",
+      "note": "Got 3 digits, expected 10 or 11"
+    },
+    {
+      "phone": "311",
+      "valid": false,
+      "type": "invalid_format",
+      "note": "Got 3 digits, expected 10 or 11"
+    },
+    {
+      "phone": "311",
+      "valid": false,
+      "type": "invalid_format",
+      "note": "Got 3 digits, expected 10 or 11"
+    },
+    {
+      "phone": "585-244-8400 ext.244",
+      "valid": false,
+      "type": "invalid_format",
+      "note": "Got 13 digits, expected 10 or 11"
+    },
+    {
+      "phone": "311",
+      "valid": false,
+      "type": "invalid_format",
+      "note": "Got 3 digits, expected 10 or 11"
+    }
+  ],
+  "dead_programs": [],
+  "all_urls": [
+    {
+      "url": "https://211lifeline.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://211lifeline.org/search.php",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://988lifeline.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.crisistextline.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://mybenefits.ny.gov/mybenefits/begin",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://mybenefits.ny.gov/mybenefits/begin",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.health.ny.gov/prevention/nutrition/wic/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://foodlinkny.org/find-food/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rcsdk12.org/nutrition",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/public-market",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lifespan-roch.org/meals-on-wheels",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.trilliumhealth.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://houseofmercyrochester.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.communityplace.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://otda.ny.gov/programs/heap/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 0
+    },
+    {
+      "url": "https://www.rge.com",
+      "status": "TIMEOUT",
+      "code": 0
+    },
+    {
+      "url": "https://www.nyserda.ny.gov/All-Programs/EmPower-New-York-Program",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.auw.org/freetaxprep",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.rochesterfec.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.racf.org/rmapi",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://nystateofhealth.ny.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://nystateofhealth.ny.gov/individual/checkCookie",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.jordanhealth.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.plannedparenthood.org/health-center/new-york/rochester",
+      "status": "DEAD",
+      "code": 403
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/dental",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://newyorkrxcard.com",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.health.ny.gov/health_care/epic/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://www.needymeds.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rxoutreach.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "/mental-health-wellness",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.rochesterregional.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/conditions-and-treatments/mobile-emergency-psychiatric-care",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://namiroc.org",
+      "status": "DEAD",
+      "code": 403
+    },
+    {
+      "url": "https://mharochester.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.villaofhope.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.compeerrochester.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://openpathcollective.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rochesterregional.org/services/hospice-care/our-services/bereavement-services",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/home-care/hospice-care/bereavement",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://find.griefshare.org/countries/us/states/ny/cities/rochester",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://ncadd-ra.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.hutherdoyle.com/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rocoveryfitness.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://nny-na.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rochesteraa.com",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.depaul.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.easthouse.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rochesterregional.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.urmc.rochester.edu/mental-health-wellness/addiction",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.rochesterhousing.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://providencehousing.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.grhabitat.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.ncpny.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.tenantdefense.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.fpgroc.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.thehousingcouncil.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/health",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://opendoormission.com",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.abvi.org/education/head-start/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://lllrochester.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://momshelpingmoms.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rcsdk12.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.perinatalnetwork.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://changent.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rochesterworks.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://pathstone.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.goodwillfingerlakes.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rocyouthemployment.com/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rochesterworks.org/services/after-school-youth-employment-program-roc-your-job/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.acces.nysed.gov/vr",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://dfsrochester.org/",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.nyssbdc.org/centers/centers-details.aspx?centid=15",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://hillside.com/2015/09/hillside-work-scholarship-connection-accredited-by-the-standards-for-excellence-institute/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.brockport.edu/reoc/",
+      "status": "DEAD",
+      "code": 403
+    },
+    {
+      "url": "https://www.lasroc.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lawny.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://vlsp.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.cityofrochester.gov/contact-us",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/city-council",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/legislature",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/elections",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.metrojustice.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/aging",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lifespan-roch.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lifespan-roch.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lifespan-roch.org/hiicap",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://agriculture.ny.gov/farming/senior-farmers-market-nutrition-program",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.cityofrochester.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://eldersource.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://teenempowerment.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs-youth",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.centerforyouth.net",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://bgcrochester.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.bfroch.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://rochesterymca.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/r-camps-summer-programs",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://willowcenterny.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.bivonacac.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://restoresas.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://opdv.ny.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.thehotline.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://childhelp.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rainn.org",
+      "status": "DEAD",
+      "code": 403
+    },
+    {
+      "url": "https://saathirochester.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.rcil.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://opwdd.ny.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cprochester.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.marycariola.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs-earlyintervention",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.monroecounty.gov/hs-preschoolspecialed",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://opwdd.ny.gov/types-services/self-direction",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.drny.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://autismup.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.arcofmonroe.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.health.ny.gov/health_care/medicaid/program/longterm/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://ww2.fcscharities.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.ibero.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.marysplaceoutreach.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.urbanleagueroc.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rocnynaacp2172.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.guidestar.org/profile/26-2367811",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rhrroc.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rochesterrefugeeservices.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rcsdk12.org/adulted",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://literacyrochester.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://roccitylibrary.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecc.edu",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecc.edu/admissions/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://hesc.ny.gov/find-aid/nys-grants-scholarships/excelsior-scholarship-program",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rochesterrainbowunion.com/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.trilliumhealth.org/services/the-mocha-center",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://translifeline.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.thetrevorproject.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://pflag.org/chapter/pflag-rochester/",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.va.gov/rochester-health-care/",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.voaupstateny.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://veteransoutreach.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.veteranscrisisline.net",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.myrts.com",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.health.ny.gov/health_care/medicaid/members/medtrans_overview.htm",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://www.lifespan-roch.org/transportation",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.ticket2riderochester.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lifelinesupport.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.ny.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.verizon.com/discounts/verizon-forward/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.pcsforpeople.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://easternusa.salvationarmy.org/empire/rochester/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.dimitrihouse.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://rawny.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/office-violence-prevention/reentry-program",
+      "status": "DEAD",
+      "code": 403
+    },
+    {
+      "url": "https://www.voaupny.org/services/reentry/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://delphirise.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://spirituschristi.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rocjpc.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.rochesterhopeforpets.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.all4petswny.com/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lollypop.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.thrivepetcare.com/locations/new-york/rochester/rochester-community-animal-clinic",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/health-nursing-STD-HIV",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/emergency-management/cool-sweep-how-stay-cool-during-summer-heat",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.monroecounty.gov/health-vitalrecords",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.ssa.gov/ssnumber/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://dmv.ny.gov/non-driver-id/get-a-non-driver-id",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.cityofrochester.gov/departments/city-clerk/passports",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.uscis.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "http://www.newhopefree.org/ils",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://ww2.fcscharities.org/services/immigration/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.centerforyouth.net/crisis-nurseries/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.vsp.com/eyes-of-hope",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.lionsclubs.org",
+      "status": "DEAD",
+      "code": 403
+    },
+    {
+      "url": "https://www.health.ny.gov",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://www.alz.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://parentnetworkwny.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://fvny.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://ww2.nycourts.gov/courts/7jd/Monroe/family/index.shtml",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://ww2.nycourts.gov/courts/7jd/Monroe/cityct/index.shtml",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://www.monroecounty.gov/da",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.nycourts.gov/courthelp/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://www.monroecounty.gov/clerk",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.nycourts.gov/courthelp/family/custodyVisitation.shtml",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://dhr.ny.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.housingjusticeny.org",
+      "status": "ERROR",
+      "code": 0
+    },
+    {
+      "url": "https://www.angelflightne.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://aircarealliance.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.mercymedical.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.myrts.com/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.uberhealth.com",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://hcr.ny.gov",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://dol.ny.gov/workforce-protections",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.eeoc.gov/filing-charge-discrimination",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://dol.ny.gov/unemployment/unemployment-insurance-assistance",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://applications.labor.ny.gov/IndividualReg",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 0
+    },
+    {
+      "url": "https://nycosh.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://otda.ny.gov/programs/fair-hearings/",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 0
+    },
+    {
+      "url": "https://nylag.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://communityhealthadvocates.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://nylag.org/immigration/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.iactcenter.org",
+      "status": "TIMEOUT",
+      "code": 0
+    },
+    {
+      "url": "https://www.consumerfinance.gov/complaint/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://ag.ny.gov/consumer-frauds-and-protection",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.nfcc.org",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.nycourts.gov/404/index.shtml",
+      "status": "LIVE_BOT_BLOCKED",
+      "code": 403
+    },
+    {
+      "url": "https://www.criminaljustice.ny.gov/cleanslate",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.criminaljustice.ny.gov/pio/press_releases/2023-09-27_pressrelease.html",
+      "status": "DEAD",
+      "code": 404
+    },
+    {
+      "url": "https://www.rochesterhope.org/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.facebook.com/ROCFoodNotBombs/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://rocmutualaid.com/",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FrochesterNYfoodrelief",
+      "status": "LIVE",
+      "code": 200
+    },
+    {
+      "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Froccovidmutualaid",
+      "status": "LIVE",
+      "code": 200
+    }
+  ]
+}

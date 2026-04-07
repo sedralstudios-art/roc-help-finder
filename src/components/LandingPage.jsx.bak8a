@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { LegalLibraryCategories, LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
+import { LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER.HELP — Landing Page v2
@@ -9,7 +9,7 @@ import { LegalLibraryCategories, LegalLibraryBrowse, LegalLibraryEntry } from ".
 // Brand: HF (product) / SS (studio)
 // ═══════════════════════════════════════════════════
 
-const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6, LEGAL_CATEGORY: 7 };
+const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6 };
 
 // URL <-> page mapping for history-based routing
 const PAGE_PATHS = {
@@ -30,17 +30,13 @@ const PATH_TO_PAGE = {
   "/know-your-rights": PAGES.LEGAL_LIBRARY,
 };
 
-// Parse current browser pathname → { page, entryId | null, categoryId | null }
+// Parse current browser pathname → { page, entryId | null }
 function parsePath(pathname) {
   const clean = (pathname || "/").replace(/\/+$/, "") || "/";
-  // Category: /know-your-rights/topic/[cat]
-  const topicMatch = clean.match(/^\/know-your-rights\/topic\/([a-z0-9-]+)$/i);
-  if (topicMatch) return { page: PAGES.LEGAL_CATEGORY, entryId: null, categoryId: topicMatch[1] };
-  // Entry: /know-your-rights/[id]
   const entryMatch = clean.match(/^\/know-your-rights\/([a-z0-9-]+)$/i);
-  if (entryMatch) return { page: PAGES.LEGAL_ENTRY, entryId: entryMatch[1], categoryId: null };
-  if (PATH_TO_PAGE[clean] !== undefined) return { page: PATH_TO_PAGE[clean], entryId: null, categoryId: null };
-  return { page: PAGES.HOME, entryId: null, categoryId: null };
+  if (entryMatch) return { page: PAGES.LEGAL_ENTRY, entryId: entryMatch[1] };
+  if (PATH_TO_PAGE[clean] !== undefined) return { page: PATH_TO_PAGE[clean], entryId: null };
+  return { page: PAGES.HOME, entryId: null };
 }
 
 const LANGS = [
@@ -458,7 +454,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const [page, setPage] = useState(PAGES.HOME);
   const [lang, setLang] = useState("en");
   const [selectedEntryId, setSelectedEntryId] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState(null);
   const [legalLang, setLegalLang] = useState("en");
   const [menuOpen, setMenuOpen] = useState(false);
   const [search, setSearch] = useState("");
@@ -487,7 +482,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   useEffect(() => {
     const parsed = parsePath(window.location.pathname);
     if (parsed.entryId) setSelectedEntryId(parsed.entryId);
-    if (parsed.categoryId) setSelectedCategory(parsed.categoryId);
     setPage(parsed.page);
   }, []);
 
@@ -496,7 +490,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     const onPop = () => {
       const parsed = parsePath(window.location.pathname);
       if (parsed.entryId) setSelectedEntryId(parsed.entryId);
-      if (parsed.categoryId) setSelectedCategory(parsed.categoryId);
       setPage(parsed.page);
       window.scrollTo(0, 0);
     };
@@ -528,17 +521,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     setPage(PAGES.LEGAL_ENTRY);
     setMenuOpen(false);
     const newPath = "/know-your-rights/" + id;
-    if (window.location.pathname !== newPath) {
-      try { window.history.pushState({}, "", newPath); } catch (e) {}
-    }
-    window.scrollTo(0, 0);
-  };
-
-  const openCategory = (cat) => {
-    setSelectedCategory(cat);
-    setPage(PAGES.LEGAL_CATEGORY);
-    setMenuOpen(false);
-    const newPath = "/know-your-rights/topic/" + cat;
     if (window.location.pathname !== newPath) {
       try { window.history.pushState({}, "", newPath); } catch (e) {}
     }
@@ -961,24 +943,13 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         </main>
       )}
 
-      {/* ═══════════════════ LEGAL LIBRARY (category overview) ═══════════════════ */}
+      {/* ═══════════════════ LEGAL LIBRARY (browse) ═══════════════════ */}
       {page === PAGES.LEGAL_LIBRARY && (
-        <LegalLibraryCategories
-          legalLang={legalLang}
-          setLegalLang={setLegalLang}
-          onOpenCategory={openCategory}
-          onBack={() => nav(PAGES.HOME)}
-        />
-      )}
-
-      {/* ═══════════════════ LEGAL LIBRARY (entries in category) ═══════════════════ */}
-      {page === PAGES.LEGAL_CATEGORY && (
         <LegalLibraryBrowse
           legalLang={legalLang}
           setLegalLang={setLegalLang}
-          categoryFilter={selectedCategory}
           onOpenEntry={openEntry}
-          onBack={() => nav(PAGES.LEGAL_LIBRARY)}
+          onBack={() => nav(PAGES.HOME)}
         />
       )}
 
@@ -988,12 +959,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           entryId={selectedEntryId}
           legalLang={legalLang}
           setLegalLang={setLegalLang}
-          onBack={() => {
-            // Back to the category list if we have one, else to library root
-            const cat = selectedCategory || (selectedEntryId && (require("./LegalLibrary").LegalLibraryBrowse ? null : null));
-            if (selectedCategory) { nav(PAGES.LEGAL_CATEGORY); openCategory(selectedCategory); }
-            else { nav(PAGES.LEGAL_LIBRARY); }
-          }}
+          onBack={() => nav(PAGES.LEGAL_LIBRARY)}
           onOpenEntry={openEntry}
         />
       )}
