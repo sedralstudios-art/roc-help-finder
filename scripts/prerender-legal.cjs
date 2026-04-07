@@ -1,23 +1,20 @@
 #!/usr/bin/env node
 /*
- * scripts/prerender-legal.cjs
- * ===========================
- * Generates static HTML for every legal entry at every language:
+ * scripts/prerender-legal.cjs  (v2 — category-first)
+ * ==================================================
+ * Generates static HTML for:
  *   - 46 entries × 20 languages = 920 entry pages
- *   - 20 library index pages (one per language)
- *   = 940 files total
+ *   - 7 categories × 20 languages = 140 category list pages
+ *   - 20 library index pages (category overview, one per language)
+ *   = 1,080 files total
  *
- * Each HTML file contains:
- *   - Per-language <html lang> and dir (ltr/rtl)
- *   - Unique <title> and meta description
- *   - Canonical URL pointing to self
- *   - hreflang linking all 20 language versions of the same content
- *   - Open Graph + Twitter tags
- *   - JSON-LD structured data (Article or CollectionPage)
+ * All URL tiers have:
+ *   - Per-language <html lang> + dir
+ *   - Unique <title>, meta description, canonical
+ *   - hreflang linking all 20 language versions of THIS page
+ *   - JSON-LD structured data
  *   - Real body content inside #root (Google crawls this directly)
- *   - React bundle tags (so user hydration works after crawler sees content)
- *
- * Runs automatically after `vite build` via package.json's build script.
+ *   - React bundle tags for client hydration
  */
 
 const fs = require('fs');
@@ -29,7 +26,6 @@ const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ENTRIES_DIR = path.join(ROOT, 'src', 'data', 'legal', 'entries');
 
-// ── Languages ──
 const LEGAL_LANGS = [
   { code: 'en', label: 'English', dir: 'ltr', htmlLang: 'en' },
   { code: 'es', label: 'Español', dir: 'ltr', htmlLang: 'es' },
@@ -53,14 +49,50 @@ const LEGAL_LANGS = [
   { code: 'sw', label: 'Kiswahili', dir: 'ltr', htmlLang: 'sw' },
 ];
 
-const CATEGORY_LABELS = {
-  benefits: 'Public Benefits',
-  consumer: 'Consumer Rights',
-  housing: 'Housing & Eviction',
-  family: 'Family & Child Care',
-  employment: 'Employment & Wages',
-  vehicle: 'Vehicle & Driver',
-  criminal: 'Criminal Record',
+// Category metadata — match LegalLibrary.jsx CATEGORY_META
+const CATEGORY_META = {
+  benefits: {
+    icon: '💰',
+    label: 'Public Benefits',
+    desc: 'SNAP, Medicaid, cash assistance, fair hearings, disability, appeals — your rights under New York public benefits law.',
+    seoKeywords: 'SNAP NY, Medicaid New York, cash assistance, fair hearing, public benefits rights, benefits appeal',
+  },
+  consumer: {
+    icon: '🛒',
+    label: 'Consumer Rights',
+    desc: 'Debt collection, scams, contracts, refunds, unfair business practices — how to fight back.',
+    seoKeywords: 'debt collection NY, consumer rights, scam protection, unfair practices, refund rights',
+  },
+  housing: {
+    icon: '🏠',
+    label: 'Housing & Eviction',
+    desc: 'Landlord disputes, eviction defense, security deposits, housing discrimination — know your housing rights.',
+    seoKeywords: 'eviction defense NY, landlord tenant, security deposit, housing discrimination, rent stabilization',
+  },
+  family: {
+    icon: '👨‍👩‍👧',
+    label: 'Family & Child Care',
+    desc: 'Child care assistance, custody, family support programs in New York.',
+    seoKeywords: 'child care assistance NY, custody, family support, child welfare rights',
+  },
+  employment: {
+    icon: '💼',
+    label: 'Employment & Wages',
+    desc: 'Wage theft, unpaid wages, overtime, workplace rights — how New York protects workers.',
+    seoKeywords: 'wage theft NY, unpaid wages, overtime rights, workplace protections, worker rights',
+  },
+  vehicle: {
+    icon: '🚗',
+    label: 'Vehicle & Driver',
+    desc: "Driver's license issues, suspensions, registration, traffic matters in New York.",
+    seoKeywords: "driver's license NY, license suspension, traffic ticket rights, vehicle registration",
+  },
+  criminal: {
+    icon: '⚖️',
+    label: 'Criminal Record',
+    desc: 'NY Clean Slate Act, sealing records, certificates of relief, expungement — clear your record.',
+    seoKeywords: 'NY Clean Slate Act, sealing criminal record, certificate of relief, expungement New York',
+  },
 };
 
 // ── Helpers ──
@@ -88,6 +120,11 @@ function pickArr(field, lang) {
 function urlPathForEntry(lang, entryId) {
   if (lang === 'en') return `/know-your-rights/${entryId}`;
   return `/${lang}/know-your-rights/${entryId}`;
+}
+
+function urlPathForCategory(lang, cat) {
+  if (lang === 'en') return `/know-your-rights/topic/${cat}`;
+  return `/${lang}/know-your-rights/topic/${cat}`;
 }
 
 function urlPathForLibrary(lang) {
@@ -118,21 +155,12 @@ function extractBundleTags(indexHTML) {
   return { scripts, links };
 }
 
-function buildHreflangEntry(entryId) {
+function buildHreflang(pathFn, arg) {
   const lines = LEGAL_LANGS.map((l) => {
-    const href = SITE_URL + urlPathForEntry(l.code, entryId);
+    const href = SITE_URL + pathFn(l.code, arg);
     return `    <link rel="alternate" hreflang="${l.htmlLang}" href="${esc(href)}" />`;
   });
-  lines.push(`    <link rel="alternate" hreflang="x-default" href="${esc(SITE_URL + urlPathForEntry('en', entryId))}" />`);
-  return lines.join('\n');
-}
-
-function buildHreflangLibrary() {
-  const lines = LEGAL_LANGS.map((l) => {
-    const href = SITE_URL + urlPathForLibrary(l.code);
-    return `    <link rel="alternate" hreflang="${l.htmlLang}" href="${esc(href)}" />`;
-  });
-  lines.push(`    <link rel="alternate" hreflang="x-default" href="${esc(SITE_URL + urlPathForLibrary('en'))}" />`);
+  lines.push(`    <link rel="alternate" hreflang="x-default" href="${esc(SITE_URL + pathFn('en', arg))}" />`);
   return lines.join('\n');
 }
 
@@ -140,37 +168,43 @@ function jsonLDSafe(obj) {
   return JSON.stringify(obj, null, 2).replace(/<\//g, '<\\/');
 }
 
-function buildJSONLDEntry(entry, langMeta) {
-  const lang = langMeta.code;
-  const canonical = SITE_URL + urlPathForEntry(lang, entry.id);
-  const title = pick(entry.title, lang);
-  const summary = pick(entry.summary, lang);
-  return jsonLDSafe({
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: title,
-    description: summary,
-    inLanguage: langMeta.htmlLang,
-    datePublished: entry.lastAudited || '2026-04-04',
-    dateModified: entry.lastAudited || '2026-04-04',
-    author: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
-    publisher: {
-      '@type': 'Organization',
-      name: 'HelpFinder',
-      url: SITE_URL,
-    },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
-    keywords: (entry.tags || []).join(', '),
-    about: { '@type': 'Thing', name: CATEGORY_LABELS[entry.category] || entry.category || 'Legal rights' },
-  });
-}
-
 function translationBanner(lang) {
   if (lang === 'en') return '';
   return '<div class="translation-banner">📖 <strong>Full translation in progress.</strong> This guide is being translated. Contact the free legal aid organizations listed at the bottom — many speak your language.</div>';
 }
 
-// ── Entry HTML ──
+// ── Shared CSS block ──
+const SHARED_CSS = `
+      body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1a1a1a; background: #fafaf7; }
+      .ssr-content { max-width: 920px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+      .ssr-content h1 { font-size: 32px; font-weight: 400; margin: 14px 0 10px; color: #1a1a1a; line-height: 1.25; }
+      .ssr-content h2 { font-size: 20px; font-weight: 400; margin: 24px 0 10px; color: #1a1a1a; }
+      .ssr-content .lead { font-size: 16px; color: #555; margin-bottom: 20px; font-weight: 500; }
+      .ssr-content ul { padding-inline-start: 22px; margin: 8px 0 16px; }
+      .ssr-content li { margin-bottom: 8px; font-size: 14px; }
+      .ssr-content .rights-box { background: #e8f5e9; border: 1px solid #c8e6c9; border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
+      .ssr-content .rights-box h2 { color: #2e7d32; margin-top: 0; }
+      .ssr-content .tier-badge { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 4px 8px; border-radius: 6px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+      .ssr-content .disclaimer { background: #fdf6ec; border: 1px solid #f0dab0; border-radius: 10px; padding: 12px 16px; margin: 20px 0; font-size: 12px; color: #555; }
+      .ssr-content .translation-banner { background: #fdf6ec; border: 1px solid #f0dab0; border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; color: #555; }
+      .ssr-content .counsel { padding: 0; list-style: none; }
+      .ssr-content .counsel li { background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; padding: 10px 14px; list-style: none; margin-bottom: 10px; }
+      .ssr-content .counsel .focus { font-size: 12px; color: #767676; }
+      .ssr-content .sources li { font-size: 11px; color: #767676; }
+      .ssr-content .sources a { color: #767676; word-break: break-all; }
+      .ssr-content .entry-list { list-style: none; padding: 0; display: grid; gap: 10px; margin: 0; }
+      .ssr-content .entry-list li a { display: block; padding: 12px 16px; background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; text-decoration: none; color: #1a1a1a; }
+      .ssr-content .entry-list li a strong { font-size: 15px; font-weight: 600; display: block; margin-bottom: 4px; }
+      .ssr-content .entry-list li a span { font-size: 13px; color: #555; }
+      .ssr-content .cat-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 8px; }
+      .ssr-content .cat-tile { background: #fff; border: 1px solid #e8e4dc; border-radius: 16px; padding: 18px 20px; text-decoration: none; color: #1a1a1a; display: flex; flex-direction: column; gap: 8px; min-height: 140px; }
+      .ssr-content .cat-tile .cat-icon { font-size: 36px; line-height: 1; }
+      .ssr-content .cat-tile .cat-label { font-size: 18px; font-weight: 700; color: #1a1a1a; font-family: 'DM Serif Display', Georgia, serif; }
+      .ssr-content .cat-tile .cat-desc { font-size: 13px; color: #555; line-height: 1.5; flex: 1; }
+      .ssr-content .cat-tile .cat-count { font-size: 12px; font-weight: 600; color: #2e7d32; margin-top: 4px; }
+`;
+
+// ── Entry page ──
 function generateEntryHTML(entry, langMeta, bundleTags) {
   const lang = langMeta.code;
   const canonical = SITE_URL + urlPathForEntry(lang, entry.id);
@@ -199,34 +233,39 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     ? '<h2>Legal options</h2><ul>' + options.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul>'
     : '';
   const exampleHTML = example ? '<h2>Example</h2><p><em>' + esc(example) + '</em></p>' : '';
-
   const counselHTML = counsel.length
     ? '<h2>Get free legal help</h2><ul class="counsel">' +
       counsel
         .map((c) => {
-          let html = '<li><strong>' + esc(c.name || '') + '</strong>';
-          if (c.phone) {
-            const cleanPhone = c.phone.replace(/[^0-9+]/g, '');
-            html += ' — <a href="tel:' + esc(cleanPhone) + '">' + esc(c.phone) + '</a>';
-          }
-          if (c.url) {
-            html += ' — <a href="' + esc(c.url) + '" rel="noopener">website</a>';
-          }
-          if (c.focus) {
-            html += '<br><span class="focus">' + esc(c.focus) + '</span>';
-          }
-          html += '</li>';
-          return html;
+          let h = '<li><strong>' + esc(c.name || '') + '</strong>';
+          if (c.phone) h += ' — <a href="tel:' + esc(c.phone.replace(/[^0-9+]/g, '')) + '">' + esc(c.phone) + '</a>';
+          if (c.url) h += ' — <a href="' + esc(c.url) + '" rel="noopener">website</a>';
+          if (c.focus) h += '<br><span class="focus">' + esc(c.focus) + '</span>';
+          return h + '</li>';
         })
         .join('') +
       '</ul>'
     : '';
-
   const sourcesHTML = sources.length
     ? '<h2>Sources</h2><ul class="sources">' +
       sources.map((s) => '<li><a href="' + esc(s) + '" rel="noopener">' + esc(s) + '</a></li>').join('') +
       '</ul>'
     : '';
+
+  const jsonLD = jsonLDSafe({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description: summary,
+    inLanguage: langMeta.htmlLang,
+    datePublished: entry.lastAudited || '2026-04-04',
+    dateModified: entry.lastAudited || '2026-04-04',
+    author: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
+    publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+    keywords: tags.join(', '),
+    about: { '@type': 'Thing', name: (CATEGORY_META[entry.category] && CATEGORY_META[entry.category].label) || entry.category || 'Legal rights' },
+  });
 
   return `<!DOCTYPE html>
 <html lang="${esc(langMeta.htmlLang)}" dir="${langMeta.dir}">
@@ -247,31 +286,13 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(metaDesc)}" />
-${buildHreflangEntry(entry.id)}
+${buildHreflang(urlPathForEntry, entry.id)}
     <script type="application/ld+json">
-${buildJSONLDEntry(entry, langMeta)}
+${jsonLD}
     </script>
     ${bundleTags.links}
     ${bundleTags.scripts}
-    <style>
-      body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1a1a1a; background: #fafaf7; }
-      .ssr-content { max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-      .ssr-content h1 { font-size: 28px; font-weight: 400; margin: 14px 0 10px; color: #1a1a1a; line-height: 1.25; }
-      .ssr-content h2 { font-size: 20px; font-weight: 400; margin: 24px 0 10px; color: #1a1a1a; }
-      .ssr-content .lead { font-size: 16px; color: #555; margin-bottom: 20px; font-weight: 500; }
-      .ssr-content ul { padding-inline-start: 22px; margin: 8px 0 16px; }
-      .ssr-content li { margin-bottom: 8px; font-size: 14px; }
-      .ssr-content .rights-box { background: #e8f5e9; border: 1px solid #c8e6c9; border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
-      .ssr-content .rights-box h2 { color: #2e7d32; margin-top: 0; }
-      .ssr-content .tier-badge { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 4px 8px; border-radius: 6px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
-      .ssr-content .disclaimer { background: #fdf6ec; border: 1px solid #f0dab0; border-radius: 10px; padding: 12px 16px; margin: 20px 0; font-size: 12px; color: #555; }
-      .ssr-content .translation-banner { background: #fdf6ec; border: 1px solid #f0dab0; border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; color: #555; }
-      .ssr-content .counsel li { background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; padding: 10px 14px; list-style: none; }
-      .ssr-content .counsel { padding: 0; }
-      .ssr-content .counsel .focus { font-size: 12px; color: #767676; }
-      .ssr-content .sources li { font-size: 11px; color: #767676; }
-      .ssr-content .sources a { color: #767676; word-break: break-all; }
-    </style>
+    <style>${SHARED_CSS}</style>
   </head>
   <body>
     <div id="root">
@@ -297,32 +318,20 @@ ${buildJSONLDEntry(entry, langMeta)}
 </html>`;
 }
 
-// ── Library index HTML ──
-function generateLibraryHTML(entries, langMeta, bundleTags) {
+// ── Category page (list of entries in one category) ──
+function generateCategoryHTML(cat, entriesInCat, langMeta, bundleTags) {
   const lang = langMeta.code;
-  const canonical = SITE_URL + urlPathForLibrary(lang);
-  const pageTitle = 'Know Your Rights — Free Legal Guides for New York | HelpFinder';
-  const metaDesc = entries.length + ' free legal guides for New York covering benefits, housing, employment, consumer rights, family, and criminal record issues. Plain language, verified, with free legal aid phone numbers.';
+  const meta = CATEGORY_META[cat] || { icon: '📄', label: cat, desc: '', seoKeywords: '' };
+  const canonical = SITE_URL + urlPathForCategory(lang, cat);
+  const pageTitle = meta.label + ' — Your Rights in New York | HelpFinder';
+  const metaDesc = meta.desc + ' ' + entriesInCat.length + ' free guides with free legal aid phone numbers.';
 
-  const byCategory = {};
-  for (const e of entries) {
-    const cat = e.category || 'other';
-    (byCategory[cat] = byCategory[cat] || []).push(e);
-  }
-  const categories = Object.keys(byCategory).sort();
-
-  const catHTML = categories
-    .map((cat) => {
-      const label = CATEGORY_LABELS[cat] || cat;
-      const items = byCategory[cat]
-        .map((e) => {
-          const t = pick(e.title, lang);
-          const s = pick(e.summary, lang);
-          const href = urlPathForEntry(lang, e.id);
-          return '<li><a href="' + esc(href) + '"><strong>' + esc(t) + '</strong><br><span>' + esc(s) + '</span></a></li>';
-        })
-        .join('');
-      return '<section><h2>' + esc(label) + ' (' + byCategory[cat].length + ')</h2><ul class="entry-list">' + items + '</ul></section>';
+  const itemsHTML = entriesInCat
+    .map((e) => {
+      const t = pick(e.title, lang);
+      const s = pick(e.summary, lang);
+      const href = urlPathForEntry(lang, e.id);
+      return '<li><a href="' + esc(href) + '"><strong>' + esc(t) + '</strong><span>' + esc(s) + '</span></a></li>';
     })
     .join('');
 
@@ -334,11 +343,97 @@ function generateLibraryHTML(entries, langMeta, bundleTags) {
     inLanguage: langMeta.htmlLang,
     url: canonical,
     publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
-    hasPart: entries.map((e) => ({
+    about: { '@type': 'Thing', name: meta.label },
+    hasPart: entriesInCat.map((e) => ({
       '@type': 'Article',
       headline: pick(e.title, lang),
       url: SITE_URL + urlPathForEntry(lang, e.id),
     })),
+  });
+
+  return `<!DOCTYPE html>
+<html lang="${esc(langMeta.htmlLang)}" dir="${langMeta.dir}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${esc(pageTitle)}</title>
+    <meta name="description" content="${esc(metaDesc)}" />
+    <meta name="keywords" content="${esc(meta.seoKeywords)}" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="${esc(canonical)}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="${esc(pageTitle)}" />
+    <meta property="og:description" content="${esc(metaDesc)}" />
+    <meta property="og:url" content="${esc(canonical)}" />
+    <meta property="og:site_name" content="HelpFinder" />
+    <meta property="og:locale" content="${esc(langMeta.htmlLang.replace('-', '_'))}" />
+${buildHreflang(urlPathForCategory, cat)}
+    <script type="application/ld+json">
+${jsonLD}
+    </script>
+    ${bundleTags.links}
+    ${bundleTags.scripts}
+    <style>${SHARED_CSS}</style>
+  </head>
+  <body>
+    <div id="root">
+      <article class="ssr-content">
+        ${translationBanner(lang)}
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:8px;">
+          <div style="font-size:40px;line-height:1;">${meta.icon}</div>
+          <h1 style="margin:0;">${esc(meta.label)}</h1>
+        </div>
+        <p class="lead">${esc(meta.desc)}</p>
+        <p style="font-size:12px;color:#767676;">${entriesInCat.length} guide${entriesInCat.length === 1 ? '' : 's'}</p>
+        <ul class="entry-list">
+          ${itemsHTML}
+        </ul>
+        <div class="disclaimer">⚠️ <strong>Not legal advice.</strong> These guides explain your general rights under New York and federal law. Laws change. For your specific situation, use the free legal aid resources listed in each guide.</div>
+      </article>
+    </div>
+  </body>
+</html>`;
+}
+
+// ── Library index (7-tile category overview) ──
+function generateLibraryHTML(entries, entriesByCategory, langMeta, bundleTags) {
+  const lang = langMeta.code;
+  const canonical = SITE_URL + urlPathForLibrary(lang);
+  const pageTitle = 'Know Your Rights — Free Legal Guides for New York | HelpFinder';
+  const metaDesc = entries.length + ' free legal guides for New York covering benefits, housing, employment, consumer rights, family, vehicle, and criminal record. Plain language, verified, with free legal aid phone numbers.';
+
+  const tileHTML = Object.keys(CATEGORY_META)
+    .filter((cat) => (entriesByCategory[cat] || []).length > 0)
+    .map((cat) => {
+      const m = CATEGORY_META[cat];
+      const count = (entriesByCategory[cat] || []).length;
+      const href = urlPathForCategory(lang, cat);
+      return (
+        '<a class="cat-tile" href="' + esc(href) + '">' +
+        '<div class="cat-icon">' + m.icon + '</div>' +
+        '<div class="cat-label">' + esc(m.label) + '</div>' +
+        '<div class="cat-desc">' + esc(m.desc) + '</div>' +
+        '<div class="cat-count">' + count + ' guide' + (count === 1 ? '' : 's') + ' →</div>' +
+        '</a>'
+      );
+    })
+    .join('');
+
+  const jsonLD = jsonLDSafe({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: pageTitle,
+    description: metaDesc,
+    inLanguage: langMeta.htmlLang,
+    url: canonical,
+    publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
+    hasPart: Object.keys(CATEGORY_META)
+      .filter((cat) => (entriesByCategory[cat] || []).length > 0)
+      .map((cat) => ({
+        '@type': 'CollectionPage',
+        name: CATEGORY_META[cat].label,
+        url: SITE_URL + urlPathForCategory(lang, cat),
+      })),
   });
 
   return `<!DOCTYPE html>
@@ -356,24 +451,13 @@ function generateLibraryHTML(entries, langMeta, bundleTags) {
     <meta property="og:url" content="${esc(canonical)}" />
     <meta property="og:site_name" content="HelpFinder" />
     <meta property="og:locale" content="${esc(langMeta.htmlLang.replace('-', '_'))}" />
-${buildHreflangLibrary()}
+${buildHreflang(urlPathForLibrary)}
     <script type="application/ld+json">
 ${jsonLD}
     </script>
     ${bundleTags.links}
     ${bundleTags.scripts}
-    <style>
-      body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1a1a1a; background: #fafaf7; }
-      .ssr-content { max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-      .ssr-content h1 { font-size: 32px; font-weight: 400; margin: 16px 0 6px; }
-      .ssr-content h2 { font-size: 22px; font-weight: 400; margin: 28px 0 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px; }
-      .ssr-content .lead { font-size: 16px; color: #555; margin-bottom: 20px; }
-      .ssr-content .entry-list { list-style: none; padding: 0; display: grid; gap: 10px; margin: 0; }
-      .ssr-content .entry-list li a { display: block; padding: 12px 16px; background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; text-decoration: none; color: #1a1a1a; }
-      .ssr-content .entry-list li a strong { font-size: 15px; font-weight: 600; display: block; margin-bottom: 4px; }
-      .ssr-content .entry-list li a span { font-size: 13px; color: #555; }
-      .ssr-content .translation-banner { background: #fdf6ec; border: 1px solid #f0dab0; border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; color: #555; }
-    </style>
+    <style>${SHARED_CSS}</style>
   </head>
   <body>
     <div id="root">
@@ -381,7 +465,11 @@ ${jsonLD}
         ${translationBanner(lang)}
         <h1>Know Your Rights</h1>
         <p class="lead">${esc(metaDesc)}</p>
-        ${catHTML}
+        <p style="font-size:13px;color:#767676;">Pick a topic below to see the guides.</p>
+        <div class="cat-tiles">
+          ${tileHTML}
+        </div>
+        <div class="disclaimer">⚠️ <strong>Not legal advice.</strong> These guides explain your general rights under New York and federal law. Laws change. For your specific situation, use the free legal aid resources listed in each guide.</div>
       </article>
     </div>
   </body>
@@ -390,7 +478,7 @@ ${jsonLD}
 
 // ── Main ──
 async function main() {
-  console.log('Prerender legal library...');
+  console.log('Prerender legal library (v2 category-first)...');
 
   const distIndexPath = path.join(DIST, 'index.html');
   if (!fs.existsSync(distIndexPath)) {
@@ -403,35 +491,58 @@ async function main() {
     console.error('ERROR: Could not extract bundle script tags from dist/index.html.');
     process.exit(1);
   }
-  console.log('✓ Extracted bundle tags from dist/index.html');
+  console.log('✓ Extracted bundle tags');
 
   const entries = await loadEntries();
   console.log('✓ Loaded ' + entries.length + ' entries');
 
+  // Group by category
+  const entriesByCategory = {};
+  for (const e of entries) {
+    const cat = e.category || 'other';
+    (entriesByCategory[cat] = entriesByCategory[cat] || []).push(e);
+  }
+  const activeCategories = Object.keys(CATEGORY_META).filter((c) => (entriesByCategory[c] || []).length > 0);
+  console.log('✓ ' + activeCategories.length + ' active categories: ' + activeCategories.join(', '));
+
   let fileCount = 0;
 
+  // 1. Entry pages
   for (const langMeta of LEGAL_LANGS) {
     for (const entry of entries) {
       const html = generateEntryHTML(entry, langMeta, bundleTags);
-      const urlPath = urlPathForEntry(langMeta.code, entry.id);
-      const outDir = path.join(DIST, urlPath.replace(/^\//, ''));
+      const outDir = path.join(DIST, urlPathForEntry(langMeta.code, entry.id).replace(/^\//, ''));
       fs.mkdirSync(outDir, { recursive: true });
       fs.writeFileSync(path.join(outDir, 'index.html'), html);
       fileCount++;
     }
   }
+  console.log('✓ Wrote ' + (entries.length * LEGAL_LANGS.length) + ' entry pages');
 
+  // 2. Category list pages
   for (const langMeta of LEGAL_LANGS) {
-    const html = generateLibraryHTML(entries, langMeta, bundleTags);
-    const urlPath = urlPathForLibrary(langMeta.code);
-    const outDir = path.join(DIST, urlPath.replace(/^\//, ''));
+    for (const cat of activeCategories) {
+      const html = generateCategoryHTML(cat, entriesByCategory[cat], langMeta, bundleTags);
+      const outDir = path.join(DIST, urlPathForCategory(langMeta.code, cat).replace(/^\//, ''));
+      fs.mkdirSync(outDir, { recursive: true });
+      fs.writeFileSync(path.join(outDir, 'index.html'), html);
+      fileCount++;
+    }
+  }
+  console.log('✓ Wrote ' + (activeCategories.length * LEGAL_LANGS.length) + ' category pages');
+
+  // 3. Library index pages (7-tile overview)
+  for (const langMeta of LEGAL_LANGS) {
+    const html = generateLibraryHTML(entries, entriesByCategory, langMeta, bundleTags);
+    const outDir = path.join(DIST, urlPathForLibrary(langMeta.code).replace(/^\//, ''));
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, 'index.html'), html);
     fileCount++;
   }
+  console.log('✓ Wrote ' + LEGAL_LANGS.length + ' library index pages');
 
-  console.log('✓ Wrote ' + fileCount + ' pre-rendered HTML files');
-  console.log('  = ' + entries.length + ' entries × ' + LEGAL_LANGS.length + ' languages + ' + LEGAL_LANGS.length + ' library index pages');
+  console.log('');
+  console.log('Total: ' + fileCount + ' pre-rendered HTML files');
   console.log('Done.');
 }
 

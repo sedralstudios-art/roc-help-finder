@@ -1,14 +1,17 @@
 #!/usr/bin/env node
 /*
- * scripts/generate-sitemap.cjs  (v2 — with category URLs)
- * =======================================================
- * Writes dist/sitemap.xml with all 1,085 URLs:
- *   - 5 static pages
+ * scripts/generate-sitemap.cjs
+ * ============================
+ * Writes dist/sitemap.xml with all 945 URLs:
+ *   - 5 static pages (/, /about, /support, /privacy, /terms)
  *   - 20 library index pages (1 per language)
- *   - 140 category list pages (7 categories × 20 languages)  ← NEW
  *   - 920 entry pages (46 × 20 languages)
  *
- * Each URL includes xhtml:link hreflang alternates for all 20 language versions.
+ * Each URL includes xhtml:link hreflang alternates for all 20 language
+ * versions — Google's recommended multilingual sitemap format for sites
+ * with the same content available in multiple languages.
+ *
+ * Runs automatically after prerender-legal.cjs via package.json build.
  */
 
 const fs = require('fs');
@@ -43,8 +46,6 @@ const LEGAL_LANGS = [
   { code: 'sw', htmlLang: 'sw' },
 ];
 
-const CATEGORIES = ['benefits', 'consumer', 'housing', 'family', 'employment', 'vehicle', 'criminal'];
-
 const STATIC_PAGES = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
   { path: '/about', priority: '0.6', changefreq: 'monthly' },
@@ -65,11 +66,6 @@ function xmlEsc(s) {
 function urlPathForEntry(lang, id) {
   if (lang === 'en') return '/know-your-rights/' + id;
   return '/' + lang + '/know-your-rights/' + id;
-}
-
-function urlPathForCategory(lang, cat) {
-  if (lang === 'en') return '/know-your-rights/topic/' + cat;
-  return '/' + lang + '/know-your-rights/topic/' + cat;
 }
 
 function urlPathForLibrary(lang) {
@@ -109,7 +105,7 @@ function buildUrlBlock(loc, lastmod, changefreq, priority, alternates) {
 }
 
 async function main() {
-  console.log('Generate sitemap.xml (v2 with categories)...');
+  console.log('Generate sitemap.xml...');
 
   if (!fs.existsSync(DIST)) {
     console.error('ERROR: dist/ not found. Run "vite build" first.');
@@ -119,27 +115,19 @@ async function main() {
   const entries = await loadEntries();
   console.log('✓ Loaded ' + entries.length + ' entries');
 
-  // Filter to categories that have entries
-  const entriesByCat = {};
-  for (const e of entries) {
-    const cat = e.category || 'other';
-    (entriesByCat[cat] = entriesByCat[cat] || []).push(e);
-  }
-  const activeCategories = CATEGORIES.filter((c) => (entriesByCat[c] || []).length > 0);
-
   const today = todayISO();
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
 
   let urlCount = 0;
 
-  // 1. Static pages
+  // Static pages
   for (const p of STATIC_PAGES) {
     xml += buildUrlBlock(SITE_URL + p.path, today, p.changefreq, p.priority, null);
     urlCount++;
   }
 
-  // 2. Library index pages (20 languages)
+  // Library index pages — all 20 languages
   for (const lang of LEGAL_LANGS) {
     const loc = SITE_URL + urlPathForLibrary(lang.code);
     const alternates = LEGAL_LANGS.map((l) => ({
@@ -151,21 +139,7 @@ async function main() {
     urlCount++;
   }
 
-  // 3. Category list pages (7 × 20 = 140)  ← NEW
-  for (const lang of LEGAL_LANGS) {
-    for (const cat of activeCategories) {
-      const loc = SITE_URL + urlPathForCategory(lang.code, cat);
-      const alternates = LEGAL_LANGS.map((l) => ({
-        hreflang: l.htmlLang,
-        href: SITE_URL + urlPathForCategory(l.code, cat),
-      }));
-      alternates.push({ hreflang: 'x-default', href: SITE_URL + urlPathForCategory('en', cat) });
-      xml += buildUrlBlock(loc, today, 'weekly', '0.85', alternates);
-      urlCount++;
-    }
-  }
-
-  // 4. Entry pages (46 × 20 = 920)
+  // Entry pages — 46 × 20
   for (const lang of LEGAL_LANGS) {
     for (const entry of entries) {
       const loc = SITE_URL + urlPathForEntry(lang.code, entry.id);
@@ -185,7 +159,7 @@ async function main() {
   const sitemapPath = path.join(DIST, 'sitemap.xml');
   fs.writeFileSync(sitemapPath, xml, 'utf8');
   console.log('✓ Wrote ' + sitemapPath);
-  console.log('  = ' + urlCount + ' URLs (' + STATIC_PAGES.length + ' static + ' + LEGAL_LANGS.length + ' library + ' + (activeCategories.length * LEGAL_LANGS.length) + ' category + ' + (LEGAL_LANGS.length * entries.length) + ' entries)');
+  console.log('  = ' + urlCount + ' URLs (' + STATIC_PAGES.length + ' static + ' + LEGAL_LANGS.length + ' library + ' + (LEGAL_LANGS.length * entries.length) + ' entries)');
   console.log('Done.');
 }
 
