@@ -132,42 +132,6 @@ function urlPathForLibrary(lang) {
   return `/${lang}/know-your-rights`;
 }
 
-async function loadTranslations() {
-  const dir = path.join(ROOT, 'src', 'data', 'legal', 'translations');
-  if (!fs.existsSync(dir)) return {};
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.js'));
-  const out = {};
-  for (const f of files) {
-    const lang = path.basename(f, '.js');
-    const abs = path.join(dir, f);
-    const mod = await import(pathToFileURL(abs).href);
-    out[lang] = (mod && mod.default) || mod || {};
-  }
-  return out;
-}
-
-function applyTranslations(entries, translations) {
-  const STRING_FIELDS = ['title', 'summary', 'whatItMeans', 'example'];
-  const ARRAY_FIELDS = ['whoQualifies', 'yourRights', 'legalOptions'];
-  for (const entry of entries) {
-    if (!entry || !entry.id) continue;
-    for (const lang of Object.keys(translations)) {
-      const t = translations[lang] && translations[lang][entry.id];
-      if (!t) continue;
-      for (const f of STRING_FIELDS) {
-        if (t[f] && entry[f] && typeof entry[f] === 'object') {
-          entry[f][lang] = t[f];
-        }
-      }
-      for (const f of ARRAY_FIELDS) {
-        if (Array.isArray(t[f]) && entry[f] && typeof entry[f] === 'object') {
-          entry[f][lang] = t[f];
-        }
-      }
-    }
-  }
-}
-
 async function loadEntries() {
   const files = fs.readdirSync(ENTRIES_DIR).filter((f) => f.endsWith('.js'));
   const entries = [];
@@ -531,15 +495,6 @@ async function main() {
 
   const entries = await loadEntries();
   console.log('✓ Loaded ' + entries.length + ' entries');
-
-  const translations = await loadTranslations();
-  const translatedLangs = Object.keys(translations);
-  if (translatedLangs.length > 0) {
-    applyTranslations(entries, translations);
-    console.log('✓ Merged translations for: ' + translatedLangs.join(', '));
-  } else {
-    console.log('ℹ No translation files yet — all languages fall back to English');
-  }
 
   // Group by category
   const entriesByCategory = {};
