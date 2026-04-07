@@ -1,6 +1,6 @@
 // src/data/legal/translations/es.js
 // ====================================================================
-// SPANISH TRANSLATIONS — Batch 1 (15 benefits entries)
+// SPANISH TRANSLATIONS — Batches 1 + 2 (30 entries)
 // ====================================================================
 // Scope (Option C): title + summary + yourRights only.
 // Body fields (whoQualifies, whatItMeans, legalOptions, example) remain
@@ -10,8 +10,7 @@
 //   - Formal "usted" form throughout (appropriate for legal content)
 //   - Latin American Spanish norms (Rochester demographics)
 //   - Program names preserved: SNAP, Medicaid, HEAP, QMB, QI, EITC, etc.
-//   - Organization names preserved in English
-//   - Statute references preserved in English
+//   - Organization names and statute references preserved in English
 //   - Phone numbers preserved as-is
 //
 // ⚠️ AI-generated. Not certified legal translation. Needs native-speaker
@@ -19,6 +18,10 @@
 // ====================================================================
 
 export default {
+  // ────────────────────────────────────────────────────────────────
+  // BATCH 1 — 15 benefits entries
+  // ────────────────────────────────────────────────────────────────
+
   "lifeline-phone-program-fed": {
     title: "Lifeline — Servicio Telefónico e Internet con Descuento",
     summary:
@@ -130,7 +133,7 @@ export default {
     yourRights: [
       "Tiene derecho a reclamar el EITC presentando una declaración de impuestos federal y del Estado de Nueva York, incluso si su ingreso es demasiado bajo para deber impuestos.",
       "Tiene derecho a reclamar el crédito por hasta tres años fiscales anteriores si era elegible pero no presentó su declaración.",
-      "Tiene derecho a recibir ayuda gratuita con la preparación de impuestos si su ingreso está por debajo de ciertos límites, a través de los sitios del programa VITA del IRS y otros programas gratuitos.",
+      "Tiene derecho a ayuda gratuita con la preparación de impuestos si su ingreso está por debajo de ciertos límites, a través de los sitios del programa VITA del IRS y otros programas gratuitos.",
       "Tiene derecho a presentar su declaración estatal de Nueva York de forma gratuita a través del programa Free File del Departamento de Impuestos y Finanzas del Estado de Nueva York.",
       "Tiene derecho a recibir tanto el EITC federal como el estatal. Recibir el EITC no reduce sus beneficios de SNAP, Medicaid u otros beneficios públicos.",
     ],
@@ -237,6 +240,234 @@ export default {
       "Las familias tienen derecho a recibir las comidas sin completar una solicitud o proporcionar documentación.",
       "Si una escuela pide a las familias completar un formulario de ingresos del hogar, las familias tienen derecho a saber que el formulario es para fines de financiamiento escolar y no es obligatorio para recibir las comidas.",
       "Las familias que reciben SNAP o TANF tienen derecho a ser certificadas automáticamente para comidas gratuitas a través de la Certificación Directa sin completar un formulario separado.",
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────────
+  // BATCH 2 — 15 entries (benefits + housing + family + criminal + vehicle)
+  // ────────────────────────────────────────────────────────────────
+
+  "eviction-process-ny": {
+    title: "Proceso de Desalojo — Lo Que Su Arrendador Debe Hacer Antes de Que Puedan Sacarlo",
+    summary:
+      "En Nueva York, un arrendador no puede forzarlo a salir de su hogar sin pasar por los tribunales. Solo un juez puede ordenar un desalojo, y solo un alguacil o marshal puede ejecutarlo. Cambiar cerraduras, cortar servicios públicos o remover sus pertenencias sin una orden judicial es ilegal.",
+    yourRights: [
+      "Tiene derecho a permanecer en su hogar hasta que un tribunal ordene lo contrario. Ningún arrendador puede sacarlo, cambiarle las cerraduras o cortarle los servicios públicos sin una orden judicial (RPAPL § 768).",
+      "En un caso de falta de pago, tiene derecho a detener el desalojo pagando toda la renta adeudada en cualquier momento antes de que el tribunal emita una sentencia (RPAPL § 731(4)).",
+      "Tiene derecho a recibir un aviso por escrito adecuado antes de que se presente cualquier caso judicial — 14 días para demandas de renta, y 30, 60 o 90 días para no renovación dependiendo de cuánto tiempo haya vivido allí (RPL § 226-c).",
+      "Tiene derecho a comparecer ante el tribunal, presentar evidencia y plantear defensas, incluyendo incumplimiento de la garantía de habitabilidad, represalias o notificación indebida.",
+      "Después de que se emita una orden de desalojo, tiene derecho a al menos 14 días de aviso antes de que un alguacil o marshal pueda ejecutar el desalojo (RPAPL § 749).",
+      "Puede solicitar una suspensión del desalojo por hasta un año en casos de dificultades económicas si no puede encontrar vivienda similar en el área (RPAPL § 753).",
+      "Si su arrendador usa fuerza, amenazas, cambio de cerraduras o corte de servicios públicos para sacarlo sin una orden judicial, puede tener derecho a daños triplicados (RPAPL § 853).",
+    ],
+  },
+
+  "section-8-housing-voucher-ny": {
+    title: "Sección 8 — Vales de Elección de Vivienda para Ayudar a Pagar la Renta",
+    summary:
+      "El programa de Vales de Elección de Vivienda de la Sección 8 ayuda a familias de bajos ingresos, adultos mayores y personas con discapacidad a pagar viviendas de alquiler seguras. Si califica, el gobierno paga parte de su renta directamente a su arrendador. Las listas de espera suelen ser largas, pero solicitar cuando una lista esté abierta es el primer paso.",
+    yourRights: [
+      "Tiene derecho a solicitar la Sección 8 cuando una lista de espera esté abierta. Las solicitudes son gratuitas — es ilegal que alguien le cobre una tarifa por una solicitud de la Sección 8.",
+      "Tiene derecho a usar su vale en cualquier unidad de alquiler que cumpla con los requisitos del programa, incluyendo unidades fuera del condado donde solicitó.",
+      "Bajo las leyes de derechos humanos del Estado de Nueva York y locales, los arrendadores no pueden negarse a alquilarle porque usted tenga un vale de vivienda. Esto se llama discriminación por fuente de ingresos y es ilegal en Nueva York.",
+      "Tiene derecho a una audiencia si su vale es terminado o si le niegan la asistencia.",
+      "Tiene derecho a solicitar un acomodo razonable si usted o un miembro de su hogar tiene una discapacidad.",
+      "Tiene derecho a mudarse a un nuevo hogar con su vale siempre que siga las reglas de transferencia del programa.",
+    ],
+  },
+
+  "snap-after-conviction-ny": {
+    title: "SNAP Después de una Condena — Aún Puede Recibir Beneficios de Alimentos en Nueva York",
+    summary:
+      "Nueva York se ha retirado completamente de la prohibición federal de beneficios de SNAP para personas con condenas por delitos graves de drogas. Un antecedente penal no lo descalifica de SNAP, Medicaid o Asistencia Temporal en Nueva York. Si cumple con los requisitos de ingresos y elegibilidad, puede recibir beneficios sin importar su historial criminal.",
+    yourRights: [
+      "Tiene derecho a solicitar SNAP, Medicaid y Asistencia Temporal sin importar su historial criminal.",
+      "Tiene derecho a recibir beneficios de SNAP incluso si tiene una condena por delito grave de drogas. Nueva York se ha retirado completamente de la prohibición federal por delitos de drogas.",
+      "Tiene derecho a solicitar beneficios antes de su liberación de la cárcel para que la cobertura pueda comenzar inmediatamente al reingresar a la comunidad.",
+      "Tiene derecho a que sus beneficios sean restablecidos después de su liberación de la cárcel si los estaba recibiendo antes.",
+      "Tiene derecho a una audiencia imparcial si su solicitud es negada por cualquier razón relacionada con su historial criminal que usted considere incorrecta.",
+      "Tiene derecho a continuar recibiendo beneficios durante un arresto y caso criminal pendiente, siempre que no esté encarcelado y continúe cumpliendo con todos los requisitos del programa.",
+    ],
+  },
+
+  "snap-expedited-ny": {
+    title: "SNAP Acelerado — Beneficios de Alimentos de Emergencia en 7 Días",
+    summary:
+      "Si tiene muy poco o ningún ingreso y necesita alimentos de inmediato, puede calificar para beneficios acelerados de SNAP. La ley requiere que estos beneficios se emitan dentro de los 7 días de su solicitud.",
+    yourRights: [
+      "Tiene derecho a ser evaluado para SNAP acelerado el mismo día que presente su solicitud.",
+      "Tiene derecho a recibir los beneficios acelerados dentro de 7 días calendario si califica.",
+      "Tiene derecho a solicitar incluso si no tiene todos sus documentos con usted.",
+      "Tiene derecho a designar un representante autorizado para solicitar en su nombre si no puede viajar a la oficina de DSS.",
+      "Tiene derecho a una audiencia imparcial si cree que calificó para los beneficios acelerados y no los recibió a tiempo.",
+      "Tiene derecho a solicitar una referencia a una despensa de alimentos mientras espera que sus beneficios sean procesados.",
+    ],
+  },
+
+  "snap-rights-ny": {
+    title: "SNAP (Cupones de Alimentos) — Sus Derechos en Nueva York",
+    summary:
+      "SNAP proporciona beneficios mensuales en una tarjeta EBT para ayudar a pagar los comestibles. Nueva York tiene algunas de las reglas de elegibilidad más amplias del país. La mayoría de los hogares no necesitan pasar una prueba de activos.",
+    yourRights: [
+      "Tiene derecho a solicitar SNAP el mismo día que contacte a su Departamento de Servicios Sociales local.",
+      "Tiene derecho a recibir una decisión dentro de 30 días después de presentar su solicitud.",
+      "Tiene derecho a beneficios acelerados dentro de 7 días si tiene ingresos muy bajos y pocos recursos.",
+      "Tiene derecho a una audiencia imparcial si su solicitud es negada, sus beneficios son reducidos o su caso es cerrado.",
+      "Tiene 60 días después de una negación o acción adversa para solicitar una audiencia imparcial a través de OTDA.",
+      "Tiene derecho a solicitar en línea, por teléfono, por correo, por fax o en persona.",
+      "Tiene derecho a recibir materiales de solicitud y asistencia en su idioma preferido.",
+      "Tiene derecho a usar los beneficios de SNAP para comprar semillas y plantas que produzcan alimentos para su hogar.",
+      "Tiene derecho a designar un representante autorizado para solicitar o comprar en su nombre.",
+    ],
+  },
+
+  "social-security-retirement-ny": {
+    title: "Jubilación del Seguro Social — Beneficios Mensuales Cuando Deja de Trabajar",
+    summary:
+      "Los beneficios de jubilación del Seguro Social proporcionan ingresos mensuales a personas que han trabajado y pagado impuestos del Seguro Social. Puede comenzar a recibir beneficios tan pronto como a los 62 años, pero esperar hasta la edad plena de jubilación o más tarde aumenta su pago mensual. Su monto de beneficio se basa en su historial de ingresos.",
+    yourRights: [
+      "Tiene derecho a solicitar beneficios de jubilación en línea, por teléfono o en persona en cualquier oficina del Seguro Social.",
+      "Tiene derecho a elegir cuándo comenzar sus beneficios entre los 62 y los 70 años.",
+      "Tiene derecho a recibir su monto completo de beneficio si espera hasta la edad plena de jubilación.",
+      "Tiene derecho a recibir beneficios aumentados si retrasa su reclamación más allá de la edad plena de jubilación, hasta los 70 años.",
+      "Tiene derecho a trabajar mientras recibe beneficios. Después de la edad plena de jubilación, no hay límite sobre cuánto puede ganar.",
+      "Tiene derecho a recibir un ajuste por costo de vida a sus beneficios cada año.",
+      "Tiene derecho a apelar si su solicitud es negada o si no está de acuerdo con el monto de su beneficio.",
+      "Tiene derecho a cobertura de Medicare a partir de los 65 años, sin importar cuándo comience a recibir beneficios de jubilación.",
+    ],
+  },
+
+  "ssdi-ny": {
+    title: "SSDI — Beneficios por Discapacidad Basados en Su Historial Laboral",
+    summary:
+      "El Seguro de Discapacidad del Seguro Social (SSDI) proporciona pagos mensuales a personas que ya no pueden trabajar debido a una discapacidad. A diferencia de SSI, SSDI se basa en su historial laboral y los impuestos del Seguro Social que pagó mientras trabajaba. No hay un límite de ingresos o activos para calificar.",
+    yourRights: [
+      "Tiene derecho a solicitar SSDI en cualquier momento contactando a la Administración del Seguro Social.",
+      "Tiene derecho a solicitar en línea en ssa.gov, por teléfono o en persona en una oficina local del Seguro Social.",
+      "Tiene derecho a recibir una decisión sobre su solicitud. La mayoría de las decisiones iniciales se toman dentro de tres a seis meses.",
+      "Tiene derecho a apelar si su solicitud es negada. El proceso de apelación incluye reconsideración, una audiencia ante un Juez de Derecho Administrativo, revisión por el Consejo de Apelaciones y revisión en tribunal federal.",
+      "Tiene 60 días a partir de la fecha de una negación para presentar una apelación en cada etapa.",
+      "Tiene derecho a que un abogado o representante le ayude con su reclamo en cualquier etapa.",
+      "Tiene derecho a un Período de Trabajo de Prueba que le permite probar su capacidad para trabajar hasta nueve meses sin perder beneficios.",
+      "Tiene derecho a cobertura de Medicare después de 24 meses de recibir beneficios de SSDI.",
+    ],
+  },
+
+  "ssi-disability-ny": {
+    title: "SSI — Beneficios en Efectivo para Personas con Discapacidad o Adultos Mayores de Bajos Ingresos",
+    summary:
+      "El Ingreso Suplementario del Seguro Social (SSI) proporciona pagos mensuales en efectivo a personas con ingresos y recursos muy limitados. Es para personas de 65 años o más, ciegas o con discapacidad. SSI no requiere ningún historial laboral. Nueva York añade un Suplemento Estatal al pago federal de SSI.",
+    yourRights: [
+      "Tiene derecho a solicitar SSI en cualquier momento contactando a la Administración del Seguro Social.",
+      "Tiene derecho a recibir una decisión sobre su solicitud, y si es aprobada, los beneficios son pagaderos desde el mes de la solicitud.",
+      "Tiene derecho a apelar si su solicitud es negada. El proceso de apelación incluye reconsideración, una audiencia ante un Juez de Derecho Administrativo, revisión por el Consejo de Apelaciones y revisión en tribunal federal.",
+      "Tiene derecho a continuar recibiendo beneficios mientras su apelación está pendiente si solicita la apelación a tiempo.",
+      "Tiene derecho a que un representante le ayude con su solicitud o apelación.",
+      "Tiene derecho a un Período de Trabajo de Prueba que le permite probar su capacidad para trabajar sin perder beneficios inmediatamente.",
+      "Tiene derecho a cobertura automática de Medicaid en Nueva York cuando recibe SSI.",
+      "Tiene derecho al Suplemento del Estado de Nueva York además de su pago federal de SSI.",
+    ],
+  },
+
+  "tanf-public-assistance-ny": {
+    title: "Asistencia Temporal — Beneficios en Efectivo para Familias e Individuos en Necesidad",
+    summary:
+      "La Asistencia Temporal proporciona beneficios en efectivo para ayudar a pagar necesidades básicas como vivienda, alimentos y servicios públicos. En Nueva York hay dos programas: Asistencia Familiar para hogares con niños y Asistencia de Red de Seguridad (Safety Net) para adultos solteros y parejas sin hijos.",
+    yourRights: [
+      "Tiene derecho a solicitar Asistencia Temporal en cualquier momento en su Departamento de Servicios Sociales local.",
+      "Tiene derecho a recibir una decisión sobre su solicitud dentro de 30 días para Asistencia Familiar o 45 días para Asistencia de Red de Seguridad.",
+      "Tiene derecho a asistencia de emergencia si enfrenta una crisis inmediata como desalojo, corte de servicios públicos o falta de vivienda.",
+      "Tiene derecho a ser evaluado para SNAP y Medicaid cuando solicite Asistencia Temporal.",
+      "Tiene derecho a una audiencia imparcial si su solicitud es negada, sus beneficios son reducidos o su caso es cerrado.",
+      "Tiene 60 días a partir de la fecha de un aviso adverso para solicitar una audiencia imparcial.",
+      "Tiene derecho a continuar recibiendo beneficios durante una audiencia imparcial si solicita la audiencia antes de la fecha efectiva del cambio.",
+      "Tiene derecho a una exención por dificultades del límite de 60 meses de Asistencia Familiar si no puede trabajar debido a una discapacidad verificada, incluyendo condiciones relacionadas con la violencia doméstica.",
+    ],
+  },
+
+  "unemployment-insurance-ny": {
+    title: "Seguro de Desempleo — Beneficios Semanales Después de Perder Su Trabajo",
+    summary:
+      "Si perdió su trabajo sin culpa suya, puede calificar para pagos semanales del seguro de desempleo mientras busca un nuevo trabajo. Nueva York recientemente aumentó el beneficio máximo semanal. Los beneficios duran hasta 26 semanas.",
+    yourRights: [
+      "Tiene derecho a presentar un reclamo durante su primera semana de desempleo total o parcial.",
+      "Tiene derecho a presentar en línea, por teléfono o en persona.",
+      "Tiene derecho a recibir una determinación sobre su reclamo. Si es elegible, su primer pago generalmente se realiza dentro de dos a tres semanas después de que su reclamo sea procesado.",
+      "Tiene derecho a recibir beneficios por hasta 26 semanas dentro de un año de beneficio.",
+      "Tiene derecho a recibir beneficios parciales de desempleo si sus horas fueron reducidas pero no fue despedido completamente.",
+      "Tiene derecho a apelar si su reclamo es negado. Una solicitud de audiencia debe presentarse dentro de 30 días de la determinación.",
+      "Tiene derecho a un intérprete en su audiencia si no habla inglés.",
+      "Tiene derecho a continuar recibiendo beneficios mientras su apelación está pendiente si solicita una audiencia a tiempo.",
+    ],
+  },
+
+  "wic-ny": {
+    title: "WIC — Alimentos Saludables Gratuitos para Mujeres Embarazadas, Bebés y Niños Pequeños",
+    summary:
+      "WIC proporciona alimentos saludables gratuitos, apoyo nutricional y ayuda para la lactancia a mujeres embarazadas y en posparto, bebés y niños menores de 5 años. Cada familia elegible puede recibir WIC sin importar su estatus migratorio.",
+    yourRights: [
+      "Tiene derecho a solicitar WIC en cualquier momento contactando a su oficina local de WIC.",
+      "Tiene derecho a recibir WIC sin importar su estatus migratorio o de ciudadanía. Las oficinas de WIC no preguntan sobre estatus de visa.",
+      "Tiene derecho a que su información se mantenga confidencial.",
+      "Tiene derecho a recibir WIC mientras también recibe SNAP, Medicaid, TANF u otros beneficios sin ninguna reducción a esos beneficios.",
+      "Tiene derecho a una audiencia imparcial si su solicitud de WIC es negada o sus beneficios son reducidos o terminados.",
+      "Tiene derecho a estar libre de discriminación por raza, color, origen nacional, sexo, discapacidad, edad o creencias políticas.",
+    ],
+  },
+
+  "child-support-ny": {
+    title: "Manutención Infantil — Cómo Nueva York Calcula Lo Que Paga un Padre",
+    summary:
+      "En Nueva York, la manutención infantil se calcula usando una fórmula establecida por la Ley de Estándares de Manutención Infantil (Child Support Standards Act). La fórmula se basa en los ingresos combinados de ambos padres y el número de hijos. El padre sin custodia paga su parte de la obligación total. La manutención infantil continúa hasta que el hijo cumpla 21 años — no 18.",
+    yourRights: [
+      "Tiene derecho a presentar una petición en el Tribunal de Familia para una orden de manutención infantil en cualquier momento. No hay tarifa de presentación para peticiones de manutención infantil en el Tribunal de Familia.",
+      "Tiene derecho a que la manutención infantil se calcule usando la fórmula del CSSA. Cualquier acuerdo u orden que se desvíe de la fórmula debe indicar cuál habría sido el monto directivo y explicar las razones de la desviación.",
+      "Tiene derecho a que ciertos gastos se añadan además del apoyo básico, incluyendo costos de cuidado infantil necesarios para trabajar o estudiar, primas de seguro médico para el niño y gastos médicos no reembolsados — divididos proporcionalmente entre ambos padres.",
+      "Tiene derecho a la ejecución si el otro padre no paga. Las herramientas de ejecución incluyen retención automática de ingresos del salario, intercepciones de reembolsos de impuestos, suspensión de licencia, gravámenes sobre la propiedad y procedimientos de desacato al tribunal.",
+      "Tiene derecho a solicitar una modificación de una orden existente si las circunstancias han cambiado sustancialmente, han pasado tres años, o el ingreso de cualquiera de los padres ha cambiado en un 15% o más.",
+      "La obligación de manutención de un padre que paga no puede establecerse por debajo de la reserva de auto-manutención — un umbral vinculado al nivel federal de pobreza que se actualiza periódicamente y se publica en la Tabla de Estándares de Manutención Infantil.",
+    ],
+  },
+
+  "clean-slate-ny": {
+    title: "Ley Clean Slate — Sellado Automático de Su Antecedente Penal",
+    summary:
+      "La Ley Clean Slate de Nueva York sella automáticamente la mayoría de los registros de condenas criminales después de un período de espera. Los delitos menores se sellan después de tres años y los delitos graves después de ocho. Una vez sellados, estas condenas quedan ocultas de la mayoría de las verificaciones de antecedentes para trabajos, vivienda y educación. No necesita solicitar. El sellado ocurre automáticamente si cumple con los requisitos.",
+    yourRights: [
+      "Tiene derecho a que las condenas elegibles sean selladas automáticamente sin presentar ninguna solicitud o petición. El proceso es manejado por el sistema judicial (CPL § 160.57).",
+      "Una vez que su registro sea sellado, los empleadores tienen prohibido preguntar sobre la condena sellada o tomar cualquier decisión laboral adversa basada en ella.",
+      "Tiene derecho a presentar una demanda civil bajo la Ley de Derechos Civiles § 50-g contra cualquier persona que a sabiendas y deliberadamente divulgue su condena sellada sin autorización, si la divulgación le causa daño.",
+      "Si su condena no ha sido sellada para el 16 de noviembre de 2027, y usted cree que debería haberlo sido, usted o su abogado pueden pedirle al tribunal una revisión manual de su registro.",
+      "No hay límite en el número de condenas que pueden ser selladas bajo la Ley Clean Slate, siempre que cada condena cumpla con los requisitos de elegibilidad.",
+      "Si también califica bajo la ley de sellado anterior basada en petición (CPL § 160.59), que permite el sellado de hasta dos condenas después de un período de espera de 10 años, esa opción permanece disponible como alternativa.",
+    ],
+  },
+
+  "custody-basics-ny": {
+    title: "Custodia de Menores — Cómo los Tribunales Deciden Con Quién Vive el Niño",
+    summary:
+      "En Nueva York, ningún padre tiene un derecho automático a la custodia. El tribunal decide basándose en una sola pregunta: qué es en el mejor interés del niño. El tribunal considera muchos factores, incluyendo la estabilidad, quién ha sido el cuidador principal y la seguridad de cada hogar. También se considera cualquier historial de violencia doméstica.",
+    yourRights: [
+      "Tiene derecho a solicitar al tribunal la custodia de su hijo en cualquier momento, sin importar su estado civil (DRL § 70).",
+      "Ningún padre tiene una ventaja legal sobre el otro. Las madres y los padres son tratados por igual en los procedimientos de custodia.",
+      "Tiene derecho a tener un abogado. En casos disputados en el Tribunal de Familia, el tribunal designará un Abogado para el Niño para representar los intereses del niño.",
+      "Si es víctima de violencia doméstica, el tribunal está obligado a considerar el efecto de esa violencia sobre el niño al tomar su decisión de custodia (DRL § 240). Un padre que hace una alegación de buena fe de abuso o negligencia para proteger al niño no puede ser penalizado por hacerlo.",
+      "Tiene derecho a solicitar una modificación de custodia si ha habido un cambio significativo en las circunstancias desde la última orden.",
+      "Si usted y el otro padre están de acuerdo sobre la custodia, pueden presentar un acuerdo por escrito al tribunal. El tribunal lo aprobará si determina que el arreglo es en el mejor interés del niño.",
+    ],
+  },
+
+  "dwi-first-offense-ny": {
+    title: "DWI Primer Delito — Qué Sucede Después de un Arresto por Conducir Ebrio en Nueva York",
+    summary:
+      "Un primer delito de DWI en Nueva York es un delito menor con consecuencias serias. Las penalidades incluyen multas de $500 a $1,000, hasta un año de cárcel y una revocación mínima de licencia de seis meses. El tribunal también debe ordenar un dispositivo de bloqueo de encendido (interlock). El DMV impone una evaluación de $250 por año durante tres años. Los titulares de licencias comerciales enfrentan una descalificación de CDL de un año — incluso si estaban conduciendo su vehículo personal.",
+    yourRights: [
+      "Tiene derecho a un abogado en cada etapa del proceso, incluyendo la lectura de cargos, audiencias previas al juicio y el juicio. Si no puede pagar un abogado, se le asignará uno.",
+      "Tiene derecho a declararse inocente y a tener un juicio. La fiscalía debe probar cada elemento del delito más allá de una duda razonable.",
+      "Tiene derecho a impugnar la legalidad de la parada de tráfico, la administración de las pruebas de sobriedad en el campo y la precisión de cualquier prueba química (alcoholímetro, sangre u orina).",
+      "Tiene derecho a negarse a una prueba química, pero la negativa activa una revocación automática de licencia de un año a través de una audiencia administrativa separada del DMV — sin importar si es condenado por el cargo criminal.",
+      "Después de 30 días de suspensión o revocación, puede ser elegible para una licencia condicional a través del Programa del Conductor Impedido (IDP), que permite conducir de manera limitada al trabajo, a la escuela, a citas médicas y a programas ordenados por el tribunal.",
+      "Una segunda condena por DWI dentro de 10 años es un delito grave de Clase E que conlleva hasta cuatro años en prisión, multas de $1,000 a $5,000 y al menos una revocación de licencia de un año.",
     ],
   },
 };
