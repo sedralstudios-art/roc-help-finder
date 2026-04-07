@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 // Brand: HF (product) / SS (studio)
 // ═══════════════════════════════════════════════════
 
-const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3 };
+const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4 };
 
 const LANGS = [
   { code: "en", label: "English" },
@@ -82,7 +82,7 @@ const UI = {
     aboutP3: "The Clarity Reading is a guided reflection tool. Six questions. An honest reading based on what you share. Nothing is saved. Nothing is sold. The basic reading is free. Deeper tiers are donation-based. Clarity shouldn't have a price tag — but keeping this running does.",
     aboutPersonal: "I'm Anthony DiMarzo of Rochester. I have a CDL and I spend my days building roads. I spend my nights building this. I'd rather be building a better future for tomorrow. I noticed people in crisis can't find help — not because it doesn't exist, but because nobody put it in one place in plain language. So I did. No degree. No funding. No investors. Just me and a computer.",
     aboutFamily: "I live in Brockport with my fiancée and our son. He's six. He's the reason this exists. The world he inherits should be better than the one he was born into.",
-    aboutSedral: "Sedral Studios is named for Steven. He was my friend. He had a doctorate in philosophy, autism, and the kind of mind that saw what others couldn't. He left on Christmas Eve 2025. This work carries his name because the things that matter most shouldn't disappear when someone does.",
+    aboutSedral: "Sedral Studios is named for Steven T. May. He was my friend. He studied at MIT. He built computers, installed security systems, read philosophy and psychology, and loved his cats. He was autistic, and he had the kind of mind that saw what others couldn't. He left on Christmas Eve 2025, at 47. This work carries his name because the things that matter most shouldn't disappear when someone does.",
     aboutClose: "Everything here is free. If you want to help keep it free, there's a donate button. If you can't donate, use the tools. That's enough.",
     aboutSign: "— Ozramid Of March",
     aboutAgency: "If you work at an agency and want your program listed, or if something needs correcting, reach out.",
@@ -449,6 +449,30 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const nav = (p) => { setPage(p); setMenuOpen(false); window.scrollTo(0, 0); };
   const isRTL = lang === "ar";
 
+  // ── Donation handler — calls Stripe checkout API ──
+  const [donateLoading, setDonateLoading] = useState(false);
+  const [donateError, setDonateError] = useState(null);
+  const handleDonate = async (amountCents) => {
+    setDonateLoading(true);
+    setDonateError(null);
+    try {
+      const res = await fetch("/api/create-checkout-session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ amount: amountCents }),
+      });
+      const data = await res.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        throw new Error("No checkout URL returned");
+      }
+    } catch (err) {
+      setDonateError("Card payment is temporarily unavailable. Please try PayPal below.");
+      setDonateLoading(false);
+    }
+  };
+
   return (
     <div dir={isRTL ? "rtl" : "ltr"} style={{
       fontFamily: "'Segoe UI', 'Helvetica Neue', system-ui, -apple-system, sans-serif",
@@ -524,6 +548,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         }}>
           <button className="hf-nav-link" onClick={() => nav(PAGES.HOME)}>{t(lang,"navHome")}</button>
           <button className="hf-nav-link" onClick={() => nav(PAGES.ABOUT)}>{t(lang,"navAbout")}</button>
+          <button className="hf-nav-link" onClick={() => nav(PAGES.SUPPORT)}>{t(lang,"navSupport")}</button>
           <button className="hf-nav-link" onClick={() => nav(PAGES.PRIVACY)}>{t(lang,"navPrivacy")}</button>
         </nav>
       )}
@@ -660,7 +685,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
                         <p style={{ marginBottom: 16 }}>{t(lang,"aboutPersonal")}</p>
             <p style={{ marginBottom: 16 }}>{t(lang,"aboutFamily")}</p>
             <p style={{ marginBottom: 16, fontStyle: "italic", color: C.stone }}>{t(lang,"aboutSedral")}</p>
-            <p style={{ marginBottom: 16 }}>Everything here is free. If you want to help keep it free, reach out at hello@helpfinder.help. If you can't, use the tools. That's enough.</p>
+            <p style={{ marginBottom: 16 }}>Everything here is free. If you want to help keep it free, <button onClick={() => nav(PAGES.SUPPORT)} style={{ background: "none", border: "none", color: C.forest, fontWeight: 600, cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit", textDecoration: "underline" }}>there's a donate page</button>. If you can't, use the tools. That's enough.</p>
             <p style={{ marginBottom: 16, fontStyle: "italic", color: C.stone }}>{t(lang,"aboutSign")}</p>
             <p style={{ marginBottom: 0, color: C.stone, fontSize: 14 }}>{t(lang,"aboutAgency")}</p>
           </div>
@@ -668,6 +693,122 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <div style={{ fontSize: 14, fontWeight: 600, color: C.forest, marginBottom: 4 }}>{t(lang,"contactTitle")}</div>
             <a href="mailto:hello@helpfinder.help" style={{ fontSize: 14, color: C.forest, textDecoration: "none" }}>hello@helpfinder.help</a>
           </div>
+        </main>
+      )}
+
+
+
+      {/* ═══════════════════ SUPPORT ═══════════════════ */}
+      {page === PAGES.SUPPORT && (
+        <main style={{ padding: "0 20px 40px" }}>
+          <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
+          <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 12, color: C.bark }}>{t(lang,"supportTitle")}</h2>
+          <p style={{ fontSize: 15, lineHeight: 1.6, color: C.stone, marginBottom: 24 }}>{t(lang,"supportDesc")}</p>
+
+          {/* Three tier buttons */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 20 }}>
+            <button
+              onClick={() => handleDonate(500)}
+              disabled={donateLoading}
+              style={{
+                background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
+                padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
+                textAlign: "left", fontFamily: "inherit",
+                display: "flex", justifyContent: "space-between", alignItems: "center",
+                transition: "all 0.15s",
+              }}
+              onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
+              onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
+            >
+              <div>
+                <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>$5</div>
+                <div style={{ fontSize: 13, color: C.stone }}>{t(lang,"tier1")}</div>
+              </div>
+              <span style={{ fontSize: 20, color: C.forest }}>→</span>
+            </button>
+
+            <button
+              onClick={() => handleDonate(2000)}
+              disabled={donateLoading}
+              style={{
+                background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
+                padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
+                textAlign: "left", fontFamily: "inherit",
+                display: "flex", justifyContent: "space-between", alignItems: "center",
+                transition: "all 0.15s",
+              }}
+              onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
+              onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
+            >
+              <div>
+                <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>$20</div>
+                <div style={{ fontSize: 13, color: C.stone }}>{t(lang,"tier2")}</div>
+              </div>
+              <span style={{ fontSize: 20, color: C.forest }}>→</span>
+            </button>
+
+            <button
+              onClick={() => handleDonate(10000)}
+              disabled={donateLoading}
+              style={{
+                background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
+                padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
+                textAlign: "left", fontFamily: "inherit",
+                display: "flex", justifyContent: "space-between", alignItems: "center",
+                transition: "all 0.15s",
+              }}
+              onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
+              onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
+            >
+              <div>
+                <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>$100</div>
+                <div style={{ fontSize: 13, color: C.stone }}>{t(lang,"tier3")}</div>
+              </div>
+              <span style={{ fontSize: 20, color: C.forest }}>→</span>
+            </button>
+          </div>
+
+          {donateLoading && (
+            <p style={{ textAlign: "center", fontSize: 13, color: C.stone, marginBottom: 16 }}>
+              Opening secure checkout...
+            </p>
+          )}
+          {donateError && (
+            <p style={{ textAlign: "center", fontSize: 13, color: "#c62828", marginBottom: 16 }}>
+              {donateError}
+            </p>
+          )}
+
+          {/* Divider */}
+          <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
+            <div style={{ flex: 1, height: 1, background: C.border }} />
+            <span style={{ fontSize: 12, color: C.dust }}>or</span>
+            <div style={{ flex: 1, height: 1, background: C.border }} />
+          </div>
+
+          {/* PayPal */}
+          <a
+            href="https://paypal.me/sedralstudios"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "block", textAlign: "center",
+              background: "#0070ba", color: "#fff",
+              padding: "14px 18px", borderRadius: 16,
+              fontSize: 15, fontWeight: 700, textDecoration: "none",
+              marginBottom: 20,
+            }}
+          >
+            {t(lang,"donatePaypal")}
+          </a>
+
+          {/* Disclaimer */}
+          <p style={{ fontSize: 12, color: C.stone, lineHeight: 1.6, textAlign: "center", marginBottom: 12 }}>
+            {t(lang,"supportDisclaimer")}
+          </p>
+          <p style={{ fontSize: 11, color: C.dust, lineHeight: 1.5, textAlign: "center" }}>
+            Voluntary contribution. Not tax-deductible. Sedral Studios EIN on file.
+          </p>
         </main>
       )}
 
@@ -708,6 +849,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       <footer style={{ textAlign: "center", padding: "20px 20px 32px", borderTop: `1px solid ${C.border}` }}>
           <div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap", marginBottom: 12 }}>
             <button className="hf-nav-link" onClick={() => nav(PAGES.ABOUT)} style={{ fontSize: 12 }}>{t(lang,"navAbout")}</button>
+            <button className="hf-nav-link" onClick={() => nav(PAGES.SUPPORT)} style={{ fontSize: 12 }}>{t(lang,"navSupport")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.PRIVACY)} style={{ fontSize: 12 }}>{t(lang,"navPrivacy")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.TERMS)} style={{ fontSize: 12 }}>{t(lang,"navTerms")}</button>
             <a href="mailto:hello@helpfinder.help" className="hf-nav-link" style={{ fontSize: 12, textDecoration: "none", color: C.stone }}>{t(lang,"navContact")}</a>
