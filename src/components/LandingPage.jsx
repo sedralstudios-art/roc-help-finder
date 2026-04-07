@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER.HELP — Landing Page v2
@@ -8,7 +9,35 @@ import { useState, useEffect } from "react";
 // Brand: HF (product) / SS (studio)
 // ═══════════════════════════════════════════════════
 
-const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4 };
+const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6 };
+
+// URL <-> page mapping for history-based routing
+const PAGE_PATHS = {
+  [PAGES.HOME]: "/",
+  [PAGES.ABOUT]: "/about",
+  [PAGES.SUPPORT]: "/support",
+  [PAGES.PRIVACY]: "/privacy",
+  [PAGES.TERMS]: "/terms",
+  [PAGES.LEGAL_LIBRARY]: "/know-your-rights",
+};
+
+const PATH_TO_PAGE = {
+  "/": PAGES.HOME,
+  "/about": PAGES.ABOUT,
+  "/support": PAGES.SUPPORT,
+  "/privacy": PAGES.PRIVACY,
+  "/terms": PAGES.TERMS,
+  "/know-your-rights": PAGES.LEGAL_LIBRARY,
+};
+
+// Parse current browser pathname → { page, entryId | null }
+function parsePath(pathname) {
+  const clean = (pathname || "/").replace(/\/+$/, "") || "/";
+  const entryMatch = clean.match(/^\/know-your-rights\/([a-z0-9-]+)$/i);
+  if (entryMatch) return { page: PAGES.LEGAL_ENTRY, entryId: entryMatch[1] };
+  if (PATH_TO_PAGE[clean] !== undefined) return { page: PATH_TO_PAGE[clean], entryId: null };
+  return { page: PAGES.HOME, entryId: null };
+}
 
 const LANGS = [
   { code: "en", label: "English" },
@@ -424,6 +453,8 @@ const C = {
 export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCityDetected }) {
   const [page, setPage] = useState(PAGES.HOME);
   const [lang, setLang] = useState("en");
+  const [selectedEntryId, setSelectedEntryId] = useState(null);
+  const [legalLang, setLegalLang] = useState("en");
   const [menuOpen, setMenuOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [city, setCity] = useState("your area");
@@ -447,6 +478,25 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
   useEffect(() => { const tm = setTimeout(() => setLoaded(true), 50); return () => clearTimeout(tm); }, []);
 
+  // Initialize page state from URL pathname (history-based routing)
+  useEffect(() => {
+    const parsed = parsePath(window.location.pathname);
+    if (parsed.entryId) setSelectedEntryId(parsed.entryId);
+    setPage(parsed.page);
+  }, []);
+
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    const onPop = () => {
+      const parsed = parsePath(window.location.pathname);
+      if (parsed.entryId) setSelectedEntryId(parsed.entryId);
+      setPage(parsed.page);
+      window.scrollTo(0, 0);
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
   // Auto-navigate to Support page if URL hash is #support (used by HelpFinder footer link)
   useEffect(() => {
     if (typeof window !== "undefined" && window.location.hash === "#support") {
@@ -456,7 +506,26 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     }
   }, []);
 
-  const nav = (p) => { setPage(p); setMenuOpen(false); window.scrollTo(0, 0); };
+  const nav = (p) => {
+    setPage(p);
+    setMenuOpen(false);
+    window.scrollTo(0, 0);
+    const newPath = PAGE_PATHS[p];
+    if (newPath && window.location.pathname !== newPath) {
+      try { window.history.pushState({}, "", newPath); } catch (e) {}
+    }
+  };
+
+  const openEntry = (id) => {
+    setSelectedEntryId(id);
+    setPage(PAGES.LEGAL_ENTRY);
+    setMenuOpen(false);
+    const newPath = "/know-your-rights/" + id;
+    if (window.location.pathname !== newPath) {
+      try { window.history.pushState({}, "", newPath); } catch (e) {}
+    }
+    window.scrollTo(0, 0);
+  };
   const isRTL = lang === "ar";
 
   // ── Donation handler — calls Stripe checkout API ──
@@ -649,6 +718,26 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
               📞 {t(lang,"door1Sub")}
             </a>
           </div>
+
+          {/* ── KNOW YOUR RIGHTS TILE ── */}
+          <button
+            onClick={() => nav(PAGES.LEGAL_LIBRARY)}
+            className="hf-fade-in hf-d5 hf-kyr-tile"
+            style={{
+              width: "100%", textAlign: isRTL ? "right" : "left",
+              background: C.amberLight, border: `1px solid ${C.amber}`,
+              borderRadius: 24, padding: "18px 22px", cursor: "pointer",
+              marginTop: 28, fontFamily: "inherit",
+              display: "flex", alignItems: "center", gap: 16,
+            }}
+          >
+            <div style={{ fontSize: 34, flexShrink: 0, lineHeight: 1 }}>⚖️</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 3 }}>Know Your Rights</div>
+              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>46 free legal guides. Benefits, housing, employment, immigration. In 20 languages.</div>
+            </div>
+            <div style={{ fontSize: 22, color: C.amber, flexShrink: 0, fontWeight: 700 }}>→</div>
+          </button>
 
           {/* TRUST LINE */}
           <div className="hf-fade-in hf-d6" style={{ textAlign: "center", marginTop: 24, padding: "0 10px" }}>
@@ -854,6 +943,27 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         </main>
       )}
 
+      {/* ═══════════════════ LEGAL LIBRARY (browse) ═══════════════════ */}
+      {page === PAGES.LEGAL_LIBRARY && (
+        <LegalLibraryBrowse
+          legalLang={legalLang}
+          setLegalLang={setLegalLang}
+          onOpenEntry={openEntry}
+          onBack={() => nav(PAGES.HOME)}
+        />
+      )}
+
+      {/* ═══════════════════ LEGAL LIBRARY (entry detail) ═══════════════════ */}
+      {page === PAGES.LEGAL_ENTRY && (
+        <LegalLibraryEntry
+          entryId={selectedEntryId}
+          legalLang={legalLang}
+          setLegalLang={setLegalLang}
+          onBack={() => nav(PAGES.LEGAL_LIBRARY)}
+          onOpenEntry={openEntry}
+        />
+      )}
+
 
             {/* ═══ FOOTER ═══ */}
       <footer style={{ textAlign: "center", padding: "20px 20px 32px", borderTop: `1px solid ${C.border}` }}>
@@ -862,6 +972,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <button className="hf-nav-link" onClick={() => nav(PAGES.SUPPORT)} style={{ fontSize: 12 }}>{t(lang,"navSupport")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.PRIVACY)} style={{ fontSize: 12 }}>{t(lang,"navPrivacy")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.TERMS)} style={{ fontSize: 12 }}>{t(lang,"navTerms")}</button>
+            <button className="hf-nav-link" onClick={() => nav(PAGES.LEGAL_LIBRARY)} style={{ fontSize: 12 }}>Know Your Rights</button>
             <a href="mailto:hello@helpfinder.help" className="hf-nav-link" style={{ fontSize: 12, textDecoration: "none", color: C.stone }}>{t(lang,"navContact")}</a>
           </div>
           <div style={{ fontSize: 11, color: C.dust, lineHeight: 1.6 }}>
