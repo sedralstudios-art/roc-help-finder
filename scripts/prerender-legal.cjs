@@ -238,6 +238,10 @@ const SHARED_CSS = `
       .ssr-content .cat-tile .cat-label { font-size: 18px; font-weight: 700; color: #1a1a1a; font-family: 'DM Serif Display', Georgia, serif; }
       .ssr-content .cat-tile .cat-desc { font-size: 13px; color: #555; line-height: 1.5; flex: 1; }
       .ssr-content .cat-tile .cat-count { font-size: 12px; font-weight: 600; color: #2e7d32; margin-top: 4px; }
+      .ssr-content .reviewed-by { background: #e8f5e9; border: 1px solid #c8e6c9; border-radius: 12px; padding: 14px 18px; margin: 0 0 24px; font-size: 13px; line-height: 1.55; }
+      .ssr-content .reviewed-by .reviewed-name { color: #2e7d32; font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+      .ssr-content .reviewed-by .reviewed-check { font-size: 14px; }
+      .ssr-content .reviewed-by .reviewed-disclaimer { color: #555; font-style: italic; }
 `;
 
 // ── Entry page ──
@@ -257,6 +261,16 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
 
   const pageTitle = title + ' | HelpFinder';
   const metaDesc = summary.length > 160 ? summary.slice(0, 157) + '...' : summary;
+
+  // Reviewed-by callout (optional field — only renders when an outside expert
+  // has reviewed the entry and consented to being named). Paired with a
+  // non-legal-advice notice so trust signal and UPL disclaimer stay together.
+  const reviewedByHTML = entry.reviewedBy
+    ? '<div class="reviewed-by">' +
+      '<div class="reviewed-name"><span class="reviewed-check">✓</span><span>Reviewed by ' + esc(entry.reviewedBy) + '</span></div>' +
+      '<div class="reviewed-disclaimer">This guide is general legal information, not legal advice for your specific situation.</div>' +
+      '</div>'
+    : '';
 
   const whoQualHTML = whoQual.length
     ? '<h2>Who qualifies</h2><ul>' + whoQual.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul>'
@@ -340,6 +354,7 @@ ${jsonLD}
         </div>
         <h1>${esc(title)}</h1>
         <p class="lead">${esc(summary)}</p>
+        ${reviewedByHTML}
         ${whoQualHTML}
         ${whatItMeansHTML}
         ${rightsHTML}
