@@ -2,30 +2,25 @@
 /**
  * scripts/fix-translation-banner-01.cjs
  *
- * Replaces the one-sentence translation-in-progress banner in
- * scripts/prerender-legal.cjs with a longer one that explains why
- * Google Translate isn't recommended for legal content.
+ * The existing translationBanner() in scripts/prerender-legal.cjs already
+ * names Google Translate and explains why machine translation is unsafe
+ * for legal content. What it doesn't do is tell the user what to do
+ * instead. Adding that.
  *
- * Why we recommend against MT for legal:
- * - Words like "may," "shall," "right," and "petition" have precise legal
- *   meanings that everyday translation tools miss
- * - A wrong word can change someone's rights
- * - MT is not certified for legal use by any U.S. court system
+ * New text: same warning, plus a one-line "what to do" — call 211 for a
+ * free interpreter, or LawNY at 585-295-5700 which has interpreters on
+ * staff. Both are existing, verified Rochester resources.
  *
- * The banner stays in English regardless of `lang` (matches existing
- * function signature). The 211 phone number works universally for
- * non-English speakers landing on the page.
+ * This patches the prerender side ONLY. The React side (LegalLibrary.jsx)
+ * has no banner at all and is a separate fix queued for next round.
  *
- * After running, rebuild prerendered HTML:
- *   npm run build
- *
- * Idempotent.
+ * Idempotent. Aborts cleanly if the anchor isn't found.
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const FILE = path.join(__dirname, '..', 'scripts', 'prerender-legal.cjs');
+const FILE = path.join(__dirname, 'prerender-legal.cjs');
 
 let src = fs.readFileSync(FILE, 'utf8');
 const orig = src;
@@ -33,33 +28,37 @@ const orig = src;
 const hadCRLF = src.includes('\r\n');
 src = src.replace(/\r\n/g, '\n');
 
-const oldBanner = `  return '<div class="translation-banner">📖 <strong>Full translation in progress.</strong> This guide is being translated. Contact the free legal aid organizations listed at the bottom — many speak your language.</div>';`;
+// Idempotency check
+if (src.includes('free interpreter')) {
+  console.log('  banner already enhanced, skipping');
+  process.exit(0);
+}
 
-const newBanner = `  return '<div class="translation-banner">' +
-    '<div style="font-size:14px;font-weight:600;color:#5d4037;margin-bottom:6px;">📖 Full translation in progress.</div>' +
-    '<div style="font-size:13px;color:#5d4037;line-height:1.5;margin-bottom:8px;">Legal words like <em>may</em>, <em>shall</em>, <em>right</em>, and <em>petition</em> have precise meanings that everyday translation tools (like Google Translate) often miss — and a wrong word can change your rights.</div>' +
-    '<div style="font-size:13px;color:#5d4037;line-height:1.5;">If you need help right now in your language, call <strong>211</strong> (free, 24/7, 200+ languages) or <strong>LawNY at 585-295-5700</strong> (free legal aid, interpreters available). The free legal aid organizations listed at the bottom of this page also speak many languages directly.</div>' +
-    '</div>';`;
+// Anchor: the existing warning line, exactly as discovery showed it.
+// We append a new div line immediately after it. The trailing ` +` chains
+// the new line into the same string concatenation that builds the banner.
+const anchor = `'<div style="font-size:13px;color:#5d4037;line-height:1.5;margin-bottom:8px;">Legal words like <em>may</em>, <em>shall</em>, <em>right</em>, and <em>petition</em> have precise meanings that everyday translation tools (like Google Translate) often miss — and a wrong word can change your rights.</div>' +`;
 
-if (src.includes('Legal words like') && src.includes('Google Translate')) {
-  console.log('  Banner already updated, skipping');
-} else if (src.includes(oldBanner)) {
-  src = src.replace(oldBanner, newBanner);
-  console.log('  Banner updated with Google Translate explanation');
-} else {
-  console.log('  ERROR: Old banner string not found in expected shape');
-  console.log('  ABORTING — file unchanged');
+if (!src.includes(anchor)) {
+  console.error('FATAL: existing warning line not found in expected shape.');
+  console.error('No changes written.');
+  console.error('');
+  console.error('Expected to find this exact line in scripts/prerender-legal.cjs:');
+  console.error(anchor);
   process.exit(1);
 }
 
+const replacement = anchor + `
+    '<div style="font-size:13px;color:#5d4037;line-height:1.5;"><strong>If you need help in your language right now:</strong> call <a href="tel:211" style="color:#1565c0;font-weight:600;">211</a> for a free interpreter, or <a href="tel:5852955700" style="color:#1565c0;font-weight:600;">LawNY at 585-295-5700</a> which has interpreters on staff.</div>' +`;
+
+src = src.replace(anchor, replacement);
+console.log('  enhanced translation banner with "what to do" guidance');
+
 if (hadCRLF) src = src.replace(/\n/g, '\r\n');
 
-if (src === orig) {
-  console.log('No changes.');
-} else {
-  fs.writeFileSync(FILE, src);
-  console.log(`Done. ${orig.length} → ${src.length} bytes`);
-  console.log('');
-  console.log('Next: rebuild prerendered HTML to see the new banner live:');
-  console.log('  npm run build');
-}
+fs.writeFileSync(FILE, src);
+console.log(`Done. ${orig.length} → ${src.length} bytes`);
+console.log('');
+console.log('Spot check:');
+console.log('  grep -n "free interpreter" scripts/prerender-legal.cjs');
+console.log('  grep -c "translationBanner" scripts/prerender-legal.cjs');
