@@ -1,6 +1,35 @@
 import React, { useState, useMemo, useRef } from "react";
 import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, applyTownFilter, getUrgencyLevel } from "./HelpFinderQuestions";
 
+// ─────────────────────────────────────────────
+// mapsHandoff — universal tap-to-navigate (added April 9, 2026)
+// ─────────────────────────────────────────────
+// Tapping a program's address should open the user's native maps app with
+// directions ready to start, NEVER trap them in an embedded website map.
+// The website is a launchpad to the resource, not the resource itself.
+//
+// Behavior:
+//   - iOS:     opens Apple Maps app via https://maps.apple.com/?daddr=...
+//   - Android: opens Google Maps app via the directions deep link in href
+//   - Desktop: opens Google Maps in a new tab via the href fallback
+//
+// The href stays as a Google Maps directions URL so right-click → copy
+// link works, screen readers work, and any non-iOS user gets the right
+// destination if onClick fails for any reason. Defensive in depth.
+function mapsHandoff(e, address) {
+  if (!address) return;
+  const isIOS = typeof navigator !== "undefined"
+    && /iPad|iPhone|iPod/.test(navigator.userAgent)
+    && !window.MSStream;
+  if (isIOS) {
+    e.preventDefault();
+    window.location.href = "https://maps.apple.com/?daddr=" + encodeURIComponent(address);
+  }
+  // Non-iOS: do nothing, let the <a href> open Google Maps directions in new tab
+}
+
+
+
 // ═══════════════════════════════════════════════════
 // HELPFINDER — Help Directory
 // Sedral Studios · Rochester NY · April 2026
@@ -1491,8 +1520,10 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
           {p.ad && (
             <div style={{ marginBottom: 8, display: "flex", alignItems: "flex-start", gap: 6 }}>
               <span style={{ fontSize: 13, color: "#636363" }}>📍</span>
-              <a href={`https://maps.google.com/?q=${encodeURIComponent(p.ad)}`}
+              <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(p.ad)}`}
+                 onClick={(e) => mapsHandoff(e, p.ad)}
                  target="_blank" rel="noopener noreferrer"
+                 data-umami-event={`click-directions-${p.id}`}
                  style={{ color: "#1565c0", fontSize: 13, textDecoration: "none" }}>
                 {p.ad}
               </a>
