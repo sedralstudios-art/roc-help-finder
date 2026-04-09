@@ -206,7 +206,11 @@ function jsonLDSafe(obj) {
 
 function translationBanner(lang) {
   if (lang === 'en') return '';
-  return '<div class="translation-banner">📖 <strong>Full translation in progress.</strong> This guide is being translated. Contact the free legal aid organizations listed at the bottom — many speak your language.</div>';
+  return '<div class="translation-banner">' +
+    '<div style="font-size:14px;font-weight:600;color:#5d4037;margin-bottom:6px;">📖 Full translation in progress.</div>' +
+    '<div style="font-size:13px;color:#5d4037;line-height:1.5;margin-bottom:8px;">Legal words like <em>may</em>, <em>shall</em>, <em>right</em>, and <em>petition</em> have precise meanings that everyday translation tools (like Google Translate) often miss — and a wrong word can change your rights.</div>' +
+    '<div style="font-size:13px;color:#5d4037;line-height:1.5;">If you need help right now in your language, call <strong>211</strong> (free, 24/7, 200+ languages) or <strong>LawNY at 585-295-5700</strong> (free legal aid, interpreters available). The free legal aid organizations listed at the bottom of this page also speak many languages directly.</div>' +
+    '</div>';
 }
 
 // ── Shared CSS block ──
