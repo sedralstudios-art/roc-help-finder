@@ -769,6 +769,34 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <div style={{ fontSize: 22, color: C.amber, flexShrink: 0, fontWeight: 700 }}>→</div>
           </button>
 
+          {/* ── PETS TILE ── added April 9, 2026, nav fixed migrate-11 */}
+          {/* Peer to Know Your Rights. Soft blue, paw icon. */}
+          {/* Uses the same <a href="/help"> + onNavigateHelp() pattern as the */}
+          {/* "Find help now" green circle at line ~709 — HelpFinder is a sibling */}
+          {/* component mounted by the app router, not a sub-page of LandingPage. */}
+          {/* TODO: deep-link directly into pets category (currently lands on /help WHAT_TAB) */}
+          
+          <a
+            href="/help#c=pets"
+            onClick={(e) => { e.preventDefault(); window.location.hash = "c=pets"; if (onNavigateHelp) onNavigateHelp(); }}
+            className="hf-fade-in hf-d5"
+            style={{
+              width: "100%", textAlign: isRTL ? "right" : "left",
+              background: "#e3f2fd", border: "1px solid #1565c0",
+              borderRadius: 24, padding: "18px 22px", cursor: "pointer",
+              marginTop: 12, fontFamily: "inherit",
+              display: "flex", alignItems: "center", gap: 16,
+              textDecoration: "none", boxSizing: "border-box",
+            }}
+          >
+            <div style={{ fontSize: 34, flexShrink: 0, lineHeight: 1 }}>🐾</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 3 }}>Help for pets</div>
+              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>Adoption, vet care, food, surrender support, and shelters that accept pets.</div>
+            </div>
+            <div style={{ fontSize: 22, color: "#1565c0", flexShrink: 0, fontWeight: 700 }}>→</div>
+          </a>
+
           {/* TRUST LINE */}
           <div className="hf-fade-in hf-d6" style={{ textAlign: "center", marginTop: 24, padding: "0 10px" }}>
             <div style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 12, color: C.dust }}>

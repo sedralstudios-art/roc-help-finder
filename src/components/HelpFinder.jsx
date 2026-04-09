@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, applyTownFilter, getUrgencyLevel } from "./HelpFinderQuestions";
 import ShareButton from "./ShareButton";
 
@@ -1017,10 +1017,7 @@ const PROGRAMS = [
   { id:"jpc", n:"Judicial Process Commission", c:"reentry", d:"Help getting RAP sheets, Certificates of Rehabilitation, mentoring.", ph:"585-325-7727", url:"https://www.rocjpc.org", hr:"M-F", doc:"None", tg:["any"], reach:"remote" },
 
   // PETS
-  { id:"rochpets", n:"Rochester Hope For Pets", c:"pets", d:"Grants toward emergency vet care for pet owners who can't afford it.", ph:"585-532-7406", url:"https://www.rochesterhopeforpets.org", hr:"M-F 9am-3pm", doc:"Vet estimate required", tg:["any"], reach:"remote" },
   { id:"all4pets", n:"All 4 Pets WNY", c:"pets", d:"One-time grant for medical care for pets whose owners can't afford it.", ph:"585-727-5142", url:"https://www.all4petswny.org", hr:"See website", doc:"Vet estimate", tg:["any"], reach:"remote" },
-  { id:"lollypop", n:"Lollypop Farm (Pet Food & Spay/Neuter)", c:"pets", d:"Pet food pantry, low-cost spay/neuter, behavior helpline.", ph:"585-223-1330", url:"https://www.lollypop.org", hr:"See website", doc:"Proof of income for SNIP program", tg:["any"], reach:"remote" },
-  { id:"raspetfood", n:"Rochester Animal Services Pet Food Pantry", c:"pets", d:"Free pet food for City of Rochester residents. 2nd and 4th Friday of each month.", ph:"585-428-7008", url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet", hr:"2nd & 4th Fridays", doc:"Proof of Rochester residency", tg:["any"], reach:"remote" },
   { id:"rcac", n:"Rochester Community Animal Clinic", c:"pets", d:"Low-cost vet care and spay/neuter for all pet owners. Walk-in wellness clinic.", ph:"585-288-0600", ad:"985 Bay St, Rochester NY 14609", url:"https://rochestercommunityanimalclinic.com", hr:"See website", doc:"None", tg:["any"], town:"rochester", zip:"14609", lat:43.1713, lng:-77.566722, reach:"local" },
 
   // HIV/STI
@@ -1166,6 +1163,95 @@ const PROGRAMS = [
   { id:"cleanslate", n:"NY Clean Slate Act — Automatic Sealing (2024)", c:"legalCrimRecord", d:"As of November 2024, most NY misdemeanors are automatically sealed after 3 years and most felonies after 8 years. This happened automatically — you don't need to apply. Check if your record was sealed.", url:"https://www.criminaljustice.ny.gov/cleanslate", hr:"24/7 online", doc:"None", tg:["any"], nt:"Sealed records are hidden from most private background checks but remain visible to courts and law enforcement. Certain serious offenses (sex crimes, class A felonies) are excluded from Clean Slate.", reach:"statewide" },
   { id:"certrelief", n:"Certificate of Relief from Civil Disabilities", c:"legalCrimRecord", d:"Removes automatic bars to employment, licenses, and housing caused by a criminal record. Apply through the court that sentenced you. Free.", ph:"585-371-3608", ad:"99 Exchange Blvd, Rochester NY 14614", url:"https://www.criminaljustice.ny.gov/pio/press_releases/2023-09-27_pressrelease.html", hr:"M-F 9am-4:30pm", doc:"Your case/docket number, sentencing records", tg:["any"], nt:"This is one of the most underused tools for people with records. It doesn't erase your record but removes legal barriers to jobs and licenses. Ask RAWNY or Legal Aid for help applying.", town:"rochester", zip:"14614", lat:43.154698, lng:-77.612165, reach:"statewide" },
   { id:"legalaidrecord", n:"Legal Aid Society — Criminal Record Help", c:"legalCrimRecord", d:"Free legal help understanding your record, sealing options, and certificates.", inc:200, ph:"585-232-4090", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income", tg:["any"], reach:"remote" },
+
+  // ─────────────────────────────────────────────
+  // PETS — added April 9, 2026 (v1: 9 verified entries)
+  // ─────────────────────────────────────────────
+  { id:"vsas", n:"Rochester Animal Services / Verona Street Animal Society", c:"pets",
+    d:"City animal shelter and 501c3 partner. Pet adoption, foster care, surrender prevention support, end-of-life services for City residents. Dog adoptions $50, cat adoptions $30. Free for seniors 60+ adopting an animal age 8+.",
+    ph:"585-428-7274", url:"https://www.cityofrochester.gov/petadoption/",
+    ad:"184 Verona St, Rochester NY 14608",
+    hr:"Mon-Fri 12-6pm, Sat-Sun 12-4pm",
+    doc:"ID for adoption. Just call for surrender prevention.",
+    tg:["any"],
+    town:"rochester", zip:"14608", reach:"local" },
+
+  { id:"vsasfood", n:"Verona Street Pet Food Pantry", c:"pets",
+    d:"Free pet food and supplies for City of Rochester residents. Held the 2nd and 4th Friday of every month. Limited to once per month per household.",
+    ph:"585-428-7008", url:"https://www.cityofrochester.gov/petadoption/",
+    ad:"184 Verona St, Rochester NY 14608",
+    hr:"2nd and 4th Fridays of each month",
+    doc:"Proof of City of Rochester residency.",
+    tg:["any","hh"],
+    town:"rochester", zip:"14608", reach:"local" },
+
+  { id:"vsassurrender", n:"Pet Surrender Prevention (Rochester Animal Services)", c:"pets",
+    d:"If you are considering giving up your pet because of money or life circumstances, call the Pet Surrender Prevention Specialist BEFORE you do anything. They may be able to provide food, supplies, vet referrals, or rehoming support to keep your pet with you.",
+    ph:"585-428-6722", url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
+    ad:"184 Verona St, Rochester NY 14608",
+    hr:"M-F business hours",
+    doc:"None — just call.",
+    tg:["any","hh"],
+    town:"rochester", zip:"14608", reach:"local" },
+
+  { id:"vsasvax", n:"Free Dog Vaccine Clinics (Rochester Animal Services)", c:"pets",
+    d:"Free distemper and parvo (DAAP) vaccines for City of Rochester resident dogs. No appointment needed. Donated by Petco Love. Does NOT include rabies vaccine — rabies clinics held separately.",
+    ph:"585-428-7008", url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
+    ad:"448 Smith St, Rochester NY 14606 (parking lot C, Community Sports Complex)",
+    hr:"Periodic — check website for next clinic date",
+    doc:"City of Rochester residency. Dog must be on leash. One dog per person.",
+    tg:["any"],
+    town:"rochester", zip:"14606", reach:"local" },
+
+  { id:"lollypop", n:"Lollypop Farm — Humane Society of Greater Rochester", c:"pets",
+    d:"The largest animal welfare organization in the Rochester area, since 1873. Pet adoption (dogs, cats, small animals, horses, farm animals), foster care, vet care, behavior consultations, dog training, humane education. Multiple satellite locations across Monroe County.",
+    ph:"585-223-1330", url:"https://www.lollypop.org",
+    ad:"99 Victor Rd, Fairport NY 14450",
+    hr:"Mon 10am-4:30pm, Tue-Fri 12-6:30pm, Sat-Sun 10am-4:30pm",
+    doc:"ID and adoption application.",
+    tg:["any"],
+    town:"fairport", zip:"14450",
+    serves: ["fairport","rochester","henrietta","greece","perinton"],
+    reach:"regional" },
+
+  { id:"lollypopcruelty", n:"Lollypop Farm Animal Cruelty 24-Hour Hotline", c:"pets",
+    d:"24/7 hotline for reporting animal cruelty, neglect, or suspected abuse. Lollypop Farm has law enforcement authority for animal cruelty cases in Monroe County. Anonymous reports accepted.",
+    ph:"585-223-6500", url:"https://www.lollypop.org",
+    hr:"24/7",
+    doc:"None. Anonymous reports accepted.",
+    tg:["any"],
+    reach:"regional",
+    safetySensitive: true },
+
+  { id:"lollypopspay", n:"Lollypop Farm Spay/Neuter Assistance", c:"pets",
+    d:"Low-cost spay and neuter surgeries for pet owners receiving public assistance (SNAP, HEAP, SSI, Medicaid, SSDI, Temporary Assistance) or with household income under $40,000. Also low-cost services for feral cat caregivers and approved Rescue Partner organizations. Appointment only.",
+    ph:"585-223-1330", url:"https://www.lollypop.org/services/spayneuter-assistance/",
+    ad:"99 Victor Rd, Fairport NY 14450",
+    hr:"By appointment, M-F",
+    doc:"Benefits card, recent 1040 tax form, or SSA benefit letter.",
+    tg:["hh"], inc:200,
+    town:"fairport", zip:"14450",
+    serves: ["fairport","rochester","henrietta","greece","perinton"],
+    reach:"regional" },
+
+  { id:"hopeforpets", n:"Rochester Hope for Pets (Vet Bill Assistance)", c:"pets",
+    d:"Financial grants to help pay for unexpected or emergency veterinary care. Awards typically cover a portion of the cost, not the full bill. NOT for emergencies — 5 business days for decision. Coverage area is 40 miles from Rochester, including all of Monroe County and parts of Wayne, Ontario, Livingston, Orleans, Genesee, Seneca, and Yates counties.",
+    url:"https://www.rochesterhopeforpets.org/application",
+    ad:"2816 Monroe Ave, Rochester NY 14618",
+    hr:"M-F 9am-3pm",
+    doc:"Estimate from your veterinarian for the procedure or treatment.",
+    tg:["hh"],
+    town:"rochester", zip:"14618", reach:"regional" },
+
+  { id:"willowpets", n:"Willow Domestic Violence Center — Pet-Friendly Shelter", c:"pets",
+    d:"If you or your family are leaving an unsafe home and you have a pet you can't bear to leave behind: Willow's emergency shelter accepts a variety of pets along with survivors and their children. You do not have to choose between your safety and your pet's safety. Call the 24-hour hotline.",
+    ph:"585-232-7353", url:"https://willowcenterny.org",
+    hr:"24/7 hotline",
+    doc:"None.",
+    tg:["any"],
+    reach:"local",
+    safetySensitive: true },
+
 ];
 
 // COMMUNITY GROUPS
@@ -1187,6 +1273,31 @@ const FEATURED_IDS = ["211", "snap", "medicaid", "foodlink", "myb", "988", "mcvi
 
 // ── SENSITIVE CATEGORIES (show privacy notice) ──
 const SENSITIVE = new Set(["mental","grief","addiction","domesticSvc","hivsti","reentry","lgbtq","parentalProtection","legalImmigration","legalCrimRecord"]);
+// ─────────────────────────────────────────────
+// SAFETY_SENSITIVE — per-entry safety flag (added April 9, 2026)
+// ─────────────────────────────────────────────
+// The DV_CATS set below activates Quick Exit at the CATEGORY level — useful
+// when an entire category (like domesticSvc) is high-risk for the user.
+//
+// But some individual entries inside non-sensitive categories also need the
+// same protection. Examples:
+//   - Animal cruelty reporting hotlines (in pets category) — the reporter
+//     may be living with the abuser, who is also abusing humans
+//   - Pet-friendly DV shelter cross-references (in pets category) — the
+//     survivor may be on a monitored device
+//   - Future entries in any category that touch reporting, escape, or
+//     surveillance-vulnerable scenarios
+//
+// The schema flag is `safetySensitive: true` on any individual program object.
+// When ANY visible program in the current view has the flag, Quick Exit
+// activates automatically. The activation is one-way for the session —
+// once triggered, it stays visible until reset (matching the existing
+// DV_CATS behavior).
+//
+// Rule: match the protection level of the highest-risk visible entry,
+// never less. Defensive in depth.
+// ─────────────────────────────────────────────
+
 // ── DV CATEGORIES (show safety notice + quick exit) ──
 const DV_CATS = new Set(["domesticSvc","parentalProtection"]);
 // ── LEGAL CATEGORIES (show disclaimer + explainer) ──
@@ -1792,6 +1903,19 @@ function RocHelpInner({ onExit, city = "your area" }) {
 
     return progs;
   }, [category, who, how, nearMe, userCoords, answers, userTown]);
+
+  // Per-entry safety override — see SAFETY_SENSITIVE doc block above DV_CATS.
+  // If ANY visible program is flagged safetySensitive, escalate to Quick Exit.
+  const hasSensitiveProgram = useMemo(
+    () => filteredPrograms.some(p => p.safetySensitive),
+    [filteredPrograms]
+  );
+
+  useEffect(() => {
+    if (hasSensitiveProgram) {
+      setShowDVExit(true);
+    }
+  }, [hasSensitiveProgram]);
 
   // ── STEP INDICATOR ──
   const stepLabels = [

@@ -199,6 +199,7 @@ export const CATEGORY_FIRST_QUESTION = {
 export const CATEGORY_DIRECT_TO_RESULTS = new Set([
   'domesticSvc',
   'crisisChild',
+  'pets',
 ]);
 
 // Meta-category program filters. For categories where the program list
