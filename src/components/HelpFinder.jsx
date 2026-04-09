@@ -1334,13 +1334,6 @@ function distanceMiles(lat1, lon1, lat2, lon2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
-// Programs with coordinates for Near Me (food-related)
-const FOOD_COORDS = {
-  "foodlink": [43.1566, -77.6088],
-  "salvation": [43.1610, -77.6219],
-  "food_stamps": null,
-  "pantry": [43.1490, -77.6011],
-};
 // ── CRISIS CATEGORIES (show crisis intercept) ──
 const CRISIS_CATS = new Set(["crisis","domesticSvc","mental"]);
 
@@ -1683,8 +1676,28 @@ function RocHelpInner({ onExit, city = "your area" }) {
     }
     // "none" and "crisis" = show everything (they qualify for all income-limited programs)
 
+    // NEAR ME: when user enables location, sort by distance from user.
+    // Programs with addressSuppressed:true (crisis nurseries, DV shelters)
+    // sort to the END so they remain visible but never lead the list with
+    // a fake distance — those resources are reached by phone, not by directions.
+    if (nearMe && userCoords) {
+      const [userLat, userLng] = userCoords;
+      progs = progs
+        .map((p) => {
+          const usable = !p.addressSuppressed
+            && typeof p.lat === "number"
+            && typeof p.lng === "number";
+          return {
+            prog: p,
+            dist: usable ? distanceMiles(userLat, userLng, p.lat, p.lng) : Infinity,
+          };
+        })
+        .sort((a, b) => a.dist - b.dist)
+        .map((x) => x.prog);
+    }
+
     return progs;
-  }, [category, who, how]);
+  }, [category, who, how, nearMe, userCoords]);
 
   // ── STEP INDICATOR ──
   const stepLabels = [
