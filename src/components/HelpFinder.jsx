@@ -1751,6 +1751,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
   const [answers, setAnswers] = useState({});
   const [currentQuestionKey, setCurrentQuestionKey] = useState(null);
   const [userTown, setUserTown] = useState(null);  // null = no town filter; set by future town picker / zip lookup / URL param
+  const [enteredViaDeepLink, setEnteredViaDeepLink] = useState(false);  // true when the session was entered via a hash deep-link (e.g. /help#c=pets) — Back button uses this to call onExit() from RESULTS instead of walking the state machine backward
   const containerRef = useRef(null);
 
 
@@ -1763,6 +1764,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
       const c = params.get("c");
       if (c && CATEGORIES[c]) {
         setCategory(c);
+        setEnteredViaDeepLink(true);
         if (DV_CATS.has(c)) setShowDVExit(true);
         if (isDirectToResults(c)) {
           setStep(STEPS.RESULTS);
@@ -1783,9 +1785,10 @@ function RocHelpInner({ onExit, city = "your area" }) {
 
   // Update hash when results are shown
   React.useEffect(() => {
-    if (step === STEPS.RESULTS && category) {
-      try { window.location.hash = `c=${category}&l=${lang}`; } catch (e) {}
-    } else if (step === STEPS.HOME) {
+    // Hash-write on RESULTS removed in migration 18 — it was polluting
+    // the URL on normal-flow navigation and causing remounts to appear
+    // as deep-link sessions. Deep-links still work via FIX 14 useEffect.
+    if (step === STEPS.HOME) {
       try { if (window.location.hash) window.history.replaceState(null, "", " "); } catch (e) {}
     }
   }, [step, category, lang]);
@@ -1837,6 +1840,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
 
   const reset = () => {
     setStep(STEPS.HOME); setTab(null); setCategory(null);
+    setEnteredViaDeepLink(false);
     setNearMe(false); setUserCoords(null); setGeoError(false);
     setWho(null); setHow(null); setExpandedCard(null);
     setAnswers({}); setCurrentQuestionKey(null);
@@ -2016,9 +2020,9 @@ function RocHelpInner({ onExit, city = "your area" }) {
       </div>
 
       {/* NAV */}
-      {step > STEPS.HOME && (
+      {step >= STEPS.HOME && (
         <div style={{ display: "flex", gap: 8, padding: "10px 20px 0" }}>
-          <button onClick={() => goTo(Math.max(0, step - 1))} aria-label={t(lang, "back")} style={{
+          <button onClick={() => { if (enteredViaDeepLink || step === STEPS.HOME) { if (onExit) onExit(); } else if (step === STEPS.WHAT_CAT) { goTo(STEPS.HOME); } else { goTo(Math.max(0, step - 1)); } }} aria-label={t(lang, "back")} style={{
             background: "none", border: "1px solid #e8e4dc", borderRadius: 20,
             padding: "6px 14px", fontSize: 13, cursor: "pointer", color: "#555",
           }}>
