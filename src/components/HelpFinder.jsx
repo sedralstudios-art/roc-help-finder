@@ -131,7 +131,7 @@ const UI = {
     howTight: "Money is tight",
     howCrisis: "We can't pay for basics",
     howNone: "No income right now",
-    call211: "Call 211 — they can help with anything, anytime.",
+    call211: "Need something not listed? Call 211 for a referral.",
     privacy: "Nothing you share here is saved or sent anywhere. Ever.",
     privacySensitive: "This is private. We don't save or share anything. No one will know you looked here.",
     crisisNotice: "If you're in danger right now, help is available 24/7.",
@@ -180,7 +180,7 @@ const UI = {
     howTight: "El dinero está apretado",
     howCrisis: "No podemos pagar lo básico",
     howNone: "Sin ingresos ahora",
-    call211: "Llame al 211 — pueden ayudar con cualquier cosa, a cualquier hora.",
+    call211: "¿Necesita algo no listado? Llame al 211 para una referencia.",
     privacy: "Nada de lo que comparte aquí se guarda ni se envía a ningún lado. Nunca.",
     privacySensitive: "Esto es privado. No guardamos ni compartimos nada. Nadie sabrá que buscó aquí.",
     crisisNotice: "Si está en peligro ahora mismo, hay ayuda disponible 24/7.",
@@ -234,7 +234,7 @@ Object.assign(UI, {
     howTight: "पैसा तन्किएको छ",
     howCrisis: "आधारभूत कुरा तिर्न सक्दैनौं",
     howNone: "अहिले आम्दानी छैन",
-    call211: "211 मा कल गर्नुहोस् — जुनसुकै कुरामा, जुनसुकै बेला।",
+    call211: "सूचीमा नभएको कुरा चाहिन्छ? 211 मा कल गर्नुहोस्।",
     privacy: "तपाईंले यहाँ साझा गरेको कुनै कुरा सेभ वा पठाइँदैन। कहिल्यै।",
     privacySensitive: "यो निजी छ। हामी केही सेभ वा साझा गर्दैनौं। कसैलाई थाहा हुँदैन।",
     crisisNotice: "तपाईं अहिले खतरामा हुनुहुन्छ भने, सहायता 24/7 उपलब्ध छ।",
@@ -282,7 +282,7 @@ Object.assign(UI, {
     howTight: "المال ضيق",
     howCrisis: "لا نستطيع دفع الأساسيات",
     howNone: "لا دخل حالياً",
-    call211: "اتصل بـ 211 — يمكنهم المساعدة بأي شيء، في أي وقت.",
+    call211: "تحتاج شيئاً غير مدرج؟ اتصل بـ 211 للإحالة.",
     privacy: "لا يتم حفظ أو إرسال أي شيء تشاركه هنا. أبداً.",
     privacySensitive: "هذا خاص. لا نحفظ أو نشارك شيئاً. لن يعرف أحد أنك بحثت هنا.",
     crisisNotice: "إذا كنت في خطر الآن، المساعدة متاحة 24/7.",
@@ -330,7 +330,7 @@ Object.assign(UI, {
     howTight: "Fedha ni ngumu",
     howCrisis: "Hatuwezi kulipa mahitaji ya msingi",
     howNone: "Hakuna mapato sasa",
-    call211: "Piga 211 — wanaweza kusaidia chochote, wakati wowote.",
+    call211: "Unahitaji kitu kisichoorodheshwa? Piga 211 kwa rufaa.",
     privacy: "Hakuna unachoshiriki hapa kinachohifadhiwa au kutumwa. Kamwe.",
     privacySensitive: "Hii ni siri. Hatuhifadhi au kushiriki chochote. Hakuna mtu atakayejua ulitafuta hapa.",
     crisisNotice: "Ukiwa hatarini sasa hivi, msaada unapatikana 24/7.",
@@ -378,7 +378,7 @@ Object.assign(UI, {
     howTight: "ငွေကြေးကျပ်တည်းပါတယ်",
     howCrisis: "အခြေခံစရိတ်မပေးနိုင်ပါ",
     howNone: "အခုဝင်ငွေမရှိပါ",
-    call211: "211 ခေါ်ပါ — ဘာမဆို၊ အချိန်မရွေး ကူညီနိုင်ပါတယ်။",
+    call211: "စာရင်းမပါတာ လိုအပ်ပါသလား? 211 ခေါ်ပါ။",
     privacy: "ဒီမှာမျှဝေတာ ဘာမှသိမ်းဆည်းခြင်း သို့ ပေးပို့ခြင်းမရှိပါ။",
     privacySensitive: "ဒါလျှို့ဝှက်ပါ။ ဘာမှမသိမ်းပါ။ ဘယ်သူမှမသိပါ။",
     crisisNotice: "အခုအန္တရာယ်ကျရောက်နေရင် 24/7 အကူအညီရနိုင်ပါတယ်။",
@@ -426,7 +426,7 @@ Object.assign(UI, {
     howTight: "Lacagtu way cidhiidhi tahay",
     howCrisis: "Aasaasiga ma bixin karno",
     howNone: "Dakhli ma hayno hadda",
-    call211: "Wac 211 — wax kasta, wakhti kasta way kaa caawin karaan.",
+    call211: "Wax aan liiska ku jirin ma u baahan tahay? Wac 211.",
     privacy: "Waxba laguma keydiyo ama lama diro. Weligaa.",
     privacySensitive: "Tani waa sir. Waxba lama keydiyo ama lama wadaago. Qofna ma ogaan doono.",
     crisisNotice: "Haddii aad hadda khatar ku jirto, caawimo ayaa la heli karaa 24/7.",
@@ -474,7 +474,7 @@ Object.assign(UI, {
     howTight: "钱很紧",
     howCrisis: "付不起基本开支",
     howNone: "目前没有收入",
-    call211: "拨打211 — 任何事情，任何时间都能帮忙。",
+    call211: "需要未列出的服务？拨打211获取转介。",
     privacy: "您在这里分享的任何内容都不会被保存或发送。绝对不会。",
     privacySensitive: "这是私密的。我们不保存或分享任何内容。没有人会知道您在这里查看过。",
     crisisNotice: "如果您现在处于危险中，24/7全天候提供帮助。",
@@ -2415,14 +2415,14 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                 <div style={{ fontSize: 28, marginBottom: 8 }}>📞</div>
                 <div style={{ fontSize: 15, fontWeight: 600, color: "#e65100", marginBottom: 6 }}>
                   {({
-                    es: "No encontramos resultados exactos — pero el 211 puede ayudar.",
-                    ne: "सटीक परिणाम भेटिएन — तर 211 ले सहयोग गर्न सक्छ।",
-                    ar: "لم نجد نتائج دقيقة — لكن 211 يمكنه المساعدة.",
-                    sw: "Hatukupata matokeo kamili — lakini 211 wanaweza kusaidia.",
-                    my: "တိကျတဲ့ရလဒ်မတွေ့ပါ — ဒါပေမယ့် 211 ကူညီနိုင်ပါတယ်။",
-                    so: "Natiijooyin sax ah ma helin — laakiin 211 wuu kaa caawin karaa.",
-                    zh: "未找到精确结果 — 但211可以帮助您。",
-                  }[lang] || "No exact matches — but 211 can help with anything.")}
+                    es: "Sin resultados exactos. Intente ampliar sus filtros, o llame al 211.",
+                    ne: "सटीक परिणाम भेटिएन। फिल्टर फराकिलो बनाउनुहोस्, वा 211 मा कल गर्नुहोस्।",
+                    ar: "لا نتائج دقيقة بعد. جرب توسيع الفلاتر، أو اتصل بـ 211.",
+                    sw: "Hakuna matokeo kamili bado. Jaribu kupanua vichujio, au piga 211.",
+                    my: "တိကျတဲ့ရလဒ် မတွေ့သေးပါ။ စစ်ထုတ်မှုကို ချဲ့ပါ သို့မဟုတ် 211 ခေါ်ပါ။",
+                    so: "Natiijo sax ah wali lama helin. Shaandhee ballaadhi, ama wac 211.",
+                    zh: "暂无精确结果。尝试扩大筛选范围，或拨打211。",
+                  }[lang] || "No exact match yet. Try broadening your filters, or call 211.")}
                 </div>
                 <a href="tel:211" style={{
                   display: "inline-block", marginTop: 8, background: "#e65100",
@@ -2442,7 +2442,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
               />
             ))}
 
-            {/* 211 fallback */}
+            {/* 211 referral link */}
             <div style={{
               background: "#e3f2fd", borderRadius: 12, padding: 14,
               marginTop: 16, textAlign: "center",
