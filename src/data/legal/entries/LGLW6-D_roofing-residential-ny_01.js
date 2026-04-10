@@ -97,7 +97,7 @@ export const entry = {
     }
   ],
 
-  relatedIds: [],
+  relatedIds: ["roofing-residential-ny-mon-pittsford-town"],
   relatedHelpResources: [],
 
   tags: [
