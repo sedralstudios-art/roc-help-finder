@@ -68,7 +68,7 @@ export const entry = {
     }
   ],
 
-  relatedIds: ["roofing-residential-ny"],
+  relatedIds: ["roofing-residential-ny", "roofing-residential-ny-mon-hilton-village"],
   relatedHelpResources: [],
 
   tags: [
