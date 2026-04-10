@@ -154,6 +154,9 @@ const UI = {
     findMoreLink: "Search more programs on findhelp.org",
     alsoNeed: "I also need help with something else",
     parentalProtectionDisclaimer: "This information is not legal advice. Laws and procedures change. Always consult a lawyer for your specific situation. Legal Aid and LawNY offer free legal help.",
+    shareLabel: "Share HelpFinder",
+    shareText: "Free help and legal info for Monroe County. No accounts, no ads, no tracking.",
+    shareAriaLabel: "Share HelpFinder with someone who needs it",
   },
   es: {
     title: "HelpFinder",
@@ -199,6 +202,9 @@ const UI = {
     findMore: "¿No encuentra lo que necesita?",
     findMoreLink: "Busque más programas en findhelp.org",
     alsoNeed: "También necesito ayuda con otra cosa",
+    shareLabel: "Compartir HelpFinder",
+    shareText: "Ayuda gratuita e información legal para el condado de Monroe. Sin cuentas, sin anuncios, sin rastreo.",
+    shareAriaLabel: "Compartir HelpFinder con alguien que lo necesite",
   },
 };
 const t = (lang, key) => (UI[lang] && UI[lang][key]) || UI.en[key] || key;
@@ -250,6 +256,9 @@ Object.assign(UI, {
     findMore: "खोज्नुभएको भेटिएन?",
     findMoreLink: "findhelp.org मा थप खोज्नुहोस्",
     alsoNeed: "मलाई अरू कुरामा पनि सहयोग चाहिन्छ",
+    shareLabel: "HelpFinder साझा गर्नुहोस्",
+    shareText: "Monroe County को लागि निःशुल्क सहयोग र कानूनी जानकारी। कुनै खाता छैन, कुनै विज्ञापन छैन, कुनै ट्र्याकिङ छैन।",
+    shareAriaLabel: "HelpFinder चाहिने कसैलाई साझा गर्नुहोस्",
   },
   ar: {
     title: "HelpFinder",
@@ -295,6 +304,9 @@ Object.assign(UI, {
     findMore: "لم تجد ما تحتاج؟",
     findMoreLink: "ابحث عن المزيد على findhelp.org",
     alsoNeed: "أحتاج مساعدة في شيء آخر أيضاً",
+    shareLabel: "شارك HelpFinder",
+    shareText: "مساعدة مجانية ومعلومات قانونية لمقاطعة مونرو. بدون حسابات، بدون إعلانات، بدون تتبع.",
+    shareAriaLabel: "شارك HelpFinder مع شخص يحتاجه",
   },
   sw: {
     title: "HelpFinder",
@@ -340,6 +352,9 @@ Object.assign(UI, {
     findMore: "Hukupata unachohitaji?",
     findMoreLink: "Tafuta zaidi kwenye findhelp.org",
     alsoNeed: "Pia nahitaji msaada na kitu kingine",
+    shareLabel: "Shiriki HelpFinder",
+    shareText: "Msaada wa bure na habari za kisheria kwa Monroe County. Hakuna akaunti, hakuna matangazo, hakuna ufuatiliaji.",
+    shareAriaLabel: "Shiriki HelpFinder na mtu anayehitaji",
   },
   my: {
     title: "HelpFinder",
@@ -385,6 +400,9 @@ Object.assign(UI, {
     findMore: "ရှာနေတာမတွေ့ဘူးလား?",
     findMoreLink: "findhelp.org တွင်ထပ်ရှာပါ",
     alsoNeed: "အခြားကိစ္စတွင်လည်းအကူအညီလိုပါတယ်",
+    shareLabel: "HelpFinder မျှဝေပါ",
+    shareText: "Monroe County အတွက် အခမဲ့ အကူအညီနှင့် ဥပဒေဆိုင်ရာ အချက်အလက်များ။ အကောင့်မရှိ၊ ကြော်ငြာမရှိ၊ ခြေရာခံမှုမရှိ။",
+    shareAriaLabel: "လိုအပ်သူတစ်ယောက်ကို HelpFinder မျှဝေပါ",
   },
   so: {
     title: "HelpFinder",
@@ -430,6 +448,9 @@ Object.assign(UI, {
     findMore: "Ma helin waxaad raadinaysay?",
     findMoreLink: "Ka raadi wax badan findhelp.org",
     alsoNeed: "Waxaan sidoo kale u baahanahay caawimaad wax kale",
+    shareLabel: "La wadaag HelpFinder",
+    shareText: "Caawimo lacag la'aan ah iyo macluumaad sharci ah ee Monroe County. Akoon la'aan, xayeysiis la'aan, raadraac la'aan.",
+    shareAriaLabel: "La wadaag HelpFinder qof u baahan",
   },
   zh: {
     title: "HelpFinder",
@@ -475,6 +496,9 @@ Object.assign(UI, {
     findMore: "没找到您需要的？",
     findMoreLink: "在findhelp.org上搜索更多项目",
     alsoNeed: "我还需要其他方面的帮助",
+    shareLabel: "分享 HelpFinder",
+    shareText: "门罗县免费帮助和法律信息。无需账户，无广告，无追踪。",
+    shareAriaLabel: "将 HelpFinder 分享给需要的人",
   },
 });
 
@@ -1991,14 +2015,13 @@ function RocHelpInner({ onExit, city = "your area" }) {
           </select>
         </div>
 
-        {/* Share — added April 9, 2026. TODO: i18n */}
         <div style={{ marginTop: 8, textAlign: "center" }}>
           <ShareButton
             title="HelpFinder"
-            text="Free help and legal info for Monroe County. No accounts, no ads, no tracking."
+            text={t(lang, "shareText")}
             url="https://helpfinder.help"
-            label="Share HelpFinder"
-            ariaLabel="Share HelpFinder with someone who needs it"
+            label={t(lang, "shareLabel")}
+            ariaLabel={t(lang, "shareAriaLabel")}
           />
         </div>
 

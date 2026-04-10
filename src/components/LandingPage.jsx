@@ -128,6 +128,9 @@ const UI = {
     tier3: "Helps us add a new city",
     donatePaypal: "Donate via PayPal", teamwork: "Teamwork makes the dream work.",
     supportDisclaimer: "Sedral Studios is not a registered nonprofit. Donations support hosting, research, and expansion to new cities. Thank you.",
+    shareLabel: "Share HelpFinder",
+    shareText: "Free help and legal info for Monroe County. No accounts, no ads, no tracking.",
+    shareAriaLabel: "Share HelpFinder with someone who needs it",
     privacyTitle: "Privacy",
     privacyShort: "The short version: we don't collect personal data.",
     privacyP1: "No accounts. No cookies from us. No tracking pixels. No analytics that identify you. No data is saved when you use HelpFinder. We count how many times each resource is clicked so we know what help people need most — but we never track who clicks. Third-party services (donation platforms) may set their own cookies if you visit them.",
@@ -200,6 +203,9 @@ const UI = {
     tier3: "Nos ayuda a agregar una nueva ciudad",
     donatePaypal: "Donar vía PayPal", teamwork: "El trabajo en equipo hace realidad el sueño.",
     supportDisclaimer: "Sedral Studios no es una organización sin fines de lucro registrada. Las donaciones apoyan el hosting, investigación y expansión a nuevas ciudades. Gracias.",
+    shareLabel: "Compartir HelpFinder",
+    shareText: "Ayuda gratuita e información legal para el condado de Monroe. Sin cuentas, sin anuncios, sin rastreo.",
+    shareAriaLabel: "Compartir HelpFinder con alguien que lo necesite",
     privacyTitle: "Privacidad",
     privacyShort: "La versión corta: no recopilamos datos personales.",
     privacyP1: "Sin cuentas. Sin cookies de nuestra parte. Sin píxeles de rastreo. Sin analíticas que te identifiquen. Contamos cuántas veces se hace clic en cada recurso para saber qué ayuda necesitan las personas — pero nunca rastreamos quién hace clic. No se guardan datos al usar el Buscador de Ayuda ni la Lectura de Claridad. Servicios de terceros (plataformas de donación) pueden establecer sus propias cookies.",
@@ -252,6 +258,9 @@ const UI = {
     tier1: "एक हप्ता साइट चलाउँछ", tier2: "एक महिना होस्टिङ", tier3: "नयाँ शहर थप्न मद्दत",
     donatePaypal: "PayPal मार्फत दान", teamwork: "सामूहिक प्रयासले सपना साकार हुन्छ।",
     supportDisclaimer: "दानले होस्टिङ र विस्तारलाई समर्थन गर्छ। धन्यवाद।",
+    shareLabel: "HelpFinder साझा गर्नुहोस्",
+    shareText: "Monroe County को लागि निःशुल्क सहयोग र कानूनी जानकारी। कुनै खाता छैन, कुनै विज्ञापन छैन, कुनै ट्र्याकिङ छैन।",
+    shareAriaLabel: "HelpFinder चाहिने कसैलाई साझा गर्नुहोस्",
     privacyTitle: "गोपनीयता", privacyShort: "छोटो संस्करण: हामी व्यक्तिगत डाटा सङ्कलन गर्दैनौं। (हामी रोचेस्टरलाई के चाहिन्छ सिक्दैछौं।)",
     privacyP1: "कुनै खाता छैन। कुनै कुकी छैन। कुनै ट्र्याकिङ छैन।",
     privacyP2: "हामीलाई थाहा छैन तपाईं को हुनुहुन्छ।",
@@ -292,6 +301,9 @@ const UI = {
     tier1: "يبقي الموقع يعمل لأسبوع", tier2: "يغطي شهراً من الاستضافة", tier3: "يساعدنا بإضافة مدينة جديدة",
     donatePaypal: "تبرع عبر PayPal", teamwork: "العمل الجماعي يحقق الحلم.",
     supportDisclaimer: "التبرعات تدعم الاستضافة والتوسع. شكراً.",
+    shareLabel: "شارك HelpFinder",
+    shareText: "مساعدة مجانية ومعلومات قانونية لمقاطعة مونرو. بدون حسابات، بدون إعلانات، بدون تتبع.",
+    shareAriaLabel: "شارك HelpFinder مع شخص يحتاجه",
     privacyTitle: "الخصوصية", privacyShort: "الخلاصة: لا نجمع بيانات شخصية. (نتعلم ما يحتاجه روتشستر.)",
     privacyP1: "لا حسابات. لا كوكيز. لا تتبع.", privacyP2: "لا نعرف من أنت.",
     privacyP3: "قراءة الوضوح تستخدم الذكاء الاصطناعي. كل شيء يختفي.",
@@ -329,6 +341,9 @@ const UI = {
     tier3: "Inasaidia kuongeza mji mpya",
     donatePaypal: "Changia kupitia PayPal", teamwork: "Kazi ya pamoja hufanya ndoto kuwa kweli.",
     supportDisclaimer: "Michango inasaidia hosting na upanuzi. Asante.",
+    shareLabel: "Shiriki HelpFinder",
+    shareText: "Msaada wa bure na habari za kisheria kwa Monroe County. Hakuna akaunti, hakuna matangazo, hakuna ufuatiliaji.",
+    shareAriaLabel: "Shiriki HelpFinder na mtu anayehitaji",
     privacyTitle: "Faragha", privacyShort: "Toleo fupi: hatukusanyi data binafsi.",
     privacyP1: "Hakuna akaunti. Hakuna kuki. Hakuna ufuatiliaji.", privacyP2: "Hatujui wewe ni nani.",
     privacyP3: "Usomaji hutumia AI. Kila kitu kinatoweka.", privacyP4: "Hakuna athari kwenye kifaa chako.",
@@ -365,6 +380,9 @@ const UI = {
     tier1: "တစ်ပတ်စာဆိုက်ကိုလည်ပတ်စေသည်", tier2: "တစ်လစာ hosting", tier3: "မြို့သစ်ထည့်ရန်ကူညီသည်",
     donatePaypal: "PayPal မှတစ်ဆင့်လှူဒါန်း", teamwork: "အသင်းအဖွဲ့လုပ်ဆောင်မှုက အိပ်မက်ကိုအကောင်အထည်ဖော်သည်။",
     supportDisclaimer: "လှူဒါန်းငွေများသည် hosting နှင့်တိုးချဲ့မှုကိုထောက်ပံ့သည်။",
+    shareLabel: "HelpFinder မျှဝေပါ",
+    shareText: "Monroe County အတွက် အခမဲ့ အကူအညီနှင့် ဥပဒေဆိုင်ရာ အချက်အလက်များ။ အကောင့်မရှိ၊ ကြော်ငြာမရှိ၊ ခြေရာခံမှုမရှိ။",
+    shareAriaLabel: "လိုအပ်သူတစ်ယောက်ကို HelpFinder မျှဝေပါ",
     privacyTitle: "ကိုယ်ရေးကိုယ်တာ", privacyShort: "အတိုချုပ်: ကိုယ်ရေးကိုယ်တာဒေတာမကောက်ပါ။ (ရော့ချက်စတားကို ဘာလိုအပ်သလဲ လေ့လာနေပါတယ်။)",
     privacyP1: "အကောင့်မရှိ။ ကွတ်ကီးမရှိ။", privacyP2: "သင်ဘယ်သူလဲမသိပါ။",
     privacyP3: "AI အသုံးပြုသည်။ အားလုံးပျောက်သွားသည်။", privacyP4: "သင့်စက်တွင်ခြေရာမရှိ။",
@@ -401,6 +419,9 @@ const UI = {
     tier1: "Websaydhka toddobaad u shaqeeysiiya", tier2: "Bil hosting", tier3: "Magaalo cusub ku darida",
     donatePaypal: "Ku deeq PayPal", teamwork: "Wadashaqayntu waxay noqotaa riyada run.",
     supportDisclaimer: "Deeqaha waxay taageeraan hosting iyo ballaarinta. Mahadsanid.",
+    shareLabel: "La wadaag HelpFinder",
+    shareText: "Caawimo lacag la'aan ah iyo macluumaad sharci ah ee Monroe County. Akoon la'aan, xayeysiis la'aan, raadraac la'aan.",
+    shareAriaLabel: "La wadaag HelpFinder qof u baahan",
     privacyTitle: "Asturnaanta", privacyShort: "Gaabis: xogta shaqsiga ma uruurino.",
     privacyP1: "Akoon ma jirto. Cookies ma jirto.", privacyP2: "Kuma aqoonsano.",
     privacyP3: "AI ayuu isticmaalaa. Wax walba waa libdhaan.", privacyP4: "Raad ma ka hadhayo qalabkaaga.",
@@ -438,6 +459,9 @@ const UI = {
     tier1: "维持网站运行一周", tier2: "覆盖一个月的托管", tier3: "帮助我们添加新城市",
     donatePaypal: "通过PayPal捐赠", teamwork: "团队合作成就梦想。",
     supportDisclaimer: "捐款支持托管和扩展。谢谢。",
+    shareLabel: "分享 HelpFinder",
+    shareText: "门罗县免费帮助和法律信息。无需账户，无广告，无追踪。",
+    shareAriaLabel: "将 HelpFinder 分享给需要的人",
     privacyTitle: "隐私", privacyShort: "简短版：我们不收集个人数据。（我们正在了解罗切斯特需要什么。）",
     privacyP1: "无账户。无Cookie。无追踪。", privacyP2: "我们不知道你是谁。",
     privacyP3: "使用AI。一切都会消失。", privacyP4: "你的设备上没有痕迹。",
@@ -738,14 +762,13 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             </a>
           </div>
 
-          {/* Share — homepage placement, added April 9, 2026. TODO: i18n */}
           <div style={{ textAlign: "center", marginTop: 20, marginBottom: 4 }}>
             <ShareButton
               title="HelpFinder"
-              text="Free help and legal info for Monroe County. No accounts, no ads, no tracking."
+              text={t(lang, "shareText")}
               url="https://helpfinder.help"
-              label="Share HelpFinder"
-              ariaLabel="Share HelpFinder with a friend who needs it"
+              label={t(lang, "shareLabel")}
+              ariaLabel={t(lang, "shareAriaLabel")}
             />
           </div>
 
@@ -774,7 +797,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           {/* Uses the same <a href="/help"> + onNavigateHelp() pattern as the */}
           {/* "Find help now" green circle at line ~709 — HelpFinder is a sibling */}
           {/* component mounted by the app router, not a sub-page of LandingPage. */}
-          {/* TODO: deep-link directly into pets category (currently lands on /help WHAT_TAB) */}
           
           <a
             href="/help#c=pets"
@@ -959,14 +981,13 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             {t(lang,"donatePaypal")}
           </a>
 
-          {/* Share — added April 9, 2026. TODO: i18n */}
           <div style={{ textAlign: "center", marginBottom: 20 }}>
             <ShareButton
               title="HelpFinder"
-              text="Free help and legal info for Monroe County. No accounts, no ads, no tracking."
+              text={t(lang, "shareText")}
               url="https://helpfinder.help"
-              label="Share HelpFinder"
-              ariaLabel="Share HelpFinder with someone who needs it"
+              label={t(lang, "shareLabel")}
+              ariaLabel={t(lang, "shareAriaLabel")}
             />
           </div>
 
