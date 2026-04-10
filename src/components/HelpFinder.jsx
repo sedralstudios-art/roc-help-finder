@@ -1759,7 +1759,7 @@ const btnStyle = (accent) => ({
 // ════════════════════════════════════
 const STEPS = { HOME: 0, WHAT_TAB: 1, WHAT_CAT: 2, WHO: 3, HOW: 4, RESULTS: 5, QUESTION: 6 };
 
-function RocHelpInner({ onExit, city = "your area" }) {
+function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
   const [lang, setLang] = useState("en");
   const [step, setStep] = useState(STEPS.HOME);
   const [tab, setTab] = useState(null);
@@ -1774,7 +1774,15 @@ function RocHelpInner({ onExit, city = "your area" }) {
   const [showDVExit, setShowDVExit] = useState(false);
   const [answers, setAnswers] = useState({});
   const [currentQuestionKey, setCurrentQuestionKey] = useState(null);
-  const [userTown, setUserTown] = useState(null);  // null = no town filter; set by future town picker / zip lookup / URL param
+  const [userTown, setUserTown] = useState(null);  // null = no town filter; auto-set from jurisdiction stack
+
+  // Auto-set userTown from jurisdiction stack (most specific match first)
+  useEffect(() => {
+    if (jurisdictions.length > 0 && !userTown) {
+      const slug = jurisdictions[0].name.toLowerCase().replace(/\s+/g, '-');
+      setUserTown(slug);
+    }
+  }, [jurisdictions]);
   const [enteredViaDeepLink, setEnteredViaDeepLink] = useState(false);  // true when the session was entered via a hash deep-link (e.g. /help#c=pets) — Back button uses this to call onExit() from RESULTS instead of walking the state machine backward
   const containerRef = useRef(null);
 
@@ -2526,10 +2534,10 @@ function RocHelpInner({ onExit, city = "your area" }) {
   );
 }
 
-export default function RocHelp({ onExit, city = "your area" }) {
+export default function RocHelp({ onExit, city = "your area", jurisdictions = [] }) {
   return (
     <ErrorBoundary>
-      <RocHelpInner onExit={onExit} city={city} />
+      <RocHelpInner onExit={onExit} city={city} jurisdictions={jurisdictions} />
     </ErrorBoundary>
   );
 }

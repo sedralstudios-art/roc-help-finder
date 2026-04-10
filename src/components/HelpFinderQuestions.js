@@ -292,7 +292,7 @@ export function applyAnswerFilters(programs, answers) {
 // will appear in each town's results without needing duplicate program entries.
 export function applyTownFilter(programs, userTown) {
   if (!userTown) return programs;
-  return programs.filter(p => p.town === userTown || (p.serves && p.serves.includes(userTown)));
+  return programs.filter(p => !p.town || p.town === userTown || (p.serves && p.serves.includes(userTown)));
 }
 
 
