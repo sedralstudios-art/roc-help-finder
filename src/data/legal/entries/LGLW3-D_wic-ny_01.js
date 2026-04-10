@@ -2,7 +2,7 @@ export const WIC_NY = {
   id: "wic-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "WIC — Free Healthy Food for Pregnant Women, Babies, and Young Children" },

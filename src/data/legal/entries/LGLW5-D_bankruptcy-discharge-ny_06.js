@@ -10,7 +10,7 @@ export const entry = {
   id: "bankruptcy-discharge-ny",
   category: "consumer",
   tier: "federal",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Bankruptcy Discharge — What Gets Eliminated and What Does Not" },

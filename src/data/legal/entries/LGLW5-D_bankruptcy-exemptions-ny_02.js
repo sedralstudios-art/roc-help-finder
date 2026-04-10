@@ -10,7 +10,7 @@ export const entry = {
   id: "bankruptcy-exemptions-ny",
   category: "consumer",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Bankruptcy Exemptions — What Property You Get to Keep" },

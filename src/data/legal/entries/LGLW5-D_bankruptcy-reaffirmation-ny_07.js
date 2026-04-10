@@ -10,7 +10,7 @@ export const entry = {
   id: "bankruptcy-reaffirmation-ny",
   category: "consumer",
   tier: "federal",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Reaffirmation Agreements — Keeping a Secured Asset After Bankruptcy" },

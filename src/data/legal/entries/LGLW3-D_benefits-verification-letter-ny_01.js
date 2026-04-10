@@ -2,7 +2,7 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
   id: "benefits-verification-letter-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Benefits Verification Letter — How to Prove You Receive Benefits" },

@@ -2,7 +2,7 @@ export const ORDER_OF_PROTECTION_NY = {
   id: "order-of-protection-ny",
   category: "family",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Orders of Protection — How to Get a Court Order to Keep Someone Away" },

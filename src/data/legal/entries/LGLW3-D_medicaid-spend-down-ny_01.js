@@ -2,7 +2,7 @@ export const MEDICAID_SPEND_DOWN_NY = {
   id: "medicaid-spend-down-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Medicaid Spend-Down — Coverage When Your Income Is Over the Limit" },

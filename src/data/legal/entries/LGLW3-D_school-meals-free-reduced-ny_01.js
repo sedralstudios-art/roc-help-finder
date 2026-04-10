@@ -2,7 +2,7 @@ export const SCHOOL_MEALS_FREE_REDUCED_NY = {
   id: "school-meals-free-reduced-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Free School Meals — Every Student in New York Gets Free Breakfast and Lunch" },

@@ -2,7 +2,7 @@ export const TENANT_HABITABILITY_NY = {
   id: "tenant-habitability-ny",
   category: "housing",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Warranty of Habitability — Your Right to a Safe Home" },

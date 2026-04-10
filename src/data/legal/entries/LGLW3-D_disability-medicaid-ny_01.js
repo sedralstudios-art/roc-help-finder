@@ -2,7 +2,7 @@ export const DISABILITY_MEDICAID_NY = {
   id: "disability-medicaid-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Disability Medicaid — Health Coverage for People With Disabilities" },

@@ -10,7 +10,7 @@ export const entry = {
   id: "bankruptcy-means-test-ny",
   category: "consumer",
   tier: "federal",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "The Means Test — Do You Qualify for Chapter 7?" },

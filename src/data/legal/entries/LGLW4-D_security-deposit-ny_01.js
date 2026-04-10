@@ -2,7 +2,7 @@ export const SECURITY_DEPOSIT_NY = {
   id: "security-deposit-ny",
   category: "housing",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Security Deposits — Your Rights When You Move In and Move Out" },

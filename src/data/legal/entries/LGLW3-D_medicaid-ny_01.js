@@ -2,7 +2,7 @@ export const MEDICAID_NY = {
   id: "medicaid-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Medicaid — Free Health Insurance in New York" },

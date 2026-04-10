@@ -2,7 +2,7 @@ export const HEAP_UTILITY_ASSISTANCE_NY = {
   id: "heap-utility-assistance-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "HEAP — Help Paying for Heat, Utilities, and Cooling" },

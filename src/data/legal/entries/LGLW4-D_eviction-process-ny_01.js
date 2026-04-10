@@ -2,7 +2,7 @@ export const EVICTION_PROCESS_NY = {
   id: "eviction-process-ny",
   category: "housing",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Eviction Process — What Your Landlord Must Do Before You Can Be Removed" },

@@ -2,7 +2,7 @@ export const SSI_DISABILITY_NY = {
   id: "ssi-disability-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "SSI — Cash Benefits for People With Disabilities or Low Income Seniors" },

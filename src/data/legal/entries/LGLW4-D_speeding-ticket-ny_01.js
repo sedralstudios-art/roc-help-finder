@@ -2,7 +2,7 @@ export const SPEEDING_TICKET_NY = {
   id: "speeding-ticket-ny",
   category: "vehicle",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Speeding Tickets — What Points, Fines, and Consequences You Face" },

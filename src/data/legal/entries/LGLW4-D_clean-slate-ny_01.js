@@ -2,7 +2,7 @@ export const CLEAN_SLATE_NY = {
   id: "clean-slate-ny",
   category: "criminal",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Clean Slate Act — Automatic Sealing of Your Criminal Record" },

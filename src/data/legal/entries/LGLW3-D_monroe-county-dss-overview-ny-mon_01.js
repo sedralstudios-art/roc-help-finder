@@ -2,7 +2,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
   id: "monroe-county-dss-overview-ny-mon",
   category: "benefits",
   tier: "county",
-  jurisdiction: "ny-mon",
+  jurisdiction: "us-ny-monroe",
   status: "active",
 
   title: { en: "Monroe County Department of Human Services — Where to Apply for Benefits" },

@@ -2,7 +2,7 @@ export const TANF_PUBLIC_ASSISTANCE_NY = {
   id: "tanf-public-assistance-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Temporary Assistance — Cash Benefits for Families and Individuals in Need" },

@@ -2,7 +2,7 @@ export const WRONGFUL_TERMINATION_NY = {
   id: "wrongful-termination-ny",
   category: "employment",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Wrongful Termination — When Getting Fired Is Against the Law" },

@@ -2,7 +2,7 @@ export const SNAP_AFTER_CONVICTION_NY = {
   id: "snap-after-conviction-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "SNAP After a Conviction — You Can Still Get Food Benefits in New York" },

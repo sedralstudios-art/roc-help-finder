@@ -2,7 +2,7 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
   id: "section-8-housing-voucher-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Section 8 — Housing Choice Vouchers to Help Pay Rent" },

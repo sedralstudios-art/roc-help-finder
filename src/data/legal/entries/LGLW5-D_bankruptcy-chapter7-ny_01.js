@@ -10,7 +10,7 @@ export const entry = {
   id: "bankruptcy-chapter7-ny",
   category: "consumer",
   tier: "federal",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Chapter 7 Bankruptcy — Eliminating Debt and Starting Over" },

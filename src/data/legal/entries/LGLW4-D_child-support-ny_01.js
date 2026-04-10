@@ -2,7 +2,7 @@ export const CHILD_SUPPORT_NY = {
   id: "child-support-ny",
   category: "family",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Child Support — How New York Calculates What a Parent Pays" },

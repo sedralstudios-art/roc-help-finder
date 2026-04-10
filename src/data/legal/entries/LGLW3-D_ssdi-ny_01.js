@@ -2,7 +2,7 @@ export const SSDI_NY = {
   id: "ssdi-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "SSDI — Disability Benefits Based on Your Work History" },

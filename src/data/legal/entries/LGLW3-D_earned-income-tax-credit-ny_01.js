@@ -2,7 +2,7 @@ export const EARNED_INCOME_TAX_CREDIT_NY = {
   id: "earned-income-tax-credit-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Earned Income Tax Credit — Money Back for Working Families" },

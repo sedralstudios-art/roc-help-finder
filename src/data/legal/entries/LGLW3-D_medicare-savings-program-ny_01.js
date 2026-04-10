@@ -2,7 +2,7 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
   id: "medicare-savings-program-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Medicare Savings Programs — Help Paying for Medicare Costs" },

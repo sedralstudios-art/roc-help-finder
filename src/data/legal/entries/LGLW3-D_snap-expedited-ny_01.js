@@ -2,7 +2,7 @@ export const SNAP_EXPEDITED_NY = {
   id: "snap-expedited-ny",
   category: "benefits",
   tier: "state",
-  jurisdiction: "ny",
+  jurisdiction: "us-ny",
   status: "active",
 
   title: { en: "Expedited SNAP — Emergency Food Benefits Within 7 Days" },
