@@ -1,20 +1,21 @@
 # Town Research Handoff
 
 ## What's Done
-- 18 towns researched and added to code (445 total programs)
+- ALL 28 Monroe County municipalities researched and in code (477 total programs)
 - xref cross-reference system implemented (48 programs tagged)
 - Click counter built (api/click.js + Vercel Blob)
 - Auto-dialer built (call-data/dialer.cjs) — needs evening testing
 - Category tabs reorganized for better discoverability
 - Privacy audit completed — site is clean
-- 56 verification calls pending (call-data/verification-calls.json)
+- 62 verification calls pending (call-data/verification-calls.json)
 - 5 community groups added (Facebook/mutual aid)
 - East Rochester town slug bug fixed (space to hyphen)
+- Brockport entries updated with serves:["sweden"] for cross-town coverage
 
 ## What's Next
-8 towns remaining (alphabetical): Rush, Scottsville, Spencerport (has entries via Ogden), Sweden (has some via Brockport), Webster, Wheatland
-
-Mendon covered via Honeoye Falls. Parma covered via Hilton. Ogden covers Spencerport.
+- Rochester re-verification pass (existing entries from untrusted instance)
+- Run pending verification calls (62 total)
+- Consider adding community Facebook groups as COMMUNITY entries
 
 Rochester needs a re-verification pass (existing entries from untrusted instance).
 
