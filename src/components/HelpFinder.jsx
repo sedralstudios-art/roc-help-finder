@@ -1302,16 +1302,16 @@ const PROGRAMS = [
 
 // COMMUNITY GROUPS
 const COMMUNITY = [
-  { n:"Rochester Hope", d:"Saturday: free food, clothing, haircuts, health screenings, legal aid, 50+ agencies. Every Saturday 9:30am-3:30pm.", loc:"869 N Clinton Ave", url:"https://rochesterhope.org" },
-  { n:"Roc Food Not Bombs", d:"Free hot meals and grocery stands across Rochester. No ID, no questions.", url:"https://www.facebook.com/rocfoodnotbombs/" },
-  { n:"Rochester Mutual Aid Network", d:"Connects people who need help with people who can help.", url:"https://www.rocmutualaid.com" },
-  { n:"Rochester NY Food Relief", d:"Active Facebook group sharing free food, pantry info, meal locations.", url:"https://www.facebook.com/groups/rochesterNYfoodrelief" },
-  { n:"Buy Nothing Rochester", d:"Free items shared among neighbors. Search 'Buy Nothing' + your neighborhood on Facebook." },
-  { n:"ROC COVID Mutual Aid", d:"Emergency funds, supplies, rides, community support. Still active.", url:"https://www.facebook.com/groups/roccovidmutualaid" },
-  { n:"Rochester Free Store", d:"Free clothing and household items. 3rd Saturday monthly. Search 'Rochester Free Store' on Facebook." },
-  { n:"Rochester NY Moms Group", d:"Parenting support, baby items, advice. Search 'Rochester NY Moms Group' on Facebook." },
-  { n:"Rochester Housing Help", d:"Housing leads, roommate searches, rental info. Search 'Rochester Housing Help' on Facebook." },
-  { n:"Rochester Job Hunters", d:"Job postings, résumé help, networking. Search 'Rochester Job Hunters' on Facebook." },
+  { n:"Rochester Hope", d:"Saturday: free food, clothing, haircuts, health screenings, legal aid, 50+ agencies. Every Saturday 9:30am-3:30pm.", loc:"869 N Clinton Ave", url:"https://rochesterhope.org", cats:["food","clothing","health","legal","cash"] },
+  { n:"Roc Food Not Bombs", d:"Free hot meals and grocery stands across Rochester. No ID, no questions.", url:"https://www.facebook.com/rocfoodnotbombs/", cats:["food"] },
+  { n:"Rochester Mutual Aid Network", d:"Connects people who need help with people who can help.", url:"https://www.rocmutualaid.com", cats:["cash","housing","food","clothing","transport"] },
+  { n:"Rochester NY Food Relief", d:"Active Facebook group sharing free food, pantry info, meal locations.", url:"https://www.facebook.com/groups/rochesterNYfoodrelief", cats:["food"] },
+  { n:"Buy Nothing Rochester", d:"Free items shared among neighbors. Search 'Buy Nothing' + your neighborhood on Facebook.", cats:["clothing","cash"] },
+  { n:"ROC COVID Mutual Aid", d:"Emergency funds, supplies, rides, community support. Still active.", url:"https://www.facebook.com/groups/roccovidmutualaid", cats:["cash","transport","food"] },
+  { n:"Rochester Free Store", d:"Free clothing and household items. 3rd Saturday monthly. Search 'Rochester Free Store' on Facebook.", cats:["clothing"] },
+  { n:"Rochester NY Moms Group", d:"Parenting support, baby items, advice. Search 'Rochester NY Moms Group' on Facebook.", cats:["childcare","crisisChild"] },
+  { n:"Rochester Housing Help", d:"Housing leads, roommate searches, rental info. Search 'Rochester Housing Help' on Facebook.", cats:["housing"] },
+  { n:"Rochester Job Hunters", d:"Job postings, résumé help, networking. Search 'Rochester Job Hunters' on Facebook.", cats:["employment"] },
 ];
 
 // ── FEATURED PROGRAMS ──
@@ -1578,7 +1578,7 @@ const PrivacyBadge = ({ lang, sensitive }) => (
     <span style={{ fontSize: 16 }}>🔒</span>
     {sensitive ? t(lang, "privacySensitive") : t(lang, "privacy")}
   </div>
-);
+  );
 
 const CrisisIntercept = ({ lang, category }) => {
   if (!CRISIS_CATS.has(category)) return null;
@@ -1734,7 +1734,10 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
   );
 };
 
-const CommunitySection = ({ lang }) => (
+const CommunitySection = ({ lang, category }) => {
+  const groups = category ? COMMUNITY.filter(g => !g.cats || g.cats.includes(category)) : COMMUNITY;
+  if (groups.length === 0) return null;
+  return (
   <div style={{ marginTop: 32 }}>
     <h2 style={{ fontSize: 20, fontWeight: 700, marginBottom: 4, color: "#2e7d32" }}>
       🤝 {t(lang, "communityTitle")}
@@ -1742,7 +1745,7 @@ const CommunitySection = ({ lang }) => (
     <p style={{ fontSize: 13, color: "#636363", marginBottom: 14, marginTop: 0 }}>
       {t(lang, "communityDesc")}
     </p>
-    {COMMUNITY.map((g, i) => (
+    {groups.map((g, i) => (
       <div key={i} style={{
         background: "#f1f8e9", borderRadius: 10, padding: 12, marginBottom: 8,
         border: "1px solid #c5e1a5",
@@ -1759,7 +1762,8 @@ const CommunitySection = ({ lang }) => (
       </div>
     ))}
   </div>
-);
+  );
+};
 
 // ════════════════════════════════════
 // SHARED STYLES
@@ -2026,8 +2030,6 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                 {t(lang, "title")}
               </div>
               <div style={{ fontSize: 11, color: "#767676", marginTop: 1 }}>
-                {city}
-                {userTown && <span style={{ marginLeft: 4 }}>·</span>}
                 <select
                   value={userTown || ""}
                   onClick={(e) => e.stopPropagation()}
@@ -2040,7 +2042,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                   }}
                   aria-label="Select your town"
                 >
-                  <option value="">{userTown ? "All areas" : "Select town"}</option>
+                  <option value="">{userTown ? "All Monroe County" : (city && city !== "your area" ? city : "Select your town")}</option>
                   {MONROE_TOWNS.map(t => (
                     <option key={t} value={t}>{TOWN_LABELS[t] || t}</option>
                   ))}
@@ -2116,7 +2118,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
           <div style={{ paddingTop: 12 }}>
             <div style={{ textAlign: "center", marginBottom: 20 }}>
               <h2 style={{ fontSize: 22, fontWeight: 700, color: "#333", marginBottom: 6, lineHeight: 1.3 }}>
-                {PROGRAMS.length} free programs{city && city !== "your area" ? ` in ${city}` : ""}
+                {PROGRAMS.filter(p => !p.town || !userTown || p.town === userTown || (p.serves && p.serves.includes(userTown))).length} free programs{userTown ? ` in ${TOWN_LABELS[userTown] || city}` : (city && city !== "your area" ? ` in ${city}` : "")}
               </h2>
               <p style={{ fontSize: 15, color: "#555", lineHeight: 1.5 }}>
                 {t(lang, "subtitle")}
@@ -2530,7 +2532,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
             </button>
 
             {/* Community groups */}
-            <CommunitySection lang={lang} />
+            <CommunitySection lang={lang} category={category} />
           </div>
         )}
       </div>
@@ -2540,7 +2542,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
         textAlign: "center", padding: "16px 20px 24px",
         fontSize: 11, color: "#767676", borderTop: "1px solid #e8e4dc",
       }}>
-        Sedral Studios · {city}<br />
+        Sedral Studios · {userTown ? (TOWN_LABELS[userTown] || city) : city}<br />
         Built with nothing. Built for everyone.<br />
         <span style={{ fontSize: 9, color: "#bbb" }}>© 2026 Sedral Studios. All rights reserved.</span>
         <div style={{ marginTop: 12 }}>
