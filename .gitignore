@@ -1,3 +1,9 @@
 node_modules
 dist
 .DS_Store
+call-data/recordings/
+call-data/transcripts/
+call-data/progress.json
+call-data/results.json
+test_recording.*
+geodata/

@@ -29,7 +29,19 @@ function mapsHandoff(e, address) {
   // Non-iOS: do nothing, let the <a href> open Google Maps directions in new tab
 }
 
-
+// ─────────────────────────────────────────────
+// trackClick — privacy-respecting click counter
+// ─────────────────────────────────────────────
+// Sends ONLY the program ID. No cookies, no user ID, no IP, no PII.
+// Uses sendBeacon so it never slows down navigation.
+function trackClick(programId) {
+  if (!programId) return;
+  try {
+    navigator.sendBeacon("/api/click", JSON.stringify({ id: programId }));
+  } catch {
+    // Silent fail — never break user experience for analytics
+  }
+}
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER — Help Directory
@@ -1669,7 +1681,7 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
           {p.ph && (
             <div style={{ marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
               <span style={{ fontSize: 13, color: "#636363" }}>📞</span>
-              <a href={telHref(p.ph)} data-umami-event={`click-call-${p.id}`}
+              <a href={telHref(p.ph)} onClick={() => trackClick(p.id + "-call")}
                  style={{ color: "#1565c0", fontWeight: 600, fontSize: 14, textDecoration: "none" }}>
                 {p.ph}
               </a>
@@ -1679,9 +1691,8 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
             <div style={{ marginBottom: 8, display: "flex", alignItems: "flex-start", gap: 6 }}>
               <span style={{ fontSize: 13, color: "#636363" }}>📍</span>
               <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(p.ad)}`}
-                 onClick={(e) => mapsHandoff(e, p.ad)}
+                 onClick={(e) => { mapsHandoff(e, p.ad); trackClick(p.id + "-directions"); }}
                  target="_blank" rel="noopener noreferrer"
-                 data-umami-event={`click-directions-${p.id}`}
                  style={{ color: "#1565c0", fontSize: 13, textDecoration: "none" }}>
                 {p.ad}
               </a>
@@ -1712,7 +1723,7 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
           )}
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 8 }}>
             {p.url && (
-              <a href={p.url} target="_blank" rel="noopener noreferrer" data-umami-event={`click-website-${p.id}`} style={{
+              <a href={p.url} target="_blank" rel="noopener noreferrer" onClick={() => trackClick(p.id)} style={{
                 background: "#e3f2fd", color: "#1565c0", padding: "6px 14px",
                 borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none",
               }}>
@@ -1720,7 +1731,7 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
               </a>
             )}
             {p.aurl && (
-              <a href={p.aurl} target="_blank" rel="noopener noreferrer" data-umami-event={`click-apply-${p.id}`} style={{
+              <a href={p.aurl} target="_blank" rel="noopener noreferrer" onClick={() => trackClick(p.id + "-apply")} style={{
                 background: "#e8f5e9", color: "#2e7d32", padding: "6px 14px",
                 borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none",
               }}>
@@ -1754,7 +1765,7 @@ const CommunitySection = ({ lang, category }) => {
         <div style={{ fontSize: 13, color: "#444", marginTop: 2 }}>{g.d}</div>
         {g.loc && <div style={{ fontSize: 12, color: "#636363", marginTop: 3 }}>📍 {g.loc}</div>}
         {g.url && (
-          <a href={g.url} target="_blank" rel="noopener noreferrer"
+          <a href={g.url} target="_blank" rel="noopener noreferrer" onClick={() => trackClick("community-" + (g.n || "").replace(/\s+/g, "-").toLowerCase())}
              style={{ fontSize: 12, color: "#2e7d32", textDecoration: "none", fontWeight: 600 }}>
             {t(lang, "website")} ↗
           </a>
@@ -2177,7 +2188,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                     </div>
                   </div>
                   {p.ph ? (
-                    <a href={telHref(p.ph)} style={{
+                    <a href={telHref(p.ph)} onClick={() => trackClick(p.id + "-call")} style={{
                       background: "#2e7d32", color: "#fff", padding: "6px 12px",
                       borderRadius: 8, fontSize: 12, fontWeight: 700, textDecoration: "none",
                       whiteSpace: "nowrap",
@@ -2185,7 +2196,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                       {p.ph}
                     </a>
                   ) : p.url ? (
-                    <a href={p.url} target="_blank" rel="noopener noreferrer" style={{
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" onClick={() => trackClick(p.id)} style={{
                       background: "#e3f2fd", color: "#1565c0", padding: "6px 12px",
                       borderRadius: 8, fontSize: 12, fontWeight: 700, textDecoration: "none",
                       whiteSpace: "nowrap",
