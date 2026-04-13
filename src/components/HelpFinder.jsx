@@ -589,7 +589,7 @@ const TABS = {
     my: "အခုပဲအကူအညီလိုတယ်",
     so: "Waxaan u baahanahay caawimo hadda",
     zh: "我现在需要帮助",
-    needs: ["crisis", "domesticSvc", "parentalProtection", "crisisChild", "weather", "documents"],
+    needs: ["crisis", "domesticSvc", "parentalProtection", "crisisChild", "housing", "weather"],
   },
   foodhome: {
     icon: "🍎",
@@ -608,6 +608,7 @@ const TABS = {
       "utilities",
       "clothing",
       "transport",
+      "internet",
       "documents",
     ],
   },
@@ -621,7 +622,7 @@ const TABS = {
     my: "ဆရာဝန်၊ သွားဆရာဝန်၊ ဆေးဝါး",
     so: "Dhakhtarka, dhakhtarka ilkaha, ama daawada",
     zh: "医生、牙医或药物",
-    needs: ["health", "dental", "vision", "prescriptions", "hivsti"],
+    needs: ["health", "dental", "vision", "prescriptions", "hivsti", "disabilitySvc"],
   },
   feeling: {
     icon: "💚",
@@ -633,7 +634,7 @@ const TABS = {
     my: "စိတ်ဖိစီး၊ ဝမ်းနည်း၊ စွဲလမ်းမှု",
     so: "Walbahaarka, murugada, ama qalafka",
     zh: "压力、悲伤或成瘾",
-    needs: ["mental", "grief", "addiction", "caregiver"],
+    needs: ["mental", "grief", "funeral", "addiction", "caregiver"],
   },
   family: {
     icon: "👨‍👩‍👧",
@@ -649,9 +650,10 @@ const TABS = {
       "childcare",
       "youth",
       "seniorSvc",
+      "funeral",
       "parentalProtection",
       "caregiver",
-      "funeral",
+      "pets",
     ],
   },
   work: {
@@ -694,8 +696,6 @@ const TABS = {
       "refugeeSvc",
       "lgbtq",
       "reentry",
-      "internet",
-      "pets",
     ],
   },
 };
