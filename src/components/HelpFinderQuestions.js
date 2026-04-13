@@ -258,13 +258,21 @@ export function isHiddenCategory(categoryKey) {
 }
 
 // Get the initial program list for a category, applying meta-category
-// filters if applicable.
+// filters if applicable. Also includes cross-referenced programs (xref).
 export function getInitialPrograms(programs, categoryKey) {
   const customFilter = CATEGORY_PROGRAM_FILTER[categoryKey];
+  let primary;
   if (customFilter) {
-    return programs.filter(customFilter);
+    primary = programs.filter(customFilter);
+  } else {
+    primary = programs.filter(p => p.c === categoryKey);
   }
-  return programs.filter(p => p.c === categoryKey);
+  // Add cross-referenced programs (those with xref array containing this category)
+  const primaryIds = new Set(primary.map(p => p.id));
+  const xrefPrograms = programs.filter(p =>
+    !primaryIds.has(p.id) && Array.isArray(p.xref) && p.xref.includes(categoryKey)
+  );
+  return [...primary, ...xrefPrograms];
 }
 
 // Apply all answered question filters to the program list. Each question's
