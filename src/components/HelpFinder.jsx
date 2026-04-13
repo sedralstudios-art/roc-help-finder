@@ -1406,6 +1406,11 @@ const COMMUNITY = [
   { n:"Rochester NY Moms Group", d:"Parenting support, baby items, advice. Search 'Rochester NY Moms Group' on Facebook.", cats:["childcare","crisisChild"] },
   { n:"Rochester Housing Help", d:"Housing leads, roommate searches, rental info. Search 'Rochester Housing Help' on Facebook.", cats:["housing"] },
   { n:"Rochester Job Hunters", d:"Job postings, résumé help, networking. Search 'Rochester Job Hunters' on Facebook.", cats:["employment"] },
+  { n:"Greece Neighbors (Facebook)", d:"Active Greece community group. Neighbors helping neighbors, local info, recommendations.", url:"https://www.facebook.com/groups/greece.ny/", cats:["food","housing","clothing"] },
+  { n:"Greece Ecumenical Food Shelf (Facebook)", d:"Real-time updates on food shelf hours, availability, and volunteer needs.", url:"https://www.facebook.com/greecefoodshelf/", cats:["food"] },
+  { n:"Being Black in the Burbs", d:"Mutual aid for Black community. Direct assistance with food, money, household goods.", cats:["food","cash","clothing"] },
+  { n:"Greater Rochester LGBTQ+ Mutual Aid", d:"Basic needs fund for LGBTQ+ individuals. Food, rent, utilities, transport. Three funds available.", cats:["cash","food","housing","transport","lgbtq"] },
+  { n:"Buy Nothing Groups (12 in Monroe County)", d:"Free items shared among neighbors. Gift economy. Search 'Buy Nothing' + your town on Facebook.", cats:["clothing","food","cash"] },
 ];
 
 // ── FEATURED PROGRAMS ──
