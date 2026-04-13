@@ -2,11 +2,11 @@
 /*
  * scripts/generate-sitemap.cjs  (v2 — with category URLs)
  * =======================================================
- * Writes dist/sitemap.xml with all 1,085 URLs:
+ * Writes dist/sitemap.xml with all indexed URLs:
  *   - 5 static pages
  *   - 20 library index pages (1 per language)
- *   - 140 category list pages (7 categories × 20 languages)  ← NEW
- *   - 920 entry pages (46 × 20 languages)
+ *   - 160 category list pages (8 categories × 20 languages)
+ *   - entry pages (entries × 20 languages)
  *
  * Each URL includes xhtml:link hreflang alternates for all 20 language versions.
  */
@@ -43,11 +43,10 @@ const LEGAL_LANGS = [
   { code: 'sw', htmlLang: 'sw' },
 ];
 
-const CATEGORIES = ['benefits', 'consumer', 'housing', 'family', 'employment', 'vehicle', 'criminal'];
+const CATEGORIES = ['benefits', 'consumer', 'housing', 'family', 'employment', 'vehicle', 'criminal', 'trades'];
 
 const STATIC_PAGES = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
-  { path: '/help', priority: '0.9', changefreq: 'weekly' },
   { path: '/about', priority: '0.6', changefreq: 'monthly' },
   { path: '/support', priority: '0.7', changefreq: 'monthly' },
   { path: '/privacy', priority: '0.3', changefreq: 'yearly' },

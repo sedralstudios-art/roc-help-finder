@@ -725,7 +725,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
           {/* ── ENTER BUTTON ── */}
           <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 32 }}>
-            <a href="/help"
+            <a href="/help" rel="nofollow"
               onClick={(e) => { e.preventDefault(); if (onNavigateHelp) onNavigateHelp(); }}
               style={{
                 display: "flex", flexDirection: "column", alignItems: "center",
@@ -794,7 +794,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           {/* component mounted by the app router, not a sub-page of LandingPage. */}
           
           <a
-            href="/help#c=pets"
+            href="/help#c=pets" rel="nofollow"
             onClick={(e) => { e.preventDefault(); window.location.hash = "c=pets"; if (onNavigateHelp) onNavigateHelp(); }}
             className="hf-fade-in hf-d5"
             style={{
