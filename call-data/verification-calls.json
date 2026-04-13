@@ -48,5 +48,10 @@
   {"id":"hf-fish-food","name":"FISH Combined Communities Food Closet","number":"585-453-2370","ask":"Confirm hours M-Th 8am-4pm by appointment. Confirm this phone is correct (same as RHAFT).","status":"pending"},
   {"id":"mendon-court","name":"Mendon Town Court","number":"585-624-6060","ask":"Confirm dedicated court phone and hours. Village court abolished April 2025.","status":"pending"},
   {"id":"mendon-dogcontrol","name":"Mendon Dog Control","number":"585-764-9298","ask":"Confirm this is current dog control officer number.","status":"pending"},
-  {"id":"hf-senior","name":"HF-Mendon Senior Citizens","number":"585-624-6062","ask":"Meeting days/times? Is Community Center the regular meeting place?","status":"pending"}
+  {"id":"hf-senior","name":"HF-Mendon Senior Citizens","number":"585-624-6062","ask":"Meeting days/times? Is Community Center the regular meeting place?","status":"pending"},
+  {"id":"irondequoit-building-phone","name":"Irondequoit Building Dept","number":"585-336-6020","ask":"Confirm main public phone. Web shows 585-336-6026 as alternate.","status":"pending"},
+  {"id":"irondequoit-mow","name":"Meals on Wheels (Irondequoit)","number":"585-787-8397","ask":"Confirm Irondequoit delivery routes are active.","status":"pending"},
+  {"id":"ogden-dogcontrol","name":"Ogden Animal Control","number":"585-617-6131","ask":"Confirm police non-emergency handles animal control calls.","status":"pending"},
+  {"id":"penfield-building-hours","name":"Penfield Building Dept","number":"585-340-8636","ask":"Confirm hours M-F 8:30am-4pm.","status":"pending"},
+  {"id":"pittsford-village-summer","name":"Pittsford Village Clerk","number":"585-586-4332","ask":"Confirm summer Friday hours close at 1pm Jun-Aug.","status":"pending"}
 ]
