@@ -97,8 +97,7 @@ export const SPEEDING_TICKET_NY = {
     "https://dmv.ny.gov/tickets/pay-driver-responsibility-assessment"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

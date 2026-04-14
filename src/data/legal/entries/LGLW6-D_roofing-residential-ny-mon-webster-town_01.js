@@ -77,8 +77,7 @@ export const entry = {
     "https://ecode360.com/38732484"
   ],
 
-  lastAudited: "2026-04-10",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-10",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

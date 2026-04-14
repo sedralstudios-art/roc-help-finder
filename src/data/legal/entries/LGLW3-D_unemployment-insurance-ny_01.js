@@ -131,8 +131,7 @@ export const UNEMPLOYMENT_INSURANCE_NY = {
     "https://www.nysenate.gov/legislation/laws/LAB/A18"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

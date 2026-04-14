@@ -126,8 +126,7 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1437f"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

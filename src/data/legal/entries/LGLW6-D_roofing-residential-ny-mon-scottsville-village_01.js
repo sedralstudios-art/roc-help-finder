@@ -80,8 +80,7 @@ export const entry = {
     "https://www.scottsvilleny.org/code-enforcement-building-inspector"
   ],
 
-  lastAudited: "2026-04-10",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-10",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

@@ -141,8 +141,7 @@ export const EVICTION_PROCESS_NY = {
     "https://www.nycourts.gov/legacyPDFS/FORMS/landlordtenant/LandlordGuide-NonpaymentEviction.pdf"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

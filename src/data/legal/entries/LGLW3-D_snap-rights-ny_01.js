@@ -133,8 +133,7 @@ export const SNAP_RIGHTS_NY = {
     "https://www.law.cornell.edu/uscode/text/7/2011"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

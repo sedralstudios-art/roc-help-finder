@@ -124,8 +124,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
     "https://www.law.cornell.edu/cfr/text/7/273.18"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

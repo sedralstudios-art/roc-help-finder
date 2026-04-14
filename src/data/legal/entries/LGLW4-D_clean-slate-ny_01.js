@@ -124,8 +124,7 @@ export const CLEAN_SLATE_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/160.57"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

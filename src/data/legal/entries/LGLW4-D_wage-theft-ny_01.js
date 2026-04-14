@@ -126,8 +126,7 @@ export const WAGE_THEFT_NY = {
     "https://www.nysenate.gov/legislation/laws/LAB/195"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

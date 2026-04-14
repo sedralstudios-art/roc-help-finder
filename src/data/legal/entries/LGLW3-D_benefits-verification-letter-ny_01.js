@@ -108,8 +108,7 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
     "https://otda.ny.gov/programs/nydocsubmit/"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

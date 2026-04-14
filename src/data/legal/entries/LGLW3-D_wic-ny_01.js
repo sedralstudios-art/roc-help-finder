@@ -130,8 +130,7 @@ export const WIC_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1786"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -137,8 +137,7 @@ export const ILLEGAL_EVICTION_NY = {
     "https://ag.ny.gov/publications/residential-tenants-rights-guide"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

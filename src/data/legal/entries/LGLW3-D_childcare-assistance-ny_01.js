@@ -127,8 +127,7 @@ export const CHILDCARE_ASSISTANCE_NY = {
     "https://www.law.cornell.edu/uscode/text/42/9857"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

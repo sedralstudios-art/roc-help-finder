@@ -129,8 +129,7 @@ export const FAIR_HEARING_NY = {
     "https://www.law.cornell.edu/regulations/new-york/title-18/chapter-II/subchapter-B/article-1/part-358/subpart-358-5"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

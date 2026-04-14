@@ -80,8 +80,7 @@ export const entry = {
     "https://www.townofpittsfordny.gov/sites/default/files/forms/bldg_permit.pdf"
   ],
 
-  lastAudited: "2026-04-10",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-10",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

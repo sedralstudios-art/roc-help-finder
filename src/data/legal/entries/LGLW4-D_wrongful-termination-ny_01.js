@@ -126,8 +126,7 @@ export const WRONGFUL_TERMINATION_NY = {
     "https://www.eeoc.gov/field-office/buffalo/location"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

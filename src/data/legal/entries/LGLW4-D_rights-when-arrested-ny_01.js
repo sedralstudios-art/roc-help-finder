@@ -123,8 +123,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
     "https://legalaidnyc.org/get-help/arrests-policing/what-you-need-to-know-about-your-miranda-rights/"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

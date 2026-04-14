@@ -124,8 +124,7 @@ export const MEDICAID_SPEND_DOWN_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1396a"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

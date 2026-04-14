@@ -124,8 +124,7 @@ export const ORDER_OF_PROTECTION_NY = {
     "https://www.nysenate.gov/legislation/laws/FCT/A8"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

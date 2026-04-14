@@ -128,8 +128,7 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
     "https://www.law.cornell.edu/uscode/text/42/604"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: true,
   disclaimer: true,

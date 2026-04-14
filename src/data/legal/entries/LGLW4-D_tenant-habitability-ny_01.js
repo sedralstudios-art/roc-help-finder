@@ -141,8 +141,7 @@ export const TENANT_HABITABILITY_NY = {
     "https://www.nysenate.gov/legislation/laws/RPP/A7"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

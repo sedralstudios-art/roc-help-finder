@@ -78,8 +78,7 @@ export const entry = {
     "https://brockportny.org/building-code/"
   ],
 
-  lastAudited: "2026-04-10",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-10",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

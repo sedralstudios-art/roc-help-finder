@@ -80,8 +80,7 @@ export const entry = {
     "https://www.fairportny.org/departments/building_planning___zoning_code_enforcement/index.php"
   ],
 
-  lastAudited: "2026-04-10",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-10",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

@@ -113,8 +113,7 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
     "https://www.law.cornell.edu/uscode/text/47/254"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

@@ -127,8 +127,7 @@ export const HEAP_UTILITY_ASSISTANCE_NY = {
     "https://www.law.cornell.edu/uscode/text/42/8621"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "high",
   emergencyFlag: true,
   disclaimer: true,

@@ -129,8 +129,7 @@ export const SOCIAL_SECURITY_RETIREMENT_NY = {
     "https://www.law.cornell.edu/uscode/text/42/402"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

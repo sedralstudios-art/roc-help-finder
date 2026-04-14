@@ -122,8 +122,7 @@ export const MINIMUM_WAGE_NY = {
     "https://www.nysenate.gov/legislation/laws/LAB/195"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

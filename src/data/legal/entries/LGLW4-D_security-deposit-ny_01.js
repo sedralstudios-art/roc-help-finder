@@ -136,8 +136,7 @@ export const SECURITY_DEPOSIT_NY = {
     "https://codes.findlaw.com/ny/general-obligations-law/gob-sect-7-108/"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

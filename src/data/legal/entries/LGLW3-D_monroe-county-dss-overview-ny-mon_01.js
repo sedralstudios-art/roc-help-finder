@@ -129,8 +129,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
     "https://otda.ny.gov/workingfamilies/dss.asp"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

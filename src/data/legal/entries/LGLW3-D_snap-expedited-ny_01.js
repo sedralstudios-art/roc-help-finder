@@ -123,8 +123,7 @@ export const SNAP_EXPEDITED_NY = {
     "https://www.law.cornell.edu/cfr/text/7/273.2"
   ],
 
-  lastAudited: "2026-04-04",
-  lastVerifiedBy: "Claude + Tony",
+  lastVerified: "2026-04-04",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
