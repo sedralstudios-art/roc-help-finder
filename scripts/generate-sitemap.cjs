@@ -1,14 +1,18 @@
 #!/usr/bin/env node
 /*
- * scripts/generate-sitemap.cjs  (v2 — with category URLs)
- * =======================================================
- * Writes dist/sitemap.xml with all indexed URLs:
- *   - 5 static pages
- *   - 20 library index pages (1 per language)
- *   - 160 category list pages (8 categories × 20 languages)
- *   - entry pages (entries × 20 languages)
+ * scripts/generate-sitemap.cjs  (v3 — sitemap index + per-language sub-sitemaps)
+ * ============================================================================
+ * Writes a sitemap INDEX at dist/sitemap.xml that references:
+ *   - dist/sitemap-static.xml (5 static pages, all languages)
+ *   - dist/sitemap-library.xml (library index pages + category pages, all langs)
+ *   - dist/sitemap-entries-[lang].xml (one file per language, entry pages)
  *
- * Each URL includes xhtml:link hreflang alternates for all 20 language versions.
+ * Splitting reduces each sub-sitemap to ~150-200 URLs and a few hundred KB.
+ * Google processes small sitemaps faster and is less likely to flag them as
+ * "Couldn't fetch" for size/processing reasons.
+ *
+ * hreflang alternates are still included on every URL so multi-language
+ * signals stay intact.
  */
 
 const fs = require('fs');
@@ -108,8 +112,22 @@ function buildUrlBlock(loc, lastmod, changefreq, priority, alternates) {
   return xml;
 }
 
+function openUrlset() {
+  return '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+}
+
+function closeUrlset() {
+  return '</urlset>\n';
+}
+
+function writeSubsitemap(filename, xmlBody) {
+  const full = openUrlset() + xmlBody + closeUrlset();
+  fs.writeFileSync(path.join(DIST, filename), full, 'utf8');
+}
+
 async function main() {
-  console.log('Generate sitemap.xml (v2 with categories)...');
+  console.log('Generate sitemap index + sub-sitemaps (v3)...');
 
   if (!fs.existsSync(DIST)) {
     console.error('ERROR: dist/ not found. Run "vite build" first.');
@@ -119,7 +137,6 @@ async function main() {
   const entries = await loadEntries();
   console.log('✓ Loaded ' + entries.length + ' entries');
 
-  // Filter to categories that have entries
   const entriesByCat = {};
   for (const e of entries) {
     const cat = e.category || 'other';
@@ -128,18 +145,20 @@ async function main() {
   const activeCategories = CATEGORIES.filter((c) => (entriesByCat[c] || []).length > 0);
 
   const today = todayISO();
-  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+  let totalUrls = 0;
+  const writtenFiles = [];
 
-  let urlCount = 0;
-
-  // 1. Static pages
+  // 1. sitemap-static.xml — 5 static pages
+  let staticXml = '';
   for (const p of STATIC_PAGES) {
-    xml += buildUrlBlock(SITE_URL + p.path, today, p.changefreq, p.priority, null);
-    urlCount++;
+    staticXml += buildUrlBlock(SITE_URL + p.path, today, p.changefreq, p.priority, null);
+    totalUrls++;
   }
+  writeSubsitemap('sitemap-static.xml', staticXml);
+  writtenFiles.push('sitemap-static.xml');
 
-  // 2. Library index pages (20 languages)
+  // 2. sitemap-library.xml — library index pages + category pages across all langs
+  let libraryXml = '';
   for (const lang of LEGAL_LANGS) {
     const loc = SITE_URL + urlPathForLibrary(lang.code);
     const alternates = LEGAL_LANGS.map((l) => ({
@@ -147,11 +166,9 @@ async function main() {
       href: SITE_URL + urlPathForLibrary(l.code),
     }));
     alternates.push({ hreflang: 'x-default', href: SITE_URL + urlPathForLibrary('en') });
-    xml += buildUrlBlock(loc, today, 'weekly', '0.9', alternates);
-    urlCount++;
+    libraryXml += buildUrlBlock(loc, today, 'weekly', '0.9', alternates);
+    totalUrls++;
   }
-
-  // 3. Category list pages (7 × 20 = 140)  ← NEW
   for (const lang of LEGAL_LANGS) {
     for (const cat of activeCategories) {
       const loc = SITE_URL + urlPathForCategory(lang.code, cat);
@@ -160,32 +177,47 @@ async function main() {
         href: SITE_URL + urlPathForCategory(l.code, cat),
       }));
       alternates.push({ hreflang: 'x-default', href: SITE_URL + urlPathForCategory('en', cat) });
-      xml += buildUrlBlock(loc, today, 'weekly', '0.85', alternates);
-      urlCount++;
+      libraryXml += buildUrlBlock(loc, today, 'weekly', '0.85', alternates);
+      totalUrls++;
     }
   }
+  writeSubsitemap('sitemap-library.xml', libraryXml);
+  writtenFiles.push('sitemap-library.xml');
 
-  // 4. Entry pages (46 × 20 = 920)
+  // 3. sitemap-entries-[lang].xml — one file per language, all entry pages
   for (const lang of LEGAL_LANGS) {
+    let entryXml = '';
     for (const entry of entries) {
       const loc = SITE_URL + urlPathForEntry(lang.code, entry.id);
-      const lastmod = entry.lastAudited || today;
+      const lastmod = entry.lastVerified || entry.lastAudited || today;
       const alternates = LEGAL_LANGS.map((l) => ({
         hreflang: l.htmlLang,
         href: SITE_URL + urlPathForEntry(l.code, entry.id),
       }));
       alternates.push({ hreflang: 'x-default', href: SITE_URL + urlPathForEntry('en', entry.id) });
-      xml += buildUrlBlock(loc, lastmod, 'monthly', '0.8', alternates);
-      urlCount++;
+      entryXml += buildUrlBlock(loc, lastmod, 'monthly', '0.8', alternates);
+      totalUrls++;
     }
+    const filename = 'sitemap-entries-' + lang.code + '.xml';
+    writeSubsitemap(filename, entryXml);
+    writtenFiles.push(filename);
   }
 
-  xml += '</urlset>\n';
+  // 4. sitemap.xml — the INDEX pointing to all sub-sitemaps
+  let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+  indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  for (const f of writtenFiles) {
+    indexXml += '  <sitemap>\n';
+    indexXml += '    <loc>' + SITE_URL + '/' + f + '</loc>\n';
+    indexXml += '    <lastmod>' + today + '</lastmod>\n';
+    indexXml += '  </sitemap>\n';
+  }
+  indexXml += '</sitemapindex>\n';
+  fs.writeFileSync(path.join(DIST, 'sitemap.xml'), indexXml, 'utf8');
 
-  const sitemapPath = path.join(DIST, 'sitemap.xml');
-  fs.writeFileSync(sitemapPath, xml, 'utf8');
-  console.log('✓ Wrote ' + sitemapPath);
-  console.log('  = ' + urlCount + ' URLs (' + STATIC_PAGES.length + ' static + ' + LEGAL_LANGS.length + ' library + ' + (activeCategories.length * LEGAL_LANGS.length) + ' category + ' + (LEGAL_LANGS.length * entries.length) + ' entries)');
+  console.log('✓ Wrote sitemap.xml (index)');
+  console.log('✓ Wrote ' + writtenFiles.length + ' sub-sitemaps');
+  console.log('  Total URLs: ' + totalUrls);
   console.log('Done.');
 }
 
