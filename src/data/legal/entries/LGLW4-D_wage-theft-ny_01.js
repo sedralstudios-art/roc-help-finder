@@ -5,49 +5,49 @@ export const WAGE_THEFT_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Wage Theft — When Your Employer Doesn't Pay What You're Owed" },
+  title: { en: "Wage Theft — When Your Boss Doesn't Pay What You're Owed" },
 
   summary: {
-    en: "Wage theft happens when an employer fails to pay you what you earned. This includes not paying for all hours worked, withholding overtime, stealing tips, and making illegal deductions. It also covers bouncing paychecks and misclassifying you as an independent contractor to avoid paying proper wages. New York law provides strong protections — including the right to recover your full unpaid wages plus up to 100% in additional damages."
+    en: "Wage theft is when your boss doesn't pay you what you earned. That includes not paying for all your hours, not paying overtime, taking your tips, and taking money out of your check without permission. It also covers paychecks that bounce and bosses who call you a \"1099 contractor\" to avoid paying you the right way. New York has strong laws — you can get the missing money back, plus up to 100% extra."
   },
 
   whoQualifies: {
     en: [
-      "Nearly every worker in New York State is protected by wage theft laws, including full-time, part-time, and temporary workers.",
-      "Workers who are misclassified as independent contractors may still be entitled to protections if they are actually employees under New York law.",
-      "Undocumented workers are protected by New York's wage theft laws. Immigration status does not affect the right to be paid for work performed.",
-      "The right to recover unpaid wages covers the six years before a claim is filed (Labor Law § 198)."
+      "Almost every worker in New York is protected — full-time, part-time, and temp workers.",
+      "If your boss called you a \"1099 contractor\" but treated you like an employee, the state may still treat you as an employee under the law.",
+      "Undocumented workers are fully protected. Immigration status does not affect your right to be paid.",
+      "You can go back 6 years to recover unpaid wages (Labor Law § 198)."
     ]
   },
 
   whatItMeans: {
-    en: "Under New York Labor Law Article 6, your employer must pay you all wages you earn on time and without unauthorized deductions. Manual workers must be paid weekly, and no worker may go more than 14 days without pay. Your employer must give you a written wage notice at the time of hire stating your pay rate, pay day, and employer details. You must receive a pay stub with every paycheck showing hours worked, rate of pay, and all deductions. If your employer fails to do any of these things, it is a violation of New York law."
+    en: "New York law (Labor Law Article 6) says your boss must pay you all the wages you earned, on time, and without taking money out for reasons the law doesn't allow.\n\nHands-on workers (like construction, cleaning, and retail workers) must be paid every week. No worker can go more than 14 days without pay.\n\nWhen you're hired, your boss has to give you a written pay notice. It has to say your pay rate, your pay day, and the boss's name and contact info.\n\nEvery paycheck has to come with a pay stub showing hours, rate, and any deductions.\n\nIf your boss doesn't do these things, it's against New York law."
   },
 
   yourRights: {
     en: [
-      "You have the right to be paid for every hour you work, including overtime at 1.5 times your regular rate for all hours over 40 in a work week (Labor Law § 160).",
-      "You have the right to keep your tips. Your employer cannot take your tips or require you to share them with managers or owners (Labor Law § 196-d).",
-      "You have the right to be free from unauthorized deductions. Your employer cannot take money from your paycheck for breakage, cash register shortages, or uniforms without your written consent and only if the deduction benefits you (Labor Law § 193).",
-      "You have the right to a written wage notice at the time of hire and a detailed pay stub with every payment (Labor Law § 195). Labor Law § 198 sets statutory damages for these violations: $50 per day for a missing wage notice and $250 per day for missing pay stubs, each capped at $5,000. Courts decide what applies in each case.",
-      "You have the right to file a complaint with the Department of Labor or bring a civil lawsuit to recover unpaid wages going back six years, plus liquidated damages of up to 100% of what you are owed, plus attorney's fees (Labor Law § 198).",
-      "You are protected from retaliation. Your employer cannot fire you, reduce your hours, or punish you for filing a wage complaint (Labor Law § 215)."
+      "You have the right to be paid for every hour you work. Time over 40 hours in a week must be paid at 1.5 times your regular rate — that's overtime (Labor Law § 160).",
+      "You have the right to keep your tips. Your boss cannot take them or make you share them with managers or owners (Labor Law § 196-d).",
+      "Your boss can't dock your pay for broken items, cash register shortages, or uniforms — unless you signed a paper agreeing to it AND the deduction actually helps you (like health insurance) (Labor Law § 193).",
+      "You have the right to a written pay notice when hired and a detailed pay stub with every check (Labor Law § 195). If your boss skips these, the law sets damages: $50 per day for a missing hire notice and $250 per day for missing pay stubs, each capped at $5,000. Courts decide what fits.",
+      "You have the right to file a complaint with the Department of Labor, or to sue. You can go back 6 years. The court can award what you are owed, PLUS up to 100% more in damages, PLUS your lawyer's fees (Labor Law § 198).",
+      "You are protected from payback. Your boss can't fire you, cut your hours, or punish you for filing a wage complaint (Labor Law § 215)."
     ]
   },
 
   legalOptions: {
     en: [
-      "The New York State Department of Labor accepts wage theft complaints through its Wage Theft Hub at dol.ny.gov/wage-theft-hub and by phone at 1-888-469-7365. The DOL can investigate, collect underpayments, and impose penalties without the worker needing to go to court.",
-      "Under Labor Law § 198, workers may bring a civil action to recover unpaid wages from the prior six years. Courts may award the full amount owed plus liquidated damages of up to 100%, plus attorney's fees and costs. If a judgment remains unpaid after 90 days, it automatically increases by 15%.",
-      "Under Labor Law § 198-a, wage theft is a criminal offense. A first violation is a misdemeanor punishable by a fine of $500 to $20,000 and up to one year in jail. A second violation within six years is a felony.",
-      "The FY2025-2026 New York State budget expanded the DOL's enforcement authority to include placing liens on employer property, issuing warrants, seizing financial assets, and issuing stop-work orders for employers found to have committed wage theft.",
-      "Free legal help for wage theft cases in Monroe County is available through the Legal Aid Society of Rochester at (585) 232-4090 and Legal Assistance of Western New York (LawNY) at (585) 325-2520.",
-      "Under Labor Law § 215, retaliation against a worker who files a wage complaint is itself a Class B misdemeanor. The Commissioner may order reinstatement, back pay, and liquidated damages of up to $10,000 for retaliation."
+      "The NY Department of Labor takes wage theft complaints at their Wage Theft Hub (dol.ny.gov/wage-theft-hub) or by phone at 1-888-469-7365. DOL can investigate, make your boss pay, and add penalties — without you having to go to court.",
+      "You can also sue in court to get unpaid wages from the last 6 years. The court can give you what you're owed PLUS up to 100% more in damages, PLUS lawyer fees. If your boss still hasn't paid after 90 days, the total goes up by 15% (Labor Law § 198).",
+      "Wage theft is also a crime (Labor Law § 198-a). First offense is a misdemeanor — fine of $500 to $20,000 and up to 1 year in jail. Second offense within 6 years is a felony.",
+      "The 2025-2026 state budget gave DOL more tools. They can put liens on a boss's property, seize money, and order a work stoppage at businesses caught stealing wages.",
+      "Free legal help: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520).",
+      "Paying back a worker for filing a wage complaint is itself a Class B misdemeanor. The state Commissioner can order your job back, pay you lost wages, and add up to $10,000 in damages (Labor Law § 215)."
     ]
   },
 
   example: {
-    en: "Rosa works at a cleaning company in Steuben County. She regularly works 50 hours a week but is only paid her regular hourly rate for all 50 hours — no overtime. Her employer also deducts money from her check for cleaning supplies without her written consent. Rosa contacts the Department of Labor. An investigator reviews her pay records and confirms the violations. The DOL orders her employer to pay Rosa the overtime she earned plus liquidated damages. Rosa's employer is also fined for the illegal deductions."
+    en: "Rosa works at a cleaning company. She works 50 hours a week, but gets paid her regular rate for all 50 — no overtime. Her boss also takes money out of her check for cleaning supplies without her written okay. Rosa calls the Department of Labor. An investigator looks at her pay records and confirms the violations. DOL orders her boss to pay the overtime Rosa earned plus extra damages. Her boss is also fined for the illegal deductions."
   },
 
   counsel: [
@@ -126,7 +126,7 @@ export const WAGE_THEFT_NY = {
     "https://www.nysenate.gov/legislation/laws/LAB/195"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

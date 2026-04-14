@@ -8,46 +8,46 @@ export const DWI_FIRST_OFFENSE_NY = {
   title: { en: "DWI First Offense — What Happens After a Drunk Driving Arrest in New York" },
 
   summary: {
-    en: "A first-offense DWI in New York is a misdemeanor with serious consequences. Penalties include fines of $500 to $1,000, up to one year in jail, and a minimum six-month license revocation. The court must also order an ignition interlock device. The DMV imposes a $250-per-year assessment for three years. Commercial license holders face a one-year CDL disqualification — even if they were driving their personal vehicle."
+    en: "A first-offense DWI in New York is a serious misdemeanor. It can mean a $500 to $1,000 fine, up to 1 year in jail, and losing your license for at least 6 months. The court also has to order an ignition interlock on your car. On top of that, the DMV charges a $250 fee each year for 3 years. If you have a CDL, you lose it for 1 year — even if you weren't driving a work truck."
   },
 
   whoQualifies: {
     en: [
-      "Any driver arrested for operating a motor vehicle while intoxicated or impaired under VTL § 1192 in New York State.",
-      "This includes drivers charged with DWAI (BAC .05–.07, a traffic infraction), DWI (BAC .08 or higher, a misdemeanor), or Aggravated DWI (BAC .18 or higher, a misdemeanor with enhanced penalties).",
-      "Commercial driver's license (CDL) holders face a lower threshold — a BAC of .04% or higher triggers charges under VTL § 1192(5) and results in CDL disqualification even if the arrest occurred in a personal vehicle.",
-      "Drivers under 21 are subject to the Zero Tolerance Law (VTL § 1192-a) — any BAC of .02% or higher triggers administrative penalties."
+      "Any driver arrested in New York for driving drunk or impaired (VTL § 1192).",
+      "Three levels of charges: DWAI (Driving While Ability Impaired, BAC .05-.07, a traffic ticket), DWI (BAC .08 or higher, a misdemeanor), and Aggravated DWI (BAC .18 or higher, a more serious misdemeanor).",
+      "CDL (commercial license) holders face a lower limit. Just .04 BAC triggers charges. You lose your CDL for a year even if you were in your personal car (VTL § 1192(5)).",
+      "Drivers under 21 have the Zero Tolerance Law. Any BAC of .02 or higher triggers penalties from the DMV (VTL § 1192-a)."
     ]
   },
 
   whatItMeans: {
-    en: "New York uses a three-tier system for alcohol-related driving offenses under VTL § 1192. DWAI (driving while ability impaired, BAC .05–.07) is a traffic infraction carrying up to a $500 fine, 15 days in jail, and a 90-day license suspension. DWI (BAC .08 or higher) is a misdemeanor carrying a $500–$1,000 fine, up to one year in jail, and at least a six-month license revocation. Aggravated DWI (BAC .18 or higher) carries a $1,000–$2,500 fine, up to one year in jail, and at least a one-year revocation. On top of the fine, every conviction carries a mandatory surcharge of approximately $395. The DMV also imposes a Driver Responsibility Assessment of $250 per year for three years."
+    en: "New York has three levels of alcohol-driving charges (VTL § 1192):\n\n1) DWAI (ability impaired, BAC .05-.07): Traffic infraction. Up to $500 fine, 15 days jail, 90-day license suspension.\n\n2) DWI (BAC .08 or higher): Misdemeanor. $500-$1,000 fine, up to 1 year jail, at least 6 months with no license.\n\n3) Aggravated DWI (BAC .18 or higher): Misdemeanor with bigger penalties. $1,000-$2,500 fine, up to 1 year jail, at least 1 year with no license.\n\nEvery conviction also adds a state fee of about $395. The DMV adds a Driver Responsibility Assessment: $250 a year for 3 years."
   },
 
   yourRights: {
     en: [
-      "You have the right to an attorney at every stage of the process, including arraignment, pretrial hearings, and trial. If you cannot afford an attorney, one will be appointed for you.",
-      "You have the right to plead not guilty and have a trial. The prosecution must prove every element of the offense beyond a reasonable doubt.",
-      "You have the right to challenge the legality of the traffic stop, the administration of field sobriety tests, and the accuracy of any chemical test (breathalyzer, blood, or urine).",
-      "You have the right to refuse a chemical test, but refusal triggers an automatic one-year license revocation through a separate DMV administrative hearing — regardless of whether you are convicted of the criminal charge.",
-      "After 30 days of suspension or revocation, you may be eligible for a conditional license through the Impaired Driver Program (IDP), which allows limited driving to work, school, medical appointments, and court-ordered programs.",
-      "A second DWI conviction within 10 years is a Class E felony carrying up to four years in prison, fines of $1,000 to $5,000, and at least a one-year license revocation."
+      "You have the right to a lawyer at every step — arraignment, hearings, and trial. If you can't afford one, the court appoints one for you.",
+      "You have the right to plead not guilty and have a trial. The prosecutor has to prove every part of the case beyond a reasonable doubt.",
+      "You have the right to challenge the traffic stop, the field sobriety tests, and the accuracy of any chemical test (breathalyzer, blood, or urine).",
+      "You have the right to refuse a chemical test. But refusing triggers an automatic 1-year license revocation through a separate DMV hearing — even if you beat the criminal charge.",
+      "After 30 days of license suspension or revocation, you may qualify for a conditional license through the Impaired Driver Program (IDP). A conditional license lets you drive only for work, school, medical visits, and court-ordered programs.",
+      "A second DWI within 10 years is a Class E felony. Penalties: up to 4 years in prison, $1,000-$5,000 fine, and at least 1 year with no license."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under VTL § 1192, a first-offense DWI is handled in local criminal court. The right to a jury trial applies to DWI misdemeanors in most courts outside of New York City.",
-      "In many local courts, prosecutors may offer a plea reduction from DWI to DWAI (a non-criminal traffic infraction) when the evidence supports it. A DWAI plea avoids a criminal record but still carries a license suspension, fine, surcharge, and DRA. New York law prohibits reduction to a non-alcohol-related offense in most cases.",
-      "Under Leandra's Law (VTL § 1193), courts must order installation of an ignition interlock device on any vehicle the convicted person owns or operates for at least six months following a DWI conviction. The cost of installation and monthly monitoring is paid by the driver.",
-      "The New York DMV conducts a separate administrative hearing for chemical test refusals. The refusal hearing is independent of the criminal case — a driver may face license revocation even if the criminal charge is dismissed.",
-      "Free legal representation is available through the Monroe County Public Defender's Office at (585) 753-4210 for anyone charged with a crime who cannot afford an attorney.",
-      "The Impaired Driver Program (IDP), required for most DWI convictions, is a seven-week course. Completion of the IDP is typically required to restore full driving privileges. Program information is available through the NYS DMV at dmv.ny.gov."
+      "A first DWI case goes to your local criminal court (VTL § 1192). Outside New York City, you have the right to a jury trial in most courts.",
+      "Many prosecutors will offer a plea reduction from DWI to DWAI if the evidence allows. A DWAI plea avoids a criminal record. It still means a license suspension, fine, state fee, and the annual DMV fee. New York usually doesn't allow the charge to be reduced to something that isn't alcohol-related.",
+      "If you are convicted of DWI, the judge must order an ignition interlock on any car you own or drive. You have to keep it for at least 6 months. You pay for the install and monthly monitoring (Leandra's Law, VTL § 1193).",
+      "The DMV runs a separate hearing for chemical test refusals. That hearing is separate from the criminal case. You can lose your license from the DMV hearing even if the criminal case is dismissed.",
+      "Free defense lawyer: Monroe County Public Defender's Office at (585) 753-4210, for anyone charged with a crime who can't afford a lawyer.",
+      "The Impaired Driver Program (IDP) is a 7-week course. Most people convicted of DWI have to finish it to get their full license back. Info at dmv.ny.gov."
     ]
   },
 
   example: {
-    en: "Brian was pulled over at a checkpoint in Schuyler County and arrested for DWI after a breathalyzer showed a BAC of .11%. At arraignment the next morning, the judge suspended his license and appointed a public defender. Brian's attorney reviewed the case and negotiated a plea reduction to DWAI. Brian paid a $300 fine plus the $395 surcharge, received a 90-day license suspension, and was required to complete the Impaired Driver Program. After 30 days, he received a conditional license so he could drive to work while completing the program."
+    en: "Brian was stopped at a checkpoint and arrested for DWI after a breathalyzer showed .11 BAC. At arraignment the next morning, the judge suspended his license and appointed a public defender. His lawyer looked at the case and worked out a plea reduction to DWAI. Brian paid a $300 fine plus the $395 state fee, got a 90-day license suspension, and had to finish the Impaired Driver Program. After 30 days, he got a conditional license so he could drive to work while finishing the program."
   },
 
   counsel: [
@@ -113,7 +113,7 @@ export const DWI_FIRST_OFFENSE_NY = {
     "https://www.nysenate.gov/legislation/laws/VAT/1193"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
