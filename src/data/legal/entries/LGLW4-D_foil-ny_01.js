@@ -44,9 +44,9 @@ export const FOIL_NY = {
       "Keep a copy of your request and the date you sent it. Start a 5-business-day clock.",
       "If you don't hear back in 5 business days, or the response is just a stall, you can treat that as a denial and appeal.",
       "If you get a denial, file a written appeal to the agency's FOIL appeals officer within 30 days. The agency has 10 business days to decide.",
-      "If the appeal is denied, you can file an Article 78 petition in State Supreme Court within 4 months. Filing fee is around $210.",
-      "Free help understanding FOIL: NY Committee on Open Government (518-474-2518). They give free written advisory opinions.",
-      "Free legal help with FOIL lawsuits in Monroe County: LawNY (585-325-2520) for low-income residents, or the Reporters Committee for Freedom of the Press hotline (1-800-336-4243) for journalists."
+      "If the appeal is denied, you can file an Article 78 petition in State Supreme Court within 4 months. Filing fee is around $210 as of April 2026 (confirm at nycourts.gov before filing).",
+      "Free help understanding FOIL: NY Committee on Open Government (opengovernment.ny.gov) gives free written advisory opinions.",
+      "Free legal help with FOIL lawsuits in Monroe County: LawNY (lawny.org) for low-income residents, or the Reporters Committee for Freedom of the Press (rcfp.org) for journalists. See counsel list below for intake details."
     ]
   },
 
