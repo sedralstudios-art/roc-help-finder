@@ -5,55 +5,54 @@ export const SSI_DISABILITY_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "SSI — Cash Benefits for People With Disabilities or Low Income Seniors" },
+  title: { en: "SSI — Cash for People with Disabilities or Low-Income Seniors" },
 
   summary: {
-    en: "Supplemental Security Income (SSI) provides monthly cash payments to people with very limited income and resources. It is for people who are aged 65 or older, blind, or disabled. SSI does not require any work history. New York adds a State Supplement to the federal SSI payment."
+    en: "SSI stands for Supplemental Security Income. It's a monthly check for people with very little income and savings. It's for people 65 or older, blind, or with a disability. No work history is needed. New York adds its own bonus on top of the federal check."
   },
 
   whoQualifies: {
     en: [
-      "Adults aged 65 or older with limited income and resources.",
-      "Adults of any age who are blind or have a disability that prevents substantial work and is expected to last at least 12 months or result in death.",
-      "Children under age 18 with a physical or mental impairment that causes marked and severe functional limitations.",
-      "Applicants must have limited income and countable resources below the federal resource limit.",
-      "Applicants must be U.S. citizens, U.S. nationals, or meet certain qualified non-citizen requirements.",
-      "SSI does not require any prior work history. It is based entirely on financial need and medical condition."
+      "Adults 65 and older with low income and savings.",
+      "Adults of any age who are blind or have a disability that keeps them from working. The disability has to last at least 12 months or end in death.",
+      "Children under 18 with a serious physical or mental condition that affects daily life.",
+      "Your income and savings must be very low. There are federal limits.",
+      "You must be a U.S. citizen, a U.S. national, or a lawful immigrant who meets the rules.",
+      "No past work is needed. SSI is based only on need and your medical condition."
     ]
   },
 
   whatItMeans: {
-    en: "SSI is a federal program run by the Social Security Administration. It provides a monthly cash payment to help cover basic needs like food, clothing, and shelter. The payment amount is called the Federal Benefit Rate and is adjusted each year for cost of living. New York adds a State Supplement to the federal payment through the SSP program, which is administered by OTDA. The total monthly amount depends on income, living situation, and household composition. The federal resource limit covers things like cash, bank accounts, and certain property. A primary home, one vehicle, and personal belongings are generally not counted. In New York, SSI recipients are automatically eligible for Medicaid. They are also automatically income-eligible for SNAP. Current payment amounts, resource limits, and income rules are published on the Social Security Administration website at ssa.gov."
+    en: "SSI is a federal program run by the Social Security Administration. It gives you a monthly check to help pay for food, clothing, and a place to live.\n\nThe monthly check goes up a little each year to keep up with prices. New York adds its own extra check on top — called the State Supplement (SSP). Your total amount depends on your income, where you live, and who lives with you.\n\nSavings that count include cash, bank accounts, and some property. Your home, one car, and your personal things usually don't count.\n\nIn New York, if you get SSI, you automatically get Medicaid. You also automatically qualify on the income side for SNAP.\n\nCurrent amounts, savings limits, and income rules are at ssa.gov."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for SSI at any time by contacting the Social Security Administration.",
-      "You have the right to receive a decision on your application, and if approved, benefits are payable from the month of application.",
-      "You have the right to appeal if your application is denied. The appeal process includes reconsideration, a hearing before an Administrative Law Judge, review by the Appeals Council, and federal court review.",
-      "You have the right to continue receiving benefits while your appeal is pending if you request the appeal on time.",
-      "You have the right to have a representative help you with your application or appeal.",
-      "You have the right to a Trial Work Period that lets you test your ability to work without immediately losing benefits.",
-      "You have the right to automatic Medicaid coverage in New York when you receive SSI.",
-      "You have the right to the New York State Supplement in addition to your federal SSI payment."
+      "You have the right to apply for SSI any time by contacting Social Security.",
+      "You have the right to a decision. If approved, benefits can go back to the month you applied.",
+      "You have the right to appeal if you are denied. There are 4 steps: ask for a second look, hearing with a judge, Appeals Council review, and federal court.",
+      "You have the right to keep getting benefits during the appeal — if you file the appeal on time.",
+      "You have the right to a lawyer or advocate at every step.",
+      "You have the right to a Trial Work Period — a chance to try working without losing SSI right away.",
+      "You have the right to automatic Medicaid in New York when you get SSI.",
+      "You have the right to the New York State Supplement on top of your federal SSI check."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 42 U.S.C. § 1381, SSI applications are accepted at any Social Security Administration office. There is no online SSI application — an appointment must be scheduled with a local SSA office.",
-      "The Social Security Administration can be reached at 1-800-772-1213 (TTY 1-800-325-0778), Monday through Friday, 7 a.m. to 7 p.m.",
-      "The New York State Supplement Program (SSP) is administered by OTDA. SSP information is available at 1-855-488-0541 or through the mySSP portal at otda.ny.gov/programs/ssp/.",
-      "If an SSI application is denied, a request for reconsideration must be filed within 60 days of the denial notice. If reconsideration is denied, a hearing before an Administrative Law Judge may be requested.",
-      "Free legal help with SSI applications and appeals is available through Empire Justice Center at (585) 454-4060, which handles disability and SSI/SSD benefits cases.",
-      "Legal Aid Society of Rochester provides assistance with SSI and disability benefits at (585) 232-4090.",
-      "Many disability attorneys and representatives handle SSI appeals on a contingency basis, meaning no fee is owed unless the case is won. Fees are set by federal law and are paid from back benefits.",
-      "ABLE accounts allow people with disabilities whose condition began before age 46 to save money without affecting SSI eligibility. More information is available at ablenrc.org."
+      "You can't apply for SSI fully online. You apply at any Social Security office. Schedule an appointment first (42 U.S.C. § 1381).",
+      "Social Security phone: 1-800-772-1213 (TTY 1-800-325-0778). Monday-Friday, 7am-7pm.",
+      "New York's State Supplement (SSP) is run by OTDA. Info: 1-855-488-0541 or otda.ny.gov/programs/ssp/.",
+      "If you are denied, you have 60 days to ask for a second look. If that's denied, you can ask for a hearing with a judge.",
+      "Free legal help with SSI: Empire Justice Center (585-454-4060) and Legal Aid Society of Rochester (585-232-4090).",
+      "Many disability lawyers work on \"contingency\" — they only get paid if you win, and their fee comes out of your back pay. The fee is capped by federal law.",
+      "ABLE accounts let people whose disability started before age 46 save money without losing SSI. More at ablenrc.org."
     ]
   },
 
   example: {
-    en: "Marcus is 41 and lives in Wayne County. He has a spinal condition that prevents him from working. He has never held a job long enough to earn work credits for SSDI. He applied for SSI at his local Social Security office. After submitting medical records and attending an interview, he was approved. He now receives a monthly SSI payment plus the New York State Supplement. He was automatically enrolled in Medicaid and approved for SNAP without a separate application."
+    en: "Marcus is 41. He has a spinal condition that keeps him from working. He has never worked long enough to qualify for SSDI. He applied for SSI at his local Social Security office. After turning in medical records and doing an interview, he was approved. Now he gets a monthly SSI check plus the New York State Supplement. He got Medicaid automatically and was approved for SNAP without a separate application."
   },
 
   counsel: [
@@ -133,7 +132,7 @@ export const SSI_DISABILITY_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1381"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

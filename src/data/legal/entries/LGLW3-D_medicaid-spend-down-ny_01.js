@@ -5,52 +5,52 @@ export const MEDICAID_SPEND_DOWN_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Medicaid Spend-Down — Coverage When Your Income Is Over the Limit" },
+  title: { en: "Medicaid Spend-Down — How to Qualify When Your Income Is Too High" },
 
   summary: {
-    en: "If your income is slightly above the Medicaid limit, you may still qualify through the Medicaid Excess Income Program. This program lets you use medical bills to reduce your countable income and become eligible for Medicaid coverage."
+    en: "If your income is a little above the Medicaid limit, you can still get Medicaid through a program called spend-down. It works kind of like a deductible. Once your medical bills add up to your extra income, Medicaid pays for the rest of the month."
   },
 
   whoQualifies: {
     en: [
-      "Adults aged 65 and older whose income is above the Medicaid income limit.",
-      "People who are certified as disabled by the Social Security Administration or NYS OTDA.",
+      "Adults 65 and older whose income is above the Medicaid limit.",
+      "People who Social Security or the state says are disabled.",
       "People who are legally blind.",
-      "Applicants must also meet Medicaid asset limits and all other eligibility requirements.",
-      "This program uses Non-MAGI rules. It does not apply to most adults under 65 who qualify under standard Medicaid."
+      "You also have to meet the Medicaid savings limit and other rules.",
+      "This program uses the Non-MAGI rules. (Non-MAGI is a set of Medicaid rules mostly for seniors and disabled people. It's different from the rules for other adults under 65.)"
     ]
   },
 
   whatItMeans: {
-    en: "The Medicaid Excess Income Program is also called the spend-down program or the surplus income program. It works like a deductible. The difference between your monthly income and the Medicaid income level is called your excess income. If your medical bills equal or exceed your excess income in a given month, Medicaid covers your remaining costs. This coverage applies for the rest of that month. The bills can be paid or unpaid. They can include doctor visits, prescriptions, medical supplies, and insurance premiums. Over-the-counter medications recommended by a doctor and medical transportation receipts also count. Bills from a spouse or children under 21 may also count. Your local Department of Social Services determines your excess income amount. You do not need to calculate it yourself. You will receive a notice with the amount. The Medicaid income level and asset limits are updated every January. Current limits are published by the NYS Department of Health."
+    en: "The Medicaid Excess Income Program has a few names: spend-down, surplus income, or Medicaid deductible. It all means the same thing.\n\nHere's how it works: the difference between your monthly income and the Medicaid income level is your \"extra income.\" If your medical bills that month add up to your extra income, Medicaid covers the rest of the month. The bills can be paid or unpaid.\n\nWhat bills count? Doctor visits, prescriptions, medical supplies, insurance premiums. Over-the-counter medicine your doctor recommended. Rides to medical appointments. Bills from your spouse or kids under 21 can count too.\n\nYou don't have to do the math yourself. Your local DSS figures out your extra income amount and sends you a notice.\n\nThe Medicaid income and savings limits are updated every January. Current limits are at health.ny.gov."
   },
 
   yourRights: {
     en: [
-      "You have the right to participate in the spend-down program if your income exceeds the Medicaid limit but you meet all other eligibility requirements.",
-      "You have the right to use paid or unpaid medical bills to meet your spend-down amount.",
-      "You have the right to fax your bills to the DSS office instead of delivering them in person, especially as a reasonable accommodation for a disability.",
-      "You have the right to retroactive Medicaid coverage for up to three months before the month you applied, if you had eligible medical expenses during that time.",
-      "You have the right to a fair hearing if your application is denied or your excess income amount is calculated incorrectly.",
-      "You have the right to choose between the bill submission method and the Pay-In Program."
+      "You have the right to use the spend-down program if your income is above the Medicaid limit but you meet the other rules.",
+      "You have the right to use both paid AND unpaid medical bills toward your spend-down.",
+      "You have the right to fax your bills to DSS instead of bringing them in, especially if you have a disability that makes going in hard.",
+      "You have the right to retroactive Medicaid for up to 3 months before you applied, if you had medical costs then.",
+      "You have the right to a fair hearing if you are denied or if DSS figures your extra income wrong.",
+      "You have the right to pick between sending in bills each month OR paying DSS directly (the Pay-In option)."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under NY Social Services Law § 366, the Medicaid Excess Income Program is available at every county Department of Social Services office in New York State.",
-      "The NYS Department of Health publishes current Medicaid income and asset limits each year at health.ny.gov/health_care/medicaid/.",
-      "Two methods exist for meeting the spend-down each month. The first is submitting medical bills equal to or greater than the excess income amount to the local DSS office. The second is the Pay-In Program, where the excess income amount is paid directly to DSS in exchange for coverage that month.",
-      "Under the Pay-In Program, paying for one to five months provides outpatient coverage only. Paying for six months at once provides both outpatient and inpatient coverage for the full six-month period.",
-      "People with disabilities may also be eligible for a Pooled Supplemental Needs Trust, which can eliminate the spend-down by placing excess income into a trust each month. These trusts are managed by nonprofit organizations.",
-      "The statewide Medicaid helpline is available at 1-800-541-2831.",
-      "Fair hearings may be requested by calling 1-800-342-3334.",
-      "Free legal help with Medicaid spend-down issues is available through LawNY at (585) 325-2520 and Empire Justice Center at (585) 454-4060."
+      "Every county DSS in New York runs the Medicaid Excess Income Program (NY Social Services Law § 366).",
+      "The state Department of Health updates Medicaid income and savings limits each year at health.ny.gov/health_care/medicaid/.",
+      "Two ways to meet your spend-down each month:\n1) Send bills: turn in medical bills that add up to your extra income.\n2) Pay-In Program: pay the extra income amount straight to DSS in exchange for that month's coverage.",
+      "Pay-In details: 1 to 5 months at a time gives you outpatient coverage only. 6 months at once gives you outpatient AND inpatient (hospital) coverage.",
+      "People with disabilities can look into a Pooled Trust. It's a way to put your extra income into a trust each month, so you don't have to meet a spend-down. Run by nonprofits.",
+      "Medicaid helpline: 1-800-541-2831.",
+      "To ask for a fair hearing: call 1-800-342-3334.",
+      "Free legal help: LawNY (585-325-2520) and Empire Justice Center (585-454-4060)."
     ]
   },
 
   example: {
-    en: "Rose is 72 and lives alone in Livingston County on a fixed income of $2,100 per month. The Medicaid income limit for a single person is lower than her income. Her excess income is about $280 per month. Each month, she submits her prescription receipts and doctor visit bills to her county DSS office. Because her medical bills regularly exceed $280, she qualifies for Medicaid coverage for the rest of that month. Her home aide visits and remaining prescriptions are covered by Medicaid."
+    en: "Rose is 72. She lives alone on $2,100 a month. The Medicaid income limit for a single person is lower than that. Her extra income is about $280 a month. Each month she sends her prescription receipts and doctor visit bills to her county DSS. Because her medical bills are more than $280, Medicaid covers her for the rest of that month. Her home aide visits and the rest of her prescriptions are covered."
   },
 
   counsel: [
@@ -124,7 +124,7 @@ export const MEDICAID_SPEND_DOWN_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1396a"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

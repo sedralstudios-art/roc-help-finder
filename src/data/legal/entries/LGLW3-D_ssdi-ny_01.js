@@ -5,55 +5,54 @@ export const SSDI_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "SSDI — Disability Benefits Based on Your Work History" },
+  title: { en: "SSDI — Disability Checks Based on Your Work History" },
 
   summary: {
-    en: "Social Security Disability Insurance (SSDI) provides monthly payments to people who can no longer work because of a disability. Unlike SSI, SSDI is based on your work history and the Social Security taxes you paid while working. There is no income or asset limit to qualify."
+    en: "SSDI stands for Social Security Disability Insurance. It pays monthly checks to people who can't work because of a disability. It's based on your past work and the Social Security taxes you already paid. There is no income or savings limit to qualify."
   },
 
   whoQualifies: {
     en: [
-      "Adults aged 18 to 64 who have a disability that prevents them from performing substantial gainful activity.",
-      "The disability must be expected to last at least 12 months or result in death.",
-      "Applicants must have earned enough Social Security work credits through prior employment. The number of credits required depends on age at the time of disability.",
-      "Workers who became disabled at a younger age may qualify with fewer credits.",
-      "Certain family members — including a spouse, former spouse, or children — may also receive benefits based on a disabled worker's record.",
-      "There is no income or asset test. SSDI is based entirely on work history and medical condition."
+      "Adults 18 to 64 with a disability that keeps them from working full time.",
+      "The disability has to be expected to last at least 12 months, or to end in death.",
+      "You must have earned enough Social Security work credits from past jobs. How many you need depends on your age when the disability started.",
+      "Younger workers who become disabled need fewer credits.",
+      "Some family members — a spouse, former spouse, or kids — may also get checks based on a disabled worker's record.",
+      "There is no income or savings test. SSDI looks only at your work history and medical condition."
     ]
   },
 
   whatItMeans: {
-    en: "SSDI is a federal insurance program run by the Social Security Administration. It pays monthly benefits to workers who become disabled and can no longer earn a living. The amount you receive depends on your average earnings over the years you worked and paid Social Security taxes. There is no flat payment amount — everyone's benefit is different. You can check your estimated benefit by creating an account at ssa.gov. After you are approved, there is a five-month waiting period before payments begin. After 24 months of receiving SSDI, you become eligible for Medicare. SSDI is different from SSI. SSI is for people with little or no work history and is based on financial need. It is possible to receive both SSDI and SSI at the same time if your SSDI payment is low. Current benefit estimates, work credit requirements, and earnings thresholds are published on the Social Security Administration website."
+    en: "SSDI is a federal program run by the Social Security Administration (SSA). It pays monthly money to people who can't work anymore because of a disability. How much you get depends on what you earned over the years you worked. Everyone's check is different. You can see your estimate at ssa.gov.\n\nAfter you are approved, you wait 5 months before payments start. After 24 months on SSDI, you get Medicare.\n\nSSDI is different from SSI. SSI is for people with little or no work history, and it's based on how much money you have now. You can get both SSDI and SSI at the same time if your SSDI check is small."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for SSDI at any time by contacting the Social Security Administration.",
-      "You have the right to apply online at ssa.gov, by phone, or in person at a local Social Security office.",
-      "You have the right to receive a decision on your application. Most initial decisions are made within three to six months.",
-      "You have the right to appeal if your application is denied. The appeal process includes reconsideration, a hearing before an Administrative Law Judge, review by the Appeals Council, and federal court review.",
-      "You have 60 days from the date of a denial to file an appeal at each stage.",
-      "You have the right to have an attorney or representative help you with your claim at any stage.",
-      "You have the right to a Trial Work Period that allows you to test your ability to work for up to nine months without losing benefits.",
-      "You have the right to Medicare coverage after 24 months of receiving SSDI benefits."
+      "You have the right to apply for SSDI any time by contacting Social Security.",
+      "You have the right to apply online at ssa.gov, by phone, or in person at a local office.",
+      "You have the right to a decision. Most first decisions come in 3 to 6 months.",
+      "You have the right to appeal if you are denied. There are 4 appeal steps: ask for a second look, request a hearing with a judge, ask the Appeals Council to review it, and finally file in federal court.",
+      "You have 60 days after a denial to file each appeal.",
+      "You have the right to a lawyer or advocate at every step.",
+      "You have the right to a Trial Work Period — a chance to try working for up to 9 months without losing your benefits.",
+      "You have the right to Medicare after 24 months on SSDI."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 42 U.S.C. § 423, SSDI applications may be submitted online at ssa.gov/disability, by phone at 1-800-772-1213 (TTY 1-800-325-0778), or in person at any Social Security office.",
-      "Estimated benefit amounts can be viewed by creating a my Social Security account at ssa.gov. The account also shows work credit history.",
-      "In New York, disability determinations are made by the Disability Determinations Division within OTDA on behalf of the Social Security Administration.",
-      "If an application is denied, a request for reconsideration must be filed within 60 days. If reconsideration is denied, a hearing before an Administrative Law Judge may be requested within 60 days.",
-      "Many disability attorneys and representatives handle SSDI appeals on a contingency basis. Under federal law, fees are capped and are paid only from back benefits if the case is won.",
-      "Free legal help with SSDI applications and appeals is available through Empire Justice Center at (585) 454-4060.",
-      "Legal Aid Society of Rochester provides assistance with disability benefits at (585) 232-4090.",
-      "People who receive SSDI may also qualify for SSI, SNAP, Medicaid, or other programs depending on their income and household situation."
+      "You can apply online at ssa.gov/disability, by phone at 1-800-772-1213 (TTY 1-800-325-0778), or in person at any Social Security office (42 U.S.C. § 423).",
+      "Make a my Social Security account at ssa.gov to see your estimated check and work history.",
+      "In New York, the state's Disability Determinations Division decides whether you meet the disability rules, working for Social Security.",
+      "If you are denied, you have 60 days to ask for a second look (reconsideration). If that's denied, you have 60 days to ask for a hearing with a judge.",
+      "Many disability lawyers work on \"contingency.\" That means they only get paid if you win, and their fee comes out of your back pay. Federal law caps the fee.",
+      "Free legal help with SSDI: Empire Justice Center (585-454-4060) and Legal Aid Society of Rochester (585-232-4090).",
+      "People on SSDI may also qualify for SSI, SNAP, Medicaid, or other help depending on their income."
     ]
   },
 
   example: {
-    en: "Angela worked as a home health aide in Monroe County for 15 years before a back injury made it impossible for her to continue working. She applied for SSDI online at ssa.gov. Her initial application was denied. She appealed and requested a hearing before an Administrative Law Judge. With help from a disability attorney, she gathered additional medical records and testimony. The judge approved her claim. After the five-month waiting period, she began receiving monthly SSDI payments based on her earnings history. Two years later, she became eligible for Medicare."
+    en: "Angela worked as a home health aide for 15 years. A back injury made it impossible to keep working. She applied for SSDI online. Her first application was denied. She appealed and asked for a hearing with a judge. A disability lawyer helped her get more medical records and prepare. The judge approved her claim. After the 5-month wait, her monthly SSDI check started. Two years later, she got Medicare."
   },
 
   counsel: [
@@ -130,7 +129,7 @@ export const SSDI_NY = {
     "https://www.law.cornell.edu/uscode/text/42/423"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
