@@ -5,53 +5,53 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Emergency Cash Assistance — One-Time Help for Rent, Utilities, and Crises" },
+  title: { en: "Emergency Cash Help — One-Time Money for Rent, Utilities, and Crises" },
 
   summary: {
-    en: "If you are facing eviction, utility shutoff, or homelessness, you may qualify for a one-time emergency assistance grant. You do not need to be receiving ongoing public assistance to apply."
+    en: "If you are about to be evicted, lose your heat, or become homeless, you may get a one-time emergency grant. You don't have to be on welfare to apply."
   },
 
   whoQualifies: {
     en: [
-      "Families with at least one child under 18 (or under 19 and in secondary school) or pregnant persons facing an emergency may qualify for Emergency Assistance to Families (EAF). Income must be at or below 200% of the Federal Poverty Level.",
-      "Single adults and childless couples facing an emergency may qualify for Emergency Safety Net Assistance (ESNA). Income must be at or below 125% of the Federal Poverty Level.",
-      "People receiving SSI or SSP who face an emergency that endangers their health or safety may qualify for Emergency Assistance to Adults (EAA).",
-      "You do not need to be receiving ongoing Temporary Assistance to receive emergency assistance.",
-      "The emergency must be the result of a sudden occurrence or situation that was unforeseen and beyond your control.",
-      "Applicants must meet citizenship or qualified non-citizen requirements and be New York State residents."
+      "Families with a child under 18 (or under 19 and in high school) or pregnant people may get Emergency Assistance to Families (EAF). Your income must be at or below 200% of the Federal Poverty Level.",
+      "Single adults and couples without kids may get Emergency Safety Net Assistance (ESNA). Your income must be at or below 125% of the Federal Poverty Level.",
+      "People on SSI or SSP can get Emergency Assistance to Adults (EAA) if their health or safety is in danger.",
+      "You don't have to be getting regular monthly Temporary Assistance to apply.",
+      "The emergency has to be something sudden that you didn't see coming and can't control.",
+      "You must be a New York State resident. You must be a U.S. citizen or a green card holder or another lawful immigrant."
     ]
   },
 
   whatItMeans: {
-    en: "Emergency assistance is a one-time grant to help you through a crisis. It is not ongoing monthly benefits. Emergencies covered include rent arrears that could lead to eviction, utility or heating shutoffs, and homelessness. Other situations that threaten your health or safety may also qualify. The amount of the grant depends on the type of emergency and is determined on a case-by-case basis. Payments are often made directly to the landlord, utility company, or other vendor rather than to the applicant. For families with children, EAF is funded through the federal TANF block grant and is generally a grant that does not need to be repaid. For single adults and childless couples, ESNA assistance for rent or utility arrears may be an interest-free loan. Repayment is typically required within 12 months for rent and 24 months for utilities. A repayment agreement is signed at the time of approval. When you apply, the local DSS office is required to interview you and decide on your emergency the same day."
+    en: "Emergency help is a one-time grant. It is not regular monthly benefits. It covers things like:\n\n1) Rent you owe, to stop an eviction.\n2) Heat, gas, or power about to be shut off.\n3) Being homeless or about to be homeless.\n4) Other crises that threaten your health or safety.\n\nThe amount depends on your situation. The money usually goes straight to your landlord, utility company, or vendor — not to you. For families with kids, the grant is usually free money you don't pay back. For single adults and couples without kids, help with rent or utility bills may be a no-interest loan. You sign a repayment paper when you are approved. Rent loans usually have to be paid back in 12 months. Utility loans usually have to be paid back in 24 months.\n\nWhen you apply, your local DSS office has to interview you and decide the same day."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for emergency assistance at your local Department of Social Services even if you are not receiving ongoing Temporary Assistance.",
-      "You have the right to be interviewed and receive a decision about your emergency on the same day you apply.",
-      "You have the right to emergency assistance to prevent eviction, utility shutoff, or homelessness.",
-      "You have the right to a fair hearing if your emergency assistance application is denied.",
-      "You have 60 days from the date of a denial to request a fair hearing.",
-      "You have the right to continue receiving any ongoing benefits while a fair hearing is pending."
+      "You have the right to apply for emergency help at your local DSS office, even if you aren't getting regular monthly benefits.",
+      "You have the right to be interviewed and get a decision the same day.",
+      "You have the right to emergency help to stop an eviction, heat or power shutoff, or homelessness.",
+      "You have the right to appeal (fair hearing) if you are denied.",
+      "You have 60 days after a denial to ask for a fair hearing.",
+      "You have the right to keep getting your other benefits while a fair hearing is pending."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under NY Social Services Law and federal TANF guidelines, emergency assistance applications are accepted at every county Department of Social Services in New York State.",
-      "Emergency applications are accepted in person at the local DSS office. Emergency applications cannot be fully processed online.",
-      "The statewide OTDA information line is available at 1-800-342-3009.",
-      "For EAF, household income must be at or below 200% of the Federal Poverty Level based on income available on the date of application. There is no resource test, though available resources are considered.",
-      "For ESNA, household income must be at or below 125% of the Federal Poverty Level. The 125% limit does not apply in fuel or utility emergencies or catastrophes.",
-      "ESNA grants for rent or utility arrears may require repayment through an interest-free loan agreement. EAF grants are generally not required to be repaid.",
-      "Fair hearings may be requested by calling 1-800-342-3334, online at otda.ny.gov, or by writing to the Fair Hearing Section at NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
-      "Free legal help with emergency assistance applications and denials is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 325-2520."
+      "Every county DSS office in New York takes emergency applications (NY Social Services Law; federal TANF rules).",
+      "Apply in person at the DSS office. You cannot do an emergency application fully online.",
+      "The state info line is 1-800-342-3009.",
+      "For families (EAF): income at or below 200% of the Federal Poverty Level on the date you apply. There is no savings test, but your available money is looked at.",
+      "For singles and childless couples (ESNA): income at or below 125% of the Federal Poverty Level. This limit does not apply for fuel or utility emergencies or disasters.",
+      "ESNA rent or utility bill help may have to be paid back as a no-interest loan. EAF is usually not paid back.",
+      "To ask for a fair hearing: call 1-800-342-3334, go online at otda.ny.gov, or write to Fair Hearing Section, NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
+      "Free legal help for emergency help applications and denials: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520)."
     ]
   },
 
   example: {
-    en: "Carla is a single mother of one child in Monroe County. She fell behind on rent after missing two weeks of work due to an illness. Her landlord served a notice to pay or vacate. She went to the Monroe County DSS office and applied for emergency assistance. Because she has a child, she was evaluated under EAF. Her income was below 200% of the Federal Poverty Level. The DSS office contacted her landlord and made a direct payment to cover the rent arrears. Carla was able to stay in her apartment, and the payment did not need to be repaid."
+    en: "Carla is a single mother with one child. She fell behind on rent after missing two weeks of work from an illness. Her landlord gave her a notice to pay or leave. Carla went to Monroe County DSS and applied for emergency help. Because she has a child, she was checked for EAF. Her income was under 200% of the Federal Poverty Level. DSS called her landlord and paid the back rent directly. Carla got to stay, and she didn't have to pay the money back."
   },
 
   counsel: [
@@ -128,7 +128,7 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
     "https://www.law.cornell.edu/uscode/text/42/604"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: true,
   disclaimer: true,

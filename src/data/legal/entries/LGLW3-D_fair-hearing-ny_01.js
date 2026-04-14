@@ -5,55 +5,55 @@ export const FAIR_HEARING_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Fair Hearings — What to Expect and How to Prepare" },
+  title: { en: "Fair Hearings — What to Expect and How to Get Ready" },
 
   summary: {
-    en: "A fair hearing is your chance to tell an Administrative Law Judge why you believe a decision about your benefits was wrong. You do not need a lawyer. The hearing is less formal than a court proceeding, and most hearings are held by telephone. Preparation and evidence are the keys to a good outcome."
+    en: "A fair hearing is your chance to tell a judge why you think a decision about your benefits was wrong. You don't need a lawyer. The hearing is less formal than a regular court case. Most hearings happen by phone. What matters most is getting ready and having proof."
   },
 
   whoQualifies: {
     en: [
-      "Anyone who has requested a fair hearing after a denial, reduction, or termination of public benefits.",
-      "Anyone whose benefits application was not decided within the required processing time.",
-      "You do not need a lawyer or representative to participate in a fair hearing.",
-      "You may bring a lawyer, legal aid advocate, friend, relative, or other representative to help you."
+      "Anyone who asked for a fair hearing after their benefits were denied, cut, or stopped.",
+      "Anyone whose benefits application was not decided in time.",
+      "You don't need a lawyer. You can do this yourself.",
+      "You can bring a lawyer, legal aid advocate, friend, family member, or anyone else to help you."
     ]
   },
 
   whatItMeans: {
-    en: "A fair hearing is conducted by an Administrative Law Judge from the NYS Office of Temporary and Disability Assistance. The judge was not involved in the original decision about your case. Most hearings are held by telephone. You can request an in-person hearing when you file your hearing request. At the hearing, the DSS representative will explain the agency's decision first. Then you will have your turn to explain why you disagree. You can present evidence, bring witnesses, and ask the DSS representative questions. The judge will also ask questions. The hearing is recorded. After the hearing, OTDA will mail you a written decision. If you win, the decision will order the local agency to correct your case. If the agency does not comply with the decision, you can file a compliance complaint with OTDA. If you lose, you may challenge the decision through an Article 78 proceeding in State Supreme Court within four months."
+    en: "A state judge runs the hearing — someone who was not part of the original decision. Most hearings happen by phone. You can ask for an in-person hearing when you request the hearing.\n\nAt the hearing, the DSS worker goes first. They explain the decision. Then it's your turn. You tell your side. You can show papers, bring people to speak for you, and ask the DSS worker questions. The judge may ask questions too. The hearing is recorded.\n\nA few weeks later, you get a written decision in the mail. If you win, the decision tells your local DSS office to fix your case. If they don't, you can file a compliance complaint. If you lose, you can still appeal to State Supreme Court. You have 4 months to file that appeal (called an Article 78 case)."
   },
 
   yourRights: {
     en: [
-      "You have the right to review your entire case file at the local DSS office before the hearing and to receive free copies of all documents.",
-      "You have the right to receive the DSS evidence packet at least two business days before the hearing.",
-      "You have the right to submit your own evidence to OTDA at least two business days before the hearing, by fax, mail, or through the secure upload portal.",
-      "You have the right to bring witnesses who can support your case.",
-      "You have the right to question the DSS representative about their testimony and evidence.",
-      "You have the right to an interpreter at no cost if you do not speak English.",
-      "You have the right to request an adjournment if you cannot attend on the scheduled date.",
-      "You have the right to ask the judge to hold the record open if you need a short time to obtain additional evidence.",
-      "You have the right to reimbursement for transportation, child care, and other necessary costs of attending the hearing.",
-      "You have the right to request that the hearing be reopened if you missed it for good cause, within one year of the missed date."
+      "You have the right to see your whole case file at the DSS office before the hearing. Copies are free.",
+      "You have the right to get the DSS evidence packet at least 2 business days before the hearing.",
+      "You have the right to send in your own proof at least 2 business days before the hearing — by fax, mail, or the upload portal.",
+      "You have the right to bring people who can speak for you.",
+      "You have the right to ask the DSS worker questions about their proof and what they say.",
+      "You have the right to a free interpreter if you don't speak English.",
+      "You have the right to ask to move the hearing to another day if you can't make it.",
+      "You have the right to ask the judge to leave the record open for a few days so you can turn in more proof.",
+      "You have the right to be paid back for travel, child care, and other costs of going to the hearing.",
+      "You have the right to ask for the hearing to be reopened if you missed it for a good reason. You have 1 year to do this."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 18 NYCRR Part 358, fair hearings are conducted by the OTDA Office of Administrative Hearings.",
-      "Telephone hearings are scheduled in morning (9:00 a.m. to 1:00 p.m.) or afternoon (1:00 p.m. to 5:00 p.m.) blocks. The judge will call from a blocked number. Phones must be set to accept blocked or unknown calls.",
-      "If the judge calls and you do not answer, a second call will be made approximately 10 to 20 minutes later. If both calls are missed, the hearing may be considered abandoned.",
-      "Evidence may be submitted through the secure upload portal at upload.ny.gov using your myBenefits login, by fax to (518) 473-6735, or by mail to OTDA Office of Administrative Hearings, P.O. Box 1930, Albany, NY 12201.",
-      "Your own spoken testimony is evidence. Even without documents, you can tell your side of the story at the hearing.",
-      "If aid continuing was granted and you lose the hearing, you may be required to repay the benefits received during the appeal period. The local agency will send a notice explaining any overpayment.",
-      "If the local agency does not comply with a decision in your favor, a compliance complaint may be filed online at otda.ny.gov/hearings/, by phone at 1-800-342-3334, or by mail.",
-      "Free legal help with fair hearing preparation and representation is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 325-2520, and Empire Justice Center at (585) 454-4060."
+      "The state's Office of Administrative Hearings runs fair hearings (18 NYCRR Part 358).",
+      "Phone hearings are set for morning (9am-1pm) or afternoon (1pm-5pm). The judge calls from a blocked number. Set your phone to take blocked or unknown calls.",
+      "If you miss the judge's call, they try again in 10-20 minutes. Miss both calls, and the hearing may be counted as dropped.",
+      "You can send proof to the state at upload.ny.gov using your myBenefits login, by fax to (518) 473-6735, or by mail to OTDA Office of Administrative Hearings, P.O. Box 1930, Albany, NY 12201.",
+      "Your own words count as proof. Even without papers, you can tell your side at the hearing.",
+      "If you asked to keep getting benefits during the appeal (called \"aid continuing\") and you lose, you may have to pay back the benefits you got during the appeal. DSS will send a notice if so.",
+      "If DSS doesn't follow a decision you won, you can file a compliance complaint at otda.ny.gov/hearings/, by phone at 1-800-342-3334, or by mail.",
+      "Free help getting ready for a hearing and representation at the hearing: Legal Aid Society of Rochester (585-232-4090), LawNY (585-325-2520), and Empire Justice Center (585-454-4060)."
     ]
   },
 
   example: {
-    en: "Michael receives Temporary Assistance in Seneca County. He received a notice saying his benefits would be reduced because he missed a required work activity appointment. Michael believed he had good cause because of a doctor's appointment, so he requested a fair hearing with aid continuing. Before the hearing, he obtained a note from his doctor confirming the appointment. He submitted the note to OTDA through the upload portal two days before the hearing. At the telephone hearing, the DSS representative explained that Michael was marked absent. Michael told the judge about the doctor visit and referred to the note. The judge ruled in Michael's favor and ordered his benefits restored to the previous amount."
+    en: "Michael gets Temporary Assistance. He got a notice saying his benefits would be cut because he missed a work appointment. Michael missed it because he had a doctor's visit that day. He asked for a fair hearing and asked to keep getting benefits during the appeal. Before the hearing, he got a note from his doctor. He uploaded the note 2 days before the hearing. At the phone hearing, the DSS worker said Michael was marked absent. Michael told the judge about the doctor visit and the note. The judge ruled in Michael's favor and ordered his benefits put back."
   },
 
   counsel: [
@@ -129,7 +129,7 @@ export const FAIR_HEARING_NY = {
     "https://www.law.cornell.edu/regulations/new-york/title-18/chapter-II/subchapter-B/article-1/part-358/subpart-358-5"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

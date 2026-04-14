@@ -8,53 +8,53 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
   title: { en: "Benefits Denied or Cut? How to Appeal Through a Fair Hearing" },
 
   summary: {
-    en: "If your public benefits are denied, reduced, or cut off, you have the right to appeal through a state fair hearing. A fair hearing lets you explain to a judge why you believe the decision was wrong. In many cases, your benefits can continue while the appeal is pending."
+    en: "If your benefits were denied, cut, or stopped, you can appeal. The appeal is called a fair hearing. A judge listens to your side. In many cases, your benefits can keep coming while you wait for the decision."
   },
 
   whoQualifies: {
     en: [
-      "Anyone whose application for public benefits was denied.",
-      "Anyone whose benefits were reduced, suspended, or terminated.",
-      "Anyone whose benefits application has been pending longer than the required processing time without a decision.",
-      "Fair hearings cover SNAP, Medicaid, Temporary Assistance, HEAP, child care assistance, and other programs administered through local Departments of Social Services.",
-      "You do not need a lawyer to request or attend a fair hearing, though free legal help is available."
+      "Anyone whose application for benefits was denied.",
+      "Anyone whose benefits were cut, paused, or stopped.",
+      "Anyone whose application has been waiting too long without a decision.",
+      "Fair hearings cover SNAP, Medicaid, Temporary Assistance, HEAP, child care help, and other programs run by your local DSS.",
+      "You don't need a lawyer. Free legal help is available if you want it."
     ]
   },
 
   whatItMeans: {
-    en: "A fair hearing is an administrative appeal run by the NYS Office of Temporary and Disability Assistance. It is conducted through the Office of Administrative Hearings. An Administrative Law Judge who was not involved in the original decision reviews your case. You present your side, and the local DSS agency presents theirs. Most hearings are conducted by telephone. You can also request an in-person hearing. If the judge decides in your favor, the local agency is ordered to correct your case. You generally have 60 days from the date on the notice of decision to request a fair hearing. If your benefits are being reduced or cut off, request the hearing before the effective date of the change. If you do, your benefits must continue at the current level while the hearing is pending. This is called aid continuing. Note that unemployment insurance appeals follow a separate process through the Unemployment Insurance Appeal Board, not through OTDA fair hearings."
+    en: "A fair hearing is a state-level appeal. A judge who was not part of the first decision listens to your case. You tell your side. The local DSS office tells theirs. Most hearings happen by phone. You can also ask for an in-person hearing.\n\nIf the judge rules for you, DSS has to fix your case.\n\nYou usually have 60 days from the date on your notice to ask for a hearing. If your benefits are being cut or stopped, ask for the hearing BEFORE the change starts. If you do, your benefits must keep coming at the current level until the judge decides. This is called \"aid continuing.\"\n\nNote: Unemployment insurance appeals go to a different office. They are not fair hearings."
   },
 
   yourRights: {
     en: [
-      "You have the right to request a fair hearing within 60 days of the date on the notice about your benefits.",
-      "You have the right to continue receiving your current benefits while the appeal is pending, if you request the hearing before the effective date of the reduction or termination.",
-      "You have the right to see your entire case file before the hearing and to receive free copies of all documents the agency will present.",
-      "You have the right to bring a lawyer, advocate, relative, friend, or other representative to help you at the hearing.",
-      "You have the right to present evidence, bring witnesses, and question the agency's witnesses.",
-      "You have the right to an interpreter at no cost if you do not speak English.",
-      "You have the right to request an adjournment if you cannot attend on the scheduled date.",
-      "You have the right to request an expedited hearing for Medicaid cases where a delay would jeopardize your life, health, or ability to function.",
-      "You have the right to receive a written decision after the hearing."
+      "You have the right to ask for a fair hearing within 60 days of the notice date.",
+      "You have the right to keep getting your current benefits during the appeal — if you ask for the hearing before the change takes effect.",
+      "You have the right to see your full case file before the hearing and get free copies of anything DSS plans to use.",
+      "You have the right to bring a lawyer, advocate, friend, or family member to the hearing.",
+      "You have the right to show your own papers, bring people to speak for you, and ask DSS questions.",
+      "You have the right to a free interpreter if you don't speak English.",
+      "You have the right to ask to move the hearing to another day if you can't make it.",
+      "You have the right to a faster hearing for Medicaid cases if waiting would hurt your health.",
+      "You have the right to a written decision after the hearing."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under NY Social Services Law § 22 and 18 NYCRR Part 358, fair hearings may be requested by phone at 1-800-342-3334, online at otda.ny.gov/hearings/request/, by fax to (518) 473-6735, or by mail to the Fair Hearing Section, NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
-      "The OTDA fair hearing request form is available online and can be printed and mailed or faxed.",
-      "When requesting a hearing by phone, wait times may be long. Online or fax requests provide a confirmation that can serve as proof of filing.",
-      "Before the hearing, the local DSS office is required to provide free copies of your case file documents upon request.",
-      "If the hearing is scheduled by telephone, the Administrative Law Judge will call the phone number on file. Calls may appear as Blocked, Private, or Unknown. Phones that block unknown or private numbers may not receive the call.",
-      "If you miss your hearing and did not request an adjournment, the case may be dismissed. You would need to show good cause to have it reopened.",
-      "Unemployment insurance denials are appealed through the Unemployment Insurance Appeal Board at uiab.ny.gov, not through the OTDA fair hearing process. The deadline for UI appeals is 30 days.",
-      "If you disagree with a fair hearing decision, you may challenge it through an Article 78 proceeding in State Supreme Court. This requires filing within four months and is best done with an attorney.",
-      "Free legal help with fair hearings is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 325-2520, and Empire Justice Center at (585) 454-4060."
+      "You can ask for a fair hearing 4 ways: phone (1-800-342-3334), online (otda.ny.gov/hearings/request/), fax ((518) 473-6735), or mail (Fair Hearing Section, NYS OTDA, P.O. Box 1930, Albany, NY 12201). (NY Social Services Law § 22; 18 NYCRR Part 358.)",
+      "The request form is online. You can print it and mail or fax it.",
+      "Phone wait times can be long. Online and fax requests give you a confirmation you can save as proof.",
+      "DSS has to give you free copies of your case file papers before the hearing if you ask.",
+      "For phone hearings, the judge calls the number on file. The call may show as Blocked, Private, or Unknown. Make sure your phone will take those calls.",
+      "If you miss the hearing and didn't ask to reschedule, the case can be dismissed. You would need a good reason to reopen it.",
+      "Unemployment insurance appeals go to the Unemployment Insurance Appeal Board, not OTDA. The deadline is 30 days. File at uiab.ny.gov.",
+      "If you disagree with the fair hearing decision, you can appeal to State Supreme Court. You have 4 months to file (this is called an Article 78 case). A lawyer is strongly recommended.",
+      "Free help with fair hearings: Legal Aid Society of Rochester (585-232-4090), LawNY (585-325-2520), Empire Justice Center (585-454-4060)."
     ]
   },
 
   example: {
-    en: "Lisa receives SNAP and Medicaid in Ontario County. She received a notice saying her SNAP benefits would be reduced because of an income change she did not report. Lisa believed the notice was wrong because the income change was temporary and had already ended. She called 1-800-342-3334 and requested a fair hearing before the effective date of the reduction. Because she requested the hearing on time, her SNAP benefits continued at the current level while the appeal was pending. At the telephone hearing, she explained the situation and showed a letter from her employer. The judge ruled in her favor and her benefits were restored."
+    en: "Lisa gets SNAP and Medicaid. She got a notice saying her SNAP would be cut because of an income change she didn't report. Lisa thought the notice was wrong — the extra income was short-term and had already stopped. She called 1-800-342-3334 and asked for a fair hearing before the change was set to start. Because she asked in time, her SNAP kept coming at the old amount while she waited. At the phone hearing, she explained what happened and showed a letter from her employer. The judge ruled for Lisa and her benefits were put back."
   },
 
   counsel: [
@@ -132,7 +132,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
     "https://www.nysenate.gov/legislation/laws/SOS/22"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

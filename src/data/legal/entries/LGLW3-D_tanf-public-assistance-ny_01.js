@@ -5,55 +5,55 @@ export const TANF_PUBLIC_ASSISTANCE_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Temporary Assistance — Cash Benefits for Families and Individuals in Need" },
+  title: { en: "Temporary Assistance — Cash Help for Families and Adults in Need" },
 
   summary: {
-    en: "Temporary Assistance provides cash benefits to help pay for basic needs like housing, food, and utilities. In New York, there are two programs: Family Assistance for households with children and Safety Net Assistance for single adults and childless couples."
+    en: "Temporary Assistance is cash help for people who can't pay for basic needs like rent, food, and utilities. New York has two programs: Family Assistance for households with kids, and Safety Net Assistance for single adults and couples without kids."
   },
 
   whoQualifies: {
     en: [
-      "Families with a minor child living with a parent, guardian, or caretaker relative who have very low income and limited resources.",
-      "Pregnant women in their last four months of pregnancy.",
-      "Single adults and childless couples with very low income and limited resources may qualify for Safety Net Assistance.",
-      "People who are unable to work, cannot find a job, or whose job does not pay enough to meet basic needs.",
-      "Applicants must be New York State residents.",
-      "Applicants must be U.S. citizens, U.S. nationals, or qualified non-citizens."
+      "Families with a kid under 18 living with a parent, guardian, or relative caretaker. Income and savings must be very low.",
+      "Women in the last 4 months of pregnancy.",
+      "Single adults and couples without kids with very low income and savings may qualify for Safety Net Assistance.",
+      "People who can't work, can't find a job, or whose job doesn't pay enough to cover basic needs.",
+      "You must live in New York State.",
+      "You must be a U.S. citizen, a U.S. national, or a green card holder or other lawful immigrant."
     ]
   },
 
   whatItMeans: {
-    en: "New York has two Temporary Assistance programs. Family Assistance is for families with children and is funded by the federal Temporary Assistance for Needy Families block grant. Adults on Family Assistance have a 60-month lifetime limit on benefits. Safety Net Assistance is for single adults, childless couples, and families that have reached the 60-month limit. Safety Net Assistance is funded by state and local dollars and has no federal time limit. Cash benefits may convert to non-cash forms such as direct payments to a landlord or utility company. Benefit amounts depend on household size, income, and where you live. Able-bodied adults receiving either program are generally required to participate in work activities, job training, or education. When you apply for Temporary Assistance, you are also screened for SNAP and Medicaid at the same time. Families receiving Family Assistance are required to cooperate with child support enforcement unless good cause exists."
+    en: "New York has two Temporary Assistance programs:\n\nFamily Assistance is for families with kids. It's funded by the federal TANF program (Temporary Assistance for Needy Families). Adults on Family Assistance have a 5-year lifetime limit (60 months total).\n\nSafety Net Assistance is for single adults, couples without kids, and families that have used up their 5 years. It's funded by the state and county. There is no federal time limit.\n\nSometimes the cash goes straight to your landlord or utility company instead of to you. How much you get depends on your household size, income, and where you live.\n\nAdults who can work usually have to do work activities, job training, or education while getting benefits.\n\nWhen you apply, you're also checked for SNAP and Medicaid at the same time.\n\nIf you get Family Assistance, you usually have to help the county collect child support from the other parent. You can skip this if you have a good reason, like domestic violence."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for Temporary Assistance at any time at your local Department of Social Services.",
-      "You have the right to receive a decision on your application within 30 days for Family Assistance or 45 days for Safety Net Assistance.",
-      "You have the right to emergency assistance if you are facing an immediate crisis such as eviction, utility shutoff, or homelessness.",
-      "You have the right to be screened for SNAP and Medicaid when you apply for Temporary Assistance.",
-      "You have the right to a fair hearing if your application is denied, your benefits are reduced, or your case is closed.",
-      "You have 60 days from the date of an adverse notice to request a fair hearing.",
-      "You have the right to continue receiving benefits during a fair hearing if you request the hearing before the effective date of the change.",
-      "You have the right to a hardship exemption from the 60-month Family Assistance time limit if you are unable to work due to a verified disability, including conditions related to domestic violence."
+      "You have the right to apply for Temporary Assistance any time at your local DSS office.",
+      "You have the right to a decision in 30 days for Family Assistance or 45 days for Safety Net Assistance.",
+      "You have the right to emergency help if you are facing eviction, a utility shutoff, or homelessness.",
+      "You have the right to be checked for SNAP and Medicaid when you apply.",
+      "You have the right to appeal (fair hearing) if you are denied, cut, or closed out.",
+      "You have 60 days after a bad decision to ask for a fair hearing.",
+      "You have the right to keep getting benefits during the fair hearing — if you ask for the hearing before the change starts.",
+      "You have the right to an exception to the 5-year Family Assistance time limit if you can't work because of a disability. This includes disabilities from domestic violence."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under NY Social Services Law and federal TANF guidelines (42 U.S.C. § 601), Temporary Assistance applications are accepted at every county Department of Social Services in New York State.",
-      "Online applications are available through mybenefits.ny.gov.",
-      "The statewide OTDA information line is available at 1-800-342-3009.",
-      "Emergency assistance may be available for families facing eviction, utility shutoff, or homelessness. Emergency applications are accepted at the local DSS office.",
-      "Fair hearings may be requested by calling 1-800-342-3334, online at otda.ny.gov, or by writing to the Fair Hearing Section at NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
-      "Applicants who believe they have good cause not to cooperate with child support enforcement — such as cases involving domestic violence — may request a good cause determination through their local DSS.",
-      "Free legal help with Temporary Assistance applications, denials, and fair hearings is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 325-2520.",
-      "Empire Justice Center provides assistance with benefits advocacy and systemic issues at (585) 454-4060."
+      "Every county DSS in New York takes applications (NY Social Services Law; 42 U.S.C. § 601).",
+      "You can apply online at mybenefits.ny.gov.",
+      "The state info line is 1-800-342-3009.",
+      "Emergency help may be available for eviction, utility shutoff, or homelessness. Apply in person at your local DSS office.",
+      "To ask for a fair hearing: call 1-800-342-3334, go online at otda.ny.gov, or write to Fair Hearing Section, NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
+      "If you have a good reason not to help collect child support (like domestic violence), you can ask DSS for a \"good cause\" determination.",
+      "Free legal help: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520).",
+      "Empire Justice Center handles benefits advocacy and bigger-picture cases at (585) 454-4060."
     ]
   },
 
   example: {
-    en: "Tanya is a single mother with two young children in Monroe County. She was working part-time but her hours were cut and she could no longer afford rent. She applied for Temporary Assistance at the Monroe County DSS office. Because she has children, she was placed in the Family Assistance program. She was also approved for SNAP and Medicaid through the same application. Her monthly cash benefit helps cover rent and basic expenses while she participates in a job training program arranged through DSS."
+    en: "Tanya is a single mother with two young children. She was working part-time, but her hours were cut. She couldn't afford rent anymore. She applied for Temporary Assistance at the Monroe County DSS office. Because she has kids, she was put in the Family Assistance program. The same application also got her SNAP and Medicaid. The cash helps cover rent and basics while she goes through job training set up by DSS."
   },
 
   counsel: [
@@ -130,7 +130,7 @@ export const TANF_PUBLIC_ASSISTANCE_NY = {
     "https://www.law.cornell.edu/uscode/text/42/601"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
