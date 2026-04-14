@@ -68,7 +68,7 @@ const UI = {
     door1Btn: "Find help now",
     door1Sub: "or call 211 — free, 24/7, any language",
     helpDisclaimer: "HelpFinder is an informational tool. Program details may change without notice. Always contact programs directly to confirm eligibility, hours, and availability. This is not legal, medical, or financial advice.",
-    trust: "No personal data collected. No accounts. No tracking. Ever.",
+    trust: "No accounts. No personal data collected. No tracking that identifies you.",
     feedbackTitle: "Tell us what's missing",
     feedbackDesc: "Know a program we missed? Something wrong? Or just want to say something? We read every message.",
     feedbackBtn: "Send us a message",
@@ -111,7 +111,7 @@ const UI = {
     nonMonetaryFeedback: "Tell us what's missing or wrong",
     nonMonetaryAdd: "Add a program you know about that isn't listed",
     donatePaypal: "Donate via PayPal", teamwork: "Teamwork makes the dream work.",
-    supportDisclaimer: "Sedral Studios is not a registered nonprofit. Donations support hosting, research, and expansion to new cities. Thank you.",
+    supportDisclaimer: "Sedral Studios is not a registered nonprofit and is not a government agency. Donations primarily cover hosting, domain, research, and expansion. Monthly donations can be cancelled any time from your Stripe receipt email. Thank you.",
     shareLabel: "Share HelpFinder",
     shareText: "Free help and legal info for Monroe County. No accounts, no ads, no tracking.",
     shareAriaLabel: "Share HelpFinder with someone who needs it",
@@ -993,7 +993,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             {t(lang,"supportDisclaimer")}
           </p>
           <p style={{ fontSize: 11, color: C.dust, lineHeight: 1.5, textAlign: "center" }}>
-            Voluntary contribution. Not tax-deductible. Sedral Studios EIN on file.
+            Voluntary contribution. Not tax-deductible. Sedral Studios is a for-profit business entity, not a charity.
           </p>
         </main>
       )}

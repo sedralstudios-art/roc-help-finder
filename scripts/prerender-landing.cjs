@@ -75,7 +75,7 @@ const S = {
     navTerms: 'Terms',
     navLegal: 'Know Your Rights',
     footer: 'Built with nothing. Built for everyone.',
-    universalDisclaimer: 'HelpFinder is an informational tool only. Program details may change without notice. Contact programs directly to confirm eligibility, hours, and availability. This is not legal, medical, or financial advice.',
+    universalDisclaimer: 'HelpFinder is an informational tool only. HelpFinder is operated by Sedral Studios, a for-profit business entity — not a nonprofit, not a government agency, and not a substitute for a lawyer. Program details may change without notice. Contact programs directly to confirm eligibility, hours, and availability. This is not legal, medical, or financial advice.',
   },
   es: {
     siteName: 'HelpFinder',
