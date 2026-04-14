@@ -8,46 +8,46 @@ export const CLEAN_SLATE_NY = {
   title: { en: "Clean Slate Act — Automatic Sealing of Your Criminal Record" },
 
   summary: {
-    en: "New York's Clean Slate Act automatically seals most criminal conviction records after a waiting period. Misdemeanors seal after three years and felonies after eight. Once sealed, these convictions are hidden from most background checks for jobs, housing, and education. You do not need to apply. The sealing happens automatically if you meet the requirements."
+    en: "New York's Clean Slate Act seals most criminal convictions automatically after a waiting period. Misdemeanors seal after 3 years. Felonies seal after 8 years. Once sealed, the conviction is hidden from most job, housing, and school background checks. You don't have to apply. It happens by itself if you qualify."
   },
 
   whoQualifies: {
     en: [
-      "Anyone convicted of a misdemeanor under New York State law whose sentence or release from incarceration was at least three years ago, with no new convictions or pending criminal charges since then.",
-      "Anyone convicted of a felony under New York State law whose sentence or release from incarceration was at least eight years ago, with no new convictions or pending charges since then.",
-      "The person must not be currently on probation, parole, or post-release supervision.",
-      "Drug-related convictions are eligible for sealing, even Class A drug felonies. However, sex offenses, most non-drug Class A felonies (including murder), and convictions requiring sex offender registration are not eligible."
+      "Anyone with a New York misdemeanor conviction whose sentence or release from jail was at least 3 years ago, with no new convictions or open cases since then.",
+      "Anyone with a New York felony conviction whose sentence or release from prison was at least 8 years ago, with no new convictions or open cases since then.",
+      "You can't be on probation, parole, or post-release supervision right now.",
+      "Drug convictions can be sealed — even Class A drug felonies. But these are NOT eligible: sex offenses, most non-drug Class A felonies (including murder), and anything that requires sex offender registration."
     ]
   },
 
   whatItMeans: {
-    en: "Under CPL § 160.57, the Clean Slate Act requires the New York State Unified Court System to automatically seal eligible conviction records by November 16, 2027. Sealing means the conviction will not appear on most background checks used for employment, housing, education, or lending. Employers are prohibited from asking about sealed convictions or taking adverse action based on them. Sealing is not the same as expungement — the records still exist and remain accessible to law enforcement, prosecutors, courts, and certain licensing agencies. If you are convicted of a new crime during the waiting period, the clock resets."
+    en: "Under the Clean Slate Act (CPL § 160.57), the New York court system has to seal qualifying convictions automatically by November 16, 2027.\n\nSealing means your conviction won't show up on most background checks — for jobs, housing, school, or lending. Employers cannot ask about a sealed conviction. They cannot fire you, refuse to hire you, or treat you worse because of it.\n\nSealing is not the same as expungement. (Expungement means the record is destroyed. Sealing means the record still exists but is hidden.) The record stays accessible to police, prosecutors, courts, and some licensing agencies.\n\nIf you get a new conviction during the waiting period, the clock starts over."
   },
 
   yourRights: {
     en: [
-      "You have the right to have eligible convictions automatically sealed without filing any application or petition. The process is handled by the court system (CPL § 160.57).",
-      "Once your record is sealed, employers are prohibited from inquiring about the sealed conviction or making any adverse employment decision based on it.",
-      "You have the right to bring a civil lawsuit under Civil Rights Law § 50-g against anyone who knowingly and willfully discloses your sealed conviction without authorization, if the disclosure causes you injury.",
-      "If your conviction has not been sealed by November 16, 2027, and you believe it should have been, you or your attorney may petition the court for a manual review of your record.",
-      "There is no limit on the number of convictions that may be sealed under the Clean Slate Act, as long as each conviction meets the eligibility requirements.",
-      "If you also qualify under the older petition-based sealing law (CPL § 160.59), which allows sealing of up to two convictions after a 10-year waiting period, that option remains available as an alternative."
+      "You have the right to have qualifying convictions sealed automatically. You don't have to file anything. The court system does it (CPL § 160.57).",
+      "Once sealed, employers cannot ask about a sealed conviction. They cannot fire you, refuse to hire you, or treat you worse because of it.",
+      "If someone shares your sealed conviction without permission and it hurts you, you have the right to sue them (Civil Rights Law § 50-g).",
+      "If your conviction should have been sealed by November 16, 2027, but wasn't, you or a lawyer can ask the court to review your record.",
+      "There is no limit on how many convictions can be sealed under Clean Slate — as long as each one meets the rules.",
+      "There's also an older option (CPL § 160.59) that lets you petition the court to seal up to 2 convictions (no more than 1 felony) after a 10-year wait. This requires filing a motion — it's not automatic. Still available if you need it."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under CPL § 160.57, eligible convictions are sealed automatically by the Unified Court System. The system has until November 16, 2027, to seal all qualifying records. No application is required.",
-      "For individuals who cannot wait for automatic sealing, CPL § 160.59 allows a petition to be filed in the sentencing court to seal up to two convictions (with no more than one felony) after a 10-year waiting period. This requires a court motion and is not automatic.",
-      "The New York State Division of Criminal Justice Services (DCJS) maintains criminal history records. Individuals may request a copy of their own rap sheet to check whether their convictions have been sealed. Instructions are available at the DCJS website.",
-      "Free legal help with record sealing and the collateral consequences of criminal convictions in Monroe County is available through the Legal Aid Society of Rochester at (585) 232-4090 and Legal Assistance of Western New York (LawNY) at (585) 325-2520.",
-      "The Clean Slate Act applies only to convictions under New York State law. Federal convictions and convictions from other states are not affected. Immigration matters require separate analysis — sealed convictions must still be disclosed to USCIS.",
-      "The New York State Unified Court System publishes updates on Clean Slate implementation at nycourts.gov/FORMS/criminal-record-sealing.shtml."
+      "Qualifying convictions get sealed automatically. The court system has until November 16, 2027 to finish all of them. No application is needed (CPL § 160.57).",
+      "If you can't wait for automatic sealing, the older law (CPL § 160.59) lets you petition to seal up to 2 convictions after 10 years. You file a motion in the sentencing court.",
+      "You can request your own criminal history record (rap sheet) from the NY Division of Criminal Justice Services (DCJS) to see if your convictions were sealed. Instructions at the DCJS website.",
+      "Free legal help with record sealing: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520).",
+      "Clean Slate covers ONLY New York State convictions. Federal convictions and convictions from other states are not affected. IMPORTANT: for immigration matters, you still have to tell USCIS about sealed convictions.",
+      "Clean Slate updates at nycourts.gov/FORMS/criminal-record-sealing.shtml."
     ]
   },
 
   example: {
-    en: "DeShawn was convicted of a nonviolent felony in Cayuga County in 2016 and served two years in state prison. He was released in 2018 and completed parole in 2021. He has had no new arrests or convictions since then. Under the Clean Slate Act, his felony conviction is eligible to be sealed eight years after his release — in 2026. Once sealed, the conviction will no longer appear on background checks when he applies for jobs or housing. He does not need to file any paperwork. The court system handles the sealing automatically."
+    en: "DeShawn was convicted of a nonviolent felony in 2016 and served 2 years. He was released in 2018 and finished parole in 2021. He hasn't had any new arrests or convictions since. Under the Clean Slate Act, his felony can be sealed 8 years after his release — in 2026. Once sealed, the conviction won't show up on background checks when he applies for jobs or housing. He doesn't have to file anything. The court system handles it automatically."
   },
 
   counsel: [
@@ -124,7 +124,7 @@ export const CLEAN_SLATE_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/160.57"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

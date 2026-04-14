@@ -8,53 +8,52 @@ export const SNAP_RIGHTS_NY = {
   title: { en: "SNAP (Food Stamps) — Your Rights in New York" },
 
   summary: {
-    en: "SNAP provides monthly benefits on an EBT card to help pay for groceries. New York has some of the broadest eligibility rules in the country. Most households do not need to pass an asset test."
+    en: "SNAP puts money on an EBT card each month to help pay for groceries. New York makes it easier to qualify than most states. Most households don't have to pass a savings test."
   },
 
   whoQualifies: {
     en: [
-      "Individuals and families with income at or below 200% of the Federal Poverty Level (most households in NY).",
-      "Households with a member who is 60 or older, or who has a disability, may qualify at higher income levels.",
-      "People already receiving SSI or Temporary Assistance are often automatically eligible.",
-      "College students enrolled at least half-time who meet work or program requirements.",
-      "Most households in New York do not need to meet an asset or savings test."
+      "Single people and families with income at or below 200% of the Federal Poverty Level (that's most households in New York).",
+      "Households with someone 60 or older, or someone with a disability, can qualify with higher income.",
+      "People already getting SSI or Temporary Assistance often qualify automatically.",
+      "College students at least half-time who meet work or program rules.",
+      "Most New York households do NOT have to meet a savings test."
     ]
   },
 
   whatItMeans: {
-    en: "SNAP stands for the Supplemental Nutrition Assistance Program. It used to be called food stamps. Benefits are loaded each month onto an Electronic Benefit Transfer (EBT) card. The card works like a debit card at grocery stores, farmers markets, and some online retailers. Benefit amounts depend on household size, income, and allowable deductions like rent, utilities, childcare, and medical costs. New York uses broad-based categorical eligibility, which means the gross income limit is higher than in many other states. The standard federal gross income limit is 130% of the Federal Poverty Level. In New York, most households qualify at up to 200% of the Federal Poverty Level. Net income — what is left after deductions — must be at or below 100% of the Federal Poverty Level. Current income limits and benefit amounts are updated every October 1 and are published on the OTDA website."
+    en: "SNAP stands for the Supplemental Nutrition Assistance Program. It used to be called food stamps. Each month, your benefits get loaded onto an EBT card. The card works like a debit card at grocery stores, farmers markets, and some online stores.\n\nHow much you get depends on how many people are in your household, your income, and what you can deduct. Deductions include rent, utilities, childcare, and medical costs.\n\nNew York makes it easier to qualify than most states. Most states use 130% of the Federal Poverty Level as the income cutoff. In New York, most households can qualify up to 200% of the Federal Poverty Level. After deductions, your \"net income\" must be at or below 100% of the Federal Poverty Level.\n\nIncome limits and benefit amounts change every October 1. Current numbers are at otda.ny.gov."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for SNAP on the same day you contact your local Department of Social Services.",
-      "You have the right to receive a decision within 30 days of submitting your application.",
-      "You have the right to expedited benefits within 7 days if you have very low income and few resources.",
-      "You have the right to a fair hearing if your application is denied, your benefits are reduced, or your case is closed.",
-      "You have 60 days after a denial or adverse action to request a fair hearing through OTDA.",
+      "You have the right to apply for SNAP the same day you contact your local DSS.",
+      "You have the right to a decision within 30 days.",
+      "You have the right to expedited (faster) benefits within 7 days if you have very low income and almost no money.",
+      "You have the right to appeal (fair hearing) if you are denied, cut, or closed out.",
+      "You have 60 days after a bad decision to ask for a fair hearing.",
       "You have the right to apply online, by phone, by mail, by fax, or in person.",
-      "You have the right to receive application materials and assistance in your preferred language.",
-      "You have the right to use SNAP benefits to buy seeds and plants that produce food for your household.",
-      "You have the right to designate an authorized representative to apply or shop on your behalf."
+      "You have the right to get application materials and help in your language.",
+      "You have the right to use SNAP to buy seeds and plants that grow food.",
+      "You have the right to pick someone (called an authorized rep) to apply for you or shop for you."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under NY Social Services Law § 95, SNAP applications are accepted at every county Department of Social Services office across New York State.",
-      "Online applications are available 24 hours a day through the myBenefits portal at mybenefits.ny.gov.",
-      "The statewide SNAP helpline is available at 1-800-342-3009.",
-      "Under federal law (7 U.S.C. § 2020), applicants who have less than $150 in monthly gross income and less than $100 in liquid resources may qualify for expedited processing within 7 days.",
-      "Households where shelter costs exceed total income may also qualify for expedited processing.",
-      "Fair hearings may be requested online at mybenefits.ny.gov, by phone, by mail, or by fax through the local DSS office.",
-      "Free legal help with SNAP applications and denials is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 325-2520.",
-      "The Empire Justice Center provides assistance with SNAP appeals and benefits issues at (585) 454-4060.",
-      "As of March 1, 2026, adults aged 18 to 64 without dependents under age 14 (known as ABAWDs) are required to document 80 hours per month of work, training, or volunteering to maintain SNAP benefits beyond 3 months in a 36-month period. Exemptions exist for individuals with disabilities, pregnant individuals, veterans, and others. Details are available at otda.ny.gov/programs/snap/work-requirements.asp."
+      "Every county DSS in New York takes SNAP applications (NY Social Services Law § 95).",
+      "You can apply online 24/7 at mybenefits.ny.gov.",
+      "State SNAP helpline: 1-800-342-3009.",
+      "Expedited (7-day) benefits are for people who have less than $150 in monthly income AND less than $100 in cash or bank accounts, OR whose rent and utilities are more than their total income (7 U.S.C. § 2020).",
+      "To ask for a fair hearing: online at mybenefits.ny.gov, by phone, mail, or fax through your DSS.",
+      "Free legal help for SNAP applications and denials: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520).",
+      "Empire Justice Center helps with SNAP appeals: (585) 454-4060.",
+      "Starting March 1, 2026: if you're 18-64 and don't have kids under 14 at home, you have to work, train, or volunteer 80 hours a month. Otherwise SNAP only lasts 3 months out of every 3 years. There are exceptions for people with disabilities, pregnant people, veterans, and others. Details at otda.ny.gov/programs/snap/work-requirements.asp."
     ]
   },
 
   example: {
-    en: "Maria is a single mother of two in Ontario County. She works part-time and earns $2,100 a month. After deductions for rent, utilities, and childcare, her net income falls below the limit. She applied for SNAP online at mybenefits.ny.gov. Her local DSS office called her for a phone interview within two weeks. She was approved and now receives monthly benefits on her EBT card. She uses the card at her local grocery store and at a farmers market in the summer."
+    en: "Maria is a single mother of two. She works part-time earning $2,100 a month. After deductions for rent, utilities, and childcare, her net income falls below the limit. She applied for SNAP online at mybenefits.ny.gov. Her local DSS called her for a phone interview within two weeks. She was approved. Now she gets monthly benefits on her EBT card. She uses the card at her local grocery store and at a farmers market in summer."
   },
 
   counsel: [
@@ -133,7 +132,7 @@ export const SNAP_RIGHTS_NY = {
     "https://www.law.cornell.edu/uscode/text/7/2011"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
