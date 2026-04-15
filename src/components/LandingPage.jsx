@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { LegalLibraryCategories, LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
+import { GlossaryCategories, GlossaryBrowse, GlossaryTerm } from "./Glossary";
 import ShareButton from "./ShareButton";
 import { resolveJurisdiction } from "../utils/resolveJurisdiction.js";
 
@@ -11,7 +12,7 @@ import { resolveJurisdiction } from "../utils/resolveJurisdiction.js";
 // Brand: HF (product) / SS (studio)
 // ═══════════════════════════════════════════════════
 
-const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6, LEGAL_CATEGORY: 7 };
+const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6, LEGAL_CATEGORY: 7, GLOSSARY: 8, GLOSSARY_TERM: 9, GLOSSARY_CATEGORY: 10 };
 
 // URL <-> page mapping for history-based routing
 const PAGE_PATHS = {
@@ -21,6 +22,7 @@ const PAGE_PATHS = {
   [PAGES.PRIVACY]: "/privacy",
   [PAGES.TERMS]: "/terms",
   [PAGES.LEGAL_LIBRARY]: "/know-your-rights",
+  [PAGES.GLOSSARY]: "/glossary",
 };
 
 const PATH_TO_PAGE = {
@@ -30,6 +32,7 @@ const PATH_TO_PAGE = {
   "/privacy": PAGES.PRIVACY,
   "/terms": PAGES.TERMS,
   "/know-your-rights": PAGES.LEGAL_LIBRARY,
+  "/glossary": PAGES.GLOSSARY,
 };
 
 // Parse current browser pathname → { page, entryId | null, categoryId | null }
@@ -41,6 +44,12 @@ function parsePath(pathname) {
   // Entry: /know-your-rights/[id]
   const entryMatch = clean.match(/^\/know-your-rights\/([a-z0-9-]+)$/i);
   if (entryMatch) return { page: PAGES.LEGAL_ENTRY, entryId: entryMatch[1], categoryId: null };
+  // Glossary category: /glossary/category/[cat]
+  const glossaryCatMatch = clean.match(/^\/glossary\/category\/([a-z0-9-]+)$/i);
+  if (glossaryCatMatch) return { page: PAGES.GLOSSARY_CATEGORY, entryId: null, categoryId: null, termId: null, glossaryCat: glossaryCatMatch[1] };
+  // Glossary term: /glossary/[id]
+  const glossaryTermMatch = clean.match(/^\/glossary\/([a-z0-9-]+)$/i);
+  if (glossaryTermMatch) return { page: PAGES.GLOSSARY_TERM, entryId: null, categoryId: null, termId: glossaryTermMatch[1], glossaryCat: null };
   if (PATH_TO_PAGE[clean] !== undefined) return { page: PATH_TO_PAGE[clean], entryId: null, categoryId: null };
   return { page: PAGES.HOME, entryId: null, categoryId: null };
 }
@@ -390,6 +399,8 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const [lang, setLang] = useState("en");
   const [selectedEntryId, setSelectedEntryId] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedGlossaryTermId, setSelectedGlossaryTermId] = useState(null);
+  const [selectedGlossaryCategory, setSelectedGlossaryCategory] = useState(null);
   const [legalLang, setLegalLang] = useState("en");
   const [menuOpen, setMenuOpen] = useState(false);
   const [city, setCity] = useState("your area");
@@ -428,6 +439,8 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     const parsed = parsePath(window.location.pathname);
     if (parsed.entryId) setSelectedEntryId(parsed.entryId);
     if (parsed.categoryId) setSelectedCategory(parsed.categoryId);
+    if (parsed.termId) setSelectedGlossaryTermId(parsed.termId);
+    if (parsed.glossaryCat) setSelectedGlossaryCategory(parsed.glossaryCat);
     setPage(parsed.page);
   }, []);
 
@@ -437,6 +450,8 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       const parsed = parsePath(window.location.pathname);
       if (parsed.entryId) setSelectedEntryId(parsed.entryId);
       if (parsed.categoryId) setSelectedCategory(parsed.categoryId);
+      if (parsed.termId) setSelectedGlossaryTermId(parsed.termId);
+      if (parsed.glossaryCat) setSelectedGlossaryCategory(parsed.glossaryCat);
       setPage(parsed.page);
       window.scrollTo(0, 0);
     };
@@ -479,6 +494,28 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     setPage(PAGES.LEGAL_CATEGORY);
     setMenuOpen(false);
     const newPath = "/know-your-rights/topic/" + cat;
+    if (window.location.pathname !== newPath) {
+      try { window.history.pushState({}, "", newPath); } catch (e) {}
+    }
+    window.scrollTo(0, 0);
+  };
+
+  const openGlossaryTerm = (id) => {
+    setSelectedGlossaryTermId(id);
+    setPage(PAGES.GLOSSARY_TERM);
+    setMenuOpen(false);
+    const newPath = "/glossary/" + id;
+    if (window.location.pathname !== newPath) {
+      try { window.history.pushState({}, "", newPath); } catch (e) {}
+    }
+    window.scrollTo(0, 0);
+  };
+
+  const openGlossaryCategory = (cat) => {
+    setSelectedGlossaryCategory(cat);
+    setPage(PAGES.GLOSSARY_CATEGORY);
+    setMenuOpen(false);
+    const newPath = "/glossary/category/" + cat;
     if (window.location.pathname !== newPath) {
       try { window.history.pushState({}, "", newPath); } catch (e) {}
     }
@@ -695,6 +732,26 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
               <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>Free legal guides. Benefits, housing, employment, immigration.</div>
             </div>
             <div style={{ fontSize: 22, color: C.amber, flexShrink: 0, fontWeight: 700 }}>→</div>
+          </button>
+
+          {/* ── LEGAL GLOSSARY TILE ── plain-English court words */}
+          <button
+            onClick={() => nav(PAGES.GLOSSARY)}
+            className="hf-fade-in hf-d5"
+            style={{
+              width: "100%", textAlign: isRTL ? "right" : "left",
+              background: "#ede7f6", border: "1px solid #5e35b1",
+              borderRadius: 24, padding: "18px 22px", cursor: "pointer",
+              marginTop: 12, fontFamily: "inherit",
+              display: "flex", alignItems: "center", gap: 16,
+            }}
+          >
+            <div style={{ fontSize: 34, flexShrink: 0, lineHeight: 1 }}>📖</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 3 }}>Legal Glossary</div>
+              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>Plain-English words for what you hear in court and on notices.</div>
+            </div>
+            <div style={{ fontSize: 22, color: "#5e35b1", flexShrink: 0, fontWeight: 700 }}>→</div>
           </button>
 
           {/* ── TRADES TILE ── permit rules for contractors and homeowners */}
@@ -1068,6 +1125,43 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         />
       )}
 
+      {/* ═══════════════════ LEGAL GLOSSARY (landing) ═══════════════════ */}
+      {page === PAGES.GLOSSARY && (
+        <GlossaryCategories
+          legalLang={legalLang}
+          setLegalLang={setLegalLang}
+          onOpenCategory={openGlossaryCategory}
+          onOpenTerm={openGlossaryTerm}
+          onBack={() => nav(PAGES.HOME)}
+        />
+      )}
+
+      {/* ═══════════════════ LEGAL GLOSSARY (category list) ═══════════════════ */}
+      {page === PAGES.GLOSSARY_CATEGORY && (
+        <GlossaryBrowse
+          legalLang={legalLang}
+          setLegalLang={setLegalLang}
+          categoryFilter={selectedGlossaryCategory}
+          onOpenTerm={openGlossaryTerm}
+          onBack={() => nav(PAGES.GLOSSARY)}
+        />
+      )}
+
+      {/* ═══════════════════ LEGAL GLOSSARY (term detail) ═══════════════════ */}
+      {page === PAGES.GLOSSARY_TERM && (
+        <GlossaryTerm
+          termId={selectedGlossaryTermId}
+          legalLang={legalLang}
+          setLegalLang={setLegalLang}
+          onOpenTerm={openGlossaryTerm}
+          onOpenLegalEntry={openEntry}
+          onBack={() => {
+            if (selectedGlossaryCategory) { nav(PAGES.GLOSSARY_CATEGORY); }
+            else { nav(PAGES.GLOSSARY); }
+          }}
+        />
+      )}
+
 
             {/* ═══ FOOTER ═══ */}
       <footer style={{ textAlign: "center", padding: "20px 20px 32px", borderTop: `1px solid ${C.border}` }}>
@@ -1077,6 +1171,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <button className="hf-nav-link" onClick={() => nav(PAGES.PRIVACY)} style={{ fontSize: 12 }}>{t(lang,"navPrivacy")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.TERMS)} style={{ fontSize: 12 }}>{t(lang,"navTerms")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.LEGAL_LIBRARY)} style={{ fontSize: 12 }}>Know Your Rights</button>
+            <button className="hf-nav-link" onClick={() => nav(PAGES.GLOSSARY)} style={{ fontSize: 12 }}>Legal Glossary</button>
             <a href="mailto:hello@helpfinder.help" className="hf-nav-link" style={{ fontSize: 12, textDecoration: "none", color: C.stone }}>{t(lang,"navContact")}</a>
           </div>
           <div style={{ fontSize: 11, color: C.dust, lineHeight: 1.6 }}>
