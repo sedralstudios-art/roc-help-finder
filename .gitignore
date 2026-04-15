@@ -1,9 +1,9 @@
 node_modules
 dist
 .DS_Store
-call-data/recordings/
-call-data/transcripts/
-call-data/progress.json
-call-data/results.json
+# call-data/ is the dialer pipeline — scripts, phone queue, recordings.
+# Everything local except HANDOFF.md, which stays tracked as the operational doc.
+call-data/*
+!call-data/HANDOFF.md
 test_recording.*
 geodata/
