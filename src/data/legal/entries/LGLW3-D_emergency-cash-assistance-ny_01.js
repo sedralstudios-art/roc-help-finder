@@ -40,12 +40,12 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
   legalOptions: {
     en: [
       "Every county DSS office in New York takes emergency applications (NY Social Services Law; federal TANF rules).",
-      "Apply in person at the DSS office. You cannot do an emergency application fully online.",
+      "Emergency applications are taken in person at the DSS office — the full online pathway is not available for emergency cases.",
       "The state info line is 1-800-342-3009.",
       "For families (EAF): income at or below 200% of the Federal Poverty Level on the date you apply. There is no savings test, but your available money is looked at.",
       "For singles and childless couples (ESNA): income at or below 125% of the Federal Poverty Level. This limit does not apply for fuel or utility emergencies or disasters.",
       "ESNA rent or utility bill help may have to be paid back as a no-interest loan. EAF is usually not paid back.",
-      "To ask for a fair hearing: call 1-800-342-3334, go online at otda.ny.gov, or write to Fair Hearing Section, NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
+      "A fair hearing can be requested at 1-800-342-3334, online at otda.ny.gov, or by mail to Fair Hearing Section, NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
       "Free legal help for emergency help applications and denials: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520)."
     ]
   },

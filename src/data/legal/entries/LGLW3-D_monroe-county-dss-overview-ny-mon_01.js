@@ -45,7 +45,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
       "The after-hours emergency line is (585) 442-1742. The 2-1-1 LIFE LINE for the Finger Lakes region is also available for after-hours referrals.",
       "Online applications for SNAP and Medicaid are available at mybenefits.ny.gov.",
       "The child care assistance application line is (585) 753-6960. A child care eligibility screening calculator is available on the Monroe County website at monroecounty.gov/hs-daycare.",
-      "Email inquiries may be sent to mcdss@monroecounty.gov.",
+      "Email inquiries go to mcdss@monroecounty.gov.",
       "Free legal help with benefits applications, denials, and fair hearings is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 325-2520, and Empire Justice Center at (585) 454-4060."
     ]
   },

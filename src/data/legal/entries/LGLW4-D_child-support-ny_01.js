@@ -37,8 +37,8 @@ export const CHILD_SUPPORT_NY = {
 
   legalOptions: {
     en: [
-      "File in Family Court in the county where the kid lives or where the noncustodial parent lives. No filing fee. Forms at nycourts.gov.",
-      "The state Office of Temporary and Disability Assistance (OTDA) runs the Division of Child Support Services. They help parents set up, change, and enforce orders. Go through your local DSS or visit childsupport.ny.gov.",
+      "A child support case is filed in Family Court in the county where the kid lives or where the noncustodial parent lives. No filing fee. Forms at nycourts.gov.",
+      "The state Office of Temporary and Disability Assistance (OTDA) runs the Division of Child Support Services. The division helps parents set up, change, and enforce orders — entry points are the local DSS and childsupport.ny.gov.",
       "The court uses the CSSA formula on combined income up to the set cap. For income over the cap, the court looks at other factors — the kid's standard of living, each parent's finances, and what the kid actually needs (FCA § 413).",
       "The main enforcement tool is income withholding. The court can order the other parent's employer to take the money straight from their paycheck (FCA § 5241). If the parent is self-employed or ignores the order, the court can use other tools like contempt.",
       "Free legal help: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520).",

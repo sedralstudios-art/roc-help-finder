@@ -39,14 +39,14 @@ export const LICENSE_SUSPENSION_NY = {
 
   legalOptions: {
     en: [
-      "Get your DMV driving abstract online at dmv.ny.gov or at a DMV office. Small fee (around $10 as of April 2026 — confirm current cost at dmv.ny.gov). This tells you every open suspension and why.",
-      "For unpaid traffic tickets: call the court or Traffic Violations Bureau (TVB) that issued the ticket and ask about a payment plan. Under the 2021 law, you can't be denied a plan just because you're low-income.",
-      "For unpaid child support: contact the Support Collection Unit — paying part of what's owed or entering a plan usually lifts the hold.",
-      "For a DWI or chemical test refusal: request a hearing right away (the deadline is short). You may be eligible for a conditional license after 30 days if you enroll in the Drinking Driver Program.",
-      "For insurance lapses: get a new SR-22 insurance policy and send proof to the DMV. Pay the civil penalty set by VTL § 318 — currently about $8 per day for up to 90 days (confirm current rate at dmv.ny.gov).",
-      "For points: complete an approved Point and Insurance Reduction Program (PIRP) — it takes 4 points off your record.",
+      "The starting point is usually a DMV driving abstract, available online at dmv.ny.gov or at a DMV office. Small fee (around $10 as of April 2026 — current cost is posted at dmv.ny.gov). The abstract lists every open suspension and why.",
+      "For unpaid traffic tickets: the court or Traffic Violations Bureau (TVB) that issued the ticket is the right office for a payment plan. Under the 2021 law, a plan can't be denied just because the driver is low-income.",
+      "For unpaid child support: the Support Collection Unit is the office that handles holds — paying part of what's owed or entering a plan usually lifts the suspension.",
+      "For a DWI or chemical-test refusal: a hearing can be requested, and the deadline is short. A conditional license may become available after 30 days for drivers enrolled in the Drinking Driver Program.",
+      "For insurance lapses: a new SR-22 insurance policy with proof sent to the DMV is the usual path to reinstatement. The civil penalty set by VTL § 318 is currently about $8 per day for up to 90 days (current rate at dmv.ny.gov).",
+      "For points: completing an approved Point and Insurance Reduction Program (PIRP) takes 4 points off the record.",
       "Free legal help with license suspension in Monroe County: Legal Aid Society of Rochester (lasroc.org), LawNY (lawny.org), and the Monroe County Bar Association referral service (mcba.org). See counsel list below for intake details.",
-      "If you're charged with Aggravated Unlicensed Operation (driving while suspended), you have a right to a court-appointed lawyer. Ask for a public defender at your first court date."
+      "On an Aggravated Unlicensed Operation charge (driving while suspended), the right to a court-appointed lawyer kicks in — a public defender is assigned at the first court date on request."
     ]
   },
 

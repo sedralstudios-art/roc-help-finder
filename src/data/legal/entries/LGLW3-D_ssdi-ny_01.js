@@ -42,7 +42,7 @@ export const SSDI_NY = {
   legalOptions: {
     en: [
       "You can apply online at ssa.gov/disability, by phone at 1-800-772-1213 (TTY 1-800-325-0778), or in person at any Social Security office (42 U.S.C. § 423).",
-      "Make a my Social Security account at ssa.gov to see your estimated check and work history.",
+      "A free my Social Security account at ssa.gov shows estimated check amounts and work history.",
       "In New York, the state's Disability Determinations Division decides whether you meet the disability rules, working for Social Security.",
       "If you are denied, you have 60 days to ask for a second look (reconsideration). If that's denied, you have 60 days to ask for a hearing with a judge.",
       "Many disability lawyers work on \"contingency.\" That means they only get paid if you win, and their fee comes out of your back pay. Federal law caps the fee.",

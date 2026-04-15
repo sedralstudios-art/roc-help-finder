@@ -39,10 +39,10 @@ export const PROPERTY_TAX_GRIEVANCE_NY = {
 
   legalOptions: {
     en: [
-      "Form RP-524 is the grievance form. Get it from your town assessor or the Department of Taxation and Finance at tax.ny.gov.",
-      "File with your town assessor on or before Grievance Day (the 4th Tuesday of May in most places). Late filings are not accepted.",
-      "Small Claims Assessment Review (SCAR) for residential property. File Form RP-524-SCAR with the County Clerk within 30 days of the final assessment roll (usually late July). $30 filing fee (RPTL § 730).",
-      "Article 7 court case (RPTL Article 7). File in state Supreme Court. Deadline is 30 days after the final assessment roll. Lawyer strongly recommended.",
+      "Form RP-524 is the grievance form. It is available from the town assessor or from the Department of Taxation and Finance at tax.ny.gov.",
+      "Grievances are filed with the town assessor on or before Grievance Day (the 4th Tuesday of May in most places). Late filings are not accepted.",
+      "Small Claims Assessment Review (SCAR) is the path for residential property. The form (RP-524-SCAR) goes to the County Clerk within 30 days of the final assessment roll (usually late July). $30 filing fee (RPTL § 730).",
+      "An Article 7 court case (RPTL Article 7) is an alternative path, filed in state Supreme Court within 30 days of the final assessment roll. A lawyer is strongly recommended for this route.",
       "Your town assessor is the first person to talk to. Many assessors will review your assessment informally before Grievance Day and lower it if your case is strong.",
       "NY State Office of Real Property Tax Services (ORPTS) publishes guides and forms at tax.ny.gov/pit/property/default.htm.",
       "Free legal help with property tax issues in Monroe County: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520). Some commercial tax firms take residential SCAR cases on contingency — they only get paid if you win.",

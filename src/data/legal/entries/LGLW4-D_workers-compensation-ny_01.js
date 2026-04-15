@@ -39,13 +39,13 @@ export const WORKERS_COMPENSATION_NY = {
 
   legalOptions: {
     en: [
-      "Report the injury to your employer within 30 days. Keep a copy of what you reported and when.",
-      "Get medical care from a Workers' Compensation Board authorized provider. The WCB list is at wcb.ny.gov/bsearch/.",
-      "File Form C-3 (Employee Claim) with the WCB within 2 years. File online at wcb.ny.gov, by mail, or in person.",
-      "If your boss doesn't have workers' comp insurance, you can still get benefits through the Uninsured Employers Fund. File with the WCB the same way.",
-      "If your claim is denied, you can ask for a hearing. A judge will hear both sides. You can bring a lawyer.",
-      "If you lose the hearing, you can appeal to a 3-judge panel at the WCB, and then to the state courts.",
-      "Call the WCB Advocate for Injured Workers at 1-800-580-6665 for help without a lawyer.",
+      "The first step in most workers' comp cases is reporting the injury to the employer within 30 days. Keeping a copy of what was reported and when protects the worker if the employer later disputes the date.",
+      "Medical care for a workers' comp injury goes through a Workers' Compensation Board authorized provider. The WCB list is at wcb.ny.gov/bsearch/.",
+      "The claim itself is Form C-3 (Employee Claim), filed with the WCB within 2 years. It can be submitted online at wcb.ny.gov, by mail, or in person.",
+      "If the employer doesn't carry workers' comp insurance, benefits are still available through the Uninsured Employers Fund — the filing path is the same.",
+      "If a claim is denied, a hearing can be requested. A judge hears both sides, and the injured worker can bring a lawyer.",
+      "If the hearing goes against the worker, the appeal path runs first to a 3-judge panel at the WCB, then to the state courts.",
+      "The WCB Advocate for Injured Workers (1-800-580-6665) is a free resource for workers without a lawyer.",
       "Free legal help with workers' comp in Monroe County: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520). Many workers' comp lawyers take cases on contingency — no money out of pocket."
     ]
   },

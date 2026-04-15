@@ -39,13 +39,13 @@ export const FOIL_NY = {
 
   legalOptions: {
     en: [
-      "Find the agency's Records Access Officer (RAO). Every agency has to name one. Look on the agency website for 'FOIL' or 'Records Access'.",
-      "Send a written request. Email, fax, mail, or online form all count. Describe the records you want as specifically as you can (dates, names, subject matter).",
-      "Keep a copy of your request and the date you sent it. Start a 5-business-day clock.",
-      "If you don't hear back in 5 business days, or the response is just a stall, you can treat that as a denial and appeal.",
-      "If you get a denial, file a written appeal to the agency's FOIL appeals officer within 30 days. The agency has 10 business days to decide.",
-      "If the appeal is denied, you can file an Article 78 petition in State Supreme Court within 4 months. Filing fee is around $210 as of April 2026 (confirm at nycourts.gov before filing).",
-      "Free help understanding FOIL: NY Committee on Open Government (opengovernment.ny.gov) gives free written advisory opinions.",
+      "The first step in a FOIL request is usually identifying the agency's Records Access Officer (RAO). Every agency has to name one, and most list theirs on the agency website under 'FOIL' or 'Records Access'.",
+      "A FOIL request is submitted in writing. Email, fax, mail, or online form all count. The more specifically the records are described (dates, names, subject matter), the harder it is for the agency to punt on vagueness.",
+      "Keeping a copy of the request and the date it was sent starts the 5-business-day clock the agency is working against.",
+      "If the agency doesn't respond in 5 business days, or the response is just a stall, the requester can treat that as a denial and move to appeal.",
+      "On a denial, one path is a written appeal to the agency's FOIL appeals officer within 30 days. The agency has 10 business days to decide.",
+      "If the appeal is also denied, an Article 78 petition can be filed in State Supreme Court within 4 months. Filing fee is around $210 as of April 2026 (current cost is posted at nycourts.gov).",
+      "Free help understanding FOIL is available from the NY Committee on Open Government (opengovernment.ny.gov), which issues free written advisory opinions.",
       "Free legal help with FOIL lawsuits in Monroe County: LawNY (lawny.org) for low-income residents, or the Reporters Committee for Freedom of the Press (rcfp.org) for journalists. See counsel list below for intake details."
     ]
   },
