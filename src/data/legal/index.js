@@ -46,9 +46,14 @@ for (const entry of rawEntries) {
   }
 }
 
+const TIER_PRIORITY = { federal: 0, state: 1, county: 2, city: 3, town: 4, village: 5 };
+
 export const LEGAL_ENTRIES = rawEntries.sort((a, b) => {
   const catCmp = (a.category || '').localeCompare(b.category || '');
   if (catCmp !== 0) return catCmp;
+  const tierA = TIER_PRIORITY[a.tier] ?? 99;
+  const tierB = TIER_PRIORITY[b.tier] ?? 99;
+  if (tierA !== tierB) return tierA - tierB;
   return (a.title?.en || '').localeCompare(b.title?.en || '');
 });
 
