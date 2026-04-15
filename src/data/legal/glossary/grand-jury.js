@@ -20,7 +20,7 @@ export const GRAND_JURY = {
   whatToAsk: {
     en: [
       "Is my case going to a grand jury? When?",
-      "Should I testify? (Ask your lawyer — the right answer depends on your case.)",
+      "Should I testify?",
       "Can I see what the prosecutor will show them?",
       "What happens if they do not indict me?"
     ]

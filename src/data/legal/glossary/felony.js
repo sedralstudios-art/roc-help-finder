@@ -18,7 +18,7 @@ export const FELONY = {
 
   whatToAsk: {
     en: [
-      "What class of felony is this? (A, B, C, D, or E — A is worst.)",
+      "What class of felony is this?",
       "Is it a violent felony? Those have stricter rules.",
       "What is the longest sentence possible?",
       "Does my case have to go to a grand jury? When?",

@@ -18,7 +18,7 @@ export const VIOLATION = {
 
   whatToAsk: {
     en: [
-      "Is this a violation or a crime? (Violations are not crimes.)",
+      "Is this a violation or a crime?",
       "Will this show up on background checks?",
       "What is the most jail time possible — if any?",
       "Will the record be sealed?"

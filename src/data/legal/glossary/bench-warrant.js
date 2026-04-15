@@ -18,7 +18,7 @@ export const BENCH_WARRANT = {
 
   whatToAsk: {
     en: [
-      "Is there already a warrant in my name? (A lawyer or the court clerk can check.)",
+      "Is there already a warrant in my name?",
       "Can I go to court to clear it on my own, or do I need to turn myself in?",
       "Will I be held in jail once I show up, or can I be released again?",
       "If police stop me, what should I say?"

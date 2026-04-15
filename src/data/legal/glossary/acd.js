@@ -19,7 +19,7 @@ export const ACD = {
 
   whatToAsk: {
     en: [
-      "When exactly does the ACD end? Write the date down.",
+      "When exactly does the ACD end?",
       "What counts as 'staying out of trouble'? Any new arrest? Any new ticket?",
       "Will my record be sealed automatically, or do I need to do anything?",
       "If I get arrested again during the ACD, what happens to this case?"

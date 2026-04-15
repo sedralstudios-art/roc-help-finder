@@ -22,7 +22,7 @@ export const PUBLIC_DEFENDER = {
 
   whatToAsk: {
     en: [
-      "Can I have a free lawyer? (Always say yes if you do not have one.)",
+      "Can I have a free lawyer?",
       "Will the same lawyer stay with me for the whole case?",
       "How do I reach my lawyer between court dates?",
       "If I disagree with my assigned lawyer, what can I do?"

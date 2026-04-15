@@ -19,7 +19,7 @@ export const INDICTMENT = {
 
   whatToAsk: {
     en: [
-      "What exactly am I indicted for? (The indictment lists each count.)",
+      "What exactly am I indicted for?",
       "When is my arraignment on the indictment?",
       "Can my lawyer file a motion to dismiss the indictment?",
       "Can the prosecutor add charges later?"

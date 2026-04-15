@@ -20,7 +20,7 @@ export const PLEA = {
 
   whatToAsk: {
     en: [
-      "What exactly am I pleading to? Get the final charge in writing.",
+      "What exactly am I pleading to?",
       "What is the full sentence — jail, fine, probation, conditions?",
       "Will this stay on my record? Can it be sealed later?",
       "Does this affect my job, license, housing, or immigration status?",

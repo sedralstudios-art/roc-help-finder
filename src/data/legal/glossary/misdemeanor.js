@@ -19,7 +19,7 @@ export const MISDEMEANOR = {
   whatToAsk: {
     en: [
       "Is this a misdemeanor or a felony?",
-      "Class A or Class B? (Class A is more serious.)",
+      "Class A or Class B?",
       "What is the longest time I could go to jail for this?",
       "Will this stay on my record? Can it be sealed later?"
     ]

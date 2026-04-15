@@ -19,7 +19,7 @@ export const SENTENCE = {
 
   whatToAsk: {
     en: [
-      "Exactly what does my sentence include? (All of it — jail, fine, fees, conditions.)",
+      "Exactly what does my sentence include?",
       "When does each part start and end?",
       "Are there any extra consequences for this type of case?",
       "Can I get a copy of the sentence in writing?",

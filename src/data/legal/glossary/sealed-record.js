@@ -24,7 +24,7 @@ export const SEALED_RECORD = {
       "Will my case be sealed on its own, or do I need to apply?",
       "How long do I have to wait before I can apply?",
       "Who can still see the sealed record, and when?",
-      "Do I need a lawyer to seal it? (Free legal aid can often help.)"
+      "Do I need a lawyer to seal it?"
     ]
   },
 

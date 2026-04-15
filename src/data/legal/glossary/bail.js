@@ -22,7 +22,7 @@ export const BAIL = {
 
   whatToAsk: {
     en: [
-      "Is there any way to be released without paying money? (Ask about release on your own recognizance or supervised release.)",
+      "Is there any way to be released without paying money?",
       "Can a family member post a bond instead of paying cash?",
       "What happens to the money if the case is dropped or I win?",
       "Exactly where and how do I post the bail?"

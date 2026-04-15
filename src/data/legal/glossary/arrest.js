@@ -20,8 +20,8 @@ export const ARREST = {
   whatToAsk: {
     en: [
       "What am I being arrested for?",
-      "Am I free to go, or am I in custody? (You can ask this any time.)",
-      "Can I have a lawyer? (You have the right to stay quiet until one is there.)",
+      "Am I free to go, or am I in custody?",
+      "Can I have a lawyer?",
       "When will I see a judge?",
       "Can I call someone?"
     ]

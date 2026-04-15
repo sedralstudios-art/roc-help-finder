@@ -20,9 +20,9 @@ export const ARRAIGNMENT = {
   whatToAsk: {
     en: [
       "What exactly am I charged with? Is it a misdemeanor or a felony?",
-      "Can I get a free lawyer? (Say yes even if you are not sure — you can always hire your own later.)",
+      "Can I get a free lawyer?",
       "Will I be released today? On what conditions?",
-      "When is my next court date? Write it down before you leave."
+      "When is my next court date?"
     ]
   },
 

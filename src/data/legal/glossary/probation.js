@@ -22,7 +22,7 @@ export const PROBATION = {
   whatToAsk: {
     en: [
       "How long is my probation?",
-      "What are my exact rules? Get a written copy and keep it.",
+      "What are my exact rules?",
       "Who is my probation officer and how do I reach them?",
       "What happens if I miss a check-in for a real reason?",
       "If I finish clean, will my record be sealed?"

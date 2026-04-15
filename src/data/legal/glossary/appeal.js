@@ -20,7 +20,7 @@ export const APPEAL = {
 
   whatToAsk: {
     en: [
-      "Can I appeal this? (Not every case can be appealed — ask fast.)",
+      "Can I appeal this?",
       "Did I give up my right to appeal as part of my plea?",
       "Where do I file the Notice of Appeal, and by what date?",
       "Can I get a free appeal lawyer?",

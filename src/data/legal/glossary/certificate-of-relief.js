@@ -20,7 +20,7 @@ export const CERTIFICATE_OF_RELIEF = {
 
   whatToAsk: {
     en: [
-      "Am I eligible? (Most people with NY convictions are, unless the top charge was a class A felony or certain repeat felonies.)",
+      "Am I eligible?",
       "Should I apply at sentencing, or wait?",
       "What specific 'disability' is blocking my job or license?",
       "Is there free help filling out the application?",

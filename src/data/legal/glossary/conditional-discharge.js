@@ -20,7 +20,7 @@ export const CONDITIONAL_DISCHARGE = {
 
   whatToAsk: {
     en: [
-      "Exactly what conditions do I have to follow? Get the list in writing.",
+      "Exactly what conditions do I have to follow?",
       "How long does the CD last?",
       "If I get a ticket or a new arrest, what happens?",
       "Is my record sealed when the CD ends clean?",
