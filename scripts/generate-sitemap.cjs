@@ -203,6 +203,37 @@ async function main() {
     writtenFiles.push(filename);
   }
 
+  // 3b. sitemap-glossary.xml — glossary index + categories + per-term (English only v1)
+  const glossaryDir = path.join(ROOT, 'src', 'data', 'legal', 'glossary');
+  const glossaryTerms = [];
+  if (fs.existsSync(glossaryDir)) {
+    const gFiles = fs.readdirSync(glossaryDir).filter((f) => f.endsWith('.js'));
+    for (const f of gFiles) {
+      const abs = path.join(glossaryDir, f);
+      const mod = await import(pathToFileURL(abs).href);
+      const val = Object.values(mod)[0];
+      if (val && val.id) glossaryTerms.push(val);
+    }
+  }
+  if (glossaryTerms.length > 0) {
+    let glossaryXml = '';
+    glossaryXml += buildUrlBlock(SITE_URL + '/glossary', today, 'weekly', '0.85', null);
+    totalUrls++;
+    const gCats = [...new Set(glossaryTerms.map((t) => t.category || 'general'))].sort();
+    for (const cat of gCats) {
+      glossaryXml += buildUrlBlock(SITE_URL + '/glossary/category/' + cat, today, 'weekly', '0.8', null);
+      totalUrls++;
+    }
+    for (const t of glossaryTerms) {
+      const lastmod = t.lastVerified || today;
+      glossaryXml += buildUrlBlock(SITE_URL + '/glossary/' + t.id, lastmod, 'monthly', '0.75', null);
+      totalUrls++;
+    }
+    writeSubsitemap('sitemap-glossary.xml', glossaryXml);
+    writtenFiles.push('sitemap-glossary.xml');
+    console.log('\u2713 Wrote sitemap-glossary.xml (' + (1 + gCats.length + glossaryTerms.length) + ' URLs)');
+  }
+
   // 4. sitemap.xml — the INDEX pointing to all sub-sitemaps
   let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
