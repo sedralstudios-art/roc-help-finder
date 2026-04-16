@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { LegalLibraryCategories, LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
 import { GlossaryCategories, GlossaryBrowse, GlossaryTerm } from "./Glossary";
+import UnifiedSearch from "./Search";
 import ShareButton from "./ShareButton";
 import { resolveJurisdiction } from "../utils/resolveJurisdiction.js";
 
@@ -12,7 +13,7 @@ import { resolveJurisdiction } from "../utils/resolveJurisdiction.js";
 // Brand: HF (product) / SS (studio)
 // ═══════════════════════════════════════════════════
 
-const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6, LEGAL_CATEGORY: 7, GLOSSARY: 8, GLOSSARY_TERM: 9, GLOSSARY_CATEGORY: 10 };
+const PAGES = { HOME: 0, ABOUT: 1, PRIVACY: 2, TERMS: 3, SUPPORT: 4, LEGAL_LIBRARY: 5, LEGAL_ENTRY: 6, LEGAL_CATEGORY: 7, GLOSSARY: 8, GLOSSARY_TERM: 9, GLOSSARY_CATEGORY: 10, SEARCH: 11 };
 
 // URL <-> page mapping for history-based routing
 const PAGE_PATHS = {
@@ -23,6 +24,7 @@ const PAGE_PATHS = {
   [PAGES.TERMS]: "/terms",
   [PAGES.LEGAL_LIBRARY]: "/know-your-rights",
   [PAGES.GLOSSARY]: "/glossary",
+  [PAGES.SEARCH]: "/search",
 };
 
 const PATH_TO_PAGE = {
@@ -33,6 +35,7 @@ const PATH_TO_PAGE = {
   "/terms": PAGES.TERMS,
   "/know-your-rights": PAGES.LEGAL_LIBRARY,
   "/glossary": PAGES.GLOSSARY,
+  "/search": PAGES.SEARCH,
 };
 
 // Parse current browser pathname → { page, entryId | null, categoryId | null }
@@ -1147,6 +1150,16 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         />
       )}
 
+      {/* ═══════════════════ UNIFIED SEARCH ═══════════════════ */}
+      {page === PAGES.SEARCH && (
+        <UnifiedSearch
+          programs={[]}
+          onOpenEntry={openEntry}
+          onOpenGlossaryTerm={openGlossaryTerm}
+          onBack={() => nav(PAGES.HOME)}
+        />
+      )}
+
       {/* ═══════════════════ LEGAL GLOSSARY (term detail) ═══════════════════ */}
       {page === PAGES.GLOSSARY_TERM && (
         <GlossaryTerm
@@ -1172,6 +1185,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <button className="hf-nav-link" onClick={() => nav(PAGES.TERMS)} style={{ fontSize: 12 }}>{t(lang,"navTerms")}</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.LEGAL_LIBRARY)} style={{ fontSize: 12 }}>Know Your Rights</button>
             <button className="hf-nav-link" onClick={() => nav(PAGES.GLOSSARY)} style={{ fontSize: 12 }}>Legal Glossary</button>
+            <button className="hf-nav-link" onClick={() => nav(PAGES.SEARCH)} style={{ fontSize: 12 }}>Search</button>
             <a href="mailto:hello@helpfinder.help" className="hf-nav-link" style={{ fontSize: 12, textDecoration: "none", color: C.stone }}>{t(lang,"navContact")}</a>
           </div>
           <div style={{ fontSize: 11, color: C.dust, lineHeight: 1.6 }}>
