@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import LandingPage from "./components/LandingPage.jsx";
 import HelpFinder from "./components/HelpFinder.jsx";
+import QuickExit from "./components/QuickExit.jsx";
 
 // HELPFINDER.HELP — App Router
 // One purpose. One product. Free help, everywhere.
@@ -46,6 +47,6 @@ export default function App() {
     window.scrollTo(0, 0);
   };
 
-  if (view === VIEWS.HELP) return <HelpFinder onExit={goHome} city={city} jurisdictions={jurisdictions} />;
-  return <LandingPage onNavigateHelp={goToHelp} onLangChange={setLang} onCityDetected={setCity} onJurisdictionsDetected={setJurisdictions} />;
+  if (view === VIEWS.HELP) return (<><QuickExit lang={lang} /><HelpFinder onExit={goHome} city={city} jurisdictions={jurisdictions} /></>);
+  return (<><QuickExit lang={lang} /><LandingPage onNavigateHelp={goToHelp} onLangChange={setLang} onCityDetected={setCity} onJurisdictionsDetected={setJurisdictions} /></>);
 }

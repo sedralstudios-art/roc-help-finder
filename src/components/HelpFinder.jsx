@@ -1496,7 +1496,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
           body { background: #fff !important; }
         }
       `}</style>
-      {showDVExit && <QuickExit lang={lang} />}
+      {/* Quick Exit is now site-wide via App.jsx — no longer rendered here */}
 
       {/* HEADER */}
       <div style={{
