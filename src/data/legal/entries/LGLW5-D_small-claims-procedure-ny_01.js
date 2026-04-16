@@ -35,10 +35,10 @@ export const SMALL_CLAIMS_PROCEDURE_NY = {
 
   legalOptions: {
     en: [
-      "Visit the clerk's office of the city, town, or village court where the other party lives or works. In Monroe County, Rochester City Court Small Claims is at the Hall of Justice, 99 Exchange Blvd, Rochester NY 14614. Phone: (585) 428-2444.",
-      "Bring identification, the other party's name and address, and a brief description of what happened and how much you are owed. The clerk will help you fill out the form.",
-      "Filing fees: typically $10-$20 depending on the court and the amount claimed. An additional fee may apply for service by mail or in person.",
-      "At the hearing, bring ALL evidence: contracts, receipts, invoices, photos, texts, emails, and any witnesses. Organize it clearly — the judge sees many cases in one session.",
+      "The clerk's office of the city, town, or village court where the other party lives or works is where claims are filed. In Monroe County, Rochester City Court Small Claims is at the Hall of Justice, 99 Exchange Blvd, Rochester NY 14614. Phone: (585) 428-2444.",
+      "Identification, the other party's name and address, and a brief description of what happened and how much is owed may be needed. The clerk will help fill out the form.",
+      "Filing fees: typically $10-$20 (check the court clerk for current fees) depending on the court and the amount claimed. An additional fee may apply for service by mail or in person.",
+      "At the hearing, it is recommended to bring ALL evidence: contracts, receipts, invoices, photos, texts, emails, and any witnesses. Organizing it clearly helps — the judge sees many cases in one session.",
       "If you win and the other party does not pay, you can use CPLR Article 52 enforcement tools: income execution (garnishment), bank account restraint, or property execution. The court clerk or a free legal aid organization can explain the process."
     ]
   },

@@ -35,11 +35,11 @@ export const ILLEGAL_LOCKOUT_NY = {
 
   legalOptions: {
     en: [
-      "Call 911 or the local police non-emergency line immediately. Explain that you are a tenant and have been illegally locked out. In Rochester, the non-emergency line is (585) 428-6666.",
-      "Contact Legal Aid Society of Rochester at (585) 232-4090 or LawNY at (585) 295-5700 for emergency legal help.",
-      "File an illegal lockout proceeding in housing court (or city court, depending on jurisdiction) to be restored to possession.",
+      "Calling 911 or the local police non-emergency line is recommended if you have been illegally locked out. Explain that you are a tenant and have been illegally locked out. In Rochester, the non-emergency line is (585) 428-6666.",
+      "Emergency legal help is available through Legal Aid Society of Rochester at (585) 232-4090 or LawNY at (585) 295-5700.",
+      "An illegal lockout proceeding can be filed in housing court (or city court, depending on jurisdiction) to be restored to possession.",
       "Under RPAPL § 768, the landlord can be charged with a misdemeanor for an unlawful eviction.",
-      "Document everything: photos of changed locks, screenshots of texts or messages, witness names, and a timeline of events."
+      "It is recommended to document everything: photos of changed locks, screenshots of texts or messages, witness names, and a timeline of events."
     ]
   },
 

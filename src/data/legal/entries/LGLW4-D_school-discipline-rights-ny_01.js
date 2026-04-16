@@ -37,9 +37,9 @@ export const SCHOOL_DISCIPLINE_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "Request the informal conference or formal hearing in writing — the school must provide it.",
-      "Contact the Empire Justice Center at (585) 454-4060 for free legal help with school discipline issues.",
-      "Contact Legal Aid Society of Rochester at (585) 232-4090 for advocacy and representation at hearings.",
+      "An informal conference or formal hearing can be requested in writing — the school must provide it.",
+      "Free legal help with school discipline issues is available through the Empire Justice Center at (585) 454-4060.",
+      "Advocacy and representation at hearings is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "For students with IEPs: contact the parent's rights hotline at your district's Committee on Special Education (CSE), or call the NY State Education Department at (518) 473-4818.",
       "Under Education Law § 3214(3)(c), the decision from a Superintendent's Hearing can be appealed to the Board of Education within 30 days, and from there to the Commissioner of Education under Education Law § 310."
     ]

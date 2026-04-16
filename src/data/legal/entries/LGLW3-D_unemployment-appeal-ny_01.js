@@ -37,8 +37,8 @@ export const UNEMPLOYMENT_APPEAL_NY = {
 
   legalOptions: {
     en: [
-      "File the appeal online at dol.ny.gov, by fax, or by mail. The determination letter includes instructions and the deadline. Do not miss the 30-day window — late appeals are almost never accepted.",
-      "Prepare for the hearing: gather pay stubs, termination letters, emails, texts, doctor's notes, or any other evidence that supports your side. Write a brief timeline of events.",
+      "The appeal can be filed online at dol.ny.gov, by fax, or by mail. The determination letter includes instructions and the deadline. Missing the 30-day window is strongly discouraged — late appeals are almost never accepted.",
+      "To prepare for the hearing, it is recommended to gather pay stubs, termination letters, emails, texts, doctor's notes, or any other evidence that supports your side, and write a brief timeline of events.",
       "At the hearing, the ALJ will explain the process. You will be sworn in. Both sides present their case. Be specific and factual — the ALJ wants to know what happened, not opinions.",
       "Free legal help for unemployment appeals is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 295-5700. Some legal aid organizations have dedicated unemployment appeal programs.",
       "If you won at the initial level but the employer appeals, you also have the right to participate in the hearing and defend your award."

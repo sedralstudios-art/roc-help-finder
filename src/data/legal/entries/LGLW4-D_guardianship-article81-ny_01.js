@@ -39,7 +39,7 @@ export const GUARDIANSHIP_ARTICLE81_NY = {
       "Before filing for guardianship, consider whether a Power of Attorney (General Obligations Law Article 5) or Health Care Proxy (Public Health Law Article 29-C) would address the need without court involvement. See the POA/Healthcare Proxy entry in this library.",
       "To file an Article 81 petition, contact the Supreme Court Clerk in the county where the person lives. In Monroe County: Supreme Court, Hall of Justice, 99 Exchange Blvd, Rochester NY 14614.",
       "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 295-5700, and Eldersource at (585) 325-2800 (for aging-related cases).",
-      "The filing fee is $210 plus additional fees for the court evaluator. Fee waivers are available for low-income petitioners.",
+      "The filing fee is $210 (check nycourts.gov for current fees) plus additional fees for the court evaluator. Fee waivers are available for low-income petitioners.",
       "Under Mental Hygiene Law § 81.16, the court evaluator investigates and files a report with recommendations. The petitioner and the AIP both have the right to contest the report."
     ]
   },

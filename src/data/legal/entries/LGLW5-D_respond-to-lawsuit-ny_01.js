@@ -35,8 +35,8 @@ export const RESPOND_TO_LAWSUIT_NY = {
 
   legalOptions: {
     en: [
-      "READ THE SUMMONS CAREFULLY. Note the deadline. Count the days from the date you were served.",
-      "Contact Legal Aid Society of Rochester at (585) 232-4090 immediately. They can help you draft an answer.",
+      "Reading the summons carefully is critical. Note the deadline. Count the days from the date you were served.",
+      "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090. They can help draft an answer.",
       "If you cannot get a lawyer in time, you can file a simple answer yourself: deny the claims, state any defenses you have, and file it with the court clerk before the deadline. The clerk can tell you where to file.",
       "Common defenses: statute of limitations expired (3 years for consumer credit debt under CPLR § 214-i), wrong person, wrong amount, debt already paid, improper service.",
       "After filing an answer, the case moves to discovery and possible settlement. Most civil cases settle before trial."

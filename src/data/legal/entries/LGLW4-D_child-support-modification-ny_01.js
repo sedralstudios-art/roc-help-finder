@@ -36,10 +36,10 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
 
   legalOptions: {
     en: [
-      "File a modification petition at the Family Court in the county where the original order was issued, or where either parent lives. In Monroe County: Family Court, Hall of Justice, 99 Exchange Blvd, Rochester NY 14614.",
-      "You can file through the Monroe County Support Collection Unit (SCU) at (585) 753-6011, which handles enforcement and can help with modification paperwork.",
+      "A modification petition can be filed at the Family Court in the county where the original order was issued, or where either parent lives. In Monroe County: Family Court, Hall of Justice, 99 Exchange Blvd, Rochester NY 14614.",
+      "The petition can also be filed through the Monroe County Support Collection Unit (SCU) at (585) 753-6011, which handles enforcement and can help with modification paperwork.",
       "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 295-5700.",
-      "Bring proof of your current income (pay stubs, tax returns, unemployment records), proof of the change (termination letter, medical records, new child's birth certificate), and a copy of the existing order.",
+      "Proof of current income (pay stubs, tax returns, unemployment records), proof of the change (termination letter, medical records, new child's birth certificate), and a copy of the existing order may be needed.",
       "Under Family Court Act § 451 and Domestic Relations Law § 236-B(9)(b), the court must apply the CSSA guidelines to current income and can only deviate for specific reasons."
     ]
   },

@@ -37,9 +37,9 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
 
   legalOptions: {
     en: [
-      "Document everything: take photos, keep copies of written complaints to the landlord, and save any response or lack of response.",
-      "File a code enforcement complaint with the City of Rochester (for city residents) at 311 or the relevant town/village building department. An inspector will visit and can order the landlord to make repairs.",
-      "Contact Legal Aid Society of Rochester at (585) 232-4090 or LawNY at (585) 295-5700 for free legal advice on how to compel repairs or seek a rent abatement.",
+      "It is recommended to document everything: take photos, keep copies of written complaints to the landlord, and save any response or lack of response.",
+      "A code enforcement complaint can be filed with the City of Rochester (for city residents) at 311 or the relevant town/village building department. An inspector will visit and can order the landlord to make repairs.",
+      "Free legal advice on how to compel repairs or seek a rent abatement is available through Legal Aid Society of Rochester at (585) 232-4090 or LawNY at (585) 295-5700.",
       "If you are being sued for nonpayment, raise the habitability conditions as an affirmative defense in your answer. The court can reduce the rent owed based on the severity of the problem.",
       "Under Real Property Law § 223-b, if the landlord retaliates within one year of a complaint, the burden shifts to the landlord to prove they had a non-retaliatory reason."
     ]

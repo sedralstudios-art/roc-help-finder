@@ -36,11 +36,11 @@ export const WORKPLACE_SAFETY_NY = {
 
   legalOptions: {
     en: [
-      "Report unsafe conditions to federal OSHA at 1-800-321-OSHA (6742) or online at osha.gov/workers/file-complaint.",
+      "Unsafe conditions can be reported to federal OSHA at 1-800-321-OSHA (6742) or online at osha.gov/workers/file-complaint.",
       "For public employees, report to NY PESH at (518) 457-1263.",
       "If your employer retaliates, file a complaint under OSHA Section 11(c) within 30 days or under NY Labor Law § 740 within 2 years.",
       "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "Document everything: photos of hazards, dates, witnesses, any communication with your employer about the issue."
+      "It is recommended to document everything: photos of hazards, dates, witnesses, any communication with your employer about the issue."
     ]
   },
 

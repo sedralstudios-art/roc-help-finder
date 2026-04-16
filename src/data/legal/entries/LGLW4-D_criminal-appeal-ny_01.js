@@ -35,9 +35,9 @@ export const CRIMINAL_APPEAL_NY = {
 
   legalOptions: {
     en: [
-      "File the Notice of Appeal with the clerk of the trial court within 30 days of sentencing. The clerk can provide the form. Serve a copy on the District Attorney.",
+      "The Notice of Appeal must be filed with the clerk of the trial court within 30 days of sentencing. The clerk can provide the form. A copy must be served on the District Attorney.",
       "If you cannot afford a lawyer, the Appellate Division Fourth Department (which covers Monroe County) will assign one from its appellate panel.",
-      "Contact the Monroe County Public Defender at (585) 753-4210 — they can help with the initial Notice of Appeal filing even if appellate counsel will be assigned separately.",
+      "The Monroe County Public Defender at (585) 753-4210 can help with the initial Notice of Appeal filing even if appellate counsel will be assigned separately.",
       "Under CPL § 460.10, the notice must state the court being appealed to and be filed within the 30-day window. Late filings are almost never accepted.",
       "While the appeal is pending, you may be able to request release on bail (CPL § 460.50), though this is granted less often than at the trial level."
     ]

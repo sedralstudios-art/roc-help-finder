@@ -38,11 +38,11 @@ export const UTILITY_SHUTOFF_PROTECTIONS_NY = {
 
   legalOptions: {
     en: [
-      "If shutoff is threatened: call the utility immediately and ask for a Deferred Payment Agreement (DPA). They must offer one.",
-      "Apply for HEAP at mybenefits.ny.gov or at Monroe County DSS, (585) 753-6960. Emergency HEAP can restore service that has already been shut off.",
-      "File a complaint with the NY Public Service Commission at askpsc.ny.gov or call 1-800-342-3377. The PSC can intervene and order the utility to restore or maintain service.",
-      "If you are elderly, disabled, or seriously ill: notify the utility in writing. They must extend protections.",
-      "Contact the Legal Aid Society of Rochester at (585) 232-4090 for help negotiating with the utility or filing a PSC complaint.",
+      "If shutoff is threatened, calling the utility to ask for a Deferred Payment Agreement (DPA) is recommended. They must offer one.",
+      "HEAP applications can be submitted at mybenefits.ny.gov or at Monroe County DSS, (585) 753-6960. Emergency HEAP can restore service that has already been shut off.",
+      "A complaint can be filed with the NY Public Service Commission at askpsc.ny.gov or by calling 1-800-342-3377. The PSC can intervene and order the utility to restore or maintain service.",
+      "Customers who are elderly, disabled, or seriously ill can notify the utility in writing. The utility must extend protections.",
+      "Free help negotiating with the utility or filing a PSC complaint is available through the Legal Aid Society of Rochester at (585) 232-4090.",
       "RG&E customer service: (800) 743-2110. National Grid: (800) 642-4272."
     ]
   },

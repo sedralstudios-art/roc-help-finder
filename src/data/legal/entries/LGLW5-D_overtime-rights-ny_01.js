@@ -36,9 +36,9 @@ export const OVERTIME_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "File a wage complaint with the NY Department of Labor at dol.ny.gov or call (888) 469-7365.",
-      "Contact Legal Aid Society of Rochester at (585) 232-4090 for free legal advice on wage claims.",
-      "Keep your own records of hours worked — a notebook, phone notes, or photos of time sheets. These can be used as evidence even if the employer's records are missing.",
+      "A wage complaint can be filed with the NY Department of Labor at dol.ny.gov or by calling (888) 469-7365.",
+      "Free legal advice on wage claims is available through Legal Aid Society of Rochester at (585) 232-4090.",
+      "Keeping personal records of hours worked is recommended — a notebook, phone notes, or photos of time sheets. These can be used as evidence even if the employer's records are missing.",
       "Under Labor Law § 198, you can recover the full unpaid amount plus an equal amount in liquidated damages plus attorney fees. The 6-year statute of limitations applies.",
       "Under Labor Law § 215, your employer cannot retaliate against you for filing a complaint about unpaid overtime."
     ]

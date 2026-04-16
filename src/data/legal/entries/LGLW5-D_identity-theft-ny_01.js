@@ -36,10 +36,10 @@ export const IDENTITY_THEFT_NY = {
 
   legalOptions: {
     en: [
-      "Step 1: File a report at identitytheft.gov — the FTC generates a personalized recovery plan and an Identity Theft Report you can use with creditors and credit bureaus.",
-      "Step 2: File a police report with your local police department. In Rochester, call the non-emergency line at (585) 428-6666. Bring the FTC Identity Theft Report.",
-      "Step 3: Place a security freeze at all three credit bureaus: Equifax (800-685-1111), Experian (888-397-3742), TransUnion (888-909-8872). This is free.",
-      "Step 4: Contact each company where fraudulent accounts were opened and dispute them in writing. Send copies of the police report and FTC report.",
+      "The first step is to file a report at identitytheft.gov — the FTC generates a personalized recovery plan and an Identity Theft Report that can be used with creditors and credit bureaus.",
+      "The second step is to file a police report with the local police department. In Rochester, the non-emergency line is (585) 428-6666. The FTC Identity Theft Report may be needed.",
+      "The third step is to place a security freeze at all three credit bureaus: Equifax (800-685-1111), Experian (888-397-3742), TransUnion (888-909-8872). This is free.",
+      "The fourth step is to contact each company where fraudulent accounts were opened and dispute them in writing, sending copies of the police report and FTC report.",
       "Free legal help: Legal Aid Society of Rochester at (585) 232-4090. The NY Attorney General's Identity Theft Unit can be reached at (800) 771-7755."
     ]
   },

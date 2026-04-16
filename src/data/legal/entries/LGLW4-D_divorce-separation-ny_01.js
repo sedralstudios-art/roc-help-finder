@@ -36,7 +36,7 @@ export const DIVORCE_SEPARATION_NY = {
 
   legalOptions: {
     en: [
-      "Uncontested divorce forms are available from the NYS Unified Court System at nycourts.gov/divorce. The filing fee is $210 plus an index number fee of $210 ($420 total). Fee waivers are available for low-income filers.",
+      "Uncontested divorce forms are available from the NYS Unified Court System at nycourts.gov/divorce. The filing fee is $210 plus an index number fee of $210 ($420 total) (check nycourts.gov for current fees). Fee waivers are available for low-income filers.",
       "For contested divorces, free legal help is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 295-5700, and the Volunteer Legal Services Project (JustCause) at (585) 232-3051.",
       "Mediation is available as an alternative to litigation. The court may refer parties to mediation for custody and visitation disputes.",
       "Under Domestic Relations Law Article 13 (§ 236), marital property is divided equitably. Separate property (owned before the marriage, inherited, or gifted to one spouse) is generally not divided.",
@@ -45,7 +45,7 @@ export const DIVORCE_SEPARATION_NY = {
   },
 
   example: {
-    en: "Maria and her husband have been separated for a year and agree on custody, child support, and splitting their savings account. Maria downloads the uncontested divorce packet from nycourts.gov, fills it out with help from Legal Aid, and files it at Monroe County Supreme Court. The filing fee is $420, but she gets a fee waiver because of her income. The judge signs the divorce judgment without a trial. Total time from filing to final judgment: about three months."
+    en: "Maria and her husband have been separated for a year and agree on custody, child support, and splitting their savings account. Maria downloads the uncontested divorce packet from nycourts.gov, fills it out with help from Legal Aid, and files it at Monroe County Supreme Court. The filing fee is $420 (check nycourts.gov for current fees), but she gets a fee waiver because of her income. The judge signs the divorce judgment without a trial. Total time from filing to final judgment: about three months."
   },
 
   counsel: [
