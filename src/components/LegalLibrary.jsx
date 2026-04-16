@@ -9,6 +9,7 @@ import React from "react";
 
 import { LEGAL_ENTRIES, LEGAL_ENTRIES_BY_ID, LEGAL_ENTRIES_BY_CATEGORY, LEGAL_CATEGORIES } from "../data/legal";
 import { GLOSSARY_TERMS_BY_CATEGORY } from "../data/legal/glossary-index";
+import GlossaryText from "./GlossaryTooltip";
 import { LEGAL_LANGS, RTL_LEGAL_LANGS } from "../data/legal/langs";
 
 const C = {
@@ -349,7 +350,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         <section style={{ marginBottom: 26 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>What it means</h2>
           <p style={{ fontSize: 15, color: C.bark, lineHeight: 1.8, margin: 0, whiteSpace: "pre-wrap" }}>
-            {pickText(entry.whatItMeans, legalLang)}
+            <GlossaryText text={pickText(entry.whatItMeans, legalLang)} maxHighlights={3} />
           </p>
         </section>
       )}
@@ -358,7 +359,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         <section style={{ marginBottom: 26, padding: "18px 22px", background: C.sage, borderRadius: 14, border: "1px solid #c8e6c9" }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.forest }}>Your rights</h2>
           <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 22, paddingRight: isRTL ? 22 : 0, fontSize: 15, color: C.bark, lineHeight: 1.7 }}>
-            {rightsArr.map((item, i) => <li key={i} style={{ marginBottom: 8 }}>{item}</li>)}
+            {rightsArr.map((item, i) => <li key={i} style={{ marginBottom: 8 }}><GlossaryText text={item} maxHighlights={2} /></li>)}
           </ul>
         </section>
       )}
@@ -367,7 +368,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         <section style={{ marginBottom: 26 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>Legal options</h2>
           <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 22, paddingRight: isRTL ? 22 : 0, fontSize: 15, color: C.bark, lineHeight: 1.7 }}>
-            {optionsArr.map((item, i) => <li key={i} style={{ marginBottom: 10 }}>{item}</li>)}
+            {optionsArr.map((item, i) => <li key={i} style={{ marginBottom: 10 }}><GlossaryText text={item} maxHighlights={2} /></li>)}
           </ul>
         </section>
       )}
@@ -376,7 +377,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         <section style={{ marginBottom: 26, padding: "18px 22px", background: C.amberLight, borderRadius: 14, border: "1px solid #f0dab0" }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 400, marginBottom: 10, color: C.bark }}>Example</h2>
           <p style={{ fontSize: 14, color: C.stone, lineHeight: 1.7, margin: 0, fontStyle: "italic" }}>
-            {pickText(entry.example, legalLang)}
+            <GlossaryText text={pickText(entry.example, legalLang)} maxHighlights={2} />
           </p>
         </section>
       )}
