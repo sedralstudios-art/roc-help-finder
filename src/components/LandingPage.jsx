@@ -668,9 +668,12 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
               fontSize: 34, fontWeight: 700, color: C.bark,
               letterSpacing: -1, lineHeight: 1.1, marginBottom: 8,
             }}>HelpFinder</h1>
-            <div style={{ fontSize: 13, color: C.dust, letterSpacing: 0.5 }}>
-              Free help in {city}.
+            <div style={{ fontSize: 14, color: C.dust, letterSpacing: 0.3, fontStyle: "italic" }}>
+              the only <span style={{ fontWeight: 600, color: C.stone }}>.help</span> you need
             </div>
+            {city && city !== "your area" && (
+              <div style={{ fontSize: 12, color: C.dust, marginTop: 4 }}>{city}</div>
+            )}
           </div>
 
           {/* ── ENTER BUTTON ── */}
