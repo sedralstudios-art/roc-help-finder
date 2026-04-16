@@ -34,7 +34,7 @@ export const SNOW_EMERGENCY_ALTERNATE_PARKING_ROC = {
 
   legalOptions: {
     en: [
-      "Sign up for Rochester Snow Emergency Alerts at cityofrochester.gov or by texting ROCSNOW to 468-311. Alerts come by text, email, or phone call.",
+      "Rochester Snow Emergency Alerts are available at cityofrochester.gov or by texting ROCSNOW to 468-311. Alerts come by text, email, or phone call.",
       "If a car is towed during a snow emergency, the city impound lot can be reached at (585) 428-7600. The cost includes the tow fee plus any outstanding tickets plus daily storage.",
       "Parking tickets from snow emergencies can be contested through the Parking Violations Bureau at (585) 428-7600.",
       "For suburban Monroe County parking rules: each town posts winter parking rules on their website or on street signs. Some towns (like Irondequoit and Greece) have their own overnight parking bans during winter months.",
