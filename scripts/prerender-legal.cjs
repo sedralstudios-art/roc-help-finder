@@ -174,6 +174,32 @@ function applyTranslations(entries, translations) {
   }
 }
 
+async function loadGlossaryTerms() {
+  const dir = path.join(ROOT, 'src', 'data', 'legal', 'glossary');
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.js'));
+  const terms = [];
+  for (const f of files) {
+    const abs = path.join(dir, f);
+    const mod = await import(pathToFileURL(abs).href);
+    const val = Object.values(mod)[0];
+    if (val && val.id) terms.push(val);
+  }
+  return terms;
+}
+
+const GLOSSARY_LABELS = {
+  criminal: 'Court & Arrests',
+  housing: 'Housing & Rent',
+  family: 'Family Court',
+  benefits: 'Benefits & Hearings',
+  consumer: 'Debt & Collections',
+  employment: 'Work & Pay',
+  vehicle: 'Driving & Tickets',
+  immigration: 'Immigration',
+  general: 'General Court Words',
+};
+
 async function loadEntries() {
   const files = fs.readdirSync(ENTRIES_DIR).filter((f) => f.endsWith('.js'));
   const entries = [];
@@ -312,6 +338,14 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
       sources.map((s) => '<li><a href="' + esc(s) + '" rel="noopener">' + esc(s) + '</a></li>').join('') +
       '</ul>'
     : '';
+  const gTerms = ((globalThis.GLOSSARY_BY_CAT || {})[entry.category] || []);
+  const commonPhrasesHTML = gTerms.length > 0
+    ? '<a class="common-phrases" href="/glossary/category/' + esc(entry.category) + '" style="display:flex;align-items:center;gap:10px;margin-top:20px;padding:12px 16px;background:#ede7f6;border:1px solid #5e35b1;border-radius:10px;color:#4527a0;font-size:14px;font-weight:600;text-decoration:none;">' +
+      '<span style="font-size:20px;">📖</span>' +
+      '<span style="flex:1;">Common phrases in ' + esc(GLOSSARY_LABELS[entry.category] || entry.category) + ' — ' + gTerms.length + ' words explained</span>' +
+      '<span>→</span>' +
+      '</a>'
+    : '';
 
   const jsonLD = jsonLDSafe({
     '@context': 'https://schema.org',
@@ -389,6 +423,7 @@ ${breadcrumbJsonLD}
         ${exampleHTML}
         ${counselHTML}
         ${sourcesHTML}
+        ${commonPhrasesHTML}
         <div class="disclaimer">⚠️ <strong>Not legal advice.</strong> This guide explains your general rights under New York and federal law. Laws change. For your specific situation, contact one of the free legal aid organizations listed above.</div>
       </article>
     </div>
@@ -573,6 +608,14 @@ async function main() {
 
   const entries = await loadEntries();
   console.log('✓ Loaded ' + entries.length + ' entries');
+
+  const glossaryTerms = await loadGlossaryTerms();
+  globalThis.GLOSSARY_BY_CAT = {};
+  for (const t of glossaryTerms) {
+    const c = t.category || 'general';
+    (globalThis.GLOSSARY_BY_CAT[c] = globalThis.GLOSSARY_BY_CAT[c] || []).push(t);
+  }
+  console.log('✓ Loaded ' + glossaryTerms.length + ' glossary terms for cross-linking');
 
   const translations = await loadTranslations();
   const translatedLangs = Object.keys(translations);

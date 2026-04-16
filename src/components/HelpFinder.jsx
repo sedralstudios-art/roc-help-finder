@@ -1,6 +1,8 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
 import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, applyTownFilter, getUrgencyLevel } from "./HelpFinderQuestions";
 import ShareButton from "./ShareButton";
+import { helpFinderToGlossaryCategory, glossaryCategoryLabel } from "../data/legal/glossary-tag-map";
+import { GLOSSARY_TERMS_BY_CATEGORY } from "../data/legal/glossary-index";
 
 // ─────────────────────────────────────────────
 // mapsHandoff — universal tap-to-navigate (added April 9, 2026)
@@ -2701,6 +2703,29 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
 
             {/* Community groups */}
             <CommunitySection lang={lang} category={category} />
+
+            {/* Common phrases in [topic] — glossary cross-link */}
+            {(() => {
+              const gCat = helpFinderToGlossaryCategory(category);
+              const gTerms = gCat ? GLOSSARY_TERMS_BY_CATEGORY[gCat] : null;
+              if (!gTerms || gTerms.length === 0) return null;
+              return (
+                <a
+                  href={"/glossary/category/" + gCat}
+                  style={{
+                    display: "flex", alignItems: "center", gap: 10,
+                    marginTop: 16, padding: "12px 16px",
+                    background: "#ede7f6", border: "1px solid #5e35b1",
+                    borderRadius: 12, color: "#4527a0",
+                    fontSize: 14, fontWeight: 600, textDecoration: "none",
+                  }}
+                >
+                  <span style={{ fontSize: 20 }}>📖</span>
+                  <span style={{ flex: 1 }}>Common phrases in {glossaryCategoryLabel(gCat)} — {gTerms.length} words explained</span>
+                  <span>→</span>
+                </a>
+              );
+            })()}
           </div>
         )}
       </div>

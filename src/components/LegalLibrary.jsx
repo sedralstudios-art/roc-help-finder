@@ -8,6 +8,7 @@ import React from "react";
 //   LegalLibraryEntry      — detail view for a single entry
 
 import { LEGAL_ENTRIES, LEGAL_ENTRIES_BY_ID, LEGAL_ENTRIES_BY_CATEGORY, LEGAL_CATEGORIES } from "../data/legal";
+import { GLOSSARY_TERMS_BY_CATEGORY } from "../data/legal/glossary-index";
 import { LEGAL_LANGS, RTL_LEGAL_LANGS } from "../data/legal/langs";
 
 const C = {
@@ -441,6 +442,22 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         </section>
       )}
 
+      {GLOSSARY_TERMS_BY_CATEGORY[entry.category] && GLOSSARY_TERMS_BY_CATEGORY[entry.category].length > 0 && (
+        <a
+          href={"/glossary/category/" + entry.category}
+          style={{
+            display: "flex", alignItems: "center", gap: 10,
+            marginTop: 20, padding: "12px 16px",
+            background: "#ede7f6", border: "1px solid #5e35b1",
+            borderRadius: 10, color: "#4527a0",
+            fontSize: 14, fontWeight: 600, textDecoration: "none",
+          }}
+        >
+          <span style={{ fontSize: 20 }}>📖</span>
+          <span style={{ flex: 1 }}>Common phrases in this topic — {GLOSSARY_TERMS_BY_CATEGORY[entry.category].length} words explained</span>
+          <span>→</span>
+        </a>
+      )}
       <div style={{ fontSize: 11, color: C.dust, marginTop: 14, paddingTop: 12, borderTop: "1px solid " + C.border }}>
         Last audited: {entry.lastAudited || "unknown"} · Entry ID: {entry.id}
       </div>
