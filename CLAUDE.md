@@ -6,9 +6,10 @@ HelpFinder (helpfinder.help) is a free, multilingual community resource director
 for Rochester, NY and Monroe County. Built by Sedral Studios. React 18 + Vite 5,
 deployed on Vercel as an SPA.
 
-Two user-facing products:
+Three user-facing products:
 - **HelpFinder** — guided questionnaire that filters programs by situation.
 - **Legal Library** ("Know Your Rights") — browsable plain-language legal explainers.
+- **Legal Glossary** — plain-English definitions of legal and court terms, cross-linked from HelpFinder results and Legal Library entries.
 
 ## Commands
 
@@ -25,6 +26,11 @@ No test suite, linter, or formatter configured.
 - **Inline styles only.** No CSS files. Follow existing pattern.
 - **Legal entries** are individual JS files in src/data/legal/entries/, auto-imported
   via import.meta.glob in src/data/legal/index.js.
+- **Legal Glossary terms** are individual JS files in src/data/legal/glossary/,
+  auto-imported via import.meta.glob in src/data/legal/glossary-index.js. Routed
+  at /glossary, /glossary/<slug>, /glossary/category/<cat>. Prerendered by
+  scripts/prerender-glossary.cjs into dist/glossary/*. HelpFinder category
+  to glossary category mapping lives in src/data/legal/glossary-tag-map.js.
 - **HelpFinderQuestions.js** is the single source of truth for questionnaire
   categories, programs, and filtering logic.
 - **Geo detection** — src/data/geo/monroe-jurisdictions.json + src/utils/resolveJurisdiction.js
@@ -42,6 +48,20 @@ NE, SW, MY, and SO translations are gated on native-speaker review.
 Never fill them in or update them from machine translation.
 See src/data/legal/translations/README.md.
 
+### Legal Glossary content voice (stricter than legal library)
+- 6th grade reading level. Short sentences, common words.
+- Every term must include a statute citation, a sourceUrl, and a lastVerified date.
+- whatToAsk items are pure questions directed at a lawyer, judge, or clerk.
+  No parenthetical advice ("(Say yes...)", "(Always say...)"). No trailing
+  imperatives ("Write it down.", "Get a copy."). If an item has a period followed
+  by more text, rewrite it.
+- plainEnglish describes how the law works. Never direct the reader. Avoid
+  "you should", "you must" (unless quoting a legal requirement), "make sure",
+  "always", "never."
+- English only. NE/SW/MY/SO require native-speaker review per the rule above.
+- HelpFinder is maintained by non-attorneys. Directive voice creates unauthorized
+  practice of law risk and undermines the explainer-not-advice framing.
+
 ## Hard rules
 
 ### No hardcoded counts
@@ -53,6 +73,10 @@ Any field rendered on a legal entry page must be updated in BOTH:
 1. src/components/LegalLibrary.jsx (client render)
 2. scripts/prerender-legal.cjs (static prerender for crawlers)
 
+Same rule for glossary pages:
+1. src/components/Glossary.jsx (client render)
+2. scripts/prerender-glossary.cjs (static prerender for crawlers)
+
 Both changes go in the same commit. Otherwise the site looks correct in browsers
 but is invisible to search engines.
 
@@ -61,10 +85,14 @@ There is a SENSITIVE set in HelpFinder.jsx (~line 1299) that gates DV,
 immigration, and other high-risk categories with a privacy notice and Quick Exit.
 Do not audit, modify, or "improve" this set without explicit approval.
 
-### curl SPA false positive
-Vercel's catch-all rewrite returns HTTP 200 for every path, including garbage URLs.
-curl status codes prove nothing. Always grep the response body for expected content
-when verifying a deployed page.
+### Routing and crawl coverage
+As of April 2026 (migration 53), vercel.json has explicit rewrites only for /help
+and /help/:path* — the blanket catch-all has been removed. Unknown paths now
+return 404 via public/404.html. Prerendered paths return 200 with real content.
+Before reintroducing any catch-all rewrite, consult the user — the removal was
+an intentional crawl-coverage fix so Googlebot stops seeing infinite-duplicate
+content. When verifying a deployed page, still grep the response body — the SPA
+can serve a shell without hydrating the right content.
 
 ### Source file edit pattern
 Edits to source files go through numbered CJS migration scripts

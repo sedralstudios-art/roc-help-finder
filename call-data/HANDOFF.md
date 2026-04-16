@@ -1,3 +1,5 @@
+> **Legal Glossary** — shipped 2026-04-15. 75 verified NY terms across every legal-library category. Full handoff in private memory (not in the repo).
+
 # Town Research Handoff
 
 ## What's Done
@@ -26,10 +28,16 @@ Rochester needs a re-verification pass (existing entries from untrusted instance
 4. Search: "[Town] NY health clinic nonprofit community organizations"
 5. Search: "[Town] NY animal control building department phone"
 6. Search: "[Town] NY Facebook community group support"
-7. Search alternate names (e.g. "Brighton-Henrietta")
-8. Search each food category DEEP — multiple queries, churches, schools
-9. For every financial program found, consider xref tags
-10. Only use publicly available info
+7. Search: "[Town/County] NY harm reduction services"
+8. Search: "[Town/County] NY naloxone narcan distribution"
+9. Search: "[Town/County] NY syringe services program"
+10. Search: "[Town/County] NY peer recovery outreach"
+11. Search alternate names (e.g. "Brighton-Henrietta")
+12. Search each food category DEEP — multiple queries, churches, schools
+13. For every financial program found, consider xref tags
+14. Only use publicly available info
+
+Note (2026-04-14): queries 7–10 were added after discovering the original pattern systematically missed harm-reduction / peer-outreach / overdose-prevention orgs (Hope Dealers BTC, Trillium SSP, MCDOH Narcan program). Fixed-institution queries don't surface mobile outreach.
 
 ## Rules
 - 3 independent public sources = verified
