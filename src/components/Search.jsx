@@ -22,14 +22,16 @@ function pick(field) {
   return field.en || "";
 }
 
-export default function UnifiedSearch({ programs, onOpenEntry, onOpenGlossaryTerm, onBack }) {
+import { PROGRAMS } from "../data/programs.js";
+
+export default function UnifiedSearch({ onOpenEntry, onOpenGlossaryTerm, onBack }) {
   const [query, setQuery] = useState("");
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (q.length < 2) return { programs: [], legal: [], glossary: [] };
 
-    const progResults = (programs || []).filter((p) => {
+    const progResults = PROGRAMS.filter((p) => {
       if ((p.n || "").toLowerCase().includes(q)) return true;
       if ((p.d || "").toLowerCase().includes(q)) return true;
       if ((p.c || "").toLowerCase().includes(q)) return true;

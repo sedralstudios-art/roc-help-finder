@@ -96,37 +96,15 @@ function jsonLDSafe(obj) {
   return JSON.stringify(obj, null, 2).replace(/<\//g, '<\\/');
 }
 
-// ─── PROGRAMS extraction ──────────────────────────────────────────────
-// Reads HelpFinder.jsx, locates `const PROGRAMS = [...]`, evaluates the
-// array literal as plain data. Aborts if the literal can't be found.
-function loadPrograms() {
-  const src = fs.readFileSync(HF_SOURCE, 'utf8');
-  const startMatch = src.indexOf('const PROGRAMS = [');
-  if (startMatch === -1) {
-    throw new Error('loadPrograms: `const PROGRAMS = [` not found in HelpFinder.jsx');
-  }
-  // Find the matching `];` at the start of a line. Simple heuristic since
-  // the closing bracket of the array is on its own line by convention.
-  const afterDecl = src.indexOf('[', startMatch);
-  let depth = 1;
-  let i = afterDecl + 1;
-  while (i < src.length && depth > 0) {
-    const ch = src[i];
-    if (ch === '[') depth++;
-    else if (ch === ']') depth--;
-    if (depth === 0) break;
-    i++;
-  }
-  if (depth !== 0) {
-    throw new Error('loadPrograms: matching `]` not found for PROGRAMS literal');
-  }
-  const arrayLiteral = src.slice(afterDecl, i + 1);
-  // Evaluate inside a function scope so local variables are contained.
-  // eslint-disable-next-line no-new-func
-  const fn = new Function('return ' + arrayLiteral);
-  const programs = fn();
+// ─── PROGRAMS loading ─────────────────────────────────────────────────
+// Loads from the shared ESM module at src/data/programs.js via dynamic import.
+async function loadPrograms() {
+  const { pathToFileURL } = require('url');
+  const abs = path.join(ROOT, 'src', 'data', 'programs.js');
+  const mod = await import(pathToFileURL(abs).href);
+  const programs = mod.PROGRAMS;
   if (!Array.isArray(programs) || programs.length === 0) {
-    throw new Error('loadPrograms: extracted value is not a non-empty array');
+    throw new Error('loadPrograms: PROGRAMS not found or empty in src/data/programs.js');
   }
   return programs;
 }
@@ -331,7 +309,7 @@ function generateCategoryHTML(cat, programs, bundleTags) {
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────
-function main() {
+async function main() {
   console.log('Prerender HelpFinder (v1 — English, static category pages)...');
 
   const indexPath = path.join(DIST, 'index.html');
@@ -347,8 +325,8 @@ function main() {
   }
   console.log('✓ Extracted bundle tags');
 
-  const programs = loadPrograms();
-  console.log('✓ Extracted ' + programs.length + ' programs from HelpFinder.jsx');
+  const programs = await loadPrograms();
+  console.log('✓ Loaded ' + programs.length + ' programs from src/data/programs.js');
 
   // Group by category
   const byCat = {};
@@ -389,4 +367,4 @@ function main() {
   console.log('Done.');
 }
 
-main();
+main().catch((e) => { console.error('ERROR:', e); process.exit(1); });

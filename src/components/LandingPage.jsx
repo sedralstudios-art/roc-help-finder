@@ -1153,7 +1153,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       {/* ═══════════════════ UNIFIED SEARCH ═══════════════════ */}
       {page === PAGES.SEARCH && (
         <UnifiedSearch
-          programs={[]}
           onOpenEntry={openEntry}
           onOpenGlossaryTerm={openGlossaryTerm}
           onBack={() => nav(PAGES.HOME)}
