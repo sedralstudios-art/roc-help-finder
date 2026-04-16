@@ -21,7 +21,7 @@ export const NAME_CHANGE_NY = {
   },
 
   whatItMeans: {
-    en: "A legal name change replaces your current legal name with a new one for all purposes — ID, records, accounts, and documents. The petition is filed in the Supreme Court or County Court of the county where you live. The petition states your current name, your proposed new name, and the reason for the change. After filing, the court typically orders publication of the name change in a local newspaper for one issue. This is a public notice requirement. However, the court can waive publication for good cause — safety concerns, domestic violence, or transgender individuals seeking to avoid harassment are commonly accepted reasons. After publication (or waiver), the court holds a brief hearing and issues an order granting the name change. The order can then be used to update all documents: Social Security card, driver's license, birth certificate, bank accounts, and more. The filing fee varies by county (check the county clerk for current fees). Fee waivers are available for those who cannot afford the fee."
+    en: "A legal name change replaces your current legal name with a new one for all purposes — ID, records, accounts, and documents. The petition is filed in the Supreme Court or County Court of the county where you live. The petition states your current name, your proposed new name, and the reason for the change. After filing, the court typically orders publication of the name change in a local newspaper for one issue. This is a public notice requirement. However, the court can waive publication for good cause — safety concerns, domestic violence, or transgender individuals seeking to avoid harassment are commonly accepted reasons. After publication (or waiver), the court holds a brief hearing and issues an order granting the name change. The order can then be used to update all documents: Social Security card, driver's license, birth certificate, bank accounts, and more. The filing fee varies by county (subject to change — verify with the county clerk or at nycourts.gov/courthelp). Fee waivers are available for those who cannot afford the fee."
   },
 
   yourRights: {
@@ -41,7 +41,7 @@ export const NAME_CHANGE_NY = {
       "The NYS Unified Court System provides forms and instructions at nycourts.gov/courthelp (search for 'name change'). The forms are free to download.",
       "For safety-based publication waivers (domestic violence, stalking, transgender safety), the petition should explain the specific risk. The judge decides.",
       "Free legal help with name change petitions is available through Legal Aid Society of Rochester at (585) 232-4090 and through the LGBTQ+ advocacy organizations listed in the HelpFinder directory.",
-      "After receiving the court order, a certified copy can be obtained from the county clerk (check the clerk for the current copy fee). This copy is used to update the Social Security card (free), driver's license (check dmv.ny.gov for current fees), and birth certificate."
+      "After receiving the court order, a certified copy can be obtained from the county clerk (copy fee subject to change — verify with the clerk). This copy is used to update the Social Security card (free), driver's license (fee subject to change — verify at dmv.ny.gov), and birth certificate."
     ]
   },
 

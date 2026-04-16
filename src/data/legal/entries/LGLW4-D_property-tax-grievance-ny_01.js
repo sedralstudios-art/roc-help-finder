@@ -41,7 +41,7 @@ export const PROPERTY_TAX_GRIEVANCE_NY = {
     en: [
       "Form RP-524 is the grievance form. It is available from the town assessor or from the Department of Taxation and Finance at tax.ny.gov.",
       "Grievances are filed with the town assessor on or before Grievance Day (the 4th Tuesday of May in most places). Late filings are not accepted.",
-      "Small Claims Assessment Review (SCAR) is the path for residential property. The form (RP-524-SCAR) goes to the County Clerk within 30 days of the final assessment roll (usually late July). $30 filing fee (check the County Clerk for current fees) (RPTL § 730).",
+      "Small Claims Assessment Review (SCAR) is the path for residential property. The form (RP-524-SCAR) goes to the County Clerk within 30 days of the final assessment roll (usually late July). Filing fee was $30 as of April 2026 (subject to change — verify with the County Clerk) (RPTL § 730).",
       "An Article 7 court case (RPTL Article 7) is an alternative path, filed in state Supreme Court within 30 days of the final assessment roll. A lawyer is strongly recommended for this route.",
       "Your town assessor is the first person to talk to. Many assessors will review your assessment informally before Grievance Day and lower it if your case is strong.",
       "NY State Office of Real Property Tax Services (ORPTS) publishes guides and forms at tax.ny.gov/pit/property/default.htm.",
@@ -51,7 +51,7 @@ export const PROPERTY_TAX_GRIEVANCE_NY = {
   },
 
   example: {
-    en: "Mark owns a home in Webster. His assessment is $280,000. He looks at recent sales of similar homes on his street and finds they sold for $240,000 to $255,000. On May 22 (the 4th Tuesday of May), he files Form RP-524 at the Webster assessor's office. He includes printouts from the real estate listing service. The Board of Assessment Review meets in June, listens to Mark, and reduces his assessment to $250,000. His property tax bill goes down by several hundred dollars that year. If the BAR had denied him, he could have filed SCAR for $30 (check the County Clerk for current fees) by late July."
+    en: "Mark owns a home in Webster. His assessment is $280,000. He looks at recent sales of similar homes on his street and finds they sold for $240,000 to $255,000. On May 22 (the 4th Tuesday of May), he files Form RP-524 at the Webster assessor's office. He includes printouts from the real estate listing service. The Board of Assessment Review meets in June, listens to Mark, and reduces his assessment to $250,000. His property tax bill goes down by several hundred dollars that year. If the BAR had denied him, he could have filed SCAR (filing fee was $30 as of April 2026 — subject to change) by late July."
   },
 
   counsel: [
