@@ -41,7 +41,7 @@ export const RIGHT_TO_REPAIR_CAR_NY = {
       "Under the NY Digital Fair Repair Act (GBL 399-nn), manufacturers must make repair information, tools, and parts available to independent shops and consumers.",
       "If a dealer wrongly denies a warranty claim because of independent service, a complaint can be filed with the FTC at ftc.gov or (877) 382-4357.",
       "A complaint can also be filed with the NYS Attorney General at (800) 771-7755.",
-      "Keep all receipts for independent maintenance — they prove the work was done properly and on schedule.",
+      "Receipts for independent maintenance serve as proof the work was done properly and on schedule.",
       "If a warranty claim is wrongly denied, the owner can sue under the Magnuson-Moss Act and recover attorney fees if they win."
     ]
   },
