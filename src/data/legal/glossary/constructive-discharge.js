@@ -10,7 +10,7 @@ export const CONSTRUCTIVE_DISCHARGE = {
   },
 
   plainEnglish: {
-    en: "Constructive discharge means the employer made conditions so bad that any reasonable person would have quit. Even though the worker technically resigned, the law treats it as if the employer fired them. This matters because a fired worker can collect unemployment, sue for wrongful termination, and pursue discrimination or retaliation claims. A worker who voluntarily quits usually cannot do those things. The conditions have to be truly intolerable — not just unpleasant. And the worker should document everything and complain in writing before quitting."
+    en: "Constructive discharge means the employer made conditions so bad that any reasonable person would have quit. Even though the worker technically resigned, the law treats it as if the employer fired them. This matters because a fired worker can collect unemployment, sue for wrongful termination, and pursue discrimination or retaliation claims. A worker who voluntarily quits usually cannot do those things. The conditions have to be truly intolerable — not just unpleasant. Workers who document the conditions and complain in writing before quitting have stronger claims."
   },
 
   whatToAsk: {
