@@ -1582,12 +1582,14 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
           }}>
             ← {t(lang, "back")}
           </button>
-          <button onClick={reset} style={{
-            background: "none", border: "1px solid #e8e4dc", borderRadius: 20,
-            padding: "6px 14px", fontSize: 13, cursor: "pointer", color: "#555",
-          }}>
-            {t(lang, "startOver")}
-          </button>
+          {!enteredViaDeepLink && (
+            <button onClick={reset} style={{
+              background: "none", border: "1px solid #e8e4dc", borderRadius: 20,
+              padding: "6px 14px", fontSize: 13, cursor: "pointer", color: "#555",
+            }}>
+              {t(lang, "startOver")}
+            </button>
+          )}
         </div>
       )}
 
