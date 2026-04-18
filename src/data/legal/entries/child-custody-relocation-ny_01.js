@@ -103,6 +103,7 @@ export const CHILD_CUSTODY_RELOCATION_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/DOM/240",
     "https://law.justia.com/cases/new-york/court-of-appeals/1996/87-n-y-2d-727-0.html",
     "https://www.nycourts.gov/courthelp/Family/custody.shtml"
   ],

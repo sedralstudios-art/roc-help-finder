@@ -103,6 +103,8 @@ export const CAREGIVER_RIGHTS_FAMILY_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/29/2612",
+    "https://www.nysenate.gov/legislation/laws/WKC/204",
     "https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm",
     "https://paidfamilyleave.ny.gov",
     "https://www.lifespan-roch.org"

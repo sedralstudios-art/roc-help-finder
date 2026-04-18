@@ -85,6 +85,8 @@ export const PARKING_TICKET_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/VAT/1200",
+    "https://www.nysenate.gov/legislation/laws/VAT/1201",
     "https://www.cityofrochester.gov/parking/"
   ],
 

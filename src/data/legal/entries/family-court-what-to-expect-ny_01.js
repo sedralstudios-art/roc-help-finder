@@ -90,6 +90,7 @@ export const FAMILY_COURT_WHAT_TO_EXPECT_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/FCT/A1",
     "https://www.nycourts.gov/courts/7jd/monroe/family/",
     "https://www.nycourts.gov/courthelp/Family/basics.shtml"
   ],
