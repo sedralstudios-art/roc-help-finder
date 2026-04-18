@@ -90,6 +90,8 @@ export const UBER_LYFT_PASSENGER_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/VAT/A44-B",
+    "https://www.nysenate.gov/legislation/laws/EXC/296",
     "https://www.dfs.ny.gov",
     "https://dhr.ny.gov/law"
   ],

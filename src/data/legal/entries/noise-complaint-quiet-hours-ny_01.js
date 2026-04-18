@@ -90,6 +90,7 @@ export const NOISE_COMPLAINT_QUIET_HOURS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/RPP/235-B",
     "https://ecode360.com/8681641",
     "https://www.cityofrochester.gov/311/"
   ],

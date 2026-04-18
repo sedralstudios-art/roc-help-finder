@@ -89,6 +89,8 @@ export const HOME_BUSINESS_SALES_TAX_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/TAX/A28",
+    "https://www.nysenate.gov/legislation/laws/TAX/1101",
     "https://www.tax.ny.gov/bus/st/stidx.htm",
     "https://www.tax.ny.gov/bus/st/marketplace.htm"
   ],

@@ -89,6 +89,7 @@ export const CAR_BOOT_IMMOBILIZER_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/VAT/397-B",
     "https://www.cityofrochester.gov/parking/"
   ],
 

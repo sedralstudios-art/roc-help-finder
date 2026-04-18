@@ -93,6 +93,7 @@ export const TRASH_PICKUP_MISSED_COMPLAINT_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ENV/71-2703",
     "https://www.cityofrochester.gov/environmental-services/",
     "https://www.monroecounty.gov/ecopark"
   ],
