@@ -104,6 +104,8 @@ export const ATTIC_INSULATION_REBATE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/26/25C",
+    "https://www.law.cornell.edu/uscode/text/42/6861",
     "https://www.nyserda.ny.gov",
     "https://www.pathstone.org",
     "https://www.energy.gov/scep/wap/weatherization-assistance-program"

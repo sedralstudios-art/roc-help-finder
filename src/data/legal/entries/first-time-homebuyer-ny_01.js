@@ -104,6 +104,8 @@ export const FIRST_TIME_HOMEBUYER_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/12/1701q",
+    "https://www.law.cornell.edu/uscode/text/26/36",
     "https://www.sonyma.org",
     "https://www.hud.gov/buying"
   ],

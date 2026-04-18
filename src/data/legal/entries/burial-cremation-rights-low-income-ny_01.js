@@ -106,6 +106,8 @@ export const BURIAL_CREMATION_RIGHTS_LOW_INCOME_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/SOS/141",
+    "https://www.law.cornell.edu/cfr/text/16/part-453",
     "https://www.ftc.gov/legal-library/browse/rules/funeral-industry-practices-revised-rule",
     "https://www.va.gov/burials-memorials/",
     "https://www.fema.gov/disaster/coronavirus/economic/funeral-assistance"

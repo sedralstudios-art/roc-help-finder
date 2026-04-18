@@ -89,6 +89,8 @@ export const GARAGE_SALE_ESTATE_SALE_TAX_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/TAX/1115",
+    "https://www.law.cornell.edu/uscode/text/26/6050W",
     "https://www.irs.gov/newsroom/understanding-your-form-1099-k",
     "https://www.tax.ny.gov/bus/st/stidx.htm"
   ],

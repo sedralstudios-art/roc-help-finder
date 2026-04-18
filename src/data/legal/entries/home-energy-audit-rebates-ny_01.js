@@ -93,6 +93,8 @@ export const HOME_ENERGY_AUDIT_REBATES_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/26/25C",
+    "https://www.law.cornell.edu/uscode/text/26/25D",
     "https://www.nyserda.ny.gov/All-Programs/Home-Performance-with-ENERGY-STAR",
     "https://www.nyserda.ny.gov/All-Programs/EmPower-New-York"
   ],
