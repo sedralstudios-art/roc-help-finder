@@ -106,6 +106,8 @@ export const MEDICARE_VS_MEDICAID_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/1395",
+    "https://www.law.cornell.edu/uscode/text/42/1396",
     "https://www.medicare.gov",
     "https://www.health.ny.gov/health_care/medicaid/"
   ],

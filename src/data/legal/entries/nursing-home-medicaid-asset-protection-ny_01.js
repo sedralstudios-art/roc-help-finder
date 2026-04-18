@@ -106,6 +106,8 @@ export const NURSING_HOME_MEDICAID_ASSET_PROTECTION_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/1396p",
+    "https://www.nysenate.gov/legislation/laws/SOS/366",
     "https://www.health.ny.gov/health_care/medicaid/program/longterm/",
     "https://www.medicaid.gov/medicaid/eligibility/index.html"
   ],

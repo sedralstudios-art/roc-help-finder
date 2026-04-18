@@ -101,6 +101,7 @@ export const PRESCRIPTION_ASSISTANCE_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ELD/A9",
     "https://www.health.ny.gov/health_care/epic/",
     "https://www.needymeds.org",
     "https://www.hrsa.gov/opa/index.html"

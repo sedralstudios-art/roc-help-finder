@@ -86,6 +86,8 @@ export const MEDICAID_TRANSPORTATION_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/1396d",
+    "https://www.law.cornell.edu/cfr/text/42/440.170",
     "https://www.health.ny.gov/health_care/medicaid/program/transportation/",
     "https://www.medicaid.gov/medicaid/benefits/non-emergency-medical-transportation/index.html"
   ],

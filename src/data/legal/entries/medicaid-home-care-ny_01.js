@@ -102,6 +102,8 @@ export const MEDICAID_HOME_CARE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/1396",
+    "https://www.nysenate.gov/legislation/laws/SOS/365-A",
     "https://www.health.ny.gov/health_care/medicaid/program/longterm/",
     "https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm"
   ],
