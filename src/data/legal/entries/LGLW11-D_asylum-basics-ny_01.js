@@ -43,7 +43,7 @@ export const ASYLUM_BASICS_NY = {
       "Worker Justice Center of New York at (585) 325-3050 represents asylum seekers, especially those with labor-related persecution claims.",
       "The NYS Office for New Americans at (800) 566-7636 can refer asylum seekers to free legal help.",
       "The immigration court with jurisdiction over Rochester is the Buffalo Immigration Court — cases are heard in the federal building.",
-      "An asylum application should never be filed without legal help — incorrect applications can lead to deportation. Free help is available."
+      "Asylum applications filed without legal help carry serious risks — incorrect filings can lead to deportation. Free legal help is available in Monroe County."
     ]
   },
 
