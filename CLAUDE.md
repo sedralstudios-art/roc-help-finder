@@ -14,7 +14,8 @@ Three user-facing products:
 ## Commands
 
 - `npm run dev` — Vite dev server
-- `npm run build` — Vite build + prerender legal pages + generate sitemap
+- `npm run build` — verify entry uniqueness + Vite build + prerender legal/glossary/help/landing pages + generate sitemap. Fails fast if any entry is missing `authorityType` or collides on composite key.
+- `npm run verify` — run the entry-uniqueness validator standalone (no build).
 - `npm run preview` — serve production build locally
 
 No test suite, linter, or formatter configured.
@@ -63,6 +64,46 @@ See src/data/legal/translations/README.md.
   practice of law risk and undermines the explainer-not-advice framing.
 
 ## Hard rules
+
+### Entry authorityType (required field, build-gated)
+Every legal entry must declare an `authorityType` right after `jurisdiction`.
+The validator (`scripts/verify-entry-uniqueness.cjs`) runs first in `npm run
+build` and fails the build if any entry is missing it, uses an invalid value,
+or collides with another entry on the composite key
+`(normalizedTopic, authorityType, jurisdictionScope)`.
+
+Valid values and id conventions:
+- `state-statute`       — NY statute. Id pattern: `{topic}-ny`
+- `federal-statute`     — U.S. code. Id pattern: `{topic}-ny` (audience is NY)
+- `state-regulation`    — NYCRR. Id pattern: `{topic}-ny`
+- `federal-regulation`  — CFR. Id pattern: `{topic}-ny`
+- `local-ordinance`     — town/village/city code. Id pattern: `{topic}-ny-mon-{municipality}-{town|village|city}`
+- `common-law`          — case law, judge-made. Id pattern: `{topic}-ny-cl`
+- `agency-program`      — program or process with no single governing statute. Id pattern: `{topic}-ny-program`
+
+Filename matches id + `.js`. No version suffixes (`_01`, `_05`, etc. — stripped
+site-wide on 2026-04-18).
+
+Entry pages render a colored authority badge under the summary explaining where
+the rule comes from (NY State Statute, Local Ordinance, Court-Made Law, etc.).
+Badge markup lives in both `src/components/LegalLibrary.jsx` (`AuthorityBadge`)
+and `scripts/prerender-legal.cjs` (`AUTHORITY_META_SSR`). Dual-rendering rule
+applies.
+
+### Source URL citation parsing
+Sources should point to specific statute URLs, not agency landing pages. The
+citation parser in `src/components/LegalLibrary.jsx` (`parseSource`) and
+`scripts/prerender-legal.cjs` (`parseSourceSSR`) converts
+`nysenate.gov/legislation/laws/RPP/235-B` into the readable "NY Real Property
+Law § 235-b". 47 NY code prefixes mapped; also handles U.S. Code, CFR, NYCRR
+(Cornell mirror), UCC, Constitution. Use these URL shapes whenever possible.
+
+### One-shot rename scripts
+`scripts/label-authority-types.cjs`, `scripts/rename-strip-nn.cjs`, and
+`scripts/rename-authority-suffix.cjs` are one-shot scripts used during the
+2026-04-18 rollout. They are idempotent — safe to re-run. Pattern to follow
+for future one-shot rollouts: put them in `scripts/`, name them by intent,
+include a brief header comment explaining the scope.
 
 ### No hardcoded counts
 Never put a hardcoded count of legal entries, programs, or categories in any
