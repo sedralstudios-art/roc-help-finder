@@ -102,6 +102,60 @@ const CATEGORY_META = {
 };
 
 // ── Helpers ──
+const NY_CODE_NAMES = {
+  RPP: "Real Property Law", RPA: "Real Property Actions and Proceedings Law",
+  RPT: "Real Property Tax Law", GBS: "General Business Law",
+  GOB: "General Obligations Law", PBH: "Public Health Law",
+  PBS: "Public Service Law", LAB: "Labor Law", PEN: "Penal Law",
+  VAT: "Vehicle and Traffic Law", TAX: "Tax Law", ELD: "Elder Law",
+  EDN: "Education Law", EXC: "Executive Law", DOM: "Domestic Relations Law",
+  DRL: "Domestic Relations Law", CVP: "Civil Practice Law and Rules",
+  CPL: "Criminal Procedure Law", EPT: "Estates, Powers and Trusts Law",
+  SOS: "Social Services Law", ISC: "Insurance Law", MHY: "Mental Hygiene Law",
+  GMU: "General Municipal Law", TWN: "Town Law", VIL: "Village Law",
+  GCT: "General City Law", ELN: "Election Law", LIE: "Lien Law",
+  AGM: "Agriculture and Markets Law", PPL: "Personal Property Law",
+  SCP: "Surrogate's Court Procedure Act", NAV: "Navigation Law",
+  ENV: "Environmental Conservation Law", BNK: "Banking Law",
+  CAN: "Cannabis Law", CNB: "Cannabis Law", ABP: "Abandoned Property Law",
+  FCT: "Family Court Act", JUD: "Judiciary Law", COR: "Correction Law",
+  CVR: "Civil Rights Law", CVS: "Civil Service Law",
+  UCC: "Uniform Commercial Code", WKC: "Workers' Compensation Law",
+  MDW: "Multiple Dwelling Law", MIL: "Military Law",
+  NPC: "Not-for-Profit Corporation Law", PBO: "Public Officers Law",
+};
+
+function parseSourceSSR(url) {
+  let host = '';
+  try { host = new URL(url).hostname; } catch (e) { return { label: url, host: '' }; }
+  let m = url.match(/nysenate\.gov\/legislation\/laws\/([A-Z]+)(?:\/([A-Z0-9.-]+))?/i);
+  if (m) {
+    const code = m[1].toUpperCase();
+    const section = m[2];
+    const codeName = NY_CODE_NAMES[code] || (code + " (NY)");
+    if (!section) return { label: "NY " + codeName, host };
+    const isArticle = /^A[0-9]/i.test(section);
+    return { label: "NY " + codeName + (isArticle ? " Article " + section.slice(1) : " § " + section.toLowerCase()), host };
+  }
+  m = url.match(/law\.cornell\.edu\/uscode\/text\/(\d+)\/chapter-(\d+)/);
+  if (m) return { label: m[1] + " U.S.C. Chapter " + m[2], host };
+  m = url.match(/law\.cornell\.edu\/uscode\/text\/(\d+)\/([A-Za-z0-9-]+)/);
+  if (m) return { label: m[1] + " U.S.C. § " + m[2], host };
+  m = url.match(/law\.cornell\.edu\/cfr\/text\/(\d+)\/part-([A-Za-z0-9-]+)(?:\/subpart-([A-Za-z]+))?/);
+  if (m) { let label = m[1] + " C.F.R. Part " + m[2]; if (m[3]) label += " Subpart " + m[3].toUpperCase(); return { label, host }; }
+  m = url.match(/law\.cornell\.edu\/cfr\/text\/(\d+)\/([0-9.]+)/);
+  if (m) return { label: m[1] + " C.F.R. § " + m[2], host };
+  m = url.match(/law\.cornell\.edu\/regulations\/new-york\/title-(\d+).*appendix-([0-9-A-Za-z]+)/);
+  if (m) return { label: m[1] + " NYCRR Appendix " + m[2], host };
+  m = url.match(/law\.cornell\.edu\/regulations\/new-york\/title-(\d+).*part-([0-9-]+)(?:\/subpart-([0-9-]+))?/);
+  if (m) { let label = m[1] + " NYCRR Part " + m[2]; if (m[3]) label += " Subpart " + m[3]; return { label, host }; }
+  m = url.match(/law\.cornell\.edu\/ucc\/(\d+)\/(\d+-\d+)/);
+  if (m) return { label: "UCC § " + m[2], host };
+  m = url.match(/law\.cornell\.edu\/constitution\/([a-z_]+)/);
+  if (m) return { label: "U.S. Constitution — " + m[1].replace(/_/g, " "), host };
+  return { label: host, host };
+}
+
 function esc(s) {
   if (s === undefined || s === null) return '';
   return String(s)
@@ -281,8 +335,10 @@ const SHARED_CSS = `
       .ssr-content .auth-common-law .authority-label { color: #6d4c41; }
       .ssr-content .auth-agency-program { background: #e8f5e9; border-color: #c8e6c9; }
       .ssr-content .auth-agency-program .authority-label { color: #2e7d32; }
-      .ssr-content .sources li { font-size: 11px; color: #767676; }
-      .ssr-content .sources a { color: #767676; word-break: break-all; }
+      .ssr-content .sources { list-style: none; padding-left: 0; }
+      .ssr-content .sources li { font-size: 13px; color: #1a1a1a; margin-bottom: 6px; }
+      .ssr-content .sources a { color: #2e7d32; text-decoration: none; font-weight: 500; }
+      .ssr-content .sources .source-host { font-size: 11px; color: #767676; margin-left: 6px; }
       .ssr-content .entry-list { list-style: none; padding: 0; display: grid; gap: 10px; margin: 0; }
       .ssr-content .entry-list li a { display: block; padding: 12px 16px; background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; text-decoration: none; color: #1a1a1a; }
       .ssr-content .entry-list li a strong { font-size: 15px; font-weight: 600; display: block; margin-bottom: 4px; }
@@ -380,8 +436,11 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
       '</ul>'
     : '';
   const sourcesHTML = sources.length
-    ? '<h2>Sources</h2><ul class="sources">' +
-      sources.map((s) => '<li><a href="' + esc(s) + '" rel="noopener">' + esc(s) + '</a></li>').join('') +
+    ? '<h2>Sources & citations</h2><ul class="sources">' +
+      sources.map((s) => {
+        const p = parseSourceSSR(s);
+        return '<li><a href="' + esc(s) + '" rel="noopener"><strong>' + esc(p.label) + '</strong></a>' + (p.host ? ' <span class="source-host">↗ ' + esc(p.host) + '</span>' : '') + '</li>';
+      }).join('') +
       '</ul>'
     : '';
   const gTerms = ((globalThis.GLOSSARY_BY_CAT || {})[entry.category] || []);

@@ -73,6 +73,80 @@ const AUTHORITY_META = {
   },
 };
 
+const NY_CODE_NAMES = {
+  RPP: "Real Property Law", RPA: "Real Property Actions and Proceedings Law",
+  RPT: "Real Property Tax Law", GBS: "General Business Law",
+  GOB: "General Obligations Law", PBH: "Public Health Law",
+  PBS: "Public Service Law", LAB: "Labor Law", PEN: "Penal Law",
+  VAT: "Vehicle and Traffic Law", TAX: "Tax Law", ELD: "Elder Law",
+  EDN: "Education Law", EXC: "Executive Law", DOM: "Domestic Relations Law",
+  DRL: "Domestic Relations Law", CVP: "Civil Practice Law and Rules",
+  CPL: "Criminal Procedure Law", EPT: "Estates, Powers and Trusts Law",
+  SOS: "Social Services Law", ISC: "Insurance Law", MHY: "Mental Hygiene Law",
+  GMU: "General Municipal Law", TWN: "Town Law", VIL: "Village Law",
+  GCT: "General City Law", ELN: "Election Law", LIE: "Lien Law",
+  AGM: "Agriculture and Markets Law", PPL: "Personal Property Law",
+  SCP: "Surrogate's Court Procedure Act", NAV: "Navigation Law",
+  ENV: "Environmental Conservation Law", BNK: "Banking Law",
+  CAN: "Cannabis Law", CNB: "Cannabis Law", ABP: "Abandoned Property Law",
+  FCT: "Family Court Act", JUD: "Judiciary Law", COR: "Correction Law",
+  CVR: "Civil Rights Law", CVS: "Civil Service Law",
+  UCC: "Uniform Commercial Code", WKC: "Workers' Compensation Law",
+  MDW: "Multiple Dwelling Law", MIL: "Military Law",
+  NPC: "Not-for-Profit Corporation Law", PBO: "Public Officers Law",
+};
+
+function parseSource(url) {
+  try {
+    const u = new URL(url);
+    // NY statute: nysenate.gov/legislation/laws/XXX/YYY
+    let m = url.match(/nysenate\.gov\/legislation\/laws\/([A-Z]+)(?:\/([A-Z0-9.-]+))?/i);
+    if (m) {
+      const code = m[1].toUpperCase();
+      const section = m[2];
+      const codeName = NY_CODE_NAMES[code] || (code + " (NY)");
+      if (!section) return { label: "NY " + codeName, url, host: u.hostname };
+      const isArticle = /^A[0-9]/i.test(section);
+      const label = "NY " + codeName + (isArticle ? " Article " + section.slice(1) : " § " + section.toLowerCase());
+      return { label, url, host: u.hostname };
+    }
+    // US code: law.cornell.edu/uscode/text/N/MMM
+    m = url.match(/law\.cornell\.edu\/uscode\/text\/(\d+)\/([A-Za-z0-9-]+)/);
+    if (m) return { label: m[1] + " U.S.C. § " + m[2], url, host: u.hostname };
+    // Chapter: law.cornell.edu/uscode/text/N/chapter-K
+    m = url.match(/law\.cornell\.edu\/uscode\/text\/(\d+)\/chapter-(\d+)/);
+    if (m) return { label: m[1] + " U.S.C. Chapter " + m[2], url, host: u.hostname };
+    // CFR: law.cornell.edu/cfr/text/N/part-M or /N/NN.NN
+    m = url.match(/law\.cornell\.edu\/cfr\/text\/(\d+)\/part-([A-Za-z0-9-]+)(?:\/subpart-([A-Za-z]+))?/);
+    if (m) {
+      let label = m[1] + " C.F.R. Part " + m[2];
+      if (m[3]) label += " Subpart " + m[3].toUpperCase();
+      return { label, url, host: u.hostname };
+    }
+    m = url.match(/law\.cornell\.edu\/cfr\/text\/(\d+)\/([0-9.]+)/);
+    if (m) return { label: m[1] + " C.F.R. § " + m[2], url, host: u.hostname };
+    // NYCRR: law.cornell.edu/regulations/new-york/title-N/...appendix-XX-X
+    m = url.match(/law\.cornell\.edu\/regulations\/new-york\/title-(\d+).*appendix-([0-9-A-Za-z]+)/);
+    if (m) return { label: m[1] + " NYCRR Appendix " + m[2], url, host: u.hostname };
+    m = url.match(/law\.cornell\.edu\/regulations\/new-york\/title-(\d+).*part-([0-9-]+)(?:\/subpart-([0-9-]+))?/);
+    if (m) {
+      let label = m[1] + " NYCRR Part " + m[2];
+      if (m[3]) label += " Subpart " + m[3];
+      return { label, url, host: u.hostname };
+    }
+    // UCC: law.cornell.edu/ucc/N/N-NNN
+    m = url.match(/law\.cornell\.edu\/ucc\/(\d+)\/(\d+-\d+)/);
+    if (m) return { label: "UCC § " + m[2], url, host: u.hostname };
+    // Constitution
+    m = url.match(/law\.cornell\.edu\/constitution\/([a-z_]+)/);
+    if (m) return { label: "U.S. Constitution — " + m[1].replace(/_/g, " "), url, host: u.hostname };
+    // Fallback: just use hostname as label
+    return { label: u.hostname, url, host: u.hostname };
+  } catch (e) {
+    return { label: url, url, host: "" };
+  }
+}
+
 function AuthorityBadge({ authorityType }) {
   if (!authorityType) return null;
   const meta = AUTHORITY_META[authorityType];
@@ -583,13 +657,19 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
 
       {entry.sources && entry.sources.length > 0 && (
         <section style={{ marginBottom: 20, paddingTop: 20, borderTop: "1px solid " + C.border }}>
-          <div style={{ fontSize: 12, fontWeight: 600, color: C.stone, marginBottom: 8, textTransform: "uppercase", letterSpacing: 0.5 }}>Sources & citations</div>
-          <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 18, paddingRight: isRTL ? 18 : 0, fontSize: 12, color: C.dust, lineHeight: 1.6 }}>
-            {entry.sources.map((s, i) => (
-              <li key={i}>
-                <a href={s} target="_blank" rel="noopener noreferrer" style={{ color: C.dust, wordBreak: "break-all" }}>{s}</a>
-              </li>
-            ))}
+          <div style={{ fontSize: 12, fontWeight: 600, color: C.stone, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>Sources & citations</div>
+          <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 20, paddingRight: isRTL ? 20 : 0, fontSize: 13, color: C.bark, lineHeight: 1.6 }}>
+            {entry.sources.map((s, i) => {
+              const p = parseSource(s);
+              return (
+                <li key={i} style={{ marginBottom: 6 }}>
+                  <a href={p.url} target="_blank" rel="noopener noreferrer" style={{ color: C.forest, fontWeight: 500, textDecoration: "none" }}>
+                    {p.label}
+                  </a>
+                  {p.host && <span style={{ fontSize: 11, color: C.dust, marginLeft: 6 }}>↗ {p.host}</span>}
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}
