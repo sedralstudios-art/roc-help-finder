@@ -28,37 +28,45 @@ function parseEntry(filename) {
   return { filename, id, authorityType };
 }
 
+// Scope is derived from authorityType, not the id suffix. This is the durable
+// uniqueness guarantee: two entries with the same normalized topic and the
+// same authorityType collide regardless of filename cosmetics. If someone
+// later writes "foo-ny" with authorityType:"common-law", it will collide with
+// the existing "foo-ny-cl" even though their filenames look different.
+const SCOPE_BY_AUTHORITY = {
+  'state-statute': 'ny',
+  'federal-statute': 'us',
+  'state-regulation': 'ny-reg',
+  'federal-regulation': 'us-reg',
+  'common-law': 'case-law',
+  'agency-program': 'program',
+};
+
+function normalizeTopic(id) {
+  return id
+    .replace(/-ny-mon-.*$/, '')
+    .replace(/-ny-cl$/, '')
+    .replace(/-ny-program$/, '')
+    .replace(/-us-reg-ny$/, '')
+    .replace(/-us-ny$/, '')
+    .replace(/-ny-reg$/, '')
+    .replace(/-ny$/, '');
+}
+
 function deriveKey(entry) {
   const { id, authorityType } = entry;
   if (!id) return null;
 
-  let topic = id;
-  let scope = 'ny';
-
-  const localMatch = id.match(/^(.+)-ny-mon-(.+?)(?:-(?:town|village|city))?$/);
-  if (localMatch) {
-    topic = localMatch[1];
-    scope = localMatch[2];
-  } else if (id.endsWith('-ny-cl')) {
-    topic = id.replace(/-ny-cl$/, '');
-    scope = 'case-law';
-  } else if (id.endsWith('-ny-program')) {
-    topic = id.replace(/-ny-program$/, '');
-    scope = 'program';
-  } else if (id.endsWith('-us-reg-ny')) {
-    topic = id.replace(/-us-reg-ny$/, '');
-    scope = 'us-reg';
-  } else if (id.endsWith('-us-ny')) {
-    topic = id.replace(/-us-ny$/, '');
-    scope = 'us';
-  } else if (id.endsWith('-ny-reg')) {
-    topic = id.replace(/-ny-reg$/, '');
-    scope = 'ny-reg';
-  } else if (id.endsWith('-ny')) {
-    topic = id.replace(/-ny$/, '');
-    scope = 'ny';
+  // local-ordinance: municipality is part of the scope so different towns stay distinct
+  if (authorityType === 'local-ordinance') {
+    const m = id.match(/-ny-mon-(.+?)(?:-(?:town|village|city))?$/);
+    const municipality = m ? m[1] : 'ny-unscoped';
+    const topic = normalizeTopic(id);
+    return `${topic}::local-ordinance::${municipality}`;
   }
 
+  const topic = normalizeTopic(id);
+  const scope = SCOPE_BY_AUTHORITY[authorityType] || 'unknown';
   return `${topic}::${authorityType || 'unlabeled'}::${scope}`;
 }
 
