@@ -21,7 +21,7 @@ export const TREE_REMOVAL_PERMIT_NY = {
   },
 
   whatItMeans: {
-    en: "Tree removal rules in Monroe County depend on the municipality and the type of tree. Street trees (trees in the strip between the sidewalk and the road) are almost always owned and controlled by the municipality, even though they are next to the homeowner's property. A homeowner cannot remove or significantly trim a street tree without permission from the town or city forestry department. For trees on private property, the rules vary. In Rochester, the city's tree ordinance protects significant trees in certain zones. Removal requires a permit from the city forester. In some suburbs, there are no restrictions on removing trees on private property — the homeowner can cut any tree they own. In others, removal of trees above a certain diameter requires a permit or at least notification. Contact the local building department for the exact size threshold in each town. Dead, dying, or dangerous trees can usually be removed more quickly, but even then a permit or at least a call to the town may be required. Hiring a licensed and insured tree service is important — if a tree falls on a neighbor's property during removal, the homeowner and the tree company share liability."
+    en: "Tree removal rules in Monroe County depend on the municipality and the type of tree. Street trees (trees in the strip between the sidewalk and the road) are almost always owned and controlled by the municipality, even though they are next to the homeowner's property. A homeowner cannot remove or significantly trim a street tree without permission from the town or city forestry department. For trees on private property, the rules vary. In Rochester, the City Forester issues tree orders and protects trees in public streets and places. In some suburbs, there are no restrictions on removing trees on private property — the homeowner can cut any tree they own. In others, removal of trees above a certain diameter requires a permit or at least notification. The protected tree size varies by town — contact the local building or code enforcement department for the exact rules. Dead, dying, or dangerous trees can usually be removed more quickly, but even then a permit or at least a call to the town may be required. Hiring a licensed and insured tree service is important — if a tree falls on a neighbor's property during removal, the homeowner and the tree company share liability."
   },
 
   yourRights: {
@@ -37,10 +37,10 @@ export const TREE_REMOVAL_PERMIT_NY = {
 
   legalOptions: {
     en: [
-      "Rochester: The city forester handles tree removal permits. Contact the Bureau of Forestry at (585) 428-7045.",
+      "Rochester: The City Forester issues tree orders. Trees in public streets and places are protected — no one may injure, mutilate, or deface them. Contact the Forestry Division at (585) 428-7343. (Verified April 2026.)",
+      "Irondequoit: Tree regulations exist under town code. Commercial tree services must be licensed in the town. Contact Code Enforcement at (585) 336-6060. (Verified April 2026.)",
       "Brighton: Tree removal may require Planning Board review in certain zones. Building Department at (585) 784-5220.",
       "Greece: Check with Code Enforcement at (585) 723-2396.",
-      "Irondequoit: Contact the Town Clerk at (585) 336-6034 for tree ordinance information.",
       "Penfield: Building and Zoning at (585) 340-8630.",
       "For any other town, call the town clerk or building department to ask about tree removal rules.",
       "If a tree is on the property line and shared between two neighbors, both neighbors must agree before it is removed.",

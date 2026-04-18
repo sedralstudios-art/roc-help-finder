@@ -8,7 +8,7 @@ export const RV_PARKING_STREET_RULES_NY = {
   title: { en: "RV, Boat, and Trailer Parking Rules — What Monroe County Towns Allow" },
 
   summary: {
-    en: "Parking an RV, boat, or utility trailer in a driveway, side yard, or on the street is regulated differently in every Monroe County town. Some towns ban street parking for large vehicles entirely. Others limit how long an RV can be parked in the driveway. Knowing the local rules prevents tickets and neighbor complaints."
+    en: "Parking an RV, boat, or utility trailer in a driveway, side yard, or on the street is regulated differently in every Monroe County town. In Rochester, RVs and trailers cannot park on a city street for more than 6 hours. Irondequoit limits placement by yard zone and bans living in an RV on the property. Each town has its own rules — knowing them prevents tickets and neighbor complaints."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const RV_PARKING_STREET_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "New York state law does not specifically regulate where RVs and boats can be parked on residential property. The rules come from local zoning codes. In Rochester, oversized vehicles cannot be parked on the street for extended periods. RVs and boats stored on the property must generally be in the driveway or backyard — not in the front yard. Rules vary by town. Contact the local code enforcement or building department for the exact size limits, placement rules, and street parking restrictions in each town. Trailers (utility, enclosed, flatbed) have similar rules. An unregistered vehicle of any kind cannot be parked on the street. On private property, some towns treat an unregistered vehicle as a code violation (abandoned vehicle) after a certain period. Boats on trailers follow the same rules as other trailers. The key is to check with the local code enforcement or building department before parking a large vehicle to avoid a violation."
+    en: "New York state law does not specifically regulate where RVs and boats can be parked on residential property. The rules come from local zoning codes. In Rochester, RVs, trucks, and trailers cannot park on any city street for more than 6 hours. In Irondequoit, one RV is allowed on the front driveway or hard surface (4 ft from front property line, 3 ft from side), one in the side yard, and up to two in the rear yard — maximum two in the open, no fixed utility connections, and no living or housekeeping use. Other towns have their own placement and setback rules. Contact the local code enforcement or building department for the exact limits in each municipality. Trailers (utility, enclosed, flatbed) have similar rules. An unregistered vehicle of any kind cannot be parked on the street. On private property, some towns treat an unregistered vehicle as a code violation (abandoned vehicle) after a certain period. Boats on trailers follow the same rules as other trailers. The key is to check with the local code enforcement or building department before parking a large vehicle to avoid a violation."
   },
 
   yourRights: {
@@ -37,9 +37,9 @@ export const RV_PARKING_STREET_RULES_NY = {
 
   legalOptions: {
     en: [
-      "Rochester: Large vehicle parking rules are enforced by the Bureau of Inspection and Compliance at (585) 428-6520.",
+      "Rochester: RVs, trucks, and trailers cannot park on any city street for more than 6 hours. Contact the Bureau of Inspection and Compliance at (585) 428-6520. (Verified April 2026.)",
+      "Irondequoit: One RV is allowed on the front yard driveway or hard surface, at least 4 ft from the front property line and 3 ft from the side. One RV in the side yard, up to two in the rear yard. Maximum two RVs stored in the open. No fixed utility connections. No living or housekeeping use on the premises. Building Department at (585) 467-8840. (Verified April 2026.)",
       "Greece: Code Enforcement at (585) 723-2396.",
-      "Irondequoit: Building Department at (585) 467-8840.",
       "Brighton: Building Department at (585) 784-5220.",
       "Henrietta: Building Department at (585) 334-7700.",
       "Penfield: Building and Zoning at (585) 340-8630.",
