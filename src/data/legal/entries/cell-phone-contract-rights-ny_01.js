@@ -91,6 +91,8 @@ export const CELL_PHONE_CONTRACT_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/GBS/349",
+    "https://www.law.cornell.edu/uscode/text/47/332",
     "https://www.fcc.gov/consumers/guides/cell-phone-contracts",
     "https://www.congress.gov/bill/113th-congress/senate-bill/517"
   ],

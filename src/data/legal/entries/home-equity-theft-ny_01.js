@@ -103,6 +103,7 @@ export const HOME_EQUITY_THEFT_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/RPT/A11",
     "https://www.supremecourt.gov/opinions/22pdf/22-166_8n59.pdf",
     "https://www.monroecounty.gov/finance-real-property-tax"
   ],

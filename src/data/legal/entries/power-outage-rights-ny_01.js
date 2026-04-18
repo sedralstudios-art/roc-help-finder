@@ -89,6 +89,8 @@ export const POWER_OUTAGE_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/PBS/32",
+    "https://www.nysenate.gov/legislation/laws/PBS/66",
     "https://www.dps.ny.gov",
     "https://www.rge.com"
   ],

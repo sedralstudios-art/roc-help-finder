@@ -88,6 +88,8 @@ export const INTERNET_OUTAGE_REFUND_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/GBS/349",
+    "https://www.nysenate.gov/legislation/laws/PBS/66",
     "https://www.fcc.gov/consumers/guides/filing-informal-complaint",
     "https://www.dps.ny.gov"
   ],

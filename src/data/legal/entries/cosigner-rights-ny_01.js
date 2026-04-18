@@ -91,6 +91,8 @@ export const COSIGNER_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/GOB/5-701",
+    "https://www.law.cornell.edu/cfr/text/16/part-444",
     "https://www.ftc.gov/legal-library/browse/rules/credit-practices-rule",
     "https://www.consumerfinance.gov/consumer-tools/debt-collection/"
   ],
