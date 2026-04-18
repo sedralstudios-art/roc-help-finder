@@ -92,6 +92,8 @@ export const SELLING_ONLINE_SALES_TAX_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/TAX/1101",
+    "https://www.nysenate.gov/legislation/laws/TAX/1105",
     "https://www.tax.ny.gov/bus/st/stidx.htm",
     "https://www.irs.gov/newsroom/hobby-or-business-irs-offers-tips-to-decide"
   ],

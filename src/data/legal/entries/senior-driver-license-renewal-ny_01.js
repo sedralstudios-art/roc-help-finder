@@ -103,6 +103,8 @@ export const SENIOR_DRIVER_LICENSE_RENEWAL_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/VAT/503",
+    "https://www.nysenate.gov/legislation/laws/VAT/506",
     "https://dmv.ny.gov/driver-license/request-driver-re-examination",
     "https://dmv.ny.gov/driver-license/renew-license"
   ],

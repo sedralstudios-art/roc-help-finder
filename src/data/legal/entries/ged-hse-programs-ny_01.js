@@ -105,6 +105,7 @@ export const GED_HSE_PROGRAMS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/EDN/A55",
     "https://www.acces.nysed.gov/hse",
     "https://www.nysed.gov/adult-education"
   ],

@@ -93,6 +93,8 @@ export const ABANDONED_HOUSE_NEXT_DOOR_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/RPA/1308",
+    "https://www.nysenate.gov/legislation/laws/RPT/1194",
     "https://www.cityofrochester.gov/vacantproperty/",
     "https://www.roclandbank.org"
   ],

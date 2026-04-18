@@ -104,6 +104,8 @@ export const TAX_REFUND_GARNISHMENT_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/31/3720A",
+    "https://www.nysenate.gov/legislation/laws/TAX/171-C",
     "https://fiscal.treasury.gov/top/",
     "https://www.irs.gov/forms-pubs/about-form-8379"
   ],
