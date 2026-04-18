@@ -3,6 +3,7 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Benefits Verification Letter — How to Prove You Receive Benefits" },

@@ -3,6 +3,7 @@ export const FREE_INTERNET_COMPUTER_ACCESS_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Free Internet and Computer Access in Monroe County" },

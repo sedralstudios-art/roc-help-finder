@@ -3,6 +3,7 @@ export const APPLY_FOR_BENEFITS_ONLINE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Skip the Line — How to Apply for Benefits Online in New York" },

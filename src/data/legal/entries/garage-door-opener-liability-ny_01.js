@@ -3,6 +3,7 @@ export const GARAGE_DOOR_OPENER_LIABILITY_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-regulation",
   status: "active",
 
   title: { en: "Garage Door Safety — Auto-Reverse Rules and What Happens If Someone Is Hurt" },
@@ -89,6 +90,8 @@ export const GARAGE_DOOR_OPENER_LIABILITY_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/cfr/text/16/part-1211",
+    "https://www.law.cornell.edu/uscode/text/15/2056",
     "https://www.cpsc.gov/Safety-Education/Safety-Guides/Home/Garage-Door",
     "https://www.ul.com"
   ],

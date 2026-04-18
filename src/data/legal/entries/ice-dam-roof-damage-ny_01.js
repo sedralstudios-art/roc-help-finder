@@ -3,6 +3,7 @@ export const ICE_DAM_ROOF_DAMAGE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Ice Dams and Roof Leaks — Who Pays and What Tenants Can Do" },

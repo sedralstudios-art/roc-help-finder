@@ -3,6 +3,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "How to Get ID and Documents in New York — Birth Certificate, State ID, Social Security Card" },

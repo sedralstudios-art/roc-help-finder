@@ -3,6 +3,7 @@ export const TREE_DAMAGE_NEIGHBOR_LIABILITY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Neighbor's Tree Damaged Your Property — Who Pays" },

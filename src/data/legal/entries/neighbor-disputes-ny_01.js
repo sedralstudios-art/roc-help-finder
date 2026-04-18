@@ -3,6 +3,7 @@ export const NEIGHBOR_DISPUTES_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Neighbor Disputes — Noise, Property Lines, Trees, and Nuisance in New York" },

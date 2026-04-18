@@ -3,6 +3,7 @@ export const EMOTIONAL_DISTRESS_CLAIMS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Emotional Distress Claims — When Someone's Conduct Is So Extreme It Causes Real Harm" },

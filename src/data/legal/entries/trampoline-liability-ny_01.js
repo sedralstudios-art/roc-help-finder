@@ -3,6 +3,7 @@ export const TRAMPOLINE_LIABILITY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Backyard Trampolines — Liability, Insurance, and What Happens If a Neighbor's Kid Gets Hurt" },

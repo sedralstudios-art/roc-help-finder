@@ -3,6 +3,7 @@ export const NEIGHBORS_SECURITY_LIGHT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Neighbor's Bright Security Light Shining Into Your House — What You Can Do" },

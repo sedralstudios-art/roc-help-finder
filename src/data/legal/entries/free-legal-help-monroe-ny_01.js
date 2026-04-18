@@ -3,6 +3,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Free Legal Help in Monroe County — Every Organization, What They Cover, and How to Reach Them" },
