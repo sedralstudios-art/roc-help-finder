@@ -5,6 +5,8 @@ export const entry = {
   category: "trades",
   tier: "city",
   jurisdiction: "us-ny-monroe-rochester-city",
+
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "HVAC work in the City of Rochester: what the city requires" },

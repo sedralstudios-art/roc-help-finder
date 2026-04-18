@@ -41,12 +41,13 @@ function labelFile(filename) {
   const authority = TIER_TO_AUTHORITY[tier];
   if (!authority) return `skip-unknown-tier-${tier}`;
 
-  // Insert authorityType line after jurisdiction line
-  const jurisdictionLineRegex = /(^\s*jurisdiction:\s*"[^"]+",\n)/m;
+  // Insert authorityType line after jurisdiction line (handle both LF and CRLF)
+  const jurisdictionLineRegex = /(^\s*jurisdiction:\s*"[^"]+",\r?\n)/m;
   if (!jurisdictionLineRegex.test(src)) return 'skip-no-jurisdiction';
 
   const indent = (src.match(/^(\s*)jurisdiction:/m) || [, '  '])[1];
-  const replacement = `$1${indent}authorityType: "${authority}",\n`;
+  const eol = src.includes('\r\n') ? '\r\n' : '\n';
+  const replacement = `$1${indent}authorityType: "${authority}",${eol}`;
   const updated = src.replace(jurisdictionLineRegex, replacement);
 
   if (updated === src) return 'skip-no-change';

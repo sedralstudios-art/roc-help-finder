@@ -3,6 +3,8 @@ export const PAROLE_BASICS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Parole in New York — How It Works, What the Conditions Are, and What to Do If You Are Violated" },
