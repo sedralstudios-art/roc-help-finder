@@ -117,6 +117,9 @@ export const entry = {
     "can't pay bills", "debt forgiveness", "start over", "too much debt"
   ],
   sources: [
+    "https://www.law.cornell.edu/uscode/text/11/chapter-7",
+    "https://www.law.cornell.edu/uscode/text/11/362",
+    "https://www.law.cornell.edu/uscode/text/11/522",
     "https://www.uscourts.gov/services-forms/bankruptcy",
     "https://www.justice.gov/ust/means-testing",
     "https://www.justia.com/bankruptcy/exemptions/bankruptcy-exemptions-50-state-survey/",

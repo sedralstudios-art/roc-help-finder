@@ -103,6 +103,8 @@ export const WHEN_SOMEONE_DIES_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/EPT/5-1.1-A",
+    "https://www.nysenate.gov/legislation/laws/SCP/A13",
     "https://www.health.ny.gov/vital_records/death.htm",
     "https://www.ssa.gov/benefits/survivors/"
   ],

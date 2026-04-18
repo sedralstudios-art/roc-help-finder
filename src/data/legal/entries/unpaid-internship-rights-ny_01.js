@@ -90,6 +90,9 @@ export const UNPAID_INTERNSHIP_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/29/203",
+    "https://www.nysenate.gov/legislation/laws/EXC/296-D",
+    "https://www.nysenate.gov/legislation/laws/LAB/198",
     "https://www.dol.gov/agencies/whd/fact-sheets/71-flsa-internships",
     "https://dhr.ny.gov/law"
   ],

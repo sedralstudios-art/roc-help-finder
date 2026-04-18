@@ -102,6 +102,8 @@ export const STUDENT_LOAN_OPTIONS_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/20/1087e",
+    "https://www.nysenate.gov/legislation/laws/CVP/213",
     "https://studentaid.gov",
     "https://studentaid.gov/pslf/"
   ],

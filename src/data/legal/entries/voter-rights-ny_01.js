@@ -89,6 +89,8 @@ export const VOTER_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ELN/3-110",
+    "https://www.nysenate.gov/legislation/laws/ELN/5-210",
     "https://www.elections.ny.gov",
     "https://voterreg.dmv.ny.gov"
   ],
