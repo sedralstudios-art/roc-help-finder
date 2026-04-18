@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
+    "build": "node scripts/verify-entry-uniqueness.cjs && vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
+    "verify": "node scripts/verify-entry-uniqueness.cjs",
     "preview": "vite preview"
   },
   "dependencies": {

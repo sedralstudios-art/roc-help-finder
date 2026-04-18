@@ -3,8 +3,8 @@
 // Composite key is the systematic uniqueness guarantee: two entries on the same topic in the
 // same authority scope cannot coexist because the build won't compile.
 //
-// Phase 1 (current): errors on duplicate labeled keys. Warns on unlabeled entries.
-// Phase 2 (after full rollout): errors on unlabeled entries too.
+// Phase 2 (current, since 2026-04-18): every entry must have authorityType.
+// An unlabeled entry fails the build.
 
 const path = require('path');
 const fs = require('fs');
@@ -67,9 +67,7 @@ function main() {
   const entries = files.map(parseEntry);
 
   const errors = [];
-  const warnings = [];
   const byKey = new Map();
-  let labeled = 0;
 
   for (const entry of entries) {
     if (!entry.id) {
@@ -77,14 +75,13 @@ function main() {
       continue;
     }
 
-    if (entry.authorityType) {
-      if (!VALID_AUTHORITY_TYPES.has(entry.authorityType)) {
-        errors.push(`${entry.filename}: invalid authorityType "${entry.authorityType}"`);
-        continue;
-      }
-      labeled++;
-    } else {
-      warnings.push(entry.filename);
+    if (!entry.authorityType) {
+      errors.push(`${entry.filename}: missing required authorityType field`);
+      continue;
+    }
+
+    if (!VALID_AUTHORITY_TYPES.has(entry.authorityType)) {
+      errors.push(`${entry.filename}: invalid authorityType "${entry.authorityType}"`);
       continue;
     }
 
@@ -97,12 +94,8 @@ function main() {
   }
 
   const total = entries.length;
-  const unlabeled = warnings.length;
 
-  console.log(`verify-entry-uniqueness: ${total} entries scanned`);
-  console.log(`  labeled:   ${labeled}`);
-  console.log(`  unlabeled: ${unlabeled} (will error once rollout is complete)`);
-  console.log(`  unique keys among labeled: ${byKey.size}`);
+  console.log(`verify-entry-uniqueness: ${total} entries scanned, ${byKey.size} unique composite keys`);
 
   if (errors.length) {
     console.error('');
