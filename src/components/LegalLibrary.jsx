@@ -276,7 +276,77 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// ENTRY DETAIL — unchanged from step 2
+// SHARE BAR — share individual entry pages to socials, text, email, or copy link
+// ═══════════════════════════════════════════════════════════════════════════
+function ShareBar({ entryId, title }) {
+  const [copied, setCopied] = React.useState(false);
+  const url = "https://helpfinder.help/know-your-rights/" + entryId;
+  const text = title + " — free legal guide from HelpFinder, the only .help you need";
+  const encodedUrl = encodeURIComponent(url);
+  const encodedText = encodeURIComponent(text);
+
+  const copyLink = () => {
+    navigator.clipboard.writeText(url).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }).catch(() => {
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
+
+  const nativeShare = () => {
+    if (navigator.share) {
+      navigator.share({ title: title, text: text, url: url }).catch(() => {});
+    }
+  };
+
+  const btnBase = {
+    display: "inline-flex", alignItems: "center", justifyContent: "center",
+    gap: 5, padding: "7px 12px", borderRadius: 8, border: "1px solid " + C.border,
+    background: C.white, cursor: "pointer", fontFamily: "inherit",
+    fontSize: 12, fontWeight: 600, lineHeight: 1, whiteSpace: "nowrap",
+  };
+
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center", margin: "16px 0" }}>
+      <span style={{ fontSize: 12, color: C.dust, fontWeight: 600, marginRight: 4 }}>Share:</span>
+      <button onClick={copyLink} style={{ ...btnBase, color: copied ? C.forest : C.bark, background: copied ? C.sage : C.white }}>
+        {copied ? "Copied" : "Copy link"}
+      </button>
+      <a href={"https://www.facebook.com/sharer/sharer.php?u=" + encodedUrl} target="_blank" rel="noopener noreferrer"
+        style={{ ...btnBase, color: "#1877F2", textDecoration: "none" }}>
+        Facebook
+      </a>
+      <a href={"https://twitter.com/intent/tweet?url=" + encodedUrl + "&text=" + encodedText} target="_blank" rel="noopener noreferrer"
+        style={{ ...btnBase, color: "#000", textDecoration: "none" }}>
+        X
+      </a>
+      <a href={"mailto:?subject=" + encodeURIComponent(title) + "&body=" + encodedText + "%0A%0A" + encodedUrl}
+        style={{ ...btnBase, color: C.bark, textDecoration: "none" }}>
+        Email
+      </a>
+      <a href={"sms:?body=" + encodedText + " " + encodedUrl}
+        style={{ ...btnBase, color: C.forest, textDecoration: "none" }}>
+        Text
+      </a>
+      {typeof navigator !== "undefined" && navigator.share && (
+        <button onClick={nativeShare} style={{ ...btnBase, color: C.forest }}>
+          More
+        </button>
+      )}
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// ENTRY DETAIL
 // ═══════════════════════════════════════════════════════════════════════════
 export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, onOpenEntry }) {
   const entry = entryId ? LEGAL_ENTRIES_BY_ID[entryId] : null;
@@ -316,6 +386,8 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       <p style={{ fontSize: 17, color: C.stone, lineHeight: 1.6, marginBottom: 20, fontWeight: 500 }}>
         {pickText(entry.summary, legalLang)}
       </p>
+
+      <ShareBar entryId={entry.id} title={pickText(entry.title, "en")} />
 
       {entry.reviewedBy && (
         <div style={{
@@ -462,6 +534,8 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       <div style={{ fontSize: 11, color: C.dust, marginTop: 14, paddingTop: 12, borderTop: "1px solid " + C.border }}>
         Last audited: {entry.lastAudited || "unknown"} · Entry ID: {entry.id}
       </div>
+
+      <ShareBar entryId={entry.id} title={pickText(entry.title, "en")} />
 
       <div style={{ marginTop: 20, padding: "14px 18px", background: C.amberLight, borderRadius: 12, border: "1px solid #f0dab0", fontSize: 12, color: C.stone, lineHeight: 1.6 }}>
         ⚠️ <strong>Not legal advice.</strong> This guide explains your general rights. Laws change. For your specific situation, contact one of the free legal aid organizations listed above.
