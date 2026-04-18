@@ -103,6 +103,8 @@ export const STUDENT_LOAN_FORGIVENESS_PSLF_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/20/1087e",
+    "https://www.law.cornell.edu/cfr/text/34/685.219",
     "https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service",
     "https://studentaid.gov/manage-loans/repayment/plans/income-driven"
   ],

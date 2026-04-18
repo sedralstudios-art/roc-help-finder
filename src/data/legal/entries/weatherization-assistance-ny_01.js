@@ -105,6 +105,8 @@ export const WEATHERIZATION_ASSISTANCE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/6861",
+    "https://www.law.cornell.edu/cfr/text/10/part-440",
     "https://hcr.ny.gov/weatherization-assistance-program",
     "https://www.energy.gov/scep/wap/weatherization-assistance-program"
   ],

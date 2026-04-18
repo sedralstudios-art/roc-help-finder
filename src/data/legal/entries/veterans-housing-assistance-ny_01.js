@@ -107,6 +107,8 @@ export const VETERANS_HOUSING_ASSISTANCE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/38/chapter-37",
+    "https://www.law.cornell.edu/uscode/text/42/11403",
     "https://www.va.gov/housing-assistance/home-loans/",
     "https://www.va.gov/homeless/hud-vash.asp"
   ],

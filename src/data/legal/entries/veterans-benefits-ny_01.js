@@ -103,6 +103,8 @@ export const VETERANS_BENEFITS_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/38",
+    "https://www.law.cornell.edu/uscode/text/38/1110",
     "https://www.va.gov/",
     "https://www.monroecounty.gov/veterans"
   ],

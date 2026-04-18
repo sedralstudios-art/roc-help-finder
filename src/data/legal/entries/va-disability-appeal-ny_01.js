@@ -103,6 +103,8 @@ export const VA_DISABILITY_APPEAL_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/38/7104",
+    "https://www.law.cornell.edu/uscode/text/38/5104C",
     "https://www.va.gov/decision-reviews/",
     "https://www.benefits.va.gov/benefits/appeals.asp"
   ],
