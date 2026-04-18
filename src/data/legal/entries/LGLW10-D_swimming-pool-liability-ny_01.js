@@ -56,6 +56,12 @@ export const SWIMMING_POOL_LIABILITY_NY = {
       "Mendon: permit required for pools over 24 inches deep. Located in rear or side yard. Not within 10 ft of septic system. (Verified 2026-04-17.)",
       "Clarkson: fence 42 to 60 inches for pools 3+ ft deep with walls under 42 inches. (Verified 2026-04-17.)",
       "Hamlin: fence minimum 4 ft with self-closing, self-latching, lockable gate. (Verified 2026-04-17.)",
+      "Honeoye Falls: barrier at least 4 ft high; max 2 inches between barrier and ground. Permit required for pools over 24 inches deep. (Verified 2026-04-17.)",
+      "Spencerport: pool not less than 6 ft from side/rear line, 10 ft from any other building. Fence separate from pool, minimum 4 ft from water's edge. Fence 4 ft high, self-closing/self-latching gate. (Verified 2026-04-17.)",
+      "Scottsville: pool setback 75 ft from any property line. Located per district setback requirements. (Verified 2026-04-17.)",
+      "Churchville: no permit needed for pools under 24 inches above ground (unless serviced by pool filter). (Verified 2026-04-17.)",
+      "Riga: no permit for above-ground pools under 24 inches deep. Contact Town for deeper pool requirements. (Verified 2026-04-17.)",
+      "Wheatland: pool defined as over 18 inches deep. Contact Town for setback requirements. (Verified 2026-04-17.)",
       "A neighbor can report an unfenced or unsafe pool to local code enforcement, which can inspect and cite the property owner.",
       "If a drowning or serious injury occurs, criminal charges (reckless endangerment under Penal Law Section 120.20) may be filed in addition to civil claims.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."

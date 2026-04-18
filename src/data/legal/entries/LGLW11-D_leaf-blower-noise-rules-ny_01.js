@@ -48,6 +48,8 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
       "Hamlin: noise prohibited especially between 9:00 PM and 7:00 AM. (Verified 2026-04-17.)",
       "Hilton: noise prohibited especially between 9:00 PM and 7:00 AM. (Verified 2026-04-17.)",
       "Ogden: noise over 96 dB prohibited. (Verified 2026-04-17.)",
+      "Churchville: noise prohibited especially 9:00 PM to 7:00 AM. (Verified 2026-04-17.)",
+      "Spencerport: has noise ordinance (Chapter 198) — contact Village for specific hours. (Verified 2026-04-17.)",
       "For any other town, call the town hall and ask for code enforcement.",
       "If the noise is extreme or ongoing and code enforcement is not helping, a resident can pursue a private nuisance claim in court.",
       "A polite conversation with the neighbor is often the fastest solution — many people do not realize how loud leaf blowers are or that the timing bothers someone.",

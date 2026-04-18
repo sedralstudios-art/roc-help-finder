@@ -44,6 +44,8 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
       "Henrietta: Police non-emergency at (585) 334-4500.",
       "Penfield: Police non-emergency at (585) 340-8600.",
       "Webster: Police non-emergency at (585) 872-1216.",
+      "Churchville: noise prohibited especially 9:00 PM to 7:00 AM. (Verified 2026-04-17.)",
+      "Spencerport: has noise ordinance (Chapter 198) — contact Village for specific hours. (Verified 2026-04-17.)",
       "For any other town, the town clerk or building department can confirm the allowed construction hours.",
       "A noise log (date, time, type of noise, duration) strengthens complaints about ongoing violations.",
       "Henrietta: Construction allowed 7 a.m. to 9 p.m. (Code § 168-2). (Verified 2026-04-17.)",
