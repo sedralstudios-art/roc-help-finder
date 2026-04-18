@@ -37,16 +37,15 @@ export const SLIP_AND_FALL_PREMISES_LIABILITY_NY = {
 
   legalOptions: {
     en: [
-      "Documenting the scene immediately — photos of the hazard, the location, the conditions — is critical. Photos taken at the time of the injury are the strongest evidence.",
-      "Reporting the injury to the property owner or manager and keeping a copy of the report creates a record.",
+      "Photos of the hazard and contemporaneous incident reports to the property owner or manager are the kind of evidence courts rely on to show the owner knew or should have known about the condition.",
       "For injuries on municipal property (city sidewalks, public buildings), a notice of claim must be filed within 90 days. The Monroe County Attorney's office handles claims against the county at (585) 753-1220.",
-      "Many personal injury attorneys handle slip-and-fall cases on contingency — no fee unless the case is won.",
+      "Many personal injury attorneys handle premises liability cases on contingency.",
       "Free legal advice is available through Legal Aid Society of Rochester at (585) 232-4090 for low-income residents."
     ]
   },
 
   example: {
-    en: "A woman slips on ice in the parking lot of a grocery store in Henrietta. She breaks her wrist. She takes photos of the ice patch and reports the incident to the store manager. Investigation shows the store knew about the icy condition from earlier that morning and did not salt the lot. She hires a personal injury attorney on contingency. The store's insurance settles the claim for medical bills, lost wages, and pain and suffering."
+    en: "A person is injured in a fall on an icy commercial parking lot in Henrietta. Under New York law, premises liability turns on whether the property owner knew or should have known about the hazard and failed to act in a reasonable time. Records showing the lot had been untreated since the morning support that the owner had constructive notice. Pure comparative negligence (CPLR § 1411) means recovery is possible even if the injured person bears some fault — the award is simply reduced by that percentage."
   },
 
   counsel: [
