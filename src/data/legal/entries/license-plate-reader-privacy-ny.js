@@ -71,7 +71,7 @@ export const LICENSE_PLATE_READER_PRIVACY_NY = {
   relatedIds: [
     "recording-police-ny",
     "rights-during-police-encounter-ny",
-    "foil-ny",
+    "public-records-request-ny",
     "internet-privacy-data-breach-ny",
     "refuse-to-show-id-police-ny"
   ],

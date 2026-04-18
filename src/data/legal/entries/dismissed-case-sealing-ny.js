@@ -100,7 +100,7 @@ export const DISMISSED_CASE_SEALING_NY = {
   relatedIds: [
     "clean-slate-ny",
     "rights-when-arrested-ny",
-    "foil-ny"
+    "public-records-request-ny"
   ],
 
   relatedHelpResources: [],

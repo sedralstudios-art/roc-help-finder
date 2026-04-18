@@ -69,7 +69,6 @@ export const NEIGHBOR_SMOKING_SECONDHAND_APARTMENT_NY = {
   ],
 
   relatedIds: [
-    "apartment-smell-smoke-neighbor-ny",
     "apartment-smell-marijuana-neighbor-ny",
     "tenant-habitability-ny",
     "tenant-rights-repairs-ny",

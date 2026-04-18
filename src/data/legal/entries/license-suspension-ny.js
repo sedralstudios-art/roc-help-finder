@@ -115,7 +115,7 @@ export const LICENSE_SUSPENSION_NY = {
     "dwi-first-offense-ny",
     "speeding-ticket-ny",
     "child-support-ny",
-    "foil-ny"
+    "public-records-request-ny"
   ],
 
   relatedHelpResources: [],

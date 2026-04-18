@@ -98,6 +98,47 @@ citation parser in `src/components/LegalLibrary.jsx` (`parseSource`) and
 Law § 235-b". 47 NY code prefixes mapped; also handles U.S. Code, CFR, NYCRR
 (Cornell mirror), UCC, Constitution. Use these URL shapes whenever possible.
 
+### Duplicate-detection gates (hard rule before writing any new entry)
+Three signals must be checked before drafting. The CCAP and motor-vehicle-lien
+duplicates that slipped through on 2026-04-18 happened because the first two
+were weak. All three are now live:
+
+1. **primaryStatute uniqueness** — every entry whose authorityType is
+   `state-statute`, `federal-statute`, `state-regulation`, or
+   `federal-regulation` carries a `primaryStatute` field like
+   `"NY SSL 410-W"` or `"42 USC 1396u-4"`, auto-extracted from sources[]
+   by `scripts/lib/parse-statute.cjs`. The validator warns when two entries
+   share `(normalizedPrimaryStatute, authorityType)`. New entries with an
+   obvious primary statute MUST set this field. Two entries sharing a statute
+   is a strong duplicate signal — narrow each primaryStatute to a specific
+   sub-section, or confirm explicitly that the overlap is intentional.
+
+2. **Tag + title near-duplicate warning** — the validator also flags any pair
+   with ≥4 shared tags AND ≥0.5 title Jaccard. Not blocking, but prominent
+   in verify output. Before committing, read the WARN section.
+
+3. **Most general plain-English term for ID, title, and tags** — this is the
+   strongest human-level defense. Two authors writing about the same topic
+   converge on the same general term, so their IDs and titles collide on the
+   Jaccard check. Pick the term a non-lawyer would Google. Examples:
+   - Prefer `neighbor-smoking-secondhand-apartment-ny`, not
+     `apartment-smell-smoke-neighbor-ny` (general "secondhand smoke" over
+     specific "smell").
+   - Prefer `public-records-request-ny`, not `foil-ny` (what people search
+     for, not just the acronym). If both exist and cover the same ground,
+     the non-acronym form wins unless the acronym is the universal plain
+     term (e.g., SNAP, Medicaid).
+   - Prefer `childcare-assistance-ny`, not `child-care-subsidy-ccap-ny`
+     (the acronym was redundant with two existing entries).
+
+Before writing any new entry:
+- Grep existing entries with broad keyword stems (use `grep -iE "stem1|stem2"`
+  on the file names, not just narrow-hyphenated variants).
+- Run `npm run verify` after drafting and read the new WARN lines.
+- If a WARN surfaces a real overlap, merge or delete rather than shipping
+  both. Shipping two entries on the same topic dilutes search rank and
+  confuses users.
+
 ### One-shot rename scripts
 `scripts/label-authority-types.cjs`, `scripts/rename-strip-nn.cjs`, and
 `scripts/rename-authority-suffix.cjs` are one-shot scripts used during the

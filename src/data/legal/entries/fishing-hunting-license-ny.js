@@ -69,7 +69,7 @@ export const FISHING_HUNTING_LICENSE_NY = {
   ],
 
   relatedIds: [
-    "foil-ny",
+    "public-records-request-ny",
     "voter-rights-ny"
   ],
 

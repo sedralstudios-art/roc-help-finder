@@ -72,7 +72,7 @@ export const PRIVATE_NUISANCE_NY_CL = {
     "noise-complaint-quiet-hours-ny",
     "tree-damage-neighbor-liability-ny-cl",
     "neighbors-security-light-ny-cl",
-    "apartment-smell-smoke-neighbor-ny"
+    "neighbor-smoking-secondhand-apartment-ny"
   ],
 
   relatedHelpResources: [],

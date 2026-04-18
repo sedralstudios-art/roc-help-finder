@@ -85,7 +85,7 @@ export const RECORDING_POLICE_NY = {
     "rights-during-police-encounter-ny",
     "rights-when-arrested-ny",
     "right-to-a-lawyer-ny",
-    "foil-ny"
+    "public-records-request-ny"
   ],
 
   relatedHelpResources: [],

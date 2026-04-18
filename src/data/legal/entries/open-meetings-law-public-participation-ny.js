@@ -70,7 +70,7 @@ export const OPEN_MEETINGS_LAW_PUBLIC_PARTICIPATION_NY = {
   ],
 
   relatedIds: [
-    "foil-ny",
+    "public-records-request-ny",
     "voter-rights-ny",
     "zoning-variance-permit-ny",
     "anti-slapp-lawsuit-ny"

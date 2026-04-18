@@ -69,7 +69,6 @@ export const PUBLIC_RECORDS_REQUEST_NY = {
   ],
 
   relatedIds: [
-    "foil-ny",
     "housing-code-violations-ny",
     "get-rap-sheet-ny",
     "patient-rights-hospital-ny"
