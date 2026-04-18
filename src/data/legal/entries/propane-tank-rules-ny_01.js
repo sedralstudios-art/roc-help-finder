@@ -3,7 +3,7 @@ export const PROPANE_TANK_RULES_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "state-regulation",
   status: "active",
 
   title: { en: "Propane Tank Rules — Placement, Permits, and Who Owns the Tank" },
