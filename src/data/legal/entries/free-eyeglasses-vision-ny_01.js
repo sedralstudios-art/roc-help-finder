@@ -3,7 +3,7 @@ export const FREE_EYEGLASSES_VISION_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Free or Low-Cost Eye Exams and Glasses — Programs in Monroe County" },

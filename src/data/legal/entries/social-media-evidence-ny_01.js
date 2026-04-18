@@ -3,7 +3,7 @@ export const SOCIAL_MEDIA_EVIDENCE_NY = {
   category: "criminal",
   tier: "federal",
   jurisdiction: "us-ny",
-  authorityType: "federal-statute",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Social Media as Evidence — How Posts, Messages, and Photos Are Used in Court" },

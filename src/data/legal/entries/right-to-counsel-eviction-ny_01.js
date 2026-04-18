@@ -3,7 +3,7 @@ export const RIGHT_TO_COUNSEL_EVICTION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Right to Counsel in Eviction Cases — Free Legal Representation in Monroe County" },

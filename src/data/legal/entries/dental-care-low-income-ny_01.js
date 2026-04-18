@@ -3,7 +3,7 @@ export const DENTAL_CARE_LOW_INCOME_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "agency-program",
   status: "active",
 
   title: { en: "Dental Care for Low-Income Adults in New York" },

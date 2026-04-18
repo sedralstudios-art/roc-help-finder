@@ -89,6 +89,8 @@ export const TRAFFIC_TICKET_OPTIONS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/VAT/1800",
+    "https://www.nysenate.gov/legislation/laws/VAT/1803",
     "https://dmv.ny.gov/tickets",
     "https://dmv.ny.gov/tickets/point-insurance-reduction-program"
   ],

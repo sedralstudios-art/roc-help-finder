@@ -3,7 +3,7 @@ export const LANDLORD_ENTER_EMERGENCY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "When Can a Landlord Enter Without Permission — Emergencies and What Counts" },

@@ -91,6 +91,8 @@ export const LICENSE_POINTS_REDUCTION_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ISC/2336",
+    "https://www.nysenate.gov/legislation/laws/VAT/510",
     "https://dmv.ny.gov/tickets/point-insurance-reduction-program",
     "https://dmv.ny.gov/tickets/about-nys-driver-point-system"
   ],
