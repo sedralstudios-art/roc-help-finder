@@ -126,6 +126,35 @@ There is a SENSITIVE set in HelpFinder.jsx (~line 1299) that gates DV,
 immigration, and other high-risk categories with a privacy notice and Quick Exit.
 Do not audit, modify, or "improve" this set without explicit approval.
 
+### Draft gate for high-harm entries (hard rule)
+Any legal entry where incorrect guidance could directly harm someone must carry
+`draft: true` until the maintainer has given explicit greenlight to publish.
+The loader in `src/data/legal/index.js`, `scripts/prerender-legal.cjs`, and
+`scripts/generate-sitemap.cjs` all filter drafts out — drafted entries do not
+render in the UI, prerender to HTML, appear in the sitemap, or resolve through
+relatedIds.
+
+Categories that default to `draft: true` on any new entry:
+- Immigration, visa status, deportation, undocumented rights
+- Domestic violence, orders of protection, firearm surrender related to DV
+- Sexual violence, stalking, harassment, revenge porn, campus sexual violence
+- Child abuse reporting, mandated reporter, CPS process, safe-haven surrender
+- Elder abuse, adult protective services, power-of-attorney abuse
+- Mental health coercion (Kendra's Law, psychiatric advance directive, civil commitment)
+- Police encounter, right to remain silent, recording police, citizen's arrest
+- Human trafficking, victim compensation, T/U visa
+
+New entries in these categories MUST include `draft: true` right after
+`status: "active",`. Do not flip to published without explicit maintainer
+greenlight for that specific entry. The 2026-04-18 retrofit list is in
+`scripts/migrate-draft-sensitive-entries-68.cjs`. The validator
+(`verify-entry-uniqueness.cjs`) still checks drafts for uniqueness so they
+do not collide with future published entries.
+
+Glossary terms are prerendered separately (`scripts/prerender-glossary.cjs`)
+and are NOT yet draft-gated. If adding glossary terms in the high-harm
+categories above, flag them to the maintainer.
+
 ### Routing and crawl coverage
 As of April 2026 (migration 53), vercel.json has explicit rewrites only for /help
 and /help/:path* — the blanket catch-all has been removed. Unknown paths now
