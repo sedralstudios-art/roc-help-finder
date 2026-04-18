@@ -8,7 +8,7 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
   title: { en: "Snow Removal Rules — Deadlines and Fines by Monroe County Town" },
 
   summary: {
-    en: "Most towns in Monroe County require property owners to clear snow and ice from sidewalks within a certain number of hours after the snow stops. Rochester gives 24 hours. Other towns vary. Failure to clear can result in fines, and if someone slips and falls, the property owner may be liable for injuries."
+    en: "Most towns in Monroe County require property owners to clear snow and ice from sidewalks within a certain number of hours after the snow stops. In Rochester, snow that fell after 8:00 PM must be cleared by 9:00 AM the next day, and snow that fell after 9:00 AM must be cleared by 8:00 PM the same day. Other towns vary. Failure to clear can result in fines, and if someone slips and falls, the property owner may be liable for injuries."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
   },
 
   whatItMeans: {
-    en: "Snow removal rules in Monroe County come from local ordinances — each municipality sets its own deadline and fine structure. In Rochester, property owners must clear sidewalks within 24 hours after the snow stops falling. The fine for not clearing is $25 to $250 per day. If a property owner does not clear, the city can clear it and bill the property owner. In many suburbs, similar rules apply — contact the local DPW for the exact deadline in each town. Some towns do not have a sidewalk snow removal ordinance because the streets do not have sidewalks. For tenants, the lease determines who is responsible. If the lease is silent, the landlord is generally responsible for common areas (parking lots, shared walkways) and the tenant is responsible for their individual entrance. However, if a person slips and falls on an uncleared sidewalk, both the landlord and the property owner can be held liable. Businesses have the same obligation as residential property owners and face the same fines plus the risk of personal injury lawsuits from customers."
+    en: "Snow removal rules in Monroe County come from local ordinances — each municipality sets its own deadline and fine structure. In Rochester, snow that fell after 8:00 PM must be cleared by 9:00 AM the next day, and snow that fell after 9:00 AM must be cleared by 8:00 PM the same day. The Commissioner can remove snow from any sidewalk if left for 12 hours and bill the property owner. Shoveling snow onto sidewalks, roads, or fire hydrants is illegal. In many suburbs, similar rules apply — contact the local DPW for the exact deadline in each town. Some towns do not have a sidewalk snow removal ordinance because the streets do not have sidewalks. For tenants, the lease determines who is responsible. If the lease is silent, the landlord is generally responsible for common areas (parking lots, shared walkways) and the tenant is responsible for their individual entrance. However, if a person slips and falls on an uncleared sidewalk, both the landlord and the property owner can be held liable. Businesses have the same obligation as residential property owners and face the same fines plus the risk of personal injury lawsuits from customers."
   },
 
   yourRights: {
@@ -37,7 +37,7 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
 
   legalOptions: {
     en: [
-      "Rochester: Sidewalks must be cleared within 24 hours after snowfall. Code enforcement at (585) 428-6520. Report uncleared sidewalks through 311.",
+      "Rochester: snow that fell after 8:00 PM must be cleared by 9:00 AM the next day. Snow that fell after 9:00 AM must be cleared by 8:00 PM the same day. Commissioner can remove snow from any sidewalk if left for 12 hours. Shoveling snow onto sidewalks, roads, or fire hydrants is illegal. Call 311. (Verified 2026-04-17.)",
       "Greece: Property owners must clear within 24 hours. DPW at (585) 723-2425.",
       "Irondequoit: 24-hour deadline. DPW at (585) 336-6075.",
       "Brighton: 24-hour deadline. Call (585) 784-5250.",
