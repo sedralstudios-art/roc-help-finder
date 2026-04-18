@@ -3,7 +3,7 @@ export const NON_COMPETE_AGREEMENTS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "common-law",
   status: "active",
 
   title: { en: "Non-Compete Agreements in New York — What Your Employer Can and Cannot Restrict" },

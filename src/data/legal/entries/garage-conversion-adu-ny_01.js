@@ -3,7 +3,7 @@ export const GARAGE_CONVERSION_ADU_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Garage Conversions and Accessory Dwelling Units (ADUs) — Rules in New York" },
