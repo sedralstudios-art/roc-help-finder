@@ -70,11 +70,11 @@ export const NEIGHBOR_HARASSMENT_RESTRAINING_ORDER_NY = {
 
   relatedIds: [
     "harassment-cyberstalking-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "order-of-protection-ny",
     "noise-complaint-quiet-hours-ny",
     "property-survey-boundary-dispute-ny",
-    "neighbors-security-light-ny"
+    "neighbors-security-light-ny-cl"
   ],
 
   relatedHelpResources: [],

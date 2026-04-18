@@ -71,7 +71,7 @@ export const INVISIBLE_FENCE_DOG_ESCAPE_NY = {
     "dog-bite-liability-ny",
     "animal-at-large-roaming-dog-ny",
     "fence-height-rules-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "pet-licensing-dog-license-ny"
   ],
 

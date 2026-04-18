@@ -72,7 +72,7 @@ export const SUMP_PUMP_DISCHARGE_NY = {
     "sewer-backup-liability-ny",
     "water-damage-tenant-rights-ny",
     "code-enforcement-complaint-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "snow-ice-sidewalk-liability-ny"
   ],
 

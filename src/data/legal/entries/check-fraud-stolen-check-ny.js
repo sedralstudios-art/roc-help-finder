@@ -71,7 +71,7 @@ export const CHECK_FRAUD_STOLEN_CHECK_NY = {
     "identity-theft-ny",
     "unauthorized-charges-bank-ny",
     "scam-protection-ny",
-    "lost-stolen-wallet-what-to-do-ny",
+    "lost-stolen-wallet-what-to-do-ny-program",
     "credit-report-dispute-ny"
   ],
 

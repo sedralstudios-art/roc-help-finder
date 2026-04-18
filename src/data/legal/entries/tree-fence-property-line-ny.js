@@ -68,7 +68,7 @@ export const TREE_FENCE_PROPERTY_LINE_NY = {
   ],
 
   relatedIds: [
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "small-claims-procedure-ny",
     "noise-complaint-quiet-hours-ny",
     "housing-code-violations-ny"

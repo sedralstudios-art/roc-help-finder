@@ -90,7 +90,7 @@ export const ANIMAL_AT_LARGE_ROAMING_DOG_NY = {
     "keeping-a-found-pet-ny",
     "pet-licensing-dog-license-ny",
     "noise-ordinance-barking-dog-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

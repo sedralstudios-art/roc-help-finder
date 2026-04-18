@@ -68,7 +68,7 @@ export const ZONING_VARIANCE_PERMIT_NY = {
 
   relatedIds: [
     "housing-code-violations-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "tree-fence-property-line-ny",
     "property-tax-grievance-ny"
   ],

@@ -1,5 +1,5 @@
 export const COURT_SYSTEM_EXPLAINED_NY = {
-  id: "court-system-explained-ny",
+  id: "court-system-explained-ny-program",
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",

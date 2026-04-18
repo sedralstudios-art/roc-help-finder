@@ -71,7 +71,7 @@ export const POTHOLE_DAMAGE_CLAIM_NY = {
     "personal-injury-basics-ny",
     "auto-insurance-claim-denied-ny",
     "slip-and-fall-premises-liability-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

@@ -73,7 +73,7 @@ export const NDA_NON_DISCLOSURE_AGREEMENT_NY = {
     "whistleblower-protections-ny",
     "wrongful-termination-ny",
     "severance-agreements-ny",
-    "non-compete-agreements-ny"
+    "non-compete-agreements-ny-cl"
   ],
 
   relatedHelpResources: [],

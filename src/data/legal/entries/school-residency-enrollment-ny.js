@@ -72,7 +72,7 @@ export const SCHOOL_RESIDENCY_ENROLLMENT_NY = {
     "homeless-student-rights-ny",
     "school-discipline-rights-ny",
     "special-education-iep-ny",
-    "getting-id-documents-ny"
+    "getting-id-documents-ny-program"
   ],
 
   relatedHelpResources: [],

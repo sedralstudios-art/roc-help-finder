@@ -1,5 +1,5 @@
 export const APPLY_FOR_BENEFITS_ONLINE_NY = {
-  id: "apply-for-benefits-online-ny",
+  id: "apply-for-benefits-online-ny-program",
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",

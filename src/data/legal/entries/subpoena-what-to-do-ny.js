@@ -69,7 +69,7 @@ export const SUBPOENA_WHAT_TO_DO_NY = {
   ],
 
   relatedIds: [
-    "court-system-explained-ny",
+    "court-system-explained-ny-program",
     "right-to-remain-silent-ny",
     "cooperating-witness-rights-ny",
     "criminal-case-process-ny",

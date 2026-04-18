@@ -76,7 +76,7 @@ export const HOME_BUSINESS_ZONING_NY = {
     "home-daycare-license-ny",
     "roc-garbage-plate-food-permit-ny",
     "garage-conversion-adu-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

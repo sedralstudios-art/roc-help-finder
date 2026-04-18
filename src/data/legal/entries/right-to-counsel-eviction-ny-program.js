@@ -1,5 +1,5 @@
 export const RIGHT_TO_COUNSEL_EVICTION_NY = {
-  id: "right-to-counsel-eviction-ny",
+  id: "right-to-counsel-eviction-ny-program",
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",

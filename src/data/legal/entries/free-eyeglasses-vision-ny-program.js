@@ -1,5 +1,5 @@
 export const FREE_EYEGLASSES_VISION_NY = {
-  id: "free-eyeglasses-vision-ny",
+  id: "free-eyeglasses-vision-ny-program",
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
@@ -70,7 +70,7 @@ export const FREE_EYEGLASSES_VISION_NY = {
   relatedIds: [
     "medicaid-ny",
     "uninsured-health-care-ny",
-    "dental-care-low-income-ny",
+    "dental-care-low-income-ny-program",
     "health-insurance-marketplace-ny",
     "prescription-assistance-ny"
   ],

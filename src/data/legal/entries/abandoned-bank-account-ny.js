@@ -72,7 +72,7 @@ export const ABANDONED_BANK_ACCOUNT_NY = {
     "when-someone-dies-estate-ny",
     "small-estate-affidavit-ny",
     "identity-theft-ny",
-    "lost-stolen-wallet-what-to-do-ny"
+    "lost-stolen-wallet-what-to-do-ny-program"
   ],
 
   relatedHelpResources: [],

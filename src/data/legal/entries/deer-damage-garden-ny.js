@@ -84,7 +84,7 @@ export const DEER_DAMAGE_GARDEN_NY = {
     "raccoon-skunk-wildlife-removal-ny",
     "fence-height-rules-ny",
     "auto-insurance-claim-denied-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

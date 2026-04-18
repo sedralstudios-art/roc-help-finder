@@ -1,5 +1,5 @@
 export const LANDLORD_SHOWING_APARTMENT_NOTICE_NY = {
-  id: "landlord-showing-apartment-notice-ny",
+  id: "landlord-showing-apartment-notice-ny-cl",
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",

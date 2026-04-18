@@ -73,7 +73,7 @@ export const ABANDONED_HOUSE_NEXT_DOOR_NY = {
     "housing-code-violations-ny",
     "code-enforcement-complaint-ny",
     "property-tax-sale-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "trespassing-laws-ny"
   ],
 

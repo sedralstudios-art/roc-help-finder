@@ -68,7 +68,7 @@ export const PRIVATE_ROAD_MAINTENANCE_NY = {
   ],
 
   relatedIds: [
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "property-survey-boundary-dispute-ny",
     "snow-plow-damage-property-ny",
     "pothole-damage-claim-ny",

@@ -70,7 +70,7 @@ export const VOTER_RIGHTS_NY = {
 
   relatedIds: [
     "reentry-rights-ny",
-    "getting-id-documents-ny"
+    "getting-id-documents-ny-program"
   ],
 
   relatedHelpResources: [],

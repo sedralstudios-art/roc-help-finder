@@ -82,7 +82,7 @@ export const VETERANS_TREATMENT_COURT_NY = {
   ],
 
   relatedIds: [
-    "problem-solving-courts-ny",
+    "problem-solving-courts-ny-program",
     "dwi-first-offense-ny",
     "veterans-benefits-ny",
     "criminal-case-process-ny",

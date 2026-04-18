@@ -1,5 +1,5 @@
 export const TREE_DAMAGE_NEIGHBOR_LIABILITY_NY = {
-  id: "tree-damage-neighbor-liability-ny",
+  id: "tree-damage-neighbor-liability-ny-cl",
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
@@ -69,7 +69,7 @@ export const TREE_DAMAGE_NEIGHBOR_LIABILITY_NY = {
 
   relatedIds: [
     "tree-fence-property-line-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "renters-insurance-ny",
     "small-claims-procedure-ny",
     "slip-and-fall-premises-liability-ny"

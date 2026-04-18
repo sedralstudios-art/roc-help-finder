@@ -68,8 +68,8 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
   ],
 
   relatedIds: [
-    "neighbor-disputes-ny",
-    "tree-damage-neighbor-liability-ny",
+    "neighbor-disputes-ny-cl",
+    "tree-damage-neighbor-liability-ny-cl",
     "small-claims-procedure-ny",
     "utility-shutoff-protections-ny"
   ],

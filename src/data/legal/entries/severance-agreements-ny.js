@@ -68,7 +68,7 @@ export const SEVERANCE_AGREEMENTS_NY = {
   relatedIds: [
     "wrongful-termination-ny",
     "workplace-discrimination-ny",
-    "non-compete-agreements-ny",
+    "non-compete-agreements-ny-cl",
     "fired-for-cause-unemployment-ny"
   ],
 

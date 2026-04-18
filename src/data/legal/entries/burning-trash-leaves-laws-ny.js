@@ -69,7 +69,7 @@ export const BURNING_TRASH_LEAVES_LAWS_NY = {
 
   relatedIds: [
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "zoning-variance-permit-ny",
     "code-enforcement-complaint-ny"
   ],

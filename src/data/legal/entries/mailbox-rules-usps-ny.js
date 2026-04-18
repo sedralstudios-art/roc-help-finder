@@ -71,7 +71,7 @@ export const MAILBOX_RULES_USPS_NY = {
     "porch-piracy-package-theft-ny",
     "identity-theft-ny",
     "snow-plow-damage-property-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

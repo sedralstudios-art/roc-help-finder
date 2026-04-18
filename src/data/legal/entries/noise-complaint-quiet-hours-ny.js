@@ -69,7 +69,7 @@ export const NOISE_COMPLAINT_QUIET_HOURS_NY = {
   relatedIds: [
     "tenant-rights-repairs-ny",
     "tenant-habitability-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "landlord-entry-privacy-ny"
   ],
 

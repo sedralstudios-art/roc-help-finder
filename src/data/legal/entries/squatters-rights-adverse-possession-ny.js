@@ -70,7 +70,7 @@ export const SQUATTERS_RIGHTS_ADVERSE_POSSESSION_NY = {
     "trespassing-laws-ny",
     "eviction-process-ny",
     "tree-fence-property-line-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

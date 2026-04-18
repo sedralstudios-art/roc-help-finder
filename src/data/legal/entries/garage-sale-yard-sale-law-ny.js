@@ -71,7 +71,7 @@ export const GARAGE_SALE_YARD_SALE_LAW_NY = {
   relatedIds: [
     "zoning-variance-permit-ny",
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "tree-fence-property-line-ny"
   ],
 

@@ -1,5 +1,5 @@
 export const NON_COMPETE_AGREEMENTS_NY = {
-  id: "non-compete-agreements-ny",
+  id: "non-compete-agreements-ny-cl",
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",

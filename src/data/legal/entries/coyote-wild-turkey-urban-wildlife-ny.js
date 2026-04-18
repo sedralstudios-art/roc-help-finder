@@ -85,7 +85,7 @@ export const COYOTE_WILD_TURKEY_URBAN_WILDLIFE_NY = {
     "deer-damage-garden-ny",
     "animal-cruelty-reporting-ny",
     "noise-ordinance-barking-dog-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

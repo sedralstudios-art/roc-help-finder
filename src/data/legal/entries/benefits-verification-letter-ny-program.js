@@ -1,5 +1,5 @@
 export const BENEFITS_VERIFICATION_LETTER_NY = {
-  id: "benefits-verification-letter-ny",
+  id: "benefits-verification-letter-ny-program",
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
@@ -84,7 +84,7 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
     "ssi-disability-ny",
     "ssdi-ny",
     "social-security-retirement-ny",
-    "monroe-county-dss-overview-ny-mon"
+    "monroe-county-dss-overview-ny-mon-program"
   ],
 
   relatedHelpResources: [],

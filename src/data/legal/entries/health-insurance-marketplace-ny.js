@@ -86,7 +86,7 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
     "uninsured-health-care-ny",
     "emergency-medicaid-ny",
     "health-insurance-denial-ny",
-    "dental-care-low-income-ny"
+    "dental-care-low-income-ny-program"
   ],
 
   relatedHelpResources: [],

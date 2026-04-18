@@ -1,5 +1,5 @@
 export const TRAMPOLINE_LIABILITY_NY = {
-  id: "trampoline-liability-ny",
+  id: "trampoline-liability-ny-cl",
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",

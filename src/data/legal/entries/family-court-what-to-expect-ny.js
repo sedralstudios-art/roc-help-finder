@@ -71,7 +71,7 @@ export const FAMILY_COURT_WHAT_TO_EXPECT_NY = {
     "custody-basics-ny",
     "child-support-ny",
     "order-of-protection-ny",
-    "court-system-explained-ny",
+    "court-system-explained-ny-program",
     "right-to-a-lawyer-ny"
   ],
 

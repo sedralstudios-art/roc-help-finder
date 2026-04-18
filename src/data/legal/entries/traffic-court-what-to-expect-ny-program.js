@@ -1,5 +1,5 @@
 export const TRAFFIC_COURT_WHAT_TO_EXPECT_NY = {
-  id: "traffic-court-what-to-expect-ny",
+  id: "traffic-court-what-to-expect-ny-program",
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",

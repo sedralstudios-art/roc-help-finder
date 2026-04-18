@@ -70,7 +70,7 @@ export const ELECTRIC_FENCE_RULES_NY = {
   relatedIds: [
     "fence-height-rules-ny",
     "deer-damage-garden-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "personal-injury-basics-ny",
     "backyard-chicken-laws-ny"
   ],

@@ -69,7 +69,7 @@ export const DRONE_LAWS_NY = {
 
   relatedIds: [
     "recording-consent-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "trespassing-laws-ny",
     "noise-complaint-quiet-hours-ny"
   ],

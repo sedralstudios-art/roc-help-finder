@@ -85,7 +85,7 @@ export const SNAP_RECERTIFICATION_NY = {
     "snap-expedited-ny",
     "snap-after-conviction-ny",
     "fair-hearing-ny",
-    "apply-for-benefits-online-ny"
+    "apply-for-benefits-online-ny-program"
   ],
 
   relatedHelpResources: [],

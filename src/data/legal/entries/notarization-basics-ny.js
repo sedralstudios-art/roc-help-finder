@@ -69,7 +69,7 @@ export const NOTARIZATION_BASICS_NY = {
   relatedIds: [
     "power-of-attorney-basics-ny",
     "health-care-proxy-ny",
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "small-claims-procedure-ny"
   ],
 

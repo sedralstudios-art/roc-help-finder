@@ -92,7 +92,7 @@ export const FENCE_HEIGHT_RULES_NY = {
 
   relatedIds: [
     "tree-fence-property-line-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "zoning-variance-permit-ny",
     "code-enforcement-complaint-ny"
   ],

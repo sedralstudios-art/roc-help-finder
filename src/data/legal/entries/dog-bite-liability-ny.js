@@ -67,7 +67,7 @@ export const DOG_BITE_LIABILITY_NY = {
 
   relatedIds: [
     "small-claims-procedure-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

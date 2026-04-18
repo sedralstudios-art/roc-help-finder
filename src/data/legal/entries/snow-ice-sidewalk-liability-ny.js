@@ -71,7 +71,7 @@ export const SNOW_ICE_SIDEWALK_LIABILITY_NY = {
     "slip-and-fall-premises-liability-ny",
     "snow-emergency-alternate-parking-roc",
     "tenant-rights-repairs-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

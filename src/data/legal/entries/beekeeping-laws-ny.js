@@ -85,7 +85,7 @@ export const BEEKEEPING_LAWS_NY = {
     "home-business-zoning-ny",
     "fence-height-rules-ny",
     "code-enforcement-complaint-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

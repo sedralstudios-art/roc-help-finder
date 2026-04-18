@@ -69,8 +69,8 @@ export const PROPERTY_SURVEY_BOUNDARY_DISPUTE_NY = {
 
   relatedIds: [
     "tree-fence-property-line-ny",
-    "tree-damage-neighbor-liability-ny",
-    "neighbor-disputes-ny",
+    "tree-damage-neighbor-liability-ny-cl",
+    "neighbor-disputes-ny-cl",
     "fence-height-rules-ny",
     "squatters-rights-adverse-possession-ny",
     "small-claims-procedure-ny"

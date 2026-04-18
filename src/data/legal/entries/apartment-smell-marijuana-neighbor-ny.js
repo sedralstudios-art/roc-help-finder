@@ -72,7 +72,7 @@ export const APARTMENT_SMELL_MARIJUANA_NEIGHBOR_NY = {
     "medical-marijuana-ny",
     "tenant-habitability-ny",
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "how-to-read-lease-ny"
   ],
 

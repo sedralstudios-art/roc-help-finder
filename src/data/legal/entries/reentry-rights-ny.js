@@ -80,7 +80,7 @@ export const REENTRY_RIGHTS_NY = {
   ],
 
   relatedIds: [
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "clean-slate-ny",
     "background-check-rights-ny",
     "parole-community-supervision-ny",

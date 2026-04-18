@@ -71,7 +71,7 @@ export const COMPOSTING_RULES_NY = {
   relatedIds: [
     "burning-trash-leaves-laws-ny",
     "trash-pickup-missed-complaint-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "code-enforcement-complaint-ny"
   ],
 

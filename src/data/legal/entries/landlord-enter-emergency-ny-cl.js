@@ -1,5 +1,5 @@
 export const LANDLORD_ENTER_EMERGENCY_NY = {
-  id: "landlord-enter-emergency-ny",
+  id: "landlord-enter-emergency-ny-cl",
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
@@ -69,7 +69,7 @@ export const LANDLORD_ENTER_EMERGENCY_NY = {
 
   relatedIds: [
     "landlord-entry-privacy-ny",
-    "landlord-showing-apartment-notice-ny",
+    "landlord-showing-apartment-notice-ny-cl",
     "landlord-retaliation-ny",
     "tenant-lock-change-ny",
     "security-camera-neighbor-privacy-ny"

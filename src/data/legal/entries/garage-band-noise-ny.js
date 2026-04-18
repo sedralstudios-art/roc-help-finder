@@ -72,8 +72,8 @@ export const GARAGE_BAND_NOISE_NY = {
 
   relatedIds: [
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
-    "neighbors-security-light-ny",
+    "neighbor-disputes-ny-cl",
+    "neighbors-security-light-ny-cl",
     "code-enforcement-complaint-ny"
   ],
 

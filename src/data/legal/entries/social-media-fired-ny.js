@@ -85,7 +85,7 @@ export const SOCIAL_MEDIA_FIRED_NY = {
     "whistleblower-protections-ny",
     "workplace-discrimination-ny",
     "drug-testing-work-ny",
-    "social-media-evidence-ny"
+    "social-media-evidence-ny-cl"
   ],
 
   relatedHelpResources: [],

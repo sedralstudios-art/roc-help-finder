@@ -1,5 +1,5 @@
 export const EMOTIONAL_DISTRESS_CLAIMS_NY = {
-  id: "emotional-distress-claims-ny",
+  id: "emotional-distress-claims-ny-cl",
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",

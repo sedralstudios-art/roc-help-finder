@@ -67,7 +67,7 @@ export const COURT_FEE_WAIVER_NY = {
   ],
 
   relatedIds: [
-    "free-legal-help-monroe-ny",
+    "free-legal-help-monroe-ny-program",
     "small-claims-procedure-ny",
     "divorce-separation-ny",
     "name-change-ny",

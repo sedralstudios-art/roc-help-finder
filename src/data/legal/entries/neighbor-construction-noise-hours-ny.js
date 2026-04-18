@@ -85,7 +85,7 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
 
   relatedIds: [
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "zoning-variance-permit-ny",
     "code-enforcement-complaint-ny"
   ],

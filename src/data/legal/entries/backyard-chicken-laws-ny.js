@@ -75,7 +75,7 @@ export const BACKYARD_CHICKEN_LAWS_NY = {
 
   relatedIds: [
     "zoning-variance-permit-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "noise-complaint-quiet-hours-ny",
     "fence-height-rules-ny"
   ],

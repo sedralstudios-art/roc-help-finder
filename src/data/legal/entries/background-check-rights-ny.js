@@ -82,7 +82,7 @@ export const BACKGROUND_CHECK_RIGHTS_NY = {
     "clean-slate-ny",
     "dismissed-case-sealing-ny",
     "marijuana-sealing-ny",
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "workplace-discrimination-ny"
   ],
 

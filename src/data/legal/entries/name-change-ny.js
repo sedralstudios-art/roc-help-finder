@@ -80,7 +80,7 @@ export const NAME_CHANGE_NY = {
   ],
 
   relatedIds: [
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "divorce-separation-ny"
   ],
 

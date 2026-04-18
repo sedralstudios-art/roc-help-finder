@@ -88,7 +88,7 @@ export const EMERGENCY_SHELTER_WARMING_CENTER_NY = {
     "domestic-violence-legal-options-ny",
     "heap-utility-assistance-ny",
     "tanf-public-assistance-ny",
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "homeless-student-rights-ny"
   ],
 

@@ -76,7 +76,7 @@ export const SNOW_PLOW_DAMAGE_PROPERTY_NY = {
     "pothole-damage-claim-ny",
     "snow-ice-sidewalk-liability-ny",
     "snow-emergency-alternate-parking-roc",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

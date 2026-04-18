@@ -69,7 +69,7 @@ export const JURY_DUTY_EXCUSE_NY = {
 
   relatedIds: [
     "jury-duty-rights-ny",
-    "court-system-explained-ny",
+    "court-system-explained-ny-program",
     "wrongful-termination-ny"
   ],
 

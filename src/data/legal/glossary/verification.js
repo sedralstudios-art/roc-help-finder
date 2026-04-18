@@ -23,7 +23,7 @@ export const VERIFICATION = {
   },
 
   related: ["eligibility-determination", "recertification", "intake", "snap", "medicaid", "temporary-assistance"],
-  legalEntryIds: ["benefits-verification-letter-ny"],
+  legalEntryIds: ["benefits-verification-letter-ny-program"],
 
   citation: "18 NYCRR Part 385 (TA verification); 7 CFR 273.2 (SNAP)",
   sourceUrl: "",

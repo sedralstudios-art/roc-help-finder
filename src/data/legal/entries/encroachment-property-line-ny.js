@@ -72,7 +72,7 @@ export const ENCROACHMENT_PROPERTY_LINE_NY = {
     "tree-fence-property-line-ny",
     "shared-driveway-dispute-ny",
     "driveway-easement-access-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "squatters-rights-adverse-possession-ny"
   ],
 

@@ -73,7 +73,7 @@ export const TRASH_PICKUP_MISSED_COMPLAINT_NY = {
 
   relatedIds: [
     "code-enforcement-complaint-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "burning-trash-leaves-laws-ny"
   ],
 

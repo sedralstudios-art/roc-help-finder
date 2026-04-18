@@ -69,7 +69,7 @@ export const HOA_DISPUTES_NY = {
   ],
 
   relatedIds: [
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "property-tax-grievance-ny",
     "small-claims-procedure-ny",
     "respond-to-lawsuit-ny"

@@ -69,7 +69,7 @@ export const FIREWORKS_LAWS_NY = {
 
   relatedIds: [
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "personal-injury-basics-ny"
   ],
 

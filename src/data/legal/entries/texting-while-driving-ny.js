@@ -71,7 +71,7 @@ export const TEXTING_WHILE_DRIVING_NY = {
     "traffic-ticket-options-ny",
     "speeding-ticket-ny",
     "moving-violation-points-ny",
-    "traffic-court-what-to-expect-ny",
+    "traffic-court-what-to-expect-ny-program",
     "license-points-reduction-ny"
   ],
 

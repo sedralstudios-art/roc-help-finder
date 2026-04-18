@@ -74,7 +74,7 @@ export const OUTDOOR_FIRE_PIT_RULES_NY = {
 
   relatedIds: [
     "burning-trash-leaves-laws-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "fence-height-rules-ny",
     "noise-complaint-quiet-hours-ny",
     "code-enforcement-complaint-ny"

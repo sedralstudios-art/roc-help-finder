@@ -82,7 +82,7 @@ export const GED_HSE_PROGRAMS_NY = {
   ],
 
   relatedIds: [
-    "free-internet-computer-access-ny",
+    "free-internet-computer-access-ny-program",
     "childcare-assistance-ny",
     "acces-vr-ny"
   ],

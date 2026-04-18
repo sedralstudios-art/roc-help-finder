@@ -1,5 +1,5 @@
 export const PROBLEM_SOLVING_COURTS_NY = {
-  id: "problem-solving-courts-ny",
+  id: "problem-solving-courts-ny-program",
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",

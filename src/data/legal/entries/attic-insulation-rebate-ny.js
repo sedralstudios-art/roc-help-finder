@@ -82,7 +82,7 @@ export const ATTIC_INSULATION_REBATE_NY = {
 
   relatedIds: [
     "heap-utility-assistance-ny",
-    "ice-dam-roof-damage-ny",
+    "ice-dam-roof-damage-ny-cl",
     "utility-shutoff-protections-ny",
     "power-outage-rights-ny",
     "home-improvement-contractor-ny"

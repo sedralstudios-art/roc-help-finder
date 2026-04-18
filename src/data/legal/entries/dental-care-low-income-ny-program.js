@@ -1,5 +1,5 @@
 export const DENTAL_CARE_LOW_INCOME_NY = {
-  id: "dental-care-low-income-ny",
+  id: "dental-care-low-income-ny-program",
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
@@ -85,7 +85,7 @@ export const DENTAL_CARE_LOW_INCOME_NY = {
     "uninsured-health-care-ny",
     "emergency-medicaid-ny",
     "prescription-assistance-ny",
-    "apply-for-benefits-online-ny"
+    "apply-for-benefits-online-ny-program"
   ],
 
   relatedHelpResources: [],

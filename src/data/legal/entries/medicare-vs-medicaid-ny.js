@@ -87,7 +87,7 @@ export const MEDICARE_VS_MEDICAID_NY = {
     "social-security-retirement-ny",
     "ssdi-ny",
     "prescription-assistance-ny",
-    "dental-care-low-income-ny"
+    "dental-care-low-income-ny-program"
   ],
 
   relatedHelpResources: [],

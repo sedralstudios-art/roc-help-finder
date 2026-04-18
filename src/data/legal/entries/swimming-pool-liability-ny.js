@@ -92,7 +92,7 @@ export const SWIMMING_POOL_LIABILITY_NY = {
   relatedIds: [
     "slip-and-fall-premises-liability-ny",
     "personal-injury-basics-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "fence-height-rules-ny",
     "renters-insurance-ny"
   ],

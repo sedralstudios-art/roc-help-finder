@@ -69,7 +69,7 @@ export const SECURITY_CAMERA_NEIGHBOR_PRIVACY_NY = {
 
   relatedIds: [
     "recording-consent-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "tenant-security-camera-ny",
     "harassment-cyberstalking-ny",
     "landlord-entry-privacy-ny"

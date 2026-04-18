@@ -81,7 +81,7 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
   relatedIds: [
     "noise-complaint-quiet-hours-ny",
     "noise-ordinance-barking-dog-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "code-enforcement-complaint-ny",
     "garage-band-noise-ny"
   ],

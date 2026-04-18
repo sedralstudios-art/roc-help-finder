@@ -70,7 +70,7 @@ export const SEPTIC_SYSTEM_RULES_NY = {
   relatedIds: [
     "shared-well-water-rights-ny",
     "housing-code-violations-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "code-enforcement-complaint-ny"
   ],
 

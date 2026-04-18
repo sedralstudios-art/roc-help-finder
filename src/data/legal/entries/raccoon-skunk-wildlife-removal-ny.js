@@ -83,7 +83,7 @@ export const RACCOON_SKUNK_WILDLIFE_REMOVAL_NY = {
   relatedIds: [
     "animal-cruelty-reporting-ny",
     "noise-ordinance-barking-dog-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "code-enforcement-complaint-ny"
   ],
 

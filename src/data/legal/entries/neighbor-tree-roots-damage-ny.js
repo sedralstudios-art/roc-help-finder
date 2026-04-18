@@ -68,11 +68,11 @@ export const NEIGHBOR_TREE_ROOTS_DAMAGE_NY = {
   ],
 
   relatedIds: [
-    "tree-damage-neighbor-liability-ny",
+    "tree-damage-neighbor-liability-ny-cl",
     "tree-fence-property-line-ny",
     "sewer-backup-liability-ny",
     "property-survey-boundary-dispute-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "sidewalk-repair-who-pays-ny"
   ],
 

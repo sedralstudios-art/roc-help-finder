@@ -73,7 +73,7 @@ export const BASKETBALL_HOOP_STREET_DRIVEWAY_NY = {
     "fence-height-rules-ny",
     "noise-complaint-quiet-hours-ny",
     "code-enforcement-complaint-ny",
-    "trampoline-liability-ny",
+    "trampoline-liability-ny-cl",
     "swimming-pool-liability-ny"
   ],
 

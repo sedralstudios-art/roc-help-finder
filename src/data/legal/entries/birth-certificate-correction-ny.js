@@ -69,7 +69,7 @@ export const BIRTH_CERTIFICATE_CORRECTION_NY = {
   relatedIds: [
     "name-change-ny",
     "gender-marker-change-ny",
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "paternity-rights-ny"
   ],
 

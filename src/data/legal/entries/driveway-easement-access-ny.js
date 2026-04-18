@@ -71,7 +71,7 @@ export const DRIVEWAY_EASEMENT_ACCESS_NY = {
     "property-survey-boundary-dispute-ny",
     "shared-driveway-dispute-ny",
     "private-road-maintenance-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "eminent-domain-condemnation-ny"
   ],
 

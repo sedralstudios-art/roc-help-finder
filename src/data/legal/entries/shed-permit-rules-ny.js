@@ -92,7 +92,7 @@ export const SHED_PERMIT_RULES_NY = {
     "fence-height-rules-ny",
     "garage-conversion-adu-ny",
     "property-survey-boundary-dispute-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

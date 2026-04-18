@@ -69,7 +69,7 @@ export const MARRIAGE_LICENSE_NY = {
   relatedIds: [
     "name-change-ny",
     "divorce-separation-ny",
-    "getting-id-documents-ny"
+    "getting-id-documents-ny-program"
   ],
 
   relatedHelpResources: [],

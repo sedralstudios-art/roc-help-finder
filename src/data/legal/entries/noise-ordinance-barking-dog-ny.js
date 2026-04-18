@@ -70,7 +70,7 @@ export const NOISE_ORDINANCE_BARKING_DOG_NY = {
 
   relatedIds: [
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "dog-bite-liability-ny",
     "tenant-habitability-ny"
   ],

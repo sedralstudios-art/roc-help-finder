@@ -1,5 +1,5 @@
 export const NEIGHBOR_DISPUTES_NY = {
-  id: "neighbor-disputes-ny",
+  id: "neighbor-disputes-ny-cl",
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",

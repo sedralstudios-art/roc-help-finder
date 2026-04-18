@@ -1,5 +1,5 @@
 export const GETTING_ID_DOCUMENTS_NY = {
-  id: "getting-id-documents-ny",
+  id: "getting-id-documents-ny-program",
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",

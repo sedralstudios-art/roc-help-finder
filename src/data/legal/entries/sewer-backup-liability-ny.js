@@ -72,7 +72,7 @@ export const SEWER_BACKUP_LIABILITY_NY = {
     "tenant-habitability-ny",
     "renters-insurance-ny",
     "after-a-fire-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

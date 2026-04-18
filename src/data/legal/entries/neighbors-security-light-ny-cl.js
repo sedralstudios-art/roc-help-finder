@@ -1,5 +1,5 @@
 export const NEIGHBORS_SECURITY_LIGHT_NY = {
-  id: "neighbors-security-light-ny",
+  id: "neighbors-security-light-ny-cl",
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
@@ -68,7 +68,7 @@ export const NEIGHBORS_SECURITY_LIGHT_NY = {
   ],
 
   relatedIds: [
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "noise-complaint-quiet-hours-ny",
     "security-camera-neighbor-privacy-ny",
     "code-enforcement-complaint-ny",

@@ -1,5 +1,5 @@
 export const LOST_STOLEN_WALLET_WHAT_TO_DO_NY = {
-  id: "lost-stolen-wallet-what-to-do-ny",
+  id: "lost-stolen-wallet-what-to-do-ny-program",
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
@@ -71,7 +71,7 @@ export const LOST_STOLEN_WALLET_WHAT_TO_DO_NY = {
 
   relatedIds: [
     "identity-theft-ny",
-    "getting-id-documents-ny",
+    "getting-id-documents-ny-program",
     "unauthorized-charges-bank-ny",
     "scam-protection-ny",
     "credit-report-dispute-ny"

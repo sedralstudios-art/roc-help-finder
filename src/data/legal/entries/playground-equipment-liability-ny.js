@@ -68,10 +68,10 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
   ],
 
   relatedIds: [
-    "trampoline-liability-ny",
+    "trampoline-liability-ny-cl",
     "swimming-pool-liability-ny",
     "fence-height-rules-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "tree-fence-property-line-ny"
   ],
 

@@ -89,7 +89,7 @@ export const RENTERS_RIGHTS_CHECKLIST_NY = {
     "eviction-process-ny",
     "landlord-retaliation-ny",
     "landlord-entry-privacy-ny",
-    "right-to-counsel-eviction-ny",
+    "right-to-counsel-eviction-ny-program",
     "tenant-lock-change-ny"
   ],
 

@@ -1,5 +1,5 @@
 export const FREE_LEGAL_HELP_MONROE_NY = {
-  id: "free-legal-help-monroe-ny",
+  id: "free-legal-help-monroe-ny-program",
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
@@ -146,7 +146,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
 
   relatedIds: [
     "right-to-a-lawyer-ny",
-    "court-system-explained-ny"
+    "court-system-explained-ny-program"
   ],
 
   relatedHelpResources: [],

@@ -1,5 +1,5 @@
 export const HEARING_AID_HELP_NY = {
-  id: "hearing-aid-help-ny",
+  id: "hearing-aid-help-ny-program",
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
@@ -72,7 +72,7 @@ export const HEARING_AID_HELP_NY = {
     "medicare-vs-medicaid-ny",
     "disability-housing-accommodation-ny",
     "ada-workplace-accommodation-ny",
-    "free-eyeglasses-vision-ny"
+    "free-eyeglasses-vision-ny-program"
   ],
 
   relatedHelpResources: [],

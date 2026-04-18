@@ -70,7 +70,7 @@ export const SOVEREIGN_CITIZEN_MYTHS_NY = {
     "right-to-a-lawyer-ny",
     "traffic-ticket-options-ny",
     "respond-to-lawsuit-ny",
-    "court-system-explained-ny"
+    "court-system-explained-ny-program"
   ],
 
   relatedHelpResources: [],

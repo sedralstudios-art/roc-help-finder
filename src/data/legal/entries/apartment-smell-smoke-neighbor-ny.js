@@ -71,7 +71,7 @@ export const APARTMENT_SMELL_SMOKE_NEIGHBOR_NY = {
     "tenant-habitability-ny",
     "landlord-retaliation-ny",
     "noise-complaint-quiet-hours-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "disability-housing-accommodation-ny"
   ],
 

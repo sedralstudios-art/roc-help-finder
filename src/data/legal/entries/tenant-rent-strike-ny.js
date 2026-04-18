@@ -86,7 +86,7 @@ export const TENANT_RENT_STRIKE_NY = {
     "housing-code-violations-ny",
     "landlord-retaliation-ny",
     "eviction-process-ny",
-    "right-to-counsel-eviction-ny"
+    "right-to-counsel-eviction-ny-program"
   ],
 
   relatedHelpResources: [],

@@ -70,7 +70,7 @@ export const ABANDONED_VEHICLE_NY = {
     "car-towed-repossessed-ny",
     "unauthorized-towing-ny",
     "parking-ticket-ny",
-    "neighbor-disputes-ny"
+    "neighbor-disputes-ny-cl"
   ],
 
   relatedHelpResources: [],

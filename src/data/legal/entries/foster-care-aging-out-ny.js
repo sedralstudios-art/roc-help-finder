@@ -84,7 +84,7 @@ export const FOSTER_CARE_AGING_OUT_NY = {
     "homeless-student-rights-ny",
     "medicaid-ny",
     "snap-rights-ny",
-    "getting-id-documents-ny"
+    "getting-id-documents-ny-program"
   ],
 
   relatedHelpResources: [],

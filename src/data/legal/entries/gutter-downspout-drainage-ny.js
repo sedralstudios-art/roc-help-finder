@@ -71,7 +71,7 @@ export const GUTTER_DOWNSPOUT_DRAINAGE_NY = {
   relatedIds: [
     "water-damage-tenant-rights-ny",
     "sump-pump-discharge-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "property-survey-boundary-dispute-ny",
     "code-enforcement-complaint-ny"
   ],

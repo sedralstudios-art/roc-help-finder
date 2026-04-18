@@ -68,7 +68,7 @@ export const FREE_TAX_FILING_NY = {
 
   relatedIds: [
     "earned-income-tax-credit-ny",
-    "free-internet-computer-access-ny",
+    "free-internet-computer-access-ny-program",
     "snap-rights-ny"
   ],
 

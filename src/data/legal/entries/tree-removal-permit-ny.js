@@ -72,7 +72,7 @@ export const TREE_REMOVAL_PERMIT_NY = {
 
   relatedIds: [
     "tree-fence-property-line-ny",
-    "tree-damage-neighbor-liability-ny",
+    "tree-damage-neighbor-liability-ny-cl",
     "zoning-variance-permit-ny",
     "fence-height-rules-ny",
     "code-enforcement-complaint-ny"

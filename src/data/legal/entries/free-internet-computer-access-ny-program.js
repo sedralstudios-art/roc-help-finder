@@ -1,5 +1,5 @@
 export const FREE_INTERNET_COMPUTER_ACCESS_NY = {
-  id: "free-internet-computer-access-ny",
+  id: "free-internet-computer-access-ny-program",
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
@@ -79,7 +79,7 @@ export const FREE_INTERNET_COMPUTER_ACCESS_NY = {
 
   relatedIds: [
     "free-cell-phone-lifeline-ny",
-    "apply-for-benefits-online-ny",
+    "apply-for-benefits-online-ny-program",
     "homeless-student-rights-ny"
   ],
 

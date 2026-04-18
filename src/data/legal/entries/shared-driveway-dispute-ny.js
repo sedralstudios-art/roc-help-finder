@@ -69,7 +69,7 @@ export const SHARED_DRIVEWAY_DISPUTE_NY = {
 
   relatedIds: [
     "property-survey-boundary-dispute-ny",
-    "neighbor-disputes-ny",
+    "neighbor-disputes-ny-cl",
     "tree-fence-property-line-ny",
     "private-road-maintenance-ny",
     "snow-removal-ordinance-ny"
