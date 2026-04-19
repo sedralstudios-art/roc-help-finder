@@ -190,6 +190,59 @@ const MIN_WHATITMEANS_LEN = 400;
 const WARN_SOURCES_BELOW = 2;
 const WARN_RELATED_BELOW = 2;
 const WARN_WHATITMEANS_BELOW = 800;
+// Title-only near-duplicate threshold. Higher than the tag+title pair check
+// (0.5) because title-only fires without the tag corroboration, so we want to
+// be more confident the pair is a real rewrite collision.
+const WARN_TITLE_JACCARD_ONLY = 0.75;
+
+// Preferred source domains — .gov, .edu, plus a short list of trusted NY
+// nonprofit legal-aid and bar-association domains whose material is generally
+// accurate and stable. A source URL outside this set triggers a WARN nudge to
+// replace blog posts, marketing sites, and advertorials with authoritative
+// citations. Expand the nonprofit list as legitimate sources appear in the
+// corpus — but prefer finding the underlying statute, regulation, or agency
+// page over adding yet another third-party domain.
+const TRUSTED_SOURCE_DOMAIN_SUFFIXES = [
+  '.gov', '.edu', '.us',
+];
+const TRUSTED_SOURCE_DOMAINS_EXACT = new Set([
+  // NY legal-aid, bar associations, and public-interest organizations
+  'aclu.org', 'nyclu.org',
+  'lawhelpny.org', 'lawhelp.org',
+  'lasroc.org', 'empirejustice.org', 'justcauseroc.org',
+  'legalaidnyc.org', 'legalaidsocietyofrochester.org',
+  'nycbar.org', 'nysba.org', 'mcba.org',
+  'fasny.com', // Firemen's Association of NY — statutory advocacy
+  'eff.org',   // Electronic Frontier Foundation — privacy/tech rights
+  // State-run programs operated on .org domains
+  'nysaves.org',    // NY 529 College Savings Program (state-operated)
+  'mynyable.org',   // NY ABLE Program (state-operated)
+  // Federally-mandated NY agencies and federal agency partners
+  'disabilityrightsny.org', // NY Protection & Advocacy agency (federally mandated)
+  'askjan.org',             // Job Accommodation Network (federal DOL ODEP-funded)
+  // Municipal code publishing platforms (the actual hosting service for town codes)
+  'ecode360.com',           // General Code — hosts most NY town code text
+  'codes.iccsafe.org',      // International Code Council — model building/fire codes
+  // HUD-certified housing counselors in the Rochester region
+  'thehousingcouncil.org', 'pathstone.org',
+]);
+
+function sourceDomainTrusted(url) {
+  if (!url) return false;
+  let host;
+  try { host = new URL(url).hostname.toLowerCase(); } catch { return false; }
+  // Strip leading "www."
+  if (host.startsWith('www.')) host = host.slice(4);
+  for (const suffix of TRUSTED_SOURCE_DOMAIN_SUFFIXES) {
+    if (host.endsWith(suffix)) return true;
+  }
+  if (TRUSTED_SOURCE_DOMAINS_EXACT.has(host)) return true;
+  // Also trust any subdomain of an exact-match nonprofit (e.g., x.aclu.org).
+  for (const d of TRUSTED_SOURCE_DOMAINS_EXACT) {
+    if (host.endsWith('.' + d)) return true;
+  }
+  return false;
+}
 
 // Tier consistency with authorityType. Each authorityType constrains which
 // tiers are valid. federal statutes/regulations must have federal tier;
@@ -534,6 +587,20 @@ function main() {
         }
       }
     }
+
+    // Ceiling extension 4 — source URL domain preference. Nudge toward .gov
+    // and .edu (and a short trusted nonprofit list) over blog posts, law-firm
+    // marketing pages, and advertorials. WARN only — some legitimate third-
+    // party sources don't fit the allowlist and that's fine as a judgment call.
+    if (e.sources) {
+      for (const url of e.sources) {
+        if (url && url.startsWith('https://') && !sourceDomainTrusted(url)) {
+          let host = '?';
+          try { host = new URL(url).hostname; } catch {}
+          contentWarnings.push(`${e.filename}: source "${host}" not on trusted domain list (prefer .gov / .edu / known legal-aid nonprofit — see TRUSTED_SOURCE_DOMAINS_EXACT)`);
+        }
+      }
+    }
   }
   // Stash content warnings for later printing (see bottom of main).
   global.__contentWarnings = contentWarnings;
@@ -623,6 +690,7 @@ function main() {
 
 function printNearDuplicates(entries) {
   const warnings = [];
+  const titleOnlyWarnings = [];
   const titleSets = entries.map((e) => ({ e, tokens: titleTokens(e.title) }));
 
   for (let i = 0; i < entries.length; i++) {
@@ -646,6 +714,15 @@ function printNearDuplicates(entries) {
           a: a.filename, b: b.filename, shared, titleJ: titleJ.toFixed(2),
         });
       }
+      // Title-only check: catches rewrites that don't share tags. Higher
+      // threshold because there's no tag corroboration. Skips pairs already
+      // caught by the tag+title check above to avoid duplicate output.
+      if (titleJ >= WARN_TITLE_JACCARD_ONLY &&
+          !(shared >= TAG_OVERLAP_WARN && titleJ >= TITLE_JACCARD_WARN)) {
+        titleOnlyWarnings.push({
+          a: a.filename, b: b.filename, titleJ: titleJ.toFixed(2),
+        });
+      }
     }
   }
   if (warnings.length) {
@@ -655,6 +732,14 @@ function printNearDuplicates(entries) {
       console.log(`  ${w.a}  <->  ${w.b}   (shared tags: ${w.shared}, title Jaccard: ${w.titleJ})`);
     }
     if (warnings.length > 40) console.log(`  ... and ${warnings.length - 40} more`);
+  }
+  if (titleOnlyWarnings.length) {
+    console.log('');
+    console.log(`WARN: ${titleOnlyWarnings.length} title-only near-duplicate pair(s) (Jaccard >= ${WARN_TITLE_JACCARD_ONLY}, no tag overlap required):`);
+    for (const w of titleOnlyWarnings.slice(0, 40)) {
+      console.log(`  ${w.a}  <->  ${w.b}   (title Jaccard: ${w.titleJ})`);
+    }
+    if (titleOnlyWarnings.length > 40) console.log(`  ... and ${titleOnlyWarnings.length - 40} more`);
   }
 }
 

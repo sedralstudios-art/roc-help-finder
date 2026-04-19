@@ -17,6 +17,7 @@ Three user-facing products:
 - `npm run build` — verify entry uniqueness + Vite build + prerender legal/glossary/help/landing pages + generate sitemap. Fails fast if any entry is missing `authorityType` or collides on composite key.
 - `npm run verify` — run the entry-uniqueness validator standalone (no build).
 - `npm run preview` — serve production build locally
+- `node scripts/scaffold-entry.cjs --id {id} --category {cat} --authorityType {type} [--primaryStatute "NY XXX 123"]` — create a new entry template file with every required field at the right shape. Author fills in the TODO blocks, then runs `npm run verify`.
 
 No test suite, linter, or formatter configured.
 
@@ -207,6 +208,9 @@ The validator enforces a minimum-quality floor on every non-bankruptcy entry:
 - whatItMeans < 800
 - `primaryStatute` section number not referenced in whatItMeans (nudge to cite statute in the body text)
 - yourRights item opens with `you/your/yours` (rewrite in third-person)
+- source URL domain not on the trusted allowlist (prefer `.gov` / `.edu` / `.us` or
+  the short list of known NY legal-aid nonprofits in `TRUSTED_SOURCE_DOMAINS_EXACT`)
+- title Jaccard ≥ 0.75 against another entry's title (title-only near-duplicate pair)
 
 The 7 Germain-reviewed bankruptcy files are fully exempt from all content
 checks (voice, enum, length, metadata) per Prof. Germain's liability-reducing
