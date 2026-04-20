@@ -93,6 +93,40 @@ async function loadEntries() {
   return entries;
 }
 
+// Load per-language translation maps so we only emit sitemap URLs and hreflang
+// alternates for entries that actually have translated content in that language.
+// Added 2026-04-20 after a month of ~20k URLs producing only 7 indexed pages —
+// 18 of 20 prerendered languages were English bodies under locale paths, which
+// Google was treating as duplicate content at scale.
+async function loadTranslations() {
+  const dir = path.join(ROOT, 'src', 'data', 'legal', 'translations');
+  const byLang = {};
+  if (!fs.existsSync(dir)) return byLang;
+  const files = fs.readdirSync(dir).filter((f) => /^[a-z]{2}\.js$/.test(f));
+  for (const f of files) {
+    const lang = f.replace(/\.js$/, '');
+    const abs = path.join(dir, f);
+    const mod = await import(pathToFileURL(abs).href);
+    byLang[lang] = (mod && mod.default) || {};
+  }
+  return byLang;
+}
+
+function langsForEntry(entry, translations) {
+  const langs = ['en'];
+  for (const [lang, map] of Object.entries(translations)) {
+    if (map && map[entry.id]) langs.push(lang);
+  }
+  return langs;
+}
+
+function cleanupOrphanSubsitemaps() {
+  // Remove any sitemap-entries-*.xml from a prior build so we don't leave
+  // orphan files behind when a language no longer has translated entries.
+  const existing = fs.readdirSync(DIST).filter((f) => /^sitemap-entries-[a-z]{2}\.xml$/.test(f));
+  for (const f of existing) fs.unlinkSync(path.join(DIST, f));
+}
+
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
 }
@@ -137,6 +171,18 @@ async function main() {
   const entries = await loadEntries();
   console.log('✓ Loaded ' + entries.length + ' entries');
 
+  const translations = await loadTranslations();
+  const translatedLangCodes = Object.keys(translations);
+  console.log('✓ Loaded translation maps for: ' + (translatedLangCodes.length ? translatedLangCodes.join(', ') : '(none)'));
+
+  cleanupOrphanSubsitemaps();
+
+  // Only include in library/category pages the languages that have at least
+  // one translated entry; English is always emitted as the canonical.
+  const SITEMAP_LANGS = LEGAL_LANGS.filter(
+    (l) => l.code === 'en' || (translations[l.code] && Object.keys(translations[l.code]).length > 0),
+  );
+
   const entriesByCat = {};
   for (const e of entries) {
     const cat = e.category || 'other';
@@ -157,11 +203,12 @@ async function main() {
   writeSubsitemap('sitemap-static.xml', staticXml);
   writtenFiles.push('sitemap-static.xml');
 
-  // 2. sitemap-library.xml — library index pages + category pages across all langs
+  // 2. sitemap-library.xml — library index pages + category pages, only for
+  // languages with at least one translated entry (SITEMAP_LANGS).
   let libraryXml = '';
-  for (const lang of LEGAL_LANGS) {
+  for (const lang of SITEMAP_LANGS) {
     const loc = SITE_URL + urlPathForLibrary(lang.code);
-    const alternates = LEGAL_LANGS.map((l) => ({
+    const alternates = SITEMAP_LANGS.map((l) => ({
       hreflang: l.htmlLang,
       href: SITE_URL + urlPathForLibrary(l.code),
     }));
@@ -169,10 +216,10 @@ async function main() {
     libraryXml += buildUrlBlock(loc, today, 'weekly', '0.9', alternates);
     totalUrls++;
   }
-  for (const lang of LEGAL_LANGS) {
+  for (const lang of SITEMAP_LANGS) {
     for (const cat of activeCategories) {
       const loc = SITE_URL + urlPathForCategory(lang.code, cat);
-      const alternates = LEGAL_LANGS.map((l) => ({
+      const alternates = SITEMAP_LANGS.map((l) => ({
         hreflang: l.htmlLang,
         href: SITE_URL + urlPathForCategory(l.code, cat),
       }));
@@ -184,22 +231,28 @@ async function main() {
   writeSubsitemap('sitemap-library.xml', libraryXml);
   writtenFiles.push('sitemap-library.xml');
 
-  // 3. sitemap-entries-[lang].xml — one file per language, all entry pages
-  for (const lang of LEGAL_LANGS) {
-    let entryXml = '';
-    for (const entry of entries) {
-      const loc = SITE_URL + urlPathForEntry(lang.code, entry.id);
-      const lastmod = entry.lastVerified || entry.lastAudited || today;
-      const alternates = LEGAL_LANGS.map((l) => ({
-        hreflang: l.htmlLang,
-        href: SITE_URL + urlPathForEntry(l.code, entry.id),
-      }));
-      alternates.push({ hreflang: 'x-default', href: SITE_URL + urlPathForEntry('en', entry.id) });
-      entryXml += buildUrlBlock(loc, lastmod, 'monthly', '0.8', alternates);
+  // 3. sitemap-entries-[lang].xml — one file per language, but only the entries
+  // that actually have a translation in that language. English always included
+  // as the canonical source. Empty language sitemaps are skipped entirely.
+  const perLangXml = {};
+  for (const entry of entries) {
+    const entryLangs = langsForEntry(entry, translations);
+    const alternates = entryLangs
+      .map((code) => LEGAL_LANGS.find((l) => l.code === code))
+      .filter(Boolean)
+      .map((l) => ({ hreflang: l.htmlLang, href: SITE_URL + urlPathForEntry(l.code, entry.id) }));
+    alternates.push({ hreflang: 'x-default', href: SITE_URL + urlPathForEntry('en', entry.id) });
+    const lastmod = entry.lastVerified || entry.lastAudited || today;
+    for (const code of entryLangs) {
+      const loc = SITE_URL + urlPathForEntry(code, entry.id);
+      perLangXml[code] = (perLangXml[code] || '') + buildUrlBlock(loc, lastmod, 'monthly', '0.8', alternates);
       totalUrls++;
     }
-    const filename = 'sitemap-entries-' + lang.code + '.xml';
-    writeSubsitemap(filename, entryXml);
+  }
+  for (const [code, xml] of Object.entries(perLangXml)) {
+    if (!xml) continue;
+    const filename = 'sitemap-entries-' + code + '.xml';
+    writeSubsitemap(filename, xml);
     writtenFiles.push(filename);
   }
 
