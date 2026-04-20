@@ -277,13 +277,30 @@ function extractBundleTags(indexHTML) {
   return { scripts, links };
 }
 
-function buildHreflang(pathFn, arg) {
-  const lines = LEGAL_LANGS.map((l) => {
+// Emit hreflang alternates only for languages explicitly passed in `langs`.
+// Default falls back to the site-wide SITEMAP_LANGS set (English plus any
+// language with ≥1 translated entry) set by main(). Signaling alternates for
+// untranslated languages produces duplicate-content signals at scale — fixed
+// alongside the sitemap trim on 2026-04-20.
+function buildHreflang(pathFn, arg, langs) {
+  const target = Array.isArray(langs) && langs.length
+    ? langs.map((code) => LEGAL_LANGS.find((l) => l.code === code)).filter(Boolean)
+    : (globalThis.SITEMAP_LANGS || LEGAL_LANGS);
+  const lines = target.map((l) => {
     const href = SITE_URL + pathFn(l.code, arg);
     return `    <link rel="alternate" hreflang="${l.htmlLang}" href="${esc(href)}" />`;
   });
   lines.push(`    <link rel="alternate" hreflang="x-default" href="${esc(SITE_URL + pathFn('en', arg))}" />`);
   return lines.join('\n');
+}
+
+function langsForEntry(entry) {
+  const translations = globalThis.TRANSLATIONS || {};
+  const langs = ['en'];
+  for (const [lang, map] of Object.entries(translations)) {
+    if (map && map[entry.id]) langs.push(lang);
+  }
+  return langs;
 }
 
 function jsonLDSafe(obj) {
@@ -499,7 +516,7 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(metaDesc)}" />
-${buildHreflang(urlPathForEntry, entry.id)}
+${buildHreflang(urlPathForEntry, entry.id, langsForEntry(entry))}
     <script type="application/ld+json">
 ${jsonLD}
     </script>
@@ -748,6 +765,18 @@ async function main() {
   } else {
     console.log('ℹ No translation files yet — all languages fall back to English');
   }
+
+  // Expose translation map + sitemap-eligible lang set to the hreflang builder
+  // so buildHreflang and langsForEntry can restrict alternates to languages
+  // that actually have content. Matches the sitemap trim in
+  // scripts/generate-sitemap.cjs — without this, entry <head> hreflang tags
+  // would still signal the same 20-language duplicate cloud we just removed
+  // from the sitemap, and Google would rediscover the untranslated URLs via
+  // page-level alternates. 2026-04-20.
+  globalThis.TRANSLATIONS = translations;
+  globalThis.SITEMAP_LANGS = LEGAL_LANGS.filter(
+    (l) => l.code === 'en' || (translations[l.code] && Object.keys(translations[l.code]).length > 0),
+  );
 
   // Group by category
   const entriesByCategory = {};
