@@ -6,34 +6,35 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Monroe County Department of Human Services — Where to Apply for Benefits" },
+  title: { en: "Monroe County Department of Human Services — Two Rochester Offices for Every Public Benefits Program" },
 
   summary: {
-    en: "Monroe County Department of Human Services handles SNAP, Medicaid, Temporary Assistance, HEAP, and child care applications. There are two office locations in Rochester. Walk-in applications are accepted Monday through Friday."
+    en: "Monroe County Department of Human Services (often called DHS or DSS) is the local agency that processes public-benefits applications for Monroe County residents. The department handles SNAP, Medicaid, Temporary Assistance, HEAP, child care subsidies, child-support services, and emergency assistance. Two office locations operate in Rochester — 691 St. Paul Street for financial-assistance applications, and 111 Westfall Road for administrative and family services. Walk-in applications are accepted Monday through Friday. SNAP and Medicaid applications can also be filed online at mybenefits.ny.gov."
   },
 
   whoQualifies: {
     en: [
-      "Residents of Monroe County who need to apply for or manage public benefits.",
-      "Anyone seeking SNAP, Medicaid, Temporary Assistance, HEAP, child care assistance, or emergency assistance in Monroe County.",
-      "Anyone who needs to report a change to an existing benefits case.",
-      "Anyone who needs to recertify their benefits."
+      "A Monroe County resident applying for SNAP, Medicaid, Temporary Assistance, HEAP, child care assistance, or emergency assistance.",
+      "An existing DHS caseholder needing to report a change, submit documents, or recertify benefits.",
+      "A Monroe County resident in an immediate crisis needing emergency assistance after hours — served through the 24/7 emergency line.",
+      "A Monroe County resident needing child-support services or help establishing paternity.",
+      "A Monroe County family looking for assistance locating the right unit (SNAP, Medicaid, TA, Child Care, HEAP, Adult Protective Services, Child Protective Services, Emergency Housing)."
     ]
   },
 
   whatItMeans: {
-    en: "The Monroe County Department of Human Services is sometimes called DHS or DSS. It is the local agency that processes public benefits applications for Monroe County residents. The department handles Temporary Assistance, SNAP, Medicaid, HEAP, child care subsidies, child support services, and employment services. The department operates two office locations in Rochester. The Westfall Road office at 111 Westfall Road handles many administrative and family services functions. The St. Paul Street office at 691 St. Paul Street handles financial assistance applications, including SNAP, TA, and Medicaid. Both offices are open Monday through Friday from 8:00 a.m. to 4:00 p.m. Walk-in applications are accepted during regular hours. You can also apply online for SNAP and Medicaid through mybenefits.ny.gov. For SNAP specifically, you can call 585-753-6960 to have an application mailed to you, or pick up an application at 691 St. Paul Street."
+    en: "Monroe County Department of Human Services (DHS, also referred to as DSS) is the local agency that administers most public-benefit programs for Monroe County residents on behalf of NY state and the federal government. DHS processes applications and handles ongoing case management for SNAP (food stamps), Medicaid and Child Health Plus, Temporary Assistance (Family Assistance and Safety Net Assistance), HEAP (Home Energy Assistance Program), Child Care Assistance Program, child-support enforcement and establishment, Adult Protective Services, Child Protective Services, foster care, and emergency housing placement. Two office locations operate in Rochester. The 691 St. Paul Street office, ZIP 14605, is the primary intake location for SNAP, Medicaid, Temporary Assistance, and other financial-assistance programs. Walk-in intake is available Monday through Friday 8:00 a.m. to 4:00 p.m. The 111 Westfall Road office, ZIP 14620, handles administrative functions, child-support services, employment services, child care assistance, HEAP Heating Equipment Repair and Replacement, and many family-services programs. Same hours. For most programs, online filing through mybenefits.ny.gov is the fastest pathway — the NY OTDA portal accepts SNAP, Temporary Assistance, HEAP, and Medicaid applications, handles document uploads, and lets existing recipients recertify and report changes. Phone intake is available at (585) 753-6960 for an application mailed to the home. A walk-in visit during business hours gets a same-day application packet and often a same-day interview for households applying for expedited SNAP or emergency assistance. Emergency assistance eligibility (for imminent eviction, utility shutoff, or homelessness) is typically handled with same-day intake at 691 St. Paul Street. Emergency needs outside business hours go to the after-hours crisis line at (585) 442-1742 or the 2-1-1 LIFE LINE for the Finger Lakes region. Language services are available at intake; DHS has a Limited English Proficiency policy with phone-based interpretation for over 100 languages. Reasonable accommodations are available on request for applicants with disabilities. Caseworker complaints or issues with an existing case can be escalated to the DHS Constituent Services unit. Denials and reductions on DHS-processed cases are appealable through the NY Fair Hearing process under SSL § 22 — not through a DHS internal process — within 60 days, and aid continuing is available when requested before the effective date. Legal Aid Society of Rochester, LawNY, and Empire Justice Center represent low-income Monroe County residents in fair hearings and complex DHS cases at no cost."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for benefits at the Monroe County DHS office during business hours without an appointment.",
-      "You have the right to receive an application on the same day you visit the office.",
-      "You have the right to be screened for expedited SNAP benefits on the same day you apply.",
-      "You have the right to be screened for emergency assistance on the same day you apply if you are facing an emergency.",
-      "You have the right to receive services in your preferred language. Monroe County DHS has a Limited English Proficiency policy.",
-      "You have the right to apply online through mybenefits.ny.gov instead of visiting the office in person.",
-      "You have the right to contact the after-hours line at (585) 442-1742 or 2-1-1 for emergencies outside business hours."
+      "A Monroe County resident has the right to apply for any public benefit administered by DHS during business hours without an appointment.",
+      "A Monroe County applicant has the right to a same-day application packet and same-day screening for expedited SNAP or emergency assistance.",
+      "A Monroe County resident has the right to phone-based interpretation in any language at intake and throughout the case.",
+      "A Monroe County applicant has the right to online filing through mybenefits.ny.gov as an alternative to in-person intake.",
+      "A Monroe County resident has the right to after-hours emergency assistance through the DHS after-hours crisis line or 2-1-1 LIFE LINE.",
+      "A Monroe County applicant or recipient has the right under SSL § 22 to appeal any DHS denial, reduction, or closure through the NY Fair Hearing process within 60 days.",
+      "A Monroe County applicant has the right to a reasonable accommodation for a disability during the application process."
     ]
   },
 
@@ -52,7 +53,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
   },
 
   example: {
-    en: "Theresa recently moved to Rochester and needed help with food and health insurance. She walked into the Monroe County DHS office at 691 St. Paul Street on a Tuesday morning. A staff member gave her an application that covered SNAP, Medicaid, and Temporary Assistance at the same time. She was screened for expedited SNAP that same day. Within a week, she received her EBT card. Her Medicaid was approved within three weeks. She did not need to visit the office again until her annual recertification."
+    en: "Theresa recently moved to Rochester and needed help with food and health insurance. She walked into Monroe County DHS at 691 St. Paul Street on a Tuesday morning. A staff member gave her a combined application that covered SNAP, Medicaid, and Temporary Assistance. Because her household had little to no income on hand, the intake worker screened her for expedited SNAP under the 7-day rule and accepted her application the same day. The EBT card arrived within a week. Medicaid approval came through about three weeks later. Theresa did not need to return to the office until annual recertification — recertification paperwork was handled through mybenefits.ny.gov."
   },
 
   counsel: [
@@ -130,7 +131,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
     "https://otda.ny.gov/workingfamilies/dss.asp"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
