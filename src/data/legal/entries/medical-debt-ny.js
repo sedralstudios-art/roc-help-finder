@@ -13,54 +13,57 @@ export const MEDICAL_DEBT_NY = {
   primaryStatute: "NY PBH 2807-K",
   status: "active",
 
-  title: { en: "Medical Bills — Hospital Help Programs and New York Protections" },
+  title: { en: "NY Medical Debt — Hospital Financial Assistance, Credit Report Ban, and Collection Limits" },
 
   summary: {
-    en: "Most New York hospitals have to offer a discount program for patients who cannot afford their bills. If your income is under a certain level, you can qualify for a lower bill — sometimes as low as $0. New York also bans medical debt from showing up on your credit report. And hospitals cannot put a lien on your home for unpaid medical bills."
+    en: "Every NY general hospital must operate a financial assistance program under Public Health Law § 2807-k. For patients with income below at least 400% of the federal poverty level, the hospital cannot charge more than Medicaid rates, and a sliding scale reduces charges further for lower incomes. Monthly installment payments cannot exceed 5% of the patient's gross monthly income. Separate NY laws ban medical debt on credit reports, ban hospital liens on a debtor's home, and cap wage garnishment. Immigration status cannot be used to deny financial assistance."
   },
 
   whoQualifies: {
     en: [
-      "Patients at most New York hospitals who were treated and got a bill they cannot afford.",
-      "Hospital discount programs help patients whose income is at or below 300% of the Federal Poverty Level (Public Health Law § 2807-k). Some hospitals go higher than that.",
-      "Immigration status does not matter. Hospitals cannot use it to deny you the discount.",
-      "The New York ban on medical debt credit reporting and the ban on medical debt home liens apply to every New Yorker."
+      "A patient treated at a NY general hospital with a bill the patient cannot afford.",
+      "A patient with income below 400% of the federal poverty level under PBH § 2807-k(9-a) — with escalating discount tiers at lower income levels.",
+      "A patient at any income level with medical debt appearing on a NY credit report — covered by GBS § 380-j's credit-reporting ban.",
+      "A NY homeowner against whom a hospital is seeking a lien for unpaid medical debt — protected by CPLR § 5231-a.",
+      "A NY wage earner facing wage garnishment for medical debt — protected by CPLR § 5231 caps."
     ]
   },
 
   whatItMeans: {
-    en: "If you are treated at a New York hospital and cannot afford the bill, there is a law that can help. Most hospitals have to offer a discount program called financial assistance (Public Health Law § 2807-k). Patients with very low income often get their bill written off to $0. Patients with higher income get a smaller discount. The cutoff is 300% of the Federal Poverty Level — for a single person in 2026, that is about $47,000 a year. You have at least 90 days after the first bill to apply. The hospital must tell you about the program on every bill. If you do not have insurance, the hospital also has to help check if you qualify for Medicaid before they start collecting. In 2023, New York passed a law (GBL § 380-j) that says credit bureaus cannot put medical debt on your credit report. In 2022, another law (CPLR § 5231-a) stopped hospitals from putting a lien on your home for a medical bill. Other 2022 changes lowered how much of your paycheck a medical debt collector can take (CPLR § 5231). Most medical debt also has a 3-year \"too old to sue\" rule in New York (CPLR § 214-i)."
+    en: "NY protects medical-debt patients through four interlocking statutes. Hospital financial assistance is governed by Public Health Law § 2807-k. Every NY general hospital must maintain a financial-assistance policy covering patients with income below 400% of the federal poverty level. The statute sets tiered discounts based on household income. For patients below 200% of poverty, the hospital cannot collect more than the amount Medicaid would have paid for the same services. For patients between 200% and 300% of poverty, a proportional sliding-fee schedule applies — lower incomes pay less, with charges increasing in equal increments as income rises. Up through 400% of poverty, some level of reduction is required. Immigration status cannot be used as an eligibility criterion. Patients must be given at least 90 days to apply for financial assistance after receiving the first bill. The hospital's financial-assistance policy must be posted on every bill and on the hospital's website. Installment plans are required under § 2807-k. The monthly payment on an unpaid balance cannot exceed 5 percent of the patient's gross monthly income, and any interest charged on the unpaid balance cannot exceed 2 percent. No acceleration clauses are allowed. Uninsured patients must be screened for Medicaid before collection starts, so a patient who qualifies for Medicaid can have the bill paid by Medicaid rather than pursued as personal debt. Three additional NY statutes add layered protections. General Business Law § 380-j, enacted in 2023 as the Fair Medical Debt Reporting Act, bans consumer-reporting agencies from listing any medical debt on a NY consumer's credit report and bans creditors and hospitals from furnishing medical debt to credit bureaus in the first place. CPLR § 5231-a, enacted in 2022, bars hospitals from placing a lien on the debtor's primary residence for unpaid medical debt. CPLR § 5231 caps wage garnishment for medical debt at a lower percentage than for general consumer debt. CPLR § 214-i cuts the statute of limitations on most consumer debt, including many medical debts, from six years to three years — a medical collector or debt buyer who sues on a time-barred medical debt faces dismissal on motion. Federal layer: the No Surprises Act at 42 USC § 300gg-111 protects patients from surprise out-of-network bills at in-network hospitals and from balance billing in emergency situations. The federal Independent Dispute Resolution process at cms.gov/nosurprises handles disputed out-of-network charges. Practical steps when hit with a medical bill: ask the hospital billing office for the financial-assistance application; apply within 90 days; request an itemized bill and look for errors; ask for a Medicaid screening if uninsured; complain to the NY Department of Health if the hospital refuses to comply; use the No Surprises Act process for out-of-network charges. Community Health Advocates at (888) 614-5400 is a free statewide helpline run by the Community Service Society that helps NY patients with hospital bills, insurance disputes, and financial-assistance applications."
   },
 
   yourRights: {
     en: [
-      "You have the right to see the hospital's financial assistance policy on every bill (PHL § 2807-k).",
-      "You have the right to at least 90 days after the first bill to apply for the discount.",
-      "You have the right to a hospital discount if your income is at or below 300% of the Federal Poverty Level. Lower-income patients get a bigger discount.",
-      "You have the right to apply no matter your immigration status. The hospital cannot use that to turn you down.",
-      "You have the right as an uninsured patient to be screened for Medicaid before the hospital starts collecting (PHL § 2807-k).",
-      "You have the right to keep medical debt off your credit report in New York (GBL § 380-j). This covers hospital bills, doctor bills, and medical collection accounts.",
-      "You have the right to keep your home safe from hospital medical-debt liens (CPLR § 5231-a).",
-      "You have the right to lower paycheck garnishment for medical debt than for other debts (CPLR § 5231).",
-      "You have the right to dispute a bill if the charges are wrong. Surprise bills from out-of-network doctors at an in-network hospital are limited by federal law (the No Surprises Act, 42 U.S.C. § 300gg-111).",
-      "You have the right to ask for an itemized bill and have errors fixed before anyone tries to collect."
+      "A NY patient has the right under PBH § 2807-k to apply for hospital financial assistance within at least 90 days of the first bill, regardless of immigration status.",
+      "A NY patient with income below 200% of the federal poverty level has the right under PBH § 2807-k to pay no more than the Medicaid amount for the same services.",
+      "A NY patient with income between 200% and 300% of the federal poverty level has the right to a proportional sliding-fee reduction under PBH § 2807-k.",
+      "A NY patient has the right under PBH § 2807-k to a monthly installment plan capped at 5 percent of gross monthly income, with interest capped at 2 percent and no acceleration clauses.",
+      "A NY uninsured patient has the right to be screened for Medicaid before the hospital starts collecting.",
+      "A NY consumer has the right under GBS § 380-j to a credit report free of medical debt information.",
+      "A NY homeowner has the right under CPLR § 5231-a to protection from hospital medical-debt liens on the primary residence.",
+      "A NY wage earner has the right to reduced medical-debt wage-garnishment caps under CPLR § 5231.",
+      "A NY consumer has the right under CPLR § 214-i to a three-year statute of limitations on most consumer medical debts — older claims can be dismissed on motion.",
+      "A NY patient has the right under the federal No Surprises Act (42 USC § 300gg-111) to protection from surprise out-of-network bills at in-network facilities."
     ]
   },
 
   legalOptions: {
     en: [
-      "To apply for hospital financial assistance, call the billing office at your hospital. Every New York hospital must post its policy on its website. You can also ask for a paper copy.",
-      "If the hospital denies you or bills you wrong, you can file a complaint with the New York Department of Health at health.ny.gov/facilities/hospital/financial_assistance.",
-      "For surprise out-of-network bills, you can file a complaint with the New York Department of Financial Services at dfs.ny.gov, or use the federal dispute process at nosurprises.cms.gov.",
-      "For medical debt that wrongly shows up on your credit report, you can complain to the Consumer Financial Protection Bureau at consumerfinance.gov and to the New York Attorney General at ag.ny.gov/consumer-frauds.",
-      "The Community Service Society runs a free statewide helpline called Community Health Advocates. They help with hospital bills and insurance problems. Call 1-888-614-5400.",
-      "Free legal help for medical debt in Monroe County: Legal Aid Society of Rochester (585-232-4090), LawNY (585-325-2520), and Empire Justice Center (585-454-4060).",
-      "If a hospital or medical collector sues you on a bill that is more than 3 years old, you can ask the court to throw the case out under CPLR § 214-i."
+      "Hospital billing office — every NY hospital must post its financial-assistance policy on its website and on every bill. Applications go to the hospital billing or financial-counseling department.",
+      "NY Department of Health Hospital Financial Assistance page at health.ny.gov/facilities/hospital/financial_assistance — complaint pathway when a hospital fails to comply with PBH § 2807-k.",
+      "NY Department of Financial Services at dfs.ny.gov — surprise out-of-network bill complaints.",
+      "Federal No Surprises Act dispute portal at cms.gov/nosurprises — independent dispute resolution for out-of-network charges.",
+      "Consumer Financial Protection Bureau at consumerfinance.gov — complaints about medical debt improperly reported to credit bureaus.",
+      "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 or ag.ny.gov/consumer-frauds — predatory medical collections and GBS § 380-j violations.",
+      "Community Health Advocates at (888) 614-5400 — free statewide helpline run by the Community Service Society for hospital billing and insurance disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 325-2520, Empire Justice Center at (585) 454-4060 — free legal representation for low-income Monroe County residents on medical debt.",
+      "CPLR § 214-i time-bar defense — a hospital or medical collector suing on a debt more than three years old faces dismissal on motion."
     ]
   },
 
   example: {
-    en: "Amira does not have insurance. She goes to the emergency room at a Rochester hospital and gets a bill for $6,000. Her bill has a notice about the hospital's financial assistance program, as required by PHL § 2807-k. Her household income is about 180% of the Federal Poverty Level. She calls the billing office and applies within 90 days. The hospital lowers her bill under its sliding scale and also helps her apply for Medicaid. Six months later, a collector contacts her about the smaller balance that is left. Because of New York's 2023 law (GBL § 380-j), the debt does not appear on her credit report."
+    en: "Amira is uninsured and went to the emergency room at a Monroe County hospital. She received a $6,000 bill. The first bill included the notice of the hospital's financial-assistance program required by PBH § 2807-k. Her household income was about 180% of the federal poverty level. She applied within 90 days. Because she falls below 200% of poverty, the hospital could not charge her more than the Medicaid rate for the services — reducing the bill substantially. The financial-counseling office also screened her for Medicaid. Six months later, when a collector contacted her about the remaining balance, she confirmed the debt was not showing on her credit report — GBS § 380-j blocks medical debt from NY credit reports."
   },
 
   counsel: [
@@ -157,7 +160,7 @@ export const MEDICAL_DEBT_NY = {
     "https://www.communityhealthadvocates.org/"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
