@@ -7,49 +7,53 @@ export const ILLEGAL_EVICTION_NY = {
   primaryStatute: "NY RPA 768",
   status: "active",
 
-  title: { en: "Illegal Eviction — A Landlord Cannot Remove a Tenant Without a Court Order" },
+  title: { en: "NY Illegal Eviction — Self-Help Lockouts, Criminal Penalties, and Treble Damages" },
 
   summary: {
-    en: "In New York, it is a crime for a landlord to force a tenant out of a home without a court order. Changing the locks, shutting off your heat or water, throwing out your stuff, or threatening you are all against the law. If this happens to you, you have strong rights — including the right to move back in, and the right to money damages up to 3 times your losses."
+    en: "Under NY Real Property Actions and Proceedings Law § 768, a landlord cannot lock a tenant out, shut off utilities, remove possessions, or use force to evict. Only a sheriff or marshal acting under a court-issued warrant can remove a tenant. A violation is a Class A misdemeanor with civil penalties of $1,000 to $10,000 per violation and an additional $100 per day for failing to restore the tenant. A separately available statute, RPA § 853, lets an unlawfully evicted tenant sue for triple damages. Protections apply to any occupant of 30 consecutive days or with a lease."
   },
 
   whoQualifies: {
     en: [
-      "Anyone who has lived in a New York home for 30 days or more in a row is protected by the illegal eviction law (RPAPL § 768).",
-      "This includes tenants with written leases, verbal agreements, month-to-month renters, and roommates or family members who were allowed to live there.",
-      "A written lease is not required. Spoken agreements to live somewhere for a month or more are still protected.",
-      "Even people who have been in the home for less than 30 days cannot be forced out with violence or chaos."
+      "A person who has lawfully occupied a NY dwelling for 30 consecutive days or longer, under RPA § 768(1)(a).",
+      "A person with a lease — written or oral — regardless of occupancy length.",
+      "A roommate, family member, or household member allowed to live in the unit, once 30 days of occupancy have passed.",
+      "A tenant whose utilities (heat, water, or power) have been interrupted by the landlord with intent to force the tenant out.",
+      "A tenant whose possessions have been removed, whose door has been removed, or whose lock has been changed without receiving a new key."
     ]
   },
 
   whatItMeans: {
-    en: "New York law (RPAPL § 768) says the only legal way to remove a tenant is through court. Anything else is an illegal eviction. That includes:\n\n- Changing the locks.\n- Shutting off heat, water, or power.\n- Taking out the tenant's belongings.\n- Using or threatening violence.\n- Steady harassment meant to make the tenant leave.\n\nIllegal eviction is a Class A misdemeanor. That means jail time up to 1 year is possible. Money penalties are $1,000 to $10,000 per violation. If the landlord refuses to let the tenant back in after being asked, an extra $100 per day can be added."
+    en: "NY Real Property Actions and Proceedings Law § 768 defines unlawful eviction. It makes the conduct both a crime and the basis for substantial civil penalties. The protection applies to an occupant who has lawfully occupied a dwelling for 30 consecutive days or longer, or any occupant with a lease. The statute identifies three categories of unlawful landlord conduct when done outside of a court-issued warrant. First, using or threatening force to make the occupant leave. Second, a course of conduct that interferes with the occupant's comfort, peace, or quiet — including cutting off essential services like heat, water, or electricity. Third, any other conduct intended to prevent lawful occupancy. That includes removing the occupant's possessions, removing the entry door, disabling the lock, or changing the lock without giving the occupant a new key. Section 768(1)(b) requires the owner to take all reasonable steps to restore the occupant once asked, when the owner caused or knew about the unlawful conduct. Penalties are set in RPA § 768(2). Every intentional violation is a Class A misdemeanor carrying up to one year in jail. Each act is a separate offense. Civil penalties run from $1,000 to $10,000 per violation. If the owner fails to restore the occupant after a request, an additional penalty of up to $100 per day applies, capped at six months. A separate statute, RPA § 853, creates a civil action for forcible or unlawful entry or detainer. A tenant who is ejected or kept out by force or unlawful means can recover triple damages. Damages can include temporary housing costs, lost or damaged property, missed work wages, medical costs from stress or exposure, and other losses tied to the eviction. Restoration petition. Under RPA § 713(10), a tenant locked out unlawfully can file a restoration proceeding in local court within one year of the eviction. The NY Attorney General has issued guidance to police confirming that officers should assist with restoration when an illegal lockout is verified. Occupancy proof includes rent receipts, mail, utility bills in the tenant's name, photos, or witness statements. Practical response to an illegal eviction: (1) call the local police non-emergency line for a welfare check and restoration; (2) gather occupancy proof; (3) if police cannot immediately help, contact Legal Aid or LawNY for emergency representation; and (4) document all losses for an eventual RPA § 853 damages claim. Legal Aid Society of Rochester, LawNY, JustCause, and Empire Justice Center handle illegal-eviction cases for low-income Monroe County tenants."
   },
 
   yourRights: {
     en: [
-      "You have the right to stay in your home until a court says otherwise. No landlord, property manager, or anyone acting for them can remove you without a court order (called a warrant of eviction) (RPAPL § 768).",
-      "If you are locked out illegally, you have the right to be let back in. The New York Attorney General has told police they should help tenants get back into their homes during an illegal lockout.",
-      "You have the right to call the police. Illegal eviction is a crime, and the landlord can be arrested (RPAPL § 768).",
-      "You have the right to take the landlord to court to get back into your home. You have 1 year from the illegal eviction to file (RPAPL § 713(10)).",
-      "If a court finds your landlord pushed you out illegally, the court can award up to 3 times your proven losses. Losses can include costs for temporary housing, damaged or lost property, and other money you lost (RPAPL § 853). Courts decide what fits each case.",
-      "If the landlord refuses to let you back in after you ask, that's a separate violation — up to $100 per day extra (RPAPL § 768)."
+      "A NY tenant has the right under RPA § 768(1) to remain in the home until a court-issued warrant of eviction is executed by a sheriff or marshal — self-help lockouts, utility shutoffs, and door removals by the landlord are illegal.",
+      "A NY tenant unlawfully evicted has the right under RPA § 768(1)(b) to have the owner take all reasonable steps to restore the tenant to occupancy after a request.",
+      "A NY tenant has the right to call police to respond to an illegal lockout; a violation is a Class A misdemeanor under RPA § 768(2)(a) and each act is a separate offense.",
+      "A NY tenant has the right under RPA § 713(10) to file a restoration proceeding in local court within one year of the illegal eviction to be put back in the dwelling.",
+      "A NY tenant has the right under RPA § 853 to sue for triple damages in a forcible or unlawful entry or detainer action.",
+      "A NY tenant whose landlord refuses to restore occupancy after a request has the right to an additional $100-per-day civil penalty (capped at six months) under RPA § 768(2)(b).",
+      "A NY tenant can also pursue damages under RPA § 768(2)(b) civil penalty of $1,000-$10,000 per violation, separate from the § 853 treble-damages award."
     ]
   },
 
   legalOptions: {
     en: [
-      "Illegal eviction is a Class A misdemeanor. Police can arrest anyone who does it — landlords, property managers, or anyone acting for them (RPAPL § 768).",
-      "A tenant who was forced out can go to court to get back in. You must have lived there 30 days or more in a row, and you have 1 year to file (RPAPL § 713(10)).",
-      "Courts can award up to 3 times your proven losses for a forcible or illegal eviction. That can include temporary housing costs, damaged or lost belongings, and other money you lost (RPAPL § 853).",
-      "The New York Attorney General has given police guidance for illegal lockouts. Officers are told to help tenants get back in when a lockout is confirmed. Full guidance at ag.ny.gov.",
-      "Free emergency legal help in Monroe County: Legal Aid Society of Rochester (585-232-4090) and LawNY (585-325-2520).",
-      "Landlords who illegally evict tenants can be fined $1,000 to $10,000 per violation, plus $100 per day for failing to let the tenant back in (RPAPL § 768)."
+      "Local police non-emergency line — Rochester (585) 428-6666, Monroe County Sheriff (585) 753-4178 — for illegal-lockout response and restoration with occupancy proof.",
+      "Rochester City Court Civil Part at (585) 428-6990 — hears RPA § 713(10) restoration petitions and § 853 damages actions for properties inside Rochester.",
+      "Monroe County town and village justice courts — each handles restoration petitions within jurisdiction.",
+      "NY Attorney General illegal-eviction guidance at ag.ny.gov/resources/government-organizations/law-enforcement-guidance/unlawful-evictions — shareable with responding officers.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — emergency representation in illegal-eviction cases including restoration and damages.",
+      "LawNY at (585) 325-2520 — illegal-eviction cases across 14-county Western NY service area.",
+      "JustCause at (585) 232-3051 — volunteer-attorney program for Monroe County illegal-eviction cases.",
+      "Empire Justice Center at (585) 454-4060 — complex illegal-eviction and impact-level cases."
     ]
   },
 
   example: {
-    en: "Kayla rented an apartment month-to-month. After a disagreement about repairs, her landlord changed the locks while she was at work. When Kayla came home, she couldn't get in. She called the police and showed them proof she lived there — rent receipts and mail with her name. The officers confirmed it was an illegal lockout and called the landlord. Kayla was back in her apartment that night. She later called Legal Aid. They helped her file a case in court. The judge ordered the landlord to pay 3 times what the lockout cost her."
+    en: "Kayla rented a Rochester apartment month-to-month for eight months. After a disagreement about repairs, the landlord changed the locks while Kayla was at work. When Kayla came home, she could not get in. She called the Rochester Police non-emergency line and showed the responding officer rent receipts and mail with her name — clear proof of the 30-day occupancy required under RPA § 768(1). The officer confirmed the illegal lockout and directed the landlord to restore Kayla to the apartment. She was back that night. Kayla contacted Legal Aid Society of Rochester the next day. Legal Aid filed a restoration petition under RPA § 713(10) and a damages action under RPA § 853 for the one-night hotel cost, the lost work time, and the distress — recovering triple those damages under the statute."
   },
 
   counsel: [
@@ -139,7 +143,7 @@ export const ILLEGAL_EVICTION_NY = {
     "https://ag.ny.gov/publications/residential-tenants-rights-guide"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
