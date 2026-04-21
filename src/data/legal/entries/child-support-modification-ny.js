@@ -7,57 +7,62 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
   primaryStatute: "NY FCT 451",
   status: "active",
 
-  title: { en: "Changing a Child Support Order in New York" },
+  title: { en: "NY Child Support Modification — Substantial Change, Three-Year Rule, and 15 Percent Income Test" },
 
   summary: {
-    en: "When a parent's income, job, or family situation has changed significantly since the last child support order, the parent can ask the court to modify it. In New York, either parent can petition for a modification if there has been a substantial change in circumstances, or if three years have passed since the order was last set, or if either parent's income has changed by 15% or more."
+    en: "NY Family Court Act § 451 lets either parent ask the court to change a child support order. The petition must meet one of three grounds: a substantial change in circumstances, three years since the last order, or a change of 15 percent or more in either parent's gross income since the last order. The new amount takes effect from the date the petition is filed, not from the date the change happened. The old amount stays in force until the new order is signed."
   },
 
   whoQualifies: {
     en: [
-      "Either parent (the one paying or the one receiving) can file for a modification.",
-      "A substantial change in circumstances has occurred — job loss, new job, new child, disability, incarceration, or a major change in the child's needs.",
-      "At least three years have passed since the last order or modification.",
-      "Either parent's gross income has changed by 15% or more since the last order."
+      "Either parent of a NY child covered by an existing support order — the paying or receiving parent.",
+      "A parent who has experienced a substantial change in circumstances (job loss, new full-time job, new child, disability, incarceration, or a major change in the child's needs).",
+      "Either parent when three years have passed since the support order was entered, last modified, or last adjusted.",
+      "Either parent whose gross income has changed by 15 percent or more since the order was entered.",
+      "A parent who is a Temporary Assistance or Medicaid recipient — the Division of Child Support Services can file the modification petition on the parent's behalf as part of the federal child support services program (known as Title IV-D of the Social Security Act)."
     ]
   },
 
   whatItMeans: {
-    en: "A child support modification changes the amount of the existing court order. It does not happen automatically — you have to file a petition with the Family Court or, if the order came from Supreme Court during a divorce, with that court. Until the court signs a new order, the old amount stays in effect and must be paid. Falling behind without filing a modification petition can lead to enforcement actions including wage garnishment, license suspension, and contempt of court. The modification takes effect from the date the petition is filed, not from the date circumstances changed — so file as soon as possible. The court uses the same CSSA formula (17% for one child, etc.) but applies it to the current income. If you were ordered to pay through the Support Collection Unit (SCU), the SCU can also help process the modification."
+    en: "A NY child support modification is handled under Family Court Act § 451. The statute gives the court continuing jurisdiction over a support order — meaning the same court that issued the order can change the amount up or down as circumstances change. The change does not happen on its own. A parent has to file a written petition. Until the court signs a new order, the old order stays in effect, and missed payments become arrears that can be enforced. FCT § 451(1) has a strict rule on arrears — a modification cannot reduce or cancel arrears that accrued before the modification petition was filed, except for arrears where the party shows good cause for not filing earlier. So filing promptly after a change matters. A parent who loses a job and waits six months before filing will still owe the full original amount for those six months. FCT § 451(3) lists the grounds. The first, in § 451(3)(a), is a 'substantial change in circumstances.' The statute specifies that incarceration cannot be treated as voluntary unemployment, so it qualifies as a change. The second and third grounds, in § 451(3)(b), apply unless the parents specifically opted out of them in their agreement: (i) three years have passed since the order was entered, last modified, or adjusted; or (ii) either party's gross income has changed by 15 percent or more since the order was last set. A reduction in income only qualifies if the reduction was involuntary and the parent has made diligent attempts to find comparable work. The court applies the same Child Support Standards Act formula used for the original order — the percentage of combined parental income (17 percent for one child, 25 percent for two, 29 percent for three, 31 percent for four, 35 percent or more for five or more) — but uses current income figures. Under FCT § 451(1), a modification may even be made retroactive (nunc pro tunc) to the date of the initial application based on newly discovered evidence. Procedure: the petition is filed in the NY Family Court in the county where the original order was entered, or where either parent lives. An order that came out of a divorce can be modified in the NY Supreme Court that granted the divorce, or transferred to Family Court by consent. The court schedules a hearing where both sides submit current financial information — pay stubs, tax returns, unemployment documentation, medical bills, the child's current expenses. Support Magistrates handle most Family Court modification cases. If the parent needing help is a Temporary Assistance or Medicaid recipient, the Division of Child Support Services can file the petition as part of the Title IV-D case. Monroe County filings go to Monroe County Family Court. The new order takes effect from the date the petition is filed. The Monroe County Support Collection Unit processes the new amount through any existing wage-withholding order. Legal Aid Society of Rochester and LawNY represent low-income Monroe County parents in modification cases."
   },
 
   yourRights: {
     en: [
-      "You have the right to petition for a modification based on changed circumstances, the passage of three years, or a 15% income change.",
-      "You have the right to a hearing where both sides present evidence of current income and expenses.",
-      "You have the right to a lawyer. If you cannot afford one, the court must assign one in certain circumstances.",
-      "You have the right to have the modification take effect from the date you filed, not from the hearing date.",
-      "You have the right to request a temporary modification while the petition is pending if there is an emergency."
+      "A NY parent has the right under FCT § 451 to petition the court for a modification of an existing child support order.",
+      "A NY parent has the right under FCT § 451(3)(a) to seek modification based on a substantial change in circumstances — which includes incarceration.",
+      "A NY parent has the right under FCT § 451(3)(b) to seek modification when three years have passed since the last order or when either parent's gross income has changed by 15 percent or more, unless the parents specifically opted out of these grounds in their agreement.",
+      "A NY parent who files a modification petition has the right to have any change take effect from the date the petition was filed.",
+      "A NY parent has the right to a hearing at which both sides present current income and expense evidence.",
+      "A NY parent on Temporary Assistance or Medicaid has the right to have the Division of Child Support Services file the petition at no cost.",
+      "A NY parent has the right under FCT § 440 and § 454 to enforce arrears that accrued before the modification — or to defend against those arrears only on narrow good-cause grounds under FCT § 451(1)."
     ]
   },
 
   legalOptions: {
     en: [
-      "A modification petition can be filed at the Family Court in the county where the original order was issued, or where either parent lives. In Monroe County: Family Court, Hall of Justice, 99 Exchange Blvd, Rochester NY 14614.",
-      "The petition can also be filed through the Monroe County Support Collection Unit (SCU) at (585) 753-6011, which handles enforcement and can help with modification paperwork.",
-      "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 295-5700.",
-      "Proof of current income (pay stubs, tax returns, unemployment records), proof of the change (termination letter, medical records, new child's birth certificate), and a copy of the existing order may be needed.",
-      "Under Family Court Act § 451 and Domestic Relations Law § 236-B(9)(b), the court must apply the CSSA guidelines to current income and can only deviate for specific reasons."
+      "Monroe County Family Court at 99 Exchange Boulevard, Rochester, (585) 428-2480 — accepts modification petitions with no filing fee.",
+      "Monroe County Support Collection Unit at (585) 753-6690 — processes the new support amount through wage-withholding and can assist with modification paperwork.",
+      "NY Division of Child Support Services at childsupport.ny.gov or (888) 208-4485 — files modification petitions on behalf of Title IV-D recipients.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income Monroe County parents in modification cases.",
+      "LawNY at (585) 325-2520 — family-law representation across 14-county Western NY service area.",
+      "Monroe County Bar Association Lawyer Referral Service at (585) 546-2130 — reduced-fee consultations with private family-law attorneys.",
+      "NY Court Help modification forms at nycourts.gov — Family Court Form 4-11 (Petition for Modification of Order of Support)."
     ]
   },
 
   example: {
-    en: "James lost his job and his income dropped from $45,000 to unemployment benefits of $18,000. His child support order is based on the old salary. He files a modification petition at Monroe County Family Court and brings his unemployment award letter and his last pay stubs. The court recalculates using the CSSA formula on his current income. The new order is lower and takes effect from the date he filed the petition — not from the date he lost the job. Until the court signed the new order, James still owed the old amount, but he filed quickly so the gap was small."
+    en: "James had a $600 monthly child support order based on a $45,000 annual salary. He was laid off and now receives unemployment benefits of $18,000 per year. He files a petition for modification at Monroe County Family Court under FCT § 451(3)(b)(ii), citing an involuntary reduction in gross income of more than 15 percent. He brings his layoff letter, unemployment-benefit award, and job-search records to show the reduction was involuntary and that he is actively seeking comparable work. The Support Magistrate recalculates using the CSSA formula on his current income. The new monthly order is lower and takes effect from the date James filed the petition. Arrears that accrued before the filing remain owed under FCT § 451(1)."
   },
 
   counsel: [
     {
-      type: "free",
+      type: "nonprofit",
       name: "Legal Aid Society of Rochester",
-      focus: "Child support, modification, family law",
-      qualifier: "Low-income residents of Monroe and surrounding counties",
-      access: "Phone intake or walk-in",
-      outcome: "Direct representation or advice",
+      focus: "Child-support modification petitions, CSSA recalculation, arrears defense",
+      qualifier: "Low-income Monroe County resident",
+      access: "Phone intake",
+      outcome: "Free representation in Family Court",
       phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
@@ -65,17 +70,30 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
       languages: ["es"]
     },
     {
-      type: "free",
-      name: "Monroe County Support Collection Unit (SCU)",
-      focus: "Child support enforcement, modification processing",
-      qualifier: "Any parent with a Monroe County child support order",
+      type: "government",
+      name: "Monroe County Support Collection Unit",
+      focus: "Support-order enforcement and modification processing",
+      qualifier: "Any parent with a Monroe County support order",
       access: "Phone",
-      outcome: "Processing and enforcement",
-      phone: "(585) 753-6011",
-      url: "https://www.monroecounty.gov",
+      outcome: "Payment processing, modification paperwork assistance",
+      phone: "(585) 753-6690",
+      url: "https://www.monroecounty.gov/hs-scu",
       verified: true,
-      bilingual: false,
-      languages: []
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "government",
+      name: "NY Division of Child Support Services",
+      focus: "Title IV-D modification petitions for TA and Medicaid recipients",
+      qualifier: "NY parent receiving Temporary Assistance or Medicaid",
+      access: "Phone, online application",
+      outcome: "State-filed modification petition",
+      phone: "(888) 208-4485",
+      url: "https://childsupport.ny.gov",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
     }
   ],
 
@@ -88,17 +106,16 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
   relatedHelpResources: [],
 
   tags: [
-    "child support modification",
-    "change child support",
-    "lower child support",
-    "increase child support",
-    "lost job child support",
-    "income change",
-    "CSSA",
-    "family court petition",
-    "support collection unit",
-    "SCU",
-    "child support arrears"
+    "NY child support modification",
+    "FCT 451",
+    "substantial change circumstances",
+    "three-year rule",
+    "15 percent income change",
+    "CSSA recalculation",
+    "retroactive support NY",
+    "incarceration child support",
+    "Support Magistrate",
+    "Monroe County Family Court"
   ],
 
   sources: [
@@ -107,7 +124,7 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
     "https://childsupport.ny.gov"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
