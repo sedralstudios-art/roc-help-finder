@@ -1,0 +1,71 @@
+name: Nightly verification bots
+
+# Runs the three verification bots every night at 07:00 UTC (03:00 ET).
+# Produces JSON reports as workflow artifacts so a human can review findings
+# in the GitHub Actions tab. Bots intentionally exit 0 on completion so a few
+# broken URLs do not fail the workflow — the report is the deliverable.
+#
+# Reports:
+#   dist/verification-report-linkcheck.json    — broken / forbidden / OK URLs
+#   dist/verification-report-stale.json        — entries past lastVerified threshold
+#   dist/verification-report-statutes.json     — statute amendments after lastVerified
+#
+# Manual trigger via the Actions tab also supported (workflow_dispatch).
+
+on:
+  schedule:
+    # 07:00 UTC = 02:00 EST (winter) / 03:00 EDT (summer)
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  linkcheck:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - run: node scripts/bot-linkcheck.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report-linkcheck
+          path: dist/verification-report-linkcheck.json
+          retention-days: 30
+
+  stale-sweep:
+    name: Stale-verified sweep
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - run: node scripts/bot-stale-sweep.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report-stale
+          path: dist/verification-report-stale.json
+          retention-days: 30
+
+  statute-check:
+    name: Statute amendment check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - run: node scripts/bot-statute-check.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report-statutes
+          path: dist/verification-report-statutes.json
+          retention-days: 30
