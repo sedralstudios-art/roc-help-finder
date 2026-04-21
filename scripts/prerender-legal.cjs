@@ -435,6 +435,24 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
       '</div>'
     : '';
 
+  // Visible verified-on badge. Paired with dateModified in the Article JSON-LD
+  // so Google can surface the freshness date in search snippets. The scope
+  // disclosure beneath is also a UPL hedge — readers see that bot-verified
+  // means phone/URL freshness, while statute text is reviewed on a slower
+  // cadence and dollar amounts should be confirmed against the linked source.
+  const verifiedDateISO = entry.lastVerified || entry.lastAudited;
+  const verifiedBadgeHTML = verifiedDateISO
+    ? (() => {
+        const d = new Date(verifiedDateISO + 'T00:00:00');
+        const pretty = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        return '<div class="verified-badge" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 10px;padding:10px 14px;background:#e8f5e9;border:1px solid #66bb6a;border-radius:8px;font-size:13px;color:#1b5e20;">' +
+          '<span style="font-size:16px;font-weight:700;">✓</span>' +
+          '<span style="font-weight:600;">Verified ' + esc(pretty) + '</span>' +
+          '<span style="font-size:11px;color:#2e7d32;flex-basis:100%;line-height:1.45;">Phones and links are checked on a regular schedule. Fee amounts and program details may change — click the official source for current rates.</span>' +
+          '</div>';
+      })()
+    : '';
+
   const AUTHORITY_META_SSR = {
     "state-statute": { label: "NY State Statute", caption: "This rule comes from a law passed by the New York State Legislature.", cls: "auth-state-statute" },
     "federal-statute": { label: "Federal Statute", caption: "This rule comes from a law passed by Congress. It applies nationwide.", cls: "auth-federal-statute" },
@@ -559,6 +577,7 @@ ${breadcrumbJsonLD}
         <h1>${esc(title)}</h1>
         <p class="lead">${esc(summary)}</p>
         ${authorityBadgeHTML}
+        ${verifiedBadgeHTML}
         ${reviewedByHTML}
         ${whoQualHTML}
         ${whatItMeansHTML}

@@ -147,6 +147,34 @@ function parseSource(url) {
   }
 }
 
+function VerifiedBadge({ lastVerified }) {
+  if (!lastVerified) return null;
+  const d = new Date(lastVerified + "T00:00:00");
+  if (isNaN(d.getTime())) return null;
+  const pretty = d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  return (
+    <div style={{
+      display: "flex",
+      flexWrap: "wrap",
+      alignItems: "center",
+      gap: 8,
+      margin: "14px 0 10px",
+      padding: "10px 14px",
+      background: "#e8f5e9",
+      border: "1px solid #66bb6a",
+      borderRadius: 8,
+      fontSize: 13,
+      color: "#1b5e20",
+    }}>
+      <span style={{ fontSize: 16, fontWeight: 700 }}>✓</span>
+      <span style={{ fontWeight: 600 }}>Verified {pretty}</span>
+      <span style={{ fontSize: 11, color: "#2e7d32", flexBasis: "100%", lineHeight: 1.45 }}>
+        Phones and links are checked on a regular schedule. Fee amounts and program details may change — click the official source for current rates.
+      </span>
+    </div>
+  );
+}
+
 function AuthorityBadge({ authorityType }) {
   if (!authorityType) return null;
   const meta = AUTHORITY_META[authorityType];
@@ -559,6 +587,8 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       </p>
 
       <AuthorityBadge authorityType={entry.authorityType} />
+
+      <VerifiedBadge lastVerified={entry.lastVerified || entry.lastAudited} />
 
       <ShareBar entryId={entry.id} title={pickText(entry.title, "en")} />
 
