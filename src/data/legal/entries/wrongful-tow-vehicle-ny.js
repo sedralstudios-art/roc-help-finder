@@ -7,61 +7,89 @@ export const WRONGFUL_TOW_VEHICLE_NY = {
   primaryStatute: "NY VAT 1224",
   status: "active",
 
-  title: { en: "Wrongful Towing — How to Get a Vehicle Back and Recover the Cost" },
+  title: { en: "NY Wrongful Towing — How to Get a Vehicle Back and Recover the Cost" },
 
   summary: {
-    en: "If a vehicle was towed without legal authority — no signs posted, no police order, towed from a legal parking spot, or towed by a company not authorized by the property owner — the tow may be wrongful. The vehicle owner can recover the tow and storage charges and may be entitled to additional damages. Filing a police report and a consumer complaint is the first step."
+    en: "A tow is wrongful when the parking lot had no required signs, the tow company was not authorized for the specific tow, or the vehicle was in a legal space. NY General Business Law § 399-v sets the sign requirements for private-property tows and gives the vehicle owner a private right to sue — actual damages or $150, whichever is greater, plus attorney fees. Triple damages up to $1,000 are available when the violation was willful. Vehicle and Traffic Law § 1224 defines when a vehicle is legally abandoned — left on private property more than 96 hours without permission."
   },
 
   whoQualifies: {
     en: [
-      "Any driver whose vehicle was towed from a legal parking spot.",
-      "Any driver whose vehicle was towed from a private lot without proper warning signs.",
-      "Any driver whose vehicle was towed by a company that was not authorized by the property owner or police.",
-      "Any driver who was charged excessive fees to retrieve a towed vehicle."
+      "A NY vehicle owner whose car was towed from a parking lot with fewer than the required signs under GBS § 399-v(2).",
+      "A NY vehicle owner whose car was towed from a legal space (not blocking a fire lane, hydrant, or no-parking zone).",
+      "A NY vehicle owner charged excessive fees to retrieve a towed vehicle.",
+      "A NY vehicle owner whose car was towed by a company that had no authorization from the lot owner for that specific tow.",
+      "A NY vehicle owner towed from a spot where the tow company appeared to be paid by the lot operator (prohibited kickback under GBS § 399-v(4))."
     ]
   },
 
   whatItMeans: {
-    en: "A tow is wrongful if it was done without legal authority. Common situations include the vehicle was legally parked (not in a fire lane, not blocking a hydrant, not in a no-parking zone) and was towed anyway, the private lot did not have visible tow-away warning signs at the entrance (required by VTL Section 1224), the tow company was not authorized by the property owner for that specific tow, the vehicle was towed during a snow emergency but was parked on a street not covered by the emergency, and the tow company did not notify police within 30 minutes of the tow (required for private property tows). A vehicle owner whose car was wrongfully towed can demand the tow charges be waived, file a police report for theft of the vehicle (if the tow was completely unauthorized), file a complaint with the NYS Division of Consumer Protection, and sue the tow company in small claims court for the tow and storage charges plus damages. Under GBL Section 399-aa, a tow company that violates towing regulations can be fined and held liable for damages. A tow company cannot hold a vehicle hostage — the owner has the right to retrieve personal belongings regardless of whether the tow charges are paid."
+    en: "Private-property towing in NY outside of New York City is governed by General Business Law § 399-v. A parking facility is any lot with capacity for five or more vehicles that is not owned or operated by the state, a municipality, or a public authority. The key rule is simple. The facility must post a conspicuous sign at the entrance stating three things: the parking operator's name, address, and phone number; the authorized tow company's name, address, and phone number; and a notice that unauthorized vehicles will be towed at the vehicle owner's expense. No tow from the lot is allowed unless that notice is displayed. The statute also bans kickbacks — the lot operator cannot accept payment, commission, or any consideration from the tow company for tows taken from the lot. A tow that violates § 399-v gives the vehicle owner the right to sue. Remedies include actual damages or $150 (whichever is greater), plus triple damages up to $1,000 total when the violation was willful or knowing. The court may also award reasonable attorney fees to a prevailing plaintiff. The NY Attorney General can separately seek an injunction and a civil penalty of $50 to $1,000 per violation. The rule does not apply to New York City (population of one million or more); NYC has its own Department of Consumer and Worker Protection rules. Local counties and municipalities can pass stricter towing rules, and the state statute preserves those local protections. VAT § 1224 is a related but different statute. It defines when a vehicle is legally abandoned. A vehicle left on private property without permission for more than 96 hours qualifies as abandoned, at which point the property owner or a municipality may arrange removal. A tow of a vehicle left for much less than 96 hours, or legally parked, or with permission to be there, does not fall under the abandonment rule. Practical steps after a wrongful tow: the vehicle owner photographs the parking spot (or where the vehicle had been), the signs that were (or were not) posted at the lot entrance, and any postings at the tow yard. The tow receipt and all charge paperwork should be kept. Payment of the tow charge under protest does not waive the right to sue; writing 'paid under protest' on the receipt documents that the payment was involuntary. A complaint can be filed with the NY Department of State Division of Consumer Protection and with the NY Attorney General's Consumer Frauds Bureau. If the tow was truly unauthorized — not done at the request of the lot owner at all — the police can take a report for possible grand larceny of a motor vehicle. The typical legal remedy is a small-claims lawsuit in the town or city court where the tow happened, with copies of the § 399-v citation and the photos attached to the complaint. Monroe County towns each run their own small-claims calendar."
   },
 
   yourRights: {
     en: [
-      "A vehicle owner has the right to retrieve personal belongings from a towed vehicle without paying the tow charge first.",
-      "A tow from a private lot without visible warning signs may be wrongful — the owner can demand a refund.",
-      "A tow company must notify police within 30 minutes of towing from private property.",
-      "A tow company cannot charge more than the rates posted on the truck.",
-      "A vehicle owner can sue a tow company in small claims court for wrongful tow charges and damages.",
-      "A tow company cannot demand cash only — common payment methods must be accepted."
+      "A NY vehicle owner has the right under GBS § 399-v(6) to sue the tow company for actual damages or $150, whichever is greater, plus reasonable attorney fees.",
+      "A NY vehicle owner has the right under GBS § 399-v(6) to seek triple damages up to $1,000 when the tow was willful or knowing.",
+      "A NY vehicle owner has the right to retrieve personal belongings from a towed vehicle, even before the tow fee is paid.",
+      "A NY vehicle owner has the right to file complaints with the NY Department of State Division of Consumer Protection and the NY Attorney General's Consumer Frauds Bureau.",
+      "A NY vehicle owner has the right to pay the tow fee under protest and still sue to recover the money.",
+      "A NY vehicle owner has the right to stricter local towing rules when a municipality has adopted them — GBS § 399-v(7) preserves local protections."
     ]
   },
 
   legalOptions: {
     en: [
-      "If the tow was wrongful, file a police report. Rochester Police at 311. Monroe County Sheriff at (585) 753-4178.",
-      "NYS Division of Consumer Protection at (800) 697-1220 handles towing complaints.",
-      "NYS Attorney General at (800) 771-7755 handles predatory towing and overcharging.",
-      "For wrongful tow charges under $5,000, file in small claims court.",
-      "Document everything — take photos of where the vehicle was parked, the signs (or lack of signs), the tow receipt, and the charges.",
-      "If the tow was police-ordered, request the police report — if the tow was not justified by the circumstances, the municipality may be liable."
+      "NY Department of State Division of Consumer Protection at (800) 697-1220 or dos.ny.gov/consumer-protection — handles private-tow complaints outside NYC.",
+      "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 or ag.ny.gov/consumer-frauds — investigates patterns of predatory towing.",
+      "Local small-claims court in the town or city where the tow happened — Rochester City Court Civil Part at (585) 428-6990 handles claims under $5,000 within city limits; Monroe County town and village justice courts handle claims under $3,000.",
+      "Police non-emergency line — 311 in Rochester, Monroe County Sheriff at (585) 753-4178 elsewhere — if the tow appears to be an unauthorized taking of a vehicle.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income Monroe County residents facing a costly wrongful tow.",
+      "Monroe County Bar Association Lawyer Referral Service at (585) 546-2130 for private-attorney consultation.",
+      "Photographic documentation — the parking spot, the signs at the lot entrance, the tow yard posting, and any conversation with the tow operator — strengthens a wrongful-tow claim."
     ]
   },
 
   example: {
-    en: "Carlos parked on a residential street in Irondequoit with no parking restrictions posted. He returned to find his car gone. He called the police, who confirmed no tow had been ordered. A private tow company had taken the car without authorization. Carlos filed a police report for unauthorized taking of a vehicle and a complaint with the NYS Division of Consumer Protection. He retrieved his car from the tow yard, paid the $250 fee under protest, and filed a small claims case. The judge ordered the tow company to refund the $250 plus $50 in court costs."
+    en: "Carlos parked in a Monroe County strip-mall lot near the Irondequoit town line. He returned 90 minutes later to find the car gone. The lot had no sign at the entrance listing the tow company or the parking operator — a GBS § 399-v(2) violation. A private tow company had taken the car at the request of the property manager. Carlos paid the $250 retrieval fee at the tow yard and wrote 'paid under protest' on the receipt. He photographed the lot entrance showing no sign, filed a complaint with the NY Department of State Division of Consumer Protection, and filed a small-claims action in Irondequoit Town Court citing GBS § 399-v(6). The judge awarded $250 refund plus $50 in court costs because the statute sets a floor of $150 or actual damages, whichever is greater."
   },
 
   counsel: [
     {
       type: "government",
-      name: "NYS Division of Consumer Protection",
-      focus: "Wrongful towing, predatory towing, tow company complaints",
-      qualifier: "Any NYS resident",
-      access: "Phone at (800) 697-1220",
-      outcome: "Investigation, mediation, enforcement",
+      name: "NY Department of State Division of Consumer Protection",
+      focus: "Private-tow complaints under GBS § 399-v outside NYC",
+      qualifier: "Any NY vehicle owner",
+      access: "Phone, online complaint",
+      outcome: "Mediation, investigation, enforcement referral",
       phone: "(800) 697-1220",
       url: "https://dos.ny.gov/consumer-protection",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "government",
+      name: "NY Attorney General Consumer Frauds Bureau",
+      focus: "Pattern predatory towing, kickback violations under GBS § 399-v(4)",
+      qualifier: "Any NY vehicle owner",
+      access: "Phone, online complaint",
+      outcome: "Investigation, civil penalty action up to $1,000 per violation",
+      phone: "(800) 771-7755",
+      url: "https://ag.ny.gov/consumer-frauds",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "nonprofit",
+      name: "Legal Aid Society of Rochester",
+      focus: "Private-tow disputes for low-income Monroe County residents",
+      qualifier: "Low-income Monroe County resident",
+      access: "Phone intake",
+      outcome: "Free advice or representation in small claims",
+      phone: "(585) 232-4090",
+      url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
       languages: ["es"]
@@ -79,24 +107,26 @@ export const WRONGFUL_TOW_VEHICLE_NY = {
   relatedHelpResources: [],
 
   tags: [
-    "wrongful tow",
-    "car towed illegally",
-    "unauthorized tow",
-    "tow refund",
-    "car towed no sign",
-    "tow company complaint",
-    "wrongful tow refund",
-    "car towed wrongfully",
-    "tow charges recover",
-    "tow small claims"
+    "NY wrongful tow",
+    "GBS 399-v",
+    "private property towing NY",
+    "tow sign requirement",
+    "tow kickback ban",
+    "$150 minimum damages tow",
+    "triple damages willful tow",
+    "small claims tow refund",
+    "VAT 1224 abandoned vehicle",
+    "tow fee refund"
   ],
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/VAT/1224",
-    "https://www.nysenate.gov/legislation/laws/GBS/399-AA"
+    "https://codes.findlaw.com/ny/general-business-law/gbs-sect-399-v/",
+    "https://dos.ny.gov/consumer-protection",
+    "https://ag.ny.gov/consumer-frauds"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
