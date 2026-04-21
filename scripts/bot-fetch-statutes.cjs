@@ -14,11 +14,24 @@
  * The point: eliminate per-entry HTTP round trips and manual parsing during
  * retrofit. A rewrite reads facts from the cache instead of my memory.
  *
+ * Two fetch layers:
+ *   1. Raw node https — fast, used first.
+ *   2. Playwright headless Chromium (opt-in with --playwright) — fallback
+ *      for URLs that return non-200 from https. Handles TLS-fingerprint
+ *      blocking, JS-rendered pages, and 3xx redirect chains that node's
+ *      https module doesn't follow. Browser launches once per run and is
+ *      reused across all fallback fetches.
+ *
  * Usage:
- *   node scripts/bot-fetch-statutes.cjs                    # full queue
+ *   node scripts/bot-fetch-statutes.cjs                    # full queue, https only
+ *   node scripts/bot-fetch-statutes.cjs --playwright       # https + browser fallback
  *   node scripts/bot-fetch-statutes.cjs --limit=10         # partial
  *   node scripts/bot-fetch-statutes.cjs --throttle=800     # ms between reqs
  *   node scripts/bot-fetch-statutes.cjs --queue=path       # alt queue file
+ *   node scripts/bot-fetch-statutes.cjs --retry-failed     # only re-fetch
+ *                                                           entries whose
+ *                                                           previous fetch
+ *                                                           was non-200
  *
  * Reads:  dist/retrofit-queue.json (created by bot-preflight-scan + helper)
  * Writes: dist/statute-cache.json
@@ -43,7 +56,13 @@ const args = process.argv.slice(2).reduce((a, x) => {
 const LIMIT = parseInt(args.limit, 10) || 0;
 const THROTTLE_MS = parseInt(args.throttle, 10) || 800;
 const TIMEOUT_MS = 15000;
+const PW_TIMEOUT_MS = 30000;
 const QUEUE_FILE = args.queue || QUEUE;
+const USE_PLAYWRIGHT = !!args.playwright;
+const RETRY_FAILED = !!args['retry-failed'];
+
+const REAL_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -95,6 +114,64 @@ function fetchHtml(url) {
       done({ status: 0, error: e.message });
     }
   });
+}
+
+// ── Playwright fallback ─────────────────────────────────────────────────────
+// Lazy-loaded so runs without --playwright don't spin up a browser or even
+// require the module.
+let _browser = null;
+let _context = null;
+
+async function ensureBrowser() {
+  if (_browser) return _browser;
+  let pw;
+  try {
+    pw = require('playwright');
+  } catch (e) {
+    console.error('\n[playwright] module not installed. Run: npm install --save-dev playwright && npx playwright install chromium');
+    throw e;
+  }
+  _browser = await pw.chromium.launch({ headless: true });
+  _context = await _browser.newContext({
+    userAgent: REAL_UA,
+    viewport: { width: 1280, height: 800 },
+    locale: 'en-US',
+    timezoneId: 'America/New_York',
+  });
+  return _browser;
+}
+
+async function closeBrowser() {
+  try {
+    if (_context) await _context.close();
+  } catch (_) {}
+  try {
+    if (_browser) await _browser.close();
+  } catch (_) {}
+  _browser = null;
+  _context = null;
+}
+
+async function fetchHtmlPlaywright(url) {
+  try {
+    await ensureBrowser();
+    const page = await _context.newPage();
+    try {
+      const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: PW_TIMEOUT_MS });
+      try {
+        await page.waitForLoadState('networkidle', { timeout: 5000 });
+      } catch (_) {
+        // networkidle is best-effort; some gov pages keep long-poll connections open
+      }
+      const status = resp ? resp.status() : 0;
+      const body = await page.content();
+      return { status, body };
+    } finally {
+      await page.close();
+    }
+  } catch (e) {
+    return { status: 0, error: e.message || String(e) };
+  }
 }
 
 function extractStatuteBody(html) {
@@ -206,6 +283,8 @@ async function main() {
   console.log('Queue entries     :', queueWithSources.length);
   console.log('Fetching          :', N);
   console.log('Throttle          :', THROTTLE_MS, 'ms');
+  console.log('Playwright fallbk :', USE_PLAYWRIGHT ? 'on' : 'off');
+  console.log('Retry-failed mode :', RETRY_FAILED ? 'on (skip entries with prior 200)' : 'off');
   console.log('Output            :', CACHE);
 
   // Load existing cache for resume support
@@ -219,44 +298,83 @@ async function main() {
   }
 
   let done = 0;
+  let pwPrimaryRescued = 0;
+  let pwSecondaryRescued = 0;
   for (let i = 0; i < N; i++) {
     const q = queueWithSources[i];
     process.stdout.write(`\r[${i + 1}/${N}] ${q.file}`.padEnd(90));
 
     const cached = cache.entries[q.file];
-    if (cached && cached.primaryFetchStatus === 200 && !args.force) {
+    if (cached && cached.primaryFetchStatus === 200 && !args.force && !RETRY_FAILED) {
+      done++;
+      continue;
+    }
+    if (RETRY_FAILED && cached && cached.primaryFetchStatus === 200) {
+      // --retry-failed: skip entries already at 200
       done++;
       continue;
     }
 
-    const entry = { file: q.file, id: q.id, primaryUrl: q.primaryUrl, secondaryUrl: q.secondaryUrl };
+    const entry = cached
+      ? { ...cached }
+      : { file: q.file, id: q.id, primaryUrl: q.primaryUrl, secondaryUrl: q.secondaryUrl };
+    entry.file = q.file;
+    entry.id = q.id;
+    entry.primaryUrl = q.primaryUrl;
+    entry.secondaryUrl = q.secondaryUrl;
 
     if (q.primaryUrl) {
-      const r = await fetchHtml(q.primaryUrl);
-      entry.primaryFetchStatus = r.status;
-      entry.primaryError = r.error || null;
-      if (r.status === 200) {
-        const text = extractStatuteBody(r.body);
-        entry.primaryText = text;
-        entry.primaryTextLength = text.length;
-        entry.primaryLastRevision = extractLastRevision(r.body);
-        entry.primarySectionNumbers = extractSectionNumbers(text);
-        entry.primaryDollarAmounts = extractDollarAmounts(text);
-        entry.primaryDates = extractDates(text);
+      const needFetch = !(cached && cached.primaryFetchStatus === 200);
+      if (needFetch) {
+        let r = await fetchHtml(q.primaryUrl);
+        let method = 'https';
+        if (r.status !== 200 && USE_PLAYWRIGHT) {
+          const pw = await fetchHtmlPlaywright(q.primaryUrl);
+          if (pw.status === 200) {
+            r = pw;
+            method = 'playwright';
+            pwPrimaryRescued++;
+          }
+        }
+        entry.primaryFetchStatus = r.status;
+        entry.primaryError = r.error || null;
+        entry.primaryFetchMethod = method;
+        if (r.status === 200) {
+          const text = extractStatuteBody(r.body);
+          entry.primaryText = text;
+          entry.primaryTextLength = text.length;
+          entry.primaryLastRevision = extractLastRevision(r.body);
+          entry.primarySectionNumbers = extractSectionNumbers(text);
+          entry.primaryDollarAmounts = extractDollarAmounts(text);
+          entry.primaryDates = extractDates(text);
+        }
+        await sleep(THROTTLE_MS);
       }
-      await sleep(THROTTLE_MS);
     }
 
     if (q.secondaryUrl) {
-      const r = await fetchHtml(q.secondaryUrl);
-      entry.secondaryFetchStatus = r.status;
-      entry.secondaryError = r.error || null;
-      if (r.status === 200) {
-        const text = extractStatuteBody(r.body);
-        entry.secondaryText = text.slice(0, 30_000);
-        entry.secondaryTextLength = text.length;
+      const needFetch = !(cached && cached.secondaryFetchStatus === 200);
+      if (needFetch) {
+        let r = await fetchHtml(q.secondaryUrl);
+        let method = 'https';
+        if (r.status !== 200 && USE_PLAYWRIGHT) {
+          const pw = await fetchHtmlPlaywright(q.secondaryUrl);
+          if (pw.status === 200) {
+            r = pw;
+            method = 'playwright';
+            pwSecondaryRescued++;
+          }
+        }
+        entry.secondaryFetchStatus = r.status;
+        entry.secondaryError = r.error || null;
+        entry.secondaryFetchMethod = method;
+        if (r.status === 200) {
+          const text = extractStatuteBody(r.body);
+          entry.secondaryText = text.slice(0, 30_000);
+          entry.secondaryTextLength = text.length;
+        }
+        await sleep(THROTTLE_MS);
       }
-      await sleep(THROTTLE_MS);
     }
 
     cache.entries[q.file] = entry;
@@ -269,17 +387,28 @@ async function main() {
   process.stdout.write('\n');
 
   fs.writeFileSync(CACHE, JSON.stringify(cache, null, 2));
+  await closeBrowser();
 
   const all = Object.values(cache.entries);
   const primaryOk = all.filter((e) => e.primaryFetchStatus === 200).length;
   const secondaryOk = all.filter((e) => e.secondaryFetchStatus === 200).length;
+  const pwPrimaryTotal = all.filter((e) => e.primaryFetchMethod === 'playwright' && e.primaryFetchStatus === 200).length;
+  const pwSecondaryTotal = all.filter((e) => e.secondaryFetchMethod === 'playwright' && e.secondaryFetchStatus === 200).length;
   console.log('Cache summary:');
-  console.log('  Entries in cache  :', all.length);
-  console.log('  Primary OK fetches:', primaryOk);
-  console.log('  Secondary OK      :', secondaryOk);
+  console.log('  Entries in cache     :', all.length);
+  console.log('  Primary OK fetches   :', primaryOk);
+  console.log('  Secondary OK         :', secondaryOk);
+  if (USE_PLAYWRIGHT) {
+    console.log('  Rescued this run     : primary', pwPrimaryRescued, '/ secondary', pwSecondaryRescued);
+  }
+  console.log('  Playwright-sourced   : primary', pwPrimaryTotal, '/ secondary', pwSecondaryTotal);
 }
 
-main().catch((e) => {
-  console.error('ERROR:', e);
-  process.exit(1);
-});
+main()
+  .catch((e) => {
+    console.error('ERROR:', e);
+    process.exitCode = 1;
+  })
+  .finally(() => {
+    closeBrowser();
+  });

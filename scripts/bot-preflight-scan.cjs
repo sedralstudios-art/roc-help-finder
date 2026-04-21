@@ -190,10 +190,14 @@ function scanEntry(file, entry, raw) {
     score += 3;
   }
 
-  // Embedded quote in en: line (rough check on raw)
+  // Embedded quote in en: line — strip escaped \" first, since those are
+  // valid JS and don't break vite. Only raw unescaped quotes inside the string
+  // are the real FAIL. Earlier version flagged escaped quotes as false
+  // positives on all legacy entries using \"aid continuing\" etc.
   const enLines = raw.match(/en:\s*"[^\n]*"/g) || [];
   for (const line of enLines) {
-    const quoteCount = (line.match(/"/g) || []).length;
+    const stripped = line.replace(/\\"/g, '');
+    const quoteCount = (stripped.match(/"/g) || []).length;
     if (quoteCount > 2) {
       issues.push({ severity: 'fail', rule: 'embedded double quote in en:' });
       score += 10;
