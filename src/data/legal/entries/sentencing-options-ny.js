@@ -7,85 +7,116 @@ export const SENTENCING_OPTIONS_NY = {
   primaryStatute: "NY PEN P2TEA60",
   status: "active",
 
-  title: { en: "Sentencing in New York — What a Judge Can Order After a Conviction" },
+  title: { en: "NY Criminal Sentencing — Dispositions, Surcharges, Restitution, and the Right of Allocution" },
 
   summary: {
-    en: "After a guilty plea or a guilty verdict, the judge decides the sentence. New York law gives judges a range of options from unconditional discharge (no punishment) to state prison. The sentence also determines fines, mandatory surcharges, restitution to victims, and conditions like probation. Understanding the options helps you prepare for sentencing and have an informed conversation with your lawyer."
+    en: "NY criminal sentencing is governed by Penal Law Articles 60-85. After a conviction or guilty plea, the court imposes a sentence drawn from a set of authorized dispositions. The main options run from unconditional discharge (no punishment) through fines, conditional discharge, probation, local jail for misdemeanors, to state prison for felonies. Most sentences also carry a mandatory surcharge under PEN § 60.35 and potential restitution under PEN § 60.27. The defendant has the right of allocution — to speak to the court before sentence is imposed."
   },
 
   whoQualifies: {
     en: [
-      "Anyone who has been convicted of a crime, violation, or traffic offense in New York.",
-      "Anyone facing sentencing after a guilty plea or verdict.",
-      "Family members trying to understand what sentence a loved one may receive."
+      "A NY defendant convicted of a violation, misdemeanor, or felony awaiting sentencing.",
+      "A NY defendant considering a guilty plea and needing to understand the sentencing range before accepting an offer.",
+      "A victim of a crime exercising victim-impact rights at sentencing.",
+      "A family member of a defendant trying to understand what sentence may be imposed.",
+      "A defendant whose plea agreement includes a specific sentencing commitment from the court."
     ]
   },
 
   whatItMeans: {
-    en: "Sentencing is the stage after a conviction where the judge decides the consequences. In New York, the main sentencing options are: Unconditional discharge — no jail, no supervision, no conditions. Conditional discharge — no jail but the person must follow rules set by the judge for a set period (1 year for misdemeanor, 3 years for felony). Probation — no jail but regular check-ins with a probation officer and stricter conditions (2-3 years for misdemeanor, 3-5 years for felony). Jail — up to 1 year in the local county jail (for misdemeanors). Prison — more than 1 year in state prison (for felonies). In addition to the main sentence, the judge almost always orders: a mandatory surcharge ($325 for felony, $200 for misdemeanor), restitution to the victim if there was a financial loss, and possibly a fine. The sentence depends on the offense class, the person's criminal history, the circumstances of the case, and the plea agreement if there was one."
+    en: "Sentencing is the stage after a conviction where the court imposes the authorized punishment. NY Penal Law Articles 60 through 85 govern authorized dispositions. The main disposition options, from least to most severe: unconditional discharge — the court releases the defendant with no further consequences beyond the conviction itself. Conditional discharge — no jail time, but the defendant must follow court-set conditions for one year (misdemeanor) or three years (felony), with violation potentially leading to resentencing. Probation — no jail time, but supervision by a probation officer with reporting requirements for two or three years (misdemeanor) or three to five years (felony, longer for certain offenses). Local jail (county correctional facility) — misdemeanor and violation sentences, capped at one year. State prison — felony sentences of more than one year. The specific minimum-and-maximum ranges for imprisonment are set by offense class in PEN § 70.00 and § 70.02. Article 65 governs probation and discharges; Article 80 covers fines. In addition to the core disposition, the court imposes additional orders. Mandatory surcharge and crime-victim fee under PEN § 60.35: the surcharge is $300 for a felony and $175 for a misdemeanor, plus a $25 crime-victim assistance fee and small additional fees. Amounts are set by statute and periodically adjusted. The judge has very limited discretion to waive the surcharge. Restitution under PEN § 60.27 applies when the offense caused financial loss to a specific victim. The amount is capped at $15,000 for most felonies and $10,000 for non-felonies unless the defendant consents to a higher amount. The court can order restitution even when the main sentence is non-custodial. Fines are separate from surcharges and restitution and have maximum amounts tied to offense class — $5,000 or double the defendant's gain for a felony, $1,000 for a Class A misdemeanor, less for lower offenses. Orders of protection may be entered when the offense involved a victim. Sex-offense convictions carry separate registration requirements under the Sex Offender Registration Act. Under the 2021 Clean Slate Act, most misdemeanor and non-violent felony convictions are eligible for automatic sealing after three or eight years (covered in the clean-slate-ny entry). The right of allocution is an important procedural protection. Before pronouncing sentence, the court must ask the defendant if there is anything the defendant wishes to say. This is the chance to express remorse, explain circumstances, or ask for leniency. The victim also has a right to speak or submit a written statement under CPL § 380.50. Assigned counsel continues to represent indigent defendants through sentencing. If the sentence is part of a plea agreement, the court must generally honor it or allow the defendant to withdraw the plea under CPL § 220.60. Most sentences are appealable to the Appellate Division (covered in the criminal-appeal-ny entry). Federal sentencing and Family Court dispositions use separate frameworks."
   },
 
   yourRights: {
     en: [
-      "You have the right to a lawyer at sentencing.",
-      "You have the right to speak before the judge imposes sentence (called the right of allocution).",
-      "The victim also has the right to speak or submit a statement.",
-      "You have the right to know the maximum sentence before entering a guilty plea.",
-      "If the sentence was part of a plea agreement, the judge generally must honor it or let you withdraw the plea.",
-      "You have the right to appeal the sentence in most cases."
+      "A NY defendant has the right to assigned counsel at sentencing when the defendant cannot afford private counsel.",
+      "A NY defendant has the right of allocution — to speak to the court before sentence is imposed — required by NY case law and CPL § 380.50.",
+      "A NY defendant has the right to know the maximum authorized sentence before entering a guilty plea, under CPL § 220.60.",
+      "A NY defendant whose guilty plea was conditioned on a specific sentence has the right to withdraw the plea if the court imposes a harsher sentence.",
+      "A NY defendant has the right under CPL § 60.27 to argue against or negotiate the amount of restitution if the financial loss is disputed.",
+      "A NY defendant who cannot afford the mandatory surcharge has the right to request community service instead of payment under PEN § 60.35.",
+      "A NY defendant has the right to appeal most sentences to the Appellate Division under CPL Article 450 — the criminal-appeal entry covers this in detail."
     ]
   },
 
   legalOptions: {
     en: [
-      "Authorized sentencing ranges are set by Penal Law Articles 60-85. Your lawyer can explain the specific range for your charge and criminal history.",
-      "The mandatory surcharge (Penal Law § 60.35) is $300 + $25 crime victim fee for felonies, $175 + $25 for misdemeanors. Judges have almost no discretion to waive it.",
-      "Restitution (Penal Law § 60.27) is capped at $15,000 for felonies and $10,000 for non-felonies unless the defendant consents to a higher amount.",
-      "If you cannot pay a fine or surcharge, you can request a payment plan or ask to perform community service instead.",
-      "Free legal help at sentencing is available through the Monroe County Public Defender at (585) 753-4210 or through your assigned 18-B counsel."
+      "Monroe County Public Defender at (585) 753-4210 — represents indigent defendants through sentencing with full advocacy including pre-sentence investigation.",
+      "Monroe County 18-B Assigned Counsel Program — conflict-case sentencing representation.",
+      "Monroe County Probation Department — conducts the pre-sentence investigation that shapes the sentencing recommendation.",
+      "NY Office of Victim Services — advises victims on restitution rights and coordinates impact statements under CPL § 380.50.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — collateral consequences counseling (housing, employment, immigration) that can shape sentencing arguments.",
+      "Pre-sentence report access under CPL § 390.50 — defense counsel can request the probation department's pre-sentence report (with certain redactions) before the sentencing date.",
+      "CPL § 220.60 plea-withdrawal motion — available if the court departs from a sentence promised in the plea agreement."
     ]
   },
 
   example: {
-    en: "After pleading guilty to a Class A misdemeanor, the judge sentences Ana to a conditional discharge for one year. The conditions are: no new arrests and 40 hours of community service. Ana must also pay the $200 mandatory surcharge and $150 in restitution to the store where the offense occurred. The judge explains that if Ana violates the conditions, she could be resentenced to up to one year in jail."
+    en: "After pleading guilty to a Class A misdemeanor in Rochester City Court, Ana was sentenced to a one-year conditional discharge under PEN § 65.05. The conditions: no new arrests during the year and 40 hours of community service. The court also imposed a $175 mandatory surcharge and $25 crime-victim fee under PEN § 60.35, plus $150 in restitution to the store under PEN § 60.27. Before sentence, the judge exercised Ana's right of allocution — Ana apologized and explained her circumstances. The Monroe County Public Defender used the allocution and a sentencing memorandum to argue for the conditional discharge instead of jail. The court explained that a violation of the conditions could lead to resentencing up to one year in local jail."
   },
 
   counsel: [
     {
-      type: "free",
+      type: "government",
       name: "Monroe County Public Defender",
-      focus: "Criminal defense including sentencing advocacy",
-      qualifier: "Defendants who cannot afford a private attorney",
-      access: "Assigned at arraignment",
-      outcome: "Full representation through sentencing",
+      focus: "Sentencing advocacy, plea-agreement enforcement, allocution",
+      qualifier: "Monroe County defendant unable to afford private counsel",
+      access: "Assigned at arraignment or by application",
+      outcome: "Full representation through sentencing including pre-sentence investigation",
       phone: "(585) 753-4210",
-      url: "https://www.monroecounty.gov/defender",
+      url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
-      bilingual: false,
-      languages: []
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "nonprofit",
+      name: "Legal Aid Society of Rochester",
+      focus: "Collateral-consequences counseling for sentencing mitigation",
+      qualifier: "Low-income Monroe County defendant",
+      access: "Phone intake",
+      outcome: "Advice on housing, employment, and immigration effects of sentencing",
+      phone: "(585) 232-4090",
+      url: "https://www.lasroc.org",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "government",
+      name: "NY Office of Victim Services",
+      focus: "Victim rights at sentencing including restitution and impact statements",
+      qualifier: "Any crime victim in NY",
+      access: "Phone, online",
+      outcome: "Guidance on CPL 380.50 impact statements and restitution advocacy",
+      phone: "(800) 247-8035",
+      url: "https://ovs.ny.gov",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
     }
   ],
 
   relatedIds: [
     "criminal-case-process-ny",
     "rights-when-arrested-ny",
-    "clean-slate-ny"
+    "clean-slate-ny",
+    "criminal-appeal-ny"
   ],
 
   relatedHelpResources: [],
 
   tags: [
-    "sentencing",
-    "sentence",
-    "fine",
-    "mandatory surcharge",
-    "restitution",
-    "probation sentence",
-    "conditional discharge sentence",
-    "jail time",
-    "prison",
-    "what happens after guilty plea",
-    "allocution"
+    "NY criminal sentencing",
+    "PEN Article 60",
+    "conditional discharge PEN 65.05",
+    "probation PEN 65.00",
+    "PEN 60.35 mandatory surcharge",
+    "PEN 60.27 restitution",
+    "right of allocution",
+    "CPL 380.50 victim statement",
+    "CPL 220.60 plea withdrawal",
+    "pre-sentence investigation"
   ],
 
   sources: [
@@ -94,7 +125,7 @@ export const SENTENCING_OPTIONS_NY = {
     "https://www.nysenate.gov/legislation/laws/PEN/60.27"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
