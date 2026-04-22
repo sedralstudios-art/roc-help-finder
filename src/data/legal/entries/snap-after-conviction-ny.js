@@ -7,51 +7,54 @@ export const SNAP_AFTER_CONVICTION_NY = {
   primaryStatute: "21 USC 862A",
   status: "active",
 
-  title: { en: "SNAP After a Conviction — Eligibility for Food Benefits in New York" },
+  title: { en: "NY SNAP After a Conviction — NY's Full Opt-Out of the Federal Drug-Felony Ban" },
 
   summary: {
-    en: "New York has fully opted out of the federal ban on SNAP benefits for people with drug felony convictions. A criminal record does not disqualify you from SNAP, Medicaid, or Temporary Assistance in New York. If you meet the income and eligibility requirements, you can receive benefits regardless of your criminal history."
+    en: "Under federal law at 21 USC § 862a, states can choose to ban people with felony drug convictions from SNAP and TANF for life. NY has fully opted out of both bans. A NY resident with a drug conviction — or any other type of conviction — is eligible for SNAP, Medicaid, and Temporary Assistance on the same terms as everyone else, subject only to the standard income and household rules. Benefits pause during incarceration but can be reinstated on release. Applications can begin before release through reentry coordination."
   },
 
   whoQualifies: {
     en: [
-      "Anyone who meets the standard SNAP income and eligibility requirements, regardless of criminal history.",
-      "People with felony drug convictions are fully eligible for SNAP in New York. There is no waiting period and no conditions related to the conviction.",
-      "People with other types of felony convictions are also eligible for SNAP, Medicaid, and Temporary Assistance.",
-      "People who are currently incarcerated are not eligible to receive benefits during the period of incarceration, but may apply before release in some counties.",
-      "People with open warrants for fleeing prosecution or violating a condition of probation or parole may be denied benefits."
+      "A NY resident with a felony drug conviction — eligible for SNAP and TANF on the same terms as any other applicant under NY's full opt-out of the federal 21 USC § 862a ban.",
+      "A NY resident with any other felony or misdemeanor conviction — eligible for SNAP, Medicaid, and Temporary Assistance subject only to the standard program rules.",
+      "A NY resident currently awaiting trial but not incarcerated — benefits continue during the pending case as long as program requirements are met.",
+      "A NY resident about to be released from NY DOCCS or a county jail — can start the application before release through DOCCS reentry coordinators or the county DSS.",
+      "A NY resident whose benefits were suspended during incarceration — eligible for reinstatement upon release based on current income and household circumstances."
     ]
   },
 
   whatItMeans: {
-    en: "Under federal law, people with felony drug convictions can be permanently banned from receiving SNAP and TANF. However, states are allowed to opt out of this ban. New York has fully opted out. In New York, a drug conviction does not by itself make you ineligible for SNAP, Medicaid, or cash assistance. The same is true for any other type of conviction. You must still meet the same income and eligibility requirements as everyone else. If you are incarcerated, your benefits are suspended during the period of incarceration. SNAP and Medicaid do not cover people in jail or prison. However, you can apply for benefits before your release so that coverage begins as soon as you return to the community. Simply being arrested does not affect your benefits. If you are out in the community while your case is pending and you continue to meet all program requirements, your benefits should not change. An Intentional Program Violation, such as a conviction for welfare fraud, may result in a temporary disqualification. This applies only to the specific program involved."
+    en: "The federal Welfare Reform Act of 1996, at 21 USC § 862a, imposed a lifetime ban on SNAP and TANF benefits for anyone convicted of a state or federal felony involving possession, use, or distribution of a controlled substance. Congress gave each state the option to opt out of the ban in whole or in part. NY has fully opted out of both the SNAP and TANF bans. A drug felony conviction by itself does not affect eligibility for SNAP or Temporary Assistance in NY. Other conviction categories are not covered by the federal drug-felony ban, and NY does not impose its own criminal-record bars on SNAP, Medicaid, Temporary Assistance, or HEAP. Eligibility turns on the standard income, household, and categorical rules that apply to any NY applicant. Incarceration pauses benefits. SNAP and Medicaid do not cover people in jail or prison; benefits are suspended (not terminated) during a period of incarceration. For SNAP, the household remaining in the community may still qualify based on the remaining household's income — the incarcerated person just does not count. For Medicaid, NY suspended-but-not-terminated rules allow quick reinstatement on release. Pending criminal case: being arrested or having an open case does not affect benefits by itself. As long as the person remains in the community and meets the standard rules, SNAP, Medicaid, and Temporary Assistance continue. Reentry coordination. NY Department of Corrections and Community Supervision (DOCCS) runs a reentry-planning program that helps people about to be released apply for SNAP and Medicaid before release. The goal is to avoid a coverage gap in the critical first weeks after release. Some county jails run similar pre-release planning through their transitional-services coordinators. For people recently released, Monroe County Department of Human Services accepts walk-in applications with same-day screening for expedited SNAP if the household is in immediate need. Certain narrow exclusions remain. Two groups face more limits. First, people with open warrants for fleeing prosecution or for violating a condition of probation or parole are ineligible for SNAP, TANF, SSI, and housing assistance under federal rules until the warrant is resolved. Medicaid is not affected by warrant status. Second, a separate category — Intentional Program Violations (IPV) such as a conviction for welfare fraud — creates program-specific disqualification periods. For SNAP under 7 CFR 273.16(b)(1), the schedule is 12 months for a first violation, 24 months for a second, and permanent disqualification for a third. NY TA rules under 18 NYCRR 359.9 use a separate schedule. An IPV disqualification applies only to the specific benefit program where the violation occurred. A SNAP IPV does not disqualify the person from Medicaid, for example. Appeals. A denial based on criminal history in NY is almost always an error — a fair hearing request under SSL § 22 within 60 days is the remedy, and Legal Aid, LawNY, and Empire Justice Center represent low-income applicants. An IPV finding can also be challenged in a separate administrative-disqualification hearing. Free reentry-specific help is also available through the reentry.net/ny portal."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for SNAP, Medicaid, and Temporary Assistance regardless of your criminal history.",
-      "You have the right to receive SNAP benefits even if you have a felony drug conviction. New York has fully opted out of the federal drug felony ban.",
-      "You have the right to apply for benefits before your release from incarceration so that coverage can begin immediately upon reentry.",
-      "You have the right to have your benefits reinstated after release from incarceration if you were receiving them before.",
-      "You have the right to a fair hearing if your application is denied for any reason related to your criminal history that you believe is incorrect.",
-      "You have the right to continue receiving benefits during an arrest and pending criminal case, as long as you are not incarcerated and continue to meet all program requirements."
+      "A NY resident has the right to apply for SNAP, Medicaid, and Temporary Assistance regardless of criminal history — NY has fully opted out of the federal 21 USC § 862a drug-felony ban.",
+      "A NY resident has the right to apply for benefits before release from a county jail or state prison through DOCCS reentry or county jail transitional-services coordinators.",
+      "A NY resident has the right to reinstate suspended benefits after release from incarceration if still eligible under current rules.",
+      "A NY resident awaiting trial in the community has the right to continue benefits so long as program eligibility is met.",
+      "A NY resident has the right under SSL § 22 to appeal any denial believed to be based on criminal history through a fair hearing within 60 days.",
+      "A NY resident has the right to contest an Intentional Program Violation finding through the administrative-disqualification hearing process before a program-specific bar is imposed.",
+      "A NY resident with an open warrant has the right under federal law to Medicaid — warrant status does not affect Medicaid eligibility."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 21 U.S.C. § 862a, states may opt out of the federal ban on SNAP and TANF for people with drug felony convictions. New York has fully opted out of both bans.",
-      "SNAP applications are accepted at every county Department of Social Services and online at mybenefits.ny.gov.",
-      "People who are about to be released from incarceration may contact their county DSS to begin the application process before release. Timing and procedures vary by county.",
-      "Medicaid coverage remains available regardless of conviction history. People released from incarceration who had Medicaid coverage before may have their coverage reactivated.",
-      "Open warrants for fleeing prosecution or violating probation or parole conditions may result in denial of SNAP, TANF, SSI, and housing benefits. Medicaid is not affected by warrant status.",
-      "An Intentional Program Violation for welfare fraud results in specific disqualification periods: typically 6 months for a first offense, 12 months for a second, and permanent disqualification for a third.",
-      "Free legal help with benefits after conviction and reentry issues is available through LawNY at (585) 325-2520, which handles re-entry and criminal record barrier cases, and Legal Aid Society of Rochester at (585) 232-4090."
+      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — SNAP, Medicaid, and TA applications with no criminal-history bar in NY.",
+      "mybenefits.ny.gov — online SNAP, Medicaid, and TA applications for NY residents outside NYC.",
+      "NY DOCCS reentry-planning services — facility transitional-services coordinators help incarcerated people begin benefits applications before release.",
+      "Reentry.net/ny — NY-specific reentry resource portal with plain-language guides to public benefits after incarceration.",
+      "Fair hearing request line at (800) 342-3334 or otda.ny.gov/hearings/request — for any denial believed to be based on criminal history.",
+      "Federal SNAP IPV disqualification periods under 7 CFR 273.16(b)(1): 12 months for a first violation, 24 months for a second, permanent for a third; NY TA rules at 18 NYCRR 359.9 have separate schedules. IPV findings can be challenged at an administrative-disqualification hearing.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — reentry benefits cases for low-income Monroe County residents.",
+      "LawNY at (585) 325-2520 — reentry and criminal-record-barrier cases across 14-county Western NY service area.",
+      "Empire Justice Center at (585) 454-4060 — complex reentry benefits cases and policy advocacy."
     ]
   },
 
   example: {
-    en: "James served three years in state prison on a drug possession conviction. Before his release, his counselor helped him contact the county DSS to start a SNAP application. Within two weeks of returning home to Genesee County, he was approved for SNAP. His conviction did not affect his eligibility because New York has opted out of the federal drug felony ban. He also applied for Medicaid and was approved. Having food and health coverage in place made it easier for him to focus on finding a job and reconnecting with his family."
+    en: "James served three years in NY state prison on a felony drug-possession conviction. Before release, his DOCCS reentry coordinator helped him contact Monroe County DHS to begin the SNAP and Medicaid applications. Because NY has fully opted out of the federal 21 USC § 862a drug-felony ban, his conviction did not affect eligibility. Within two weeks of returning home, James was approved for SNAP and Medicaid, with coverage retroactive to his release date. Having food and health coverage in place from day one helped him focus on finding work and reconnecting with family rather than navigating a coverage gap in the most unstable period after release."
   },
 
   counsel: [
@@ -127,7 +130,7 @@ export const SNAP_AFTER_CONVICTION_NY = {
     "https://www.reentry.net/ny/help/item.2914-Public_Benefits_Reentry"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
