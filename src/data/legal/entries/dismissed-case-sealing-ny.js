@@ -7,52 +7,51 @@ export const DISMISSED_CASE_SEALING_NY = {
   primaryStatute: "NY CPL 160.50",
   status: "active",
 
-  title: { en: "My Case Was Dismissed — Why Is It Still On My Record?" },
+  title: { en: "A Dismissed Case Still Showing on a Background Check in New York — CPL 160.50" },
 
   summary: {
-    en: "In New York, when a criminal case is dismissed or ends in the defendant's favor, the record is supposed to be sealed automatically. No application needed. But sealing doesn't always happen on time, and background-check companies sometimes still show the old arrest. You have a right to get it fixed."
+    en: "In New York, a criminal case that is dismissed or ends in the person's favor is supposed to be sealed automatically. No application is needed. But sealing often does not happen on time, and background-check companies sometimes keep showing the old arrest. A person in that situation has several ways to get the record fixed and sometimes to recover money from a company or employer that breaks the rules."
   },
 
   whoQualifies: {
     en: [
-      "Anyone whose New York criminal case ended in your favor. That means the charges were dropped, the case was dismissed, the judge dismissed it, the jury found you not guilty, or the DA decided not to file charges.",
-      "Anyone whose case ended as just a violation or traffic ticket (not a misdemeanor or felony). Examples: disorderly conduct, harassment in the 2nd degree.",
-      "Anyone who finished an ACD (Adjournment in Contemplation of Dismissal) and the case was then dismissed. An ACD is a deal where the judge puts your case on hold for 6 or 12 months. If you stay out of trouble, the case gets dismissed at the end.",
-      "Immigration status does not change your right to sealing. Sealed means sealed for everyone who does regular background checks."
+      "A person whose New York criminal case ended in their favor — charges dropped, case dismissed, found not guilty, or the DA declined to file.",
+      "A person whose case ended as a violation or traffic ticket (not a misdemeanor or felony), like disorderly conduct or harassment in the 2nd degree.",
+      "A person who finished an ACD (Adjournment in Contemplation of Dismissal) without new trouble, so the case was dismissed at the end.",
+      "Immigration status does not change a person's right to sealing. Sealed means sealed for everyone who runs a regular background check."
     ]
   },
 
   whatItMeans: {
-    en: "New York has a law that seals your record when your case ends in your favor (Criminal Procedure Law § 160.50). Sealing is supposed to happen on its own. You should not have to file anything.\n\n'Ended in your favor' means one of these: the charges were dropped, the judge dismissed the case, a jury found you not guilty, the DA decided not to file charges, or you finished an ACD without getting into new trouble. The court clerk is supposed to mail you a notice, seal the court file, and tell the DMV, the police, and the DA's office to seal their copies too.\n\nIf your case ended as just a violation or traffic ticket (not a misdemeanor or felony), a different law applies (CPL § 160.55). The arrest record is sealed. But the final court record stays public. That is a smaller seal than the one for dismissed cases.\n\nWhen sealing works, your record is hidden from most jobs, landlords, and schools. Under New York law, most employers, landlords, and schools are not allowed to ask about a sealed case, and a sealed case is treated as if it did not happen on most applications.\n\nSealing often does not happen the way it should. There are four common reasons. One: the court clerk missed the step. Two: the state criminal history file did not update. Three: a background-check company copied the old record before sealing and never fixed it. Four: the case was in a slow court system, like NYC Criminal Court or some small town courts.\n\nSomeone in this situation has the right to get the sealing fixed. The usual path looks like this: a person orders their own RAP sheet (their New York criminal history), checks what is and is not sealed, and if the seal did not happen, sends a short written request to the court where the case ended. If a background-check company still shows the sealed case, they are breaking a federal law called the Fair Credit Reporting Act, or FCRA, and they can be sued in federal court."
+    en: "New York's Criminal Procedure Law 160.50 says that when a case ends in the person's favor, the record is sealed — automatically, at no cost, and without the need to file anything. The court clerk is supposed to mail a sealing notice, seal the court file, and tell DCJS (the state criminal history file), the arresting police agency, and the DA's office to seal their copies.\n\n'Ended in favor' means one of these things: the charges were dropped, the judge dismissed the case, a jury found the person not guilty, the DA declined to file, or the person completed an ACD without new trouble.\n\nIf the case ended as a violation or a traffic ticket (not a misdemeanor or felony), a different statute applies — CPL 160.55. The arrest record is sealed, but the final court record stays public. That is a smaller seal than CPL 160.50.\n\nWhen sealing works, most jobs, landlords, and schools cannot see the case. New York Executive Law 296(16) makes it illegal for most employers to ask about a sealed arrest or to use it against a job applicant. On most applications, a sealed case can be answered as if it did not happen.\n\nWhy the record sometimes still shows up: (1) the clerk missed the sealing step; (2) the state criminal history file (DCJS) did not update; (3) a private background-check company copied the old record before sealing and never refreshed; or (4) the case was in a slow court like some NYC Criminal Court parts or small town courts.\n\nThe fix path: order a personal RAP sheet from DCJS to see what is sealed and what is not. The RAP sheet shows the real status of each case. If the case did not seal at the court level, a short written request to the original court usually fixes it. The court clerk can fix many of these without a judge's order; for the rest, a motion to the judge is free under CPL 160.50 and can be drafted from the nycourts.gov template or by a legal aid attorney.\n\nBackground-check company errors: if a private company keeps reporting a sealed case, the federal Fair Credit Reporting Act (15 USC 1681) applies. The person sends a dispute letter with a copy of the RAP sheet. The company has 30 days to investigate and fix the file. If it does not, the person can sue in federal court, and the FCRA allows the court to order the company to pay the attorney's fees.\n\nEmployer or landlord misuse: if an employer sees a sealed case and uses it against an applicant, the person may have a claim under New York Executive Law 296 through the New York State Division of Human Rights or the courts.\n\nCoverage: sealing under CPL 160.50 is not the same as expungement. The case is hidden from most background checks, but certain agencies (law enforcement, some licensing boards, and a small set of gun-permit processes) can still see sealed records under the statute's listed exceptions.\n\nClean Slate Act (separate statute): New York's Clean Slate Act seals certain older convictions after a waiting period. That is a different pathway — see the clean-slate-ny entry for details. CPL 160.50 is only for cases that ended in the person's favor."
   },
 
   yourRights: {
     en: [
-      "You have the right to automatic sealing when your case ends in your favor (CPL § 160.50). No fee, no paperwork.",
-      "You have the right to get a copy of your own RAP sheet — that's your New York criminal history file. It's run by the NY Division of Criminal Justice Services (DCJS). It shows exactly what was sealed and what wasn't.",
-      "Under New York law, a sealed case is treated as if it did not happen for most job applications. In most jobs, employers are not allowed to ask about it at all (Executive Law § 296(16)). A lawyer can help you figure out what applies to your specific situation.",
-      "You have the right to ask a judge to seal the case if the court missed the step. A written request to a judge is called a motion. For a 160.50 case, there is no filing fee.",
-      "You have the right to sue a background-check company in federal court if it keeps showing a sealed case after you tell them to remove it. The law is the Fair Credit Reporting Act (15 USC § 1681). If you win, the company usually has to pay your lawyer.",
-      "You have the right to sue an employer if they saw a sealed record and used it against you (New York Executive Law § 296).",
-      "You have the right to a free lawyer for this kind of problem if you are low-income. Legal aid groups handle these cases at no cost when you qualify."
+      "A person whose case ended in their favor has the right to automatic sealing under CPL 160.50 — no fee and no paperwork required.",
+      "A person has the right to order their own RAP sheet from DCJS to confirm exactly what is and is not sealed.",
+      "A sealed case can be answered on most job applications as if it did not happen; most employers cannot ask about it (Executive Law 296(16)).",
+      "A person has the right to file a free motion with the original court if the sealing step was missed.",
+      "A person has the right to sue a background-check company in federal court under the Fair Credit Reporting Act (15 USC 1681) when a sealed case is still being reported.",
+      "A person has the right to file a discrimination claim under Executive Law 296 if an employer saw a sealed record and used it against the application.",
+      "A person who is low-income has the right to free legal help on these problems from legal aid programs and the Legal Action Center."
     ]
   },
 
   legalOptions: {
     en: [
-      "One option is to order your own RAP sheet from the NY Division of Criminal Justice Services. It requires fingerprints and a fee — around $65 as of April 2026 (current cost is posted at criminaljustice.ny.gov/ojis/recordreview.htm).",
-      "Once someone has a RAP sheet in hand, they can compare it to what they remember. Anything that should be sealed but shows as open is worth flagging.",
-      "If a dismissed case did not seal, one path is to contact the clerk at the court where the case ended. Many clerks will fix it once the miss is pointed out.",
-      "If the clerk won't fix it, you could file a short written request asking the judge to seal the case. This is called a motion. A person can write it themselves using the template at nycourts.gov, or a legal aid lawyer can write it for them. There is no filing fee for a 160.50 motion.",
-      "If a private background-check company is still showing the sealed case, you could send them a written FCRA dispute letter. They have 30 days to investigate and correct.",
-      "If a background check hurt a job, housing, or school application, one option is to keep everything — the report, the rejection letter, any emails. That paperwork is what an FCRA or Executive Law § 296 claim would be built on.",
-      "Free legal help in Monroe County: Legal Aid Society of Rochester (lasroc.org) and Legal Assistance of Western New York (lawny.org). See the counsel list below for intake details.",
-      "Free statewide help with sealing paperwork is available from the Legal Action Center (lac.org), which specializes in criminal record issues."
+      "Ordering a personal RAP sheet from DCJS requires fingerprints and a fee (around $65 as of April 2026). Current cost is posted at criminaljustice.ny.gov/ojis/recordreview.htm.",
+      "If the RAP sheet shows the case is sealed but a background-check company still lists it, a written FCRA dispute letter with the RAP sheet attached usually gets it corrected within 30 days.",
+      "If the RAP sheet shows the case is not sealed, contacting the clerk at the original court is the usual first step. Many clerks fix these without further paperwork.",
+      "If the clerk cannot fix it, a short motion to the judge can be filed. There is no filing fee for a CPL 160.50 motion. Templates are posted at nycourts.gov.",
+      "Keeping paperwork matters: the background report, the rejection letter, any emails. Those records support an FCRA lawsuit or an Executive Law 296 complaint.",
+      "Free legal help in Monroe County: Legal Aid Society of Rochester at (585) 232-4090 and Legal Assistance of Western New York (LawNY) at (585) 325-2520.",
+      "Free statewide help with sealing paperwork is available from the Legal Action Center at (212) 243-1313 — they specialize in criminal record issues."
     ]
   },
 
   example: {
-    en: "Maria was arrested in 2022 and charged with petit larceny. The DA decided not to file charges, and the case was dismissed four months later. In 2026 she applies for a nursing assistant job. The background check comes back with the 2022 arrest still showing. She orders her own RAP sheet from DCJS. The RAP sheet shows the arrest marked 'sealed under 160.50.' That means the sealing did happen — but the private background-check company had copied the old record before it got sealed and never updated its files. Maria sends the company a dispute letter with a copy of her RAP sheet. Three weeks later they remove the arrest and send her a corrected report. She re-submits it to the employer and gets the job."
+    en: "Maria was arrested in 2022 and charged with petit larceny. The DA declined to prosecute and the case was dismissed four months later. In 2026 she applies for a nursing assistant job. The background check comes back showing the 2022 arrest. She orders her own RAP sheet from DCJS. The RAP sheet shows the arrest marked 'sealed under 160.50' — meaning the court-level sealing did happen. The private background-check company had copied the old record before sealing and never refreshed. Maria sends the company an FCRA dispute letter with a copy of her RAP sheet. Three weeks later the company removes the arrest and sends her a corrected report. She resubmits it to the employer and gets the job."
   },
 
   counsel: [
@@ -61,9 +60,9 @@ export const DISMISSED_CASE_SEALING_NY = {
       name: "Legal Action Center",
       focus: "Criminal record sealing, RAP sheet review, employer/housing discrimination tied to old records",
       qualifier: "Any New Yorker with a criminal record issue — no income cap on hotline advice",
-      access: "Phone helpline at 212-243-1313 or online intake",
+      access: "Phone helpline at (212) 243-1313 or online intake",
       outcome: "Free advice and sometimes direct representation on sealing motions",
-      phone: "212-243-1313",
+      phone: "(212) 243-1313",
       url: "https://www.lac.org/",
       verified: true,
       bilingual: true,
@@ -72,7 +71,7 @@ export const DISMISSED_CASE_SEALING_NY = {
     {
       type: "free",
       name: "Legal Aid Society of Rochester",
-      focus: "Sealing motions, FCRA claims, Executive Law § 296 complaints",
+      focus: "Sealing motions, FCRA claims, Executive Law 296 complaints",
       qualifier: "Low-income residents of Monroe County and nearby counties",
       access: "Phone intake at (585) 232-4090",
       outcome: "Direct representation for sealing and record-related discrimination",
@@ -132,7 +131,7 @@ export const DISMISSED_CASE_SEALING_NY = {
     "https://www.lac.org/"
   ],
 
-  lastVerified: "2026-04-14",
+  lastVerified: "2026-04-22",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
