@@ -7,50 +7,55 @@ export const SECURITY_DEPOSIT_NY = {
   primaryStatute: "NY GOB 7-108",
   status: "active",
 
-  title: { en: "Security Deposits — Tenant Rights at Move-In and Move-Out" },
+  title: { en: "NY Security Deposit — One-Month Cap, 14-Day Return Deadline, and Landlord Forfeiture" },
 
   summary: {
-    en: "New York law limits security deposits to one month's rent and requires the landlord to return the deposit within 14 days after move-out. If the landlord keeps any of it, they must give you a written list explaining every deduction. If they don't, they lose the right to keep any of it."
+    en: "NY General Obligations Law § 7-108 caps a residential security deposit at one month's rent for most rentals. Within 14 days after the tenant moves out, the landlord must return the deposit with an itemized statement of any deductions. Lawful deductions are limited to unpaid rent, damage beyond normal wear and tear, unpaid utilities owed to the landlord, and moving or storage costs for belongings left behind. A landlord who fails to provide the statement and remaining deposit within 14 days forfeits any right to retain any portion. Willful violations add punitive damages up to twice the deposit."
   },
 
   whoQualifies: {
     en: [
-      "Every tenant who pays a security deposit on a residential rental in New York State.",
-      "This applies whether you have a written lease or a verbal agreement, and whether you rent an apartment, a house, or a room.",
-      "Rent-stabilized tenants have similar protections under GOL § 7-107. This entry covers non-rent-stabilized units under GOL § 7-108, which is the vast majority of rentals outside New York City.",
-      "There is a narrow exemption for owner-occupied buildings with fewer than three units, which are not subject to the statewide deposit cap."
+      "A NY residential tenant who paid a security deposit — written lease, oral lease, or month-to-month arrangement.",
+      "A tenant of an apartment, house, or room in NY outside specific exempted categories (continuing-care retirement communities, licensed assisted-living, adult-care facilities, certain senior residential communities).",
+      "A tenant whose rental is a seasonal-use unit or an owner-occupied cooperative apartment — the one-month cap has separate rules for these categories, but most other tenant protections still apply.",
+      "A tenant in a rent-stabilized or rent-controlled unit — covered by a parallel statute (GOB § 7-107) with similar protections.",
+      "Any NY tenant whose security deposit was not returned, was partially kept without an itemized statement, or was kept past the 14-day deadline."
     ]
   },
 
   whatItMeans: {
-    en: "Under GOL § 7-108, your landlord cannot charge more than one month's rent as a security deposit. The deposit is your money held in trust — the landlord cannot mix it with their own funds. When you move out, the landlord has exactly 14 days to return your deposit with an itemized statement of any deductions. The only lawful deductions are unpaid rent, damage you caused beyond normal wear and tear, and unpaid utilities owed directly to the landlord. Moving or storage costs for belongings you left behind may also be deducted. Normal wear and tear — like scuffed floors or faded paint — cannot be deducted."
+    en: "NY General Obligations Law § 7-108 is the main security-deposit statute for residential rentals outside specific exempted categories. GOB § 7-108(1-a)(a) caps the security deposit or advance at one month's rent. Exceptions apply to seasonal-use rentals and owner-occupied cooperative apartments. GOB § 7-108(1-a)(b) limits what the landlord can deduct when the tenant moves out. The deposit must be returned except for reasonable and itemized amounts for: non-payment of rent; damage caused by the tenant beyond normal wear and tear; non-payment of utility charges payable directly to the landlord under the lease; and moving and storage of belongings the tenant left behind. The statute explicitly prohibits deductions for ordinary wear and tear or for damage caused by a prior tenant. Pre-occupancy inspection right. Under GOB § 7-108(1-a)(c), the landlord must offer the tenant the chance to inspect the unit together before occupancy begins. If the tenant accepts the inspection, both sides sign a written agreement listing existing defects or damage. Anything on that list cannot later be deducted from the security deposit at move-out. The agreement is admissible as evidence of the unit's condition. Move-out inspection right. Under GOB § 7-108(1-a)(d), the landlord must give the tenant the opportunity for a move-out inspection before the end of the tenancy. After the inspection, the landlord provides an itemized statement of proposed deductions, and the tenant has the right to cure any curable conditions before move-out. 14-day return deadline. GOB § 7-108(1-a)(e) requires the landlord to return the remaining deposit with an itemized statement within 14 days after the tenant vacates. If the landlord fails to provide both the statement and any remaining deposit within 14 days, the landlord forfeits any right to retain any portion of the deposit — regardless of actual damage or unpaid rent. Punitive damages. A tenant who proves a willful violation of GOB § 7-108 can recover punitive damages of up to twice the amount of the deposit or advance, in addition to the deposit itself. Small claims court is the usual forum. Rochester City Court Small Claims handles claims up to $5,000; town and village justice courts handle up to $3,000. Filing fees are modest and the tenant does not need a lawyer. Bringing the lease, photos of the unit's condition at move-in and move-out, the landlord's notice or absence of notice, move-out date documentation, and any pre-occupancy or pre-move-out inspection agreement helps the case. The NY Attorney General's office accepts security-deposit complaints and publishes a tenant-rights guide. Legal Aid Society of Rochester, LawNY, and JustCause represent low-income Monroe County tenants in deposit disputes and small-claims filings. Interest on deposits. Under GOB § 7-103, in buildings with six or more apartments, the deposit must be held in an interest-bearing account. The tenant receives the interest earned minus an administrative fee the landlord may keep (typically one percent annually). In buildings with fewer than six apartments, no interest is required."
   },
 
   yourRights: {
     en: [
-      "Your security deposit cannot exceed one month's rent (GOL § 7-108).",
-      "Your deposit must be held in trust. The landlord cannot mix it with their personal funds (GOL § 7-103).",
-      "In buildings with six or more apartments, your deposit must earn interest. You are entitled to that interest minus a 1% administrative fee the landlord may keep (GOL § 7-103).",
-      "Before you move in, the landlord must offer you the chance to inspect the unit together and create a written record of its condition. Any damage noted in that record cannot be charged against your deposit later (GOL § 7-108(1-a)(c)).",
-      "Before you move out, the landlord must notify you in writing of your right to request a pre-move-out inspection and to be present at it. After the inspection, the landlord must give you an itemized list of proposed deductions so you have a chance to fix any issues before you leave (GOL § 7-108(1-a)(d)).",
-      "Within 14 days after you move out, the landlord must return your deposit with an itemized statement of any amount kept. If the landlord fails to do this, they forfeit the right to keep any part of the deposit (GOL § 7-108(1-a)(e)).",
-      "The landlord cannot deduct for ordinary wear and tear or for damage caused by a prior tenant."
+      "A NY tenant has the right under GOB § 7-108(1-a)(a) to a security deposit of no more than one month's rent for most residential rentals.",
+      "A NY tenant has the right under GOB § 7-108(1-a)(b) to deposit protection against deductions for ordinary wear and tear or prior-tenant damage.",
+      "A NY tenant has the right under GOB § 7-108(1-a)(c) to a pre-occupancy inspection with the landlord and a written record of existing damage that cannot later be deducted.",
+      "A NY tenant has the right under GOB § 7-108(1-a)(d) to a pre-move-out inspection and an itemized list of proposed deductions with an opportunity to cure.",
+      "A NY tenant has the right under GOB § 7-108(1-a)(e) to the remaining deposit and an itemized statement within 14 days of move-out; if not, the landlord forfeits any right to retain any portion.",
+      "A NY tenant has the right to punitive damages of up to twice the deposit amount for a willful GOB § 7-108 violation.",
+      "A NY tenant in a building with six or more apartments has the right under GOB § 7-103 to interest on the deposit.",
+      "A NY tenant has the right to sue in small claims court to recover the deposit without hiring a lawyer."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under GOL § 7-108(1-a)(e), a landlord who fails to return the deposit with an itemized statement within 14 days forfeits all rights to retain any portion of the deposit, regardless of actual damages.",
-      "Small claims court in New York accepts cases for amounts up to $5,000 in city courts and $3,000 in town and village courts. Security deposit disputes are among the most common small claims filings.",
-      "The New York State Attorney General's office provides guidance on security deposit rights and accepts complaints about landlords who violate the law at ag.ny.gov.",
-      "Free legal help for security deposit disputes in Monroe County is available through the Legal Aid Society of Rochester at (585) 232-4090 and Legal Assistance of Western New York (LawNY) at (585) 325-2520.",
-      "Under GOL § 7-109, the Attorney General may bring a proceeding or action to compel compliance with security deposit requirements.",
-      "If a building is sold, the former landlord must transfer all security deposits to the new owner within five days and notify tenants by certified mail of the new owner's name and address."
+      "Rochester City Court Small Claims Part at (585) 428-6990 — claims up to $5,000 for Rochester residents and for disputes involving Rochester properties.",
+      "Monroe County town and village justice courts — claims up to $3,000 for disputes in unincorporated areas.",
+      "NY Attorney General Tenant Assistance at ag.ny.gov/resources/individuals/tenants-homeowners — guidance on security-deposit rights and complaint intake.",
+      "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 — complaints against landlords with repeated GOB § 7-108 violations.",
+      "Under GOB § 7-109, the Attorney General may bring a proceeding or action to compel compliance with security-deposit requirements.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — low-income Monroe County tenants in small-claims filings and complex deposit disputes.",
+      "LawNY at (585) 325-2520 — housing representation across 14-county Western NY service area.",
+      "JustCause at (585) 232-3051 — volunteer-attorney small-claims preparation for Monroe County tenants.",
+      "Building-sale protection — when a rental building is sold, the former landlord must transfer all security deposits to the new owner within five days and notify tenants by certified mail."
     ]
   },
 
   example: {
-    en: "Aaliyah rented an apartment in Livingston County for two years. When she moved out, she left the apartment clean and in good condition. Her landlord did not return her deposit or send any statement. After 14 days passed with no response, Aaliyah learned that under New York law her landlord had forfeited the right to keep any of the money. She sent a written demand. When the landlord still did not respond, she filed a claim in small claims court. The judge ordered the landlord to return her full deposit."
+    en: "Aaliyah rented a Livingston County apartment for two years. When her lease ended, she left the apartment clean and in good condition. The landlord did not return her $900 deposit and sent no statement. Fifteen days after move-out, she reviewed GOB § 7-108(1-a)(e) and confirmed the landlord had forfeited the right to retain any portion of the deposit by missing the 14-day deadline. She mailed a certified-letter demand for the full deposit. When the landlord did not respond, Aaliyah filed a small-claims action in the local justice court citing the forfeiture rule. The judge entered judgment for the full $900 plus filing costs. If Aaliyah could show the landlord willfully kept her deposit, the court could have added punitive damages up to $1,800 under GOB § 7-108."
   },
 
   counsel: [
@@ -138,7 +143,7 @@ export const SECURITY_DEPOSIT_NY = {
     "https://codes.findlaw.com/ny/general-obligations-law/gob-sect-7-108/"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
