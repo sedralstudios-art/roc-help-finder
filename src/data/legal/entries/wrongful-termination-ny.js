@@ -7,49 +7,57 @@ export const WRONGFUL_TERMINATION_NY = {
   primaryStatute: "NY EXC 296",
   status: "active",
 
-  title: { en: "Wrongful Firing — When Getting Fired Is Against the Law" },
+  title: { en: "Wrongful Firing in New York — When a Termination Is Against the Law" },
 
   summary: {
-    en: "New York is an \"at-will\" state. That means your boss can fire you for almost any reason — or no reason at all. But there are some reasons that are against the law. Your boss cannot fire you because of who you are, because you reported something illegal, or because you used a right the law gives you. If they do, it may be wrongful firing."
+    en: "NY is an at-will employment state, meaning most employees can be terminated for almost any reason or no reason. Several categories of termination are unlawful under state and federal law: discrimination based on protected characteristics under NY Executive Law § 296, retaliation for protected activity, and firing for whistleblowing under NY Labor Law § 740. A NY worker has the right to file with the NY Division of Human Rights, the EEOC, or go directly to court depending on the claim."
   },
 
   whoQualifies: {
     en: [
-      "Anyone in New York who was fired, laid off, or pushed out of a job for an illegal reason. Illegal reasons include discrimination, retaliation, and punishment for whistleblowing.",
-      "Workers at businesses with 4 or more employees are covered by the New York State Human Rights Law. Some rules — like the ban on wage retaliation — apply no matter how small the business is.",
-      "Workers who were forced to quit because the boss made things so bad that a normal person couldn't stay. The law calls this \"constructive discharge\" — it counts the same as being fired.",
-      "Workers with an employment contract, a union contract, or an employee handbook that says they can only be fired for certain reasons."
+      "A NY worker terminated, laid off, demoted, or forced to resign for a reason that violates NY Executive Law § 296, NY Labor Law § 740, or another protective statute.",
+      "A NY worker at an employer with 4 or more employees — the threshold for most NY Human Rights Law claims, with narrower coverage for smaller employers on specific claims (wage retaliation, whistleblower, sexual harassment).",
+      "A NY worker forced to quit because the employer created intolerable conditions that a reasonable person would not tolerate — called constructive discharge, treated as a termination under law.",
+      "A NY worker under an employment contract, a collective bargaining agreement, or an employee handbook that limits the employer's right to terminate.",
+      "A NY worker regardless of immigration status — NY Human Rights Law and NY Labor Law apply without exception on that basis."
     ]
   },
 
   whatItMeans: {
-    en: "Getting fired for no reason is legal in New York. Getting fired for an illegal reason is not. The main illegal reasons are:\n\n1) Discrimination — firing someone because of who they are.\n2) Retaliation — firing someone for reporting a problem or using a legal right.\n3) Whistleblowing — firing someone for reporting illegal activity or serious safety problems.\n\nNew York's Human Rights Law (Executive Law § 296) lists the groups protected from discrimination. That list is bigger than the federal list. It includes race, color, national origin, sex, pregnancy, age, and disability. It also covers religion, sexual orientation, gender identity, marital status, military status, arrest or conviction record, and being a domestic violence victim."
+    en: "NY follows the at-will employment rule, which means an employer generally can terminate an employee at any time, for any reason, or for no reason, and an employee can quit on the same terms. That default is limited by several statutes that prohibit specific reasons for termination. Termination for one of those prohibited reasons is wrongful. Discrimination under NY Executive Law § 296. The NY State Human Rights Law at Executive Law § 296 prohibits terminating a worker because of race, color, national origin, ancestry, sex (including pregnancy and sexual harassment), age, disability, religion, creed, sexual orientation, gender identity, gender expression, marital status, familial status, military or veteran status, predisposing genetic characteristics, domestic-violence-victim status, and criminal history (with nuances under the Fair Chance Act). The protected list is broader than federal Title VII. The threshold is 4 or more employees for most claims, lowered for specific claims like sexual harassment, which applies to all employers. Federal Title VII (42 USC § 2000e and following) covers the core protected categories at employers with 15 or more employees; the Age Discrimination in Employment Act covers age at 20 or more; the Americans with Disabilities Act covers disability at 15 or more. Retaliation. Retaliation — firing or otherwise punishing an employee for engaging in legally protected activity — is itself a separate violation. Protected activity includes opposing discrimination, filing a complaint, testifying in an investigation, requesting a reasonable accommodation, filing a wage-theft complaint (NY Labor Law § 215), filing a workers' compensation claim (NY Workers' Compensation Law § 120), serving on a jury, voting, using protected leave (NY Paid Family Leave, NY Paid Sick Leave, federal FMLA, and NY Paid Prenatal Leave added in 2025), or reporting a safety hazard to OSHA. NY's 2024 Reasonable Accommodation Anti-Retaliation Act expanded § 296 to protect the act of requesting a reasonable accommodation itself, even before an accommodation is granted or denied. Whistleblowing. NY Labor Law § 740, broadly expanded in 2022, protects any employee who in good faith discloses, threatens to disclose, objects to, or refuses to participate in an activity the employee reasonably believes violates law, rule, or regulation. The statute previously required a serious public-health or safety concern; the amendment dropped that limit. Remedies include reinstatement, front pay, back pay, lost benefits, compensatory damages, civil penalties up to $10,000, and reasonable attorneys' fees. The statute of limitations is 2 years. Contract claims. A written employment contract, a collective bargaining agreement, or an employee handbook that limits the reasons for termination can support a breach-of-contract claim. A handbook statement that the employer follows progressive discipline, for example, can create contractual protection despite the at-will default. Constructive discharge. When the employer creates intolerable working conditions severe enough that a reasonable employee would feel compelled to resign, the resignation is treated as a termination for legal purposes. The hostile conditions must tie to a prohibited reason (discrimination, retaliation, etc.) to support a wrongful-termination claim. Where to file. NY offers two forums for discrimination claims. A claimant can file an administrative complaint with the NY Division of Human Rights within 3 years of the adverse action (extended from 1 year in 2019). The Division investigates, can hold hearings, and can order remedies. Alternatively, a claimant can sue in state court within 3 years under NY Executive Law § 297. A claimant cannot do both — filing with the Division waives the right to sue in court on the same facts, and vice versa (called the election-of-remedies rule). Federal claims go to the EEOC within 300 days; the Buffalo Area Office is the closest EEOC office to Monroe County. Wage-retaliation complaints go to the NY DOL under NY Labor Law § 215. Available remedies. Successful wrongful-termination claims can produce reinstatement to the prior job, back pay covering lost earnings from termination to judgment, front pay covering future earnings when reinstatement is not feasible, compensatory damages for emotional distress and harm to reputation, punitive damages for egregious conduct (with NY Human Rights Law expanded to allow punitive damages in state court after 2019), and reasonable attorneys' fees. Remedies vary by statute; the court fits remedies to the facts."
   },
 
   yourRights: {
     en: [
-      "You have the right not to be fired because of your race, sex, age, disability, religion, national origin, pregnancy, sexual orientation, gender identity, marital status, military status, arrest or conviction record, or status as a domestic violence victim (Executive Law § 296).",
-      "You have the right not to be fired for reporting discrimination, harassment, wage theft, unsafe working conditions, or other illegal activity. That's called retaliation, and it is against the law (Executive Law § 296; Labor Law § 215).",
-      "You have the right not to be fired for whistleblowing. Whistleblowing means reporting something you believe breaks a law or causes a serious danger to public health or safety (Labor Law § 740).",
-      "You have the right not to be fired for using legal rights. These include family or medical leave, workers' comp claims, jury duty, voting, and military service.",
-      "You have the right not to be fired for asking for a reasonable change at work because of a disability or pregnancy. Asking itself is protected (Reasonable Accommodation Anti-Retaliation Act, effective December 2025).",
-      "If you win a case, the court can order things like: getting your old job back, missing pay, future pay you would have earned, money for the harm it caused, extra punishment money for bad behavior by the employer, and your lawyer's fees. The judge decides what fits your case."
+      "A NY employee has the right under NY Executive Law § 296 to be free from termination based on race, color, national origin, sex, pregnancy, age, disability, religion, sexual orientation, gender identity, marital status, military status, criminal history, domestic-violence-victim status, and other protected categories.",
+      "A NY employee has the right to be free from retaliation under NY Executive Law § 296(7), NY Labor Law § 215, and NY Workers' Compensation Law § 120 for protected activity — complaints, investigations, accommodations, wage claims, workers' compensation claims, and statutory leave.",
+      "A NY employee has the right under NY Labor Law § 740 to be free from retaliation for good-faith disclosure of a reasonably believed legal violation, with a 2-year statute of limitations.",
+      "A NY employee has the right under NY Executive Law § 296 as amended in 2024 to be free from retaliation for requesting a reasonable accommodation even before the accommodation is granted or denied.",
+      "A NY employee has the right to file with the NY Division of Human Rights within 3 years of the adverse action under NY Executive Law § 297.",
+      "A NY employee has the right to file with the federal EEOC within 300 days for claims under Title VII, the ADEA, or the ADA.",
+      "A NY employee has the right to sue directly in state court within 3 years under NY Executive Law § 296, subject to the election-of-remedies rule (administrative filing bars court filing on the same facts).",
+      "A NY employee terminated in constructive-discharge circumstances has the right to treat the forced resignation as a termination for legal purposes."
     ]
   },
 
   legalOptions: {
     en: [
-      "You can file a discrimination or retaliation complaint with the New York State Division of Human Rights. You usually have 1 year from the firing to file. The Division investigates, holds hearings, and can order money damages. More at dhr.ny.gov.",
-      "You can file a federal discrimination complaint with the U.S. Equal Employment Opportunity Commission (EEOC). In New York, you usually have 300 days to file. The closest EEOC office is in Buffalo.",
-      "Under state law, you can also sue in court within 3 years. But you have to pick one — you can either file with the Division of Human Rights OR sue in court, not both.",
-      "For whistleblower cases, you usually have 2 years to sue (Labor Law § 740). The court can order your job back plus pay and damages.",
-      "For wage retaliation, you can file a complaint with the New York State Department of Labor. Call 1-888-469-7365. Labor Law § 215 lets the court order your job back, missing pay, and up to $10,000 extra.",
-      "Free legal help in Monroe County: Legal Aid Society of Rochester (585-232-4090), LawNY (585-325-2520), and Empire Justice Center (585-454-4060)."
+      "NY Division of Human Rights at (888) 392-3644 or dhr.ny.gov — free administrative complaint process with investigation and hearings, 3-year filing window under NY Executive Law § 297.",
+      "Federal EEOC Buffalo Area Office at (800) 669-4000 — federal Title VII, ADEA, and ADA complaints with a 300-day filing window.",
+      "Direct court action under NY Executive Law § 296 — 3-year statute of limitations, with the election-of-remedies rule barring dual filing.",
+      "Whistleblower action under NY Labor Law § 740 — 2-year statute; remedies include reinstatement, back pay, front pay, compensatory damages, civil penalties up to $10,000, and attorneys' fees.",
+      "Wage-retaliation complaint under NY Labor Law § 215 — file with the NY DOL at 1-888-469-7365 or directly in court with a 2-year statute.",
+      "Workers' compensation retaliation claim under NY Workers' Compensation Law § 120 — filed with the Workers' Compensation Board.",
+      "Breach of contract action — 6-year statute for most written employment contracts under CPLR § 213.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — free representation on wrongful-termination cases for qualifying Monroe County residents.",
+      "LawNY at (585) 325-2520 — free representation across the 14-county Western NY service area.",
+      "Empire Justice Center at (585) 454-4060 — free representation in systemic and impact wrongful-termination cases.",
+      "NY State Bar Association Lawyer Referral Service at 1-800-342-3661 — referral to a plaintiffs' employment attorney, many of whom work on contingency in strong cases."
     ]
   },
 
   example: {
-    en: "David worked at a warehouse for three years. He hurt his back on the job and filed a workers' comp claim. Two weeks later, his boss fired him. The boss said the company was \"restructuring.\" David thought the real reason was his injury claim. He filed a retaliation complaint with the Division of Human Rights. The Division looked into it. There was no restructuring — David was the only person fired. The company was ordered to pay David back wages and damages."
+    en: "David worked at a warehouse in Monroe County for three years. He injured his back lifting a heavy load and filed a workers' compensation claim. Two weeks later the employer terminated him, saying the company was restructuring. David suspected the real reason was his workers' comp claim. He filed a retaliation complaint with the Workers' Compensation Board under NY WCL § 120 and a parallel NY State Division of Human Rights complaint alleging disability-based termination. Records produced during the investigation showed David was the only employee affected by the purported restructuring. The agency found that the termination was retaliatory. David was awarded back pay, reinstatement rights, and compensatory damages. Because the Division of Human Rights complaint was filed first, the election-of-remedies rule prevented a separate state-court lawsuit on the same facts."
   },
 
   counsel: [
@@ -97,7 +105,8 @@ export const WRONGFUL_TERMINATION_NY = {
   relatedIds: [
     "minimum-wage-ny",
     "wage-theft-ny",
-    "ada-workplace-accommodation-ny"
+    "workers-compensation-ny",
+    "fair-chance-act-ban-the-box-ny"
   ],
 
   relatedHelpResources: [],
@@ -121,14 +130,14 @@ export const WRONGFUL_TERMINATION_NY = {
   ],
 
   sources: [
-    "https://dhr.ny.gov/",
     "https://www.nysenate.gov/legislation/laws/EXC/296",
+    "https://dhr.ny.gov/",
     "https://www.nysenate.gov/legislation/laws/LAB/740",
     "https://www.nysenate.gov/legislation/laws/LAB/215",
     "https://www.eeoc.gov/field-office/buffalo/location"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-22",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
