@@ -6,48 +6,51 @@ export const RIGHT_TO_COUNSEL_EVICTION_NY = {
   authorityType: "agency-program",
   status: "active",
 
-  title: { en: "Right to Counsel in Eviction Cases — Free Legal Representation in Monroe County" },
+  title: { en: "Right to Counsel in Eviction Cases in New York — Free Legal Representation for Income-Eligible Tenants in Monroe County" },
 
   summary: {
-    en: "In 2023, New York expanded the right to free legal counsel for tenants facing eviction. Income-eligible tenants in participating areas — including Monroe County — are entitled to a free attorney in eviction proceedings. Before this program, most tenants went to court alone while landlords had lawyers. Studies show that tenants with attorneys are far more likely to stay in their homes. If you are facing eviction and cannot afford a lawyer, you may qualify."
+    en: "New York expanded the Right to Counsel program in 2023 to cover more of the state, including Monroe County. Income-eligible tenants facing eviction are entitled to free legal representation throughout the case. Before the program, most tenants went to court alone while landlords had lawyers. Data from New York City's pioneering program shows that 84% of tenants with attorneys avoided eviction. A tenant facing eviction in Rochester can call Legal Aid at (585) 232-4090 or request counsel at the first court appearance. The attorney handles the full case — defense, settlement negotiation, and trial."
   },
 
   whoQualifies: {
     en: [
-      "Tenants in Monroe County who are facing an eviction proceeding in court.",
-      "Income eligibility: generally 200% of the federal poverty level or below, though this may vary by funding.",
-      "The right applies in both nonpayment and holdover eviction cases.",
-      "Tenants do not need to apply in advance — they can request counsel at their first court appearance."
+      "A tenant in Monroe County facing an eviction proceeding in court.",
+      "A tenant at or below the income eligibility level (typically 200% of the federal poverty level; specific thresholds vary by funding year).",
+      "A tenant in either a non-payment or a holdover eviction case.",
+      "A tenant without advance application; representation can be requested at the first court appearance.",
+      "A tenant whose eviction involves retaliation, habitability, or procedural defenses."
     ]
   },
 
   whatItMeans: {
-    en: "Under the statewide Right to Counsel program (expanding on NYC's pioneering 2017 program), income-eligible tenants facing eviction in participating jurisdictions are entitled to free legal representation. In Monroe County, Legal Aid Society of Rochester and other providers staff the eviction courts and offer representation to qualifying tenants. The attorney handles the entire case: reviewing the landlord's claims, identifying defenses (habitability, retaliation, improper notice, procedural defects), negotiating settlements, and representing the tenant at trial if needed. Data from New York City's program shows that 84% of tenants with Right to Counsel attorneys avoided eviction. Common outcomes include: case dismissal (landlord did not follow proper procedure), settlement with time to move (avoiding a formal eviction on the record), rent reduction or repair agreements, and outright trial wins. The program applies to cases in City Court (Rochester) and town/village courts in Monroe County. Tenants who earn above the income threshold but still cannot afford an attorney may qualify for reduced-fee representation through other legal aid programs."
+    en: "New York's Right to Counsel (RTC) program grew out of New York City's 2017 law that first guaranteed free legal representation to income-eligible tenants facing eviction. The 2023 state expansion extended the program to parts of the state beyond NYC, including Monroe County. The program is funded through a mix of state appropriations, local commitments, and federal pass-through funds.\n\nWho provides counsel in Monroe County. Legal Aid Society of Rochester is the primary provider. Empire Justice Center and LawNY also handle cases through the program, depending on case type and conflict rules. The attorneys staff eviction courts in Rochester City Court and town justice courts across the county.\n\nWhat the attorney does. The full case — not just a hearing. Reviewing the landlord's filings. Spotting procedural defects (improper notice, service issues, missing court papers, RPL 1304 defects, warranty of habitability breaches, retaliation under RPL 223-b). Negotiating with the landlord's counsel for dismissal, settlement, or extended move-out time. Representing the tenant at trial when the case does not settle. Coordinating with related services — rental assistance, code enforcement, social services — that the tenant may need to stay housed.\n\nData from NYC's program. 84% of tenants with Right to Counsel attorneys avoided eviction. Eviction filings in neighborhoods with the program dropped meaningfully compared with neighborhoods without. The data supported the 2023 statewide expansion.\n\nCommon outcomes. Case dismissal (the landlord did not follow proper procedure). Settlement with extended move-out time (avoiding a formal eviction on the tenant's record). Rent reduction tied to habitability breaches. Repair agreements alongside payment plans. Outright trial wins on procedural or substantive defenses.\n\nIncome eligibility. The general rule is 200% of the federal poverty level. For a household of one, that is approximately $30,120 per year as of 2025 federal poverty guidelines; for a household of four, approximately $62,400. Thresholds are adjusted periodically. A tenant slightly above the threshold may still qualify under sliding-scale rules or through other legal aid programs.\n\nBoth case types covered. The program reaches:\n- Non-payment proceedings: the landlord seeks to evict for unpaid rent.\n- Holdover proceedings: the landlord seeks to evict for any other reason (end of lease, lease violation, owner use).\n\nIt does not usually cover administrative cases like public housing grievances; different representation paths apply there.\n\nHow to access. The cleanest path is to call Legal Aid Society of Rochester at (585) 232-4090 as soon as an eviction notice arrives. Calling before the first court appearance gives the attorney time to prepare. At the first court appearance, legal aid providers are often present in the courtroom and tenants can request counsel on the spot. A judge will usually adjourn a case to let a just-assigned attorney review the file.\n\nProcedural defenses that often win. The landlord skipped or botched the 14-day demand notice in a non-payment case (RPAPL 711(2)). The service of the petition and notice did not meet the statutory rules. The landlord took rent after filing (vitiating the non-payment case). The landlord is acting in retaliation for a tenant complaint (RPL 223-b). The apartment has warranty of habitability breaches that support abatement.\n\nWhy this matters. Eviction is one of the most destabilizing events a family can face. An eviction on a tenant's record follows them into every future housing application. Free counsel dramatically changes the outcome and keeps families housed.\n\nRelated resources. The Rochester Housing Council at (585) 546-3700 offers pre-court counseling and mediation. Rental assistance programs through NYS OTDA's Emergency Rental Assistance Program and Monroe County DHS can sometimes pay back rent when a settlement requires it."
   },
 
   yourRights: {
     en: [
-      "Income-eligible tenants facing eviction in Monroe County are entitled to a free attorney.",
-      "The right applies in both nonpayment and holdover eviction cases.",
-      "Tenants can request counsel at their first court appearance — no advance application needed.",
+      "An income-eligible tenant facing eviction in Monroe County has the right to a free attorney under the state Right to Counsel program.",
+      "The right applies in both non-payment and holdover eviction cases.",
+      "A tenant can request counsel at the first court appearance with no advance application.",
       "The attorney handles the full case — defense, negotiation, and trial.",
-      "Tenants with attorneys are significantly more likely to avoid eviction.",
-      "Even if income is above the threshold, other free legal services may be available."
+      "A tenant with counsel is significantly more likely to avoid eviction.",
+      "A tenant above the income threshold may still qualify for other free legal services.",
+      "A judge typically adjourns a case to let a newly assigned attorney prepare."
     ]
   },
 
   legalOptions: {
     en: [
-      "If facing an eviction, contact Legal Aid Society of Rochester immediately at (585) 232-4090 — they can determine eligibility and assign an attorney.",
-      "At the first court appearance, the tenant can request counsel from the court. Legal aid providers are often present in eviction court.",
-      "The Rochester Housing Court handles most city eviction cases. Town and village courts handle suburban cases.",
-      "Even before court, free legal advice on eviction defense is available through Legal Aid.",
-      "The Rochester Housing Council at (585) 546-3700 provides pre-court counseling and mediation."
+      "A tenant facing eviction can contact Legal Aid Society of Rochester at (585) 232-4090 as soon as a notice arrives.",
+      "At the first court appearance, a tenant can ask the court for assigned counsel; legal aid providers are often present in eviction court.",
+      "Rochester Housing Court handles most city eviction cases; town and village courts handle suburban cases.",
+      "Pre-court counseling is available from the Rochester Housing Council at (585) 546-3700.",
+      "For rental assistance to resolve back rent as part of a settlement, the NYS Emergency Rental Assistance Program and Monroe County DHS are the state and county paths.",
+      "Empire Justice Center at (585) 295-5702 and LawNY also handle Right to Counsel cases for conflicts or specific case types."
     ]
   },
 
   example: {
-    en: "A single mother in Rochester receives an eviction notice for nonpayment of rent. She falls behind after losing her job. She goes to court and requests a free attorney through the Right to Counsel program. A Legal Aid attorney is assigned. The attorney discovers that the landlord failed to provide the required 14-day notice and that several apartment repairs have been ignored. The attorney negotiates a settlement: the tenant pays a reduced amount over 60 days, the landlord makes the repairs, and the eviction case is dismissed."
+    en: "A single mother in Rochester receives an eviction notice for non-payment of rent. She fell behind after losing her job. She calls Legal Aid Society of Rochester. A Right to Counsel attorney is assigned. The attorney spots that the landlord failed to give the required 14-day demand notice under RPAPL 711(2) and that several apartment repairs have been ignored. The attorney negotiates a settlement: the tenant pays a reduced amount over 60 days with help from Emergency Rental Assistance, the landlord makes the repairs, and the eviction case is dismissed. No eviction appears on the tenant's record."
   },
 
   counsel: [
@@ -93,10 +96,11 @@ export const RIGHT_TO_COUNSEL_EVICTION_NY = {
 
   sources: [
     "https://www.lasroc.org",
-    "https://www.righttocounselnyc.org"
+    "https://www.righttocounselnyc.org",
+    "https://otda.ny.gov/programs/emergency-rental-assistance/"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-23",
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
