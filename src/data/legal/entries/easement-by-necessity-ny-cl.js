@@ -111,7 +111,7 @@ export const EASEMENT_BY_NECESSITY_NY_CL = {
 
   sources: [
     "https://www.nycourts.gov/courthelp/property/easements.shtml",
-    "https://law.justia.com/cases/new-york/court-of-appeals/1941/286-n-y-507-0.html"
+    "https://www.law.cornell.edu/wex/easement"
   ],
 
   lastVerified: "2026-04-19",

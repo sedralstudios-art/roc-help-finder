@@ -109,7 +109,6 @@ export const NON_SOLICITATION_AGREEMENT_NY_CL = {
   ],
 
   sources: [
-    "https://law.justia.com/cases/new-york/court-of-appeals/1999/93-n-y-2d-382-0.html",
     "https://www.nysenate.gov/legislation/laws/CVP/6301",
     "https://www.ftc.gov/legal-library/browse/rules/noncompete-rule"
   ],

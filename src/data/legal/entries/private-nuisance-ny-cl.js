@@ -91,8 +91,8 @@ export const PRIVATE_NUISANCE_NY_CL = {
   ],
 
   sources: [
-    "https://law.justia.com/cases/new-york/court-of-appeals/1977/41-n-y-2d-564-0.html",
-    "https://www.law.cornell.edu/wex/nuisance"
+    "https://www.law.cornell.edu/wex/nuisance",
+    "https://www.law.cornell.edu/wex/tort"
   ],
 
   lastVerified: "2026-04-18",

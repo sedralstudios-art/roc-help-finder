@@ -94,8 +94,7 @@ export const MOVING_OUT_OF_STATE_CUSTODY_NY = {
   sources: [
     "https://www.nysenate.gov/legislation/laws/DOM/240",
     "https://www.nysenate.gov/legislation/laws/DOM/75-A",
-    "https://www.nycourts.gov/courthelp/Family/custody.shtml",
-    "https://law.justia.com/cases/new-york/court-of-appeals/1996/87-n-y-2d-727-0.html"
+    "https://www.nycourts.gov/courthelp/Family/custody.shtml"
   ],
 
   lastVerified: "2026-04-16",

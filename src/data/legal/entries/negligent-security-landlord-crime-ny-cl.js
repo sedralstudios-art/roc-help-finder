@@ -110,7 +110,6 @@ export const NEGLIGENT_SECURITY_LANDLORD_CRIME_NY_CL = {
   ],
 
   sources: [
-    "https://law.justia.com/cases/new-york/court-of-appeals/1998/92-n-y-2d-544-0.html",
     "https://www.nysenate.gov/legislation/laws/CVP/214",
     "https://www.nysenate.gov/legislation/laws/RPP/235-B",
     "https://www.nysenate.gov/legislation/laws/EPT/5-4.1"

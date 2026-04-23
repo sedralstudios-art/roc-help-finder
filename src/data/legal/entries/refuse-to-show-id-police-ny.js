@@ -93,8 +93,8 @@ export const REFUSE_TO_SHOW_ID_POLICE_NY = {
   ],
 
   sources: [
-    "https://law.justia.com/cases/new-york/court-of-appeals/1976/40-n-y-2d-210-0.html",
-    "https://www.nysenate.gov/legislation/laws/VAT/507"
+    "https://www.nysenate.gov/legislation/laws/VAT/507",
+    "https://www.nysenate.gov/legislation/laws/CPL/140.50"
   ],
 
   lastVerified: "2026-04-17",
