@@ -106,7 +106,7 @@ export const HEATING_OIL_TANK_REMOVAL_NY = {
   ],
 
   sources: [
-    "https://govt.westlaw.com/nycrr/Browse/Home/NewYork/NewYorkCodesRulesandRegulations?guid=I08fd55e0b5a111dda0a4e17826ebc834",
+    "https://www.law.cornell.edu/regulations/new-york/title-6/part-613",
     "https://www.dec.ny.gov/chemical/pbs.html"
   ],
 

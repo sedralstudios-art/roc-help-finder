@@ -106,7 +106,7 @@ export const FORCE_PLACED_HOMEOWNER_INSURANCE_NY = {
   ],
 
   sources: [
-    "https://govt.westlaw.com/nycrr/Browse/Home/NewYork/NewYorkCodesRulesandRegulations?guid=I08fd55d0b5a111dda0a4e17826ebc834",
+    "https://www.law.cornell.edu/regulations/new-york/title-11/part-227",
     "https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-163"
   ],
 

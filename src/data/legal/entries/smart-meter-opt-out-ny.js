@@ -106,7 +106,7 @@ export const SMART_METER_OPT_OUT_NY = {
   ],
 
   sources: [
-    "https://govt.westlaw.com/nycrr/Browse/Home/NewYork/NewYorkCodesRulesandRegulations?guid=I5b4aaca08c1211dd97adcd755bda2840",
+    "https://www.law.cornell.edu/regulations/new-york/title-16/part-96",
     "https://dps.ny.gov/smart-meters"
   ],
 

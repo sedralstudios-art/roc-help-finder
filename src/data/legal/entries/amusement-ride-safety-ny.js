@@ -109,8 +109,7 @@ export const AMUSEMENT_RIDE_SAFETY_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/LAB/A34",
-    "https://dol.ny.gov/amusement-ride-safety-bureau",
-    "https://govt.westlaw.com/nycrr/Browse/Home/NewYork/NewYorkCodesRulesandRegulations"
+    "https://dol.ny.gov/amusement-ride-safety-bureau"
   ],
 
   lastVerified: "2026-04-18",

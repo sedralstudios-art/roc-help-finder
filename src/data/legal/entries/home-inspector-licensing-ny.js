@@ -106,7 +106,7 @@ export const HOME_INSPECTOR_LICENSING_NY = {
   ],
 
   sources: [
-    "https://govt.westlaw.com/nycrr/Browse/Home/NewYork/NewYorkCodesRulesandRegulations?guid=I6f47e9b08d8311e2b5b0fb7fbf15cd87",
+    "https://www.law.cornell.edu/regulations/new-york/title-19/part-197",
     "https://dos.ny.gov/home-inspector"
   ],
 
