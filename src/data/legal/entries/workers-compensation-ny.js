@@ -137,8 +137,8 @@ export const WORKERS_COMPENSATION_NY = {
     "https://www.nysenate.gov/legislation/laws/WKC",
     "https://www.nysenate.gov/legislation/laws/WKC/120",
     "https://www.wcb.ny.gov/",
-    "https://codes.findlaw.com/ny/workers-compensation-law/wkc-sect-18/",
-    "https://codes.findlaw.com/ny/workers-compensation-law/wkc-sect-28/"
+    "https://www.nysenate.gov/legislation/laws/WKC/18",
+    "https://www.nysenate.gov/legislation/laws/WKC/28"
   ],
 
   lastVerified: "2026-04-21",

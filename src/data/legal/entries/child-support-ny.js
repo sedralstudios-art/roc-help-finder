@@ -121,7 +121,7 @@ export const CHILD_SUPPORT_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/DOM/240",
-    "https://codes.findlaw.com/ny/family-court-act/fct-sect-413/",
+    "https://www.nysenate.gov/legislation/laws/FCT/413",
     "https://childsupport.ny.gov/pdfs/CSSA.pdf",
     "https://childsupport.ny.gov/"
   ],

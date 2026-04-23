@@ -98,7 +98,7 @@ export const VETERANS_COURT_FINES_FEES_NY = {
   ],
 
   sources: [
-    "https://supreme.justia.com/cases/federal/us/461/660/",
+    "https://www.law.cornell.edu/supremecourt/text/461/660",
     "https://www.nysenate.gov/legislation/laws/PEN/60.35",
     "https://www.nysenate.gov/legislation/laws/VAT/510",
     "https://www.nycourts.gov/courts/problem_solving/vet/home.shtml"

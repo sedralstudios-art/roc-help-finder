@@ -94,7 +94,7 @@ export const MIRANDA_RIGHTS_EXPLAINED_NY = {
   ],
 
   sources: [
-    "https://supreme.justia.com/cases/federal/us/384/436/",
+    "https://www.law.cornell.edu/supremecourt/text/384/436",
     "https://www.nysenate.gov/legislation/laws/CPL/60.45"
   ],
 

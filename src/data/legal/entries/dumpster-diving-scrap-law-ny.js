@@ -92,7 +92,7 @@ export const DUMPSTER_DIVING_SCRAP_LAW_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/GBS/396-GG",
-    "https://supreme.justia.com/cases/federal/us/486/35/"
+    "https://www.law.cornell.edu/supremecourt/text/486/35"
   ],
 
   lastVerified: "2026-04-16",

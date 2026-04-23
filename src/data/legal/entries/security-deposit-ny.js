@@ -139,8 +139,7 @@ export const SECURITY_DEPOSIT_NY = {
   sources: [
     "https://www.nysenate.gov/legislation/laws/GOB/7-108",
     "https://www.nysenate.gov/legislation/laws/GOB/7-103",
-    "https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants/recovering-rent-security-deposits-and-interest",
-    "https://codes.findlaw.com/ny/general-obligations-law/gob-sect-7-108/"
+    "https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants/recovering-rent-security-deposits-and-interest"
   ],
 
   lastVerified: "2026-04-21",

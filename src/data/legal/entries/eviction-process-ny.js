@@ -136,10 +136,10 @@ export const EVICTION_PROCESS_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/RPA/A7",
-    "https://codes.findlaw.com/ny/real-property-law/rpp-sect-226-c/",
-    "https://codes.findlaw.com/ny/real-property-actions-and-proceedings-law/rpa-sect-711/",
-    "https://codes.findlaw.com/ny/real-property-actions-and-proceedings-law/rpa-sect-749/",
-    "https://codes.findlaw.com/ny/real-property-actions-and-proceedings-law/rpa-sect-753/",
+    "https://www.nysenate.gov/legislation/laws/RPP/226-C",
+    "https://www.nysenate.gov/legislation/laws/RPA/711",
+    "https://www.nysenate.gov/legislation/laws/RPA/749",
+    "https://www.nysenate.gov/legislation/laws/RPA/753",
     "https://ag.ny.gov/publications/residential-tenants-rights-guide",
     "https://ag.ny.gov/publications/new-york-state-good-cause-eviction-law"
   ],

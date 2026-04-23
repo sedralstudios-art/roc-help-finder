@@ -121,7 +121,7 @@ export const WRONGFUL_TOW_VEHICLE_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/VAT/1224",
-    "https://codes.findlaw.com/ny/general-business-law/gbs-sect-399-v/",
+    "https://www.nysenate.gov/legislation/laws/GBS/399-V",
     "https://dos.ny.gov/consumer-protection",
     "https://ag.ny.gov/consumer-frauds"
   ],

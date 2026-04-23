@@ -108,7 +108,7 @@ export const CONSUMER_ARBITRATION_CLAUSE_NY_CL = {
     "https://www.law.cornell.edu/uscode/text/9/1",
     "https://www.law.cornell.edu/uscode/text/9/2",
     "https://www.law.cornell.edu/uscode/text/9/402",
-    "https://supreme.justia.com/cases/federal/us/563/333/"
+    "https://www.law.cornell.edu/supremecourt/text/563/333"
   ],
 
   lastVerified: "2026-04-18",

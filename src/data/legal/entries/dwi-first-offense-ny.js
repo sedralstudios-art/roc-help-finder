@@ -121,7 +121,6 @@ export const DWI_FIRST_OFFENSE_NY = {
   sources: [
     "https://www.nysenate.gov/legislation/laws/VAT/1192",
     "https://www.nysenate.gov/legislation/laws/VAT/1193",
-    "https://codes.findlaw.com/ny/vehicle-and-traffic-law/vat-sect-1193/",
     "https://dmv.ny.gov/tickets/penalties-alcohol-or-drug-related-violations"
   ],
 

@@ -95,7 +95,7 @@ export const ACCESS_TO_COURTS_INCARCERATED_NY = {
 
   sources: [
     "https://www.law.cornell.edu/uscode/text/42/1983",
-    "https://supreme.justia.com/cases/federal/us/430/817/"
+    "https://www.law.cornell.edu/supremecourt/text/430/817"
   ],
 
   lastVerified: "2026-04-16",

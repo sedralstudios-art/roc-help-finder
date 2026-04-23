@@ -137,7 +137,7 @@ export const ILLEGAL_EVICTION_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/RPA/768",
-    "https://law.justia.com/codes/new-york/rpa/article-8/853/",
+    "https://www.nysenate.gov/legislation/laws/RPA/853",
     "https://www.nysenate.gov/legislation/laws/RPA/A7",
     "https://ag.ny.gov/resources/government-organizations/law-enforcement-guidance/unlawful-evictions",
     "https://ag.ny.gov/publications/residential-tenants-rights-guide"

@@ -122,7 +122,7 @@ export const ORDER_OF_PROTECTION_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/FCT/812",
-    "https://codes.findlaw.com/ny/family-court-act/fct-sect-842/",
+    "https://www.nysenate.gov/legislation/laws/FCT/842",
     "https://ww2.nycourts.gov/COURTS/nyc/family/faqs_domesticviolence.shtml",
     "https://www.nysenate.gov/legislation/laws/FCT/A8"
   ],

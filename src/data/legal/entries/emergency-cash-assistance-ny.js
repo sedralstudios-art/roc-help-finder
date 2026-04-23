@@ -136,7 +136,7 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
 
   sources: [
     "https://www.law.cornell.edu/uscode/text/42/604",
-    "https://codes.findlaw.com/ny/social-services-law/sos-sect-350-j/",
+    "https://www.nysenate.gov/legislation/laws/SOS/350-J",
     "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-372.2",
     "https://otda.ny.gov/programs/temporary-assistance/"
   ],

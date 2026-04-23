@@ -93,7 +93,7 @@ export const GRANDPARENT_RIGHTS_CHILDCARE_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/DOM/72",
-    "https://supreme.justia.com/cases/federal/us/530/57/"
+    "https://www.law.cornell.edu/supremecourt/text/530/57"
   ],
 
   lastVerified: "2026-04-16",

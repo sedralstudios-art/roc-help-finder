@@ -90,7 +90,7 @@ export const POLITICAL_SIGNS_YARD_NY = {
   ],
 
   sources: [
-    "https://supreme.justia.com/cases/federal/us/576/155/",
+    "https://www.law.cornell.edu/supremecourt/text/576/155",
     "https://www.nysenate.gov/legislation/laws/RPP/339-V"
   ],
 
