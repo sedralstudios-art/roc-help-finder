@@ -23,7 +23,7 @@ export const ANTI_SLAPP_LAWSUIT_NY = {
   },
 
   whatItMeans: {
-    en: "New York Civil Rights Law Section 76-a defines the kinds of lawsuits covered by the anti-SLAPP statute — claims based on communication in a place open to the public or a public forum about an issue of public interest, or about any other lawful conduct in furtherance of the exercise of the constitutional right of free speech in connection with an issue of public interest. The 2020 amendments significantly broadened the scope — prior law covered only disputes involving public permits. Current law covers reviews on sites like Yelp and Google, social media posts about businesses and public figures, tenant advocacy and organizing, employee whistleblowing about matters of public concern, commentary about elected officials, and journalism. When a lawsuit falls within the statute, the defendant can move to dismiss with enhanced procedures: discovery is stayed, the plaintiff must show a substantial basis in law and fact for the claim, and the standard of actual malice (knowing falsity or reckless disregard) applies to defamation claims about matters of public interest. If the motion succeeds, Civil Rights Law Section 70-a mandates that the plaintiff pay the defendant's attorney fees, costs, and (in some cases) compensatory and punitive damages. The mandatory fee-shifting is the teeth of the statute — it forces plaintiffs to think hard before filing a meritless suit to silence criticism. The statute also allows removal from state court to federal court in some circumstances. Anti-SLAPP motions typically must be filed within 60 days of being served. A plaintiff can defeat the motion by showing a substantial basis in law and fact — the burden is meaningful but not impossible."
+    en: "SLAPP stands for Strategic Lawsuit Against Public Participation. The classic pattern: a business or landlord sues a critic for defamation not because the case is strong, but because the cost and stress of litigation is itself the punishment. New York's 2020 anti-SLAPP amendments (Civil Rights Law 76-a and 70-a) were written to neutralize that tactic.\n\nWhat the statute covers. Civil Rights Law 76-a defines covered suits as claims based on speech about an issue of public interest, made in a public forum. The 2020 amendments broadened the scope dramatically. The old statute covered only disputes involving public permits. The current version reaches reviews on Yelp and Google, social media posts about businesses and public figures, tenant advocacy and organizing, employee whistleblowing about matters of public concern, commentary about elected officials, and journalism.\n\nEnhanced defense procedures. When a lawsuit falls under the statute, the defendant can move to dismiss with enhanced procedures. Discovery is stayed during the motion. That single rule defeats the most common SLAPP tactic — using expensive discovery requests to pressure settlement. The plaintiff then has to show a substantial basis in law and fact for the claim. For defamation claims about matters of public interest, the actual malice standard applies (knowing falsity or reckless disregard for the truth).\n\nMandatory fee-shifting. If the motion succeeds, Civil Rights Law 70-a requires the plaintiff to pay the defendant's attorney fees, costs, and in some cases compensatory and punitive damages. The mandatory fee-shifting is the teeth of the statute. It forces a plaintiff's lawyer to think hard before filing a meritless suit intended to silence criticism, because losing means writing a check to the defendant.\n\nFiling deadlines. Anti-SLAPP motions typically have to be filed within 60 days of being served with the complaint. Miss that window and the enhanced procedures may be lost. The statute also allows removal from state court to federal court in some cases, which can change the procedural posture.\n\nWhat defeats the motion. A plaintiff can defeat an anti-SLAPP motion by showing a substantial basis in law and fact. That is a meaningful burden, but not impossible. A review that contains verifiably false factual claims, a social media post that identifies specific individuals with false allegations of criminal conduct, or a workplace complaint that falls outside any public-interest connection can all survive the motion. The goal of the statute is not to insulate speech from any consequences. It is to stop the tactical abuse of litigation to silence critics."
   },
 
   yourRights: {
@@ -39,12 +39,12 @@ export const ANTI_SLAPP_LAWSUIT_NY = {
 
   legalOptions: {
     en: [
-      "Served with a SLAPP-looking lawsuit? Find an attorney immediately — the 60-day anti-SLAPP motion deadline is strict.",
+      "A defendant served with a SLAPP-looking lawsuit has a strict 60-day window to file the anti-SLAPP motion. Finding an attorney quickly is time-sensitive.",
       "Monroe County Bar Association attorney referral at (585) 546-2130.",
       "New York Civil Liberties Union at (212) 607-3300 takes on free speech cases.",
-      "Legal Aid Society of Rochester at (585) 232-4090 can advise on tenant and employee speech matters.",
-      "Free consultations: many First Amendment and defamation defense attorneys offer them — ask about anti-SLAPP experience specifically.",
-      "Preserve evidence of the speech being sued over (screenshots, archived posts, original publication)."
+      "Legal Aid Society of Rochester at (585) 232-4090 advises on tenant and employee speech matters.",
+      "Free consultations are available from many First Amendment and defamation defense attorneys. Anti-SLAPP experience is the specific qualification to confirm.",
+      "Evidence of the speech being sued over (screenshots, archived posts, original publication) is critical to preserve."
     ]
   },
 
@@ -96,7 +96,7 @@ export const ANTI_SLAPP_LAWSUIT_NY = {
     "https://www.nysenate.gov/legislation/laws/CVR/76-A"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-23",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
