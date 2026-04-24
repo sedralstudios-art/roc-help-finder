@@ -1,10 +1,4 @@
-// LGLW6-D_plumbing-residential-ny-mon-sweden-town_01.js
-// Town of Sweden plumbing entry. No separate plumber licensing.
-// Separate sewer connection permit (fee set by Town Board).
-// Sweden covers the area OUTSIDE Brockport village; Brockport has its own dept.
-// Source: townofswedenny.gov + eCode360 SW0122.
-
-export const entry = {
+export const PLUMBING_RESIDENTIAL_NY_MON_SWEDEN_TOWN = {
   id: "plumbing-residential-ny-mon-sweden-town",
   category: "trades",
   tier: "town",
@@ -12,43 +6,46 @@ export const entry = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: {
-    en: "Plumbing in the Town of Sweden: what the town requires"
-  },
+  title: { en: "Residential Plumbing in the Town of Sweden — Separate Sewer Connection Permit, Brockport Village Separate" },
 
   summary: {
-    en: "Sweden handles plumbing under the general building permit. There's no separate plumber license. The town has a separate building sewer connection permit with its own fee. Sweden's Building Department covers the area outside Brockport village — the village runs its own Building and Code Department for addresses inside village limits."
+    en: "The Town of Sweden handles plumbing under the general building permit. No separate plumber license. A separate building sewer connection permit is required for new hookups, with the fee set by Town Board. The Town Building Department covers addresses outside Brockport village; the village runs its own separate Building and Code Department. The Sweden Building Department at (585) 637-8684 confirms scope and fees. A 2026 fee schedule PDF is posted online."
   },
 
   whatItMeans: {
-    en: "Sweden Town Building Department handles plumbing under the general building permit process. The town follows the state Uniform Fire Prevention and Building Code. A separate permit is needed for building sewer connections — the fee is set by Town Board.\n\nSweden doesn't have its own plumber licensing chapter. Plumbers need liability insurance and workers comp. Whether Sweden accepts a Rochester Examining Board plumber certificate is not published — call to confirm.\n\nA 2026 fee schedule PDF is online. Call the Building Department at (585) 637-8684 to confirm current plumbing line items.\n\nIMPORTANT: The Village of Brockport is inside Sweden but has its own Building and Code Department. For addresses inside Brockport village limits, go to the village. For the rest of Sweden, go to the Town Building Department."
+    en: "Sweden is the Monroe County town that wraps around most of the Village of Brockport. The town Building Department handles plumbing for addresses outside village limits. The most notable Sweden-specific quirk is the separate sewer connection permit — a new line from the house to the town main requires its own permit on top of the general plumbing permit.\n\nJurisdictional boundary. The Village of Brockport sits inside the Town of Sweden along the southern edge and crosses into the Town of Clarkson along the north edge. A property with a Brockport, NY 14420 mailing address can sit in village limits, in Sweden, or in Clarkson. The Monroe County Real Property Portal confirms which jurisdiction governs a specific address. The village permit office is separate from the Sweden Building Department; a village address does not go through Sweden at all.\n\nPlumbing under the general permit. Sweden does not use a separate dedicated plumbing permit form. Plumbing scope is rolled into the general building permit application. This is different from some Monroe County towns (Mendon, Chili) that issue a distinct plumbing permit line. The town follows the NY Uniform Fire Prevention and Building Code (incorporating the NY Plumbing Code) for technical standards.\n\nWhen a plumbing permit is required. Water heater replacement, new fixtures, sewer lateral work, water service line work, adding a bathroom, drain-waste-vent changes, and gas piping from the meter to an appliance all require a permit.\n\nSeparate sewer connection permit. Sweden's code creates a separate permit track for building sewer connections — the line from the house to the town sewer main. The fee is set by Town Board. For a project that involves both internal plumbing work and a new sewer connection, a homeowner or contractor files both the general building permit and the sewer connection permit.\n\nPlumber licensing. Sweden does not have a separate plumber licensing chapter in the town code. Plumbers working in Sweden need current general liability insurance and workers' compensation coverage under Workers' Compensation Law 10. Whether Sweden accepts a Rochester Examining Board of Plumbers certificate in place of any local requirement is not clearly published.\n\nSUNY Brockport context. Sweden hosts a large share of the student-adjacent rental housing tied to SUNY Brockport. A landlord replacing plumbing in a Sweden rental (outside village limits) goes through the Sweden Building Department. A landlord in Brockport village goes through the village office instead.\n\nHomeowner self-work. The town's public code does not clearly state whether a homeowner on an owner-occupied single-family home can pull a plumbing permit and do work personally. The Building Department confirms the current rule.\n\nContact hours. The Sweden Building Department is at 18 State Street, Brockport (the town building sits inside village boundaries even though it serves the town outside the village). Hours are Monday through Friday from 8:30 AM to 4:30 PM. Email intake is available at PlanningZoning@townofswedenny.gov.\n\nState protections. Wage theft protections (Labor Law 191 and 193), the Scaffold Law for elevated work (Labor Law 240 and 241(6)), mechanic's liens (Lien Law 3 and 10), and General Business Law 349 for deceptive home-improvement practices apply in Sweden as statewide. The statewide plumbing-residential-ny entry covers those layers."
   },
 
   example: {
-    en: "A homeowner in Sweden (outside Brockport village) wants to hook up a new sewer line to the town main. They apply for a building permit with the Town Building Department AND a separate sewer connection permit. Both fees are set by the Town Board. The town inspector comes out for both the plumbing rough-in and the sewer connection."
+    en: "A homeowner in Sweden, outside Brockport village, wants to hook up a new sewer line to the town main during a basement build-out. She applies for a building permit with the Town Building Department and a separate sewer connection permit. Both fees are set by the Town Board and published on the 2026 fee schedule. The town inspector checks the plumbing rough-in and the sewer connection separately."
   },
 
   whoQualifies: {
     en: [
-      "Property owners and contractors doing plumbing work inside Sweden (outside Brockport village)",
-      "Plumbers with liability insurance and workers comp",
-      "Homeowners — call the Building Department to confirm homeowner plumbing rules"
+      "A property owner or plumber doing residential plumbing work inside the Town of Sweden, outside village limits.",
+      "A property owner with a Brockport, NY 14420 mailing address who is confirming whether the parcel sits in village limits or in Sweden.",
+      "A homeowner or plumber planning a sewer connection who needs the separate sewer permit in addition to the plumbing permit.",
+      "A homeowner considering self-work who is confirming the town's rule with the Building Department."
     ]
   },
 
   yourRights: {
     en: [
-      "The right to clear guidance from the Building Department",
-      "The right to know if your work needs a separate sewer connection permit",
-      "State worker protections (wage, safety, injury) still apply here"
+      "A property owner has the right to clear guidance from the Building Department on which permits a project requires.",
+      "A property owner has the right to know if the work requires a separate sewer connection permit.",
+      "A property owner has the right to a clear answer on jurisdiction — Sweden, Brockport village, or Clarkson — for a specific address.",
+      "State worker protections — wage, safety, injury — apply in Sweden as statewide.",
+      "A property owner has the right to dispute a deceptive plumbing contractor under General Business Law 349."
     ]
   },
 
   legalOptions: {
     en: [
-      "The Sweden Town Building Department handles plumbing permits, inspections, and code compliance outside Brockport",
-      "A separate sewer connection permit is needed for new sewer hookups",
-      "Plumbing work follows the state Uniform Fire Prevention and Building Code"
+      "The Sweden Town Building Department at (585) 637-8684 handles plumbing permits, inspections, and code compliance outside Brockport village.",
+      "A separate sewer connection permit is required for new sewer hookups, with the fee set by Town Board.",
+      "Plumbing work follows the NY Uniform Fire Prevention and Building Code.",
+      "For addresses inside village limits, the Village of Brockport Building and Code Department handles the permit.",
+      "For wage or injury issues on a plumbing job, the statewide plumbing-residential-ny entry covers state-level channels."
     ]
   },
 
@@ -57,10 +54,10 @@ export const entry = {
       type: "free",
       name: "Town of Sweden Building Department",
       focus: "Plumbing permits, sewer connection permits, inspections, code compliance",
-      qualifier: "Open to residents and contractors working in Sweden (outside Brockport village)",
+      qualifier: "Residents and contractors working in Sweden outside Brockport village",
       access: "18 State Street, Brockport; phone; email PlanningZoning@townofswedenny.gov; hours M-F 8:30am-4:30pm",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-637-8684",
+      phone: "(585) 637-8684",
       url: "https://www.townofswedenny.gov/building-department",
       verified: true,
       bilingual: false,
@@ -84,7 +81,7 @@ export const entry = {
     "https://ecode360.com/10494646"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-23",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
