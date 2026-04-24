@@ -31,8 +31,11 @@
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #fafaf7; }
     </style>
-    
-    
+
+    <!-- Preload the single webfont so headings don't flash in Georgia before
+         DM Serif Display arrives. Must be crossorigin for font files even on
+         same origin, otherwise the browser will ignore the preload. -->
+    <link rel="preload" href="/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/fonts.css" />
 
     <!-- Analytics: Umami (privacy-first, cookie-free, self-hosted) -->
