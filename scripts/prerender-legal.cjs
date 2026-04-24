@@ -530,6 +530,7 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     inLanguage: langMeta.htmlLang,
     datePublished: entry.lastVerified || entry.lastAudited || '2026-04-04',
     dateModified: entry.lastVerified || entry.lastAudited || '2026-04-04',
+    ...(entry.lastVerified ? { lastReviewed: entry.lastVerified } : {}),
     author: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
     ...(reviewerPerson ? { editor: reviewerPerson, reviewedBy: reviewerPerson } : {}),
