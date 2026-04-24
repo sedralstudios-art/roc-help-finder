@@ -277,15 +277,16 @@ FAILs catch the worst drift but cannot detect everything; the preflight
 re-read covers the rest. Then run `npm run verify` after every single
 entry, not after the batch.
 
-**Preflight scanner gate (build-gated, added 2026-04-23):**
+**Preflight scanner gate (build-gated, added 2026-04-23, ratcheted 2026-04-24):**
 `npm run verify` and `npm run build` now invoke `scripts/bot-preflight-scan.cjs
---fail-at=5` after the structural validator. Any non-bankruptcy entry that
-scores >= 5 hard-fails the build. The scanner scores drift patterns
+--fail-at=4` after the structural validator. Any non-bankruptcy entry that
+scores >= 4 hard-fails the build. The scanner scores drift patterns
 (lawyer-register words, thin body < 300 words, directive imperatives,
 second-person body drift, long sentences, citation density, undefined
-acronyms, title suffixes). Threshold starts at 5 (loose) to give room for
-judgment-call WARNs and will ratchet toward 1 as authoring stabilizes. This
-gate locks in the 122-entry retrofit effort so drift cannot silently creep
+acronyms, title suffixes). Threshold ratcheted from 5 to 4 after the full
+score-4 tier was drained on 2026-04-24 (81 entries retrofitted over two days).
+Next ratchet target is 3; see `project_session_2026_04_24_score4.md` memory.
+This gate locks in the 203-entry retrofit effort so drift cannot silently creep
 back in through new authoring.
 
 ### Bankruptcy files are off-limits for bulk scripts
