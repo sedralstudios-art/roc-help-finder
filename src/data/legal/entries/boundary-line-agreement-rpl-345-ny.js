@@ -109,10 +109,11 @@ export const BOUNDARY_LINE_AGREEMENT_RPL_345_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/RPP/345"
+    "https://www.nysenate.gov/legislation/laws/RPP/345",
+    "https://www.nycourts.gov/courthelp/property/boundaries.shtml"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-23",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
