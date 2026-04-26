@@ -672,13 +672,17 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             </div>
           </div>
 
-          {/* ── ENTER BUTTON ── */}
-          <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 24 }}>
+          {/* ── TWO-CIRCLE DOORS ── Find help (green) + Know Your Rights (amber) */}
+          <div className="hf-fade-in hf-d3" style={{
+            display: "flex", justifyContent: "center", alignItems: "flex-start",
+            marginTop: 24, gap: 28, flexWrap: "wrap",
+          }}>
+            {/* Door 1 — Find help now (green) */}
             <a href="/help" rel="nofollow"
               onClick={(e) => { e.preventDefault(); if (onNavigateHelp) onNavigateHelp(); }}
               style={{
                 display: "flex", flexDirection: "column", alignItems: "center",
-                textDecoration: "none",
+                textDecoration: "none", flex: "0 0 auto",
               }}>
               <div style={{
                 width: 140, height: 140, borderRadius: "50%",
@@ -695,7 +699,32 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
                 <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.1 }}>{t(lang,"door1Btn")}</div>
               </div>
               <div style={{ marginTop: 14, fontSize: 16, fontWeight: 700, color: C.forest }}>{t(lang,"door1Title")}</div>
-              <div style={{ marginTop: 4, fontSize: 12, color: C.stone, textAlign: "center", maxWidth: 200, lineHeight: 1.4 }}>{t(lang,"door1Desc")}</div>
+              <div style={{ marginTop: 4, fontSize: 12, color: C.stone, textAlign: "center", maxWidth: 180, lineHeight: 1.4 }}>{t(lang,"door1Desc")}</div>
+            </a>
+
+            {/* Door 2 — Know Your Rights (amber) */}
+            <a href="/know-your-rights" rel="nofollow"
+              onClick={(e) => { e.preventDefault(); nav(PAGES.LEGAL_LIBRARY); }}
+              style={{
+                display: "flex", flexDirection: "column", alignItems: "center",
+                textDecoration: "none", flex: "0 0 auto",
+              }}>
+              <div style={{
+                width: 140, height: 140, borderRadius: "50%",
+                background: `linear-gradient(135deg, ${C.amber} 0%, ${C.gold} 100%)`,
+                display: "flex", flexDirection: "column", alignItems: "center",
+                justifyContent: "center", color: C.white,
+                boxShadow: "0 8px 32px rgba(212,160,86,0.30)",
+                transition: "transform 0.15s ease, box-shadow 0.15s ease",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "scale(1.04)"; e.currentTarget.style.boxShadow = "0 12px 40px rgba(212,160,86,0.40)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.transform = "scale(1)"; e.currentTarget.style.boxShadow = "0 8px 32px rgba(212,160,86,0.30)"; }}
+              >
+                <div style={{ fontSize: 32, marginBottom: 4 }}>⚖️</div>
+                <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.1, textAlign: "center", padding: "0 8px" }}>Know Your Rights</div>
+              </div>
+              <div style={{ marginTop: 14, fontSize: 16, fontWeight: 700, color: C.amber }}>Know your rights</div>
+              <div style={{ marginTop: 4, fontSize: 12, color: C.stone, textAlign: "center", maxWidth: 180, lineHeight: 1.4 }}>Plain-English legal guides. Benefits, housing, employment, and more.</div>
             </a>
           </div>
 
@@ -715,26 +744,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
               ariaLabel={t(lang, "shareAriaLabel")}
             />
           </div>
-
-          {/* ── KNOW YOUR RIGHTS TILE ── */}
-          <button
-            onClick={() => nav(PAGES.LEGAL_LIBRARY)}
-            className="hf-fade-in hf-d5 hf-kyr-tile"
-            style={{
-              width: "100%", textAlign: isRTL ? "right" : "left",
-              background: C.amberLight, border: `1px solid ${C.amber}`,
-              borderRadius: 24, padding: "18px 22px", cursor: "pointer",
-              marginTop: 28, fontFamily: "inherit",
-              display: "flex", alignItems: "center", gap: 16,
-            }}
-          >
-            <div style={{ fontSize: 34, flexShrink: 0, lineHeight: 1 }}>⚖️</div>
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 3 }}>Know Your Rights</div>
-              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>Free legal guides. Benefits, housing, employment, immigration.</div>
-            </div>
-            <div style={{ fontSize: 22, color: C.amber, flexShrink: 0, fontWeight: 700 }}>→</div>
-          </button>
 
           {/* ── LEGAL GLOSSARY TILE ── plain-English court words */}
           <button
