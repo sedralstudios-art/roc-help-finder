@@ -182,6 +182,9 @@ function buildHeadCommon(title, metaDesc, canonical, jsonBlocks, bundleTags) {
     '  <head>\n' +
     '    <meta charset="UTF-8" />\n' +
     '    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n' +
+    '    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />\n' +
+    '    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' +
+    '    <link rel="manifest" href="/manifest.json" />\n' +
     '    <title>' + esc(title) + '</title>\n' +
     '    <meta name="description" content="' + esc(metaDesc) + '" />\n' +
     '    <meta name="robots" content="index, follow" />\n' +
