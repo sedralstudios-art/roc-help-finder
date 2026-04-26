@@ -23,7 +23,7 @@ export const SOLE_CUSTODY = {
     ]
   },
 
-  related: ["joint-custody", "custody", "visitation", "best-interest-of-child", "domestic-violence"],
+  related: ["joint-custody", "custody", "visitation", "best-interest-of-child"],
   legalEntryIds: [],
 
   citation: "NY DRL § 240; NY common law (Eschbach v. Eschbach)",

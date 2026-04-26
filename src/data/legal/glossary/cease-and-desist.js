@@ -23,7 +23,7 @@ export const CEASE_AND_DESIST = {
     ]
   },
 
-  related: ["debt-collection", "restraining-order", "small-claims", "domestic-violence"],
+  related: ["debt-collection", "small-claims"],
   legalEntryIds: [],
 
   citation: "Fair Debt Collection Practices Act (15 USC § 1692c); NY GBL § 601",

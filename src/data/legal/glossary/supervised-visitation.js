@@ -23,7 +23,7 @@ export const SUPERVISED_VISITATION = {
     ]
   },
 
-  related: ["custody", "visitation", "best-interest-of-child", "joint-custody", "sole-custody", "domestic-violence"],
+  related: ["custody", "visitation", "best-interest-of-child", "joint-custody", "sole-custody"],
   legalEntryIds: [],
 
   citation: "NY DRL § 240; NY FCA Article 6 Part 3",
