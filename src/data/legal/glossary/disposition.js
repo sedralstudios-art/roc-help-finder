@@ -16,7 +16,7 @@ export const DISPOSITION = {
   },
 
   plainEnglish: {
-    en: "How the case ended. Common dispositions in New York: dismissed, ACD, found not guilty, guilty plea to a smaller charge, found guilty after trial, conditional discharge, probation, jail, prison, or violation. The disposition is what shows up on most background checks. If a case ended in your favor — dismissed, not guilty, or ACD — the record is sealed in most cases."
+    en: "How the case ended. Common dispositions in New York: dismissed, ACD, found not guilty, guilty plea to a smaller charge, found guilty after trial, conditional discharge, probation, jail, prison, or violation. The disposition is what shows up on most background checks. If a case ended in the defendant's favor — dismissed, not guilty, or ACD — the record is sealed in most cases."
   },
 
   whatToAsk: {

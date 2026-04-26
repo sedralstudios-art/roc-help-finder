@@ -18,7 +18,7 @@ export const FAMILY_OFFENSE_PETITION = {
   },
 
   plainEnglish: {
-    en: "A civil case in Family Court asking for an order of protection against a family or household member — a spouse, ex, co-parent, child's other parent, sibling, parent, or someone you have been in a dating relationship with. On the day the petition is filed, the judge can issue a temporary order of protection right away if there is good cause. A longer order can come after a hearing. Orders can require no contact, stay-away, no harassment or threats, no guns, and more. This is separate from any criminal case — both can happen at the same time. Breaking a Family Court order of protection is a crime that can be prosecuted in criminal court."
+    en: "A civil case in Family Court asking for an order of protection against a family or household member — a spouse, ex, co-parent, child's other parent, sibling, parent, or a current or former dating partner. On the day the petition is filed, the judge can issue a temporary order of protection right away if there is good cause. A longer order can come after a hearing. Orders can require no contact, stay-away, no harassment or threats, no guns, and more. This is separate from any criminal case — both can happen at the same time. Breaking a Family Court order of protection is a crime that can be prosecuted in criminal court."
   },
 
   whatToAsk: {

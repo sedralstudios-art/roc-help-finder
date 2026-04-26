@@ -10,7 +10,7 @@ export const ARTICLE_78 = {
   },
 
   plainEnglish: {
-    en: "An Article 78 is how you challenge a government agency's decision in court. Instead of a regular lawsuit, you file this special type of case asking a Supreme Court judge to review what the agency did. The judge looks at whether the agency followed its own rules, whether the decision was fair, and whether there was enough evidence to support it. There is usually a short deadline to file — often 4 months from the date of the decision."
+    en: "An Article 78 is how a person challenges a government agency's decision in court. Instead of a regular lawsuit, the petitioner files this special type of case asking a Supreme Court judge to review what the agency did. The judge looks at whether the agency followed its own rules, whether the decision was fair, and whether there was enough evidence to support it. There is usually a short deadline to file — often 4 months from the date of the decision."
   },
 
   whatToAsk: {

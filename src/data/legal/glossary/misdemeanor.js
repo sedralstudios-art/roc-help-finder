@@ -13,7 +13,7 @@ export const MISDEMEANOR = {
   },
 
   plainEnglish: {
-    en: "A crime that can send you to jail for up to one year, but no longer. In New York, there are Class A misdemeanors (more serious — up to 1 year) and Class B misdemeanors (up to 3 months). Examples include petit larceny and trespass. A misdemeanor is still a crime, so it leaves a criminal record — unless the case is sealed or dismissed later."
+    en: "A crime that can send the defendant to jail for up to one year, but no longer. In New York, there are Class A misdemeanors (more serious — up to 1 year) and Class B misdemeanors (up to 3 months). Examples include petit larceny and trespass. A misdemeanor is still a crime, so it leaves a criminal record — unless the case is sealed or dismissed later."
   },
 
   whatToAsk: {

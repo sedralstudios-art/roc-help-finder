@@ -10,7 +10,7 @@ export const PRIOR_AUTHORIZATION = {
   },
 
   plainEnglish: {
-    en: "A requirement by your insurance that a doctor get permission before providing certain services. The doctor submits paperwork explaining why the service is needed. The insurance company reviews it and says yes or no. If they say no, the doctor can appeal. If you get the service without prior authorization, insurance may refuse to pay. Medicaid and most managed care plans in New York use prior authorization for some prescriptions, imaging (like MRIs), surgeries, and specialist visits. Emergency care never requires prior authorization."
+    en: "A requirement by an insurance plan that a doctor get permission before providing certain services. The doctor submits paperwork explaining why the service is needed. The insurance company reviews it and says yes or no. If denied, the doctor can appeal. If the patient gets the service without prior authorization, insurance may refuse to pay. Medicaid and most managed care plans in New York use prior authorization for some prescriptions, imaging (like MRIs), surgeries, and specialist visits. Emergency care never requires prior authorization."
   },
 
   whatToAsk: {

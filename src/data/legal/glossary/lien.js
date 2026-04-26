@@ -10,7 +10,7 @@ export const LIEN = {
   },
 
   plainEnglish: {
-    en: "A lien is a legal claim on someone's property because of a debt. The most common types are: a mortgage (the bank has a lien on the house until the loan is paid off), a tax lien (the government puts a lien on property for unpaid taxes), a mechanic's lien (a contractor puts a lien on a house for unpaid work), and a judgment lien (a creditor who wins a lawsuit puts a lien on the debtor's property). A lien does not mean the property is taken away — it means the debt must be paid before the property can be sold or transferred."
+    en: "A lien is a legal claim on someone's property because of a debt. The most common types: a mortgage (the bank has a lien on the house until the loan is paid off). A tax lien (the government puts a lien on property for unpaid taxes). A mechanic's lien (a contractor puts a lien on a house for unpaid work). A judgment lien (a creditor who wins a lawsuit puts a lien on the debtor's property). A lien does not mean the property is taken away. It means the debt must be paid before the property can be sold or transferred."
   },
 
   whatToAsk: {

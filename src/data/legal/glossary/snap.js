@@ -15,7 +15,7 @@ export const SNAP = {
   },
 
   plainEnglish: {
-    en: "A federal program, run by the state, that helps low-income people buy food. Money goes onto an EBT card each month. In New York, you can apply online at mybenefits.ny.gov, by mail, by fax, or in person at the county's Department of Social Services. The county has 30 days to decide. If the household is in crisis — very low income or almost no money — there is an expedited SNAP that must be decided within 7 days. Many people who qualify for SNAP also qualify for Medicaid, HEAP, and other programs — one application covers them all."
+    en: "A federal program, run by the state, that helps low-income people buy food. Money goes onto an EBT card each month. In New York, applications can be filed online at mybenefits.ny.gov, by mail, by fax, or in person at the county's Department of Social Services. The county has 30 days to decide. If the household is in crisis — very low income or almost no money — there is an expedited SNAP that must be decided within 7 days. Many SNAP-eligible households also qualify for Medicaid, HEAP, and other programs — one application covers them all."
   },
 
   whatToAsk: {

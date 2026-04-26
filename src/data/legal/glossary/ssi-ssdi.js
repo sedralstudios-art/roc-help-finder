@@ -10,7 +10,7 @@ export const SSI_SSDI = {
   },
 
   plainEnglish: {
-    en: "Two different federal programs for people with disabilities. SSI (Supplemental Security Income) is for people with little or no work history who have a disability — it is based on need, not on past employment. SSDI (Social Security Disability Insurance) is for people who worked and paid into Social Security before becoming disabled — it is based on your work history. Some people qualify for both. SSI comes with automatic Medicaid in New York. SSDI comes with Medicare after a 24-month waiting period. Both require proof that the disability prevents substantial work. Applying can take months. If denied, there is an appeal process — many initial denials are overturned on appeal."
+    en: "Two different federal programs for people with disabilities. SSI (Supplemental Security Income) is for people with little or no work history who have a disability — it is based on need, not on past employment. SSDI (Social Security Disability Insurance) is for people who worked and paid into Social Security before becoming disabled — eligibility is based on the worker's history. Some people qualify for both. SSI comes with automatic Medicaid in New York. SSDI comes with Medicare after a 24-month waiting period. Both require proof that the disability prevents substantial work. Applying can take months. If denied, there is an appeal process — many initial denials are overturned on appeal."
   },
 
   whatToAsk: {

@@ -10,7 +10,7 @@ export const WAITLIST = {
   },
 
   plainEnglish: {
-    en: "A list of people waiting to receive a service because the program is full or funding has run out. Being on a waitlist means you have applied and qualify, but there is no spot available yet. Some waitlists move fast (weeks). Others, like Section 8 housing vouchers, can take years. Some programs open their waitlist only at certain times — you have to apply during the open window. While waiting, ask if there are other programs that serve the same need with shorter waits."
+    en: "A list of people waiting to receive a service because the program is full or funding has run out. Being on a waitlist means the applicant has applied and qualified, but there is no spot available yet. Some waitlists move fast (weeks). Others, like Section 8 housing vouchers, can take years. Some programs open their waitlist only at certain times — the application has to come in during the open window. While waiting, applicants can ask if other programs serve the same need with shorter waits."
   },
 
   whatToAsk: {

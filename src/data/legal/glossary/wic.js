@@ -10,7 +10,7 @@ export const WIC = {
   },
 
   plainEnglish: {
-    en: "A federal nutrition program for pregnant women, new mothers (up to 6 months postpartum, or 1 year if breastfeeding), infants, and children under 5. WIC provides specific healthy foods — milk, eggs, cereal, juice, beans, peanut butter, fruits and vegetables — through vouchers or an EBT card usable at participating stores. Income must be at or below 185% of the federal poverty level. If you receive Medicaid, SNAP, or Temporary Assistance, you automatically qualify. WIC also provides breastfeeding support, nutrition counseling, and referrals to other health and social services. In Monroe County, WIC is administered through the county health department."
+    en: "A federal nutrition program for pregnant women, new mothers (up to 6 months postpartum, or 1 year if breastfeeding), infants, and children under 5. WIC provides specific healthy foods — milk, eggs, cereal, juice, beans, peanut butter, fruits and vegetables — through vouchers or an EBT card usable at participating stores. Income must be at or below 185% of the federal poverty level. Recipients of Medicaid, SNAP, or Temporary Assistance qualify automatically. WIC also provides breastfeeding support, nutrition counseling, and referrals to other health and social services. In Monroe County, WIC is administered through the county health department."
   },
 
   whatToAsk: {

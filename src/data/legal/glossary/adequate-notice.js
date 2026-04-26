@@ -16,7 +16,7 @@ export const ADEQUATE_NOTICE = {
   },
 
   plainEnglish: {
-    en: "A written notice from the benefits agency before it changes, reduces, or stops benefits. The law requires it to say exactly what is being changed, why, what rules apply, the effective date, and how to appeal. It has to be mailed at least 10 days before the change. If the notice is late, unclear, or missing required parts, you can point that out at a fair hearing as a reason to overturn the action. Some emergency changes can happen on a shorter timeline, but those are limited."
+    en: "A written notice from the benefits agency before it changes, reduces, or stops benefits. The law requires it to say exactly what is being changed, why, what rules apply, the effective date, and how to appeal. It has to be mailed at least 10 days before the change. If the notice is late, unclear, or missing required parts, the recipient can raise that at a fair hearing as a reason to overturn the action. Some emergency changes can happen on a shorter timeline, but those are limited."
   },
 
   whatToAsk: {

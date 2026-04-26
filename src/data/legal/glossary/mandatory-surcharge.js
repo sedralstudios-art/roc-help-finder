@@ -15,7 +15,7 @@ export const MANDATORY_SURCHARGE = {
   },
 
   plainEnglish: {
-    en: "A fixed fee the state adds to every conviction, separate from any fine or restitution. It is not a punishment — it is how the state pays for things like victim services and court costs. Amounts in New York: $325 for a felony ($300 surcharge + $25 crime victim fee), $200 for a misdemeanor ($175 + $25). There are extra fees for some cases (like sex offense registration fees or DNA fees). Judges cannot usually lower or waive these. If you cannot pay, the money can come out of a paycheck or tax refund, or it can be converted into more community service."
+    en: "A fixed fee the state adds to every conviction, separate from any fine or restitution. It is not a punishment — it is how the state pays for things like victim services and court costs. The amounts are set in NY Penal Law § 60.35 — different totals for felonies and misdemeanors, plus a crime victim fee. Some cases carry extra fees (sex offense registration fees, DNA fees, and so on). Judges cannot usually lower or waive these. A defendant who cannot pay can have the money taken from a paycheck or tax refund, or converted into community service."
   },
 
   whatToAsk: {

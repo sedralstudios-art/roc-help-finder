@@ -17,7 +17,7 @@ export const TRAFFIC_INFRACTION = {
   },
 
   plainEnglish: {
-    en: "A ticket for breaking a traffic rule — speeding, running a stop sign, not signaling, and so on. Traffic infractions are not crimes in New York. They do not create a criminal record and do not affect whether a person can testify in court. But they come with real costs: fines up to $150 for a first offense (up to $300 for a second within 18 months), DMV points, possible surcharges, and higher car insurance. If a driver gets 11 or more points in 18 months, the DMV can suspend the license. Some tickets are misdemeanors, not infractions — for example, some reckless driving or driving-while-suspended charges. Your ticket says which one."
+    en: "A ticket for breaking a traffic rule — speeding, running a stop sign, not signaling, and so on. Traffic infractions are not crimes in New York. They do not create a criminal record and do not affect whether a person can testify in court. But they come with real costs: a fine in the statutory range (NY VTL § 1800), DMV points, possible surcharges, and higher car insurance. If a driver gets 11 or more points in 18 months, the DMV can suspend the license. Some tickets are misdemeanors, not infractions — for example, some reckless driving or driving-while-suspended charges. The ticket itself shows the classification."
   },
 
   whatToAsk: {

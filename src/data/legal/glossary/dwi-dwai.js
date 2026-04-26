@@ -19,7 +19,7 @@ export const DWI_DWAI = {
   },
 
   plainEnglish: {
-    en: "The main impaired-driving charges in New York. DWAI (Driving While Ability Impaired) is the lower charge — a BAC between 0.05 and 0.07 or other signs of impairment. A first-offense DWAI is a traffic infraction (not a crime). Penalties are a fine of $300 to $500, a 90-day license suspension, and a mandatory surcharge. DWI (Driving While Intoxicated) is a crime — a BAC of 0.08 or higher. First-offense DWI is a misdemeanor with a fine of $500 to $1,000, a license revocation of at least 6 months, an ignition interlock device in any car you drive, a mandatory surcharge, and possible jail. DWI creates a criminal record. Aggravated DWI (BAC 0.18+) has stiffer penalties."
+    en: "The main impaired-driving charges in New York. DWAI (Driving While Ability Impaired) is the lower charge — a BAC between 0.05 and 0.07 or other signs of impairment. A first-offense DWAI is a traffic infraction (not a crime). Penalties under VTL § 1192 include a fine in the statutory range, a 90-day license suspension, and a mandatory surcharge. DWI (Driving While Intoxicated) is a crime — a BAC of 0.08 or higher. First-offense DWI is a misdemeanor with a higher fine range, a license revocation of at least 6 months, an ignition interlock device on every vehicle the defendant drives, a mandatory surcharge, and possible jail. DWI creates a criminal record. Aggravated DWI (BAC 0.18+) has stiffer penalties. Current fine ranges are in NY VTL § 1192."
   },
 
   whatToAsk: {

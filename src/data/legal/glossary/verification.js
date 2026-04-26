@@ -10,7 +10,7 @@ export const VERIFICATION = {
   },
 
   plainEnglish: {
-    en: "The documents an agency requires to prove you qualify for a program. Common verification items: photo ID, Social Security card, proof of income (pay stubs, tax return, benefits letter), proof of address (utility bill, lease), birth certificates for children, and immigration documents if applicable. Different programs require different proof. If you do not have a document, tell the caseworker — there are often alternative ways to verify (like a signed statement from someone who can confirm the information). Agencies cannot demand documents that do not exist or are unreasonably difficult to get."
+    en: "The documents an agency requires to prove an applicant qualifies for a program. Common verification items: photo ID, Social Security card, proof of income (pay stubs, tax return, benefits letter), proof of address (utility bill, lease), birth certificates for children, and immigration documents if applicable. Different programs require different proof. If a document is missing, the caseworker should be told — there are often alternative ways to verify (like a signed statement from someone who can confirm the information). Agencies cannot demand documents that do not exist or are unreasonably difficult to get."
   },
 
   whatToAsk: {

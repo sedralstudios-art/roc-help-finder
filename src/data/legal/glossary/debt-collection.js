@@ -16,7 +16,7 @@ export const DEBT_COLLECTION = {
   },
 
   plainEnglish: {
-    en: "When a company or person tries to make a consumer pay a debt that is owed (or claimed to be owed). In New York, both state law (General Business Law § 601) and federal law (the Fair Debt Collection Practices Act) limit what a collector can do. They cannot call at unusual hours, use threats, pretend to be police or a lawyer, or tell family members or employers about the debt before getting a court judgment. In the first contact, a collector has to tell the consumer the amount owed, who the original creditor was, and the consumer's right to dispute the debt in writing within 30 days. A collector who breaks these rules can be sued — and the consumer can recover damages and attorney fees."
+    en: "When a company or person tries to make a consumer pay a debt that is owed (or claimed to be owed). In New York, both state law (General Business Law § 601) and federal law (the Fair Debt Collection Practices Act) limit what a collector can do. Collectors cannot call at unusual hours. They cannot use threats. They cannot pretend to be police or a lawyer. They cannot tell family members or employers about the debt before getting a court judgment. In the first contact, a collector has to tell the consumer the amount owed and who the original creditor was. The collector must also disclose the consumer's right to dispute the debt in writing within 30 days. A collector who breaks these rules can be sued. The consumer can recover damages and attorney fees."
   },
 
   whatToAsk: {
