@@ -15,7 +15,7 @@ export const CONDITIONAL_DISCHARGE = {
   },
 
   plainEnglish: {
-    en: "You are released without jail and without probation. But the judge sets rules you must follow for a set time — 1 year for a misdemeanor or violation, 3 years for a felony. Common rules include no new arrests, paying fines, doing community service, or finishing a class. If you break a rule or get arrested again, the judge can cancel the CD and sentence you to jail instead."
+    en: "The defendant is released without jail and without probation. The judge sets rules the person must follow for a set time — 1 year for a misdemeanor or violation, 3 years for a felony. Common rules include no new arrests, paying fines, doing community service, or finishing a class. Breaking a rule or getting arrested again can lead the judge to cancel the CD and re-sentence the person, including jail."
   },
 
   whatToAsk: {

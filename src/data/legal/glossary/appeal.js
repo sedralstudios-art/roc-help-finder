@@ -15,7 +15,7 @@ export const APPEAL = {
   },
 
   plainEnglish: {
-    en: "Asking a higher court to review your case. You can appeal after you are found guilty at trial or after some guilty pleas. A higher court reads the record, listens to your lawyer, and decides if the trial judge made a mistake big enough to change the outcome. You do not get a new trial unless the higher court says so. Deadline: 30 days after sentencing to file a Notice of Appeal. This is a hard deadline. If you miss it, the appeal is usually dead. Free legal help is available through the appellate public defender."
+    en: "A request for a higher court to review the case. A defendant can appeal after a guilty verdict at trial, or after some guilty pleas. A higher court reads the record, listens to the defense lawyer, and decides if the trial judge made a mistake big enough to change the outcome. The appeal does not produce a new trial unless the higher court orders one. The deadline to file a Notice of Appeal is 30 days after sentencing. It is a hard deadline. Missing it usually ends the appeal. Free legal help is available through the appellate public defender."
   },
 
   whatToAsk: {

@@ -15,7 +15,7 @@ export const CERTIFICATE_OF_RELIEF = {
   },
 
   plainEnglish: {
-    en: "A paper that says your past conviction should not automatically block you from a job, a license, or public housing. It does not erase the conviction — the record is still there. But it removes the automatic 'no' that some jobs and licenses use. You can get one at sentencing, or later by applying to the court that sentenced you (for single-county records) or to the state Department of Corrections (for multi-county or out-of-state records). Free legal help can walk you through the application."
+    en: "A paper that says a past conviction should not automatically block a person from a job, a license, or public housing. It does not erase the conviction — the record is still there. But it removes the automatic 'no' that some jobs and licenses use. The person can get one at sentencing, or later by applying to the court that sentenced them (for single-county records) or to the state Department of Corrections (for multi-county or out-of-state records). Free legal help can walk a person through the application."
   },
 
   whatToAsk: {

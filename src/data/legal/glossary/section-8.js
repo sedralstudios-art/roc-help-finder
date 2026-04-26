@@ -10,7 +10,7 @@ export const SECTION_8 = {
   },
 
   plainEnglish: {
-    en: "A federal rental assistance program run locally by the housing authority. If you qualify, you get a voucher that pays most of your rent directly to your landlord. You pay about 30% of your adjusted income toward rent — the voucher covers the difference up to a payment standard set by the housing authority. You can use the voucher at any rental that accepts it, not just public housing. The waitlist in Monroe County is long — often years. When the list opens, it is first-come first-served or by lottery. Once you have a voucher, you must find a unit within a set time (usually 60-120 days) or the voucher expires. The landlord must agree to participate and the unit must pass an inspection."
+    en: "A federal rental assistance program run locally by the housing authority. A qualifying household gets a voucher that pays most of the rent directly to the landlord. The household pays about 30% of its adjusted income toward rent — the voucher covers the difference up to a payment standard set by the housing authority. The voucher works at any rental that accepts it, not just public housing. The waitlist in Monroe County is long — often years. When the list opens, it is first-come first-served or by lottery. After a voucher is issued, the household has a set time (usually 60-120 days) to find a unit, or the voucher expires. The landlord must agree to participate and the unit must pass an inspection."
   },
 
   whatToAsk: {

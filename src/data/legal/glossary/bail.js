@@ -17,7 +17,7 @@ export const BAIL = {
   },
 
   plainEnglish: {
-    en: "Money or a bond you pay so you can go home while your case is open. You must come back for every single court date. If you miss one, you can lose the money and the judge can put a warrant out for your arrest. In New York, judges cannot set cash bail for most small charges — they must use other ways to make sure you come back to court, like checking in or giving up your passport."
+    en: "Money or a bond a defendant pays so they can go home while the case is open. The defendant must come back for every single court date. Missing a date can mean losing the money, and the judge can put a warrant out for the defendant's arrest. In New York, judges cannot set cash bail for most small charges — they must use other ways to make sure the defendant comes back to court, like check-ins or giving up a passport."
   },
 
   whatToAsk: {

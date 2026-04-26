@@ -10,7 +10,7 @@ export const TWO_ONE_ONE = {
   },
 
   plainEnglish: {
-    en: "A free, confidential, 24/7 phone service that connects people with local help. Dial 2-1-1 from any phone. A trained specialist asks about your situation and searches a database of programs in your area. They can help with food, housing, utility assistance, health care, mental health, addiction, transportation, legal help, childcare, and more. In Monroe County, 211 is operated by 211/LIFE LINE and covers all of upstate New York. You can also text your ZIP code to 898-211 or search online at 211lifeline.org. There is no cost, no eligibility requirement, and no limit on how many times you can call."
+    en: "A free, confidential, 24/7 phone service that connects people with local help. Anyone can dial 2-1-1 from any phone. A trained specialist asks about the caller's situation and searches a database of programs in the caller's area. They can help with food, housing, utility assistance, health care, mental health, addiction, transportation, legal help, childcare, and more. In Monroe County, 211 is operated by 211/LIFE LINE and covers all of upstate New York. Texting a ZIP code to 898-211 or searching online at 211lifeline.org also works. There is no cost, no eligibility requirement, and no limit on how many times a person can call."
   },
 
   whatToAsk: {

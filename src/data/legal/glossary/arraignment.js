@@ -14,7 +14,7 @@ export const ARRAIGNMENT = {
   },
 
   plainEnglish: {
-    en: "The judge tells you what you are being charged with and gives you a copy of the paper. The judge also tells you your rights, including your right to a lawyer and your right to stay quiet. If you cannot afford a lawyer, the judge will assign one for free. Then the judge decides if you go home on your own, if you have to post bail, or if you stay in jail while the case moves forward."
+    en: "The judge tells the defendant what the charges are and gives a copy of the paper. The judge also explains the defendant's rights, including the right to a lawyer and the right to stay quiet. A defendant who cannot afford a lawyer gets one assigned for free. The judge then decides if the defendant goes home on their own, has to post bail, or stays in jail while the case moves forward."
   },
 
   whatToAsk: {

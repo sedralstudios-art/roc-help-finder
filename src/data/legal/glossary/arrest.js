@@ -14,7 +14,7 @@ export const ARREST = {
   },
 
   plainEnglish: {
-    en: "The police take you into custody because they believe you committed an offense. The officer must tell you why, unless things are moving too fast (like if someone is fighting or running). After the arrest, you are brought to a local criminal court as soon as possible for arraignment. In some smaller cases you get a ticket to come back to court later — this is called an appearance ticket, and you are not held."
+    en: "The police take a person into custody because they believe the person committed an offense. The officer must say why, unless things are moving too fast (someone fighting or running, for example). After the arrest, the person is brought to a local criminal court as soon as possible for arraignment. In some smaller cases the police issue a ticket to come back to court later — this is called an appearance ticket, and the person is not held."
   },
 
   whatToAsk: {

@@ -10,13 +10,13 @@ export const DEFAULT_JUDGMENT = {
   },
 
   plainEnglish: {
-    en: "If you are sued and you do not file an answer or go to court by the deadline, the judge can give the other side what they asked for — money, eviction, whatever the case is about. This is called a default judgment. You lose without anyone hearing your side. Default judgments happen a lot in debt collection cases and eviction cases because people do not respond to the papers. The good news is that default judgments can sometimes be reopened — a judge can vacate (undo) the default if you have a good reason for not responding and a real defense to the case."
+    en: "When a person is sued and does not file an answer or appear in court by the deadline, the judge can give the other side what they asked for — money, eviction, whatever the case is about. This is called a default judgment. The defendant loses without anyone hearing their side. Default judgments happen a lot in debt collection cases and eviction cases because people do not respond to the papers. Default judgments can sometimes be reopened — a judge can vacate (undo) the default if the defendant has a good reason for not responding and a real defense to the case."
   },
 
   whatToAsk: {
     en: [
       "How much time do I have to respond before a default judgment is entered?",
-      "Can the default judgment be vacated (undone)? What do I need to show?",
+      "Can the default judgment be vacated (undone), and what does the court need to see?",
       "Is there a deadline to ask the court to vacate a default judgment?",
       "If a default judgment was entered against me, can my wages be garnished?"
     ]

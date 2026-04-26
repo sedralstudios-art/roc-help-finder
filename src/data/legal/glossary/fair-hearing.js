@@ -17,7 +17,7 @@ export const FAIR_HEARING = {
   },
 
   plainEnglish: {
-    en: "A free hearing at the state level where you can challenge a decision made by your county's Department of Social Services. You can ask for one if benefits are denied, reduced, stopped, or if the agency has not acted in time. You can request it online, by phone, by fax, or by mail — the notice that affects you will list the deadline. A state hearing officer listens to both sides and writes a decision. You have the right to a lawyer, to bring witnesses, to see the agency's evidence before the hearing, and to ask questions. Most hearings in New York are now held by phone, but you can ask for an in-person one."
+    en: "A free hearing at the state level where a person can challenge a decision made by their county's Department of Social Services. The applicant can ask for one if benefits are denied, reduced, stopped, or if the agency has not acted in time. The request can be made online, by phone, by fax, or by mail — the notice that prompted the appeal lists the deadline. A state hearing officer listens to both sides and writes a decision. The applicant has the right to a lawyer, to bring witnesses, to see the agency's evidence before the hearing, and to ask questions. Most hearings in New York are now held by phone, but an in-person hearing can be requested."
   },
 
   whatToAsk: {

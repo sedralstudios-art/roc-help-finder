@@ -17,7 +17,7 @@ export const DESK_APPEARANCE_TICKET = {
   },
 
   plainEnglish: {
-    en: "A paper the police give you after an arrest that says when and where to come to court. You sign it, you go home, and you must show up at arraignment on the date printed. New York law now requires the police to give a DAT for most violations, misdemeanors, and some lower felonies as long as you show them ID. There are some exceptions — like if you already have an open warrant or missed a court date in the last two years. If you miss the court date on the DAT, the judge will usually issue a bench warrant."
+    en: "A paper the police give a person after an arrest that says when and where to come to court. The person signs it, goes home, and shows up at arraignment on the printed date. New York law now requires the police to give a DAT for most violations, misdemeanors, and some lower felonies as long as the person shows them ID. There are some exceptions — like an open warrant or a missed court date in the last two years. Missing the court date on the DAT usually means the judge issues a bench warrant."
   },
 
   whatToAsk: {

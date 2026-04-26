@@ -13,7 +13,7 @@ export const BENCH_WARRANT = {
   },
 
   plainEnglish: {
-    en: "A paper the judge signs that tells the police to arrest you. It usually goes out after you miss a court date. Police can take you to jail on it even years later. The good news: you can clear it yourself. Most of the time this means going to court and asking the judge to cancel it. A lawyer can go with you or even go without you in some cases."
+    en: "A paper the judge signs that tells the police to arrest a specific person. It usually goes out after a missed court date. Police can take the person to jail on it even years later. A bench warrant can be cleared. Most of the time that means going back to court and asking the judge to cancel it. A lawyer can go along, or in some cases go without the person."
   },
 
   whatToAsk: {

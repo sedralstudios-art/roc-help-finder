@@ -17,7 +17,7 @@ export const FINE = {
   },
 
   plainEnglish: {
-    en: "Money the court orders you to pay as part of your sentence. Fines in New York have maximum amounts set by law. For a Class A misdemeanor, up to $1,000. For a Class B misdemeanor, up to $500. For a violation, up to $250. For a felony, up to $5,000 or double what you gained from the crime — whichever is higher. Some drug and other special felonies have their own higher caps. Before setting the fine, the judge has to consider what you can actually afford, the impact on your family, and whether the amount fits the offense. The fine is separate from restitution (which goes to a victim) and from the mandatory surcharge (a fixed state fee)."
+    en: "Money the court orders the defendant to pay as part of the sentence. Fines in New York have maximum amounts set by Penal Law § 80.00 and § 80.05 — different ceilings for violations, misdemeanors, and felonies, with higher caps for some drug and other special felonies. Current dollar amounts are in the statute text. Before setting the fine, the judge has to consider what the defendant can actually afford, the impact on the defendant's family, and whether the amount fits the offense. The fine is separate from restitution (which goes to a victim) and from the mandatory surcharge (a fixed state fee)."
   },
 
   whatToAsk: {

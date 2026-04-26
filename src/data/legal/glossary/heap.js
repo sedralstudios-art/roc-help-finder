@@ -10,7 +10,7 @@ export const HEAP = {
   },
 
   plainEnglish: {
-    en: "A program that helps low-income households pay for heat. In New York, HEAP has two parts. Regular HEAP gives a one-time payment toward your heating bill at the start of the season. Emergency HEAP helps if your heat is shut off or about to be shut off — it pays to restore service and prevent shutoff. You apply through your county's Department of Social Services or online at mybenefits.ny.gov. Income must generally be at or below 60% of the state median income. If you receive SNAP, Temporary Assistance, or SSI, you may qualify automatically. HEAP runs out of money each year — apply as soon as the season opens."
+    en: "A program that helps low-income households pay for heat. In New York, HEAP has two parts. Regular HEAP gives a one-time payment toward the household's heating bill at the start of the season. Emergency HEAP helps when heat is shut off or about to be shut off — it pays to restore service and prevent shutoff. Applications go through the county's Department of Social Services or online at mybenefits.ny.gov. Income must generally be at or below 60% of the state median income. SNAP, Temporary Assistance, and SSI recipients may qualify automatically. HEAP runs out of money each year — applying early in the season matters."
   },
 
   whatToAsk: {
