@@ -23,13 +23,13 @@ export const HOMESTEAD_EXEMPTION_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Civil Practice Law and Rules (CPLR) Section 5206, a homeowner's primary residence is protected from most creditors up to a certain dollar amount. In Monroe County (which is in the Seventh Judicial District), the homestead exemption is $150,000 as of 2022. This means if a creditor wins a judgment and tries to force the sale of the house, the first $150,000 of equity is protected. If the house has less than $150,000 in equity, the creditor generally cannot force a sale. The exemption does not protect against all debts. It does not protect against mortgage foreclosure, property tax liens, or mechanic's liens for work done on the property. It also does not protect against federal tax liens from the IRS. The exemption applies automatically — the homeowner does not need to file any paperwork to claim it. In bankruptcy, the same exemption amount applies if the homeowner files under New York's exemption scheme rather than the federal one. Specific exemption amounts vary by judicial district under CPLR 5206. The Ninth, Tenth, Eleventh, Twelfth, and Thirteenth Judicial Districts (Westchester, Nassau, Suffolk, NYC, and Putnam/Rockland) have a $179,975 exemption. The Seventh Judicial District (Monroe and surrounding counties) and others outside the higher-cost downstate areas have a $149,975 exemption. The amounts are adjusted periodically for inflation. Joint owners — spouses or co-owners — can each claim the exemption, doubling the protected amount when both file for bankruptcy or both are subject to the judgment. Federal bankruptcy exemptions are an alternative to state exemptions; the homeowner can choose one or the other but cannot mix them. Federal exemptions provide a smaller homestead exemption ($27,900 in 2025) but more generous protection of personal property, retirement accounts, and other categories. The choice depends on the homeowner's specific assets and debts; a bankruptcy attorney can run the numbers. Homestead exemption rules apply to the equity in the home — the value above any mortgage — not the total value. A home worth $300,000 with a $250,000 mortgage has $50,000 of equity, all protected by the $149,975 exemption."
+    en: "Under New York Civil Practice Law and Rules (CPLR) Section 5206, a homeowner's primary residence is protected from most creditors up to a dollar amount set by statute. If a creditor wins a judgment and tries to force the sale of the house, equity up to that amount is shielded. If the equity in the house is below the exemption, the creditor generally cannot force a sale at all. The exemption does not block every debt. It does not protect against mortgage foreclosure by the lender on the home, property tax liens, mechanic's liens for work done on the property, or federal tax liens from the IRS. The exemption applies automatically — the homeowner does not need to file paperwork to claim it. In bankruptcy, the same exemption amount applies when the homeowner uses New York's exemption set instead of the federal set. The protected amount is not the same in every county. CPLR 5206 sets a higher tier for counties in and around New York City and a lower tier for upstate counties, with a middle tier for some suburban counties. The statute lists the counties by name and the amounts are adjusted for inflation on a published schedule. Monroe County falls in the upstate tier. Current dollar amounts should be checked against the statute text at nysenate.gov/legislation/laws/CVP/5206 or the most recent inflation-adjustment notice from the Office of Court Administration, since the figures change. Joint owners — spouses or co-owners — can each claim the exemption, doubling the protected amount when both file for bankruptcy or both are subject to the judgment. Federal bankruptcy exemptions are an alternative to state exemptions. The homeowner can pick one set or the other but cannot mix them. The federal homestead exemption is smaller than the New York amount in most counties, but the federal scheme protects more personal property, retirement accounts, and other categories. Which set is better depends on the specific mix of assets and debts; a bankruptcy attorney can run the numbers. The exemption applies to equity — the value of the home above any mortgage balance — not to the total value of the property. A home worth more than the exemption is not automatically lost: a forced sale only happens when equity above the exemption is large enough to make the sale worth the creditor's costs."
   },
 
   yourRights: {
     en: [
       "A homeowner's primary residence is automatically protected up to the exemption amount without filing any paperwork.",
-      "In Monroe County, the homestead exemption is $150,000 of equity.",
+      "The exemption amount in Monroe County is set by CPLR 5206 and adjusted for inflation — the current figure is published with the statute text.",
       "A creditor cannot force the sale of a home if the equity is less than the exemption amount.",
       "If the equity exceeds the exemption, a forced sale can happen, but the homeowner gets the exempted amount from the proceeds.",
       "The homestead exemption applies in bankruptcy if the homeowner chooses New York's exemption scheme.",
@@ -40,16 +40,16 @@ export const HOMESTEAD_EXEMPTION_NY = {
   legalOptions: {
     en: [
       "Under CPLR Section 5206, the homestead exemption is automatic for the homeowner's primary residence.",
-      "The exemption amount varies by judicial district. Monroe County (Seventh Judicial District) has a $150,000 exemption.",
+      "The exemption amount is set by county tier in CPLR 5206 and adjusted for inflation — the current figure for Monroe County is in the statute text at nysenate.gov/legislation/laws/CVP/5206.",
       "If a creditor files a judgment lien on the home, the homeowner can challenge a forced sale by asserting the homestead exemption in court.",
-      "In a bankruptcy filing, the homeowner can choose between New York exemptions (including the $150,000 homestead) and federal exemptions. An attorney can help decide which is better.",
+      "In a bankruptcy filing, the homeowner can choose between the New York exemption set and the federal exemption set. An attorney can help decide which set is better given the specific mix of assets and debts.",
       "Free legal help with creditor disputes and homestead exemption questions is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The homestead exemption does not need to be renewed. It lasts as long as the property is the homeowner's primary residence."
     ]
   },
 
   example: {
-    en: "After a car accident lawsuit, a $45,000 judgment was entered against Patricia. The creditor's attorney tried to force the sale of her home in Irondequoit to collect. Patricia's home was worth $180,000 and she owed $160,000 on the mortgage, leaving $20,000 in equity. Because $20,000 is well below the $150,000 homestead exemption, the creditor could not force a sale. The judgment lien attached to the property but could only be collected if Patricia sold the home voluntarily and had equity above the exemption."
+    en: "After a car accident lawsuit, a money judgment was entered against Patricia. The creditor's attorney tried to force the sale of her home in Irondequoit to collect. Patricia owed almost as much on the mortgage as the home was worth, so her equity was small — well below the homestead exemption amount for Monroe County. The creditor could not force a sale. The judgment lien attached to the property but could only be collected if Patricia sold the home voluntarily and had equity above the exemption at that point."
   },
 
   counsel: [
@@ -94,7 +94,7 @@ export const HOMESTEAD_EXEMPTION_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/CVP/5206",
-    "https://www.law.cornell.edu/regulations/new-york/22-NYCRR-5206"
+    "https://www.nycourts.gov/courthelp/goingtocourt/judgmentEnforcement.shtml"
   ],
 
   lastVerified: "2026-04-17",

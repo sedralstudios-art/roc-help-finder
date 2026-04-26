@@ -366,6 +366,25 @@ function scanEntry(file, entry, raw) {
     score += 2;
   }
 
+  // Hardcoded dollar amounts in whatItMeans (added 2026-04-24 after fact-check
+  // exposed fabricated figures in homestead/insurance/debt entries). A specific
+  // dollar amount is a claim that decays — exemption tiers, civil penalties,
+  // and fee schedules update annually. Author should instead point readers to
+  // the primary source ("check current amount at the DFS bulletin"). Bankruptcy
+  // entries are already exempt from the whole scanner.
+  // Pure WARN with no score impact: ~300+ existing entries carry hardcoded $
+  // amounts; this rule surfaces them for future drainage (same pattern as the
+  // score-4 retrofit queue) without breaking today's build.
+  const dollarMatches = wim.match(/\$\d[\d,]*(?:\.\d+)?/g) || [];
+  if (dollarMatches.length > 0) {
+    issues.push({
+      severity: 'warn',
+      rule: 'hardcoded dollar amount in whatItMeans',
+      detail: { count: dollarMatches.length, samples: dollarMatches.slice(0, 5) },
+    });
+    // No score addition — rule is informational pending retrofit.
+  }
+
   return { file, id: entry.id, category: entry.category, authorityType: entry.authorityType, lastVerified: entry.lastVerified, wimWords, srcCount, score, issues };
 }
 
