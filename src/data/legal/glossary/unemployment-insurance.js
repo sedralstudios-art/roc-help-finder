@@ -17,7 +17,7 @@ export const UNEMPLOYMENT_INSURANCE = {
   },
 
   plainEnglish: {
-    en: "A weekly payment from the state for people who have lost a job through no fault of their own. You apply through the New York Department of Labor website. To qualify, you need to have earned enough wages during a recent period (a 'base period') and be able and available to work. The first week after filing is a waiting week with no benefits. After that, payments continue weekly for up to 26 weeks if you keep certifying each week that you are looking for work. You can still qualify in some cases where you were fired — but not usually for serious misconduct. Quitting without a good reason tied to the job usually means you do not qualify. If you are denied, you have the right to a hearing."
+    en: "A weekly payment from the state for people who have lost a job through no fault of their own. The worker applies through the New York Department of Labor website. To qualify, the worker needs to have earned enough wages during a recent period (a 'base period') and be able and available to work. The first week after filing is a waiting week with no benefits. After that, payments continue weekly for up to 26 weeks as long as the worker keeps certifying each week that they are looking for work. People who were fired can still qualify in some cases — but not usually for serious misconduct. Quitting without a good reason tied to the job usually disqualifies. A denied claimant has the right to a hearing."
   },
 
   whatToAsk: {

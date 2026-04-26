@@ -15,7 +15,7 @@ export const VIOLATION_OF_PROBATION = {
   },
 
   plainEnglish: {
-    en: "A claim that you broke a rule of your probation. Common reasons: missed a check-in, failed a drug test, new arrest, did not pay what you owed, or did not finish a required class. The court gives you a hearing. You can have a lawyer, see the evidence, question witnesses, and tell your side. The judge does not need proof 'beyond a reasonable doubt' — only 'more likely than not' that you broke the rule. If the judge finds a violation, three things can happen: probation keeps going, it changes (stricter rules), or it ends and you get the original jail sentence."
+    en: "A claim that the probationer broke a rule of probation. Common reasons: missed a check-in, failed a drug test, new arrest, did not pay what was owed, or did not finish a required class. The court holds a hearing. The probationer can have a lawyer, see the evidence, question witnesses, and tell their side. The judge does not need proof 'beyond a reasonable doubt' — only 'more likely than not' that a rule was broken. If the judge finds a violation, three things can happen: probation keeps going, it changes (stricter rules), or it ends and the original jail sentence is imposed."
   },
 
   whatToAsk: {

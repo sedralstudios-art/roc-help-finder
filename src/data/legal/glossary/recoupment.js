@@ -16,7 +16,7 @@ export const RECOUPMENT = {
   },
 
   plainEnglish: {
-    en: "When a benefits agency reduces your current benefits to pay back benefits you got earlier but were not entitled to. For Temporary Assistance, the reduction is 10% of the monthly grant. You can ask for that to be dropped to 5% if 10% causes hardship — you have to show expenses are more than income. For SNAP, the reduction comes out of the monthly benefit too. If your case is closed, the unpaid amount can be taken from a federal tax refund. Every recoupment has to start with a written notice, and you can challenge the amount or the reason at a fair hearing."
+    en: "When a benefits agency reduces a recipient's current benefits to pay back benefits paid earlier that the recipient was not entitled to. For Temporary Assistance, the reduction is 10% of the monthly grant. The recipient can request a drop to 5% if 10% causes hardship — that requires showing expenses are more than income. For SNAP, the reduction comes out of the monthly benefit too. After a case closes, the unpaid amount can be taken from a federal tax refund. Every recoupment has to start with a written notice, and the recipient can challenge the amount or the reason at a fair hearing."
   },
 
   whatToAsk: {

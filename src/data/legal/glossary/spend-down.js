@@ -10,7 +10,7 @@ export const SPEND_DOWN = {
   },
 
   plainEnglish: {
-    en: "A way to qualify for Medicaid when your income is above the normal limit. The amount above the limit is your 'excess income.' Each month, you pay that amount toward your medical expenses out of pocket. Once you have paid it, Medicaid covers the rest of your care for that month. It works like a monthly deductible. The spend-down amount is calculated by comparing your income to the Medicaid income level for your household size. Medical bills, insurance premiums, and pharmacy costs all count toward meeting the spend-down. This mostly applies to people over 65, people with disabilities, or people in the non-MAGI Medicaid categories."
+    en: "A way to qualify for Medicaid when an applicant's income is above the normal limit. The amount above the limit is the 'excess income.' Each month, the applicant pays that amount toward medical expenses out of pocket. Once it is paid, Medicaid covers the rest of the applicant's care for that month. It works like a monthly deductible. The spend-down amount is calculated by comparing the applicant's income to the Medicaid income level for the household size. Medical bills, insurance premiums, and pharmacy costs all count toward meeting the spend-down. This mostly applies to people over 65, people with disabilities, or people in the non-MAGI Medicaid categories."
   },
 
   whatToAsk: {

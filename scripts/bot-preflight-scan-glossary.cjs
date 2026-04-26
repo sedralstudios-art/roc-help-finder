@@ -89,7 +89,9 @@ const DIRECTIVE_PATTERNS = [
 
 const SECOND_PERSON_RE = /\b(you|your|yours|you'?re|you'?ve|you'?ll|you'?d)\b/gi;
 const SHOULD_MUST_RE = /\byou\s+(should|must)\b/gi;
-const PARENTHETICAL_ADVICE_RE = /\([^)]{3,}\)/;
+// Only flag parens that read as advice — imperative verb at the start.
+// Definitional parens like "(DAT)" or "(no contact at all)" are fine.
+const PARENTHETICAL_ADVICE_RE = /\((?:Say|Always|Never|Make sure|Tell|Ask|Get|Write|Take|Document|Bring|Show|Note|Remember|Important|Tip|For example)\b/i;
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 function wordCount(s) {
@@ -178,8 +180,9 @@ function scanTerm(file, t, raw, glossaryIds, legalIndex) {
         issues.push({ severity: 'fail', rule: 'legalEntryIds[] points at unknown legal entry', detail: eid });
         hardFail = true;
       } else if (legalIndex.drafts.has(eid)) {
+        // Informational only — draft-gating is intentional for high-harm
+        // entries and the link will resolve once the maintainer publishes.
         issues.push({ severity: 'warn', rule: 'legalEntryIds[] points at draft entry (will not render)', detail: eid });
-        score += 2;
       }
     }
   }

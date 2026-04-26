@@ -10,7 +10,7 @@ export const SR_22 = {
   },
 
   plainEnglish: {
-    en: "An SR-22 is a form that your insurance company files with the DMV proving that you have the required auto insurance. It is not a special type of insurance — it is just proof that you have a policy. The DMV requires it after certain violations — like driving without insurance, a DWI, or an uninsured accident. Your insurance company files it electronically. You have to keep the SR-22 on file for 3 years. If your insurance lapses during that time, the company notifies the DMV and your license or registration gets suspended again. Having an SR-22 requirement usually makes insurance more expensive."
+    en: "An SR-22 is a form an insurance company files with the DMV proving the driver has the required auto insurance. It is not a special type of insurance — it is just proof of a policy. The DMV requires it after certain violations — driving without insurance, a DWI, or an uninsured accident. The insurance company files it electronically. The driver has to keep the SR-22 on file for 3 years. If the insurance lapses during that time, the company notifies the DMV and the license or registration gets suspended again. An SR-22 requirement usually makes insurance more expensive."
   },
 
   whatToAsk: {

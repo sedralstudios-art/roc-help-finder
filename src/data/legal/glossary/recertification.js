@@ -10,7 +10,7 @@ export const RECERTIFICATION = {
   },
 
   plainEnglish: {
-    en: "A periodic check by the benefits agency to make sure you still qualify for the program. SNAP, Medicaid, Temporary Assistance, childcare subsidies, and most other programs require it — usually every 6 to 12 months. The agency sends a notice with a deadline. You have to submit updated proof of income, household size, and other information. Some recertifications can be done online, by mail, or by phone. Others require an in-person interview. Missing the deadline can result in your benefits being cut off, even if you still qualify. If that happens, you usually have to reapply from scratch."
+    en: "A periodic check by the benefits agency to make sure the recipient still qualifies for the program. SNAP, Medicaid, Temporary Assistance, childcare subsidies, and most other programs require it — usually every 6 to 12 months. The agency sends a notice with a deadline. The recipient submits updated proof of income, household size, and other information. Some recertifications can be done online, by mail, or by phone. Others require an in-person interview. Missing the deadline can result in benefits being cut off, even when the recipient still qualifies. After that, reapplication from scratch is usually required."
   },
 
   whatToAsk: {

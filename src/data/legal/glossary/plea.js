@@ -15,7 +15,7 @@ export const PLEA = {
   },
 
   plainEnglish: {
-    en: "Your answer to the charges. 'Not guilty' means you are fighting the case. 'Guilty' means you accept that you did what they say, and the case ends with a sentence. Most cases end with a guilty plea to something — often a smaller charge the prosecutor agrees to — instead of a trial. You can plead guilty only if the judge is sure you understand what you are giving up (like your right to a trial). Once you plead guilty, you usually cannot take it back."
+    en: "The defendant's answer to the charges. 'Not guilty' means fighting the case. 'Guilty' means accepting the charge, and the case ends with a sentence. Most cases end with a guilty plea to something — often a smaller charge the prosecutor agrees to — instead of a trial. The judge can only accept a guilty plea after confirming the defendant understands what they are giving up (like the right to a trial). Once entered, a guilty plea is usually very hard to take back."
   },
 
   whatToAsk: {

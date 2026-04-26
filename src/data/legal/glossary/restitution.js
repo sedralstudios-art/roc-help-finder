@@ -15,7 +15,7 @@ export const RESTITUTION = {
   },
 
   plainEnglish: {
-    en: "Money you pay to the victim of the crime — not to the court — to cover what they lost. It can include the value of stolen property, repair costs, medical bills, or lost wages. The judge decides the exact amount at sentencing. For most cases, restitution is capped by law at $15,000 for a felony or $10,000 for a misdemeanor or violation, unless you agree to more. If you do not pay, the court can extend your probation, take it from your paycheck, or send the case to collections. Paying restitution does not mean you can't also be sued in civil court, but any amount you pay in restitution usually counts against what you'd owe there."
+    en: "Money the defendant pays to the victim of the crime — not to the court — to cover what the victim lost. It can include the value of stolen property, repair costs, medical bills, or lost wages. The judge decides the exact amount at sentencing. For most cases, restitution is capped by law (with separate caps for felonies, misdemeanors, and violations); the current statutory caps are in NY Penal Law § 60.27. The defendant can agree to a higher amount. Non-payment can lead the court to extend probation, garnish wages, or refer the balance to collections. Paying restitution does not bar a civil suit, but restitution paid usually counts against any civil award."
   },
 
   whatToAsk: {

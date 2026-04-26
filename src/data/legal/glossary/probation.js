@@ -16,7 +16,7 @@ export const PROBATION = {
   },
 
   plainEnglish: {
-    en: "A sentence where you stay out of jail but have to check in with a probation officer and follow rules the court sets. Common rules: meet with your officer on time, no new arrests, drug tests, keep a job or go to school, pay what you owe, stay in the area, let your officer search your home. Probation is longer and stricter than a conditional discharge. In New York, a felony probation is usually 3 to 5 years. A Class A misdemeanor is 2 or 3 years. A Class B misdemeanor is 1 year. If you break the rules, the court can put you in jail for the rest of your sentence."
+    en: "A sentence where the defendant stays out of jail but has to check in with a probation officer and follow rules the court sets. Common rules: meet with the officer on time, no new arrests, drug tests, keep a job or go to school, pay what is owed, stay in the area, allow home searches by the officer. Probation is longer and stricter than a conditional discharge. In New York, a felony probation is usually 3 to 5 years. A Class A misdemeanor is 2 or 3 years. A Class B misdemeanor is 1 year. Breaking the rules can lead the court to impose jail for the rest of the sentence."
   },
 
   whatToAsk: {

@@ -17,7 +17,7 @@ export const PUBLIC_DEFENDER = {
   },
 
   plainEnglish: {
-    en: "A lawyer the court gives you for free if you cannot pay for one. This is your right in every criminal case where jail is possible. In New York, each county has a plan: a Public Defender office, a Legal Aid group, or a panel of private lawyers (called '18-B' after the law). You still get a real lawyer — the same court rules, the same duty to you. You do not owe the lawyer money. You may have to fill out a short form about your income."
+    en: "A lawyer the court provides for free to a defendant who cannot pay. This right applies in every criminal case where jail is possible. In New York, each county has a plan: a Public Defender office, a Legal Aid group, or a panel of private lawyers (called '18-B' after the law). The assigned lawyer is a real lawyer — same court rules, same duty to the client. The client owes the lawyer no money. A short income form may be required for the assignment."
   },
 
   whatToAsk: {
