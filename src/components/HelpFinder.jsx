@@ -1531,19 +1531,6 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
               </div>
             </div>
           </div>
-          <select
-            value={lang}
-            onChange={(e) => setLang(e.target.value)}
-            aria-label={t(lang, "langLabel")}
-            style={{
-              background: "#fff", color: "#1a1a1a", border: "1px solid #e8e4dc",
-              borderRadius: 20, padding: "5px 12px", fontSize: 13, cursor: "pointer",
-            }}
-          >
-            {LANGS.map((l) => (
-              <option key={l.code} value={l.code} style={{ color: "#333" }}>{l.label}</option>
-            ))}
-          </select>
         </div>
 
         <div style={{ marginTop: 8, textAlign: "center" }}>

@@ -607,18 +607,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         </button>
 
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <select
-          value={lang} onChange={(e) => { setLang(e.target.value); if (onLangChange) onLangChange(e.target.value); }}
-          aria-label="Language"
-          style={{
-            background: C.white, color: C.bark, border: `1px solid ${C.border}`,
-            borderRadius: 20, padding: "5px 12px", fontSize: 13, cursor: "pointer",
-            fontFamily: "inherit",
-          }}
-          >
-          {LANGS.map((l) => <option key={l.code} value={l.code}>{l.label}</option>)}
-          </select>
-
           <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu" style={{
           background: "none", border: "none", cursor: "pointer", padding: 8,
           display: "flex", flexDirection: "column", gap: 4,
@@ -652,18 +640,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       {/* ═══════════════════ HOME ═══════════════════ */}
       {page === PAGES.HOME && (
         <main style={{ padding: "0 20px 40px" }}>
-
-          {/* HELP IN EVERY LANGUAGE — hidden on mobile (<=640px) to preserve first-screen real estate */}
-          <div className="hf-fade-in hf-d1 hf-help-words" style={{
-            textAlign: "center", paddingTop: 36, marginBottom: 4,
-          }}>
-            <div style={{
-              fontSize: 13, color: C.dust, letterSpacing: 1, lineHeight: 2,
-              wordSpacing: 6,
-            }}>
-              {HELP_WORDS.join("  ·  ")}
-            </div>
-          </div>
 
           {/* MARK */}
           <div className="hf-fade-in hf-d1" style={{ textAlign: "center", padding: "8px 0" }}>

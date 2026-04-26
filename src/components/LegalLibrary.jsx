@@ -269,38 +269,11 @@ function availableLangsForEntry(entry) {
   return LEGAL_LANGS.filter((l) => codes.has(l.code));
 }
 
-function LanguagePicker({ legalLang, setLegalLang, compact, availableLangs }) {
-  const langs = Array.isArray(availableLangs) && availableLangs.length ? availableLangs : SITE_TRANSLATED_LANGS;
-  // Don't render the picker at all when only English is available — a
-  // one-option dropdown is visual noise.
-  if (langs.length <= 1) return null;
-  return (
-    <div style={{
-      marginBottom: compact ? 20 : 28,
-      padding: compact ? "10px 14px" : "12px 16px",
-      background: C.cream, borderRadius: compact ? 10 : 12,
-      border: "1px solid " + C.border,
-      display: "inline-flex", alignItems: "center", gap: 8, flexWrap: "wrap",
-    }}>
-      <label style={{ fontSize: compact ? 12 : 13, color: C.stone, fontWeight: 500 }}>🌐 Read in:</label>
-      <select
-        value={legalLang}
-        onChange={(e) => setLegalLang(e.target.value)}
-        style={{
-          padding: compact ? "4px 10px" : "6px 12px",
-          fontSize: compact ? 13 : 14,
-          borderRadius: compact ? 6 : 8,
-          border: "1px solid " + C.border,
-          background: C.white, fontFamily: "inherit", color: C.bark, cursor: "pointer",
-        }}
-      >
-        {langs.map((l) => (
-          <option key={l.code} value={l.code}>{l.label}</option>
-        ))}
-      </select>
-    </div>
-  );
-}
+// LanguagePicker removed per maintainer policy 2026-04-26: translations
+// outside English are gated on native-speaker review and not yet in
+// production. Hiding the picker prevents implying coverage we don't have.
+// Re-add when reviewed translations are ready to ship.
+function LanguagePicker() { return null; }
 
 // ═══════════════════════════════════════════════════════════════════════════
 // CATEGORY OVERVIEW — 7 big tiles

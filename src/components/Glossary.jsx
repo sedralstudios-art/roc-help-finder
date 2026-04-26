@@ -87,32 +87,11 @@ function pickArr(field, lang) {
   return field[lang] || field.en || [];
 }
 
-function LanguagePicker({ legalLang, setLegalLang }) {
-  return (
-    <div style={{
-      marginBottom: 20, padding: "10px 14px",
-      background: C.cream, borderRadius: 10,
-      border: "1px solid " + C.border,
-      display: "inline-flex", alignItems: "center", gap: 8, flexWrap: "wrap",
-    }}>
-      <label style={{ fontSize: 12, color: C.stone, fontWeight: 500 }}>🌐 Read in:</label>
-      <select
-        value={legalLang}
-        onChange={(e) => setLegalLang(e.target.value)}
-        style={{
-          padding: "4px 10px", fontSize: 13, borderRadius: 6,
-          border: "1px solid " + C.border,
-          background: C.white, fontFamily: "inherit", color: C.bark, cursor: "pointer",
-        }}
-      >
-        {LEGAL_LANGS.map((l) => (
-          <option key={l.code} value={l.code}>{l.label}</option>
-        ))}
-      </select>
-      <span style={{ fontSize: 11, color: C.dust }}>English only for now</span>
-    </div>
-  );
-}
+// LanguagePicker removed per maintainer policy 2026-04-26: translations
+// outside English are gated on native-speaker review and not yet in
+// production. Hiding the picker prevents implying coverage we don't have.
+// Re-add when reviewed translations are ready to ship.
+function LanguagePicker() { return null; }
 
 function BackLink({ onBack, label }) {
   return (
