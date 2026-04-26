@@ -23,7 +23,7 @@ export const BEST_INTEREST_OF_CHILD = {
     ]
   },
 
-  related: ["custody", "visitation", "child-support", "family-offense-petition"],
+  related: ["custody", "visitation", "child-support"],
   legalEntryIds: [],
 
   citation: "NY DRL § 240; NY common law (Eschbach v. Eschbach)",

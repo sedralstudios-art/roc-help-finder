@@ -29,7 +29,7 @@ export const VISITATION = {
     ]
   },
 
-  related: ["custody", "child-support", "family-court", "family-offense-petition"],
+  related: ["custody", "child-support", "family-court"],
   legalEntryIds: ["custody-basics-ny"],
 
   citation: "NY FCA § 651; DRL § 240",

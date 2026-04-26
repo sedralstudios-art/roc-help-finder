@@ -23,7 +23,7 @@ export const TEMPORARY_ORDER = {
     ]
   },
 
-  related: ["order-of-protection", "family-offense-petition", "custody"],
+  related: ["custody"],
   legalEntryIds: [],
 
   citation: "NY DRL § 240; NY CPLR Article 63 (injunctions); FCA Article 8",

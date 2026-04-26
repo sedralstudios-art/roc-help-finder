@@ -22,7 +22,7 @@ export const CONTEMPT_OF_COURT = {
     ]
   },
 
-  related: ["order-of-protection", "judgment", "sentence"],
+  related: ["judgment", "sentence"],
   legalEntryIds: ["visitation-rights-ny", "child-support-ny", "harassment-cyberstalking-ny"],
 
   citation: "NY Judiciary Law § 750-753",

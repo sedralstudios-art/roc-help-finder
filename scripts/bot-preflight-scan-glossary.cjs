@@ -59,6 +59,59 @@ const FAIL_AT = Number.isFinite(parseInt(args['fail-at'], 10)) ? parseInt(args['
 const VALID_STATUS = new Set(['active', 'draft', 'deprecated']);
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
+// ── Topic denylist (hard FAIL) ───────────────────────────────────────────────
+// DV and immigration glossary entries are barred per maintainer policy. These
+// topics live in high-harm categories where bad content can directly hurt
+// someone in crisis — they belong in the gated legal-entry pipeline (with
+// draft: true protection) and an attorney-vetted authoring track, not in the
+// glossary corpus where any contributor can add a term.
+const DENIED_SUBTAGS = new Set([
+  'immigration',
+  'deportation',
+  'asylum',
+  'domestic-violence',
+  'dv',
+  'intimate-partner-violence',
+  'trafficking', // T-visa, U-visa cases
+]);
+
+const DENIED_ID_PATTERNS = [
+  /^(daca|tps|u-visa|t-visa|vawa|vawa-self-petition|asylum|naturalization|green-card|removal-proceeding|immigration-.*|deportation-.*)$/i,
+  /^(domestic-violence|intimate-partner-violence|restraining-order|order-of-protection-.*|battered-.*|dv-.*|abuser-.*)$/i,
+];
+
+const DENIED_TERM_PATTERNS = [
+  /\b(?:USCIS|Immigration and Nationality Act|Lawful Permanent Resident|deportation|asylum seeker|asylee|naturalization|green\s*card|U\s+visa|T\s+visa|VAWA|Temporary Protected Status|TPS|DACA|removal proceeding|EAD|undocumented immigrant)\b/i,
+  /\b(?:domestic violence|intimate partner violence|battered (?:woman|spouse|partner)|abuser|order of protection|restraining order|family offense|safe shelter)\b/i,
+];
+
+function isDeniedTopic(t) {
+  // Subtag check — strongest signal that the entry is intentionally categorized
+  // as DV or immigration.
+  if (Array.isArray(t.subtags)) {
+    for (const s of t.subtags) {
+      if (DENIED_SUBTAGS.has(String(s).toLowerCase())) {
+        return { reason: 'denied subtag', detail: s };
+      }
+    }
+  }
+  // ID check — known immigration/DV slugs.
+  if (t.id) {
+    for (const p of DENIED_ID_PATTERNS) {
+      if (p.test(t.id)) return { reason: 'denied id pattern', detail: t.id };
+    }
+  }
+  // Term.en check — entry primarily about an immigration/DV concept (term name
+  // itself matches the topic). Plain-English content mentions are NOT checked
+  // because many general entries reference DV or immigration in passing without
+  // being primarily about those topics.
+  const term = (t.term && t.term.en) || '';
+  for (const p of DENIED_TERM_PATTERNS) {
+    if (p.test(term)) return { reason: 'denied term name', detail: (term.match(p) || [''])[0] };
+  }
+  return null;
+}
+
 // ── Voice rules (mirror the legal scanner's lawyer-register list) ──────────
 const LAWYER_REGISTER_PATTERNS = [
   { name: 'lawyer register: pursuant to', re: /\bpursuant to\b/gi },
@@ -151,6 +204,18 @@ function scanTerm(file, t, raw, glossaryIds, legalIndex) {
   const issues = [];
   let score = 0;
   let hardFail = false;
+
+  // ── Topic denylist (hard FAIL) ─────────────────────────────────────────
+  // DV and immigration topics are barred from the glossary per policy.
+  const denied = isDeniedTopic(t);
+  if (denied) {
+    issues.push({
+      severity: 'fail',
+      rule: 'denied glossary topic (DV or immigration)',
+      detail: denied.reason + ': ' + denied.detail,
+    });
+    hardFail = true;
+  }
 
   // ── Required fields ────────────────────────────────────────────────────
   const required = ['id', 'category', 'citation', 'sourceUrl', 'lastVerified', 'status'];

@@ -22,7 +22,7 @@ export const RIVERS_ORDER = {
     ]
   },
 
-  related: ["order-of-protection", "probation"],
+  related: ["probation"],
   legalEntryIds: ["mental-health-patient-rights-ny", "involuntary-commitment-ny", "psychiatric-advance-directive-ny"],
 
   citation: "Rivers v. Katz, 67 N.Y.2d 485 (1986)",

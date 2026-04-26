@@ -23,7 +23,7 @@ export const CHILD_PROTECTIVE_SERVICES = {
     ]
   },
 
-  related: ["family-offense-petition", "guardianship", "best-interest-of-child", "fair-hearing"],
+  related: ["guardianship", "best-interest-of-child", "fair-hearing"],
   legalEntryIds: [],
 
   citation: "NY Soc. Services Law Article 6, Title 6 (CPS); NY FCA Article 10",

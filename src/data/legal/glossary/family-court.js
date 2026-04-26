@@ -31,7 +31,7 @@ export const FAMILY_COURT = {
     ]
   },
 
-  related: ["custody", "child-support", "visitation", "family-offense-petition", "article-10", "pins"],
+  related: ["custody", "child-support", "visitation", "article-10", "pins"],
   legalEntryIds: ["custody-basics-ny", "child-support-ny", "order-of-protection-ny"],
 
   citation: "NY Family Court Act (FCA)",

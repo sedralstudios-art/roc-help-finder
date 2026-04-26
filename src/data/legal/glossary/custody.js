@@ -29,7 +29,7 @@ export const CUSTODY = {
     ]
   },
 
-  related: ["family-court", "visitation", "child-support", "family-offense-petition"],
+  related: ["family-court", "visitation", "child-support"],
   legalEntryIds: ["custody-basics-ny"],
 
   citation: "NY Domestic Relations Law § 70; FCA Article 6",
