@@ -85,6 +85,28 @@ const DIRECTIVE_PATTERNS = [
   { name: 'Directive: Make sure to', re: /(^|[\.\?\!]\s+)Make sure to /g },
 ];
 
+// Reader-directive patterns — telling the reader (or "anyone", "the person",
+// etc.) what to do. Mirrored from bot-preflight-scan-glossary.cjs so the same
+// gate covers both glossary and legal entries (including the new
+// form-walkthrough entries). Higher weight than other directive hits.
+//
+// Important refinement: "consult an attorney" / "talk to a lawyer" appear in
+// many legal entries as descriptions of rights ("the right to consult an
+// attorney"). Those are descriptive and OK. Only flag when the phrase is
+// preceded by a directive verb (should, must, needs to, please, consider).
+const READER_DIRECTIVE_PATTERNS = [
+  { name: 'reader directive: anyone/everyone should', re: /\b(?:anyone|everyone|all readers|the reader)\s+(?:should|must|needs? to|ought to)\b/gi },
+  { name: 'reader directive: should/must consult an attorney', re: /\b(?:should|must|need(?:s)?\s+to|ought\s+to|please|consider)\s+consult\s+(?:an?\s+)?(?:attorney|lawyer|advocate|specialist)\b/gi },
+  { name: 'reader directive: should/must talk to a lawyer', re: /\b(?:should|must|need(?:s)?\s+to|ought\s+to|please|consider)\s+talk\s+to\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
+  { name: 'reader directive: should/must speak with a lawyer', re: /\b(?:should|must|need(?:s)?\s+to|ought\s+to|please|consider)\s+speak\s+(?:to|with)\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
+  { name: 'reader directive: reach out to', re: /\breach\s+out\s+to\s+(?:an?\s+|legal\s+aid|the\s+(?:agency|court|hotline))/gi },
+  { name: 'reader directive: it is recommended/advisable', re: /\bit\s+is\s+(?:recommended|advisable|important|wise|best)\s+(?:to|that)\b/gi },
+  { name: 'reader directive: best to / better to', re: /\b(?:best|better)\s+to\s+(?:consult|call|contact|file|apply|reach|speak|talk)\b/gi },
+  { name: 'reader directive: consider Xing', re: /\bconsider\s+(?:consulting|calling|contacting|filing|applying|reaching|speaking|talking|hiring)\b/gi },
+  { name: 'reader directive: be sure to', re: /\bbe\s+sure\s+to\b/gi },
+  { name: 'reader directive: do not hesitate to', re: /\bdo\s+not\s+hesitate\s+to\b/gi },
+];
+
 const SECOND_PERSON_RE = /\b(you|your|yours|you'?re|you'?ve|you'?ll|you'?d)\b/gi;
 const EMBEDDED_QUOTE_RE = /"[^"]*"[^"]*"/; // naive but good enough for en: single-line scan
 
@@ -263,6 +285,22 @@ function scanEntry(file, entry, raw) {
   }
   if (directiveHits.length > 0) {
     issues.push({ severity: 'warn', rule: 'directive imperatives', detail: directiveHits });
+  }
+
+  // Reader-directive patterns (consult an attorney, best to X, anyone should,
+  // be sure to, etc.) — telling the reader to take action. Higher weight than
+  // generic directives because these are the worst UPL signals.
+  const readerDirectiveHits = [];
+  for (const p of READER_DIRECTIVE_PATTERNS) {
+    const matches = (wim.match(p.re) || []).length + (sum.match(p.re) || []).length;
+    if (matches > 0) {
+      readerDirectiveHits.push({ rule: p.name, count: matches });
+    }
+  }
+  if (readerDirectiveHits.length > 0) {
+    const total = readerDirectiveHits.reduce((s, x) => s + x.count, 0);
+    issues.push({ severity: 'warn', rule: 'reader-directive in body', detail: readerDirectiveHits });
+    score += total * 3;
   }
 
   // Reading level proxy — avg sentence length

@@ -148,11 +148,15 @@ const SHOULD_MUST_RE = /\byou\s+(should|must)\b/gi;
 // ("the lender must respond"). The glossary is explainer-only; any sentence
 // that tells the reader to take an action belongs in the wider HelpFinder
 // flow, not in a definition.
+// "consult an attorney" appears in many legal entries as a description of a
+// right ("the right to consult an attorney") — that's descriptive and OK.
+// Only flag when preceded by a directive verb (should, must, needs to,
+// please, consider). Same refinement applied in bot-preflight-scan.cjs.
 const READER_DIRECTIVE_PATTERNS = [
   { name: 'reader directive: anyone/everyone should', re: /\b(?:anyone|everyone|all readers|the reader)\s+(?:should|must|needs? to|ought to)\b/gi },
-  { name: 'reader directive: consult an attorney/lawyer', re: /\bconsult\s+(?:an?\s+)?(?:attorney|lawyer|advocate|immigration\s+lawyer|specialist)\b/gi },
-  { name: 'reader directive: talk to a lawyer', re: /\btalk\s+to\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
-  { name: 'reader directive: speak with a lawyer', re: /\bspeak\s+(?:to|with)\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
+  { name: 'reader directive: should/must consult an attorney', re: /\b(?:should|must|need(?:s)?\s+to|ought\s+to|please|consider)\s+consult\s+(?:an?\s+)?(?:attorney|lawyer|advocate|specialist)\b/gi },
+  { name: 'reader directive: should/must talk to a lawyer', re: /\b(?:should|must|need(?:s)?\s+to|ought\s+to|please|consider)\s+talk\s+to\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
+  { name: 'reader directive: should/must speak with a lawyer', re: /\b(?:should|must|need(?:s)?\s+to|ought\s+to|please|consider)\s+speak\s+(?:to|with)\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
   { name: 'reader directive: reach out to', re: /\breach\s+out\s+to\s+(?:an?\s+|legal\s+aid|the\s+(?:agency|court|hotline))/gi },
   { name: 'reader directive: it is recommended/advisable', re: /\bit\s+is\s+(?:recommended|advisable|important|wise|best)\s+(?:to|that)\b/gi },
   { name: 'reader directive: best to / better to', re: /\b(?:best|better)\s+to\s+(?:consult|call|contact|file|apply|reach|speak|talk)\b/gi },
