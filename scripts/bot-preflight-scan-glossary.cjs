@@ -89,6 +89,24 @@ const DIRECTIVE_PATTERNS = [
 
 const SECOND_PERSON_RE = /\b(you|your|yours|you'?re|you'?ve|you'?ll|you'?d)\b/gi;
 const SHOULD_MUST_RE = /\byou\s+(should|must)\b/gi;
+
+// Reader-directive patterns — telling the reader (or "anyone", "the person",
+// "the applicant", etc.) what to do. Distinct from third-party duty language
+// ("the lender must respond"). The glossary is explainer-only; any sentence
+// that tells the reader to take an action belongs in the wider HelpFinder
+// flow, not in a definition.
+const READER_DIRECTIVE_PATTERNS = [
+  { name: 'reader directive: anyone/everyone should', re: /\b(?:anyone|everyone|all readers|the reader)\s+(?:should|must|needs? to|ought to)\b/gi },
+  { name: 'reader directive: consult an attorney/lawyer', re: /\bconsult\s+(?:an?\s+)?(?:attorney|lawyer|advocate|immigration\s+lawyer|specialist)\b/gi },
+  { name: 'reader directive: talk to a lawyer', re: /\btalk\s+to\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
+  { name: 'reader directive: speak with a lawyer', re: /\bspeak\s+(?:to|with)\s+(?:an?\s+)?(?:attorney|lawyer|advocate)\b/gi },
+  { name: 'reader directive: reach out to', re: /\breach\s+out\s+to\s+(?:an?\s+|legal\s+aid|the\s+(?:agency|court|hotline))/gi },
+  { name: 'reader directive: it is recommended/advisable', re: /\bit\s+is\s+(?:recommended|advisable|important|wise|best)\s+(?:to|that)\b/gi },
+  { name: 'reader directive: best to / better to', re: /\b(?:best|better)\s+to\s+(?:consult|call|contact|file|apply|reach|speak|talk)\b/gi },
+  { name: 'reader directive: consider Xing', re: /\bconsider\s+(?:consulting|calling|contacting|filing|applying|reaching|speaking|talking|hiring)\b/gi },
+  { name: 'reader directive: be sure to', re: /\bbe\s+sure\s+to\b/gi },
+  { name: 'reader directive: do not hesitate to', re: /\bdo\s+not\s+hesitate\s+to\b/gi },
+];
 // Only flag parens that read as advice — imperative verb at the start.
 // Definitional parens like "(DAT)" or "(no contact at all)" are fine.
 const PARENTHETICAL_ADVICE_RE = /\((?:Say|Always|Never|Make sure|Tell|Ask|Get|Write|Take|Document|Bring|Show|Note|Remember|Important|Tip|For example)\b/i;
@@ -238,6 +256,20 @@ function scanTerm(file, t, raw, glossaryIds, legalIndex) {
   if (shouldMust > 0) {
     issues.push({ severity: 'warn', rule: 'directive: you should/must in plainEnglish', detail: shouldMust });
     score += shouldMust * 2;
+  }
+
+  // Reader-directive patterns — flag content that tells the reader (or any
+  // generic stand-in for the reader) to take an action. Glossary entries are
+  // pure explainers; action guidance belongs elsewhere.
+  const readerDirectiveHits = [];
+  for (const p of READER_DIRECTIVE_PATTERNS) {
+    const count = (pe.match(p.re) || []).length;
+    if (count > 0) readerDirectiveHits.push({ rule: p.name, count });
+  }
+  if (readerDirectiveHits.length > 0) {
+    const total = readerDirectiveHits.reduce((s, x) => s + x.count, 0);
+    issues.push({ severity: 'warn', rule: 'reader-directive in plainEnglish', detail: readerDirectiveHits });
+    score += total * 3;
   }
 
   const sp = (pe.match(SECOND_PERSON_RE) || []).length;
