@@ -1123,6 +1123,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           legalLang={legalLang}
           setLegalLang={setLegalLang}
           onOpenCategory={openCategory}
+          onOpenEntry={openEntry}
           onBack={() => nav(PAGES.HOME)}
         />
       )}

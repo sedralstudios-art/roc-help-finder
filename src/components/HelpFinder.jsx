@@ -1155,6 +1155,18 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ fontWeight: 700, fontSize: 15, color: "#1a1a1a", lineHeight: 1.3 }}>{p.n}</div>
           <div style={{ fontSize: 13, color: "#555", marginTop: 3, lineHeight: 1.45 }}><GlossaryText text={desc} maxHighlights={2} /></div>
+          {p.walkthroughEntryId && (
+            <a href={"/know-your-rights/" + p.walkthroughEntryId}
+              onClick={(e) => { e.stopPropagation(); trackClick(p.id + "-walkthrough"); }}
+              style={{
+                display: "inline-block", marginTop: 8,
+                background: "#fdf6ec", color: "#a07626", padding: "5px 12px",
+                borderRadius: 8, fontSize: 12, fontWeight: 600, textDecoration: "none",
+                border: "1px solid #f0dab0",
+              }}>
+              📝 Form prep guide
+            </a>
+          )}
         </div>
         <span style={{ fontSize: 12, color: "#767676", flexShrink: 0, marginTop: 2 }}>
           {expanded ? "▲" : "▼"}
@@ -1221,16 +1233,6 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
                 borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none",
               }}>
                 {t(lang, "apply")} ↗
-              </a>
-            )}
-            {p.walkthroughEntryId && (
-              <a href={"/know-your-rights/" + p.walkthroughEntryId}
-                onClick={() => trackClick(p.id + "-walkthrough")}
-                style={{
-                  background: "#fdf6ec", color: "#a07626", padding: "6px 14px",
-                  borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none",
-                }}>
-                📝 Form prep guide
               </a>
             )}
           </div>
@@ -1306,6 +1308,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
   const [answers, setAnswers] = useState({});
   const [currentQuestionKey, setCurrentQuestionKey] = useState(null);
   const [userTown, setUserTown] = useState(null);  // null = no town filter; auto-set from jurisdiction stack
+  const [resultsQuery, setResultsQuery] = useState("");
 
   // Auto-set userTown from jurisdiction stack (most specific match first)
   useEffect(() => {
@@ -1904,6 +1907,26 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
 
             <InterpreterNotice lang={lang} />
 
+            {/* Results search bar — narrow visible programs by name/desc/tag */}
+            {filteredPrograms.length > 3 && (
+              <div style={{ marginBottom: 14 }}>
+                <input
+                  type="search"
+                  value={resultsQuery}
+                  onChange={(e) => setResultsQuery(e.target.value)}
+                  placeholder="Search these programs by name..."
+                  style={{
+                    width: "100%", padding: "11px 14px", fontSize: 14,
+                    fontFamily: "inherit", color: "#1a1a1a", background: "#fff",
+                    border: "2px solid #e0e0e0", borderRadius: 10, outline: "none",
+                    boxSizing: "border-box", transition: "border-color 0.15s",
+                  }}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = "#2e7d32")}
+                  onBlur={(e) => (e.currentTarget.style.borderColor = "#e0e0e0")}
+                />
+              </div>
+            )}
+
             {filteredPrograms.length === 0 && (
               <div style={{
                 background: "#fff3e0", borderRadius: 12, padding: 20,
@@ -1929,7 +1952,14 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
               </div>
             )}
 
-            {filteredPrograms.map((p) => (
+            {filteredPrograms.filter((p) => {
+              const q = resultsQuery.trim().toLowerCase();
+              if (q.length < 2) return true;
+              const name = (p.n || "").toLowerCase();
+              const desc = (p.d || "").toLowerCase();
+              const tags = (p.tg || []).join(" ").toLowerCase();
+              return name.includes(q) || desc.includes(q) || tags.includes(q);
+            }).map((p) => (
               <ProgramCard
                 key={p.id}
                 program={p}
@@ -1953,23 +1983,6 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                 fontSize: 15, fontWeight: 700, textDecoration: "none",
               }}>
                 📞 211
-              </a>
-            </div>
-
-            {/* findhelp.org overflow */}
-            <div style={{
-              background: "#f5f5f5", borderRadius: 12, padding: 14,
-              marginTop: 12, textAlign: "center", border: "1px solid #e0e0e0",
-            }}>
-              <div style={{ fontSize: 14, fontWeight: 600, color: "#555", marginBottom: 6 }}>
-                {t(lang, "findMore")}
-              </div>
-              <a href="https://www.findhelp.org/search?zip=14604" target="_blank" rel="noopener noreferrer" style={{
-                display: "inline-block", background: "#fff", color: "#1565c0",
-                padding: "8px 20px", borderRadius: 8, fontSize: 14, fontWeight: 600,
-                textDecoration: "none", border: "1px solid #bbdefb",
-              }}>
-                🔍 {t(lang, "findMoreLink")} ↗
               </a>
             </div>
 

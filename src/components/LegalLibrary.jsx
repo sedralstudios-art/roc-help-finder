@@ -278,10 +278,23 @@ function LanguagePicker() { return null; }
 // ═══════════════════════════════════════════════════════════════════════════
 // CATEGORY OVERVIEW — 7 big tiles
 // ═══════════════════════════════════════════════════════════════════════════
-export function LegalLibraryCategories({ legalLang, setLegalLang, onOpenCategory, onBack }) {
+export function LegalLibraryCategories({ legalLang, setLegalLang, onOpenCategory, onOpenEntry, onBack }) {
   const isRTL = RTL_LEGAL_LANGS.has(legalLang);
   // Only show categories that actually have entries
   const categories = LEGAL_CATEGORIES.filter((c) => (LEGAL_ENTRIES_BY_CATEGORY[c] || []).length > 0);
+
+  // Search across every entry in the library — title, summary, and tags.
+  const [query, setQuery] = React.useState("");
+  const trimmedQuery = query.trim().toLowerCase();
+  const searchResults = React.useMemo(() => {
+    if (trimmedQuery.length < 2) return [];
+    return LEGAL_ENTRIES.filter((e) => {
+      const title = (pickText(e.title, legalLang) || "").toLowerCase();
+      const summary = (pickText(e.summary, legalLang) || "").toLowerCase();
+      const tags = (e.tags || []).join(" ").toLowerCase();
+      return title.includes(trimmedQuery) || summary.includes(trimmedQuery) || tags.includes(trimmedQuery);
+    }).slice(0, 40);
+  }, [trimmedQuery, legalLang]);
 
   return (
     <main dir={isRTL ? "rtl" : "ltr"} style={{ padding: "0 20px 40px", maxWidth: 920, margin: "0 auto" }}>
@@ -291,9 +304,71 @@ export function LegalLibraryCategories({ legalLang, setLegalLang, onOpenCategory
       <p style={{ fontSize: 16, color: C.stone, marginBottom: 6, lineHeight: 1.6 }}>
         {LEGAL_ENTRIES.length} free legal guides for New York. Plain language, verified, with free legal aid phone numbers.
       </p>
-      <p style={{ fontSize: 13, color: C.dust, marginBottom: 22, lineHeight: 1.6 }}>
-        Pick a topic below to see the guides. Every guide cites the law and lists free legal aid organizations.
+      <p style={{ fontSize: 13, color: C.dust, marginBottom: 18, lineHeight: 1.6 }}>
+        Search any topic below, or pick a category. Every guide cites the law and lists free legal aid organizations.
       </p>
+
+      {/* Search bar — searches across all entries by title, summary, and tags */}
+      <div style={{ marginBottom: 22 }}>
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search guides — try 'eviction', 'medicaid', 'speeding ticket'..."
+          style={{
+            width: "100%",
+            padding: "14px 18px",
+            fontSize: 16,
+            fontFamily: "inherit",
+            color: C.bark,
+            background: C.white,
+            border: "2px solid " + C.border,
+            borderRadius: 12,
+            outline: "none",
+            boxSizing: "border-box",
+            transition: "border-color 0.15s",
+          }}
+          onFocus={(e) => (e.currentTarget.style.borderColor = C.forest)}
+          onBlur={(e) => (e.currentTarget.style.borderColor = C.border)}
+        />
+      </div>
+
+      {/* Search results — shown in place of the category grid when query is active */}
+      {trimmedQuery.length >= 2 ? (
+        <div style={{ marginBottom: 22 }}>
+          <div style={{ fontSize: 13, color: C.dust, marginBottom: 10 }}>
+            {searchResults.length === 0
+              ? "No matching guides. Try a different word."
+              : searchResults.length + " match" + (searchResults.length === 1 ? "" : "es") + (searchResults.length === 40 ? " (showing first 40)" : "")}
+          </div>
+          <div style={{ display: "grid", gap: 10 }}>
+            {searchResults.map((entry) => (
+              <button
+                key={entry.id}
+                onClick={() => onOpenEntry && onOpenEntry(entry.id)}
+                style={{
+                  textAlign: isRTL ? "right" : "left",
+                  background: C.white,
+                  border: "1px solid " + C.border,
+                  borderRadius: 10,
+                  padding: "12px 16px",
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  width: "100%",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                  <span style={{ fontSize: 10, fontWeight: 700, color: C.forest, background: C.sage, padding: "2px 7px", borderRadius: 5, textTransform: "uppercase", letterSpacing: 0.5 }}>{entry.tier}</span>
+                  <span style={{ fontSize: 11, color: C.dust }}>{(CATEGORY_META[entry.category] || {}).label || entry.category}</span>
+                </div>
+                <div style={{ fontSize: 15, fontWeight: 600, color: C.bark, lineHeight: 1.3 }}>
+                  {pickText(entry.title, legalLang)}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
 
       <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} />
 
@@ -391,8 +466,18 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
   const isTownSpecific = (e) => e.jurisdiction && /^us-ny-monroe-[^-]+-(town|village|city)$/.test(e.jurisdiction);
   const tierWeight = (e) => ({ federal: 0, state: 1, county: 2, town: 3, village: 3, city: 3, local: 3 }[e.tier] ?? 4);
 
-  const walkthroughEntries = entries.filter(isWalkthrough);
-  const nonWalkthroughs = entries.filter((e) => !isWalkthrough(e));
+  // In-category search — narrows the visible entries by title, summary, tags.
+  const [query, setQuery] = React.useState("");
+  const trimmedQuery = query.trim().toLowerCase();
+  const searchedEntries = trimmedQuery.length < 2 ? entries : entries.filter((e) => {
+    const title = (pickText(e.title, legalLang) || "").toLowerCase();
+    const summary = (pickText(e.summary, legalLang) || "").toLowerCase();
+    const tags = (e.tags || []).join(" ").toLowerCase();
+    return title.includes(trimmedQuery) || summary.includes(trimmedQuery) || tags.includes(trimmedQuery);
+  });
+
+  const walkthroughEntries = searchedEntries.filter(isWalkthrough);
+  const nonWalkthroughs = searchedEntries.filter((e) => !isWalkthrough(e));
   const mainEntries = nonWalkthroughs.filter((e) => !isTownSpecific(e)).sort((a, b) => tierWeight(a) - tierWeight(b));
   const townEntries = nonWalkthroughs.filter(isTownSpecific);
   const [showTownEntries, setShowTownEntries] = React.useState(false);
@@ -424,6 +509,36 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
       )}
 
       <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} />
+
+      {/* Search bar — filter within this category */}
+      <div style={{ marginBottom: 18 }}>
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={"Search " + meta.label.toLowerCase() + " guides..."}
+          style={{
+            width: "100%",
+            padding: "12px 16px",
+            fontSize: 15,
+            fontFamily: "inherit",
+            color: C.bark,
+            background: C.white,
+            border: "2px solid " + C.border,
+            borderRadius: 10,
+            outline: "none",
+            boxSizing: "border-box",
+            transition: "border-color 0.15s",
+          }}
+          onFocus={(e) => (e.currentTarget.style.borderColor = C.forest)}
+          onBlur={(e) => (e.currentTarget.style.borderColor = C.border)}
+        />
+        {trimmedQuery.length >= 2 && (
+          <div style={{ fontSize: 12, color: C.dust, marginTop: 6 }}>
+            {searchedEntries.length} match{searchedEntries.length === 1 ? "" : "es"} in {meta.label}
+          </div>
+        )}
+      </div>
 
       {/* Walkthroughs — pinned at top with amber accent (form prep guides) */}
       {walkthroughEntries.length > 0 && (
