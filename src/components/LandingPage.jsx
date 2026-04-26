@@ -670,6 +670,9 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <div style={{ fontSize: 11, color: C.dust, letterSpacing: 0.5 }}>
               {PROGRAMS.length} programs · {LEGAL_ENTRIES.length} legal guides · {GLOSSARY_TERMS.length} definitions
             </div>
+            <div style={{ fontSize: 11, color: C.dust, letterSpacing: 0.5, marginTop: 4, fontStyle: "italic" }}>
+              and growing
+            </div>
           </div>
 
           {/* ── TWO-CIRCLE DOORS ── Find help (green) + Know Your Rights (amber) */}

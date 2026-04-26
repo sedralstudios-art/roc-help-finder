@@ -30,6 +30,14 @@
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #fafaf7; }
+      /* Smooth handoff from the prerendered SEO shell to the React app.
+         The shell stays visible while React downloads (so crawlers and slow
+         connections see real content). Once React mounts, main.jsx fades the
+         shell out via this transition and then removes it from the DOM.
+         The React tree fades in via its own opacity animation. */
+      #prerender-content { transition: opacity 0.15s ease-out; }
+      @keyframes hf-app-in { from { opacity: 0; } to { opacity: 1; } }
+      #root:not(:empty) { animation: hf-app-in 0.25s ease-out both; }
     </style>
 
     <!-- Preload the single webfont so headings don't flash in Georgia before
