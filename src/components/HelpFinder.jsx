@@ -1223,6 +1223,16 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
                 {t(lang, "apply")} ↗
               </a>
             )}
+            {p.walkthroughEntryId && (
+              <a href={"/know-your-rights/" + p.walkthroughEntryId}
+                onClick={() => trackClick(p.id + "-walkthrough")}
+                style={{
+                  background: "#fdf6ec", color: "#a07626", padding: "6px 14px",
+                  borderRadius: 8, fontSize: 13, fontWeight: 600, textDecoration: "none",
+                }}>
+                📝 Form prep guide
+              </a>
+            )}
           </div>
         </div>
       )}
