@@ -17,7 +17,7 @@ export const BANKRUPTCY = {
   },
 
   plainEnglish: {
-    en: "A federal court process that gives a person a legal way to deal with debt they can't pay. There are two main kinds for regular people. Chapter 7 is the one most people mean when they say 'bankruptcy' — it wipes out most debts in about 4 to 6 months, but you have to pass an income test. Chapter 13 is a 3-to-5-year repayment plan where you keep your property (like a house or car behind on payments) and pay what you can afford. Some debts cannot be wiped out — most student loans, recent taxes, child support, and court fines. Filing stops most collection activity right away through something called the automatic stay."
+    en: "A federal court process that gives a person a legal way to deal with debt they can't pay. There are two main kinds for regular people. Chapter 7 is the one most people mean when they say 'bankruptcy' — it wipes out most debts in about 4 to 6 months, but the filer has to pass an income test. Chapter 13 is a 3-to-5-year repayment plan that lets the filer keep property (like a house or car behind on payments) and pay what they can afford. Some debts cannot be wiped out — most student loans, recent taxes, child support, and court fines. Filing stops most collection activity right away through something called the automatic stay."
   },
 
   whatToAsk: {

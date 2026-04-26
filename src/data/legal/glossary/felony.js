@@ -13,13 +13,13 @@ export const FELONY = {
   },
 
   plainEnglish: {
-    en: "A crime that can send you to prison for more than one year. In New York, felonies are grouped into classes — Class A is the most serious (like murder), down to Class E (the lowest). A felony case usually goes through a grand jury first. A felony stays on your record for a long time and affects jobs, housing, voting, and more, unless it is sealed or expunged later."
+    en: "A crime that can send a person to prison for more than one year. In New York, felonies are grouped into classes — Class A is the most serious (like murder), down to Class E (the lowest). A felony case usually goes through a grand jury first. A felony stays on the defendant's record for a long time and affects jobs, housing, voting, and more, unless it is sealed or expunged later."
   },
 
   whatToAsk: {
     en: [
       "What class of felony is this?",
-      "Is it a violent felony? Those have stricter rules.",
+      "Is it classified as a violent felony with stricter rules?",
       "What is the longest sentence possible?",
       "Does my case have to go to a grand jury? When?",
       "Can this be reduced to a misdemeanor?"

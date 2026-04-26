@@ -10,7 +10,7 @@ export const DEDUCTIBLE = {
   },
 
   plainEnglish: {
-    en: "The amount of money you pay for health care before your insurance kicks in. For example, if your deductible is $500, you pay the first $500 of medical bills yourself. After that, insurance covers its share (minus any co-pay). Deductibles reset every year. Medicaid in New York generally has no deductible — services are covered from day one. Marketplace plans (NY State of Health) have deductibles that vary by plan level: bronze plans have higher deductibles and lower premiums; silver and gold have lower deductibles and higher premiums."
+    en: "The amount of money a patient pays for health care before insurance kicks in. With a deductible of, say, several hundred dollars, the patient pays the first stretch of medical bills out of pocket. After that, insurance covers its share (minus any co-pay). Deductibles reset every year. Medicaid in New York generally has no deductible — services are covered from day one. Marketplace plans (NY State of Health) have deductibles that vary by plan level: bronze plans have higher deductibles and lower premiums; silver and gold have lower deductibles and higher premiums."
   },
 
   whatToAsk: {

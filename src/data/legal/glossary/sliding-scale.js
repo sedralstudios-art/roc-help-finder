@@ -10,7 +10,7 @@ export const SLIDING_SCALE = {
   },
 
   plainEnglish: {
-    en: "A pricing system where the cost of a service depends on your income. If you earn less, you pay less. Some places charge nothing at all for people below a certain income level. Clinics, dental offices, mental health providers, and some legal services use sliding scales. You usually have to bring proof of income (a pay stub, tax return, or benefits letter) and they calculate your rate from there. Sliding scale is different from free — you may still owe something, but it is based on what you can actually afford."
+    en: "A pricing system where the cost of a service depends on the patient's income. Lower earnings mean a lower rate. Some places charge nothing at all for people below a certain income level. Clinics, dental offices, mental health providers, and some legal services use sliding scales. The patient usually has to bring proof of income (a pay stub, tax return, or benefits letter) and the provider calculates the rate. Sliding scale is different from free — the patient may still owe something, but it is based on what they can actually afford."
   },
 
   whatToAsk: {

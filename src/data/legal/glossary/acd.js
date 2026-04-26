@@ -14,7 +14,7 @@ export const ACD = {
   },
 
   plainEnglish: {
-    en: "The case is put on hold, usually for 6 months. If you stay out of trouble during that time, the case is dropped and your record is sealed. You do not plead guilty. It is not a conviction. You don't get an ACD for serious crimes — it is only for smaller ones like misdemeanors."
+    en: "The case is put on hold, usually for 6 months. If the defendant stays out of trouble during that time, the case is dropped and the record is sealed. There is no guilty plea. It is not a conviction. ACDs are not available for serious crimes — only smaller ones like misdemeanors."
   },
 
   whatToAsk: {

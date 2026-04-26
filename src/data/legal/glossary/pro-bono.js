@@ -10,7 +10,7 @@ export const PRO_BONO = {
   },
 
   plainEnglish: {
-    en: "Legal work done for free by a private lawyer who volunteers their time. Many law firms require their attorneys to do a certain number of pro bono hours each year. Pro bono lawyers handle the same kinds of cases as Legal Aid — family law, housing, immigration, benefits, consumer debt — but through a volunteer model. In Monroe County, JustCause (formerly the Volunteer Legal Services Project) coordinates pro bono lawyers for legal clinics and individual cases. You do not get to choose which lawyer you get, but you get a real lawyer with the same duties as one you paid for."
+    en: "Legal work done for free by a private lawyer who volunteers their time. Many law firms require their attorneys to do a certain number of pro bono hours each year. Pro bono lawyers handle the same kinds of cases as Legal Aid — family law, housing, immigration, benefits, consumer debt — but through a volunteer model. In Monroe County, JustCause (formerly the Volunteer Legal Services Project) coordinates pro bono lawyers for legal clinics and individual cases. The client does not get to choose the lawyer, but the assigned attorney is a real lawyer with the same duties as one paid by the hour."
   },
 
   whatToAsk: {

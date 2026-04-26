@@ -10,7 +10,7 @@ export const REFERRAL = {
   },
 
   plainEnglish: {
-    en: "When one provider or agency sends you to another for a specific service. In health care, a referral from your primary care doctor may be required before you can see a specialist, depending on your insurance plan. Medicaid managed care plans in New York often require referrals for specialists. In social services, a referral means an agency is connecting you with a program that fits your needs — they may call ahead, give you a name to ask for, or send your information (with your permission). A referral is not a guarantee of service — the receiving program still does its own intake and eligibility check."
+    en: "When one provider or agency sends a person to another for a specific service. In health care, a referral from the primary care doctor may be required before the patient can see a specialist, depending on the insurance plan. Medicaid managed care plans in New York often require referrals for specialists. In social services, a referral means an agency is connecting the client with a program that fits their needs — the staff may call ahead, give a name to ask for, or send the client's information (with permission). A referral is not a guarantee of service — the receiving program still does its own intake and eligibility check."
   },
 
   whatToAsk: {

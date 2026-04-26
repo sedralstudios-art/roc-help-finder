@@ -10,7 +10,7 @@ export const EBT_CARD = {
   },
 
   plainEnglish: {
-    en: "A card the state gives you to access your SNAP (food) benefits and sometimes cash assistance. It looks and works like a regular debit card. You swipe it at the checkout at most grocery stores, farmers markets, and some convenience stores. The balance reloads once a month on a set date. If the card is lost or stolen, call the number on the back or your county DSS to get a replacement."
+    en: "A card the state issues to access SNAP (food) benefits and sometimes cash assistance. It looks and works like a regular debit card. The recipient swipes it at the checkout at most grocery stores, farmers markets, and some convenience stores. The balance reloads once a month on a set date. A lost or stolen card can be replaced by calling the number on the back or the county DSS."
   },
 
   whatToAsk: {

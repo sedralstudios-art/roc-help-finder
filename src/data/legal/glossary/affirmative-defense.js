@@ -10,7 +10,7 @@ export const AFFIRMATIVE_DEFENSE = {
   },
 
   plainEnglish: {
-    en: "An affirmative defense is when the person being accused says: 'Even if what you say happened is true, I had a legal right to do it' or 'there is a legal reason I should not be punished.' Self-defense in an assault case is an example — the person admits they hit someone but says they had to because they were being attacked. Landlord retaliation in an eviction case is another — the tenant says the eviction is payback for a complaint, not a real lease violation. The person raising the defense has to bring it up and provide some evidence. Then the other side has to disprove it."
+    en: "An affirmative defense is when the person being accused says: 'Even if the events happened as described, I had a legal right to do it' or 'there is a legal reason I should not be punished.' Self-defense in an assault case is an example — the person admits they hit someone but says they had to because they were being attacked. Landlord retaliation in an eviction case is another — the tenant says the eviction is payback for a complaint, not a real lease violation. The person raising the defense has to bring it up and provide some evidence. Then the other side has to disprove it."
   },
 
   whatToAsk: {

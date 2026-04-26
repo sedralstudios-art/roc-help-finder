@@ -13,7 +13,7 @@ export const ROR = {
   },
 
   plainEnglish: {
-    en: "The judge lets you go home on a promise — no money. You just have to come to every court date. If you miss one, the judge can put a warrant out for your arrest, and next time you may be held instead of released. ROR is the most common way people leave arraignment in New York for small charges."
+    en: "The judge lets the defendant go home on a promise — no money. The defendant has to come to every court date. Missing one can lead the judge to issue a warrant, and next time the defendant may be held instead of released. ROR is the most common way people leave arraignment in New York for small charges."
   },
 
   whatToAsk: {
