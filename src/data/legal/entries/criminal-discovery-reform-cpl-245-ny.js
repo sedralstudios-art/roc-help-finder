@@ -46,7 +46,7 @@ export const CRIMINAL_DISCOVERY_REFORM_CPL_245_NY = {
       "Monroe County Assigned Counsel at (585) 428-5425 — appointed private counsel for indigent defendants.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — misdemeanor defense including COC challenges.",
-      "Empire Justice Center Criminal Justice at (585) 295-5800 — policy and impact cases.",
+      "Empire Justice Center Criminal Justice at (585) 454-4060 — policy and impact cases.",
       "NYS Division of Criminal Justice Services at (518) 485-7644 — criminal history records relevant to defense investigation.",
       "National Association of Criminal Defense Lawyers at (202) 872-8600 — federal and multi-jurisdictional resources."
     ]

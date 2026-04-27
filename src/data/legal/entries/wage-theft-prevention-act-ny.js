@@ -45,7 +45,7 @@ export const WAGE_THEFT_PREVENTION_ACT_NY = {
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 for free wage theft investigation.",
       "NYS Attorney General Labor Bureau at (212) 416-6000 for pattern wage-theft cases.",
       "Legal Aid Society of Rochester at (585) 232-4090 for low-income worker representation.",
-      "Empire Justice Center at (585) 295-5702 for class actions and major cases.",
+      "Empire Justice Center at (585) 454-4060 for class actions and major cases.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for contingency employment attorneys.",
       "For LAB 195 templates in multiple languages, dol.ny.gov/notice-and-acknowledgement-pay-rate-and-payday-forms."
     ]
@@ -76,7 +76,7 @@ export const WAGE_THEFT_PREVENTION_ACT_NY = {
       qualifier: "Monroe County workers at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

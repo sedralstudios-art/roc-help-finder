@@ -46,7 +46,7 @@ export const MORTGAGE_PREFORECLOSURE_90_DAY_NOTICE_NY = {
       "PathStone at (585) 340-3300 for bilingual housing counseling.",
       "Consumer Credit Counseling Service of Rochester at (585) 546-3440 for financial counseling.",
       "Legal Aid Society of Rochester at (585) 232-4090 for foreclosure defense representation.",
-      "Empire Justice Center at (585) 295-5702 for complex foreclosure cases.",
+      "Empire Justice Center at (585) 454-4060 for complex foreclosure cases.",
       "NY Homeowner Assistance Fund at 1-844-77-NYHAF for mortgage arrears grants."
     ]
   },

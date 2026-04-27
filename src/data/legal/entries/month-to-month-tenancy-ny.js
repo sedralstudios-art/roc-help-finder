@@ -46,7 +46,7 @@ export const MONTH_TO_MONTH_TENANCY_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 helps tenants on month-to-month with notice review and eviction defense.",
       "JustCause (formerly VLSP) at (585) 232-3051 connects tenants with volunteer attorneys.",
       "City of Rochester Code Enforcement at (585) 428-7387 handles habitability complaints during the tenancy.",
-      "Empire Justice Center Tenant Defenders Project at (585) 295-5775 represents tenants in complex termination cases."
+      "Empire Justice Center Tenant Defenders Project at (585) 454-4060 represents tenants in complex termination cases."
     ]
   },
 
@@ -88,7 +88,7 @@ export const MONTH_TO_MONTH_TENANCY_NY = {
       qualifier: "Low-income tenants",
       access: "Phone intake",
       outcome: "Litigation support",
-      phone: "(585) 295-5775",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

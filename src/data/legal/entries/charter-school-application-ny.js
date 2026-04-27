@@ -44,7 +44,7 @@ export const CHARTER_SCHOOL_APPLICATION_NY = {
       "NY State Education Department Charter Schools Office at (518) 474-1762 monitors Regents-authorized charters.",
       "SUNY Charter Schools Institute at (518) 445-4250 monitors SUNY-authorized charters.",
       "NY State Division of Human Rights at (888) 392-3644 receives education discrimination complaints.",
-      "Empire Justice Center at (585) 295-5775 represents families in education access disputes.",
+      "Empire Justice Center at (585) 454-4060 represents families in education access disputes.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income families in special education disputes at charter schools.",
       "Rochester City School District Transportation Office at (585) 262-8200 handles transportation to in-district charters."
     ]
@@ -75,7 +75,7 @@ export const CHARTER_SCHOOL_APPLICATION_NY = {
       qualifier: "Low-income families facing education barriers",
       access: "Phone intake",
       outcome: "Legal advice and representation",
-      phone: "(585) 295-5775",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

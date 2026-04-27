@@ -44,7 +44,7 @@ export const MITCHELL_LAMA_AFFORDABLE_HOUSING_NY = {
       "HCR Division of Housing and Community Renewal at (718) 739-6400 handles enforcement and complaints.",
       "Individual Mitchell-Lama developments have management offices with waiting list applications.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents Mitchell-Lama tenants in disputes.",
-      "Empire Justice Center at (585) 295-5702 for succession and major rights cases.",
+      "Empire Justice Center at (585) 454-4060 for succession and major rights cases.",
       "HCR Mitchell-Lama directory at hcr.ny.gov lists developments by location."
     ]
   },
@@ -74,7 +74,7 @@ export const MITCHELL_LAMA_AFFORDABLE_HOUSING_NY = {
       qualifier: "Monroe County Mitchell-Lama resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

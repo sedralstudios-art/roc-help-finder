@@ -44,7 +44,7 @@ export const HOME_CARE_AIDE_WAGE_PARITY_NY = {
       "NY Department of Health Home Care Licensing at (518) 408-1210 handles Medicaid provider compliance.",
       "1199 SEIU Home Care Division at (212) 582-1890 represents unionized aides and provides wage support.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income aides in wage cases.",
-      "Empire Justice Center at (585) 295-5702 handles major wage parity and industry-wide cases.",
+      "Empire Justice Center at (585) 454-4060 handles major wage parity and industry-wide cases.",
       "For CDPAP consumer issues, Monroe County Department of Human Services at (585) 753-6960 coordinates Medicaid home care."
     ]
   },
@@ -74,7 +74,7 @@ export const HOME_CARE_AIDE_WAGE_PARITY_NY = {
       qualifier: "Monroe County worker at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

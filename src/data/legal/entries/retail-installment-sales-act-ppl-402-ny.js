@@ -47,7 +47,7 @@ export const RETAIL_INSTALLMENT_SALES_ACT_PPL_402_NY = {
       "NYS Department of Financial Services Consumer Helpline at (800) 342-3736 — finance company complaints.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — consumer finance attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income consumer contract disputes.",
-      "Empire Justice Center Consumer Unit at (585) 295-5800 — systemic consumer advocacy.",
+      "Empire Justice Center Consumer Unit at (585) 454-4060 — systemic consumer advocacy.",
       "Consumer Financial Protection Bureau at (855) 411-2372 — federal TILA complaints."
     ]
   },

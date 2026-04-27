@@ -46,7 +46,7 @@ export const INFORMED_CONSENT_MEDICAL_NY = {
       "NYS Department of Health Bureau of Licensing and Certification at (518) 402-0905 — hospital consent protocol complaints.",
       "NYS Office of Professional Medical Conduct at (800) 663-6114 — physician complaints including consent.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income medical malpractice consultation.",
-      "Empire Justice Center at (585) 295-5800 — impact cases on patient rights.",
+      "Empire Justice Center at (585) 454-4060 — impact cases on patient rights.",
       "Hospital patient advocate — ask at admission for the on-staff patient advocate."
     ]
   },

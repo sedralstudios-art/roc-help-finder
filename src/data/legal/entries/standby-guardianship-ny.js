@@ -46,7 +46,7 @@ export const STANDBY_GUARDIANSHIP_NY = {
       "Monroe County Family Court at (585) 428-7200 — for FCA 661 concurrent custody-care designations.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — family law attorneys for drafting standby designations.",
       "Legal Aid Society of Rochester at (585) 232-4090 — free or low-cost standby designations for low-income parents.",
-      "Empire Justice Center at (585) 295-5800 — immigration-related standby designations for detained parents.",
+      "Empire Justice Center at (585) 454-4060 — immigration-related standby designations for detained parents.",
       "NYC Legal Aid Society Family Law Unit — downloadable SCPA 1726 designation forms at legalaidnyc.org.",
       "Catholic Family Center at (585) 262-7017 — family counseling and standby planning for seriously ill parents."
     ]
@@ -75,9 +75,9 @@ export const STANDBY_GUARDIANSHIP_NY = {
       name: "Empire Justice Center Immigration Unit",
       focus: "Standby designations for parents facing immigration detention",
       qualifier: "Immigrant parents in Monroe County",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Designation drafting coordinated with federal detention process",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

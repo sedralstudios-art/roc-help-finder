@@ -46,7 +46,7 @@ export const CIVIL_ASSET_FORFEITURE_DEFENSE_NY = {
     en: [
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — civil forfeiture defense attorneys.",
       "Monroe County Public Defender at (585) 753-4300 — not funded for civil forfeiture but may advise on related criminal case.",
-      "Empire Justice Center at (585) 295-5800 — impact litigation on civil forfeiture.",
+      "Empire Justice Center at (585) 454-4060 — impact litigation on civil forfeiture.",
       "Institute for Justice at (703) 682-9320 — national advocacy on forfeiture reform; case referrals.",
       "Monroe County District Attorney's Office at (585) 753-4500 — claiming authority for Monroe County forfeiture actions.",
       "NYS Attorney General Organized Crime Task Force — state-level forfeiture actions; main NY OAG line at (800) 771-7755.",

@@ -43,7 +43,7 @@ export const STOLEN_EBT_SNAP_REPLACEMENT_NY = {
       "Monroe County Department of Human Services at (585) 753-6960 processes theft replacement claims.",
       "Online transaction history at connectebt.com with account lock/unlock features.",
       "For denied claims, Fair Hearing request through NYS OTDA at 1-800-342-3334.",
-      "Legal Aid Society of Rochester at (585) 232-4090 and Empire Justice Center at (585) 295-5702 represent households at Fair Hearings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 and Empire Justice Center at (585) 454-4060 represent households at Fair Hearings.",
       "USDA Food and Nutrition Service Northeast Region at (617) 565-6370 for federal-level policy questions."
     ]
   },
@@ -73,7 +73,7 @@ export const STOLEN_EBT_SNAP_REPLACEMENT_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation at Fair Hearings",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

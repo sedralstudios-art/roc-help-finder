@@ -43,7 +43,7 @@ export const EMERGENCY_RENTAL_ASSISTANCE_PROGRAM_NY = {
       "Monroe County Department of Human Services at (585) 753-6960 for local application help.",
       "Catholic Family Center at (585) 262-7100 for free application navigation.",
       "Legal Aid Society of Rochester at (585) 232-4090 for eviction defense and ERAP coordination.",
-      "Empire Justice Center at (585) 295-5702 for complex ERAP appeals or landlord refusal cases.",
+      "Empire Justice Center at (585) 454-4060 for complex ERAP appeals or landlord refusal cases.",
       "2-1-1 at (585) 442-0220 for general resource connection."
     ]
   },

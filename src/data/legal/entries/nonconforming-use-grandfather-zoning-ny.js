@@ -47,7 +47,7 @@ export const NONCONFORMING_USE_GRANDFATHER_ZONING_NY = {
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — land use and zoning attorneys.",
       "NYS Department of State Division of Local Government Services at (518) 473-3355 — training and guidance on zoning administration.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income property owners facing zoning enforcement.",
-      "Empire Justice Center at (585) 295-5800 — land use and housing advocacy."
+      "Empire Justice Center at (585) 454-4060 — land use and housing advocacy."
     ]
   },
 

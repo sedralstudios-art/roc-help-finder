@@ -44,7 +44,7 @@ export const GOOD_CAUSE_EVICTION_NY = {
   legalOptions: {
     en: [
       "Legal Aid Society of Rochester Housing Unit at (585) 232-4090.",
-      "Empire Justice Center at (585) 295-5800 — complex good cause and rent disputes.",
+      "Empire Justice Center at (585) 454-4060 — complex good cause and rent disputes.",
       "JustCause at (585) 295-5708 — pro bono housing representation.",
       "Rochester City-Wide Tenant Union at (585) 270-0411 — organizing and good cause tracking.",
       "NYS HCR Tenant Protection Unit at (833) 208-4265.",

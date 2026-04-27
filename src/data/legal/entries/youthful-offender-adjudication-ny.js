@@ -47,7 +47,7 @@ export const YOUTHFUL_OFFENDER_ADJUDICATION_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 — YO sealing and collateral consequences.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense attorneys.",
       "NYS Division of Criminal Justice Services (DCJS) RAP Sheet at (518) 485-7644 — confirm YO sealing status on criminal history record.",
-      "Empire Justice Center Youth Justice Project at (585) 295-5800 — policy and impact cases.",
+      "Empire Justice Center Youth Justice Project at (585) 454-4060 — policy and impact cases.",
       "Osborne Association Youth Reentry at (718) 637-6560 — statewide youth reentry services."
     ]
   },

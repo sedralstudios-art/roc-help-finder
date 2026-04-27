@@ -49,7 +49,7 @@ export const NY_STATE_SUPPLEMENTATION_PROGRAM_SSP_NY = {
       "Monroe County Department of Human Services at (585) 753-6800 — Medicaid and SNAP coordination with SSI/SSP.",
       "Lifespan of Greater Rochester at (585) 244-8400 — senior SSI/SSP enrollment and advocacy.",
       "Legal Aid Society of Rochester at (585) 232-4090 — SSI denials, terminations, and overpayments.",
-      "Empire Justice Center SSI at (585) 295-5800 — representation in SSI/SSP administrative hearings.",
+      "Empire Justice Center SSI at (585) 454-4060 — representation in SSI/SSP administrative hearings.",
       "Center for Disability Rights at (585) 546-7510 — disability benefits advocacy."
     ]
   },

@@ -48,7 +48,7 @@ export const NOTICE_OF_CLAIM_MUNICIPAL_NY = {
       "Monroe County school district offices — each district has its own clerk.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — municipal liability attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — help for low-income claimants.",
-      "Empire Justice Center at (585) 295-5800 — complex municipal and civil rights claims.",
+      "Empire Justice Center at (585) 454-4060 — complex municipal and civil rights claims.",
       "NY State Court of Claims at (518) 474-8855 — claims against NYS (not subject to GML 50-e but similar notice rules)."
     ]
   },
@@ -76,9 +76,9 @@ export const NOTICE_OF_CLAIM_MUNICIPAL_NY = {
       name: "Empire Justice Center",
       focus: "Civil rights suits with municipal defendants, 1983 claims, systemic cases",
       qualifier: "Low-income Monroe County residents with significant claims",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation in civil rights and municipal tort cases",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

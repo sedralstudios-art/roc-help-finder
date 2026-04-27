@@ -52,7 +52,7 @@ export const COLLEGE_IN_STATE_TUITION_RESIDENCY_NY = {
       "NYSYLC (NY State Youth Leadership Council) at (646) 484-8537 — DREAM Act student support.",
       "NY State Department of Veterans' Services at (888) 838-7697 — military tuition.",
       "Legal Aid Society of Rochester at (585) 232-4090 — complex residency appeals.",
-      "Empire Justice Center at (585) 295-5800 — Article 78 residency litigation."
+      "Empire Justice Center at (585) 454-4060 — Article 78 residency litigation."
     ]
   },
 

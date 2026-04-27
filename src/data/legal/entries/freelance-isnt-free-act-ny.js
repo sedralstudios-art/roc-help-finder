@@ -48,7 +48,7 @@ export const FREELANCE_ISNT_FREE_ACT_NY = {
       "NYC Department of Consumer and Worker Protection at (212) 436-0395 — enforces the NYC Freelance Isn't Free Act for NYC-performed work.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — employment attorneys for civil enforcement.",
       "Freelancers Union at (800) 856-9981 — advocacy, resources, and member legal support.",
-      "Empire Justice Center at (585) 295-5800 — low-income worker support.",
+      "Empire Justice Center at (585) 454-4060 — low-income worker support.",
       "NYS Department of Labor misclassification helpline at (518) 457-2810 — when the freelancer may really be an employee."
     ]
   },

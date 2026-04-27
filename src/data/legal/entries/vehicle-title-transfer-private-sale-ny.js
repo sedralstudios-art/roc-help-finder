@@ -45,7 +45,7 @@ export const VEHICLE_TITLE_TRANSFER_PRIVATE_SALE_NY = {
       "NY DMV Form MV-103 (Odometer Disclosure) — for vehicles under 20 model years old.",
       "Monroe County DMV main office at 200 East Main Street, Rochester. Other Monroe County DMV offices in Greece, Henrietta, and Irondequoit.",
       "Make a DMV appointment at dmv.ny.gov/locations to skip the walk-in line for title transfers.",
-      "Empire Justice Center Consumer Law Project at (585) 295-5775 helps with disputes around undisclosed lemon or salvage history."
+      "Empire Justice Center Consumer Law Project at (585) 454-4060 helps with disputes around undisclosed lemon or salvage history."
     ]
   },
 
@@ -74,7 +74,7 @@ export const VEHICLE_TITLE_TRANSFER_PRIVATE_SALE_NY = {
       qualifier: "Low-income NY consumers",
       access: "Phone intake",
       outcome: "Legal advice and representation in consumer disputes",
-      phone: "(585) 295-5775",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

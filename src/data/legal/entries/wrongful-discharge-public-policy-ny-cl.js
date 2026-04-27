@@ -48,7 +48,7 @@ export const WRONGFUL_DISCHARGE_PUBLIC_POLICY_NY_CL = {
       "US Equal Employment Opportunity Commission at (800) 669-4000 — federal discrimination claims.",
       "NYS Department of Labor at (888) 52-LABOR — wage retaliation and whistleblower complaints.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — employment attorneys.",
-      "Empire Justice Center at (585) 295-5800 — low-wage worker representation.",
+      "Empire Justice Center at (585) 454-4060 — low-wage worker representation.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income employment matters.",
       "NYSBA Labor and Employment Section — attorney directory."
     ]

@@ -45,7 +45,7 @@ export const CROWN_ACT_HAIR_DISCRIMINATION_NY = {
       "Monroe County Commission on Human Rights at (585) 753-1550 handles local complaints.",
       "Equal Employment Opportunity Commission at (800) 669-4000 handles federal Title VII parallel cases.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income complainants.",
-      "Empire Justice Center at (585) 295-5702 handles major employment discrimination cases."
+      "Empire Justice Center at (585) 454-4060 handles major employment discrimination cases."
     ]
   },
 
@@ -74,7 +74,7 @@ export const CROWN_ACT_HAIR_DISCRIMINATION_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation, strategic advocacy",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

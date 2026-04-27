@@ -45,7 +45,7 @@ export const HEALTH_INSURANCE_EXTERNAL_APPEAL_NY = {
       "Community Service Society of NY Health Helpline at 1-888-614-5400 for free appeal preparation.",
       "NYS Attorney General Health Care Bureau at (212) 416-8400 for complex appeals and enforcement.",
       "Legal Aid Society of Rochester at (585) 232-4090 for low-income appellants.",
-      "Empire Justice Center at (585) 295-5702 for major insurance denial cases.",
+      "Empire Justice Center at (585) 454-4060 for major insurance denial cases.",
       "For self-funded ERISA plans, U.S. Department of Labor EBSA at (866) 444-3272."
     ]
   },

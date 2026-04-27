@@ -47,7 +47,7 @@ export const PARTITION_JOINT_PROPERTY_RPAPL_9_NY = {
       "Monroe County Clerk's Office at (585) 753-1600 — property records and deed history for partition analysis.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — real estate litigation and partition attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income co-owners (scope limited).",
-      "Empire Justice Center at (585) 295-5800 — impact cases involving heirs' property.",
+      "Empire Justice Center at (585) 454-4060 — impact cases involving heirs' property.",
       "Surrogate's Court at (585) 753-1600 — for partition of inherited property in active probate."
     ]
   },

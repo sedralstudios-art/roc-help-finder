@@ -48,7 +48,7 @@ export const NOTICE_OF_PENDENCY_LIS_PENDENS_NY = {
       "Monroe County Clerk's Office at (585) 753-1600 — filing and search of notices of pendency.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — attorneys for real estate litigation and lis pendens matters.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income homeowners facing lis pendens.",
-      "Empire Justice Center at (585) 295-5800 — foreclosure-related lis pendens advocacy.",
+      "Empire Justice Center at (585) 454-4060 — foreclosure-related lis pendens advocacy.",
       "NYS Attorney General Real Estate Finance Bureau at (212) 416-8225 — systemic concerns about wrongful filings.",
       "Title insurance companies (First American, Chicago Title, Fidelity) — clearance and escrow arrangements for closings with active notices."
     ]
@@ -77,9 +77,9 @@ export const NOTICE_OF_PENDENCY_LIS_PENDENS_NY = {
       name: "Empire Justice Center",
       focus: "Foreclosure defense including notice-of-pendency procedural questions",
       qualifier: "Low-income homeowners in the Rochester region",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation or referral in qualifying foreclosure cases",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

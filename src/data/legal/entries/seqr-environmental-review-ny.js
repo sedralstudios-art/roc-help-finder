@@ -48,7 +48,7 @@ export const SEQR_ENVIRONMENTAL_REVIEW_NY = {
       "Monroe County Department of Planning and Development at (585) 753-2000 — county-level SEQR coordination.",
       "Local town, village, or city planning board — primary SEQR lead for most local actions.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — environmental and land use attorneys.",
-      "Empire Justice Center at (585) 295-5800 — community SEQR advocacy.",
+      "Empire Justice Center at (585) 454-4060 — community SEQR advocacy.",
       "NYS Association of Towns at (518) 465-7933 — SEQR training for local officials.",
       "Natural Heritage Program at NY State Museum — endangered species consultation."
     ]

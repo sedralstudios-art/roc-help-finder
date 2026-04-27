@@ -47,7 +47,7 @@ export const ELEVATOR_INSPECTION_RULES_NY = {
       "Monroe County Building Department at (585) 753-1800.",
       "NYS Division of Housing and Community Renewal Tenant Protection Unit at (833) 208-4265.",
       "NYS Department of State Uniform Code Division at (518) 474-4073 — building code technical.",
-      "Empire Justice Center at (585) 295-5800 — systemic habitability.",
+      "Empire Justice Center at (585) 454-4060 — systemic habitability.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income tenant remedies.",
       "NY Attorney General Civil Rights Bureau at (212) 416-8000 — ADA claims.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — injury attorneys."

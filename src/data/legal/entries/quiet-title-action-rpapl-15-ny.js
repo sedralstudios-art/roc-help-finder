@@ -49,7 +49,7 @@ export const QUIET_TITLE_ACTION_RPAPL_15_NY = {
       "Title insurance companies (Stewart Title, First American, Fidelity) — title search and post-judgment insurance.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income property owners with title issues (scope limited).",
       "NYS Department of State Division of Licensing Services at (518) 474-4429 — title agent and abstract licensing.",
-      "Empire Justice Center at (585) 295-5800 — advocacy for low-income property owners in title disputes."
+      "Empire Justice Center at (585) 454-4060 — advocacy for low-income property owners in title disputes."
     ]
   },
 

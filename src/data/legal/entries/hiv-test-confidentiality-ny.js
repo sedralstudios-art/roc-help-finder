@@ -48,7 +48,7 @@ export const HIV_TEST_CONFIDENTIALITY_NY = {
       "Trillium Health Rochester at (585) 545-7200 — confidential HIV testing, treatment, case management.",
       "Anthony L. Jordan Health Center at (585) 423-5800 — community health services including HIV care.",
       "Legal Aid Society of Rochester at (585) 232-4090 — HIV disclosure and discrimination matters.",
-      "Empire Justice Center at (585) 295-5800 — impact cases involving HIV confidentiality.",
+      "Empire Justice Center at (585) 454-4060 — impact cases involving HIV confidentiality.",
       "NYCLU at (212) 607-3300 — HIV-related privacy and civil rights violations.",
       "NY Division of Human Rights at (888) 392-3644 — discrimination claims under Executive Law 296."
     ]

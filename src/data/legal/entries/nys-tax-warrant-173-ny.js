@@ -48,7 +48,7 @@ export const NYS_TAX_WARRANT_173_NY = {
       "Monroe County Clerk's Office at (585) 753-1600 — warrant search and release recording.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — tax attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income tax controversies.",
-      "Empire Justice Center Low Income Taxpayer Clinic at (585) 295-5800 — qualifying taxpayers."
+      "Empire Justice Center Low Income Taxpayer Clinic at (585) 454-4060 — qualifying taxpayers."
     ]
   },
 
@@ -75,9 +75,9 @@ export const NYS_TAX_WARRANT_173_NY = {
       name: "Empire Justice Center Low Income Taxpayer Clinic",
       focus: "Low-income taxpayer representation in tax controversies including warrants",
       qualifier: "Income under 250 percent of federal poverty level",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation in tax appeals, collection negotiation",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

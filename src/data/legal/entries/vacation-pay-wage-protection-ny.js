@@ -46,7 +46,7 @@ export const VACATION_PAY_WAGE_PROTECTION_NY = {
       "NYSDOL Online Complaint Form at labor.ny.gov — file a wage theft complaint.",
       "NYS Attorney General Labor Bureau at (212) 416-8700 — systemic wage violations.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — employment attorneys for individual cases.",
-      "Empire Justice Center at (585) 295-5800 — low-wage worker representation.",
+      "Empire Justice Center at (585) 454-4060 — low-wage worker representation.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income employment matters.",
       "NY State Bar Labor and Employment Section — attorney directory for complex wage cases."
     ]

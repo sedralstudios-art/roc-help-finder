@@ -50,7 +50,7 @@ export const MEDICAID_HCBS_WAIVER_NY = {
       "Monroe County Office for the Aging at (585) 753-6280 — senior HCBS referrals.",
       "Lifespan of Greater Rochester at (585) 244-8400 — senior HCBS advocacy and enrollment.",
       "NYCLU Health Access Project at (212) 607-3300 — Medicaid fair hearing representation.",
-      "Empire Justice Center Medicaid at (585) 295-5800 — systemic advocacy and individual representation.",
+      "Empire Justice Center Medicaid at (585) 454-4060 — systemic advocacy and individual representation.",
       "Center for Disability Rights at (585) 546-7510 — disability-specific waiver advocacy."
     ]
   },
@@ -78,9 +78,9 @@ export const MEDICAID_HCBS_WAIVER_NY = {
       name: "Empire Justice Center Medicaid",
       focus: "Fair Hearing representation and Medicaid appeals including HCBS",
       qualifier: "Low-income Monroe County Medicaid applicants and beneficiaries",
-      access: "Phone (585) 295-5800",
+      access: "Phone (585) 454-4060",
       outcome: "Representation at Medicaid Fair Hearing, Article 78 appeals",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

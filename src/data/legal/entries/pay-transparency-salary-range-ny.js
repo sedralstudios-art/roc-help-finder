@@ -48,7 +48,7 @@ export const PAY_TRANSPARENCY_SALARY_RANGE_NY = {
       "NYSDOL Division of Labor Standards at (518) 457-9000 — wage-related complaints beyond transparency.",
       "NYC Commission on Human Rights at (212) 306-7450 — NYC-specific pay transparency enforcement.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — employment attorneys.",
-      "Empire Justice Center at (585) 295-5800 — low-wage worker representation.",
+      "Empire Justice Center at (585) 454-4060 — low-wage worker representation.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income employment matters.",
       "NYS Attorney General Labor Bureau at (212) 416-8700 — systemic pay transparency enforcement."
     ]

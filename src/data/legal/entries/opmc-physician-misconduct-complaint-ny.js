@@ -47,7 +47,7 @@ export const OPMC_PHYSICIAN_MISCONDUCT_COMPLAINT_NY = {
       "NYS Education Department Office of the Professions at (518) 474-3817 — complaints against dentists, nurses, psychologists, PT, OT, and other non-physician licensees.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — malpractice and patient rights attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income patient advocacy.",
-      "Empire Justice Center at (585) 295-5800 — systemic healthcare advocacy.",
+      "Empire Justice Center at (585) 454-4060 — systemic healthcare advocacy.",
       "National Practitioner Data Bank at (800) 767-6732 — federal disciplinary record database (hospitals query; public may not directly)."
     ]
   },

@@ -50,7 +50,7 @@ export const NYS_INCOME_TAX_INSTALLMENT_PLAN_NY = {
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — tax attorneys for complex cases and OIC applications.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income taxpayer tax debt cases.",
       "Creative Workforce at (212) 366-3720 — LSC-funded low-income taxpayer clinic.",
-      "LITC — Low Income Taxpayer Clinic at Empire Justice Center (585) 295-5800 — free representation for qualifying taxpayers."
+      "LITC — Low Income Taxpayer Clinic at Empire Justice Center (585) 454-4060 — free representation for qualifying taxpayers."
     ]
   },
 
@@ -77,9 +77,9 @@ export const NYS_INCOME_TAX_INSTALLMENT_PLAN_NY = {
       name: "Empire Justice Center Low Income Taxpayer Clinic",
       focus: "Free representation for qualifying low-income taxpayers in state and federal tax disputes",
       qualifier: "Income under 250 percent of federal poverty level and disputed amount under $50,000",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation in IPA negotiation, OIC filing, collection due process",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

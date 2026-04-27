@@ -42,7 +42,7 @@ export const MOBILE_HOME_PARK_CLOSURE_NY = {
     en: [
       "NY Division of Housing and Community Renewal Mobile Home Park hotline at (518) 474-5941.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income mobile home residents.",
-      "Empire Justice Center at (585) 295-5702 handles complex mobile home park rights cases.",
+      "Empire Justice Center at (585) 454-4060 handles complex mobile home park rights cases.",
       "NY Rural Housing Coalition at (518) 458-0058 assists resident groups in cooperative purchase.",
       "ROC USA at (603) 856-0263 provides financing and technical help for Resident-Owned Communities.",
       "For park closure relocation fund, DHCR at (518) 474-5941 for application."
@@ -87,7 +87,7 @@ export const MOBILE_HOME_PARK_CLOSURE_NY = {
       qualifier: "Monroe County mobile home resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

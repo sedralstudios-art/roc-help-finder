@@ -50,7 +50,7 @@ export const GRAND_JURY_PROCESS_NY = {
       "Monroe County District Attorney at (585) 753-4500 — grand jury calendar and witness subpoena coordination.",
       "Federal Public Defender Western District NY at (716) 551-3341 — federal grand jury parallel proceedings.",
       "Legal Aid Society of Rochester at (585) 232-4090 — limited support for indigent witnesses.",
-      "Empire Justice Center Criminal Justice at (585) 295-5800 — policy and impact advocacy."
+      "Empire Justice Center Criminal Justice at (585) 454-4060 — policy and impact advocacy."
     ]
   },
 

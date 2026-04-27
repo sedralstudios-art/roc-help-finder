@@ -44,7 +44,7 @@ export const TENANT_ORGANIZING_RIGHTS_NY = {
   legalOptions: {
     en: [
       "Legal Aid Society of Rochester Housing Unit at (585) 232-4090.",
-      "Empire Justice Center at (585) 295-5800 — complex tenant organizing and retaliation cases.",
+      "Empire Justice Center at (585) 454-4060 — complex tenant organizing and retaliation cases.",
       "JustCause at (585) 295-5708 — pro bono representation of tenant associations.",
       "Rochester City-Wide Tenant Union at (585) 270-0411 — organizing support.",
       "Metro Justice at (585) 325-2560 — housing justice organizing.",

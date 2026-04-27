@@ -45,7 +45,7 @@ export const HOLDOVER_TENANT_NY = {
       "For holdover proceedings outside Rochester city limits, the local Town or Village Justice Court is the venue.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents tenants in eviction proceedings.",
       "JustCause (formerly VLSP) at (585) 232-3051 connects tenants with volunteer attorneys for eviction defense.",
-      "Empire Justice Center at (585) 295-5775 handles complex tenant cases and impact litigation.",
+      "Empire Justice Center at (585) 454-4060 handles complex tenant cases and impact litigation.",
       "Tenant Defenders / NY State Right to Counsel program — eligibility and coverage expanding through 2026.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for paid landlord-tenant attorneys.",
       "City of Rochester Code Enforcement at (585) 428-7387 for habitability complaints that support a habitability defense."

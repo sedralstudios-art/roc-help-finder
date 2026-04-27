@@ -48,7 +48,7 @@ export const SOCIAL_HOST_LIABILITY_NY = {
       "Monroe County District Attorney at (585) 753-4500 — criminal prosecution decisions.",
       "MADD Mothers Against Drunk Driving at (877) 623-3435.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income injured plaintiffs.",
-      "Empire Justice Center at (585) 295-5800 — impact cases.",
+      "Empire Justice Center at (585) 454-4060 — impact cases.",
       "NY State Bar Association Criminal Law Section at (518) 463-3200.",
       "Insurance Information Institute at (800) 942-4242 — homeowner's insurance coverage questions."
     ]

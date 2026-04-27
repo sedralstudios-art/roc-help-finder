@@ -47,7 +47,7 @@ export const NON_SOLICITATION_AGREEMENT_NY_CL = {
       "Monroe County Supreme Court at (585) 371-3300 — injunctive relief proceedings.",
       "NY Attorney General Consumer Frauds at (800) 771-7755.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income wrongful termination claims.",
-      "Empire Justice Center at (585) 295-5800 — policy advocacy on restrictive covenants.",
+      "Empire Justice Center at (585) 454-4060 — policy advocacy on restrictive covenants.",
       "NYSBA Labor and Employment Section at (518) 463-3200 — practitioner resources.",
       "Federal Trade Commission at (877) 382-4357 — federal non-compete rule (currently stayed)."
     ]
@@ -76,9 +76,9 @@ export const NON_SOLICITATION_AGREEMENT_NY_CL = {
       name: "Empire Justice Center",
       focus: "Impact litigation on restrictive covenants, low-wage worker cases",
       qualifier: "Low-income workers in NY",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation in policy-significant cases",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

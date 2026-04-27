@@ -46,7 +46,7 @@ export const SURVIVING_SPOUSE_ELECTIVE_SHARE_NY = {
       "Monroe County Surrogate's Court at (585) 371-3630 — filing notice of election.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — trusts and estates attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — help for low-income surviving spouses.",
-      "Empire Justice Center at (585) 295-5800 — complex elective-share or waiver litigation.",
+      "Empire Justice Center at (585) 454-4060 — complex elective-share or waiver litigation.",
       "JustCause at (585) 295-5708 — pro bono estate matters for low-income spouses.",
       "NY State Bar Association Surrogate's Court Section at (518) 463-3200 — practitioner resources.",
       "For contested waivers: independent attorney review before any agreement is signed."

@@ -49,7 +49,7 @@ export const RIGHT_TO_FARM_NY = {
       "NY Farm Bureau at (800) 342-4143 — farmer advocacy.",
       "Monroe County Real Property Tax Services at (585) 753-1125 — Agricultural Assessment.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — agricultural law attorneys.",
-      "Empire Justice Center at (585) 295-5800 — systemic land use.",
+      "Empire Justice Center at (585) 454-4060 — systemic land use.",
       "NYSBA Environmental Law Section at (518) 463-3200."
     ]
   },

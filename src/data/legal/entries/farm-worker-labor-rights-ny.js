@@ -46,7 +46,7 @@ export const FARM_WORKER_LABOR_RIGHTS_NY = {
       "Worker Justice Center of New York at (585) 325-3050 — primary farm worker legal services.",
       "NYS DOL Agricultural Labor Program at (888) 469-7365.",
       "NYS DOL Rochester District Office at (585) 258-4550.",
-      "Empire Justice Center at (585) 295-5800 — complex farm worker impact litigation.",
+      "Empire Justice Center at (585) 454-4060 — complex farm worker impact litigation.",
       "Rural and Migrant Ministry at (845) 485-8627 — statewide farm worker advocacy.",
       "NY Public Employment Relations Board (PERB) at (518) 457-2578.",
       "NY Attorney General Labor Bureau at (212) 416-8700.",

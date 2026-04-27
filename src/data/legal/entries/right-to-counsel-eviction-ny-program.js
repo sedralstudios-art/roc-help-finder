@@ -45,7 +45,7 @@ export const RIGHT_TO_COUNSEL_EVICTION_NY = {
       "Rochester Housing Court handles most city eviction cases; town and village courts handle suburban cases.",
       "Pre-court counseling is available from the Rochester Housing Council at (585) 546-3700.",
       "For rental assistance to resolve back rent as part of a settlement, the NYS Emergency Rental Assistance Program and Monroe County DHS are the state and county paths.",
-      "Empire Justice Center at (585) 295-5702 and LawNY also handle Right to Counsel cases for conflicts or specific case types."
+      "Empire Justice Center at (585) 454-4060 and LawNY also handle Right to Counsel cases for conflicts or specific case types."
     ]
   },
 

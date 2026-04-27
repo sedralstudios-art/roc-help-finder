@@ -42,7 +42,7 @@ export const WAGE_ASSIGNMENT_NY = {
     en: [
       "NY Department of Financial Services at (212) 709-3500 receives complaints about illegal lending and improper wage assignments.",
       "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 receives complaints and pursues enforcement.",
-      "Empire Justice Center at (585) 295-5775 handles consumer-side cases including illegal wage assignments.",
+      "Empire Justice Center at (585) 454-4060 handles consumer-side cases including illegal wage assignments.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income workers in wage assignment disputes.",
       "JustCause (formerly VLSP) at (585) 232-3051 connects with volunteer attorneys for consumer credit matters.",
       "NY Department of Labor Worker Protection Bureau at (888) 469-7365 receives complaints about improper wage deductions."
@@ -74,7 +74,7 @@ export const WAGE_ASSIGNMENT_NY = {
       qualifier: "Low-income consumers",
       access: "Phone intake",
       outcome: "Legal advice and representation",
-      phone: "(585) 295-5775",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,

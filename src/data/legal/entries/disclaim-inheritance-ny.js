@@ -45,7 +45,7 @@ export const DISCLAIM_INHERITANCE_NY = {
       "Monroe County Surrogate's Court at (585) 753-1600 — disclaimer filing location and procedural questions.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — estate and elder law attorneys.",
       "Lifespan of Greater Rochester at (585) 244-8400 — elder law referrals and benefits coordination.",
-      "Empire Justice Center at (585) 295-5800 — Medicaid policy guidance.",
+      "Empire Justice Center at (585) 454-4060 — Medicaid policy guidance.",
       "NYS Department of Health Medicaid Reference Guide at (800) 541-2831 — transfer and lookback rules.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income disclaimer filings.",
       "IRS at (800) 829-1040 — federal tax implications of a qualified disclaimer under IRC 2518."

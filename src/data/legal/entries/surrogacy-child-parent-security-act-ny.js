@@ -49,7 +49,7 @@ export const SURROGACY_CHILD_PARENT_SECURITY_ACT_NY = {
       "American Society for Reproductive Medicine at (205) 978-5000 — fertility clinic standards and coordination.",
       "Family Equality Council at (646) 880-3005 — LGBTQ+ parentage support and referrals.",
       "Rochester Regional Health Fertility Center at (585) 487-3330 — Monroe-area fertility medical services.",
-      "Empire Justice Center at (585) 295-5800 — legal support for low-income intended parents (scope limited)."
+      "Empire Justice Center at (585) 454-4060 — legal support for low-income intended parents (scope limited)."
     ]
   },
 

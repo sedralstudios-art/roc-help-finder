@@ -48,7 +48,7 @@ export const NY_HERO_ACT_INFECTIOUS_DISEASE_NY = {
       "NYSDOL Division of Safety and Health at (518) 457-1263 — workplace safety enforcement.",
       "US Occupational Safety and Health Administration (OSHA) at (800) 321-6742 — federal workplace safety overlap.",
       "NY Committee for Occupational Safety and Health (NYCOSH) at (212) 227-6440 — worker education and advocacy.",
-      "Empire Justice Center at (585) 295-5800 — low-income worker representation.",
+      "Empire Justice Center at (585) 454-4060 — low-income worker representation.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — employment and retaliation attorneys.",
       "NYS Attorney General Labor Bureau at (212) 416-8700 — systemic HERO Act enforcement."
     ]

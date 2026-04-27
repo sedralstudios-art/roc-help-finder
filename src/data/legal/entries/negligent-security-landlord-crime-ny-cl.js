@@ -47,7 +47,7 @@ export const NEGLIGENT_SECURITY_LANDLORD_CRIME_NY_CL = {
       "Monroe County District Attorney Victim Services at (585) 753-4830 — victim advocacy during criminal prosecution.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income tenant claims.",
       "NY Crime Victims Board at (800) 247-8035 — state compensation for crime victims.",
-      "Empire Justice Center at (585) 295-5800 — tenant rights and impact litigation.",
+      "Empire Justice Center at (585) 454-4060 — tenant rights and impact litigation.",
       "NYS Division of Housing and Community Renewal at (833) 499-0343 — habitability complaints."
     ]
   },

@@ -49,7 +49,7 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
       "Federal Trade Commission at (877) 382-4357 — cross-state matters.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — consumer attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income consumers.",
-      "Empire Justice Center at (585) 295-5800 — consumer class actions and impact litigation.",
+      "Empire Justice Center at (585) 454-4060 — consumer class actions and impact litigation.",
       "Rochester Small Claims Court at (585) 428-6650 — direct filing up to $3,000."
     ]
   },

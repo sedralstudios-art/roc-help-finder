@@ -46,7 +46,7 @@ export const JOINT_ACCOUNT_CREDITOR_LEVY_NY = {
     en: [
       "Monroe County Supreme Court Clerk at (585) 428-5410 — turnover and exemption proceedings filings.",
       "Legal Aid Society of Rochester at (585) 232-4090 — free collection defense for low-income debtors.",
-      "Empire Justice Center Consumer Law Unit at (585) 295-5800 — consumer collection and EIPA enforcement.",
+      "Empire Justice Center Consumer Law Unit at (585) 454-4060 — consumer collection and EIPA enforcement.",
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 — systemic EIPA violations.",
       "Consumer Financial Protection Bureau at (855) 411-2372 — federal complaint on Social Security levies.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — collection defense attorneys.",

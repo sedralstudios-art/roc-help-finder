@@ -45,7 +45,7 @@ export const GUARDIAN_AD_LITEM_NY = {
       "Monroe County Supreme Court at (585) 371-3300 — civil GAL appointments.",
       "Monroe County Surrogate's Court at (585) 371-3630 — estate GAL appointments.",
       "Monroe County Family Court at (585) 428-3720 — attorney for the child assignments.",
-      "Empire Justice Center at (585) 295-5800 — help for incapacitated adults in civil litigation.",
+      "Empire Justice Center at (585) 454-4060 — help for incapacitated adults in civil litigation.",
       "Legal Aid Society of Rochester at (585) 232-4090 — help for low-income persons needing GAL relief.",
       "Mental Hygiene Legal Service at (585) 530-3050 — representation of persons with mental disabilities.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private GAL matters."

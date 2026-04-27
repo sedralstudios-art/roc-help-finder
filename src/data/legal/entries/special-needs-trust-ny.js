@@ -48,7 +48,7 @@ export const SPECIAL_NEEDS_TRUST_NY = {
       "Monroe County Office for the Aging Elder Law Hotline at (585) 697-1840.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — special needs planning attorneys.",
       "NYSBA Elder Law and Special Needs Section at (518) 463-3200.",
-      "Empire Justice Center at (585) 295-5800 — benefits preservation and SNT advocacy.",
+      "Empire Justice Center at (585) 454-4060 — benefits preservation and SNT advocacy.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income disabled beneficiaries.",
       "Special Needs Alliance at (520) 546-1005 — national attorney referral."
     ]

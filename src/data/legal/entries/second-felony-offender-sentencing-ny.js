@@ -46,7 +46,7 @@ export const SECOND_FELONY_OFFENDER_SENTENCING_NY = {
       "Monroe County Public Defender at (585) 753-4300 — representation including predicate-felony challenges.",
       "Monroe County Assigned Counsel at (585) 428-5425 — private counsel assigned to indigent defendants.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — criminal defense and post-conviction attorneys.",
-      "Empire Justice Center Criminal Justice at (585) 295-5800 — impact cases and policy.",
+      "Empire Justice Center Criminal Justice at (585) 454-4060 — impact cases and policy.",
       "Innocence Project at (212) 364-5340 — post-conviction representation in innocence cases.",
       "NYS DCJS RAP Sheet at (518) 485-7644 — verify predicate conviction status on criminal history record.",
       "Federal Public Defender Western District NY at (716) 551-3341 — federal habeas proceedings after state remedies exhausted."

@@ -46,7 +46,7 @@ export const CIVIL_TRO_PRELIMINARY_INJUNCTION_NY = {
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — civil litigation attorneys with injunctive experience.",
       "NY State Unified Court System Help Center at (518) 881-5650 — self-help resources for civil litigation.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income civil matters (scope limited).",
-      "Empire Justice Center at (585) 295-5800 — civil rights and public-interest injunctive advocacy.",
+      "Empire Justice Center at (585) 454-4060 — civil rights and public-interest injunctive advocacy.",
       "Federal Public Defender Western District NY at (716) 551-3341 — federal parallel proceedings in non-criminal matters (limited)."
     ]
   },

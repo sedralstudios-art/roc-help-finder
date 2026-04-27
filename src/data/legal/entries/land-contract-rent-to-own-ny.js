@@ -45,7 +45,7 @@ export const LAND_CONTRACT_RENT_TO_OWN_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 reviews land contracts for low-income buyers and represents in disputes.",
       "JustCause (formerly VLSP) at (585) 232-3051 reviews real estate contracts for low-income clients.",
       "Fair Housing Enforcement Project at (585) 325-2500 investigates discriminatory home sale practices.",
-      "Empire Justice Center at (585) 295-5775 handles consumer-side cases against predatory land contract sellers.",
+      "Empire Justice Center at (585) 454-4060 handles consumer-side cases against predatory land contract sellers.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 connects buyers with real estate attorneys for paid contract review."
     ]
   },
@@ -88,7 +88,7 @@ export const LAND_CONTRACT_RENT_TO_OWN_NY = {
       qualifier: "Low-income consumers",
       access: "Phone intake",
       outcome: "Legal advice and representation",
-      phone: "(585) 295-5775",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,
