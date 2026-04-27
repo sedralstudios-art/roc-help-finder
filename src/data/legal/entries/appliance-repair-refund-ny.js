@@ -41,7 +41,7 @@ export const APPLIANCE_REPAIR_REFUND_NY = {
     en: [
       "Under GBL Section 349, misleading repair practices can result in the consumer recovering their money plus up to $1,000 in additional damages and attorney's fees.",
       "A complaint about a dishonest repair company can be filed with the NYS Attorney General's Consumer Helpline at (800) 771-7755.",
-      "For claims of $10,000 or less, small claims court is available without an attorney. Filing fees are $15 to $20.",
+      "For claims of $5,000 or less in Rochester City Court (or $10,000 or less in NYC Civil Court), small claims court is available without an attorney. Filing fees are $15 to $20.",
       "The Better Business Bureau tracks complaints against repair companies and can be used to check a company's history at bbb.org.",
       "If the repair company sent a contractor who was not licensed when required by the local municipality, the consumer may have additional grounds for a complaint with local code enforcement.",
       "Free legal advice on consumer disputes is available through JustCause (formerly VLSP) at (585) 232-3051."
@@ -97,7 +97,8 @@ export const APPLIANCE_REPAIR_REFUND_NY = {
     "https://ag.ny.gov/consumer-frauds-bureau"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

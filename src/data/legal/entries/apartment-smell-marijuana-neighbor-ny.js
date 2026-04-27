@@ -101,6 +101,7 @@ export const APARTMENT_SMELL_MARIJUANA_NEIGHBOR_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

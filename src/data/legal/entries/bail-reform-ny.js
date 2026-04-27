@@ -23,7 +23,7 @@ export const BAIL_REFORM_NY = {
   },
 
   whatItMeans: {
-    en: "Under CPL Section 510.10 (as amended by the 2020 bail reform and 2022 amendments), when a person is arraigned, the judge decides whether to release them, set bail, or hold them in jail. For most misdemeanors and non-violent felonies, the judge must release the person on their own recognizance (ROR) or with conditions like checking in with pretrial services, staying away from certain places, or wearing an ankle monitor. The judge cannot set cash bail for these charges. Cash bail is still allowed for qualifying offenses, which include all violent felonies (Penal Law Article 70.02), certain sex offenses, witness tampering, domestic violence offenses where the defendant has a prior DV conviction or an active order of protection, charges involving a firearm, and a few other categories added by the 2022 amendments. When bail is set, the judge must consider the person's ability to pay. The purpose of bail is to ensure the person returns to court — not to punish them before trial. If bail is set, the person or family can post it in cash or through a bail bond company. If the person cannot afford bail, the defense attorney can ask the judge to reconsider. The 2022 amendments expanded the list of qualifying offenses — particularly for repeat offenses, gun possession charges, and certain DV-related arrests. A second arrest for a non-bailable offense while another case is pending can become bail-eligible under the amendments, and judges have broader discretion when an arrest involves harm to a person. Pretrial conditions are themselves serious limits on liberty. Electronic monitoring restricts where a person can go, mandatory check-ins eat into work and child care, and travel restrictions can complicate jobs requiring movement across county lines. Conditions should be no more restrictive than necessary to ensure court return. A person who cannot meet a condition through no fault of their own — a check-in office that closed, a phone with no service, an employer that prohibits the device — should report the issue to the defense attorney immediately, before the court treats the failure as a violation."
+    en: "Under CPL Section 510.10 (as amended by the 2020 bail reform and follow-up amendments in 2022 and 2023), when a person is arraigned, the judge decides whether to release them, set bail, or hold them in jail. For most misdemeanors and non-violent felonies, the judge must release the person on their own recognizance (ROR) or with conditions like checking in with pretrial services, staying away from certain places, or wearing an ankle monitor. The judge cannot set cash bail for these charges. Cash bail is still allowed for qualifying offenses, which include all violent felonies (Penal Law Article 70.02), certain sex offenses, witness tampering, domestic violence offenses where the defendant has a prior DV conviction or an active order of protection, charges involving a firearm, and a few other categories added by the 2022 amendments. When bail is set, the judge must consider the person's ability to pay. The purpose of bail is to ensure the person returns to court — not to punish them before trial. If bail is set, the person or family can post it in cash or through a bail bond company. If the person cannot afford bail, the defense attorney can ask the judge to reconsider. The 2022 and 2023 amendments expanded the list of qualifying offenses — particularly for repeat offenses, gun possession charges, and certain DV-related arrests. A second arrest involving harm to a person or property while another such case is pending can become bail-eligible. The 2023 amendment also removed the earlier 'least restrictive' standard, replacing it with a 'kind and degree of control or restriction necessary to reasonably assure the principal's return to court' standard. Pretrial conditions are themselves serious limits on liberty. Electronic monitoring restricts where a person can go, mandatory check-ins eat into work and child care, and travel restrictions can complicate jobs requiring movement across county lines. Conditions should be no more restrictive than necessary to ensure court return. A person who cannot meet a condition through no fault of their own — a check-in office that closed, a phone with no service, an employer that prohibits the device — should report the issue to the defense attorney immediately, before the court treats the failure as a violation."
   },
 
   yourRights: {
@@ -41,9 +41,9 @@ export const BAIL_REFORM_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender's Office at (585) 753-4210 represents defendants at arraignment and argues for release.",
-      "Assigned Counsel Program at (585) 753-4264 provides attorneys when the Public Defender has a conflict.",
+      "Assigned Counsel Program at (585) 753-3430 provides attorneys when the Public Defender has a conflict.",
       "If bail is set and the person cannot afford it, the defense attorney can file a bail application asking the judge to reconsider.",
-      "Monroe County Pretrial Services monitors people released on conditions — call (585) 753-4000 for questions about conditions.",
+      "Pre-Trial Services Corporation of the Monroe County Bar Association monitors people released on conditions — call (585) 454-7350 for questions about conditions.",
       "The Bail Project and other bail funds sometimes post bail for people who cannot afford it — availability varies.",
       "If a person believes bail was improperly set for a non-qualifying offense, the defense attorney can challenge it immediately."
     ]
@@ -99,7 +99,8 @@ export const BAIL_REFORM_NY = {
     "https://www.nycourts.gov/courthelp/criminal/bailReform.shtml"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,

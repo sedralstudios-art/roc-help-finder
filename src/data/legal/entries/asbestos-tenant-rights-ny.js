@@ -23,7 +23,7 @@ export const ASBESTOS_TENANT_RIGHTS_NY = {
   },
 
   whatItMeans: {
-    en: "Under EPA regulations (40 CFR Part 61) and NY Labor Law § 901, asbestos must be handled by licensed abatement contractors. Landlords and building owners cannot remove asbestos-containing materials themselves — or have unlicensed workers do it. Before any renovation or demolition in a pre-1980 building, the building owner must determine whether asbestos-containing materials are present. If they are, a licensed asbestos inspector must test the material and a licensed abatement contractor must remove or encapsulate it before work begins. Asbestos that is intact and undamaged (non-friable) does not have to be removed — but the building owner must manage it safely, keep it in good condition, and not disturb it. If asbestos is damaged, crumbling, or deteriorating (friable), it poses a health risk and must be addressed. Tenants can report suspected asbestos hazards to the local code enforcement office or the NY Department of Labor Division of Safety and Health at (518) 457-2735. The EPA also investigates asbestos complaints. For tenants who have been exposed, asbestos-related diseases (mesothelioma, asbestosis, lung cancer) can take 20-50 years to develop. If exposure is suspected, medical monitoring and documentation are important. Renovation in residential rental buildings triggers federal disclosure rules separately from the abatement rules. Under the EPA's NESHAP regulation, a building owner must notify the EPA before any renovation in a multi-family building that may disturb regulated asbestos-containing material; tenants may not see this notice directly but can request a copy if work is planned. The Asbestos Hazard Emergency Response Act covers schools, not residential buildings, so school-specific protections do not apply at home. A tenant who suspects asbestos in damaged condition should not try to clean it up — vacuuming, sweeping, or wiping disturbs fibers and spreads them. The right response is to keep the area sealed off, avoid disturbing it further, and notify the landlord and code enforcement in writing. Photographs of the damaged material help document the timeline if a dispute or health claim arises later."
+    en: "Under EPA regulations (40 CFR Part 61) and NY Labor Law § 901, asbestos must be handled by licensed abatement contractors. Landlords and building owners cannot remove asbestos-containing materials themselves — or have unlicensed workers do it. Before any renovation or demolition in a pre-1980 building, the building owner must determine whether asbestos-containing materials are present. If they are, a licensed asbestos inspector must test the material and a licensed abatement contractor must remove or encapsulate it before work begins. Asbestos that is intact and undamaged (non-friable) does not have to be removed — but the building owner must manage it safely, keep it in good condition, and not disturb it. If asbestos is damaged, crumbling, or deteriorating (friable), it poses a health risk and must be addressed. Tenants can report suspected asbestos hazards to the local code enforcement office or the NY Department of Labor Asbestos Control Bureau at (518) 457-2072. The EPA also investigates asbestos complaints. For tenants who have been exposed, asbestos-related diseases (mesothelioma, asbestosis, lung cancer) can take 20-50 years to develop. If exposure is suspected, medical monitoring and documentation are important. Renovation in residential rental buildings triggers federal disclosure rules separately from the abatement rules. Under the EPA's NESHAP regulation, a building owner must notify the EPA before any renovation in a multi-family building that may disturb regulated asbestos-containing material; tenants may not see this notice directly but can request a copy if work is planned. The Asbestos Hazard Emergency Response Act covers schools, not residential buildings, so school-specific protections do not apply at home. A tenant who suspects asbestos in damaged condition should not try to clean it up — vacuuming, sweeping, or wiping disturbs fibers and spreads them. The right response is to keep the area sealed off, avoid disturbing it further, and notify the landlord and code enforcement in writing. Photographs of the damaged material help document the timeline if a dispute or health claim arises later."
   },
 
   yourRights: {
@@ -39,8 +39,8 @@ export const ASBESTOS_TENANT_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "Suspected asbestos hazards can be reported to the NY Department of Labor Division of Safety and Health at (518) 457-2735.",
-      "The EPA Region 2 office (covering New York) handles asbestos complaints at (212) 637-3000.",
+      "Suspected asbestos hazards can be reported to the NY Department of Labor Asbestos Control Bureau at (518) 457-2072.",
+      "The EPA Region 2 office (covering New York) handles asbestos complaints at (212) 637-5000.",
       "In Rochester, code enforcement can inspect for building maintenance and habitability issues including damaged asbestos — call 311.",
       "If a tenant was exposed to asbestos due to improper renovation or landlord negligence, personal injury attorneys handle these cases — many on contingency.",
       "Free legal help with housing habitability issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
@@ -55,12 +55,12 @@ export const ASBESTOS_TENANT_RIGHTS_NY = {
   counsel: [
     {
       type: "free",
-      name: "NY Department of Labor — Asbestos Safety",
+      name: "NY Department of Labor — Asbestos Control Bureau",
       focus: "Asbestos complaints, licensing, abatement oversight",
       qualifier: "Any building or workplace in New York",
       access: "Phone",
       outcome: "Investigation, enforcement, compliance orders",
-      phone: "(518) 457-2735",
+      phone: "(518) 457-2072",
       url: "https://dol.ny.gov/asbestos",
       verified: true,
       bilingual: false,
@@ -98,7 +98,8 @@ export const ASBESTOS_TENANT_RIGHTS_NY = {
     "https://dol.ny.gov/asbestos"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

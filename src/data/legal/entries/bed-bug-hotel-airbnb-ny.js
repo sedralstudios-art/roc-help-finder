@@ -33,16 +33,16 @@ export const BED_BUG_HOTEL_AIRBNB_NY = {
       "A guest has the right to file a complaint with the local health department about unsanitary conditions.",
       "A guest has the right to file a claim for damaged belongings — clothing, luggage, and other items that had to be thrown away or professionally cleaned.",
       "An Airbnb guest has the right to request a refund or rebooking through Airbnb's platform within 72 hours of discovering the issue.",
-      "A guest has the right to sue the hotel or property owner in small claims court for up to $10,000."
+      "A guest has the right to sue the hotel or property owner in small claims court for up to $5,000 in NY city courts or $3,000 in town and village courts."
     ]
   },
 
   legalOptions: {
     en: [
       "Under GBL Section 349, a hotel that knowingly rents a room with bed bugs may owe damages plus attorney's fees.",
-      "A complaint about hotel conditions can be filed with the Monroe County Health Department at (585) 753-5171.",
+      "A complaint about hotel conditions can be filed with the Monroe County Department of Public Health at (585) 753-5555 (Environmental Health handles lodging sanitation).",
       "Airbnb's rebooking and refund policy covers health and safety issues. Reports can be made through the Airbnb app or at airbnb.com/help within 72 hours of check-in.",
-      "For damages of $10,000 or less, small claims court is available. Evidence like photos of bugs and bites, cleaning receipts, and hotel invoices strengthen the case.",
+      "For damages of $5,000 or less in a NY city court (or $3,000 in town and village courts), small claims is available. Evidence like photos of bugs and bites, cleaning receipts, and hotel invoices strengthen the case.",
       "A complaint about misleading business practices can also be filed with the NYS Attorney General at (800) 771-7755.",
       "If bed bugs are brought home from a hotel stay, professional extermination costs may be recoverable as damages in a lawsuit against the hotel."
     ]
@@ -58,9 +58,9 @@ export const BED_BUG_HOTEL_AIRBNB_NY = {
       name: "Monroe County Health Department",
       focus: "Hotel sanitation complaints, pest control, public health",
       qualifier: "Anyone with a health complaint about a Monroe County business",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Inspection, citation, enforcement",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,
@@ -96,7 +96,8 @@ export const BED_BUG_HOTEL_AIRBNB_NY = {
     "https://www.cdc.gov/parasites/bedbugs/"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

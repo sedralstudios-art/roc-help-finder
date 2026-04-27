@@ -4,13 +4,13 @@ export const AMUSEMENT_RIDE_SAFETY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-regulation",
-  primaryStatute: "NY LAB A34",
+  primaryStatute: "NY LAB A27",
   status: "active",
 
   title: { en: "Amusement Ride Safety — Inspection, Injury Claims, and Reporting in New York" },
 
   summary: {
-    en: "New York Labor Law Article 34 and 12 NYCRR Part 41 set safety, inspection, and operator rules for amusement rides at fairs, carnivals, and permanent parks. The NYS Department of Labor inspects mobile and stationary rides and licenses operators. A rider injured by a defective ride or operator error has both regulatory protection and common-law negligence remedies. Carnival operators must post inspection certificates and carry minimum liability insurance."
+    en: "New York Labor Law Article 27 (sections 870-a through 870-o) and 12 NYCRR Part 45 set safety, inspection, and operator rules for amusement rides at fairs, carnivals, and permanent parks. The NYS Department of Labor inspects mobile and stationary rides and issues permits for operation. A rider injured by a defective ride or operator error has both regulatory protection and common-law negligence remedies. Carnival operators must post inspection certificates and carry minimum liability insurance."
   },
 
   whoQualifies: {
@@ -25,12 +25,12 @@ export const AMUSEMENT_RIDE_SAFETY_NY = {
   },
 
   whatItMeans: {
-    en: "NY Labor Law Article 34 (Sections 860 through 873) requires every amusement ride in New York to be inspected by the NYS Department of Labor before each operation season for permanent installations, or before each setup for mobile carnivals. 12 NYCRR Part 41 contains the detailed safety code — fencing, restraint systems, signage, operator age, inspection intervals, and reporting of accidents. Each ride must display a current DOL inspection certificate showing ride number, inspection date, and inspector signature. Operators must be at least 16 years old (18 for some rides) and trained on emergency shutdown procedures. Ride owners must carry liability insurance (minimum $1 million per occurrence under the regulations). Accident reporting: any injury requiring medical treatment beyond first aid, or any mechanical failure resulting in rider evacuation, must be reported to the DOL within 24 hours. Recordable events include pinches, falls from ride, ejections, structural failures, and sudden stoppages with injury. Injury claims: a rider injured on a ride has two tracks. First, the negligence claim against the ride operator, owner, and event sponsor is governed by common law — the rider must prove duty, breach, causation, and damages. Operator violations of 12 NYCRR Part 41 can establish negligence per se. Second, the ride owner's insurance policy typically responds under the liability insurance required by regulation. The statute of limitations is 3 years for personal injury (CPLR 214). For a child injured at a fair, the limitation is tolled until the child turns 18 (CPLR 208). Reporting a dangerous ride: the public can report to the DOL Public Employee Safety and Health (PESH) Bureau or directly to the Amusement Ride Inspection Unit. The DOL can order a ride shut down mid-operation. County fair boards often carry additional insurance and may be named in a claim under General Municipal Law Section 50-e notice-of-claim rules if the fair is held on county property. Ticket refunds: if a ride closes for safety reasons, the operator must post refund procedures; refusal to refund can be a deceptive practice complaint to the NY Attorney General under General Business Law Section 349."
+    en: "NY Labor Law Article 27 (sections 870-a through 870-o) requires every amusement device in New York to be inspected by the NYS Department of Labor before issuance of a permit — at least annually for permanent installations, and at every new setup location for traveling carnivals or fairs. 12 NYCRR Part 45 contains the detailed safety code — fencing, restraint systems, signage, operator age, inspection intervals, and reporting of accidents. Each ride must display a current DOL inspection certificate showing ride number, inspection date, and inspector signature. Operators must be at least 16 years old (18 for some rides) and trained on emergency shutdown procedures. Ride owners must carry liability insurance (minimum $1 million per occurrence under the regulations). Accident reporting: any injury requiring medical treatment beyond first aid, or any mechanical failure resulting in rider evacuation, must be reported to the DOL within 24 hours. Recordable events include pinches, falls from ride, ejections, structural failures, and sudden stoppages with injury. Injury claims: a rider injured on a ride has two tracks. First, the negligence claim against the ride operator, owner, and event sponsor is governed by common law — the rider must prove duty, breach, causation, and damages. Operator violations of 12 NYCRR Part 45 can establish negligence per se. Second, the ride owner's insurance policy typically responds under the liability insurance required by regulation. The statute of limitations is 3 years for personal injury (CPLR 214). For a child injured at a fair, the limitation is tolled until the child turns 18 (CPLR 208). Reporting a dangerous ride: the public can report to the DOL Public Employee Safety and Health (PESH) Bureau or directly to the Amusement Ride Inspection Unit. The DOL can order a ride shut down mid-operation. County fair boards often carry additional insurance and may be named in a claim under General Municipal Law Section 50-e notice-of-claim rules if the fair is held on county property. Ticket refunds: if a ride closes for safety reasons, the operator must post refund procedures; refusal to refund can be a deceptive practice complaint to the NY Attorney General under General Business Law Section 349."
   },
 
   yourRights: {
     en: [
-      "A rider has the right to inspect the DOL inspection certificate before riding (12 NYCRR 41).",
+      "A rider has the right to inspect the DOL inspection certificate before riding (12 NYCRR 45).",
       "A rider has the right to sue the operator for negligence if a ride violation causes injury.",
       "A parent has the right to file a notice of claim on behalf of an injured minor (GML 50-e).",
       "A rider has the right to report unsafe ride operation to the NYS DOL Amusement Ride Inspection Unit.",
@@ -96,8 +96,8 @@ export const AMUSEMENT_RIDE_SAFETY_NY = {
 
   tags: [
     "amusement ride safety",
-    "Labor Law Article 34",
-    "12 NYCRR Part 41",
+    "Labor Law Article 27",
+    "12 NYCRR Part 45",
     "carnival injury",
     "DOL ride inspection",
     "ride operator negligence",
@@ -108,11 +108,12 @@ export const AMUSEMENT_RIDE_SAFETY_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/LAB/A34",
+    "https://www.nysenate.gov/legislation/laws/LAB/A27",
     "https://dol.ny.gov/amusement-ride-safety-bureau"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -39,7 +39,7 @@ export const ANNULMENT_VS_DIVORCE_NY = {
 
   legalOptions: {
     en: [
-      "Annulment actions are filed in NYS Supreme Court. Monroe County Supreme Court at (585) 371-3756.",
+      "Annulment actions are filed in NYS Supreme Court. Monroe County Supreme Court at (585) 371-3758.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles family law cases for low-income residents.",
       "LawNY at (585) 325-2520 handles divorce and annulment cases.",
       "JustCause provides pro bono family law attorneys — referral through Monroe County Bar Association at (585) 546-2130.",
@@ -97,7 +97,8 @@ export const ANNULMENT_VS_DIVORCE_NY = {
     "https://www.nycourts.gov/courthelp/Family/annulment.shtml"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

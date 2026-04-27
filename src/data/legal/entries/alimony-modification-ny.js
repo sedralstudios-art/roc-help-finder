@@ -39,7 +39,7 @@ export const ALIMONY_MODIFICATION_NY = {
 
   legalOptions: {
     en: [
-      "Modification petitions are filed in the court that issued the original maintenance order — usually Monroe County Supreme Court at (585) 371-3756.",
+      "Modification petitions are filed in the court that issued the original maintenance order — usually Monroe County Supreme Court at (585) 371-3758.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles spousal support modification for low-income clients.",
       "LawNY at (585) 325-2520 handles family law matters.",
       "JustCause provides pro bono attorneys for family law — referral through Monroe County Bar Association at (585) 546-2130.",
@@ -95,7 +95,8 @@ export const ALIMONY_MODIFICATION_NY = {
     "https://www.nycourts.gov/courthelp/Family/maintenanceModification.shtml"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

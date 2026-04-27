@@ -10,7 +10,7 @@ export const BANK_ACCOUNT_FREEZE_EXEMPTION_NY = {
   title: { en: "Frozen Bank Account — Exempt Funds and How to Get Them Released" },
 
   summary: {
-    en: "When a creditor gets a judgment, the creditor can freeze a bank account to collect. But certain funds are protected — Social Security, SSI, veterans benefits, unemployment, public assistance, child support, and a base $3,600 for any New Yorker. The bank must send an Exemption Notice with two claim forms. Filing the Exemption Claim Form within 20 days can unfreeze the protected money."
+    en: "When a creditor gets a judgment, the creditor can freeze a bank account to collect. But certain funds are protected — Social Security, SSI, veterans benefits, unemployment, public assistance, child support, and a base $3,425 (effective April 1, 2024) for accounts that received exempt direct deposits in the last 45 days. The bank must send an Exemption Notice with two claim forms. Filing the Exemption Claim Form within 20 days can unfreeze the protected money."
   },
 
   whoQualifies: {
@@ -23,12 +23,12 @@ export const BANK_ACCOUNT_FREEZE_EXEMPTION_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Civil Practice Law and Rules Section 5222-a (the Exempt Income Protection Act), a bank that receives a restraining notice or levy on a judgment debtor's account must look at the last 45 days of deposits. If any deposits appear to be from an exempt source (electronic deposits that look like Social Security, SSI, veterans benefits, unemployment, or public assistance), the bank must automatically leave those funds accessible. Separately, the first $3,600 in any account is automatically protected under CPLR Section 5222(i) — this baseline applies to every New Yorker regardless of the source of funds. For funds that appear non-exempt, the bank freezes them but must mail the account holder two copies of an Exemption Notice and Exemption Claim Form within two business days. The account holder has 20 days to complete and return the Claim Form with proof (bank statements, benefits letters, pay stubs). Once the claim is filed, the bank has 7 days to release the exempt funds unless the creditor objects. Common exempt sources include Social Security retirement, SSI, SSDI, veterans benefits, federal and state unemployment, public assistance (TA, SNAP cash assistance), child and spousal support, railroad retirement, and the $3,600 baseline. The restraining notice itself is only valid for one year and cannot touch funds deposited after it was served (new deposits restart the 45-day look-back). A creditor that froze exempt funds in bad faith can be liable for the account holder's damages. Joint accounts complicate the picture. A judgment against one account holder reaches funds in a joint account, but the non-debtor account holder can claim back their share by filing an exemption claim with proof of contribution. Documentation matters — the non-debtor needs deposit history showing the source of funds. Direct deposits identified by the federal payment originator code (the routing pattern that signals Social Security or VA payments) are auto-protected; benefits paid by paper check and then deposited may not be auto-protected because the bank cannot identify them, so a manual exemption claim is required."
+    en: "Under New York Civil Practice Law and Rules Section 5222-a (the Exempt Income Protection Act), a bank that receives a restraining notice or levy on a judgment debtor's account must look at the last 45 days of deposits. If any deposits appear to be from an exempt source (electronic deposits that look like Social Security, SSI, veterans benefits, unemployment, or public assistance), the bank must automatically protect $3,425 of the funds under CPLR Section 5222(h) — this is the indexed amount effective April 1, 2024 (the next adjustment is scheduled for April 1, 2027). Without identifiable exempt deposits in the 45-day look-back, a separate floor under CPLR 5222(h) protects an amount equal to 90% of 240 times the greater of the federal or state minimum hourly wage. For funds that appear non-exempt, the bank freezes them but must mail the account holder two copies of an Exemption Notice and Exemption Claim Form within two business days. The account holder has 20 days to complete and return the Claim Form with proof (bank statements, benefits letters, pay stubs). Once the claim is filed, the bank has 7 days to release the exempt funds unless the creditor objects. Common exempt sources include Social Security retirement, SSI, SSDI, veterans benefits, federal and state unemployment, public assistance (TA, SNAP cash assistance), child and spousal support, railroad retirement, and the $3,425 baseline tied to identifiable exempt deposits. The restraining notice itself is only valid for one year and cannot touch funds deposited after it was served (new deposits restart the 45-day look-back). A creditor that froze exempt funds in bad faith can be liable for the account holder's damages. Joint accounts complicate the picture. A judgment against one account holder reaches funds in a joint account, but the non-debtor account holder can claim back their share by filing an exemption claim with proof of contribution. Documentation matters — the non-debtor needs deposit history showing the source of funds. Direct deposits identified by the federal payment originator code (the routing pattern that signals Social Security or VA payments) are auto-protected; benefits paid by paper check and then deposited may not be auto-protected because the bank cannot identify them, so a manual exemption claim is required."
   },
 
   yourRights: {
     en: [
-      "Every New Yorker has an automatic $3,600 baseline exemption in any bank account under CPLR Section 5222(i).",
+      "Every New Yorker whose account received identifiable exempt direct deposits in the prior 45 days has an automatic $3,425 baseline exemption under CPLR Section 5222(h) (effective April 1, 2024).",
       "Funds from Social Security, SSI, veterans benefits, unemployment, and public assistance are fully exempt under CPLR Section 5222-a.",
       "The bank must mail the Exemption Notice and two Claim Forms within two business days of the freeze.",
       "The account holder has 20 days from the mailing date to file the Exemption Claim Form.",
@@ -99,7 +99,7 @@ export const BANK_ACCOUNT_FREEZE_EXEMPTION_NY = {
     "exemption claim form",
     "frozen account judgment",
     "bank freeze Social Security",
-    "$3600 exemption",
+    "$3425 exemption",
     "EIPA",
     "exempt income protection"
   ],
@@ -107,10 +107,12 @@ export const BANK_ACCOUNT_FREEZE_EXEMPTION_NY = {
   sources: [
     "https://www.nysenate.gov/legislation/laws/CVP/5222",
     "https://www.nysenate.gov/legislation/laws/CVP/5222-A",
+    "https://www.dfs.ny.gov/industry_guidance/exemption_from_judgments",
     "https://www.nycourts.gov/courthelp/"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

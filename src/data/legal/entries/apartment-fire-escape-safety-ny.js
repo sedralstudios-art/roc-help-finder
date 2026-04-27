@@ -39,11 +39,11 @@ export const APARTMENT_FIRE_ESCAPE_SAFETY_NY = {
 
   legalOptions: {
     en: [
-      "Rochester Fire Department — Fire Prevention Bureau at (585) 428-7436 inspects fire escapes and fire safety equipment.",
+      "Rochester Fire Department — Fire Prevention Bureau at (585) 428-7037 inspects fire escapes and fire safety equipment.",
       "Rochester Code Enforcement: call 311 for fire safety complaints.",
       "For towns outside Rochester, contact the local fire department or code enforcement office.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles habitability cases including fire safety.",
-      "Monroe County Fire Prevention Bureau at (585) 753-1640 handles fire safety inspections outside Rochester.",
+      "Monroe County Fire Prevention Bureau at (585) 753-3750 handles fire safety inspections outside Rochester.",
       "If a landlord retaliates for a fire safety complaint (rent increase, eviction threat), the tenant is protected under RPL Section 223-b."
     ]
   },
@@ -58,9 +58,9 @@ export const APARTMENT_FIRE_ESCAPE_SAFETY_NY = {
       name: "Rochester Fire Department — Fire Prevention Bureau",
       focus: "Fire escape inspections, smoke detectors, fire safety compliance",
       qualifier: "Rochester city residents",
-      access: "Phone at (585) 428-7436",
+      access: "Phone at (585) 428-7037",
       outcome: "Inspection, violation orders, compliance enforcement",
-      phone: "(585) 428-7436",
+      phone: "(585) 428-7037",
       url: "https://www.cityofrochester.gov/fire",
       verified: true,
       bilingual: false,
@@ -98,7 +98,8 @@ export const APARTMENT_FIRE_ESCAPE_SAFETY_NY = {
     "https://dos.ny.gov/fire-prevention-and-building-code-resources"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

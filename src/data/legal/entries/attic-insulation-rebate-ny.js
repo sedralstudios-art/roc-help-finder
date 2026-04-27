@@ -39,12 +39,12 @@ export const ATTIC_INSULATION_REBATE_NY = {
 
   legalOptions: {
     en: [
-      "PathStone Corporation administers the Weatherization Assistance Program in Monroe County. Apply at (585) 340-3377.",
+      "PathStone Corporation administers the Weatherization Assistance Program in Monroe County. Apply at (585) 340-3300.",
       "NYSERDA EmPower+ (free for income-eligible): apply at nyserda.ny.gov/empower or (866) 697-3732.",
       "NYSERDA Home Energy Assessment (discounted audit + rebates): schedule at nyserda.ny.gov or (866) 697-3732.",
       "The federal Inflation Reduction Act provides a tax credit of 30% of insulation costs, up to $1,200 per year. Claimed on IRS Form 5695.",
       "RG&E also offers rebates on certain energy efficiency upgrades. Check rge.com/rebates.",
-      "HEAP (Home Energy Assistance Program) helps with heating bills and can sometimes fund furnace repair or replacement through Monroe County DSS at (585) 753-6010."
+      "HEAP (Home Energy Assistance Program) helps with heating bills and can sometimes fund furnace repair or replacement through Monroe County DSS HEAP at (585) 753-6477."
     ]
   },
 
@@ -58,9 +58,9 @@ export const ATTIC_INSULATION_REBATE_NY = {
       name: "PathStone Corporation — Weatherization",
       focus: "Free insulation, air sealing, and energy upgrades for low-income residents",
       qualifier: "Monroe County residents at or below 60% of state median income",
-      access: "Phone at (585) 340-3377",
+      access: "Phone at (585) 340-3300",
       outcome: "Free home energy assessment and upgrades",
-      phone: "(585) 340-3377",
+      phone: "(585) 340-3300",
       url: "https://www.pathstone.org",
       verified: true,
       bilingual: true,
@@ -113,7 +113,8 @@ export const ATTIC_INSULATION_REBATE_NY = {
     "https://www.energy.gov/scep/wap/weatherization-assistance-program"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,

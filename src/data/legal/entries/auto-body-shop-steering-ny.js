@@ -23,7 +23,7 @@ export const AUTO_BODY_SHOP_STEERING_NY = {
   },
 
   whatItMeans: {
-    en: "New York Insurance Law Section 2610 is often called the anti-steering statute. It says no insurance company or insurance adjuster shall require the insured or claimant to take the vehicle to any particular repair shop as a condition of coverage. The same section prohibits the insurer from paying less for repairs when the insured selects a non-network shop if the non-network estimate is reasonable and necessary for the repairs. A common scenario: after a collision, the insurer's adjuster offers a list of Direct Repair Program (DRP) shops and implies or states that using a non-DRP shop will slow down the claim, void any guarantee, or result in lower payment. All of that is steering. The insurer is allowed to offer a DRP shop as a convenience option — faster processing, lifetime workmanship guarantee from the shop, direct billing. What the insurer cannot do is tell the customer the coverage depends on using that shop, deduct from the payment because a non-DRP shop was chosen, require a second estimate from a DRP shop before paying the claim, or disparage a non-DRP shop's quality without specific facts. If the two estimates differ (the customer's preferred shop is 800 dollars more than the DRP shop), the insurer can ask for itemized reasons for the difference and pay the lower estimate only if the higher estimate is unreasonable. Most reasonable differences come down to OEM (original equipment manufacturer) parts versus aftermarket parts, labor rate differences, or hidden damage discovered after disassembly. A customer has a right to demand OEM parts under Insurance Law Section 3411 for a new vehicle within the first two years or under 12,000 miles — the insurer must pay for OEM parts in that window. Outside that window, the insurer can specify aftermarket or used parts but must disclose this in writing. A shop that catches hidden damage once the repair begins files a supplement — the adjuster inspects and approves the additional work. A shop cannot start unauthorized supplemental work without customer and insurer approval. New York GBL 398-e (the motor vehicle repair shop regulation) requires every licensed repair shop to give a written estimate before starting work and an itemized final invoice after. A repair shop that does not hold a valid NYS DMV repair shop registration (verified at dmv.ny.gov) cannot legally perform insurance-paid collision work. A Monroe County driver has several responses when steering is suspected. File a complaint with NYS Department of Financial Services online at dfs.ny.gov — DFS investigates anti-steering violations and can fine the insurer. Request a written explanation of why the insurer is paying less than the customer's chosen shop estimate. Get an independent appraisal under the insurance policy's appraisal clause — most NY auto policies include a two-appraiser dispute resolution. Contact the NYS Attorney General Consumer Frauds Bureau if the insurer is engaged in a pattern of steering. A collision claim typically resolves within 15 to 30 days, and any delay beyond what is reasonable because the customer chose a non-DRP shop is itself evidence of an INS 2610 violation."
+    en: "New York Insurance Law Section 2610 is often called the anti-steering statute. It says no insurance company or insurance adjuster shall require the insured or claimant to take the vehicle to any particular repair shop as a condition of coverage. The same section prohibits the insurer from paying less for repairs when the insured selects a non-network shop if the non-network estimate is reasonable and necessary for the repairs. A common scenario: after a collision, the insurer's adjuster offers a list of Direct Repair Program (DRP) shops and implies or states that using a non-DRP shop will slow down the claim, void any guarantee, or result in lower payment. All of that is steering. The insurer is allowed to offer a DRP shop as a convenience option — faster processing, lifetime workmanship guarantee from the shop, direct billing. What the insurer cannot do is tell the customer the coverage depends on using that shop, deduct from the payment because a non-DRP shop was chosen, require a second estimate from a DRP shop before paying the claim, or disparage a non-DRP shop's quality without specific facts. If the two estimates differ (the customer's preferred shop is 800 dollars more than the DRP shop), the insurer can ask for itemized reasons for the difference and pay the lower estimate only if the higher estimate is unreasonable. Most reasonable differences come down to OEM (original equipment manufacturer) parts versus aftermarket parts, labor rate differences, or hidden damage discovered after disassembly. A customer has a right to demand OEM parts under Insurance Law Section 3411 for a new vehicle during the year of manufacture and the two succeeding years, or for the duration of the manufacturer's warranty, whichever is longer — the insurer must pay for OEM parts in that window. Outside that window, the insurer can specify aftermarket or used parts but must disclose this in writing. A shop that catches hidden damage once the repair begins files a supplement — the adjuster inspects and approves the additional work. A shop cannot start unauthorized supplemental work without customer and insurer approval. New York GBL 398-e (the motor vehicle repair shop regulation) requires every licensed repair shop to give a written estimate before starting work and an itemized final invoice after. A repair shop that does not hold a valid NYS DMV repair shop registration (verified at dmv.ny.gov) cannot legally perform insurance-paid collision work. A Monroe County driver has several responses when steering is suspected. File a complaint with NYS Department of Financial Services online at dfs.ny.gov — DFS investigates anti-steering violations and can fine the insurer. Request a written explanation of why the insurer is paying less than the customer's chosen shop estimate. Get an independent appraisal under the insurance policy's appraisal clause — most NY auto policies include a two-appraiser dispute resolution. Contact the NYS Attorney General Consumer Frauds Bureau if the insurer is engaged in a pattern of steering. A collision claim typically resolves within 15 to 30 days, and any delay beyond what is reasonable because the customer chose a non-DRP shop is itself evidence of an INS 2610 violation."
   },
 
   yourRights: {
@@ -31,7 +31,7 @@ export const AUTO_BODY_SHOP_STEERING_NY = {
       "A driver has the right to choose any NY-licensed auto body shop for a covered loss.",
       "A driver has the right to equal insurance payment regardless of which shop is chosen.",
       "A driver has the right to refuse a second estimate from a DRP shop when the first estimate is reasonable.",
-      "An owner of a new vehicle under two years or 12,000 miles has the right to OEM replacement parts under INS 3411.",
+      "An owner of a new vehicle in the year of manufacture or two succeeding years (or during the manufacturer warranty if longer) has the right to OEM replacement parts under INS 3411.",
       "A driver has the right to invoke the appraisal clause for a two-appraiser binding resolution of a disputed estimate.",
       "A driver has the right to file a DFS anti-steering complaint and receive a written response."
     ]
@@ -40,9 +40,9 @@ export const AUTO_BODY_SHOP_STEERING_NY = {
   legalOptions: {
     en: [
       "NYS Department of Financial Services at (800) 342-3736 investigates auto insurance anti-steering complaints.",
-      "NYS DMV Vehicle Safety at (518) 474-4293 regulates repair shop licensing and investigates shop complaints.",
+      "NYS DMV Vehicle Safety at (518) 474-8943 regulates repair shop licensing and investigates shop complaints.",
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 handles patterns of insurer steering.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income drivers in insurance claim disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income drivers in insurance claim disputes.",
       "For a two-appraiser dispute resolution, the auto policy appraisal clause is the internal remedy — check the policy language."
     ]
   },
@@ -72,7 +72,7 @@ export const AUTO_BODY_SHOP_STEERING_NY = {
       qualifier: "Any NY vehicle owner",
       access: "Phone, website complaint form",
       outcome: "Shop investigation, license discipline",
-      phone: "(518) 474-4293",
+      phone: "(518) 474-8943",
       url: "https://dmv.ny.gov/complaint",
       verified: true,
       bilingual: true,
@@ -108,7 +108,8 @@ export const AUTO_BODY_SHOP_STEERING_NY = {
     "https://www.dfs.ny.gov/consumers/auto_insurance"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

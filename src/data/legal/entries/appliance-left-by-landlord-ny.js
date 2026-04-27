@@ -97,6 +97,7 @@ export const APPLIANCE_LEFT_BY_LANDLORD_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

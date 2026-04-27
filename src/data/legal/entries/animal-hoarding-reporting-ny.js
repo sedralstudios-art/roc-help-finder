@@ -43,7 +43,7 @@ export const ANIMAL_HOARDING_REPORTING_NY = {
       "Rochester Animal Services Center at (585) 428-7274 handles complaints within the city.",
       "If animals are in immediate danger, call 911.",
       "The ASPCA has a national animal cruelty reporting line at (888) 426-4435.",
-      "If the hoarding situation also involves unsanitary conditions dangerous to human health (children, elderly), contact Monroe County Adult Protective Services at (585) 753-6532 or CPS at (585) 753-6532.",
+      "If the hoarding situation also involves unsanitary conditions dangerous to human health, contact Monroe County Adult Protective Services at (585) 753-6532 (after-hours (585) 461-5698) for an at-risk adult; for a child at risk, call the NY State Central Register of Child Abuse and Maltreatment at (800) 342-3720 or Monroe County CPS Intake at (585) 461-5690.",
       "For the animal hoarder seeking help, the SPCA can connect with mental health resources."
     ]
   },
@@ -96,7 +96,8 @@ export const ANIMAL_HOARDING_REPORTING_NY = {
     "https://www.aspca.org/animal-cruelty/animal-hoarding"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

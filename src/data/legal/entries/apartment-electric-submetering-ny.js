@@ -41,7 +41,7 @@ export const APARTMENT_ELECTRIC_SUBMETERING_NY = {
     en: [
       "NYS Public Service Commission at (800) 342-3377 handles submetering complaints and permit verification.",
       "NYS Department of Public Service consumer advocate at (800) 342-3355 assists tenants with complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income tenants in submetering overcharge cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income tenants in submetering overcharge cases.",
       "For DHCR rent-stabilized building issues, NYS Division of Housing and Community Renewal at (718) 739-6400.",
       "City of Rochester Office of Housing and Neighborhood Services at (585) 428-6950 handles tenant-landlord complaints within the city."
     ]
@@ -72,7 +72,7 @@ export const APARTMENT_ELECTRIC_SUBMETERING_NY = {
       qualifier: "Monroe County tenant at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
@@ -108,7 +108,8 @@ export const APARTMENT_ELECTRIC_SUBMETERING_NY = {
     "https://dps.ny.gov/submetering"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

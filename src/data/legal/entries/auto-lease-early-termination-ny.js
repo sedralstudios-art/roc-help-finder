@@ -4,13 +4,13 @@ export const AUTO_LEASE_EARLY_TERMINATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY GBS 396-H",
+  primaryStatute: "NY PEP 335",
   status: "active",
 
   title: { en: "NY Auto Lease Early Termination — Penalties, Transfer Options, and Lemon Law Returns" },
 
   summary: {
-    en: "Ending a New York car lease before the scheduled end date usually triggers a substantial early-termination fee calculated as the difference between the remaining lease payments and the car's current market value. Alternatives include lease transfer, lease buy-out then resale, trade-in with the dealer, or a lemon law return in qualifying cases. NY GBL 396-h requires the lease to disclose the early termination formula clearly."
+    en: "Ending a New York car lease before the scheduled end date usually triggers a substantial early-termination fee calculated as the difference between the remaining lease payments and the car's current market value. Alternatives include lease transfer, lease buy-out then resale, trade-in with the dealer, or a lemon law return in qualifying cases. The NY Motor Vehicle Retail Leasing Act (Personal Property Law Article 9-A) requires the lease to disclose the early termination formula clearly."
   },
 
   whoQualifies: {
@@ -24,12 +24,12 @@ export const AUTO_LEASE_EARLY_TERMINATION_NY = {
   },
 
   whatItMeans: {
-    en: "New York General Business Law Section 396-h (the NY Motor Vehicle Retail Leasing Act) regulates auto leases sold to NY consumers. The law requires the lease contract to disclose in plain language the formula for early termination, the gap between remaining lease payments and the estimated vehicle residual value, any disposition fees, and any excess mileage or wear charges. Most auto leases use a constant-yield method for calculating the early termination charge. The formula is roughly: (sum of remaining monthly payments) plus (disposition fee, typically 395 dollars) plus (excess mileage charges calculated at the contract rate, commonly 15 cents per mile over the allowance) plus (excess wear and tear reconditioning costs) minus (current fair market value of the vehicle, determined by the lessor's appraisal or a third party). The result can be substantial — a leaseholder ending a 36-month lease after 18 months might owe 5,000 to 15,000 dollars in early termination charges depending on the vehicle and remaining balance. Alternative paths that often save money. Lease transfer or assumption through services like Swapalease.com or LeaseTrader.com — the original leaseholder finds someone willing to take over the lease; the leasing company must approve the new lessee. Transfer fees are typically 300 to 600 dollars. Lease buyout and resale — the leaseholder pays off the residual value (the amount specified in the lease for end-of-lease purchase) and then sells the car privately or trades it in. This works when the residual is lower than the current market value. In 2022 and 2023 many leaseholders found the residual significantly below market value and made money on buyouts. Trade-in with the same dealer — the dealer takes the leased vehicle as a trade-in toward a new purchase or lease. This typically pays off the remaining balance and sometimes leaves equity if the market value is higher. Early lease return with financial hardship negotiation — some lessors offer programs for job loss or military deployment, typically documented with proof of hardship. Federal Servicemembers Civil Relief Act (50 USC 3955) gives active-duty military the right to terminate leases without penalty when deployed or transferred. A new NY Lemon Law Article 11-A Section 198 case can also force early termination. If the vehicle has been in the shop for substantially the same defect for more than 15 days out of the first 18,000 miles or 2 years, or for 4 or more repair attempts for the same defect, the consumer can demand a refund or replacement vehicle through arbitration at the NY Attorney General's Lemon Law Arbitration Program. Successful lemon claims terminate the lease at no cost to the leaseholder. A totaled vehicle (declared a total loss by insurance) typically triggers gap insurance coverage — if the lease includes gap insurance (many do, or the leaseholder can purchase it separately), the gap between insurance payout and remaining lease balance is covered, so the leaseholder owes little or nothing. Without gap insurance, the leaseholder owes the difference. Excessive wear-and-tear charges at end of lease can often be negotiated down or challenged. The leaseholder can also get the vehicle professionally detailed and minor damage repaired before returning to avoid the lessor's inflated reconditioning charges."
+    en: "New York's Motor Vehicle Retail Leasing Act (Personal Property Law Article 9-A, sections 331 through 345) regulates auto leases sold to NY consumers. The law requires the lease contract to disclose in plain language the formula for early termination, the gap between remaining lease payments and the estimated vehicle residual value, any disposition fees, and any excess mileage or wear charges. Most auto leases use a constant-yield method for calculating the early termination charge. The formula is roughly: (sum of remaining monthly payments) plus (disposition fee, typically 395 dollars) plus (excess mileage charges calculated at the contract rate, commonly 15 cents per mile over the allowance) plus (excess wear and tear reconditioning costs) minus (current fair market value of the vehicle, determined by the lessor's appraisal or a third party). The result can be substantial — a leaseholder ending a 36-month lease after 18 months might owe 5,000 to 15,000 dollars in early termination charges depending on the vehicle and remaining balance. Alternative paths that often save money. Lease transfer or assumption through services like Swapalease.com or LeaseTrader.com — the original leaseholder finds someone willing to take over the lease; the leasing company must approve the new lessee. Transfer fees are typically 300 to 600 dollars. Lease buyout and resale — the leaseholder pays off the residual value (the amount specified in the lease for end-of-lease purchase) and then sells the car privately or trades it in. This works when the residual is lower than the current market value. In 2022 and 2023 many leaseholders found the residual significantly below market value and made money on buyouts. Trade-in with the same dealer — the dealer takes the leased vehicle as a trade-in toward a new purchase or lease. This typically pays off the remaining balance and sometimes leaves equity if the market value is higher. Early lease return with financial hardship negotiation — some lessors offer programs for job loss or military deployment, typically documented with proof of hardship. Federal Servicemembers Civil Relief Act (50 USC 3955) gives active-duty military the right to terminate leases without penalty when deployed or transferred. A NY New Car Lemon Law claim under General Business Law Section 198-a can also force early termination. If the vehicle has been in the shop for substantially the same defect for more than 15 days out of the first 18,000 miles or 2 years, or for 4 or more repair attempts for the same defect, the consumer can demand a refund or replacement vehicle through arbitration at the NY Attorney General's Lemon Law Arbitration Program. Successful lemon claims terminate the lease at no cost to the leaseholder. A totaled vehicle (declared a total loss by insurance) typically triggers gap insurance coverage — if the lease includes gap insurance (many do, or the leaseholder can purchase it separately), the gap between insurance payout and remaining lease balance is covered, so the leaseholder owes little or nothing. Without gap insurance, the leaseholder owes the difference. Excessive wear-and-tear charges at end of lease can often be negotiated down or challenged. The leaseholder can also get the vehicle professionally detailed and minor damage repaired before returning to avoid the lessor's inflated reconditioning charges."
   },
 
   yourRights: {
     en: [
-      "A leaseholder has the right to a plain-language disclosure of the early termination formula under GBL 396-h.",
+      "A leaseholder has the right to a plain-language disclosure of the early termination formula under Personal Property Law Article 9-A (the NY Motor Vehicle Retail Leasing Act).",
       "A leaseholder has the right to transfer the lease to another qualified person with lessor approval.",
       "A leaseholder whose vehicle qualifies under the NY New Car Lemon Law has the right to terminate the lease without early-termination charges.",
       "An active-duty servicemember has the right to SCRA termination without penalty on deployment or PCS orders.",
@@ -94,7 +94,7 @@ export const AUTO_LEASE_EARLY_TERMINATION_NY = {
 
   tags: [
     "auto lease early termination",
-    "GBL 396-h",
+    "PEP 335",
     "lease transfer NY",
     "Swapalease",
     "lease buyout sell",
@@ -106,11 +106,12 @@ export const AUTO_LEASE_EARLY_TERMINATION_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/GBS/396-H",
+    "https://www.nysenate.gov/legislation/laws/PEP/A9-A",
     "https://ag.ny.gov/consumer-frauds/lemon-law"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

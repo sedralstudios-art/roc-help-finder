@@ -23,7 +23,7 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
   },
 
   whatItMeans: {
-    en: "Auto insurance companies in New York are regulated by the Department of Financial Services (DFS). Under Insurance Law Section 2601, insurers must handle claims promptly and in good faith. An insurer cannot deny a claim without a reasonable investigation. An insurer cannot lowball a settlement by ignoring evidence of the actual damage. And an insurer cannot drag out a claim hoping the policyholder gives up. When a claim is denied, the insurer must send a written explanation of the denial. The policyholder can appeal within the company first. If the internal appeal is denied, the policyholder can file a complaint with DFS or go to court. For no-fault (PIP) claims — which cover medical bills and lost wages regardless of who caused the accident — there is a separate process. If a no-fault claim is denied, the policyholder or their medical provider can request arbitration through the American Arbitration Association. No-fault claims must be submitted within 30 days of the service and the insurer must pay or deny within 30 days of receiving the claim. Total loss claims have specific rules. When an insurer declares a vehicle a total loss, the settlement must reflect actual cash value at the time of the loss — generally what comparable vehicles sell for in the local market — plus sales tax, title and registration fees, and the unused portion of registration. An insurer that uses a low-end valuation source without considering local listings, recent sale prices, or vehicle-specific upgrades is undervaluing the claim. The policyholder can submit comparables (CarFax records, local listings, dealer offers) to challenge the number. Diminished value claims, where a repaired vehicle is worth less than it was before the accident even after proper repair, can also be pursued in NY against the at-fault driver's insurer. These claims are harder to win but can recover thousands when documented with a professional appraisal."
+    en: "Auto insurance companies in New York are regulated by the Department of Financial Services (DFS). Under Insurance Law Section 2601, insurers must handle claims promptly and in good faith. An insurer cannot deny a claim without a reasonable investigation. An insurer cannot lowball a settlement by ignoring evidence of the actual damage. And an insurer cannot drag out a claim hoping the policyholder gives up. When a claim is denied, the insurer must send a written explanation of the denial. The policyholder can appeal within the company first. If the internal appeal is denied, the policyholder can file a complaint with DFS or go to court. For no-fault (PIP) claims — which cover medical bills and lost wages regardless of who caused the accident — there is a separate process. If a no-fault claim is denied, the policyholder or their medical provider can request arbitration through the American Arbitration Association. Written notice of a no-fault claim must be given to the insurer within 30 days of the accident, medical bills must be submitted within 45 days of treatment, and lost wage claims within 90 days. The insurer must pay or deny within 30 days of receiving the claim. Total loss claims have specific rules. When an insurer declares a vehicle a total loss, the settlement must reflect actual cash value at the time of the loss — generally what comparable vehicles sell for in the local market — plus sales tax, title and registration fees, and the unused portion of registration. An insurer that uses a low-end valuation source without considering local listings, recent sale prices, or vehicle-specific upgrades is undervaluing the claim. The policyholder can submit comparables (CarFax records, local listings, dealer offers) to challenge the number. Diminished value claims, where a repaired vehicle is worth less than it was before the accident even after proper repair, can also be pursued in NY against the at-fault driver's insurer. These claims are harder to win but can recover thousands when documented with a professional appraisal."
   },
 
   yourRights: {
@@ -55,7 +55,7 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
   counsel: [
     {
       type: "government",
-      name: "NYS Department of Financial Services ��� Consumer Hotline",
+      name: "NYS Department of Financial Services - Consumer Hotline",
       focus: "Insurance claim disputes, bad faith claims, consumer complaints",
       qualifier: "Any NYS resident",
       access: "Phone at (800) 342-3736 or online at dfs.ny.gov",
@@ -96,7 +96,8 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
     "https://www.dfs.ny.gov/consumers/auto_insurance"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

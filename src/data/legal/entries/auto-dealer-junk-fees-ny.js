@@ -3,8 +3,8 @@ export const AUTO_DEALER_JUNK_FEES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
-  authorityType: "state-statute",
-  primaryStatute: "NY VAT 396-Z",
+  authorityType: "state-regulation",
+  primaryStatute: "15 NYCRR 78.19",
   status: "active",
 
   title: { en: "Auto Dealer Add-On Fees — What a Car Dealer Cannot Charge" },
@@ -23,7 +23,7 @@ export const AUTO_DEALER_JUNK_FEES_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Vehicle and Traffic Law Section 396-z and General Business Law Section 396-p, auto dealers must follow specific rules about fees and disclosures. The documentation fee (doc fee) — charged for processing paperwork — is capped at $175 in New York. A dealer cannot charge more than $175 for this service regardless of what they call it. Common add-ons that dealers present as mandatory but are actually optional include VIN etching (etching the vehicle identification number on windows — costs the dealer a few dollars, charged to the buyer at $100-$400), paint sealant or protection packages (often $300-$800 for a product that costs a few dollars), fabric or interior protection (similar markup), nitrogen tire fill (nitrogen costs almost nothing compared to regular air), and dealer-installed accessories that were added before the buyer saw the car. A dealer cannot add charges to the contract that the buyer did not agree to. Every charge must be itemized on the purchase agreement. The buyer has the right to review every line before signing. If a buyer signed a contract with add-ons they did not notice, they may have a claim under GBL Section 349 (deceptive business practices) if the charges were not clearly disclosed. Online deal sheets and email confirmations help establish what was promised before the buyer arrived at the dealership. A pre-printed advertised price that excludes fees later added at the desk can support a deceptive practices claim under GBL Section 349. Trade-in valuation is another area where dealers shift money around: the trade-in value can be quoted high to compensate for an inflated new-car price, or quoted low while the new-car price is held steady. Comparing the trade-in value against an independent source like Kelley Blue Book or NADA before going to the dealership protects against trade-in lowballing. Spot deliveries — where the buyer drives the car off the lot before financing is finalized — sometimes lead to a yo-yo sale, where the dealer calls back days later claiming the loan fell through and demands a higher rate or a different car. NY has rules limiting this practice; if it happens, the buyer can return the car and walk away from the deal."
+    en: "Under DMV regulation 15 NYCRR 78.19 and General Business Law Section 349, auto dealers must follow specific rules about fees and disclosures. The documentation fee (doc fee) — charged for processing paperwork — is capped at $175 in New York. A dealer cannot charge more than $175 for this service regardless of what they call it. Common add-ons that dealers present as mandatory but are actually optional include VIN etching (etching the vehicle identification number on windows — costs the dealer a few dollars, charged to the buyer at $100-$400), paint sealant or protection packages (often $300-$800 for a product that costs a few dollars), fabric or interior protection (similar markup), nitrogen tire fill (nitrogen costs almost nothing compared to regular air), and dealer-installed accessories that were added before the buyer saw the car. A dealer cannot add charges to the contract that the buyer did not agree to. Every charge must be itemized on the purchase agreement. The buyer has the right to review every line before signing. If a buyer signed a contract with add-ons they did not notice, they may have a claim under GBL Section 349 (deceptive business practices) if the charges were not clearly disclosed. Online deal sheets and email confirmations help establish what was promised before the buyer arrived at the dealership. A pre-printed advertised price that excludes fees later added at the desk can support a deceptive practices claim under GBL Section 349. Trade-in valuation is another area where dealers shift money around: the trade-in value can be quoted high to compensate for an inflated new-car price, or quoted low while the new-car price is held steady. Comparing the trade-in value against an independent source like Kelley Blue Book or NADA before going to the dealership protects against trade-in lowballing. Spot deliveries — where the buyer drives the car off the lot before financing is finalized — sometimes lead to a yo-yo sale, where the dealer calls back days later claiming the loan fell through and demands a higher rate or a different car. NY has rules limiting this practice; if it happens, the buyer can return the car and walk away from the deal."
   },
 
   yourRights: {
@@ -93,11 +93,12 @@ export const AUTO_DEALER_JUNK_FEES_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/VAT/396-Z",
+    "https://dmv.ny.gov/registration/registered-dealer-fees-and-taxes",
     "https://ag.ny.gov/auto"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

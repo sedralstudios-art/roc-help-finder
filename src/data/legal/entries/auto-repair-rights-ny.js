@@ -10,7 +10,7 @@ export const AUTO_REPAIR_RIGHTS_NY = {
   title: { en: "Auto Repair Rights — What Mechanics Must Disclose in New York" },
 
   summary: {
-    en: "New York law gives car owners specific protections when getting repairs done. The shop must provide a written estimate before starting work, cannot exceed the estimate without permission, must return replaced parts if requested, and must give a written invoice when the work is done. If a shop overcharges, does unauthorized work, or refuses to release a car, the owner has options."
+    en: "New York law gives car owners specific protections when getting repairs done. The shop must provide a written estimate when requested before starting work, cannot charge more than the estimate without the customer's permission, must return replaced parts if requested, and must give a written invoice when the work is done. If a shop overcharges, does unauthorized work, or refuses to release a car, the owner has options."
   },
 
   whoQualifies: {
@@ -22,14 +22,14 @@ export const AUTO_REPAIR_RIGHTS_NY = {
   },
 
   whatItMeans: {
-    en: "Under VTL § 398-e and the regulations of the DMV's Vehicle Safety Service, every auto repair shop in New York must be registered and follow specific consumer protection rules. Before doing any work, the shop must provide a written estimate that describes the repairs needed, the parts, and the cost — or get oral authorization noted on the work order if the customer agrees by phone. The shop cannot exceed the estimate by more than 10% (or a specified dollar amount, whichever the customer chooses) without getting additional authorization. The customer has the right to request that replaced parts be returned (except warranty or exchange parts). When the work is done, the shop must provide a written invoice itemizing the work performed, parts used, and charges. A shop cannot hold a car hostage for disputed charges — if the customer pays the undisputed amount, the car must be released. A mechanic's lien exists for unpaid charges but requires following specific legal procedures. Complaints about repair shops can be filed with the DMV. Inspection-related repairs have an extra layer of protection. A shop that fails a vehicle for inspection cannot condition passing on doing the repairs in that shop — the customer is free to take the vehicle elsewhere for repair and return for a free re-inspection within a set window. Some shops use the inspection as a sales pitch by failing items that do not actually require repair under NY's inspection criteria; the published inspection standards are the controlling rule, not the shop's recommendation. Diagnostic fees should be discussed up front. A diagnostic charge of $100 to $200 to identify a check engine code or an unfamiliar noise is reasonable, but the fee should be disclosed before the work begins, and many shops apply the diagnostic fee toward the final repair if the customer authorizes the work. Estimates can be given in person, by phone with notation, or electronically — what matters is that the authorization is documented."
+    en: "Under VTL § 398-e and the regulations of the DMV's Vehicle Safety unit, every auto repair shop in New York must be registered and follow specific consumer protection rules. Before doing any work, the shop must provide a written estimate when requested that describes the repairs needed, the parts, and the cost — or get oral authorization noted on the work order if the customer agrees by phone. The shop cannot charge more than the estimated price for parts or labor without the customer's permission. The customer has the right to request that replaced parts be returned (except warranty or exchange parts). When the work is done, the shop must provide a written invoice itemizing the work performed, parts used, and charges. A shop cannot hold a car hostage for disputed charges — if the customer pays the undisputed amount, the car must be released. A mechanic's lien exists for unpaid charges but requires following specific legal procedures. Complaints about repair shops can be filed with the DMV. Inspection-related repairs have an extra layer of protection. A shop that fails a vehicle for inspection cannot condition passing on doing the repairs in that shop — the customer is free to take the vehicle elsewhere for repair and return for a free re-inspection within a set window. Some shops use the inspection as a sales pitch by failing items that do not actually require repair under NY's inspection criteria; the published inspection standards are the controlling rule, not the shop's recommendation. Diagnostic fees should be discussed up front. A diagnostic charge of $100 to $200 to identify a check engine code or an unfamiliar noise is reasonable, but the fee should be disclosed before the work begins, and many shops apply the diagnostic fee toward the final repair if the customer authorizes the work. Estimates can be given in person, by phone with notation, or electronically — what matters is that the authorization is documented."
   },
 
   yourRights: {
     en: [
       "The right to a written estimate before work begins.",
       "The right to authorize or refuse any work before it is performed.",
-      "The shop cannot exceed the estimate by more than 10% without additional permission.",
+      "The shop cannot charge more than the estimate without the customer's additional permission.",
       "The right to have replaced parts returned (request before work begins).",
       "The right to a detailed written invoice when work is complete.",
       "If there is a billing dispute, paying the undisputed amount should release the vehicle.",
@@ -94,7 +94,8 @@ export const AUTO_REPAIR_RIGHTS_NY = {
     "https://dmv.ny.gov/registration/auto-repair-shops"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

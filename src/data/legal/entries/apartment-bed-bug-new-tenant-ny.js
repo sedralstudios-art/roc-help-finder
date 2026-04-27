@@ -4,7 +4,7 @@ export const APARTMENT_BED_BUG_NEW_TENANT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY RPP 235-BB",
+  primaryStatute: "NY RPP 235-J",
   status: "active",
 
   title: { en: "Bed Bugs When Moving In — The Landlord's Disclosure Obligation and Tenant Remedies" },
@@ -23,12 +23,12 @@ export const APARTMENT_BED_BUG_NEW_TENANT_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Real Property Law Section 235-bb, a landlord must provide the bed bug infestation history of a unit for the prior year to a prospective tenant before the lease is signed. The disclosure must include whether the unit or the building had bed bugs in the past 12 months. If the landlord fails to disclose a known infestation, the tenant has legal remedies. Under the warranty of habitability (RPL Section 235-b), bed bugs make an apartment unlivable. The landlord is responsible for professional extermination — the tenant does not pay. If the tenant moved in and the bed bugs were present before move-in (not brought by the tenant), the landlord is liable for the cost of extermination, replacement of infested furniture and belongings, temporary housing if the apartment cannot be occupied during treatment, and medical costs if the tenant was bitten. A tenant who was not given the required bed bug disclosure can also claim fraud — the landlord knew about the bugs and concealed them. This can support a claim for breaking the lease without penalty and recovering moving costs. Bed bug treatment is more involved than most pest control. Effective treatment usually requires multiple visits over several weeks, prep work by the tenant (washing all bedding and clothing on hot, bagging items, removing clutter), and either chemical treatment or heat treatment. Heat treatment is more expensive but does not require chemicals; chemical treatment is cheaper but requires multiple cycles. Mattress and box spring encasements are recommended after treatment to trap any surviving bugs. The tenant cannot be required to handle treatment alone; the landlord's responsibility under the warranty of habitability covers the entire treatment process. Bed bugs do not transmit disease, but the bites can cause allergic reactions, secondary infections from scratching, and significant sleep loss and anxiety. Insurance generally does not cover bed bug treatment because it is considered a maintenance issue, not a sudden loss event."
+    en: "Under New York Real Property Law Section 235-j, a landlord must provide the bed bug infestation history of a unit for the prior year to a prospective tenant before the lease is signed. The disclosure must include whether the unit or the building had bed bugs in the past 12 months. If the landlord fails to disclose a known infestation, the tenant has legal remedies. Under the warranty of habitability (RPL Section 235-b), bed bugs make an apartment unlivable. The landlord is responsible for professional extermination — the tenant does not pay. If the tenant moved in and the bed bugs were present before move-in (not brought by the tenant), the landlord is liable for the cost of extermination, replacement of infested furniture and belongings, temporary housing if the apartment cannot be occupied during treatment, and medical costs if the tenant was bitten. A tenant who was not given the required bed bug disclosure can also claim fraud — the landlord knew about the bugs and concealed them. This can support a claim for breaking the lease without penalty and recovering moving costs. Bed bug treatment is more involved than most pest control. Effective treatment usually requires multiple visits over several weeks, prep work by the tenant (washing all bedding and clothing on hot, bagging items, removing clutter), and either chemical treatment or heat treatment. Heat treatment is more expensive but does not require chemicals; chemical treatment is cheaper but requires multiple cycles. Mattress and box spring encasements are recommended after treatment to trap any surviving bugs. The tenant cannot be required to handle treatment alone; the landlord's responsibility under the warranty of habitability covers the entire treatment process. Bed bugs do not transmit disease, but the bites can cause allergic reactions, secondary infections from scratching, and significant sleep loss and anxiety. Insurance generally does not cover bed bug treatment because it is considered a maintenance issue, not a sudden loss event."
   },
 
   yourRights: {
     en: [
-      "A prospective tenant has the right to the bed bug infestation history of the unit for the prior 12 months before signing a lease (RPL Section 235-bb).",
+      "A prospective tenant has the right to the bed bug infestation history of the unit for the prior 12 months before signing a lease (RPL Section 235-j).",
       "If the landlord fails to disclose, the tenant may break the lease and recover damages.",
       "The landlord is responsible for professional bed bug extermination — the tenant does not pay.",
       "A tenant can request an inspection by the local health department or code enforcement.",
@@ -40,7 +40,7 @@ export const APARTMENT_BED_BUG_NEW_TENANT_NY = {
   legalOptions: {
     en: [
       "Report bed bugs to the landlord in writing immediately — email and certified mail.",
-      "If the landlord does not act, file a complaint with Rochester Code Enforcement at 311 or the Monroe County Health Department at (585) 753-5171.",
+      "If the landlord does not act, file a complaint with Rochester Code Enforcement at 311 or the Monroe County Health Department at (585) 753-5555.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles bed bug cases and habitability claims.",
       "LawNY at (585) 325-2520 handles housing cases.",
       "If the infestation was present before move-in and not disclosed, the tenant can seek to break the lease, recover moving costs, and recover the cost of replaced belongings.",
@@ -49,7 +49,7 @@ export const APARTMENT_BED_BUG_NEW_TENANT_NY = {
   },
 
   example: {
-    en: "Two weeks after moving into an apartment in Rochester, Keisha woke up with rows of bites on her arms. She found bed bugs in the mattress seams. She reported it to the landlord in writing. The landlord claimed Keisha brought the bugs. But Keisha's Legal Aid attorney obtained the building's pest control records — the unit had been treated for bed bugs 3 months before Keisha moved in, and the landlord never disclosed it as required by RPL Section 235-bb. The landlord paid for professional treatment (3 rounds), replaced Keisha's infested mattress and box spring, and reimbursed her for two nights at a hotel during treatment."
+    en: "Two weeks after moving into an apartment in Rochester, Keisha woke up with rows of bites on her arms. She found bed bugs in the mattress seams. She reported it to the landlord in writing. The landlord claimed Keisha brought the bugs. But Keisha's Legal Aid attorney obtained the building's pest control records — the unit had been treated for bed bugs 3 months before Keisha moved in, and the landlord never disclosed it as required by RPL Section 235-j. The landlord paid for professional treatment (3 rounds), replaced Keisha's infested mattress and box spring, and reimbursed her for two nights at a hotel during treatment."
   },
 
   counsel: [
@@ -93,11 +93,12 @@ export const APARTMENT_BED_BUG_NEW_TENANT_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/RPP/235-BB",
+    "https://www.nysenate.gov/legislation/laws/RPP/235-J",
     "https://www.nysenate.gov/legislation/laws/RPP/235-B"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

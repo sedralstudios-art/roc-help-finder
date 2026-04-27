@@ -44,11 +44,11 @@ export const ARTICLE_78_PROCEEDING_REVIEW_AGENCY_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Supreme Court Clerk at (585) 428-5410 — Article 78 filing location and calendar.",
+      "Monroe County Supreme Court Clerk at (585) 371-3758 — Article 78 filing location and calendar.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — administrative law and Article 78 attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income administrative law cases.",
-      "Empire Justice Center at (585) 295-5800 — public benefits and administrative law impact litigation.",
-      "NYS Office of the Attorney General Litigation Bureau at (518) 776-2300 — represents the state in Article 78 proceedings.",
+      "Empire Justice Center (Rochester) at (585) 454-4060 — public benefits and administrative law impact litigation.",
+      "NYS Office of the Attorney General main line at (518) 776-2000 — the AG represents the state in Article 78 proceedings.",
       "NYCLU at (212) 607-3300 — civil liberties Article 78 matters.",
       "Disability Rights New York at (800) 993-8982 — disability-related agency challenges."
     ]
@@ -77,9 +77,9 @@ export const ARTICLE_78_PROCEEDING_REVIEW_AGENCY_NY = {
       name: "Empire Justice Center",
       focus: "Public benefits and civil rights Article 78 proceedings",
       qualifier: "Low-income Monroe County party",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation, impact litigation, systemic advocacy",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,
@@ -118,7 +118,8 @@ export const ARTICLE_78_PROCEEDING_REVIEW_AGENCY_NY = {
     "https://www.nysenate.gov/legislation/laws/CVP/217"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

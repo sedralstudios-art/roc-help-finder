@@ -48,11 +48,11 @@ export const AUTISM_INSURANCE_COVERAGE_NY = {
       "NYS DFS External Appeal at (800) 400-8882 — external review of medical-necessity denials.",
       "NYS Office for People with Developmental Disabilities at (866) 946-9733 — OPWDD services for children and adults with ASD.",
       "NYS DOH Early Intervention Program at (518) 473-7016 — services under age 3.",
-      "Monroe County EI at (585) 753-5070 — local coordination.",
-      "Rochester Regional Center at (585) 461-8330 — OPWDD regional office.",
-      "Autism Speaks at (888) 288-4762 — navigator and insurance advocacy.",
-      "Autism Society of Greater Rochester at (585) 442-9211 — local family support.",
-      "Golisano Autism Center at (585) 273-3223 — URMC diagnostic and treatment services."
+      "Monroe County EI at (585) 753-5437 — local coordination.",
+      "Finger Lakes Developmental Disabilities Regional Office at (585) 241-5700 — OPWDD regional office.",
+      "Autism Speaks Response Team at (888) 288-4762 — navigator and insurance advocacy.",
+      "AutismUp Rochester at (585) 248-9011 — local family support.",
+      "Golisano Autism Center at (585) 685-8300 — Rochester diagnostic and family support services."
     ]
   },
 
@@ -76,13 +76,13 @@ export const AUTISM_INSURANCE_COVERAGE_NY = {
     },
     {
       type: "free",
-      name: "Autism Society of Greater Rochester",
-      focus: "Family support, navigation of services, insurance advocacy",
-      qualifier: "Any Monroe County family affected by ASD",
-      access: "Phone (585) 442-9211",
-      outcome: "Information, peer support, referral",
-      phone: "(585) 442-9211",
-      url: "https://asgr.org",
+      name: "AutismUp Rochester",
+      focus: "Family support, navigation of services, programs and recreation",
+      qualifier: "Any Greater Rochester family affected by ASD",
+      access: "Phone (585) 248-9011",
+      outcome: "Information, peer support, programs, referral",
+      phone: "(585) 248-9011",
+      url: "https://autismup.org",
       verified: true,
       bilingual: false,
       languages: []
@@ -121,7 +121,8 @@ export const AUTISM_INSURANCE_COVERAGE_NY = {
     "https://www.health.ny.gov/community/infants_children/early_intervention/"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

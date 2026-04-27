@@ -115,6 +115,7 @@ export const ANTI_HAZING_LAW_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
