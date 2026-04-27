@@ -4,7 +4,7 @@ export const AFTER_A_FIRE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY RPP 227-A",
+  primaryStatute: "NY RPP 227",
   status: "active",
 
   title: { en: "After a House or Apartment Fire — What to Do and Who Can Help in Monroe County" },
@@ -22,7 +22,7 @@ export const AFTER_A_FIRE_NY = {
   },
 
   whatItMeans: {
-    en: "Immediately after a fire, the Red Cross typically responds on-scene and provides emergency assistance: temporary shelter, clothing, food, and comfort kits. In Monroe County, the Red Cross can be reached at (585) 241-4210. If the apartment is uninhabitable, the tenant is generally not required to continue paying rent for the period the unit cannot be occupied. Under the warranty of habitability (RPL § 235-b) and RPL § 227-a (constructive eviction by destruction), a fire that renders the unit unlivable may terminate the lease or suspend the rent obligation. The tenant's security deposit should be returned if the fire was not the tenant's fault. For homeowners, the insurance claim process begins by contacting the insurance company immediately. The adjuster assesses the damage. If the homeowner is underinsured or uninsured, FEMA disaster assistance may be available if the fire is part of a declared disaster, and the Red Cross and local agencies can help with immediate needs. DSS at (585) 753-6960 can provide emergency temporary housing assistance for displaced residents. The Salvation Army, Catholic Family Center, and local churches often provide clothing, household items, and case management after a fire. Documentation matters from the first moment after a fire. Photographs of the damage, an inventory of destroyed belongings, receipts that survive, and copies of police and fire reports become the backbone of any insurance claim and any landlord dispute. Tenants can request a copy of the fire investigation report from the Rochester Bureau of Fire or the responding department — the report identifies the cause, which determines whether the tenant or the landlord bears responsibility. If the landlord caused the fire (faulty wiring, unrepaired heating system, blocked egress), the tenant may have a claim for additional damages beyond the security deposit. Renters insurance, if in place, covers personal property loss and additional living expenses while the unit is uninhabitable; many tenants discover after a fire that they had no renters insurance and had nothing covering the loss of their belongings."
+    en: "Immediately after a fire, the Red Cross typically responds on-scene and provides emergency assistance: temporary shelter, clothing, food, and comfort kits. In Monroe County, the Red Cross Greater Rochester Chapter can be reached at (585) 241-4400. If the apartment is uninhabitable, the tenant is generally not required to continue paying rent for the period the unit cannot be occupied. Under the warranty of habitability (RPL § 235-b) and RPL § 227 (which lets a tenant surrender the premises when a building is destroyed or so injured as to be untenantable, without fault of the tenant), a fire that renders the unit unlivable may terminate the lease or suspend the rent obligation. The tenant's security deposit should be returned if the fire was not the tenant's fault. For homeowners, the insurance claim process begins by contacting the insurance company immediately. The adjuster assesses the damage. If the homeowner is underinsured or uninsured, FEMA disaster assistance may be available if the fire is part of a declared disaster, and the Red Cross and local agencies can help with immediate needs. Monroe County Department of Human Services at (585) 753-6044 (after hours (585) 442-1742) can provide emergency temporary housing assistance for displaced residents through in-person intake at 691 St. Paul Street. The Salvation Army, Catholic Family Center, and local churches often provide clothing, household items, and case management after a fire. Documentation matters from the first moment after a fire. Photographs of the damage, an inventory of destroyed belongings, receipts that survive, and copies of police and fire reports become the backbone of any insurance claim and any landlord dispute. Tenants can request a copy of the fire investigation report from the Rochester Bureau of Fire or the responding department — the report identifies the cause, which determines whether the tenant or the landlord bears responsibility. If the landlord caused the fire (faulty wiring, unrepaired heating system, blocked egress), the tenant may have a claim for additional damages beyond the security deposit. Renters insurance, if in place, covers personal property loss and additional living expenses while the unit is uninhabitable; many tenants discover after a fire that they had no renters insurance and had nothing covering the loss of their belongings."
   },
 
   yourRights: {
@@ -38,11 +38,11 @@ export const AFTER_A_FIRE_NY = {
 
   legalOptions: {
     en: [
-      "The American Red Cross of Western and Central New York responds to fires in Monroe County and provides immediate emergency assistance (shelter, food, clothing). Phone: (585) 241-4210.",
-      "Monroe County DSS provides emergency temporary housing for displaced residents at (585) 753-6960.",
+      "The American Red Cross Greater Rochester Chapter responds to fires in Monroe County and provides immediate emergency assistance (shelter, food, clothing). Phone: (585) 241-4400.",
+      "Monroe County Department of Human Services provides emergency temporary housing for displaced residents during business hours at (585) 753-6044, after hours at (585) 442-1742; in-person intake at 691 St. Paul Street.",
       "For tenant rights after a fire (rent suspension, lease termination, security deposit return), free legal help is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "For homeowner insurance claims, contacting the insurance company immediately and documenting all damage with photos before cleanup is important. If the claim is denied or undervalued, the NY Department of Financial Services can assist at (800) 342-3736.",
-      "The Salvation Army at (585) 235-2769 and Catholic Family Center at (585) 546-7220 provide clothing, household items, and case management for fire-displaced families."
+      "The Salvation Army at (585) 987-9500 and Catholic Family Center at (585) 546-7220 provide clothing, household items, and case management for fire-displaced families."
     ]
   },
 
@@ -53,12 +53,12 @@ export const AFTER_A_FIRE_NY = {
   counsel: [
     {
       type: "free",
-      name: "American Red Cross — Monroe County",
+      name: "American Red Cross — Greater Rochester Chapter",
       focus: "Fire emergency response, temporary shelter, clothing, food",
       qualifier: "Anyone displaced by a fire",
       access: "Responds on-scene; also reachable by phone",
       outcome: "Immediate emergency assistance",
-      phone: "(585) 241-4210",
+      phone: "(585) 241-4400",
       url: "https://www.redcross.org",
       verified: true,
       bilingual: true,
@@ -66,12 +66,12 @@ export const AFTER_A_FIRE_NY = {
     },
     {
       type: "free",
-      name: "Monroe County DSS — Emergency Housing",
+      name: "Monroe County DHS — Emergency Housing",
       focus: "Emergency temporary housing for displaced residents",
       qualifier: "Monroe County residents",
-      access: "Phone",
+      access: "Phone (business hours) or in-person at 691 St. Paul Street",
       outcome: "Emergency housing placement",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6044",
       url: "https://www.monroecounty.gov",
       verified: true,
       bilingual: false,
@@ -104,12 +104,13 @@ export const AFTER_A_FIRE_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/RPP/227-A",
+    "https://www.nysenate.gov/legislation/laws/RPP/227",
     "https://www.nysenate.gov/legislation/laws/RPP/235-B",
     "https://www.redcross.org"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

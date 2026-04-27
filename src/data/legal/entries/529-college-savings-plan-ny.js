@@ -98,6 +98,7 @@ export const NY_529_COLLEGE_SAVINGS_PLAN_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

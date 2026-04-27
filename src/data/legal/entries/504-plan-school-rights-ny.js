@@ -99,6 +99,7 @@ export const FIVE04_PLAN_SCHOOL_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

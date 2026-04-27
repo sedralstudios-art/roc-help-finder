@@ -41,7 +41,7 @@ export const ADA_PUBLIC_TRANSIT_NY = {
   legalOptions: {
     en: [
       "Under the ADA (42 USC Section 12143), public transit agencies must provide complementary paratransit service for people whose disabilities prevent them from using the regular bus.",
-      "RTS Access applications are available at myrts.com or by calling (585) 288-1700. The process includes a phone or in-person interview.",
+      "RTS Access applications are available at myrts.com or by calling RTS Access at (585) 654-0608. The process includes a phone or in-person interview.",
       "If an RTS Access application is denied, the applicant has the right to an appeal hearing. The appeal must be requested in writing within 60 days.",
       "Complaints about broken lifts, inaccessible buses, or driver conduct can be filed with RTS at (585) 288-1700.",
       "Complaints about ADA transit violations can also be filed with the Federal Transit Administration at (888) 446-4511 or online at transit.dot.gov.",
@@ -69,11 +69,24 @@ export const ADA_PUBLIC_TRANSIT_NY = {
     },
     {
       type: "government",
+      name: "RTS Access — Paratransit",
+      focus: "RTS Access applications, paratransit eligibility, paratransit scheduling",
+      qualifier: "Anyone in Monroe County who cannot use the regular RTS bus because of a disability",
+      access: "Phone at (585) 654-0608",
+      outcome: "RTS Access applications, eligibility decisions, ride scheduling",
+      phone: "(585) 654-0608",
+      url: "https://www.myrts.com/access",
+      verified: true,
+      bilingual: false,
+      languages: []
+    },
+    {
+      type: "government",
       name: "RTS (Regional Transit Service) — Customer Service",
-      focus: "Bus service, paratransit (RTS Access), accessibility complaints",
+      focus: "Bus service, accessibility complaints, broken lift reports",
       qualifier: "Anyone who uses RTS in Monroe County",
       access: "Phone at (585) 288-1700",
-      outcome: "Complaint resolution, RTS Access applications, service information",
+      outcome: "Complaint resolution, service information",
       phone: "(585) 288-1700",
       url: "https://www.myrts.com",
       verified: true,
@@ -109,7 +122,8 @@ export const ADA_PUBLIC_TRANSIT_NY = {
     "https://www.transit.dot.gov/regulations-and-guidance/civil-rights-ada/ada-regulations"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

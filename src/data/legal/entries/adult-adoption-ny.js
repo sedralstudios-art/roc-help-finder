@@ -23,7 +23,7 @@ export const ADULT_ADOPTION_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Domestic Relations Law Section 110, any adult can be adopted by another adult. The person being adopted must consent. Unlike child adoption, adult adoption does not require a home study, background check, or investigation by an agency. The process is a petition filed in Surrogate's Court or Family Court. Both parties appear before the judge, who confirms consent and issues an adoption order. The adoption creates a legal parent-child relationship. The adopted person can take the adoptive parent's surname. The adopted person becomes an heir of the adoptive parent for inheritance purposes. The adoption may affect health insurance eligibility (adding the adopted adult as a dependent, depending on age and the plan). The biological parent-child relationship is not automatically terminated by an adult adoption in all cases — this depends on the circumstances and the court's order. The filing fee is typically $65 in Surrogate's Court. Attorney fees for a straightforward adult adoption range from $500 to $2,000. Some legal aid organizations handle adult adoptions pro bono. Birth parent consent is generally not required for an adult adoption since the person being adopted is an adult and consents on their own behalf. The adopted adult's spouse, however, may need to consent under DOM 110(2) — the statute requires the spouse to be given notice and an opportunity to object. After the adoption, the adopted adult's relationship to the adoptive parent's other relatives — siblings, grandparents — is recognized in NY for inheritance and family-relationship purposes. The adoption is permanent and very difficult to reverse. Adult adoptions for the purpose of inheritance avoidance, like an older partner adopting a younger partner to receive favorable trust treatment, have been challenged in NY courts and may be denied if the court finds the relationship is not parent-child in nature. The judge has discretion to dismiss a petition that does not meet the spirit of the statute."
+    en: "Under New York Domestic Relations Law Section 110, any adult can be adopted by another adult. The person being adopted must consent. Unlike child adoption, adult adoption does not require a home study, background check, or investigation by an agency. The process is a petition filed in Surrogate's Court or Family Court. Both parties appear before the judge, who confirms consent and issues an adoption order. The adoption creates a legal parent-child relationship. The adopted person can take the adoptive parent's surname. The adopted person becomes an heir of the adoptive parent for inheritance purposes. The adoption may affect health insurance eligibility (adding the adopted adult as a dependent, depending on age and the plan). The biological parent-child relationship is not automatically terminated by an adult adoption in all cases — this depends on the circumstances and the court's order. Adoption petitions in NY Surrogate's Court do not carry a filing fee under SCPA 2402. Attorney fees for a straightforward adult adoption range from $500 to $2,000. Some legal aid organizations handle adult adoptions pro bono. Birth parent consent is generally not required for an adult adoption since the person being adopted is an adult and consents on their own behalf. The adopted adult's spouse, however, may need to consent under DOM 110(2) — the statute requires the spouse to be given notice and an opportunity to object. After the adoption, the adopted adult's relationship to the adoptive parent's other relatives — siblings, grandparents — is recognized in NY for inheritance and family-relationship purposes. The adoption is permanent and very difficult to reverse. Adult adoptions for the purpose of inheritance avoidance, like an older partner adopting a younger partner to receive favorable trust treatment, have been challenged in NY courts and may be denied if the court finds the relationship is not parent-child in nature. The judge has discretion to dismiss a petition that does not meet the spirit of the statute."
   },
 
   yourRights: {
@@ -39,10 +39,10 @@ export const ADULT_ADOPTION_NY = {
 
   legalOptions: {
     en: [
-      "Adult adoption petitions are filed in Surrogate's Court. Monroe County Surrogate's Court at (585) 371-3289.",
-      "JustCause provides pro bono legal services for adoptions — referral through Monroe County Bar Association at (585) 546-2130.",
+      "Adult adoption petitions are filed in Surrogate's Court. Monroe County Surrogate's Court at (585) 371-3310.",
+      "JustCause provides pro bono legal services for adoptions — referral through Monroe County Bar Association at (585) 546-1817.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles some adoption matters for low-income families.",
-      "The court filing fee is approximately $65. Attorney fees for a simple adult adoption are typically $500 to $2,000.",
+      "There is no filing fee for adoption petitions in NY Surrogate's Court. Attorney fees for a simple adult adoption are typically $500 to $2,000.",
       "Court forms for adoption are available at nycourts.gov.",
       "If the adoption is contested (which is rare in adult adoptions), an attorney is strongly recommended."
     ]
@@ -58,9 +58,9 @@ export const ADULT_ADOPTION_NY = {
       name: "Monroe County Surrogate's Court",
       focus: "Adoptions, estates, guardianships",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 371-3289",
+      access: "Phone at (585) 371-3310",
       outcome: "Adoption petition filing, court hearings, adoption orders",
-      phone: "(585) 371-3289",
+      phone: "(585) 371-3310",
       url: "https://www.nycourts.gov/courts/7jd/monroe/surrogate/",
       verified: true,
       bilingual: false,
@@ -96,7 +96,8 @@ export const ADULT_ADOPTION_NY = {
     "https://www.nycourts.gov/courthelp/Family/adoptionAdult.shtml"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

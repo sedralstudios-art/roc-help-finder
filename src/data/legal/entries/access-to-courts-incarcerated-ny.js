@@ -41,7 +41,7 @@ export const ACCESS_TO_COURTS_INCARCERATED_NY = {
     en: [
       "For appeals and post-conviction motions, the Monroe County Public Defender's Office continues to represent clients after conviction: (585) 753-4210.",
       "For conditions of confinement complaints, file a grievance through the facility's internal process first — this is required before a federal lawsuit.",
-      "The Prisoners' Legal Services of New York provides free legal assistance to incarcerated people: (877) 268-4430.",
+      "Prisoners' Legal Services of New York provides free civil legal assistance to people incarcerated in NY State prisons (DOCCS facilities, not local jails): Central Office (518) 445-6052.",
       "Legal Aid Society of Rochester at (585) 232-4090 can assist family members trying to connect an incarcerated person with legal resources.",
       "The NYCLU accepts complaints about jail and prison conditions: nyclu.org.",
       "For habeas corpus petitions (challenging the legality of detention), the petition is filed in the county where the person is held."
@@ -56,11 +56,11 @@ export const ACCESS_TO_COURTS_INCARCERATED_NY = {
     {
       type: "free",
       name: "Prisoners' Legal Services of New York",
-      focus: "Legal assistance for incarcerated people, conditions of confinement, appeals",
-      qualifier: "Any incarcerated person in New York",
+      focus: "Civil legal assistance, conditions of confinement, appeals",
+      qualifier: "Indigent people incarcerated in NY State prisons (DOCCS); does not serve county jails or federal prisons",
       access: "Phone or mail",
       outcome: "Legal advice, representation, referrals",
-      phone: "(877) 268-4430",
+      phone: "(518) 445-6052",
       url: "https://www.plsny.org",
       verified: true,
       bilingual: false,
@@ -98,7 +98,8 @@ export const ACCESS_TO_COURTS_INCARCERATED_NY = {
     "https://www.law.cornell.edu/supremecourt/text/430/817"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

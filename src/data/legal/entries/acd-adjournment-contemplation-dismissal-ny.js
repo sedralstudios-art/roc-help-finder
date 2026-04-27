@@ -43,11 +43,11 @@ export const ACD_ADJOURNMENT_CONTEMPLATION_DISMISSAL_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — free representation in ACD negotiation.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — appointed private counsel when the PD has a conflict.",
+      "Monroe County Assigned Counsel Program at (585) 753-3480 — appointed private counsel when the PD has a conflict.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private defense attorneys with ACD experience.",
-      "For non-citizen defendants, the NY Immigrant Representation Project at (212) 613-5000 coordinates with defense counsel on Padilla-compliant advice.",
+      "For non-citizen defendants, the Immigrant Defense Project Padilla Support Center at (212) 725-6422 supports defense counsel on Padilla-compliant advice on immigration consequences.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income defendants.",
-      "Rochester City Court at (585) 428-6552 — ACD hearings and scheduling.",
+      "Rochester City Court Criminal Division at (585) 371-3413 — ACD hearings and scheduling.",
       "Monroe County District Attorney at (585) 753-4500 — prosecutor-side ACD decisions."
     ]
   },
@@ -117,7 +117,8 @@ export const ACD_ADJOURNMENT_CONTEMPLATION_DISMISSAL_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/160.50"
   ],
 
-  lastVerified: "2026-04-23",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

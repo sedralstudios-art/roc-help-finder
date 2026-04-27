@@ -110,6 +110,7 @@ export const ADA_WORKPLACE_ACCOMMODATION_NY = {
   ],
 
   lastVerified: "2026-04-23",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

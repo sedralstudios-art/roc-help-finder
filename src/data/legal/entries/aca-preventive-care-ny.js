@@ -41,7 +41,7 @@ export const ACA_PREVENTIVE_CARE_NY = {
   legalOptions: {
     en: [
       "NY State Department of Financial Services at (800) 342-3736 handles preventive care billing complaints.",
-      "US Department of Labor at (866) 487-2365 handles self-funded ERISA plan complaints.",
+      "US Department of Labor Employee Benefits Security Administration (EBSA) at (866) 444-3272 handles self-funded ERISA plan complaints.",
       "Community Service Society of NY Health Helpline at 1-888-614-5400 provides billing dispute help.",
       "NY State of Health at 1-855-355-5777 for plan selection and preventive benefit questions.",
       "HealthCare.gov preventive services list at healthcare.gov/preventive-care-adults.",
@@ -110,7 +110,8 @@ export const ACA_PREVENTIVE_CARE_NY = {
     "https://www.healthcare.gov/preventive-care-adults"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

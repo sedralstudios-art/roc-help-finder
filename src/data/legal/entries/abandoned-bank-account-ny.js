@@ -10,7 +10,7 @@ export const ABANDONED_BANK_ACCOUNT_NY = {
   title: { en: "Abandoned Bank Accounts and Unclaimed Property — How to Get Money Back from the State" },
 
   summary: {
-    en: "When a bank account, insurance policy, paycheck, utility deposit, or other financial asset goes unclaimed for a certain period, the institution must turn the money over to the NYS Comptroller as unclaimed property. The money does not disappear — it is held by the state indefinitely and can be claimed by the rightful owner at any time. New York holds over $18 billion in unclaimed funds."
+    en: "When a bank account, insurance policy, paycheck, utility deposit, or other financial asset goes unclaimed for a certain period, the institution must turn the money over to the NYS Comptroller as unclaimed property. The money does not disappear — it is held by the state indefinitely and can be claimed by the rightful owner at any time. New York holds over $20 billion in unclaimed funds."
   },
 
   whoQualifies: {
@@ -23,7 +23,7 @@ export const ABANDONED_BANK_ACCOUNT_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Abandoned Property Law, when a financial institution holds property with no owner activity for a set dormancy period (3 years for bank accounts, 3 years for uncashed checks, 3 years for insurance proceeds, 1 year for wages), the institution must report and remit the property to the NYS Comptroller's Office of Unclaimed Funds. Common types of unclaimed property include forgotten bank accounts (savings, checking, CDs), uncashed paychecks or tax refunds, insurance policy payouts and premium refunds, utility deposits never returned, safe deposit box contents, uncashed dividends and stock proceeds, court deposits, and estate assets. The money is held by the state indefinitely — there is no deadline to claim it. Searching for unclaimed property is free through the NYS Comptroller's website at osc.state.ny.us/unclaimed-funds. The person submits a claim form with proof of identity. Processing typically takes 6 to 8 weeks. Third-party companies (called finders) will search for unclaimed property and file claims for a percentage (up to 15%). This is legal but unnecessary — the search and claim process is free. The Comptroller publishes the unclaimed funds database online, and a search returns matches by name, last known address, and approximate amount. A common mistake is searching only the current legal name — old accounts may be listed under a former married name, a maiden name, a misspelling, or a nickname. Searching every variation, including hyphenations and common typos, surfaces money that a single-name search misses. Federal unclaimed property exists too — the IRS holds undeliverable refunds, and federal pension benefits can sit unclaimed at the Pension Benefit Guaranty Corporation. Each agency has its own search portal, and money in one system is not visible to the other. Heirs of a deceased relative can search every state where that relative ever lived or worked, since each state holds its own residents' unclaimed property separately."
+    en: "Under New York Abandoned Property Law, when a financial institution holds property with no owner activity for a set dormancy period (3 years for bank accounts, 3 years for uncashed checks, 3 years for insurance proceeds, 3 years for unpaid wages), the institution must report and remit the property to the NYS Comptroller's Office of Unclaimed Funds. Common types of unclaimed property include forgotten bank accounts (savings, checking, CDs), uncashed paychecks or tax refunds, insurance policy payouts and premium refunds, utility deposits never returned, safe deposit box contents, uncashed dividends and stock proceeds, court deposits, and estate assets. The money is held by the state indefinitely — there is no deadline to claim it. Searching for unclaimed property is free through the NYS Comptroller's website at osc.state.ny.us/unclaimed-funds. The person submits a claim form with proof of identity. Processing typically takes 6 to 8 weeks. Third-party companies (called finders) will search for unclaimed property and file claims for a percentage (up to 15%). This is legal but unnecessary — the search and claim process is free. The Comptroller publishes the unclaimed funds database online, and a search returns matches by name, last known address, and approximate amount. A common mistake is searching only the current legal name — old accounts may be listed under a former married name, a maiden name, a misspelling, or a nickname. Searching every variation, including hyphenations and common typos, surfaces money that a single-name search misses. Federal unclaimed property exists too — the IRS holds undeliverable refunds, and federal pension benefits can sit unclaimed at the Pension Benefit Guaranty Corporation. Each agency has its own search portal, and money in one system is not visible to the other. Heirs of a deceased relative can search every state where that relative ever lived or worked, since each state holds its own residents' unclaimed property separately."
   },
 
   yourRights: {
@@ -97,7 +97,8 @@ export const ABANDONED_BANK_ACCOUNT_NY = {
     "https://www.osc.state.ny.us/unclaimed-funds"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

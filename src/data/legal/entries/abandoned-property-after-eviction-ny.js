@@ -98,6 +98,7 @@ export const ABANDONED_PROPERTY_AFTER_EVICTION_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

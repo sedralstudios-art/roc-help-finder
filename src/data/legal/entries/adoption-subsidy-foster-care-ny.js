@@ -40,7 +40,7 @@ export const ADOPTION_SUBSIDY_FOSTER_CARE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services — Adoption Unit at (585) 753-6000 handles adoption subsidies.",
+      "Monroe County Department of Human Services — Adoption Unit at (585) 753-6084 handles adoption subsidies.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents adoptive families in subsidy disputes and fair hearings.",
       "The NYS Office of Children and Family Services (OCFS) oversees adoption subsidies statewide — call (518) 474-9406.",
       "If a subsidy is denied or reduced, request a fair hearing through OCFS within 60 days of the decision.",
@@ -59,10 +59,23 @@ export const ADOPTION_SUBSIDY_FOSTER_CARE_NY = {
       name: "Monroe County DHS — Adoption Unit",
       focus: "Adoption subsidies, foster care adoption, post-adoption services",
       qualifier: "Families adopting from foster care in Monroe County",
-      access: "Phone at (585) 753-6000",
+      access: "Phone at (585) 753-6084",
       outcome: "Subsidy negotiation, Medicaid enrollment, expense reimbursement",
-      phone: "(585) 753-6000",
-      url: "https://www.monroecounty.gov/hs-children",
+      phone: "(585) 753-6084",
+      url: "https://www.monroecounty.gov/hs-adoption",
+      verified: true,
+      bilingual: false,
+      languages: []
+    },
+    {
+      type: "government",
+      name: "OCFS — NY State Adoption Service",
+      focus: "Adoption subsidy oversight, fair hearings, statewide adoption information",
+      qualifier: "Any New York family adopting from foster care or seeking subsidy review",
+      access: "Phone at (518) 474-9406 or toll-free (800) 345-5437",
+      outcome: "Subsidy program guidance, fair hearing requests, statewide referrals",
+      phone: "(518) 474-9406",
+      url: "https://ocfs.ny.gov/programs/adoption/post-adoption/subsidies.php",
       verified: true,
       bilingual: false,
       languages: []
@@ -97,7 +110,8 @@ export const ADOPTION_SUBSIDY_FOSTER_CARE_NY = {
     "https://ocfs.ny.gov/programs/adoption/"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

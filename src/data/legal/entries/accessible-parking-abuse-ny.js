@@ -10,7 +10,7 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
   title: { en: "Accessible Parking Abuse — Reporting Misuse and Protecting Parking Spaces" },
 
   summary: {
-    en: "Using someone else's handicap placard, parking in an accessible space without a permit, or blocking an access aisle is illegal in New York. Fines start at $150 and can reach $1,000. A person with a disability who cannot find accessible parking because of abuse has the right to report violations."
+    en: "Using someone else's handicap placard, parking in an accessible space without a permit, or blocking an access aisle is illegal in New York. Local parking fines commonly range from $50 to $300, and fraudulent use of a placard carries a state civil penalty up to $1,000 under VTL 1203-a. A person with a disability who cannot find accessible parking because of abuse has the right to report violations."
   },
 
   whoQualifies: {
@@ -23,7 +23,7 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
   },
 
   whatItMeans: {
-    en: "Under VTL Section 1203-a, only vehicles displaying a valid accessible parking permit (placard or plate) with the permit holder present in the vehicle can park in a designated accessible space. Using someone else's placard, using a placard when the permit holder is not in the vehicle, or using an expired or forged placard are all violations. Parking in an accessible space without any permit is also a violation. Blocking an access aisle (the striped area next to the space) is a separate violation because the aisle is needed for wheelchair ramps and lifts. Fines in New York range from $150 to $300 for a first offense. Repeat offenses or use of a forged placard can result in fines up to $1,000 and up to 15 days in jail. A vehicle parked illegally in an accessible space can also be towed. In private parking lots (stores, malls, restaurants), the property owner is responsible for maintaining and enforcing accessible parking. Under the ADA, businesses must provide a minimum number of accessible spaces based on the total number of parking spaces. If a business does not have enough accessible spaces or the spaces are not properly marked, a complaint can be filed with the Department of Justice. Many municipalities run volunteer enforcement programs — trained citizens, sometimes called Disabled Parking Enforcement Officers, can ticket vehicles in private lots that have agreed to participate. The City of Rochester runs such a program; signing up generally requires a short training and a background check. A business owner who wants to participate signs a memorandum allowing officers to enforce in their lot. Photographs are useful evidence for any report — a photo showing the placard hanging from the mirror with no driver visible, or a photo of a vehicle blocking the access aisle, helps law enforcement act on the report. Stolen placards can be reported to the DMV and to local police. The DMV maintains a list of canceled placard numbers so officers can confirm whether a presented placard has been reported stolen."
+    en: "Under VTL Section 1203-a, only vehicles displaying a valid accessible parking permit (placard or plate) with the permit holder present in the vehicle can park in a designated accessible space. Using someone else's placard, using a placard when the permit holder is not in the vehicle, or using an expired or forged placard are all violations. Parking in an accessible space without any permit is also a violation. Blocking an access aisle (the striped area next to the space) is a separate violation because the aisle is needed for wheelchair ramps and lifts. Fines for parking in an accessible space without a permit are set by each municipality and commonly range from $50 to $300 for a first offense — Rochester and many Monroe County towns set higher fines than the state minimum. Knowingly making false statements to obtain a handicap permit, or fraudulent use of a permit, carries a state civil penalty of $250 to $1,000 under VTL 1203-a, plus possible misdemeanor charges under NY Penal Law 190.65 for using a forged placard. A vehicle parked illegally in an accessible space can also be towed. In private parking lots (stores, malls, restaurants), the property owner is responsible for maintaining and enforcing accessible parking. Under the ADA, businesses must provide a minimum number of accessible spaces based on the total number of parking spaces. If a business does not have enough accessible spaces or the spaces are not properly marked, a complaint can be filed with the Department of Justice. Many municipalities run volunteer enforcement programs — trained citizens, sometimes called Disabled Parking Enforcement Officers, can ticket vehicles in private lots that have agreed to participate. The City of Rochester runs such a program; signing up generally requires a short training and a background check. A business owner who wants to participate signs a memorandum allowing officers to enforce in their lot. Photographs are useful evidence for any report — a photo showing the placard hanging from the mirror with no driver visible, or a photo of a vehicle blocking the access aisle, helps law enforcement act on the report. Stolen placards can be reported to the DMV and to local police. The DMV maintains a list of canceled placard numbers so officers can confirm whether a presented placard has been reported stolen."
   },
 
   yourRights: {
@@ -41,7 +41,7 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
     en: [
       "To report illegally parked vehicles in accessible spaces, call local police non-emergency. In Rochester, call 311.",
       "In many Monroe County towns, a parking enforcement officer can ticket vehicles in private lots if called.",
-      "To report placard abuse or suspected fraud, call the NYS DMV at (518) 474-0774.",
+      "To report a suspected counterfeit or fraudulent placard, contact local police, file the DMV's FI-17 form (Report of Unauthorized Use of License/Registration), or contact the DMV's Division of Field Investigation at (518) 473-6464.",
       "For ADA parking complaints against a business, file with the U.S. Department of Justice at ada.gov or call (800) 514-0301.",
       "Center for Disability Rights at (585) 546-7510 advocates for accessible parking and can assist with ADA complaints.",
       "A person with a disability who is consistently unable to park at a specific business can request that the business add more spaces — the ADA sets the minimum."
@@ -95,7 +95,8 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
     "https://www.ada.gov/topics/parking/"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

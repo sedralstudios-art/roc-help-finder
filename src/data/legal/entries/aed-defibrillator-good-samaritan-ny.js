@@ -23,7 +23,7 @@ export const AED_DEFIBRILLATOR_GOOD_SAMARITAN_NY = {
   },
 
   whatItMeans: {
-    en: "Under Public Health Law Section 3000-b, any person who voluntarily uses an AED in a medical emergency is protected from civil liability as long as they act in good faith and without gross negligence. This applies whether or not the person has any training. AEDs are designed for use by bystanders — the device analyzes the heart rhythm and will only deliver a shock if needed. A bystander cannot accidentally harm someone by using an AED incorrectly because the device will not shock a normal heart rhythm. New York also has a broader Good Samaritan law (Education Law Section 6527) that protects anyone who provides emergency care at the scene of an accident or emergency. Under Public Health Law Section 3000-c, certain public places are required to have AEDs, including schools, health clubs, public buildings with more than a certain number of occupants, and places of public assembly. The entity that owns the AED is responsible for maintenance — checking the battery and pads regularly. In a cardiac arrest, the chance of survival drops about 10% for every minute without defibrillation. An AED used within the first few minutes can double or triple survival rates. Calling 911 and using an AED immediately gives the person the best chance. AEDs in NY are tracked through a registry maintained by the Department of Health. Owners are required to notify the regional EMS council when an AED is placed and to file a report each time the device is used in an emergency. The data feeds into placement studies that help target future AED deployment to high-risk locations like transit stations, sports facilities, and large workplaces. Several free apps, including PulsePoint, show AED locations and notify trained bystanders when a cardiac event is reported nearby. Schools in NY are required by Project Save (named after a high school athlete who died of cardiac arrest) to maintain at least one AED on site, with trained staff at every school event. The AED owner's other responsibilities include adopting a written collaborative agreement with a physician, training designated users in CPR/AED use, and filing a notice of intent with the regional council."
+    en: "Under Public Health Law Section 3000-b, any person who voluntarily uses an AED in a medical emergency is protected from civil liability as long as they act in good faith and without gross negligence. This applies whether or not the person has any training. AEDs are designed for use by bystanders — the device analyzes the heart rhythm and will only deliver a shock if needed. A bystander cannot accidentally harm someone by using an AED incorrectly because the device will not shock a normal heart rhythm. New York also has a broader Good Samaritan law at Public Health Law Section 3000-a that protects anyone who voluntarily and without expectation of compensation renders first aid or emergency treatment at the scene of an accident or emergency, except in cases of gross negligence. Schools in New York are required to have on-site AEDs under Education Law Section 917 (known as Louis' Law, named after Louis Acompora, a 14-year-old who died of sudden cardiac arrest during a lacrosse game). Health clubs, certain public buildings, and places of public assembly have separate AED requirements under General Business Law Section 627-a and other state and local rules. The entity that owns the AED is responsible for maintenance — checking the battery and pads regularly. In a cardiac arrest, the chance of survival drops about 10% for every minute without defibrillation. An AED used within the first few minutes can double or triple survival rates. Calling 911 and using an AED immediately gives the person the best chance. AEDs in NY are tracked through a registry maintained by the Department of Health. Owners are required to notify the regional EMS council when an AED is placed and to file a report each time the device is used in an emergency. The data feeds into placement studies that help target future AED deployment to high-risk locations like transit stations, sports facilities, and large workplaces. Several free apps, including PulsePoint, show AED locations and notify trained bystanders when a cardiac event is reported nearby. Schools in NY are required by Louis' Law (Education Law 917) to maintain at least one AED on site, with trained staff present at every school-sponsored athletic event. The AED owner's other responsibilities include adopting a written collaborative agreement with a physician, training designated users in CPR/AED use, and filing a notice of intent with the regional council."
   },
 
   yourRights: {
@@ -43,7 +43,7 @@ export const AED_DEFIBRILLATOR_GOOD_SAMARITAN_NY = {
       "Rochester Fire Department offers community CPR/AED training — call (585) 428-7436.",
       "The American Heart Association at heart.org has a directory of CPR/AED training locations.",
       "If a public building that is required to have an AED does not have one, a complaint can be filed with the local health department.",
-      "Monroe County Health Department at (585) 753-5171 handles complaints about AED compliance.",
+      "Monroe County Health Department at (585) 753-5555 handles complaints about AED compliance.",
       "If a person dies of cardiac arrest in a building required to have an AED and the AED was missing or not maintained, the building owner may be liable."
     ]
   },
@@ -58,9 +58,9 @@ export const AED_DEFIBRILLATOR_GOOD_SAMARITAN_NY = {
       name: "Monroe County Health Department",
       focus: "AED compliance, public health, emergency preparedness",
       qualifier: "Monroe County residents and businesses",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Compliance guidance, complaint investigation",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,
@@ -92,10 +92,12 @@ export const AED_DEFIBRILLATOR_GOOD_SAMARITAN_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/PBH/3000-B",
-    "https://www.nysenate.gov/legislation/laws/EDN/6527"
+    "https://www.nysenate.gov/legislation/laws/PBH/3000-A",
+    "https://www.nysenate.gov/legislation/laws/EDN/917"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

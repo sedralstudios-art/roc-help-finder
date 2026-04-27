@@ -24,7 +24,7 @@ export const ADOPTION_BASICS_NY = {
   },
 
   whatItMeans: {
-    en: "Adoption permanently transfers all legal rights and responsibilities from the birth parents to the adoptive parents. The adopted child has the same legal status as a biological child — including inheritance rights and the right to the adoptive parents' last name. Agency adoption: an authorized adoption agency matches the child with the adoptive family. The agency handles home studies, background checks, counseling, and court paperwork. Private placement adoption: the birth parent(s) and adoptive parent(s) arrange the adoption directly, often with an attorney. A home study by an authorized agency is still required. Foster care adoption: children in the foster care system whose birth parents' rights have been terminated are eligible for adoption. There is no cost to the adoptive family — the state pays for the home study, legal fees, and court costs. Adoptive families may also receive a monthly adoption subsidy and Medicaid for the child. Stepparent adoption: when a spouse wants to legally adopt their partner's child. The non-custodial birth parent's rights must be terminated — either by consent or by court order. The process goes through Surrogate's Court or Family Court depending on the type. A home study is typically required for all adoptions except some stepparent adoptions. Open adoption — where the birth family stays in some contact with the adoptive family — is increasingly common in private and agency adoptions. The agreement is voluntary and not enforceable in court in NY, but most parties stick to what they agreed at placement. Closed adoption keeps the records sealed and the parties anonymous. International adoption goes through a separate process governed by federal immigration law and the Hague Adoption Convention; processing can take years and costs are higher than domestic adoption. Post-adoption services, including counseling, support groups, and respite care, are available through OCFS for families who adopted from foster care, and most agencies offer post-adoption support after agency placements."
+    en: "Adoption permanently transfers all legal rights and responsibilities from the birth parents to the adoptive parents. The adopted child has the same legal status as a biological child — including inheritance rights and the right to the adoptive parents' last name. Agency adoption: an authorized adoption agency matches the child with the adoptive family. The agency handles home studies, background checks, counseling, and court paperwork. Private placement adoption: the birth parent(s) and adoptive parent(s) arrange the adoption directly, often with an attorney. A home study by an authorized agency is still required. Foster care adoption: children in the foster care system whose birth parents' rights have been terminated are eligible for adoption. There is no cost to the adoptive family — the state pays for the home study, legal fees, and court costs. Adoptive families may also receive a monthly adoption subsidy and Medicaid for the child. Stepparent adoption: when a spouse wants to legally adopt their partner's child. The non-custodial birth parent's rights must be terminated — either by consent or by court order. The process goes through Surrogate's Court or Family Court depending on the type. A home study is typically required for all adoptions except some stepparent adoptions. Open adoption — where the birth family stays in some contact with the adoptive family — is increasingly common in private and agency adoptions. Under NY Domestic Relations Law section 112-b, post-adoption contact agreements are enforceable in Family Court only when written into a court order at the time of the adoption; informal agreements without a court order are not enforceable. Closed adoption keeps the records sealed and the parties anonymous. International adoption goes through a separate process governed by federal immigration law and the Hague Adoption Convention; processing can take years and costs are higher than domestic adoption. Post-adoption services, including counseling, support groups, and respite care, are available through OCFS for families who adopted from foster care, and most agencies offer post-adoption support after agency placements."
   },
 
   yourRights: {
@@ -34,16 +34,16 @@ export const ADOPTION_BASICS_NY = {
       "Adoptive families from foster care may receive a monthly subsidy and Medicaid for the child.",
       "The adopted child has full legal rights as a member of the adoptive family — inheritance, benefits, name change.",
       "Birth parents have the right to consent or to have the adoption proceed only after a court terminates their rights.",
-      "Adopted individuals 18 and older can request their original birth certificate (with some restrictions) under the 2020 Clean Bill of Adoption Rights."
+      "Adopted individuals 18 and older can request a certified copy of their original long-form birth certificate under NY Public Health Law section 4138-e, which took effect January 15, 2020."
     ]
   },
 
   legalOptions: {
     en: [
-      "For foster care adoption: the Monroe County Department of Human Services handles foster care and adoption. Phone: (585) 753-6002. There is no cost to the family.",
+      "For foster care adoption: the Monroe County Department of Human Services handles foster care and adoption. Adoption services phone: (585) 753-6084. There is no cost to the family.",
       "For agency adoption: a list of authorized adoption agencies in New York is maintained by the NY Office of Children and Family Services at ocfs.ny.gov.",
       "For private or stepparent adoption: an attorney experienced in adoption law is typically needed. Free legal help may be available through Legal Aid Society of Rochester at (585) 232-4090 for income-eligible families.",
-      "The adoption petition is filed in Surrogate's Court (most adoptions) or Family Court (foster care adoptions). In Monroe County: Surrogate's Court at (585) 753-1860, Family Court at (585) 753-5600.",
+      "The adoption petition is filed in Surrogate's Court (most adoptions) or Family Court (foster care adoptions). In Monroe County: Surrogate's Court at (585) 371-3310, Family Court at (585) 371-3544.",
       "The NY Adoption Information Registry at (800) 345-5437 provides information on adoption records and reunion services for adopted individuals and birth parents."
     ]
   },
@@ -60,7 +60,7 @@ export const ADOPTION_BASICS_NY = {
       qualifier: "Anyone interested in adopting from foster care in Monroe County",
       access: "Phone",
       outcome: "Information, home study, placement, finalization",
-      phone: "(585) 753-6002",
+      phone: "(585) 753-6084",
       url: "https://www.monroecounty.gov",
       verified: true,
       bilingual: false,
@@ -73,7 +73,7 @@ export const ADOPTION_BASICS_NY = {
       qualifier: "Adoption cases in Monroe County",
       access: "In person or phone",
       outcome: "Petition processing and finalization hearings",
-      phone: "(585) 753-1860",
+      phone: "(585) 371-3310",
       url: "https://ww2.nycourts.gov/courts/7jd/courts/surrogates/",
       verified: true,
       bilingual: false,
@@ -110,7 +110,8 @@ export const ADOPTION_BASICS_NY = {
     "https://www.nysenate.gov/legislation/laws/DRL/A7"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
