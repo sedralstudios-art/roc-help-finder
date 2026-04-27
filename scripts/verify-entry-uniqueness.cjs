@@ -49,6 +49,9 @@ function parseEntry(filename) {
   const volatility = (src.match(/\n\s+volatility:\s*"([^"]*)"/) || [])[1] || null;
   const jurisdiction = (src.match(/\n\s+jurisdiction:\s*"([^"]*)"/) || [])[1] || null;
   const lastVerified = (src.match(/\n\s+lastVerified:\s*"([^"]*)"/) || [])[1] || null;
+  // factCheckedBy: { tool: "claude-research", date: "2026-04-26" }
+  const factCheckedByDate = (src.match(/factCheckedBy:\s*\{[^}]*date:\s*"(\d{4}-\d{2}-\d{2})"/) || [])[1] || null;
+  const factCheckedByTool = (src.match(/factCheckedBy:\s*\{[^}]*tool:\s*"([^"]+)"/) || [])[1] || null;
   const tags = parseTags(src);
   const relatedIds = parseRelatedIds(src);
   const sources = parseQuotedArray(src, 'sources');
@@ -60,6 +63,7 @@ function parseEntry(filename) {
   return {
     filename, id, authorityType, primaryStatute, title, summary, whatItMeans,
     category, tier, status, volatility, jurisdiction, lastVerified,
+    factCheckedByDate, factCheckedByTool,
     tags, relatedIds, sources,
     whoQualifiesCount, yourRightsCount, yourRightsItems, legalOptionsCount, counselCount,
   };
@@ -235,6 +239,18 @@ const MIN_WHATITMEANS_LEN = 400;
 const WARN_SOURCES_BELOW = 2;
 const WARN_RELATED_BELOW = 2;
 const WARN_WHATITMEANS_BELOW = 800;
+// Statute-heavy entries (state-statute, federal-statute, state-regulation,
+// federal-regulation, common-law) carry specific dollar amounts, hour
+// thresholds, and legal citations — exactly the content most likely to
+// drift wrong silently. The factCheckedBy field records when an external
+// fact-check pass was run. Older than this threshold, or missing entirely,
+// emits a WARN. See scripts/fact-check-prompt.cjs for the prompt.
+const WARN_FACT_CHECK_AGE_MONTHS = 12;
+const FACT_CHECK_REQUIRED_AUTHORITIES = new Set([
+  'state-statute', 'federal-statute',
+  'state-regulation', 'federal-regulation',
+  'common-law',
+]);
 // Title-only near-duplicate threshold. Higher than the tag+title pair check
 // (0.5) because title-only fires without the tag corroboration, so we want to
 // be more confident the pair is a real rewrite collision.
@@ -737,6 +753,25 @@ function main() {
         if (!firstWord) continue;
         if (/^(you|your|yours)$/i.test(firstWord)) {
           contentWarnings.push(`${e.filename}: yourRights item starts with "${firstWord}" — rewrite in third-person ("${item.slice(0, 80)}...")`);
+        }
+      }
+    }
+
+    // Ceiling extension — fact-check freshness for statute-heavy entries.
+    // These entries carry specific dollar amounts, hour thresholds, and
+    // citations — exactly the content most likely to drift wrong silently.
+    // WARN if no factCheckedBy field, or if the date is older than the
+    // configured threshold. WARN only — historical entries lack the field.
+    if (e.authorityType && FACT_CHECK_REQUIRED_AUTHORITIES.has(e.authorityType)) {
+      if (!e.factCheckedByDate) {
+        contentWarnings.push(`${e.filename}: no factCheckedBy field on statute-heavy entry — run \`node scripts/fact-check-prompt.cjs ${e.id}\` and add factCheckedBy: { tool: "...", date: "YYYY-MM-DD" }`);
+      } else {
+        const fcd = new Date(e.factCheckedByDate + 'T00:00:00');
+        if (!isNaN(fcd.getTime())) {
+          const ageMonths = (Date.now() - fcd.getTime()) / (1000 * 60 * 60 * 24 * 30.44);
+          if (ageMonths > WARN_FACT_CHECK_AGE_MONTHS) {
+            contentWarnings.push(`${e.filename}: factCheckedBy date "${e.factCheckedByDate}" is ${Math.floor(ageMonths)} months old (threshold ${WARN_FACT_CHECK_AGE_MONTHS}) — re-run fact-check`);
+          }
         }
       }
     }

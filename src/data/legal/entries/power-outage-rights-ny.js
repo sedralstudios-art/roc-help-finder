@@ -99,6 +99,7 @@ export const POWER_OUTAGE_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-26",
+  factCheckedBy: { tool: "claude-research", date: "2026-04-26" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
