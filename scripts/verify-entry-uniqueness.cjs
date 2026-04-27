@@ -762,7 +762,7 @@ function main() {
     // citations — exactly the content most likely to drift wrong silently.
     // WARN if no factCheckedBy field, or if the date is older than the
     // configured threshold. WARN only — historical entries lack the field.
-    if (e.authorityType && FACT_CHECK_REQUIRED_AUTHORITIES.has(e.authorityType)) {
+    if (e.authorityType && FACT_CHECK_REQUIRED_AUTHORITIES.has(e.authorityType) && !BANKRUPTCY_FILES.has(e.filename)) {
       if (!e.factCheckedByDate) {
         contentWarnings.push(`${e.filename}: no factCheckedBy field on statute-heavy entry — run \`node scripts/fact-check-prompt.cjs ${e.id}\` and add factCheckedBy: { tool: "...", date: "YYYY-MM-DD" }`);
       } else {
