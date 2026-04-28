@@ -40,9 +40,9 @@ export const DECK_PATIO_PERMIT_NY = {
   legalOptions: {
     en: [
       "The local building department handles deck permits. In Rochester, call the Bureau of Buildings at (585) 428-6520.",
-      "In Greece, call the Building Department at (585) 723-2396.",
-      "In Irondequoit, call Building and Zoning at (585) 336-6060.",
-      "In Brighton, call the Building Department at (585) 784-5220.",
+      "In Greece, call the Building Department at (585) 723-2443.",
+      "In Irondequoit, call the Building Department at (585) 336-6020.",
+      "In Brighton, call the Building and Planning Department at (585) 784-5250.",
       "For other towns, search the town name plus 'building department' or call the town hall.",
       "If a contractor built a deck without pulling a permit, a complaint can be filed with the NYS Division of Consumer Protection at (800) 697-1220.",
       "If an unpermitted deck causes problems during a home sale, a real estate attorney can advise — the Monroe County Bar Association referral line is (585) 546-2130.",
@@ -101,7 +101,8 @@ export const DECK_PATIO_PERMIT_NY = {
     "https://www.nysenate.gov/legislation/laws/RPP/A14"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

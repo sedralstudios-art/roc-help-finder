@@ -41,7 +41,7 @@ export const DEFAULT_JUDGMENT_NY = {
   legalOptions: {
     en: [
       "The primary remedy is a notice of motion to vacate the default judgment filed in the rendering court with an attorney affirmation, a defendant's affidavit, and a proposed answer showing the meritorious defense.",
-      "Monroe County Supreme Court Civil Part at (585) 371-3300 and Rochester City Court Civil Part at (585) 428-6990 handle vacatur motions for judgments rendered in their respective courts.",
+      "Monroe County Supreme Court Clerk at (585) 371-3758 and Rochester City Court Civil Division at (585) 371-3412 handle vacatur motions for judgments rendered in their respective courts.",
       "Legal Aid Society of Rochester at (585) 232-4090 — CPLR 5015 and 317 motion representation for low-income defendants.",
       "LawNY at (585) 325-2520 — default judgment defense across 14-county Western NY service area.",
       "Empire Justice Center at (585) 454-4060 — complex and pattern-based default-judgment vacatur cases.",
@@ -124,7 +124,8 @@ export const DEFAULT_JUDGMENT_NY = {
     "https://www.nysenate.gov/legislation/laws/CVP/214-I"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

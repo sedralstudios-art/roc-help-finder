@@ -97,7 +97,7 @@ export const DEER_VEHICLE_COLLISION_NY = {
     "VAT 605",
     "MV-104 accident",
     "comprehensive insurance deer",
-    "ECL 11-1901",
+    "ECL 11-0915",
     "deer salvage permit",
     "animal strike insurance",
     "Monroe County deer",
@@ -110,7 +110,8 @@ export const DEER_VEHICLE_COLLISION_NY = {
     "https://www.dec.ny.gov/outdoor/86574.html"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
