@@ -38,7 +38,7 @@ export const DEER_DAMAGE_GARDEN_NY = {
 
   legalOptions: {
     en: [
-      "DEC Region 8 handles deer management and Deer Damage Permits at (585) 226-5380.",
+      "DEC Region 8 handles deer management and Deer Damage Permits at (585) 226-5400.",
       "Irondequoit's deer management program has been active since 2011. Contact the town at (585) 336-6034 for information.",
       "For deer-vehicle collisions, file a police report and contact the insurance company. Comprehensive coverage handles the claim.",
       "A deer carcass on the road can be reported to the local DPW or highway department for removal.",
@@ -57,9 +57,9 @@ export const DEER_DAMAGE_GARDEN_NY = {
       name: "NYS DEC Region 8 — Wildlife",
       focus: "Deer management, Deer Damage Permits, hunting seasons",
       qualifier: "Monroe County and surrounding area",
-      access: "Phone at (585) 226-5380",
+      access: "Phone at (585) 226-5400",
       outcome: "Permit applications, deer population management, guidance",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,

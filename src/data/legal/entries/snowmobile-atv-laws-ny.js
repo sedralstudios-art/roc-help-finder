@@ -44,7 +44,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
       "Safety courses for riders under 18 are offered by the NYS Office of Parks, Recreation and Historic Preservation. Information at parks.ny.gov.",
       "Snowmobile trail information in Monroe County is available through local snowmobile clubs and parks.ny.gov/recreation/snowmobiles.",
       "To report illegal ATV or snowmobile riding on public roads, call the local police non-emergency number.",
-      "DEC Region 8 at (585) 226-5380 can provide information about riding on state land."
+      "DEC Region 8 at (585) 226-5400 can provide information about riding on state land."
     ]
   },
 

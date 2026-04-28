@@ -45,7 +45,7 @@ export const E_WASTE_RECYCLING_NY = {
       "Monroe County ecopark at 10 Avion Dr accepts residential e-waste Tuesday, Thursday, and first Saturday.",
       "Sunnking Electronics Recycling at (585) 374-5470 for Rochester residential drop-off events.",
       "Best Buy at (888) 237-8289 and Staples at (800) 378-2753 for retailer takeback.",
-      "For illegal disposal complaints, NYS DEC Region 8 Enforcement at (585) 226-5380."
+      "For illegal disposal complaints, NYS DEC Region 8 Enforcement at (585) 226-5400."
     ]
   },
 

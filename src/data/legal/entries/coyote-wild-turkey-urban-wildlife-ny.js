@@ -39,7 +39,7 @@ export const COYOTE_WILD_TURKEY_URBAN_WILDLIFE_NY = {
 
   legalOptions: {
     en: [
-      "DEC Region 8 handles wildlife questions and reports at (585) 226-5380.",
+      "DEC Region 8 handles wildlife questions and reports at (585) 226-5400.",
       "For aggressive or sick coyotes, call local animal control: Rochester (585) 428-7274, Greece (585) 865-9200, Irondequoit (585) 336-6000, Brighton (585) 784-5150.",
       "Under the Migratory Bird Treaty Act, killing or harming Canada geese without a federal permit is a crime with fines up to $15,000.",
       "USDA Wildlife Services handles goose depredation permits for commercial properties and municipalities at (866) 487-3297.",
@@ -58,9 +58,9 @@ export const COYOTE_WILD_TURKEY_URBAN_WILDLIFE_NY = {
       name: "NYS DEC Region 8 — Wildlife",
       focus: "Coyotes, turkeys, geese, wildlife coexistence, permits",
       qualifier: "Monroe County and surrounding area",
-      access: "Phone at (585) 226-5380",
+      access: "Phone at (585) 226-5400",
       outcome: "Guidance, reports, permits for wildlife management",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,

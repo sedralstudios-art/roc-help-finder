@@ -41,7 +41,7 @@ export const HEATING_OIL_TANK_REMOVAL_NY = {
   legalOptions: {
     en: [
       "NYS DEC spill hotline at 1-800-457-7362 is the 2-hour mandatory report line for any oil spill.",
-      "NYS DEC Region 8 at (585) 226-5380 handles Monroe County petroleum storage compliance.",
+      "NYS DEC Region 8 at (585) 226-5400 handles Monroe County petroleum storage compliance.",
       "For licensed oil tank contractors, a NY-registered Petroleum Bulk Storage contractor must handle removal; NYS DEC maintains a list.",
       "Homeowners insurance companies vary on pollution coverage — NYS Department of Financial Services at (800) 342-3736 can clarify policy language.",
       "For the NY Petroleum Bulk Storage Fund reimbursement, DEC Division of Environmental Remediation at (518) 402-9665.",
@@ -74,7 +74,7 @@ export const HEATING_OIL_TANK_REMOVAL_NY = {
       qualifier: "Any Monroe County tank owner or homeowner",
       access: "Phone, regional office in Avon NY",
       outcome: "Registration, compliance guidance, remediation oversight",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://www.dec.ny.gov/about/region-8",
       verified: true,
       bilingual: false,

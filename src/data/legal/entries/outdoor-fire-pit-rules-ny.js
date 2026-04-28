@@ -46,7 +46,7 @@ export const OUTDOOR_FIRE_PIT_RULES_NY = {
       "Irondequoit: contact Fire Department non-emergency at (585) 336-6000.",
       "Henrietta: contact Building Department at (585) 359-7060.",
       "For any other town, call the fire department or building department for the specific distance and size rules.",
-      "If a neighbor's fire pit smoke is a persistent problem, an air quality complaint can be filed with DEC Region 8 at (585) 226-5380.",
+      "If a neighbor's fire pit smoke is a persistent problem, an air quality complaint can be filed with DEC Region 8 at (585) 226-5400.",
       "A permanent built-in fire pit (stone, brick, or concrete) may require a building permit — check with the local building department.",
       "These rules were verified as of April 2026. Town codes change — contact the local fire or building department to confirm current rules."
     ]

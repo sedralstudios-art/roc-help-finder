@@ -40,7 +40,7 @@ export const WOODSTOVE_FIREPLACE_RULES_NY = {
     en: [
       "Building permits for wood stove installation are handled by the local building department. In Rochester, (585) 428-6520. In suburbs, the town building department.",
       "The chimney must meet NFPA 211 standards. A certified chimney sweep (CSIA certified) can inspect and certify the chimney.",
-      "If a neighbor's wood smoke is excessive, an air quality complaint can be filed with DEC Region 8 at (585) 226-5380.",
+      "If a neighbor's wood smoke is excessive, an air quality complaint can be filed with DEC Region 8 at (585) 226-5400.",
       "For tenants, a dangerous chimney is a code violation. The local code enforcement office can inspect and cite the landlord.",
       "If a chimney fire occurs and the insurance company denies the claim due to lack of maintenance, the homeowner can appeal with DFS at (800) 342-3736.",
       "The EPA's list of certified wood stoves is available at epa.gov/burnwise."
@@ -57,9 +57,9 @@ export const WOODSTOVE_FIREPLACE_RULES_NY = {
       name: "NYS DEC Region 8 — Air Quality",
       focus: "Wood smoke complaints, burn bans, air quality",
       qualifier: "Monroe County and surrounding area",
-      access: "Phone at (585) 226-5380",
+      access: "Phone at (585) 226-5400",
       outcome: "Complaint investigation, burn ban information",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,

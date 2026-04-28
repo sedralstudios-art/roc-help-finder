@@ -39,7 +39,7 @@ export const DANGEROUS_WILD_ANIMAL_BAN_NY = {
 
   legalOptions: {
     en: [
-      "NYS DEC Region 8 Bureau of Wildlife at (585) 226-5380 answers questions about legal species and exotic pet permits.",
+      "NYS DEC Region 8 Bureau of Wildlife at (585) 226-5400 answers questions about legal species and exotic pet permits.",
       "NYS DEC wildlife enforcement hotline at 1-844-DEC-ECOS (1-844-332-3267) accepts reports of illegal dangerous wild animal possession.",
       "Rochester Animal Services at (585) 428-7274 handles local exotic pet concerns within the city and can refer to DEC.",
       "For surrender of a banned animal, the DEC Bureau of Wildlife coordinates transfer to a licensed sanctuary.",
@@ -59,7 +59,7 @@ export const DANGEROUS_WILD_ANIMAL_BAN_NY = {
       qualifier: "Any NY resident",
       access: "Phone, regional office in Avon NY",
       outcome: "Species legality confirmation, permit guidance, surrender coordination",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://www.dec.ny.gov/about/region-8",
       verified: true,
       bilingual: false,

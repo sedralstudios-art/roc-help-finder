@@ -44,7 +44,7 @@ export const FISHING_HUNTING_LICENSE_NY = {
       "Non-resident licenses are more expensive. A non-resident fishing license is $50.",
       "Hunter education courses are required before purchasing a first hunting license. Free courses are offered by the DEC throughout the year. Schedule at dec.ny.gov.",
       "Free Fishing Days are announced each year by the DEC — typically two weekends, one in February and one in June.",
-      "The DEC Region 8 office (covering Monroe County) can be reached at (585) 226-5380 for questions about licenses, seasons, and regulations."
+      "The DEC Region 8 office (covering Monroe County) can be reached at (585) 226-5400 for questions about licenses, seasons, and regulations."
     ]
   },
 
@@ -58,9 +58,9 @@ export const FISHING_HUNTING_LICENSE_NY = {
       name: "NYS DEC Region 8 — Monroe County",
       focus: "Fishing and hunting licenses, regulations, seasons, enforcement",
       qualifier: "Anyone in the Finger Lakes/Western NY region",
-      access: "Phone at (585) 226-5380",
+      access: "Phone at (585) 226-5400",
       outcome: "License information, regulation questions, permit processing",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,
