@@ -39,7 +39,7 @@ export const FAMILY_COURT_WHAT_TO_EXPECT_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Family Court is at the Hall of Justice, 99 Exchange Blvd, Rochester. Phone: (585) 428-5429.",
+      "Monroe County Family Court is at the Hall of Justice, 99 Exchange Blvd, Rochester. Phone: (585) 371-3544.",
       "The Family Court Self-Help Center is on the first floor and provides free help with forms, filing, and understanding the process.",
       "For custody and child welfare cases, the court assigns an attorney if the party cannot afford one. The attorney is appointed at the first appearance.",
       "For child support cases, the Monroe County Support Collection Unit at (585) 753-6071 can help with filing petitions.",

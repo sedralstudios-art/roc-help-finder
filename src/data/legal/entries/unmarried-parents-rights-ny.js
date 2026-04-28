@@ -42,7 +42,7 @@ export const UNMARRIED_PARENTS_RIGHTS_NY = {
     en: [
       "To establish paternity, both parents can sign an Acknowledgment of Paternity at the hospital, at a local registrar, or at the Monroe County Department of Social Services.",
       "If the father's identity is disputed, a paternity petition can be filed in family court — DNA testing is available through the court.",
-      "Monroe County Family Court at (585) 371-3553 handles custody, visitation, and paternity cases.",
+      "Monroe County Family Court at (585) 371-3544 handles custody, visitation, and paternity cases.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents parents in family court custody and visitation cases.",
       "LawNY at (585) 325-2520 handles family law cases for low-income clients.",
       "JustCause provides pro bono attorneys for family court matters — referral through Monroe County Bar Association at (585) 546-2130.",

@@ -40,7 +40,7 @@ export const PARENTING_TIME_MODIFICATION_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Family Court at (585) 371-3553 handles custody and visitation modification petitions.",
+      "Monroe County Family Court at (585) 371-3544 handles custody and visitation modification petitions.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents parents in custody modification cases.",
       "LawNY at (585) 325-2520 handles family law matters for low-income families.",
       "JustCause provides pro bono attorneys for family court — referral through Monroe County Bar Association at (585) 546-2130.",

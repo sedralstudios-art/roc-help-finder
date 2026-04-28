@@ -42,7 +42,7 @@ export const DOMESTIC_VIOLENCE_PET_PROTECTION_NY = {
     en: [
       "Willow Domestic Violence Center 24-hour hotline at (585) 222-7233 provides safety planning including pet arrangements.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents DV survivors in family court including pet custody orders.",
-      "Monroe County Family Court at (585) 371-3553 handles orders of protection including pet protection provisions.",
+      "Monroe County Family Court at (585) 371-3544 handles orders of protection including pet protection provisions.",
       "The ASPCA and local animal welfare organizations can sometimes provide emergency pet foster care for DV survivors — ask the shelter advocate.",
       "Rochester Animal Services at (585) 428-7274 may be able to assist with temporary pet placement in emergencies.",
       "If an abuser has harmed or killed a pet, file a police report for animal cruelty. Monroe County Sheriff at (585) 753-4178 or Rochester Police at 311."
