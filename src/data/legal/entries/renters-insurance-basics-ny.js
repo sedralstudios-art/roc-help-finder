@@ -47,7 +47,7 @@ export const RENTERS_INSURANCE_BASICS_NY = {
       "Empire Justice Center at (585) 454-4060 — consumer insurance advocacy for income-eligible plaintiffs.",
       "Independent insurance broker — to shop multiple carriers and find the right policy.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — insurance attorneys for major claim disputes.",
-      "Better Business Bureau Western NY at (716) 856-7180 — informal mediation of insurer complaints."
+      "Better Business Bureau of Upstate NY at (716) 881-5222 — informal mediation of insurer complaints."
     ]
   },
 
