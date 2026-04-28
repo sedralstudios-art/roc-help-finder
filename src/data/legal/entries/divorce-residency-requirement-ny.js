@@ -24,7 +24,7 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
   },
 
   whatItMeans: {
-    en: "New York Domestic Relations Law Section 230 sets five paths to meet the residency requirement for filing a divorce in a New York Supreme Court. The most common is path one — at least one spouse has lived in New York continuously for one year immediately before filing. Path two — the couple was married in New York and at least one spouse has lived in New York continuously for one year. Path three — the couple lived together in New York as spouses at any point and one spouse is currently a New York resident having lived here for one year. Path four — the cause of action (the reason the marriage is ending, such as adultery or cruelty) arose in New York and one spouse has lived here for one year. Path five — the cause of action arose in New York and both spouses are current New York residents at the time of filing (no minimum duration needed). Path six — when neither of the above applies and the couple has no prior connection to New York, one spouse must have lived in New York continuously for two years. Military spouses stationed in New York count the time they are stationed toward residency under DRL 232. A spouse who moved to New York with the children and wants to file for divorce typically meets path one after 12 continuous months. Residency must be proven at filing. Acceptable proof includes NY driver license with at least one year of address history, NY vehicle registration, NY income tax returns filed as a NY resident, utility bills in the filer's name for 12 consecutive months, lease or deed in NY, NY voter registration with date, or employer records showing NY work address. A single document is rarely enough — three to five pieces together typically satisfy the court. An affidavit of residency with supporting documents attached is part of the Divorce Summons With Notice (Form UD-1). In Monroe County, divorces are filed at the Supreme Court Clerk in the Hall of Justice. The filing fee is 210 dollars unless the filer qualifies for a fee waiver under CPLR 1101 for inability to pay. Contested divorces involve both spouses litigating. Uncontested divorces happen when both spouses sign agreement forms and only one spouse files. Uncontested is much cheaper (typically 500 to 1,500 dollars in attorney fees vs 5,000 to 50,000 dollars contested). New York allows no-fault divorce since 2010 under DRL 170(7) — irretrievable breakdown for at least 6 months is a standalone ground requiring no specific bad conduct. Other grounds (adultery, cruelty, abandonment, imprisonment, divorce after separation agreement for 1 year) still exist under DRL 170 but are rarely used since no-fault became available. Residency for same-sex couples who married in New York but now live in another state is governed by path two or three. A spouse who moved away from New York can often still file in the NY county where the couple last lived together, as long as that spouse is still a NY resident. Forum-shopping is a real issue — some spouses choose to file in New York vs another state because of NY's no-fault rule or NY's equitable distribution law versus community property. Legal aid organizations in Rochester can advise whether NY is the right filing venue."
+    en: "New York Domestic Relations Law Section 230 sets five paths to meet the residency requirement for filing a divorce in a New York Supreme Court. The most common is path one — at least one spouse has lived in New York continuously for one year immediately before filing. Path two — the couple was married in New York and at least one spouse has lived in New York continuously for one year. Path three — the couple lived together in New York as spouses at any point and one spouse is currently a New York resident having lived here for one year. Path four — the cause of action (the reason the marriage is ending, such as adultery or cruelty) arose in New York and one spouse has lived here for one year. Path five — the cause of action arose in New York and both spouses are current New York residents at the time of filing (no minimum duration needed). Path six — when neither of the above applies and the couple has no prior connection to New York, one spouse must have lived in New York continuously for two years. Military spouses stationed in New York count the time they are stationed toward residency under DRL 232. A spouse who moved to New York with the children and wants to file for divorce typically meets path one after 12 continuous months. Residency must be proven at filing. Acceptable proof includes NY driver license with at least one year of address history, NY vehicle registration, NY income tax returns filed as a NY resident, utility bills in the filer's name for 12 consecutive months, lease or deed in NY, NY voter registration with date, or employer records showing NY work address. A single document is rarely enough — three to five pieces together typically satisfy the court. An affidavit of residency with supporting documents attached is part of the Divorce Summons With Notice (Form UD-1). In Monroe County, divorces are filed at the Supreme Court Clerk in the Hall of Justice. Total filing fees are about 335 dollars: 210 dollars for the index number under CPLR 306-a plus 125 dollars for the Note of Issue when the case goes on the trial calendar. A fee waiver under CPLR 1101 is available for filers who cannot afford the fees. Contested divorces involve both spouses litigating. Uncontested divorces happen when both spouses sign agreement forms and only one spouse files. Uncontested is much cheaper (typically 500 to 1,500 dollars in attorney fees vs 5,000 to 50,000 dollars contested). New York allows no-fault divorce since 2010 under DRL 170(7) — irretrievable breakdown for at least 6 months is a standalone ground requiring no specific bad conduct. Other grounds (adultery, cruelty, abandonment, imprisonment, divorce after separation agreement for 1 year) still exist under DRL 170 but are rarely used since no-fault became available. Residency for same-sex couples who married in New York but now live in another state is governed by path two or three. A spouse who moved away from New York can often still file in the NY county where the couple last lived together, as long as that spouse is still a NY resident. Forum-shopping is a real issue — some spouses choose to file in New York vs another state because of NY's no-fault rule or NY's equitable distribution law versus community property. Legal aid organizations in Rochester can advise whether NY is the right filing venue."
   },
 
   yourRights: {
@@ -39,9 +39,9 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Supreme Court Clerk at (585) 371-3600 handles divorce filings in the Hall of Justice.",
+      "Monroe County Supreme Court Clerk at (585) 371-3758 handles divorce filings in the Hall of Justice.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income clients in uncontested and contested divorce.",
-      "JustCause (formerly VLSP) at (585) 295-3100 offers divorce clinics for low-income clients.",
+      "JustCause (formerly VLSP) at (585) 232-3051 offers divorce clinics for low-income clients.",
       "NY Court Help Self-Represented Resource at nycourts.gov/courthelp/family has free Form UD-1 and divorce packet.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for paid matrimonial attorneys.",
       "For fee waivers, CPLR 1101 Poor Person Order can be requested at filing."
@@ -49,7 +49,7 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
   },
 
   example: {
-    en: "Brenda moved from Texas to Monroe County in September 2024 and wanted to file for divorce in July 2026. She had lived in NY continuously for 22 months. She met the 12-month residency under DRL 230 path one. Brenda brought her NY driver license (issued October 2024), her 2024 and 2025 NY income tax returns, 22 months of RG&E utility bills in her name, and a Brighton lease to the Monroe County Supreme Court. The clerk accepted the filing and scheduled the no-fault divorce hearing. Because Brenda qualified for a CPLR 1101 fee waiver based on her modest income, she did not pay the 210 dollar filing fee."
+    en: "Brenda moved from Texas to Monroe County in September 2024 and wanted to file for divorce in July 2026. She had lived in NY continuously for 22 months. She met the 12-month residency under DRL 230 path one. Brenda brought her NY driver license (issued October 2024), her 2024 and 2025 NY income tax returns, 22 months of RG&E utility bills in her name, and a Brighton lease to the Monroe County Supreme Court. The clerk accepted the filing and scheduled the no-fault divorce hearing. Because Brenda qualified for a CPLR 1101 fee waiver based on her modest income, she did not pay the 210 dollar index-number fee or the 125 dollar Note of Issue fee."
   },
 
   counsel: [
@@ -60,7 +60,7 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
       qualifier: "Any Monroe County resident meeting DRL 230 residency",
       access: "Phone, in-person Hall of Justice 99 Exchange Blvd",
       outcome: "Divorce case filing, scheduling, fee waivers",
-      phone: "(585) 371-3600",
+      phone: "(585) 371-3758",
       url: "https://ww2.nycourts.gov/courts/7jd/monroe/supreme.shtml",
       verified: true,
       bilingual: false,
@@ -86,7 +86,7 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake, clinic appointments",
       outcome: "Uncontested divorce document help",
-      phone: "(585) 295-3100",
+      phone: "(585) 232-3051",
       url: "https://justcauseny.org",
       verified: true,
       bilingual: true,
@@ -122,7 +122,8 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
     "https://ww2.nycourts.gov/courthelp/family/divorce.shtml"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
