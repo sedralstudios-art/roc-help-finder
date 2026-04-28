@@ -109,7 +109,8 @@ export const DISABILITY_HOUSING_ACCOMMODATION_NY = {
     "https://dhr.ny.gov"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
