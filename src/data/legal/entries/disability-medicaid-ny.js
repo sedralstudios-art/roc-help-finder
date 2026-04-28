@@ -41,7 +41,7 @@ export const DISABILITY_MEDICAID_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — accepts Non-MAGI Medicaid applications on DOH-4220 with Supplement A.",
+      "Monroe County Department of Human Services Medicaid application line at (585) 753-6960 or 111 Westfall Road, Rochester — accepts Non-MAGI Medicaid applications on DOH-4220 with Supplement A. Medicaid benefit questions line at (585) 753-2760 for current recipients.",
       "NY Medicaid Helpline at (800) 541-2831 — statewide information, eligibility questions, application assistance.",
       "NY Medicaid Buy-In for Working People with Disabilities page at health.ny.gov/health_care/medicaid/program/buy_in — MBI-WPD details and premium scale.",
       "Facilitated Enrollers for the Aged, Blind, and Disabled — NY-funded application-assistance workers; directory at health.ny.gov.",
@@ -128,7 +128,8 @@ export const DISABILITY_MEDICAID_NY = {
     "https://www.health.ny.gov/health_care/medicaid/program/buy_in/"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
