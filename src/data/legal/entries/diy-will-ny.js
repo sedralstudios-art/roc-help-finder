@@ -41,7 +41,7 @@ export const DIY_WILL_NY = {
     en: [
       "Free will-preparation assistance is available through the JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051 for qualifying residents.",
       "Legal Aid Society of Rochester at (585) 232-4090 can advise on will requirements.",
-      "Eldersource (Lifespan) at (585) 325-2800 provides elder planning guidance including wills.",
+      "Eldersource (Lifespan of Greater Rochester) at (585) 244-8400 provides elder planning guidance including wills. Toll-free 866-454-5110.",
       "Online will templates exist — but they must comply with New York's specific requirements. Using a NY-specific template and following the witness rules is critical.",
       "After the will is signed and witnessed, store it in a safe place and tell the executor (the person named to carry out the will) where it is. The original should not be stored in a safe deposit box that no one can access."
     ]
@@ -97,7 +97,8 @@ export const DIY_WILL_NY = {
     "https://www.nycourts.gov/courthelp/WhenSomeoneDies/"
   ],
 
-  lastVerified: "2026-04-23",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
