@@ -43,7 +43,7 @@ export const ESTATE_ADMINISTRATOR_COMMISSIONS_SCPA_2307_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Surrogate's Court at (585) 753-1600 — accounting filings and commission approval.",
+      "Monroe County Surrogate's Court at (585) 371-3310 — accounting filings and commission approval.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — estate administration attorneys.",
       "JustCause (formerly VLSP) at (585) 232-3051 — low-income estate matters.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income estate administration.",

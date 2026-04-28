@@ -44,7 +44,7 @@ export const TRUST_ACCOUNTING_SCPA_2210_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Surrogate's Court at (585) 753-1600 — trust accounting filings and compel-accounting petitions.",
+      "Monroe County Surrogate's Court at (585) 371-3310 — trust accounting filings and compel-accounting petitions.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — estate and trust litigation attorneys.",
       "Lifespan of Greater Rochester at (585) 244-8400 — senior-focused trust review services.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income beneficiaries with trust concerns.",

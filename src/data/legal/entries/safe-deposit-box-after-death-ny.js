@@ -42,7 +42,7 @@ export const SAFE_DEPOSIT_BOX_AFTER_DEATH_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Surrogate's Court at (585) 753-1600 — SCPA 2003 petition filing location, Form P-14.",
+      "Monroe County Surrogate's Court at (585) 371-3310 — SCPA 2003 petition filing location, Form P-14.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — probate and estate administration attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income estate administration assistance.",
       "NYS Unified Court System court forms at nycourts.gov — SCPA forms and instructions.",

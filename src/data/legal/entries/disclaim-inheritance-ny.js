@@ -42,7 +42,7 @@ export const DISCLAIM_INHERITANCE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Surrogate's Court at (585) 753-1600 — disclaimer filing location and procedural questions.",
+      "Monroe County Surrogate's Court at (585) 371-3310 — disclaimer filing location and procedural questions.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — estate and elder law attorneys.",
       "Lifespan of Greater Rochester at (585) 244-8400 — elder law referrals and benefits coordination.",
       "Empire Justice Center at (585) 454-4060 — Medicaid policy guidance.",
@@ -113,7 +113,8 @@ export const DISCLAIM_INHERITANCE_NY = {
     "https://www.nycourts.gov/courthelp/WhenSomeoneDies/index.shtml"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

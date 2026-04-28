@@ -43,7 +43,7 @@ export const RIGHT_OF_DISPOSITION_REMAINS_NY = {
   legalOptions: {
     en: [
       "NYS Department of Health Bureau of Funeral Directing at (518) 402-0785 — funeral industry licensing and complaints.",
-      "Monroe County Public Administrator at (585) 753-1600 (Surrogate's Court) — unclaimed or contested remains.",
+      "Monroe County Public Administrator at (585) 371-3310 (Surrogate's Court) — unclaimed or contested remains.",
       "Funeral Consumers Alliance of the Finger Lakes at (607) 272-5092 — free help navigating the priority list.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — emergency disposition disputes.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income families with disposition conflicts.",

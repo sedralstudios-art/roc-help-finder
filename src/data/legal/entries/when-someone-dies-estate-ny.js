@@ -23,7 +23,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
   },
 
   whatItMeans: {
-    en: "Under Estates, Powers and Trusts Law (EPTL) § 4-1.1, New York's intestate succession rules determine who inherits when there is no will. The order is: if there is a surviving spouse and no children, the spouse inherits everything. If there is a surviving spouse and children, the spouse receives the first $50,000 plus half the remainder, and the children split the rest equally. If there is no surviving spouse, the children inherit everything equally. If there are no children, the estate goes to the parents. If no parents, to siblings. If no siblings, to more distant relatives following a statutory order. To handle the estate, someone must petition the Surrogate's Court for letters of administration — this is similar to probate but for estates without a will. The petitioner is typically the surviving spouse or the next closest relative. The administrator has the legal authority to access bank accounts, sell property, pay debts, and distribute assets to the heirs. Small estates (personal property under $50,000 with no real estate) can use a simplified voluntary administration proceeding, which is faster and less expensive. Surrogate's Court filing fees depend on the size of the estate — check with the Monroe County Surrogate's Court at (585) 753-5363 for current fees. Fee waivers are available."
+    en: "Under Estates, Powers and Trusts Law (EPTL) § 4-1.1, New York's intestate succession rules determine who inherits when there is no will. The order is: if there is a surviving spouse and no children, the spouse inherits everything. If there is a surviving spouse and children, the spouse receives the first $50,000 plus half the remainder, and the children split the rest equally. If there is no surviving spouse, the children inherit everything equally. If there are no children, the estate goes to the parents. If no parents, to siblings. If no siblings, to more distant relatives following a statutory order. To handle the estate, someone must petition the Surrogate's Court for letters of administration — this is similar to probate but for estates without a will. The petitioner is typically the surviving spouse or the next closest relative. The administrator has the legal authority to access bank accounts, sell property, pay debts, and distribute assets to the heirs. Small estates (personal property under $50,000 with no real estate) can use a simplified voluntary administration proceeding, which is faster and less expensive. Surrogate's Court filing fees depend on the size of the estate — check with the Monroe County Surrogate's Court at (585) 371-3310 for current fees. Fee waivers are available."
   },
 
   yourRights: {
@@ -41,7 +41,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
 
   legalOptions: {
     en: [
-      "The Monroe County Surrogate's Court handles all estate matters for Monroe County. Located at the Hall of Justice, 99 Exchange Blvd, Rochester NY 14614. Phone: (585) 753-5363.",
+      "The Monroe County Surrogate's Court handles all estate matters for Monroe County. Located at the Hall of Justice, 99 Exchange Blvd, Rochester NY 14614. Phone: (585) 371-3310.",
       "Forms for administration and small estate proceedings are available from the Surrogate's Court clerk or at nycourts.gov/courthelp.",
       "For small estates under $50,000 in personal property (no real estate), the voluntary administration affidavit is a simpler process that does not require a full court proceeding.",
       "Free legal help with estate matters is available through Legal Aid Society of Rochester at (585) 232-4090 for low-income residents.",
@@ -61,7 +61,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
       qualifier: "Any estate matter in Monroe County",
       access: "Phone or in person",
       outcome: "Filing, letters of administration, small estate proceedings",
-      phone: "(585) 753-5363",
+      phone: "(585) 371-3310",
       url: "https://ww2.nycourts.gov/courts/7jd/monroe/surrogate/index.shtml",
       verified: true,
       bilingual: false,

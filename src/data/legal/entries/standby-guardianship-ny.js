@@ -42,7 +42,7 @@ export const STANDBY_GUARDIANSHIP_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Surrogate's Court at (585) 753-1600 — standby guardian petition filing and confirmation.",
+      "Monroe County Surrogate's Court at (585) 371-3310 — standby guardian petition filing and confirmation.",
       "Monroe County Family Court at (585) 428-7200 — for FCA 661 concurrent custody-care designations.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — family law attorneys for drafting standby designations.",
       "Legal Aid Society of Rochester at (585) 232-4090 — free or low-cost standby designations for low-income parents.",

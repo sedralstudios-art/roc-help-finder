@@ -40,7 +40,7 @@ export const WRONGFUL_DEATH_NY = {
   legalOptions: {
     en: [
       "Consulting with a wrongful death attorney as soon as possible is important — evidence preservation and the notice of claim deadline (for municipal claims) are time-sensitive.",
-      "If no personal representative has been appointed, one must be appointed through Surrogate's Court. Monroe County Surrogate's Court: (585) 753-5363.",
+      "If no personal representative has been appointed, one must be appointed through Surrogate's Court. Monroe County Surrogate's Court: (585) 371-3310.",
       "Most wrongful death attorneys work on contingency — the family pays nothing upfront.",
       "Free legal advice on whether a wrongful death claim exists is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "For deaths caused by workplace accidents, a workers' compensation claim AND a separate wrongful death lawsuit (against a third party, not the employer) may both be available."
