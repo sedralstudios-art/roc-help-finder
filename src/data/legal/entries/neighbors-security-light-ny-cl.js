@@ -42,7 +42,7 @@ export const NEIGHBORS_SECURITY_LIGHT_NY = {
       "The first step is a polite request — most disputes end with a conversation and a simple shield or aim adjustment.",
       "When the town has a lighting ordinance, a complaint can be filed with the local code enforcement office.",
       "Rochester code enforcement: (585) 428-6520. Commercial lighting standards may apply if the neighboring property is commercial.",
-      "Without an ordinance, a private nuisance lawsuit can be filed in small claims court (up to $10,000 in city court) or in Supreme Court for an injunction.",
+      "Without an ordinance, a private nuisance lawsuit can be filed in small claims court (up to $5,000 in Rochester City Court (NYC only is $10,000)) or in Supreme Court for an injunction.",
       "Evidence matters: photos showing the light shining into the home, a light meter reading, and a log of when the light is on.",
       "Mediation through the local court or a community mediation center is usually faster and cheaper than litigation."
     ]

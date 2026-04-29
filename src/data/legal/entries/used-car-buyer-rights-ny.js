@@ -41,7 +41,7 @@ export const USED_CAR_BUYER_RIGHTS_NY = {
     en: [
       "If a dealer refuses to honor the warranty, a complaint can be filed with the NY Attorney General's Lemon Law Arbitration Program at (800) 771-7755 or ag.ny.gov. The arbitration is free.",
       "The AG's Consumer Frauds Bureau investigates dealer fraud — undisclosed damage, odometer rollback, and deceptive sales practices.",
-      "For private-sale fraud (seller concealed a known defect), a lawsuit can be filed in small claims court (up to $5,000 in town/village courts, $10,000 in city civil court) or in a regular civil action for larger amounts.",
+      "For private-sale fraud (seller concealed a known defect), a lawsuit can be filed in small claims court (up to $5,000 in Rochester City Court, $3,000 in town or village court (NYC only is $10,000)) or in a regular civil action for larger amounts.",
       "A vehicle history report (Carfax, AutoCheck, NHTSA recall lookup) before purchase documents what the seller knew about accidents, title status, odometer records, and open recalls.",
       "An independent pre-purchase inspection by a mechanic surfaces frame damage and mechanical problems that a test drive will not.",
       "Free legal help with used car disputes is available through Legal Aid Society of Rochester at (585) 232-4090."

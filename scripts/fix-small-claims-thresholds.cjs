@@ -39,6 +39,26 @@ const REPLACEMENTS = [
     from: 'under $5,000 in town or village court and $10,000 in city court',
     to: 'under $5,000 in Rochester City Court and $3,000 in town or village court (NYC only is $10,000)',
   },
+  {
+    from: 'up to $5,000 in town or village court, $10,000 in city court',
+    to: 'up to $5,000 in Rochester City Court, $3,000 in town or village court (NYC only is $10,000)',
+  },
+  {
+    from: 'up to $5,000 in town/village courts, $10,000 in city court',
+    to: 'up to $5,000 in Rochester City Court, $3,000 in town or village court (NYC only is $10,000)',
+  },
+  {
+    from: 'up to $5,000 in town/village courts, $10,000 in city civil court',
+    to: 'up to $5,000 in Rochester City Court, $3,000 in town or village court (NYC only is $10,000)',
+  },
+  {
+    from: 'up to $5,000 in town court, up to $10,000 in city court',
+    to: 'up to $5,000 in Rochester City Court, up to $3,000 in town or village court (NYC only is $10,000)',
+  },
+  {
+    from: 'up to $10,000 in city court',
+    to: 'up to $5,000 in Rochester City Court (NYC only is $10,000)',
+  },
 ];
 
 function main() {

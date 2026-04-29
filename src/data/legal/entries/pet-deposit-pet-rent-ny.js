@@ -42,7 +42,7 @@ export const PET_DEPOSIT_PET_RENT_NY = {
     en: [
       "When a landlord collected more than one month's rent in total deposits, the tenant can demand a refund of the excess in writing.",
       "When the landlord refuses, a complaint can be filed with the NYS Attorney General at (800) 771-7755.",
-      "A small claims case (up to $5,000 in town court, up to $10,000 in city court) can recover the excess deposit.",
+      "A small claims case (up to $5,000 in Rochester City Court, up to $3,000 in town or village court (NYC only is $10,000)) can recover the excess deposit.",
       "For ESA or service animal charges, a fair housing complaint goes to HUD at (800) 669-9777 or to the NY Division of Human Rights at (888) 392-3644.",
       "Free help with deposit disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
