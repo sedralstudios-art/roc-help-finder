@@ -98,6 +98,7 @@ export const GARAGE_DOOR_OPENER_LIABILITY_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
