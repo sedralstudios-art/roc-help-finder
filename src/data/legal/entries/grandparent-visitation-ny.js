@@ -41,7 +41,7 @@ export const GRANDPARENT_VISITATION_NY = {
   legalOptions: {
     en: [
       "A petition for grandparent visitation can be filed at Family Court or Supreme Court in the county where the child lives. Monroe County Family Court is at the Hall of Justice, 99 Exchange Blvd, Rochester.",
-      "Free help is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 295-5700.",
+      "Free help is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 325-2520.",
       "Mediation may be offered by the court as a way to reach an agreement without a full hearing.",
       "Under DRL 72, the court can order supervised or unsupervised visitation depending on the circumstances.",
       "When the child is in foster care, grandparent visitation runs through Social Services Law 384-a and the foster care plan; the caseworker and Family Court judge coordinate access."

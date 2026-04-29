@@ -42,7 +42,7 @@ export const UNDOCUMENTED_RIGHTS_NY = {
   legalOptions: {
     en: [
       "For immigration legal help: Catholic Family Center Immigration Services at (585) 546-7220 provides free assistance including asylum, DACA, TPS, family petitions, and deportation defense.",
-      "LawNY at (585) 295-5700 provides immigration legal services for low-income residents.",
+      "LawNY at (585) 325-2520 provides immigration legal services for low-income residents.",
       "For wage theft against undocumented workers: a complaint can be filed with the NY DOL at (888) 469-7365. Immigration status is not asked and does not affect the claim.",
       "For domestic violence: the Willow DV Center hotline at (585) 222-7233 serves everyone regardless of immigration status. VAWA self-petitions allow abuse survivors to seek immigration status independently of the abuser.",
       "The NYS New Americans Hotline at 1-800-566-7636 provides information and referrals in multiple languages for any immigration-related question.",

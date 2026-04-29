@@ -40,7 +40,7 @@ export const IMMIGRATION_BASICS_NY = {
   legalOptions: {
     en: [
       "Catholic Family Center Immigration Services in Rochester provides free and low-cost immigration legal services including asylum, DACA, TPS, family petitions, citizenship, and detained cases. Phone: (585) 546-7220. Address: 87 N Clinton Ave, Rochester NY 14604.",
-      "Legal Assistance of Western New York (LawNY) provides immigration legal help for low-income residents. Phone: (585) 295-5700.",
+      "Legal Assistance of Western New York (LawNY) provides immigration legal help for low-income residents. Phone: (585) 325-2520.",
       "Catholic Charities of the Finger Lakes provides legal services for immigration matters in the broader region. Phone: (607) 734-9784.",
       "The NYS Office for New Americans runs a free hotline for immigration questions: 1-800-566-7636 (New Americans Hotline).",
       "NEVER pay a notario or unlicensed person for immigration help. In the US, a 'notario publico' has no legal authority. Under GBL § 460-c, unauthorized practice of immigration law is a crime. If you have been scammed, report it to the NY Attorney General at (800) 771-7755."
@@ -70,9 +70,9 @@ export const IMMIGRATION_BASICS_NY = {
       name: "LawNY (Legal Assistance of Western NY)",
       focus: "Immigration legal services",
       qualifier: "Low-income residents in 14 Western NY counties",
-      access: "Phone intake at (585) 295-5700",
+      access: "Phone intake at (585) 325-2520",
       outcome: "Direct representation",
-      phone: "(585) 295-5700",
+      phone: "(585) 325-2520",
       url: "https://www.lawny.org",
       verified: true,
       bilingual: false,
