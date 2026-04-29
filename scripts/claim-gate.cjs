@@ -379,7 +379,15 @@ function gateEntry(filename) {
   const counselPhones = readCounselPhones(src);
   const factCheckedDate = readFactCheckedBy(src);
 
-  const body = [summary, whatItMeans, example, yourRights, legalOptions].join('\n\n');
+  // Structured fields the gate also needs to scan (otherwise a fabricated
+  // primaryStatute or title slips past the body-only check).
+  // Tags are intentionally search-term-rich ('landlord must change locks'
+  // appears as a search term even though the body debunks it as a statutory
+  // right) — scanning them produces false positives, so they're excluded.
+  const primaryStatute = (src.match(/primaryStatute\s*:\s*"([^"]+)"/) || [])[1] || '';
+  const title = readField(src, 'title');
+
+  const body = [primaryStatute, title, summary, whatItMeans, example, yourRights, legalOptions].join('\n\n');
 
   const fails = [];
   const warns = [];
@@ -390,7 +398,7 @@ function gateEntry(filename) {
   // author is explicitly debunking the wrong claim, not asserting it. Without
   // this, the gate fires on entries whose whole point is to explain that the
   // fabricated citation is wrong.
-  const NEGATION_RE = /\b(?:not\s+covered|is\s+not|does\s+not|do\s+not|doesn'?t|don'?t|no\s+codified|no\s+statutory|no\s+such|fabricated|wrong(?:ly)?\s+cited|miscited|misframed|incorrect|unenacted|never\s+enacted|outdated|out\s+of\s+date|debunked|myth)\b/i;
+  const NEGATION_RE = /\b(?:not\s+covered|is\s+not|does\s+not|do\s+not|doesn'?t|don'?t|no\s+codified|no\s+statutory|no\s+statewide|no\s+such|(?:NY|New\s+York)\s+has\s+no|fabricated|wrong(?:ly)?\s+cited|miscited|misframed|incorrect|unenacted|never\s+enacted|outdated|out\s+of\s+date|debunked|myth|local[\s-]option)\b/i;
 
   for (const rule of FABRICATIONS) {
     let m = rule.pat.exec(body);
