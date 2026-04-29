@@ -43,7 +43,7 @@ export const HOME_SALE_DISCLOSURE_NY = {
       "The PCDS form is available at dos.ny.gov. It covers 48 questions about the property's condition.",
       "If the buyer discovers a hidden defect after closing, they can sue for fraud. The key is proving the seller knew about the problem — evidence includes repair records, permits, insurance claims, and neighbor testimony.",
       "A home inspection before closing is the buyer's best protection. The inspector's report creates a record of the property's condition at the time of purchase.",
-      "For disputes of $10,000 or less, small claims court is an option. For larger claims, Supreme Court.",
+      "For disputes of $5,000 or less, Rochester City Court small claims is an option ($3,000 town/village; $10,000 only in NYC). For larger claims, Supreme Court.",
       "Free legal advice on real estate disputes is available through JustCause (formerly VLSP) at (585) 232-3051."
     ]
   },

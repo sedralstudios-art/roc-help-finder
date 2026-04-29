@@ -43,7 +43,7 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
       "A complaint about an insurer can be filed with the NYS Department of Financial Services at (800) 342-3736 or online at dfs.ny.gov.",
       "For denied no-fault claims, arbitration can be requested through the American Arbitration Association. The insurer pays the arbitration costs.",
       "If the dispute is about the value of the damage (not whether the claim is covered), the policy may include an appraisal clause — each side hires an appraiser and an umpire decides.",
-      "For claims of $10,000 or less, small claims court is an option against the insurer.",
+      "For claims of $5,000 or less, Rochester City Court small claims is an option against the insurer ($3,000 in town/village courts; $10,000 only in NYC).",
       "Free legal advice on insurance disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
   },

@@ -44,7 +44,7 @@ export const PHARMACY_ERRORS_NY = {
       "Keeping the dispensed medication and the label is essential evidence; returning the pills to the pharmacy makes proving the error harder.",
       "Errors can be reported to the NYS Education Department Office of the Professions at (518) 474-3817.",
       "For serious harm, a personal injury attorney can take the case on contingent fees.",
-      "For damages under $10,000, small claims court is an option without an attorney.",
+      "For damages under $5,000, Rochester City Court small claims is an option without an attorney ($3,000 in town/village courts; $10,000 only in NYC).",
       "Poison Control at (800) 222-1222 is the first call after taking the wrong medication and often saves time in the ER.",
       "NY Education Law 6816-a sets the rules for generic substitution; a substitution without proper notice can support a complaint."
     ]

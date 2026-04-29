@@ -43,7 +43,7 @@ export const GUTTER_DOWNSPOUT_DRAINAGE_NY = {
       "Greece: Code Enforcement at (585) 723-2396.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "For persistent problems, a nuisance lawsuit can be filed in Supreme Court seeking an order to redirect the drainage and damages for property harm.",
-      "For damages of $10,000 or less, small claims court is an option.",
+      "For damages of $5,000 or less, Rochester City Court small claims is an option ($3,000 in town/village courts; $10,000 only in NYC).",
       "A land survey and a drainage assessment from a civil engineer ($300-$800) can provide evidence for a lawsuit or code complaint."
     ]
   },

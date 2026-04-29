@@ -42,7 +42,7 @@ export const HOME_WARRANTY_DISPUTES_NY = {
     en: [
       "Under GBL Section 349, misleading business practices by a home warranty company can result in damages of $50 to $1,000 per violation, plus attorney's fees.",
       "A complaint about a home warranty company can be filed with the NYS Attorney General's Consumer Helpline at (800) 771-7755.",
-      "For claims of $10,000 or less, small claims court is available without an attorney. Filing fees are $15 to $20 in most courts.",
+      "For claims of $5,000 or less, Rochester City Court small claims is available without an attorney ($3,000 in town/village courts; $10,000 only in NYC). Filing fees are $15 to $20.",
       "The warranty contract itself is the most important document. The specific language about what is covered, what is excluded, and what happens when a claim is denied controls the dispute.",
       "The Better Business Bureau tracks complaints against home warranty companies and can facilitate resolution at bbb.org.",
       "Free legal advice on consumer contract disputes is available through JustCause (formerly VLSP) at (585) 232-3051."

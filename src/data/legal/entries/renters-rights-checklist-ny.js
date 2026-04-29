@@ -41,7 +41,7 @@ export const RENTERS_RIGHTS_CHECKLIST_NY = {
 
   legalOptions: {
     en: [
-      "Security deposit disputes: small claims court (up to $10,000). The landlord must prove each deduction was reasonable.",
+      "Security deposit disputes: small claims court (up to $5,000 in Rochester City Court, $3,000 in town/village; $10,000 only in NYC). The landlord must prove each deduction was reasonable.",
       "Habitability complaints: file with local code enforcement. Rochester (585) 428-6520. Suburban towns have their own code offices.",
       "Illegal lockout or utility shutoff: call the police and seek an emergency court order. Legal Aid at (585) 232-4090 has an emergency housing line.",
       "Retaliation: under RPL 223-b, a landlord who retaliates within a protected period faces a presumption of retaliation in court.",
