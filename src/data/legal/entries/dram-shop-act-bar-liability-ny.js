@@ -121,7 +121,8 @@ export const DRAM_SHOP_ACT_BAR_LIABILITY_NY = {
     "https://sla.ny.gov"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
