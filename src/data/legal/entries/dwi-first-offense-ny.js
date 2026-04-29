@@ -43,7 +43,7 @@ export const DWI_FIRST_OFFENSE_NY = {
     en: [
       "Monroe County Public Defender at (585) 753-4210 — free criminal-defense representation for indigent DWI defendants.",
       "Monroe County Assigned Counsel Program (18-B panel) — conflict-case assignments for DWI defense when the Public Defender has a conflict.",
-      "Rochester City Court at (585) 428-6990 — handles DWI arraignment and trials for arrests within the city.",
+      "Rochester City Court Criminal Division at (585) 371-3413 — handles DWI arraignment and trials for arrests within the city.",
       "NY DMV Impaired Driver Program — seven-session education course required to restore driving privileges after most DWI dispositions; enrollment at dmv.ny.gov.",
       "NY DMV Safety Hearing Bureau at (518) 474-0774 — conducts chemical-test-refusal revocation hearings under VAT § 1194(2).",
       "Monroe County District Attorney DWI Bureau at (585) 753-4545 — prosecutes DWI and related charges in Monroe County.",
@@ -124,7 +124,8 @@ export const DWI_FIRST_OFFENSE_NY = {
     "https://dmv.ny.gov/tickets/penalties-alcohol-or-drug-related-violations"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
