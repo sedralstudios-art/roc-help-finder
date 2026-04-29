@@ -97,7 +97,8 @@ export const EMOTIONAL_DISTRESS_CLAIMS_NY = {
     "https://www.law.cornell.edu/wex/intentional_infliction_of_emotional_distress"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
