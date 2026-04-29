@@ -114,7 +114,8 @@ export const EMERGENCY_ROOM_BILLING_NY = {
     "https://www.nysenate.gov/legislation/laws/PBH/2807-K"
   ],
 
-  lastVerified: "2026-04-22",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
