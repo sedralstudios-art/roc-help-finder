@@ -42,7 +42,7 @@ export const RETURN_REFUND_POLICY_NY = {
       "When a store refuses a return and had no posted policy, citing GBL 218-a and asking for the 20-day default refund usually resolves it.",
       "When the store still refuses, a complaint can be filed with the NYS Attorney General's Consumer Frauds Bureau at (800) 771-7755.",
       "For defective products, a complaint can also go to the Better Business Bureau or to small claims court under UCC 2-314.",
-      "Small claims court handles disputes up to $5,000 in town or village court and up to $10,000 in city court. Filing is inexpensive and no attorney is required.",
+      "Small claims court handles disputes up to $5,000 in Rochester City Court and up to $3,000 in town or village court (NYC only is $10,000). Filing is inexpensive and no attorney is required.",
       "Free advice on consumer disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
   },

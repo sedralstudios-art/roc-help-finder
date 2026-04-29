@@ -47,7 +47,7 @@ export const HVAC_RESIDENTIAL_NY = {
     en: [
       "The NY Department of Labor (dol.ny.gov/wage-theft-hub) takes complaints about unpaid HVAC wages.",
       "An HVAC worker or subcontractor who was not paid can file a mechanic's lien against the property (Lien Law 3 and 10) — 4 months on a single-family home, 8 months on other buildings.",
-      "Small claims court handles disputes up to $5,000 in town or village court and up to $10,000 in city court.",
+      "Small claims court handles disputes up to $5,000 in Rochester City Court and up to $3,000 in town or village court (NYC only is $10,000).",
       "The NY Workers' Compensation Board takes injury claims even when the employer failed to carry coverage.",
       "OSHA takes safety complaints, including anonymous ones. HVAC work involves refrigerant exposure, electrical hazards, confined spaces, falls, and carbon monoxide risks.",
       "A consumer who hired a contractor who lied about licensing, certification, or equipment efficiency can sue under General Business Law 349. Remedies include actual damages, up to $1,000 in statutory damages, and attorney's fees.",
