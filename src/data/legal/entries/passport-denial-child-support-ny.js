@@ -39,7 +39,7 @@ export const PASSPORT_DENIAL_CHILD_SUPPORT_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Child Support Enforcement Unit at (585) 753-6048 handles payment arrangements and passport hold resolution.",
+      "Monroe County Child Support Enforcement Unit at (585) 753-1441 handles payment arrangements and passport hold resolution.",
       "To check the arrears balance, call the NY Child Support Helpline at (888) 208-4485.",
       "If the arrears amount is incorrect, file a motion in Monroe County Family Court at (585) 371-3544 to review and correct the balance.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles child support modification and arrears disputes for low-income parents.",

@@ -46,7 +46,7 @@ export const UNMARRIED_PARENTS_RIGHTS_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 represents parents in family court custody and visitation cases.",
       "LawNY at (585) 325-2520 handles family law cases for low-income clients.",
       "JustCause provides pro bono attorneys for family court matters — referral through Monroe County Bar Association at (585) 546-2130.",
-      "Monroe County Child Support Enforcement Unit at (585) 753-6048 handles child support establishment and collection."
+      "Monroe County Child Support Enforcement Unit at (585) 753-1441 handles child support establishment and collection."
     ]
   },
 

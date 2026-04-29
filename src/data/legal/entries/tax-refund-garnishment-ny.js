@@ -41,7 +41,7 @@ export const TAX_REFUND_GARNISHMENT_NY = {
     en: [
       "The Treasury Offset Program can be reached at (800) 304-3107 to find out which agency received the offset and why.",
       "IRS Form 8379 (Injured Spouse Allocation) can be filed with the tax return or separately after the offset happens. Processing takes about 14 weeks.",
-      "For child support offsets, the Monroe County Child Support Enforcement Unit can be reached at (585) 753-6071.",
+      "For child support offsets, the Monroe County Child Support Enforcement Unit can be reached at (585) 753-1441.",
       "For federal student loan offsets, the Department of Education's Default Resolution Group can be reached at (800) 621-3115.",
       "For New York State tax refund offsets, the NYS Department of Taxation and Finance can be reached at (518) 457-5181.",
       "Free legal help with tax refund offsets and debt disputes is available through Legal Aid Society of Rochester at (585) 232-4090 and Empire Justice Center at (585) 454-4060."

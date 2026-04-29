@@ -44,7 +44,7 @@ export const LICENSE_SUSPENSION_NY = {
     en: [
       "NY DMV Customer Service Center at (518) 486-9786 or dmv.ny.gov — license-status lookup, payment-plan information, hearing requests.",
       "For unpaid traffic tickets: the issuing court or DMV Traffic Violations Bureau is the office for a payment plan. Under the 2021 reform, the plan cannot be denied based on income alone.",
-      "For unpaid child support: the Monroe County Support Collection Unit at (585) 753-6690 handles license holds tied to support arrears.",
+      "For unpaid child support: the Monroe County Support Collection Unit at (585) 753-1441 handles license holds tied to support arrears.",
       "For DWI or chemical-test refusal suspensions: the NY DMV Safety Hearing Bureau at (518) 474-0774 handles refusal revocations.",
       "For insurance-lapse suspensions: the driver's insurer files an SR-22 certificate with the DMV, and the VAT § 318 civil penalty is paid before reinstatement.",
       "Monroe County Public Defender at (585) 753-4210 — represents indigent defendants on Aggravated Unlicensed Operation (AUO) charges under VAT § 511.",
