@@ -70,7 +70,7 @@ export const MEDICAID_HOME_CARE_NY = {
       qualifier: "Seniors 60+ and their families in Monroe County",
       access: "Phone",
       outcome: "Information, referral, and advocacy",
-      phone: "(585) 325-2800",
+      phone: "(585) 244-8400",
       url: "https://eldersource.org",
       verified: true,
       bilingual: false,

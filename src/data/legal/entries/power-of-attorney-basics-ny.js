@@ -72,7 +72,7 @@ export const POWER_OF_ATTORNEY_BASICS_NY = {
       qualifier: "Seniors in Monroe County",
       access: "Phone",
       outcome: "Guidance, referrals, planning assistance",
-      phone: "(585) 325-2800",
+      phone: "(585) 244-8400",
       url: "https://www.lifespan-roch.org",
       verified: true,
       bilingual: false,

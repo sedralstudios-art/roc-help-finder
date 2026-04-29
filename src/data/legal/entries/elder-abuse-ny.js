@@ -73,7 +73,7 @@ export const ELDER_ABUSE_NY = {
       qualifier: "Seniors 60+ in Monroe County",
       access: "Phone",
       outcome: "Advocacy and service coordination",
-      phone: "(585) 325-2800",
+      phone: "(585) 244-8400",
       url: "https://eldersource.org",
       verified: true,
       bilingual: false,

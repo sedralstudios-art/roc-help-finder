@@ -59,7 +59,7 @@ export const NURSING_HOME_RIGHTS_NY = {
       qualifier: "Any nursing home or adult care facility resident in Monroe County",
       access: "Phone",
       outcome: "Investigation, advocacy, and resolution",
-      phone: "(585) 325-2800",
+      phone: "(585) 244-8400",
       url: "https://eldersource.org",
       verified: true,
       bilingual: false,

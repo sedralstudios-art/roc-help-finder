@@ -341,14 +341,19 @@ function gateEntry(filename) {
   const passes = [];
 
   // 1. Fabrication scan
+  // Skip when the local window contains negation/correction language — the
+  // author is explicitly debunking the wrong claim, not asserting it. Without
+  // this, the gate fires on entries whose whole point is to explain that the
+  // fabricated citation is wrong.
+  const NEGATION_RE = /\b(?:not\s+covered|is\s+not|does\s+not|do\s+not|doesn'?t|don'?t|no\s+codified|no\s+statutory|no\s+such|fabricated|wrong(?:ly)?\s+cited|miscited|misframed|incorrect|unenacted|never\s+enacted|outdated|out\s+of\s+date|debunked|myth)\b/i;
+
   for (const rule of FABRICATIONS) {
     let m = rule.pat.exec(body);
     rule.pat.lastIndex = 0;
     if (!m) continue;
-    if (rule.cooccur) {
-      const window = body.slice(Math.max(0, m.index - 200), m.index + 300);
-      if (!rule.cooccur.test(window)) continue;
-    }
+    const window = body.slice(Math.max(0, m.index - 200), m.index + 300);
+    if (rule.cooccur && !rule.cooccur.test(window)) continue;
+    if (NEGATION_RE.test(window)) continue;
     fails.push({
       kind: 'FABRICATION',
       label: rule.label,

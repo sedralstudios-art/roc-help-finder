@@ -40,7 +40,7 @@ export const MARIJUANA_SEALING_NY = {
 
   legalOptions: {
     en: [
-      "Ordering a personal RAP sheet from DCJS requires fingerprints and a fee (around $65 as of April 2026). Current cost is posted at criminaljustice.ny.gov/ojis/recordreview.htm.",
+      "Ordering a personal RAP sheet from DCJS requires fingerprints and a fee — $17.50 for the NY-only record or $47.50 for NY plus FBI. The DCJS Record Review Unit at (518) 457-9847 walks applicants through the process. Current cost is posted at criminaljustice.ny.gov/ojis/recordreview.htm.",
       "If the RAP sheet shows the case is expunged but a background-check company still reports it, a written FCRA dispute letter with the RAP sheet attached usually gets it corrected within 30 days.",
       "If the RAP sheet shows the case is still open, a motion for MRTA expungement can be filed with the original court. There is no fee for this kind of motion. Templates are posted at nycourts.gov.",
       "Contacting the clerk at the original court is often a faster first step than a motion; some clerks can correct the record without judicial action.",
