@@ -401,7 +401,26 @@ const C = {
   amberLight: "#fdf6ec", white: "#fff", border: "#e8e4dc",
 };
 
+function useIsDesktop(minWidth = 1000) {
+  const [is, setIs] = useState(() =>
+    typeof window !== "undefined" && window.matchMedia("(min-width: " + minWidth + "px)").matches
+  );
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const mq = window.matchMedia("(min-width: " + minWidth + "px)");
+    const h = (e) => setIs(e.matches);
+    if (mq.addEventListener) mq.addEventListener("change", h);
+    else mq.addListener(h);
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener("change", h);
+      else mq.removeListener(h);
+    };
+  }, [minWidth]);
+  return is;
+}
+
 export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCityDetected, onJurisdictionsDetected }) {
+  const isDesktop = useIsDesktop(1000);
   const [page, setPage] = useState(PAGES.HOME);
   const [lang, setLang] = useState("en");
   const [selectedEntryId, setSelectedEntryId] = useState(null);
@@ -897,7 +916,16 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
       {/* ═══════════════════ SUPPORT ═══════════════════ */}
       {page === PAGES.SUPPORT && (
-        <main style={{ padding: "0 20px 40px" }}>
+        <main style={isDesktop ? {
+          padding: "0 32px 40px",
+          maxWidth: 1200,
+          margin: "0 auto",
+          display: "grid",
+          gridTemplateColumns: "minmax(0, 1fr) 320px",
+          gap: 48,
+          alignItems: "start",
+        } : { padding: "0 20px 40px", maxWidth: 720, margin: "0 auto" }}>
+          <div style={{ minWidth: 0 }}>
           <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
           <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 12, color: C.bark }}>{t(lang,"supportTitle")}</h2>
 
@@ -1088,6 +1116,57 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           <p style={{ fontSize: 11, color: C.dust, lineHeight: 1.5, textAlign: "center" }}>
             Voluntary contribution. Not tax-deductible. Sedral Studios is a for-profit business entity, not a charity.
           </p>
+          </div>
+
+          {isDesktop && (
+            <aside style={{ position: "sticky", top: 24 }}>
+              <div style={{
+                background: `linear-gradient(135deg, ${C.forest} 0%, ${C.leaf} 100%)`,
+                borderRadius: 24, padding: "24px 22px", color: "#fff",
+                boxShadow: "0 4px 16px rgba(46, 125, 50, 0.18)",
+              }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+                  <div style={{ width: 40, height: 40, borderRadius: "50%", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia, serif", fontSize: 14, fontWeight: 700, color: C.forest, letterSpacing: -1, flexShrink: 0 }}>HF</div>
+                  <div style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 22, lineHeight: 1.1 }}>HelpFinder</div>
+                </div>
+                <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 4, opacity: 0.95 }}>
+                  the only .help you need
+                </div>
+                <div style={{ fontSize: 13, lineHeight: 1.55, opacity: 0.9, marginBottom: 18 }}>
+                  Free, plain-English answers to legal questions and a directory of every program in Monroe County. No login. No tracking. No 211 phone tree.
+                </div>
+
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 18 }}>
+                  <div style={{ background: "rgba(255,255,255,0.14)", borderRadius: 12, padding: "10px 12px" }}>
+                    <div style={{ fontSize: 22, fontWeight: 700, lineHeight: 1.1 }}>{LEGAL_ENTRIES.length}</div>
+                    <div style={{ fontSize: 11, opacity: 0.85, marginTop: 2 }}>legal guides</div>
+                  </div>
+                  <div style={{ background: "rgba(255,255,255,0.14)", borderRadius: 12, padding: "10px 12px" }}>
+                    <div style={{ fontSize: 22, fontWeight: 700, lineHeight: 1.1 }}>{PROGRAMS.length}</div>
+                    <div style={{ fontSize: 11, opacity: 0.85, marginTop: 2 }}>programs</div>
+                  </div>
+                  <div style={{ background: "rgba(255,255,255,0.14)", borderRadius: 12, padding: "10px 12px", gridColumn: "1 / -1" }}>
+                    <div style={{ fontSize: 22, fontWeight: 700, lineHeight: 1.1 }}>{GLOSSARY_TERMS.length}</div>
+                    <div style={{ fontSize: 11, opacity: 0.85, marginTop: 2 }}>legal terms in plain English</div>
+                  </div>
+                </div>
+
+                <div style={{ background: "rgba(255,255,255,0.95)", borderRadius: 12, padding: "10px 12px", marginBottom: 12 }}>
+                  <ShareButton
+                    title="HelpFinder"
+                    text={t(lang, "shareText")}
+                    url="https://helpfinder.help"
+                    label="Share HelpFinder →"
+                    ariaLabel={t(lang, "shareAriaLabel")}
+                  />
+                </div>
+
+                <div style={{ fontSize: 11, opacity: 0.8, textAlign: "center" }}>
+                  Built by Sedral Studios · Rochester, NY
+                </div>
+              </div>
+            </aside>
+          )}
         </main>
       )}
 
@@ -1095,7 +1174,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
       {/* ═══════════════════ PRIVACY ═══════════════════ */}
       {page === PAGES.PRIVACY && (
-        <main style={{ padding: "0 20px 40px" }}>
+        <main style={{ padding: "0 20px 40px", maxWidth: 720, margin: "0 auto" }}>
           <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
           <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 20, color: C.bark }}>{t(lang,"privacyTitle")}</h2>
           <div style={{ fontSize: 15, lineHeight: 1.7, color: C.bark }}>
@@ -1110,7 +1189,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
       {/* ═══════════════════ TERMS ═══════════════════ */}
       {page === PAGES.TERMS && (
-        <main style={{ padding: "0 20px 40px" }}>
+        <main style={{ padding: "0 20px 40px", maxWidth: 720, margin: "0 auto" }}>
           <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
           <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 20, color: C.bark }}>{t(lang,"termsTitle")}</h2>
           <div style={{ fontSize: 14, lineHeight: 1.7, color: C.bark }}>
