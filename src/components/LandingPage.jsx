@@ -460,13 +460,17 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     if (el) el.remove();
   }, []);
 
-  // Initialize page state from URL pathname (history-based routing)
+  // Initialize page state from URL pathname (history-based routing).
+  // ALWAYS set every selection to match the URL (including null) — conditional
+  // setters left stale entry/category IDs in state when popping backward, which
+  // on mobile produced a brief mid-pop "frozen" render where the old entry
+  // tried to repaint while the new page mounted.
   useEffect(() => {
     const parsed = parsePath(window.location.pathname);
-    if (parsed.entryId) setSelectedEntryId(parsed.entryId);
-    if (parsed.categoryId) setSelectedCategory(parsed.categoryId);
-    if (parsed.termId) setSelectedGlossaryTermId(parsed.termId);
-    if (parsed.glossaryCat) setSelectedGlossaryCategory(parsed.glossaryCat);
+    setSelectedEntryId(parsed.entryId || null);
+    setSelectedCategory(parsed.categoryId || null);
+    setSelectedGlossaryTermId(parsed.termId || null);
+    setSelectedGlossaryCategory(parsed.glossaryCat || null);
     setPage(parsed.page);
   }, []);
 
@@ -474,11 +478,12 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   useEffect(() => {
     const onPop = () => {
       const parsed = parsePath(window.location.pathname);
-      if (parsed.entryId) setSelectedEntryId(parsed.entryId);
-      if (parsed.categoryId) setSelectedCategory(parsed.categoryId);
-      if (parsed.termId) setSelectedGlossaryTermId(parsed.termId);
-      if (parsed.glossaryCat) setSelectedGlossaryCategory(parsed.glossaryCat);
+      setSelectedEntryId(parsed.entryId || null);
+      setSelectedCategory(parsed.categoryId || null);
+      setSelectedGlossaryTermId(parsed.termId || null);
+      setSelectedGlossaryCategory(parsed.glossaryCat || null);
       setPage(parsed.page);
+      setMenuOpen(false);
       window.scrollTo(0, 0);
     };
     window.addEventListener("popstate", onPop);
