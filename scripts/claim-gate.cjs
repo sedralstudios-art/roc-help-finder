@@ -228,6 +228,11 @@ const FABRICATIONS = [
     cooccur: /scanner|item\s+pricing|shelf\s+price|grocery\s+overcharge/i,
     label: 'GBL 580 / 581 miscited as Scanner / Item Pricing Law',
     fix: 'GBL 580-596 is "Going Out of Business Sales" (Article 29-F). The scanner / item pricing law is NY Agriculture and Markets Law § 197-b' },
+
+  { pat: /\bunder\s+(?:16|sixteen)\b/i,
+    cooccur: /(?:PEN|Penal\s+Law)\s+§?\s*265\.45|safe\s+storage\s+(?:law|rule|requirement)/i,
+    label: 'Safe storage (PEN 265.45) age threshold under 16 outdated',
+    fix: 'NY Penal Law 265.45 safe-storage age threshold was raised from under 16 to under 18 by the 2022 CCIA' },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.

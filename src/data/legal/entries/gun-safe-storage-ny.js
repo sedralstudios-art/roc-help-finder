@@ -16,14 +16,14 @@ export const GUN_SAFE_STORAGE_NY = {
   whoQualifies: {
     en: [
       "Any gun owner in New York who wants to understand safe storage requirements.",
-      "Any gun owner who lives with children under 16.",
+      "Any gun owner who lives with children under 18 (the threshold was raised from 16 to 18 by the 2022 CCIA amendment).",
       "Any person who was charged with unsafe storage of a firearm.",
       "Any person whose child or household member gained access to a firearm that was not properly stored."
     ]
   },
 
   whatItMeans: {
-    en: "Under New York Penal Law Section 265.45 (safe storage of rifles, shotguns, and firearms), a gun owner who lives with someone under 16 must store the gun in a locked container or with a gun lock that makes it inoperable. This applies to all firearms — handguns, rifles, and shotguns. Failure to safely store a firearm when a child under 16 lives in the home is a Class A misdemeanor. If the child gains access to the gun and causes injury or death, the charges can be more serious. New York also passed the SAFE Act (Secure Ammunition and Firearms Enforcement Act of 2013), which added additional requirements for assault-style weapons and high-capacity magazines. Under the SAFE Act, assault weapons must be registered and stored securely. A gun owner who leaves a firearm accessible to someone who is prohibited from possessing firearms (like a person with a felony conviction or an active order of protection) can also face charges. The law applies whether the gun is loaded or unloaded. Storage methods that satisfy NY law include gun safes, lock boxes, trigger locks, cable locks, and gun cabinets that physically prevent access by unauthorized people. The locking method must actually work — a key or combination held only by the owner satisfies the rule, but a hidden key or a code shared with the household generally does not. Biometric safes that open with a fingerprint are increasingly common and provide both security and quick access for legitimate users. Children's involvement is the highest-risk category by far. Studies show that even very young children handle firearms when they find them, and that many parents underestimate where their children find guns at home. The Be SMART program teaches parents to ask about firearm storage in any home where their child plays or visits — a normal question to ask hosts, like asking about food allergies. Cleaning, transporting, and using firearms are exempt from the storage requirement during those activities, but the gun must still be supervised at all times. Storage rules also apply to ammunition; while NY does not require separate ammunition storage, keeping ammunition locked separately from firearms adds a meaningful safety layer."
+    en: "Under New York Penal Law Section 265.45 (safe storage of rifles, shotguns, and firearms), a gun owner who lives with someone under 18 must store the gun in a locked container or with a gun lock that makes it inoperable. This applies to all firearms — handguns, rifles, and shotguns. Failure to safely store a firearm when a child under 18 lives in the home is a Class A misdemeanor. If the child gains access to the gun and causes injury or death, the charges can be more serious. New York also passed the SAFE Act (Secure Ammunition and Firearms Enforcement Act of 2013), which added additional requirements for assault-style weapons and high-capacity magazines. Under the SAFE Act, assault weapons must be registered and stored securely. A gun owner who leaves a firearm accessible to someone who is prohibited from possessing firearms (like a person with a felony conviction or an active order of protection) can also face charges. The law applies whether the gun is loaded or unloaded. Storage methods that satisfy NY law include gun safes, lock boxes, trigger locks, cable locks, and gun cabinets that physically prevent access by unauthorized people. The locking method must actually work — a key or combination held only by the owner satisfies the rule, but a hidden key or a code shared with the household generally does not. Biometric safes that open with a fingerprint are increasingly common and provide both security and quick access for legitimate users. Children's involvement is the highest-risk category by far. Studies show that even very young children handle firearms when they find them, and that many parents underestimate where their children find guns at home. The Be SMART program teaches parents to ask about firearm storage in any home where their child plays or visits — a normal question to ask hosts, like asking about food allergies. Cleaning, transporting, and using firearms are exempt from the storage requirement during those activities, but the gun must still be supervised at all times. Storage rules also apply to ammunition; while NY does not require separate ammunition storage, keeping ammunition locked separately from firearms adds a meaningful safety layer."
   },
 
   yourRights: {
@@ -39,7 +39,7 @@ export const GUN_SAFE_STORAGE_NY = {
 
   legalOptions: {
     en: [
-      "Under Penal Law Section 265.45, failing to safely store a firearm when a child under 16 lives in the home is a Class A misdemeanor punishable by up to one year in jail.",
+      "Under Penal Law Section 265.45, failing to safely store a firearm when a child under 18 lives in the home is a Class A misdemeanor punishable by up to one year in jail.",
       "Gun locks are available for free through many local police departments and sheriff's offices. Contact the Monroe County Sheriff at (585) 753-4178 to ask.",
       "Under the SAFE Act, assault-style weapons must be registered with the NYS Police. Unregistered possession is a felony.",
       "If a firearm is stolen, the owner must report the theft to the police within 24 hours under Penal Law Section 400.10.",
@@ -95,6 +95,7 @@ export const GUN_SAFE_STORAGE_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
