@@ -45,7 +45,7 @@ export const ELECTION_LAW_BALLOT_CHALLENGE_NY = {
     en: [
       "Monroe County Board of Elections at (585) 753-1550 — petition filings and objection intake.",
       "NYS Board of Elections at (518) 474-6220 — state-level filings and statewide candidates.",
-      "Monroe County Supreme Court Clerk at (585) 428-5410 — ELN 16-102 judicial proceedings.",
+      "Monroe County Supreme Court Clerk at (585) 371-3758 — ELN 16-102 judicial proceedings.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — election law attorneys.",
       "NY State Bar Association Election Law Committee — attorney directory.",
       "NYCLU at (212) 607-3300 — election-rights advocacy.",
@@ -63,7 +63,7 @@ export const ELECTION_LAW_BALLOT_CHALLENGE_NY = {
       name: "Monroe County Board of Elections",
       focus: "Petition filings, objection processing, signature review",
       qualifier: "Any Monroe County voter, candidate, or campaign",
-      access: "Phone (585) 753-1550 or at 39 W Main St, Rochester",
+      access: "Phone (585) 753-1550 or at 435 Smith St, Rochester (M-F 9am-5pm)",
       outcome: "BOE review, initial objection determination",
       phone: "(585) 753-1550",
       url: "https://www.monroecounty.gov/elections",
@@ -115,7 +115,8 @@ export const ELECTION_LAW_BALLOT_CHALLENGE_NY = {
     "https://www.nysenate.gov/legislation/laws/ELN/16-110"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
