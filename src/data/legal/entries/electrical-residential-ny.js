@@ -49,7 +49,7 @@ export const ELECTRICAL_RESIDENTIAL_NY = {
       "The NY Department of Labor (dol.ny.gov/wage-theft-hub) takes complaints about unpaid electrical wages.",
       "The NY Attorney General's Labor Bureau investigates patterns of wage theft and misclassification in construction.",
       "An electrician or helper who was not paid can file a mechanic's lien against the property (Lien Law 3 and 10) — 4 months on a single-family home, 8 months on other buildings.",
-      "Small claims court handles disputes up to $5,000 in town or village court and up to $10,000 in city court. No lawyer required.",
+      "Small claims court handles disputes up to $5,000 in Rochester City Court and up to $3,000 in town or village court (NYC only is $10,000). No lawyer required.",
       "The NY Workers' Compensation Board takes injury claims even when the employer failed to carry coverage.",
       "OSHA takes safety complaints, including anonymous ones. Electrical work has specific hazards: shock, arc flash, falls, and confined-space issues.",
       "A consumer who hired a contractor who lied about licensing can sue under General Business Law 349. Remedies include actual damages, up to $1,000 extra, and attorney's fees.",
@@ -136,7 +136,8 @@ export const ELECTRICAL_RESIDENTIAL_NY = {
     "https://dol.ny.gov/wage-theft-hub"
   ],
 
-  lastVerified: "2026-04-22",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
