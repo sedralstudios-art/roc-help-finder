@@ -64,7 +64,7 @@ export const HEAP_UTILITY_ASSISTANCE_NY = {
       qualifier: "Monroe County household meeting HEAP income or categorical eligibility",
       access: "Phone, walk-in, mail, online",
       outcome: "HEAP benefit paid to fuel vendor or utility company",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs-heap",
       verified: true,
       bilingual: true,
@@ -129,6 +129,7 @@ export const HEAP_UTILITY_ASSISTANCE_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "high",
   emergencyFlag: true,
   disclaimer: true,

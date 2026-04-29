@@ -99,6 +99,7 @@ export const HEAT_NOT_WORKING_TENANT_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

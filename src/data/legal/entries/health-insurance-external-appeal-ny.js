@@ -112,6 +112,7 @@ export const HEALTH_INSURANCE_EXTERNAL_APPEAL_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
