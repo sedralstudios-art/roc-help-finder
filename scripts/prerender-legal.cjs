@@ -99,6 +99,30 @@ const CATEGORY_META = {
     desc: 'Building permits, contractor rules, and local ordinances for roofing, plumbing, electrical, and HVAC work — what the rules are where you are.',
     seoKeywords: 'building permit NY, contractor requirements, roofing permit, plumbing permit, electrical permit, HVAC permit, town ordinance, Monroe County permits',
   },
+  education: {
+    icon: '🎓',
+    label: 'School & Education',
+    desc: 'Special education (IEPs, 504 plans), school discipline, suspensions, college aid, FAFSA, student loans — what New York students and families have a right to.',
+    seoKeywords: 'IEP NY, 504 plan, special education rights, school discipline, suspension hearing, FAFSA New York, student loan rights, college financial aid',
+  },
+  government: {
+    icon: '🏛️',
+    label: 'Government & ID',
+    desc: 'Public records (FOIL), voting rights, government IDs, jury duty, agency complaints — how to deal with New York agencies.',
+    seoKeywords: 'FOIL NY, public records request, voting rights New York, government ID, jury duty, NY agency complaint',
+  },
+  health: {
+    icon: '⚕️',
+    label: 'Public Health',
+    desc: 'Vaccinations, environmental health, body autonomy, lead and water safety, public health rules — New York public health law for individuals.',
+    seoKeywords: 'NY public health law, vaccination rights, lead exposure, water safety, environmental health, body autonomy New York',
+  },
+  healthcare: {
+    icon: '🏥',
+    label: 'Hospitals & Insurance',
+    desc: 'ER bills, medical insurance, hospital rights, medical records, surprise billing, EMTALA — your rights as a patient in New York.',
+    seoKeywords: 'EMTALA NY, surprise medical billing, hospital rights, HIPAA medical records, emergency room rights, medical insurance disputes',
+  },
 };
 
 // ── Helpers ──

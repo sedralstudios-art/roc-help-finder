@@ -239,6 +239,26 @@ export const CATEGORY_META = {
     label: "Home Projects & Permits",
     desc: "Building permits, contractor rules, and local ordinances for roofing, plumbing, electrical, and HVAC work.",
   },
+  education: {
+    icon: "🎓",
+    label: "School & Education",
+    desc: "Special education (IEPs, 504 plans), school discipline, suspensions, college aid, FAFSA, student loans.",
+  },
+  government: {
+    icon: "🏛️",
+    label: "Government & ID",
+    desc: "Public records (FOIL), voting rights, government IDs, jury duty, agency complaints.",
+  },
+  health: {
+    icon: "⚕️",
+    label: "Public Health",
+    desc: "Vaccinations, environmental health, body autonomy, lead and water safety, public health rules.",
+  },
+  healthcare: {
+    icon: "🏥",
+    label: "Hospitals & Insurance",
+    desc: "ER bills, medical insurance, hospital rights, medical records, surprise billing, EMTALA.",
+  },
 };
 
 function pickText(field, lang) {
