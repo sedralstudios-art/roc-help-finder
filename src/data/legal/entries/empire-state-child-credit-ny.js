@@ -7,10 +7,10 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
   primaryStatute: "NY TAX 606",
   status: "active",
 
-  title: { en: "NY Empire State Child Credit — Refundable Tax Credit Up to 330 Per Child" },
+  title: { en: "NY Empire State Child Credit — Refundable Tax Credit Up to 1,000 Per Young Child" },
 
   summary: {
-    en: "The Empire State Child Credit is a refundable NY state tax credit of up to 330 dollars per qualifying child under 17 for tax year 2026, with the full amount available for families earning under 110,000 dollars. A 2023 expansion included children under 4 for the first time. The credit is claimed on NY Form IT-213 filed with the NY state tax return."
+    en: "The Empire State Child Credit is a refundable NY state tax credit. Under the 2025 NY budget expansion, the credit is up to 1,000 dollars per qualifying child under age 4 and up to 330 dollars per child ages 4-16 for tax year 2025 (filed in 2026); for tax year 2026 (filed in 2027) the older-child amount rises to 500 dollars. Full credit is available for families earning under 110,000 dollars (joint) or 75,000 dollars (single/HoH). The credit is claimed on NY Form IT-213 filed with the NY state tax return."
   },
 
   whoQualifies: {
@@ -24,7 +24,7 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
   },
 
   whatItMeans: {
-    en: "New York Tax Law Section 606(c-1) establishes the Empire State Child Credit, a refundable state tax credit for families with qualifying children under 17. For tax year 2026, the credit is the greater of (a) 33 percent of the federal Child Tax Credit claimed on the federal return or (b) 100 dollars per qualifying child, up to a maximum of 330 dollars per child. A qualifying child is a son, daughter, stepchild, foster child, sibling, step-sibling, or descendant of any of these, under age 17 at the end of the tax year, who lived with the filer for more than half the year and whom the filer claims as a dependent. A 2023 expansion (effective tax year 2023 and forward) added children under age 4 to the program — previously those youngest children had been excluded, which was a gap the state legislature closed. Now children from newborn through age 16 qualify. Income phase-out begins at modified NY adjusted gross income of 110,000 dollars for married filing jointly (55,000 for married separately, 75,000 for single/head of household). For every 1,000 dollars above the threshold, the credit is reduced by 50 dollars per child. The credit fully phases out at approximately 130,000 dollars joint / 95,000 single. The credit is refundable — a family with no NY tax liability still gets the credit as a refund via NY State. A family with NY tax liability of 400 dollars and Empire State Child Credit of 660 dollars (2 children at 330 each) has the 400 dollars of liability zeroed out and receives a 260 dollar refund check. Claiming the credit: file a NY state tax return (Form IT-201) with Form IT-213 (Empire State Child Credit) attached, identifying each qualifying child by name and SSN. The family must also file a federal tax return listing the children as dependents with SSNs. A family that did not file federal taxes (for example, income below filing threshold) must still file a federal return to claim the children and their SSNs before the Empire State Child Credit can be claimed on the NY return. The Empire State Child Credit stacks with the federal Child Tax Credit (IRC 24) and the federal Additional Child Tax Credit. A family of 2 adults and 3 children at 60,000 dollars AGI typically receives approximately 6,000 dollars in combined federal Child Tax Credit plus about 990 dollars in Empire State Child Credit. Common filing issues include missing SSNs for children (ITINs do not qualify for Empire State Child Credit), newborn children not yet having SSN at filing time (filers can delay filing to get the SSN), and shared-custody situations where the non-custodial parent claims the child (credit goes to whoever the IRS recognizes as the custodial parent or the parent the divorce decree specifies). For free help filing NY taxes including the Empire State Child Credit, Volunteer Income Tax Assistance (VITA) sites operate across Monroe County during tax season. Also the NY State Department of Taxation and Finance operates a free online filing system for low-income households. The 2025 expansion under the NY budget added a second tier of benefit — families at lower income levels now qualify for a supplemental payment on top of the standard credit, administered as a separate outreach check outside the tax return."
+    en: "New York Tax Law Section 606(c-1) establishes the Empire State Child Credit, a refundable state tax credit for families with qualifying children under 17. The 2025 NY budget restructured the credit by age tier. For tax year 2025 (returns filed in 2026): up to 1,000 dollars per qualifying child under age 4, and up to 330 dollars per child ages 4 through 16. For tax year 2026 (returns filed in 2027): up to 1,000 dollars per child under age 4, and up to 500 dollars per child ages 4 through 16. A qualifying child is a son, daughter, stepchild, foster child, sibling, step-sibling, or descendant of any of these, under age 17 at the end of the tax year, who lived with the filer for more than half the year and whom the filer claims as a dependent. A 2023 expansion (effective tax year 2023 and forward) added children under age 4 to the program — previously those youngest children had been excluded, which was a gap the state legislature closed. Now children from newborn through age 16 qualify. Income phase-out begins at modified NY adjusted gross income of 110,000 dollars for married filing jointly (55,000 for married separately, 75,000 for single/head of household). For every 1,000 dollars above the threshold, the credit is reduced by 50 dollars per child. The credit fully phases out at approximately 130,000 dollars joint / 95,000 single. The credit is refundable — a family with no NY tax liability still gets the credit as a refund via NY State. A family with NY tax liability of 400 dollars and Empire State Child Credit of 660 dollars (2 children at 330 each) has the 400 dollars of liability zeroed out and receives a 260 dollar refund check. Claiming the credit: file a NY state tax return (Form IT-201) with Form IT-213 (Empire State Child Credit) attached, identifying each qualifying child by name and SSN. The family must also file a federal tax return listing the children as dependents with SSNs. A family that did not file federal taxes (for example, income below filing threshold) must still file a federal return to claim the children and their SSNs before the Empire State Child Credit can be claimed on the NY return. The Empire State Child Credit stacks with the federal Child Tax Credit (IRC 24) and the federal Additional Child Tax Credit. A family of 2 adults and 3 children at 60,000 dollars AGI typically receives approximately 6,000 dollars in combined federal Child Tax Credit plus about 990 dollars in Empire State Child Credit. Common filing issues include missing SSNs for children (ITINs do not qualify for Empire State Child Credit), newborn children not yet having SSN at filing time (filers can delay filing to get the SSN), and shared-custody situations where the non-custodial parent claims the child (credit goes to whoever the IRS recognizes as the custodial parent or the parent the divorce decree specifies). For free help filing NY taxes including the Empire State Child Credit, Volunteer Income Tax Assistance (VITA) sites operate across Monroe County during tax season. Also the NY State Department of Taxation and Finance operates a free online filing system for low-income households. The 2025 expansion under the NY budget added a second tier of benefit — families at lower income levels now qualify for a supplemental payment on top of the standard credit, administered as a separate outreach check outside the tax return."
   },
 
   yourRights: {
@@ -39,8 +39,8 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
 
   legalOptions: {
     en: [
-      "NY State Department of Taxation and Finance at (518) 457-5431 handles Empire State Child Credit questions.",
-      "For free tax help, VITA sites in Monroe County — search for VITA Rochester or call 211 at (585) 442-0220.",
+      "NY State Department of Taxation and Finance at (518) 457-5181 handles Empire State Child Credit questions.",
+      "For free tax help, VITA sites in Monroe County — search for VITA Rochester or call 211 at (585) 275-5151.",
       "IRS at (800) 829-1040 handles federal Child Tax Credit questions.",
       "Monroe County Department of Human Services at (585) 753-6960 can refer low-income families to tax help.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles tax-related legal issues for low-income filers.",
@@ -60,7 +60,7 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
       qualifier: "Any NY tax filer",
       access: "Phone, website forms, free online filing",
       outcome: "Form clarification, filing support, refund processing",
-      phone: "(518) 457-5431",
+      phone: "(518) 457-5181",
       url: "https://www.tax.ny.gov/pit/credits/empire_state_child_credit.htm",
       verified: true,
       bilingual: true,
@@ -73,7 +73,7 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
       qualifier: "Household income under approximately 67,000 dollars",
       access: "Phone 211 or search VITA Rochester, seasonal appointments",
       outcome: "Free federal and NY tax preparation",
-      phone: "(585) 442-0220",
+      phone: "(585) 275-5151",
       url: "https://www.211rochester.org",
       verified: true,
       bilingual: true,
@@ -109,7 +109,8 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
     "https://www.tax.ny.gov/pit/credits/empire_state_child_credit.htm"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
