@@ -218,6 +218,11 @@ const FABRICATIONS = [
     cooccur: /gift\s+card|gift\s+certificate/i,
     label: 'GOL 5-702 miscited as gift card law',
     fix: 'GOL 5-702 is the Plain English consumer contracts statute; the gift card law is GBL § 396-i (9-year minimum since 2022 amendment, no dormancy/service/inactivity fees, $5 cash-back rule)' },
+
+  { pat: /\b(?:Elder\s+Law|ELD)\s+§?\s*224\b/i,
+    cooccur: /financial\s+exploitation|elder\s+abuse|vulnerable\s+adult|elder\s+fraud/i,
+    label: 'Elder Law 224 miscited as financial exploitation statute',
+    fix: 'NY Elder Law has no § 224 covering financial exploitation; the criminal statute is NY Penal Law § 260.32 (Endangering the welfare of a vulnerable elderly person, class E felony) plus Penal Law § 190.65 (Scheme to defraud 1st degree) and PEN Article 155 grand larceny degrees scaled by value' },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.
