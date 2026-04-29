@@ -141,7 +141,8 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
     "https://otda.ny.gov/programs/temporary-assistance/"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: true,
   disclaimer: true,
