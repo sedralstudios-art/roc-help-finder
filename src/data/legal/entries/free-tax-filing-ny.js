@@ -48,7 +48,7 @@ export const FREE_TAX_FILING_NY = {
   },
 
   example: {
-    en: "A single mother in Rochester earns $28,000 per year and has two children. She has never filed taxes because she assumed she does not owe anything. A neighbor tells her about VITA. She visits a VITA site at the library with her W-2, her children's Social Security numbers, and her ID. The volunteer prepares her return and discovers she qualifies for the federal EITC ($5,800), the NY State EITC ($1,740), and the Child Tax Credit ($3,600). Her total refund is over $11,000. She had no idea."
+    en: "A single mother in Rochester earns $28,000 per year and has two children. She has never filed taxes because she assumed she does not owe anything. A neighbor tells her about VITA. She visits a VITA site at the library with her W-2, her children's Social Security numbers, and her ID. The volunteer prepares her return and discovers she qualifies for the federal EITC, the NY State EITC (a 30 percent piggyback on the federal credit), and the Child Tax Credit (up to $2,200 per child for 2025, refundable up to $1,700 per child under OBBBA). Her total refund runs into the thousands of dollars. She had no idea she qualified."
   },
 
   counsel: [
@@ -98,6 +98,7 @@ export const FREE_TAX_FILING_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

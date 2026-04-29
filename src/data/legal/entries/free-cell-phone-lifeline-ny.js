@@ -98,6 +98,7 @@ export const FREE_CELL_PHONE_LIFELINE_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
