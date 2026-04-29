@@ -213,6 +213,11 @@ const FABRICATIONS = [
     cooccur: /Good\s+Cause\s+Eviction/i,
     label: 'RPL 226-c miscited as Good Cause Eviction Law',
     fix: 'Good Cause Eviction is RPL Article 6-A (sections 210-218); RPL 226-c is the separate notice-of-rent-increase / non-renewal statute (30/60/90-day notice scaled to tenancy length)' },
+
+  { pat: /\b(?:GOL|GOB)\s+§?\s*5-702\b/i,
+    cooccur: /gift\s+card|gift\s+certificate/i,
+    label: 'GOL 5-702 miscited as gift card law',
+    fix: 'GOL 5-702 is the Plain English consumer contracts statute; the gift card law is GBL § 396-i (9-year minimum since 2022 amendment, no dormancy/service/inactivity fees, $5 cash-back rule)' },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.
