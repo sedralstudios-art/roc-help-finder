@@ -43,7 +43,7 @@ export const POWER_OF_ATTORNEY_ABUSE_NY = {
       "Suspected financial exploitation can be reported to Monroe County Adult Protective Services at (585) 753-6532.",
       "A police report can be filed if money has been stolen. POA abuse that involves theft is larceny under Penal Law § 155.",
       "If the principal lacks capacity, a guardianship petition (Article 81) can be filed in Supreme Court to revoke the POA and protect the person's assets.",
-      "Free legal help for POA abuse and elder exploitation is available through Legal Aid Society of Rochester at (585) 232-4090 and Eldersource at (585) 325-2800."
+      "Free legal help for POA abuse and elder exploitation is available through Legal Aid Society of Rochester at (585) 232-4090 and Eldersource at (585) 244-8400."
     ]
   },
 

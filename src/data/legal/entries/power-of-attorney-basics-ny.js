@@ -41,7 +41,7 @@ export const POWER_OF_ATTORNEY_BASICS_NY = {
     en: [
       "The NY statutory short form POA is available free at nycourts.gov/courthelp or from an attorney.",
       "Free legal help with POAs is available through Legal Aid Society of Rochester at (585) 232-4090 and JustCause at (585) 232-3051.",
-      "Eldersource (Lifespan) provides elder planning assistance including POA guidance: (585) 325-2800.",
+      "Eldersource (Lifespan) provides elder planning assistance including POA guidance: (585) 244-8400.",
       "If a bank refuses to honor a valid POA, the agent can bring a special proceeding under GOL § 5-1504 to compel acceptance.",
       "If the agent is suspected of abusing the POA (stealing money, self-dealing), a petition can be filed in court to remove the agent and appoint a new one — or to petition for a guardianship."
     ]

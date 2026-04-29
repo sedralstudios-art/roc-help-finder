@@ -42,7 +42,7 @@ export const PROPERTY_TAX_SALE_NY = {
       "If a tax foreclosure notice has been received, acting before the redemption deadline is critical. The full amount owed (taxes, interest, penalties, and fees) must be paid to stop the proceeding.",
       "Free legal help for homeowners facing tax foreclosure is available through Legal Aid Society of Rochester at (585) 232-4090 and through Empire Justice Center at (585) 454-4060.",
       "The Monroe County Real Property Tax office at (585) 753-1220 handles exemption applications (STAR, senior, disability, veteran).",
-      "For seniors struggling with property taxes, Eldersource (Lifespan) at (585) 325-2800 can help navigate exemption programs and connect with financial counseling.",
+      "For seniors struggling with property taxes, Eldersource (Lifespan) at (585) 244-8400 can help navigate exemption programs and connect with financial counseling.",
       "JustCause at (585) 232-3051 also assists with tax foreclosure defense for eligible residents."
     ]
   },

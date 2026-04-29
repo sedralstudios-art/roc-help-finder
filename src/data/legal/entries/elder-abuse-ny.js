@@ -41,7 +41,7 @@ export const ELDER_ABUSE_NY = {
     en: [
       "Monroe County Adult Protective Services can be reached at (585) 753-6532 during business hours. After hours, the statewide APS hotline is available.",
       "For emergencies (physical danger), calling 911 is appropriate.",
-      "Eldersource (Lifespan) at (585) 325-2800 provides advocacy, case management, and elder law referrals for Monroe County seniors.",
+      "Eldersource (Lifespan) at (585) 244-8400 provides advocacy, case management, and elder law referrals for Monroe County seniors.",
       "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090, which handles elder law cases including financial exploitation and orders of protection.",
       "A family offense petition for an order of protection can be filed in Family Court if the abuser is a family or household member.",
       "The NY Attorney General's Medicaid Fraud Control Unit investigates abuse in nursing homes and adult care facilities at (800) 771-7755."
