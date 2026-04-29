@@ -115,7 +115,8 @@ export const DOOR_TO_DOOR_SALES_COOLING_OFF_NY = {
     "https://www.nysenate.gov/legislation/laws/GBS/349-C"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
