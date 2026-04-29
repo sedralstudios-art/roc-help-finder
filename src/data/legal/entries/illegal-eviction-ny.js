@@ -42,7 +42,7 @@ export const ILLEGAL_EVICTION_NY = {
   legalOptions: {
     en: [
       "Local police non-emergency line — Rochester (585) 428-6666, Monroe County Sheriff (585) 753-4178 — for illegal-lockout response and restoration with occupancy proof.",
-      "Rochester City Court Civil Part at (585) 428-6990 — hears RPA § 713(10) restoration petitions and § 853 damages actions for properties inside Rochester.",
+      "Rochester City Court Civil Part at (585) 371-3412 — hears RPA § 713(10) restoration petitions and § 853 damages actions for properties inside Rochester.",
       "Monroe County town and village justice courts — each handles restoration petitions within jurisdiction.",
       "NY Attorney General illegal-eviction guidance at ag.ny.gov/resources/government-organizations/law-enforcement-guidance/unlawful-evictions — shareable with responding officers.",
       "Legal Aid Society of Rochester at (585) 232-4090 — emergency representation in illegal-eviction cases including restoration and damages.",

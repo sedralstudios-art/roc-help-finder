@@ -49,7 +49,7 @@ export const SHOPLIFTING_CIVIL_RECOVERY_NY = {
       "NY Attorney General Consumer Frauds at (800) 771-7755 — if demand firm tactics are abusive.",
       "Consumer Financial Protection Bureau at (855) 411-2372 — if demand is pursued by a debt collector.",
       "Federal Trade Commission at (877) 382-4357 — deceptive collection practices.",
-      "Rochester City Court Small Claims at (585) 428-6650 — counterclaim if sued.",
+      "Rochester City Court Small Claims at (585) 371-3412 — counterclaim if sued.",
       "NY State Office of Indigent Legal Services — court-assigned counsel on criminal cases."
     ]
   },

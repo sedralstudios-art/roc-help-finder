@@ -42,7 +42,7 @@ export const SECURITY_DEPOSIT_NY = {
 
   legalOptions: {
     en: [
-      "Rochester City Court Small Claims Part at (585) 428-6990 — claims up to $5,000 for Rochester residents and for disputes involving Rochester properties.",
+      "Rochester City Court Small Claims Part at (585) 371-3412 — claims up to $5,000 for Rochester residents and for disputes involving Rochester properties.",
       "Monroe County town and village justice courts — claims up to $3,000 for disputes in unincorporated areas.",
       "NY Attorney General Tenant Assistance at ag.ny.gov/resources/individuals/tenants-homeowners — guidance on security-deposit rights and complaint intake.",
       "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 — complaints against landlords with repeated GOB § 7-108 violations.",

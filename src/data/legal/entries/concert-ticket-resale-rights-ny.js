@@ -47,7 +47,7 @@ export const CONCERT_TICKET_RESALE_RIGHTS_NY = {
       "NY Attorney General Arts Division at (212) 416-8035.",
       "Federal Trade Commission Consumer Response at (877) 382-4357 — BOTS Act violations.",
       "Monroe County Department of Public Safety (consumer fraud) at (585) 753-3014.",
-      "Rochester City Court Small Claims at (585) 428-6650 — refund disputes up to $5,000.",
+      "Rochester City Court Small Claims at (585) 371-3412 — refund disputes up to $5,000.",
       "Better Business Bureau Upstate NY at (716) 881-5222 — platform mediation.",
       "Consumer Financial Protection Bureau at (855) 411-2372 — if payment processing is involved.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income consumer disputes."

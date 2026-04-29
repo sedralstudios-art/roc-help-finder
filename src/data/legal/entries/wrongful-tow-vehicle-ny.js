@@ -42,7 +42,7 @@ export const WRONGFUL_TOW_VEHICLE_NY = {
     en: [
       "NY Department of State Division of Consumer Protection at (800) 697-1220 or dos.ny.gov/consumer-protection — handles private-tow complaints outside NYC.",
       "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 or ag.ny.gov/consumer-frauds — investigates patterns of predatory towing.",
-      "Local small-claims court in the town or city where the tow happened — Rochester City Court Civil Part at (585) 428-6990 handles claims under $5,000 within city limits; Monroe County town and village justice courts handle claims under $3,000.",
+      "Local small-claims court in the town or city where the tow happened — Rochester City Court Civil Part at (585) 371-3412 handles claims under $5,000 within city limits; Monroe County town and village justice courts handle claims under $3,000.",
       "Police non-emergency line — 311 in Rochester, Monroe County Sheriff at (585) 753-4178 elsewhere — if the tow appears to be an unauthorized taking of a vehicle.",
       "Legal Aid Society of Rochester at (585) 232-4090 for low-income Monroe County residents facing a costly wrongful tow.",
       "Monroe County Bar Association Lawyer Referral Service at (585) 546-2130 for private-attorney consultation.",

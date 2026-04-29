@@ -44,7 +44,7 @@ export const JUDGMENT_ENFORCEMENT_CPLR_52_NY = {
   legalOptions: {
     en: [
       "Monroe County Sheriff Civil Bureau at (585) 753-4177 — execution on sheriff-seized property.",
-      "Rochester City Court Enforcement Officer at (585) 428-6650 — city court judgments.",
+      "Rochester City Court Enforcement Officer at (585) 371-3412 — city court judgments.",
       "Legal Aid Society of Rochester at (585) 232-4090 — exemption claims and collection defense.",
       "Empire Justice Center at (585) 454-4060 — complex exemption litigation.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — judgment collection attorneys.",

@@ -46,7 +46,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
       "Monroe County Public Defender at (585) 753-4210 — indigent criminal defense from arraignment through disposition.",
       "Monroe County 18-B Assigned Counsel Program — covers conflict cases where the Public Defender cannot represent.",
       "NY Civil Liberties Union (NYCLU) at nyclu.org — information on rights during police encounters and complaint intake on police misconduct.",
-      "Rochester City Court arraignment part at (585) 428-6990 — handles Rochester-city misdemeanor arraignments.",
+      "Rochester City Court arraignment part at (585) 371-3413 — handles Rochester-city misdemeanor arraignments.",
       "Monroe County Court — felony arraignments on indictment.",
       "NY Court Help at nycourts.gov/courthelp — plain-language guides to criminal procedure.",
       "Legal Aid Society of Rochester at (585) 232-4090 — collateral civil-consequences representation (housing, employment, benefits) arising from an arrest or conviction.",

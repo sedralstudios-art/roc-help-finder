@@ -41,7 +41,7 @@ export const RENT_WITHHOLDING_REPAIR_DEDUCT_NY = {
 
   legalOptions: {
     en: [
-      "Rochester City Court Housing Part at (585) 428-6990 handles HP actions for City of Rochester addresses.",
+      "Rochester City Court Housing Part at (585) 371-3412 handles HP actions for City of Rochester addresses.",
       "Monroe County town justice courts handle HP actions for each town.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income tenants in housing court.",
       "Empire Justice Center at (585) 454-4060 handles major warranty-of-habitability cases.",

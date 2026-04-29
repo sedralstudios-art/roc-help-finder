@@ -46,7 +46,7 @@ export const ILLEGAL_LOCKOUT_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 — emergency intake for restoration petitions, can file within 24 hours.",
       "LawNY at (585) 325-2520 — emergency representation in 14-county Western NY service area.",
       "JustCause at (585) 232-3051 — volunteer-attorney program for Monroe County illegal lockouts.",
-      "Rochester City Court Civil Part at (585) 428-6990 or Monroe County town/village justice courts — accept restoration petitions under RPA § 713(10).",
+      "Rochester City Court Civil Part at (585) 371-3412 or Monroe County town/village justice courts — accept restoration petitions under RPA § 713(10).",
       "NY Attorney General illegal-eviction law-enforcement guidance at ag.ny.gov/resources/government-organizations/law-enforcement-guidance/unlawful-evictions — shareable document for responding officers.",
       "NY Attorney General Residential Tenants' Rights Guide at ag.ny.gov/publications/residential-tenants-rights-guide — broader tenant-rights overview."
     ]
