@@ -42,7 +42,7 @@ export const EMOTIONAL_SUPPORT_ANIMAL_HOUSING_NY = {
       "Request the accommodation in writing, attaching documentation from a licensed medical provider. An adequate letter describes that the tenant has a disability and that the animal provides disability-related support (no specific diagnosis required).",
       "If the landlord refuses or delays, file a complaint with HUD at (800) 669-9777 or the NYS Division of Human Rights at (888) 392-3644.",
       "NY Human Rights Law (Executive Law Section 296) provides parallel state protections and allows damages.",
-      "Fair Housing Enforcement Project of Monroe County at (585) 325-2500 handles ESA disputes.",
+      "Fair Housing Enforcement Project at LawNY at (866) 671-3247 handles ESA disputes and other fair-housing accommodation denials.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles housing discrimination for low-income tenants.",
       "For the documentation letter, the licensed provider does not have to specify diagnosis. A brief letter confirming disability and animal-related benefit is sufficient."
     ]
@@ -68,13 +68,13 @@ export const EMOTIONAL_SUPPORT_ANIMAL_HOUSING_NY = {
     },
     {
       type: "free",
-      name: "Fair Housing Enforcement Project of Monroe County",
-      focus: "Fair housing testing, ESA disputes, accommodation denials",
-      qualifier: "Monroe County renters and applicants",
-      access: "Phone at (585) 325-2500",
+      name: "Fair Housing Enforcement Project (operated by LawNY)",
+      focus: "Fair housing testing, ESA disputes, accommodation denials, FHA litigation",
+      qualifier: "Monroe County and Western NY renters and applicants",
+      access: "Phone at (866) 671-3247",
       outcome: "Investigation, advocacy, referrals to legal representation",
-      phone: "(585) 325-2500",
-      url: "https://www.housingcouncil.org",
+      phone: "(866) 671-3247",
+      url: "https://www.lawny.org/FairHousing",
       verified: true,
       bilingual: true,
       languages: ["es"]
@@ -109,7 +109,8 @@ export const EMOTIONAL_SUPPORT_ANIMAL_HOUSING_NY = {
     "https://www.hud.gov/sites/dfiles/PA/documents/HUDAsstAnimalNC1-28-2020.pdf"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
