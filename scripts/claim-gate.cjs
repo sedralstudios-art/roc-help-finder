@@ -251,6 +251,7 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-371-3553', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
   { num: '585-428-2480', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
   { num: '585-428-5429', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
+  { num: '585-371-3548', label: 'Monroe County Family Court (wrong extension)', fix: 'use (585) 371-3544 (verified at nycourts.gov 4/2026)' },
   // Monroe DHS old main line — context-aware so the program-specific lines aren't false-positives
   { num: '585-753-6960', label: 'Monroe County DHS / DSS (old main number)',   fix: 'use (585) 753-6998 for DHS general, (585) 753-6316 for Child Care', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Department\s+of)/i },
   // LawNY Rochester — the 295-5700 number was incorrect; correct is 325-2520

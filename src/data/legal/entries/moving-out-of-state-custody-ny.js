@@ -40,7 +40,7 @@ export const MOVING_OUT_OF_STATE_CUSTODY_NY = {
   legalOptions: {
     en: [
       "Before moving, the custodial parent should attempt to reach an agreement with the other parent. If both parents agree, the agreement can be filed with the court as a modification.",
-      "If the other parent objects, a petition for permission to relocate must be filed in Family Court. Monroe County Family Court: (585) 371-3548.",
+      "If the other parent objects, a petition for permission to relocate must be filed in Family Court. Monroe County Family Court: (585) 371-3544.",
       "Free legal help with relocation and custody modification is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The court will schedule a hearing and may appoint an attorney for the child (Law Guardian) to represent the child's interests.",
       "Do not move before getting permission — moving without consent or a court order can severely damage the parent's custody position."

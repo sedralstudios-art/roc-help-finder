@@ -39,7 +39,7 @@ export const VISITATION_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "If visitation is being denied, filing a violation petition in Family Court is the most direct remedy. Monroe County Family Court: (585) 371-3548.",
+      "If visitation is being denied, filing a violation petition in Family Court is the most direct remedy. Monroe County Family Court: (585) 371-3544.",
       "If no court order exists, filing a petition to establish visitation gives both parents a clear, enforceable schedule.",
       "Documenting every denied or interfered-with visit — dates, times, communications — is essential evidence.",
       "Free legal help with visitation issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
@@ -59,7 +59,7 @@ export const VISITATION_RIGHTS_NY = {
       qualifier: "Monroe County residents",
       access: "In person or phone",
       outcome: "Court orders, enforcement, modification",
-      phone: "(585) 371-3548",
+      phone: "(585) 371-3544",
       url: "https://ww2.nycourts.gov/courts/7jd/monroe/family/index.shtml",
       verified: true,
       bilingual: false,

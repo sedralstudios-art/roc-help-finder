@@ -39,7 +39,7 @@ export const GRANDPARENT_KINSHIP_CUSTODY_NY = {
 
   legalOptions: {
     en: [
-      "Custody petitions are filed in Monroe County Family Court at (585) 371-3548. The petition forms are available from the court clerk or at nycourts.gov/courthelp.",
+      "Custody petitions are filed in Monroe County Family Court at (585) 371-3544. The petition forms are available from the court clerk or at nycourts.gov/courthelp.",
       "For kinship foster care, contact Monroe County DHS at (585) 753-6295 — the relative becomes a certified foster parent and receives support.",
       "Free legal help with kinship custody is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The Kinship Navigator at Catholic Family Center provides support and referrals for relative caregivers: (585) 262-7078.",
@@ -72,7 +72,7 @@ export const GRANDPARENT_KINSHIP_CUSTODY_NY = {
       qualifier: "Monroe County residents",
       access: "In person or phone",
       outcome: "Filing custody petitions, court hearings",
-      phone: "(585) 371-3548",
+      phone: "(585) 371-3544",
       url: "https://ww2.nycourts.gov/courts/7jd/monroe/family/index.shtml",
       verified: true,
       bilingual: false,
@@ -111,6 +111,7 @@ export const GRANDPARENT_KINSHIP_CUSTODY_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

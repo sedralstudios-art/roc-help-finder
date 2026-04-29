@@ -42,7 +42,7 @@ export const HARASSMENT_CYBERSTALKING_NY = {
     en: [
       "Reporting the harassment to the police creates an official record. In Rochester, the non-emergency line is (585) 428-7033. For emergencies, call 911.",
       "Documenting every incident — saving texts, screenshots, emails, voicemails, and noting dates and times — is critical evidence.",
-      "An order of protection can be requested through criminal court (if charges are filed) or through Family Court (for family/household members). Monroe County Family Court: (585) 371-3548.",
+      "An order of protection can be requested through criminal court (if charges are filed) or through Family Court (for family/household members). Monroe County Family Court: (585) 371-3544.",
       "For cyberstalking and online harassment, the Cyber Civil Rights Initiative provides resources at cybercivilrights.org.",
       "Free legal help with harassment and orders of protection is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "Willow Domestic Violence Center provides safety planning and advocacy for victims of harassment by intimate partners: 24-hour hotline (585) 222-7233."
@@ -61,7 +61,7 @@ export const HARASSMENT_CYBERSTALKING_NY = {
       qualifier: "Family or household members in Monroe County",
       access: "In person or phone",
       outcome: "Order of protection without criminal charges",
-      phone: "(585) 371-3548",
+      phone: "(585) 371-3544",
       url: "https://ww2.nycourts.gov/courts/7jd/monroe/family/index.shtml",
       verified: true,
       bilingual: false,
