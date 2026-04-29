@@ -41,7 +41,7 @@ export const MEDICAID_SPEND_DOWN_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — accepts spend-down applications, bill submissions, and Pay-In payments.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — accepts spend-down applications, bill submissions, and Pay-In payments.",
       "NY Medicaid Helpline at (800) 541-2831 — current income and resource limits, general spend-down information.",
       "NY Department of Health Medicaid Excess Income page at health.ny.gov/health_care/medicaid/excess_income.htm.",
       "NY Fair Hearing request line at (800) 342-3334 or otda.ny.gov/hearings/request — for denials or incorrect excess-income calculations.",

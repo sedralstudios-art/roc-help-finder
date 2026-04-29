@@ -40,7 +40,7 @@ export const SECTION_8_PORTABILITY_NY_PROGRAM = {
   legalOptions: {
     en: [
       "Rochester Housing Authority (RHA) administers most Monroe County vouchers at (585) 697-6300.",
-      "Monroe County Department of Human Services also administers vouchers at (585) 753-6960.",
+      "Monroe County Department of Human Services also administers vouchers at (585) 753-6998.",
       "To start portability: send a written request to the current PHA. Include the destination city and state if known.",
       "The U.S. Department of Housing and Urban Development (HUD) Buffalo Field Office oversees PHAs in western NY — contact for complaints at (716) 551-5755.",
       "Free legal help with Section 8 issues is available through Legal Aid Society of Rochester at (585) 232-4090.",

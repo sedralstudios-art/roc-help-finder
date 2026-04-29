@@ -44,7 +44,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
       "NY Office of Temporary and Disability Assistance Fair Hearing request line at (800) 342-3334 — phone requests are logged by date and time.",
       "OTDA online hearing request form at otda.ny.gov/hearings/request — supports notice upload.",
       "Mail requests to NYS OTDA, P.O. Box 1930, Albany, NY 12201, or fax to (518) 473-6735.",
-      "Monroe County Department of Human Services at (585) 753-6960 — the district whose decision is being appealed; also handles pre-hearing conferences.",
+      "Monroe County Department of Human Services at (585) 753-6998 — the district whose decision is being appealed; also handles pre-hearing conferences.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income Monroe County households at fair hearings.",
       "LawNY at (585) 325-2520 handles benefits appeals across the 14-county Western NY service area including Monroe.",
       "Empire Justice Center at (585) 454-4060 takes complex and impact-level benefits cases statewide."

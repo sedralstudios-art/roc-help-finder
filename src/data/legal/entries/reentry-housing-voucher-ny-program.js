@@ -39,7 +39,7 @@ export const REENTRY_HOUSING_VOUCHER_NY_PROGRAM = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 — starting point for housing assistance after release.",
+      "Monroe County Department of Human Services at (585) 753-6998 — starting point for housing assistance after release.",
       "Rochester Housing Authority at (585) 697-6300 — Section 8 voucher applications and Second Chance program information.",
       "The Center for Community Alternatives at (585) 454-2590 — reentry services including housing navigation.",
       "Action for a Better Community (ABC) at (585) 325-5116 — emergency services and reentry support.",

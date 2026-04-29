@@ -40,7 +40,7 @@ export const STOLEN_EBT_SNAP_REPLACEMENT_NY = {
   legalOptions: {
     en: [
       "EBT customer service at 1-888-328-6399 (back of NY EBT card) handles immediate card deactivation and replacement.",
-      "Monroe County Department of Human Services at (585) 753-6960 processes theft replacement claims.",
+      "Monroe County Department of Human Services at (585) 753-6998 processes theft replacement claims.",
       "Online transaction history at connectebt.com with account lock/unlock features.",
       "For denied claims, Fair Hearing request through NYS OTDA at 1-800-342-3334.",
       "Legal Aid Society of Rochester at (585) 232-4090 and Empire Justice Center at (585) 454-4060 represent households at Fair Hearings.",

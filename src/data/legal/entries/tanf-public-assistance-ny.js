@@ -42,7 +42,7 @@ export const TANF_PUBLIC_ASSISTANCE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — Temporary Assistance applications and emergency-assistance intake.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — Temporary Assistance applications and emergency-assistance intake.",
       "Every county DSS in NY accepts Temporary Assistance applications under NY SSL § 158.",
       "mybenefits.ny.gov — online application for Temporary Assistance, SNAP, and Medicaid for NY residents outside NYC.",
       "Statewide public-assistance information line at 1-800-342-3009.",

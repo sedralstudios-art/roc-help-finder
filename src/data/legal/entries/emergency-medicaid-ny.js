@@ -37,7 +37,7 @@ export const EMERGENCY_MEDICAID_NY = {
 
   legalOptions: {
     en: [
-      "Applications for Emergency Medicaid are filed at Monroe County DSS at (585) 753-6960 or online at mybenefits.ny.gov. The hospital's financial counselor can often help with the application.",
+      "Applications for Emergency Medicaid are filed at Monroe County DSS at (585) 753-6998 or online at mybenefits.ny.gov. The hospital's financial counselor can often help with the application.",
       "The hospital must document the emergency condition on the application. Hospitals that treat Medicaid-eligible patients have an incentive to help with the paperwork because Medicaid pays the bill.",
       "For retroactive coverage of past emergency bills, the application should note the dates of service. Coverage can go back up to 3 months.",
       "Free legal help with Emergency Medicaid applications and denials is available through Legal Aid Society of Rochester at (585) 232-4090.",

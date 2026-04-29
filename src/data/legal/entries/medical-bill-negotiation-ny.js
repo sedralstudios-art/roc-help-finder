@@ -42,7 +42,7 @@ export const MEDICAL_BILL_NEGOTIATION_NY = {
       "Requesting an itemized bill is the first step. Compare each line item against what was actually received. Billing errors — duplicate charges, charges for services not rendered — are common.",
       "Asking the billing department about financial assistance or charity care programs is recommended. The hospital's financial counselor can walk through the application process.",
       "If the bill has been sent to collections, the debt collector must still validate the debt. A dispute can be filed under the FDCPA.",
-      "For Medicaid-eligible patients who were uninsured at the time of service, Medicaid applications can be filed with retroactive coverage. Monroe County DSS handles applications at (585) 753-6960.",
+      "For Medicaid-eligible patients who were uninsured at the time of service, Medicaid applications can be filed with retroactive coverage. Monroe County DSS handles applications at (585) 753-6998.",
       "Free help with medical bill disputes and financial assistance applications is available through Legal Aid Society of Rochester at (585) 232-4090 and through the Community Health Advocates program."
     ]
   },

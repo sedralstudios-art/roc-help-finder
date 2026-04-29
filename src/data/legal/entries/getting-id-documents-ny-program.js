@@ -44,7 +44,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
       "NY Department of Health Vital Records at (855) 322-1022 or health.ny.gov/vital_records — birth certificates for births elsewhere in NY State.",
       "Monroe County DMV at (585) 753-7600 — non-driver NY State ID at any county location.",
       "Social Security Administration Rochester office at 100 State Street or (800) 772-1213 — free replacement Social Security cards.",
-      "Monroe County Department of Human Services at (585) 753-6960 — fee-waiver letters for public-assistance recipients seeking vital records.",
+      "Monroe County Department of Human Services at (585) 753-6998 — fee-waiver letters for public-assistance recipients seeking vital records.",
       "NY DOCCS facility transition coordinator — for people about to be released from state prison who need documents in advance."
     ]
   },

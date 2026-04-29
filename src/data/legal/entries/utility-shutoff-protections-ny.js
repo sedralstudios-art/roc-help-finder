@@ -42,7 +42,7 @@ export const UTILITY_SHUTOFF_PROTECTIONS_NY = {
   legalOptions: {
     en: [
       "If a shutoff is threatened, calling the utility to ask for a Deferred Payment Agreement is the first step. The utility has to offer reasonable terms.",
-      "HEAP applications can be submitted at mybenefits.ny.gov or at Monroe County DHS at (585) 753-6960. Emergency HEAP can restore service that has already been shut off.",
+      "HEAP applications can be submitted at mybenefits.ny.gov or at Monroe County DHS at (585) 753-6998. Emergency HEAP can restore service that has already been shut off.",
       "A PSC complaint can be filed at askpsc.ny.gov or by calling (800) 342-3377. The PSC can intervene and order restoration or revised terms.",
       "A customer who is elderly, disabled, or seriously ill can send written notice to the utility, usually with a Medical Emergency Certificate signed by a medical professional.",
       "Free help negotiating with the utility or filing a PSC complaint is available through Legal Aid Society of Rochester at (585) 232-4090.",

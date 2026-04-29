@@ -37,7 +37,7 @@ export const MEDICAID_HOME_CARE_NY = {
 
   legalOptions: {
     en: [
-      "Medicaid home care applications and assessments are coordinated through the local Medicaid office or through an MLTC plan. In Monroe County, contact DSS at (585) 753-6960.",
+      "Medicaid home care applications and assessments are coordinated through the local Medicaid office or through an MLTC plan. In Monroe County, contact DSS at (585) 753-6998.",
       "For CDPAP specifically, enrollment is through a fiscal intermediary. In the Rochester area, agencies that serve as fiscal intermediaries can be found through the NY Independent Living Centers or by calling 211.",
       "If home care hours are denied or reduced, a fair hearing can be requested at otda.ny.gov/hearings/request/ or by calling (800) 342-3334. Filing before the effective date preserves aid continuing.",
       "Free legal help with Medicaid home care denials and reductions is available through Legal Aid Society of Rochester at (585) 232-4090 and Empire Justice Center at (585) 454-4060.",

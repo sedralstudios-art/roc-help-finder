@@ -41,7 +41,7 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 — MSP applications for Monroe County Medicare beneficiaries.",
+      "Monroe County Department of Human Services at (585) 753-6998 — MSP applications for Monroe County Medicare beneficiaries.",
       "NY State of Health at nystateofhealth.ny.gov or (855) 355-5777 — MSP applications pathway for some applicants.",
       "NY Medicaid Helpline at (800) 541-2831 — current MSP income limits and general information.",
       "Medicare Rights Center at (800) 333-4114 — free statewide Medicare counseling and MSP application help.",

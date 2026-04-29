@@ -39,7 +39,7 @@ export const APPLY_FOR_BENEFITS_ONLINE_NY = {
     en: [
       "The main portal for SNAP, TA, Medicaid, HEAP, and childcare is mybenefits.ny.gov. No account is needed to start — the system creates one during the application.",
       "For Medicaid specifically (for most adults under 65): nystateofhealth.ny.gov is the marketplace application.",
-      "For HEAP: applications open seasonally (typically October/November). Check mybenefits.ny.gov or call DSS at (585) 753-6960 for the current season's status.",
+      "For HEAP: applications open seasonally (typically October/November). Check mybenefits.ny.gov or call DSS at (585) 753-6998 for the current season's status.",
       "If the online system is confusing, 211 (call 2-1-1) can help navigate the application by phone.",
       "Free in-person application help is available at the Rochester Public Library's social services navigator program and at many community centers throughout Monroe County.",
       "If the application is not processed within 30 days (7 days for expedited SNAP), a fair hearing can be requested. Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090."

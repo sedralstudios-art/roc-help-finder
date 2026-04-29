@@ -44,7 +44,7 @@ export const SENIOR_DISABLED_EARLY_LEASE_TERMINATION_NY = {
       "If the landlord demands rent beyond the 30-day notice period, refer to RPL Section 227-a.",
       "Free legal help with senior housing matters is available through Legal Aid Society of Rochester at (585) 232-4090 and Lifespan of Greater Rochester at (585) 244-8400.",
       "LawNY at (585) 325-2520 handles housing cases including wrongful retention of deposits.",
-      "For Monroe County DSS referrals to nursing home and home care options, call (585) 753-6960."
+      "For Monroe County DSS referrals to nursing home and home care options, call (585) 753-6998."
     ]
   },
 

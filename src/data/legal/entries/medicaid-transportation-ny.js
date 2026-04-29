@@ -39,7 +39,7 @@ export const MEDICAID_TRANSPORTATION_NY = {
   legalOptions: {
     en: [
       "For Medicaid managed care members: transportation is arranged through the managed care plan. The plan's member services number is on the Medicaid card.",
-      "For Medicaid fee-for-service members: transportation is arranged through the county's transportation broker. In Monroe County, contact can be made through DSS at (585) 753-6960 or by calling the broker directly (the number is on the Medicaid card or available through 211).",
+      "For Medicaid fee-for-service members: transportation is arranged through the county's transportation broker. In Monroe County, contact can be made through DSS at (585) 753-6998 or by calling the broker directly (the number is on the Medicaid card or available through 211).",
       "If transportation is denied or inadequate, a complaint can be filed with the managed care plan's grievance process or with the NY Department of Health.",
       "A fair hearing can be requested if the plan denies transportation for a covered service.",
       "Free legal help with Medicaid transportation issues is available through Legal Aid Society of Rochester at (585) 232-4090."

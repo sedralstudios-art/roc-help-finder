@@ -41,7 +41,7 @@ export const SUMMER_EBT_SUN_BUCKS_NY = {
   legalOptions: {
     en: [
       "NY Office of Temporary and Disability Assistance at 1-833-452-0096 handles NY Summer EBT applications and questions.",
-      "Monroe County Department of Human Services at (585) 753-6960 accepts local applications and answers county-level questions.",
+      "Monroe County Department of Human Services at (585) 753-6998 accepts local applications and answers county-level questions.",
       "For school-based eligibility questions, each Monroe County school district food service director.",
       "USDA Food and Nutrition Service at (703) 305-2062 handles federal program rules.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents families denied Summer EBT on appeal.",

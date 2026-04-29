@@ -42,7 +42,7 @@ export const CHILD_CARE_LICENSING_NY = {
       "OCFS complaint line for licensed providers: (800) 732-5207.",
       "OCFS provider lookup and inspection reports: ocfs.ny.gov/programs/childcare/lookup/.",
       "Child Care Council at (585) 654-4720 — provides free referrals, subsidy navigation, and parent support in Monroe County.",
-      "For subsidy-related questions, Monroe County DSS at (585) 753-6960.",
+      "For subsidy-related questions, Monroe County DSS at (585) 753-6316.",
       "For suspected child abuse at any care setting, the Statewide Central Register at (800) 342-3720 operates 24/7.",
       "Free legal help with subsidy denials or provider disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]

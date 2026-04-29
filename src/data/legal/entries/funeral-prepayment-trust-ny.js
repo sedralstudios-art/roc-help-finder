@@ -45,7 +45,7 @@ export const FUNERAL_PREPAYMENT_TRUST_NY = {
       "The National Funeral Directors Association has a consumer information line at (800) 228-6332.",
       "For disputes about contract terms or services delivered, small claims court is an option for amounts under $5,000.",
       "Free legal help with elder law and pre-need contract issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "Monroe County DSS at (585) 753-6960 for Medicaid planning questions."
+      "Monroe County DSS at (585) 753-6998 for Medicaid planning questions."
     ]
   },
 

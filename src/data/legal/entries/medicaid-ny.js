@@ -44,7 +44,7 @@ export const MEDICAID_NY = {
   legalOptions: {
     en: [
       "NY State of Health at nystateofhealth.ny.gov or (855) 355-5777 — MAGI-track Medicaid applications for most adults under 65, children, and pregnant people.",
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — Non-MAGI Medicaid applications for adults 65 or older, the blind, and the disabled.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — Non-MAGI Medicaid applications for adults 65 or older, the blind, and the disabled.",
       "NY Medicaid Helpline at (800) 541-2831 — statewide Medicaid information.",
       "NY Fair Hearing line at (800) 342-3334 or otda.ny.gov/hearings/request — denials, reductions, and closures.",
       "Child Health Plus — covers children in households up to 400% of federal poverty level with sliding-scale premium, through NY State of Health.",

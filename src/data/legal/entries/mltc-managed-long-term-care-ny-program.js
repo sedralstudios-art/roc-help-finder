@@ -44,7 +44,7 @@ export const MLTC_MANAGED_LONG_TERM_CARE_NY_PROGRAM = {
       "Independent Consumer Advocacy Network (ICAN) at (844) 614-8800 — free MLTC ombudsprogram, advocates on fair hearings, denials, plan disputes.",
       "Lifespan of Greater Rochester at (585) 244-8400 — elder advocacy, MLTC navigation.",
       "Empire Justice Center Health Law Unit at (585) 454-4060 — legal help for low-income Medicaid recipients.",
-      "Monroe County DSS at (585) 753-6960 — local Medicaid office.",
+      "Monroe County DSS at (585) 753-6998 — local Medicaid office.",
       "Fair hearing request: online at otda.ny.gov/hearings or phone (800) 342-3334.",
       "Medicaid Managed Care Complaint Line at (800) 206-8125."
     ]

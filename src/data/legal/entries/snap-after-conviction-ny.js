@@ -41,7 +41,7 @@ export const SNAP_AFTER_CONVICTION_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — SNAP, Medicaid, and TA applications with no criminal-history bar in NY.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — SNAP, Medicaid, and TA applications with no criminal-history bar in NY.",
       "mybenefits.ny.gov — online SNAP, Medicaid, and TA applications for NY residents outside NYC.",
       "NY DOCCS reentry-planning services — facility transitional-services coordinators help incarcerated people begin benefits applications before release.",
       "Reentry.net/ny — NY-specific reentry resource portal with plain-language guides to public benefits after incarceration.",

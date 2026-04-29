@@ -48,7 +48,7 @@ export const SSI_DISABILITY_NY = {
       "Federal SSI application under 42 USC § 1381 — filing date is preserved by contacting SSA, even if the intake appointment is weeks later.",
       "Four-level federal appeals timeline under 20 CFR 416 Subpart N — 60 days from each denial, 10 days for aid continuing.",
       "Automatic Medicaid for NY SSI recipients under NY SSL § 366 — no separate Medicaid application required.",
-      "SNAP categorical eligibility on the income side — file a separate SNAP application with Monroe County DHS at (585) 753-6960.",
+      "SNAP categorical eligibility on the income side — file a separate SNAP application with Monroe County DHS at (585) 753-6998.",
       "NY ABLE accounts at mynyable.org — save up to the federal annual ABLE contribution limit without losing SSI or Medicaid if the disability began before age 46.",
       "Empire Justice Center at (585) 454-4060 — free representation on SSI applications and appeals statewide (outside NYC).",
       "Legal Aid Society of Rochester at (585) 232-4090 — free representation for low-income Monroe County residents on SSI.",

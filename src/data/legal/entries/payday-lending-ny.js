@@ -42,7 +42,7 @@ export const PAYDAY_LENDING_NY = {
       "A complaint can also be filed with the NY Attorney General's Consumer Helpline at (800) 771-7755.",
       "If a debt collector is attempting to collect on a payday loan, informing the collector that payday lending is illegal in New York and filing a complaint with the AG is one path.",
       "Free legal advice on predatory lending and usurious loans is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "Alternatives to payday loans: credit union PAL loans (ask any credit union), DSS emergency assistance at (585) 753-6960, and community lending programs through local nonprofits."
+      "Alternatives to payday loans: credit union PAL loans (ask any credit union), DSS emergency assistance at (585) 753-6998, and community lending programs through local nonprofits."
     ]
   },
 

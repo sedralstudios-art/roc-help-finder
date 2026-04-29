@@ -41,7 +41,7 @@ export const RENT_INCREASE_LEASE_RENEWAL_NY = {
       "If a rent increase was imposed without the required advance notice, the increase may not be enforceable until proper notice is given.",
       "If the increase appears retaliatory (within one year of a complaint), the tenant can raise retaliation as a defense in housing court. Legal Aid Society of Rochester at (585) 232-4090 can advise.",
       "If the landlord attempts to evict for refusing an unreasonable increase, the tenant has the right to defend in housing court.",
-      "Tenants who are struggling with rent increases can check whether they qualify for rental assistance programs through Monroe County DSS at (585) 753-6960 or through 211.",
+      "Tenants who are struggling with rent increases can check whether they qualify for rental assistance programs through Monroe County DSS at (585) 753-6998 or through 211.",
       "Under RPL § 226-c, the notice must be in writing. Verbal notice of a rent increase is not sufficient."
     ]
   },

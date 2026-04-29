@@ -41,7 +41,7 @@ export const HEAP_UTILITY_ASSISTANCE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — HEAP applications, emergency intake, and recertification.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — HEAP applications, emergency intake, and recertification.",
       "mybenefits.ny.gov — online HEAP application for most NY counties outside NYC.",
       "NY OTDA HEAP information at otda.ny.gov/programs/heap — current season dates, income guidelines, and benefit amounts.",
       "NY Home Heating Hotline at (800) 342-3009 — statewide HEAP information.",

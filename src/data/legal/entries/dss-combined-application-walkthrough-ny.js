@@ -45,7 +45,7 @@ export const DSS_COMBINED_APPLICATION_WALKTHROUGH_NY = {
       "Pick up a paper LDSS-2921 at any DHS office or download from otda.ny.gov.",
       "Empire Justice Center at (585) 454-4060 helps with denials, delays, and complex cases.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income applicants in fair hearings.",
-      "Monroe County DHS main number: (585) 753-6960.",
+      "Monroe County DHS main number: (585) 753-6998.",
       "If a benefit is denied, request a fair hearing within the deadline on the notice — usually 60 days for SNAP, 60 days for TA."
     ]
   },
@@ -60,9 +60,9 @@ export const DSS_COMBINED_APPLICATION_WALKTHROUGH_NY = {
       name: "Monroe County Department of Human Services",
       focus: "DSS application processing, in-person help, document submission",
       qualifier: "Any Monroe County resident",
-      access: "Phone (585) 753-6960 or in person at 691 St. Paul St, Rochester",
+      access: "Phone (585) 753-6998 or in person at 691 St. Paul St, Rochester",
       outcome: "Application acceptance and processing",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: true,

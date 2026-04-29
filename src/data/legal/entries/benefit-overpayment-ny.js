@@ -42,7 +42,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   legalOptions: {
     en: [
       "Fair hearing requests to the NY Office of Temporary and Disability Assistance by phone at (800) 342-3334, online at otda.ny.gov/hearings/request, or by mail to NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
-      "Monroe County Department of Human Services at (585) 753-6960 handles overpayment notices, hardship reduction requests, and repayment plans.",
+      "Monroe County Department of Human Services at (585) 753-6998 handles overpayment notices, hardship reduction requests, and repayment plans.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income households in overpayment fair hearings and negotiations.",
       "LawNY at (585) 325-2520 covers public benefits appeals across the 14-county Western NY service area including Monroe.",
       "Empire Justice Center at (585) 454-4060 handles complex benefits cases and impact-level overpayment issues across NY.",

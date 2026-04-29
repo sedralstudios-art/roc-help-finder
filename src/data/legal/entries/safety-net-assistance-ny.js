@@ -41,7 +41,7 @@ export const SAFETY_NET_ASSISTANCE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 for SNA applications and case management.",
+      "Monroe County Department of Human Services at (585) 753-6998 for SNA applications and case management.",
       "NY Office of Temporary and Disability Assistance at 1-800-342-3334 for statewide OTDA questions.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents recipients in Fair Hearings.",
       "Empire Justice Center at (585) 454-4060 handles complex benefits cases.",

@@ -42,7 +42,7 @@ export const SNAP_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — walk-in and mail-in SNAP applications.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — walk-in and mail-in SNAP applications.",
       "Every county DSS in NY accepts SNAP applications under NY Social Services Law § 95.",
       "mybenefits.ny.gov — online SNAP application 24/7 for NY residents outside NYC.",
       "Statewide SNAP information line at 1-800-342-3009.",

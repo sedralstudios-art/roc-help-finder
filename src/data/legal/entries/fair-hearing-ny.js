@@ -45,7 +45,7 @@ export const FAIR_HEARING_NY = {
       "NY Office of Administrative Hearings at (800) 342-3334 — fair-hearing request, scheduling, compliance complaints.",
       "OTDA online hearing portal at otda.ny.gov/hearings — request form, document upload, hearing status.",
       "Document submission for hearings: upload at upload.ny.gov, fax to (518) 473-6735, or mail to OTDA Office of Administrative Hearings, P.O. Box 1930, Albany, NY 12201.",
-      "Monroe County Department of Human Services at (585) 753-6960 — the agency whose decision is being appealed; also handles pre-hearing case-file copies.",
+      "Monroe County Department of Human Services at (585) 753-6998 — the agency whose decision is being appealed; also handles pre-hearing case-file copies.",
       "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income Monroe County appellants at fair hearings and in related prep.",
       "LawNY at (585) 325-2520 — fair-hearing representation across 14-county Western NY service area.",
       "Empire Justice Center at (585) 454-4060 — complex and impact-level fair hearing cases statewide."
@@ -131,6 +131,7 @@ export const FAIR_HEARING_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

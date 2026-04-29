@@ -47,7 +47,7 @@ export const EARLY_INTERVENTION_INFANTS_TODDLERS_NY = {
       "Parent to Parent of New York State at (800) 305-8817 — free peer support and navigation.",
       "Legal Aid Society of Rochester at (585) 232-4090 — free help with EI disputes for low-income families.",
       "Empire Justice Center at (585) 454-4060 — educational rights and due process.",
-      "For Medicaid-related EI questions: Monroe County DSS at (585) 753-6960.",
+      "For Medicaid-related EI questions: Monroe County DSS at (585) 753-6998.",
       "Transition to preschool special education: contact the local school district's CPSE chairperson."
     ]
   },

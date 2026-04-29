@@ -43,7 +43,7 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
       "ssa.gov/manage-benefits/get-benefit-letter — SSA instant benefit letter for SSI, SSDI, retirement, and Medicare; phone line 1-800-772-1213 (TTY 1-800-325-0778) 24 hours.",
       "nystateofhealth.ny.gov or NYSOH customer service at (855) 355-5777 for MAGI Medicaid enrollment verification.",
       "otda.ny.gov/programs/ssp or (855) 488-0541 for NY State Supplement Program verification letters.",
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — walk-in and phone verification for SNAP, TA, and non-MAGI Medicaid.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — walk-in and phone verification for SNAP, TA, and non-MAGI Medicaid.",
       "NYDocSubmit app (Apple App Store, Google Play) for mobile document submission to local social services districts.",
       "Legal Aid Society of Rochester at (585) 232-4090 for recipients whose verification is blocked or case is wrongly closed."
     ]

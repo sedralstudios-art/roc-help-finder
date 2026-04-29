@@ -40,7 +40,7 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at 111 Westfall Road, Rochester, (585) 753-6960 — walk-in emergency intake during business hours.",
+      "Monroe County Department of Human Services at 111 Westfall Road, Rochester, (585) 753-6998 — walk-in emergency intake during business hours.",
       "Monroe County DHS after-hours emergency line at (585) 442-1742 — for sheltering and crisis needs outside business hours.",
       "NY Office of Temporary and Disability Assistance general information at (800) 342-3009.",
       "Fair hearing request line at (800) 342-3334 or online at otda.ny.gov/hearings/request for denials or short grants.",

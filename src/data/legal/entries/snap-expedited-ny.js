@@ -40,7 +40,7 @@ export const SNAP_EXPEDITED_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — walk-in SNAP applications with same-day expedited screening.",
+      "Monroe County Department of Human Services at (585) 753-6998 or 111 Westfall Road, Rochester — walk-in SNAP applications with same-day expedited screening.",
       "mybenefits.ny.gov — online SNAP application for NY residents outside NYC, including expedited screening questions.",
       "Statewide SNAP information line at 1-800-342-3009 — general SNAP and expedited-processing questions.",
       "Federal rule at 7 CFR 273.2(i) — sets the 7-day expedited processing window and same-day screening requirement.",
