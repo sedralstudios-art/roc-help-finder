@@ -41,7 +41,7 @@ export const SEXUAL_ORIENTATION_DISCRIMINATION_NY = {
     en: [
       "A complaint can be filed with the NY Division of Human Rights at (888) 392-3644 (all employers, 3-year deadline) or the EEOC at (800) 669-4000 (15+ employees, 300-day deadline).",
       "Free legal help with LGBTQ+ discrimination is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "Out Alliance Rochester provides referrals and support for LGBTQ+ individuals experiencing discrimination: (585) 244-8640.",
+      "Rochester Rainbow Union (which took over the community center after Out Alliance went dormant) provides referrals and support — see rochesterrainbowunion.com.",
       "Lambda Legal provides legal assistance for LGBTQ+ discrimination cases: (212) 809-8585 or lambdalegal.org.",
       "Many employment attorneys handle discrimination cases on contingency."
     ]
@@ -54,13 +54,13 @@ export const SEXUAL_ORIENTATION_DISCRIMINATION_NY = {
   counsel: [
     {
       type: "free",
-      name: "Out Alliance Rochester",
-      focus: "LGBTQ+ support, discrimination referrals, community resources",
+      name: "Rochester Rainbow Union",
+      focus: "LGBTQ+ community center, discrimination referrals, community resources (took over the former Out Alliance space)",
       qualifier: "LGBTQ+ individuals in the Rochester area",
-      access: "Phone or in person",
+      access: "In person at the community center; resource directory online",
       outcome: "Referrals, peer support, advocacy",
-      phone: "(585) 244-8640",
-      url: "https://www.outalliance.org",
+      phone: "",
+      url: "https://rochesterrainbowunion.com",
       verified: true,
       bilingual: false,
       languages: []

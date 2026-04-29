@@ -23,7 +23,7 @@ export const GENDER_MARKER_CHANGE_NY = {
   },
 
   whatItMeans: {
-    en: "For birth certificates: Under Public Health Law § 4138, any person born in New York State can request a change to the gender designation on their birth certificate by submitting an application and a signed attestation to the NY Department of Health. The attestation states that the requested gender designation (M, F, or X) reflects the person's gender identity. No medical documentation, surgery, or court order is needed. The fee for amending a birth certificate was $40 when last verified — subject to change (check health.ny.gov or call (855) 322-1022). For people born in New York City, the process goes through the NYC Department of Health, which has its own form and a similar process. For driver's licenses and non-driver IDs: the NY DMV allows any person to select M, F, or X as their gender marker. This can be done when renewing, replacing, or applying for a license or ID — no medical documentation is required. The change can be made online, by mail, or at a DMV office. For Social Security records: SSA allows gender marker changes with a signed statement — no medical documentation required (since 2022). Passports allow M, F, or X with a signed statement (since 2022). Each agency has its own process, but the trend since 2021-2022 has been toward self-attestation without medical gatekeeping. Recent federal rollbacks under the current administration have changed some federal documents. The State Department has restricted X-marker passports under recent policy changes; check the current State Department guidance before applying. Federal employer rules through the EEOC continue to interpret Title VII to cover gender identity discrimination, following Bostock v. Clayton County (2020). Some states have moved in the opposite direction from NY, restricting gender marker changes or requiring medical documentation; a person who moves between states may face inconsistencies across documents. NY's protections remain among the most accessible in the country. Health insurance coverage for gender-affirming care is a separate area: NY Medicaid covers medically necessary gender-affirming care, and most private insurance regulated by NY DFS must cover it as well. Coverage decisions for specific procedures sometimes still require appeal. Out Alliance Rochester maintains a current resource list for transgender and nonbinary residents covering legal, medical, and community supports."
+    en: "For birth certificates: Under Public Health Law § 4138, any person born in New York State can request a change to the gender designation on their birth certificate by submitting an application and a signed attestation to the NY Department of Health. The attestation states that the requested gender designation (M, F, or X) reflects the person's gender identity. No medical documentation, surgery, or court order is needed. The fee for amending a birth certificate was $40 when last verified — subject to change (check health.ny.gov or call (855) 322-1022). For people born in New York City, the process goes through the NYC Department of Health, which has its own form and a similar process. For driver's licenses and non-driver IDs: the NY DMV allows any person to select M, F, or X as their gender marker. This can be done when renewing, replacing, or applying for a license or ID — no medical documentation is required. The change can be made online, by mail, or at a DMV office. For Social Security records: SSA allows gender marker changes with a signed statement — no medical documentation required (since 2022). Passports allow M, F, or X with a signed statement (since 2022). Each agency has its own process, but the trend since 2021-2022 has been toward self-attestation without medical gatekeeping. Recent federal rollbacks under the current administration have changed some federal documents. The State Department has restricted X-marker passports under recent policy changes; check the current State Department guidance before applying. Federal employer rules through the EEOC continue to interpret Title VII to cover gender identity discrimination, following Bostock v. Clayton County (2020). Some states have moved in the opposite direction from NY, restricting gender marker changes or requiring medical documentation; a person who moves between states may face inconsistencies across documents. NY's protections remain among the most accessible in the country. Health insurance coverage for gender-affirming care is a separate area: NY Medicaid covers medically necessary gender-affirming care, and most private insurance regulated by NY DFS must cover it as well. Coverage decisions for specific procedures sometimes still require appeal. Rochester Rainbow Union (which took over the community center after Out Alliance went dormant) and rochester.lgbt maintain current resource lists for transgender and nonbinary residents covering legal, medical, and community supports."
   },
 
   yourRights: {
@@ -67,13 +67,13 @@ export const GENDER_MARKER_CHANGE_NY = {
     },
     {
       type: "free",
-      name: "Out Alliance Rochester",
-      focus: "LGBTQ+ support, resources, referrals",
+      name: "Rochester Rainbow Union",
+      focus: "LGBTQ+ community center, resources, referrals (took over the former Out Alliance space)",
       qualifier: "LGBTQ+ individuals in the Rochester area",
-      access: "Phone or in person",
+      access: "In person at the community center; resource directory online",
       outcome: "Referrals, peer support, community resources",
-      phone: "(585) 244-8640",
-      url: "https://www.outalliance.org",
+      phone: "",
+      url: "https://rochesterrainbowunion.com",
       verified: true,
       bilingual: false,
       languages: []
@@ -109,6 +109,7 @@ export const GENDER_MARKER_CHANGE_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
