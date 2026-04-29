@@ -63,7 +63,7 @@ export const EARLY_VOTING_ABSENTEE_BALLOT_NY = {
       name: "Monroe County Board of Elections",
       focus: "Voter registration, early voting logistics, mail ballot requests and drop-off",
       qualifier: "Any Monroe County resident",
-      access: "Phone (585) 753-1550 or at 39 W Main St, Rochester",
+      access: "Phone (585) 753-1550 or at 435 Smith St, Rochester (M-F 9am-5pm)",
       outcome: "Registration, ballot application, location and ID guidance",
       phone: "(585) 753-1550",
       url: "https://www.monroecounty.gov/elections",
@@ -116,7 +116,8 @@ export const EARLY_VOTING_ABSENTEE_BALLOT_NY = {
     "https://www.elections.ny.gov"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
