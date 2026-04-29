@@ -111,6 +111,7 @@ export const FAMILY_MEDICAL_LEAVE_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

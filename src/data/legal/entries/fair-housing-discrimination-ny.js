@@ -45,7 +45,7 @@ export const FAIR_HOUSING_DISCRIMINATION_NY = {
       "The Fair Housing Enforcement Project of Monroe County at (585) 325-2500 handles fair housing testing and advocacy.",
       "Empire Justice Center at (585) 454-4060 handles housing discrimination litigation.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles discrimination cases for low-income renters.",
-      "A federal Fair Housing Act lawsuit must be filed within 2 years of the discriminatory act. State DHR complaints within 1 year."
+      "A federal Fair Housing Act lawsuit must be filed within 2 years of the discriminatory act. State DHR complaints have a 3-year window — extended from 1 year to 3 years effective Feb 15, 2024."
     ]
   },
 
@@ -113,6 +113,7 @@ export const FAIR_HOUSING_DISCRIMINATION_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

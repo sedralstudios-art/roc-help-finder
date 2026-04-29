@@ -51,7 +51,7 @@ export const FAMILY_HEALTH_CARE_DECISIONS_ACT_NY = {
   },
 
   example: {
-    en: "An 80-year-old Rochester resident has a stroke and is hospitalized at Strong Memorial. He had not signed a health care proxy. He cannot communicate. The NY FHCDA hierarchy applies. He has no court-appointed guardian. He is married — his wife is the surrogate. The medical team consults with her about treatment options. After 2 weeks his condition deteriorates and physicians recommend transition to comfort care only. Two physicians make findings under PHL 2994-D(4): treatment would be extraordinarily burdensome and the patient has an irreversible illness. With the wife's consent as surrogate, the comfort care plan is implemented. The wife signs a Close Friend Statement was not needed because she was the spouse — first in the hierarchy."
+    en: "An 80-year-old Rochester resident has a stroke and is hospitalized at Strong Memorial. He had not signed a health care proxy. He cannot communicate. The NY FHCDA hierarchy applies. He has no court-appointed guardian. He is married — his wife is the surrogate. The medical team consults with her about treatment options. After 2 weeks his condition deteriorates and physicians recommend transition to comfort care only. Two physicians make findings under PHL 2994-D(4): treatment would be extraordinarily burdensome and the patient has an irreversible illness. With the wife's consent as surrogate, the comfort care plan is implemented. A Close Friend Statement was not needed because the wife was the spouse — first in the hierarchy."
   },
 
   counsel: [
@@ -63,7 +63,7 @@ export const FAMILY_HEALTH_CARE_DECISIONS_ACT_NY = {
       access: "Phone intake",
       outcome: "Advocacy and information",
       phone: "(585) 244-8400",
-      url: "https://www.lifespanrochester.org",
+      url: "https://www.lifespan-roch.org",
       verified: true,
       bilingual: false,
       languages: []
@@ -126,6 +126,7 @@ export const FAMILY_HEALTH_CARE_DECISIONS_ACT_NY = {
   ],
 
   lastVerified: "2026-04-24",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
