@@ -23,7 +23,7 @@ export const DRONE_LAWS_NY = {
   },
 
   whatItMeans: {
-    en: "Drones are regulated primarily by the FAA (Federal Aviation Administration) under 14 CFR Part 107 for commercial use and the Exception for Recreational Flyers (49 USC Section 44809) for hobbyists. Any drone weighing more than 0.55 pounds (250 grams) must be registered with the FAA. Registration costs $5 and lasts three years. For recreational flying, the rules are: fly below 400 feet, keep the drone within visual line of sight, do not fly over people or moving vehicles, do not fly within 5 miles of an airport without notifying the airport, and do not fly in restricted airspace (which includes some areas near the Greater Rochester International Airport). For commercial drone use (any purpose other than pure recreation), the operator needs an FAA Remote Pilot Certificate, which requires passing a knowledge test. In New York, additional state laws apply. Under Penal Law Section 240.77, using a drone to spy on someone in a private place is a crime. Rochester city parks prohibit drone flying without a permit. Monroe County parks have similar restrictions. The NYS Parks system generally prohibits drones in state parks without authorization. Specific local rules to know in Monroe County: Rochester city parks require a permit for drone flying, with permits issued through the Department of Recreation. Mendon Ponds Park, Highland Park, and other Monroe County parks generally prohibit drone use. Letchworth State Park, a popular drone destination just south of the county, requires a special use permit and limits flights to designated zones. Privacy concerns are escalating in NY; some municipalities have considered ordinances that go beyond the state's unlawful surveillance statute to ban drones over private residential property without consent. A property owner who repeatedly experiences drone surveillance can document the incidents (date, time, photos of the drone, its registration markings if visible) and contact local police; aggregating multiple incidents into a single complaint often gets faster attention than isolated reports. Insurance for drone operators is recommended, especially for commercial use; a drone that crashes into a person, car, or building can produce substantial liability that personal homeowners' policies often exclude."
+    en: "Drones are regulated primarily by the FAA (Federal Aviation Administration) under 14 CFR Part 107 for commercial use and the Exception for Recreational Flyers (49 USC Section 44809) for hobbyists. Any drone weighing more than 0.55 pounds (250 grams) must be registered with the FAA. Registration costs $5 and lasts three years. For recreational flying, the rules are: fly below 400 feet, keep the drone within visual line of sight, do not fly over people or moving vehicles, do not fly within 5 miles of an airport without notifying the airport, and do not fly in restricted airspace (which includes some areas near the Greater Rochester International Airport). For commercial drone use (any purpose other than pure recreation), the operator needs an FAA Remote Pilot Certificate, which requires passing a knowledge test. In New York, additional state laws apply. Under NY Penal Law § 250.45 (Unlawful Surveillance in the Second Degree), using a drone to surreptitiously view, broadcast, or record someone dressing, undressing, or in an intimate state in a place with a reasonable expectation of privacy is a Class E felony. Rochester city parks prohibit drone flying without a permit. Monroe County parks have similar restrictions. The NYS Parks system generally prohibits drones in state parks without authorization. Specific local rules to know in Monroe County: Rochester city parks require a permit for drone flying, with permits issued through the Department of Recreation. Mendon Ponds Park, Highland Park, and other Monroe County parks generally prohibit drone use. Letchworth State Park, a popular drone destination just south of the county, requires a special use permit and limits flights to designated zones. Privacy concerns are escalating in NY; some municipalities have considered ordinances that go beyond the state's unlawful surveillance statute to ban drones over private residential property without consent. A property owner who repeatedly experiences drone surveillance can document the incidents (date, time, photos of the drone, its registration markings if visible) and contact local police; aggregating multiple incidents into a single complaint often gets faster attention than isolated reports. Insurance for drone operators is recommended, especially for commercial use; a drone that crashes into a person, car, or building can produce substantial liability that personal homeowners' policies often exclude."
   },
 
   yourRights: {
@@ -41,7 +41,7 @@ export const DRONE_LAWS_NY = {
     en: [
       "FAA drone registration is required for drones over 0.55 pounds. Registration is available at faadronezone.faa.gov for $5.",
       "For commercial use, the FAA Remote Pilot Certificate requires passing a knowledge test at an FAA-approved testing center. Study materials are free at faa.gov.",
-      "Under Penal Law Section 240.77, using a drone to record someone in a private place without their knowledge is unlawful surveillance, a Class A misdemeanor.",
+      "Under NY Penal Law § 250.45, using a drone to surreptitiously record someone in a place with a reasonable expectation of privacy is unlawful surveillance — a Class E felony.",
       "Rochester city park drone permits can be requested through the Department of Recreation at (585) 428-6755.",
       "The FAA's B4UFLY app shows real-time airspace restrictions and whether flying is allowed in a specific location.",
       "If a neighbor's drone is harassing or spying, a police report can be filed. Shooting down a drone is illegal — it is a federal crime to destroy an aircraft."
@@ -92,11 +92,12 @@ export const DRONE_LAWS_NY = {
 
   sources: [
     "https://www.law.cornell.edu/uscode/text/49/44809",
-    "https://www.nysenate.gov/legislation/laws/PEN/240.77",
+    "https://www.nysenate.gov/legislation/laws/PEN/250.45",
     "https://www.faa.gov/uas"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
