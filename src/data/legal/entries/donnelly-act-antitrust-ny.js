@@ -118,7 +118,8 @@ export const DONNELLY_ACT_ANTITRUST_NY = {
     "https://www.law.cornell.edu/uscode/text/15/1"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
