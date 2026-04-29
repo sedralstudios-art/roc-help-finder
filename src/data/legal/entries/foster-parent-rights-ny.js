@@ -44,7 +44,7 @@ export const FOSTER_PARENT_RIGHTS_NY = {
       "If the agency plans to move the child and the foster parent objects, the foster parent can request an administrative hearing through the agency or file a motion in Family Court.",
       "The Foster Parent Bill of Rights (SSL Section 378-a) lists specific rights including the right to training, the right to support services, and the right to be treated with respect by the agency.",
       "Free legal help for foster parents is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "The Monroe County DSS Foster Care Unit can be reached at (585) 753-6010 for questions about placements and support."
+      "The Monroe County DHS Foster Care Unit can be reached at (585) 753-5765 for questions about placements and support, or (585) 753-6998 for the Child and Family Services main line."
     ]
   },
 
@@ -98,6 +98,7 @@ export const FOSTER_PARENT_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

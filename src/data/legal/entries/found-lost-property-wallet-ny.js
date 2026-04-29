@@ -41,7 +41,7 @@ export const FOUND_LOST_PROPERTY_WALLET_NY = {
       "Rochester Police Department Property Clerk at (585) 428-7000 handles found property in the City of Rochester.",
       "Monroe County Sheriff at (585) 753-4178 handles found property for unincorporated Monroe County.",
       "Each town police department (Brighton, Greece, Irondequoit, Webster, Gates, Ogden) runs its own lost-and-found.",
-      "For found pets, Monroe County Animal Services at (585) 753-2550.",
+      "For found pets in the City of Rochester, Rochester Animal Services at (585) 428-7274 or 184 Verona Street; in the suburbs, the local town animal control or police department.",
       "For questions about property recovery when the owner is the one who lost the item, checking Monroe County Sheriff online lost-and-found at monroecountyny.gov is the first step."
     ]
   },
@@ -108,6 +108,7 @@ export const FOUND_LOST_PROPERTY_WALLET_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
