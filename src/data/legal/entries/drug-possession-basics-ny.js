@@ -151,7 +151,8 @@ export const DRUG_POSSESSION_BASICS_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/245.20"
   ],
 
-  lastVerified: "2026-04-22",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
