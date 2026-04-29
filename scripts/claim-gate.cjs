@@ -287,7 +287,7 @@ function findPhoneMatches(text, raw, cooccur) {
 // year intentionally) so this is WARN, not FAIL.
 
 const STALE_FIGURES = [
-  { pat: /\$\s*18,?000\b/,            cooccur: /ABLE/i,                   label: 'ABLE annual contribution $18,000',     fix: '$20,000 in 2026' },
+  { pat: /\$\s*18,?000\b/,            cooccur: /\bABLE\b(?!\s+to\b)/,     label: 'ABLE annual contribution $18,000',     fix: '$20,000 in 2026' },
   { pat: /\$\s*13[\.,]?61\s*M/i,      cooccur: /federal.{0,30}estate/i,    label: 'Federal estate exemption $13.61M',     fix: '$15M under OBBBA, 2026' },
   { pat: /\$\s*6[\.,]?94\s*M/i,       cooccur: /(NY|New\s+York).{0,30}estate/i, label: 'NY estate exemption $6.94M',      fix: '$7.35M, 2026' },
   { pat: /\$\s*17,?280\b/,            cooccur: /adoption/i,                label: 'Adoption tax credit $17,280',           fix: '$17,670, 2026 (up to $5,120 refundable)' },

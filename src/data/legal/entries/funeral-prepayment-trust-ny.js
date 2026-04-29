@@ -98,6 +98,7 @@ export const FUNERAL_PREPAYMENT_TRUST_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
