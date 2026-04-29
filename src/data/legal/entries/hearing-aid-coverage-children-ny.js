@@ -118,6 +118,7 @@ export const HEARING_AID_COVERAGE_CHILDREN_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
