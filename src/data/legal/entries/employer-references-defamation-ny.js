@@ -97,7 +97,8 @@ export const EMPLOYER_REFERENCES_DEFAMATION_NY = {
     "https://dhr.ny.gov/law"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
