@@ -10,7 +10,7 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
   title: { en: "NY Dog Leash Law — When a Dog Must Be Leashed and the Fines for Off-Leash" },
 
   summary: {
-    en: "New York Agriculture and Markets Law Section 122 requires a dog to be under the control of its owner in public places. Most Monroe County towns and the City of Rochester have local leash ordinances requiring a physical leash no longer than six feet outside of designated dog parks. Fines for first-time leash violations typically run 25 to 250 dollars depending on the town."
+    en: "New York has no statewide leash law. NY Agriculture and Markets Law Section 122 delegates authority to each town, village, and city to set its own dog-control rules. Most Monroe County towns and the City of Rochester require a physical leash on any dog in public, often capped at six feet, with off-leash allowed only in designated dog parks. Fines for first-time leash violations typically run 25 to 250 dollars depending on the local ordinance."
   },
 
   whoQualifies: {
@@ -23,7 +23,7 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
   },
 
   whatItMeans: {
-    en: "New York Agriculture and Markets Law Section 122 sets a statewide baseline — a dog in a public place must be under the effective control of its owner. Effective control is interpreted as the owner able to stop the dog from running after people, other animals, or cars. Voice control alone rarely meets the standard for a dog that has not been trained. Beyond the state baseline, every town, village, and city in Monroe County has a local leash ordinance that adds specific requirements. City of Rochester Municipal Code Chapter 30 requires a physical leash no longer than six feet on any dog in a public place, with fines starting at 100 dollars for a first offense. Town of Greece Chapter 89 requires a leash of reasonable length and prohibits off-leash on all public lands except designated dog parks. Town of Brighton Chapter 82 requires a leash at all times on public property. Town of Irondequoit Chapter 125 requires a six-foot maximum leash. Town of Penfield Chapter 100 follows the same six-foot rule. Town of Pittsford Chapter 60 prohibits any dog at large. Monroe County has designated off-leash dog parks where the leash rule is lifted: Ellison Park Bark Park in Penfield, Greece Canal Park Dog Park, Brighton Buckland Park Dog Park, and Webster Park Dog Park. These parks have posted rules including waste pickup and a vaccination requirement. A leash violation is usually a local code ticket enforceable in town justice court or city court. First-offense fines typically run 25 to 250 dollars depending on the town, with higher fines for repeat violations or if the dog caused harm. A dog that bites or attacks another person or pet while off-leash can trigger a dangerous dog proceeding under AGM 123 in addition to the leash violation, with much larger financial and potentially euthanasia consequences. Voice-controlled exemptions for trained service dogs, hunting dogs in legal hunting areas, and working farm dogs are recognized in most Monroe County codes but require documentation. A renter on a lease with a no-pet clause who takes a dog off-leash faces both the leash ticket and a potential lease violation. Dog license AGM 109 is a separate requirement — every dog over four months old in New York must be licensed at the town clerk, with or without a leash ticket. A dog owner cited for a leash violation can appear in town justice court to contest the ticket, present evidence of effective control, or negotiate a reduced fine. Monroe County Animal Services does not issue leash tickets but investigates dangerous dog complaints and coordinates with local police."
+    en: "NY Agriculture and Markets Law Section 122 is a local-option enabling statute. It does not by itself impose any leash rule — it tells municipalities they may pass their own dog-control ordinances, with the limit that they cannot vary the state's rabies-vaccination or euthanization rules. The actual leash rules live in each municipality's code.\n\nIn Monroe County, every town and the City of Rochester has a local leash ordinance. Specific chapter numbers and fine amounts vary; the local town hall or village clerk is the authoritative source for the current rule. Common features across Monroe County: dogs must be on a leash on any public property, the leash is usually capped at six feet, and off-leash is allowed only in designated dog parks.\n\nMonroe County designated off-leash dog parks include Ellison Park Bark Park in Penfield, Greece Canal Park Dog Park, Buckland Park Dog Park in Brighton, and Webster Park Dog Park. These parks have posted rules including waste pickup and a current rabies vaccination requirement.\n\nA leash violation is a local code ticket enforceable in town justice court or city court. First-offense fines typically run 25 to 250 dollars depending on the local ordinance, with higher fines for repeat violations or if the dog caused harm. A dog that bites or attacks another person or pet while off-leash can trigger a dangerous dog proceeding under AGM 123 in addition to the leash violation, with much larger financial and potentially euthanasia consequences.\n\nDog license under AGM 109 is a separate requirement — every dog over four months old in New York must be licensed at the town clerk, with or without a leash ticket. A renter on a lease with a no-pet clause who takes a dog off-leash faces both the leash ticket and a potential lease violation.\n\nA dog owner cited for a leash violation can appear in town justice court to contest the ticket, present evidence of effective control, or negotiate a reduced fine. Animal control complaints are handled by the city or town animal control officer; in the City of Rochester, that is Rochester Animal Services at 184 Verona Street."
   },
 
   yourRights: {
@@ -38,11 +38,11 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
 
   legalOptions: {
     en: [
-      "Each town clerk issues dog licenses and maintains the local leash ordinance. Rochester City Clerk (585) 428-7421, Greece Town Clerk (585) 723-2302, Brighton Town Clerk (585) 784-5250, Irondequoit Town Clerk (585) 467-8840, Penfield Town Clerk (585) 340-8630.",
-      "Monroe County Animal Services at (585) 753-2550 investigates dangerous dog incidents.",
+      "Each town clerk issues dog licenses and posts the local leash ordinance — call the town hall or check the town code online for the exact chapter and fine schedule. Rochester City Clerk Licensing (585) 428-6617.",
+      "Rochester Animal Services at (585) 428-7274 (184 Verona Street) handles dog complaints and dangerous dog investigations within the city. Suburban towns have their own animal control officers — call the town hall.",
       "For a leash violation ticket, town justice court or Rochester City Court is the venue.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income dog owners in dangerous dog proceedings.",
-      "For dog park locations, Monroe County Parks at (585) 753-7275 maintains a list of off-leash sites."
+      "Monroe County Parks website lists the four designated off-leash dog parks (Ellison, Greece Canal, Buckland, Webster) at monroecounty.gov/parks."
     ]
   },
 
@@ -53,25 +53,24 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
   counsel: [
     {
       type: "government",
-      name: "Monroe County Animal Services",
-      focus: "Dog licensing, dangerous dog investigation, bite complaints",
-      qualifier: "Any Monroe County resident",
-      access: "Phone, walk-in at Scottsville Road facility",
-      outcome: "License issuance, complaint intake, court coordination",
-      phone: "(585) 753-2550",
-      url: "https://www.monroecounty.gov/animal-services",
+      name: "Rochester Animal Services",
+      focus: "Dog complaints, dangerous dog investigation, bite reports inside the City of Rochester",
+      qualifier: "City of Rochester residents and complaints",
+      access: "Phone, walk-in at 184 Verona Street",
+      outcome: "Complaint intake, investigation, court coordination",
+      phone: "(585) 428-7274",
+      url: "https://www.cityofrochester.gov/animalservices/",
       verified: true,
-      bilingual: true,
-      languages: ["es"]
+      bilingual: false,
+      languages: []
     },
     {
       type: "government",
       name: "Monroe County Parks",
       focus: "Off-leash dog park locations and rules",
       qualifier: "Any Monroe County dog owner",
-      access: "Phone, website park listings",
+      access: "Website park listings",
       outcome: "Location information, park rules",
-      phone: "(585) 753-7275",
       url: "https://www.monroecounty.gov/parks",
       verified: true,
       bilingual: false,
@@ -107,7 +106,8 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
     "https://agriculture.ny.gov/dog-licensing"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
