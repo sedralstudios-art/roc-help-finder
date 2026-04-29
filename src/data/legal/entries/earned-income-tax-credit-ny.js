@@ -124,7 +124,8 @@ export const EARNED_INCOME_TAX_CREDIT_NY = {
     "https://www.tax.ny.gov/pit/credits/earned_income_credit.htm"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
