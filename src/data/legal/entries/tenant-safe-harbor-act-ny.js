@@ -44,7 +44,7 @@ export const TENANT_SAFE_HARBOR_ACT_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 — representation in nonpayment proceedings.",
       "Empire Justice Center at (585) 454-4060 — complex eviction defense and appeals.",
       "ERAP application portal at otda.ny.gov/programs/emergency-rental-assistance — may still accept supplemental applications.",
-      "JustCause at (585) 295-5708 — pro bono housing attorneys.",
+      "JustCause at (585) 232-3051 — pro bono housing attorneys.",
       "NY Right to Counsel statewide information at (347) 745-5484."
     ]
   },

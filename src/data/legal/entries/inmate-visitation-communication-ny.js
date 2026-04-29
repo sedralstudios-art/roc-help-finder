@@ -47,7 +47,7 @@ export const INMATE_VISITATION_COMMUNICATION_NY = {
       "Legal Aid Society Prisoners' Rights Project at (212) 577-3530 — statewide prisoner rights.",
       "DOCCS Office of Special Investigations at (518) 457-5392 — complaints about facility staff.",
       "NYCLU at (212) 607-3300 — systemic prison and jail condition complaints.",
-      "JustCause at (585) 295-5708 — family court orders affecting jail visitation.",
+      "JustCause at (585) 232-3051 — family court orders affecting jail visitation.",
       "Correctional Association of NY at (212) 254-5700 — statewide prison oversight."
     ]
   },
@@ -75,9 +75,9 @@ export const INMATE_VISITATION_COMMUNICATION_NY = {
       name: "JustCause",
       focus: "Family court, child visitation orders involving an incarcerated parent",
       qualifier: "Low-income Monroe County residents",
-      access: "Phone intake at (585) 295-5708",
+      access: "Phone intake at (585) 232-3051",
       outcome: "Pro bono family law support",
-      phone: "(585) 295-5708",
+      phone: "(585) 232-3051",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: true,

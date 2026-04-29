@@ -50,7 +50,7 @@ export const PET_TRUST_NY = {
       "Animal Law Committee of NYSBA at (518) 463-3200.",
       "Lollypop Farm Humane Society at (585) 223-1330 — pet continuing-care arrangements.",
       "Monroe County Clerk at (585) 753-1600 — recording of trust documents.",
-      "JustCause at (585) 295-5708 — pro bono estate planning."
+      "JustCause at (585) 232-3051 — pro bono estate planning."
     ]
   },
 
@@ -77,9 +77,9 @@ export const PET_TRUST_NY = {
       name: "JustCause",
       focus: "Pro bono estate planning including pet trusts for low-income residents",
       qualifier: "Low-income Monroe County residents",
-      access: "Phone at (585) 295-5708",
+      access: "Phone at (585) 232-3051",
       outcome: "Trust drafting, probate support",
-      phone: "(585) 295-5708",
+      phone: "(585) 232-3051",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: true,

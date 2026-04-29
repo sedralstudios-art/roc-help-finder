@@ -44,7 +44,7 @@ export const HANDWRITTEN_WILL_NY = {
   legalOptions: {
     en: [
       "Monroe County Surrogate's Court at (585) 371-3630 — will probate and admin.",
-      "JustCause at (585) 295-5708 — pro bono will preparation for low-income residents.",
+      "JustCause at (585) 232-3051 — pro bono will preparation for low-income residents.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income probate help.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — estate planning attorneys.",
       "NY State Bar Association Elder Law Section at (518) 463-3200 — older adult planning.",
@@ -64,9 +64,9 @@ export const HANDWRITTEN_WILL_NY = {
       name: "JustCause",
       focus: "Pro bono will preparation, simple estate planning",
       qualifier: "Low-income Monroe County residents",
-      access: "Phone at (585) 295-5708",
+      access: "Phone at (585) 232-3051",
       outcome: "Attorney-drafted will at no cost",
-      phone: "(585) 295-5708",
+      phone: "(585) 232-3051",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: true,
@@ -115,6 +115,7 @@ export const HANDWRITTEN_WILL_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
