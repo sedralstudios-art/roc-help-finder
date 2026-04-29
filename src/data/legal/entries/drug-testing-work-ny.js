@@ -111,7 +111,8 @@ export const DRUG_TESTING_WORK_NY = {
     "https://cannabis.ny.gov/employment"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
