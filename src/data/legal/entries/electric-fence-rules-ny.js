@@ -4,13 +4,13 @@ export const ELECTRIC_FENCE_RULES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY AGM 30-A",
+  primaryStatute: "NY TWN 300",
   status: "active",
 
   title: { en: "Electric Fences in New York — When They Are Legal and What the Rules Require" },
 
   summary: {
-    en: "Electric fences for livestock are legal on agricultural land in New York. Electric fences for security around homes or businesses are tighter — some towns ban them, and most require a permit. A fence that shocks a neighbor, a child, or a delivery worker can put the property owner on the hook for damages. The main statute is Agriculture and Markets Law 30-a. Any electric fence has to use a UL-listed charger, not house current. Proper grounding and warning signs are baseline safety requirements."
+    en: "Electric fences for livestock are legal on agricultural land in New York. Electric fences for security around homes or businesses are tighter — some towns ban them, and most require a permit. A fence that shocks a neighbor, a child, or a delivery worker can put the property owner on the hook for damages. Livestock fencing rules sit in NY Town Law Article 18 (sections 300 and 309), and farms in agricultural districts get extra protection from restrictive local laws under AGM § 305-a. Any electric fence has to use a UL-listed charger, not house current. Proper grounding and warning signs are baseline safety requirements."
   },
 
   whoQualifies: {
@@ -23,12 +23,12 @@ export const ELECTRIC_FENCE_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Agriculture and Markets Law 30-a is the main state statute. It allows electric fences on agricultural land to contain livestock — cattle, horses, sheep, goats, poultry — when the fence is properly built and marked. Beyond that, local codes and general common-law duties do most of the work.\n\nEquipment rules. Any legal electric fence uses a UL-listed fence charger, sometimes called an energizer. The charger produces short pulses of current, not a continuous flow. Wiring a fence directly to household current is dangerous and illegal — a continuous shock from line voltage can kill. A fence that injures someone because it was wired to house current can lead to criminal charges under the reckless endangerment statutes (Penal Law 120.20 and 120.25).\n\nGrounding. The charger is grounded to one or more copper ground rods driven into damp soil. Poor grounding causes weak shocks, radio interference, and sometimes fence failures that make the fence unreliable for livestock. Manufacturer guides give the number of rods for the charger size.\n\nWarning signs. Warning signs are posted on the fence at eye level where people might encounter it. Standard signs read 'Electric Fence' or 'Warning — Electric Fence' in large letters. Signs are required practice and carry legal weight in any injury case.\n\nAgricultural use. A farm using an electric fence for livestock on agricultural land has broad latitude under AGM 30-a, as long as the charger is UL-listed, the fence is grounded, and warning signs are posted. The New York Right to Farm Law also protects normal agricultural practices from nuisance claims when farming was established before the neighbor moved in.\n\nResidential use. Most Monroe County towns do not specifically address electric fences in the zoning code. The general fence rules apply — setbacks, height, sight lines — plus the local building and electrical codes and the common-law duty to avoid harming others. Calling the town building department before installing is the clean first step. Some towns prohibit residential security fences entirely; others allow them with a permit and additional barrier fencing on the outside so the electric wire is not the first thing a passerby touches.\n\nGarden fences. A low-energy garden fence (deer, rabbits, small animals) that uses a solar or plug-in garden charger produces a mild, startling shock — not harmful under normal conditions. These are generally permitted in residential yards. Warning signs are still best practice even for garden fences.\n\nLiability. A person shocked by a poorly built electric fence can sue the property owner under New York premises liability rules. The owner's duty is to keep the property reasonably safe for people who might foreseeably encounter the fence. A fence facing a sidewalk, a bus stop, a playground, or a shared driveway raises the bar sharply. A child injured changes the analysis further under the attractive-nuisance doctrine, which holds property owners to a heightened duty where dangerous conditions could attract children.\n\nCriminal exposure. A fence wired to household current that seriously injures or kills someone can support charges under Penal Law 120.20 (reckless endangerment in the 2nd) or 120.25 (reckless endangerment in the 1st), plus homicide or manslaughter charges where death results. Criminal exposure is not hypothetical — prosecutors have brought these cases in similar fact patterns.\n\nComplaints. A neighbor with safety concerns about an electric fence can report it to the local code enforcement office. A dangerous or illegal fence can lead to citations and a requirement to remove or rebuild it."
+    en: "NY Town Law Article 18 (sections 300 and 309) sets the basic framework for division fences between properties used for livestock — and electrified fences are recognized as permissible for that purpose. AGM § 305-a protects farms inside an agricultural district from local laws that would unreasonably restrict standard farming practices, including electric fencing. Beyond that, local codes and general common-law duties do most of the work.\n\nEquipment rules. Any legal electric fence uses a UL-listed fence charger, sometimes called an energizer. The charger produces short pulses of current, not a continuous flow. Wiring a fence directly to household current is dangerous and illegal — a continuous shock from line voltage can kill. A fence that injures someone because it was wired to house current can lead to criminal charges under the reckless endangerment statutes (Penal Law 120.20 and 120.25).\n\nGrounding. The charger is grounded to one or more copper ground rods driven into damp soil. Poor grounding causes weak shocks, radio interference, and sometimes fence failures that make the fence unreliable for livestock. Manufacturer guides give the number of rods for the charger size.\n\nWarning signs. Warning signs are posted on the fence at eye level where people might encounter it. Standard signs read 'Electric Fence' or 'Warning — Electric Fence' in large letters. Signs are required practice and carry legal weight in any injury case.\n\nAgricultural use. A farm using an electric fence for livestock on agricultural land has broad latitude under AGM 30-a, as long as the charger is UL-listed, the fence is grounded, and warning signs are posted. The New York Right to Farm Law also protects normal agricultural practices from nuisance claims when farming was established before the neighbor moved in.\n\nResidential use. Most Monroe County towns do not specifically address electric fences in the zoning code. The general fence rules apply — setbacks, height, sight lines — plus the local building and electrical codes and the common-law duty to avoid harming others. Calling the town building department before installing is the clean first step. Some towns prohibit residential security fences entirely; others allow them with a permit and additional barrier fencing on the outside so the electric wire is not the first thing a passerby touches.\n\nGarden fences. A low-energy garden fence (deer, rabbits, small animals) that uses a solar or plug-in garden charger produces a mild, startling shock — not harmful under normal conditions. These are generally permitted in residential yards. Warning signs are still best practice even for garden fences.\n\nLiability. A person shocked by a poorly built electric fence can sue the property owner under New York premises liability rules. The owner's duty is to keep the property reasonably safe for people who might foreseeably encounter the fence. A fence facing a sidewalk, a bus stop, a playground, or a shared driveway raises the bar sharply. A child injured changes the analysis further under the attractive-nuisance doctrine, which holds property owners to a heightened duty where dangerous conditions could attract children.\n\nCriminal exposure. A fence wired to household current that seriously injures or kills someone can support charges under Penal Law 120.20 (reckless endangerment in the 2nd) or 120.25 (reckless endangerment in the 1st), plus homicide or manslaughter charges where death results. Criminal exposure is not hypothetical — prosecutors have brought these cases in similar fact patterns.\n\nComplaints. A neighbor with safety concerns about an electric fence can report it to the local code enforcement office. A dangerous or illegal fence can lead to citations and a requirement to remove or rebuild it."
   },
 
   yourRights: {
     en: [
-      "A farmer has the right to install electric fencing for livestock on agricultural land under AGM 30-a.",
+      "A farmer has the right to install electric fencing for livestock under NY Town Law Article 18, with extra protection from restrictive local laws if the farm is in an agricultural district under AGM § 305-a.",
       "A homeowner planning an electric fence has the right to a clear answer from the local building department on whether the installation is allowed and under what conditions.",
       "A person injured by a poorly built or unmarked electric fence has the right to sue the property owner for damages under premises liability.",
       "Every electric fence has to use a UL-listed charger; wiring to household current is illegal and can support criminal charges when someone is seriously hurt.",
@@ -39,7 +39,7 @@ export const ELECTRIC_FENCE_RULES_NY = {
 
   legalOptions: {
     en: [
-      "AGM 30-a permits electric fencing on agricultural land when the installation uses UL-listed equipment and warning signs.",
+      "Town Law § 300 and § 309 set the division-fence framework; agricultural-district farms get added protection under AGM § 305-a.",
       "For a residential installation, calling the local building department is the right first step. Rochester Building Code line: (585) 428-6520. Suburban towns: the town building department.",
       "A known-hazard electric fence can be reported to code enforcement; unmarked fences, fences near sidewalks or playgrounds, and fences near children are common complaint triggers.",
       "A person injured by an electric fence can sue the property owner. For serious injuries, a personal injury attorney can evaluate the case under premises liability and attractive-nuisance rules.",
@@ -92,12 +92,15 @@ export const ELECTRIC_FENCE_RULES_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/AGM/30-A",
+    "https://www.nysenate.gov/legislation/laws/TWN/300",
+    "https://www.nysenate.gov/legislation/laws/TWN/309",
+    "https://www.nysenate.gov/legislation/laws/AGM/305-A",
     "https://www.nysenate.gov/legislation/laws/PEN/120.25",
     "https://monroe.cce.cornell.edu"
   ],
 
-  lastVerified: "2026-04-22",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
