@@ -16,19 +16,19 @@ export const PREGNANT_WORKERS_FAIRNESS_ACT_NY = {
   whoQualifies: {
     en: [
       "Any worker who is pregnant, recovering from childbirth, or has a pregnancy-related medical condition.",
-      "Any worker at an employer with 15 or more employees (PWFA) or 4 or more employees (NY State Human Rights Law).",
+      "Any worker at an employer with 15 or more employees (PWFA) or any size employer (NY State Human Rights Law since the 4-employee threshold was removed Feb 8, 2020).",
       "Any worker denied accommodations like extra water, bathroom breaks, light duty, or time off for medical appointments.",
       "Any worker forced to take unpaid leave instead of being given a reasonable accommodation."
     ]
   },
 
   whatItMeans: {
-    en: "The federal Pregnant Workers Fairness Act (42 USC Sections 2000gg through 2000gg-6), effective June 2023, requires covered employers (15+ employees) to provide reasonable accommodations to workers with limitations due to pregnancy, childbirth, or related medical conditions — unless the accommodation would cause the employer undue hardship. Reasonable accommodations include frequent bathroom breaks, carrying a water bottle, seating, limits on standing or lifting, closer parking, flexible hours for prenatal appointments, light or modified duty, temporary reassignment, leave for recovery from childbirth or pregnancy complications, and break time and space for pumping breast milk (the latter also covered by the PUMP Act). The employer and worker are required to engage in an interactive process — an informal discussion to identify a workable accommodation. A doctor's note can be requested but the law limits what documentation an employer can demand. The employer cannot force the worker to take unpaid leave if another reasonable accommodation would work. The employer cannot retaliate against a worker who asks for accommodation. New York State Human Rights Law (Executive Law Section 296(3)) provides parallel protections, covers employers with 4 or more employees (broader than PWFA), and also applies to pregnancy-related conditions. New York City has additional requirements for employers with 4 or more employees. The PUMP Act (29 USC Section 218d) requires nearly all employers to provide break time and a private (non-bathroom) space for pumping breast milk for up to one year after the child's birth. A worker whose accommodations were denied or who was fired after asking can file a charge with the EEOC (federal) or NYS Division of Human Rights."
+    en: "The federal Pregnant Workers Fairness Act (42 USC Sections 2000gg through 2000gg-6), effective June 2023, requires covered employers (15+ employees) to provide reasonable accommodations to workers with limitations due to pregnancy, childbirth, or related medical conditions — unless the accommodation would cause the employer undue hardship. Reasonable accommodations include frequent bathroom breaks, carrying a water bottle, seating, limits on standing or lifting, closer parking, flexible hours for prenatal appointments, light or modified duty, temporary reassignment, leave for recovery from childbirth or pregnancy complications, and break time and space for pumping breast milk (the latter also covered by the PUMP Act). The employer and worker are required to engage in an interactive process — an informal discussion to identify a workable accommodation. A doctor's note can be requested but the law limits what documentation an employer can demand. The employer cannot force the worker to take unpaid leave if another reasonable accommodation would work. The employer cannot retaliate against a worker who asks for accommodation. New York State Human Rights Law (Executive Law Section 296(3)) provides parallel protections, covers employers of any size since the 4-employee threshold was eliminated effective Feb 8, 2020 (broader than PWFA), and also applies to pregnancy-related conditions. New York City has additional requirements under the NYC Human Rights Law that apply to employers with 4 or more employees. The PUMP Act (29 USC Section 218d) requires nearly all employers to provide break time and a private (non-bathroom) space for pumping breast milk for up to one year after the child's birth. A worker whose accommodations were denied or who was fired after asking can file a charge with the EEOC (federal) or NYS Division of Human Rights."
   },
 
   yourRights: {
     en: [
-      "A pregnant worker has the right to request reasonable accommodation from any employer with 15+ employees (federal PWFA) or 4+ employees (NY State Human Rights Law).",
+      "A pregnant worker has the right to request reasonable accommodation from any employer with 15+ employees (federal PWFA) or any size employer (NY State Human Rights Law since the 4-employee threshold was eliminated Feb 8, 2020).",
       "The employer must engage in an interactive process to find a workable accommodation.",
       "An employer cannot force a worker to take unpaid leave if another reasonable accommodation would work.",
       "An employer cannot retaliate against a worker who requests accommodation or exercises rights.",
@@ -113,6 +113,7 @@ export const PREGNANT_WORKERS_FAIRNESS_ACT_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

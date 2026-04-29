@@ -198,6 +198,16 @@ const FABRICATIONS = [
     cooccur: /Rochester|Monroe\s+County/i,
     label: 'PHL 1310 applied to Rochester/Monroe',
     fix: 'PHL 1310 only applies to cities of 400k+ plus Yonkers and Albany; Rochester (~210k) is not covered' },
+
+  { pat: /\bGBS\s+§?\s*396-?s\b/i,
+    cooccur: /service\s+contract|extended\s+warranty/i,
+    label: 'GBS 396-s applied to service contracts / extended warranties',
+    fix: 'GBS 396-s does not regulate service contracts; the actual statute is NY Insurance Law Article 79 (sections 7901-7912) and DFS Regulation 155 (11 NYCRR Part 390)' },
+
+  { pat: /\b(?:four|4)\s+(?:or\s+more\s+)?employees\b/i,
+    cooccur: /(?:Fair\s+Chance\s+Act|NYS\s*HRL|NY\s+State\s+Human\s+Rights\s+Law|NYSHRL)/i,
+    label: 'Four-employee NY State HRL / Fair Chance employer threshold',
+    fix: 'NY HRL state-level employer threshold was removed effective Feb 8, 2020; applies to all employers regardless of size. (NYC HRL still has its own threshold — make sure the entry distinguishes state from city.)' },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.
@@ -231,6 +241,8 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-371-3553', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
   { num: '585-428-2480', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
   { num: '585-428-5429', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
+  // Monroe DHS old main line — context-aware so the program-specific lines aren't false-positives
+  { num: '585-753-6960', label: 'Monroe County DHS / DSS (old main number)',   fix: 'use (585) 753-6998 for DHS general, (585) 753-6316 for Child Care', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Department\s+of)/i },
 ];
 
 function normalizePhone(s) {
