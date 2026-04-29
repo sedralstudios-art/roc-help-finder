@@ -39,7 +39,7 @@ export const SIDEWALK_TRIP_FALL_CLAIM_NY = {
 
   legalOptions: {
     en: [
-      "For Rochester sidewalk claims, a Notice of Claim must be filed with the City Clerk within 90 days. City Clerk at (585) 428-7421.",
+      "For Rochester sidewalk claims, a Notice of Claim must be filed with the City Clerk within 90 days. City Clerk at (585) 428-6617.",
       "For other Monroe County towns, file the Notice of Claim with the town clerk within 90 days.",
       "To report a dangerous sidewalk in Rochester, call 311.",
       "For claims against property owners, a personal injury attorney can assess the case — Monroe County Bar Association referral at (585) 546-2130.",

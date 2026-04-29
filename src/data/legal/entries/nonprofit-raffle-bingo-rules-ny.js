@@ -39,7 +39,7 @@ export const NONPROFIT_RAFFLE_BINGO_RULES_NY = {
   legalOptions: {
     en: [
       "NYS Gaming Commission Division of Charitable Gaming at (518) 388-3400 administers the raffle and bingo program statewide.",
-      "Monroe County municipal clerks serve as Games of Chance Clerks: City of Rochester Clerk (585) 428-7421, Greece Town Clerk (585) 723-2302, Brighton Town Clerk (585) 784-5250, Irondequoit Town Clerk (585) 467-8840, Penfield Town Clerk (585) 340-8630, Pittsford Town Clerk (585) 248-6220.",
+      "Monroe County municipal clerks serve as Games of Chance Clerks: City of Rochester Clerk (585) 428-6617, Greece Town Clerk (585) 723-2302, Brighton Town Clerk (585) 784-5250, Irondequoit Town Clerk (585) 467-8840, Penfield Town Clerk (585) 340-8630, Pittsford Town Clerk (585) 248-6220.",
       "For a violation of the permit rules, the Gaming Commission at (518) 388-3400 handles compliance.",
       "For online raffle application, the NYS Gaming Commission online portal handles registration.",
       "Monroe County Bar Association at (585) 546-2130 refers nonprofits to attorneys who handle nonprofit governance."
@@ -71,7 +71,7 @@ export const NONPROFIT_RAFFLE_BINGO_RULES_NY = {
       qualifier: "Nonprofit operating a fundraiser in the City of Rochester",
       access: "Phone, walk-in City Hall",
       outcome: "Permit issuance, event records, local compliance",
-      phone: "(585) 428-7421",
+      phone: "(585) 428-6617",
       url: "https://www.cityofrochester.gov/cityclerk",
       verified: true,
       bilingual: false,
