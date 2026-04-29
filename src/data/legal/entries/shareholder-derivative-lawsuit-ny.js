@@ -42,7 +42,7 @@ export const SHAREHOLDER_DERIVATIVE_LAWSUIT_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Supreme Court Commercial Division at (585) 371-3300 — filings for business disputes.",
+      "Monroe County Supreme Court Commercial Division at (585) 371-3758 — filings for business disputes.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — business litigation attorneys.",
       "NY State Bar Association Business Law Section at (518) 463-3200 — practitioner resources.",
       "NYS Office of the Attorney General Charities Bureau at (518) 776-2160 — for nonprofit corporation issues.",

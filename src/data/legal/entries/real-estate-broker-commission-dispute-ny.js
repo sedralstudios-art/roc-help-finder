@@ -49,7 +49,7 @@ export const REAL_ESTATE_BROKER_COMMISSION_DISPUTE_NY = {
       "NY Attorney General Fair Housing at (800) 771-7755 — discrimination complaints.",
       "NY State Bar Association Real Property Section at (518) 463-3200.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income property disputes.",
-      "Monroe County Supreme Court at (585) 371-3300 — commission suits over $25,000.",
+      "Monroe County Supreme Court at (585) 371-3758 — commission suits over $25,000.",
       "Rochester City Court Commercial Part at (585) 371-3412 — smaller commission claims."
     ]
   },

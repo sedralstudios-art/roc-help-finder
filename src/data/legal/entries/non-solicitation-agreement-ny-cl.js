@@ -44,7 +44,7 @@ export const NON_SOLICITATION_AGREEMENT_NY_CL = {
     en: [
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — employment law attorneys.",
       "NYS Attorney General Labor Bureau at (212) 416-8700 — systemic employer overreach complaints.",
-      "Monroe County Supreme Court at (585) 371-3300 — injunctive relief proceedings.",
+      "Monroe County Supreme Court at (585) 371-3758 — injunctive relief proceedings.",
       "NY Attorney General Consumer Frauds at (800) 771-7755.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income wrongful termination claims.",
       "Empire Justice Center at (585) 454-4060 — policy advocacy on restrictive covenants.",

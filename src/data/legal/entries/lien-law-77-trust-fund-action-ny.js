@@ -43,7 +43,7 @@ export const LIEN_LAW_77_TRUST_FUND_ACTION_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Supreme Court at (585) 371-3300 — trust fund action filings.",
+      "Monroe County Supreme Court at (585) 371-3758 — trust fund action filings.",
       "Monroe County Clerk at (585) 753-1600 — related mechanic's lien filings.",
       "NY Attorney General Construction Industry Section at (212) 416-8000.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — construction law attorneys.",
