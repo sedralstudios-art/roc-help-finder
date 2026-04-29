@@ -95,6 +95,7 @@ export const FIRED_FOR_CAUSE_UNEMPLOYMENT_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

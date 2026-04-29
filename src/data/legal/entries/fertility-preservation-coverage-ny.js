@@ -111,6 +111,7 @@ export const FERTILITY_PRESERVATION_COVERAGE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
