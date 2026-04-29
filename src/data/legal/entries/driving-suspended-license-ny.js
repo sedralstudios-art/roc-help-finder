@@ -41,9 +41,9 @@ export const DRIVING_SUSPENDED_LICENSE_NY = {
       "NYS DMV at (518) 486-9786 or dmv.ny.gov confirms current license status and reason for any suspension.",
       "Monroe County Public Defender at (585) 753-4210 represents indigent defendants in AUO and other criminal cases.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income defendants in traffic-related cases.",
-      "Monroe County Traffic Violations Agency at (585) 753-4240 handles non-felony traffic charges in the city.",
+      "Rochester Traffic Violations Agency at (888) 912-1541 (200 E Main St, Suite B-002) handles non-criminal moving violations in the city.",
       "Monroe County Bar Association at (585) 546-2130 refers to private traffic counsel for AUO cases.",
-      "For clearing an underlying suspension caused by unpaid support, Monroe County Child Support Enforcement at (585) 753-6988."
+      "For clearing an underlying suspension caused by unpaid support, Monroe County Child Support Enforcement Unit at (585) 753-1441 or the statewide helpline (888) 208-4485."
     ]
   },
 
@@ -108,7 +108,8 @@ export const DRIVING_SUSPENDED_LICENSE_NY = {
     "https://dmv.ny.gov/tickets/check-your-driver-license-status"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
