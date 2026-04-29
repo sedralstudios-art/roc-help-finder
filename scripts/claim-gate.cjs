@@ -480,7 +480,7 @@ function writeFactCheckedBy(filename, tool) {
   const filepath = path.join(ENTRIES_DIR, filename);
   let src = fs.readFileSync(filepath, 'utf8');
   const today = new Date().toISOString().slice(0, 10);
-  const newField = 'factCheckedBy: { tool: "' + (tool || 'claim-gate') + '", date: "' + today + '" }';
+  const newField = 'factCheckedBy: { tool: "' + (tool || 'websearch') + '", date: "' + today + '" }';
 
   if (/factCheckedBy\s*:/.test(src)) {
     src = src.replace(/factCheckedBy\s*:\s*\{[^}]*\}/, newField);
@@ -501,7 +501,7 @@ function main() {
   const writeMode = args.includes('--write');
   const allMode = args.includes('--all');
   const toolArgIdx = args.findIndex(a => a.startsWith('--tool='));
-  const tool = toolArgIdx >= 0 ? args[toolArgIdx].slice(7) : 'claim-gate';
+  const tool = toolArgIdx >= 0 ? args[toolArgIdx].slice(7) : 'websearch';
 
   if (allMode) {
     const files = fs.readdirSync(ENTRIES_DIR)
