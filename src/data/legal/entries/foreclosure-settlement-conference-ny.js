@@ -116,6 +116,7 @@ export const FORECLOSURE_SETTLEMENT_CONFERENCE_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -96,7 +96,7 @@ export const FISHING_HUNTING_LICENSE_NY = {
   ],
 
   lastVerified: "2026-04-17",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

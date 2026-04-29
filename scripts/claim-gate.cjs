@@ -476,11 +476,11 @@ function printManifest(report) {
   }
 }
 
-function writeFactCheckedBy(filename) {
+function writeFactCheckedBy(filename, tool) {
   const filepath = path.join(ENTRIES_DIR, filename);
   let src = fs.readFileSync(filepath, 'utf8');
   const today = new Date().toISOString().slice(0, 10);
-  const newField = 'factCheckedBy: { tool: "claim-gate", date: "' + today + '" }';
+  const newField = 'factCheckedBy: { tool: "' + (tool || 'claim-gate') + '", date: "' + today + '" }';
 
   if (/factCheckedBy\s*:/.test(src)) {
     src = src.replace(/factCheckedBy\s*:\s*\{[^}]*\}/, newField);
@@ -500,6 +500,8 @@ function main() {
   const args = process.argv.slice(2);
   const writeMode = args.includes('--write');
   const allMode = args.includes('--all');
+  const toolArgIdx = args.findIndex(a => a.startsWith('--tool='));
+  const tool = toolArgIdx >= 0 ? args[toolArgIdx].slice(7) : 'claim-gate';
 
   if (allMode) {
     const files = fs.readdirSync(ENTRIES_DIR)
@@ -540,7 +542,7 @@ function main() {
       process.exit(1);
     }
     console.log('');
-    writeFactCheckedBy(filename);
+    writeFactCheckedBy(filename, tool);
   }
 
   process.exit(report.fails.length > 0 ? 1 : 0);

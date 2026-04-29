@@ -111,7 +111,7 @@ export const FORCE_PLACED_HOMEOWNER_INSURANCE_NY = {
   ],
 
   lastVerified: "2026-04-20",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -116,7 +116,7 @@ export const FARM_WORKER_LABOR_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-18",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

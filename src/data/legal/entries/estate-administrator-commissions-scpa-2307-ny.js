@@ -116,7 +116,7 @@ export const ESTATE_ADMINISTRATOR_COMMISSIONS_SCPA_2307_NY = {
   ],
 
   lastVerified: "2026-04-19",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

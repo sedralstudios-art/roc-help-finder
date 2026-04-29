@@ -42,7 +42,7 @@ export const FOSTER_CARE_BILL_OF_RIGHTS_NY = {
     en: [
       "Legal Aid Society of Rochester at (585) 232-4090 represents children and parents in foster care proceedings.",
       "The child's Law Guardian (court-appointed attorney) represents the child's wishes in family court.",
-      "Monroe County Department of Human Services — Child and Family Services at (585) 753-6000 administers foster care in the county.",
+      "Monroe County Department of Human Services — Child and Family Services at (585) 753-6998 (main) or (585) 753-5765 for foster care intake administers foster care in the county.",
       "NYS Office of Children and Family Services (OCFS) oversees foster care statewide — call (518) 474-3333 for complaints about care.",
       "The Statewide Youth Advisory Board (SYAB) at OCFS gives youth in foster care a voice in policy.",
       "For youth aging out, the Chafee Foster Care Independence Program provides transition services — ask the caseworker or call OCFS."
@@ -100,6 +100,7 @@ export const FOSTER_CARE_BILL_OF_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

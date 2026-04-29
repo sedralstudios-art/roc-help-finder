@@ -145,7 +145,7 @@ export const EVICTION_PROCESS_NY = {
   ],
 
   lastVerified: "2026-04-21",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

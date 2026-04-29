@@ -116,7 +116,7 @@ export const FALSE_CLAIMS_ACT_WHISTLEBLOWER_NY = {
   ],
 
   lastVerified: "2026-04-18",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

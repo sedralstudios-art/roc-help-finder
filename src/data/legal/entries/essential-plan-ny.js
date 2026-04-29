@@ -111,7 +111,7 @@ export const ESSENTIAL_PLAN_NY = {
   ],
 
   lastVerified: "2026-04-20",
-  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
