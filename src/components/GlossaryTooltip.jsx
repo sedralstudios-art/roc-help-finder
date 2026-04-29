@@ -41,11 +41,9 @@ function linkifyPhones(text, keyPrefix) {
           key: keyPrefix + "-p" + m.index,
           href: "tel:" + digits,
           style: {
-            color: "inherit",
-            textDecoration: "underline",
-            textDecorationStyle: "dotted",
-            textDecorationColor: "#2e7d32",
-            textUnderlineOffset: 2,
+            color: "#2e7d32",
+            textDecoration: "none",
+            fontWeight: 500,
           },
         },
         m[0],
@@ -155,16 +153,21 @@ export default function GlossaryText({ text, maxHighlights }) {
                 setExpandedTermId(isExpanded ? null : seg.termId);
               }}
               style={{
-                background: "none",
+                background: "rgba(94, 53, 177, 0.08)",
                 border: "none",
-                borderBottom: "1.5px dotted #5e35b1",
+                borderRadius: 4,
                 color: "#4527a0",
-                cursor: "pointer",
-                padding: "2px 1px",
+                cursor: "help",
+                padding: "1px 4px",
+                margin: "0 1px",
                 fontFamily: "inherit",
                 fontSize: "inherit",
                 lineHeight: "inherit",
+                fontWeight: 500,
+                transition: "background 0.15s",
               }}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(94, 53, 177, 0.18)")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "rgba(94, 53, 177, 0.08)")}
               title={"Tap for definition: " + pickText(term.term)}
             >
               {seg.value}
