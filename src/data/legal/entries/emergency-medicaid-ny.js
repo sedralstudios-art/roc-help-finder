@@ -92,7 +92,8 @@ export const EMERGENCY_MEDICAID_NY = {
     "https://www.health.ny.gov/health_care/medicaid/"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
