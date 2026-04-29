@@ -96,7 +96,8 @@ export const DOOR_TO_DOOR_SALES_CANCEL_NY = {
     "https://www.ftc.gov/legal-library/browse/rules/cooling-rule"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
