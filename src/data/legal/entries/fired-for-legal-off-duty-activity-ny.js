@@ -115,6 +115,7 @@ export const FIRED_FOR_LEGAL_OFF_DUTY_ACTIVITY_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

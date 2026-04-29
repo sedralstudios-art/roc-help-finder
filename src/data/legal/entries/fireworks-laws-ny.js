@@ -97,6 +97,7 @@ export const FIREWORKS_LAWS_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
