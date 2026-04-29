@@ -42,7 +42,7 @@ export const DOMESTIC_WORKER_RIGHTS_NY = {
     en: [
       "If a domestic worker is not being paid properly, a wage complaint can be filed with the NY Department of Labor at (888) 469-7365 or at dol.ny.gov.",
       "For harassment or discrimination, a complaint can be filed with the NY Division of Human Rights at (888) 392-3644.",
-      "The National Domestic Workers Alliance provides resources and support. Hotline: (646) 360-9673.",
+      "The National Domestic Workers Alliance provides resources and support. Hotline: (646) 360-5806.",
       "Free legal help with domestic worker issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "Workers' Compensation claims for injuries on the job are filed with the NY Workers' Compensation Board at (877) 632-4996."
     ]
@@ -73,7 +73,7 @@ export const DOMESTIC_WORKER_RIGHTS_NY = {
       qualifier: "Any domestic worker in the US",
       access: "Phone",
       outcome: "Resources, referrals, support",
-      phone: "(646) 360-9673",
+      phone: "(646) 360-5806",
       url: "https://www.domesticworkers.org",
       verified: true,
       bilingual: true,
@@ -110,7 +110,8 @@ export const DOMESTIC_WORKER_RIGHTS_NY = {
     "https://dol.ny.gov/domestic-workers"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
