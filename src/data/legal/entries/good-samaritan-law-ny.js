@@ -146,6 +146,7 @@ export const GOOD_SAMARITAN_LAW_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
