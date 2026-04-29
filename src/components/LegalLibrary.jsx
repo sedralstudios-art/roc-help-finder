@@ -750,11 +750,9 @@ function ShareBar({ entryId, title }) {
 function EntryTocSidebar({ sections, isRTL }) {
   return (
     <aside style={{
-      width: 240, flexShrink: 0,
-      position: "sticky", top: 16, alignSelf: "flex-start",
+      position: "sticky", top: 16,
       maxHeight: "calc(100vh - 32px)", overflowY: "auto",
       paddingTop: 70,
-      [isRTL ? "marginRight" : "marginLeft"]: 28,
     }}>
       <div style={{ fontSize: 11, fontWeight: 700, color: C.dust, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.6 }}>On this page</div>
       <nav style={{ display: "flex", flexDirection: "column", gap: 2, marginBottom: 24, borderLeft: "2px solid " + C.border, paddingLeft: 0 }}>
@@ -828,13 +826,21 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
   if (relIds.length > 0) tocSections.push({ id: "related-guides", label: "Related guides" });
   if (entry.sources && entry.sources.length > 0) tocSections.push({ id: "sources", label: "Sources & citations" });
 
-  // Wrapper layout — desktop adds a sticky right-rail TOC; mobile/tablet keeps single-column.
+  // Wrapper layout — desktop uses CSS grid with article + sticky TOC sidebar.
+  // Grid is more reliable than flex for two-column with fixed sidebar; minmax(0, 1fr)
+  // lets the article fill all remaining space without being clipped by long content.
   const outerStyle = isDesktop
-    ? { padding: "0 20px 40px", maxWidth: 1180, margin: "0 auto", display: "flex", alignItems: "flex-start", gap: 0 }
+    ? {
+        padding: "0 32px 40px",
+        maxWidth: 1480,
+        margin: "0 auto",
+        display: "grid",
+        gridTemplateColumns: "minmax(0, 1fr) 280px",
+        gap: 56,
+        alignItems: "start",
+      }
     : { padding: "0 20px 40px", maxWidth: 900, margin: "0 auto" };
-  const articleStyle = isDesktop
-    ? { flex: 1, minWidth: 0, maxWidth: 820 }
-    : {};
+  const articleStyle = isDesktop ? { minWidth: 0 } : {};
 
   return (
     <main dir={isRTL ? "rtl" : "ltr"} style={outerStyle}>
