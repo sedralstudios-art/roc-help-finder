@@ -100,6 +100,7 @@ export const HIT_AND_RUN_LEAVING_SCENE_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

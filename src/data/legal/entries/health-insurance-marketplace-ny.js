@@ -115,6 +115,7 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,
