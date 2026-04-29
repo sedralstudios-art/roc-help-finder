@@ -111,6 +111,7 @@ export const HEATING_OIL_TANK_REMOVAL_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
