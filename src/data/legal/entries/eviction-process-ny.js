@@ -42,7 +42,7 @@ export const EVICTION_PROCESS_NY = {
 
   legalOptions: {
     en: [
-      "Rochester City Court Civil Part at 295 Exchange Boulevard, Rochester, (585) 371-3412 — hears eviction cases for properties inside Rochester.",
+      "Rochester City Court Civil Division at 99 Exchange Blvd Room 6, Rochester, (585) 371-3412 — hears eviction cases for properties inside Rochester.",
       "Monroe County town and village justice courts — each town and village handles evictions for properties in its jurisdiction.",
       "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income Monroe County tenants in eviction defense; often staffs the Rochester City Court Housing Part on hearing days.",
       "LawNY at (585) 325-2520 — eviction defense across 14-county Western NY service area.",
@@ -145,6 +145,7 @@ export const EVICTION_PROCESS_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "claim-gate", date: "2026-04-29" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
