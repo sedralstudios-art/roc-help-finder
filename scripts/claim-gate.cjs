@@ -223,6 +223,11 @@ const FABRICATIONS = [
     cooccur: /financial\s+exploitation|elder\s+abuse|vulnerable\s+adult|elder\s+fraud/i,
     label: 'Elder Law 224 miscited as financial exploitation statute',
     fix: 'NY Elder Law has no § 224 covering financial exploitation; the criminal statute is NY Penal Law § 260.32 (Endangering the welfare of a vulnerable elderly person, class E felony) plus Penal Law § 190.65 (Scheme to defraud 1st degree) and PEN Article 155 grand larceny degrees scaled by value' },
+
+  { pat: /\b(?:GBS|GBL)\s+§?\s*58[01]\b/i,
+    cooccur: /scanner|item\s+pricing|shelf\s+price|grocery\s+overcharge/i,
+    label: 'GBL 580 / 581 miscited as Scanner / Item Pricing Law',
+    fix: 'GBL 580-596 is "Going Out of Business Sales" (Article 29-F). The scanner / item pricing law is NY Agriculture and Markets Law § 197-b' },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.
