@@ -114,7 +114,8 @@ export const EARLY_INTERVENTION_INFANTS_TODDLERS_NY = {
     "https://www.health.ny.gov/community/infants_children/early_intervention/"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
