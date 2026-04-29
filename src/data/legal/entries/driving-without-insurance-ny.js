@@ -97,7 +97,8 @@ export const DRIVING_WITHOUT_INSURANCE_NY = {
     "https://dmv.ny.gov/insurance/insurance-requirements"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
