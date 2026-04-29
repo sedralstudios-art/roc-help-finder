@@ -44,7 +44,7 @@ export const EMTALA_EMERGENCY_ROOM_STABILIZATION_NY = {
 
   legalOptions: {
     en: [
-      "CMS Region 2 Complaint Office at (212) 616-2000 — EMTALA complaints for NY hospitals.",
+      "CMS Region 2 Complaint Office at (212) 264-3657 — EMTALA complaints for NY hospitals.",
       "HHS OIG Hotline at (800) 447-8477 — federal EMTALA violation reporting.",
       "NYS Department of Health Bureau of Hospital and Primary Care Services at (518) 402-1057 — state hospital complaint.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — personal injury attorneys for EMTALA violations.",
@@ -64,9 +64,9 @@ export const EMTALA_EMERGENCY_ROOM_STABILIZATION_NY = {
       name: "Centers for Medicare and Medicaid Services Region 2",
       focus: "EMTALA compliance investigation for NY hospitals",
       qualifier: "Any person alleging an EMTALA violation",
-      access: "Phone (212) 616-2000 or online complaint form at cms.gov",
+      access: "Phone (212) 264-3657 or online complaint form at cms.gov",
       outcome: "Investigation, civil penalties, corrective action plan for hospital",
-      phone: "(212) 616-2000",
+      phone: "(212) 264-3657",
       url: "https://www.cms.gov/about-cms/contact/regional-offices",
       verified: true,
       bilingual: false,
@@ -118,7 +118,8 @@ export const EMTALA_EMERGENCY_ROOM_STABILIZATION_NY = {
     "https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
