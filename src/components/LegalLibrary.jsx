@@ -745,8 +745,62 @@ function ShareBar({ entryId, title }) {
 // ═══════════════════════════════════════════════════════════════════════════
 // ENTRY DETAIL
 // ═══════════════════════════════════════════════════════════════════════════
+// Sticky right-rail TOC for entry pages on desktop. Hidden on viewport
+// below 1100px (article falls back to single-column on tablet/mobile).
+function EntryTocSidebar({ sections, isRTL }) {
+  return (
+    <aside style={{
+      width: 240, flexShrink: 0,
+      position: "sticky", top: 16, alignSelf: "flex-start",
+      maxHeight: "calc(100vh - 32px)", overflowY: "auto",
+      paddingTop: 70,
+      [isRTL ? "marginRight" : "marginLeft"]: 28,
+    }}>
+      <div style={{ fontSize: 11, fontWeight: 700, color: C.dust, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.6 }}>On this page</div>
+      <nav style={{ display: "flex", flexDirection: "column", gap: 2, marginBottom: 24, borderLeft: "2px solid " + C.border, paddingLeft: 0 }}>
+        {sections.map(s => (
+          <a key={s.id} href={"#" + s.id} style={{
+            color: C.stone, fontSize: 13, textDecoration: "none",
+            padding: "6px 12px", marginLeft: -2,
+            borderLeft: "2px solid transparent",
+            lineHeight: 1.4,
+          }}>{s.label}</a>
+        ))}
+      </nav>
+      <a href="/support" style={{
+        display: "block", padding: "14px 16px",
+        background: C.amberLight, border: "1px solid " + C.amber,
+        borderRadius: 12, color: "#a07626", fontSize: 13, fontWeight: 600,
+        textDecoration: "none", lineHeight: 1.5,
+      }}>
+        <div style={{ fontSize: 14, marginBottom: 4 }}>❤️ Keep this free</div>
+        <div style={{ fontWeight: 400, fontSize: 12, color: C.stone }}>HelpFinder is free for everyone. If you can chip in, it covers hosting and verification.</div>
+      </a>
+    </aside>
+  );
+}
+
+function useIsDesktop(minWidth = 1100) {
+  const [is, setIs] = React.useState(() =>
+    typeof window !== "undefined" && window.matchMedia("(min-width: " + minWidth + "px)").matches
+  );
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    const mq = window.matchMedia("(min-width: " + minWidth + "px)");
+    const h = (e) => setIs(e.matches);
+    if (mq.addEventListener) mq.addEventListener("change", h);
+    else mq.addListener(h);
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener("change", h);
+      else mq.removeListener(h);
+    };
+  }, [minWidth]);
+  return is;
+}
+
 export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, onOpenEntry }) {
   const entry = entryId ? LEGAL_ENTRIES_BY_ID[entryId] : null;
+  const isDesktop = useIsDesktop(1100);
   if (!entry) {
     return (
       <main style={{ padding: "40px 20px", maxWidth: 900, margin: "0 auto" }}>
@@ -763,8 +817,28 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
   const relIds = (entry.relatedIds || []).filter((rid) => LEGAL_ENTRIES_BY_ID[rid]);
   const catMeta = CATEGORY_META[entry.category] || { label: entry.category };
 
+  // Build the TOC list from the sections that actually render for this entry.
+  const tocSections = [];
+  if (whoQualArr.length > 0) tocSections.push({ id: "who-qualifies", label: "Who qualifies" });
+  if (entry.whatItMeans) tocSections.push({ id: "what-it-means", label: "What it means" });
+  if (rightsArr.length > 0) tocSections.push({ id: "your-rights", label: "Your rights" });
+  if (optionsArr.length > 0) tocSections.push({ id: "legal-options", label: "Legal options" });
+  if (entry.example) tocSections.push({ id: "example", label: "Example" });
+  if (entry.counsel && entry.counsel.length > 0) tocSections.push({ id: "get-free-help", label: "Get free legal help" });
+  if (relIds.length > 0) tocSections.push({ id: "related-guides", label: "Related guides" });
+  if (entry.sources && entry.sources.length > 0) tocSections.push({ id: "sources", label: "Sources & citations" });
+
+  // Wrapper layout — desktop adds a sticky right-rail TOC; mobile/tablet keeps single-column.
+  const outerStyle = isDesktop
+    ? { padding: "0 20px 40px", maxWidth: 1180, margin: "0 auto", display: "flex", alignItems: "flex-start", gap: 0 }
+    : { padding: "0 20px 40px", maxWidth: 900, margin: "0 auto" };
+  const articleStyle = isDesktop
+    ? { flex: 1, minWidth: 0, maxWidth: 820 }
+    : {};
+
   return (
-    <main dir={isRTL ? "rtl" : "ltr"} style={{ padding: "0 20px 40px", maxWidth: 900, margin: "0 auto" }}>
+    <main dir={isRTL ? "rtl" : "ltr"} style={outerStyle}>
+      <div style={articleStyle}>
       <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>← Back to {catMeta.label}</button>
 
       <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} compact availableLangs={availableLangsForEntry(entry)} />
@@ -811,7 +885,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {whoQualArr.length > 0 && (
-        <section style={{ marginBottom: 26 }}>
+        <section id="who-qualifies" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>Who qualifies</h2>
           <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 22, paddingRight: isRTL ? 22 : 0, fontSize: 15, color: C.bark, lineHeight: 1.7 }}>
             {whoQualArr.map((item, i) => <li key={i} style={{ marginBottom: 8 }}>{item}</li>)}
@@ -820,7 +894,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {entry.whatItMeans && (
-        <section style={{ marginBottom: 26 }}>
+        <section id="what-it-means" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>What it means</h2>
           <p style={{ fontSize: 15, color: C.bark, lineHeight: 1.8, margin: 0, whiteSpace: "pre-wrap" }}>
             <GlossaryText text={pickText(entry.whatItMeans, legalLang)} maxHighlights={3} />
@@ -829,7 +903,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {rightsArr.length > 0 && (
-        <section style={{ marginBottom: 26, padding: "18px 22px", background: C.sage, borderRadius: 14, border: "1px solid #c8e6c9" }}>
+        <section id="your-rights" style={{ marginBottom: 26, padding: "18px 22px", background: C.sage, borderRadius: 14, border: "1px solid #c8e6c9", scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.forest }}>Your rights</h2>
           <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 22, paddingRight: isRTL ? 22 : 0, fontSize: 15, color: C.bark, lineHeight: 1.7 }}>
             {rightsArr.map((item, i) => <li key={i} style={{ marginBottom: 8 }}><GlossaryText text={item} maxHighlights={2} /></li>)}
@@ -838,7 +912,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {optionsArr.length > 0 && (
-        <section style={{ marginBottom: 26 }}>
+        <section id="legal-options" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>Legal options</h2>
           <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 22, paddingRight: isRTL ? 22 : 0, fontSize: 15, color: C.bark, lineHeight: 1.7 }}>
             {optionsArr.map((item, i) => <li key={i} style={{ marginBottom: 10 }}><GlossaryText text={item} maxHighlights={2} /></li>)}
@@ -847,7 +921,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {entry.example && (
-        <section style={{ marginBottom: 26, padding: "18px 22px", background: C.amberLight, borderRadius: 14, border: "1px solid #f0dab0" }}>
+        <section id="example" style={{ marginBottom: 26, padding: "18px 22px", background: C.amberLight, borderRadius: 14, border: "1px solid #f0dab0", scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 400, marginBottom: 10, color: C.bark }}>Example</h2>
           <p style={{ fontSize: 14, color: C.stone, lineHeight: 1.7, margin: 0, fontStyle: "italic" }}>
             <GlossaryText text={pickText(entry.example, legalLang)} maxHighlights={2} />
@@ -859,7 +933,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {entry.counsel && entry.counsel.length > 0 && (
-        <section style={{ marginBottom: 26 }}>
+        <section id="get-free-help" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>Get free legal help</h2>
           <div style={{ display: "grid", gap: 12 }}>
             {entry.counsel.map((c, i) => (
@@ -890,7 +964,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {relIds.length > 0 && (
-        <section style={{ marginBottom: 26 }}>
+        <section id="related-guides" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
           <h2 style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 400, marginBottom: 12, color: C.bark }}>Related guides</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
             {relIds.map((rid) => (
@@ -907,7 +981,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       )}
 
       {entry.sources && entry.sources.length > 0 && (
-        <section style={{ marginBottom: 20, paddingTop: 20, borderTop: "1px solid " + C.border }}>
+        <section id="sources" style={{ marginBottom: 20, paddingTop: 20, borderTop: "1px solid " + C.border, scrollMarginTop: 20 }}>
           <div style={{ fontSize: 12, fontWeight: 600, color: C.stone, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>Sources & citations</div>
           <ul style={{ margin: 0, paddingLeft: isRTL ? 0 : 20, paddingRight: isRTL ? 20 : 0, fontSize: 13, color: C.bark, lineHeight: 1.6 }}>
             {entry.sources.map((s, i) => {
@@ -950,6 +1024,27 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       <div style={{ marginTop: 20, padding: "14px 18px", background: C.amberLight, borderRadius: 12, border: "1px solid #f0dab0", fontSize: 12, color: C.stone, lineHeight: 1.6 }}>
         ⚠️ <strong>Not legal advice.</strong> This guide explains your general rights. Laws change. For your specific situation, contact one of the free legal aid organizations listed above.
       </div>
+
+      {/* Always-visible support nudge — mobile + desktop both. Subtle, not aggressive. */}
+      <a href="/support" style={{
+        display: "flex", alignItems: "center", gap: 12,
+        marginTop: 18, padding: "14px 18px",
+        background: C.white, border: "1px solid " + C.border,
+        borderRadius: 12, textDecoration: "none",
+      }}>
+        <span style={{ fontSize: 22 }}>❤️</span>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontSize: 14, fontWeight: 700, color: C.bark }}>Keep HelpFinder free</div>
+          <div style={{ fontSize: 12, color: C.stone, lineHeight: 1.5, marginTop: 2 }}>
+            No paywall, no ads. If this guide helped, a small contribution keeps it up to date for the next person.
+          </div>
+        </div>
+        <span style={{ fontSize: 14, fontWeight: 700, color: C.forest }}>Support →</span>
+      </a>
+      </div>
+      {isDesktop && tocSections.length > 0 && (
+        <EntryTocSidebar sections={tocSections} isRTL={isRTL} />
+      )}
     </main>
   );
 }
