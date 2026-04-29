@@ -4,7 +4,7 @@ export const DUMPSTER_DIVING_SCRAP_LAW_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY GBS 396-GG",
+  primaryStatute: "NY GBS 69-G",
   status: "active",
 
   title: { en: "Dumpster Diving and Scrap Metal Collection — Is It Legal in New York?" },
@@ -23,7 +23,7 @@ export const DUMPSTER_DIVING_SCRAP_LAW_NY = {
   },
 
   whatItMeans: {
-    en: "The US Supreme Court ruled in California v. Greenwood (1988) that there is no reasonable expectation of privacy in trash placed on the curb for collection. This means items left in a public trash can or on the curb are generally fair game. However: entering private property (a fenced lot, a gated area, behind a building) to access a dumpster can be trespassing under Penal Law § 140.05. Some municipalities — including parts of Monroe County — have local ordinances that restrict or prohibit scavenging from residential trash set out for collection. The ordinance may make it a violation to take items from the curb after they have been placed for scheduled pickup. For scrap metal: General Business Law § 396-gg requires scrap dealers to keep detailed records of purchases — including the seller's ID, a description of the material, and the vehicle used. Selling stolen metal (catalytic converters, copper pipe, aluminum siding) is a crime — and scrap dealers who buy without proper records can be fined. Catalytic converter theft has increased significantly and is treated seriously by law enforcement. NY's catalytic converter law (effective 2023) requires scrap dealers to refuse purchases of unattached converters from anyone other than a licensed mechanic or dealer, and requires extensive recordkeeping including photographs of the converter and the seller. The change followed a wave of converter thefts targeting Toyota Prius and other hybrid vehicles whose converters contain higher concentrations of platinum, palladium, and rhodium. Curbside scavenging timing matters: in many municipalities the trash becomes legally abandoned only when it reaches the curb at the time of scheduled pickup, not earlier. Taking items the night before pickup, when they are still on the homeowner's lawn or driveway, can be a different legal situation than taking them from the curb on pickup morning. Bulk-pickup days produce the most valuable scavenging opportunities — furniture, appliances, exercise equipment, electronics — but municipalities sometimes restrict who can collect during the day-or-two window before the pickup truck arrives."
+    en: "The US Supreme Court ruled in California v. Greenwood (1988) that there is no reasonable expectation of privacy in trash placed on the curb for collection. This means items left in a public trash can or on the curb are generally fair game. However: entering private property (a fenced lot, a gated area, behind a building) to access a dumpster can be trespassing under Penal Law § 140.05. Some municipalities — including parts of Monroe County — have local ordinances that restrict or prohibit scavenging from residential trash set out for collection. The ordinance may make it a violation to take items from the curb after they have been placed for scheduled pickup. For scrap metal: NY General Business Law Article 6-C (§§ 69-e through 69-h, especially § 69-g) requires scrap processors to verify the seller's government-issued photo ID, retain a copy for three years, and keep a record of each purchase. Selling stolen metal (catalytic converters, copper pipe, aluminum siding) is a crime — and scrap dealers who buy without proper records can be fined. Catalytic converter theft has increased significantly and is treated seriously by law enforcement. NY's catalytic converter law (effective 2023) requires scrap dealers to refuse purchases of unattached converters from anyone other than a licensed mechanic or dealer, and requires extensive recordkeeping including photographs of the converter and the seller. The change followed a wave of converter thefts targeting Toyota Prius and other hybrid vehicles whose converters contain higher concentrations of platinum, palladium, and rhodium. Curbside scavenging timing matters: in many municipalities the trash becomes legally abandoned only when it reaches the curb at the time of scheduled pickup, not earlier. Taking items the night before pickup, when they are still on the homeowner's lawn or driveway, can be a different legal situation than taking them from the curb on pickup morning. Bulk-pickup days produce the most valuable scavenging opportunities — furniture, appliances, exercise equipment, electronics — but municipalities sometimes restrict who can collect during the day-or-two window before the pickup truck arrives."
   },
 
   yourRights: {
@@ -85,17 +85,18 @@ export const DUMPSTER_DIVING_SCRAP_LAW_NY = {
     "catalytic converter theft",
     "bulk trash",
     "scrap dealer",
-    "GBL 396-gg",
+    "GBL 69-g",
     "California v Greenwood",
     "copper theft"
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/GBS/396-GG",
+    "https://www.nysenate.gov/legislation/laws/GBS/69-G",
     "https://www.law.cornell.edu/supremecourt/text/486/35"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-29",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
