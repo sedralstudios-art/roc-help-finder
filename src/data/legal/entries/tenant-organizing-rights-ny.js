@@ -50,7 +50,7 @@ export const TENANT_ORGANIZING_RIGHTS_NY = {
       "Metro Justice at (585) 325-2560 — housing justice organizing.",
       "HCR Tenant Protection Unit at (833) 208-4265 — state rent and tenant rights hotline.",
       "NYC Housing Court Answers (for city reference): (212) 962-4795.",
-      "Rochester Housing Court at (585) 428-6650 — HP action filings in Monroe County."
+      "Rochester Housing Court at (585) 371-3412 — HP action filings in Monroe County."
     ]
   },
 

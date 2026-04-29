@@ -208,6 +208,11 @@ const FABRICATIONS = [
     cooccur: /(?:Fair\s+Chance\s+Act|NYS\s*HRL|NY\s+State\s+Human\s+Rights\s+Law|NYSHRL)/i,
     label: 'Four-employee NY State HRL / Fair Chance employer threshold',
     fix: 'NY HRL state-level employer threshold was removed effective Feb 8, 2020; applies to all employers regardless of size. (NYC HRL still has its own threshold — make sure the entry distinguishes state from city.)' },
+
+  { pat: /\b(?:RPL|RPP)\s+§?\s*226-?c\b/i,
+    cooccur: /Good\s+Cause\s+Eviction/i,
+    label: 'RPL 226-c miscited as Good Cause Eviction Law',
+    fix: 'Good Cause Eviction is RPL Article 6-A (sections 210-218); RPL 226-c is the separate notice-of-rent-increase / non-renewal statute (30/60/90-day notice scaled to tenancy length)' },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.
@@ -245,6 +250,8 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-753-6960', label: 'Monroe County DHS / DSS (old main number)',   fix: 'use (585) 753-6998 for DHS general, (585) 753-6316 for Child Care', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Department\s+of)/i },
   // LawNY Rochester — the 295-5700 number was incorrect; correct is 325-2520
   { num: '585-295-5700', label: 'LawNY / Legal Assistance of Western NY (old/wrong number)', fix: 'use (585) 325-2520 (verified at lawny.org/Contact)' },
+  // Rochester City Court Civil / Small Claims / Housing Court — 428-6650 is not the right line
+  { num: '585-428-6650', label: 'Rochester City Court / Small Claims / Housing Court (wrong number)', fix: 'use (585) 371-3412 for Civil Division (covers Small Claims and Housing Part); (585) 371-3413 for Criminal' },
 ];
 
 function normalizePhone(s) {

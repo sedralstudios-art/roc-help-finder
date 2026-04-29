@@ -40,7 +40,7 @@ export const TENANT_SAFE_HARBOR_ACT_NY = {
   legalOptions: {
     en: [
       "Monroe County Legal Assistance Center (LAC) at (585) 325-2520 — eviction defense for low-income tenants.",
-      "Rochester Housing Court self-help at (585) 428-6650 — answer forms and procedural help.",
+      "Rochester Housing Court self-help at (585) 371-3412 — answer forms and procedural help.",
       "Legal Aid Society of Rochester at (585) 232-4090 — representation in nonpayment proceedings.",
       "Empire Justice Center at (585) 454-4060 — complex eviction defense and appeals.",
       "ERAP application portal at otda.ny.gov/programs/emergency-rental-assistance — may still accept supplemental applications.",

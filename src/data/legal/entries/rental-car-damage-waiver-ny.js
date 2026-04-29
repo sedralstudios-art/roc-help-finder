@@ -45,7 +45,7 @@ export const RENTAL_CAR_DAMAGE_WAIVER_NY = {
       "NY Attorney General Consumer Frauds at (800) 771-7755.",
       "Monroe County Consumer Protection at (585) 753-1661.",
       "NY Department of Financial Services at (800) 342-3736 — personal auto insurance questions.",
-      "Rochester City Small Claims Court at (585) 428-6650 — disputes up to $3,000.",
+      "Rochester City Small Claims Court at (585) 371-3412 — disputes up to $3,000.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — for larger damage disputes.",
       "Legal Aid Society of Rochester at (585) 232-4090 — help for low-income consumers.",
       "Federal Trade Commission Consumer Response at (877) 382-4357 — cross-state rental issues."

@@ -44,7 +44,7 @@ export const MECHANICS_LIEN_PRIVATE_CONSTRUCTION_NY = {
     en: [
       "Monroe County Clerk at (585) 753-1600 — lien filings and records.",
       "NY Supreme Court Monroe County at (585) 371-3300 — lien foreclosure actions.",
-      "Rochester Small Claims Court at (585) 428-6650 — for disputes under $5,000 (not for liens, but for fee disputes).",
+      "Rochester Small Claims Court at (585) 371-3412 — for disputes under $5,000 (not for liens, but for fee disputes).",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — construction and lien attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — help for low-income homeowners receiving liens.",
       "NY Attorney General Consumer Frauds at (800) 771-7755 — unlicensed contractor complaints.",

@@ -47,7 +47,7 @@ export const HOME_INSPECTION_CONTRACT_NY = {
       "NY Attorney General Consumer Frauds at (800) 771-7755.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — real estate litigation attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income buyer disputes.",
-      "Rochester Small Claims Court at (585) 428-6650 — claims up to $3,000.",
+      "Rochester Small Claims Court at (585) 371-3412 — claims up to $3,000.",
       "Monroe County Consumer Protection at (585) 753-1661.",
       "Better Business Bureau Upstate NY at (716) 881-5222.",
       "NYS Department of State license verification at eaccessny.dos.ny.gov."
