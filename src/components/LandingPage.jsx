@@ -568,11 +568,17 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
     handleDonate(Math.round(dollars * 100));
   };
 
+  // The HOME page deliberately keeps a narrow 520px column (the two-door
+  // landing layout). Every other page (Help, Legal Library, Glossary,
+  // About, Support, Privacy, Terms, Contact) needs the full viewport so
+  // article content + sidebars don't sit in a phone-width tomb on desktop.
+  const wrapperMaxWidth = page === PAGES.HOME ? 520 : "none";
+
   return (
     <div dir={isRTL ? "rtl" : "ltr"} style={{
       fontFamily: "'Segoe UI', 'Helvetica Neue', system-ui, -apple-system, sans-serif",
       background: C.warmBg, color: C.bark, minHeight: "100vh",
-      maxWidth: 520, margin: "0 auto", position: "relative",
+      maxWidth: wrapperMaxWidth, margin: "0 auto", position: "relative",
       opacity: loaded ? 1 : 0, transition: "opacity 0.4s ease",
     }}>
       <style>{`
