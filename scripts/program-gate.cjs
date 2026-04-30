@@ -27,6 +27,29 @@ const { SWEPT_WRONG_PHONES, findPhoneMatches } = require('./lib/swept-phones.cjs
 const PROGRAMS_FILE = path.join(__dirname, '..', 'src', 'data', 'programs.js');
 const GRANDFATHER_PATH = path.join(__dirname, 'data', 'program-factcheck-grandfather.json');
 
+// ─────────── Sensitive-category hide gate ───────────
+// Programs in these categories must carry `hidden: true` until verified.
+// "Verified" for sensitive content means more than the fc:"YYYY-MM-DD" stamp
+// (which only certifies the metadata sweep) — it requires call-confirmation
+// or maintainer review. See feedback_sensitive_programs_need_verification.md.
+//
+// The 33 programs hidden on 2026-04-30 were the live-leak that exposed the
+// gap. This rule prevents recurrence: any future program added to a
+// sensitive category MUST be flagged hidden until the maintainer flips it.
+const HIDE_GATED_CATEGORIES = new Set([
+  'domesticSvc',         // DV crisis services
+  'parentalProtection',  // Family court / orders of protection (DV-adjacent)
+  'legalImmigration',    // Immigration legal services
+]);
+
+// For programs whose `c` is generic (e.g., "documents") but whose subject
+// matter is sensitive, the author tags `sensitiveTopic:"immigration"` or
+// `sensitiveTopic:"dv"`. The gate catches both the category and the topic.
+const HIDE_GATED_TOPICS = new Set([
+  'immigration',
+  'dv',
+]);
+
 let GRANDFATHER = new Set();
 try {
   const raw = JSON.parse(fs.readFileSync(GRANDFATHER_PATH, 'utf8'));
@@ -116,6 +139,27 @@ function gateProgram(program) {
       kind: 'UNSTAMPED_NEW_PROGRAM',
       label: 'program has no fc:"YYYY-MM-DD" stamp and is not on the grandfather list',
       fix: 'fact-check via WebSearch (use scripts/fact-check-program-prompt.cjs ' + id + ') then run: node scripts/program-gate.cjs ' + id + ' --write',
+    });
+  }
+
+  // 4. Sensitive-category hide enforcement (FAIL)
+  //    Programs in DV / immigration categories must have hidden:true until
+  //    real verification (call + maintainer greenlight) exists. The fc stamp
+  //    alone is NOT sufficient for sensitive content.
+  const category = readField(line, 'c');
+  const sensitiveTopic = readField(line, 'sensitiveTopic');
+  const isHidden = /\bhidden\s*:\s*true\b/.test(line);
+  const inSensitiveCategory = category && HIDE_GATED_CATEGORIES.has(category);
+  const inSensitiveTopic = sensitiveTopic && HIDE_GATED_TOPICS.has(sensitiveTopic);
+
+  if ((inSensitiveCategory || inSensitiveTopic) && !isHidden) {
+    const reason = inSensitiveCategory
+      ? 'category "' + category + '" is in HIDE_GATED_CATEGORIES'
+      : 'sensitiveTopic "' + sensitiveTopic + '" is in HIDE_GATED_TOPICS';
+    fails.push({
+      kind: 'SENSITIVE_PROGRAM_NOT_HIDDEN',
+      label: 'sensitive program must have hidden:true until call-verified — ' + reason,
+      fix: 'add ", hidden:true" to the program object. Restoration requires call-verification (not just fc stamp). See ~/.claude/projects/C--Users-adima/memory/feedback_sensitive_programs_need_verification.md.',
     });
   }
 
