@@ -129,6 +129,7 @@ export const WRONGFUL_EVICTION_LOCKOUT_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
