@@ -743,7 +743,6 @@ export const PROGRAMS = [
   // ── MISSING TOWN: MENDON (audit gap: 0 programs) ──
   { id:"mendonhall", n:"Mendon Town Hall", c:"documents", d:"General town services, clerk, assessor, building/code enforcement, court. Starting point for any Mendon question.", ph:"585-624-6060", ad:"16 W Main St, Honeoye Falls NY 14472", url:"https://townofmendonny.gov", hr:"M-F 8:30am-4:30pm", doc:"Varies", tg:["any"], town:"mendon", zip:"14472", reach:"local" },
   { id:"mendonlib", n:"Mendon Public Library", c:"education", d:"Books, WiFi, programs for all ages. Part of the Monroe County Library System.", ph:"585-624-6067", ad:"16 W Main St, Honeoye Falls NY 14472", url:"https://townofmendonny.gov/locations/mendon-public-library/", hr:"Call for hours", doc:"Proof of address for card", tg:["any"], town:"mendon", zip:"14472", reach:"local", lastVerified:"2026-04-17" },
-  { id:"fishmendon", n:"FISH Food Cupboard (Mendon/HFL area)", c:"food", d:"Emergency food for Honeoye Falls, Lima, and Mendon area residents.", ph:"585-453-2370", hr:"Call for hours", doc:"None", tg:["any"], town:"mendon", zip:"14472", reach:"local", fc:"2026-04-30" },
 
   // ── MISSING TOWN: PERINTON (audit gap: 0 programs) ──
   { id:"perintonhall", n:"Perinton Town Hall", c:"documents", d:"General town services, clerk, assessor, building department, parks. Village of Fairport included.", ph:"585-223-0770", ad:"1350 Turk Hill Rd, Fairport NY 14450", url:"https://perinton.org", hr:"M-F 8am-4:30pm", doc:"Varies", tg:["any"], town:"perinton", zip:"14450", reach:"local" },
@@ -752,7 +751,6 @@ export const PROGRAMS = [
 
   // ── MISSING TOWN: PARMA (audit gap: 0 programs) ──
   { id:"parmahall", n:"Parma Town Hall", c:"documents", d:"General town services, clerk, assessor, building department. Village of Hilton included.", ph:"585-392-9461", ad:"1300 Hilton Parma Corners Rd, Hilton NY 14468", url:"https://parmany.gov", hr:"M-F 9am-5pm", doc:"Varies", tg:["any"], town:"parma", zip:"14468", reach:"local" },
-  { id:"hiltonparmafood", n:"Hilton Parma Emergency Food Shelf", c:"food", d:"Emergency food for Hilton and Parma area residents.", ad:"59 Henry St Rm 201, Hilton NY 14468", url:"https://www.communitywishbook.org/hilton-parma-emergency-food-shelf.html", hr:"Tu 8:30-11am & 1-3pm, Wed 10am-3pm, Th 10am-12pm & 4-6pm", doc:"None", tg:["any"], town:"parma", zip:"14468", reach:"local", fc:"2026-04-30" },
   { id:"parmalib", n:"Parma Public Library", c:"education", d:"Books, WiFi, programs for all ages. Part of the Monroe County Library System.", ph:"585-392-8350", ad:"7 West Ave, Hilton NY 14468", url:"https://www.parmapubliclibrary.org", hr:"M-Th 10am-8pm, F 10am-6pm (4th F 12-6pm), Sat 10am-2pm", doc:"Proof of address for card", tg:["any"], town:"parma", zip:"14468", reach:"local", lastVerified:"2026-04-17" },
 
   // ── MISSING TOWN: RIGA (audit gap: 0 programs) ──
