@@ -122,6 +122,11 @@ const FABRICATIONS = [
     label: 'GOL 5-903 misframed as mold/environmental disclosure',
     fix: 'GOL 5-903 governs automatic-renewal contracts (Auto-Renewal Notice Act); NY has no statutory mold-disclosure requirement for residential rentals — disclosure duty comes from common-law fraudulent concealment' },
 
+  { pat: /\b(?:NY\s+)?(?:PHL|PBH|Public\s+Health\s+Law)\s*§?\s*2803-?c\b/i,
+    cooccur: /hospital(?!.{0,30}nursing)|inpatient/i,
+    label: 'PHL 2803-c misframed as hospital patient rights',
+    fix: 'PHL 2803-c is the Patient Bill of Rights for nursing-home residents (RHCFs), not hospital patients; for hospital patient rights, cite 10 NYCRR 405.7 (regulation under PHL 2803)' },
+
   { pat: /\bGBL\s+§?\s*771\b/i,
     cooccur: /\$\s*250\b/i,
     label: 'GBL 771 with $250 home-improvement-fraud threshold',

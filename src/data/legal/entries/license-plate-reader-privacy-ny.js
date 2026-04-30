@@ -23,13 +23,13 @@ export const LICENSE_PLATE_READER_PRIVACY_NY = {
   },
 
   whatItMeans: {
-    en: "Automated license plate readers scan thousands of plates per hour and compare them against databases of stolen vehicles, wanted persons, Amber Alerts, and other law enforcement lists. But the readers also record and store the plates of every vehicle they scan — not just those on a list. This creates a detailed record of where vehicles have been and when. Under Executive Law Section 228 (the New York ALPR statute), law enforcement agencies that use ALPRs must adopt a policy on data retention, access, and use. The data can only be used for law enforcement purposes. Most agencies in New York retain ALPR data for a limited period — often 1 to 3 years — but the specific retention period varies by agency. There is no statewide mandate on how long the data can be kept. A person's ALPR data can be accessed by law enforcement without a warrant because the data is collected in public (no expectation of privacy on a public road under current law). However, some legal scholars argue that mass collection of location data over time creates a mosaic that amounts to tracking and could require a warrant. Monroe County Sheriff's Office, Rochester Police Department, and New York State Police all use ALPR technology."
+    en: "Automated license plate readers scan thousands of plates per hour and compare them against databases of stolen vehicles, wanted persons, Amber Alerts, and other law enforcement lists. But the readers also record and store the plates of every vehicle they scan — not just those on a list. This creates a detailed record of where vehicles have been and when. NY does not have comprehensive statutory ALPR regulation. Rules are largely set by individual agency policy and FOIL transparency obligations. Most law enforcement agencies that use ALPRs publish written policies on data retention, access, and use. The data can only be used for law enforcement purposes. Most agencies in New York retain ALPR data for a limited period — often 1 to 3 years — but the specific retention period varies by agency. There is no statewide mandate on how long the data can be kept. A person's ALPR data can be accessed by law enforcement without a warrant because the data is collected in public (no expectation of privacy on a public road under current law). However, some legal scholars argue that mass collection of location data over time creates a mosaic that amounts to tracking and could require a warrant. Monroe County Sheriff's Office, Rochester Police Department, and New York State Police all use ALPR technology."
   },
 
   yourRights: {
     en: [
       "A person's license plate is scanned on public roads without any suspicion of wrongdoing — this is currently legal.",
-      "Law enforcement agencies that use ALPRs must have a written policy on data retention, access, and use (Executive Law Section 228).",
+      "Most NY law enforcement agencies that use ALPRs publish a written policy on data retention, access, and use; these policies are generally subject to FOIL.",
       "ALPR data can only be used for law enforcement purposes — not for tracking individuals without a law enforcement reason.",
       "A person can file a FOIL (Freedom of Information Law) request to find out if their plate was scanned and how many times — though agencies may redact details.",
       "A private company that uses ALPRs (like a parking lot or repo company) is not covered by the same law enforcement restrictions.",
@@ -97,6 +97,7 @@ export const LICENSE_PLATE_READER_PRIVACY_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
