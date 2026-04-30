@@ -10,7 +10,7 @@ export const LANDLORD_MOLD_DISCLOSURE_RENTAL_NY = {
   title: { en: "Mold Disclosure in Rentals — What a Landlord Must Tell a Tenant Before Signing a Lease" },
 
   summary: {
-    en: "New York law requires landlords to disclose known mold conditions to prospective tenants before signing a lease. If a landlord knows about mold in the unit and does not tell the tenant, the tenant may have a habitability claim and a fraud claim. A landlord who receives a mold complaint from a tenant is required to address it — mold that makes a home unsafe violates the warranty of habitability."
+    en: "New York has no specific mold-disclosure statute for residential rentals, but a landlord who knows about mold and conceals it from a prospective tenant can face a common-law fraud claim. A landlord who receives a mold complaint from a current tenant must address it — mold that makes a home unsafe violates the warranty of habitability under RPL 235-b. For mold areas over 10 square feet, NY Labor Law Article 32 requires licensed mold assessors and remediators."
   },
 
   whoQualifies: {
@@ -23,13 +23,13 @@ export const LANDLORD_MOLD_DISCLOSURE_RENTAL_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Real Property Law Section 235-b (the warranty of habitability), a landlord must maintain the rental in a condition fit for human habitation. Mold that is visible, extensive, or causing health problems can violate the warranty of habitability. Under General Obligations Law Section 5-903, a landlord must give a prospective tenant a copy of any environmental assessment or report (including mold assessments) that was conducted on the property within the previous 5 years. This is a disclosure requirement — if the landlord had a mold assessment done, the tenant has the right to see it. A landlord who conceals known mold from a new tenant can face a fraud claim. If the tenant can show the landlord knew about the mold and hid it, the tenant may be entitled to damages including the cost of medical treatment, moving expenses, and rent abatement. When a tenant reports mold, the landlord is required to investigate and remediate. For mold remediation over 10 square feet, New York requires a licensed mold assessor and a licensed mold remediator (Labor Law Article 32). The assessor and remediator cannot be the same company. For smaller areas (under 10 square feet), the landlord can clean the mold without a licensed company, but must still fix the underlying moisture source."
+    en: "Under New York Real Property Law Section 235-b (the warranty of habitability), a landlord must maintain the rental in a condition fit for human habitation. Mold that is visible, extensive, or causing health problems can violate the warranty of habitability. NY has no statutory mold-disclosure requirement specifically for residential rentals. Disclosure obligations come from common-law fraudulent concealment — a landlord who knows about a material defect like extensive mold and hides it from a prospective tenant can face a fraud claim. A prospective tenant can ask the landlord directly whether any mold assessments or remediation have been done on the unit; an evasive answer is itself a warning sign. A landlord who conceals known mold from a new tenant can face a fraud claim. If the tenant can show the landlord knew about the mold and hid it, the tenant may be entitled to damages including the cost of medical treatment, moving expenses, and rent abatement. When a tenant reports mold, the landlord is required to investigate and remediate. For mold remediation over 10 square feet, New York requires a licensed mold assessor and a licensed mold remediator (Labor Law Article 32). The assessor and remediator cannot be the same company. For smaller areas (under 10 square feet), the landlord can clean the mold without a licensed company, but must still fix the underlying moisture source."
   },
 
   yourRights: {
     en: [
       "A tenant has the right to a rental that is fit for human habitation — extensive mold violates the warranty of habitability.",
-      "A landlord must provide a copy of any mold assessment done on the property within the past 5 years before the tenant signs a lease.",
+      "A prospective tenant can ask whether mold assessments or remediation have been done; concealment of known mold can support a fraud claim.",
       "A tenant who reports mold has the right to have it investigated and remediated by the landlord.",
       "For mold over 10 square feet, the landlord must use licensed mold assessors and remediators.",
       "A tenant whose health is affected by mold can seek rent abatement, medical expense reimbursement, and damages.",
@@ -94,11 +94,12 @@ export const LANDLORD_MOLD_DISCLOSURE_RENTAL_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/RPP/235-B",
-    "https://www.nysenate.gov/legislation/laws/GOB/5-903",
+    "https://www.nysenate.gov/legislation/laws/LAB/A32",
     "https://dol.ny.gov/mold"
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

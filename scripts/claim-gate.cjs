@@ -117,6 +117,11 @@ const FABRICATIONS = [
     label: '9 NYCRR for Building/Fire Code',
     fix: 'NY Uniform Fire Prevention and Building Code lives at 19 NYCRR (Department of State), not 9 NYCRR (Executive Department)' },
 
+  { pat: /\bGOL\s+§?\s*5-903\b/i,
+    cooccur: /mold|environmental\s+assessment|disclos/i,
+    label: 'GOL 5-903 misframed as mold/environmental disclosure',
+    fix: 'GOL 5-903 governs automatic-renewal contracts (Auto-Renewal Notice Act); NY has no statutory mold-disclosure requirement for residential rentals — disclosure duty comes from common-law fraudulent concealment' },
+
   { pat: /\bGBL\s+§?\s*771\b/i,
     cooccur: /\$\s*250\b/i,
     label: 'GBL 771 with $250 home-improvement-fraud threshold',
