@@ -113,7 +113,7 @@ export const CREDIT_REPAIR_COMPANIES_NY = {
     "GBL Article 28-BB Credit Services Business Act",
     "GBS 458-e no upfront payment",
     "GBS 458-f written contract",
-    "GBS 458-h deceptive acts prohibited",
+    "General Business Law § 458-h deceptive acts prohibited",
     "federal CROA 15 USC 1679",
     "CROA 3-day cancellation 1679e",
     "no removal of accurate items",

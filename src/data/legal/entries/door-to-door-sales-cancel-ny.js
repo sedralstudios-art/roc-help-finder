@@ -39,7 +39,7 @@ export const DOOR_TO_DOOR_SALES_CANCEL_NY = {
 
   legalOptions: {
     en: [
-      "Under PPL Section 425, the buyer can cancel by sending a written cancellation to the seller within three business days.",
+      "Under Personal Property Law § 425, the buyer can cancel by sending a written cancellation to the seller within three business days.",
       "Under the FTC Cooling-Off Rule (16 CFR Part 429), the same three-day right applies to sales of $25 or more at the buyer's home.",
       "If the seller did not provide cancellation forms, the buyer can cancel at any time until the forms are provided — the clock never started.",
       "A complaint about a high-pressure or deceptive door-to-door salesperson can be filed with the NYS Attorney General at (800) 771-7755.",

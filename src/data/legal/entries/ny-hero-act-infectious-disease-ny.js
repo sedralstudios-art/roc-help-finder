@@ -31,11 +31,11 @@ export const NY_HERO_ACT_INFECTIOUS_DISEASE_NY = {
 
   yourRights: {
     en: [
-      "A NY private-sector worker has the right to receive a copy of the employer's airborne infectious disease prevention plan in the worker's primary language (LAB 218-b).",
+      "A NY private-sector worker has the right to receive a copy of the employer's airborne infectious disease prevention plan in the worker's primary language (Labor Law § 218-b).",
       "A worker has the right to training on the prevention plan during paid work hours.",
-      "A worker at a private employer with 10+ employees has the right to participate in a workplace safety committee (LAB 27-d).",
+      "A worker at a private employer with 10+ employees has the right to participate in a workplace safety committee (Labor Law § 27-d).",
       "A safety committee member has the right to up to 4 hours of paid training per year.",
-      "A worker has the right to be free from retaliation for exercising HERO Act rights (LAB 218-b(7)).",
+      "A worker has the right to be free from retaliation for exercising HERO Act rights (Labor Law § 218-b(7)).",
       "A worker has the right to refuse to work if there is an unreasonable risk of airborne disease exposure.",
       "A worker whose rights are violated has a private right of action with attorney's fees.",
       "A worker has the right to file a complaint with NYSDOL without cost."

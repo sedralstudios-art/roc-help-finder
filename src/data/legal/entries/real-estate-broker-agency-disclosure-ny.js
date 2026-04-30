@@ -104,7 +104,7 @@ export const REAL_ESTATE_BROKER_AGENCY_DISCLOSURE_NY = {
     "designated agency",
     "transaction brokerage",
     "fiduciary duties",
-    "RPP 462 property condition disclosure overlap",
+    "Real Property Law § 462 property condition disclosure overlap",
     "2024 NAR settlement impact"
   ],
 

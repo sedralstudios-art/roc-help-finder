@@ -30,7 +30,7 @@ export const MEDICAL_CANNABIS_PROGRAM_NY = {
 
   yourRights: {
     en: [
-      "A patient has the right to a medical cannabis certification from any qualified practitioner (PBH 3360).",
+      "A patient has the right to a medical cannabis certification from any qualified practitioner (Public Health Law § 3360).",
       "A patient has the right to register with OCM and purchase from a Registered Organization.",
       "A patient has the right to employment protection under Labor Law 201-d and Exec Law 296(16).",
       "A patient has the right to reasonable accommodation for certified medical cannabis use.",

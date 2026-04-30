@@ -39,7 +39,7 @@ export const PET_LICENSING_DOG_LICENSE_NY = {
 
   legalOptions: {
     en: [
-      "Under AGM Section 109, dogs over four months old must be licensed. The fine for failure to license is up to $25 for a first offense.",
+      "Under Agriculture and Markets Law § 109, dogs over four months old must be licensed. The fine for failure to license is up to $25 for a first offense.",
       "In Rochester, dog licenses are available at the City Clerk's Office, 30 Church St, Room 223A, or online at cityofrochester.gov. The fee is $8.50 (spayed/neutered) or $18.50 (unaltered).",
       "In Monroe County suburbs, licenses are obtained from the town clerk. Fees vary by town.",
       "Proof of rabies vaccination is required. Free or low-cost rabies clinics are offered periodically by the Monroe County Health Department at (585) 753-5555.",

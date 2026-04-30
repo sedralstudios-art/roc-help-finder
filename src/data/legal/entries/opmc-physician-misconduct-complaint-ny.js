@@ -7,7 +7,7 @@ export const OPMC_PHYSICIAN_MISCONDUCT_COMPLAINT_NY = {
   primaryStatute: "NY PBH 230",
   status: "active",
 
-  title: { en: "Complaining About a Doctor — The NY Office of Professional Medical Conduct and PBH 230 Investigation Process" },
+  title: { en: "Complaining About a Doctor — The NY Office of Professional Medical Conduct and Public Health Law § 230 Investigation Process" },
 
   summary: {
     en: "New York Public Health Law Section 230 gives the NYS Department of Health's Office of Professional Medical Conduct (OPMC) authority to investigate complaints against physicians, physician assistants, and specialist assistants. OPMC is a license-discipline agency, not a lawsuit alternative — it can suspend, revoke, or place conditions on a physician's license but does not pay money to patients. A complaint can be filed online, by mail, or by phone at no cost. OPMC is required to investigate every complaint it receives. Typical investigations take 6 to 18 months. Most complaints close without public discipline; serious cases proceed to a formal hearing before the State Board for Professional Medical Conduct."
@@ -17,7 +17,7 @@ export const OPMC_PHYSICIAN_MISCONDUCT_COMPLAINT_NY = {
     en: [
       "A patient who believes a doctor committed negligent, incompetent, unethical, or illegal care.",
       "A family member of a patient harmed by a doctor's actions.",
-      "A hospital, clinic, medical society, or licensed health professional required to report suspected misconduct (PBH 230(11)).",
+      "A hospital, clinic, medical society, or licensed health professional required to report suspected misconduct (Public Health Law § 230(11)).",
       "A patient who experienced sexual misconduct, impairment by drugs or alcohol, fraud, or practice outside the scope of competence.",
       "A patient who believes a physician has failed to maintain adequate records, prescribed improperly, or delegated to unqualified staff.",
       "A pharmacist or other health professional who observed suspected misconduct during patient care."
@@ -30,7 +30,7 @@ export const OPMC_PHYSICIAN_MISCONDUCT_COMPLAINT_NY = {
 
   yourRights: {
     en: [
-      "A patient has the right to file a complaint with OPMC at no cost, with no lawyer required (PBH 230).",
+      "A patient has the right to file a complaint with OPMC at no cost, with no lawyer required (Public Health Law § 230).",
       "An OPMC investigator is required to investigate every complaint filed.",
       "A complainant has the right to confidentiality during investigation; only public Board orders are disclosed.",
       "A reporter under PHL 230(11) has immunity from civil liability for good-faith reports.",
@@ -105,7 +105,7 @@ export const OPMC_PHYSICIAN_MISCONDUCT_COMPLAINT_NY = {
     "Education Law 6530 grounds",
     "Physician Profile nydoctorprofile",
     "peer review investigation",
-    "administrative review board PBH 230-c"
+    "administrative review board Public Health Law § 230-c"
   ],
 
   sources: [

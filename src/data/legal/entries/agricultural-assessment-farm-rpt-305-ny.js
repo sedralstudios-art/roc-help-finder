@@ -34,7 +34,7 @@ export const AGRICULTURAL_ASSESSMENT_FARM_RPT_305_NY = {
       "A qualifying farmer has the right to reduced property tax through AAP (RPTL 305).",
       "A landlord leasing to a farmer has the right to AAP benefits if farm income thresholds are met.",
       "A farmer denied AAP has the right to appeal the assessor's determination to the Board of Assessment Review.",
-      "A landowner in a Certified Agricultural District has additional Right-to-Farm protections (AGM 25-AA).",
+      "A landowner in a Certified Agricultural District has additional Right-to-Farm protections (Agriculture and Markets Law § 25-AA).",
       "An applicant has the right to NYS DOT&F Agricultural Values as the baseline for assessment calculation.",
       "A former AAP participant has the right to know rollback tax calculations at conversion.",
       "A wine or agritourism producer has the right to RPTL 305(14) additional benefits."

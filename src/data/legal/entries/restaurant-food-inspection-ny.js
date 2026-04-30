@@ -34,7 +34,7 @@ export const RESTAURANT_FOOD_INSPECTION_NY = {
       "A consumer harmed by foodborne illness has the right to report to Monroe County Public Health for investigation.",
       "A consumer has the right to sue for foodborne illness damages in civil court.",
       "A diner with food allergies has the right to reasonable accommodations.",
-      "A restaurant employee has the right to whistleblower protection under LAB 740.",
+      "A restaurant employee has the right to whistleblower protection under Labor Law § 740.",
       "A restaurant owner has the right to notice and opportunity to correct non-critical violations before enforcement."
     ]
   },

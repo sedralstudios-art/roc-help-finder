@@ -31,7 +31,7 @@ export const WATER_SERVICE_LINE_LEAD_PIPE_NY = {
     en: [
       "A homeowner has the right to the water utility's disclosure of the service line material by 2027 under federal LCRR.",
       "A homeowner with a confirmed lead service line has the right to full or subsidized replacement through local utility programs.",
-      "A renter has the right to landlord disclosure under PBH 1110 and a lead-safe water supply under RPL 235-b warranty of habitability.",
+      "A renter has the right to landlord disclosure under Public Health Law § 1110 and a lead-safe water supply under RPL 235-b warranty of habitability.",
       "Any NY resident has the right to a free lead water test kit from Monroe County Department of Public Health.",
       "A homeowner has the right to an independent plumber's inspection to confirm service line material."
     ]

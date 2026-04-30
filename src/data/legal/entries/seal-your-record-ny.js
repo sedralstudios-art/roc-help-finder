@@ -10,37 +10,37 @@ export const SEAL_YOUR_RECORD_NY = {
   title: { en: "How to Seal a Criminal Record in New York — Step by Step" },
 
   summary: {
-    en: "New York has multiple pathways to seal a criminal record — some automatic, some requiring an application. The Clean Slate Act (CPL 160.57, effective November 16, 2024) automatically seals eligible misdemeanors after 3 years and eligible felonies after 8 years, measured from release from incarceration or supervision; courts have a rolling 3-year implementation window through November 2027. CPL § 160.59 (separate from Clean Slate) allows application-based sealing of up to two convictions (only one felony) after 10 years. Dismissed and ACD'd cases seal automatically under CPL § 160.50. Understanding which pathway applies is the first step."
+    en: "New York has multiple pathways to seal a criminal record — some automatic, some requiring an application. The Clean Slate Act (Criminal Procedure Law § 160.57, effective November 16, 2024) automatically seals eligible misdemeanors after 3 years and eligible felonies after 8 years, measured from release from incarceration or supervision; courts have a rolling 3-year implementation window through November 2027. Criminal Procedure Law § 160.59 (separate from Clean Slate) allows application-based sealing of up to two convictions (only one felony) after 10 years. Dismissed and ACD'd cases seal automatically under Criminal Procedure Law § 160.50. Understanding which pathway applies is the first step."
   },
 
   whoQualifies: {
     en: [
-      "Anyone whose criminal case was dismissed, ACD'd, or resulted in acquittal — these seal automatically under CPL § 160.50.",
-      "Anyone convicted of no more than two crimes (only one felony) who has been conviction-free for 10 years — eligible under CPL § 160.59.",
+      "Anyone whose criminal case was dismissed, ACD'd, or resulted in acquittal — these seal automatically under Criminal Procedure Law § 160.50.",
+      "Anyone convicted of no more than two crimes (only one felony) who has been conviction-free for 10 years — eligible under Criminal Procedure Law § 160.59.",
       "Anyone with a marijuana conviction that qualifies for automatic expungement under the MRTA (2021).",
-      "Under the Clean Slate Act (CPL 160.57, effective November 16, 2024): anyone whose felony conviction is 8+ years old or misdemeanor conviction is 3+ years old (measured from release from incarceration or supervision), with no subsequent convictions, qualifies for automatic sealing as courts work through the rolling implementation."
+      "Under the Clean Slate Act (Criminal Procedure Law § 160.57, effective November 16, 2024): anyone whose felony conviction is 8+ years old or misdemeanor conviction is 3+ years old (measured from release from incarceration or supervision), with no subsequent convictions, qualifies for automatic sealing as courts work through the rolling implementation."
     ]
   },
 
   whatItMeans: {
-    en: "Sealing a record means it is hidden from most background checks — employers, landlords, licensing agencies, and the general public cannot see it. Law enforcement and a few specific agencies can still access sealed records under limited circumstances. Automatic sealing (CPL § 160.50): cases that end favorably (dismissed, ACD completed, acquitted) are sealed automatically. No application is needed. The court and police records are sealed and the person can legally say they were not convicted. Application-based sealing (CPL § 160.59): for people with convictions, an application can be filed in the court where the conviction occurred. Eligibility: no more than 2 convictions total (only 1 can be a felony), at least 10 years since the sentence was completed (including probation/parole), no pending criminal charges, and the person must show rehabilitation. Sex offenses and certain violent felonies are not eligible. The application requires a sworn statement and may include supporting documents (employment records, community service, letters of support). The judge has discretion. Clean Slate Act: when it takes effect, many older convictions will seal automatically based on time elapsed without new convictions, significantly expanding access beyond CPL § 160.59."
+    en: "Sealing a record means it is hidden from most background checks — employers, landlords, licensing agencies, and the general public cannot see it. Law enforcement and a few specific agencies can still access sealed records under limited circumstances. Automatic sealing (Criminal Procedure Law § 160.50): cases that end favorably (dismissed, ACD completed, acquitted) are sealed automatically. No application is needed. The court and police records are sealed and the person can legally say they were not convicted. Application-based sealing (Criminal Procedure Law § 160.59): for people with convictions, an application can be filed in the court where the conviction occurred. Eligibility: no more than 2 convictions total (only 1 can be a felony), at least 10 years since the sentence was completed (including probation/parole), no pending criminal charges, and the person must show rehabilitation. Sex offenses and certain violent felonies are not eligible. The application requires a sworn statement and may include supporting documents (employment records, community service, letters of support). The judge has discretion. Clean Slate Act: when it takes effect, many older convictions will seal automatically based on time elapsed without new convictions, significantly expanding access beyond Criminal Procedure Law § 160.59."
   },
 
   yourRights: {
     en: [
       "Dismissed, ACD'd, and acquitted cases seal automatically — no application needed.",
       "Marijuana convictions eligible under MRTA are automatically expunged.",
-      "Under CPL § 160.59, up to 2 convictions can be sealed after 10 conviction-free years.",
+      "Under Criminal Procedure Law § 160.59, up to 2 convictions can be sealed after 10 conviction-free years.",
       "A sealed record cannot be used against the person in most employment, housing, and licensing decisions.",
       "The person can legally deny the existence of a sealed conviction in most contexts.",
-      "The Clean Slate Act (CPL 160.57) expands automatic sealing significantly and is in effect (Nov 16, 2024); courts process cases on a rolling basis through November 2027."
+      "The Clean Slate Act (Criminal Procedure Law § 160.57) expands automatic sealing significantly and is in effect (Nov 16, 2024); courts process cases on a rolling basis through November 2027."
     ]
   },
 
   legalOptions: {
     en: [
       "To check whether a case was sealed automatically: a criminal history record (RAP sheet) can be requested from the NY Division of Criminal Justice Services (DCJS) by mail. The request form and instructions are at criminaljustice.ny.gov. A sealed case should not appear.",
-      "To apply for sealing under CPL § 160.59: the application is filed in the court where the conviction occurred. In Monroe County, this is typically Rochester City Court (misdemeanors) or Monroe County Court (felonies).",
+      "To apply for sealing under Criminal Procedure Law § 160.59: the application is filed in the court where the conviction occurred. In Monroe County, this is typically Rochester City Court (misdemeanors) or Monroe County Court (felonies).",
       "Free legal help with sealing applications is available through Legal Aid Society of Rochester at (585) 232-4090. They have a dedicated record-sealing program.",
       "The Center for Community Alternatives at (315) 422-5638 also provides sealing assistance.",
       "For marijuana conviction expungement under MRTA: the process is automatic, but checking the RAP sheet to confirm is recommended."
@@ -48,14 +48,14 @@ export const SEAL_YOUR_RECORD_NY = {
   },
 
   example: {
-    en: "A man in Rochester was convicted of petit larceny 12 years ago. He completed probation and has had no new convictions. He contacts Legal Aid's record-sealing program. A lawyer helps him prepare the CPL § 160.59 application, including a personal statement and letters from his employer and community. The application is filed with Rochester City Court. The judge grants sealing. The conviction no longer appears on background checks. The man can truthfully say he has no criminal record when applying for jobs."
+    en: "A man in Rochester was convicted of petit larceny 12 years ago. He completed probation and has had no new convictions. He contacts Legal Aid's record-sealing program. A lawyer helps him prepare the Criminal Procedure Law § 160.59 application, including a personal statement and letters from his employer and community. The application is filed with Rochester City Court. The judge grants sealing. The conviction no longer appears on background checks. The man can truthfully say he has no criminal record when applying for jobs."
   },
 
   counsel: [
     {
       type: "free",
       name: "Legal Aid Society of Rochester — Record Sealing Program",
-      focus: "CPL 160.59 applications, record clearing, Clean Slate guidance",
+      focus: "Criminal Procedure Law § 160.59 applications, record clearing, Clean Slate guidance",
       qualifier: "Low-income residents of Monroe and surrounding counties",
       access: "Phone intake",
       outcome: "Full assistance with sealing applications",

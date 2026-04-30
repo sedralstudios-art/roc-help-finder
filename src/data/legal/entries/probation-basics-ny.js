@@ -31,23 +31,23 @@ export const PROBATION_BASICS_NY = {
       "The right to a hearing before probation is revoked — a probation officer cannot send someone to jail without a court hearing.",
       "The right to an attorney at the violation hearing — a public defender will be assigned if the person cannot afford one.",
       "The right to present evidence and witnesses at the violation hearing.",
-      "The right to request early termination of probation after completing at least half the term, if all conditions have been met (CPL § 410.90).",
-      "The right to request modification of conditions if circumstances change (CPL § 410.20)."
+      "The right to request early termination of probation after completing at least half the term, if all conditions have been met (Criminal Procedure Law § 410.90).",
+      "The right to request modification of conditions if circumstances change (Criminal Procedure Law § 410.20)."
     ]
   },
 
   legalOptions: {
     en: [
       "Anyone facing a violation of probation hearing has the right to an attorney. The Monroe County Public Defender's Office handles VOP cases at (585) 753-4210.",
-      "If conditions of probation are unclear or seem impossible to meet, the defense attorney can file a motion to modify conditions under CPL § 410.20.",
-      "After serving at least half the probation term with no violations, the person or their attorney can request early termination under CPL § 410.90. The court is not required to grant it, but it is commonly granted when all conditions have been met.",
+      "If conditions of probation are unclear or seem impossible to meet, the defense attorney can file a motion to modify conditions under Criminal Procedure Law § 410.20.",
+      "After serving at least half the probation term with no violations, the person or their attorney can request early termination under Criminal Procedure Law § 410.90. The court is not required to grant it, but it is commonly granted when all conditions have been met.",
       "Free legal help with probation issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The Monroe County Probation Department can be reached at (585) 753-3220 for reporting and scheduling questions."
     ]
   },
 
   example: {
-    en: "A man in Rochester is sentenced to 3 years of probation for a misdemeanor. He reports to his probation officer monthly, stays employed, and completes a substance abuse program. After 18 months, his attorney files a motion for early termination under CPL § 410.90. The court reviews his record, sees full compliance, and terminates probation early. He is no longer under supervision."
+    en: "A man in Rochester is sentenced to 3 years of probation for a misdemeanor. He reports to his probation officer monthly, stays employed, and completes a substance abuse program. After 18 months, his attorney files a motion for early termination under Criminal Procedure Law § 410.90. The court reviews his record, sees full compliance, and terminates probation early. He is no longer under supervision."
   },
 
   counsel: [

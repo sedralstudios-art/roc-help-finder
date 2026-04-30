@@ -29,14 +29,14 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
 
   yourRights: {
     en: [
-      "A NY residential tenant has the right to habitable premises under RPP 235-b regardless of what the lease says.",
-      "A tenant has the right to freedom from conditions dangerous, hazardous, or detrimental to life, health, or safety under RPP 235-b subsection 1.",
-      "A tenant has the right to a court assessment of damages for a habitability breach without expert testimony under RPP 235-b subsection 3.",
+      "A NY residential tenant has the right to habitable premises under Real Property Law § 235-b regardless of what the lease says.",
+      "A tenant has the right to freedom from conditions dangerous, hazardous, or detrimental to life, health, or safety under Real Property Law § 235-b subsection 1.",
+      "A tenant has the right to a court assessment of damages for a habitability breach without expert testimony under Real Property Law § 235-b subsection 3.",
       "A tenant has the right to file a local code-enforcement complaint that triggers inspection and repair orders.",
       "A tenant has the right to file a Housing Part petition for a court-ordered repair.",
       "A tenant sued for nonpayment has the right to a rent abatement defense for the breach period.",
-      "A tenant has the right to freedom from retaliatory eviction or adverse action for one year after a complaint under RPP 223-b.",
-      "A tenant has the right to triple damages under RPP 223-b subsection 5-a when a landlord attempts to enforce a fee or penalty for a complaint."
+      "A tenant has the right to freedom from retaliatory eviction or adverse action for one year after a complaint under Real Property Law § 223-b.",
+      "A tenant has the right to triple damages under Real Property Law § 223-b subsection 5-a when a landlord attempts to enforce a fee or penalty for a complaint."
     ]
   },
 
@@ -52,7 +52,7 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
   },
 
   example: {
-    en: "A Brighton apartment went 19 days without heat in January after two certified-mail complaints to the landlord went unanswered. The tenant filed a code enforcement complaint with the Town of Brighton. An inspector visited, documented the violation, and ordered the landlord to restore heat within 7 days. The landlord complied on day 6. The tenant then contacted Legal Aid Society of Rochester and moved for a rent abatement covering the 19-day breach period. The judge approved a 40 percent reduction for those weeks based on severity and lack of alternative heat. Two months later the landlord sent a lease-nonrenewal notice; because the notice fell within the one-year presumption period under RPP 223-b subsection 5, the court entered judgment for the tenant on the retaliation defense and the tenant retained the apartment."
+    en: "A Brighton apartment went 19 days without heat in January after two certified-mail complaints to the landlord went unanswered. The tenant filed a code enforcement complaint with the Town of Brighton. An inspector visited, documented the violation, and ordered the landlord to restore heat within 7 days. The landlord complied on day 6. The tenant then contacted Legal Aid Society of Rochester and moved for a rent abatement covering the 19-day breach period. The judge approved a 40 percent reduction for those weeks based on severity and lack of alternative heat. Two months later the landlord sent a lease-nonrenewal notice; because the notice fell within the one-year presumption period under Real Property Law § 223-b subsection 5, the court entered judgment for the tenant on the retaliation defense and the tenant retained the apartment."
   },
 
   counsel: [

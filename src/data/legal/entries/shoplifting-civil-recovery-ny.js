@@ -30,10 +30,10 @@ export const SHOPLIFTING_CIVIL_RECOVERY_NY = {
 
   yourRights: {
     en: [
-      "A person has the right to refuse to pay a civil demand (GOL 11-105).",
+      "A person has the right to refuse to pay a civil demand (General Obligations Law § 11-105).",
       "A person has the right to dispute the allegations in writing.",
       "A person has the right to notice of any lawsuit, typically 20 days to answer after service.",
-      "A parent has the right to the $500 cap for an unemancipated minor (GOL 11-105(3)).",
+      "A parent has the right to the $500 cap for an unemancipated minor (General Obligations Law § 11-105(3)).",
       "A person detained has the right to be treated reasonably and not falsely imprisoned.",
       "A person has the right to an attorney in any civil action.",
       "A person's criminal case is separate from the civil demand.",
@@ -55,7 +55,7 @@ export const SHOPLIFTING_CIVIL_RECOVERY_NY = {
   },
 
   example: {
-    en: "A Rochester college student was detained at a Target for allegedly failing to scan a $22 item at self-checkout. Store security signed her out, returned the item, and told her police would be notified. No arrest was made. Three weeks later she received a letter from a California demand-letter firm asking for $325 on behalf of Target, citing GOL 11-105. She consulted Legal Aid, which explained the statutory cap is $75 for an adult and that paying does not address any criminal matter. She sent a written response disputing the alleged theft and offering to settle for $50 plus a written release of all civil claims. The demand firm accepted. No lawsuit was ever filed. No criminal charges were filed against her either; the DA declined prosecution."
+    en: "A Rochester college student was detained at a Target for allegedly failing to scan a $22 item at self-checkout. Store security signed her out, returned the item, and told her police would be notified. No arrest was made. Three weeks later she received a letter from a California demand-letter firm asking for $325 on behalf of Target, citing General Obligations Law § 11-105. She consulted Legal Aid, which explained the statutory cap is $75 for an adult and that paying does not address any criminal matter. She sent a written response disputing the alleged theft and offering to settle for $50 plus a written release of all civil claims. The demand firm accepted. No lawsuit was ever filed. No criminal charges were filed against her either; the DA declined prosecution."
   },
 
   counsel: [

@@ -40,7 +40,7 @@ export const FURNACE_REPAIR_SCAM_NY = {
   legalOptions: {
     en: [
       "Under GBL Article 36-A, HVAC contractors must be registered as home improvement contractors. Verify at the Monroe County Clerk at (585) 753-1600.",
-      "Under PPL Section 425, a contract signed at home can be cancelled within three business days.",
+      "Under Personal Property Law § 425, a contract signed at home can be cancelled within three business days.",
       "A complaint about a dishonest HVAC company can be filed with the NYS Attorney General at (800) 771-7755.",
       "If the technician condemned the furnace for a cracked heat exchanger, a second company can verify with a camera inspection or combustion analysis. This costs $100 to $200.",
       "RG&E offers a home energy assessment that includes a furnace check — this can serve as an independent baseline at (800) 743-1701.",

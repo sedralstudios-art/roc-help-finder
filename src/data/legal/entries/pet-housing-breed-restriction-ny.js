@@ -34,7 +34,7 @@ export const PET_HOUSING_BREED_RESTRICTION_NY = {
       "Outside NYC, a landlord's acceptance of rent while knowingly tolerating a pet can waive enforcement under common-law principles.",
       "A tenant with a service animal or emotional support animal is not bound by no-pets or breed policies — these are reasonable accommodations under the Fair Housing Act.",
       "Pet fees and pet rent are generally allowed in market-rate housing.",
-      "Pet deposits may be limited under GOL Section 7-108's one-month cap on total security deposits."
+      "Pet deposits may be limited under General Obligations Law § 7-108's one-month cap on total security deposits."
     ]
   },
 

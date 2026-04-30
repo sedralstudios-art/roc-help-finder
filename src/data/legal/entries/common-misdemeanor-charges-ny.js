@@ -31,7 +31,7 @@ export const COMMON_MISDEMEANOR_CHARGES_NY = {
       "The right to know the exact charge and its classification (misdemeanor, violation, or felony).",
       "Violations are not crimes — they do not create a criminal record in the traditional sense.",
       "An ACD (adjournment in contemplation of dismissal) can resolve many first-offense misdemeanors with no guilty plea and no record.",
-      "Sealed records (under CPL 160.50/160.55) cannot appear on most background checks.",
+      "Sealed records (under Criminal Procedure Law § 160.50/160.55) cannot appear on most background checks.",
       "The right to a trial — nobody has to accept a plea offer."
     ]
   },

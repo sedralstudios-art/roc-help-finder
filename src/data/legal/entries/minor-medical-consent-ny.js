@@ -35,11 +35,11 @@ export const MINOR_MEDICAL_CONSENT_NY = {
   yourRights: {
     en: [
       "A minor age 18 or older has full right to consent to medical care (Domestic Relations Law 2).",
-      "A minor who is a parent, married, or homeless has the right to consent to all medical services (PBH 2504).",
-      "A pregnant minor has the right to consent to prenatal and pregnancy-related care (PBH 2504(3)).",
-      "A minor of any age has the right to consent to contraception, abortion, and continued pregnancy (Reproductive Health Act, PBH 2599-aa).",
-      "A minor of any age has the right to consent to HIV testing and treatment (PBH 2781).",
-      "A minor has the right to consent to STI diagnosis and treatment (PBH 2305).",
+      "A minor who is a parent, married, or homeless has the right to consent to all medical services (Public Health Law § 2504).",
+      "A pregnant minor has the right to consent to prenatal and pregnancy-related care (Public Health Law § 2504(3)).",
+      "A minor of any age has the right to consent to contraception, abortion, and continued pregnancy (Reproductive Health Act, Public Health Law § 2599-aa).",
+      "A minor of any age has the right to consent to HIV testing and treatment (Public Health Law § 2781).",
+      "A minor has the right to consent to STI diagnosis and treatment (Public Health Law § 2305).",
       "A minor age 12+ has the right to voluntary outpatient mental health treatment in many circumstances (MHL 33.21).",
       "A minor has the right to consent to voluntary substance use treatment (MHL 22.11).",
       "A minor who consents has the right to confidentiality of the minor-consent services from parents.",
@@ -105,7 +105,7 @@ export const MINOR_MEDICAL_CONSENT_NY = {
   tags: [
     "minor medical consent",
     "PBH 2504",
-    "Reproductive Health Act PBH 2599-aa",
+    "Reproductive Health Act Public Health Law § 2599-aa",
     "homeless youth Executive Law 532-a",
     "prenatal care any age",
     "PBH 2305 STI",

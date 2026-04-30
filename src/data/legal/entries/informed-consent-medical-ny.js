@@ -30,7 +30,7 @@ export const INFORMED_CONSENT_MEDICAL_NY = {
 
   yourRights: {
     en: [
-      "A patient has the right to be informed of reasonably foreseeable risks before a procedure (PBH 2805-d).",
+      "A patient has the right to be informed of reasonably foreseeable risks before a procedure (Public Health Law § 2805-d).",
       "A patient has the right to be told about alternatives including not undergoing the procedure.",
       "A patient has the right to ask questions and receive honest answers.",
       "A patient has the right to refuse treatment even if medically recommended.",

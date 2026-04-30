@@ -30,7 +30,7 @@ export const NEWBORN_SCREENING_NY = {
 
   yourRights: {
     en: [
-      "A newborn in New York has the statutory right to screening for the NYS panel of 50+ conditions (PBH 2500-a).",
+      "A newborn in New York has the statutory right to screening for the NYS panel of 50+ conditions (Public Health Law § 2500-a).",
       "A parent has the right to a clear explanation of what is on the panel and what results mean.",
       "A parent has the right to prompt communication of abnormal results and to expedited confirmatory testing.",
       "A parent has the right to request destruction of the residual dried blood spot after screening is complete.",

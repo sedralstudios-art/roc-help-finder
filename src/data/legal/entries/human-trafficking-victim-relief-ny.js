@@ -33,7 +33,7 @@ export const HUMAN_TRAFFICKING_VICTIM_RELIEF_NY = {
     en: [
       "A trafficking victim has the right to services under Social Services Law 483-bb.",
       "A minor involved in commercial sex has the right to treatment as a victim, not a delinquent (SSL 447-a).",
-      "A defendant with a trafficking-related record has the right to file a CPL 440.10(1)(i) vacatur motion.",
+      "A defendant with a trafficking-related record has the right to file a Criminal Procedure Law § 440.10(1)(i) vacatur motion.",
       "A non-citizen victim has a right to apply for a T visa (8 USC 1101(a)(15)(T)).",
       "A trafficking victim has an affirmative defense to certain prostitution charges (PL 230.01).",
       "A victim has the right to file a civil suit for damages under 18 USC 1595 and SSL 483-dd.",
@@ -56,7 +56,7 @@ export const HUMAN_TRAFFICKING_VICTIM_RELIEF_NY = {
   },
 
   example: {
-    en: "A 17-year-old from Venezuela was trafficked into Rochester and forced into commercial sex under threats against her family. She was arrested for prostitution in 2022. In 2024 she left her trafficker and contacted Worker Justice Center. An attorney there referred her to immigration counsel for a T-visa application and to Empire Justice Center for a CPL 440.10(1)(i) vacatur motion. The attorney gathered the police report, counselor letters, and an expert affidavit about trafficking indicators. The motion was granted; the conviction was vacated and sealed. Her T-visa application was approved with a certification from the FBI confirming her cooperation. She received work authorization and began work-study at Monroe Community College. The Office of Victim Services reimbursed her trauma counseling and basic relocation expenses."
+    en: "A 17-year-old from Venezuela was trafficked into Rochester and forced into commercial sex under threats against her family. She was arrested for prostitution in 2022. In 2024 she left her trafficker and contacted Worker Justice Center. An attorney there referred her to immigration counsel for a T-visa application and to Empire Justice Center for a Criminal Procedure Law § 440.10(1)(i) vacatur motion. The attorney gathered the police report, counselor letters, and an expert affidavit about trafficking indicators. The motion was granted; the conviction was vacated and sealed. Her T-visa application was approved with a certification from the FBI confirming her cooperation. She received work authorization and began work-study at Monroe Community College. The Office of Victim Services reimbursed her trauma counseling and basic relocation expenses."
   },
 
   counsel: [
@@ -76,7 +76,7 @@ export const HUMAN_TRAFFICKING_VICTIM_RELIEF_NY = {
     {
       type: "free",
       name: "Empire Justice Center",
-      focus: "CPL 440.10(1)(i) vacatur motions, civil trafficking claims, policy advocacy",
+      focus: "Criminal Procedure Law § 440.10(1)(i) vacatur motions, civil trafficking claims, policy advocacy",
       qualifier: "Low-income survivors statewide",
       access: "Phone at (585) 454-4060",
       outcome: "Vacatur filings, civil claims, litigation on systemic issues",

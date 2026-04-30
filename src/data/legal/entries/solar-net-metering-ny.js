@@ -29,7 +29,7 @@ export const SOLAR_NET_METERING_NY = {
 
   yourRights: {
     en: [
-      "A NY residential customer up to 25 kW solar has the right to net metering under PBS 66-j.",
+      "A NY residential customer up to 25 kW solar has the right to net metering under Public Service Law § 66-j.",
       "A pre-2017 solar customer has the right to grandfathered 1-for-1 net metering for 20 years.",
       "A post-2017 customer has the right to VDER Value Stack compensation for excess generation.",
       "A customer has the right to annual true-up and payout of accumulated credit.",

@@ -40,7 +40,7 @@ export const BASEMENT_WATERPROOFING_CONTRACTOR_NY = {
   legalOptions: {
     en: [
       "Under GBL Article 36-A, home improvement contracts statewide must include written terms, escrow protection for deposits, and warranty disclosures. Monroe County itself does not require contractor registration, but the City of Rochester licenses tradespeople through its Department of Licensed Trades.",
-      "Under PPL Section 425 (Door-to-Door Sales), a homeowner can cancel a contract signed at home within three business days. The cancellation must be in writing.",
+      "Under Personal Property Law § 425 (Door-to-Door Sales), a homeowner can cancel a contract signed at home within three business days. The cancellation must be in writing.",
       "A complaint about a waterproofing contractor can be filed with the NYS Attorney General at (800) 771-7755.",
       "The Better Business Bureau tracks complaints against waterproofing companies at bbb.org.",
       "For disputes of $5,000 or less in a NY city court (or $3,000 in town and village courts), small claims is available without an attorney.",

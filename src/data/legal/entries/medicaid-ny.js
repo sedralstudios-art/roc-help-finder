@@ -32,7 +32,7 @@ export const MEDICAID_NY = {
     en: [
       "A NY resident has the right to apply for Medicaid at any time — there is no open-enrollment period.",
       "A NY applicant has the right to a decision within 45 days of a complete application (or 90 days when a disability determination is required).",
-      "A NY applicant with an immediate need for personal-care services has the right under SOS § 366-a to an expedited determination within 7 days.",
+      "A NY applicant with an immediate need for personal-care services has the right under Social Services Law § 366-a to an expedited determination within 7 days.",
       "A NY Medicaid recipient has the right to 12 months of continuous coverage once approved, even if income rises temporarily.",
       "A NY Medicaid recipient has the right to choose any provider that accepts Medicaid and to receive covered services at no cost or with minimal co-payments.",
       "A NY applicant or recipient has the right under SSL § 22 to appeal a denial, reduction, or closure through a fair hearing within 60 days.",

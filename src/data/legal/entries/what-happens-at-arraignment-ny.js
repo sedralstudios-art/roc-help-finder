@@ -39,8 +39,8 @@ export const WHAT_HAPPENS_AT_ARRAIGNMENT_NY = {
 
   legalOptions: {
     en: [
-      "Under CPL 170.10 and 180.10, arraignment is the first court appearance. The defendant enters a plea and the judge sets release conditions.",
-      "Under the 2020 bail reform law (CPL 510.10), bail cannot be set for most misdemeanors and non-violent felonies. The defendant is released with or without conditions.",
+      "Under Criminal Procedure Law § 170.10 and 180.10, arraignment is the first court appearance. The defendant enters a plea and the judge sets release conditions.",
+      "Under the 2020 bail reform law (Criminal Procedure Law § 510.10), bail cannot be set for most misdemeanors and non-violent felonies. The defendant is released with or without conditions.",
       "For qualifying charges where bail can be set, the judge considers the defendant's ties to the community, employment, criminal history, and risk of flight.",
       "The Monroe County Public Defender's Office provides free representation at arraignment for anyone who qualifies at (585) 753-4210.",
       "After arraignment, the case moves to future court dates — conferences, hearings, and possibly trial. The defense attorney handles everything from this point.",

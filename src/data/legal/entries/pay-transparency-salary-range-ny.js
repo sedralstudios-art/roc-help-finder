@@ -106,7 +106,7 @@ export const PAY_TRANSPARENCY_SALARY_RANGE_NY = {
     "effective Sept 17 2023",
     "4-employee threshold",
     "internal promotion transfer covered",
-    "salary history ban LAB 194-a",
+    "salary history ban Labor Law § 194-a",
     "NYSDOL penalty up to $3000",
     "retaliation protection LAB 215"
   ],

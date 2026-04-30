@@ -32,7 +32,7 @@ export const PMI_CANCELLATION_HOMEOWNER_NY = {
       "A conventional mortgage homeowner has the right to PMI cancellation at 80 percent LTV under HPA.",
       "A homeowner has the right to automatic PMI termination at 78 percent LTV.",
       "A homeowner has the right to final PMI termination at the midpoint of the loan regardless of LTV.",
-      "A homeowner has the right to annual PMI disclosure from the servicer under BNK 245-a.",
+      "A homeowner has the right to annual PMI disclosure from the servicer under Banking Law § 245-a.",
       "A homeowner whose home has appreciated has the right to request cancellation based on current value (usually requires paid appraisal).",
       "A homeowner with an HPA violation has the right to refund of improperly charged PMI plus damages under 12 USC 4907."
     ]

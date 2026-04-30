@@ -31,7 +31,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
       "A registered snowmobile owner has the right to ride on designated trails and on private land with permission.",
       "A landowner has the right to prohibit snowmobiles and ATVs from their property — riding without permission is trespassing.",
       "A rider has the right to contest a ticket for a snowmobile or ATV violation in court.",
-      "A landowner who gives permission for riding has limited liability under the New York recreational use statute (GOL 9-103) as long as they do not charge a fee.",
+      "A landowner who gives permission for riding has limited liability under the New York recreational use statute (General Obligations Law § 9-103) as long as they do not charge a fee.",
       "A rider injured on someone else's property may have a claim if the landowner was reckless or created a hidden hazard.",
       "A parent is responsible for injuries and property damage caused by a child operating a snowmobile or ATV."
     ]

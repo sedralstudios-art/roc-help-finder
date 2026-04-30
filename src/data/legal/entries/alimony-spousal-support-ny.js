@@ -39,8 +39,8 @@ export const ALIMONY_SPOUSAL_SUPPORT_NY = {
 
   legalOptions: {
     en: [
-      "Under DRL Section 236, the court calculates temporary maintenance using a statutory formula. An online calculator is available at nycourts.gov.",
-      "Post-divorce maintenance duration is based on the length of the marriage. The advisory schedule is in DRL Section 236(B)(6).",
+      "Under Domestic Relations Law § 236, the court calculates temporary maintenance using a statutory formula. An online calculator is available at nycourts.gov.",
+      "Post-divorce maintenance duration is based on the length of the marriage. The advisory schedule is in Domestic Relations Law § 236(B)(6).",
       "If the paying spouse stops paying, the receiving spouse can file a violation petition in the court that issued the divorce.",
       "If circumstances change, either spouse can file a modification petition. The petitioner must show a substantial change in circumstances.",
       "Free legal help with divorce and maintenance issues is available through Legal Aid Society of Rochester at (585) 232-4090 and JustCause (formerly VLSP) at (585) 232-3051.",

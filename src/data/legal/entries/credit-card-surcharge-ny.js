@@ -30,7 +30,7 @@ export const CREDIT_CARD_SURCHARGE_NY = {
 
   yourRights: {
     en: [
-      "A consumer has the right to clear, posted disclosure of the total credit card price (GBS 518 as amended 2024).",
+      "A consumer has the right to clear, posted disclosure of the total credit card price (General Business Law § 518 as amended 2024).",
       "A consumer cannot be charged a surcharge on a debit card (Durbin Amendment 15 USC 1693o-2).",
       "A consumer has the right to a surcharge not exceeding the merchant's processing cost.",
       "A consumer misled by improper disclosure has GBL 349 remedies.",

@@ -39,7 +39,7 @@ export const KINSHIP_CARE_NY = {
   legalOptions: {
     en: [
       "For financial assistance: a child-only TA grant can be applied for at Monroe County DSS at (585) 753-6998. Medicaid for the child can be applied for at the same time.",
-      "For legal authority: a Designation of Person in Parental Relation form (GOL § 5-1551) can be signed by the parent to give the caregiver authority for school and medical decisions. No court is needed.",
+      "For legal authority: a Designation of Person in Parental Relation form (General Obligations Law § 5-1551) can be signed by the parent to give the caregiver authority for school and medical decisions. No court is needed.",
       "For guardianship or legal custody: a petition can be filed in Family Court. Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The Kinship Navigator at Catholic Family Center in Rochester provides information, referrals, and support for kinship caregivers. They can be reached at (585) 546-7220.",
       "If DSS has placed the child with a relative, the relative can ask about kinship foster care rates and KinGAP."

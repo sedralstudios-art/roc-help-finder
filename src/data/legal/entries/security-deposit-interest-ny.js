@@ -28,7 +28,7 @@ export const SECURITY_DEPOSIT_INTEREST_NY = {
 
   yourRights: {
     en: [
-      "A tenant in a building with 6+ units has the right to interest on the security deposit (GOL Section 7-103).",
+      "A tenant in a building with 6+ units has the right to interest on the security deposit (General Obligations Law § 7-103).",
       "The landlord can keep a 1 percent annual administrative fee; the rest of the interest belongs to the tenant.",
       "The landlord must notify the tenant of the bank holding the deposit.",
       "The deposit cannot be commingled with the landlord's personal funds regardless of building size.",
@@ -39,7 +39,7 @@ export const SECURITY_DEPOSIT_INTEREST_NY = {
 
   legalOptions: {
     en: [
-      "Check the lease or the initial move-in paperwork for the bank name and account information — GOL 7-103 requires this disclosure.",
+      "Check the lease or the initial move-in paperwork for the bank name and account information — General Obligations Law § 7-103 requires this disclosure.",
       "If no bank was disclosed and the building has 6 or more units, send a written demand to the landlord for the bank information and accrued interest.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles tenant deposit disputes for low-income tenants.",
       "LawNY at (585) 325-2520 handles housing cases.",
@@ -49,7 +49,7 @@ export const SECURITY_DEPOSIT_INTEREST_NY = {
   },
 
   example: {
-    en: "A tenant in a Rochester apartment building with 48 units paid a $1,200 security deposit. After five years, the landlord returned the deposit but included no interest. The tenant sent a written demand citing GOL Section 7-103. The landlord responded that the deposit had been held in an interest-bearing account earning about 2.5 percent annually for the last three years. The total interest over five years came to approximately $135. The landlord deducted the 1 percent annual administrative fee ($60) and paid the tenant the remaining $75."
+    en: "A tenant in a Rochester apartment building with 48 units paid a $1,200 security deposit. After five years, the landlord returned the deposit but included no interest. The tenant sent a written demand citing General Obligations Law § 7-103. The landlord responded that the deposit had been held in an interest-bearing account earning about 2.5 percent annually for the last three years. The total interest over five years came to approximately $135. The landlord deducted the 1 percent annual administrative fee ($60) and paid the tenant the remaining $75."
   },
 
   counsel: [

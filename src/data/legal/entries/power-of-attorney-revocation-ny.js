@@ -39,7 +39,7 @@ export const POWER_OF_ATTORNEY_REVOCATION_NY = {
 
   legalOptions: {
     en: [
-      "Under GOL Section 5-1511, a written revocation signed by the principal and delivered to the agent ends the agent's authority.",
+      "Under General Obligations Law § 5-1511, a written revocation signed by the principal and delivered to the agent ends the agent's authority.",
       "The principal should send the revocation by certified mail to create proof that the agent received it.",
       "The principal should also send a copy of the revocation to every bank, brokerage, and institution where the agent has been acting.",
       "If the agent is suspected of stealing, a report can be filed with the police and with Adult Protective Services at (585) 753-6532 (Monroe County).",

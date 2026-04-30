@@ -39,9 +39,9 @@ export const MOVING_OUT_CHECKLIST_NY = {
 
   legalOptions: {
     en: [
-      "Under GOL Section 7-108, the landlord has 14 days to return the deposit with an itemized statement. Failure to do so can result in the tenant recovering the full deposit in court.",
+      "Under General Obligations Law § 7-108, the landlord has 14 days to return the deposit with an itemized statement. Failure to do so can result in the tenant recovering the full deposit in court.",
       "Before moving out: clean the apartment, patch small nail holes, take dated photos of every room, and send the landlord a written notice with the forwarding address.",
-      "If the landlord does not return the deposit, send a demand letter by certified mail citing GOL 7-108 and giving 10 days to respond.",
+      "If the landlord does not return the deposit, send a demand letter by certified mail citing General Obligations Law § 7-108 and giving 10 days to respond.",
       "If the landlord still does not pay, file in small claims court. Bring: the lease, photos from move-in and moveout, the demand letter, and any communication with the landlord.",
       "In Rochester, small claims court is at the Hall of Justice, 99 Exchange Blvd. Filing fee is $15 to $20.",
       "Free legal help with security deposit disputes is available through Housing Council at Rochester at (585) 546-3700 and Legal Aid Society at (585) 232-4090."

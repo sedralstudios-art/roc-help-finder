@@ -40,7 +40,7 @@ export const EMANCIPATION_MINOR_NY = {
 
   legalOptions: {
     en: [
-      "Under DRL Section 240, child support in New York continues until age 21 unless emancipation occurs. A parent seeking to end support must file a petition in Family Court showing the child is emancipated.",
+      "Under Domestic Relations Law § 240, child support in New York continues until age 21 unless emancipation occurs. A parent seeking to end support must file a petition in Family Court showing the child is emancipated.",
       "There is no petition a minor can file in New York to become emancipated. The status arises from life circumstances (marriage, military, independent living).",
       "If a minor is living on their own and needs help, they may qualify for services through Monroe County DSS, including emergency housing and SNAP benefits.",
       "Foster youth approaching age 21 can access transitional services through the Foster Care Independence Act. Monroe County Department of Human Services can be reached at (585) 753-6998 (main intake) or (585) 753-6998 (general office).",

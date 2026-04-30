@@ -47,7 +47,7 @@ export const FOUND_LOST_PROPERTY_WALLET_NY = {
   },
 
   example: {
-    en: "Nadia found a leather wallet outside a Brighton coffee shop containing 380 dollars in cash and a driver license. She called the phone number on a bank card in the wallet and reached the owner, who drove over within 20 minutes. Because the return happened within ten days and the owner received the wallet intact, Nadia satisfied her legal duty without a police filing. When a similar wallet she found a month later had no ID and 45 dollars in cash, Nadia turned it in to Brighton Police, who held it for three months under PPL 253 before no owner claim resulted. Brighton Police then called Nadia, who legally took ownership of the 45 dollars."
+    en: "Nadia found a leather wallet outside a Brighton coffee shop containing 380 dollars in cash and a driver license. She called the phone number on a bank card in the wallet and reached the owner, who drove over within 20 minutes. Because the return happened within ten days and the owner received the wallet intact, Nadia satisfied her legal duty without a police filing. When a similar wallet she found a month later had no ID and 45 dollars in cash, Nadia turned it in to Brighton Police, who held it for three months under Personal Property Law § 253 before no owner claim resulted. Brighton Police then called Nadia, who legally took ownership of the 45 dollars."
   },
 
   counsel: [

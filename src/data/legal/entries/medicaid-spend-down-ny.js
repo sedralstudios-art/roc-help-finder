@@ -29,12 +29,12 @@ export const MEDICAID_SPEND_DOWN_NY = {
 
   yourRights: {
     en: [
-      "A NY Non-MAGI applicant has the right under SOS § 366 to use the spend-down pathway when income exceeds the Medicaid limit but the household otherwise qualifies.",
+      "A NY Non-MAGI applicant has the right under Social Services Law § 366 to use the spend-down pathway when income exceeds the Medicaid limit but the household otherwise qualifies.",
       "A spend-down recipient has the right to apply both paid and unpaid medical bills toward the monthly excess-income amount.",
       "A spend-down household has the right to include bills from a spouse and children under 21 in the monthly calculation.",
       "A spend-down recipient has the right to choose between submitting bills monthly or the Pay-In Program.",
       "A disabled recipient has the right to use a pooled supplemental-needs trust as an alternative to monthly spend-down.",
-      "A Non-MAGI applicant has the right under SOS § 366-a to retroactive Medicaid coverage for up to three months before the application date.",
+      "A Non-MAGI applicant has the right under Social Services Law § 366-a to retroactive Medicaid coverage for up to three months before the application date.",
       "A recipient or applicant has the right under SSL § 22 to appeal an incorrect excess-income calculation through a fair hearing within 60 days."
     ]
   },

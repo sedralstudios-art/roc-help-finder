@@ -42,7 +42,7 @@ export const VOLUNTEER_FIREFIGHTER_PROPERTY_TAX_EXEMPTION_NY = {
       "Each town assessor office (Greece 585-225-2000, Brighton 585-784-5250, Irondequoit 585-467-8840, Penfield 585-340-8600, Pittsford 585-248-6214, Henrietta 585-334-7700, Chili 585-889-3550, Rochester 585-428-7000) accepts Form RP-466-a.",
       "NYS Department of Taxation and Finance at (518) 457-2036 provides Form RP-466-a and instructions.",
       "Local fire district or ambulance service issues the annual certification of active service.",
-      "A volunteer who was wrongly denied the exemption can file a grievance under RPT 524 before the Board of Assessment Review."
+      "A volunteer who was wrongly denied the exemption can file a grievance under Real Property Tax Law § 524 before the Board of Assessment Review."
     ]
   },
 

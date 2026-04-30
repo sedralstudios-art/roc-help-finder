@@ -39,7 +39,7 @@ export const PRENUPTIAL_AGREEMENT_NY = {
 
   legalOptions: {
     en: [
-      "Under DRL Section 236(B)(3), a valid prenup must be in writing, signed, and acknowledged (notarized) by both parties.",
+      "Under Domestic Relations Law § 236(B)(3), a valid prenup must be in writing, signed, and acknowledged (notarized) by both parties.",
       "A prenup can be challenged during a divorce on the grounds of duress, lack of disclosure, or unconscionability. The burden of proof is on the person challenging it.",
       "Both parties should have separate attorneys. If one party did not have a lawyer, it makes the prenup easier to challenge but does not automatically make it invalid.",
       "A postnuptial agreement (signed after the marriage) follows the same rules and can modify or replace the prenup.",

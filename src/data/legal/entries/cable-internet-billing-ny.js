@@ -7,7 +7,7 @@ export const CABLE_INTERNET_BILLING_NY = {
   primaryStatute: "NY PBS 215",
   status: "active",
 
-  title: { en: "Cable and Internet Billing Disputes in New York — PBS 215, FCC Rules, and How to Fight Back" },
+  title: { en: "Cable and Internet Billing Disputes in New York — Public Service Law § 215, FCC Rules, and How to Fight Back" },
 
   summary: {
     en: "Cable and internet companies have to provide clear pricing up front, cannot charge for services the customer did not order, and have to give 30 days written notice before raising rates. New York Public Service Law 215 and the NY Public Service Commission regulate cable TV in New York. Federal FCC rules layer on top for internet service. Complaints to the PSC and the FCC usually get results within a few weeks when the company refuses to fix a billing dispute on the phone."
@@ -29,7 +29,7 @@ export const CABLE_INTERNET_BILLING_NY = {
 
   yourRights: {
     en: [
-      "A company has to give 30 days written notice before raising rates (PSC rules, PBS 215).",
+      "A company has to give 30 days written notice before raising rates (PSC rules, Public Service Law § 215).",
       "A customer charged for a service they did not order has the right to a refund.",
       "The monthly bill has to clearly itemize every charge.",
       "A service outage of more than 24 hours often entitles the customer to a credit under the service agreement.",

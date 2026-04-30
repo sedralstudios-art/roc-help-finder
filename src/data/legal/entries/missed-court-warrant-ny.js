@@ -49,7 +49,7 @@ export const MISSED_COURT_WARRANT_NY = {
   },
 
   example: {
-    en: "A woman in Rochester missed a court date for a misdemeanor case because she was in the hospital. A bench warrant issued under CPL 530.70. Three months later, she contacts Legal Aid. Her attorney calls the court, explains the medical situation, and arranges a voluntary appearance. At the appearance, the judge vacates the warrant, accepts the hospital documentation, and schedules a new date. She is not arrested — she walks in and walks out."
+    en: "A woman in Rochester missed a court date for a misdemeanor case because she was in the hospital. A bench warrant issued under Criminal Procedure Law § 530.70. Three months later, she contacts Legal Aid. Her attorney calls the court, explains the medical situation, and arranges a voluntary appearance. At the appearance, the judge vacates the warrant, accepts the hospital documentation, and schedules a new date. She is not arrested — she walks in and walks out."
   },
 
   counsel: [

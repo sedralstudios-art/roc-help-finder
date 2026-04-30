@@ -22,7 +22,7 @@ export const STUDDED_SNOW_TIRE_SEASON_NY = {
   },
 
   whatItMeans: {
-    en: "New York Vehicle and Traffic Law Section 375(35) limits studded tire use to the period from October 16 through April 30. Studded tires use small metal pins that grip ice but damage dry pavement over time, which is why New York and most northeastern states set a seasonal window. Snow tires without studs (sometimes called winter tires or mud-and-snow tires) are legal year-round and do not fall under the seasonal limit. New York does not require any passenger car driver to switch to snow tires in winter, though some commercial vehicles and school buses have separate traction requirements during declared storm events. A driver using studded tires in May, June, July, August, September, or the first half of October can be ticketed under VAT 375. The typical fine is under 150 dollars plus a surcharge. A driver from a state with different rules — for example a Vermont or New Hampshire driver visiting Rochester in summer — is still expected to follow New York rules while driving in New York. Monroe County road salt and plow service runs from roughly November through March, but the legal studded tire window is broader to account for early and late storms. Most tire shops in the Rochester area offer a seasonal swap and storage service that handles timing automatically. A snow tire marked 3PMSF (Three-Peak Mountain Snowflake) meets a severe winter traction standard and is the safest non-studded option for the Monroe County winter."
+    en: "New York Vehicle and Traffic Law Section 375(35) limits studded tire use to the period from October 16 through April 30. Studded tires use small metal pins that grip ice but damage dry pavement over time, which is why New York and most northeastern states set a seasonal window. Snow tires without studs (sometimes called winter tires or mud-and-snow tires) are legal year-round and do not fall under the seasonal limit. New York does not require any passenger car driver to switch to snow tires in winter, though some commercial vehicles and school buses have separate traction requirements during declared storm events. A driver using studded tires in May, June, July, August, September, or the first half of October can be ticketed under Vehicle and Traffic Law § 375. The typical fine is under 150 dollars plus a surcharge. A driver from a state with different rules — for example a Vermont or New Hampshire driver visiting Rochester in summer — is still expected to follow New York rules while driving in New York. Monroe County road salt and plow service runs from roughly November through March, but the legal studded tire window is broader to account for early and late storms. Most tire shops in the Rochester area offer a seasonal swap and storage service that handles timing automatically. A snow tire marked 3PMSF (Three-Peak Mountain Snowflake) meets a severe winter traction standard and is the safest non-studded option for the Monroe County winter."
   },
 
   yourRights: {
@@ -36,15 +36,15 @@ export const STUDDED_SNOW_TIRE_SEASON_NY = {
 
   legalOptions: {
     en: [
-      "For the exact statute, NY VAT Section 375 is available at nysenate.gov.",
-      "For a traffic ticket under VAT 375, the ticket can be contested at Monroe County Traffic Violations Agency.",
+      "For the exact statute, NY Vehicle and Traffic Law § 375 is available at nysenate.gov.",
+      "For a traffic ticket under Vehicle and Traffic Law § 375, the ticket can be contested at Monroe County Traffic Violations Agency.",
       "NYS DMV at (518) 486-9786 answers general vehicle equipment questions.",
       "For a tire shop seasonal swap and storage, local Monroe County shops handle the October and April timing."
     ]
   },
 
   example: {
-    en: "Marcus bought a used car with studded snow tires still mounted in June. He was pulled over on Monroe Avenue and cited under VAT 375 for out-of-season studded tires. Marcus went to Monroe County Traffic Violations Agency, showed proof that he had scheduled a tire change for the following week, and the officer agreed to reduce the charge to a warning. Marcus switched to all-season tires and kept the studded snow tires in storage for October."
+    en: "Marcus bought a used car with studded snow tires still mounted in June. He was pulled over on Monroe Avenue and cited under Vehicle and Traffic Law § 375 for out-of-season studded tires. Marcus went to Monroe County Traffic Violations Agency, showed proof that he had scheduled a tire change for the following week, and the officer agreed to reduce the charge to a warning. Marcus switched to all-season tires and kept the studded snow tires in storage for October."
   },
 
   counsel: [

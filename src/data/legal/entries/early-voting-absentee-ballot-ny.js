@@ -101,7 +101,7 @@ export const EARLY_VOTING_ABSENTEE_BALLOT_NY = {
     "Early Mail Voter Act 2023",
     "absentee ballot",
     "mail ballot cure Election Law 9-209",
-    "Election Day paid time off ELN 3-110",
+    "Election Day paid time off Election Law § 3-110",
     "ballot marking device accessibility",
     "registration deadline 10 days",
     "affidavit ballot",

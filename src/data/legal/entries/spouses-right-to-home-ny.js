@@ -39,7 +39,7 @@ export const SPOUSES_RIGHT_TO_HOME_NY = {
 
   legalOptions: {
     en: [
-      "Under DRL Section 234, a motion for exclusive use and occupancy can be filed as part of the divorce case.",
+      "Under Domestic Relations Law § 234, a motion for exclusive use and occupancy can be filed as part of the divorce case.",
       "If domestic violence is involved, an order of protection from Family Court or Criminal Court can include a provision granting exclusive use of the home immediately.",
       "A spouse who is locked out without a court order can call the police. The police can help the spouse re-enter the home.",
       "The court considers the best interests of any children as a primary factor when deciding exclusive use.",

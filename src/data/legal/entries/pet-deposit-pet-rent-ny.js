@@ -7,7 +7,7 @@ export const PET_DEPOSIT_PET_RENT_NY = {
   primaryStatute: "NY GOB 7-108",
   status: "active",
 
-  title: { en: "Pet Deposits and Pet Rent in New York — What a Landlord Can and Cannot Charge Under GOL 7-108" },
+  title: { en: "Pet Deposits and Pet Rent in New York — What a Landlord Can and Cannot Charge Under General Obligations Law § 7-108" },
 
   summary: {
     en: "New York's 2019 security deposit cap applies to pet deposits too. A landlord can collect up to one month's rent as a security deposit — total. Anything labeled a pet deposit or pet fee counts toward the one-month cap. The statute is General Obligations Law 7-108. Pet rent (a monthly charge for a pet) is a different animal; it is treated as part of the rent and is not capped outside rent-regulated units, but it has to be in the lease. Service animals and emotional support animals are not pets under fair housing law; no deposit, fee, or pet rent can be charged for them."
@@ -29,7 +29,7 @@ export const PET_DEPOSIT_PET_RENT_NY = {
 
   yourRights: {
     en: [
-      "A security deposit in New York cannot exceed one month's rent in total, including any amount labeled as a pet deposit (GOL 7-108).",
+      "A security deposit in New York cannot exceed one month's rent in total, including any amount labeled as a pet deposit (General Obligations Law § 7-108).",
       "A non-refundable pet fee counts toward the one-month security deposit cap.",
       "Pet rent (a monthly charge) is legal when disclosed in the lease; it cannot be added mid-lease without the tenant's agreement.",
       "Service animals and emotional support animals are not pets under fair housing law; no deposit, fee, or pet rent can be charged.",
@@ -49,7 +49,7 @@ export const PET_DEPOSIT_PET_RENT_NY = {
   },
 
   example: {
-    en: "A tenant in Rochester rents an apartment for $1,000 a month. The landlord collects a $1,000 security deposit and a $500 pet deposit — $1,500 in total. Under GOL 7-108, the maximum total deposit is one month's rent, which is $1,000. The extra $500 pet deposit is over the cap. The tenant can demand the $500 back in writing. When the landlord refuses, a small claims case or an AG complaint resolves it."
+    en: "A tenant in Rochester rents an apartment for $1,000 a month. The landlord collects a $1,000 security deposit and a $500 pet deposit — $1,500 in total. Under General Obligations Law § 7-108, the maximum total deposit is one month's rent, which is $1,000. The extra $500 pet deposit is over the cap. The tenant can demand the $500 back in writing. When the landlord refuses, a small claims case or an AG complaint resolves it."
   },
 
   counsel: [

@@ -118,7 +118,7 @@ export const WRONGFUL_EVICTION_LOCKOUT_NY = {
     "order to show cause emergency",
     "warrant of eviction required",
     "RPAPL 711 proper procedure",
-    "PEN 145 criminal mischief overlap"
+    "Penal Law § 145 criminal mischief overlap"
   ],
 
   sources: [

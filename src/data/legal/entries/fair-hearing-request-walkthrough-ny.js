@@ -28,7 +28,7 @@ export const FAIR_HEARING_REQUEST_WALKTHROUGH_NY = {
 
   yourRights: {
     en: [
-      "Any benefit applicant or recipient has the right to a fair hearing under NY SOS § 22 and 18 NYCRR Part 358.",
+      "Any benefit applicant or recipient has the right to a fair hearing under NY Social Services Law § 22 and 18 NYCRR Part 358.",
       "A recipient has the right to request aid continuing if the request is timely (before the change effective date or within 10 days of a late-mailed notice).",
       "A recipient has the right to representation at the hearing — by a lawyer, an advocate, a family member, or alone.",
       "A recipient has the right to see the agency's file (agency packet) before the hearing.",

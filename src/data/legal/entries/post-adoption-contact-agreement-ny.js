@@ -35,7 +35,7 @@ export const POST_ADOPTION_CONTACT_AGREEMENT_NY = {
       "All parties have the right to a court review of the agreement for best interests of the child.",
       "A party has the right to petition for enforcement if contact obligations are not met.",
       "A party has the right to petition for modification if circumstances change.",
-      "The adoption itself is not conditional on compliance with the contact agreement (DRL 112-b(5))."
+      "The adoption itself is not conditional on compliance with the contact agreement (Domestic Relations Law § 112-b(5))."
     ]
   },
 
@@ -52,7 +52,7 @@ export const POST_ADOPTION_CONTACT_AGREEMENT_NY = {
   },
 
   example: {
-    en: "A Rochester couple adopted a 9-year-old niece from foster care after the child's mother (the adoptive father's sister) completed a drug treatment program but was unable to regain custody. During the adoption, the adoptive parents and birth mother signed a DRL 112-b agreement specifying quarterly supervised visits at SPCC, monthly phone calls, and photos twice a year. The court reviewed and approved the agreement. Two years later, the birth mother missed several visits during a relapse. The adoptive parents, with help from a JustCause attorney, filed an enforcement petition. The court ordered mediation, during which the birth mother agreed to complete 90 days of continuous sobriety before visits resumed. Visits resumed six months later and the relationship stabilized."
+    en: "A Rochester couple adopted a 9-year-old niece from foster care after the child's mother (the adoptive father's sister) completed a drug treatment program but was unable to regain custody. During the adoption, the adoptive parents and birth mother signed a Domestic Relations Law § 112-b agreement specifying quarterly supervised visits at SPCC, monthly phone calls, and photos twice a year. The court reviewed and approved the agreement. Two years later, the birth mother missed several visits during a relapse. The adoptive parents, with help from a JustCause attorney, filed an enforcement petition. The court ordered mediation, during which the birth mother agreed to complete 90 days of continuous sobriety before visits resumed. Visits resumed six months later and the relationship stabilized."
   },
 
   counsel: [

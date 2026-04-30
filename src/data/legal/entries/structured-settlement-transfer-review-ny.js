@@ -28,7 +28,7 @@ export const STRUCTURED_SETTLEMENT_TRANSFER_REVIEW_NY = {
 
   yourRights: {
     en: [
-      "A structured settlement payment cannot be transferred without a court order under GOL 5-1701.",
+      "A structured settlement payment cannot be transferred without a court order under General Obligations Law § 5-1701.",
       "A transfer agreement without court approval is legally ineffective — the annuity issuer is not required to pay the factoring company.",
       "A seller has the right to independent professional advice (financial counselor, attorney) before the court hearing, often paid for by the factoring company.",
       "The court must find the transfer is in the seller's best interest before approving.",
@@ -50,7 +50,7 @@ export const STRUCTURED_SETTLEMENT_TRANSFER_REVIEW_NY = {
   },
 
   example: {
-    en: "A Rochester resident receiving a structured settlement of $2,200 per month for life (from a 10-year-old personal injury case) was approached by a factoring company offering $85,000 cash for 120 months of future payments. Present value of those 120 payments at a reasonable discount rate was closer to $200,000. The court hearing under GOL 5-1701 examined the seller's financial situation, learned the $85,000 was intended for discretionary spending rather than a specific need, and denied the transfer as not in the seller's best interest. The seller kept the monthly payments. A later application to transfer a smaller amount ($20,000 for medical bills and vehicle repair) was approved."
+    en: "A Rochester resident receiving a structured settlement of $2,200 per month for life (from a 10-year-old personal injury case) was approached by a factoring company offering $85,000 cash for 120 months of future payments. Present value of those 120 payments at a reasonable discount rate was closer to $200,000. The court hearing under General Obligations Law § 5-1701 examined the seller's financial situation, learned the $85,000 was intended for discretionary spending rather than a specific need, and denied the transfer as not in the seller's best interest. The seller kept the monthly payments. A later application to transfer a smaller amount ($20,000 for medical bills and vehicle repair) was approved."
   },
 
   counsel: [

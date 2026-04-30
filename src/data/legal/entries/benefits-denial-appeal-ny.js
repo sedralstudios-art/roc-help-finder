@@ -15,11 +15,11 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
 
   whoQualifies: {
     en: [
-      "A NY applicant or recipient of Temporary Assistance (Family Assistance or Safety Net Assistance), Medicaid, or emergency assistance under SOS § 22(3)(a).",
-      "A NY applicant or participant in the Food Stamp (SNAP) program under SOS § 22(3)(b).",
-      "An aged, blind, or disabled applicant for emergency assistance under SOS § 22(3)(c).",
+      "A NY applicant or recipient of Temporary Assistance (Family Assistance or Safety Net Assistance), Medicaid, or emergency assistance under Social Services Law § 22(3)(a).",
+      "A NY applicant or participant in the Food Stamp (SNAP) program under Social Services Law § 22(3)(b).",
+      "An aged, blind, or disabled applicant for emergency assistance under Social Services Law § 22(3)(c).",
       "A person authorized to act on behalf of any appealing applicant or recipient.",
-      "A social services district employee or other party aggrieved by a decision reviewable under SOS § 22."
+      "A social services district employee or other party aggrieved by a decision reviewable under Social Services Law § 22."
     ]
   },
 
@@ -29,13 +29,13 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
 
   yourRights: {
     en: [
-      "A NY benefits recipient has the right under SOS § 22(1) to appeal any social services district decision or failure to act, and to a fair hearing review by the NY Office of Temporary and Disability Assistance.",
-      "A SNAP applicant has the right under SOS § 22(4)(b) to 90 days to appeal a food stamp action — longer than the 60-day window under SOS § 22(4)(a) for other programs.",
+      "A NY benefits recipient has the right under Social Services Law § 22(1) to appeal any social services district decision or failure to act, and to a fair hearing review by the NY Office of Temporary and Disability Assistance.",
+      "A SNAP applicant has the right under Social Services Law § 22(4)(b) to 90 days to appeal a food stamp action — longer than the 60-day window under Social Services Law § 22(4)(a) for other programs.",
       "A recipient has the right to aid continuing — benefits remain at the current level until the hearing decision issues — when the hearing is requested before the effective date of the notice.",
-      "A recipient has the right under SOS § 22(12) to written notice explaining the right to appeal, how to request, and the right to representation by an attorney, relative, friend, or self-representation.",
-      "A recipient has the right under SOS § 22(13) to agency-paid legal services when required by federal law or regulation.",
-      "Any aggrieved party has the right under SOS § 22(9)(b) to seek Article 78 judicial review of a fair hearing decision in NY Supreme Court.",
-      "A local social services district has the duty under SOS § 22(9)(a) to comply with the commissioner's fair hearing decision."
+      "A recipient has the right under Social Services Law § 22(12) to written notice explaining the right to appeal, how to request, and the right to representation by an attorney, relative, friend, or self-representation.",
+      "A recipient has the right under Social Services Law § 22(13) to agency-paid legal services when required by federal law or regulation.",
+      "Any aggrieved party has the right under Social Services Law § 22(9)(b) to seek Article 78 judicial review of a fair hearing decision in NY Supreme Court.",
+      "A local social services district has the duty under Social Services Law § 22(9)(a) to comply with the commissioner's fair hearing decision."
     ]
   },
 
@@ -52,7 +52,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
   },
 
   example: {
-    en: "Marcus applied for SNAP at Monroe County DHS in January. The agency denied the application in February, citing income above the limit, but Marcus's pay stubs had included a one-time bonus the agency counted as ongoing income. Marcus called OTDA on the day the notice arrived and requested a fair hearing. Because SOS § 22(4)(b) gave him up to 90 days, the request was timely. Legal Aid Society of Rochester assisted at the hearing. The OTDA officer reviewed the pay stubs, excluded the one-time bonus from countable income, and reversed the denial. Under SOS § 22(9)(a) the Monroe County district was bound to approve benefits, retroactive to the original application date."
+    en: "Marcus applied for SNAP at Monroe County DHS in January. The agency denied the application in February, citing income above the limit, but Marcus's pay stubs had included a one-time bonus the agency counted as ongoing income. Marcus called OTDA on the day the notice arrived and requested a fair hearing. Because Social Services Law § 22(4)(b) gave him up to 90 days, the request was timely. Legal Aid Society of Rochester assisted at the hearing. The OTDA officer reviewed the pay stubs, excluded the one-time bonus from countable income, and reversed the denial. Under Social Services Law § 22(9)(a) the Monroe County district was bound to approve benefits, retroactive to the original application date."
   },
 
   counsel: [
@@ -60,7 +60,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
       type: "government",
       name: "NY Office of Temporary and Disability Assistance — Fair Hearing Section",
       focus: "Receiving and scheduling fair hearing requests across NY",
-      qualifier: "Any applicant or recipient of NY benefits under SOS § 22",
+      qualifier: "Any applicant or recipient of NY benefits under Social Services Law § 22",
       access: "Phone, online form, mail, fax",
       outcome: "Fair hearing scheduled and decision issued",
       phone: "(800) 342-3334",

@@ -31,7 +31,7 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
       "In New York, consumer credit transactions have a 3-year statute of limitations under CPLR 214-i; other written contract debts have a 6-year limit under CPLR 213.",
       "After the deadline, the creditor cannot sue — but can still try to collect informally.",
       "For non-consumer-credit contract debts, a partial payment can restart the clock — for consumer credit debts, CPLR 214-i prevents revival.",
-      "A signed written acknowledgment can restart the clock for non-consumer-credit debts under GOL 17-101 — a verbal one cannot.",
+      "A signed written acknowledgment can restart the clock for non-consumer-credit debts under General Obligations Law § 17-101 — a verbal one cannot.",
       "If sued on a time-barred debt, the statute of limitations is an affirmative defense that must be raised.",
       "Time-barred debt can still appear on a credit report for up to 7 years from first delinquency."
     ]

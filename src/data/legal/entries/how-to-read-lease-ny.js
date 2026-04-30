@@ -23,7 +23,7 @@ export const HOW_TO_READ_LEASE_NY = {
   },
 
   whatItMeans: {
-    en: "A residential lease in New York is a contract between the landlord and tenant. It sets the rent amount, the lease term (usually one year), the security deposit, who pays for utilities, rules about pets, guests, subletting, and early termination. But not everything a landlord puts in a lease is legal. New York law overrides certain lease clauses: a clause waiving the warranty of habitability is void (RPL 235-b). A clause waiving the right to a jury trial in an eviction case is void. A clause requiring the tenant to pay the landlord's attorney fees in a dispute without giving the tenant the same right is void (RPL 234). A clause holding the landlord harmless for injuries caused by the landlord's own negligence is void (GOL 5-321). A security deposit over one month's rent is illegal. Late fees over $50 or 5% of the monthly rent (whichever is less) are unenforceable. Before signing, the tenant should read every page, ask about anything unclear, and keep a signed copy."
+    en: "A residential lease in New York is a contract between the landlord and tenant. It sets the rent amount, the lease term (usually one year), the security deposit, who pays for utilities, rules about pets, guests, subletting, and early termination. But not everything a landlord puts in a lease is legal. New York law overrides certain lease clauses: a clause waiving the warranty of habitability is void (RPL 235-b). A clause waiving the right to a jury trial in an eviction case is void. A clause requiring the tenant to pay the landlord's attorney fees in a dispute without giving the tenant the same right is void (RPL 234). A clause holding the landlord harmless for injuries caused by the landlord's own negligence is void (General Obligations Law § 5-321). A security deposit over one month's rent is illegal. Late fees over $50 or 5% of the monthly rent (whichever is less) are unenforceable. Before signing, the tenant should read every page, ask about anything unclear, and keep a signed copy."
   },
 
   yourRights: {
@@ -42,8 +42,8 @@ export const HOW_TO_READ_LEASE_NY = {
     en: [
       "Under RPL 235-b, the warranty of habitability cannot be waived by any lease clause.",
       "Under RPL 234, any attorney fee clause in a residential lease automatically applies to both sides — if the landlord can collect fees, so can the tenant.",
-      "Under GOL 5-321, a lease clause that makes the tenant responsible for injuries caused by the landlord's negligence is void.",
-      "Under GOL 7-108, the security deposit is capped at one month's rent. Any amount over that is illegal.",
+      "Under General Obligations Law § 5-321, a lease clause that makes the tenant responsible for injuries caused by the landlord's negligence is void.",
+      "Under General Obligations Law § 7-108, the security deposit is capped at one month's rent. Any amount over that is illegal.",
       "Key things to check before signing: rent amount, lease term, security deposit amount, who pays utilities, pet policy, guest policy, subletting rules, renewal terms, and early termination terms.",
       "Free lease review help is available through Housing Council at Rochester at (585) 546-3700."
     ]

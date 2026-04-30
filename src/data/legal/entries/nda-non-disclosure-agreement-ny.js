@@ -28,7 +28,7 @@ export const NDA_NON_DISCLOSURE_AGREEMENT_NY = {
 
   yourRights: {
     en: [
-      "A worker cannot be required to sign an NDA that prevents disclosing information about harassment, discrimination, or retaliation as a condition of employment (GOL Section 5-336).",
+      "A worker cannot be required to sign an NDA that prevents disclosing information about harassment, discrimination, or retaliation as a condition of employment (General Obligations Law § 5-336).",
       "In a settlement involving harassment or discrimination, the worker must be given 21 days to decide whether to agree to confidentiality and 7 days to revoke after signing.",
       "A worker always has the right to report illegal activity to law enforcement or a government agency, regardless of any NDA.",
       "An NDA that tries to prevent filing a complaint with the EEOC, OSHA, the NYS Division of Human Rights, or other agencies is unenforceable.",

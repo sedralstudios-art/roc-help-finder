@@ -30,11 +30,11 @@ export const HEARING_AID_COVERAGE_CHILDREN_NY = {
 
   yourRights: {
     en: [
-      "A child under 18 covered by an NY-issued commercial plan has the right to hearing aid coverage (ISC 3216, 3221, 4303).",
+      "A child under 18 covered by an NY-issued commercial plan has the right to hearing aid coverage (Insurance Law § 3216, 3221, 4303).",
       "A family has the right to one set of hearing aids every 3 years, or more often if medically necessary.",
       "A family has the right to coverage of fitting, ear molds, batteries, and related services.",
       "A child Medicaid or Child Health Plus beneficiary has the right to coverage under EPSDT.",
-      "A family whose commercial plan denies coverage has the right to appeal internally and externally (ISC 4914).",
+      "A family whose commercial plan denies coverage has the right to appeal internally and externally (Insurance Law § 4914).",
       "A baby identified through newborn hearing screening has the right to follow-up and Early Intervention services at no cost (PHL 2500-g).",
       "A child with an IEP has the right to school-based audiology and hearing aid support.",
       "A family has the right to appeal any medical-necessity denial with audiologist documentation."

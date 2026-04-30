@@ -41,7 +41,7 @@ export const CHILD_CAR_SEAT_BOOSTER_NY = {
       "For a free car seat check, Rochester Fire Department at (585) 428-7034. Monroe County Health Department at (585) 753-5150.",
       "For a free or low-cost car seat, WIC at (585) 753-4942 serves Monroe County families.",
       "NYS Governor's Traffic Safety Committee lists certified child passenger safety technicians by ZIP code at trafficsafety.ny.gov.",
-      "For a traffic ticket under VAT 1229-c, the ticket can be contested at Monroe County Traffic Violations Agency.",
+      "For a traffic ticket under Vehicle and Traffic Law § 1229-c, the ticket can be contested at Monroe County Traffic Violations Agency.",
       "Monroe County 2-1-1 at (585) 442-0220 can connect parents to local car seat assistance programs."
     ]
   },

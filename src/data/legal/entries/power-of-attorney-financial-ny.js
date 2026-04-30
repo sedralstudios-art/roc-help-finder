@@ -23,7 +23,7 @@ export const POWER_OF_ATTORNEY_FINANCIAL_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York General Obligations Law Article 5, Title 15, a power of attorney is a legal document that authorizes another person to act on the principal's behalf in financial matters. The principal must be mentally competent when signing the POA. New York uses a statutory short form POA that was updated in 2021. Banks and other institutions are required to accept the statutory form. An institution that unreasonably refuses to honor a valid POA can be held liable for damages and attorney fees (GOL Section 5-1504). The POA can be broad (covering all financial matters) or limited to specific transactions. It can take effect immediately or spring into action only when the principal becomes incapacitated (a springing POA). A durable POA remains in effect even if the principal becomes incapacitated — this is the most common type and the most important for planning purposes. The agent has a fiduciary duty to act in the principal's best interest, keep records, and not mix the principal's money with their own. A POA can be revoked at any time by the principal, as long as the principal is mentally competent. If the agent abuses the POA — stealing money, making unauthorized transactions, or acting against the principal's interests — the agent can be held civilly liable and criminally charged."
+    en: "Under New York General Obligations Law Article 5, Title 15, a power of attorney is a legal document that authorizes another person to act on the principal's behalf in financial matters. The principal must be mentally competent when signing the POA. New York uses a statutory short form POA that was updated in 2021. Banks and other institutions are required to accept the statutory form. An institution that unreasonably refuses to honor a valid POA can be held liable for damages and attorney fees (General Obligations Law § 5-1504). The POA can be broad (covering all financial matters) or limited to specific transactions. It can take effect immediately or spring into action only when the principal becomes incapacitated (a springing POA). A durable POA remains in effect even if the principal becomes incapacitated — this is the most common type and the most important for planning purposes. The agent has a fiduciary duty to act in the principal's best interest, keep records, and not mix the principal's money with their own. A POA can be revoked at any time by the principal, as long as the principal is mentally competent. If the agent abuses the POA — stealing money, making unauthorized transactions, or acting against the principal's interests — the agent can be held civilly liable and criminally charged."
   },
 
   yourRights: {
@@ -43,13 +43,13 @@ export const POWER_OF_ATTORNEY_FINANCIAL_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 handles POA abuse cases and elder law matters.",
       "Lifespan of Greater Rochester at (585) 244-8400 offers free legal consultations for seniors including POA preparation.",
       "To report POA abuse, contact Monroe County Adult Protective Services at (585) 753-6532.",
-      "If a bank refuses a valid POA, the principal or agent can demand a written explanation and cite GOL Section 5-1504.",
+      "If a bank refuses a valid POA, the principal or agent can demand a written explanation and cite General Obligations Law § 5-1504.",
       "The NYS statutory POA form is available at nycourts.gov — it must be signed, witnessed, and notarized."
     ]
   },
 
   example: {
-    en: "After her husband's stroke, Elena needed to manage his bank accounts, pay bills, and handle his pension paperwork. Her husband had signed a durable power of attorney naming Elena as agent two years earlier. Elena brought the POA to the bank. The bank initially refused, saying the form was old. Elena cited GOL Section 5-1504, which requires banks to accept valid statutory POA forms. The bank accepted the POA and Elena was able to manage her husband's accounts while he recovered."
+    en: "After her husband's stroke, Elena needed to manage his bank accounts, pay bills, and handle his pension paperwork. Her husband had signed a durable power of attorney naming Elena as agent two years earlier. Elena brought the POA to the bank. The bank initially refused, saying the form was old. Elena cited General Obligations Law § 5-1504, which requires banks to accept valid statutory POA forms. The bank accepted the POA and Elena was able to manage her husband's accounts while he recovered."
   },
 
   counsel: [

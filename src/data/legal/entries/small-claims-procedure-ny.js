@@ -54,7 +54,7 @@ export const SMALL_CLAIMS_PROCEDURE_NY = {
   },
 
   example: {
-    en: "Sarah's landlord in Irondequoit retained $800 of her $1,000 security deposit without providing the itemized statement required by GOB § 7-108. She filed a small-claims action at Irondequoit Town Court for $1,000 (the full deposit). The filing fee was approximately $10. The clerk served the landlord by certified mail and scheduled a hearing three weeks out. At the hearing, Sarah presented the lease, move-in photos, move-out photos, the written demand she had mailed, and the deposit receipt. The landlord had no itemized statement and no receipts for the claimed damage. The judge entered judgment for Sarah for the full $1,000 plus filing costs. When the landlord did not pay within 30 days, Sarah had the Monroe County Sheriff serve a bank-account restraint under CPLR § 5222 on the landlord's bank."
+    en: "Sarah's landlord in Irondequoit retained $800 of her $1,000 security deposit without providing the itemized statement required by General Obligations Law § 7-108. She filed a small-claims action at Irondequoit Town Court for $1,000 (the full deposit). The filing fee was approximately $10. The clerk served the landlord by certified mail and scheduled a hearing three weeks out. At the hearing, Sarah presented the lease, move-in photos, move-out photos, the written demand she had mailed, and the deposit receipt. The landlord had no itemized statement and no receipts for the claimed damage. The judge entered judgment for Sarah for the full $1,000 plus filing costs. When the landlord did not pay within 30 days, Sarah had the Monroe County Sheriff serve a bank-account restraint under CPLR § 5222 on the landlord's bank."
   },
 
   counsel: [

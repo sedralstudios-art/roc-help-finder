@@ -30,7 +30,7 @@ export const ASSUMED_NAME_DBA_NY = {
 
   yourRights: {
     en: [
-      "A sole proprietor can file a Certificate of Assumed Name with the county clerk (GBS 130).",
+      "A sole proprietor can file a Certificate of Assumed Name with the county clerk (General Business Law § 130).",
       "An entity can file a Certificate of Assumed Name with the NYS Department of State.",
       "A filed business has the right to sue on contracts made in the assumed name.",
       "An unfiled business cannot maintain a lawsuit in the assumed name until it files.",

@@ -31,7 +31,7 @@ export const STOLEN_EBT_SNAP_REPLACEMENT_NY = {
       "A SNAP or cash assistance household has the right to replacement of benefits stolen through electronic theft.",
       "A household has the right to an immediate card deactivation and a new card within 3-5 business days.",
       "A household has the right to file a Replacement Claim within 10 days of discovering the theft.",
-      "A denied household has the right to a Fair Hearing appeal within 90 days under SOS 22.",
+      "A denied household has the right to a Fair Hearing appeal within 90 days under Social Services Law § 22.",
       "A household has the right to review its EBT transaction history at any time at connectebt.com.",
       "A household has the right to a full declaration-based claim (no police report required in most cases)."
     ]
