@@ -115,6 +115,7 @@ export const STOP_PAYMENT_ORDER_CHECK_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

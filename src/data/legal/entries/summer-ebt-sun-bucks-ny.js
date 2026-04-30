@@ -74,7 +74,7 @@ export const SUMMER_EBT_SUN_BUCKS_NY = {
       qualifier: "Monroe County family",
       access: "Phone, walk-in at Westfall Road facility",
       outcome: "Application support, eligibility verification",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: true,
@@ -111,6 +111,7 @@ export const SUMMER_EBT_SUN_BUCKS_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

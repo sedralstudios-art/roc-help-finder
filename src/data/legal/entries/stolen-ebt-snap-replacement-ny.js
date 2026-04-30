@@ -60,7 +60,7 @@ export const STOLEN_EBT_SNAP_REPLACEMENT_NY = {
       qualifier: "Monroe County SNAP or cash assistance household",
       access: "Phone, in-person at Westfall Road facility, mail",
       outcome: "Theft replacement claim processing, benefits restoration",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: true,
@@ -110,6 +110,7 @@ export const STOLEN_EBT_SNAP_REPLACEMENT_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
