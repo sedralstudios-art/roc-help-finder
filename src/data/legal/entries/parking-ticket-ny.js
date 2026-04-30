@@ -37,10 +37,10 @@ export const PARKING_TICKET_NY = {
 
   legalOptions: {
     en: [
-      "Rochester parking tickets can be paid or contested through the City of Rochester Parking Violations Bureau at (585) 428-7600 or online at cityofrochester.gov.",
+      "Rochester parking tickets can be paid or contested through the City of Rochester Parking and Municipal Code Violations Bureau at (585) 428-7482 or online at cityofrochester.gov.",
       "A hearing can be requested by mail or in person within the deadline printed on the ticket.",
       "If the vehicle has been booted, the boot can usually be removed after paying the outstanding balance. Contact the Parking Violations Bureau.",
-      "If the vehicle has been towed to the city impound lot, contact (585) 428-7600 for the location and the amount owed (outstanding tickets + tow fee + daily storage).",
+      "If the vehicle has been towed to the city impound lot, contact (585) 428-7482 for the location and the amount owed (outstanding tickets + tow fee + daily storage).",
       "For suburban Monroe County tickets, the court or agency listed on the ticket handles payment and disputes."
     ]
   },
@@ -57,7 +57,7 @@ export const PARKING_TICKET_NY = {
       qualifier: "Anyone with a Rochester parking ticket",
       access: "Phone, online, or in person",
       outcome: "Payment processing, hearing scheduling, dispute resolution",
-      phone: "(585) 428-7600",
+      phone: "(585) 428-7482",
       url: "https://www.cityofrochester.gov/parking/",
       verified: true,
       bilingual: false,

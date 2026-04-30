@@ -62,7 +62,7 @@ export const HOA_DISPUTES_NY = {
       access: "Phone intake at (585) 232-3051",
       outcome: "Legal advice and referrals",
       phone: "(585) 232-3051",
-      url: "https://www.justcause.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []
@@ -98,6 +98,7 @@ export const HOA_DISPUTES_NY = {
   ],
 
   lastVerified: "2026-04-23",
+  factCheckedBy: { tool: "websearch", date: "2026-04-29" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

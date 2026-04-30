@@ -41,7 +41,7 @@ export const MONTH_TO_MONTH_TENANCY_NY = {
   legalOptions: {
     en: [
       "Written termination notice with proper service is the foundation of any month-to-month termination. Certified mail with return receipt is the standard.",
-      "Rochester City Court Housing Part at (585) 428-7600 handles month-to-month holdover proceedings within Rochester.",
+      "Rochester City Court Civil Division (Housing Part) at (585) 371-3412 handles month-to-month holdover proceedings within Rochester.",
       "Town and Village Justice Courts handle proceedings outside Rochester city limits.",
       "Legal Aid Society of Rochester at (585) 232-4090 helps tenants on month-to-month with notice review and eviction defense.",
       "JustCause (formerly VLSP) at (585) 232-3051 connects tenants with volunteer attorneys.",

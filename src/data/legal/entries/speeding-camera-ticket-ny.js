@@ -44,7 +44,7 @@ export const SPEEDING_CAMERA_TICKET_NY = {
       "A hearing can be requested by following the instructions on the back of the ticket. Most hearings are conducted by mail or online — no court appearance is needed.",
       "To contest by mail, the vehicle owner sends a written statement explaining why the ticket should be dismissed, along with any supporting evidence.",
       "If the fine is not paid within the deadline, late penalties may be added and the DMV may block vehicle registration renewal.",
-      "Camera tickets in Rochester are handled by the city's Parking Violations Bureau. Information is available at (585) 428-7600."
+      "Camera tickets in Rochester are handled by the city's Parking Violations Bureau. Information is available at (585) 428-7482."
     ]
   },
 
@@ -58,9 +58,9 @@ export const SPEEDING_CAMERA_TICKET_NY = {
       name: "Rochester Parking Violations Bureau",
       focus: "Camera ticket hearings, payment, and disputes",
       qualifier: "Anyone who received a camera ticket in Rochester",
-      access: "Phone at (585) 428-7600",
+      access: "Phone at (585) 428-7482",
       outcome: "Hearing scheduling, payment processing, dispute resolution",
-      phone: "(585) 428-7600",
+      phone: "(585) 428-7482",
       url: "https://www.cityofrochester.gov/parking/",
       verified: true,
       bilingual: false,

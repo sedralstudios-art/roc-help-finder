@@ -74,7 +74,7 @@ export const SPOUSES_RIGHT_TO_HOME_NY = {
       access: "Phone intake at (585) 232-3051",
       outcome: "Attorney referral, brief advice, or full representation",
       phone: "(585) 232-3051",
-      url: "https://www.justcause.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []

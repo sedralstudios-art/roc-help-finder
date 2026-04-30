@@ -61,7 +61,7 @@ export const PROPERTY_SURVEY_BOUNDARY_DISPUTE_NY = {
       access: "Phone intake at (585) 232-3051",
       outcome: "Legal advice and referrals",
       phone: "(585) 232-3051",
-      url: "https://www.justcause.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []

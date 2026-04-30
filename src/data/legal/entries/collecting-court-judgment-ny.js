@@ -61,7 +61,7 @@ export const COLLECTING_COURT_JUDGMENT_NY = {
       access: "Phone intake at (585) 232-3051",
       outcome: "Legal advice and help with collection tools",
       phone: "(585) 232-3051",
-      url: "https://www.justcause.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []
