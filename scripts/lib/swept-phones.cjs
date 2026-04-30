@@ -40,6 +40,11 @@ const SWEPT_WRONG_PHONES = [
   // It is NOT NAMI Rochester's number. Only flag when paired with NAMI context.
   { num: '585-423-1500', label: 'NAMI Rochester (wrong number — 423-1500 is Rochester Housing Authority)', fix: 'NAMI Rochester is (585) 423-1593', cooccur: /NAMI/i },
   { num: '585-568-8726', label: 'Recovery Houses of Rochester (wrong number)', fix: 'use (585) 910-5527 main or (585) 413-0551 alt (verified at recoveryhousesofrochester.org/contact-us 2026-04-30)', cooccur: /Recovery\s+Houses/i },
+  // 800-432-4210 is a real number — NYS HCR Mobile and Manufactured Homes division.
+  // It is NOT a tenant rights / eviction hotline. Only flag when paired with general
+  // tenant-rights context where it does not belong.
+  { num: '800-432-4210', label: 'NY HCR Mobile/Manufactured Homes division (wrong number for tenant rights/eviction context)', fix: 'HCR has no public tenant rights phone hotline; use the tenant resources website at hcr.ny.gov/tenant-resources, or refer Monroe County tenants to LawNY (585-325-2520) / Legal Aid Rochester (585-232-4090) for direct eviction help', cooccur: /(?:tenant\s+rights|eviction|unsafe\s+conditions|housing\s+discrimination)/i },
+  { num: '585-371-3608', label: 'Rochester City Court / Housing (wrong number)', fix: 'Civil Division (handles housing/eviction/small claims): (585) 371-3412 at 99 Exchange Blvd Room 6 (verified at nycourts.gov 2026-04-30)', cooccur: /(?:City\s+Court|Housing\s+Court|eviction|99\s+Exchange)/i },
 ];
 
 function normalizePhone(s) {
