@@ -34,7 +34,7 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
       "A person with a valid EAD has the right to work for any employer in the United States.",
       "An employer cannot refuse to accept a valid EAD as proof of work authorization.",
       "An employer cannot demand specific documents — any combination of acceptable documents from the I-9 list is valid.",
-      "Certain EAD categories receive automatic 180-day extensions when a timely renewal is filed.",
+      "Certain EAD categories receive automatic extensions of up to 540 days when a timely renewal is filed (USCIS temporary final rule effective October 2023).",
       "A person has the right to request expedited processing from USCIS if they face severe financial loss.",
       "A person has the right to file a complaint with the Department of Justice if an employer discriminates based on immigration status or EAD category."
     ]
@@ -52,7 +52,7 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   },
 
   example: {
-    en: "Maria applied for asylum after fleeing violence in her home country. After 150 days with no decision on her asylum case, she was eligible to apply for an EAD. She filed Form I-765 with a fee waiver. Seven months later, she received her EAD card and was able to work legally. When the card was about to expire, she filed a renewal. Because she filed on time, she received an automatic 180-day extension that allowed her to keep working while waiting for the new card."
+    en: "Maria applied for asylum after fleeing violence in her home country. After 150 days with no decision on her asylum case, she was eligible to apply for an EAD. She filed Form I-765 with a fee waiver. Seven months later, she received her EAD card and was able to work legally. When the card was about to expire, she filed a renewal. Because she filed on time, she received an automatic 540-day extension that allowed her to keep working while waiting for the new card."
   },
 
   counsel: [
@@ -114,6 +114,7 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,

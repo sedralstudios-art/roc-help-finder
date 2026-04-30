@@ -6,6 +6,7 @@ export const ITIN_APPLICATION_NY = {
   authorityType: "federal-statute",
   primaryStatute: "26 USC 6109",
   status: "active",
+  draft: true,
 
   title: { en: "ITIN Application for People Without a Social Security Number — IRS Form W-7" },
 
@@ -139,6 +140,7 @@ export const ITIN_APPLICATION_NY = {
   ],
 
   lastVerified: "2026-04-24",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

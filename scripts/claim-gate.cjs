@@ -327,6 +327,7 @@ const STALE_FIGURES = [
   { pat: /\b10\s*%/,                  cooccur: /CCDF.{0,40}copay|copay.{0,40}CCDF/i, label: 'CCDF copay max 10%',          fix: '7%, 2024 CCDF Final Rule' },
   { pat: /\b6\s*(?:year|yr)/i,        cooccur: /consumer\s+credit.{0,60}(SOL|statute\s+of\s+limit)/i, label: 'Consumer-credit SOL 6 years', fix: '3 years, eff. April 7, 2022 (CPLR 214-i)' },
   { pat: /\$\s*250,?000\b/,           cooccur: /HRL.{0,40}willful|willful.{0,40}HRL/i, label: 'NY HRL willful penalty $250,000', fix: '$100,000' },
+  { pat: /\b180[\s-]?day\b/i,         cooccur: /(EAD|employment\s+authorization|work\s+(?:permit|authorization)).{0,80}(?:auto|automatic)/i, label: 'EAD auto-extension 180 days', fix: 'up to 540 days under USCIS Temporary Final Rule effective Oct 27, 2023' },
 ];
 
 // ─────────── Field extraction ───────────

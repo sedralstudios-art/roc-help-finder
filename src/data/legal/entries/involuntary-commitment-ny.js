@@ -6,6 +6,7 @@ export const INVOLUNTARY_COMMITMENT_NY = {
   authorityType: "state-statute",
   primaryStatute: "NY MHY 9.27",
   status: "active",
+  draft: true,
 
   title: { en: "Involuntary Psychiatric Commitment in New York — How It Works and What Rights the Patient Has" },
 
@@ -97,6 +98,7 @@ export const INVOLUNTARY_COMMITMENT_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
