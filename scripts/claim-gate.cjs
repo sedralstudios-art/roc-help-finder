@@ -77,6 +77,11 @@ const FABRICATIONS = [
     label: 'NY NFC 78-A (boat operator)',
     fix: 'NFC is not a real NY code; use NY NAV 78' },
 
+  { pat: /\bPEN(?:AL)?(?:\s+LAW)?\s+(?:section\s+)?155\.30\s*\(\s*12\s*\)/i,
+    cooccur: /package\s+theft|porch\s+pira|delivered\s+package/i,
+    label: 'PEN 155.30(12) framed as porch-piracy / Class A misdemeanor',
+    fix: 'PEN 155.30 is Grand Larceny 4th (Class E felony). Package theft is prosecuted under PEN 155.25 (petit larceny, Class A misdemeanor) for under $1,000 or PEN 155.30+ for higher values; a porch-piracy-specific subdivision is proposed but not enacted as a separate offense at this time' },
+
   { pat: /\bNY\s+PEN\s+165\.54\b/i,
     cooccur: /catalytic/i,
     label: 'PEN 165.54 misframed as catalytic converter law',

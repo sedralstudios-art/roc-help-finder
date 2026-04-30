@@ -4,13 +4,13 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY PEN 155.30",
+  primaryStatute: "NY PEN 155.25",
   status: "active",
 
   title: { en: "Package Theft (Porch Piracy) — What to Do When a Delivery Is Stolen" },
 
   summary: {
-    en: "Theft of a package from a porch or doorstep is a crime in New York. A new state law made stealing delivered packages a specific offense. Victims can file a police report and may be able to get a refund or replacement from the seller or delivery company."
+    en: "Theft of a delivered package from a porch or doorstep is larceny in New York. Under $1,000 in value, it is petit larceny (Penal Law 155.25), a Class A misdemeanor. Over $1,000, it can be grand larceny (Penal Law 155.30 et seq.), a felony. Stealing mail from a USPS mailbox is also a federal crime under 18 USC 1708. Victims can file a police report and may be able to get a refund or replacement from the seller or delivery company."
   },
 
   whoQualifies: {
@@ -23,7 +23,7 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
   },
 
   whatItMeans: {
-    en: "New York Penal Law Section 155.30(12) makes stealing a package that has been delivered to a person's door or building a Class A misdemeanor, even if the value of the contents is low. Regular petty theft (under $1,000) is a Class A misdemeanor too, but the package-specific law was added to make prosecution easier and signal that this crime is taken seriously. If the stolen items are worth more than $1,000, the charge can be bumped up to grand larceny. Stealing mail from a U.S. mailbox is also a separate federal crime under 18 U.S.C. Section 1708, carrying up to five years in prison. When a package is stolen, the delivery company's tracking usually shows it was delivered. Most sellers and delivery services have a process for filing a claim. Amazon, UPS, FedEx, and USPS each have their own claims procedures. Filing a police report helps with both the claim and any future prosecution."
+    en: "Stealing a delivered package is prosecuted under New York's general larceny statutes. Under Penal Law Section 155.25, taking property worth $1,000 or less without permission is petit larceny — a Class A misdemeanor punishable by up to a year in jail. If the package contents are worth more than $1,000, the charge can be elevated to grand larceny under Penal Law Section 155.30 (Grand Larceny 4th Degree, a Class E felony) or higher tiers for greater values. NY legislators have repeatedly proposed a porch-piracy-specific statute that would make package theft a felony regardless of value; the most recent versions remained pending in the legislature. Stealing mail from a U.S. mailbox is also a separate federal crime under 18 U.S.C. Section 1708, carrying up to five years in prison. When a package is stolen, the delivery company's tracking usually shows it was delivered. Most sellers and delivery services have a process for filing a claim. Amazon, UPS, FedEx, and USPS each have their own claims procedures. Filing a police report helps with both the claim and any future prosecution."
   },
 
   yourRights: {
@@ -39,7 +39,7 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
 
   legalOptions: {
     en: [
-      "Under Penal Law Section 155.30(12), stealing a delivered package is a Class A misdemeanor punishable by up to one year in jail.",
+      "Under Penal Law Section 155.25, stealing a package worth $1,000 or less is petit larceny — a Class A misdemeanor punishable by up to one year in jail. Larger thefts can be charged as grand larceny under Penal Law 155.30 et seq.",
       "Under 18 U.S.C. Section 1708, stealing mail from a U.S. mailbox is a federal crime punishable by up to five years in prison. Reports can be made to the U.S. Postal Inspection Service at (877) 876-2455.",
       "A police report can be filed with the Rochester Police Department at (585) 428-6720 or online through the RPD website for non-emergency reports.",
       "Most major retailers (Amazon, Walmart, Target) have refund or replacement policies for stolen packages. The buyer typically needs to report the issue within 30 to 90 days.",
@@ -104,11 +104,13 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/PEN/155.25",
     "https://www.nysenate.gov/legislation/laws/PEN/155.30",
     "https://www.law.cornell.edu/uscode/text/18/1708"
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

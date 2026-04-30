@@ -43,7 +43,7 @@ export const PET_KENNEL_BOARDING_LICENSING_NY = {
       "NYS Department of Agriculture and Markets Division of Animal Industry at (518) 457-3502.",
       "NYS facility registration lookup at agriculture.ny.gov/animal-facility-registration.",
       "Lollypop Farm Humane Society at (585) 223-1330 for cruelty investigations.",
-      "Monroe County Animal Services at (585) 753-2550 for local complaints.",
+      "City of Rochester Animal Services at (585) 428-7274 for local complaints within city limits; town animal control or police elsewhere in Monroe County.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for civil suits.",
       "Legal Aid Society of Rochester at (585) 232-4090 for low-income plaintiffs."
     ]
@@ -111,6 +111,7 @@ export const PET_KENNEL_BOARDING_LICENSING_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
