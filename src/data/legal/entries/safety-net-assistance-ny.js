@@ -62,7 +62,7 @@ export const SAFETY_NET_ASSISTANCE_NY = {
       qualifier: "Any Monroe County low-income adult",
       access: "Phone, walk-in Westfall Road facility, mail application, online portal",
       outcome: "SNA benefits, referrals to related programs",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: true,
@@ -112,6 +112,7 @@ export const SAFETY_NET_ASSISTANCE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

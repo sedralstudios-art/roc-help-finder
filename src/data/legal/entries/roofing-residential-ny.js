@@ -116,6 +116,7 @@ export const entry = {
   ],
 
   lastVerified: "2026-04-13",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
