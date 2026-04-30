@@ -39,6 +39,7 @@ const SWEPT_WRONG_PHONES = [
   // 585-423-1500 is a real number — Rochester Housing Authority main office.
   // It is NOT NAMI Rochester's number. Only flag when paired with NAMI context.
   { num: '585-423-1500', label: 'NAMI Rochester (wrong number — 423-1500 is Rochester Housing Authority)', fix: 'NAMI Rochester is (585) 423-1593', cooccur: /NAMI/i },
+  { num: '585-568-8726', label: 'Recovery Houses of Rochester (wrong number)', fix: 'use (585) 910-5527 main or (585) 413-0551 alt (verified at recoveryhousesofrochester.org/contact-us 2026-04-30)', cooccur: /Recovery\s+Houses/i },
 ];
 
 function normalizePhone(s) {

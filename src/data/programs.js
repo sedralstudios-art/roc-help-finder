@@ -342,7 +342,7 @@ export const PROGRAMS = [
   { id:"angelflight", n:"Angel Flight NE (Free Medical Flights)", c:"transport", d:"Free air transportation to medical treatment for patients who cannot afford or endure commercial travel. Volunteer pilots fly you in small aircraft.", ph:"603-766-9501", url:"https://www.angelflightne.org", hr:"M-F 9am-5pm", doc:"Medical documentation, physician's statement of need", tg:["any"], nt:"Covers patients in the Northeast including NY. Must be able to walk. Not for emergencies — for ongoing treatment at distant medical centers.", reach:"remote", fc:"2026-04-30" },
   { id:"aircarealliance", n:"Air Care Alliance (Medical Flight Referral)", c:"transport", d:"Connects patients with the right volunteer aviation program for their situation and route. Start here if you don't know which program covers your area.", ph:"888-260-9707", url:"https://www.aircarealliance.org", hr:"M-F 9am-5pm", doc:"Medical need documentation, origin and destination, travel dates", tg:["any"], reach:"remote", fc:"2026-04-30" },
   { id:"mercymedical", n:"Mercy Medical Airlift", c:"transport", d:"Free long-distance air transport for medical patients who must travel far for treatment and cannot afford commercial airfare.", ph:"757-318-9174", url:"https://www.mercymedical.org", hr:"M-F 9am-5pm", doc:"Physician's referral letter, financial need documentation", tg:["any"], reach:"remote", fc:"2026-04-30" },
-  { id:"compassionatetravel", n:"Airline Compassionate Fares (Bereavement/Medical)", c:"transport", d:"Most major airlines offer deeply discounted bereavement or medical emergency fares. Call the airline directly — these are not advertised online. Ask specifically for compassionate fare.", hr:"Call airline directly — available 24/7 for emergencies", doc:"Death certificate or medical documentation depending on airline", tg:["any"], nt:"Discounts vary but can be 50-90% off. Also ask about companion tickets for caregivers traveling with a patient.", reach:"remote", fc:"2026-04-30" },
+  { id:"compassionatetravel", n:"Airline Compassionate Fares (Bereavement/Medical)", c:"transport", d:"A few major airlines still offer compassionate or bereavement fare programs — Delta, Alaska, Air Canada, WestJet, and Lufthansa. Most other US carriers (United, American, Southwest) have discontinued bereavement fares. Call the airline directly — these are not advertised online. Ask specifically for compassionate fare.", hr:"Call airline directly — available 24/7 for emergencies", doc:"Death certificate or medical documentation depending on airline", tg:["any"], nt:"Discounts are typically modest (around 10 percent off the lowest available fare). Comparison shopping with flexible dates often beats the bereavement rate — check standard pricing first. Also ask about companion tickets for caregivers traveling with a patient.", reach:"remote", fc:"2026-04-30" },
 
   // EXPANDED TRANSPORT
   { id:"rtsplanner", n:"RTS Trip Planner (Bus Routes)", c:"transport", d:"Plan any bus trip in Rochester. Real-time arrivals, route maps, transfers. Free.", ph:"585-288-1700", url:"https://www.myrts.com/Plan-Your-Trip", hr:"Bus service runs roughly 5am-midnight daily", doc:"None", tg:["any"], nt:"RTS app available on iPhone and Android. Text your stop number to 321-123 for next arrival times.", reach:"remote", fc:"2026-04-30" },
@@ -426,7 +426,7 @@ export const PROGRAMS = [
     hr:"2nd and 4th Fridays of each month",
     doc:"Proof of City of Rochester residency.",
     tg:["any","hh"],
-    town:"rochester", zip:"14608", reach:"local" },
+    town:"rochester", zip:"14608", reach:"local", fc:"2026-04-30" },
 
   { id:"vsassurrender", n:"Pet Surrender Prevention (Rochester Animal Services)", c:"pets",
     d:"If you are considering giving up your pet because of money or life circumstances, call the Pet Surrender Prevention Specialist BEFORE you do anything. They may be able to provide food, supplies, vet referrals, or rehoming support to keep your pet with you.",
@@ -435,7 +435,7 @@ export const PROGRAMS = [
     hr:"M-F business hours",
     doc:"None — just call.",
     tg:["any","hh"],
-    town:"rochester", zip:"14608", reach:"local" },
+    town:"rochester", zip:"14608", reach:"local", fc:"2026-04-30" },
 
   { id:"vsasvax", n:"Free Dog Vaccine Clinics (Rochester Animal Services)", c:"pets",
     d:"Free distemper and parvo (DAAP) vaccines for City of Rochester resident dogs. No appointment needed. Donated by Petco Love. Does NOT include rabies vaccine — rabies clinics held separately.",
@@ -444,7 +444,7 @@ export const PROGRAMS = [
     hr:"Periodic — check website for next clinic date",
     doc:"City of Rochester residency. Dog must be on leash. One dog per person.",
     tg:["any"],
-    town:"rochester", zip:"14606", reach:"local" },
+    town:"rochester", zip:"14606", reach:"local", fc:"2026-04-30" },
 
   { id:"lollypop", n:"Lollypop Farm — Humane Society of Greater Rochester", c:"pets",
     d:"The largest animal welfare organization in the Rochester area, since 1873. Pet adoption (dogs, cats, small animals, horses, farm animals), foster care, vet care, behavior consultations, dog training, humane education. Multiple satellite locations across Monroe County.",
@@ -455,7 +455,7 @@ export const PROGRAMS = [
     tg:["any"],
     town:"fairport", zip:"14450",
     serves: ["fairport","rochester","henrietta","greece","perinton"],
-    reach:"regional" },
+    reach:"regional", fc:"2026-04-30" },
 
   { id:"lollypopcruelty", n:"Lollypop Farm Animal Cruelty 24-Hour Hotline", c:"pets",
     d:"24/7 hotline for reporting animal cruelty, neglect, or suspected abuse. Lollypop Farm has law enforcement authority for animal cruelty cases in Monroe County. Anonymous reports accepted.",
@@ -464,7 +464,7 @@ export const PROGRAMS = [
     doc:"None. Anonymous reports accepted.",
     tg:["any"],
     reach:"regional",
-    safetySensitive: true },
+    safetySensitive: true, fc:"2026-04-30" },
 
   { id:"lollypopspay", n:"Lollypop Farm Spay/Neuter Assistance", c:"pets",
     d:"Low-cost spay and neuter surgeries for pet owners receiving public assistance (SNAP, HEAP, SSI, Medicaid, SSDI, Temporary Assistance) or with household income under $40,000. Also low-cost services for feral cat caregivers and approved Rescue Partner organizations. Appointment only.",
@@ -475,7 +475,7 @@ export const PROGRAMS = [
     tg:["hh"], inc:200,
     town:"fairport", zip:"14450",
     serves: ["fairport","rochester","henrietta","greece","perinton"],
-    reach:"regional" },
+    reach:"regional", fc:"2026-04-30" },
 
   { id:"hopeforpets", n:"Rochester Hope for Pets (Vet Bill Assistance)", c:"pets",
     d:"Financial grants to help pay for unexpected or emergency veterinary care. Awards typically cover a portion of the cost, not the full bill. NOT for emergencies — 5 business days for decision. Coverage area is 40 miles from Rochester, including all of Monroe County and parts of Wayne, Ontario, Livingston, Orleans, Genesee, Seneca, and Yates counties.",
@@ -484,7 +484,7 @@ export const PROGRAMS = [
     hr:"M-F 9am-3pm",
     doc:"Estimate from your veterinarian for the procedure or treatment.",
     tg:["hh"],
-    town:"rochester", zip:"14618", reach:"regional" },
+    town:"rochester", zip:"14618", reach:"regional", fc:"2026-04-30" },
 
   { id:"willowpets", n:"Willow Domestic Violence Center — Pet-Friendly Shelter", c:"pets",
     d:"If you or your family are leaving an unsafe home and you have a pet you can't bear to leave behind: Willow's emergency shelter accepts a variety of pets along with survivors and their children. You do not have to choose between your safety and your pet's safety. Call the 24-hour hotline.",
@@ -727,13 +727,13 @@ export const PROGRAMS = [
   { id:"habitatrestore", n:"Habitat for Humanity ReStore", c:"clothing", d:"Low-cost furniture, appliances, home goods. Also accepts donations. Proceeds fund Habitat homes.", ph:"585-546-1470", ad:"1199 E Main St, Rochester NY 14609", url:"https://www.rochesterhabitat.org", hr:"Tue-Sat 10am-5pm", doc:"None", tg:["any"], town:"rochester", zip:"14609", lat:43.1545, lng:-77.5793, reach:"regional" },
 
   // ── RECOVERY HOUSING (audit gap: 0 entries) ──
-  { id:"recoveryhousesroc", n:"Recovery Houses of Rochester", c:"addiction", d:"Peer-based recovery housing on a continuum from single-room to apartments. Crisis stabilization, transitional, and permanent affordable options.", ph:"585-568-8726", url:"https://www.recoveryhousesofrochester.org", hr:"Call for intake", doc:"Call first", tg:["any"], reach:"remote" },
-  { id:"libertyrec", n:"Liberty Resources Recovery Support Navigator", c:"addiction", d:"Peer support specialists meet you where you are. Help with treatment access, housing, benefits, and emotional support during recovery.", ph:"585-410-3370", ad:"175 Winton Rd N, Rochester NY 14610", url:"https://www.liberty-resources.org/rsn/", hr:"M-F", doc:"None", tg:["any"], town:"rochester", zip:"14610", reach:"local" },
-  { id:"pathwayhouses", n:"Pathway Houses of Rochester", c:"addiction", d:"Group recovery housing in a safe, alcohol- and drug-free setting. Room and board included in fees. Peer support on site.", ph:"585-232-4674", url:"https://www.pathwayhousesofrochester.org", hr:"Call for intake", doc:"Call first", tg:["any"], reach:"remote" },
-  { id:"easthousewarm", n:"East House Affinity Place Warm Line", c:"addiction", xref:["mental"], d:"24-hour phone line for recovery support. Not a crisis line — a place to talk to a peer who understands recovery.", ph:"585-563-7470", url:"https://www.easthouse.org", hr:"24/7", doc:"None", tg:["any"], reach:"remote" },
+  { id:"recoveryhousesroc", n:"Recovery Houses of Rochester", c:"addiction", d:"Peer-based recovery housing on a continuum from single-room to apartments. Crisis stabilization, transitional, and permanent affordable options.", ph:"585-910-5527", url:"https://www.recoveryhousesofrochester.org", hr:"M-F 9am-4pm (calls returned next business day)", doc:"Call first", tg:["any"], reach:"remote", fc:"2026-04-30" },
+  { id:"libertyrec", n:"Liberty Resources Recovery Support Navigator", c:"addiction", d:"Peer support specialists meet you where you are. Help with treatment access, housing, benefits, and emotional support during recovery.", ph:"585-410-3370", ad:"175 Winton Rd N, Rochester NY 14610", url:"https://www.liberty-resources.org/rsn/", hr:"M-F", doc:"None", tg:["any"], town:"rochester", zip:"14610", reach:"local", fc:"2026-04-30" },
+  { id:"pathwayhouses", n:"Pathway Houses of Rochester", c:"addiction", d:"Group recovery housing in a safe, alcohol- and drug-free setting. Room and board included in fees. Peer support on site.", ph:"585-232-4674", url:"https://www.pathwayhousesofrochester.org", hr:"Call for intake", doc:"Call first", tg:["any"], reach:"remote", fc:"2026-04-30" },
+  { id:"easthousewarm", n:"East House Affinity Place Warm Line", c:"addiction", xref:["mental"], d:"24-hour phone line for recovery support. Not a crisis line — a place to talk to a peer who understands recovery.", ph:"585-563-7470", url:"https://www.easthouse.org", hr:"24/7", doc:"None", tg:["any"], reach:"remote", fc:"2026-04-30" },
 
   // ── MAT CLINICS (audit gap: 0 entries) ──
-  { id:"hutherdoyle", n:"Huther Doyle (Methadone + Suboxone)", c:"addiction", d:"Outpatient substance abuse treatment. Methadone dosing, Suboxone, counseling, and rehabilitation services.", ph:"585-325-5100", ad:"360 East Ave, Rochester NY 14604", url:"https://www.hutherdoyle.com", hr:"M-F", doc:"Call for intake requirements", tg:["any"], town:"rochester", zip:"14604", lat:43.1555, lng:-77.5946, reach:"local" },
+  { id:"hutherdoyle", n:"Huther Doyle (Methadone + Suboxone)", c:"addiction", d:"Outpatient substance abuse treatment. Methadone dosing, Suboxone, counseling, and rehabilitation services.", ph:"585-325-5100", ad:"360 East Ave, Rochester NY 14604", url:"https://www.hutherdoyle.com", hr:"M-F", doc:"Call for intake requirements", tg:["any"], town:"rochester", zip:"14604", lat:43.1555, lng:-77.5946, reach:"local", fc:"2026-04-30" },
   { id:"strongrecovery", n:"Strong Recovery Chemical Dependency", c:"addiction", d:"Outpatient chemical dependency treatment including medication-assisted treatment. Part of URMC.", ph:"585-275-3574", ad:"2613 W Henrietta Rd Suite C, Rochester NY 14623", url:"https://www.urmc.rochester.edu/mental-health-wellness/treatments-services/strong-recovery.aspx", hr:"M-F", doc:"Call for intake", tg:["any"], zip:"14623", reach:"local" },
   { id:"pathwaysmat", n:"Pathways Rochester (Catholic Health MAT)", c:"addiction", d:"Comprehensive outpatient program with medication-assisted treatment and counseling.", ad:"435 E Henrietta Rd, Rochester NY 14623", url:"https://www.chsbuffalo.org/locations/pathways-rochester/", hr:"M-F", doc:"Call for intake", tg:["any"], zip:"14623", reach:"local" },
 
