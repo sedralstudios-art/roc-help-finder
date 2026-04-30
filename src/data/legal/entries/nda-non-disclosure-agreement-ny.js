@@ -23,12 +23,12 @@ export const NDA_NON_DISCLOSURE_AGREEMENT_NY = {
   },
 
   whatItMeans: {
-    en: "A non-disclosure agreement is a contract that restricts what information a person can share. In employment, NDAs are used to protect trade secrets, client lists, business plans, and proprietary information. These are generally enforceable. But New York has placed limits on NDAs that silence workers about harassment and discrimination. Under CPLR Section 5003-b (amended 2023), an NDA in a settlement agreement related to discrimination, harassment, or retaliation cannot prevent the worker from speaking about the facts of the claim unless the worker affirmatively chooses confidentiality. The worker must be given 21 days to consider the agreement and 7 days to revoke it after signing. Under General Business Law Section 396-ccc, employers cannot require prospective employees to sign NDAs that prevent them from disclosing information about unlawful discrimination, harassment, or retaliation as a condition of employment. An NDA that tries to prevent a worker from reporting a crime, filing a complaint with a government agency (like the EEOC or OSHA), or cooperating with a government investigation is unenforceable. A worker always has the right to report illegal activity to law enforcement or a regulatory agency, regardless of any NDA. An NDA that is overly broad (covering all information rather than specific trade secrets) may also be unenforceable."
+    en: "A non-disclosure agreement is a contract that restricts what information a person can share. In employment, NDAs are used to protect trade secrets, client lists, business plans, and proprietary information. These are generally enforceable. But New York has placed limits on NDAs that silence workers about harassment and discrimination. Under CPLR Section 5003-b (amended 2023), an NDA in a settlement agreement related to discrimination, harassment, or retaliation cannot prevent the worker from speaking about the facts of the claim unless the worker affirmatively chooses confidentiality. The worker must be given 21 days to consider the agreement and 7 days to revoke it after signing. Under General Obligations Law Section 5-336, employers cannot require prospective employees to sign NDAs that prevent them from disclosing information about unlawful discrimination, harassment, or retaliation as a condition of employment. An NDA that tries to prevent a worker from reporting a crime, filing a complaint with a government agency (like the EEOC or OSHA), or cooperating with a government investigation is unenforceable. A worker always has the right to report illegal activity to law enforcement or a regulatory agency, regardless of any NDA. An NDA that is overly broad (covering all information rather than specific trade secrets) may also be unenforceable."
   },
 
   yourRights: {
     en: [
-      "A worker cannot be required to sign an NDA that prevents disclosing information about harassment, discrimination, or retaliation as a condition of employment (GBL Section 396-ccc).",
+      "A worker cannot be required to sign an NDA that prevents disclosing information about harassment, discrimination, or retaliation as a condition of employment (GOL Section 5-336).",
       "In a settlement involving harassment or discrimination, the worker must be given 21 days to decide whether to agree to confidentiality and 7 days to revoke after signing.",
       "A worker always has the right to report illegal activity to law enforcement or a government agency, regardless of any NDA.",
       "An NDA that tries to prevent filing a complaint with the EEOC, OSHA, the NYS Division of Human Rights, or other agencies is unenforceable.",
@@ -96,10 +96,11 @@ export const NDA_NON_DISCLOSURE_AGREEMENT_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/CVP/5003-B",
-    "https://www.nysenate.gov/legislation/laws/GBS/396-CCC"
+    "https://www.nysenate.gov/legislation/laws/GOB/5-336"
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

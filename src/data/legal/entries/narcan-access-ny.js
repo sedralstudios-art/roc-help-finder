@@ -142,6 +142,7 @@ export const NARCAN_ACCESS_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
