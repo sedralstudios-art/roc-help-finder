@@ -46,6 +46,7 @@ const SWEPT_WRONG_PHONES = [
   { num: '800-432-4210', label: 'NY HCR Mobile/Manufactured Homes division (wrong number for tenant rights/eviction context)', fix: 'HCR has no public tenant rights phone hotline; use the tenant resources website at hcr.ny.gov/tenant-resources, or refer Monroe County tenants to LawNY (585-325-2520) / Legal Aid Rochester (585-232-4090) for direct eviction help', cooccur: /(?:tenant\s+rights|eviction|unsafe\s+conditions|housing\s+discrimination)/i },
   { num: '585-371-3608', label: 'Rochester City Court / Housing (wrong number)', fix: 'Civil Division (handles housing/eviction/small claims): (585) 371-3412 at 99 Exchange Blvd Room 6 (verified at nycourts.gov 2026-04-30)', cooccur: /(?:City\s+Court|Housing\s+Court|eviction|99\s+Exchange)/i },
   { num: '585-392-9461', label: 'Parma Town Clerk (wrong number — 9461 is Town Hall main switchboard, not Clerk direct)', fix: 'Parma Clerk direct: (585) 392-9462 (verified at parmany.gov/departments/town-clerk/ 2026-04-30)', cooccur: /(?:Town\s+Clerk|Clerk's\s+Office)/i },
+  { num: '585-336-6020', label: 'Irondequoit Building Department (wrong number)', fix: 'Building Dept: (585) 336-6026; Inspection Request Line: (585) 336-6072 (verified at irondequoit.gov/180/Building 2026-04-30)', cooccur: /(?:Building\s+Department|Building\s+Dept|building\s+permits)/i },
 ];
 
 function normalizePhone(s) {
