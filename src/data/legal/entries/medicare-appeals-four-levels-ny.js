@@ -118,6 +118,7 @@ export const MEDICARE_APPEALS_FOUR_LEVELS_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
