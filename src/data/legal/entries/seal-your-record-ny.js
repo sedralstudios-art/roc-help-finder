@@ -10,7 +10,7 @@ export const SEAL_YOUR_RECORD_NY = {
   title: { en: "How to Seal a Criminal Record in New York — Step by Step" },
 
   summary: {
-    en: "New York has multiple pathways to seal a criminal record — some automatic, some requiring an application. The Clean Slate Act (effective 2027) will automatically seal many older convictions. Before that takes effect, CPL § 160.59 allows sealing of up to two convictions (only one felony) after 10 years. Dismissed and ACD'd cases seal automatically under CPL § 160.50. Understanding which pathway applies is the first step."
+    en: "New York has multiple pathways to seal a criminal record — some automatic, some requiring an application. The Clean Slate Act (CPL 160.57, effective November 16, 2024) automatically seals eligible misdemeanors after 3 years and eligible felonies after 8 years, measured from release from incarceration or supervision; courts have a rolling 3-year implementation window through November 2027. CPL § 160.59 (separate from Clean Slate) allows application-based sealing of up to two convictions (only one felony) after 10 years. Dismissed and ACD'd cases seal automatically under CPL § 160.50. Understanding which pathway applies is the first step."
   },
 
   whoQualifies: {
@@ -18,7 +18,7 @@ export const SEAL_YOUR_RECORD_NY = {
       "Anyone whose criminal case was dismissed, ACD'd, or resulted in acquittal — these seal automatically under CPL § 160.50.",
       "Anyone convicted of no more than two crimes (only one felony) who has been conviction-free for 10 years — eligible under CPL § 160.59.",
       "Anyone with a marijuana conviction that qualifies for automatic expungement under the MRTA (2021).",
-      "Under the Clean Slate Act (when effective): anyone whose felony conviction is 8+ years old or misdemeanor conviction is 3+ years old, with no subsequent convictions, may qualify for automatic sealing."
+      "Under the Clean Slate Act (CPL 160.57, effective November 16, 2024): anyone whose felony conviction is 8+ years old or misdemeanor conviction is 3+ years old (measured from release from incarceration or supervision), with no subsequent convictions, qualifies for automatic sealing as courts work through the rolling implementation."
     ]
   },
 
@@ -33,7 +33,7 @@ export const SEAL_YOUR_RECORD_NY = {
       "Under CPL § 160.59, up to 2 convictions can be sealed after 10 conviction-free years.",
       "A sealed record cannot be used against the person in most employment, housing, and licensing decisions.",
       "The person can legally deny the existence of a sealed conviction in most contexts.",
-      "The Clean Slate Act (when effective) will expand automatic sealing significantly."
+      "The Clean Slate Act (CPL 160.57) expands automatic sealing significantly and is in effect (Nov 16, 2024); courts process cases on a rolling basis through November 2027."
     ]
   },
 
@@ -99,6 +99,7 @@ export const SEAL_YOUR_RECORD_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,
