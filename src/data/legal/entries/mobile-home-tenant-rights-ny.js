@@ -101,6 +101,7 @@ export const MOBILE_HOME_TENANT_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
