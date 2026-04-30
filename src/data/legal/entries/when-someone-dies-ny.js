@@ -58,7 +58,7 @@ export const WHEN_SOMEONE_DIES_NY = {
       qualifier: "Monroe County residents who cannot afford funeral costs",
       access: "Phone",
       outcome: "Partial coverage of burial expenses",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov",
       verified: true,
       bilingual: false,
@@ -112,6 +112,7 @@ export const WHEN_SOMEONE_DIES_NY = {
   ],
 
   lastVerified: "2026-04-24",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

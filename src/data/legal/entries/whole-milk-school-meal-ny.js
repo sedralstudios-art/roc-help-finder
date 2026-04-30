@@ -108,6 +108,7 @@ export const WHOLE_MILK_SCHOOL_MEAL_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

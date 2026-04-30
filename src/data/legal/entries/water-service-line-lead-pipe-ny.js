@@ -110,6 +110,7 @@ export const WATER_SERVICE_LINE_LEAD_PIPE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

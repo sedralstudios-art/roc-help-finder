@@ -111,6 +111,7 @@ export const WOOD_STOVE_EPA_CERTIFICATION_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
