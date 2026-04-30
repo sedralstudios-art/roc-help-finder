@@ -44,7 +44,7 @@ export const WRONGFUL_EVICTION_LOCKOUT_NY = {
     en: [
       "Legal Aid Society of Rochester at (585) 232-4090 — emergency representation for wrongful eviction; same-day order to show cause filing.",
       "Empire Justice Center at (585) 454-4060 — tenant advocacy.",
-      "JustCause (formerly Volunteer Legal Services Project) at (585) 295-0660 — pro bono housing cases.",
+      "JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051 — pro bono housing cases.",
       "City of Rochester Office of Tenants Legal Defense Initiative at (585) 428-7522 — anti-displacement support.",
       "Rochester City Court Housing Part — files orders to show cause for restoration of possession.",
       "Local police department for documentation (Rochester PD at (585) 428-7033).",

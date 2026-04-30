@@ -45,7 +45,7 @@ export const LATE_RENT_FEE_CAP_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 — defense for income-eligible tenants in fee disputes.",
       "Empire Justice Center at (585) 454-4060 — tenant advocacy.",
       "NY Attorney General Bureau of Consumer Frauds at (800) 771-7755 — complaints about pattern violations.",
-      "JustCause (formerly Volunteer Legal Services Project) at (585) 295-0660 — pro bono housing representation.",
+      "JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051 — pro bono housing representation.",
       "City of Rochester Office of Tenants Legal Defense Initiative at (585) 428-7522 — anti-displacement support.",
       "NY DHCR Office of Rent Administration at (718) 739-6400 — for rent-stabilized and rent-controlled tenants in NYC and Westchester.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — landlord-tenant attorneys."
@@ -128,6 +128,7 @@ export const LATE_RENT_FEE_CAP_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

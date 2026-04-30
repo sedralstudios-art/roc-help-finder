@@ -126,6 +126,7 @@ export const LACTATION_BREAKS_AT_WORK_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

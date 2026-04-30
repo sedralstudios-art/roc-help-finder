@@ -287,6 +287,7 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-295-5700', label: 'LawNY / Legal Assistance of Western NY (old/wrong number)', fix: 'use (585) 325-2520 (verified at lawny.org/Contact)' },
   // Rochester City Court Civil / Small Claims / Housing Court — 428-6650 is not the right line
   { num: '585-428-6650', label: 'Rochester City Court / Small Claims / Housing Court (wrong number)', fix: 'use (585) 371-3412 for Civil Division (covers Small Claims and Housing Part); (585) 371-3413 for Criminal' },
+  { num: '585-295-0660', label: 'JustCause / VLSP (wrong number)', fix: 'use (585) 232-3051 (verified at justcauseny.org)' },
 ];
 
 function normalizePhone(s) {
@@ -328,6 +329,7 @@ const STALE_FIGURES = [
   { pat: /\b6\s*(?:year|yr)/i,        cooccur: /consumer\s+credit.{0,60}(SOL|statute\s+of\s+limit)/i, label: 'Consumer-credit SOL 6 years', fix: '3 years, eff. April 7, 2022 (CPLR 214-i)' },
   { pat: /\$\s*250,?000\b/,           cooccur: /HRL.{0,40}willful|willful.{0,40}HRL/i, label: 'NY HRL willful penalty $250,000', fix: '$100,000' },
   { pat: /\b180[\s-]?day\b/i,         cooccur: /(EAD|employment\s+authorization|work\s+(?:permit|authorization)).{0,80}(?:auto|automatic)/i, label: 'EAD auto-extension 180 days', fix: 'up to 540 days under USCIS Temporary Final Rule effective Oct 27, 2023' },
+  { pat: /\b6\s+months?\b/i,          cooccur: /(?:RPL|RPP|Real\s+Property\s+Law)\s*§?\s*223-?b|retaliation.{0,80}presumption|presumption.{0,80}retaliation/i, label: '6-month landlord retaliation presumption', fix: 'HSTPA 2019 extended the RPL 223-b retaliation presumption to 1 year (12 months)' },
   { pat: /\$\s*204,?825\b/,           cooccur: /(Monroe|upstate|Rochester|Orleans|Wayne|Ontario|Livingston|Genesee|Allegany)\b/i, label: 'NY homestead $204,825 attributed to upstate', fix: 'CPLR 5206 upstate tier (incl. Monroe County) is $89,975; $170,825 middle tier (Albany/Dutchess/Saratoga); $204,825 NYC-area tier (NYC counties, Nassau, Suffolk, Rockland, Westchester, Putnam)' },
   { pat: /\$\s*170,?825\b/,           cooccur: /Monroe\s+County|upstate/i, label: 'NY homestead $170,825 attributed to Monroe', fix: 'Monroe County is the upstate tier at $89,975, not $170,825 (which is Albany/Dutchess/Saratoga tier)' },
 ];

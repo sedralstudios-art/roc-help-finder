@@ -10,7 +10,7 @@ export const LANDLORD_RETALIATION_NY = {
   title: { en: "Landlord Retaliation — What the Law Protects a Tenant From After Complaining" },
 
   summary: {
-    en: "If a tenant complains about conditions, reports a code violation, or joins a tenant organization, the landlord cannot retaliate by raising rent, reducing services, filing an eviction, or harassing the tenant. New York's anti-retaliation law (Real Property Law § 223-b) creates a presumption of retaliation if the landlord takes adverse action within 6 months of a protected complaint. The burden shifts to the landlord to prove the action was not retaliatory."
+    en: "If a tenant complains about conditions, reports a code violation, or joins a tenant organization, the landlord cannot retaliate by raising rent, reducing services, filing an eviction, or harassing the tenant. New York's anti-retaliation law (Real Property Law § 223-b) creates a presumption of retaliation if the landlord takes adverse action within 12 months of a protected complaint. The burden shifts to the landlord to prove the action was not retaliatory."
   },
 
   whoQualifies: {
@@ -24,13 +24,13 @@ export const LANDLORD_RETALIATION_NY = {
   },
 
   whatItMeans: {
-    en: "Under Real Property Law § 223-b, a landlord cannot retaliate against a tenant for: making a good-faith complaint about conditions to a government agency, filing a code enforcement complaint, reporting a health or safety violation, participating in a tenant organization, or exercising any right under the lease or under law. Retaliatory actions include: filing an eviction proceeding, refusing to renew the lease, raising the rent, reducing services (stopping maintenance, removing amenities), harassing the tenant, or changing the locks. If the landlord takes any of these actions within 6 months of the protected activity, there is a rebuttable presumption that the action is retaliatory. This means the tenant does not have to prove the landlord's motive — the timing alone shifts the burden to the landlord to show a legitimate, non-retaliatory reason. The 6-month window applies to the time between the complaint and the adverse action. If the landlord cannot prove a legitimate reason, the retaliatory action can be blocked by the court, and the tenant may be entitled to damages. In an eviction proceeding, retaliation is an affirmative defense — the tenant raises it, and the court must consider it."
+    en: "Under Real Property Law § 223-b, a landlord cannot retaliate against a tenant for: making a good-faith complaint about conditions to a government agency, filing a code enforcement complaint, reporting a health or safety violation, participating in a tenant organization, or exercising any right under the lease or under law. Retaliatory actions include: filing an eviction proceeding, refusing to renew the lease, raising the rent, reducing services (stopping maintenance, removing amenities), harassing the tenant, or changing the locks. If the landlord takes any of these actions within 12 months of the protected activity, there is a rebuttable presumption that the action is retaliatory. This means the tenant does not have to prove the landlord's motive — the timing alone shifts the burden to the landlord to show a legitimate, non-retaliatory reason. The 12-month window applies to the time between the complaint and the adverse action. If the landlord cannot prove a legitimate reason, the retaliatory action can be blocked by the court, and the tenant may be entitled to damages. In an eviction proceeding, retaliation is an affirmative defense — the tenant raises it, and the court must consider it."
   },
 
   yourRights: {
     en: [
       "The landlord cannot evict, raise rent, or reduce services in retaliation for a complaint.",
-      "If the adverse action happens within 6 months of the complaint, the law presumes retaliation.",
+      "If the adverse action happens within 12 months of the complaint, the law presumes retaliation.",
       "The burden shifts to the landlord to prove the action was not retaliatory.",
       "Retaliation is a defense in an eviction proceeding — the court must consider it.",
       "The protection applies to complaints made to government agencies, to the landlord, and to tenant organizations.",
@@ -49,7 +49,7 @@ export const LANDLORD_RETALIATION_NY = {
   },
 
   example: {
-    en: "A tenant in Rochester reports a broken furnace to code enforcement in January. The landlord receives a violation notice. In February, the landlord serves a non-renewal notice, telling the tenant the lease will not be renewed. Because the non-renewal happened within 6 months of the code enforcement complaint, the law presumes retaliation. In the eviction proceeding, the tenant raises the retaliation defense. The landlord must prove a legitimate reason for the non-renewal. If the landlord cannot, the court denies the eviction."
+    en: "A tenant in Rochester reports a broken furnace to code enforcement in January. The landlord receives a violation notice. In February, the landlord serves a non-renewal notice, telling the tenant the lease will not be renewed. Because the non-renewal happened within 12 months of the code enforcement complaint, the law presumes retaliation. In the eviction proceeding, the tenant raises the retaliation defense. The landlord must prove a legitimate reason for the non-renewal. If the landlord cannot, the court denies the eviction."
   },
 
   counsel: [
@@ -98,7 +98,7 @@ export const LANDLORD_RETALIATION_NY = {
     "complaint retaliation",
     "code enforcement retaliation",
     "tenant complaint",
-    "6 month presumption",
+    "12 month presumption",
     "eviction defense",
     "rent increase retaliation",
     "tenant organization",
@@ -111,6 +111,7 @@ export const LANDLORD_RETALIATION_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
