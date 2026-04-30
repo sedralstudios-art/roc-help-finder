@@ -38,7 +38,7 @@ export const DENTAL_CARE_LOW_INCOME_NY = {
 
   legalOptions: {
     en: [
-      "New York Medicaid covers dental services for adults. To check eligibility or enroll, contact Monroe County DSS at (585) 753-6010 or apply online at mybenefits.ny.gov.",
+      "New York Medicaid covers dental services for adults. To check eligibility or enroll, contact Monroe County DSS at (585) 753-6998 or apply online at mybenefits.ny.gov.",
       "The Eastman Institute for Oral Health offers reduced-cost dental care and can be reached at (585) 275-5051.",
       "Anthony L. Jordan Health Center provides dental care on a sliding-scale basis at (585) 423-2800.",
       "Rochester Primary Care Network dental clinics accept Medicaid and offer sliding-scale fees at (585) 288-4777.",

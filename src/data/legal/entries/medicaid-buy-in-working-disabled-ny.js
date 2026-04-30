@@ -40,7 +40,7 @@ export const MEDICAID_BUY_IN_WORKING_DISABLED_NY = {
 
   legalOptions: {
     en: [
-      "For applications in Monroe County, contact DSS at (585) 753-6010.",
+      "For applications in Monroe County, contact DSS at (585) 753-6998.",
       "The NY State Department of Health MBI-WPD page provides program rules and forms at health.ny.gov.",
       "Center for Disability Rights at (585) 546-7510 helps individuals navigate MBI-WPD and related work-incentive programs.",
       "Work Incentives Planning and Assistance (WIPA) counselors — SSA-funded — help SSDI and SSI beneficiaries understand how work affects benefits. Monroe County WIPA through Starbridge at (585) 546-1700.",

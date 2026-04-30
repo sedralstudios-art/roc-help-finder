@@ -298,6 +298,7 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-428-7600', label: 'Rochester courts / Hall of Justice (wrong number)', fix: 'Hall of Justice court lines: (585) 371-3412 City Court Civil/Housing; (585) 428-7482 Parking/Municipal Code; Veterans Treatment Court does not use this number — verify the specific Hall of Justice court phone before publishing', cooccur: /(?:City\s+Court|Housing\s+(?:Part|Court)|Parking\s+Violations|Veterans\s+(?:Treatment\s+)?Court|Hall\s+of\s+Justice|Drug\s+Court|Mental\s+Health\s+Court)/i },
   // Monroe DHS old main line — context-aware so the program-specific lines aren't false-positives
   { num: '585-753-6960', label: 'Monroe County DHS / DSS (old main number)',   fix: 'use (585) 753-6998 for DHS general, (585) 753-6316 for Child Care', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Department\s+of)/i },
+  { num: '585-753-6010', label: 'Monroe County DHS / DSS general (wrong number)', fix: 'use (585) 753-6998 for DHS general / Medicaid intake; (585) 753-5765 for Foster Care intake', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Medicaid|SNAP|Temporary\s+Assistance)/i },
   // LawNY Rochester — the 295-5700 number was incorrect; correct is 325-2520
   { num: '585-295-5700', label: 'LawNY / Legal Assistance of Western NY (old/wrong number)', fix: 'use (585) 325-2520 (verified at lawny.org/Contact)' },
   // Rochester City Court Civil / Small Claims / Housing Court — 428-6650 is not the right line

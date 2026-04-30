@@ -41,7 +41,7 @@ export const MEDICARE_VS_MEDICAID_NY = {
   legalOptions: {
     en: [
       "Medicare enrollment is handled by Social Security. The enrollment window starts three months before the person's 65th birthday month. Late enrollment can result in permanent premium penalties.",
-      "Medicaid applications in Monroe County are handled by the Department of Social Services at (585) 753-6010 or online at mybenefits.ny.gov.",
+      "Medicaid applications in Monroe County are handled by the Department of Social Services at (585) 753-6998 or online at mybenefits.ny.gov.",
       "The Medicare Savings Program helps low-income Medicare beneficiaries by paying their Part B premium and sometimes copays. Applications are filed through the local DSS.",
       "Free Medicare counseling is available through HIICAP at Lifespan of Greater Rochester at (585) 244-8400.",
       "Free help with Medicaid applications and denials is available through Legal Aid Society of Rochester at (585) 232-4090.",
@@ -72,9 +72,9 @@ export const MEDICARE_VS_MEDICAID_NY = {
       name: "Monroe County DSS — Medicaid",
       focus: "Medicaid applications, Medicare Savings Program, benefits",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 753-6010 or mybenefits.ny.gov",
+      access: "Phone at (585) 753-6998 or mybenefits.ny.gov",
       outcome: "Medicaid enrollment, Medicare Savings Program enrollment",
-      phone: "(585) 753-6010",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs-socialservices",
       verified: true,
       bilingual: true,
@@ -115,6 +115,7 @@ export const MEDICARE_VS_MEDICAID_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

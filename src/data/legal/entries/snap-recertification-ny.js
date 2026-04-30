@@ -43,7 +43,7 @@ export const SNAP_RECERTIFICATION_NY = {
       "If the deadline was missed and benefits stopped, a new recertification form submitted within 30 days of the cutoff date can restore benefits without a break.",
       "If more than 30 days have passed, a new SNAP application is needed. It can be filed online at mybenefits.ny.gov or at the DSS office.",
       "Free help with recertification paperwork is available at the Rochester-Monroe Anti-Poverty Initiative (RMAPI) community sites and at Legal Aid Society of Rochester at (585) 232-4090.",
-      "Monroe County DSS can be reached at (585) 753-6010 for questions about recertification deadlines and requirements.",
+      "Monroe County DSS can be reached at (585) 753-6998 for questions about recertification deadlines and requirements.",
       "If SNAP is denied at recertification, a fair hearing can be requested by calling (800) 342-3334."
     ]
   },
@@ -58,9 +58,9 @@ export const SNAP_RECERTIFICATION_NY = {
       name: "Monroe County Department of Social Services",
       focus: "SNAP benefits, recertification, public assistance",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 753-6010 or in person at 111 Westfall Rd",
+      access: "Phone at (585) 753-6998 or in person at 111 Westfall Rd",
       outcome: "Benefits processing, recertification, case management",
-      phone: "(585) 753-6010",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs-socialservices",
       verified: true,
       bilingual: true,

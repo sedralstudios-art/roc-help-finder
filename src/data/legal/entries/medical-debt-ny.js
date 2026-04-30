@@ -161,6 +161,7 @@ export const MEDICAL_DEBT_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

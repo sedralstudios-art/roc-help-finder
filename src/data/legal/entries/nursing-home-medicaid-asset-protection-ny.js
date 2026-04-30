@@ -39,7 +39,7 @@ export const NURSING_HOME_MEDICAID_ASSET_PROTECTION_NY = {
 
   legalOptions: {
     en: [
-      "Medicaid applications for nursing home care are filed with Monroe County DSS at (585) 753-6010 or through the nursing home's admissions office.",
+      "Medicaid applications for nursing home care are filed with Monroe County DSS at (585) 753-6998 or through the nursing home's admissions office.",
       "The five-year look-back applies to any transfer of assets for less than fair value. Transfers made more than five years before the application are not counted.",
       "An elder law attorney can help with Medicaid planning, including trusts, spousal refusal, and asset protection strategies. The Monroe County Bar Association referral service is at (585) 546-2130.",
       "Free legal help with Medicaid applications and nursing home issues is available through Legal Aid Society of Rochester at (585) 232-4090 and Empire Justice Center at (585) 454-4060.",
