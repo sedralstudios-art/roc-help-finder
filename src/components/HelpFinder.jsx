@@ -790,7 +790,9 @@ const TOWN_LABELS = {
 //   (the additional towns covered).
 // ─────────────────────────────────────────────
 
-import { PROGRAMS, DATA_VERIFIED } from "../data/programs.js";
+import { PROGRAMS as _ALL_PROGRAMS, DATA_VERIFIED } from "../data/programs.js";
+// Strip programs flagged hidden:true (sensitive categories pending fact-check verification).
+const PROGRAMS = _ALL_PROGRAMS.filter(p => !p.hidden);
 
 // COMMUNITY GROUPS
 const COMMUNITY = [
