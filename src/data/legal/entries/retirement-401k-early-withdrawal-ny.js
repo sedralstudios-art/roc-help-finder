@@ -114,6 +114,7 @@ export const RETIREMENT_401K_EARLY_WITHDRAWAL_NY = {
   ],
 
   lastVerified: "2026-04-23",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

@@ -116,6 +116,7 @@ export const RENTERS_RIGHTS_CHECKLIST_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
