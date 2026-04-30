@@ -4,13 +4,13 @@ export const MOTOR_VEHICLE_SERVICE_CONTRACT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY GBS 198-B",
+  primaryStatute: "NY ISC 7901",
   status: "active",
 
   title: { en: "NY Motor Vehicle Service Contract — Rules for Extended Warranty Sales and Cancellation" },
 
   summary: {
-    en: "New York General Business Law 198-b regulates motor vehicle service contracts (commonly called extended warranties). A buyer has 20 days to cancel for a full refund — longer in some cases. Sellers must disclose what is covered, what is not, and the claim process clearly. Violations entitle the buyer to a refund plus damages. Many extended warranties are poor value and can be canceled even years later for prorated refund."
+    en: "New York Insurance Law Article 79 (sections 7901-7912) and DFS Regulation 155 (11 NYCRR Part 390) regulate motor vehicle service contracts (commonly called extended warranties). A buyer has 20 days to cancel for a full refund — longer in some cases. Sellers must disclose what is covered, what is not, and the claim process clearly. Violations entitle the buyer to a refund plus damages. Many extended warranties are poor value and can be canceled even years later for prorated refund."
   },
 
   whoQualifies: {
@@ -24,7 +24,7 @@ export const MOTOR_VEHICLE_SERVICE_CONTRACT_NY = {
   },
 
   whatItMeans: {
-    en: "New York General Business Law Section 198-b regulates motor vehicle service contracts sold in New York. A service contract (often called an extended warranty) is a separate contract that pays for specified repairs after the manufacturer warranty expires. Dealers sell service contracts at the time of vehicle purchase — the finance office frequently makes big profits on these contracts. Standalone service contract sellers (NationWide Auto Protection, Endurance, CarShield, Olive) also offer contracts direct to consumers after purchase. UNDER GBS 198-B, every NY service contract must: (1) Be written in plain language with itemized coverage, exclusions, and claim procedures. (2) Identify the provider's address, phone number, and license number. (3) State the total price, the term (months or miles), the deductible per claim, and any transfer rights if the vehicle is sold. (4) Include a 20-day free cancellation period from the date of purchase during which the buyer gets a full refund — longer for specific categories under DFS rules. (5) Allow cancellation at any time during the contract term for a prorated refund based on unused coverage, minus a reasonable cancellation fee typically capped at 75 dollars. Cancellation after the 20-day window: most service contracts can be canceled anytime for a prorated refund. For example, a buyer paid 3,000 dollars for a 60-month contract and cancels after 24 months — the prorated refund is approximately 3000 minus (3000 * 24/60) minus 75 cancellation fee, or roughly 1,125 dollars. The exact formula is in the contract. Cancellation is done in writing to the contract administrator (usually the issuer, not the dealer). If the contract is financed as part of the vehicle loan, the refund goes to the lender and reduces the loan balance rather than going to the consumer as cash. CLAIM DISPUTES: A service contract that denies a legitimate covered claim violates the contract. The buyer can complain to the administrator, escalate to the NY Department of Financial Services at (800) 342-3736, or sue in small claims or regular civil court. GBS 349 Deceptive Business Practices applies when the marketing was misleading. A successful DFS complaint or lawsuit can recover the claim plus attorney fees. VALUE ANALYSIS: Extended warranties are typically poor financial value for most buyers. Consumer Reports and AAA studies have shown that most buyers spend more on the warranty than they save in claims. The dealer and administrator together usually make a 40 to 60 percent margin. For a buyer inclined toward a service contract: (1) Wait until the end of the manufacturer warranty period to buy, so the contract does not duplicate free coverage. (2) Compare standalone providers against the dealer's contract — standalone is usually cheaper. (3) Read exclusions carefully — many denials are for wear and tear items excluded regardless of the claim. (4) Consider a high deductible (200 to 500 dollars) to reduce premium and discourage low-value claims. SCAM WARNING: NY consumers receive scam calls about expiring auto warranties that are unrelated to the consumer's actual vehicle. These are robocall scams — the caller does not know anything about the vehicle. Real extended warranty offers come from the dealer or administrator by mail, not by unsolicited phone call. A consumer receiving such calls can file a complaint with the FCC and state AG. The NY Attorney General has sued several extended warranty robocall operations. For a buyer who regrets an extended warranty purchase from a recent vehicle sale: the 20-day cancellation right under GBS 198-b is automatic — write to the administrator requesting cancellation and the full refund. After 20 days, check the contract for the prorated refund formula."
+    en: "New York Insurance Law Article 79 (sections 7901-7912) and DFS Regulation 155 regulate motor vehicle service contracts sold in New York. (NY GBL § 198-b is a separate statute — the Used Car Lemon Law — and does not govern service contracts.). A service contract (often called an extended warranty) is a separate contract that pays for specified repairs after the manufacturer warranty expires. Dealers sell service contracts at the time of vehicle purchase — the finance office frequently makes big profits on these contracts. Standalone service contract sellers (NationWide Auto Protection, Endurance, CarShield, Olive) also offer contracts direct to consumers after purchase. UNDER NY Insurance Law Article 79, every NY service contract must: (1) Be written in plain language with itemized coverage, exclusions, and claim procedures. (2) Identify the provider's address, phone number, and license number. (3) State the total price, the term (months or miles), the deductible per claim, and any transfer rights if the vehicle is sold. (4) Include a 20-day free cancellation period from the date of purchase during which the buyer gets a full refund — longer for specific categories under DFS rules. (5) Allow cancellation at any time during the contract term for a prorated refund based on unused coverage, minus a reasonable cancellation fee typically capped at 75 dollars. Cancellation after the 20-day window: most service contracts can be canceled anytime for a prorated refund. For example, a buyer paid 3,000 dollars for a 60-month contract and cancels after 24 months — the prorated refund is approximately 3000 minus (3000 * 24/60) minus 75 cancellation fee, or roughly 1,125 dollars. The exact formula is in the contract. Cancellation is done in writing to the contract administrator (usually the issuer, not the dealer). If the contract is financed as part of the vehicle loan, the refund goes to the lender and reduces the loan balance rather than going to the consumer as cash. CLAIM DISPUTES: A service contract that denies a legitimate covered claim violates the contract. The buyer can complain to the administrator, escalate to the NY Department of Financial Services at (800) 342-3736, or sue in small claims or regular civil court. GBS 349 Deceptive Business Practices applies when the marketing was misleading. A successful DFS complaint or lawsuit can recover the claim plus attorney fees. VALUE ANALYSIS: Extended warranties are typically poor financial value for most buyers. Consumer Reports and AAA studies have shown that most buyers spend more on the warranty than they save in claims. The dealer and administrator together usually make a 40 to 60 percent margin. For a buyer inclined toward a service contract: (1) Wait until the end of the manufacturer warranty period to buy, so the contract does not duplicate free coverage. (2) Compare standalone providers against the dealer's contract — standalone is usually cheaper. (3) Read exclusions carefully — many denials are for wear and tear items excluded regardless of the claim. (4) Consider a high deductible (200 to 500 dollars) to reduce premium and discourage low-value claims. SCAM WARNING: NY consumers receive scam calls about expiring auto warranties that are unrelated to the consumer's actual vehicle. These are robocall scams — the caller does not know anything about the vehicle. Real extended warranty offers come from the dealer or administrator by mail, not by unsolicited phone call. A consumer receiving such calls can file a complaint with the FCC and state AG. The NY Attorney General has sued several extended warranty robocall operations. For a buyer who regrets an extended warranty purchase from a recent vehicle sale: the 20-day cancellation right under NY Insurance Law Article 79 is automatic — write to the administrator requesting cancellation and the full refund. After 20 days, check the contract for the prorated refund formula."
   },
 
   yourRights: {
@@ -57,7 +57,7 @@ export const MOTOR_VEHICLE_SERVICE_CONTRACT_NY = {
     {
       type: "government",
       name: "NY State Department of Financial Services",
-      focus: "Service contract rule enforcement, claim denial complaints, 198-b violations",
+      focus: "Service contract rule enforcement, claim denial complaints, Insurance Law Article 79 violations",
       qualifier: "Any NY service contract buyer",
       access: "Phone, online complaint portal",
       outcome: "Complaint investigation, provider compliance, civil penalties",
@@ -95,7 +95,7 @@ export const MOTOR_VEHICLE_SERVICE_CONTRACT_NY = {
   tags: [
     "motor vehicle service contract",
     "extended warranty NY",
-    "GBS 198-b",
+    "NY Insurance Law Article 79",
     "20-day free cancellation",
     "prorated warranty refund",
     "GBS 349 deceptive",
@@ -106,11 +106,12 @@ export const MOTOR_VEHICLE_SERVICE_CONTRACT_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/GBS/198-B",
+    "https://www.nysenate.gov/legislation/laws/ISC/A79",
     "https://www.dfs.ny.gov/consumers/auto_insurance/service_contracts"
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

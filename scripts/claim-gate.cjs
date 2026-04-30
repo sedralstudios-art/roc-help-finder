@@ -137,6 +137,11 @@ const FABRICATIONS = [
     label: 'MHL 9.39 misframed as 48-hour maximum hold',
     fix: 'MHL 9.39 emergency admission allows holds up to 15 days; the 48-hour rule is for second-physician confirmation, NOT the maximum hold period' },
 
+  { pat: /\bGBL?\s*§?\s*198-?b\b|\bGBS\s+198-?B\b/i,
+    cooccur: /(?:service\s+contract|extended\s+warranty)(?!.{0,40}lemon)/i,
+    label: 'GBL 198-b misframed as service contract / extended warranty law',
+    fix: 'GBL § 198-b is the NY Used Car Lemon Law (warranty on used vehicle sales by dealers), NOT the service contract / extended warranty statute. Service contracts are governed by NY Insurance Law Article 79 (§§ 7901-7912) and DFS Regulation 155 (11 NYCRR Part 390)' },
+
   { pat: /\bGBL\s+§?\s*771\b/i,
     cooccur: /\$\s*250\b/i,
     label: 'GBL 771 with $250 home-improvement-fraud threshold',
