@@ -358,6 +358,7 @@ const STALE_FIGURES = [
   { pat: /\b6\s+months?\b/i,          cooccur: /(?:RPL|RPP|Real\s+Property\s+Law)\s*§?\s*223-?b|retaliation.{0,80}presumption|presumption.{0,80}retaliation/i, label: '6-month landlord retaliation presumption', fix: 'HSTPA 2019 extended the RPL 223-b retaliation presumption to 1 year (12 months)' },
   { pat: /\$\s*204,?825\b/,           cooccur: /(Monroe|upstate|Rochester|Orleans|Wayne|Ontario|Livingston|Genesee|Allegany)\b/i, label: 'NY homestead $204,825 attributed to upstate', fix: 'CPLR 5206 upstate tier (incl. Monroe County) is $89,975; $170,825 middle tier (Albany/Dutchess/Saratoga); $204,825 NYC-area tier (NYC counties, Nassau, Suffolk, Rockland, Westchester, Putnam)' },
   { pat: /\$\s*170,?825\b/,           cooccur: /Monroe\s+County|upstate/i, label: 'NY homestead $170,825 attributed to Monroe', fix: 'Monroe County is the upstate tier at $89,975, not $170,825 (which is Albany/Dutchess/Saratoga tier)' },
+  { pat: /\b14\s*(?:days?|day)\b/i,   cooccur: /(?:Medicaid|nursing\s+home).{0,80}bed[\s-]?hold|bed[\s-]?hold.{0,80}(?:Medicaid|nursing\s+home|hospitalization)/i, label: 'Nursing home Medicaid bed-hold 14 days for hospitalization', fix: 'NY eliminated Medicaid hospitalization bed-hold for adults 21+ effective May 29, 2019 (10 NYCRR 415.3); pediatric and hospice residents still receive bed-hold; readmission right is preserved' },
 ];
 
 // ─────────── Field extraction ───────────

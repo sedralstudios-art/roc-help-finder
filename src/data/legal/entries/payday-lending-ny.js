@@ -4,13 +4,13 @@ export const PAYDAY_LENDING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY BNK 340",
+  primaryStatute: "NY BNK 14-A",
   status: "active",
 
   title: { en: "Payday Loans and Predatory Lending — What Is Illegal in New York" },
 
   summary: {
-    en: "Payday lending is illegal in New York. The state caps interest rates on consumer loans at 25% for licensed lenders and 16% for unlicensed lenders — making the 300-400% APR rates charged by payday lenders a criminal usury violation. If someone has been trapped in a payday loan cycle, the loan may be void and unenforceable. Online payday lenders targeting New York residents are also violating state law."
+    en: "Payday lending is illegal in New York. Banking Law Section 14-a sets the civil usury cap at 16 percent per annum on most consumer loans, and Penal Law Section 190.40 makes interest above 25 percent per annum criminal usury — a Class E felony. Payday lenders charging 300 to 400 percent APR violate both. If someone has been trapped in a payday loan cycle, the interest portion is unenforceable. Online payday lenders targeting New York residents are also violating state law."
   },
 
   whoQualifies: {
@@ -22,14 +22,14 @@ export const PAYDAY_LENDING_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Banking Law § 340 and Penal Law § 190.40-190.42, consumer loans with interest rates above the statutory caps are usurious and potentially criminal. Licensed lenders are capped at 25% APR. Unlicensed lenders are capped at 16%. Criminal usury (charging more than 25%) is a felony. Payday lenders — which typically charge 300-400% APR — are illegal in New York whether they operate online or in a storefront. A loan that violates usury law may be void — meaning the borrower may not owe anything, including the principal. Online payday lenders that target New York residents from other states are also violating New York law. The NY Department of Financial Services (DFS) has taken enforcement action against online lenders operating illegally in the state. Alternatives to payday loans that are legal in New York include: credit union payday alternative loans (PALs), employer salary advances, community lending programs, and emergency assistance through DSS."
+    en: "Under New York Banking Law § 14-a (civil usury cap, 16 percent per annum on consumer loans below $250,000) and Penal Law § 190.40-190.42 (criminal usury, anything over 25 percent per annum), most consumer loans above the statutory caps are unenforceable as to the excess interest and may also be criminal. Criminal usury (charging more than 25 percent) is a Class E felony. Payday lenders — which typically charge 300-400% APR — are illegal in New York whether they operate online or in a storefront. Where a loan is criminally usurious, NY courts have sometimes voided the entire obligation, including principal, but the more common outcome is that the interest above the civil cap is unenforceable while the principal remains owed (Seidel v. 18 East 17th St Owners Inc). Online payday lenders that target New York residents from other states are also violating New York law. The NY Department of Financial Services (DFS) has taken enforcement action against online lenders operating illegally in the state. Alternatives to payday loans that are legal in New York include: credit union payday alternative loans (PALs), employer salary advances, community lending programs, and emergency assistance through DSS."
   },
 
   yourRights: {
     en: [
-      "Payday lending is illegal in New York — loans with interest rates above 25% APR are usurious.",
-      "A usurious loan may be void and unenforceable — the borrower may not owe anything.",
-      "Criminal usury (charging more than 25%) is a Class E felony.",
+      "Payday lending is illegal in New York — Banking Law 14-a caps civil interest at 16 percent per annum on consumer loans below $250,000, and Penal Law 190.40 makes interest above 25 percent per annum a felony.",
+      "A loan that violates the 16 percent civil usury cap is unenforceable as to interest above that cap; principal generally remains owed.",
+      "Criminal usury (charging more than 25 percent) is a Class E felony.",
       "Debt collectors cannot lawfully collect on an illegal payday loan.",
       "Online payday lenders targeting New York residents are also violating state law.",
       "The borrower can file a complaint with DFS and with the NY Attorney General."
@@ -84,17 +84,19 @@ export const PAYDAY_LENDING_NY = {
     "online payday",
     "loan shark",
     "APR too high",
-    "Banking Law 340",
+    "Banking Law 14-a",
     "criminal usury",
     "payday alternative"
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/BNK/340",
-    "https://www.nysenate.gov/legislation/laws/PEN/190.40"
+    "https://www.nysenate.gov/legislation/laws/BNK/14-A",
+    "https://www.nysenate.gov/legislation/laws/PEN/190.40",
+    "https://www.nysenate.gov/legislation/laws/PEN/190.42"
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

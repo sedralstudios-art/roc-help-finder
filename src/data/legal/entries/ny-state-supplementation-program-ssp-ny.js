@@ -119,6 +119,7 @@ export const NY_STATE_SUPPLEMENTATION_PROGRAM_SSP_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

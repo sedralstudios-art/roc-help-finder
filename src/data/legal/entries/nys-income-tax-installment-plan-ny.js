@@ -119,6 +119,7 @@ export const NYS_INCOME_TAX_INSTALLMENT_PLAN_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

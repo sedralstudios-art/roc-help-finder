@@ -10,7 +10,7 @@ export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
   title: { en: "Nursing Home Bed-Hold and Readmission Rights — Getting the Room Back After Hospitalization" },
 
   summary: {
-    en: "When a nursing home resident is hospitalized or goes on therapeutic leave, federal and New York rules require the facility to hold the bed for a set number of days and to readmit the resident to the first available bed after the hold expires. Medicaid pays for up to 14 bed-hold days per hospitalization. Residents and families often lose the bed because the facility fails to explain the rules. The readmission right is mandatory — not a favor."
+    en: "When a nursing home resident is hospitalized or goes on therapeutic leave, federal and New York rules govern when the facility must hold the bed and when it must readmit the resident. As of May 29, 2019, NY Medicaid no longer pays for hospitalization bed-hold for adult residents 21 and older who are not on hospice — but the readmission right to the first available semi-private bed is preserved. Pediatric residents and hospice patients still receive bed-hold coverage. Residents and families often lose access to the room because the facility fails to explain the rules. The readmission right is mandatory — not a favor."
   },
 
   whoQualifies: {
@@ -23,15 +23,16 @@ export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
   },
 
   whatItMeans: {
-    en: "Federal regulations at 42 CFR Section 483.15(d) and (e) and New York State rules at 10 NYCRR Section 415.3 govern nursing home bed-hold and readmission. Bed-hold: when a Medicaid-covered resident leaves the facility for a hospital stay or therapeutic leave (such as a family visit), the facility must give the resident and family written notice at admission and at the time of transfer about the state's bed-hold policy — specifically that NY Medicaid pays for up to 14 days of bed-hold per hospitalization per calendar year. The facility cannot charge private pay for bed-hold time covered by Medicaid. For stays longer than the 14 days, the resident or family can choose to pay privately to continue holding the bed, or the bed can be released. Readmission: under 42 CFR Section 483.15(e), if the resident's hospital stay or leave exceeds the bed-hold period, the facility must readmit the resident to the first available bed in a semi-private room upon the resident's return, as long as the resident still requires nursing home care, qualifies for Medicaid, and the facility can meet the resident's needs. The facility cannot refuse to readmit because the resident now has more complex needs, greater care hours, behavioral challenges, or is returning with a changed payer source. Readmission priority applies even if the facility has since admitted other residents — the returning resident has priority over new admissions for the first bed. Common violations: not giving the bed-hold notice, charging private pay during the Medicaid bed-hold period, telling the family the resident will not be readmitted because the facility cannot meet needs without documenting specific reasons, and filling the returning resident's bed without offering readmission. Enforcement: the NYS Department of Health Centralized Complaint Intake at 1-888-201-4563 investigates complaints. The Long-Term Care Ombudsman at 1-855-582-6769 advocates for resolution without formal complaint. Federal CMS rules also allow residents to appeal transfer and discharge decisions through an administrative hearing process."
+    en: "Federal regulations at 42 CFR Section 483.15(d) and (e) and New York State rules at 10 NYCRR Section 415.3 govern nursing home bed-hold and readmission. Bed-hold for hospitalization: effective May 29, 2019, NY Medicaid no longer pays for hospitalization bed-hold for adult nursing home residents age 21 or older who are not enrolled in hospice. Pediatric residents (under 21) and hospice patients continue to receive Medicaid-paid bed-hold during hospital stays. For adults 21+ during a hospital stay, the resident or family can choose to pay privately to hold the room or the bed can be released — the facility's mandatory readmission obligation still attaches when the resident is ready to return. Bed-hold for therapeutic leave (a family visit, holiday, or planned overnight away from the facility) is separately governed by 10 NYCRR 415.3 and Medicaid covers a limited number of leave days per year — confirm the current allowance with the facility or the Long-Term Care Ombudsman, since the figure has changed over time. The facility must give the resident and family written notice of the bed-hold policy at admission and at the time of transfer. Readmission: under 42 CFR Section 483.15(e), if the resident's hospital stay or leave exceeds the bed-hold period (or there was no paid bed-hold because of the 2019 elimination), the facility must readmit the resident to the first available bed in a semi-private room upon the resident's return, as long as the resident still requires nursing home care, qualifies for Medicaid, and the facility can meet the resident's needs. The facility cannot refuse to readmit because the resident now has more complex needs, greater care hours, behavioral challenges, or is returning with a changed payer source. Readmission priority applies even if the facility has since admitted other residents — the returning resident has priority over new admissions for the first bed. Common violations: not giving the bed-hold notice, charging private pay during the Medicaid bed-hold period, telling the family the resident will not be readmitted because the facility cannot meet needs without documenting specific reasons, and filling the returning resident's bed without offering readmission. Enforcement: the NYS Department of Health Centralized Complaint Intake at 1-888-201-4563 investigates complaints. The Long-Term Care Ombudsman at 1-855-582-6769 advocates for resolution without formal complaint. Federal CMS rules also allow residents to appeal transfer and discharge decisions through an administrative hearing process."
   },
 
   yourRights: {
     en: [
       "A resident and family have the right to written notice of the bed-hold policy at admission and at each transfer.",
-      "Medicaid pays for up to 14 bed-hold days per hospitalization (NY rule).",
+      "NY Medicaid no longer pays for hospitalization bed-hold for adults 21+ who are not on hospice (effective May 29, 2019); pediatric and hospice residents continue to receive bed-hold coverage.",
       "A resident has the mandatory right to readmission to the first available bed when the hold expires.",
       "The facility cannot refuse readmission because the resident's needs have changed, unless it can document it cannot provide the needed care.",
+      "A resident has the right to readmission to the first available semi-private bed even when the bed-hold period has expired or no Medicaid bed-hold was paid.",
       "A resident has the right to appeal any transfer or discharge to the NYS Department of Health.",
       "A family has the right to contact the Long-Term Care Ombudsman for free advocacy.",
       "A resident cannot be charged private pay for days already covered by Medicaid bed-hold."
@@ -51,7 +52,7 @@ export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
   },
 
   example: {
-    en: "A Rochester Medicaid resident was hospitalized for pneumonia for 10 days. The nursing home told the family the bed was released and she could not return. The daughter contacted the Long-Term Care Ombudsman, who reviewed the admission paperwork and found the facility never provided the required bed-hold notice. The ombudsman explained that NY Medicaid covers 14 days of bed-hold and that readmission was mandatory. The ombudsman contacted the facility, which offered the next available bed within 48 hours. The family did not pay privately and the resident returned to the same unit she had lived in for two years."
+    en: "A Rochester Medicaid resident was hospitalized for pneumonia for 10 days. The nursing home told the family the bed was released and she could not return at all. The daughter contacted the Long-Term Care Ombudsman, who explained that while NY Medicaid no longer covers hospitalization bed-hold for adults 21+, the federal readmission right to the first available semi-private bed is still mandatory once the resident is ready to return. The ombudsman contacted the facility, which offered the next available bed within 48 hours. The resident returned to the same unit where she had lived for two years."
   },
 
   counsel: [
@@ -112,6 +113,7 @@ export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

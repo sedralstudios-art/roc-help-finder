@@ -23,13 +23,13 @@ export const PAWN_SHOP_RIGHTS_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York General Business Law Article 5 (Sections 40-46), a pawnbroker must be licensed by the local municipality. Every pawn transaction must include a written receipt (called a pawn ticket) that shows a description of the item, the amount loaned, the interest rate, the redemption period, and the pawnbroker's name and license number. The redemption period is the time the customer has to reclaim the item by paying the loan plus interest. In New York, the minimum redemption period is 4 months from the date of the loan. After the redemption period, the pawnbroker can sell the item. The interest rate on pawn loans is capped at 4% per month (48% per year) under GBL Section 44. A pawnbroker who charges more than the legal rate is violating the law. A pawn is different from a sale. In a pawn, the customer borrows money and leaves the item as collateral. The customer can reclaim the item by repaying the loan. In a sale, the customer sells the item outright and has no right to get it back. A pawnbroker must record every transaction and report suspicious items to the police. Pawned items that match a stolen property report can be seized by law enforcement."
+    en: "Under New York General Business Law Article 5 (Sections 40-46), a pawnbroker must be licensed by the local municipality. Every pawn transaction must include a written receipt (called a pawn ticket) that shows a description of the item, the amount loaned, the interest rate, the redemption period, and the pawnbroker's name and license number. The redemption period is the time the customer has to reclaim the item by paying the loan plus interest. In New York, the minimum redemption period is 4 months from the date of the loan. After the redemption period, the pawnbroker can sell the item. The interest rate on pawn loans is tiered under GBL Section 46: 4 percent per month on loans of $100 or less, 3 percent per month on loans up to $500, and 2 percent per month on loans above $500. A pawnbroker who charges more than the applicable tier is violating the law. A pawn is different from a sale. In a pawn, the customer borrows money and leaves the item as collateral. The customer can reclaim the item by repaying the loan. In a sale, the customer sells the item outright and has no right to get it back. A pawnbroker must record every transaction and report suspicious items to the police. Pawned items that match a stolen property report can be seized by law enforcement."
   },
 
   yourRights: {
     en: [
       "A customer who pawns an item has the right to a written receipt showing the loan amount, interest rate, and redemption deadline.",
-      "The interest rate on pawn loans is capped at 4% per month in New York.",
+      "The interest rate on pawn loans is tiered: 4% per month on loans up to $100, 3% on loans up to $500, and 2% on larger loans (GBL 46).",
       "A customer has at least 4 months to reclaim a pawned item by paying the loan plus interest.",
       "A pawnbroker cannot sell the item before the redemption period expires.",
       "If a customer sold an item (not pawned it), the customer generally cannot get it back — the sale is final.",
@@ -50,7 +50,7 @@ export const PAWN_SHOP_RIGHTS_NY = {
   },
 
   example: {
-    en: "Carlos pawned a guitar worth $800 at a pawn shop in Rochester for a $200 loan. The pawn ticket showed 4% monthly interest and a 4-month redemption period. After 3 months, Carlos came back to reclaim the guitar. He paid $200 plus $24 in interest ($200 x 4% x 3 months) — total $224 — and got his guitar back. If he had waited past the 4-month deadline, the pawn shop could have sold the guitar."
+    en: "Carlos pawned a guitar worth $800 at a pawn shop in Rochester for a $200 loan. The pawn ticket showed 3% monthly interest (the rate cap for loans over $100 up to $500) and a 4-month redemption period. After 3 months, Carlos came back to reclaim the guitar. He paid $200 plus $18 in interest ($200 x 3% x 3 months) — total $218 — and got his guitar back. If he had waited past the 4-month deadline, the pawn shop could have sold the guitar."
   },
 
   counsel: [
@@ -97,6 +97,7 @@ export const PAWN_SHOP_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
