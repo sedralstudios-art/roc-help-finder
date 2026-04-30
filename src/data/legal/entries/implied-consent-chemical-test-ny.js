@@ -46,7 +46,7 @@ export const IMPLIED_CONSENT_CHEMICAL_TEST_NY = {
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 connects drivers with private DWI defense attorneys.",
       "DMV Driver Improvement Bureau at (518) 474-0774 handles refusal hearing scheduling and conditional license applications.",
       "NY Drinking Driver Program at (518) 474-0774 schedules DDP enrollment for license reinstatement.",
-      "Veterans Treatment Court (Monroe County) at (585) 428-7600 handles DWI cases involving veterans whose service-connected condition contributed to the offense."
+      "Veterans Treatment Court (Monroe County) at the Hall of Justice handles DWI cases involving veterans whose service-connected condition contributed to the offense — referral typically comes through the Public Defender or assigned counsel."
     ]
   },
 
@@ -126,6 +126,7 @@ export const IMPLIED_CONSENT_CHEMICAL_TEST_NY = {
   ],
 
   lastVerified: "2026-04-24",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
