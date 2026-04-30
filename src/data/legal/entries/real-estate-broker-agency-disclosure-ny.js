@@ -115,6 +115,7 @@ export const REAL_ESTATE_BROKER_AGENCY_DISCLOSURE_NY = {
   ],
 
   lastVerified: "2026-04-19",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

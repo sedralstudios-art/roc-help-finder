@@ -116,6 +116,7 @@ export const REAL_ESTATE_BROKER_COMMISSION_DISPUTE_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

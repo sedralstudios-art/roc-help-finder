@@ -100,6 +100,7 @@ export const PREGNANT_WORKER_ACCOMMODATIONS_NY = {
   ],
 
   lastVerified: "2026-04-23",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
