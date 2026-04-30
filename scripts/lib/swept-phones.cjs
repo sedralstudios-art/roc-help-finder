@@ -47,6 +47,7 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-371-3608', label: 'Rochester City Court / Housing (wrong number)', fix: 'Civil Division (handles housing/eviction/small claims): (585) 371-3412 at 99 Exchange Blvd Room 6 (verified at nycourts.gov 2026-04-30)', cooccur: /(?:City\s+Court|Housing\s+Court|eviction|99\s+Exchange)/i },
   { num: '585-392-9461', label: 'Parma Town Clerk (wrong number — 9461 is Town Hall main switchboard, not Clerk direct)', fix: 'Parma Clerk direct: (585) 392-9462 (verified at parmany.gov/departments/town-clerk/ 2026-04-30)', cooccur: /(?:Town\s+Clerk|Clerk's\s+Office)/i },
   { num: '585-336-6020', label: 'Irondequoit Building Department (wrong number)', fix: 'Building Dept: (585) 336-6026; Inspection Request Line: (585) 336-6072 (verified at irondequoit.gov/180/Building 2026-04-30)', cooccur: /(?:Building\s+Department|Building\s+Dept|building\s+permits)/i },
+  { num: '585-275-3574', label: 'Strong Recovery / URMC chemical dependency (wrong number)', fix: 'use (585) 275-3161 (verified at urmc.rochester.edu/locations/strong-recovery 2026-04-30)', cooccur: /(?:Strong\s+Recovery|URMC|UR\s+Medicine.*chemical|chemical\s+dependency)/i },
 ];
 
 function normalizePhone(s) {
