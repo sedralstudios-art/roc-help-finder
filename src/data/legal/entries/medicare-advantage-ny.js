@@ -111,6 +111,7 @@ export const MEDICARE_ADVANTAGE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,

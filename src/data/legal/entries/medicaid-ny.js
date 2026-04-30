@@ -135,6 +135,7 @@ export const MEDICAID_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
