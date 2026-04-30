@@ -23,7 +23,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Parks, Recreation and Historic Preservation Law and Vehicle and Traffic Law, snowmobiles must be registered with the DMV ($100 for three years for residents). ATVs must also be registered ($25 per year). Both require the registration sticker to be displayed on the machine. Snowmobiles can be ridden on designated snowmobile trails, on the shoulder of some roads (where posted), and on private land with the owner's permission. ATVs are more restricted — they cannot be ridden on any public road, highway, or sidewalk except on roads specifically designated for ATV use (rare in Monroe County). Both require helmets for all riders. Riders under age 10 cannot operate a snowmobile. Riders ages 10 to 17 must complete a safety course. For ATVs, riders under 16 cannot operate on public land. Riding on someone else's private property without permission is trespassing under Penal Law Section 140.05. Insurance is not required for snowmobiles or ATVs, but if the rider causes an accident, they are personally liable for all damages."
+    en: "Under New York Parks, Recreation and Historic Preservation Law and Vehicle and Traffic Law, snowmobiles must be registered annually with the DMV. The standard fee is $135 per year ($10 registration plus $125 trail-fund fee). The fee drops to $65 per year for members of a NYSSA-affiliated snowmobile club. All snowmobile registrations expire August 31. ATVs must also be registered with the DMV. The annual ATV registration fee is $12.50, plus a one-time $12.50 license plate fee at first registration. Both require the registration sticker to be displayed on the machine. Snowmobiles can be ridden on designated snowmobile trails, on the shoulder of some roads (where posted), and on private land with the owner's permission. ATVs are more restricted — they cannot be ridden on any public road, highway, or sidewalk except on roads specifically designated for ATV use (rare in Monroe County). Both require helmets for all riders. Riders under age 10 cannot operate a snowmobile. Riders ages 10 to 17 must complete a safety course. For ATVs, riders under 16 cannot operate on public land. Riding on someone else's private property without permission is trespassing under Penal Law Section 140.05. Insurance is not required for snowmobiles or ATVs, but if the rider causes an accident, they are personally liable for all damages."
   },
 
   yourRights: {
@@ -39,8 +39,8 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
 
   legalOptions: {
     en: [
-      "Snowmobile registration: DMV at dmv.ny.gov or (518) 486-9786. Cost is $100 for three years (residents).",
-      "ATV registration: DMV at dmv.ny.gov. Cost is $25 per year.",
+      "Snowmobile registration: DMV at dmv.ny.gov or (518) 486-9786. Cost is $135 per year, or $65 per year with NYSSA club membership.",
+      "ATV registration: DMV at dmv.ny.gov. Cost is $12.50 per year, plus a one-time $12.50 plate fee at first registration.",
       "Safety courses for riders under 18 are offered by the NYS Office of Parks, Recreation and Historic Preservation. Information at parks.ny.gov.",
       "Snowmobile trail information in Monroe County is available through local snowmobile clubs and parks.ny.gov/recreation/snowmobiles.",
       "To report illegal ATV or snowmobile riding on public roads, call the local police non-emergency number.",
@@ -49,7 +49,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   },
 
   example: {
-    en: "After buying a used ATV, Jake registered it with the DMV for $25 and bought a helmet. He rode it on trails at a friend's property in Riga with permission. One weekend, Jake rode the ATV on a town road to get to a different trail. A sheriff's deputy pulled him over — ATVs are not allowed on public roads in Monroe County. Jake received a ticket and a $250 fine. He learned that he needed to trailer the ATV between trail locations instead of riding on the road."
+    en: "After buying a used ATV, Jake registered it with the DMV for the $12.50 annual fee plus a one-time $12.50 plate fee and bought a helmet. He rode it on trails at a friend's property in Riga with permission. One weekend, Jake rode the ATV on a town road to get to a different trail. A sheriff's deputy pulled him over — ATVs are not allowed on public roads in Monroe County. Jake received a ticket and a $250 fine. He learned that he needed to trailer the ATV between trail locations instead of riding on the road."
   },
 
   counsel: [
@@ -99,6 +99,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -101,6 +101,7 @@ export const SOLAR_PANEL_RULES_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,

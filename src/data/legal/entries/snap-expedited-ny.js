@@ -128,6 +128,7 @@ export const SNAP_EXPEDITED_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
