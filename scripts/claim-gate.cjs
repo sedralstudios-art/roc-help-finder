@@ -472,9 +472,13 @@ function gateEntry(filename) {
   if (gbl352) fails.push({ kind: 'FABRICATION', label: gbl352.label, fix: gbl352.fix, excerpt: '' });
 
   // 2. Already-swept wrong phones
+  // Counsel block scanned as raw source — preserves the name/focus/qualifier
+  // text adjacent to the phone so cooccur regexes still match in counsel entries.
+  const counselBlockMatch = src.match(/counsel\s*:\s*\[([\s\S]*?)\n\s*\]/);
+  const counselBlock = counselBlockMatch ? counselBlockMatch[1] : '';
   for (const rule of SWEPT_WRONG_PHONES) {
     const hits = findPhoneMatches(body, rule.num, rule.cooccur)
-      .concat(findPhoneMatches(counselPhones.join('\n'), rule.num, rule.cooccur));
+      .concat(findPhoneMatches(counselBlock, rule.num, rule.cooccur));
     if (hits.length > 0) {
       fails.push({
         kind: 'SWEPT_PHONE',
