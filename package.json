@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && node scripts/verify-program-walkthroughs.cjs && node scripts/claim-gate.cjs --all && vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
-    "verify": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && node scripts/verify-program-walkthroughs.cjs && node scripts/claim-gate.cjs --all",
+    "build": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && node scripts/verify-program-walkthroughs.cjs && node scripts/claim-gate.cjs --all && node scripts/program-gate.cjs --all && vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
+    "verify": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && node scripts/verify-program-walkthroughs.cjs && node scripts/claim-gate.cjs --all && node scripts/program-gate.cjs --all",
     "preflight": "node scripts/preflight-batch.cjs",
     "gate": "node scripts/claim-gate.cjs",
+    "program-gate": "node scripts/program-gate.cjs",
     "preview": "vite preview"
   },
   "dependencies": {

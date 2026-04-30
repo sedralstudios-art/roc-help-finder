@@ -31,6 +31,7 @@
 const fs = require('fs');
 const path = require('path');
 const { parseStatuteURL } = require('./lib/parse-statute.cjs');
+const { SWEPT_WRONG_PHONES, normalizePhone, findPhoneMatches } = require('./lib/swept-phones.cjs');
 
 const ENTRIES_DIR = path.join(__dirname, '..', 'src', 'data', 'legal', 'entries');
 
@@ -292,56 +293,10 @@ function checkGbl352eeee(text) {
 // These have global one-shot sweep scripts that have already been run.
 // Reappearance means a new entry reintroduced a known-wrong number.
 
-const SWEPT_WRONG_PHONES = [
-  { num: '585-295-5727', label: 'Legal Aid Society of Rochester (old number)', fix: 'use (585) 232-4090' },
-  { num: '585-295-5800', label: 'Empire Justice Center (old number)',          fix: 'use (585) 454-4060' },
-  { num: '585-295-5702', label: 'Empire Justice Center (old number)',          fix: 'use (585) 454-4060' },
-  { num: '585-295-5775', label: 'Empire Justice Center (old number)',          fix: 'use (585) 454-4060' },
-  { num: '585-295-3100', label: 'JustCause (old VLSP number)',                 fix: 'use (585) 232-3051' },
-  { num: '585-325-2800', label: 'Lifespan / Eldersource (old number)',         fix: 'use (585) 244-8400' },
-  { num: '585-226-5380', label: 'DEC Region 8 Avon (old number)',              fix: 'use (585) 226-5400 or (585) 226-2466 by context' },
-  // Surrogate's Court — only flag when paired with "Surrogate" since 753-1600 is correct for the Clerk's office
-  { num: '585-753-5363', label: 'Monroe County Surrogate Court (old number)',  fix: 'use (585) 371-3310', cooccur: /Surrogate/i },
-  // Family Court swept numbers
-  { num: '585-371-3553', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
-  { num: '585-428-2480', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
-  { num: '585-428-5429', label: 'Monroe County Family Court (old number)',     fix: 'use (585) 371-3544' },
-  { num: '585-371-3548', label: 'Monroe County Family Court (wrong extension)', fix: 'use (585) 371-3544 (verified at nycourts.gov 4/2026)' },
-  { num: '585-371-3300', label: 'Monroe County Supreme Court Clerk (wrong number)', fix: 'use (585) 371-3758 (verified per recurring patterns memory)', cooccur: /(?:Supreme\s+Court|Court\s+Clerk)/i },
-  { num: '585-428-3720', label: 'Monroe County Family Court / Attorney for Child (wrong number)', fix: 'use (585) 371-3544 for Family Court main' },
-  { num: '585-295-5708', label: 'JustCause / VLSP (wrong number)', fix: 'use (585) 232-3051 (verified at justcauseny.org)' },
-  { num: '585-428-7600', label: 'Rochester courts / Hall of Justice (wrong number)', fix: 'Hall of Justice court lines: (585) 371-3412 City Court Civil/Housing; (585) 428-7482 Parking/Municipal Code; Veterans Treatment Court does not use this number — verify the specific Hall of Justice court phone before publishing', cooccur: /(?:City\s+Court|Housing\s+(?:Part|Court)|Parking\s+Violations|Veterans\s+(?:Treatment\s+)?Court|Hall\s+of\s+Justice|Drug\s+Court|Mental\s+Health\s+Court)/i },
-  // Monroe DHS old main line — context-aware so the program-specific lines aren't false-positives
-  { num: '585-753-6960', label: 'Monroe County DHS / DSS (old main number)',   fix: 'use (585) 753-6998 for DHS general, (585) 753-6316 for Child Care', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Department\s+of)/i },
-  { num: '585-753-6010', label: 'Monroe County DHS / DSS general (wrong number)', fix: 'use (585) 753-6998 for DHS general / Medicaid intake; (585) 753-5765 for Foster Care intake', cooccur: /(?:DHS|DSS|Human\s+Services|Social\s+Services|Medicaid|SNAP|Temporary\s+Assistance)/i },
-  // LawNY Rochester — the 295-5700 number was incorrect; correct is 325-2520
-  { num: '585-295-5700', label: 'LawNY / Legal Assistance of Western NY (old/wrong number)', fix: 'use (585) 325-2520 (verified at lawny.org/Contact)' },
-  // Rochester City Court Civil / Small Claims / Housing Court — 428-6650 is not the right line
-  { num: '585-428-6650', label: 'Rochester City Court / Small Claims / Housing Court (wrong number)', fix: 'use (585) 371-3412 for Civil Division (covers Small Claims and Housing Part); (585) 371-3413 for Criminal' },
-  { num: '585-295-0660', label: 'JustCause / VLSP (wrong number)', fix: 'use (585) 232-3051 (verified at justcauseny.org)' },
-];
-
-function normalizePhone(s) {
-  return s.replace(/[^\d]/g, '');
-}
-
-function findPhoneMatches(text, raw, cooccur) {
-  const target = normalizePhone(raw);
-  if (target.length !== 10) return [];
-  const re = /\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}/g;
-  const hits = [];
-  let m;
-  while ((m = re.exec(text)) !== null) {
-    if (normalizePhone(m[0]) === target) {
-      if (cooccur) {
-        const window = text.slice(Math.max(0, m.index - 200), m.index + 200);
-        if (!cooccur.test(window)) continue;
-      }
-      hits.push({ at: m.index, raw: m[0] });
-    }
-  }
-  return hits;
-}
+// SWEPT_WRONG_PHONES, normalizePhone, findPhoneMatches now live in
+// scripts/lib/swept-phones.cjs and are imported above. The list is shared
+// with the program-gate so a wrong number caught in legal entries also
+// blocks the same number from sneaking back in through programs.js.
 
 // ─────────── Outdated figures (WARN) ───────────
 // Each figure was the right answer in a prior year and is still likely sitting
