@@ -44,7 +44,7 @@ export const UNEMPLOYMENT_GIG_WORKERS_NY = {
       "If an unemployment claim is denied, the worker can request a hearing within 30 days of the denial notice. Hearings are conducted by phone or in person.",
       "Free legal help with unemployment denials and misclassification disputes is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The Freelancers Union provides resources and advocacy for independent workers at freelancersunion.org.",
-      "Under the NY Freelance Isn't Free Act (Labor Law Section 191-c), freelancers who are owed money for completed work can sue for double damages if the client does not pay within 30 days of the due date."
+      "Under the NY Freelance Isn't Free Act (General Business Law Article 44-A, effective August 28, 2024), freelancers who are owed money for completed work can sue for double damages if the client does not pay within 30 days of the due date."
     ]
   },
 
@@ -107,10 +107,11 @@ export const UNEMPLOYMENT_GIG_WORKERS_NY = {
   sources: [
     "https://www.labor.ny.gov/ui/claimantinfo/beforeyouapply.shtm",
     "https://www.nysenate.gov/legislation/laws/LAB/862-B",
-    "https://www.nysenate.gov/legislation/laws/LAB/191-C"
+    "https://www.nysenate.gov/legislation/laws/GBS/A44-A"
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
