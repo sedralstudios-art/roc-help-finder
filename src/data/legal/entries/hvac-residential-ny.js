@@ -135,6 +135,7 @@ export const HVAC_RESIDENTIAL_NY = {
   ],
 
   lastVerified: "2026-04-22",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
