@@ -233,6 +233,11 @@ const FABRICATIONS = [
     cooccur: /(?:PEN|Penal\s+Law)\s+§?\s*265\.45|safe\s+storage\s+(?:law|rule|requirement)/i,
     label: 'Safe storage (PEN 265.45) age threshold under 16 outdated',
     fix: 'NY Penal Law 265.45 safe-storage age threshold was raised from under 16 to under 18 by the 2022 CCIA' },
+
+  { pat: /\b(?:VTL|Vehicle\s+and\s+Traffic\s+Law)\s+§?\s*1180-?a\b/i,
+    cooccur: /child.{0,30}(?:car|vehicle)|leaving.{0,15}child/i,
+    label: 'VTL 1180-a miscited as child-left-in-car statute',
+    fix: "NY has no standalone VTL for unattended-child-in-car. Use PEN 260.10 (Endangering the Welfare of a Child); for DWI with child under 16, Leandra's Law at VTL 1192(2-a)(b)" },
 ];
 
 // Special case: GBL 352-eeee MUST be qualified as NYC-only.
