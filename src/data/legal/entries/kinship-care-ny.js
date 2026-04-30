@@ -22,7 +22,7 @@ export const KINSHIP_CARE_NY = {
   },
 
   whatItMeans: {
-    en: "Kinship care exists on a spectrum. Informal kinship care: the relative takes the child in without court involvement. The caregiver has no legal authority unless the parent signs a Designation of Person in Parental Relation (FCA § 651-a) or the caregiver obtains guardianship. Without legal authority, schools, doctors, and agencies may not cooperate. The caregiver can apply for Temporary Assistance for the child (child-only grant) and for Medicaid for the child. Kinship foster care: if DSS/CPS is involved and removes the child, a relative can become a kinship foster parent. The relative receives a foster care board rate (significantly higher than TA child-only) and the child receives Medicaid and other foster care services. The relative must meet foster home standards but can receive a waiver for non-safety issues. Kinship guardianship (KinGAP): for children in kinship foster care, KinGAP provides a permanent guardianship with ongoing financial support equivalent to the foster care rate — without the ongoing involvement of the foster care system. Legal custody or guardianship through Family Court is also an option for relatives who want formal authority without the foster care system."
+    en: "Kinship care exists on a spectrum. Informal kinship care: the relative takes the child in without court involvement. The caregiver has no legal authority unless the parent signs a Designation of Person in Parental Relation (GOL Article 5 Title 15-A, sections 5-1550 to 5-1555) or the caregiver obtains guardianship. Without legal authority, schools, doctors, and agencies may not cooperate. The caregiver can apply for Temporary Assistance for the child (child-only grant) and for Medicaid for the child. Kinship foster care: if DSS/CPS is involved and removes the child, a relative can become a kinship foster parent. The relative receives a foster care board rate (significantly higher than TA child-only) and the child receives Medicaid and other foster care services. The relative must meet foster home standards but can receive a waiver for non-safety issues. Kinship guardianship (KinGAP): for children in kinship foster care, KinGAP provides a permanent guardianship with ongoing financial support equivalent to the foster care rate — without the ongoing involvement of the foster care system. Legal custody or guardianship through Family Court is also an option for relatives who want formal authority without the foster care system."
   },
 
   yourRights: {
@@ -30,7 +30,7 @@ export const KINSHIP_CARE_NY = {
       "Kinship caregivers can apply for a child-only TA grant and Medicaid for the child — even without a court order.",
       "Kinship foster parents receive the foster care board rate, which is higher than TA.",
       "Relatives have the right to be considered as a placement option when DSS removes a child.",
-      "The Designation of Person in Parental Relation (FCA § 651-a) gives a caregiver temporary authority for school and medical decisions without a court proceeding.",
+      "The Designation of Person in Parental Relation (GOL Article 5 Title 15-A, sections 5-1550 to 5-1555) gives a caregiver temporary authority for school and medical decisions without a court proceeding.",
       "KinGAP provides permanent guardianship with ongoing financial support for children in kinship foster care.",
       "Kinship caregivers have the right to support services including respite care, counseling, and case management."
     ]
@@ -39,7 +39,7 @@ export const KINSHIP_CARE_NY = {
   legalOptions: {
     en: [
       "For financial assistance: a child-only TA grant can be applied for at Monroe County DSS at (585) 753-6998. Medicaid for the child can be applied for at the same time.",
-      "For legal authority: a Designation of Person in Parental Relation form (FCA § 651-a) can be signed by the parent to give the caregiver authority for school and medical decisions. No court is needed.",
+      "For legal authority: a Designation of Person in Parental Relation form (GOL § 5-1551) can be signed by the parent to give the caregiver authority for school and medical decisions. No court is needed.",
       "For guardianship or legal custody: a petition can be filed in Family Court. Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "The Kinship Navigator at Catholic Family Center in Rochester provides information, referrals, and support for kinship caregivers. They can be reached at (585) 546-7220.",
       "If DSS has placed the child with a relative, the relative can ask about kinship foster care rates and KinGAP."
@@ -97,7 +97,7 @@ export const KINSHIP_CARE_NY = {
     "kinship guardianship",
     "child-only grant",
     "designation of person in parental relation",
-    "FCA 651-a",
+    "GOL 5-1551",
     "aunt raising child",
     "uncle raising child",
     "family caregiver"
@@ -109,6 +109,7 @@ export const KINSHIP_CARE_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
