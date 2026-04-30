@@ -127,6 +127,11 @@ const FABRICATIONS = [
     label: 'PHL 2803-c misframed as hospital patient rights',
     fix: 'PHL 2803-c is the Patient Bill of Rights for nursing-home residents (RHCFs), not hospital patients; for hospital patient rights, cite 10 NYCRR 405.7 (regulation under PHL 2803)' },
 
+  { pat: /\bGBL?\s*§?\s*70-?g\b|\bGBS\s+70-?G\b/i,
+    cooccur: /locksmith.{0,80}(licens|state)|state.{0,40}licens.{0,40}locksmith/i,
+    label: 'GBL 70-g misframed as statewide locksmith licensing',
+    fix: 'NY does NOT have statewide locksmith licensing — only NYC (DCWP) and a few municipalities license locksmiths. GBL 70-g is unrelated to locksmiths. Bait-and-switch claims should cite GBL 349 (deceptive practices) instead' },
+
   { pat: /\bGBL\s+§?\s*771\b/i,
     cooccur: /\$\s*250\b/i,
     label: 'GBL 771 with $250 home-improvement-fraud threshold',
