@@ -15,7 +15,11 @@ export default function App() {
     : VIEWS.LANDING;
 
   const [view, setView] = useState(initialView);
-  const [lang, setLang] = useState("en");
+  // English-only per maintainer policy (locked 2026-04-30). The setLang
+  // setter remains so child components can still call it without crashing,
+  // but state is fixed to "en" — re-renders no-op.
+  const [lang] = useState("en");
+  const setLang = () => {};
   const [city, setCity] = useState("your area");
   const [jurisdictions, setJurisdictions] = useState([]);
 

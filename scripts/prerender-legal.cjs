@@ -26,27 +26,12 @@ const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ENTRIES_DIR = path.join(ROOT, 'src', 'data', 'legal', 'entries');
 
+// English-only per maintainer policy (locked 2026-04-30). Translation data
+// remains in src/data/legal/translations/ but is not prerendered. Restoring
+// any language requires explicit maintainer greenlight + native-speaker review
+// per src/data/legal/translations/README.md.
 const LEGAL_LANGS = [
   { code: 'en', label: 'English', dir: 'ltr', htmlLang: 'en' },
-  { code: 'es', label: 'Español', dir: 'ltr', htmlLang: 'es' },
-  { code: 'zh', label: '中文', dir: 'ltr', htmlLang: 'zh-Hans' },
-  { code: 'vi', label: 'Tiếng Việt', dir: 'ltr', htmlLang: 'vi' },
-  { code: 'ko', label: '한국어', dir: 'ltr', htmlLang: 'ko' },
-  { code: 'tl', label: 'Tagalog', dir: 'ltr', htmlLang: 'tl' },
-  { code: 'ar', label: 'العربية', dir: 'rtl', htmlLang: 'ar' },
-  { code: 'ru', label: 'Русский', dir: 'ltr', htmlLang: 'ru' },
-  { code: 'ht', label: 'Kreyòl Ayisyen', dir: 'ltr', htmlLang: 'ht' },
-  { code: 'pt', label: 'Português', dir: 'ltr', htmlLang: 'pt-BR' },
-  { code: 'fr', label: 'Français', dir: 'ltr', htmlLang: 'fr' },
-  { code: 'hi', label: 'हिन्दी', dir: 'ltr', htmlLang: 'hi' },
-  { code: 'ur', label: 'اردو', dir: 'rtl', htmlLang: 'ur' },
-  { code: 'fa', label: 'فارسی', dir: 'rtl', htmlLang: 'fa' },
-  { code: 'ps', label: 'پښتو', dir: 'rtl', htmlLang: 'ps' },
-  { code: 'uk', label: 'Українська', dir: 'ltr', htmlLang: 'uk' },
-  { code: 'ne', label: 'नेपाली', dir: 'ltr', htmlLang: 'ne' },
-  { code: 'my', label: 'မြန်မာ', dir: 'ltr', htmlLang: 'my' },
-  { code: 'so', label: 'Soomaali', dir: 'ltr', htmlLang: 'so' },
-  { code: 'sw', label: 'Kiswahili', dir: 'ltr', htmlLang: 'sw' },
 ];
 
 // Category metadata — match LegalLibrary.jsx CATEGORY_META

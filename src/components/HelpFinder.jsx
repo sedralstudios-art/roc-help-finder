@@ -83,42 +83,15 @@ class ErrorBoundary extends React.Component {
 }
 
 // ── LANGUAGE CONFIG ──
+// English-only per maintainer policy (locked 2026-04-30). Other-language
+// translation data remains in src/ for future restoration but is not exposed
+// in the UI, prerender, or sitemap.
 const LANGS = [
   { code: "en", label: "English" },
-  { code: "es", label: "Español" },
-  { code: "ne", label: "नेपाली" },
-  { code: "ar", label: "العربية" },
-  { code: "sw", label: "Kiswahili" },
-  { code: "my", label: "မြန်မာ" },
-  { code: "so", label: "Soomaali" },
-  { code: "zh", label: "中文" },
 ];
 
-// ── LEGAL SECTION LANGUAGES (federal LEP standard + refugee priority) ──
-// The main directory uses LANGS (matching directory data scope).
-// The legal section uses LEGAL_LANGS (matching legal content scope).
-// Two pickers, two scopes, both honest.
 const LEGAL_LANGS = [
   { code: "en", label: "English" },
-  { code: "es", label: "Español" },
-  { code: "zh", label: "中文" },
-  { code: "vi", label: "Tiếng Việt" },
-  { code: "ko", label: "한국어" },
-  { code: "tl", label: "Tagalog" },
-  { code: "ar", label: "العربية" },
-  { code: "ru", label: "Русский" },
-  { code: "ht", label: "Kreyòl Ayisyen" },
-  { code: "pt", label: "Português" },
-  { code: "fr", label: "Français" },
-  { code: "hi", label: "हिन्दी" },
-  { code: "ur", label: "اردو" },
-  { code: "fa", label: "فارسی" },
-  { code: "ps", label: "پښتو" },
-  { code: "uk", label: "Українська" },
-  { code: "ne", label: "नेपाली" },
-  { code: "my", label: "မြန်မာ" },
-  { code: "so", label: "Soomaali" },
-  { code: "sw", label: "Kiswahili" },
 ];
 
 // ── UI STRINGS ──
@@ -1346,8 +1319,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
           }
         }
       }
-      const l = params.get("l");
-      if (l && LANGS.some((lg) => lg.code === l)) setLang(l);
+      // URL-based language hydration removed 2026-04-30: site is English-only.
     } catch (e) { /* ignore malformed hashes */ }
   }, []);
 

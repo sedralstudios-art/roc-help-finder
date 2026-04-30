@@ -31,16 +31,10 @@ const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const SITE_URL = 'https://helpfinder.help';
 
-// Languages in the main SPA UI (matches LANGS in LandingPage.jsx).
+// English-only per maintainer policy (locked 2026-04-30). Matches LANGS in
+// LandingPage.jsx and the LEGAL_LANGS lock in prerender-legal.cjs.
 const LANGS = [
-  { code: 'en', htmlLang: 'en',      label: 'English'   },
-  { code: 'es', htmlLang: 'es',      label: 'Español'   },
-  { code: 'ne', htmlLang: 'ne',      label: 'नेपाली'    },
-  { code: 'ar', htmlLang: 'ar',      label: 'العربية'   },
-  { code: 'sw', htmlLang: 'sw',      label: 'Kiswahili' },
-  { code: 'my', htmlLang: 'my',      label: 'မြန်မာ'   },
-  { code: 'so', htmlLang: 'so',      label: 'Soomaali'  },
-  { code: 'zh', htmlLang: 'zh-Hans', label: '中文'      },
+  { code: 'en', htmlLang: 'en', label: 'English' },
 ];
 
 // Localized strings — duplicated from LandingPage.jsx UI object.

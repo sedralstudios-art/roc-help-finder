@@ -60,19 +60,13 @@ function parsePath(pathname) {
   return { page: PAGES.HOME, entryId: null, categoryId: null };
 }
 
+// English-only per maintainer policy (locked 2026-04-30).
 const LANGS = [
   { code: "en", label: "English" },
-  { code: "es", label: "Español" },
-  { code: "ne", label: "नेपाली" },
-  { code: "ar", label: "العربية" },
-  { code: "sw", label: "Kiswahili" },
-  { code: "my", label: "မြန်မာ" },
-  { code: "so", label: "Soomaali" },
-  { code: "zh", label: "中文" },
 ];
 
-// "help" in each language — displayed at top
-const HELP_WORDS = ["help","ayuda","सहायता","مساعدة","msaada","အကူအညီ","caawin","帮助"];
+// English-only per maintainer policy (locked 2026-04-30).
+const HELP_WORDS = ["help"];
 
 // ── FULL UI STRINGS ──
 const UI = {

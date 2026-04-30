@@ -24,27 +24,11 @@ const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ENTRIES_DIR = path.join(ROOT, 'src', 'data', 'legal', 'entries');
 
+// English-only per maintainer policy (locked 2026-04-30). Sitemap drops all
+// foreign-language URLs and hreflang alternates. Restoring requires explicit
+// maintainer greenlight + native-speaker review per translations/README.md.
 const LEGAL_LANGS = [
   { code: 'en', htmlLang: 'en' },
-  { code: 'es', htmlLang: 'es' },
-  { code: 'zh', htmlLang: 'zh-Hans' },
-  { code: 'vi', htmlLang: 'vi' },
-  { code: 'ko', htmlLang: 'ko' },
-  { code: 'tl', htmlLang: 'tl' },
-  { code: 'ar', htmlLang: 'ar' },
-  { code: 'ru', htmlLang: 'ru' },
-  { code: 'ht', htmlLang: 'ht' },
-  { code: 'pt', htmlLang: 'pt-BR' },
-  { code: 'fr', htmlLang: 'fr' },
-  { code: 'hi', htmlLang: 'hi' },
-  { code: 'ur', htmlLang: 'ur' },
-  { code: 'fa', htmlLang: 'fa' },
-  { code: 'ps', htmlLang: 'ps' },
-  { code: 'uk', htmlLang: 'uk' },
-  { code: 'ne', htmlLang: 'ne' },
-  { code: 'my', htmlLang: 'my' },
-  { code: 'so', htmlLang: 'so' },
-  { code: 'sw', htmlLang: 'sw' },
 ];
 
 const CATEGORIES = ['benefits', 'consumer', 'housing', 'family', 'employment', 'vehicle', 'criminal', 'trades'];
@@ -99,25 +83,14 @@ async function loadEntries() {
 // 18 of 20 prerendered languages were English bodies under locale paths, which
 // Google was treating as duplicate content at scale.
 async function loadTranslations() {
-  const dir = path.join(ROOT, 'src', 'data', 'legal', 'translations');
-  const byLang = {};
-  if (!fs.existsSync(dir)) return byLang;
-  const files = fs.readdirSync(dir).filter((f) => /^[a-z]{2}\.js$/.test(f));
-  for (const f of files) {
-    const lang = f.replace(/\.js$/, '');
-    const abs = path.join(dir, f);
-    const mod = await import(pathToFileURL(abs).href);
-    byLang[lang] = (mod && mod.default) || {};
-  }
-  return byLang;
+  // English-only per maintainer policy (locked 2026-04-30). Translation maps
+  // remain on disk in src/data/legal/translations/ but are not read into the
+  // sitemap. Restoring requires explicit maintainer greenlight.
+  return {};
 }
 
-function langsForEntry(entry, translations) {
-  const langs = ['en'];
-  for (const [lang, map] of Object.entries(translations)) {
-    if (map && map[entry.id]) langs.push(lang);
-  }
-  return langs;
+function langsForEntry(/* entry, translations */) {
+  return ['en'];
 }
 
 function cleanupOrphanSubsitemaps() {
