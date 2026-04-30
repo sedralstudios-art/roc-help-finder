@@ -124,6 +124,7 @@ export const MOBILE_HOME_PARK_CLOSURE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

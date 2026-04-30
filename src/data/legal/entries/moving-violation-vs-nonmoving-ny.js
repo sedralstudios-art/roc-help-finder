@@ -4,7 +4,7 @@ export const MOVING_VIOLATION_VS_NONMOVING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY VAT 155",
+  primaryStatute: "NY VAT 510",
   status: "active",
 
   title: { en: "Moving vs. Non-Moving Violations — Why It Matters for License Points and Insurance" },
@@ -39,7 +39,7 @@ export const MOVING_VIOLATION_VS_NONMOVING_NY = {
 
   legalOptions: {
     en: [
-      "Under VTL Section 155, moving violations carry points ranging from 2 to 11 depending on the offense.",
+      "Under VTL § 510(3) and 15 NYCRR Part 131, moving violations carry points ranging from 2 to 11 depending on the offense.",
       "Non-moving violations carry fines but no points. Expired inspection is $25 to $200. Expired registration varies by how long it has been expired.",
       "In most town and village courts, prosecutors can reduce a moving violation to a non-moving violation in exchange for a guilty plea and a surcharge. The surcharge is often $150 to $300 but saves the driver from points and insurance increases.",
       "CDL holders cannot plea bargain moving violations down to non-moving violations under VTL Section 1806-a.",
@@ -94,10 +94,11 @@ export const MOVING_VIOLATION_VS_NONMOVING_NY = {
 
   sources: [
     "https://dmv.ny.gov/tickets/about-nys-driver-point-system",
-    "https://www.nysenate.gov/legislation/laws/VAT/155"
+    "https://www.nysenate.gov/legislation/laws/VAT/510"
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

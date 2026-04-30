@@ -96,6 +96,7 @@ export const MOVE_OVER_LAW_EMERGENCY_VEHICLES_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
