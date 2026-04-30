@@ -111,6 +111,7 @@ export const VITAL_RECORDS_REQUEST_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
