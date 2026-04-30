@@ -357,6 +357,26 @@ function readFactCheckedBy(src) {
   return m ? m[1] : null;
 }
 
+function readLastVerified(src) {
+  const m = src.match(/lastVerified\s*:\s*"([^"]+)"/);
+  return m ? m[1] : null;
+}
+
+// Statute-backed entries that existed before the build-time fact-check gate
+// landed (2026-04-30). These ship without factCheckedBy until the WebSearch
+// drain reaches them. Any entry NOT in this list that has primaryStatute and
+// lacks factCheckedBy fails the build via UNSTAMPED_NEW_AUTHORING. Stamping
+// an entry naturally retires its grandfather status — the gate skips entries
+// that already have factCheckedBy regardless of list membership.
+const FACTCHECK_GRANDFATHER_PATH = path.join(__dirname, 'data', 'factcheck-grandfather.json');
+let FACTCHECK_GRANDFATHER = new Set();
+try {
+  const raw = JSON.parse(fs.readFileSync(FACTCHECK_GRANDFATHER_PATH, 'utf8'));
+  FACTCHECK_GRANDFATHER = new Set(raw.files || []);
+} catch (_e) {
+  // No manifest yet — every statute-backed entry without factCheckedBy will FAIL.
+}
+
 // ─────────── Statute citation extraction ───────────
 
 const STATUTE_RE = /\b(?:NY\s+[A-Z]{2,5}|\d{1,3}\s+U\.?S\.?C\.?|\d{1,3}\s+CFR|\d{1,3}\s+NYCRR|RPAPL|CPLR|GBL|GOL|VTL|PEN|LAB|RPL|PHL|DOM|EPTL|EDN|ECL|AGM)\s*§?\s*[A-Za-z0-9.\-]+(?:\s*\([a-z0-9]+\))?/g;
@@ -384,6 +404,7 @@ function gateEntry(filename) {
   const sources = readSources(src);
   const counselPhones = readCounselPhones(src);
   const factCheckedDate = readFactCheckedBy(src);
+  const lastVerifiedDate = readLastVerified(src);
 
   // Structured fields the gate also needs to scan (otherwise a fabricated
   // primaryStatute or title slips past the body-only check).
@@ -483,7 +504,20 @@ function gateEntry(filename) {
     }
   }
 
-  return { filename, fails, warns, passes, factCheckedDate };
+  // 6. New-authoring fact-check enforcement (FAIL)
+  // Any statute-backed entry that lacks factCheckedBy AND is not on the
+  // grandfather list blocks the build. New entries written after the gate
+  // landed must be fact-checked before they can ship; legacy unstamped
+  // entries stay live until their drain pass lands and stamps them.
+  if (primaryStatute && !factCheckedDate && !FACTCHECK_GRANDFATHER.has(filename)) {
+    fails.push({
+      kind: 'UNSTAMPED_NEW_AUTHORING',
+      label: 'statute-backed entry has no factCheckedBy and is not on the grandfather list',
+      fix: 'fact-check via WebSearch then run: node scripts/claim-gate.cjs ' + filename.replace(/\.js$/, '') + ' --write',
+    });
+  }
+
+  return { filename, fails, warns, passes, factCheckedDate, lastVerifiedDate, primaryStatute };
 }
 
 // ─────────── Output ───────────
@@ -552,9 +586,13 @@ function main() {
     const files = fs.readdirSync(ENTRIES_DIR)
       .filter(f => f.endsWith('.js') && !BANKRUPTCY_FILES.has(f));
     let totalFails = 0;
+    let stamped = 0;
+    let unstampedStatute = 0;
     const failingFiles = [];
     for (const f of files) {
       const r = gateEntry(f);
+      if (r.factCheckedDate) stamped++;
+      else if (r.primaryStatute) unstampedStatute++;
       if (r.fails.length > 0) {
         printManifest(r);
         totalFails += r.fails.length;
@@ -563,6 +601,7 @@ function main() {
     }
     console.log('\n────────────────────────────────────────');
     console.log('Scanned ' + files.length + ' entries; ' + failingFiles.length + ' have FAILs (' + totalFails + ' total).');
+    console.log('Fact-check drain: ' + stamped + ' stamped / ' + unstampedStatute + ' statute-backed entries pending.');
     process.exit(failingFiles.length > 0 ? 1 : 0);
   }
 

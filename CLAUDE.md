@@ -289,6 +289,29 @@ Next ratchet target is 3; see `project_session_2026_04_24_score4.md` memory.
 This gate locks in the 203-entry retrofit effort so drift cannot silently creep
 back in through new authoring.
 
+### Fact-check build gate (build-gated, added 2026-04-30)
+
+Statute-backed entries must carry a `factCheckedBy` stamp before they can ship.
+`scripts/claim-gate.cjs` (rule 6, `UNSTAMPED_NEW_AUTHORING`) FAILs the build on
+any entry where `authorityType` is statute-or-regulation-backed, `primaryStatute`
+is set, `factCheckedBy` is missing, AND the filename is not on the grandfather
+list at `scripts/data/factcheck-grandfather.json` (610-entry snapshot of the
+in-progress drain queue as of 2026-04-30).
+
+Workflow for new entries:
+1. Author draft + run `npm run verify`. UNSTAMPED_NEW_AUTHORING will FAIL.
+2. Fact-check via WebSearch (citations, dollar amounts, phone numbers, statute sections).
+3. Fix anything wrong, then `node scripts/claim-gate.cjs <id> --write` to stamp.
+4. Re-run `npm run verify` — gate now passes.
+
+Grandfather behavior: stamping an entry retires its grandfather status
+automatically (the rule skips entries that already have `factCheckedBy`). The
+manifest does not need to be edited as the drain progresses. The `--all` summary
+prints `Fact-check drain: X stamped / Y pending` so progress stays visible.
+
+Next ratchet: when the drain reaches zero, delete the manifest and the gate
+becomes universal — every statute-backed entry must be stamped.
+
 ### Bankruptcy files are off-limits for bulk scripts
 The 7 `bankruptcy-*-ny.js` entries were written/approved by Prof. Gregory
 Germain. Any bulk migration or rewrite script (voice passes, relatedIds fixes,
