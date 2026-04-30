@@ -4,7 +4,7 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY PPL A5",
+  primaryStatute: "NY GOB 5-703",
   status: "active",
 
   title: { en: "Rent-to-Own Agreements — How They Work and What Can Go Wrong" },
@@ -23,7 +23,7 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
   },
 
   whatItMeans: {
-    en: "A rent-to-own agreement (also called a lease-option or lease-purchase) has two parts. The first is a standard rental lease. The second is an option to buy the home at a set price at the end of the lease term (usually 1 to 3 years). The renter typically pays an upfront option fee (often 1-5% of the purchase price) and pays above-market rent, with the extra going toward the purchase price. There are two types. A lease-option gives the renter the choice to buy — they can walk away, but they lose the option fee and the extra rent. A lease-purchase obligates the renter to buy — if they cannot get a mortgage by the deadline, they are in breach. The biggest risk is losing money. If the renter cannot qualify for a mortgage by the end of the term, they lose the option fee and all the rent credits — which can total tens of thousands of dollars. The seller keeps the money and the house. New York does not have a specific rent-to-own statute. These agreements are governed by general contract law. Because they straddle the line between a lease and a sale, they can be confusing and are sometimes used to exploit buyers who cannot get traditional financing. A real estate attorney should review any rent-to-own agreement before signing."
+    en: "A rent-to-own agreement (also called a lease-option or lease-purchase) has two parts. The first is a standard rental lease. The second is an option to buy the home at a set price at the end of the lease term (usually 1 to 3 years). Both parts must be in writing under New York's Statute of Frauds (General Obligations Law 5-703), which requires real estate contracts and any agreement that lasts more than one year to be in a signed written document. The renter typically pays an upfront option fee (often 1-5% of the purchase price) and pays above-market rent, with the extra going toward the purchase price. There are two types. A lease-option gives the renter the choice to buy — they can walk away, but they lose the option fee and the extra rent. A lease-purchase obligates the renter to buy — if they cannot get a mortgage by the deadline, they are in breach. The biggest risk is losing money. If the renter cannot qualify for a mortgage by the end of the term, they lose the option fee and all the rent credits — which can total tens of thousands of dollars. The seller keeps the money and the house. New York does not have a specific rent-to-own statute. These agreements are governed by general contract law. Because they straddle the line between a lease and a sale, they can be confusing and are sometimes used to exploit buyers who cannot get traditional financing. A real estate attorney should review any rent-to-own agreement before signing."
   },
 
   yourRights: {
@@ -94,13 +94,13 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/PPL/A5",
-    "https://www.nysenate.gov/legislation/laws/GBS/A40",
+    "https://www.nysenate.gov/legislation/laws/GOB/5-703",
     "https://www.consumerfinance.gov/ask-cfpb/what-is-a-rent-to-own-lease-option-agreement-en-329/",
     "https://ag.ny.gov/consumer-frauds-bureau"
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

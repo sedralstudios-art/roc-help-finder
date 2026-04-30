@@ -42,7 +42,7 @@ export const REFUSE_SERVICE_BUSINESS_NY = {
       "Under Executive Law Section 296, discrimination at a place of public accommodation is illegal. A complaint can be filed with the NYS Division of Human Rights at (888) 392-3644.",
       "Under the ADA (42 USC Section 12182), businesses must provide reasonable accommodations for people with disabilities.",
       "A complaint about service animal denial can be filed with both the NYS Division of Human Rights and the U.S. Department of Justice.",
-      "The complaint must be filed within one year of the incident for the state Human Rights Law, or within 180 days for a federal EEOC complaint.",
+      "The complaint must be filed within 3 years of the incident for the state Human Rights Law (extended from 1 year effective February 15, 2024), or within 180 days (300 days in NY) for a federal EEOC complaint.",
       "Documentation helps — write down what happened, when, who was involved, and the names of any witnesses. Photos or video can be powerful evidence.",
       "Free legal help with discrimination complaints is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
@@ -97,6 +97,7 @@ export const REFUSE_SERVICE_BUSINESS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
