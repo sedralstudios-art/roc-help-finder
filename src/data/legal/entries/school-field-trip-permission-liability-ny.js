@@ -94,6 +94,7 @@ export const SCHOOL_FIELD_TRIP_PERMISSION_LIABILITY_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

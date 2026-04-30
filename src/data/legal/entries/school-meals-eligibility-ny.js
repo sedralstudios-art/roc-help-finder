@@ -112,6 +112,7 @@ export const SCHOOL_MEALS_ELIGIBILITY_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
