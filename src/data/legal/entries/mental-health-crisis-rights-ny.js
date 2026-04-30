@@ -23,13 +23,13 @@ export const MENTAL_HEALTH_CRISIS_RIGHTS_NY = {
   },
 
   whatItMeans: {
-    en: "In New York, a person in a mental health crisis can be brought to a hospital for evaluation under Mental Hygiene Law Section 9.39 (emergency admission) or Section 9.41 (police transport for evaluation). Under Section 9.39, a hospital can hold a person for up to 48 hours for evaluation if a doctor believes the person is a danger to themselves or others. If the hospital wants to keep the person longer than 48 hours, it must either get the person's consent for voluntary admission or file for involuntary commitment under Section 9.27 or 9.31. Involuntary commitment requires a court hearing within five days if the person objects. The person has the right to a lawyer at the hearing — if they cannot afford one, the Mental Hygiene Legal Service provides a free attorney. A person admitted voluntarily has the right to leave by submitting a written request. The hospital has 72 hours to either release the person or convert to involuntary status and schedule a hearing. The 988 Suicide and Crisis Lifeline (call or text 988) connects people in crisis to trained counselors and can help avoid unnecessary hospitalization."
+    en: "In New York, a person in a mental health crisis can be brought to a hospital for evaluation under Mental Hygiene Law Section 9.39 (emergency admission) or Section 9.41 (police transport for evaluation). Under Section 9.39, a hospital can hold a person for up to 15 days on emergency admission if a physician determines the person has a mental illness likely to result in serious harm to self or others. A second physician must confirm the diagnosis within 48 hours of admission. To keep the person beyond 15 days, the hospital must either obtain consent for voluntary admission or convert to a longer-term involuntary commitment under Section 9.27 (two-physician certificate) or Section 9.31 (judicial commitment). Any patient on involuntary status has the right to request a court hearing, which must be held within 5 business days of the request. The person has the right to a lawyer at the hearing — if they cannot afford one, the Mental Hygiene Legal Service provides a free attorney. A person admitted voluntarily has the right to leave by submitting a written request. The hospital has 72 hours to either release the person or convert to involuntary status and schedule a hearing. The 988 Suicide and Crisis Lifeline (call or text 988) connects people in crisis to trained counselors and can help avoid unnecessary hospitalization."
   },
 
   yourRights: {
     en: [
       "A person brought to a hospital for evaluation has the right to be seen by a qualified psychiatrist.",
-      "A person cannot be held longer than 48 hours under an emergency admission without consent or a court proceeding.",
+      "A person held under MHL 9.39 emergency admission must be examined by a second physician within 48 hours of admission; the maximum hold is 15 days without conversion to longer-term involuntary commitment or voluntary admission.",
       "A person facing involuntary commitment has the right to a hearing within five days and the right to a free attorney from the Mental Hygiene Legal Service.",
       "A person admitted voluntarily has the right to request release in writing. The hospital has 72 hours to respond.",
       "A person in a psychiatric facility has the right to make phone calls, send mail, and receive visitors unless there is a specific clinical reason to restrict these.",
@@ -40,7 +40,7 @@ export const MENTAL_HEALTH_CRISIS_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "Under MHL Section 9.39, emergency admission is limited to 48 hours. Extensions require either consent or a court proceeding.",
+      "Under MHL Section 9.39, emergency admission is limited to 15 days; the second-physician confirmation is required within 48 hours of admission. Extensions beyond 15 days require either voluntary consent or conversion to MHL 9.27/9.31 commitment.",
       "The Mental Hygiene Legal Service provides free legal representation to anyone facing involuntary commitment in the Rochester area at (585) 530-3050.",
       "The 988 Suicide and Crisis Lifeline is available 24/7 by calling or texting 988. Counselors can help de-escalate a crisis and connect to local services.",
       "The Rochester FACTT (Forensic Assertive Community Treatment Team) provides community-based mental health crisis support. They can be reached through Strong Memorial Hospital.",
@@ -114,6 +114,7 @@ export const MENTAL_HEALTH_CRISIS_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

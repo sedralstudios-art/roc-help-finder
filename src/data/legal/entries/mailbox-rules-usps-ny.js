@@ -23,7 +23,7 @@ export const MAILBOX_RULES_USPS_NY = {
   },
 
   whatItMeans: {
-    en: "Under 18 USC Section 1708 and USPS regulations, a residential mailbox is considered federal property for the purposes of mail delivery. Only the USPS mail carrier, the homeowner, and authorized persons can open or place items in the box. It is a federal crime (punishable by up to three years in prison) to steal mail from a mailbox, destroy or damage a mailbox, or put unstamped items in a mailbox (like flyers or business cards — those must be placed on the door or porch, not in the box). USPS has specifications for mailbox installation. The box must be placed at the curb with the bottom of the box 41 to 45 inches above the road surface. The box must be 6 to 8 inches behind the curb face. The flag must be on the right side facing the street. If the mailbox does not meet standards, the carrier can refuse delivery until it is fixed. A homeowner whose mailbox was hit by a snow plow or vandalized can file a police report and, if a plow did it, a claim with the municipality."
+    en: "Under 18 USC Section 1708 and USPS regulations, a residential mailbox is considered federal property for the purposes of mail delivery. Only the USPS mail carrier, the homeowner, and authorized persons can open or place items in the box. It is a federal crime to steal mail from a mailbox (18 USC 1708, up to 5 years), to destroy or damage a mailbox (18 USC 1705, up to 3 years), or to put unstamped items in a mailbox (like flyers or business cards — those must be placed on the door or porch, not in the box). USPS has specifications for mailbox installation. The box must be placed at the curb with the bottom of the box 41 to 45 inches above the road surface. The box must be 6 to 8 inches behind the curb face. The flag must be on the right side facing the street. If the mailbox does not meet standards, the carrier can refuse delivery until it is fixed. A homeowner whose mailbox was hit by a snow plow or vandalized can file a police report and, if a plow did it, a claim with the municipality."
   },
 
   yourRights: {
@@ -98,6 +98,7 @@ export const MAILBOX_RULES_USPS_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

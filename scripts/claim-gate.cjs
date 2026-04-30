@@ -132,6 +132,11 @@ const FABRICATIONS = [
     label: 'GBL 70-g misframed as statewide locksmith licensing',
     fix: 'NY does NOT have statewide locksmith licensing — only NYC (DCWP) and a few municipalities license locksmiths. GBL 70-g is unrelated to locksmiths. Bait-and-switch claims should cite GBL 349 (deceptive practices) instead' },
 
+  { pat: /(?:up\s+to|hold.{0,15}for|cannot\s+be\s+held\s+(?:longer|more)\s+than)\s*48[\s-]?hour/i,
+    cooccur: /9\.39|emergency\s+(?:admission|hold|psychiatric)/i,
+    label: 'MHL 9.39 misframed as 48-hour maximum hold',
+    fix: 'MHL 9.39 emergency admission allows holds up to 15 days; the 48-hour rule is for second-physician confirmation, NOT the maximum hold period' },
+
   { pat: /\bGBL\s+§?\s*771\b/i,
     cooccur: /\$\s*250\b/i,
     label: 'GBL 771 with $250 home-improvement-fraud threshold',
