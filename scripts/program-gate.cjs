@@ -209,22 +209,64 @@ function stampProgram(id) {
     if (!idMatch || idMatch[1] !== id) continue;
     if (!/^\s*\{/.test(line)) continue;
 
-    if (/\bfc\s*:\s*"\d{4}-\d{2}-\d{2}"/.test(line)) {
-      // Already stamped — refresh the date.
-      lines[i] = line.replace(/\bfc\s*:\s*"\d{4}-\d{2}-\d{2}"/, 'fc:"' + today + '"');
+    // Walk forward to find the line containing the closing `}` of THIS
+    // object. Single-line objects close on the same line as `id`. Multi-line
+    // objects close several lines later. Use brace-depth counting that ignores
+    // braces inside strings.
+    let depth = 0;
+    let inString = false;
+    let stringChar = null;
+    let escaped = false;
+    let closeLineIdx = -1;
+    let started = false;
+    for (let j = i; j < lines.length; j++) {
+      const text = lines[j];
+      for (let k = 0; k < text.length; k++) {
+        const ch = text[k];
+        if (inString) {
+          if (escaped) { escaped = false; continue; }
+          if (ch === '\\') { escaped = true; continue; }
+          if (ch === stringChar) { inString = false; stringChar = null; }
+          continue;
+        }
+        if (ch === '"' || ch === "'" || ch === '`') {
+          inString = true; stringChar = ch; continue;
+        }
+        if (ch === '{') { depth++; started = true; }
+        else if (ch === '}') {
+          depth--;
+          if (started && depth === 0) { closeLineIdx = j; break; }
+        }
+      }
+      if (closeLineIdx !== -1) break;
+    }
+    if (closeLineIdx === -1) {
+      console.error('  ! could not find object close starting on line ' + (i + 1));
+      return false;
+    }
+
+    // Search the full object body for an existing fc stamp.
+    const allBodyLines = lines.slice(i, closeLineIdx + 1).join('\n');
+    if (/\bfc\s*:\s*"\d{4}-\d{2}-\d{2}"/.test(allBodyLines)) {
+      // Already stamped — refresh the date wherever it lives.
+      for (let j = i; j <= closeLineIdx; j++) {
+        if (/\bfc\s*:\s*"\d{4}-\d{2}-\d{2}"/.test(lines[j])) {
+          lines[j] = lines[j].replace(/\bfc\s*:\s*"\d{4}-\d{2}-\d{2}"/, 'fc:"' + today + '"');
+        }
+      }
     } else {
-      // Insert before the closing `},` (or `}`) of the object.
+      // Insert stamp on the close-brace line before the `}`.
+      const closeLine = lines[closeLineIdx];
       const closeRe = /\s*\},?\s*$/;
-      const closeMatch = line.match(closeRe);
+      const closeMatch = closeLine.match(closeRe);
       if (!closeMatch) {
-        console.error('  ! could not find object close on line ' + (i + 1));
+        console.error('  ! could not find object close on line ' + (closeLineIdx + 1));
         return false;
       }
-      const head = line.slice(0, closeMatch.index);
+      const head = closeLine.slice(0, closeMatch.index);
       const tail = closeMatch[0];
-      // Add comma if head doesn't already end with one.
       const sep = /,\s*$/.test(head) ? '' : ',';
-      lines[i] = head + sep + stamp + ' ' + tail.trimStart();
+      lines[closeLineIdx] = head + sep + stamp + ' ' + tail.trimStart();
     }
     touched = true;
     break;
