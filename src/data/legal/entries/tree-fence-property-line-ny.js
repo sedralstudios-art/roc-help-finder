@@ -43,7 +43,7 @@ export const TREE_FENCE_PROPERTY_LINE_NY = {
       "If the neighbor's tree is dead and poses a risk, a code enforcement complaint can be filed through Rochester 311 or the local town's code enforcement office.",
       "A licensed surveyor can determine the exact property line. Survey costs vary — contact a local surveying company for a quote.",
       "For property damage caused by a neighbor's tree, homeowner's insurance may cover the damage. If the neighbor was negligent (knew the tree was dangerous), the neighbor's insurance may also be liable.",
-      "Small claims court (up to $5,000 in Rochester City Court, $3,000 in town or village court (NYC only is $10,000)s) can handle property damage and tree removal cost disputes.",
+      "Small claims court (up to $5,000 in Rochester City Court, $3,000 in town or village justice court) can handle property damage and tree removal cost disputes.",
       "Free legal help with neighbor disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
   },
@@ -97,6 +97,7 @@ export const TREE_FENCE_PROPERTY_LINE_NY = {
   ],
 
   lastVerified: "2026-04-16",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

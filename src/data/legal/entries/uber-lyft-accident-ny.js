@@ -96,6 +96,7 @@ export const UBER_LYFT_ACCIDENT_NY = {
   ],
 
   lastVerified: "2026-04-24",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
