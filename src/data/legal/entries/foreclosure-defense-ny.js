@@ -40,7 +40,7 @@ export const FORECLOSURE_DEFENSE_NY = {
 
   legalOptions: {
     en: [
-      "After a 90-day pre-foreclosure notice, free housing counseling is available through HUD-approved agencies. In Monroe County: PathStone at (585) 340-3400 and the Urban League of Rochester at (585) 325-6530.",
+      "After a 90-day pre-foreclosure notice, free housing counseling is available through HUD-approved agencies. In Monroe County: PathStone at (585) 340-3300 and the Urban League of Rochester at (585) 325-6530.",
       "After a foreclosure summons and complaint is served, answering within 20 to 30 days preserves defenses. Free foreclosure defense is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 325-2520.",
       "At the settlement conference, loan modification, forbearance, repayment plans, short sale, deed-in-lieu, and reinstatement are all paths that may be explored.",
       "If the lender skipped the 90-day notice or the notice did not include the counseling agency list, the foreclosure may be dismissed under RPAPL 1304.",
@@ -73,7 +73,7 @@ export const FORECLOSURE_DEFENSE_NY = {
       qualifier: "Any homeowner facing foreclosure",
       access: "Phone or in person",
       outcome: "Counseling, lender negotiation, modification assistance",
-      phone: "(585) 340-3400",
+      phone: "(585) 340-3300",
       url: "https://www.pathstone.org",
       verified: true,
       bilingual: true,
