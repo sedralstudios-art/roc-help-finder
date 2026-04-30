@@ -77,7 +77,7 @@ export const PACE_PROGRAM_ALL_INCLUSIVE_CARE_ELDERLY_NY_PROGRAM = {
       access: "Phone at (585) 244-8400",
       outcome: "Planning consultations, referrals, advocacy",
       phone: "(585) 244-8400",
-      url: "https://www.lifespanrochester.org",
+      url: "https://www.lifespan-roch.org",
       verified: true,
       bilingual: true,
       languages: ["es"]

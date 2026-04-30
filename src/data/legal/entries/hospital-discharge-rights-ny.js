@@ -77,7 +77,7 @@ export const HOSPITAL_DISCHARGE_RIGHTS_NY = {
       access: "Phone at (585) 244-8400",
       outcome: "Care planning, caregiver training, elder advocacy",
       phone: "(585) 244-8400",
-      url: "https://www.lifespanrochester.org",
+      url: "https://www.lifespan-roch.org",
       verified: true,
       bilingual: true,
       languages: ["es"]
@@ -127,6 +127,7 @@ export const HOSPITAL_DISCHARGE_RIGHTS_NY = {
   ],
 
   lastVerified: "2026-04-23",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
