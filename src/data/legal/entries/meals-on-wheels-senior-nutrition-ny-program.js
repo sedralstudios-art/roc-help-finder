@@ -110,6 +110,7 @@ export const MEALS_ON_WHEELS_SENIOR_NUTRITION_NY_PROGRAM = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

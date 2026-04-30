@@ -23,7 +23,7 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
   },
 
   whatItMeans: {
-    en: "The three major credit bureaus (Equifax, Experian, TransUnion) changed their medical debt reporting rules in 2022-2023. Medical debt under $500 is no longer reported on credit reports. Medical debt that has been paid is removed from the credit report (previously it stayed for 7 years even after payment). Medical collections cannot appear on a credit report until at least 12 months after the debt goes to collections — this gives patients time to resolve billing errors or insurance disputes. The CFPB (Consumer Financial Protection Bureau) has proposed additional rules to remove all medical debt from credit reports, but as of 2026 the full ban has not been finalized. In New York, the Debt Collection Procedures Law (CPLR Article 52) limits what collectors can seize and the statute of limitations on medical debt is 6 years. Medical providers who accept Medicaid cannot balance-bill Medicaid patients for amounts above what Medicaid pays. Under the federal No Surprises Act, patients cannot be balance-billed for emergency care or out-of-network services at in-network facilities. A patient who sees medical debt on their credit report that should not be there (paid, under $500, or less than 12 months old) can dispute it directly with the credit bureau."
+    en: "The three major credit bureaus (Equifax, Experian, TransUnion) changed their medical debt reporting rules in 2022-2023. Medical debt under $500 is no longer reported on credit reports. Medical debt that has been paid is removed from the credit report (previously it stayed for 7 years even after payment). Medical collections cannot appear on a credit report until at least 12 months after the debt goes to collections — this gives patients time to resolve billing errors or insurance disputes. The CFPB (Consumer Financial Protection Bureau) has proposed additional rules to remove all medical debt from credit reports, but as of 2026 the full ban has not been finalized. In New York, GBL § 380-j (the Fair Medical Debt Reporting Act, enacted 2023) bans consumer-reporting agencies from listing any medical debt on a NY consumer's credit report — a stronger protection than the federal bureau policies. The Debt Collection Procedures Law (CPLR Article 52) limits what collectors can seize. The statute of limitations on consumer-credit medical debt sold to a debt buyer is 3 years under CPLR § 214-i (effective April 7, 2022); medical debt sued by the original hospital under contract may run 6 years under CPLR § 213(2). Medical providers who accept Medicaid cannot balance-bill Medicaid patients for amounts above what Medicaid pays. Under the federal No Surprises Act, patients cannot be balance-billed for emergency care or out-of-network services at in-network facilities. A patient who sees medical debt on their credit report that should not be there (paid, under $500, or less than 12 months old) can dispute it directly with the credit bureau."
   },
 
   yourRights: {
@@ -33,7 +33,8 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
       "Medical collections cannot appear on a credit report until at least 12 months after the debt goes to collections.",
       "A patient has the right to dispute medical debt on a credit report if it is inaccurate, paid, or under $500.",
       "A medical debt collector must provide a written validation notice within 5 days of first contact, showing the amount owed and the original provider.",
-      "The statute of limitations on medical debt in New York is 6 years — after that, the debt is time-barred and cannot be sued on."
+      "Consumer-credit medical debt sold to a debt buyer is time-barred after 3 years under CPLR § 214-i (effective April 7, 2022); medical debt brought by the original hospital may follow the 6-year contract SOL under CPLR § 213(2).",
+      "Under NY GBL § 380-j (2023), medical debt is banned from credit reports of NY consumers — broader than the federal bureau rules."
     ]
   },
 
@@ -101,6 +102,7 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "high",
   emergencyFlag: false,
   disclaimer: true,
