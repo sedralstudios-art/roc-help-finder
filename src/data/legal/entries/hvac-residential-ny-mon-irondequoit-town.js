@@ -54,7 +54,7 @@ export const entry = {
     qualifier: "Open to residents and contractors working in Town of Irondequoit",
     access: "Phone",
     outcome: "Permit issuance, inspection scheduling, code guidance",
-    phone: "585-336-6020",
+    phone: "585-336-6026",
     url: "https://www.irondequoit.gov/180/Building",
     verified: true,
     bilingual: false,

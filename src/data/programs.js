@@ -1,12 +1,18 @@
 // Auto-extracted from HelpFinder.jsx by migrate-extract-programs-67.cjs
 // Do NOT edit by hand — edit HelpFinder.jsx PROGRAMS inline, then re-run extraction.
 // Actually: now that this file exists, edit HERE and HelpFinder.jsx imports it.
+//
+// Phone numbers, hotlines, and other fact-checkable atoms are migrating to
+// canonical poles in ./canonical/. New entries should import the pole
+// constant rather than hardcoding the value. Existing entries are being
+// converted as the redo passes touch them.
+import { MC, HOTLINES, HOSPITALS, LEGAL_AID, UTILITIES } from './canonical/index.js';
 
 export const DATA_VERIFIED = "April 2026";
 
 export const PROGRAMS = [
   // CRISIS
-  { id:"211", n:"211 Lifeline (Call for Anything)", c:"crisis", d:"Don't know where to start? Call 211 or 1-877-356-9211. Free, anytime, for anything. Operated by Goodwill of the Finger Lakes.", ph:"211", url:"https://211lifeline.org", aurl:"https://211lifeline.org/search.php", hr:"24/7", doc:"None — call, or text your ZIP to 898211", tg:["any"], reach:"national", fc:"2026-04-30", redo:"2026-04-30" },
+  { id:"211", n:"211 Lifeline (Call for Anything)", c:"crisis", d:"Don't know where to start? Call 211 or 1-877-356-9211. Free, anytime, for anything. Operated by Goodwill of the Finger Lakes.", ph:HOTLINES.call211.value, url:"https://211lifeline.org", aurl:"https://211lifeline.org/search.php", hr:"24/7", doc:"None — call, or text your ZIP to 898211", tg:["any"], reach:"national", fc:"2026-04-30", redo:"2026-04-30" },
   { id:"988crisis", n:"988 Suicide & Crisis Lifeline", c:"crisis", d:"Call or text 988 anytime. Free, confidential, 24/7. For any emotional crisis — not just suicide. Veterans press 1 (or text 838255). Spanish: text AYUDA to 988. Interpreters available in 240+ languages.", ph:"988", url:"https://988lifeline.org", hr:"24/7", doc:"None", tg:["any"], reach:"national", fc:"2026-04-30", redo:"2026-04-30" },
   { id:"crisisstext", n:"Crisis Text Line", c:"crisis", d:"Text HOME to 741741 to reach a trained crisis counselor. Free, 24/7, confidential.", url:"https://www.crisistextline.org", hr:"24/7", doc:"None", tg:["any"], reach:"national", fc:"2026-04-30", redo:"2026-04-30" },
   { id:"strongcrisis", n:"Strong Memorial Psych Emergency", c:"crisis", d:"Walk-in psychiatric emergency room (CPEP). No appointment needed. Go now if you need to. Crisis line 585-275-8686. Main 585-275-3535.", ph:"585-275-4501", ad:"300 Crittenden Blvd, Rochester NY 14642", hr:"24/7", doc:"ID if you have it — they'll see you regardless", tg:["any"], town:"rochester", zip:"14642", lat:43.121502, lng:-77.626795, reach:"local", fc:"2026-04-30", redo:"2026-04-30" },

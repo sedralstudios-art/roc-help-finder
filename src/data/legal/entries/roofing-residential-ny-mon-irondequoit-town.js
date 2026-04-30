@@ -25,7 +25,7 @@ export const entry = {
   },
 
   example: {
-    en: "A roofer in Irondequoit tears off old asphalt shingles and inspects the decking. The plywood is solid with no water damage. The roofer installs new shingles directly over the existing sound decking. Because this is a non-structural repair, no Town building permit is needed. On a different job where the decking has rotted through, the roofer contacts the Building Department at 585-336-6020 to apply for a permit before replacing the sheathing."
+    en: "A roofer in Irondequoit tears off old asphalt shingles and inspects the decking. The plywood is solid with no water damage. The roofer installs new shingles directly over the existing sound decking. Because this is a non-structural repair, no Town building permit is needed. On a different job where the decking has rotted through, the roofer contacts the Building Department at 585-336-6026 to apply for a permit before replacing the sheathing."
   },
 
   whoQualifies: {
@@ -63,7 +63,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Town",
       access: "Town Hall; phone; inspection request line (requests by 3pm for next-day inspection)",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-336-6020",
+      phone: "585-336-6026",
       url: "https://www.irondequoit.gov/180/Building",
       verified: true,
       bilingual: false,

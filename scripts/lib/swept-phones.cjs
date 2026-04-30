@@ -54,6 +54,12 @@ function normalizePhone(s) {
   return s.replace(/[^\d]/g, '');
 }
 
+// Phrases that mark a wrong-by-default number being used legitimately as a
+// known sub-line. If the 80-char window around a number match contains one
+// of these, skip the flag — the entry is documenting the distinction, not
+// drifting back to the wrong number.
+const LEGITIMATE_SUBLINE_MARKERS = /(?:appointment\s+line|application\s+line|to\s+(?:have|request)\s+an?\s+application\s+mailed|application\s+mailed\s+to\s+the\s+home|mailing\s+line)/i;
+
 function findPhoneMatches(text, raw, cooccur) {
   const target = normalizePhone(raw);
   if (target.length !== 10) return [];
@@ -66,6 +72,9 @@ function findPhoneMatches(text, raw, cooccur) {
         const window = text.slice(Math.max(0, m.index - 200), m.index + 200);
         if (!cooccur.test(window)) continue;
       }
+      // Skip if surrounding text marks the number as a known legitimate sub-line
+      const tightWindow = text.slice(Math.max(0, m.index - 80), m.index + 80);
+      if (LEGITIMATE_SUBLINE_MARKERS.test(tightWindow)) continue;
       hits.push({ at: m.index, raw: m[0] });
     }
   }
