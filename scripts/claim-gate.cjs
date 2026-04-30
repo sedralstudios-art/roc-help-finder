@@ -112,6 +112,11 @@ const FABRICATIONS = [
     label: 'NY state debt-collector licensing',
     fix: 'NY has no state-level debt-collector licensing; only NYC and Buffalo have local licensing' },
 
+  { pat: /\b9\s+NYCRR\s+(?:Part\s+)?12[1-3]\d\b/i,
+    cooccur: /smoke\s+alarm|carbon\s+monoxide|building\s+code|fire\s+code|residential\s+code|uniform\s+(?:fire|building)/i,
+    label: '9 NYCRR for Building/Fire Code',
+    fix: 'NY Uniform Fire Prevention and Building Code lives at 19 NYCRR (Department of State), not 9 NYCRR (Executive Department)' },
+
   { pat: /\bGBL\s+§?\s*771\b/i,
     cooccur: /\$\s*250\b/i,
     label: 'GBL 771 with $250 home-improvement-fraud threshold',
