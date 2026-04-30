@@ -111,6 +111,7 @@ export const NEW_HOME_WARRANTY_RIGHT_TO_CURE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
