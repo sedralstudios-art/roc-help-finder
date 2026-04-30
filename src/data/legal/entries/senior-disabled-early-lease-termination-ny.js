@@ -110,6 +110,7 @@ export const SENIOR_DISABLED_EARLY_LEASE_TERMINATION_NY = {
   ],
 
   lastVerified: "2026-04-18",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

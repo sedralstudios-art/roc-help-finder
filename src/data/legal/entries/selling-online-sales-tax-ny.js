@@ -23,7 +23,7 @@ export const SELLING_ONLINE_SALES_TAX_NY = {
   },
 
   whatItMeans: {
-    en: "In New York, the line between casual selling and a business depends on intent and frequency. Selling personal belongings occasionally (cleaning out the closet, selling used furniture) is not a business — no sales tax is due and any income is generally not taxable because the items are sold for less than what was paid. But if a person regularly buys items to resell for profit, makes products to sell, or sells consistently over time, that is a business. A business that sells tangible goods in New York must collect sales tax. To do this legally, the seller needs a Certificate of Authority from the NYS Department of Taxation and Finance — this is free and can be applied for online. The seller then charges sales tax on each sale (8% in Monroe County) and remits it to the state quarterly. For income tax, starting in 2022, payment platforms (PayPal, Venmo, marketplace apps) are required to send a 1099-K to anyone who receives more than $600 in payments in a year. Receiving a 1099-K does not automatically mean taxes are owed — the seller can deduct the cost of the items and business expenses. But it does mean the IRS and NYS know about the income. A person who earns more than $400 in net self-employment income in a year must report it and pay self-employment tax (Social Security and Medicare) in addition to income tax."
+    en: "In New York, the line between casual selling and a business depends on intent and frequency. Selling personal belongings occasionally (cleaning out the closet, selling used furniture) is not a business — no sales tax is due and any income is generally not taxable because the items are sold for less than what was paid. But if a person regularly buys items to resell for profit, makes products to sell, or sells consistently over time, that is a business. A business that sells tangible goods in New York must collect sales tax. To do this legally, the seller needs a Certificate of Authority from the NYS Department of Taxation and Finance — this is free and can be applied for online. The seller then charges sales tax on each sale (8% in Monroe County) and remits it to the state quarterly. For income tax, the IRS 1099-K reporting threshold from payment platforms (PayPal, Venmo, marketplace apps) phased down on a delayed schedule: $20,000 / 200 transactions through 2023, $5,000 in 2024, $2,500 in 2025, and $600 starting in 2026. Receiving a 1099-K does not automatically mean taxes are owed — the seller can deduct the cost of the items and business expenses. But it does mean the IRS and NYS know about the income. A person who earns more than $400 in net self-employment income in a year must report it and pay self-employment tax (Social Security and Medicare) in addition to income tax."
   },
 
   yourRights: {
@@ -101,6 +101,7 @@ export const SELLING_ONLINE_SALES_TAX_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
