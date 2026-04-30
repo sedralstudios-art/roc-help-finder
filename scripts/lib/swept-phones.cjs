@@ -36,6 +36,9 @@ const SWEPT_WRONG_PHONES = [
   { num: '585-295-5700', label: 'LawNY / Legal Assistance of Western NY (old/wrong number)', fix: 'use (585) 325-2520 (verified at lawny.org/Contact)' },
   { num: '585-428-6650', label: 'Rochester City Court / Small Claims / Housing Court (wrong number)', fix: 'use (585) 371-3412 for Civil Division (covers Small Claims and Housing Part); (585) 371-3413 for Criminal' },
   { num: '585-295-0660', label: 'JustCause / VLSP (wrong number)', fix: 'use (585) 232-3051 (verified at justcauseny.org)' },
+  // 585-423-1500 is a real number — Rochester Housing Authority main office.
+  // It is NOT NAMI Rochester's number. Only flag when paired with NAMI context.
+  { num: '585-423-1500', label: 'NAMI Rochester (wrong number — 423-1500 is Rochester Housing Authority)', fix: 'NAMI Rochester is (585) 423-1593', cooccur: /NAMI/i },
 ];
 
 function normalizePhone(s) {
