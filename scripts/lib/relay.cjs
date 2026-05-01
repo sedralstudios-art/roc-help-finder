@@ -113,12 +113,12 @@ async function relay(promptText, opts = {}) {
   if (!opts.keepOpen) {
     await page.close();
   }
-  // Don't close the browser — that would close the user's relay-Chrome.
-  // Just disconnect.
-  // (Per Playwright docs, browser.close() on a CDP-attached browser
-  // disconnects but doesn't kill the underlying Chrome process.)
-  // Actually for connectOverCDP, we should NOT call browser.close() since
-  // the user owns the Chrome lifecycle. Just let the script exit.
+  // Disconnect from CDP. Per Playwright docs, browser.close() on a
+  // connectOverCDP browser DISCONNECTS the WebSocket but does NOT kill the
+  // underlying Chrome process — the user's relay-Chrome stays running.
+  // Without this, the open WebSocket keeps Node's event loop alive and the
+  // script hangs after writing the response file.
+  await browser.close();
 
   return responseText;
 }
