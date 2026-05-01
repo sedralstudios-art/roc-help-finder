@@ -182,3 +182,33 @@ threshold + 1% admin fee), § 7-105 (5-day transfer + registered/certified
 mail), § 7-109 (AG enforcement), Nov 15 2025 § 7-107 amendment (S952B),
 Toporek (203 A.D.3d 17, 159 N.Y.S.3d 419 (1st Dep't 2022)), all phone
 numbers, Rochester City Court $5k / town-village $3k limits, example math.
+
+---
+
+## R6 — 2026-05-01 (3 fixes — wording precision + metadata cleanup)
+
+**Issue #1 — § 7-105 incompleteness.** AG's own guide states the rule as
+"transfer to new owner OR return to tenants, within 5 days, and notify by
+registered/certified mail of new owner's name and address." Entry was
+omitting the "or return to tenants" alternative. Fixed in both
+`whatItMeans` and `legalOptions`.
+
+**Issue #2 — interest fee precision.** "Usually 1%" implied the rate is
+customary; § 7-103(2) sets it at exactly 1% per annum by statute. Changed
+to "1% per year, set by statute."
+
+**Issue #3 — metadata contradiction.** Anchor comment said "R1/R2/R3
+expert review pending" while `formallyReviewedBy` said "R1–R4 expert
+review (2026-05-01)" — flagged as inconsistent. Updated comment to
+"R1–R6 expert review complete" (rounds are done; attorney sign-off is the
+remaining gate). `formallyReviewedBy` updated to R1–R6 to match.
+
+**R6 verified clean (27 of ~30 claims):** § 7-108 title/scope, one-month
+cap (incl. seasonal + co-op exceptions), full exemption list from
+subdivision 1-a, allowed deductions, no-deduct-for-wear-and-tear, both
+walk-throughs (incl. <2-week-notice exception), 14-day deadline +
+forfeiture, punitive 2× cap (worked example math), Nov 15 2025 § 7-107
+amendment, § 7-109 AG enforcement, Toporek citation + holding, "before
+July 1, 1971" rent-control framing, Rochester City Court / town /
+village court limits, all four counsel phones, Geneva office service
+area, AG hotline + URL, A8078 pendingLegislation entry.
