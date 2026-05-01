@@ -7,7 +7,7 @@ export const RETURN_REFUND_POLICY_NY = {
   primaryStatute: "NY GBS 218-A",
   status: "active",
 
-  title: { en: "Store Return and Refund Policies in New York — Disclosure Rules Under GBL 218-a" },
+  title: { en: "Store Return and Refund Policies in New York — What Stores Must Tell Customers" },
 
   summary: {
     en: "New York does not require stores to accept returns. It does require stores to post their return policy clearly. When a store posts no policy, the statute kicks in with a default: the customer has 20 days to return merchandise in original condition for a full refund. Many stores try to enforce 'all sales final' without posting it — that doesn't work under GBL 218-a. Defective merchandise is separate: a store cannot refuse a return of defective goods under the implied warranty of merchantability (Uniform Commercial Code § 2-314) regardless of the posted policy."

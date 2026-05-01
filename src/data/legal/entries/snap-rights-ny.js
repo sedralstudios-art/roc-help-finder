@@ -7,7 +7,7 @@ export const SNAP_RIGHTS_NY = {
   primaryStatute: "NY SOS 95",
   status: "active",
 
-  title: { en: "SNAP (Food Stamps) — Recipient Rights in New York" },
+  title: { en: "SNAP and Food Stamps Rights in New York" },
 
   summary: {
     en: "SNAP places monthly food benefits on an EBT card that works like a debit card at grocery stores, farmers markets, and some online retailers. NY uses a broader income cutoff than most states — 200 percent of the federal poverty level — and waives the asset test for most households. Eligibility, application process, and fair-hearing rights are set by NY Social Services Law § 95 and federal SNAP rules at 7 USC § 2011 and following."

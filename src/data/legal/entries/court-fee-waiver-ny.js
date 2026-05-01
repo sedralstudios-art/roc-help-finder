@@ -7,7 +7,7 @@ export const COURT_FEE_WAIVER_NY = {
   primaryStatute: "NY CVP 1101",
   status: "active",
 
-  title: { en: "Court Fee Waivers — How to File a Case Without Affording the Filing Fee" },
+  title: { en: "Court Fee Waivers in New York — How to File a Case When the Filing Fee Is Too Much" },
 
   summary: {
     en: "Every court in New York charges a filing fee to start a case — but people who cannot afford it can ask the court to waive the fee. The application has historically been called a Poor Person Application, though a December 2024 amendment to CPLR 1101 dropped that term in favor of an applicant who lacks sufficient means. The court reviews the person's income and expenses and decides whether to waive some or all of the fees. Many people do not file cases they should file because they think they cannot afford the court fees — but the waiver exists for exactly this situation."

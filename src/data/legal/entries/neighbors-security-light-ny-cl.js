@@ -6,7 +6,7 @@ export const NEIGHBORS_SECURITY_LIGHT_NY = {
   authorityType: "common-law",
   status: "active",
 
-  title: { en: "Neighbor's Bright Security Light Shining Into a Home in New York — Remedies and Local Rules" },
+  title: { en: "Neighbor's Bright Security Light Shining Into a Home in New York — What to Do and Local Rules" },
 
   summary: {
     en: "When a neighbor's floodlight, motion sensor light, or commercial security light shines directly into a bedroom or living room, it can become a real nuisance. New York does not have a statewide light trespass statute. Some Monroe County towns have lighting rules in their zoning codes that require outdoor fixtures to be shielded or pointed downward. Where no local ordinance applies, the common-law private nuisance doctrine reaches lights that substantially interfere with a neighbor's use and enjoyment of the property. Most disputes resolve with a conversation and a simple shield; the legal path is there if the neighbor will not cooperate."

@@ -7,7 +7,7 @@ export const TRAFFIC_TICKET_OPTIONS_NY = {
   primaryStatute: "NY VAT 1806",
   status: "active",
 
-  title: { en: "Traffic Tickets — Response Options in New York (Outside New York City)" },
+  title: { en: "Traffic Tickets in New York — What to Do (Outside New York City)" },
 
   summary: {
     en: "A traffic ticket issued in NY outside the five boroughs of NYC is adjudicated in a local town, village, or city court under NY Vehicle and Traffic Law § 1806 and the Uniform Justice Court Act. Unlike the DMV Traffic Violations Bureau that handles NYC tickets, local courts allow plea bargaining with the prosecutor. Ignoring a ticket results in a failure-to-appear suspension under NY VTL § 510(4-a) and can lead to a bench warrant for the driver."

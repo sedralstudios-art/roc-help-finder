@@ -7,7 +7,7 @@ export const SPEEDING_TICKET_NY = {
   primaryStatute: "NY VAT 1180",
   status: "active",
 
-  title: { en: "Speeding Tickets — Points, Fines, and Response Options in New York" },
+  title: { en: "Speeding Tickets in New York — Points, Fines, and What to Do" },
 
   summary: {
     en: "A NY speeding ticket carries more than a fine. It adds points to the driver's license, triggers extra state fees, can raise auto insurance premiums for years, and can lead to a suspension if points pile up. Under NY VTL § 1180 a driver has the right to plead not guilty, see the evidence, and ask for a hearing before a judge."

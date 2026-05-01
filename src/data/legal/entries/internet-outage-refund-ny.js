@@ -7,7 +7,7 @@ export const INTERNET_OUTAGE_REFUND_NY = {
   primaryStatute: "NY GBS 349",
   status: "active",
 
-  title: { en: "Internet Outage — When a Refund or Credit Applies to a Bill" },
+  title: { en: "Internet Outage Refund or Credit on the Bill in New York" },
 
   summary: {
     en: "When internet service goes down for hours or days, the customer is paying for a service they are not receiving. Most internet providers will give a credit if the customer asks — but they usually do not offer it automatically. The FCC and NYS Public Service Commission handle complaints when the provider refuses."
