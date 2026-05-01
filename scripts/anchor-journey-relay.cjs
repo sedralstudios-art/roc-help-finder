@@ -58,10 +58,38 @@ const prompt =
 '7. THE FIRST 60 SECONDS — if you only read the title and summary and\n' +
 '   nothing else, would you know whether this entry applies to your\n' +
 '   situation? Many readers will stop there.\n' +
+'8. CONTENT-PACKAGE OPPORTUNITIES — as the person in the situation,\n' +
+'   what else do you need that this entry does not give you, that the\n' +
+'   site could plausibly build? Examples:\n' +
+'     - A separate entry on a related topic the reader will hit next\n' +
+'       (e.g., after winning eviction defense, an entry on the eviction\n' +
+'       record showing up on tenant screening reports).\n' +
+'     - A missing entry the current entry references but does not link\n' +
+'       (e.g., "see the warranty of habitability entry" but no link\n' +
+'       given, or no entry exists).\n' +
+'     - A glossary term the reader stumbled on that is not in the\n' +
+'       glossary yet.\n' +
+'     - A sample letter / template the reader needs to actually act\n' +
+'       (e.g., a 14-day rent-demand response template; a small-claims\n' +
+'       complaint template).\n' +
+'     - A checklist the reader could use to prep for court / for a\n' +
+'       phone call to legal aid / for a hearing.\n' +
+'     - A QR-code crisis card or printable handout for situations where\n' +
+'       the reader does not have time to read a long entry.\n' +
+'     - A walkthrough or wizard for a multi-step process (e.g., filing\n' +
+'       a small claims case step by step).\n' +
+'     - A bundled set of related entries that should be cross-linked or\n' +
+'       presented as a package for this situation.\n' +
+'   You are uniquely positioned to see these because you are reading as\n' +
+'   the person in the situation. The other audits (statute, voice,\n' +
+'   consistency, connection) cannot see them — flag any opportunity you\n' +
+'   notice.\n' +
 '\n' +
 'You are not auditing accuracy. You are not auditing voice. You are\n' +
 'auditing whether a stressed person in this situation comes away from\n' +
-'the entry knowing more, oriented, and able to do the next thing.\n' +
+'the entry knowing more, oriented, and able to do the next thing — AND\n' +
+'flagging the adjacent content the site could build to serve them more\n' +
+'completely.\n' +
 '\n' +
 'REPORT FORMAT:\n' +
 '1. WHAT-NOW GAPS — numbered.\n' +
@@ -72,7 +100,11 @@ const prompt =
 '4. ACTION-PATH CLARITY — one paragraph.\n' +
 '5. FIRST-60-SECONDS TEST — does the title + summary alone tell the\n' +
 '   reader whether the entry applies to them?\n' +
-'6. JOURNEY VERDICT — one line: (a) the entry serves the person well,\n' +
+'6. CONTENT-PACKAGE OPPORTUNITIES — numbered. For each, name the\n' +
+'   opportunity, explain why a person in this situation needs it, and\n' +
+'   suggest the form (separate entry / template / checklist / glossary\n' +
+'   term / QR card / walkthrough / bundle).\n' +
+'7. JOURNEY VERDICT — one line: (a) the entry serves the person well,\n' +
 '   (b) the entry has fixable gaps, or (c) the entry needs significant\n' +
 '   rework to actually help the reader act.\n' +
 '\n' +
