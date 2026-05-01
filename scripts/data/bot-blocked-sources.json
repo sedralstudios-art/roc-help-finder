@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "anchorId": "deceptive-business-practices-ny",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/349",
+      "domain": "www.nysenate.gov",
+      "status": 403,
+      "statusText": "Forbidden",
+      "blockedAt": "2026-05-01"
+    },
+    {
       "anchorId": "hvac-residential-ny",
       "url": "https://www.nysenate.gov/legislation/laws/EXC/377",
       "domain": "www.nysenate.gov",

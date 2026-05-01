@@ -23,3 +23,8 @@ Bot-blocked items are also tracked machine-readable in `bot-blocked-sources.json
       _To clear:_ open the URL on phone, save readable text to file, run:
       `node scripts/check-source-drift.cjs --from-text hvac-residential-ny <textfile> --write`
       _Note:_ CORRECTED url — was /EXC/379 in earlier draft. Expert review caught misattribution: §377 is the actual Code creation; §379 is local-override authority. Re-fetch from the corrected canonical URL.
+
+- [ ] **deceptive-business-practices-ny** (bot-blocked) — https://www.nysenate.gov/legislation/laws/GBS/349
+      _To clear:_ open the URL on phone, save readable text to file, run:
+      `node scripts/check-source-drift.cjs --from-text deceptive-business-practices-ny <textfile> --write`
+      _Note:_ 3rd anchor candidate. NYS Senate 403 — same pattern. Phone capture needed for hash.
