@@ -34,6 +34,7 @@ const checks = [
   { name: 'consistency', script: 'scripts/anchor-consistency-relay.cjs' },
   { name: 'journey',     script: 'scripts/anchor-journey-relay.cjs' },
   { name: 'connection',  script: 'scripts/anchor-connection-relay.cjs' },
+  { name: 'seo',         script: 'scripts/anchor-seo-relay.cjs' },
 ];
 
 const start = Date.now();
