@@ -423,7 +423,7 @@ function scanEntry(file, entry, raw) {
     // No score addition — rule is informational pending retrofit.
   }
 
-  return { file, id: entry.id, category: entry.category, authorityType: entry.authorityType, lastVerified: entry.lastVerified, wimWords, srcCount, score, issues };
+  return { file, id: entry.id, category: entry.category, authorityType: entry.authorityType, lastVerified: entry.lastVerified, isAnchor: entry.isAnchor === true, wimWords, srcCount, score, issues };
 }
 
 async function main() {
@@ -474,7 +474,29 @@ async function main() {
     console.log(String(r.score).padStart(5) + '  ' + String(r.issues.length).padStart(6) + '  ' + String(r.category || '-').padEnd(10) + '  ' + r.file);
   }
 
-  // Hard-fail gate: exit 1 if any entry meets/exceeds --fail-at threshold.
+  // ─── Anchor-strict gate ─────────────────────────────────────────────────
+  // Anchor entries (isAnchor: true) propagate to every entry that references
+  // them via statuteAnchor — a weak anchor pollutes 22 entries downstream.
+  // Anchors are held to a strict standard regardless of --fail-at: any score
+  // > 0 fails the build. This is hardcoded, not a flag, because the rule
+  // arose from the architectural reality that anchor voice is load-bearing.
+  // See src/data/legal/ANCHORS.md.
+  const anchorOffenders = rows.filter((r) => r.isAnchor && r.score >= 1);
+  if (anchorOffenders.length > 0) {
+    console.log('');
+    console.log('FAIL: ' + anchorOffenders.length + ' anchor entr' + (anchorOffenders.length === 1 ? 'y' : 'ies') +
+      ' scored >= 1 on the preflight scanner.');
+    console.log('Anchors must score 0 because their narrative propagates to every entry that');
+    console.log('references them via statuteAnchor. A weak anchor produces weak downstream entries.');
+    for (const r of anchorOffenders) {
+      console.log('  • ' + r.file + ' (score ' + r.score + ', ' + r.issues.length + ' issue' + (r.issues.length === 1 ? '' : 's') + ')');
+    }
+    process.exit(1);
+  }
+
+  // ─── Corpus-wide FAIL_AT gate ───────────────────────────────────────────
+  // Exit 1 if any entry meets/exceeds --fail-at threshold. Currently --fail-at=4
+  // (CLAUDE.md). Phased ratchet target is 3 → 2 → 1 as each tier drains.
   if (FAIL_AT !== null) {
     const offenders = queue.filter((r) => r.score >= FAIL_AT);
     if (offenders.length > 0) {
