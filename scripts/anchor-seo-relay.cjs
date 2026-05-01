@@ -18,6 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 const { relay } = require('./lib/relay.cjs');
+const { OUTPUT_DISCIPLINE } = require('./lib/audit-discipline.cjs');
 
 const id = process.argv[2];
 if (!id) { console.error('Usage: node scripts/anchor-seo-relay.cjs <entry-id>'); process.exit(1); }
@@ -122,8 +123,8 @@ const prompt =
 '8. SEO VERDICT — one line: (a) entry is well-positioned for search,\n' +
 '   (b) entry has fixable SEO gaps, or (c) entry is invisible / wrong-\n' +
 '   pitched and needs significant search-fit work.\n' +
-'\n' +
-'---ENTRY START---\n' +
+OUTPUT_DISCIPLINE +
+'\n---ENTRY START---\n' +
 entryText +
 '\n---ENTRY END---\n';
 

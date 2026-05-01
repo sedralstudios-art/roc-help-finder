@@ -27,6 +27,7 @@
 const fs = require('fs');
 const path = require('path');
 const { relay } = require('./lib/relay.cjs');
+const { OUTPUT_DISCIPLINE } = require('./lib/audit-discipline.cjs');
 
 const id = process.argv[2];
 if (!id) {
@@ -83,8 +84,8 @@ const prompt =
 '   before shipping, or (c) needs significant rewrite.\n' +
 '\n' +
 'Do NOT rewrite the entry. Just identify what needs fixing.\n' +
-'\n' +
-'---ENTRY START---\n' +
+OUTPUT_DISCIPLINE +
+'\n---ENTRY START---\n' +
 entryText +
 '\n---ENTRY END---\n';
 

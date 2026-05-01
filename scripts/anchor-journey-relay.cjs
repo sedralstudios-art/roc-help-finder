@@ -12,6 +12,7 @@
 const fs = require('fs');
 const path = require('path');
 const { relay } = require('./lib/relay.cjs');
+const { OUTPUT_DISCIPLINE } = require('./lib/audit-discipline.cjs');
 
 const id = process.argv[2];
 if (!id) { console.error('Usage: node scripts/anchor-journey-relay.cjs <entry-id>'); process.exit(1); }
@@ -107,8 +108,8 @@ const prompt =
 '7. JOURNEY VERDICT — one line: (a) the entry serves the person well,\n' +
 '   (b) the entry has fixable gaps, or (c) the entry needs significant\n' +
 '   rework to actually help the reader act.\n' +
-'\n' +
-'---ENTRY START---\n' +
+OUTPUT_DISCIPLINE +
+'\n---ENTRY START---\n' +
 entryText +
 '\n---ENTRY END---\n';
 

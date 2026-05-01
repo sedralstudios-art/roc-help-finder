@@ -19,6 +19,7 @@
 const fs = require('fs');
 const path = require('path');
 const { relay } = require('./lib/relay.cjs');
+const { OUTPUT_DISCIPLINE } = require('./lib/audit-discipline.cjs');
 
 const ids = process.argv.slice(2);
 if (ids.length < 2) {
@@ -87,6 +88,7 @@ const intro =
 '6. CROSS-ANCHOR VERDICT — one line: (a) entries are mutually consistent,\n' +
 '   (b) minor cross-references need fixing, or (c) significant\n' +
 '   contradictions require resolution before any of the entries ship.\n' +
+OUTPUT_DISCIPLINE +
 '\n';
 
 let body = '';

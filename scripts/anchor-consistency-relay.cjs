@@ -17,6 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 const { relay } = require('./lib/relay.cjs');
+const { OUTPUT_DISCIPLINE } = require('./lib/audit-discipline.cjs');
 
 const id = process.argv[2];
 if (!id) { console.error('Usage: node scripts/anchor-consistency-relay.cjs <entry-id>'); process.exit(1); }
@@ -74,8 +75,8 @@ const prompt =
 '3. NUMERICAL / DATE INCONSISTENCIES — numbered.\n' +
 '4. CONSISTENCY VERDICT — one line: (a) entry is internally consistent,\n' +
 '   (b) minor alignment fixes needed, or (c) significant rewrite needed.\n' +
-'\n' +
-'---ENTRY START---\n' +
+OUTPUT_DISCIPLINE +
+'\n---ENTRY START---\n' +
 entryText +
 '\n---ENTRY END---\n';
 

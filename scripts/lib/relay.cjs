@@ -25,9 +25,50 @@
 //   node scripts/relay.cjs --prompt "audit this entry: ..."
 
 const { chromium } = require('playwright');
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
 
 const CDP_URL = 'http://localhost:9222';
 const NEW_CHAT_URL = 'https://claude.ai/new';
+
+// File-based mutex for the clipboard write→paste critical section.
+// Only enforced when RELAY_CLIPBOARD_MUTEX=1. Single-script mode skips
+// the lock entirely (no overhead). Parallel wrapper sets the env var on
+// child processes.
+const LOCK_PATH = path.join(os.tmpdir(), 'helpfinder-relay-clipboard.lock');
+const MUTEX_ENABLED = process.env.RELAY_CLIPBOARD_MUTEX === '1';
+
+async function acquireClipboardLock() {
+  if (!MUTEX_ENABLED) return;
+  const start = Date.now();
+  // Poll for the lock file with a stale-lock recovery (5s timeout).
+  while (true) {
+    try {
+      fs.writeFileSync(LOCK_PATH, String(process.pid), { flag: 'wx' });
+      return;
+    } catch (e) {
+      if (e.code !== 'EEXIST') throw e;
+      // Stale-lock recovery: if the lock file is older than 5s, force-take it.
+      try {
+        const stat = fs.statSync(LOCK_PATH);
+        if (Date.now() - stat.mtimeMs > 5000) {
+          fs.unlinkSync(LOCK_PATH);
+          continue;
+        }
+      } catch (e2) { /* lock file vanished mid-check, retry */ }
+      await new Promise((r) => setTimeout(r, 50));
+      if (Date.now() - start > 60000) {
+        throw new Error('Clipboard mutex acquisition timed out (60s)');
+      }
+    }
+  }
+}
+
+function releaseClipboardLock() {
+  if (!MUTEX_ENABLED) return;
+  try { fs.unlinkSync(LOCK_PATH); } catch (e) { /* ok if already gone */ }
+}
 
 async function relay(promptText, opts = {}) {
   const timeoutMs = opts.timeoutMs || 300000;          // 5 min default
@@ -67,22 +108,28 @@ async function relay(promptText, opts = {}) {
   const inputLocator = page.locator('[data-testid="chat-input"]').first();
   await inputLocator.waitFor({ timeout: 20000 });
 
-  log('writing prompt to clipboard (' + promptText.length + ' chars)');
-  // Clipboard write needs a focused page and the permission granted above.
-  await page.bringToFront();
-  await page.evaluate(async (text) => {
-    await navigator.clipboard.writeText(text);
-  }, promptText);
+  log('acquiring clipboard mutex (if enabled)');
+  await acquireClipboardLock();
+  try {
+    log('writing prompt to clipboard (' + promptText.length + ' chars)');
+    // Clipboard write needs a focused page and the permission granted above.
+    await page.bringToFront();
+    await page.evaluate(async (text) => {
+      await navigator.clipboard.writeText(text);
+    }, promptText);
 
-  log('pasting into chat input');
-  await inputLocator.click();
-  await page.keyboard.press('Control+V');
+    log('pasting into chat input');
+    await inputLocator.click();
+    await page.keyboard.press('Control+V');
 
-  // Brief wait so the paste settles in the contenteditable
-  await page.waitForTimeout(300);
+    // Brief wait so the paste settles in the contenteditable
+    await page.waitForTimeout(300);
 
-  log('sending');
-  await page.keyboard.press('Enter');
+    log('sending');
+    await page.keyboard.press('Enter');
+  } finally {
+    releaseClipboardLock();
+  }
 
   log('waiting for streaming to start, then complete');
   const stopButton = page.getByRole('button', {
@@ -153,7 +200,45 @@ async function extractLastAssistantTurn(page) {
     const lastCopy = copies[copies.length - 1];
     const bubble = lastCopy.closest('.group');
     if (!bubble) return '';
-    const full = bubble.innerText || '';
+
+    // Clone the bubble so we can strip noise without mutating the live
+    // page. Then remove thinking-block summary divs that claude.ai
+    // injects during streaming. These appear as collapsed cards labeled
+    // with the model's own intermediate "summary of the most recent
+    // thoughts" — they are meta-content, not part of the answer, and
+    // they bloat extracted responses by 10-15%.
+    const clone = bubble.cloneNode(true);
+    // Heuristic patterns observed: divs whose text contains
+    // "I cannot provide a summary because the user prompt is empty"
+    // or "based on the thinking block" or "Searched the web" or whose
+    // class name contains "thinking". Remove them.
+    const thinkingPatterns = [
+      'I cannot provide a summary',
+      'based on the thinking block',
+      'Searched the web',
+      'thinking block content',
+    ];
+    const allChildren = clone.querySelectorAll('*');
+    allChildren.forEach((el) => {
+      const cls = el.className && el.className.toString ? el.className.toString() : '';
+      if (cls.toLowerCase().includes('thinking')) {
+        el.remove();
+        return;
+      }
+      // Also drop elements whose entire innerText matches a thinking pattern
+      // and which have few children (avoid wiping the whole bubble).
+      if (el.children && el.children.length < 5) {
+        const t = el.innerText || '';
+        for (const p of thinkingPatterns) {
+          if (t.includes(p) && t.length < 500) {
+            el.remove();
+            break;
+          }
+        }
+      }
+    });
+
+    const full = clone.innerText || '';
     const idx = full.indexOf('\n\n');
     const visible = idx >= 0 ? full.slice(idx + 2) : full;
     return visible.trim();

@@ -18,6 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 const { relay } = require('./lib/relay.cjs');
+const { OUTPUT_DISCIPLINE } = require('./lib/audit-discipline.cjs');
 
 const id = process.argv[2];
 if (!id) { console.error('Usage: node scripts/anchor-connection-relay.cjs <entry-id>'); process.exit(1); }
@@ -87,8 +88,8 @@ const prompt =
 '4. CONNECTION VERDICT — one line: (a) data is current and complete,\n' +
 '   (b) needs updates before shipping, or (c) major operational data\n' +
 '   has drifted and requires verification.\n' +
-'\n' +
-'---ENTRY START---\n' +
+OUTPUT_DISCIPLINE +
+'\n---ENTRY START---\n' +
 entryText +
 '\n---ENTRY END---\n';
 
