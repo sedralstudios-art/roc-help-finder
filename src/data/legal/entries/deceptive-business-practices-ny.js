@@ -22,14 +22,14 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
     lastFetched: ""
   },
   lastFormallyReviewed: "2026-05-01",
-  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration + Round 1 expert review 2026-05-01 (8 issues — 3 errors fixed, 5 clarifications added). ERRORS: (1) example damages math fixed — §349(h) is actual OR $50 (greater of), not stacked; (2) example dropped 'legal-research costs' (not a §349 recovery; pro se gets no attorney fees); (3) AG civil penalty cite corrected — $5k/violation is GBL §350-d(a), not §349(b)/Exec Law §63(12); FAIR Act adds $15k or 3x restitution for willful. CLARIFICATIONS: class actions in NY state court can't aggregate statutory minimums (CPLR §901(b)) — federal court via Shady Grove is the path; example consumer-oriented reframed (type of conduct, not geographic reach); FAIR Act paragraph expanded to include consumer-oriented requirement removal for AG; Hobish reframed as damages-narrowing decision (no punitives beyond treble cap); whoQualifies small-business item softened to Oswego/Himmelstein consumer-oriented test. R2/R3 pending. Provisional, pending attorney sign-off.",
+  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration + R1 expert review (8 issues, 2026-05-01) + R2 expert review (2026-05-01: 2 NEW findings, the rest fetched stale URL pre-R1). R2 NEW: AG complaint URL was 404 (https://ag.ny.gov/consumer-frauds/filing-consumer-complaint) — fixed to https://ag.ny.gov/file-complaint/consumer; summary first sentence conflated 349 and 350 (false advertising is 350 not 349) — fixed to separate them with companion-law framing. R1 fixes that R2 reviewer missed due to stale cache: damages stacking error, AG civil penalty cite to §350-d(a), Hobish reframing, Shady Grove class-action wrinkle, FAIR Act expansion, small-business standing softening — all already on disk. R1 originals follow. ERRORS: (1) example damages math fixed — §349(h) is actual OR $50 (greater of), not stacked; (2) example dropped 'legal-research costs' (not a §349 recovery; pro se gets no attorney fees); (3) AG civil penalty cite corrected — $5k/violation is GBL §350-d(a), not §349(b)/Exec Law §63(12); FAIR Act adds $15k or 3x restitution for willful. CLARIFICATIONS: class actions in NY state court can't aggregate statutory minimums (CPLR §901(b)) — federal court via Shady Grove is the path; example consumer-oriented reframed (type of conduct, not geographic reach); FAIR Act paragraph expanded to include consumer-oriented requirement removal for AG; Hobish reframed as damages-narrowing decision (no punitives beyond treble cap); whoQualifies small-business item softened to Oswego/Himmelstein consumer-oriented test. R2/R3 pending. Provisional, pending attorney sign-off.",
   pendingLegislation: null,
   sourceChangedSince: null,
 
   title: { en: "Deceptive Business Practices — How General Business Law 349 Protects New York Consumers" },
 
   summary: {
-    en: "NY General Business Law (GBL) section 349 bans deceptive acts and false advertising in business deals that affect NY consumers. A consumer who is misled — by an ad, a sales pitch, or a written agreement — can sue for actual damages, with the law guaranteeing at least $50 even if the actual loss was smaller. The court can also add up to triple the actual damages, capped at an extra $1,000, if the business knew the statement was false. The court can award the consumer's reasonable attorney fees. A related law (GBL section 350) covers false advertising specifically. The NY Attorney General can also sue businesses under section 349 for restitution, court orders to stop the practice, and civil penalties. The FAIR Business Practices Act (in effect since February 17, 2026) expanded section 349 for AG enforcement to cover unfair and abusive practices, not just deceptive ones — but the expansion does not change what individual consumers can sue for."
+    en: "NY General Business Law (GBL) section 349 bans deceptive acts in business deals that affect NY consumers; a companion law (GBL section 350) bans false advertising. The two are usually used together. A consumer who is misled — by an ad, a sales pitch, or a written agreement — can sue for actual damages, with the law guaranteeing at least $50 even if the actual loss was smaller. The court can also add up to triple the actual damages, capped at an extra $1,000, if the business knew the statement was false. The court can award the consumer's reasonable attorney fees. A related law (GBL section 350) covers false advertising specifically. The NY Attorney General can also sue businesses under section 349 for restitution, court orders to stop the practice, and civil penalties. The FAIR Business Practices Act (in effect since February 17, 2026) expanded section 349 for AG enforcement to cover unfair and abusive practices, not just deceptive ones — but the expansion does not change what individual consumers can sue for."
   },
 
   whoQualifies: {
@@ -99,7 +99,7 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
       access: "Online complaint or phone (800) 771-7755",
       outcome: "Investigation, mediation, enforcement action",
       phone: "(800) 771-7755",
-      url: "https://ag.ny.gov/consumer-frauds/filing-consumer-complaint",
+      url: "https://ag.ny.gov/file-complaint/consumer",
       verified: true,
       bilingual: true,
       languages: ["es"]
@@ -131,7 +131,7 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
   sources: [
     "https://www.nysenate.gov/legislation/laws/GBS/349",
     "https://www.nysenate.gov/legislation/laws/GBS/350",
-    "https://ag.ny.gov/consumer-frauds/filing-consumer-complaint"
+    "https://ag.ny.gov/file-complaint/consumer"
   ],
 
   lastVerified: "2026-04-28",
