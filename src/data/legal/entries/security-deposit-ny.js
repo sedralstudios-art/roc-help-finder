@@ -23,14 +23,14 @@ export const SECURITY_DEPOSIT_NY = {
     lastFetched: ""
   },
   lastFormallyReviewed: "2026-05-01",
-  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration + R1 expert review (5 issues, 2026-05-01). R1 ERROR (highest): exemption scope — entry was conflating two different scopes. Continuing-care retirement, assisted-living, adult-care, senior residential (with AG offering plan), and not-for-profit independent retirement (with personal emergency response, housekeeping, transportation, meals) are FULLY exempt from §7-108 (no cap, no 14-day rule, no forfeiture, no punitive). Seasonal-use and owner-occupied co-op are exempt ONLY from the one-month cap (14-day rule still applies). Restructured. R1 added missing 6th category (not-for-profit independent retirement). R1 OTHER: Empire Justice Center REMOVED from counsel — they do impact litigation, not individual security-deposit cases (their site explicitly redirects tenants to Tenant Defense Project / income-eligible orgs). LawNY Geneva office (315-781-1465) added — serves Livingston/Ontario/Seneca/Wayne/Yates; example county changed from Livingston to Brighton/Monroe to match listed Rochester office. JustCause access corrected from MCBA referral to direct phone/online intake. Building-sale rule cited to §7-105 (separate from §7-108) and 'certified mail' corrected to 'registered or certified mail.' R2/R3 pending; provisional, pending attorney sign-off.",
+  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration + R1 expert review (5 issues, 2026-05-01). R1 ERROR (highest): exemption scope — entry was conflating two different scopes. Continuing-care retirement, assisted-living, adult-care, senior residential (with AG offering plan), and not-for-profit independent retirement (with personal emergency response, housekeeping, transportation, meals) are FULLY exempt from §7-108 (no cap, no 14-day rule, no forfeiture, no punitive). Seasonal-use and owner-occupied co-op are exempt ONLY from the one-month cap (14-day rule still applies). Restructured. R1 added missing 6th category (not-for-profit independent retirement). R1 OTHER: Empire Justice Center REMOVED from counsel — they do impact litigation, not individual security-deposit cases (their site explicitly redirects tenants to Tenant Defense Project / income-eligible orgs). LawNY Geneva office (315-781-1465) added — serves Livingston/Ontario/Seneca/Wayne/Yates; example county changed from Livingston to Brighton/Monroe to match listed Rochester office. JustCause access corrected from MCBA referral to direct phone/online intake. Building-sale rule cited to §7-105 (separate from §7-108) and 'certified mail' corrected to 'registered or certified mail.' R2/R3 pending; provisional, pending attorney sign-off. Voice check 2026-05-01: summary plainified ('limits' over 'caps,' 'loses' over 'forfeits,' 'kept on purpose, knowing the rule' over 'willful violations,' 'extra penalty' over 'punitive damages'). yourRights and legalOptions stripped of the §7-108(1-a)(X) citation parade — plain rights statements; statute terms (punitive damages, wear and tear, security deposit, small claims) left intact since the glossary defines them.",
   pendingLegislation: null,
   sourceChangedSince: null,
 
   title: { en: "NY Security Deposit — One-Month Cap, 14-Day Return Deadline, and Landlord Forfeiture" },
 
   summary: {
-    en: "NY caps a residential security deposit at one month's rent for most rentals. The full law is General Obligations Law section 7-108. Within 14 days after the renter moves out, the landlord has to return the remaining deposit AND an itemized statement of any deductions. The only allowed deductions are unpaid rent, damage beyond normal wear and tear, unpaid utilities the renter owed to the landlord, and moving or storage of things the renter left behind. A landlord who misses the 14-day deadline forfeits the right to keep any part of the deposit, even for actual damage. Willful violations carry up to two times the deposit in punitive damages, on top of the deposit itself."
+    en: "NY limits the security deposit a landlord can ask for to one month's rent for most rentals. The full law is General Obligations Law section 7-108. After the renter moves out, the landlord has 14 days to return the remaining deposit AND a written list of anything taken out and why. The only things a landlord can take out are unpaid rent, damage caused by the renter beyond normal wear and tear, unpaid utilities the renter owed the landlord, and the cost of moving or storing things the renter left behind. If the landlord misses the 14-day deadline — even by one day — the landlord loses the right to keep any part of the deposit, even for real damage. If the landlord kept the deposit on purpose, knowing the rule, the renter can also recover up to two times the deposit as an extra penalty (on top of getting the deposit back)."
   },
 
   whoQualifies: {
@@ -49,13 +49,13 @@ export const SECURITY_DEPOSIT_NY = {
 
   yourRights: {
     en: [
-      "A NY tenant has the right under General Obligations Law § 7-108(1-a)(a) to a security deposit of no more than one month's rent for most residential rentals.",
-      "A NY tenant has the right under General Obligations Law § 7-108(1-a)(b) to deposit protection against deductions for ordinary wear and tear or prior-tenant damage.",
-      "A NY tenant has the right under General Obligations Law § 7-108(1-a)(c) to a pre-occupancy inspection with the landlord and a written record of existing damage that cannot later be deducted.",
-      "A NY tenant has the right under General Obligations Law § 7-108(1-a)(d) to a pre-move-out inspection and an itemized list of proposed deductions with an opportunity to cure.",
-      "A NY tenant has the right under General Obligations Law § 7-108(1-a)(e) to the remaining deposit and an itemized statement within 14 days of move-out; if not, the landlord forfeits any right to retain any portion.",
-      "A NY tenant has the right to punitive damages of up to twice the deposit amount for a willful General Obligations Law § 7-108 violation.",
-      "A NY tenant in a building with six or more apartments has the right under General Obligations Law § 7-103 to interest on the deposit.",
+      "A NY tenant has the right to a security deposit of no more than one month's rent for most residential rentals.",
+      "A NY tenant has the right to a deposit that cannot be reduced for ordinary wear and tear or for damage caused by a previous tenant.",
+      "A NY tenant has the right to a walk-through with the landlord before moving in, with a written record of any existing damage that cannot later be taken out of the deposit.",
+      "A NY tenant has the right to a walk-through before moving out, with a written list of anything the landlord plans to take out of the deposit and a chance to fix it first.",
+      "A NY tenant has the right to receive the remaining deposit and a written list of anything taken out within 14 days of moving out. If the landlord misses that deadline, the landlord loses the right to keep any part of the deposit.",
+      "A NY tenant has the right to recover up to two times the deposit as an extra penalty if the landlord kept the deposit on purpose, knowing the rule.",
+      "A NY tenant in a building with six or more apartments has the right to interest on the deposit.",
       "A NY tenant has the right to sue in small claims court to recover the deposit without hiring a lawyer."
     ]
   },
@@ -66,7 +66,7 @@ export const SECURITY_DEPOSIT_NY = {
       "Monroe County town and village justice courts — claims up to $3,000 for disputes in unincorporated areas.",
       "NY Attorney General Tenant Assistance at ag.ny.gov/resources/individuals/tenants-homeowners — guidance on security-deposit rights and complaint intake.",
       "NY Attorney General Consumer Frauds Bureau at (800) 771-7755 — complaints against landlords with repeated General Obligations Law § 7-108 violations.",
-      "Under General Obligations Law § 7-109, the Attorney General may bring a proceeding or action to compel compliance with security-deposit requirements.",
+      "NY Attorney General enforcement under General Obligations Law § 7-109 — the AG can bring its own action against landlords who repeatedly break the security-deposit rules.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income Monroe County tenants in small-claims filings and complex deposit disputes.",
       "LawNY at (585) 325-2520 — Rochester office handles Monroe County intake. Other counties in LawNY's 14-county service area have separate offices: Livingston, Ontario, Seneca, Wayne, and Yates use the Geneva office at (315) 781-1465. lawny.org/FindaLawyer locates the right office for any LawNY county.",
       "JustCause at (585) 232-3051 — volunteer-attorney small-claims preparation for Monroe County tenants. Direct phone or online intake at justcauseny.org.",
