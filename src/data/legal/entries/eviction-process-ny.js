@@ -4,13 +4,36 @@ export const EVICTION_PROCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY RPA A7",
+  primaryStatute: "NY RPA 753",
   status: "active",
 
-  title: { en: "NY Eviction Process — Notice, Court Hearing, Warrant, and the Tenant's Right to a Stay" },
+  // ─── Anchor fields (see src/data/legal/ANCHORS.md) ───
+  // 5th anchor candidate. Picked on the basis of GSC evidence
+  // (project_gsc_review_2026_05_01.md): someone literally searched "rpapl 753"
+  // — exact-statute search, same signal pattern that picked GOB 7-108.
+  // RPAPL 753 is the load-bearing tenant-protective section in Article 7
+  // (the one-year stay, the cure window). Entry already covers the broader
+  // Article 7 procedural chain; anchor URL points to §753 specifically to
+  // match the GSC query. Multi-statute interlock expected (see anchor review
+  // difficulty pattern memory): RPAPL 711, 731, 733, 735, 743, 745, 747,
+  // 749, 753, 755, 853 + RPL 226-c + Good Cause Eviction Law (NYC + adopting
+  // localities). Per R1–R6 lesson on security-deposit-ny: do explicit
+  // statute-tree mapping at R1, expect 5–6 rounds.
+  isAnchor: true,
+  anchorSource: {
+    url: "https://www.nysenate.gov/legislation/laws/RPA/753",
+    hash: "",
+    lastFetched: ""
+  },
+  lastFormallyReviewed: "2026-05-01",
+  formallyReviewedBy: "Anthony DiMarzo + WebSearch + relay-driven R1 audit pending. Round-by-round detail: src/data/legal/anchor-reviews/eviction-process-ny.md.",
+  pendingLegislation: null,
+  sourceChangedSince: null,
+
+  title: { en: "NY Eviction Process — Notice, Hearing, Warrant, Cures, and the One-Year Hardship Stay" },
 
   summary: {
-    en: "A NY landlord cannot remove a tenant without a court order. The process is set by Real Property Actions and Proceedings Law Article 7. It has four stages: written notice (14 days for unpaid rent, or 30/60/90 days for non-renewal based on tenancy length under Real Property Law § 226-c); a special proceeding filed in the local court; a judgment; and a warrant executed by the sheriff or marshal with 14 more days of notice. Tenants can ask for a stay of up to one year under Real Property Actions and Proceedings Law § 753, and self-help eviction by the landlord is illegal."
+    en: "A NY landlord cannot remove a tenant without a court order. The process is set by Real Property Actions and Proceedings Law Article 7. It has four stages: written notice (14 days for unpaid rent, or 30/60/90 days for non-renewal based on occupancy or lease length under Real Property Law § 226-c); a special proceeding filed in the local court; a judgment; and a warrant executed by the sheriff or marshal with 14 more days of notice. After judgment, tenants can ask for a one-year hardship stay under § 753(1), a 30-day cure stay in lease-breach holdovers under § 753(4), or (outside NYC) a discretionary stay under § 751. Self-help eviction by the landlord is illegal and exposes the landlord to treble (3×) damages under § 853."
   },
 
   whoQualifies: {
@@ -18,25 +41,27 @@ export const EVICTION_PROCESS_NY = {
       "A NY residential tenant under a written lease, an oral lease, or a month-to-month arrangement.",
       "A tenant in a house, apartment, room, rooming-house unit, or a hotel room occupied for 30 consecutive days or longer.",
       "A tenant facing a 14-day pay-or-quit notice for unpaid rent.",
-      "A tenant facing a 30-, 60-, or 90-day non-renewal or rent-increase notice depending on how long the tenant has occupied the unit under Real Property Law § 226-c.",
+      "A tenant facing a 30-, 60-, or 90-day non-renewal or rent-increase notice under Real Property Law § 226-c — the tier turns on the tenant's occupancy length OR lease term, whichever is longer.",
       "A Rochester tenant covered by the 2024 NY Good Cause Eviction Law (adopted locally by Rochester) whose landlord needs a statutory reason to refuse renewal or raise rent significantly."
     ]
   },
 
   whatItMeans: {
-    en: "A NY eviction follows a four-stage process set by Real Property Actions and Proceedings Law Article 7. A landlord cannot lawfully lock out a tenant, shut off utilities, remove possessions, or use force to take back the property. Only a sheriff, marshal, or constable acting under a court-issued warrant can remove a tenant. Stage one — written notice. The notice depends on the reason. For unpaid rent, the landlord must serve a 14-day written demand for rent under Real Property Actions and Proceedings Law § 711(2) before filing a nonpayment case. If the landlord is not renewing the tenancy or is raising rent by 5 percent or more, Real Property Law § 226-c requires advance notice scaled to the length of the tenancy: 30 days if the tenant has occupied less than one year, 60 days if one to two years, and 90 days if two or more years. A lease-violation (holdover) case typically requires a notice to cure followed by a notice of termination, depending on the lease terms. Stage two — special proceeding filed in local court. Eviction cases go to the city, town, or village court where the property sits. Monroe County cases go to Rochester City Court (for properties inside the city) or the relevant town or village justice court. The landlord files a petition and has it served on the tenant under the rules in Real Property Actions and Proceedings Law § 735. The tenant has the right to appear, answer in writing or orally, raise defenses, and demand a trial. Common defenses include habitability breaches (the unit is not livable), retaliation (the notice followed a good-faith complaint), improper service or defective notice, and payment of the rent before judgment. Under Real Property Actions and Proceedings Law § 744, a tenant cannot be evicted because of domestic-violence-victim status. Stage three — judgment. If the court rules for the landlord, Real Property Actions and Proceedings Law § 747 governs the entry of judgment. If the court rules for the tenant, the case is dismissed and the tenant stays. In a nonpayment case, paying the full amount owed before judgment typically ends the case. Stage four — warrant and eviction. Real Property Actions and Proceedings Law § 749 allows the court to issue a warrant directing the sheriff, marshal, or constable to remove the tenants. The officer must give the tenant at least 14 days' written notice before executing the warrant and may execute it only on a business day between sunrise and sunset. Real Property Actions and Proceedings Law § 749(2)(b) requires the officer to check for companion animals and coordinate their safe removal. Real Property Actions and Proceedings Law § 753 gives the court discretion to stay the warrant for up to one year in a dwelling case — the tenant must apply in good faith, show inability to find similar housing in the neighborhood or extreme hardship (serious illness, a child's school enrollment, other extenuating circumstances), and deposit the ongoing rent into court during the stay. Self-help eviction is illegal and expensive. A landlord who locks a tenant out, shuts off utilities, or removes possessions without a court order is liable under Real Property Actions and Proceedings Law § 853 for up to triple damages plus attorney fees. Monroe County tenants facing eviction have access to free Legal Aid Society of Rochester representation at Rochester City Court on hearing days and through phone intake."
+    en: "A NY eviction follows a four-stage process set by Real Property Actions and Proceedings Law Article 7. A landlord cannot lawfully lock out a tenant, shut off utilities, remove possessions, or use force to take back the property. Only a sheriff, marshal, or constable acting under a court-issued warrant can remove a tenant. Stage one — written notice. The notice depends on the reason. For unpaid rent, the landlord must serve a 14-day written demand for rent under Real Property Actions and Proceedings Law § 711(2) before filing a nonpayment case. If the landlord is not renewing the tenancy or is raising rent by 5 percent or more, Real Property Law § 226-c requires advance notice scaled to the length of the tenancy: 30 days if the tenant has occupied less than one year, 60 days if one to two years, and 90 days if two or more years. A lease-violation (holdover) case typically requires a notice to cure followed by a notice of termination, depending on the lease terms. Stage two — special proceeding filed in local court. Eviction cases go to the city, town, or village court where the property sits. Monroe County cases go to Rochester City Court (for properties inside the city) or the relevant town or village justice court. The landlord files a petition and has it served on the tenant under the rules in Real Property Actions and Proceedings Law § 735. The tenant has the right to appear, answer in writing or orally, raise defenses, and demand a trial. Common defenses include habitability breaches (the unit is not livable), retaliation (the notice followed a good-faith complaint), improper service or defective notice, and payment of the rent before judgment. Under Real Property Actions and Proceedings Law § 744, a tenant cannot be evicted because of domestic-violence-victim status. Stage three — judgment. If the court rules for the landlord, Real Property Actions and Proceedings Law § 747 governs the entry of judgment. If the court rules for the tenant, the case is dismissed and the tenant stays. In a nonpayment case, paying the full amount owed before judgment typically ends the case. Stage four — warrant and eviction. Real Property Actions and Proceedings Law § 749 allows the court to issue a warrant directing the sheriff, marshal, or constable to remove the tenants. The officer must give the tenant at least 14 days' written notice before executing the warrant under § 749(2)(a) and may execute it only on a business day between sunrise and sunset. § 749(2)(b) requires the officer to check for companion animals and coordinate their safe removal. Stays under § 753. The 2019 Housing Stability and Tenant Protection Act (HSTPA) reshaped § 753 — what used to be a NYC-only, six-month maximum, holdover-only stay is now statewide, up to one year, and available in nonpayment cases too. § 753(1) gives the court discretion to stay the warrant for up to one year in a residential case — the tenant must apply in good faith, show inability to find similar housing in the neighborhood despite due and reasonable efforts, OR extreme hardship (serious illness, a child's school enrollment, other extenuating circumstances). § 753(2) requires the tenant to deposit the ongoing rent into court during the stay. § 753(3) takes the one-year stay off the table when the landlord proves to the court that the tenant is an objectionable occupant. § 753(4) provides a separate 30-day post-judgment cure stay specifically for lease-breach holdovers — if the landlord wins on a claim that the tenant breached a lease provision, the court must grant a 30-day stay during which the tenant can fix the breach and stop the eviction (HSTPA expanded this from 10 days). Outside NYC, § 751 also gives the court general discretion to stay the warrant when the tenant pays rent or posts an undertaking — Rochester tenants can ask under § 751 in addition to § 753. Self-help eviction is illegal. A landlord who locks a tenant out, shuts off utilities, or removes possessions without a court order is liable under Real Property Actions and Proceedings Law § 853 for treble (3×) damages — the multiplier is fixed at three times actual damages when the court awards damages, and the award itself is at the court's discretion. Attorney fees are not awarded under § 853 itself, but may be available under Real Property Law § 234 if the lease has a one-way fee clause in favor of the landlord (§ 234 reciprocates it for the tenant). Monroe County tenants facing eviction have access to free Legal Aid Society of Rochester representation at Rochester City Court on hearing days and through phone intake."
   },
 
   yourRights: {
     en: [
       "A NY tenant has the right to stay in the home until a judge signs an order authorizing removal — self-help lockouts, utility shutoffs, and forcible entry by the landlord are illegal.",
       "A NY tenant has the right under Real Property Actions and Proceedings Law § 711(2) to a 14-day written rent demand before any nonpayment eviction case can be filed.",
-      "A NY tenant has the right under Real Property Law § 226-c to 30, 60, or 90 days' advance notice before the landlord refuses to renew or raises rent 5 percent or more — the length depends on how long the tenant has lived there.",
+      "A NY tenant has the right under Real Property Law § 226-c to advance written notice before the landlord refuses to renew or raises rent 5 percent or more — 30 days if the tenant has occupied the unit less than one year (or has a lease shorter than one year), 60 days if the occupancy or lease is at least one year but less than two, and 90 days if the occupancy or lease is at least two years.",
       "A tenant in a nonpayment case has the right to pay the rent owed at any point before judgment to stop the eviction.",
       "A tenant has the right to appear in court, raise defenses (habitability, retaliation, defective notice), and demand a trial under Real Property Actions and Proceedings Law § 745.",
-      "A tenant has the right under Real Property Actions and Proceedings Law § 749 to at least 14 days' written warrant-of-eviction notice from the sheriff or marshal before physical removal, with execution limited to business days during daylight.",
-      "A tenant has the right under Real Property Actions and Proceedings Law § 753 to ask the court for a stay of the warrant for up to one year based on inability to relocate or extreme hardship.",
-      "A tenant has the right under Real Property Actions and Proceedings Law § 853 to seek triple damages and attorney fees from a landlord who evicts by force, lockout, or utility shutoff without a court order."
+      "A tenant has the right under Real Property Actions and Proceedings Law § 749(2)(a) to at least 14 days' written warrant-of-eviction notice from the sheriff or marshal before physical removal, with execution limited to business days during daylight.",
+      "A tenant has the right under Real Property Actions and Proceedings Law § 753(1) to ask the court for a stay of the warrant for up to one year based on inability to relocate or extreme hardship — except § 753(3) makes this stay unavailable when the landlord proves the tenant is an objectionable occupant.",
+      "A tenant in a lease-breach holdover case has the right under Real Property Actions and Proceedings Law § 753(4) to a 30-day post-judgment cure stay — even if the landlord wins, the court must grant 30 days during which the tenant can fix the breach and stop the eviction.",
+      "A tenant outside NYC has the right under Real Property Actions and Proceedings Law § 751 to ask the court for a discretionary stay of the warrant by paying rent or posting an undertaking.",
+      "A tenant has the right under Real Property Actions and Proceedings Law § 853 to seek treble (3×) damages from a landlord who evicts by force, lockout, or utility shutoff without a court order. Attorney fees are not awarded by § 853 itself but may be available under Real Property Law § 234 when the lease has a one-way fee clause."
     ]
   },
 
@@ -63,13 +88,13 @@ export const EVICTION_PROCESS_NY = {
       name: "Legal Aid Society of Rochester",
       focus: "Eviction defense in Rochester City Court and Monroe County justice courts",
       qualifier: "Low-income Monroe County tenant",
-      access: "Phone intake; walk-in at Rochester City Court on Housing Part days",
+      access: "Phone intake; walk-in at Rochester City Court on Housing Part days. Spanish and ASL interpreters available on request.",
       outcome: "Free representation in eviction proceedings",
       phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
-      bilingual: true,
-      languages: ["es"]
+      bilingual: false,
+      languages: []
     },
     {
       type: "nonprofit",
