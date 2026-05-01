@@ -18,3 +18,8 @@ Bot-blocked items are also tracked machine-readable in `bot-blocked-sources.json
       _To clear:_ open the URL on phone, save readable text to file, run:
       `node scripts/check-source-drift.cjs --from-text hvac-residential-ny <textfile> --write`
       _Note:_ NYS Senate 403 — same block pattern as RPP 235-B. Phone capture needed for hash.
+
+- [ ] **hvac-residential-ny** (bot-blocked) — https://www.nysenate.gov/legislation/laws/EXC/377
+      _To clear:_ open the URL on phone, save readable text to file, run:
+      `node scripts/check-source-drift.cjs --from-text hvac-residential-ny <textfile> --write`
+      _Note:_ CORRECTED url — was /EXC/379 in earlier draft. Expert review caught misattribution: §377 is the actual Code creation; §379 is local-override authority. Re-fetch from the corrected canonical URL.

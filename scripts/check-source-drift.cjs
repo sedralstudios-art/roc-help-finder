@@ -214,8 +214,10 @@ function saveBotBlockedList(data) {
 }
 
 function recordBlocked(list, anchorId, url, status, statusText) {
-  // Keep one entry per (anchorId, url). Most-recent timestamp wins.
-  list.entries = list.entries.filter(e => !(e.anchorId === anchorId && e.url === url));
+  // One bot-blocked entry per anchor. If the anchor's URL changed (e.g.,
+  // an attribution correction), drop the old URL row and record the new
+  // one. Otherwise stale URLs accumulate.
+  list.entries = list.entries.filter(e => e.anchorId !== anchorId);
   list.entries.push({
     anchorId,
     url,

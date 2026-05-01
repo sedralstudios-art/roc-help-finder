@@ -4,7 +4,7 @@ export const HVAC_RESIDENTIAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY EXC 379",
+  primaryStatute: "NY EXC 377",
   status: "active",
 
   // ─── Anchor fields (see src/data/legal/ANCHORS.md) ───
@@ -17,26 +17,29 @@ export const HVAC_RESIDENTIAL_NY = {
   // WebSearch corroboration, pending attorney sign-off.
   isAnchor: true,
   anchorSource: {
-    // NYS Senate is the canonical source for NY EXC 379 but bot-blocks 403.
-    // Hash population deferred to phone capture per
-    // scripts/data/bot-blocked-sources.json + check-source-drift.cjs --from-text.
-    url: "https://www.nysenate.gov/legislation/laws/EXC/379",
+    // §377 is the section that creates the NY Uniform Fire Prevention and
+    // Building Code itself. (§378 lists subjects the Code must address;
+    // §379 governs local-government authority to adopt stricter standards.
+    // Earlier provisional draft cited §379 as adoption — corrected per
+    // expert review 2026-05-01.) NYS Senate bot-blocks 403; phone capture
+    // pending.
+    url: "https://www.nysenate.gov/legislation/laws/EXC/377",
     hash: "",
     lastFetched: ""
   },
-  lastFormallyReviewed: "2026-04-30",
-  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration (NYS Senate EXC 378+379, ECCCNYS publications, EPA Section 608 docs, NY Labor Law 191/193) — provisional, pending attorney sign-off",
+  lastFormallyReviewed: "2026-05-01",
+  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration + expert review 2026-05-01 (caught NYC exemption, §378/§379 misattribution, RCNYS-vs-MCNYS scope for residential — all corrected). Provisional, pending attorney sign-off.",
   pendingLegislation: null,
   sourceChangedSince: null,
 
   title: { en: "Residential HVAC Work in New York — Permits, Gas-Line Rules, Energy Code, and Worker Protections" },
 
   summary: {
-    en: "New York sets the statewide floor for residential heating, ventilation, and air-conditioning work. Executive Law 378 and 379 adopt the NYS Uniform Fire Prevention and Building Code, the Mechanical Code, and the Fuel Gas Code. The NYS Energy Conservation Construction Code (ECCCNYS) also applies — the 2025 version took effect December 31, 2025, and permits filed after that date have to meet the stricter energy rules. There is no statewide HVAC contractor license. Licensing is local, and most upstate towns do not license HVAC contractors at all. Gas piping from the meter to the furnace requires a licensed plumber. Any worker handling refrigerant needs federal EPA Section 608 certification. Town Building Inspectors handle HVAC inspections directly; unlike electrical, third-party agencies are not used for HVAC."
+    en: "NY sets the statewide floor for residential heating, ventilation, and air-conditioning work — outside NYC, which has its own separate Construction Codes. The NY Uniform Fire Prevention and Building Code (created under NY Executive Law § 377, with the State Fire Prevention and Building Code Council operating under Article 18) governs the work. For one- and two-family homes, the Residential Code of NY State (RCNYS) is the primary book; for larger buildings, the standalone Mechanical Code (MCNYS) and Fuel Gas Code (FGCNYS) apply. The 2025 Energy Code took effect December 31, 2025 — permits filed after that date have to meet the stricter rules. There is no statewide HVAC contractor license. Licensing is local. Gas piping from the meter to the furnace requires a licensed plumber. Any worker handling refrigerant needs federal EPA Section 608 certification. Town Building Inspectors handle HVAC inspections directly; unlike electrical, third-party agencies are not used for HVAC."
   },
 
   whatItMeans: {
-    en: "HVAC work on homes in New York has to follow the NYS Uniform Fire Prevention and Building Code. That code incorporates the Mechanical Code and the Fuel Gas Code, which are adopted at the state level under Executive Law 378 and 379.\n\nEnergy code (ECCCNYS). The Energy Conservation Construction Code of New York State applies on top of the mechanical code. The 2025 version of the energy code took effect December 31, 2025, with stricter efficiency requirements. Any HVAC permit filed after that date has to meet the 2025 rules. For furnaces, AC systems, and heat pumps, the code drives minimum efficiency ratings (AFUE, SEER, HSPF) and sets duct sealing and insulation requirements. The state energy office (NYSERDA) publishes the plain-English compliance guide.\n\nNo statewide HVAC license. New York does not issue a general HVAC contractor license. Licensing is local, and most Monroe County towns do not license HVAC contractors at all. What the towns do require is a licensed plumber for any gas piping work — the gas line from the meter to the furnace is plumbing, not HVAC. An HVAC tech can set and connect the furnace itself but cannot run the gas pipe.\n\nEPA refrigerant handling (40 CFR Part 82). Any worker who handles refrigerant — installation, service, recovery — has to hold federal EPA Section 608 certification. There are several types (Type I for small appliances, Type II for high-pressure systems, Type III for low-pressure chillers, and Universal). Certification is a one-time federal requirement with no renewal. Improper refrigerant release is a federal violation enforced by the EPA.\n\nInspections. HVAC inspections are handled by the town Building Inspector directly. This is different from electrical work in New York, which uses third-party agencies. An HVAC permit is pulled at the Town Building Department; the inspector signs off after rough-in and final.\n\nCombustion appliance safety. Gas and oil furnaces, boilers, and water heaters require proper venting, a clear combustion-air path, and in some installations a carbon monoxide detector. The code also addresses chimney condition for a new appliance that uses an existing flue — a chimney inspection often has to be part of the permit package.\n\nPermits. Typical permit-triggering HVAC projects: a new furnace, boiler, or AC system; a new gas line or gas pipe extension (plumbing permit); a heat pump installation; a mini-split; a new ductwork run; and a fuel-source change (oil to gas, for example). Small like-for-like repairs usually do not need a permit, but the town sets the line.\n\nHomeowner work. In most upstate towns, a homeowner can do HVAC work on a home they own and live in. A permit and inspection are still required, the licensed-plumber rule for gas piping still applies, and EPA Section 608 certification is still required to handle refrigerant. NYC does not allow homeowner HVAC work.\n\nWorker protections. Labor Law 191 requires timely payment of wages. Labor Law 193 bans most paycheck deductions. The Scaffold Law (Labor Law 240 and 241(6)) applies to elevated work — a rooftop unit install is squarely in that zone. Wage protections apply to workers paid in cash, by check, or off the books, and regardless of immigration status. Calling a regular helper a '1099 contractor' does not make the helper a contractor when the work looks like employment.\n\nConsumer protection. A contractor who lies about licensing, EPA 608 certification, or equipment efficiency can be sued under General Business Law 349. Remedies include actual damages, up to $1,000 in statutory damages, and attorney's fees. The Attorney General's Consumer Frauds Bureau also investigates patterns of deceptive practices.\n\nUnpaid work. An HVAC worker or subcontractor who has not been paid can file a mechanic's lien against the property under Lien Law 3 and 10 — 4 months on a single-family home, 8 months on other buildings."
+    en: "HVAC work on homes in New York State has to follow the NY Uniform Fire Prevention and Building Code. (NYC has its own separate Construction Codes — this entry covers the rest of the state.) The Uniform Code is set by the State Fire Prevention and Building Code Council, which operates under Article 18 of NY Executive Law. The Code itself is created under § 377; § 378 lists the subjects the Code must cover; § 379 lets local governments adopt stricter standards but not weaker ones.\n\nWhich book applies to a particular job depends on the building. For one- and two-family homes — by far the most common type — the rules come from the Residential Code of NY State (RCNYS), which has its own chapters for mechanical and fuel-gas work. Larger buildings (apartment buildings above three units, commercial properties) follow the standalone Mechanical Code of NY State (MCNYS) and Fuel Gas Code of NY State (FGCNYS). All three books sit under the same Uniform Code framework.\n\nEnergy code (ECCCNYS). The Energy Conservation Construction Code of New York State applies on top of the mechanical code. The 2025 version of the energy code took effect December 31, 2025, with stricter efficiency requirements. Any HVAC permit filed after that date has to meet the 2025 rules. For furnaces, AC systems, and heat pumps, the code drives minimum efficiency ratings (AFUE, SEER, HSPF) and sets duct sealing and insulation requirements. The state energy office (NYSERDA) publishes the plain-English compliance guide.\n\nNo statewide HVAC license. New York does not issue a general HVAC contractor license. Licensing is local, and most Monroe County towns do not license HVAC contractors at all. What the towns do require is a licensed plumber for any gas piping work — the gas line from the meter to the furnace is plumbing, not HVAC. An HVAC tech can set and connect the furnace itself but cannot run the gas pipe.\n\nEPA refrigerant handling (40 CFR Part 82). Any worker who handles refrigerant — installation, service, recovery — has to hold federal EPA Section 608 certification. There are several types (Type I for small appliances, Type II for high-pressure systems, Type III for low-pressure chillers, and Universal). Certification is a one-time federal requirement with no renewal. Improper refrigerant release is a federal violation enforced by the EPA.\n\nInspections. HVAC inspections are handled by the town Building Inspector directly. This is different from electrical work in New York, which uses third-party agencies. An HVAC permit is pulled at the Town Building Department; the inspector signs off after rough-in and final.\n\nCombustion appliance safety. Gas and oil furnaces, boilers, and water heaters require proper venting, a clear combustion-air path, and in some installations a carbon monoxide detector. The code also addresses chimney condition for a new appliance that uses an existing flue — a chimney inspection often has to be part of the permit package.\n\nPermits. Typical permit-triggering HVAC projects: a new furnace, boiler, or AC system; a new gas line or gas pipe extension (plumbing permit); a heat pump installation; a mini-split; a new ductwork run; and a fuel-source change (oil to gas, for example). Small like-for-like repairs usually do not need a permit, but the town sets the line.\n\nHomeowner work. In most upstate towns, a homeowner can do HVAC work on a home they own and live in. A permit and inspection are still required, the licensed-plumber rule for gas piping still applies, and EPA Section 608 certification is still required to handle refrigerant. NYC does not allow homeowner HVAC work.\n\nWorker protections. Labor Law 191 requires timely payment of wages. Labor Law 193 bans most paycheck deductions. The Scaffold Law (Labor Law 240 and 241(6)) applies to elevated work — a rooftop unit install is squarely in that zone. Wage protections apply to workers paid in cash, by check, or off the books, and regardless of immigration status. Calling a regular helper a '1099 contractor' does not make the helper a contractor when the work looks like employment.\n\nConsumer protection. A contractor who lies about licensing, EPA 608 certification, or equipment efficiency can be sued under General Business Law 349. Remedies include actual damages, up to $1,000 in statutory damages, and attorney's fees. The Attorney General's Consumer Frauds Bureau also investigates patterns of deceptive practices.\n\nUnpaid work. An HVAC worker or subcontractor who has not been paid can file a mechanic's lien against the property under Lien Law 3 and 10 — 4 months on a single-family home, 8 months on other buildings."
   },
 
   example: {
@@ -144,8 +147,10 @@ export const HVAC_RESIDENTIAL_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/EXC/379",
+    "https://www.nysenate.gov/legislation/laws/EXC/377",
     "https://www.nysenate.gov/legislation/laws/EXC/378",
+    "https://www.nysenate.gov/legislation/laws/EXC/379",
+    "https://www.nysenate.gov/legislation/laws/EXC/A18",
     "https://dos.ny.gov/building-standards-and-codes",
     "https://www.nysenate.gov/legislation/laws/LAB/191",
     "https://www.nysenate.gov/legislation/laws/LAB/193",
@@ -156,8 +161,8 @@ export const HVAC_RESIDENTIAL_NY = {
     "https://dol.ny.gov/wage-theft-hub"
   ],
 
-  lastVerified: "2026-04-22",
-  factCheckedBy: { tool: "websearch", date: "2026-04-30" },
+  lastVerified: "2026-05-01",
+  factCheckedBy: { tool: "websearch+expert-review", date: "2026-05-01" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
