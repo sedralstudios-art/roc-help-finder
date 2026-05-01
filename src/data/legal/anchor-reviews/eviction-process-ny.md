@@ -48,4 +48,59 @@ The R1 prompt included an explicit statute tree (RPAPL 711 / 731 / 733 / 735 / 7
 
 ---
 
-**Status:** R2/R3 pending. Provisional, pending attorney sign-off.
+## Voice pass — 2026-05-01 (relay-driven)
+
+The voice-relay caught 7 issues I'd reintroduced when applying R1 statute fixes:
+- Citation parade in yourRights — items 2, 5, 6, 7, 8, 9, 10 all prefixed "under Real Property Actions and Proceedings Law § …" (the exact pattern I had flattened in security-deposit-ny). Rewrote with shorthand (RPAPL) on second mention; cites moved to tail tags.
+- "Stage two — special proceeding filed in local court" → "Stage two — the case is filed in local court."
+- "Stays under § 753" header → "Asking the court for more time after judgment."
+- Inline redefinition of habitability and retaliation (both in glossary). Dropped parentheticals.
+- "Posting an undertaking" → "putting up money as security" (undertaking is jargon, not in glossary).
+- "Post-judgment cure stay" → "30-day pause after judgment."
+- whatItMeans was one ~700-word paragraph. Added paragraph breaks at each Stage transition + Self-help / Asking-for-time sections.
+
+Also made a discovery worth saving as a memory: the voice-relay caught patterns I'd just reintroduced — meaning the voice-relay step is a real second-look guard against drift between rounds, not just a styling pass.
+
+---
+
+## R2 — 2026-05-01 (relay-driven, 8 substantive + 8 precision)
+
+**Substantive (would mislead a tenant):**
+
+1. § 753(1) hardship list incomplete + misquoted. Statute: "serious ill health, significant exacerbation of an ongoing condition, a child's enrollment in a local school, and any other extenuating life circumstances." Entry was missing the chronic-condition prong, said "illness" not "ill health," dropped "local" from school. Rewrote.
+
+2. § 753(1) substantial-hardship-to-LANDLORD clause missing. Court must balance landlord hardship in deciding stay (Chestnut House LLC v. Dolson 2023). Added: "The court also weighs any substantial hardship the stay would impose on the landlord — § 753(1) is not a one-sided tenant lever; the court balances both sides."
+
+3. § 753(3) scope mis-stated. Statute says "shall not apply" — the entire § 753 (including § 753(4) cure) drops away in objectionable-occupant cases. Rewrote: "takes the entire § 753 off the table … no one-year stay AND no 30-day cure stay."
+
+4. RPAPL § 768 (criminal unlawful eviction) missing entirely. Class A misdemeanor + $1,000-$10,000 per violation + up to $100/day for failure to restore. NY AG guidance directs local police/DA enforcement. Added to whatItMeans + new yourRights item.
+
+5. RPAPL § 713(10) restoration remedy missing. Faster than § 853 damages action. For a tenant on the street, restoration is often more important. Added to whatItMeans + new yourRights item.
+
+6. RPL § 235-e reminder-notice affirmative defense missing. HSTPA-added. Landlord must send certified-mail reminder when rent unpaid 5 days; failure is an affirmative defense. Added to defenses list + new entry in whatItMeans Stage one.
+
+7. RPL § 231-c Good Cause notice requirement missing (effective Aug 18, 2024). Predicate notices (incl. 14-day rent demand) must append/contain the § 231-c notice — even in non-opt-in localities (with checkbox). Active basis for dismissal. Added to Stage one + defenses list.
+
+8. James example overstated Good Cause coverage. Rewrote example to specify a 12-unit building (above the small-landlord 1-unit and owner-occupied ≤10-unit exemptions) and confirm Good Cause coverage explicitly.
+
+**Precision:**
+
+11. § 751 framing conflated subdivisions. Split § 751(1) (statewide redemption — deposit rent + interest + costs OR post bond) from § 751(4)(a) (outside-NYC discretionary stay capped at four months, largely subsumed by § 753(1) post-HSTPA).
+
+12. § 753(1) "neighborhood" definition added (outside NYC: same town/village/city OR school district where children attend/eligible).
+
+13. § 745 description fleshed out — added the post-HSTPA rent-deposit rule (can't be required until tenant's second adjournment OR 60 days on calendar; first adjournment by unrepresented tenant doesn't count).
+
+14. § 753(2) installment-payment option added (HSTPA expansion).
+
+15. § 753(4) "30-day pause after judgment" → "30-day stay of issuance of the warrant" (precision).
+
+**Validator catch:** introduced 4 unescaped double quotes in whatItMeans ("append or contain" the § 231-c notice; defines "neighborhood" as ...). Validator FAILed correctly. Removed the embedded quotes.
+
+**Sources expanded** to include direct nysenate.gov links for §§ 711, 713, 749, 751, 768, 853 + RPL § 235-e and § 231-c.
+
+**Issues left for R3:** §853 discretionary-vs-mandatory framing (Issue 9) — entry hedges appropriately as written; § 234 reciprocity for § 853 actions (Issue 10) — entry hedges appropriately. Rochester Good Cause Council vote Dec 17 2024 / Mayor Evans signed Jan 10 2025 (Issue 16) — date precision worth adding if R3 surfaces it again.
+
+---
+
+**Status:** R3 pending. Provisional, pending attorney sign-off.
