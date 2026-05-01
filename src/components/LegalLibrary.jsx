@@ -919,14 +919,32 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         </section>
       )}
 
-      {entry.whatItMeans && (
-        <section id="what-it-means" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
-          <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>What it means</h2>
-          <p style={{ fontSize: 15, color: C.bark, lineHeight: 1.8, margin: 0, whiteSpace: "pre-wrap" }}>
-            <GlossaryText text={pickText(entry.whatItMeans, legalLang)} maxHighlights={3} />
-          </p>
-        </section>
-      )}
+      {(() => {
+        // Anchor pull: if the entry references an anchor via statuteAnchor,
+        // render the anchor's whatItMeans first (state-level framework),
+        // then the entry's own (situation- or town-specific layer). Mirrors
+        // generateEntryHTML in scripts/prerender-legal.cjs — keep these two
+        // in sync per the Dual Rendering Trap rule. See ANCHORS.md.
+        const ownText = pickText(entry.whatItMeans, legalLang);
+        let combinedText = ownText;
+        if (entry.statuteAnchor) {
+          const anchor = LEGAL_ENTRIES_BY_ID[entry.statuteAnchor];
+          if (anchor && anchor.isAnchor) {
+            const anchorText = pickText(anchor.whatItMeans, legalLang);
+            if (anchorText && ownText) combinedText = anchorText + "\n\n" + ownText;
+            else if (anchorText) combinedText = anchorText;
+          }
+        }
+        if (!combinedText) return null;
+        return (
+          <section id="what-it-means" style={{ marginBottom: 26, scrollMarginTop: 20 }}>
+            <h2 style={{ fontFamily: SERIF, fontSize: 22, fontWeight: 400, marginBottom: 12, color: C.bark }}>What it means</h2>
+            <p style={{ fontSize: 15, color: C.bark, lineHeight: 1.8, margin: 0, whiteSpace: "pre-wrap" }}>
+              <GlossaryText text={combinedText} maxHighlights={3} />
+            </p>
+          </section>
+        );
+      })()}
 
       {rightsArr.length > 0 && (
         <section id="your-rights" style={{ marginBottom: 26, padding: "18px 22px", background: C.sage, borderRadius: 14, border: "1px solid #c8e6c9", scrollMarginTop: 20 }}>

@@ -310,8 +310,12 @@ function scanEntry(file, entry, raw) {
     score += 2;
   }
 
-  // Thin content
-  if (wimWords < 300) {
+  // Thin content. Entries that reference an anchor via statuteAnchor are
+  // exempt — they are designed to be short and town/situation-specific
+  // because the renderer pulls the anchor's whatItMeans (state-level
+  // framework) in front of theirs. The combined rendered output, not the
+  // entry's own whatItMeans, is what the reader sees. See ANCHORS.md.
+  if (wimWords < 300 && !entry.statuteAnchor) {
     issues.push({ severity: 'warn', rule: 'thin whatItMeans (< 300 words)', detail: wimWords });
     score += 3;
   }

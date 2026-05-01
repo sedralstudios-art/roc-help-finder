@@ -8,6 +8,11 @@ export const entry = {
   authorityType: "local-ordinance",
   status: "active",
 
+  // References hvac-residential-ny anchor — the renderer pulls the anchor's
+  // state-level HVAC framework before this entry's town-specific layer.
+  // Lets this entry stay short and town-specific. See ANCHORS.md.
+  statuteAnchor: "hvac-residential-ny",
+
   title: { en: "HVAC work in the Town of Chili: what the town requires" },
 
   summary: {

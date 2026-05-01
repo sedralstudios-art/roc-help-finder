@@ -55,6 +55,12 @@ function parseEntry(filename) {
   const tags = parseTags(src);
   const relatedIds = parseRelatedIds(src);
   const sources = parseQuotedArray(src, 'sources');
+  // Anchor architecture (see src/data/legal/ANCHORS.md). isAnchor marks an
+  // entry as the canonical statute summary; statuteAnchor on other entries
+  // points at it. The renderer pulls the anchor's whatItMeans before the
+  // entry's own.
+  const isAnchor = /\bisAnchor\s*:\s*true\b/.test(src);
+  const statuteAnchor = (src.match(/\bstatuteAnchor:\s*"([^"]+)"/) || [])[1] || null;
   const whoQualifiesCount = countEnArrayItems(src, 'whoQualifies');
   const yourRightsCount = countEnArrayItems(src, 'yourRights');
   const yourRightsItems = parseEnArrayStrings(src, 'yourRights') || [];
@@ -65,6 +71,7 @@ function parseEntry(filename) {
     category, tier, status, volatility, jurisdiction, lastVerified,
     factCheckedByDate, factCheckedByTool,
     tags, relatedIds, sources,
+    isAnchor, statuteAnchor,
     whoQualifiesCount, yourRightsCount, yourRightsItems, legalOptionsCount, counselCount,
   };
 }
@@ -592,6 +599,20 @@ function main() {
       if (!existingIds.has(rid) && !RELATED_ID_ALLOWLIST.has(rid)) {
         errors.push(`${e.filename}: relatedIds points to nonexistent entry "${rid}"`);
       }
+    }
+  }
+
+  // statuteAnchor must point to an entry that exists AND is marked
+  // isAnchor: true. See src/data/legal/ANCHORS.md. The renderer pulls the
+  // anchor's whatItMeans before the entry's own; a dangling reference
+  // would silently produce thin pages with no fallback content.
+  const anchorIds = new Set(entries.filter((e) => e.isAnchor).map((e) => e.id));
+  for (const e of entries) {
+    if (!e.statuteAnchor) continue;
+    if (!existingIds.has(e.statuteAnchor)) {
+      errors.push(`${e.filename}: statuteAnchor "${e.statuteAnchor}" does not match any entry on disk`);
+    } else if (!anchorIds.has(e.statuteAnchor)) {
+      errors.push(`${e.filename}: statuteAnchor "${e.statuteAnchor}" points to an entry without isAnchor: true`);
     }
   }
 

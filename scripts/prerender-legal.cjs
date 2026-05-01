@@ -436,13 +436,35 @@ function autoLinkGlossary(text) {
   return escaped;
 }
 
-function generateEntryHTML(entry, langMeta, bundleTags) {
+function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
   const lang = langMeta.code;
   const canonical = SITE_URL + urlPathForEntry(lang, entry.id);
   const title = pick(entry.title, lang);
   const summary = pick(entry.summary, lang);
   const whoQual = pickArr(entry.whoQualifies, lang);
-  const whatItMeans = pick(entry.whatItMeans, lang);
+
+  // Anchor pull: when an entry references an anchor via statuteAnchor, the
+  // anchor's whatItMeans renders FIRST (state-level framework), then the
+  // entry's own whatItMeans (situation- or town-specific layer). The reader
+  // sees one flowing explainer; the architecture lets town entries stay
+  // short because the anchor fills in the framework. See ANCHORS.md.
+  // Falls back to entry-only rendering when statuteAnchor is missing or the
+  // referenced anchor cannot be resolved (defensive — bad ref shouldn't
+  // break the page).
+  const ownWhatItMeans = pick(entry.whatItMeans, lang);
+  let whatItMeans = ownWhatItMeans;
+  if (entry.statuteAnchor && entriesById && entriesById.get) {
+    const anchor = entriesById.get(entry.statuteAnchor);
+    if (anchor && anchor.isAnchor) {
+      const anchorText = pick(anchor.whatItMeans, lang);
+      if (anchorText && ownWhatItMeans) {
+        whatItMeans = anchorText + '\n\n' + ownWhatItMeans;
+      } else if (anchorText) {
+        whatItMeans = anchorText;
+      }
+    }
+  }
+
   const rights = pickArr(entry.yourRights, lang);
   const options = pickArr(entry.legalOptions, lang);
   const example = pick(entry.example, lang);
@@ -925,11 +947,14 @@ async function main() {
   // switcher now hit 404, which is more honest than an indexed duplicate.
   const entryLangsByCode = {};
   for (const langMeta of LEGAL_LANGS) entryLangsByCode[langMeta.code] = langMeta;
+  // Lookup map for anchor pull (entries referencing isAnchor entries via
+  // statuteAnchor). See generateEntryHTML for usage.
+  const entriesById = new Map(entries.map((e) => [e.id, e]));
   for (const entry of entries) {
     for (const code of langsForEntry(entry)) {
       const langMeta = entryLangsByCode[code];
       if (!langMeta) continue;
-      const html = generateEntryHTML(entry, langMeta, bundleTags);
+      const html = generateEntryHTML(entry, langMeta, bundleTags, entriesById);
       const outDir = path.join(DIST, urlPathForEntry(code, entry.id).replace(/^\//, ''));
       fs.mkdirSync(outDir, { recursive: true });
       fs.writeFileSync(path.join(outDir, 'index.html'), html);
