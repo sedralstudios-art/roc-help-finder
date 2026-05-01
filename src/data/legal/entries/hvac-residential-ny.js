@@ -7,6 +7,28 @@ export const HVAC_RESIDENTIAL_NY = {
   primaryStatute: "NY EXC 379",
   status: "active",
 
+  // ─── Anchor fields (see src/data/legal/ANCHORS.md) ───
+  // Topic anchor for the HVAC trades cluster — 21 town variants
+  // (hvac-residential-ny-mon-*) reference this entry via statuteAnchor.
+  // The renderer pulls this anchor's whatItMeans before each town entry's
+  // own whatItMeans so town entries can stay short and town-specific while
+  // the state framework (codes, EPA 608, gas-line-as-plumbing) lives in
+  // ONE canonical place. lastFormallyReviewed is provisional — grounded in
+  // WebSearch corroboration, pending attorney sign-off.
+  isAnchor: true,
+  anchorSource: {
+    // NYS Senate is the canonical source for NY EXC 379 but bot-blocks 403.
+    // Hash population deferred to phone capture per
+    // scripts/data/bot-blocked-sources.json + check-source-drift.cjs --from-text.
+    url: "https://www.nysenate.gov/legislation/laws/EXC/379",
+    hash: "",
+    lastFetched: ""
+  },
+  lastFormallyReviewed: "2026-04-30",
+  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration (NYS Senate EXC 378+379, ECCCNYS publications, EPA Section 608 docs, NY Labor Law 191/193) — provisional, pending attorney sign-off",
+  pendingLegislation: null,
+  sourceChangedSince: null,
+
   title: { en: "Residential HVAC Work in New York — Permits, Gas-Line Rules, Energy Code, and Worker Protections" },
 
   summary: {

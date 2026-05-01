@@ -1,3 +1,20 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "anchorId": "hvac-residential-ny",
+      "url": "https://www.nysenate.gov/legislation/laws/EXC/379",
+      "domain": "www.nysenate.gov",
+      "status": 403,
+      "statusText": "Forbidden",
+      "blockedAt": "2026-05-01"
+    },
+    {
+      "anchorId": "tenant-habitability-ny",
+      "url": "https://www.nysenate.gov/legislation/laws/RPP/235-B",
+      "domain": "www.nysenate.gov",
+      "status": 403,
+      "statusText": "Forbidden",
+      "blockedAt": "2026-05-01"
+    }
+  ]
 }

@@ -13,3 +13,8 @@ Bot-blocked items are also tracked machine-readable in `bot-blocked-sources.json
       _To clear:_ open the URL on phone, save readable text to file, run:
       `node scripts/check-source-drift.cjs --from-text tenant-habitability-ny <textfile> --write`
       _Note:_ NYS Senate hard-blocks bots with 403 even with browser UA + transparent bot headers. Phone capture is the only path to populate the anchor's hash with the canonical source.
+
+- [ ] **hvac-residential-ny** (bot-blocked) — https://www.nysenate.gov/legislation/laws/EXC/379
+      _To clear:_ open the URL on phone, save readable text to file, run:
+      `node scripts/check-source-drift.cjs --from-text hvac-residential-ny <textfile> --write`
+      _Note:_ NYS Senate 403 — same block pattern as RPP 235-B. Phone capture needed for hash.
