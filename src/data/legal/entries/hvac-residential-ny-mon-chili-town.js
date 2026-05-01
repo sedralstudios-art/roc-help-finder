@@ -12,6 +12,7 @@ export const entry = {
   // state-level HVAC framework before this entry's town-specific layer.
   // Lets this entry stay short and town-specific. See ANCHORS.md.
   statuteAnchor: "hvac-residential-ny",
+  reviewTier: "anchor-reference",
 
   title: { en: "HVAC work in the Town of Chili: what the town requires" },
 

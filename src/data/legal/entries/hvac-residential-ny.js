@@ -16,6 +16,7 @@ export const HVAC_RESIDENTIAL_NY = {
   // ONE canonical place. lastFormallyReviewed is provisional — grounded in
   // WebSearch corroboration, pending attorney sign-off.
   isAnchor: true,
+  reviewTier: "anchor-reviewed",
   anchorSource: {
     // §377 is the section that creates the NY Uniform Fire Prevention and
     // Building Code itself. (§378 lists subjects the Code must address;

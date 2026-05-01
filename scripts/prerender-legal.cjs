@@ -263,6 +263,11 @@ const GLOSSARY_LABELS = {
   general: 'General Court Words',
 };
 
+// Two-layer publishing filter — must mirror src/data/legal/index.js exactly
+// per the Dual Rendering Trap rule. See ANCHORS.md for the review-tier model.
+const PUBLISHABLE_REVIEW_TIERS = new Set(['anchor-reviewed', 'anchor-reference']);
+const STRICT_REVIEW_FILTER = process.env.STRICT_REVIEW_FILTER === '1' || false;
+
 async function loadEntries() {
   const files = fs.readdirSync(ENTRIES_DIR).filter((f) => f.endsWith('.js'));
   const entries = [];
@@ -270,7 +275,10 @@ async function loadEntries() {
     const abs = path.join(ENTRIES_DIR, f);
     const mod = await import(pathToFileURL(abs).href);
     const val = Object.values(mod)[0];
-    if (val && val.id && !val.draft) entries.push(val);
+    if (!val || !val.id) continue;
+    if (val.draft) continue;
+    if (STRICT_REVIEW_FILTER && !PUBLISHABLE_REVIEW_TIERS.has(val.reviewTier)) continue;
+    entries.push(val);
   }
   entries.sort((a, b) => {
     const c = (a.category || '').localeCompare(b.category || '');

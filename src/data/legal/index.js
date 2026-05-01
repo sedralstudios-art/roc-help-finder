@@ -23,13 +23,30 @@ for (const [p, mod] of Object.entries(translationModules)) {
 }
 
 // Load entries
-// Entries with `draft: true` are held offline: filtered out of the published
-// set so they do not render in the UI, prerender HTML, sitemap, search, or
-// related-entry resolution. Used for sensitive content awaiting attorney review.
+// Two-layer publishing filter:
+// (1) `draft: true` always hides — sensitive content awaiting attorney review.
+// (2) STRICT_REVIEW_FILTER, when on, hides everything that hasn't passed
+//     anchor-style review. The whitelist is `reviewTier: 'anchor-reviewed'`
+//     (the entry has been through full multi-round review) or
+//     `reviewTier: 'anchor-reference'` (the entry's statuteAnchor points at
+//     an anchor-reviewed entry, and the renderer pulls the anchor's content).
+//     Default: OFF. Flip via STRICT_REVIEW_FILTER=1 env var or the global
+//     PUBLISH_ONLY_REVIEWED flag below. When ON, expect a large reduction
+//     in published entries; the rest still exist on disk and come back as
+//     they're promoted.
+const PUBLISHABLE_REVIEW_TIERS = new Set(['anchor-reviewed', 'anchor-reference']);
+const STRICT_REVIEW_FILTER =
+  (typeof process !== 'undefined' && process.env && process.env.STRICT_REVIEW_FILTER === '1') ||
+  false; // <-- flip to true when ready to gate publication globally
+
 const rawEntries = Object.values(entryModules)
   .map((mod) => Object.values(mod)[0])
   .filter(Boolean)
-  .filter((e) => !e.draft);
+  .filter((e) => !e.draft)
+  .filter((e) => {
+    if (!STRICT_REVIEW_FILTER) return true;
+    return PUBLISHABLE_REVIEW_TIERS.has(e.reviewTier);
+  });
 
 // Merge translations into each entry in place
 for (const entry of rawEntries) {
