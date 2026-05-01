@@ -129,3 +129,56 @@ additional layer.
 Removed the "(Note for NYC rent-controlled tenants: ... pending attorney
 confirmation.)" parenthetical from `whatItMeans` — process-state belongs
 in this log, not in user-facing copy.
+
+---
+
+## R5 — 2026-05-01 (4 fixes — closes the rent-controlled question)
+
+**Issue #1 — RESOLVES the open question from R4.** § 7-108(1-a) opens with:
+"Except in dwelling units subject to the city rent and rehabilitation law or
+the emergency housing rent control law, [CCRCs, assisted-living, adult-care,
+senior-residential-with-AG-plan, NFP-retirement]..." NYC rent-controlled
+units (city rent and rehabilitation law) AND non-NYC rent-controlled units
+(emergency housing rent control law) are listed in the SAME exclusion
+clause as the facility categories. R3 was right that they're exempt from
+the substantive 1-a package; R4 was wrong to treat them as covered with
+DHCR as an additional layer. The precision both R3 and R4 missed: rent-
+controlled is still covered by § 7-108 at the umbrella level (subdivision
+1, and successor-liability subdivisions 2–3), and by §§ 7-103 (interest)
+and 7-105 (transfer on sale) — just NOT by 1-a's substantive package.
+Rewrote `whoQualifies` ("NOT this entry") and `whatItMeans` (rent-
+controlled moved into the exempt-from-1-a list).
+
+**Issue #2 — walk-through wording precision.** The statutory carve-out for
+<2-week tenant notice exempts the LANDLORD'S DUTY TO SEND WRITTEN NOTICE of
+the right to request the inspection — not the inspection itself. Functional
+outcome usually the same (no notice → no request → no walk-through), but
+tightened to match statute text.
+
+**Issue #3 — populated `pendingLegislation`.** Added A8078 (would extend
+the 14-day deadline to 21 days and add treble damages + attorneys' fees
+for willful retention; introduced 2025-2026 session, not yet passed as of
+Nov 2025). S6397 / A6423 (security-deposit-alternatives bill) noted by
+R5 but not added — A6423 has a name-collision concern with the S952B/A6423
+pair that became the § 7-107 amendment now in effect; will verify
+independently before adding.
+
+**Issue #4 — jurisdiction scope mismatch.** Entry is `jurisdiction: "us-ny"`
+but counsel + courts were Rochester / LawNY-service-area only. Added
+LawHelpNY (statewide referral) + Housing Court Answers + Legal Aid NYC to
+`legalOptions` so non-Rochester NY users land on something useful. The
+Rochester counsel array is still primary because that's the maintainer's
+ground-truth verification scope; statewide coverage is now at least one
+hop away in the entry rather than absent.
+
+**Issue #5 — `categoryDisclaimer: null`.** Verified — this is a legacy
+optional schema field; the active disclaimer is `disclaimer: true` (set).
+No action.
+
+**Verified clean by R5:** § 7-108 substantive package, exempt facility
+categories (all four characteristics for NFP independent retirement),
+seasonal-use + owner-occupied co-op cap-only carve-outs, § 7-103 (6+
+threshold + 1% admin fee), § 7-105 (5-day transfer + registered/certified
+mail), § 7-109 (AG enforcement), Nov 15 2025 § 7-107 amendment (S952B),
+Toporek (203 A.D.3d 17, 159 N.Y.S.3d 419 (1st Dep't 2022)), all phone
+numbers, Rochester City Court $5k / town-village $3k limits, example math.
