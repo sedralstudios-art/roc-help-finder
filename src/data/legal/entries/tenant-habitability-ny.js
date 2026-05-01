@@ -7,6 +7,30 @@ export const TENANT_HABITABILITY_NY = {
   primaryStatute: "NY RPP 235-B",
   status: "active",
 
+  // ─── Anchor fields (see src/data/legal/ANCHORS.md) ───
+  // First anchor written 2026-04-30 as the canonical statute summary for
+  // NY RPP 235-B. The 22 other entries citing this statute will reference
+  // this anchor via `statuteAnchor: "tenant-habitability-ny"` as the redo
+  // workflow touches each one. lastFormallyReviewed is provisional —
+  // grounded in WebSearch corroboration across NYS Senate text, Justia
+  // (2025 NY Laws), PropertyClub plain-English explainer, and St. John's
+  // Law Review article — pending attorney sign-off (Germain or other).
+  isAnchor: true,
+  anchorSource: {
+    // Canonical source URL is NYS Senate. NYS Senate hard-blocks bots
+    // with 403 (verified 2026-04-30 — even browser UA + transparent bot
+    // headers fail). Hash population requires phone-mediated capture; see
+    // scripts/check-source-drift.cjs --from-text mode and
+    // scripts/data/bot-blocked-sources.json for the workflow.
+    url: "https://www.nysenate.gov/legislation/laws/RPP/235-B",
+    hash: "",
+    lastFetched: ""
+  },
+  lastFormallyReviewed: "2026-04-30",
+  formallyReviewedBy: "Anthony DiMarzo + WebSearch corroboration (NYS Senate official statute text + Justia 2025 NY Laws + PropertyClub plain-English explainer + St. John's Law Review article) — provisional, pending attorney sign-off",
+  pendingLegislation: ["S5956-2025"],
+  sourceChangedSince: null,
+
   title: { en: "Warranty of Habitability — Every NY Tenant's Right to a Safe Home" },
 
   summary: {
