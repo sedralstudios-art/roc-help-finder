@@ -36,3 +36,8 @@ Bot-blocked items are also tracked machine-readable in `bot-blocked-sources.json
 - [ ] **deceptive-business-practices-ny** (claim) — VERIFY (HIGH PRIORITY): FAIR Act enacted text. Entry now removes the 5k/3x penalty claim per Covington & Burling Dec 23 2025 alert. Need attorney to read S8416 (Chapter 708 of 2025) directly to confirm: did the higher-penalty tier survive or not? If it did, restore the third bullet.
 
 - [ ] **deceptive-business-practices-ny** (claim) — VERIFY phone numbers (low priority, dialer can do): MCDPS 585-753-3014; Rochester City Court Civil 585-371-3412; JustCause 585-232-3051; Empire Justice 585-454-4060; Tenant Defense Project 585-504-6195; Rochester 311 / 585-428-5990 / NBD general 585-428-6883; Worker Justice Center 585-325-3050; NY DOL wage-theft 888-469-7365; MCBA Lawyer Referral 585-546-2130; CFPB 855-411-2372; FTC 877-382-4357. Already verified: Legal Aid Roc 585-232-4090, LawNY 585-325-2520, NY AG 800-771-7755.
+
+- [ ] **security-deposit-ny** (bot-blocked) — https://www.nysenate.gov/legislation/laws/GOB/7-108
+      _To clear:_ open the URL on phone, save readable text to file, run:
+      `node scripts/check-source-drift.cjs --from-text security-deposit-ny <textfile> --write`
+      _Note:_ 4th anchor candidate. NYS Senate 403 — same pattern. Phone capture for hash.
