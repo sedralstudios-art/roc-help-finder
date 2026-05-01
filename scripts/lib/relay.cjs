@@ -100,8 +100,12 @@ async function relay(promptText, opts = {}) {
     } else {
       log('stop button never disappeared within ' + timeoutMs + 'ms — using text-stable poll');
     }
-    await waitForTextStable(page, { quietMs: 2500, maxMs: timeoutMs });
   }
+
+  // Settling period: button vanishing is necessary but not sufficient for
+  // long responses. Always confirm text stability before extracting.
+  log('confirming assistant text is stable (settling period)');
+  await waitForTextStable(page, { quietMs: 2000, maxMs: 30000 });
 
   log('extracting response text');
   const responseText = await extractLastAssistantTurn(page);
