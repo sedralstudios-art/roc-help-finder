@@ -76,7 +76,7 @@ export const EVICTION_PROCESS_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income Monroe County tenants in eviction defense; often staffs the Rochester City Court Housing Part on hearing days.",
       "LawNY at (585) 325-2520 — eviction defense across 14-county Western NY service area.",
       "JustCause at (585) 232-3051 — pro bono volunteer attorney referrals for Monroe County tenants.",
-      "Tenant Defense Project unified intake hotline at (585) 504-6195 — single front-door for the four Telesca Center for Justice eviction-defense providers (Legal Aid Society of Rochester, LawNY, JustCause, Empire Justice Center). Use this number first; it routes to the right provider.",
+      "Tenant Defense Project unified intake hotline at (585) 504-6195 — single front-door for the three frontline Monroe County eviction-defense providers (Legal Aid Society of Rochester, LawNY, JustCause). Use this number first; it routes to the right provider.",
       "Empire Justice Center at (585) 454-4060 — statewide impact litigation and policy advocacy on housing. For individual eviction defense in Monroe County, frontline providers are Legal Aid Society of Rochester, LawNY, and JustCause.",
       "NY Attorney General Residential Tenants' Rights Guide at ag.ny.gov/publications/residential-tenants-rights-guide — plain-language overview of tenant rights in an eviction.",
       "NY State Good Cause Eviction information at ag.ny.gov/publications/new-york-state-good-cause-eviction-law — for tenants in municipalities that have adopted Good Cause.",
