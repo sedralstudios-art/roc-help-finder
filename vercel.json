@@ -1,4 +1,6 @@
 {
+  "trailingSlash": false,
+  "cleanUrls": true,
   "rewrites": [
     { "source": "/help", "destination": "/index.html" },
     { "source": "/help/:path*", "destination": "/index.html" }

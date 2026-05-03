@@ -414,4 +414,4 @@ ground truth. Verify claims against the actual code before acting on them.
 - Escape `$` in commit messages by using single quotes or `\$`. Bash silently
   expands unescaped `$varname` inside double quotes; batch 32's commit lost
   `$20k` and `$1M` to empty-variable expansion before this rule was added.
-- Never git push without explicit greenlight from the user.
+- Ask before `git push`.
