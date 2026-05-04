@@ -1,0 +1,37 @@
+{
+  "digits": "5853937608",
+  "kind": "phone",
+  "primaryName": "Rochester Vet Center (VA)",
+  "rawValue": "585-393-7608",
+  "blockDial": false,
+  "tags": [
+    "cat:veteranSvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rocvetctr",
+      "name": "Rochester Vet Center (VA)",
+      "category": "veteranSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T20:45:00.000Z",
+  "lastSeededAt": "2026-05-04T20:45:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:45:00.000Z",
+      "sourceUrl": "https://www.va.gov/rochester-vet-center/",
+      "sourceLabel": "Rochester Vet Center VA.gov page",
+      "notes": "Multi-source web confirms 585-393-7608 as Rochester Vet Center main line. 2000 S Winton Rd Bldg 5 Suite 201, Rochester NY 14618. M-F 8am-4:30pm. Direct VA.gov fetch returned blank phone field; corroborated via Yelp, AllVeteran, Connected Vets, NYS Dept of Veterans' Services. After-hours call center: 877-927-8387."
+    }
+  ]
+}

@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.579Z",
-  "lastSeededAt": "2026-05-03T19:44:16.579Z"
+  "lastSeededAt": "2026-05-03T19:44:16.579Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:40:00.000Z",
+      "sourceUrl": "https://veteransoutreachcenter.org",
+      "sourceLabel": "Veterans Outreach Center official site",
+      "notes": "Web confirms 585-546-1081 as Veterans Outreach Center main line. ADDRESS CORRECTION: official site lists 447 South Ave Rochester NY 14620 (programs.js had stale 459 South Ave — corrected)."
+    }
+  ]
 }

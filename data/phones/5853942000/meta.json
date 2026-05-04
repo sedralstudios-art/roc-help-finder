@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.579Z",
-  "lastSeededAt": "2026-05-03T19:44:16.579Z"
+  "lastSeededAt": "2026-05-03T19:44:16.579Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:30:00.000Z",
+      "sourceUrl": "https://www.va.gov/finger-lakes-health-care/locations/canandaigua-va-medical-center/",
+      "sourceLabel": "Canandaigua VA Medical Center facility page",
+      "notes": "Multi-source web search corroborates 585-394-2000 as the Canandaigua VA Medical Center main line (400 Fort Hill Ave, Canandaigua NY 14424-1159). Direct VA.gov fetch returned empty content fields; agreed across Brainline.org, NYS Veterans' Services, marketplace.va.gov."
+    }
+  ]
 }

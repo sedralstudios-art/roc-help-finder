@@ -140,5 +140,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.284Z",
-  "lastSeededAt": "2026-05-03T19:44:16.284Z"
+  "lastSeededAt": "2026-05-03T19:44:16.284Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:50:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/vsa",
+      "sourceLabel": "Monroe County Veterans Service Agency page",
+      "notes": "Web confirms 585-753-6040 as the Monroe County Veterans Service Agency main line. 125 Westfall Rd, Rochester NY 14620. Director Nicholas Stefanovic. Direct match to dialer transcript opening (\"Monroe County Veterans Service Agency\")."
+    }
+  ]
 }
