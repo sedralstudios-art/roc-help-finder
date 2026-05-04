@@ -1,0 +1,37 @@
+{
+  "digits": "8557781300",
+  "kind": "phone",
+  "primaryName": "Liberty Resources Recovery Support Navigator (Peer Advocate Line)",
+  "rawValue": "855-778-1300",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "libertyrec",
+      "name": "Liberty Resources Recovery Support Navigator",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:19:00.000Z",
+  "lastSeededAt": "2026-05-05T03:19:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:19:00.000Z",
+      "sourceUrl": "https://www.liberty-resources.org/rsn/",
+      "sourceLabel": "Liberty Resources Recovery Support Navigator page",
+      "notes": "Web confirms 1-855-778-1300 as Liberty Resources Peer Advocate Support line. 1-855-778-1200 is the Family Support line. M-F 9am-5pm. 175 Winton Rd N, Rochester NY 14610. RecovNavigator@Liberty-resources.org."
+    }
+  ]
+}

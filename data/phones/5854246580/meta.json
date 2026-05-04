@@ -60,5 +60,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.461Z",
-  "lastSeededAt": "2026-05-03T19:44:16.461Z"
+  "lastSeededAt": "2026-05-03T19:44:16.461Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:26:40.280Z",
+      "sourceUrl": "https://www.chsbuffalo.org/locations/pathways-rochester/",
+      "sourceLabel": "Catholic Health Pathways Rochester page",
+      "notes": "Web confirms (585) 424-6580 as Pathways Rochester (Catholic Health MAT) line. 435 E Henrietta Rd. M-F 6:30am-2pm."
+    }
+  ]
 }

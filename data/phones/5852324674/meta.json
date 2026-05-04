@@ -60,5 +60,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.460Z",
-  "lastSeededAt": "2026-05-03T19:44:16.460Z"
+  "lastSeededAt": "2026-05-03T19:44:16.460Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:26:40.280Z",
+      "sourceUrl": "https://www.pathwayhousesofrochester.org",
+      "sourceLabel": "Pathway Houses of Rochester (multi-source corroboration via addiction-programs.net + detoxrehabs)",
+      "notes": "Multi-source web confirms (585) 232-4674 as Pathway Houses of Rochester. 1600 South Ave #125, Rochester NY 14620. Site offline at fetch time; relied on rehab-directory listings."
+    }
+  ]
 }

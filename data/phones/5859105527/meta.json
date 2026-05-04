@@ -60,5 +60,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.460Z",
-  "lastSeededAt": "2026-05-03T19:44:16.460Z"
+  "lastSeededAt": "2026-05-03T19:44:16.460Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:26:40.280Z",
+      "sourceUrl": "https://www.recoveryhousesofrochester.org",
+      "sourceLabel": "Recovery Houses of Rochester official site",
+      "notes": "Web confirms (585) 910-5527 as Recovery Houses of Rochester main line. Alt (585) 413-0551. M-F 9am-4pm; calls returned within 72 hours."
+    }
+  ]
 }

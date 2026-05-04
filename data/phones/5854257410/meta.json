@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.461Z",
-  "lastSeededAt": "2026-05-03T19:44:16.461Z"
+  "lastSeededAt": "2026-05-03T19:44:16.461Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:26:40.280Z",
+      "sourceUrl": "https://perintonfoodshelf.org",
+      "sourceLabel": "Perinton Food Shelf official site",
+      "notes": "Web confirms 585-425-7410 as Perinton Food Shelf line. 14450 only. Voicemail-based; volunteer returns calls."
+    }
+  ]
 }

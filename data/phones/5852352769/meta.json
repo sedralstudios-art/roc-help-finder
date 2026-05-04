@@ -60,5 +60,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.459Z",
-  "lastSeededAt": "2026-05-03T19:44:16.459Z"
+  "lastSeededAt": "2026-05-03T19:44:16.459Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:26:40.280Z",
+      "sourceUrl": "https://easternusa.salvationarmy.org/empire/rochester/",
+      "sourceLabel": "Salvation Army Rochester (multi-source corroboration)",
+      "notes": "Web confirms 585-235-2769 as Salvation Army Free Furniture Pickup line. Alt 1-800-SA-TRUCK. Org main: 585-987-9500. Number was previously listed in entry's d: text; now hoisted to ph field."
+    }
+  ]
 }

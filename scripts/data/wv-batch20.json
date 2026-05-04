@@ -1,0 +1,38 @@
+[
+  {
+    "digits": "5852352769",
+    "sourceUrl": "https://easternusa.salvationarmy.org/empire/rochester/",
+    "sourceLabel": "Salvation Army Rochester (multi-source corroboration)",
+    "notes": "Web confirms 585-235-2769 as Salvation Army Free Furniture Pickup line. Alt 1-800-SA-TRUCK. Org main: 585-987-9500. Number was previously listed in entry's d: text; now hoisted to ph field."
+  },
+  {
+    "digits": "5859105527",
+    "sourceUrl": "https://www.recoveryhousesofrochester.org",
+    "sourceLabel": "Recovery Houses of Rochester official site",
+    "notes": "Web confirms (585) 910-5527 as Recovery Houses of Rochester main line. Alt (585) 413-0551. M-F 9am-4pm; calls returned within 72 hours."
+  },
+  {
+    "digits": "5852324674",
+    "sourceUrl": "https://www.pathwayhousesofrochester.org",
+    "sourceLabel": "Pathway Houses of Rochester (multi-source corroboration via addiction-programs.net + detoxrehabs)",
+    "notes": "Multi-source web confirms (585) 232-4674 as Pathway Houses of Rochester. 1600 South Ave #125, Rochester NY 14620. Site offline at fetch time; relied on rehab-directory listings."
+  },
+  {
+    "digits": "5855637470",
+    "sourceUrl": "https://easthouse.org",
+    "sourceLabel": "East House official site",
+    "notes": "Web confirms 585-563-7470 as the East House Affinity Place Warm Line, a 24/7 peer support phone (NOT a crisis line). Operated by East House (main 585-238-4800)."
+  },
+  {
+    "digits": "5854246580",
+    "sourceUrl": "https://www.chsbuffalo.org/locations/pathways-rochester/",
+    "sourceLabel": "Catholic Health Pathways Rochester page",
+    "notes": "Web confirms (585) 424-6580 as Pathways Rochester (Catholic Health MAT) line. 435 E Henrietta Rd. M-F 6:30am-2pm."
+  },
+  {
+    "digits": "5854257410",
+    "sourceUrl": "https://perintonfoodshelf.org",
+    "sourceLabel": "Perinton Food Shelf official site",
+    "notes": "Web confirms 585-425-7410 as Perinton Food Shelf line. 14450 only. Voicemail-based; volunteer returns calls."
+  }
+]

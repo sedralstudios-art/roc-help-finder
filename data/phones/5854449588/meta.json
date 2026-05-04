@@ -1,0 +1,37 @@
+{
+  "digits": "5854449588",
+  "kind": "phone",
+  "primaryName": "Greater Rochester Habitat for Humanity ReStore",
+  "rawValue": "585-444-9588",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "habitatrestore",
+      "name": "Habitat for Humanity ReStore",
+      "category": "clothing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:18:00.000Z",
+  "lastSeededAt": "2026-05-05T03:18:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:18:00.000Z",
+      "sourceUrl": "https://www.grhabitat.org/restore",
+      "sourceLabel": "Greater Rochester Habitat for Humanity ReStore page",
+      "notes": "Web confirms (585) 444-9588 as the Greater Rochester Habitat ReStore (East Henrietta location: 2199 E Henrietta Rd 14623). Multiple ReStore locations: Culver Rd 14609, E Henrietta 14623, Webster 14580. Flower City Habitat office is separate at 585-546-1470."
+    }
+  ]
+}
