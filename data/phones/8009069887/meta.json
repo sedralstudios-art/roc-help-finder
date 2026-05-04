@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.465Z",
-  "lastSeededAt": "2026-05-03T19:44:16.465Z"
+  "lastSeededAt": "2026-05-03T19:44:16.465Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:42:00.000Z",
+      "sourceUrl": "https://www.irs.gov/individuals/find-a-location-for-free-tax-prep",
+      "sourceLabel": "IRS Find a Location for Free Tax Prep page",
+      "notes": "Web confirms 800-906-9887 as the IRS VITA Locator line for finding free tax prep sites nationwide. Used by EITC program for connecting eligible filers to local CASH/VITA sites. Jan-Apr."
+    }
+  ]
 }

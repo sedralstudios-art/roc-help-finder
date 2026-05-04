@@ -1,0 +1,37 @@
+{
+  "digits": "9143055336",
+  "kind": "phone",
+  "primaryName": "NAACP Rochester (Branch 2172)",
+  "rawValue": "914-305-5336",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "naacp",
+      "name": "NAACP Rochester (Branch 2172)",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:43:00.000Z",
+  "lastSeededAt": "2026-05-05T03:43:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:43:00.000Z",
+      "sourceUrl": "https://www.nysnaacp.org/directory/rochester",
+      "sourceLabel": "NAACP NY State Conference Branch Directory — Rochester #2172",
+      "notes": "Web confirms 914-305-5336 as NAACP Rochester Branch 2172 contact line. President: Kiesha Ivey. Email: naacp2172@gmail.com. Mailing: P.O. Box 14305, Rochester NY 14614. Note: 914 area code is unusual for Rochester — likely a board member's contact line, not a Rochester office line."
+    }
+  ]
+}
