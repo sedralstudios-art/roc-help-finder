@@ -220,5 +220,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.268Z",
-  "lastSeededAt": "2026-05-03T19:44:16.268Z"
+  "lastSeededAt": "2026-05-03T19:44:16.268Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:42:00.000Z",
+      "sourceUrl": "https://211lifeline.org",
+      "sourceLabel": "211 Finger Lakes / Goodwill of the Finger Lakes",
+      "notes": "Web confirms 211 (alt 1-877-356-9211; text 898211) operated by Goodwill of the Finger Lakes for the Rochester region (Cayuga, Livingston, Monroe, Ontario, Seneca, Wayne). 24/7. Information & referral. blockDial:true — staffed routing, never auto-dial."
+    }
+  ]
 }

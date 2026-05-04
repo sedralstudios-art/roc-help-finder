@@ -75,5 +75,13 @@
     "trans",
     "lifeline"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:36:00.000Z",
+      "sourceUrl": "https://translifeline.org/hotline/",
+      "sourceLabel": "Trans Lifeline hotline page",
+      "notes": "Web confirms 877-565-8860 as the US Trans Lifeline hotline. CORRECTION: not 24/7 — operates M-F 10am-6pm Pacific (1pm-9pm Eastern). Peer-run by trans/nonbinary operators. Hours field in programs.js corrected from \"24/7\" to \"M-F 1pm-9pm ET\"."
+    }
+  ]
 }

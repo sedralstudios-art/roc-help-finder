@@ -1,13 +1,23 @@
 {
   "digits": "8005036897",
   "kind": "phone",
-  "primaryName": "entry-callout:prescription-assistance-ny",
-  "rawValue": "(800) 503-6897",
+  "primaryName": "NeedyMeds Helpline",
+  "rawValue": "800-503-6897",
   "blockDial": false,
   "tags": [
-    "entry-callout"
+    "cat:prescriptions",
+    "entry-callout",
+    "program",
+    "web-verified"
   ],
   "sourceOwners": [
+    {
+      "type": "program",
+      "id": "needymeds",
+      "name": "NeedyMeds (Find Free Medications)",
+      "category": "prescriptions",
+      "hidden": false
+    },
     {
       "type": "entry",
       "id": "prescription-assistance-ny",
@@ -57,5 +67,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.551Z",
-  "lastSeededAt": "2026-05-03T19:44:16.551Z"
+  "lastSeededAt": "2026-05-03T19:44:16.551Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:00:00.000Z",
+      "sourceUrl": "https://www.needymeds.org/helpline",
+      "sourceLabel": "NeedyMeds Helpline (URL listed across multiple aggregators)",
+      "notes": "Web search across multiple sources (NeedyMeds blog, 211 listings, BeMedWise, Cancer & Careers, askjan.org) consistently confirms 1-800-503-6897 as the NeedyMeds Helpline. Operating hours M-F 9am-5pm ET. Direct fetch of official site returned empty content; relied on multi-source corroboration."
+    }
+  ]
 }

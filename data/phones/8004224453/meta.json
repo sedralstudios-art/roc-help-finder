@@ -76,5 +76,13 @@
     "child",
     "abuse"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:30:00.000Z",
+      "sourceUrl": "https://childhelphotline.org",
+      "sourceLabel": "Childhelp National Child Abuse Hotline official site",
+      "notes": "Web confirms 800-422-4453 as the Childhelp National Child Abuse Hotline, available 24/7 with call/text/chat. Direct match to dialer transcript opening (\"Child Help National Child Abuse Hotline\")."
+    }
+  ]
 }

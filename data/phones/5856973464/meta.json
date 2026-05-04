@@ -1,0 +1,37 @@
+{
+  "digits": "5856973464",
+  "kind": "phone",
+  "primaryName": "Teen Empowerment Rochester",
+  "rawValue": "585-697-3464",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "te",
+      "name": "Teen Empowerment",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T02:05:00.000Z",
+  "lastSeededAt": "2026-05-04T02:05:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:05:00.000Z",
+      "sourceUrl": "https://teenempowerment.org/contact-us/",
+      "sourceLabel": "Teen Empowerment Contact Us page",
+      "notes": "Web confirms 585-697-3464 as Teen Empowerment's Rochester NY location. 1298 Dewey Ave, Rochester NY 14613. Youth leadership/paid jobs program for ages 14-21."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "digits": "5852710761",
+  "kind": "phone",
+  "primaryName": "Mary Cariola Children's Center",
+  "rawValue": "585-271-0761",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "marycariola",
+      "name": "Mary Cariola Children's Center",
+      "category": "disabilitySvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T03:08:00.000Z",
+  "lastSeededAt": "2026-05-04T03:08:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:08:00.000Z",
+      "sourceUrl": "https://marycariola.org",
+      "sourceLabel": "Mary Cariola Children's Center official site",
+      "notes": "Web confirms 585-271-0761 as the Mary Cariola Children's Center administrative office. 1000 Elmwood Ave Suite 100, Rochester NY 14620. Education/services for children with severe disabilities."
+    }
+  ]
+}

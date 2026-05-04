@@ -1,0 +1,37 @@
+{
+  "digits": "5854286366",
+  "kind": "phone",
+  "primaryName": "City of Rochester ROC Youth Employment Network Helpline (SYEP)",
+  "rawValue": "585-428-6366",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "syep",
+      "name": "Summer Youth Employment (SYEP)",
+      "category": "employment",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T01:10:00.000Z",
+  "lastSeededAt": "2026-05-04T01:10:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:10:00.000Z",
+      "sourceUrl": "https://rocyouthemployment.com/",
+      "sourceLabel": "ROC Youth Employment Network official site",
+      "notes": "Web confirms 585-428-6366 as the City of Rochester ROC Youth Employment Network Helpline for the Summer Youth Employment Program (SYEP). Office at 57 St. Paul St, Rochester NY 14604. Email RYEN@rochesterworks.org."
+    }
+  ]
+}

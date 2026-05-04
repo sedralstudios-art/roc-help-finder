@@ -66,5 +66,13 @@
     "advocacy",
     "greater"
   ],
-  "verifiedRatio": 0.6
+  "verifiedRatio": 0.6,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:38:00.000Z",
+      "sourceUrl": "https://www.bivonacac.org",
+      "sourceLabel": "Bivona Child Advocacy Center / Child Advocacy Center of Greater Rochester",
+      "notes": "Multi-source web confirmation: 585-935-7800 = Bivona Child Advocacy Center / Child Advocacy Center of Greater Rochester (Skalny Building, 1 Mt Hope Ave, Rochester NY 14620). Direct fetch of bivonacac.org failed cert verification; cacgroc.org omitted phone — relied on Bivona's BASWA listing + CCSI listing + 211/OVS listing. Direct match to dialer transcript opening (\"Child Advocacy Center of Greater Rochester\")."
+    }
+  ]
 }

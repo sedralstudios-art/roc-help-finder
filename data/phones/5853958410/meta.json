@@ -81,5 +81,13 @@
     "business",
     "development"
   ],
-  "verifiedRatio": 0.75
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:15:00.000Z",
+      "sourceUrl": "https://www.sbdcbrockport.org/",
+      "sourceLabel": "SBDC at SUNY Brockport official site",
+      "notes": "Web confirms 585-395-8410 as the Small Business Development Center at SUNY Brockport (Rochester location, 161 Chestnut St 5th Fl, 14604). M-F 9am-5pm. Direct match to dialer transcript opening (\"Welcome to the Small Business Development Center\")."
+    }
+  ]
 }

@@ -184,5 +184,13 @@
     "worker",
     "justice"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:38:00.000Z",
+      "sourceUrl": "https://www.wjcny.org/contact",
+      "sourceLabel": "Worker Justice Center of New York contact page",
+      "notes": "Web confirms 585-325-3050 as the WJCNY Western New York (Rochester) office. Toll-free 800-724-7020 also serves the Lower Hudson Valley (Hawthorne) office. Hudson Valley (Kingston) at 845-331-6615. M-F 9am-5pm (hybrid). Direct match to dialer transcript opening (\"Worker Justice Center of New York\")."
+    }
+  ]
 }

@@ -1,0 +1,37 @@
+{
+  "digits": "5853348228",
+  "kind": "phone",
+  "primaryName": "American Legion Post 1151",
+  "rawValue": "585-334-8228",
+  "blockDial": false,
+  "tags": [
+    "cat:veteranSvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "alpost1151",
+      "name": "American Legion Post 1151 (+ local DAV office)",
+      "category": "veteranSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T00:55:00.000Z",
+  "lastSeededAt": "2026-05-04T00:55:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:55:00.000Z",
+      "sourceUrl": "https://www.alpost1151.org",
+      "sourceLabel": "American Legion Post 1151 official site",
+      "notes": "Web confirms 585-334-8228 as the main number for American Legion Post 1151, 1225 Jefferson Rd Suite A01 Rochester NY 14623. The site does not list a separate DAV-office phone — DAV referrals go through the post's main number."
+    }
+  ]
+}

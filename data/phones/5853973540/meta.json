@@ -1,0 +1,37 @@
+{
+  "digits": "5853973540",
+  "kind": "phone",
+  "primaryName": "Metro Justice",
+  "rawValue": "585-397-3540",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "metrojustice",
+      "name": "Metro Justice",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T01:48:00.000Z",
+  "lastSeededAt": "2026-05-04T01:48:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:48:00.000Z",
+      "sourceUrl": "https://www.metrojustice.org",
+      "sourceLabel": "Metro Justice official site",
+      "notes": "Web confirms 585-397-3540 as the Metro Justice main line. 389 Gregory St Unit A, Rochester NY 14620. Community organizing nonprofit (housing rights, utility justice, workers' rights)."
+    }
+  ]
+}

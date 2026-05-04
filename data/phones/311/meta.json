@@ -369,5 +369,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.265Z",
-  "lastSeededAt": "2026-05-03T19:44:16.265Z"
+  "lastSeededAt": "2026-05-03T19:44:16.265Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:50:00.000Z",
+      "sourceUrl": "https://www.cityofrochester.gov/contact-us",
+      "sourceLabel": "City of Rochester Contact Us page",
+      "notes": "Web confirms 311 (or 585-428-5990 from outside the city) as the City of Rochester general inquiry / 311 Live line. Used by roc311, seniorcenters, rcentersyouth, rcenters programs. blockDial:true — staffed routing, never auto-dial."
+    }
+  ]
 }

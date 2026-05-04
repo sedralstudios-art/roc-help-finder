@@ -87,5 +87,13 @@
     "sexual",
     "assault"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:34:00.000Z",
+      "sourceUrl": "https://rainn.org/help-and-healing/hotline/",
+      "sourceLabel": "RAINN National Sexual Assault Hotline page",
+      "notes": "Web confirms 800-656-HOPE (4673) as the National Sexual Assault Hotline operated by RAINN, 24/7 in English and Spanish. Chat at rainn.org/hotline; text HOPE to 64673. Direct match to dialer transcript opening."
+    }
+  ]
 }

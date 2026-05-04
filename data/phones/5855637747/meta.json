@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.421Z",
-  "lastSeededAt": "2026-05-03T19:44:16.421Z"
+  "lastSeededAt": "2026-05-03T19:44:16.421Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:55:00.000Z",
+      "sourceUrl": "https://rhrroc.org",
+      "sourceLabel": "Refugees Helping Refugees official site",
+      "notes": "Web confirms (585) 563-7747 as Refugees Helping Refugees main line. 228 S Plymouth Ave, Rochester NY 14608. Volunteer-run nonprofit (ESL/case management/youth/senior services for refugees)."
+    }
+  ]
 }

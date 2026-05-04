@@ -61,5 +61,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.358Z",
-  "lastSeededAt": "2026-05-03T19:44:16.358Z"
+  "lastSeededAt": "2026-05-03T19:44:16.358Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:18:00.000Z",
+      "sourceUrl": "https://www.hillside.com/services/youth-development/hillside-work-scholarship-connection/",
+      "sourceLabel": "Hillside Work-Scholarship Connection page",
+      "notes": "Web confirms 585-256-7500 as the general Hillside contact number (24-hour line) covering the Hillside Work-Scholarship Connection program. Program operates in 43 schools in Rochester/Syracuse/Buffalo NY and Prince George's County MD."
+    }
+  ]
 }

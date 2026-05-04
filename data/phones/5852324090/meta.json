@@ -3555,5 +3555,13 @@
     "legal",
     "aid"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:25:00.000Z",
+      "sourceUrl": "https://lasroc.org/contact-us/",
+      "sourceLabel": "Legal Aid Society of Rochester contact page",
+      "notes": "Web confirms 585-232-4090 as the Legal Aid Society of Rochester main line. 1 West Main St, Rochester NY 14614. Online intake at lasrocoi.legalserver.org. Direct match to dialer transcript opening (\"Legal Aid Society of Rochester\")."
+    }
+  ]
 }

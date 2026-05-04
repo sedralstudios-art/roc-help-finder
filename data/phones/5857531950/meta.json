@@ -63,5 +63,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.358Z",
-  "lastSeededAt": "2026-05-03T19:44:16.358Z"
+  "lastSeededAt": "2026-05-03T19:44:16.358Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:42:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/legislature",
+      "sourceLabel": "Monroe County Legislature page",
+      "notes": "Web confirms 585-753-1950 as the Monroe County Legislature main line. David Grant serves as Clerk of the Legislature. Fax 585-324-4340."
+    }
+  ]
 }

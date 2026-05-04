@@ -66,5 +66,13 @@
     "place",
     "refugee"
   ],
-  "verifiedRatio": 0.75
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:38:00.000Z",
+      "sourceUrl": "https://www.marysplaceoutreach.org",
+      "sourceLabel": "Mary's Place Refugee Outreach Center official site",
+      "notes": "Web confirms (585) 270-8626 as Mary's Place main line. ADDRESS CORRECTION: 414 Lexington Ave, Rochester NY 14613 (programs.js previously had stale 55 St Paul St 14604 — corrected). Hours per site: M-F 11am-4pm. Both web and dialer transcript confirm address. Closes for weather emergencies when local school district closes. Direct match to dialer transcript opening (\"Mary's Place Refugee Outreach\")."
+    }
+  ]
 }

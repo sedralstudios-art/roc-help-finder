@@ -88,5 +88,13 @@
     "developmental",
     "disabilities"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:55:00.000Z",
+      "sourceUrl": "https://opwdd.ny.gov",
+      "sourceLabel": "OPWDD official site",
+      "notes": "Web confirms 1-866-946-9733 as the OPWDD (NY State Office for People With Developmental Disabilities) main line. Direct match to dialer transcript opening (\"New York State Office for People with Developmental Disabilities\")."
+    }
+  ]
 }

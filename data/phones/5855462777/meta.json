@@ -81,5 +81,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.297Z",
-  "lastSeededAt": "2026-05-03T19:44:16.297Z"
+  "lastSeededAt": "2026-05-03T19:44:16.297Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:42:00.000Z",
+      "sourceUrl": "https://restoresas.org",
+      "sourceLabel": "RESTORE Sexual Assault Services official site",
+      "notes": "Web confirms 585-546-2777 as RESTORE Sexual Assault Services 24-hour hotline serving Monroe, Genesee, Livingston, Orleans, and Wyoming counties. National backup line: 1-800-656-4673 (RAINN)."
+    }
+  ]
 }

@@ -99,5 +99,13 @@
     "board",
     "elections"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:45:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/elections",
+      "sourceLabel": "Monroe County Board of Elections page",
+      "notes": "Web confirms 585-753-1550 as the Monroe County Board of Elections main line. 435 Smith St, Rochester NY 14608. M-F 9am-5pm. TTY 585-753-1544. Direct match to dialer transcript opening (\"Monroe County Board of Elections\")."
+    }
+  ]
 }

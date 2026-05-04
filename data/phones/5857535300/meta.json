@@ -12,6 +12,13 @@
     {
       "type": "program",
       "id": "mcdohopioid"
+    },
+    {
+      "type": "program",
+      "id": "naloxbox",
+      "name": "Nalox Boxes (Free Public Narcan)",
+      "category": "addiction",
+      "hidden": false
     }
   ],
   "callsRecorded": 1,

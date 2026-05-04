@@ -218,5 +218,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.271Z",
-  "lastSeededAt": "2026-05-03T19:44:16.271Z"
+  "lastSeededAt": "2026-05-03T19:44:16.271Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:50:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/aging",
+      "sourceLabel": "Monroe County Office for the Aging page",
+      "notes": "Web confirms 585-753-6280 as the Monroe County Office for the Aging main line. 435 E Henrietta Rd, MCH 3rd Fl, Rochester NY 14620. M-F 8am-5pm. Fax 585-753-6281. Greece satellite 585-753-2802; Webster satellite 585-753-2812 (currently closed for maintenance per the page)."
+    }
+  ]
 }

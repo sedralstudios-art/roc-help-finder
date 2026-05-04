@@ -87,5 +87,13 @@
     "domestic",
     "violence"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:32:00.000Z",
+      "sourceUrl": "https://www.thehotline.org/get-help/",
+      "sourceLabel": "National Domestic Violence Hotline official Get Help page",
+      "notes": "Web confirms 800-799-7233 (800-799-SAFE) as the National Domestic Violence Hotline. Text START to 88788 also listed. Direct match to dialer transcript opening."
+    }
+  ]
 }

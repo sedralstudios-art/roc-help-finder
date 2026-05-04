@@ -557,5 +557,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.264Z",
-  "lastSeededAt": "2026-05-03T19:44:16.264Z"
+  "lastSeededAt": "2026-05-03T19:44:16.264Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:30:00.000Z",
+      "sourceUrl": "https://www.lawny.org/page/50/rochester-location",
+      "sourceLabel": "LawNY Rochester Location page",
+      "notes": "Web confirms 585-325-2520 as the LawNY (Legal Assistance of Western New York) Rochester / Monroe County Legal Assistance Center. 1 West Main St, 4th Fl, Rochester NY 14614. M-F 9am-5pm. Direct match to dialer transcript opening (\"Legal Assistance of Western New York Rochester\")."
+    }
+  ]
 }

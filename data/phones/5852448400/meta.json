@@ -345,5 +345,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.267Z",
-  "lastSeededAt": "2026-05-03T19:44:16.267Z"
+  "lastSeededAt": "2026-05-03T19:44:16.267Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:55:00.000Z",
+      "sourceUrl": "https://www.lifespan-roch.org",
+      "sourceLabel": "Lifespan of Greater Rochester official site",
+      "notes": "Web confirms 585-244-8400 as the Lifespan of Greater Rochester main line; 866-454-5110 toll-free. 1900 S Clinton Ave, Rochester NY 14618. Used by life (Senior Advocacy), safejrny (Elder Abuse), and hiicap (Medicare Counseling) program entries — all routed through the main number. Direct match to dialer transcript opening (\"Lifespan\")."
+    }
+  ]
 }

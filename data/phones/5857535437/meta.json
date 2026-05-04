@@ -90,5 +90,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.296Z",
-  "lastSeededAt": "2026-05-03T19:44:16.296Z"
+  "lastSeededAt": "2026-05-03T19:44:16.296Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:12:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/hdchild-ei",
+      "sourceLabel": "Monroe County Early Intervention page",
+      "notes": "Web confirms 585-753-KIDS (5437) as Monroe County Early Intervention (Ages 0-3). Address: 111 Westfall Rd Rm 938. Dialer transcript opening confirms this single line ALSO serves Preschool Special Education (Ages 3-5) — \"Monroe County Department of Public Health Early Intervention and Preschool Special Education Programs.\" Used by both earlyint and cpse programs."
+    }
+  ]
 }

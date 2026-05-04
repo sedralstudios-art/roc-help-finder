@@ -126,5 +126,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.278Z",
-  "lastSeededAt": "2026-05-03T19:44:16.278Z"
+  "lastSeededAt": "2026-05-03T19:44:16.278Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:32:00.000Z",
+      "sourceUrl": "http://willowcenterny.org/",
+      "sourceLabel": "Willow Center official site",
+      "notes": "Web confirms (585) 222-SAFE (7233) as the Willow Center 24-hour DV hotline (also accepts text). Office line 585-232-5200. Direct match — dialer transcript opening (\"hotline\") matches the standard DV-line answer."
+    }
+  ]
 }

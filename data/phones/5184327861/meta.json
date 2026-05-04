@@ -1,0 +1,38 @@
+{
+  "digits": "5184327861",
+  "kind": "phone",
+  "primaryName": "Disability Rights New York (DRNY)",
+  "rawValue": "518-432-7861",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "cat:legal",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "specialedadvocate",
+      "name": "Disability Rights NY (Special Ed Advocacy)",
+      "category": "disabilitySvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T03:18:00.000Z",
+  "lastSeededAt": "2026-05-04T03:18:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:18:00.000Z",
+      "sourceUrl": "https://www.drny.org",
+      "sourceLabel": "Disability Rights New York official site",
+      "notes": "Web confirms 518-432-7861 as the DRNY main line; toll-free 800-993-8982. Albany HQ, with offices in Brooklyn and Rochester. The Rochester office phone is not listed on the main site — calls route through the Albany main number."
+    }
+  ]
+}

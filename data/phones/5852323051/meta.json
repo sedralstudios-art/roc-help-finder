@@ -460,5 +460,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.265Z",
-  "lastSeededAt": "2026-05-03T19:44:16.265Z"
+  "lastSeededAt": "2026-05-03T19:44:16.265Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:33:00.000Z",
+      "sourceUrl": "https://www.justcauseny.org",
+      "sourceLabel": "JustCause official site (formerly Volunteer Legal Services Project)",
+      "notes": "Web confirms 585-232-3051 as the JustCause main line. Telesca Center for Justice, 1 W Main St 5th Fl, Rochester NY 14614. Free legal clinics (family/bankruptcy/immigration). Online intake at legalhelprochester.com."
+    }
+  ]
 }

@@ -64,5 +64,13 @@
   "verifiedMatchTokens": [
     "cp"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:00:00.000Z",
+      "sourceUrl": "https://cprochester.org",
+      "sourceLabel": "CP Rochester official site",
+      "notes": "Web confirms 585-334-6000 as the CP Rochester main line. Admin hours M-F 8am-4pm per dialer transcript. Services for cerebral palsy and developmental disabilities. Direct match to dialer transcript opening (\"CP Rochester\")."
+    }
+  ]
 }

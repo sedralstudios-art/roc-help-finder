@@ -86,5 +86,13 @@
     "domestic",
     "violence"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:48:00.000Z",
+      "sourceUrl": "https://opdv.ny.gov",
+      "sourceLabel": "NYS Office for the Prevention of Domestic Violence",
+      "notes": "Web confirms 800-942-6906 as the NY State Domestic Violence hotline operated by OPDV. 24/7 in most languages. Text 844-997-2121 or live chat at opdv.ny.gov. Direct match to dialer transcript opening (\"New York State Domestic and Sexual Violence Hotline\")."
+    }
+  ]
 }

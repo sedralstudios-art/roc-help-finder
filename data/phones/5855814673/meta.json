@@ -1,0 +1,39 @@
+{
+  "digits": "5855814673",
+  "kind": "phone",
+  "primaryName": "Villa of Hope Services Intake (HOPE)",
+  "rawValue": "585-581-4673",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "cat:addiction",
+    "cat:mental",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "villaofhopeyouth",
+      "name": "Villa of Hope (Youth Services)",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T02:25:00.000Z",
+  "lastSeededAt": "2026-05-04T02:25:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:25:00.000Z",
+      "sourceUrl": "https://www.villaofhope.org",
+      "sourceLabel": "Villa of Hope official site",
+      "notes": "Web confirms 585-581-HOPE (4673) as the Villa of Hope services intake line. 3300 Dewey Ave, Rochester NY 14616. Serves chemical dependency, mental/behavioral health, trauma recovery — including at-risk youth. Main org line 585-865-1550."
+    }
+  ]
+}

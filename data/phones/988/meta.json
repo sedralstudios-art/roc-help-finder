@@ -56,5 +56,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.305Z",
-  "lastSeededAt": "2026-05-03T19:44:16.305Z"
+  "lastSeededAt": "2026-05-03T19:44:16.305Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:44:00.000Z",
+      "sourceUrl": "https://988lifeline.org",
+      "sourceLabel": "988 Suicide & Crisis Lifeline official site",
+      "notes": "Web confirms 988 as the Suicide & Crisis Lifeline, 24/7/365. Call/text 988; chat at chat.988lifeline.org. Spanish text/chat available. Veterans option (press 1 or text 838255). Video relay for Deaf/HoH. blockDial:true — never auto-dial."
+    }
+  ]
 }

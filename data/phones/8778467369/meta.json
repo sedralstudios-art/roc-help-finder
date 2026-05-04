@@ -93,5 +93,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.292Z",
-  "lastSeededAt": "2026-05-03T19:44:16.292Z"
+  "lastSeededAt": "2026-05-03T19:44:16.292Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:38:00.000Z",
+      "sourceUrl": "https://oasas.ny.gov/hopeline",
+      "sourceLabel": "NYS OASAS HOPEline official page",
+      "notes": "Web confirms 1-877-8-HOPENY (877-846-7369) as the NY State Office of Addiction Services and Supports HOPEline, 24/7/365. Text HOPENY to 467369. Covers substance use AND problem gambling. Dialer captured \"New York State Office of Addiction Services and Supports Confidential Hope Line\" — matches (NYS-OASAS expanded form; same agency, same number)."
+    }
+  ]
 }

@@ -1,0 +1,37 @@
+{
+  "digits": "5853283077",
+  "kind": "phone",
+  "primaryName": "Boys & Girls Clubs of Rochester",
+  "rawValue": "585-328-3077",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "bgcroc",
+      "name": "Boys & Girls Club of Rochester",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T02:18:00.000Z",
+  "lastSeededAt": "2026-05-04T02:18:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:18:00.000Z",
+      "sourceUrl": "https://www.bgcrochester.org",
+      "sourceLabel": "Boys & Girls Clubs of Rochester official site",
+      "notes": "Web confirms 585-328-3077 as the Boys & Girls Clubs of Rochester main line. 500 Genesee St, Rochester NY 14611. Multiple club locations."
+    }
+  ]
+}

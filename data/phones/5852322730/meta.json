@@ -71,5 +71,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.333Z",
-  "lastSeededAt": "2026-05-03T19:44:16.333Z"
+  "lastSeededAt": "2026-05-03T19:44:16.333Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T01:22:00.000Z",
+      "sourceUrl": "https://reoc.brockport.edu/contact-us/",
+      "sourceLabel": "Rochester Educational Opportunity Center contact page",
+      "notes": "Web confirms 585-232-2730 as the Rochester Educational Opportunity Center (REOC) at 161 Chestnut St, Rochester NY 14604. SUNY Brockport sponsors. reocadmissions@brockport.edu. Used by both reoc (education) and reocjobs (employment) program entries. Direct match to dialer transcript opening (\"Rochester EOC\")."
+    }
+  ]
 }

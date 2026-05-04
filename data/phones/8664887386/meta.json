@@ -67,5 +67,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.355Z",
-  "lastSeededAt": "2026-05-03T19:44:16.355Z"
+  "lastSeededAt": "2026-05-03T19:44:16.355Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:40:00.000Z",
+      "sourceUrl": "https://www.thetrevorproject.org/get-help/",
+      "sourceLabel": "The Trevor Project Get Help page",
+      "notes": "Web confirms 1-866-488-7386 as The Trevor Project crisis support line for LGBTQ+ young people, 24/7. Text START to 678-678. Dialer transcript opening was a 911 disclaimer (\"a life-threatening emergency\"), which is a common opening on crisis lines — not a name mismatch."
+    }
+  ]
 }

@@ -73,5 +73,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.321Z",
-  "lastSeededAt": "2026-05-03T19:44:16.321Z"
+  "lastSeededAt": "2026-05-03T19:44:16.321Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T03:25:00.000Z",
+      "sourceUrl": "https://arcmonroe.org",
+      "sourceLabel": "The Arc of Monroe official site",
+      "notes": "Web confirms (585) 271-0660 as The Arc of Monroe main line. 2060 Brighton-Henrietta Townline Rd, Rochester NY 14623. Dialer transcript was likely captured after-hours and routed through an external answering service (Oxman Rose) — main number is correct."
+    }
+  ]
 }

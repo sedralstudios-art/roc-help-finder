@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.420Z",
-  "lastSeededAt": "2026-05-03T19:44:16.420Z"
+  "lastSeededAt": "2026-05-03T19:44:16.420Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T02:22:00.000Z",
+      "sourceUrl": "https://rochesterymca.org/contact",
+      "sourceLabel": "YMCA of Greater Rochester contact page",
+      "notes": "Web confirms 585-546-5500 as the YMCA of Greater Rochester Association Office main line. 100 Chestnut St Suite 901, Rochester NY 14604. Dialer transcript opening (\"Association office\") matches — that's how the line answers."
+    }
+  ]
 }
