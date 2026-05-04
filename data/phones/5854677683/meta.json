@@ -1,0 +1,37 @@
+{
+  "digits": "5854677683",
+  "kind": "phone",
+  "primaryName": "OACES (RCSD Office of Adult and Career Education Services)",
+  "rawValue": "585-467-7683",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ged",
+      "name": "Free GED / High School Equivalency",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:37:00.000Z",
+  "lastSeededAt": "2026-05-05T03:37:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:37:00.000Z",
+      "sourceUrl": "https://www.rcsdk12.org/OACES",
+      "sourceLabel": "OACES official site (multi-source corroboration via NLD + acces.nysed.gov)",
+      "notes": "Multi-source web confirms 585-467-7683 as OACES (Office of Adult and Career Education Services) main line. RCSD's Adult Learning Center. 30 Hart St Room 216 Rochester NY 14605. Free HSE/GED, ESOL, career training. Classes 9am-noon, 12:30-3:30pm, 5-7:30pm."
+    }
+  ]
+}

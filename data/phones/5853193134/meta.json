@@ -1,0 +1,37 @@
+{
+  "digits": "5853193134",
+  "kind": "phone",
+  "primaryName": "Rochester Refugee Resettlement Services",
+  "rawValue": "585-319-3134",
+  "blockDial": false,
+  "tags": [
+    "cat:refugeeSvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rrrs",
+      "name": "Rochester Refugee Resettlement Services",
+      "category": "refugeeSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:36:00.000Z",
+  "lastSeededAt": "2026-05-05T03:36:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:36:00.000Z",
+      "sourceUrl": "https://www.rochesterrefugeeservices.org",
+      "sourceLabel": "Rochester Refugee Resettlement Services official site",
+      "notes": "Web confirms 585-319-3134 as Rochester Refugee Resettlement Services main line. M-F 9am-5pm."
+    }
+  ]
+}

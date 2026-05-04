@@ -1,0 +1,37 @@
+{
+  "digits": "5853856860",
+  "kind": "phone",
+  "primaryName": "Saint's Place (Refugee Supplies)",
+  "rawValue": "585-385-6860",
+  "blockDial": false,
+  "tags": [
+    "cat:refugeeSvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "saintsplace",
+      "name": "Saint's Place (Refugee Supplies)",
+      "category": "refugeeSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:35:00.000Z",
+  "lastSeededAt": "2026-05-05T03:35:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:35:00.000Z",
+      "sourceUrl": "https://saintsplace.org/",
+      "sourceLabel": "Saint's Place (multi-source corroboration via communitywishbook + Pittsford Chamber + Catholic Courier)",
+      "notes": "Multi-source web confirms 585-385-6860 as Saint's Place line. Contact: Michele Quinn. St. John of Rochester Parish Center, 10 Wickford Way, Fairport NY 14450. M-Th 8am-2pm."
+    }
+  ]
+}

@@ -78,5 +78,13 @@
     "community",
     "college"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:34:59.852Z",
+      "sourceUrl": "https://www.monroecc.edu",
+      "sourceLabel": "Monroe Community College official site",
+      "notes": "Web confirms 585-292-2000 as MCC main switchboard. 1000 E Henrietta Rd, Rochester NY 14623. Trib 411 info center: 585-292-2411. Used by both mcc and pathwaysmcc."
+    }
+  ]
 }

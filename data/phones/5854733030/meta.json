@@ -1,0 +1,37 @@
+{
+  "digits": "5854733030",
+  "kind": "phone",
+  "primaryName": "Literacy Rochester",
+  "rawValue": "585-473-3030",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "esl",
+      "name": "Free English Classes (ESL)",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T03:35:00.000Z",
+  "lastSeededAt": "2026-05-05T03:35:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T03:35:00.000Z",
+      "sourceUrl": "https://literacyrochester.org/contact-us/",
+      "sourceLabel": "Literacy Rochester contact page",
+      "notes": "Web confirms (585) 473-3030 as Literacy Rochester main line. Operates free ESL and adult literacy classes."
+    }
+  ]
+}

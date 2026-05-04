@@ -1,0 +1,14 @@
+[
+  {
+    "digits": "5852922000",
+    "sourceUrl": "https://www.monroecc.edu",
+    "sourceLabel": "Monroe Community College official site",
+    "notes": "Web confirms 585-292-2000 as MCC main switchboard. 1000 E Henrietta Rd, Rochester NY 14623. Trib 411 info center: 585-292-2411. Used by both mcc and pathwaysmcc."
+  },
+  {
+    "digits": "5852628100",
+    "sourceUrl": "https://go.boarddocs.com/ny/rochny/Board.nsf/Public",
+    "sourceLabel": "RCSD BoardDocs portal header",
+    "notes": "Web confirms 585-262-8100 as Rochester City School District main switchboard. 131 W Broad St, Rochester NY 14614. M-F 8am-5pm. FRCs are at each school; call individual schools for school-specific FRC contact."
+  }
+]
