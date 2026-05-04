@@ -107,5 +107,13 @@
     "greece",
     "town"
   ],
-  "verifiedRatio": 0.75
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:35:00.000Z",
+      "sourceUrl": "https://greeceny.gov",
+      "sourceLabel": "Town of Greece official site",
+      "notes": "Web confirms (585) 225-2000 as Town of Greece Town Hall main line. 1 Vince Tofany Blvd, Greece NY 14612. M-F 9am-5pm. Direct match to dialer transcript opening (\"Town of Greece\")."
+    }
+  ]
 }

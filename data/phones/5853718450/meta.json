@@ -1,0 +1,37 @@
+{
+  "digits": "5853718450",
+  "kind": "phone",
+  "primaryName": "Rochester Hope for Pets",
+  "rawValue": "585-371-8450",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hopeforpets",
+      "name": "Rochester Hope for Pets (Vet Bill Assistance)",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T00:34:00.000Z",
+  "lastSeededAt": "2026-05-05T00:34:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:34:00.000Z",
+      "sourceUrl": "https://www.rochesterhopeforpets.org/contact",
+      "sourceLabel": "Rochester Hope for Pets contact page",
+      "notes": "Web confirms (585) 371-8450 as Rochester Hope for Pets line. 2816 Monroe Ave, Rochester NY 14618. M-F 9am-3pm. Vet bill grants for households within 40 miles of Rochester."
+    }
+  ]
+}

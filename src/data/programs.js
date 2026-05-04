@@ -406,21 +406,22 @@ export const PROGRAMS = [
   // SMALL CLAIMS
   { id:"rochcitycourt_sc", n:"Rochester City Court — Small Claims", c:"legalSmallClaims", d:"File a small claims case for up to $10,000. No lawyer needed. Come to the court clerk's window to start. Civil Division (where small claims is heard) at 99 Exchange Blvd Room 6.", ph:"585-371-3412", phLastVerified:"2026-05-04", phSource:"https://ww2.nycourts.gov/courts/7jd/monroe/City-Court/Rochester.shtml", ad:"99 Exchange Blvd, Room 6, Rochester NY 14614", url:"https://ww2.nycourts.gov/courts/7jd/Monroe/cityct/index.shtml", hr:"M-F 9am-5pm, financial by 3:30pm", doc:"Defendant's name and address, description of your claim, any supporting documents", tg:["any"], nt:"Security deposit cases: If your landlord hasn't returned your deposit within 14 days of move-out with an itemized list, you can sue for DOUBLE the deposit amount under NY law.", town:"rochester", zip:"14614", lat:43.154698, lng:-77.612165, reach:"local", lastVerified:"2026-04-17", fc:"2026-04-30" },
   { id:"nycourtssc", n:"NY Courts — Small Claims Self-Help", c:"legalSmallClaims", d:"Step-by-step guide to filing a small claims case in New York. Plain language. Free.", url:"https://www.nycourts.gov/courthelp/civil/smallClaims.shtml", hr:"24/7 online", doc:"None", tg:["any"], reach:"remote", fc:"2026-04-30" },
-  { id:"legalaidsc", n:"Legal Aid Society — Small Claims Advice", c:"legalSmallClaims", d:"Free advice on whether and how to file a small claims case. Can help you prepare your evidence.", ph:"", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"None for initial advice", tg:["any"], reach:"remote", fc:"2026-04-30" },
+  { id:"legalaidsc", n:"Legal Aid Society — Small Claims Advice", c:"legalSmallClaims", d:"Free advice on whether and how to file a small claims case. Can help you prepare your evidence.", ph:"585-232-4090", phLastVerified:"2026-05-04", phSource:"https://lasroc.org/contact-us/", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"None for initial advice", tg:["any"], reach:"remote", fc:"2026-04-30" },
 
   // CRIMINAL RECORD
   { id:"rawnyrecord", n:"RAWNY — Reentry Association of Western NY", c:"legalCrimRecord", d:"Help with criminal records (RAP sheets, Certificates of Relief, Certificates of Good Conduct) plus full reentry services: housing, food, clothing, ID/documents, medical, insurance, mental health, GED prep, vocational training, job placement, and case management. Walks alongside men and women returning to Monroe County after incarceration.", ph:"585-851-8886", phLastVerified:"2026-05-04", phSource:"https://www.rawny.org/contact-us/", ad:"186-188 N Water St, Rochester NY 14604", url:"https://www.rawny.org", hr:"M-Th 8am-4pm, F 8am-1pm", doc:"None — they help you figure out what you need", tg:["any"], town:"rochester", zip:"14604", lat:43.160087, lng:-77.611485, reach:"local", fc:"2026-04-30" },
-  { id:"jpcrecord", n:"Judicial Process Commission — Record Clearing", c:"legalCrimRecord", d:"Help with RAP sheets, Certificates of Rehabilitation, expungement questions, and reentry mentoring. Refers to LawNY and Monroe County Public Defender for additional legal support. Serves people on parole/probation and post-release.", ph:"", ad:"200 West Avenue, Rochester NY 14611", url:"https://www.rocjpc.org", hr:"M-F", doc:"None", tg:["any"], town:"rochester", zip:"14611", reach:"local", fc:"2026-04-30" },
-  { id:"cleanslate", n:"NY Clean Slate Act — Automatic Sealing (effective Nov 16 2024)", c:"legalCrimRecord", d:"NY Clean Slate Act took effect November 16, 2024. Eligible misdemeanors seal automatically 3 years after release/sentence; eligible felonies seal 8 years after. Important: the Unified Court System has UNTIL November 16, 2027 to fully implement automatic sealing — many eligible records are not yet actually sealed. Eligibility requires no current parole/probation/post-release supervision and no pending cases. Excludes most Class A felonies and sex offenses (drug Class A is included).", url:"https://www.nycourts.gov/FORMS/criminal-record-sealing.shtml", hr:"24/7 online", doc:"None", tg:["any"], nt:"Sealed records are hidden from most private background checks but remain visible to courts and law enforcement. To check whether your record has been sealed yet, contact RAWNY (585-851-8886), JPC (585-325-7727), or Legal Aid (585-232-4090). Don't assume your record is sealed just because the law took effect.", reach:"statewide", fc:"2026-04-30" },
-  { id:"certrelief", n:"Certificate of Relief from Civil Disabilities", c:"legalCrimRecord", d:"Removes automatic bars to employment, licenses, and housing caused by a criminal record. Apply through the court that sentenced you — Rochester City Court Criminal Division for misdemeanors (585-371-3413), Monroe County Court for felonies (585-428-2020). For state-prison sentences, apply to NYS DOCCS instead. Free.", ph:"", ad:"99 Exchange Blvd, Rochester NY 14614 (Hall of Justice)", url:"https://nycourts.gov/courthelp/criminal/CRD.shtml", hr:"M-F 9am-5pm", doc:"Your case/docket number, sentencing records", tg:["any"], nt:"This is one of the most underused tools for people with records. It doesn't erase your record but removes legal barriers to jobs and licenses. Ask RAWNY or Legal Aid for help applying.", town:"rochester", zip:"14614", lat:43.154698, lng:-77.612165, reach:"statewide", fc:"2026-04-30" },
-  { id:"legalaidrecord", n:"Legal Aid Society — Criminal Record Help", c:"legalCrimRecord", d:"Free legal help understanding your record, sealing options, and certificates.", inc:200, ph:"", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income", tg:["any"], reach:"remote", fc:"2026-04-30" },
+  { id:"jpcrecord", n:"Judicial Process Commission — Record Clearing", c:"legalCrimRecord", d:"Help with RAP sheets, Certificates of Rehabilitation, expungement questions, and reentry mentoring. Refers to LawNY and Monroe County Public Defender for additional legal support. Serves people on parole/probation and post-release.", ph:"585-325-7727", phLastVerified:"2026-05-04", phSource:"https://www.rocjpc.org", ad:"200 West Avenue, Rochester NY 14611", url:"https://www.rocjpc.org", hr:"M-F", doc:"None", tg:["any"], town:"rochester", zip:"14611", reach:"local", fc:"2026-04-30" },
+  { id:"cleanslate", n:"NY Clean Slate Act — Automatic Sealing (effective Nov 16 2024)", c:"legalCrimRecord", d:"NY Clean Slate Act took effect November 16, 2024. Eligible misdemeanors seal automatically 3 years after release/sentence; eligible felonies seal 8 years after. Important: the Unified Court System has UNTIL November 16, 2027 to fully implement automatic sealing — many eligible records are not yet actually sealed. Eligibility requires no current parole/probation/post-release supervision and no pending cases. Excludes most Class A felonies and sex offenses (drug Class A is included). For help checking whether your record has been sealed yet, call Legal Aid.", ph:"585-232-4090", phLastVerified:"2026-05-04", phSource:"https://lasroc.org/contact-us/", url:"https://www.nycourts.gov/FORMS/criminal-record-sealing.shtml", hr:"24/7 online", doc:"None", tg:["any"], nt:"Sealed records are hidden from most private background checks but remain visible to courts and law enforcement. To check whether your record has been sealed yet, contact RAWNY (585-851-8886), JPC (585-325-7727), or Legal Aid (585-232-4090). Don't assume your record is sealed just because the law took effect.", reach:"statewide", fc:"2026-04-30" },
+  { id:"certrelief", n:"Certificate of Relief from Civil Disabilities", c:"legalCrimRecord", d:"Removes automatic bars to employment, licenses, and housing caused by a criminal record. Apply through the court that sentenced you — Rochester City Court Criminal Division for misdemeanors (585-371-3413), Monroe County Court for felonies (585-428-2020). For state-prison sentences, apply to NYS DOCCS instead. Free.", ph:"585-371-3413", phLastVerified:"2026-05-04", phSource:"https://ww2.nycourts.gov/courts/7jd/monroe/City-Court/Rochester.shtml", ad:"99 Exchange Blvd, Rochester NY 14614 (Hall of Justice)", url:"https://nycourts.gov/courthelp/criminal/CRD.shtml", hr:"M-F 9am-5pm", doc:"Your case/docket number, sentencing records", tg:["any"], nt:"This is one of the most underused tools for people with records. It doesn't erase your record but removes legal barriers to jobs and licenses. Ask RAWNY or Legal Aid for help applying.", town:"rochester", zip:"14614", lat:43.154698, lng:-77.612165, reach:"statewide", fc:"2026-04-30" },
+  { id:"legalaidrecord", n:"Legal Aid Society — Criminal Record Help", c:"legalCrimRecord", d:"Free legal help understanding your record, sealing options, and certificates.", inc:200, ph:"585-232-4090", phLastVerified:"2026-05-04", phSource:"https://lasroc.org/contact-us/", url:"https://lasroc.org", hr:"M-F 9am-5pm", doc:"Proof of income", tg:["any"], reach:"remote", fc:"2026-04-30" },
 
   // ─────────────────────────────────────────────
   // PETS — added April 9, 2026 (v1: 9 verified entries)
   // ─────────────────────────────────────────────
   { id:"vsas", n:"Rochester Animal Services / Verona Street Animal Society", c:"pets",
     d:"City animal shelter and 501c3 partner. Pet adoption, foster care, surrender prevention support, end-of-life services for City residents. Dog adoptions $50, cat adoptions $30. Free for seniors 60+ adopting an animal age 8+.",
-    ph:"", url:"https://www.cityofrochester.gov/petadoption/",
+    ph:"585-428-7274", phLastVerified:"2026-05-04", phSource:"https://www.cityofrochester.gov/petadoption/",
+    url:"https://www.cityofrochester.gov/petadoption/",
     ad:"184 Verona St, Rochester NY 14608",
     hr:"Mon-Fri 12-6pm, Sat-Sun 12-4pm",
     doc:"ID for adoption. Just call for surrender prevention.",
@@ -429,7 +430,8 @@ export const PROGRAMS = [
 
   { id:"vsasfood", n:"Community Pet Food Pantry (Rochester Animal Services)", c:"pets",
     d:"Free pet food, treats, litter, leashes, collars, toys, flea treatment, and other supplies for City of Rochester residents. Held in Lot C of the Rochester Community Sports Complex (back corner by the blue storage bins) on the 2nd and 4th Friday of every month. First-come first-served; supplies vary by donation. Once per month per household.",
-    ph:"", url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
+    ph:"585-428-7274", phLastVerified:"2026-05-04", phSource:"https://www.cityofrochester.gov/petadoption/",
+    url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
     ad:"Rochester Community Sports Complex (Lot C), 460 Oak St, Rochester NY 14608",
     hr:"2nd and 4th Fridays of each month",
     doc:"ID or piece of mail with current Rochester address (proof of residency)",
@@ -438,7 +440,8 @@ export const PROGRAMS = [
 
   { id:"vsassurrender", n:"Pet Surrender Prevention (Rochester Animal Services)", c:"pets",
     d:"If you are considering giving up your pet because of money or life circumstances, call the Pet Surrender Prevention Specialist BEFORE you do anything. They may be able to provide food, supplies, vet referrals, or rehoming support to keep your pet with you.",
-    ph:"", url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
+    ph:"585-428-7274", phLastVerified:"2026-05-04", phSource:"https://www.cityofrochester.gov/petadoption/",
+    url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
     ad:"184 Verona St, Rochester NY 14608",
     hr:"M-F business hours",
     doc:"None — just call.",
@@ -447,7 +450,8 @@ export const PROGRAMS = [
 
   { id:"vsasvax", n:"Free Dog Vaccine Clinics (Rochester Animal Services)", c:"pets",
     d:"Free distemper and parvo (DAAP) vaccines for City of Rochester resident dogs. No appointment needed. Donated by Petco Love. Does NOT include rabies vaccine — rabies clinics held separately.",
-    ph:"", url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
+    ph:"585-428-7274", phLastVerified:"2026-05-04", phSource:"https://www.cityofrochester.gov/petadoption/",
+    url:"https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/rochester-animal-services-community-pet",
     ad:"448 Smith St, Rochester NY 14606 (parking lot C, Community Sports Complex)",
     hr:"Periodic — check website for next clinic date",
     doc:"City of Rochester residency. Dog must be on leash. One dog per person.",
@@ -456,7 +460,8 @@ export const PROGRAMS = [
 
   { id:"lollypop", n:"Lollypop Farm — Humane Society of Greater Rochester", c:"pets",
     d:"The largest animal welfare organization in the Rochester area, since 1873 (150th anniversary 2023). Pet adoption (dogs, cats, small animals, birds, reptiles, horses, farm animals), foster care, vet care, behavior consultations, dog training, humane education. Multiple adoption centers across the area.",
-    ph:"", url:"https://www.lollypop.org",
+    ph:"585-223-1330", phLastVerified:"2026-05-04", phSource:"https://www.lollypop.org",
+    url:"https://www.lollypop.org",
     ad:"99 Victor Rd, Fairport NY 14450",
     hr:"M-F 10am-6pm (walk-ins OK), Sat-Sun 11am-5:30pm (appointments required)",
     doc:"ID and adoption application.",
@@ -465,10 +470,11 @@ export const PROGRAMS = [
     serves: ["fairport","rochester","henrietta","greece","perinton"],
     reach:"regional", fc:"2026-04-30" },
 
-  { id:"lollypopcruelty", n:"Lollypop Farm Animal Cruelty 24-Hour Hotline", c:"pets",
-    d:"24/7 hotline for reporting animal cruelty, neglect, or suspected abuse. Lollypop Farm investigators are trained peace officers serving as the region's only Humane Law Enforcement agency for Monroe, Livingston, Genesee, and Orleans Counties. Works in partnership with local police. Anonymous reports accepted.",
-    ph:"", url:"https://www.lollypop.org/humane-law-enforcement/report-animal-cruelty/",
-    hr:"24/7",
+  { id:"lollypopcruelty", n:"Lollypop Farm Animal Cruelty Hotline", c:"pets",
+    d:"Hotline for reporting animal cruelty, neglect, or suspected abuse. Lollypop Farm investigators are trained peace officers serving as the region's only Humane Law Enforcement agency for Monroe, Livingston, Genesee, and Orleans Counties. Works in partnership with local police. Anonymous reports accepted. Dispatched M-F 8am-4pm; voicemail other times. For emergencies, call 911.",
+    ph:"585-223-6500", phLastVerified:"2026-05-04", phSource:"https://www.lollypop.org/humane-law-enforcement/report-animal-cruelty/",
+    url:"https://www.lollypop.org/humane-law-enforcement/report-animal-cruelty/",
+    hr:"M-F 8am-4pm dispatched; voicemail other hours; 911 for emergencies",
     doc:"None. Anonymous reports accepted.",
     tg:["any"],
     serves:["monroe","livingston","genesee","orleans"],
@@ -476,8 +482,9 @@ export const PROGRAMS = [
     safetySensitive: true, fc:"2026-04-30" },
 
   { id:"lollypopspay", n:"Lollypop Farm Spay/Neuter Incentive Program (SNIP)", c:"pets",
-    d:"Reduced-cost spay and neuter surgeries for NY State residents receiving public assistance (SNAP, SSI, Medicaid, Section 8 Housing, Safety Net Assistance, or Family Assistance). As of January 2026, household income is no longer an eligibility criterion — only public assistance status. Currently CATS ONLY due to high demand and capacity. Appointment required.",
-    ph:"", url:"https://www.lollypop.org/resources/spay-neuter-incentive-program-s-n-i-p/",
+    d:"Reduced-cost spay and neuter surgeries for NY State residents receiving public assistance (SNAP, SSI, Medicaid, Section 8 Housing, Safety Net Assistance, or Family Assistance). As of January 2026, household income is no longer an eligibility criterion — only public assistance status. Currently CATS ONLY due to high demand and capacity. Appointment required. Routed through Lollypop Farm main line.",
+    ph:"585-223-1330", phLastVerified:"2026-05-04", phSource:"https://www.lollypop.org",
+    url:"https://www.lollypop.org/resources/spay-neuter-incentive-program-s-n-i-p/",
     ad:"99 Victor Rd, Fairport NY 14450",
     hr:"By appointment, M-F",
     doc:"Benefits card showing public assistance enrollment.",
@@ -488,6 +495,7 @@ export const PROGRAMS = [
 
   { id:"hopeforpets", n:"Rochester Hope for Pets (Vet Bill Assistance)", c:"pets",
     d:"Financial grants to help pay for unexpected or emergency veterinary care. Awards typically cover a portion of the cost, not the full bill. NOT for emergencies — 5 business days for decision. Coverage area is 40 miles from Rochester, including all of Monroe County and parts of Wayne, Ontario, Livingston, Orleans, Genesee, Seneca, and Yates counties.",
+    ph:"585-371-8450", phLastVerified:"2026-05-04", phSource:"https://www.rochesterhopeforpets.org/contact",
     url:"https://www.rochesterhopeforpets.org/application",
     ad:"2816 Monroe Ave, Rochester NY 14618",
     hr:"M-F 9am-3pm",
@@ -497,7 +505,8 @@ export const PROGRAMS = [
 
   { id:"willowpets", n:"Willow Domestic Violence Center — Pet-Friendly Shelter", c:"pets",
     d:"If you or your family are leaving an unsafe home and you have a pet you can't bear to leave behind: Willow's emergency shelter accepts a variety of pets along with survivors and their children. You do not have to choose between your safety and your pet's safety. Call the 24-hour hotline.",
-    ph:"", url:"https://willowcenterny.org",
+    ph:"585-222-7233", phLastVerified:"2026-05-04", phSource:"http://willowcenterny.org/",
+    url:"https://willowcenterny.org",
     hr:"24/7 hotline",
     doc:"None.",
     tg:["any"],
@@ -505,8 +514,8 @@ export const PROGRAMS = [
     safetySensitive: true },
 
   // ── GREECE-SPECIFIC PROGRAMS (added 2026-04-12, source: greeceny.gov + greecepubliclibrary.org) ──
-  { id:"greecehall", n:"Town of Greece Town Hall", c:"legal", d:"General town services, information, and referrals. DPW after-hours: 585-225-4590. Police/animal emergency: 911.", ph:"", ad:"1 Vince Tofany Blvd, Greece NY 14612", url:"https://greeceny.gov", hr:"M-F 9am-5pm", doc:"None", tg:["any"], town:"greece", zip:"14612", lat:43.2518, lng:-77.7036, reach:"local", lastVerified:"2026-04-16", fc:"2026-04-30" },
-  { id:"greecelib", n:"Greece Public Library", c:"education", d:"Free computers, WiFi, printing, tech help, kids programs, teen programs, museum passes. Library card is free.", ph:"", ad:"2 Vince Tofany Blvd, Greece NY 14612", url:"https://www.greecepubliclibrary.org", hr:"M-Th 9am-9pm (1st Thu opens 12pm), F-Sat 9am-5pm, Sun 12-4pm (Oct-April only)", doc:"Proof of address for card", tg:["any"], town:"greece", zip:"14612", lat:43.2518, lng:-77.7036, reach:"local", fc:"2026-04-30" },
+  { id:"greecehall", n:"Town of Greece Town Hall", c:"legal", d:"General town services, information, and referrals. DPW after-hours: 585-225-4590. Police/animal emergency: 911.", ph:"585-225-2000", phLastVerified:"2026-05-04", phSource:"https://greeceny.gov", ad:"1 Vince Tofany Blvd, Greece NY 14612", url:"https://greeceny.gov", hr:"M-F 9am-5pm", doc:"None", tg:["any"], town:"greece", zip:"14612", lat:43.2518, lng:-77.7036, reach:"local", lastVerified:"2026-04-16", fc:"2026-04-30" },
+  { id:"greecelib", n:"Greece Public Library", c:"education", d:"Free computers, WiFi, printing, tech help, kids programs, teen programs, museum passes. Library card is free.", ph:"585-225-8951", phLastVerified:"2026-05-04", phSource:"https://www.greecepubliclibrary.org/contact/", ad:"2 Vince Tofany Blvd, Greece NY 14612", url:"https://www.greecepubliclibrary.org", hr:"M-Th 9am-9pm (1st Thu opens 12pm), F-Sat 9am-5pm, Sun 12-4pm (Oct-April only)", doc:"Proof of address for card", tg:["any"], town:"greece", zip:"14612", lat:43.2518, lng:-77.7036, reach:"local", fc:"2026-04-30" },
   { id:"greececourt", n:"Greece Town Court", c:"legal", d:"Handles traffic tickets, small claims (up to $3,000), misdemeanors, violations, and parking ordinance cases. Small claims filing fees: $10 for claims $1,000 or less, $15 for claims over $1,000.", ph:"", ad:"1 Vince Tofany Blvd, Greece NY 14612", url:"https://greeceny.gov/departments/town-court/", hr:"M-F 9am-5pm, payment window closes Wed 12-5pm", doc:"Court papers or ticket", tg:["any"], town:"greece", zip:"14612", lat:43.2518, lng:-77.7036, reach:"local", fc:"2026-04-30" },
   { id:"greeceassessor", n:"Greece Assessor (Property Tax Exemptions)", c:"seniorSvc", d:"Handles STAR, senior, veterans, and disability property tax exemptions plus assessment grievances and property reviews. Senior exemption income cap raised to $58,400 for 2026 (5% to 65% reduction on a sliding income scale). Town Assessor: Richard Baart.", ph:"", ad:"1 Vince Tofany Blvd, Greece NY 14612", url:"https://greeceny.gov/departments/assessor/", hr:"M-F 9am-5pm", doc:"Varies by exemption type", tg:["sen","vet","dis","any"], town:"greece", zip:"14612", lat:43.2518, lng:-77.7036, reach:"local", fc:"2026-04-30" },
   { id:"greeceanimal", n:"Greece Animal Services", c:"pets", d:"Dog licensing, lost and found pets, pet adoption, free rabies clinics, animal control. Call 911 for animal emergencies.", ph:"", ad:"500 Maiden Lane, Rochester NY 14616", url:"https://greeceny.gov/departments/animal-services/", hr:"M 9am-5pm, Tu-F 9am-9pm, Sat 9am-5pm", doc:"Rabies certificate for dog license", tg:["any"], town:"greece", zip:"14616", lat:43.2352, lng:-77.6618, reach:"local", fc:"2026-04-30" },

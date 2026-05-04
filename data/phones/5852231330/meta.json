@@ -56,5 +56,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.288Z",
-  "lastSeededAt": "2026-05-03T19:44:16.288Z"
+  "lastSeededAt": "2026-05-03T19:44:16.288Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:32:00.000Z",
+      "sourceUrl": "https://www.lollypop.org",
+      "sourceLabel": "Lollypop Farm official site",
+      "notes": "Web confirms 585-223-1330 as Lollypop Farm Humane Society of Greater Rochester main line. 99 Victor Rd, Fairport NY 14450. Used by lollypop (general adoption/services) and lollypopspay (SNIP spay/neuter program). Cruelty hotline is a separate number: 585-223-6500."
+    }
+  ]
 }

@@ -185,5 +185,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.277Z",
-  "lastSeededAt": "2026-05-03T19:44:16.277Z"
+  "lastSeededAt": "2026-05-03T19:44:16.277Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:30:00.000Z",
+      "sourceUrl": "https://www.cityofrochester.gov/petadoption/",
+      "sourceLabel": "Rochester Animal Services / VSAS pet adoption page",
+      "notes": "Web confirms 585-428-7274 as Rochester Animal Services / Verona Street Animal Society main line. 184 Verona St, Rochester NY 14608. Used by vsas (adoption), vsasfood (pet food pantry), vsassurrender (surrender prevention), and vsasvax (free vaccine clinics) — single number serves all four programs."
+    }
+  ]
 }

@@ -66,5 +66,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:36:00.000Z",
+      "sourceUrl": "https://www.greecepubliclibrary.org/contact/",
+      "sourceLabel": "Greece Public Library contact page",
+      "notes": "Web confirms (585) 225-8951 as Greece Public Library main line. 2 Vince Tofany Blvd, Greece NY 14612. Direct match to dialer transcript opening (\"Greece Public Library\")."
+    }
+  ]
 }

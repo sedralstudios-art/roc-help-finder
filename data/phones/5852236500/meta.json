@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.466Z",
-  "lastSeededAt": "2026-05-03T19:44:16.466Z"
+  "lastSeededAt": "2026-05-03T19:44:16.466Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:33:00.000Z",
+      "sourceUrl": "https://www.lollypop.org/humane-law-enforcement/report-animal-cruelty/",
+      "sourceLabel": "Lollypop Farm Humane Law Enforcement page",
+      "notes": "Web confirms 585-223-6500 as the Lollypop Farm Animal Cruelty hotline. Dispatched M-F 8am-4pm; voicemail other hours. Lollypop investigators serve as the Humane Law Enforcement agency for Monroe, Livingston, Genesee, Orleans Counties. For emergencies, 911."
+    }
+  ]
 }
