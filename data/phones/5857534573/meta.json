@@ -1,0 +1,37 @@
+{
+  "digits": "5857534573",
+  "kind": "phone",
+  "primaryName": "Monroe County DA Victim Assistance Unit",
+  "rawValue": "585-753-4573",
+  "blockDial": false,
+  "tags": [
+    "cat:parentalProtection",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "daunit",
+      "name": "Monroe County DA — Victim Assistance Unit",
+      "category": "parentalProtection",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T22:59:00.000Z",
+  "lastSeededAt": "2026-05-04T22:59:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:59:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/da-assistance",
+      "sourceLabel": "Monroe County DA Victim and Witness Assistance page",
+      "notes": "Web confirms 585-753-4573 as the Monroe County DA Victim/Witness Bureau direct line. 47 S Fitzhugh St, Ebenezer Watts Bldg, Rochester NY 14614. M-F 8:30am-5:30pm. Main DA line: 585-753-4500."
+    }
+  ]
+}

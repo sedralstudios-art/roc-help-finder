@@ -120,5 +120,13 @@
     "housing",
     "discrimination"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:06:00.000Z",
+      "sourceUrl": "https://www.hud.gov/reporthousingdiscrimination",
+      "sourceLabel": "HUD Report Housing Discrimination page",
+      "notes": "Multi-source web confirms 800-669-9777 as the HUD Fair Housing complaint hotline. TTY: 800-927-9275. Direct match to dialer transcript opening (\"Office of Fair Housing and Equal Opportunity at the United States Department of Housing and Urban Development\")."
+    }
+  ]
 }

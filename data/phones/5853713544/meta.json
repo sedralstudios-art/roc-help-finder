@@ -230,5 +230,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.274Z",
-  "lastSeededAt": "2026-05-03T19:44:16.274Z"
+  "lastSeededAt": "2026-05-03T19:44:16.274Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:55:00.000Z",
+      "sourceUrl": "https://ww2.nycourts.gov/courts/7jd/monroe/Family/index.shtml",
+      "sourceLabel": "NY Courts Monroe County Family Court page",
+      "notes": "Multi-source web confirms 585-371-3544 as Monroe County Family Court main line. Hall of Justice 3rd Fl Room 360, 99 Exchange Blvd, Rochester NY 14614. M-F 9am-5pm. Used by both familycourt and supervvisit programs."
+    }
+  ]
 }

@@ -91,5 +91,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.292Z",
-  "lastSeededAt": "2026-05-03T19:44:16.292Z"
+  "lastSeededAt": "2026-05-03T19:44:16.292Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:57:00.000Z",
+      "sourceUrl": "https://ww2.nycourts.gov/courts/7jd/monroe/City-Court/Rochester.shtml",
+      "sourceLabel": "NY Courts Rochester City Court page",
+      "notes": "Multi-source web confirms 585-371-3413 as Rochester City Court Criminal Division main line. ADDRESS CORRECTION: 150 S Plymouth Ave, Public Safety Bldg Rm 123 (programs.js had stale 185 Exchange — corrected). NOTE: also corrected DA Victim Assistance number in nt: from 753-4750 to 753-4573. M-F 9am-5pm."
+    }
+  ]
 }

@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.585Z",
-  "lastSeededAt": "2026-05-03T19:44:16.585Z"
+  "lastSeededAt": "2026-05-03T19:44:16.585Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:02:00.000Z",
+      "sourceUrl": "https://dhr.ny.gov/contact-us",
+      "sourceLabel": "NYS Division of Human Rights contact page",
+      "notes": "Web confirms (844) 697-3471 as the NYS Division of Human Rights main line. Western region (Buffalo + Rochester offices) email: dhr.western@dhr.ny.gov. M-F 9am-5pm."
+    }
+  ]
 }

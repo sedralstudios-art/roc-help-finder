@@ -194,5 +194,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.271Z",
-  "lastSeededAt": "2026-05-03T19:44:16.271Z"
+  "lastSeededAt": "2026-05-03T19:44:16.271Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:04:00.000Z",
+      "sourceUrl": "https://ww2.nycourts.gov/courts/7jd/monroe/City-Court/Rochester.shtml",
+      "sourceLabel": "NY Courts Rochester City Court page",
+      "notes": "Multi-source web confirms 585-371-3412 as Rochester City Court Civil Division (handles housing/habitability). 99 Exchange Blvd Room 6, 14614. M-F 9am-5pm; financial transactions cut off at 3:30pm."
+    }
+  ]
 }
