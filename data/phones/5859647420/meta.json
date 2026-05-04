@@ -68,5 +68,13 @@
     "food",
     "pantry"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://www.lifesolutionshamlin.org",
+      "sourceLabel": "Life Solutions of Hamlin official site",
+      "notes": "Web confirms (585) 964-7420 as Life Solutions of Hamlin food pantry line. 1696 Lake Rd. Pantry by appointment only; serves Hamlin + Clarkson. Treasure Store Thu/Sat 10am-4pm."
+    }
+  ]
 }

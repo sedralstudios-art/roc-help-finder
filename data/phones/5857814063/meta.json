@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.443Z",
-  "lastSeededAt": "2026-05-03T19:44:16.443Z"
+  "lastSeededAt": "2026-05-03T19:44:16.443Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://hamlinny.org/seniors/",
+      "sourceLabel": "Hamlin Seniors Program page",
+      "notes": "Web confirms 585-781-4063 as Hamlin Senior Citizen Coordinator Michelle Johnson's direct line (since 2013). Email: michellejohnson0224@aol.com. Monthly meetings 4th Tuesday 9:45am at St John's Lutheran Church."
+    }
+  ]
 }

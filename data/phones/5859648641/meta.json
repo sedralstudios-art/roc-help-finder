@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.442Z",
-  "lastSeededAt": "2026-05-03T19:44:16.442Z"
+  "lastSeededAt": "2026-05-03T19:44:16.442Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://hamlinny.org/justice-court/",
+      "sourceLabel": "Hamlin Justice Court page",
+      "notes": "Web confirms (585) 964-8641 as Hamlin Town Court direct line. 1650 Lake Rd. Arraignments Mon 7pm; DA present 2nd & 4th Tue 2pm."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.443Z",
-  "lastSeededAt": "2026-05-03T19:44:16.443Z"
+  "lastSeededAt": "2026-05-03T19:44:16.443Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://hamlinny.org/assessors-office/",
+      "sourceLabel": "Hamlin Assessor's Office page",
+      "notes": "Web confirms (585) 964-8748 as Hamlin Assessor's Office direct line. 1658 Lake Rd. M-F 8am-3pm."
+    }
+  ]
 }

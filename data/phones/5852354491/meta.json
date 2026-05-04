@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.441Z",
-  "lastSeededAt": "2026-05-03T19:44:16.441Z"
+  "lastSeededAt": "2026-05-03T19:44:16.441Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://gatespres.org/swem-community-services/",
+      "sourceLabel": "SWEM Community Services food cupboard page",
+      "notes": "Web confirms 585-235-4491 as SWEM Community Services emergency-bag helpline. Hosted by Gates Presbyterian Church. M-F 10:30am-1:30pm. Serves 11 zip codes in SW Rochester / Gates / Chili / Scottsville."
+    }
+  ]
 }

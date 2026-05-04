@@ -78,5 +78,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.309Z",
-  "lastSeededAt": "2026-05-03T19:44:16.309Z"
+  "lastSeededAt": "2026-05-03T19:44:16.309Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://hamlinny.org/building-inspector/",
+      "sourceLabel": "Hamlin Building Inspector page",
+      "notes": "Web confirms (585) 964-8181 as Hamlin Building Inspector main line. CORRECTION: programs.js previously listed 585-964-9124 as alt phone; that's actually the fax. 1658 Lake Rd. M-F 8am-4pm (closed 1:30-2pm); Mon 4-6pm by appt."
+    }
+  ]
 }

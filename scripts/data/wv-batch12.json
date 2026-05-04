@@ -1,0 +1,56 @@
+[
+  {
+    "digits": "5852476446",
+    "sourceUrl": "https://gateslibrary.org",
+    "sourceLabel": "Gates Public Library official site",
+    "notes": "Web confirms (585) 247-6446 as Gates Public Library main line. 902 Elmgrove Rd, Rochester NY 14624. M-Th 9am-8pm, F 9am-6pm, Sat 9am-5pm."
+  },
+  {
+    "digits": "5852354491",
+    "sourceUrl": "https://gatespres.org/swem-community-services/",
+    "sourceLabel": "SWEM Community Services food cupboard page",
+    "notes": "Web confirms 585-235-4491 as SWEM Community Services emergency-bag helpline. Hosted by Gates Presbyterian Church. M-F 10:30am-1:30pm. Serves 11 zip codes in SW Rochester / Gates / Chili / Scottsville."
+  },
+  {
+    "digits": "5859642421",
+    "sourceUrl": "https://hamlinny.org/town-clerk/",
+    "sourceLabel": "Hamlin Town Clerk page",
+    "notes": "Web confirms (585) 964-2421 as Hamlin main switchboard (opt 1 for clerk). Alt direct 585-964-8962. 1658 Lake Rd, Hamlin NY 14464."
+  },
+  {
+    "digits": "5859648641",
+    "sourceUrl": "https://hamlinny.org/justice-court/",
+    "sourceLabel": "Hamlin Justice Court page",
+    "notes": "Web confirms (585) 964-8641 as Hamlin Town Court direct line. 1650 Lake Rd. Arraignments Mon 7pm; DA present 2nd & 4th Tue 2pm."
+  },
+  {
+    "digits": "5859648748",
+    "sourceUrl": "https://hamlinny.org/assessors-office/",
+    "sourceLabel": "Hamlin Assessor's Office page",
+    "notes": "Web confirms (585) 964-8748 as Hamlin Assessor's Office direct line. 1658 Lake Rd. M-F 8am-3pm."
+  },
+  {
+    "digits": "5859648181",
+    "sourceUrl": "https://hamlinny.org/building-inspector/",
+    "sourceLabel": "Hamlin Building Inspector page",
+    "notes": "Web confirms (585) 964-8181 as Hamlin Building Inspector main line. CORRECTION: programs.js previously listed 585-964-9124 as alt phone; that's actually the fax. 1658 Lake Rd. M-F 8am-4pm (closed 1:30-2pm); Mon 4-6pm by appt."
+  },
+  {
+    "digits": "5859647420",
+    "sourceUrl": "https://www.lifesolutionshamlin.org",
+    "sourceLabel": "Life Solutions of Hamlin official site",
+    "notes": "Web confirms (585) 964-7420 as Life Solutions of Hamlin food pantry line. 1696 Lake Rd. Pantry by appointment only; serves Hamlin + Clarkson. Treasure Store Thu/Sat 10am-4pm."
+  },
+  {
+    "digits": "5859642320",
+    "sourceUrl": "https://hamlinlibraryny.org",
+    "sourceLabel": "Hamlin Public Library official site",
+    "notes": "Web confirms (585) 964-2320 as Hamlin Public Library main line. 1680 Lake Rd. Monroe County Library System member."
+  },
+  {
+    "digits": "5857814063",
+    "sourceUrl": "https://hamlinny.org/seniors/",
+    "sourceLabel": "Hamlin Seniors Program page",
+    "notes": "Web confirms 585-781-4063 as Hamlin Senior Citizen Coordinator Michelle Johnson's direct line (since 2013). Email: michellejohnson0224@aol.com. Monthly meetings 4th Tuesday 9:45am at St John's Lutheran Church."
+  }
+]

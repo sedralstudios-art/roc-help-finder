@@ -66,5 +66,13 @@
     "town",
     "clerk"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://hamlinny.org/town-clerk/",
+      "sourceLabel": "Hamlin Town Clerk page",
+      "notes": "Web confirms (585) 964-2421 as Hamlin main switchboard (opt 1 for clerk). Alt direct 585-964-8962. 1658 Lake Rd, Hamlin NY 14464."
+    }
+  ]
 }

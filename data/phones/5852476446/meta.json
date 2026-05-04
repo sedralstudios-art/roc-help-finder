@@ -66,5 +66,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:14:10.968Z",
+      "sourceUrl": "https://gateslibrary.org",
+      "sourceLabel": "Gates Public Library official site",
+      "notes": "Web confirms (585) 247-6446 as Gates Public Library main line. 902 Elmgrove Rd, Rochester NY 14624. M-Th 9am-8pm, F 9am-6pm, Sat 9am-5pm."
+    }
+  ]
 }
