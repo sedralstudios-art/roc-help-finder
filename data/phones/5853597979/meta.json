@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.445Z",
-  "lastSeededAt": "2026-05-03T19:44:16.445Z"
+  "lastSeededAt": "2026-05-03T19:44:16.445Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.rhnet.org/departments/student-family-services/community-programs/r-h-kicking-hunger-school-food-pantry",
+      "sourceLabel": "Rush-Henrietta CSD Kicking Hunger Food Pantry page",
+      "notes": "Web confirms 585-359-7979 as the Rush-Henrietta Kicking Hunger Food Pantry contact line. Located in the Good Shepherd building, 3288 East Henrietta Rd. Email: foodpantry@rhnet.org. Hours Tue 9:45-11:15am, Thu 4:30-6pm."
+    }
+  ]
 }

@@ -65,5 +65,13 @@
     "henrietta",
     "recreation"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://henriettany.myrec.com/",
+      "sourceLabel": "Henrietta Recreation Center MyRec page",
+      "notes": "Web confirms 585-359-2540 as Henrietta Recreation Center main line. 605 Calkins Rd. M-F 7:30am-9pm, Sat 9am-5pm."
+    }
+  ]
 }

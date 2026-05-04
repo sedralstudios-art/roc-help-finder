@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.446Z",
-  "lastSeededAt": "2026-05-03T19:44:16.446Z"
+  "lastSeededAt": "2026-05-03T19:44:16.446Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.henriettany.gov/community/page/senior-center",
+      "sourceLabel": "Henrietta Senior Center page",
+      "notes": "Multi-source web confirms (585) 334-4030 as Henrietta Senior Center direct line. 515 Calkins Rd, Rochester NY 14623. M-F 9am-3pm. Hot lunch M/Tu/W noon (Monroe County Nutrition Program $3.50 suggested donation; reservation required)."
+    }
+  ]
 }

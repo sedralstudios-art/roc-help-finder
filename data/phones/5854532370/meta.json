@@ -62,5 +62,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.361Z",
-  "lastSeededAt": "2026-05-03T19:44:16.361Z"
+  "lastSeededAt": "2026-05-03T19:44:16.361Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://fishrhaftinc.org/",
+      "sourceLabel": "FISH RHAFT official site",
+      "notes": "Web confirms (585) 453-2370 as FISH/RHAFT main line. Serves both R-H FISH transportation (free medical-appointment rides) and RHAFT emergency food assistance. M/W 9am-3pm phone hours."
+    }
+  ]
 }

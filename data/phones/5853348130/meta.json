@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.445Z",
-  "lastSeededAt": "2026-05-03T19:44:16.445Z"
+  "lastSeededAt": "2026-05-03T19:44:16.445Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://venturerochester.org/food-pantry",
+      "sourceLabel": "Venture Compassionate Ministries food pantry page",
+      "notes": "Web confirms 585-334-8130 as the Calvary Community Church (Nazarene) main line, host venue for the Venture food pantry. Pantry runs once every 4 weeks; call for current date."
+    }
+  ]
 }

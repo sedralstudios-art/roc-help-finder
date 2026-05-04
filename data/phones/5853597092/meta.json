@@ -65,5 +65,13 @@
     "henrietta",
     "library"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.hpl.org/",
+      "sourceLabel": "Henrietta Public Library official site",
+      "notes": "Web confirms 585-359-7092 as Henrietta Public Library main line. 625 Calkins Rd, Rochester NY 14623. Monroe County Library System member."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.446Z",
-  "lastSeededAt": "2026-05-03T19:44:16.446Z"
+  "lastSeededAt": "2026-05-03T19:44:16.446Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.henriettany.gov/publicworks/page/dog-control",
+      "sourceLabel": "Henrietta Dog Control page (multi-source corroboration)",
+      "notes": "Multi-source web confirms 585-359-7009 as the Henrietta Dog Control / Code Enforcement Officer line. Public Works main: 585-359-7005. Picked-up dogs held at Suburban Animal Hospital."
+    }
+  ]
 }

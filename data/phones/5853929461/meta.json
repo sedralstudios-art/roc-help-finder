@@ -65,5 +65,13 @@
     "parma",
     "town"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://parmany.gov/departments/town-clerk/",
+      "sourceLabel": "Town of Parma Town Clerk page",
+      "notes": "Web confirms 585-392-9461 as Parma Town Clerk Carrie Fracassi (also Receiver of Taxes). 1300 Hilton Parma Corners Rd, Hilton NY 14468. Alt 585-392-6659."
+    }
+  ]
 }

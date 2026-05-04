@@ -89,5 +89,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.289Z",
-  "lastSeededAt": "2026-05-03T19:44:16.289Z"
+  "lastSeededAt": "2026-05-03T19:44:16.289Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.henriettany.gov/townclerk",
+      "sourceLabel": "Henrietta Town Clerk + Building Department pages",
+      "notes": "Multi-source web confirms (585) 334-7700 as the Henrietta Town main switchboard. 475 Calkins Rd, Rochester NY 14623. Used by henriettaclerk and henriettabuilding (and other Town Hall departments)."
+    }
+  ]
 }

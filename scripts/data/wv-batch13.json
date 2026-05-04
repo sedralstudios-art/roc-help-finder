@@ -1,0 +1,80 @@
+[
+  {
+    "digits": "5859647222",
+    "sourceUrl": "https://hamlinny.myrec.com/info/default.aspx",
+    "sourceLabel": "Hamlin Recreation MyRec page",
+    "notes": "Web confirms (585) 964-7222 as Hamlin Recreation Department line."
+  },
+  {
+    "digits": "5853347700",
+    "sourceUrl": "https://www.henriettany.gov/townclerk",
+    "sourceLabel": "Henrietta Town Clerk + Building Department pages",
+    "notes": "Multi-source web confirms (585) 334-7700 as the Henrietta Town main switchboard. 475 Calkins Rd, Rochester NY 14623. Used by henriettaclerk and henriettabuilding (and other Town Hall departments)."
+  },
+  {
+    "digits": "5853592640",
+    "sourceUrl": "https://www.henriettany.gov/towncourt",
+    "sourceLabel": "Henrietta Town Court page",
+    "notes": "Multi-source web confirms 585-359-2640 as Henrietta Town Court direct line. 95 Methodist Hill Dr Suite 800, 14623. M-Th 9am-5pm, F 9am-4pm office; service window M-Th 9am-3pm, F 9am-1pm."
+  },
+  {
+    "digits": "5853597032",
+    "sourceUrl": "https://www.henriettany.gov/assessorsoffice",
+    "sourceLabel": "Henrietta Assessor's Office page",
+    "notes": "Multi-source web confirms 585-359-7032 as Henrietta Assessor's Office direct line. 475 Calkins Rd, 14467 mailing. M-F 9am-5pm. Email: assessor@henrietta.org."
+  },
+  {
+    "digits": "5853348130",
+    "sourceUrl": "https://venturerochester.org/food-pantry",
+    "sourceLabel": "Venture Compassionate Ministries food pantry page",
+    "notes": "Web confirms 585-334-8130 as the Calvary Community Church (Nazarene) main line, host venue for the Venture food pantry. Pantry runs once every 4 weeks; call for current date."
+  },
+  {
+    "digits": "5854532370",
+    "sourceUrl": "https://fishrhaftinc.org/",
+    "sourceLabel": "FISH RHAFT official site",
+    "notes": "Web confirms (585) 453-2370 as FISH/RHAFT main line. Serves both R-H FISH transportation (free medical-appointment rides) and RHAFT emergency food assistance. M/W 9am-3pm phone hours."
+  },
+  {
+    "digits": "5853597979",
+    "sourceUrl": "https://www.rhnet.org/departments/student-family-services/community-programs/r-h-kicking-hunger-school-food-pantry",
+    "sourceLabel": "Rush-Henrietta CSD Kicking Hunger Food Pantry page",
+    "notes": "Web confirms 585-359-7979 as the Rush-Henrietta Kicking Hunger Food Pantry contact line. Located in the Good Shepherd building, 3288 East Henrietta Rd. Email: foodpantry@rhnet.org. Hours Tue 9:45-11:15am, Thu 4:30-6pm."
+  },
+  {
+    "digits": "5853597092",
+    "sourceUrl": "https://www.hpl.org/",
+    "sourceLabel": "Henrietta Public Library official site",
+    "notes": "Web confirms 585-359-7092 as Henrietta Public Library main line. 625 Calkins Rd, Rochester NY 14623. Monroe County Library System member."
+  },
+  {
+    "digits": "5853344030",
+    "sourceUrl": "https://www.henriettany.gov/community/page/senior-center",
+    "sourceLabel": "Henrietta Senior Center page",
+    "notes": "Multi-source web confirms (585) 334-4030 as Henrietta Senior Center direct line. 515 Calkins Rd, Rochester NY 14623. M-F 9am-3pm. Hot lunch M/Tu/W noon (Monroe County Nutrition Program $3.50 suggested donation; reservation required)."
+  },
+  {
+    "digits": "5853592540",
+    "sourceUrl": "https://henriettany.myrec.com/",
+    "sourceLabel": "Henrietta Recreation Center MyRec page",
+    "notes": "Web confirms 585-359-2540 as Henrietta Recreation Center main line. 605 Calkins Rd. M-F 7:30am-9pm, Sat 9am-5pm."
+  },
+  {
+    "digits": "5853597009",
+    "sourceUrl": "https://www.henriettany.gov/publicworks/page/dog-control",
+    "sourceLabel": "Henrietta Dog Control page (multi-source corroboration)",
+    "notes": "Multi-source web confirms 585-359-7009 as the Henrietta Dog Control / Code Enforcement Officer line. Public Works main: 585-359-7005. Picked-up dogs held at Suburban Animal Hospital."
+  },
+  {
+    "digits": "5853924144",
+    "sourceUrl": "https://hiltonny.gov/",
+    "sourceLabel": "Village of Hilton official site",
+    "notes": "Web confirms 585-392-4144 as Village of Hilton clerk's office line. 59 Henry St, Hilton NY 14468."
+  },
+  {
+    "digits": "5853929461",
+    "sourceUrl": "https://parmany.gov/departments/town-clerk/",
+    "sourceLabel": "Town of Parma Town Clerk page",
+    "notes": "Web confirms 585-392-9461 as Parma Town Clerk Carrie Fracassi (also Receiver of Taxes). 1300 Hilton Parma Corners Rd, Hilton NY 14468. Alt 585-392-6659."
+  }
+]

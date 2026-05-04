@@ -60,5 +60,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.445Z",
-  "lastSeededAt": "2026-05-03T19:44:16.445Z"
+  "lastSeededAt": "2026-05-03T19:44:16.445Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.henriettany.gov/assessorsoffice",
+      "sourceLabel": "Henrietta Assessor's Office page",
+      "notes": "Multi-source web confirms 585-359-7032 as Henrietta Assessor's Office direct line. 475 Calkins Rd, 14467 mailing. M-F 9am-5pm. Email: assessor@henrietta.org."
+    }
+  ]
 }

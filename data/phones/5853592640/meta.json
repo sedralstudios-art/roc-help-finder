@@ -66,5 +66,13 @@
     "town",
     "court"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://www.henriettany.gov/towncourt",
+      "sourceLabel": "Henrietta Town Court page",
+      "notes": "Multi-source web confirms 585-359-2640 as Henrietta Town Court direct line. 95 Methodist Hill Dr Suite 800, 14623. M-Th 9am-5pm, F 9am-4pm office; service window M-Th 9am-3pm, F 9am-1pm."
+    }
+  ]
 }

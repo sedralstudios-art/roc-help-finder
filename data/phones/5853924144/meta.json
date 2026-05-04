@@ -86,5 +86,13 @@
     "hilton",
     "village"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:24:50.206Z",
+      "sourceUrl": "https://hiltonny.gov/",
+      "sourceLabel": "Village of Hilton official site",
+      "notes": "Web confirms 585-392-4144 as Village of Hilton clerk's office line. 59 Henry St, Hilton NY 14468."
+    }
+  ]
 }
