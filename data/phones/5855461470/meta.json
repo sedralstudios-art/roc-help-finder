@@ -74,5 +74,13 @@
     "habitat",
     "humanity"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:05:14.827Z",
+      "sourceUrl": "https://www.grhabitat.org/",
+      "sourceLabel": "Greater Rochester Habitat for Humanity official site (formerly rochesterhabitat.org)",
+      "notes": "Web confirms (585) 546-1470. Org rebranded to Greater Rochester Habitat at 755 Culver Rd."
+    }
+  ]
 }

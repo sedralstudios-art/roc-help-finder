@@ -76,5 +76,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.306Z",
-  "lastSeededAt": "2026-05-03T19:44:16.306Z"
+  "lastSeededAt": "2026-05-03T19:44:16.306Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:06:31.373Z",
+      "sourceUrl": "https://ncpny.org/",
+      "sourceLabel": "NeighborWorks Community Partners official site",
+      "notes": "Web verified."
+    }
+  ]
 }

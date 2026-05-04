@@ -1,0 +1,24 @@
+{
+  "digits": "5855069050",
+  "kind": "phone",
+  "primaryName": "Family Promise of Greater Rochester",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "fpgroc"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:07:24.972Z",
+      "sourceUrl": "https://fpgroc.org",
+      "sourceLabel": "Family Promise of Greater Rochester official site",
+      "notes": "Web verified."
+    }
+  ]
+}

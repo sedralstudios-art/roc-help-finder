@@ -68,5 +68,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.388Z",
-  "lastSeededAt": "2026-05-03T19:44:16.388Z"
+  "lastSeededAt": "2026-05-03T19:44:16.388Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:08:51.683Z",
+      "sourceUrl": "https://www.monroecounty.gov/eh-housingrodentcontrol",
+      "sourceLabel": "Monroe County Housing Complaints (Env Health) page",
+      "notes": "Web verified."
+    }
+  ]
 }

@@ -93,5 +93,13 @@
     "defense",
     "project"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:06:31.374Z",
+      "sourceUrl": "https://www.tenantdefense.org",
+      "sourceLabel": "Tenant Defense Project official site",
+      "notes": "Web verified."
+    }
+  ]
 }

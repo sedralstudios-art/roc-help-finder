@@ -103,5 +103,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.283Z",
-  "lastSeededAt": "2026-05-03T19:44:16.283Z"
+  "lastSeededAt": "2026-05-03T19:44:16.283Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:12:16.714Z",
+      "sourceUrl": "https://www.pathstone.org",
+      "sourceLabel": "PathStone Corporation official site",
+      "notes": "Web verified."
+    }
+  ]
 }

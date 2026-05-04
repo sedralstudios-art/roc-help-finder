@@ -255,5 +255,13 @@
     "housing",
     "pathstone"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:07:24.973Z",
+      "sourceUrl": "https://www.thehousingcouncil.org",
+      "sourceLabel": "Housing Council at PathStone official site",
+      "notes": "Web verified."
+    }
+  ]
 }

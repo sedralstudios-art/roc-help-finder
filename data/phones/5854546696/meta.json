@@ -73,5 +73,13 @@
     "door",
     "mission"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T00:08:51.682Z",
+      "sourceUrl": "https://opendoormission.com",
+      "sourceLabel": "Open Door Mission page",
+      "notes": "Web verified."
+    }
+  ]
 }

@@ -495,8 +495,42 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
   const sources = Array.isArray(entry.sources) ? entry.sources : [];
   const tags = Array.isArray(entry.tags) ? entry.tags : [];
 
-  const pageTitle = title + ' | HelpFinder';
-  const metaDesc = summary.length > 160 ? summary.slice(0, 157) + '...' : summary;
+  // Title: drop the " | HelpFinder" suffix when the entry title is already
+  // long enough to risk SERP truncation (~55 chars). Brand survives via OG
+  // tags + structured data. Short titles keep the suffix as a brand signal.
+  const pageTitle = title.length > 55 ? title : title + ' | HelpFinder';
+
+  // Meta description: smart truncation that respects sentence/word boundaries,
+  // then a trust closer that pulls verified date and (when present) the
+  // "free legal help" signal from the counsel block. Searchers in legal-aid
+  // intent click results that promise free help with a fresh date.
+  const metaDesc = (() => {
+    const verifiedISO = entry.lastVerified || entry.lastAudited;
+    const verifiedPretty = verifiedISO
+      ? new Date(verifiedISO + 'T00:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+      : '';
+    const hasFreeCounsel = Array.isArray(entry.counsel) && entry.counsel.length > 0;
+    const closer = (hasFreeCounsel ? 'Free legal help. ' : '') + (verifiedPretty ? 'Verified ' + verifiedPretty + '.' : '');
+    const closerLen = closer ? closer.length + 1 : 0; // +1 for space joiner
+    if (summary.length + closerLen <= 160) {
+      return closer ? summary + ' ' + closer : summary;
+    }
+    const budget = Math.max(60, 160 - closerLen);
+    let cut = -1;
+    for (let i = Math.min(budget, summary.length) - 1; i >= 60; i--) {
+      const ch = summary[i];
+      if ((ch === '.' || ch === '?' || ch === '!') && (i + 1 === summary.length || summary[i + 1] === ' ')) {
+        cut = i + 1;
+        break;
+      }
+    }
+    if (cut < 0) {
+      const spaceAt = summary.lastIndexOf(' ', budget);
+      cut = spaceAt > 60 ? spaceAt : Math.min(budget, summary.length);
+    }
+    const excerpt = summary.slice(0, cut).trim();
+    return closer ? excerpt + ' ' + closer : excerpt;
+  })();
 
   // Reviewed-by callout (optional field — only renders when an outside expert
   // has reviewed the entry and consented to being named). Paired with a
