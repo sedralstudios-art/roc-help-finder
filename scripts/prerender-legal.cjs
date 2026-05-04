@@ -515,12 +515,14 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
     if (summary.length + closerLen <= 160) {
       return closer ? summary + ' ' + closer : summary;
     }
-    const budget = Math.max(60, 160 - closerLen);
+    const budget = Math.max(60, 160 - closerLen - 2); // -2 reserves room for the ellipsis
     let cut = -1;
+    let cutAtSentenceEnd = false;
     for (let i = Math.min(budget, summary.length) - 1; i >= 60; i--) {
       const ch = summary[i];
       if ((ch === '.' || ch === '?' || ch === '!') && (i + 1 === summary.length || summary[i + 1] === ' ')) {
         cut = i + 1;
+        cutAtSentenceEnd = true;
         break;
       }
     }
@@ -528,7 +530,8 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
       const spaceAt = summary.lastIndexOf(' ', budget);
       cut = spaceAt > 60 ? spaceAt : Math.min(budget, summary.length);
     }
-    const excerpt = summary.slice(0, cut).trim();
+    let excerpt = summary.slice(0, cut).trim();
+    if (!cutAtSentenceEnd) excerpt += '…'; // ellipsis when we cut mid-sentence so it doesn't run into the closer
     return closer ? excerpt + ' ' + closer : excerpt;
   })();
 
