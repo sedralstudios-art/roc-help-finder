@@ -15,6 +15,13 @@
       "name": "Monroe County Re-entry Task Force",
       "category": "reentry",
       "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "delphirise",
+      "name": "Delphi Rise Reentry",
+      "category": "reentry",
+      "hidden": false
     }
   ],
   "callsRecorded": 2,
@@ -55,5 +62,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.425Z",
-  "lastSeededAt": "2026-05-03T19:44:16.425Z"
+  "lastSeededAt": "2026-05-03T19:44:16.425Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:44:00.000Z",
+      "sourceUrl": "https://delphirise.org",
+      "sourceLabel": "Delphi Rise official site + DOCCS Monroe County Re-entry Task Force page",
+      "notes": "Web confirms 585-467-2230 as Delphi Rise main line; DOCCS Monroe County Re-entry Task Force page lists the same number ext. 303 for coordinator Jason Barnum. Task Force is hosted by Delphi Rise, so single number serves both programs. Delphi Rise also operates a 24/7 Open Access Line at 585-627-1777 (separate)."
+    }
+  ]
 }

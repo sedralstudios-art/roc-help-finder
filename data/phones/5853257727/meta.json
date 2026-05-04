@@ -74,5 +74,13 @@
     "process",
     "commission"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:48:00.000Z",
+      "sourceUrl": "https://www.rocjpc.org",
+      "sourceLabel": "Judicial Process Commission official site",
+      "notes": "Web confirms (585) 325-7727 as the Judicial Process Commission main line. 200 West Ave 2nd Fl (Danforth Community Center), Rochester NY 14611. Direct match to dialer transcript opening (\"JPC, Judicial Process Commission\")."
+    }
+  ]
 }

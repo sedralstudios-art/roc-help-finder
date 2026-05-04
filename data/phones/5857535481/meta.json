@@ -75,5 +75,13 @@
     "health",
     "clinic"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:02:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/health-nursing-STD-HIV",
+      "sourceLabel": "Monroe County Sexual Health Clinic page",
+      "notes": "Web confirms 585-753-5481 as Monroe County Sexual Health Clinic. ADDRESS CORRECTION: official site lists 819 W Main St 14611 (programs.js had stale 855 W Main St — corrected). Walk-in hours: M-W 8:30am-3:30pm, Th 8:30am-11:30am, F 7:30am-2:30pm. Direct match to dialer transcript opening (\"Monroe County Sexual Health Clinic\" + same address)."
+    }
+  ]
 }

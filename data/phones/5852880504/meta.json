@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.425Z",
-  "lastSeededAt": "2026-05-03T19:44:16.425Z"
+  "lastSeededAt": "2026-05-03T19:44:16.425Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:46:00.000Z",
+      "sourceUrl": "https://www.spirituschristiprisonoutreach.org/contact-us",
+      "sourceLabel": "Spiritus Christi Prison Outreach contact page",
+      "notes": "Web confirms 585-288-0504 as the Spiritus Christi Prison Outreach administrative office. 30 Millbank St, Rochester NY 14609. Housing facility lines are separate: Nielsen House (men) 585-328-0801; Jennifer House (women) 585-288-1074."
+    }
+  ]
 }

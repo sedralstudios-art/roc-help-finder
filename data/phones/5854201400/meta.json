@@ -63,5 +63,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.360Z",
-  "lastSeededAt": "2026-05-03T19:44:16.360Z"
+  "lastSeededAt": "2026-05-03T19:44:16.360Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:04:00.000Z",
+      "sourceUrl": "https://rochester.lgbt/business-directory/mocha-center-rochester-trillium-health/",
+      "sourceLabel": "Rochester LGBT directory listing for MOCHA Center",
+      "notes": "Multi-source web confirms 585-420-1400 as the MOCHA Center main line. 470 W Main St, Rochester NY. In partnership with Trillium Health (mochacenter.org now redirects to a Trillium subpage that returns 404; the .lgbt directory listing remains the most-current public phone source). M-Th 10am-6pm, F 9am-5pm."
+    }
+  ]
 }

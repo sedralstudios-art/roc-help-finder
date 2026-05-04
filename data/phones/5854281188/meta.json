@@ -1,0 +1,37 @@
+{
+  "digits": "5854281188",
+  "kind": "phone",
+  "primaryName": "City of Rochester Office of Violence Prevention",
+  "rawValue": "585-428-1188",
+  "blockDial": false,
+  "tags": [
+    "cat:reentry",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "cityreentry",
+      "name": "City of Rochester Reentry Program",
+      "category": "reentry",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T21:42:00.000Z",
+  "lastSeededAt": "2026-05-04T21:42:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:00.000Z",
+      "sourceUrl": "https://www.cityofrochester.gov/departments/office-violence-prevention/office-violence-prevention-contact",
+      "sourceLabel": "City of Rochester Office of Violence Prevention contact page",
+      "notes": "Web confirms 585-428-1188 as the Mayor's Office of Violence Prevention main line. 57 St. Paul St 3rd Fl, Rochester NY 14604. ROCOVP@cityofrochester.gov. The Reentry Program is operated by this office."
+    }
+  ]
+}
