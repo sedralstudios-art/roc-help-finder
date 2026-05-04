@@ -65,5 +65,13 @@
     "gates",
     "school"
   ],
-  "verifiedRatio": 0.4
+  "verifiedRatio": 0.4,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://www.gateschili.org/foodpantry",
+      "sourceLabel": "Gates Chili School District food pantry page",
+      "notes": "Web confirms 585-247-5050 as the Gates Chili Central School District main line. Food pantry questions route through district main; pantry is at the Operations Building (3 Spartan Way, enter door #3). 1st & 3rd Wednesdays monthly 3-4pm."
+    }
+  ]
 }

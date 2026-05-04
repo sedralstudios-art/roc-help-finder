@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.436Z",
-  "lastSeededAt": "2026-05-03T19:44:16.436Z"
+  "lastSeededAt": "2026-05-03T19:44:16.436Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://www.chiliny.gov/205/Dog-Control",
+      "sourceLabel": "Town of Chili Dog Control page",
+      "notes": "Web confirms 585-889-6175 as the Chili Dog Control line. 3333 Chili Ave. M-F 9am-5pm; summer hours adjust. 911 for after-hours emergencies."
+    }
+  ]
 }

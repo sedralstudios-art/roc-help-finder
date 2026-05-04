@@ -103,5 +103,13 @@
     "town",
     "court"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://www.townofriga.com/town-clerk/",
+      "sourceLabel": "Town of Riga Town Clerk page",
+      "notes": "Web confirms 585-293-3880 as the Town of Riga main switchboard. 6460 Buffalo Rd, Churchville NY 14428. Used by rigaclerk (ext 121/122), rigacourt (ext 127/128), rigaassessor, and rigadogcontrol (ext 125)."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.435Z",
-  "lastSeededAt": "2026-05-03T19:44:16.435Z"
+  "lastSeededAt": "2026-05-03T19:44:16.435Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://chili-presbyterian.org/food-cupboard/",
+      "sourceLabel": "First Presbyterian Church of Chili food cupboard page",
+      "notes": "Web confirms 585-889-9896 as the First Presbyterian Church of Chili main line, host of the Chili Presbyterian Food Cupboard. 3600 Chili Ave 14624. Cupboard runs 3rd Saturday monthly 10am-11:30am."
+    }
+  ]
 }

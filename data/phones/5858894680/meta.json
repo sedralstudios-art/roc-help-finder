@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.436Z",
-  "lastSeededAt": "2026-05-03T19:44:16.436Z"
+  "lastSeededAt": "2026-05-03T19:44:16.436Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://www.chiliny.gov/346/Community-Center",
+      "sourceLabel": "Town of Chili Community Center page",
+      "notes": "Web confirms 585-889-4680 as the Chili Recreation / Community Center main line. 4400 Buffalo Rd, North Chili NY 14514. Same line serves chilirec (Recreation) and chilisenior (Senior Center) — both housed in the Community Center alongside Chili Public Library."
+    }
+  ]
 }

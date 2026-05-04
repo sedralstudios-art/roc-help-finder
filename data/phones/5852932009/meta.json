@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.437Z",
-  "lastSeededAt": "2026-05-03T19:44:16.437Z"
+  "lastSeededAt": "2026-05-03T19:44:16.437Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://newmanrigalibrary.org",
+      "sourceLabel": "Newman Riga Library official site",
+      "notes": "Web confirms 585-293-2009 as Newman Riga Library main line. 1 S Main St, Churchville NY 14428. Member of Monroe County Library System."
+    }
+  ]
 }

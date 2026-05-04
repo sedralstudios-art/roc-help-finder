@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.434Z",
-  "lastSeededAt": "2026-05-03T19:44:16.434Z"
+  "lastSeededAt": "2026-05-03T19:44:16.434Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://www.chiliny.gov/197/Assessors-Office",
+      "sourceLabel": "Town of Chili Assessor's Office page",
+      "notes": "Web confirms 585-889-6132 as Chili Town Assessor's Office line. 3333 Chili Ave. M-F 9am-5pm. STAR/senior/veteran/disability exemptions; March 1 filing deadline."
+    }
+  ]
 }

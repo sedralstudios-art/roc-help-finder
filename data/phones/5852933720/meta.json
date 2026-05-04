@@ -86,5 +86,13 @@
     "churchville",
     "village"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://churchvilleny.gov",
+      "sourceLabel": "Village of Churchville official site",
+      "notes": "Web confirms (585) 293-3720 as the Village of Churchville main / clerk line. 23 E Buffalo St, Churchville NY 14428. Billing inquiries: ext. 113. Village Clerk: Stacy Stanton."
+    }
+  ]
 }

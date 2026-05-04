@@ -65,5 +65,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:57:01.114Z",
+      "sourceUrl": "https://www.chililibrary.org",
+      "sourceLabel": "Chili Public Library official site",
+      "notes": "Web confirms (585) 889-2200 as the Chili Public Library line. 3237 Chili Ave, Rochester NY 14624. Inside the Chili Community Center."
+    }
+  ]
 }
