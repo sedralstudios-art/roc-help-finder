@@ -1,0 +1,37 @@
+{
+  "digits": "8773606322",
+  "kind": "phone",
+  "primaryName": "National Foundation for Credit Counseling (NFCC)",
+  "rawValue": "877-360-6322",
+  "blockDial": false,
+  "tags": [
+    "cat:legalDebt",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "creditcounseling",
+      "name": "Free Credit Counseling (NFCC)",
+      "category": "legalDebt",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T23:57:00.000Z",
+  "lastSeededAt": "2026-05-04T23:57:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:57:00.000Z",
+      "sourceUrl": "https://www.nfcc.org",
+      "sourceLabel": "NFCC official site",
+      "notes": "Web confirms 877-360-6322 as the National Foundation for Credit Counseling toll-free customer service line. NFCC is a nonprofit network — services are free."
+    }
+  ]
+}

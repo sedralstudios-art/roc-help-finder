@@ -71,5 +71,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.334Z",
-  "lastSeededAt": "2026-05-03T19:44:16.334Z"
+  "lastSeededAt": "2026-05-03T19:44:16.334Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:59:00.000Z",
+      "sourceUrl": "https://www.nylag.org",
+      "sourceLabel": "NY Legal Assistance Group official site",
+      "notes": "Web confirms 212-613-5000 as NYLAG main line. Used by both disabilityadvocacy (Disability Advocacy Project) and nycairr (Immigration Unit) program entries — NYLAG main number routes to both."
+    }
+  ]
 }

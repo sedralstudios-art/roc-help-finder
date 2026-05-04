@@ -323,5 +323,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.271Z",
-  "lastSeededAt": "2026-05-03T19:44:16.271Z"
+  "lastSeededAt": "2026-05-03T19:44:16.271Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:55:00.000Z",
+      "sourceUrl": "https://www.consumerfinance.gov/about-us/contact-us/",
+      "sourceLabel": "CFPB Contact Us page",
+      "notes": "Web confirms 855-411-2372 as the CFPB main consumer line. M-F 9am-6pm ET. TTY/TDD: 855-729-2372."
+    }
+  ]
 }

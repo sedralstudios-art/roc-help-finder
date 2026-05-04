@@ -145,5 +145,13 @@
     "health",
     "advocates"
   ],
-  "verifiedRatio": 0.75
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:58:00.000Z",
+      "sourceUrl": "https://communityhealthadvocates.org",
+      "sourceLabel": "Community Health Advocates official site",
+      "notes": "Web confirms 888-614-5400 as the CHA helpline (run by CSS NY). M-F 9am-4pm. Multilingual via local partners. Direct match to dialer transcript opening (\"Community Health Advocates, the CSS Navigator Network\")."
+    }
+  ]
 }
