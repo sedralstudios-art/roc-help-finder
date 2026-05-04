@@ -84,5 +84,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.298Z",
-  "lastSeededAt": "2026-05-03T19:44:16.298Z"
+  "lastSeededAt": "2026-05-03T19:44:16.298Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofrush.com/departments/town-clerk-collector.html",
+      "sourceLabel": "Town of Rush Town Clerk and Building Department pages",
+      "notes": "Web confirms 585-533-1312 as Town of Rush main switchboard. 5977 East Henrietta Rd. Used by both rushclerk (M-F 8:30am-4:30pm) and rushbuilding (Tu-Th 9am-2pm). Fax: 585-533-9346."
+    }
+  ]
 }

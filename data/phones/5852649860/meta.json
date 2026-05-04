@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.454Z",
-  "lastSeededAt": "2026-05-03T19:44:16.454Z"
+  "lastSeededAt": "2026-05-03T19:44:16.454Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.pittsfordfoodcupboard.net/",
+      "sourceLabel": "Pittsford Food Cupboard official site",
+      "notes": "Web confirms (585) 264-9860 as Pittsford Food Cupboard line. 3800 Monroe Ave Suite 26. Tu/F 9:30-1:30, 1st/3rd Sat 9:30-11:30. Serves Pittsford+Mendon+HF+Brighton+East Rochester (4,000+ households/year)."
+    }
+  ]
 }

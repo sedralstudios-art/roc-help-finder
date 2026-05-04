@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.455Z",
-  "lastSeededAt": "2026-05-03T19:44:16.455Z"
+  "lastSeededAt": "2026-05-03T19:44:16.455Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofrush.com/departments/justice-town-court.html",
+      "sourceLabel": "Town of Rush Justice Court page",
+      "notes": "Web confirms 585-533-1130 as Rush Justice Court line. 5977 East Henrietta Rd. Court entrance from 1900 Rush Scottsville. Window M-F 9am-1:30pm."
+    }
+  ]
 }

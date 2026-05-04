@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.455Z",
-  "lastSeededAt": "2026-05-03T19:44:16.455Z"
+  "lastSeededAt": "2026-05-03T19:44:16.455Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofrush.com/departments/assessor.html",
+      "sourceLabel": "Town of Rush Assessor's Office page",
+      "notes": "Web confirms 585-533-2330 as Rush Assessor's Office line. Tu 8:30am-12:30pm; Clerk Tu/Th 8:30am-3pm + F 8:30am-12pm. Alt 585-533-9346."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.454Z",
-  "lastSeededAt": "2026-05-03T19:44:16.454Z"
+  "lastSeededAt": "2026-05-03T19:44:16.454Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofpittsford.org/recreation",
+      "sourceLabel": "Town of Pittsford Recreation Department page",
+      "notes": "Web confirms (585) 248-6280 as Pittsford Recreation Department / Spiegel Community Center main line. 35 Lincoln Ave. Fax 585-248-6286."
+    }
+  ]
 }

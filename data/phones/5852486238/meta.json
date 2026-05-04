@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.453Z",
-  "lastSeededAt": "2026-05-03T19:44:16.453Z"
+  "lastSeededAt": "2026-05-03T19:44:16.453Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofpittsford.org/court/contact",
+      "sourceLabel": "Town of Pittsford Town Court contact page",
+      "notes": "Web confirms (585) 248-6238 as Pittsford Town Court Court Clerk line. ADDRESS CORRECTION: programs.js had stale 11 South Main St; Pittsford Town Court is at 3750 Monroe Ave (Town Hall is 11 S Main but court is at Monroe Ave). Court in session every Thursday."
+    }
+  ]
 }

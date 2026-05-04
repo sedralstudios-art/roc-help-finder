@@ -65,5 +65,13 @@
     "pittsford",
     "library"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofpittsford.org/library",
+      "sourceLabel": "Pittsford Community Library page",
+      "notes": "Web confirms (585) 248-6275 as Pittsford Community Library main line. 24 State St."
+    }
+  ]
 }

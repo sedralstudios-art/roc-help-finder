@@ -1,0 +1,74 @@
+[
+  {
+    "digits": "5852486238",
+    "sourceUrl": "https://www.townofpittsford.org/court/contact",
+    "sourceLabel": "Town of Pittsford Town Court contact page",
+    "notes": "Web confirms (585) 248-6238 as Pittsford Town Court Court Clerk line. ADDRESS CORRECTION: programs.js had stale 11 South Main St; Pittsford Town Court is at 3750 Monroe Ave (Town Hall is 11 S Main but court is at Monroe Ave). Court in session every Thursday."
+  },
+  {
+    "digits": "5852486230",
+    "sourceUrl": "https://www.townofpittsford.org/assessor",
+    "sourceLabel": "Town of Pittsford Assessor's Office page",
+    "notes": "Web confirms (585) 248-6230 as Pittsford Assessor's Office line. 11 South Main St. M-F 8am-4pm."
+  },
+  {
+    "digits": "5852486265",
+    "sourceUrl": "https://www.townofpittsford.org/dpw/code",
+    "sourceLabel": "Town of Pittsford DPW Building & Code Enforcement page",
+    "notes": "Web confirms (585) 248-6265 as Pittsford Building and Code Enforcement line. DPW main: 585-248-6250. M-F 8am-4pm."
+  },
+  {
+    "digits": "5852649860",
+    "sourceUrl": "https://www.pittsfordfoodcupboard.net/",
+    "sourceLabel": "Pittsford Food Cupboard official site",
+    "notes": "Web confirms (585) 264-9860 as Pittsford Food Cupboard line. 3800 Monroe Ave Suite 26. Tu/F 9:30-1:30, 1st/3rd Sat 9:30-11:30. Serves Pittsford+Mendon+HF+Brighton+East Rochester (4,000+ households/year)."
+  },
+  {
+    "digits": "5852486275",
+    "sourceUrl": "https://www.townofpittsford.org/library",
+    "sourceLabel": "Pittsford Community Library page",
+    "notes": "Web confirms (585) 248-6275 as Pittsford Community Library main line. 24 State St."
+  },
+  {
+    "digits": "5852486235",
+    "sourceUrl": "https://www.townofpittsford.org/seniors",
+    "sourceLabel": "Town of Pittsford Senior Citizens page",
+    "notes": "Web confirms (585) 248-6235 as Pittsford Seniors office line. 35 Lincoln Ave (Spiegel Pittsford Community Center). Lunch Club 60 reservations one week ahead. Elderberry Express transport: 585-248-6237."
+  },
+  {
+    "digits": "5852486280",
+    "sourceUrl": "https://www.townofpittsford.org/recreation",
+    "sourceLabel": "Town of Pittsford Recreation Department page",
+    "notes": "Web confirms (585) 248-6280 as Pittsford Recreation Department / Spiegel Community Center main line. 35 Lincoln Ave. Fax 585-248-6286."
+  },
+  {
+    "digits": "5852640604",
+    "sourceUrl": "https://www.pittsfordyouthservices.org/",
+    "sourceLabel": "Pittsford Youth Services official site",
+    "notes": "Web confirms (585) 264-0604 as Pittsford Youth Services line. 4 South Main St (Phoenix Building). Counseling sliding scale from $75/hour. M-F 10am-2pm + after-school/evening appts."
+  },
+  {
+    "digits": "5855331312",
+    "sourceUrl": "https://www.townofrush.com/departments/town-clerk-collector.html",
+    "sourceLabel": "Town of Rush Town Clerk and Building Department pages",
+    "notes": "Web confirms 585-533-1312 as Town of Rush main switchboard. 5977 East Henrietta Rd. Used by both rushclerk (M-F 8:30am-4:30pm) and rushbuilding (Tu-Th 9am-2pm). Fax: 585-533-9346."
+  },
+  {
+    "digits": "5855331130",
+    "sourceUrl": "https://www.townofrush.com/departments/justice-town-court.html",
+    "sourceLabel": "Town of Rush Justice Court page",
+    "notes": "Web confirms 585-533-1130 as Rush Justice Court line. 5977 East Henrietta Rd. Court entrance from 1900 Rush Scottsville. Window M-F 9am-1:30pm."
+  },
+  {
+    "digits": "5855332330",
+    "sourceUrl": "https://www.townofrush.com/departments/assessor.html",
+    "sourceLabel": "Town of Rush Assessor's Office page",
+    "notes": "Web confirms 585-533-2330 as Rush Assessor's Office line. Tu 8:30am-12:30pm; Clerk Tu/Th 8:30am-3pm + F 8:30am-12pm. Alt 585-533-9346."
+  },
+  {
+    "digits": "5855331370",
+    "sourceUrl": "https://www.rushlibrary.org/",
+    "sourceLabel": "Rush Public Library official site",
+    "notes": "Web confirms 585-533-1370 as Rush Public Library main line. Director: Kirsten Flass. 5977 East Henrietta Rd."
+  }
+]

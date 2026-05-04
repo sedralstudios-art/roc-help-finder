@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.455Z",
-  "lastSeededAt": "2026-05-03T19:44:16.455Z"
+  "lastSeededAt": "2026-05-03T19:44:16.455Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.pittsfordyouthservices.org/",
+      "sourceLabel": "Pittsford Youth Services official site",
+      "notes": "Web confirms (585) 264-0604 as Pittsford Youth Services line. 4 South Main St (Phoenix Building). Counseling sliding scale from $75/hour. M-F 10am-2pm + after-school/evening appts."
+    }
+  ]
 }

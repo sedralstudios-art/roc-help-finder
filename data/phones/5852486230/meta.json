@@ -61,5 +61,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.362Z",
-  "lastSeededAt": "2026-05-03T19:44:16.362Z"
+  "lastSeededAt": "2026-05-03T19:44:16.362Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofpittsford.org/assessor",
+      "sourceLabel": "Town of Pittsford Assessor's Office page",
+      "notes": "Web confirms (585) 248-6230 as Pittsford Assessor's Office line. 11 South Main St. M-F 8am-4pm."
+    }
+  ]
 }

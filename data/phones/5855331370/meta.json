@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.455Z",
-  "lastSeededAt": "2026-05-03T19:44:16.455Z"
+  "lastSeededAt": "2026-05-03T19:44:16.455Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.rushlibrary.org/",
+      "sourceLabel": "Rush Public Library official site",
+      "notes": "Web confirms 585-533-1370 as Rush Public Library main line. Director: Kirsten Flass. 5977 East Henrietta Rd."
+    }
+  ]
 }

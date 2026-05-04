@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.454Z",
-  "lastSeededAt": "2026-05-03T19:44:16.454Z"
+  "lastSeededAt": "2026-05-03T19:44:16.454Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:01:43.186Z",
+      "sourceUrl": "https://www.townofpittsford.org/seniors",
+      "sourceLabel": "Town of Pittsford Senior Citizens page",
+      "notes": "Web confirms (585) 248-6235 as Pittsford Seniors office line. 35 Lincoln Ave (Spiegel Pittsford Community Center). Lunch Club 60 reservations one week ahead. Elderberry Express transport: 585-248-6237."
+    }
+  ]
 }

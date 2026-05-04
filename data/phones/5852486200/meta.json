@@ -1,0 +1,37 @@
+{
+  "digits": "5852486200",
+  "kind": "phone",
+  "primaryName": "Town of Pittsford (main switchboard)",
+  "rawValue": "585-248-6200",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordanimal",
+      "name": "Pittsford Animal Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T02:42:00.000Z",
+  "lastSeededAt": "2026-05-05T02:42:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T02:42:00.000Z",
+      "sourceUrl": "https://www.townofpittsford.org/animal-control",
+      "sourceLabel": "Town of Pittsford Animal Control page",
+      "notes": "Web confirms (585) 248-6200 as Town of Pittsford main switchboard, used for Animal Control routing. After-hours emergencies: 585-248-6212."
+    }
+  ]
+}
