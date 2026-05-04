@@ -1,0 +1,37 @@
+{
+  "digits": "5854358406",
+  "kind": "phone",
+  "primaryName": "Penfield Ecumenical Food Shelf",
+  "rawValue": "585-435-8406",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldfoodshelf",
+      "name": "Penfield Ecumenical Food Shelf",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T02:25:00.000Z",
+  "lastSeededAt": "2026-05-05T02:25:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T02:25:00.000Z",
+      "sourceUrl": "https://www.penfieldecumenicalfoodshelf.com",
+      "sourceLabel": "Penfield Ecumenical Food Shelf official site",
+      "notes": "Web confirms 585-435-8406 as the Penfield Ecumenical Food Shelf line. 1618 Jackson Rd, Penfield NY 14526. 24-hour answering machine; volunteer returns call within 24 hours. Wed 9:30am-11am or by appointment. Serves zips 14526/14625 + Penfield school families."
+    }
+  ]
+}

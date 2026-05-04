@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.451Z",
-  "lastSeededAt": "2026-05-03T19:44:16.451Z"
+  "lastSeededAt": "2026-05-03T19:44:16.451Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://ogdenny.myrec.com/",
+      "sourceLabel": "Town of Ogden Parks and Recreation MyRec page",
+      "notes": "Web confirms (585) 617-6174 as Ogden Parks & Recreation main line. 269 Ogden Center Rd."
+    }
+  ]
 }

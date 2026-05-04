@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.453Z",
-  "lastSeededAt": "2026-05-03T19:44:16.453Z"
+  "lastSeededAt": "2026-05-03T19:44:16.453Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://www.penfieldny.gov/your_government/departments/animal_control/index.php",
+      "sourceLabel": "Town of Penfield Animal Control page",
+      "notes": "Web confirms (585) 340-8616 as Penfield Animal Control line. Animal Control Officer: Steven Schicker. Don Mack Building, 1587 Jackson Rd. Email: animalcontrol@penfieldNY.gov. 24/7 emergency response."
+    }
+  ]
 }

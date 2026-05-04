@@ -36,5 +36,13 @@
   },
   "status": "active",
   "replacedBy": null,
-  "replaces": null
+  "replaces": null,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://www.penfieldny.gov/your_government/departments/town_clerk_s_office/index.php",
+      "sourceLabel": "Town of Penfield Town Clerk page",
+      "notes": "Web confirms (585) 340-8629 as Penfield Town Clerk line. 3100 Atlantic Ave (Town Hall 1st Floor), Penfield NY 14526. Email: clerk@penfieldny.gov. M-F 8am-4pm."
+    }
+  ]
 }

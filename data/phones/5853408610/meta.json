@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.452Z",
-  "lastSeededAt": "2026-05-03T19:44:16.452Z"
+  "lastSeededAt": "2026-05-03T19:44:16.452Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://www.penfieldny.gov/your_government/departments/assessor_s_office/index.php",
+      "sourceLabel": "Town of Penfield Assessor's Office page",
+      "notes": "Web confirms (585) 340-8610 as Penfield Assessor's Office line. Town Hall 2nd Floor, 3100 Atlantic Ave. M-F 8:30am-4pm."
+    }
+  ]
 }

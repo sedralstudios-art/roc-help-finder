@@ -1,0 +1,37 @@
+{
+  "digits": "5853408637",
+  "kind": "phone",
+  "primaryName": "Penfield Building Department",
+  "rawValue": "585-340-8637",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldbuilding",
+      "name": "Penfield Building Department",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T02:26:00.000Z",
+  "lastSeededAt": "2026-05-05T02:26:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T02:26:00.000Z",
+      "sourceUrl": "https://www.penfieldny.gov/your_government/departments/building/index.php",
+      "sourceLabel": "Town of Penfield Building Department page",
+      "notes": "Web confirms (585) 340-8637 as Penfield Building Department line. Department Head: Allen Reitz. Town Hall 2nd Floor, 3100 Atlantic Ave."
+    }
+  ]
+}

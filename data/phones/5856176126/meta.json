@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.451Z",
-  "lastSeededAt": "2026-05-03T19:44:16.451Z"
+  "lastSeededAt": "2026-05-03T19:44:16.451Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://ogdenny.gov/senior-center/",
+      "sourceLabel": "Town of Ogden Senior Center page",
+      "notes": "Web confirms (585) 617-6126 as Ogden Senior Center line. 200 S Union St, Spencerport NY 14559. Lunch M/W/F at noon. Mon/Wed/Fri 9am-3pm."
+    }
+  ]
 }

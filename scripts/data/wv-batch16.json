@@ -1,0 +1,74 @@
+[
+  {
+    "digits": "5856176181",
+    "sourceUrl": "https://www.ogdenfarmerslibrary.org/",
+    "sourceLabel": "Ogden Farmers' Library official site",
+    "notes": "Web confirms 585-617-6181 as Ogden Farmers' Library main line. 269 Ogden Center Rd, Spencerport NY 14559. Library since 1815. Monroe County Library System."
+  },
+  {
+    "digits": "5856176126",
+    "sourceUrl": "https://ogdenny.gov/senior-center/",
+    "sourceLabel": "Town of Ogden Senior Center page",
+    "notes": "Web confirms (585) 617-6126 as Ogden Senior Center line. 200 S Union St, Spencerport NY 14559. Lunch M/W/F at noon. Mon/Wed/Fri 9am-3pm."
+  },
+  {
+    "digits": "5856176174",
+    "sourceUrl": "https://ogdenny.myrec.com/",
+    "sourceLabel": "Town of Ogden Parks and Recreation MyRec page",
+    "notes": "Web confirms (585) 617-6174 as Ogden Parks & Recreation main line. 269 Ogden Center Rd."
+  },
+  {
+    "digits": "5853408629",
+    "sourceUrl": "https://www.penfieldny.gov/your_government/departments/town_clerk_s_office/index.php",
+    "sourceLabel": "Town of Penfield Town Clerk page",
+    "notes": "Web confirms (585) 340-8629 as Penfield Town Clerk line. 3100 Atlantic Ave (Town Hall 1st Floor), Penfield NY 14526. Email: clerk@penfieldny.gov. M-F 8am-4pm."
+  },
+  {
+    "digits": "5853408623",
+    "sourceUrl": "https://www.penfieldny.gov/your_government/departments/justice_courts/index.php",
+    "sourceLabel": "Town of Penfield Justice Court page",
+    "notes": "Web confirms (585) 340-8623 as Penfield Town Court main line. Clerks: Paula C. Metzler 585-340-8723, James P. Mulley Jr. 585-340-8624."
+  },
+  {
+    "digits": "5853408610",
+    "sourceUrl": "https://www.penfieldny.gov/your_government/departments/assessor_s_office/index.php",
+    "sourceLabel": "Town of Penfield Assessor's Office page",
+    "notes": "Web confirms (585) 340-8610 as Penfield Assessor's Office line. Town Hall 2nd Floor, 3100 Atlantic Ave. M-F 8:30am-4pm."
+  },
+  {
+    "digits": "5854358406",
+    "sourceUrl": "https://www.penfieldecumenicalfoodshelf.com",
+    "sourceLabel": "Penfield Ecumenical Food Shelf official site",
+    "notes": "Web confirms 585-435-8406 as Penfield Ecumenical Food Shelf line. 1618 Jackson Rd, Penfield NY 14526. 24-hour answering machine; volunteer returns call within 24 hours. Wed 9:30am-11am or by appointment."
+  },
+  {
+    "digits": "5855865139",
+    "sourceUrl": "https://penfieldhope.org/food-pantry",
+    "sourceLabel": "Penfield Hope food pantry page (multi-source corroboration)",
+    "notes": "Multi-source web confirms (585) 586-5139 as Penfield Hope food pantry main line. 1771 Penfield Rd (Penfield Four Corners). Alt 585-750-9839. Mon 2-6pm, Tue 4-7pm, Thu 9am-1pm. Direct fetch of penfieldhope.org returned 403; relied on findhelp / 211 / Plentiful directory listings."
+  },
+  {
+    "digits": "5853408720",
+    "sourceUrl": "https://penfield.libraryweb.org",
+    "sourceLabel": "Penfield Public Library page (multi-source corroboration via penfieldny.gov + Yelp + chamberofcommerce)",
+    "notes": "Multi-source web confirms (585) 340-8720 as Penfield Public Library main line. 1985 Baird Rd. M-Th 9:30am-8:30pm."
+  },
+  {
+    "digits": "5853408616",
+    "sourceUrl": "https://www.penfieldny.gov/your_government/departments/animal_control/index.php",
+    "sourceLabel": "Town of Penfield Animal Control page",
+    "notes": "Web confirms (585) 340-8616 as Penfield Animal Control line. Animal Control Officer: Steven Schicker. Don Mack Building, 1587 Jackson Rd. Email: animalcontrol@penfieldNY.gov. 24/7 emergency response."
+  },
+  {
+    "digits": "5852486210",
+    "sourceUrl": "https://www.townofpittsford.org/clerk",
+    "sourceLabel": "Town of Pittsford Town Clerk page",
+    "notes": "Multi-source web confirms (585) 248-6210 as Pittsford Town Clerk's Office line. Town Clerk: Renee McQuillen. 11 South Main St. M-W 8am-4pm, Th 8am-6pm, F 8am-3pm."
+  },
+  {
+    "digits": "5855864332",
+    "sourceUrl": "https://www.villageofpittsfordny.gov/contact-information",
+    "sourceLabel": "Village of Pittsford contact page",
+    "notes": "Web confirms (585) 586-4332 as Village of Pittsford main / clerk line. 21 N Main St. M-F 8am-4pm. Notary M-Th 9am-1:30pm."
+  }
+]

@@ -73,5 +73,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.322Z",
-  "lastSeededAt": "2026-05-03T19:44:16.322Z"
+  "lastSeededAt": "2026-05-03T19:44:16.322Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://www.villageofpittsfordny.gov/contact-information",
+      "sourceLabel": "Village of Pittsford contact page",
+      "notes": "Web confirms (585) 586-4332 as Village of Pittsford main / clerk line. 21 N Main St. M-F 8am-4pm. Notary M-Th 9am-1:30pm."
+    }
+  ]
 }

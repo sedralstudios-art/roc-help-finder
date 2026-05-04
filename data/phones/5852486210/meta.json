@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.453Z",
-  "lastSeededAt": "2026-05-03T19:44:16.453Z"
+  "lastSeededAt": "2026-05-03T19:44:16.453Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://www.townofpittsford.org/clerk",
+      "sourceLabel": "Town of Pittsford Town Clerk page",
+      "notes": "Multi-source web confirms (585) 248-6210 as Pittsford Town Clerk's Office line. Town Clerk: Renee McQuillen. 11 South Main St. M-W 8am-4pm, Th 8am-6pm, F 8am-3pm."
+    }
+  ]
 }

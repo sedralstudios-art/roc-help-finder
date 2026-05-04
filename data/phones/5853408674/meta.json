@@ -1,0 +1,37 @@
+{
+  "digits": "5853408674",
+  "kind": "phone",
+  "primaryName": "Penfield Senior Programs (DEAR) / Bri-Pen Senior Rides",
+  "rawValue": "585-340-8674",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldsenior",
+      "name": "Penfield Senior Programs (DEAR)",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T02:26:00.000Z",
+  "lastSeededAt": "2026-05-05T02:26:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T02:26:00.000Z",
+      "sourceUrl": "https://www.penfieldny.gov/programs_and_activities/dear/dear_lunch-menus.php",
+      "sourceLabel": "Town of Penfield DEAR senior programs page",
+      "notes": "Web confirms 585-340-8674 as Penfield Senior Programs / Bri-Pen Senior Rides line. Bri-Pen Senior Rides is a transportation program for ambulatory seniors 65+ in Brighton/Penfield (medical appointments + religious services)."
+    }
+  ]
+}

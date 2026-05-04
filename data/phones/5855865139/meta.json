@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.452Z",
-  "lastSeededAt": "2026-05-03T19:44:16.452Z"
+  "lastSeededAt": "2026-05-03T19:44:16.452Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://penfieldhope.org/food-pantry",
+      "sourceLabel": "Penfield Hope food pantry page (multi-source corroboration)",
+      "notes": "Multi-source web confirms (585) 586-5139 as Penfield Hope food pantry main line. 1771 Penfield Rd (Penfield Four Corners). Alt 585-750-9839. Mon 2-6pm, Tue 4-7pm, Thu 9am-1pm. Direct fetch of penfieldhope.org returned 403; relied on findhelp / 211 / Plentiful directory listings."
+    }
+  ]
 }

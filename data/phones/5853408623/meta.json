@@ -64,5 +64,13 @@
     "town",
     "court"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://www.penfieldny.gov/your_government/departments/justice_courts/index.php",
+      "sourceLabel": "Town of Penfield Justice Court page",
+      "notes": "Web confirms (585) 340-8623 as Penfield Town Court main line. Clerks: Paula C. Metzler 585-340-8723, James P. Mulley Jr. 585-340-8624."
+    }
+  ]
 }

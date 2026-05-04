@@ -66,5 +66,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:52:25.663Z",
+      "sourceUrl": "https://penfield.libraryweb.org",
+      "sourceLabel": "Penfield Public Library page (multi-source corroboration via penfieldny.gov + Yelp + chamberofcommerce)",
+      "notes": "Multi-source web confirms (585) 340-8720 as Penfield Public Library main line. 1985 Baird Rd. M-Th 9:30am-8:30pm."
+    }
+  ]
 }
