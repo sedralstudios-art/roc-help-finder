@@ -1,0 +1,24 @@
+{
+  "callId": "e0ef68b9-59d8-7f7b-a3a9-4fdf60ff0e86",
+  "digits": "5857534210",
+  "dialedNumber": "(585) 753-4210",
+  "catalogedName": "Monroe County Public Defender",
+  "sourceId": "drug-possession-basics-ny::Monroe County Public Defender",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:05:58.172Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.966Z"
+  }
+}

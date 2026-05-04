@@ -62,7 +62,7 @@ export const PRIVATE_LOT_PARKING_TOWING_NY = {
       qualifier: "Any New York State resident",
       access: "Phone at (800) 697-1220",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 697-1220",
+      phone: "",
       url: "https://dos.ny.gov/consumer-protection",
       verified: true,
       bilingual: true,

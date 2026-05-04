@@ -1,0 +1,61 @@
+{
+  "digits": "6072553715",
+  "kind": "phone",
+  "primaryName": "entry-callout:veterans-benefits-apportionment-ny",
+  "rawValue": "(607) 255-3715",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "veterans-benefits-apportionment-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-51-56-374Z_22c3f3f6-1503-e3a9-5dc7-30d092126757",
+    "meta": {
+      "callId": "22c3f3f6-1503-e3a9-5dc7-30d092126757",
+      "digits": "6072553715",
+      "dialedNumber": "(607) 255-3715",
+      "catalogedName": "veterans-benefits-apportionment-ny",
+      "sourceId": "legal-entry:veterans-benefits-apportionment-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "veterans-benefits-apportionment-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:51:56.374Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.138Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.579Z",
+  "lastSeededAt": "2026-05-03T19:44:16.579Z"
+}

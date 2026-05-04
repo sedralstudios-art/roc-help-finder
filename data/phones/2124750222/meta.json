@@ -1,0 +1,61 @@
+{
+  "digits": "2124750222",
+  "kind": "phone",
+  "primaryName": "entry-callout:post-adoption-contact-agreement-ny",
+  "rawValue": "(212) 475-0222",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "post-adoption-contact-agreement-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-35-42-896Z_30c5d20a-b0d3-cc60-e6a8-22022928a1a8",
+    "meta": {
+      "callId": "30c5d20a-b0d3-cc60-e6a8-22022928a1a8",
+      "digits": "2124750222",
+      "dialedNumber": "(212) 475-0222",
+      "catalogedName": "post-adoption-contact-agreement-ny",
+      "sourceId": "legal-entry:post-adoption-contact-agreement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "post-adoption-contact-agreement-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:35:42.896Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.026Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.549Z",
+  "lastSeededAt": "2026-05-03T19:44:16.549Z"
+}

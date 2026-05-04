@@ -1,0 +1,416 @@
+{
+  "digits": "8003423736",
+  "kind": "phone",
+  "primaryName": "HOTLINES.nysDFS",
+  "rawValue": "800-342-3736",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nysDFS",
+      "value": "800-342-3736",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "aca-preventive-care-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "after-a-fire-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "auto-body-shop-steering-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "auto-insurance-claim-denied-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "auto-lease-early-termination-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "card-act-credit-card-fees-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "check-fraud-stolen-check-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "condo-coop-offering-plan-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "condo-unit-owner-insurance-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "consumer-debt-collector-licensing-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "contraception-coverage-ccca-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "debt-collection-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "debt-settlement-company-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "dram-shop-act-bar-liability-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "emergency-room-billing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "fertility-preservation-coverage-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "force-placed-homeowner-insurance-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-rescue-scams-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-settlement-conference-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "genetic-discrimination-gina-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "heating-oil-tank-removal-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "high-cost-home-loan-banking-6-l-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "home-equity-line-credit-disclosure-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "home-insurance-claim-denied-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "ice-dam-roof-damage-ny-cl",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "insurance-fraud-criminal-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "license-points-reduction-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "life-insurance-policy-lapse-protection-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-insurance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicare-advantage-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-parity-insurance-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "mold-homeowner-remediation-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-recording-tax-closing-cost-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "motor-vehicle-service-contract-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "payday-lending-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "payday-loan-illegal-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pharmacist-emergency-refill-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "pmi-cancellation-homeowner-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "predatory-lending-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "public-adjuster-insurance-claim-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "rental-car-damage-waiver-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "renters-insurance-basics-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "renters-insurance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "retail-installment-sales-act-ppl-402-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "reverse-mortgage-seniors-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "sewer-lateral-responsibility-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "stop-payment-order-check-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-billing-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-bills-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "telehealth-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tila-mortgage-disclosures-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "title-insurance-what-it-covers-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "totten-trust-bank-account-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "uber-lyft-passenger-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "unclaimed-life-insurance-benefits-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-motorist-accident-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "warranty-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "woodstove-fireplace-rules-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T02-36-46-038Z_e7b4e567-fb86-dec0-e2a9-0bf720a877fa",
+    "meta": {
+      "callId": "e7b4e567-fb86-dec0-e2a9-0bf720a877fa",
+      "digits": "8003423736",
+      "dialedNumber": "800-342-3736",
+      "catalogedName": "HOTLINES.nysDFS",
+      "sourceId": "pole:HOTLINES.nysDFS",
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-03T02:36:46.038Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.862Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Financial Services hotline",
+      "reason": "transcript-stated name (New York State Department of Financial Services hotline) differs from catalogued (HOTLINES.nysDFS)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.265Z",
+  "lastSeededAt": "2026-05-03T19:44:16.265Z"
+}

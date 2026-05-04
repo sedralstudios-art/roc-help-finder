@@ -1,0 +1,24 @@
+{
+  "callId": "84acd3e9-b873-8ebf-d642-937e73d3c625",
+  "digits": "8003364243",
+  "dialedNumber": "8003364243",
+  "catalogedName": "entry-callout:journalist-shield-law-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:05:54.711Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.739Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5858896132",
+  "kind": "phone",
+  "primaryName": "Chili Assessor",
+  "rawValue": "585-889-6132",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "chiliassessor",
+      "name": "Chili Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-42-16-776Z_0d4510f5-aa4d-78bb-d767-8cf444c74bd4",
+    "meta": {
+      "callId": "0d4510f5-aa4d-78bb-d767-8cf444c74bd4",
+      "digits": "5858896132",
+      "dialedNumber": "5858896132",
+      "catalogedName": "Chili Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:42:16.776Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.688Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Town of Chi-Li Assessor's Office",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.434Z",
+  "lastSeededAt": "2026-05-03T19:44:16.434Z"
+}

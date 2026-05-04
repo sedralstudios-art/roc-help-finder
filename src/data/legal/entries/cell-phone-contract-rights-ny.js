@@ -60,7 +60,7 @@ export const CELL_PHONE_CONTRACT_RIGHTS_NY = {
       qualifier: "Any consumer in the US",
       access: "Online",
       outcome: "Investigation, carrier response required",
-      phone: "(888) 225-5322",
+      phone: "",
       url: "https://www.fcc.gov/consumers/guides/filing-informal-complaint",
       verified: true,
       bilingual: true,

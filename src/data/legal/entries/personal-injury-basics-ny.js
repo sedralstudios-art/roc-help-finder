@@ -61,7 +61,7 @@ export const PERSONAL_INJURY_BASICS_NY = {
       qualifier: "Low-income residents of Monroe and surrounding counties",
       access: "Phone intake",
       outcome: "Advice and referral — most PI cases handled by private attorneys on contingency",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

@@ -1,0 +1,61 @@
+{
+  "digits": "8664276033",
+  "kind": "phone",
+  "primaryName": "entry-callout:early-intervention-infants-toddlers-ny",
+  "rawValue": "(866) 427-6033",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "early-intervention-infants-toddlers-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-04-47-199Z_e489aae7-75c0-9e1a-a92b-c08c8feed557",
+    "meta": {
+      "callId": "e489aae7-75c0-9e1a-a92b-c08c8feed557",
+      "digits": "8664276033",
+      "dialedNumber": "(866) 427-6033",
+      "catalogedName": "early-intervention-infants-toddlers-ny",
+      "sourceId": "legal-entry:early-intervention-infants-toddlers-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "early-intervention-infants-toddlers-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:04:47.199Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.793Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.491Z",
+  "lastSeededAt": "2026-05-03T19:44:16.491Z"
+}

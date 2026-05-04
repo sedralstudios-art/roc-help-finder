@@ -1,0 +1,24 @@
+{
+  "callId": "9a4e6e31-512c-26b5-3f30-861755cfadb2",
+  "digits": "5853251880",
+  "dialedNumber": "(585) 325-1880",
+  "catalogedName": "CDPAP (You Get Paid to Care for Your Loved One)",
+  "sourceId": "cdpap",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:27:37.836Z",
+  "durationSec": 28,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.638Z"
+  }
+}

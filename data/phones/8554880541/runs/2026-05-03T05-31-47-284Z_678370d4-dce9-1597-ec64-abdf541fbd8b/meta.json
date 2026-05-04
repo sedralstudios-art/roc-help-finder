@@ -1,0 +1,33 @@
+{
+  "callId": "678370d4-dce9-1597-ec64-abdf541fbd8b",
+  "digits": "8554880541",
+  "dialedNumber": "1-855-488-0541",
+  "catalogedName": "benefits-verification-letter-ny-program",
+  "sourceId": "legal-entry:benefits-verification-letter-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:31:47.284Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.568Z"
+  }
+}

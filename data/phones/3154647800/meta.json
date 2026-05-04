@@ -1,0 +1,61 @@
+{
+  "digits": "3154647800",
+  "kind": "phone",
+  "primaryName": "entry-callout:pace-program-all-inclusive-care-elderly-ny-program",
+  "rawValue": "(315) 464-7800",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pace-program-all-inclusive-care-elderly-ny-program",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-31-58-179Z_22738c9c-413c-8208-1c32-152ed69f702c",
+    "meta": {
+      "callId": "22738c9c-413c-8208-1c32-152ed69f702c",
+      "digits": "3154647800",
+      "dialedNumber": "(315) 464-7800",
+      "catalogedName": "pace-program-all-inclusive-care-elderly-ny-program",
+      "sourceId": "legal-entry:pace-program-all-inclusive-care-elderly-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pace-program-all-inclusive-care-elderly-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:31:58.179Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.000Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.541Z",
+  "lastSeededAt": "2026-05-03T19:44:16.541Z"
+}

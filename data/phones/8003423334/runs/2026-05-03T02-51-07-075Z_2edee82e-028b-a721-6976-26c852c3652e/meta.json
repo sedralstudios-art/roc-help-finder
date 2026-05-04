@@ -1,0 +1,129 @@
+{
+  "callId": "2edee82e-028b-a721-6976-26c852c3652e",
+  "digits": "8003423334",
+  "dialedNumber": "800-342-3334",
+  "catalogedName": "NY Office of Temporary & Disability Assistance — Fair Hearings",
+  "sourceId": "fairhearing",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "fairhearing"
+    },
+    {
+      "type": "entry",
+      "id": "apply-for-benefits-online-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "benefit-overpayment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "benefits-denial-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cdpap-consumer-directed-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "childcare-assistance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "childcare-subsidy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-request-walkthrough-ny"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-denial-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-buy-in-working-disabled-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-home-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-spend-down-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-medicaid-asset-protection-ny"
+    },
+    {
+      "type": "entry",
+      "id": "safety-net-assistance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-after-conviction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-expedited-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-recertification-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-work-requirements-ny"
+    },
+    {
+      "type": "entry",
+      "id": "stolen-ebt-snap-replacement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tanf-public-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:51:07.075Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": "screenshot.png",
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.883Z"
+  }
+}

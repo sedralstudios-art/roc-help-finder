@@ -1,0 +1,66 @@
+{
+  "digits": "5854289339",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-rochester-city",
+  "rawValue": "(585) 428-9339",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-rochester-city",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-rochester-city",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-rochester-city",
+      "line": 16
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-34-46-995Z_8aad826d-5f73-ec3c-df5c-57b0ceff5211",
+    "meta": {
+      "callId": "8aad826d-5f73-ec3c-df5c-57b0ceff5211",
+      "digits": "5854289339",
+      "dialedNumber": "5854289339",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-rochester-city",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:34:46.995Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.415Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.347Z",
+  "lastSeededAt": "2026-05-03T19:44:16.347Z"
+}

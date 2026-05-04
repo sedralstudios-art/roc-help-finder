@@ -1,0 +1,41 @@
+{
+  "callId": "5b4a136b-cfba-e9e2-4519-82635cf36a34",
+  "digits": "5852239500",
+  "dialedNumber": "(585) 223-9500",
+  "catalogedName": "electrical-residential-ny-mon-fairport-village",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-fairport-village",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-fairport-village"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-perinton-town"
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-fairport-village"
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-fairport-village"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:45:38.445Z",
+  "durationSec": 8,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.424Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "2790f490-19a3-c049-f88d-9d9c46d5156c",
+  "digits": "8003433637",
+  "dialedNumber": "(800) 343-3637",
+  "catalogedName": "restroom-access-act-allys-law-ny",
+  "sourceId": "legal-entry:restroom-access-act-allys-law-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "restroom-access-act-allys-law-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:42.386Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.060Z"
+  }
+}

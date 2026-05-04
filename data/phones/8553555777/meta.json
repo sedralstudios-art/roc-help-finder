@@ -1,0 +1,220 @@
+{
+  "digits": "8553555777",
+  "kind": "phone",
+  "primaryName": "Medicaid (Free Health Insurance)",
+  "rawValue": "855-355-5777",
+  "blockDial": false,
+  "tags": [
+    "cat:health",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nyStateOfHealth",
+      "value": "855-355-5777",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "medicaid",
+      "name": "Medicaid (Free Health Insurance)",
+      "category": "health",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "aca-preventive-care-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "child-health-plus-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "cobra-health-insurance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "contraception-coverage-ccca-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "essential-plan-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "fertility-preservation-coverage-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-application-walkthrough-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-marketplace-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-health-care-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-58-44-558Z_379ec0e7-c107-43a3-ad81-6a17def1f069",
+    "meta": {
+      "callId": "379ec0e7-c107-43a3-ad81-6a17def1f069",
+      "digits": "8553555777",
+      "dialedNumber": "855-355-5777",
+      "catalogedName": "Medicaid (Free Health Insurance)",
+      "sourceId": "medicaid",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "HOTLINES.nyStateOfHealth"
+        },
+        {
+          "type": "program",
+          "id": "medicaid"
+        },
+        {
+          "type": "entry",
+          "id": "aca-preventive-care-ny"
+        },
+        {
+          "type": "entry",
+          "id": "benefits-verification-letter-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "child-health-plus-ny"
+        },
+        {
+          "type": "entry",
+          "id": "cobra-health-insurance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "contraception-coverage-ccca-ny"
+        },
+        {
+          "type": "entry",
+          "id": "essential-plan-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fertility-preservation-coverage-ny"
+        },
+        {
+          "type": "entry",
+          "id": "health-insurance-application-walkthrough-ny"
+        },
+        {
+          "type": "entry",
+          "id": "health-insurance-marketplace-ny"
+        },
+        {
+          "type": "entry",
+          "id": "insulin-cost-cap-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-savings-program-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-state-of-health-marketplace-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-state-supplementation-program-ssp-ny"
+        },
+        {
+          "type": "entry",
+          "id": "uninsured-health-care-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:58:44.558Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.916Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.275Z",
+  "lastSeededAt": "2026-05-03T19:44:16.275Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:53:27.817Z",
+      "sourceUrl": "https://nystateofhealth.ny.gov",
+      "sourceLabel": "NY State of Health official + nyhealth.gov + multiple cross-confirmed sources",
+      "notes": "Web confirms 1-855-355-5777 as NY State of Health customer service line for Medicaid enrollment."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "digits": "5852382900",
+  "kind": "phone",
+  "primaryName": "ACCES-VR (Vocational Rehab)",
+  "rawValue": "585-238-2900",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "accesvr",
+      "name": "ACCES-VR (Vocational Rehab)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "acces-vr-ny",
+      "line": 67
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-35-20-785Z_a34a76cc-977a-76a8-e559-ec54e17bbd44",
+    "meta": {
+      "callId": "a34a76cc-977a-76a8-e559-ec54e17bbd44",
+      "digits": "5852382900",
+      "dialedNumber": "5852382900",
+      "catalogedName": "ACCES-VR (Vocational Rehab)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:35:20.785Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.156Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "AccessVR",
+      "reason": "transcript-stated name (AccessVR) differs from catalogued (ACCES-VR (Vocational Rehab))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.333Z",
+  "lastSeededAt": "2026-05-03T19:44:16.333Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:07:23.398Z",
+      "sourceUrl": "https://www.acces.nysed.gov/vr/rochester-district-office",
+      "sourceLabel": "ACCES-VR Rochester District Office page (211lifeline.org cross-confirmed)",
+      "notes": "Web confirms (585) 238-2900 as ACCES-VR Rochester District Office main line. NOTE: tree captured \"Vesid Vocational Rehab Counselors\" greeting — VESID is the pre-2014 name for ACCES-VR (same NY State agency, same number). Direct match."
+    }
+  ]
+}

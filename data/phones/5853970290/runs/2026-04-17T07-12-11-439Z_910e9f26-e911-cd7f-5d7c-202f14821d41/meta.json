@@ -1,0 +1,24 @@
+{
+  "callId": "910e9f26-e911-cd7f-5d7c-202f14821d41",
+  "digits": "5853970290",
+  "dialedNumber": "(585) 397-0290",
+  "catalogedName": "Spencerport Ecumenical Food Shelf",
+  "sourceId": "spencerportfoodshelf",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:12:11.439Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.826Z"
+  }
+}

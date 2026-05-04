@@ -1,0 +1,41 @@
+{
+  "callId": "541975a5-296a-07e3-154c-8e5a846531dd",
+  "digits": "8008045447",
+  "dialedNumber": "(800) 804-5447",
+  "catalogedName": "family-health-care-decisions-act-ny",
+  "sourceId": "legal-entry:family-health-care-decisions-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "family-health-care-decisions-act-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hospital-discharge-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "patient-rights-hospital-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:46:04.869Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.426Z"
+  }
+}

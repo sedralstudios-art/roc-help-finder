@@ -1,0 +1,59 @@
+{
+  "digits": "5858899896",
+  "kind": "phone",
+  "primaryName": "Chili Presbyterian Food Cupboard",
+  "rawValue": "585-889-9896",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "chilifood",
+      "name": "Chili Presbyterian Food Cupboard",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-46-57-507Z_013133c6-8dcc-9b85-8d7d-a1e928423ec3",
+    "meta": {
+      "callId": "013133c6-8dcc-9b85-8d7d-a1e928423ec3",
+      "digits": "5858899896",
+      "dialedNumber": "5858899896",
+      "catalogedName": "Chili Presbyterian Food Cupboard",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:46:57.507Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.697Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.435Z",
+  "lastSeededAt": "2026-05-03T19:44:16.435Z"
+}

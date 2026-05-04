@@ -1,0 +1,33 @@
+{
+  "callId": "46c6131a-d6b4-58a7-cddf-fa52fef04c23",
+  "digits": "5184571263",
+  "dialedNumber": "(518) 457-1263",
+  "catalogedName": "ny-hero-act-infectious-disease-ny",
+  "sourceId": "legal-entry:ny-hero-act-infectious-disease-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny"
+    },
+    {
+      "type": "entry",
+      "id": "workplace-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:42:19.428Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.635Z"
+  }
+}

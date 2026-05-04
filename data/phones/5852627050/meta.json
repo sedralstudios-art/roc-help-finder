@@ -1,0 +1,61 @@
+{
+  "digits": "5852627050",
+  "kind": "phone",
+  "primaryName": "Catholic Family Center (Refugees)",
+  "rawValue": "585-262-7050",
+  "blockDial": false,
+  "tags": [
+    "cat:refugeeSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "cfc",
+      "name": "Catholic Family Center (Refugees)",
+      "category": "refugeeSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T05-54-42-027Z_620bda1a-a99d-7f7c-aabe-d8c186c87103",
+    "meta": {
+      "callId": "620bda1a-a99d-7f7c-aabe-d8c186c87103",
+      "digits": "5852627050",
+      "dialedNumber": "5852627050",
+      "catalogedName": "Catholic Family Center (Refugees)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:54:42.027Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.198Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Aging Services",
+      "reason": "transcript-stated name (Aging Services) differs from catalogued (Catholic Family Center (Refugees))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.421Z",
+  "lastSeededAt": "2026-05-03T19:44:16.421Z"
+}

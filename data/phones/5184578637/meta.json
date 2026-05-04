@@ -1,0 +1,61 @@
+{
+  "digits": "5184578637",
+  "kind": "phone",
+  "primaryName": "entry-callout:mortgage-recording-tax-closing-cost-ny",
+  "rawValue": "(518) 457-8637",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mortgage-recording-tax-closing-cost-ny",
+      "line": 78
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-25-35-474Z_ea7bfe1b-169b-7c49-5946-a722e8b34370",
+    "meta": {
+      "callId": "ea7bfe1b-169b-7c49-5946-a722e8b34370",
+      "digits": "5184578637",
+      "dialedNumber": "(518) 457-8637",
+      "catalogedName": "mortgage-recording-tax-closing-cost-ny",
+      "sourceId": "legal-entry:mortgage-recording-tax-closing-cost-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mortgage-recording-tax-closing-cost-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:25:35.474Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.939Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.529Z",
+  "lastSeededAt": "2026-05-03T19:44:16.529Z"
+}

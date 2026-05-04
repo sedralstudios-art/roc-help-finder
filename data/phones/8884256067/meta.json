@@ -1,0 +1,61 @@
+{
+  "digits": "8884256067",
+  "kind": "phone",
+  "primaryName": "entry-callout:erisa-pension-rights-ny",
+  "rawValue": "(888) 425-6067",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "erisa-pension-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-08-06-940Z_2e7c9451-ef13-f402-7825-bcb87f1b05ec",
+    "meta": {
+      "callId": "2e7c9451-ef13-f402-7825-bcb87f1b05ec",
+      "digits": "8884256067",
+      "dialedNumber": "(888) 425-6067",
+      "catalogedName": "erisa-pension-rights-ny",
+      "sourceId": "legal-entry:erisa-pension-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "erisa-pension-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:08:06.940Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.819Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.498Z",
+  "lastSeededAt": "2026-05-03T19:44:16.498Z"
+}

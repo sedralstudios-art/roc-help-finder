@@ -1,0 +1,61 @@
+{
+  "digits": "5852141000",
+  "kind": "phone",
+  "primaryName": "entry-callout:molst-medical-orders-ny",
+  "rawValue": "(585) 214-1000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "molst-medical-orders-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-25-18-830Z_d7b2328a-badf-a76a-5a20-19a1afe37ec3",
+    "meta": {
+      "callId": "d7b2328a-badf-a76a-5a20-19a1afe37ec3",
+      "digits": "5852141000",
+      "dialedNumber": "(585) 214-1000",
+      "catalogedName": "molst-medical-orders-ny",
+      "sourceId": "legal-entry:molst-medical-orders-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "molst-medical-orders-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:25:18.830Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.937Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.528Z",
+  "lastSeededAt": "2026-05-03T19:44:16.528Z"
+}

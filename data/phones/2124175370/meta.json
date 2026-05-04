@@ -1,0 +1,61 @@
+{
+  "digits": "2124175370",
+  "kind": "phone",
+  "primaryName": "entry-callout:false-claims-act-whistleblower-ny",
+  "rawValue": "(212) 417-5370",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "false-claims-act-whistleblower-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-08-23-586Z_f0410fd6-ee4f-d761-9b80-e20257edc703",
+    "meta": {
+      "callId": "f0410fd6-ee4f-d761-9b80-e20257edc703",
+      "digits": "2124175370",
+      "dialedNumber": "(212) 417-5370",
+      "catalogedName": "false-claims-act-whistleblower-ny",
+      "sourceId": "legal-entry:false-claims-act-whistleblower-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "false-claims-act-whistleblower-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:08:23.586Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.820Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.499Z",
+  "lastSeededAt": "2026-05-03T19:44:16.499Z"
+}

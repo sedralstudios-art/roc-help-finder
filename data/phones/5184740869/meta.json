@@ -1,0 +1,61 @@
+{
+  "digits": "5184740869",
+  "kind": "phone",
+  "primaryName": "entry-callout:motorcycle-helmet-and-safety-ny",
+  "rawValue": "(518) 474-0869",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-25-52-119Z_137d27ad-5bc3-fb3f-83c3-b324d2c4cf60",
+    "meta": {
+      "callId": "137d27ad-5bc3-fb3f-83c3-b324d2c4cf60",
+      "digits": "5184740869",
+      "dialedNumber": "(518) 474-0869",
+      "catalogedName": "motorcycle-helmet-and-safety-ny",
+      "sourceId": "legal-entry:motorcycle-helmet-and-safety-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "motorcycle-helmet-and-safety-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:25:52.119Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.941Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.530Z",
+  "lastSeededAt": "2026-05-03T19:44:16.530Z"
+}

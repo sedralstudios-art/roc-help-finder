@@ -60,7 +60,7 @@ export const ELECTRIC_VEHICLE_CHARGING_NY = {
       qualifier: "Any NYS resident",
       access: "Online at nyserda.ny.gov/drive-clean or (866) 697-3732",
       outcome: "Rebate of up to $500 for home Level 2 charger installation",
-      phone: "(866) 697-3732",
+      phone: "",
       url: "https://www.nyserda.ny.gov/drive-clean",
       verified: true,
       bilingual: false,

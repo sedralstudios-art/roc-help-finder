@@ -1,0 +1,24 @@
+{
+  "callId": "b4e79116-b126-4482-b099-d8297365341f",
+  "digits": "5853713412",
+  "dialedNumber": "(585) 371-3412",
+  "catalogedName": "Rochester City Court — Small Claims",
+  "sourceId": "rochcitycourt_sc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:02:16.514Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.683Z"
+  }
+}

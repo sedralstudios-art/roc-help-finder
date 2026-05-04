@@ -1,0 +1,29 @@
+{
+  "callId": "3c7996ef-9e7c-cc73-e11d-94afc04e6497",
+  "digits": "5205461005",
+  "dialedNumber": "(520) 546-1005",
+  "catalogedName": "special-needs-trust-ny",
+  "sourceId": "legal-entry:special-needs-trust-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:46:56.794Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.103Z"
+  }
+}

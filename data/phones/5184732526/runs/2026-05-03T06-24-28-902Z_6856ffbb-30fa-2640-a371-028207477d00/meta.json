@@ -1,0 +1,29 @@
+{
+  "callId": "6856ffbb-30fa-2640-a371-028207477d00",
+  "digits": "5184732526",
+  "dialedNumber": "(518) 473-2526",
+  "catalogedName": "mitchell-lama-affordable-housing-ny",
+  "sourceId": "legal-entry:mitchell-lama-affordable-housing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mitchell-lama-affordable-housing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:24:28.902Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.931Z"
+  }
+}

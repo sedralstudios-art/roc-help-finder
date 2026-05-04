@@ -1,0 +1,61 @@
+{
+  "digits": "5857536200",
+  "kind": "phone",
+  "primaryName": "entry-callout:ny-state-of-health-marketplace-ny",
+  "rawValue": "(585) 753-6200",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-30-10-010Z_a3f2c578-f9ab-4c35-7409-7cb72a896646",
+    "meta": {
+      "callId": "a3f2c578-f9ab-4c35-7409-7cb72a896646",
+      "digits": "5857536200",
+      "dialedNumber": "(585) 753-6200",
+      "catalogedName": "ny-state-of-health-marketplace-ny",
+      "sourceId": "legal-entry:ny-state-of-health-marketplace-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ny-state-of-health-marketplace-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:30:10.010Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.988Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.538Z",
+  "lastSeededAt": "2026-05-03T19:44:16.538Z"
+}

@@ -1,0 +1,74 @@
+{
+  "digits": "5857536260",
+  "kind": "phone",
+  "primaryName": "Monroe County Youth Bureau",
+  "rawValue": "585-753-6260",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "yb",
+      "name": "Monroe County Youth Bureau",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "pins-petition-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-08-44-844Z_7ae55d22-9e28-ae7d-7fc7-7be383d9507e",
+    "meta": {
+      "callId": "7ae55d22-9e28-ae7d-7fc7-7be383d9507e",
+      "digits": "5857536260",
+      "dialedNumber": "585-753-6260",
+      "catalogedName": "Monroe County Youth Bureau",
+      "sourceId": "yb",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "yb"
+        },
+        {
+          "type": "entry",
+          "id": "pins-petition-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:08:44.844Z",
+      "durationSec": 7,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.498Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.358Z",
+  "lastSeededAt": "2026-05-03T19:44:16.358Z"
+}

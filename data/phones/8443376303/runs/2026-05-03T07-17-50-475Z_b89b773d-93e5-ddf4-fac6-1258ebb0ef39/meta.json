@@ -1,0 +1,41 @@
+{
+  "callId": "b89b773d-93e5-ddf4-fac6-1258ebb0ef39",
+  "digits": "8443376303",
+  "dialedNumber": "(844) 337-6303",
+  "catalogedName": "family-medical-leave-ny",
+  "sourceId": "legal-entry:family-medical-leave-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "family-medical-leave-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-paid-family-leave"
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-worker-accommodations-ny"
+    },
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:17:50.475Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.258Z"
+  }
+}

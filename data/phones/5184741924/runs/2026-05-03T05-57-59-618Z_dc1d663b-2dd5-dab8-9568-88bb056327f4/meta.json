@@ -1,0 +1,29 @@
+{
+  "callId": "dc1d663b-2dd5-dab8-9568-88bb056327f4",
+  "digits": "5184741924",
+  "dialedNumber": "(518) 474-1924",
+  "catalogedName": "civil-service-discipline-ny",
+  "sourceId": "legal-entry:civil-service-discipline-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-service-discipline-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:57:59.618Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.743Z"
+  }
+}

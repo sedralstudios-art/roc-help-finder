@@ -1,0 +1,61 @@
+{
+  "digits": "8002277669",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-dependent-care-credit-ny",
+  "rawValue": "(800) 227-7669",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-dependent-care-credit-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-57-26-348Z_89f7d4a3-b745-64f4-2848-b405a9991f6e",
+    "meta": {
+      "callId": "89f7d4a3-b745-64f4-2848-b405a9991f6e",
+      "digits": "8002277669",
+      "dialedNumber": "(800) 227-7669",
+      "catalogedName": "child-dependent-care-credit-ny",
+      "sourceId": "legal-entry:child-dependent-care-credit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-dependent-care-credit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:57:26.348Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.740Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.479Z",
+  "lastSeededAt": "2026-05-03T19:44:16.479Z"
+}

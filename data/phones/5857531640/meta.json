@@ -1,0 +1,61 @@
+{
+  "digits": "5857531640",
+  "kind": "phone",
+  "primaryName": "entry-callout:home-generator-rules-ny",
+  "rawValue": "(585) 753-1640",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-generator-rules-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-14-13-368Z_98f697dd-6b5f-092c-605c-9dc7ebd2aa97",
+    "meta": {
+      "callId": "98f697dd-6b5f-092c-605c-9dc7ebd2aa97",
+      "digits": "5857531640",
+      "dialedNumber": "(585) 753-1640",
+      "catalogedName": "home-generator-rules-ny",
+      "sourceId": "legal-entry:home-generator-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "home-generator-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:14:13.368Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.862Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.509Z",
+  "lastSeededAt": "2026-05-03T19:44:16.509Z"
+}

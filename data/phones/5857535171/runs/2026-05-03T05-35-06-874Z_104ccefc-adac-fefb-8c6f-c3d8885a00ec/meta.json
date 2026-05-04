@@ -1,0 +1,33 @@
+{
+  "callId": "104ccefc-adac-fefb-8c6f-c3d8885a00ec",
+  "digits": "5857535171",
+  "dialedNumber": "(585) 753-5171",
+  "catalogedName": "dog-bite-liability-ny",
+  "sourceId": "legal-entry:dog-bite-liability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dog-bite-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "raccoon-skunk-wildlife-removal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:35:06.874Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.590Z"
+  }
+}

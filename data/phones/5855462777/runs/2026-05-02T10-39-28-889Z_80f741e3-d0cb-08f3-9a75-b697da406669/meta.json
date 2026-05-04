@@ -1,0 +1,24 @@
+{
+  "callId": "80f741e3-d0cb-08f3-9a75-b697da406669",
+  "digits": "5855462777",
+  "dialedNumber": "5855462777",
+  "catalogedName": "RESTORE Sexual Assault Services",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:39:28.889Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.820Z"
+  }
+}

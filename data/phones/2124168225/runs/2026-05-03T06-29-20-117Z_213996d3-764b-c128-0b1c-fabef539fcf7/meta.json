@@ -1,0 +1,29 @@
+{
+  "callId": "213996d3-764b-c128-0b1c-fabef539fcf7",
+  "digits": "2124168225",
+  "dialedNumber": "(212) 416-8225",
+  "catalogedName": "notice-of-pendency-lis-pendens-ny",
+  "sourceId": "legal-entry:notice-of-pendency-lis-pendens-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "notice-of-pendency-lis-pendens-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:29:20.117Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.983Z"
+  }
+}

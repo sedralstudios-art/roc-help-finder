@@ -1,0 +1,77 @@
+{
+  "digits": "5852710660",
+  "kind": "phone",
+  "primaryName": "The Arc of Monroe County",
+  "rawValue": "585-271-0660",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "arcmc",
+      "name": "The Arc of Monroe County",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "guardianship-scpa17a-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "ny-able-savings-disability-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "supported-decision-making-agreement-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-03-33-534Z_5ece42c5-8dd2-5cdb-9bda-208db1cda229",
+    "meta": {
+      "callId": "5ece42c5-8dd2-5cdb-9bda-208db1cda229",
+      "digits": "5852710660",
+      "dialedNumber": "5852710660",
+      "catalogedName": "The Arc of Monroe County",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:03:33.534Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.218Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Oxman Rose number for After Hours",
+      "reason": "transcript-stated name (Oxman Rose number for After Hours) differs from catalogued (The Arc of Monroe County)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.321Z",
+  "lastSeededAt": "2026-05-03T19:44:16.321Z"
+}

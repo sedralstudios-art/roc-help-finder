@@ -1,0 +1,61 @@
+{
+  "digits": "8003423661",
+  "kind": "phone",
+  "primaryName": "entry-callout:traffic-ticket-options-ny",
+  "rawValue": "1-800-342-3661",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "traffic-ticket-options-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-50-16-502Z_62097c06-e903-3365-220a-4ac92ab9b74a",
+    "meta": {
+      "callId": "62097c06-e903-3365-220a-4ac92ab9b74a",
+      "digits": "8003423661",
+      "dialedNumber": "1-800-342-3661",
+      "catalogedName": "traffic-ticket-options-ny",
+      "sourceId": "legal-entry:traffic-ticket-options-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "traffic-ticket-options-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:50:16.502Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.127Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.575Z",
+  "lastSeededAt": "2026-05-03T19:44:16.575Z"
+}

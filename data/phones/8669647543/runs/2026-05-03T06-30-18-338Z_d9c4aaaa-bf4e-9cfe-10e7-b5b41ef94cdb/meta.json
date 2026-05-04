@@ -1,0 +1,29 @@
+{
+  "callId": "d9c4aaaa-bf4e-9cfe-10e7-b5b41ef94cdb",
+  "digits": "8669647543",
+  "dialedNumber": "(866) 964-7543",
+  "catalogedName": "ny-state-supplementation-program-ssp-ny",
+  "sourceId": "legal-entry:ny-state-supplementation-program-ssp-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:30:18.338Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.989Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "0c7ad2e5-110d-386a-1e3b-08b9956ed78b",
+  "digits": "5184743817",
+  "dialedNumber": "(518) 474-3817",
+  "catalogedName": "opmc-physician-misconduct-complaint-ny",
+  "sourceId": "legal-entry:opmc-physician-misconduct-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "opmc-physician-misconduct-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pharmacist-emergency-refill-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pharmacy-errors-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vet-malpractice-pet-injury-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:33:36.694Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.377Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "3830df07-dbdb-9bee-982f-5481a8ad6741",
+  "digits": "5859642421",
+  "dialedNumber": "5859642421",
+  "catalogedName": "Hamlin Town Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:54:18.331Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.712Z"
+  }
+}

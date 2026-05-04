@@ -1,0 +1,66 @@
+{
+  "digits": "5853713490",
+  "kind": "phone",
+  "primaryName": "Monroe County Family Court",
+  "rawValue": "585-371-3490",
+  "blockDial": false,
+  "tags": [
+    "cat:parentalProtection",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "familycourt",
+      "name": "Monroe County Family Court",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "supervvisit",
+      "name": "Supervised Visitation — Monroe County",
+      "category": "parentalProtection",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-08-40-729Z_5a52f8ef-1021-7a09-9ddc-f9640e20080e",
+    "meta": {
+      "callId": "5a52f8ef-1021-7a09-9ddc-f9640e20080e",
+      "digits": "5853713490",
+      "dialedNumber": "5853713490",
+      "catalogedName": "Monroe County Family Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:08:40.729Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.357Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.361Z",
+  "lastSeededAt": "2026-05-03T19:44:16.361Z"
+}

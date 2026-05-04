@@ -1,0 +1,24 @@
+{
+  "digits": "5857279584",
+  "kind": "phone",
+  "primaryName": "Compassionate Friends Rochester",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "compassfriends"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:29:08.121Z",
+      "sourceUrl": "https://www.compassionatefriends.org/chapter/rochester-chapter/",
+      "sourceLabel": "The Compassionate Friends Rochester chapter page",
+      "notes": "Web confirms 585-727-9584 as Rochester chapter phone line. Zip corrected from 14620 to 14610 per chapter listing."
+    }
+  ]
+}

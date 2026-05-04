@@ -1,0 +1,61 @@
+{
+  "digits": "5853403377",
+  "kind": "phone",
+  "primaryName": "entry-callout:first-time-homebuyer-ny",
+  "rawValue": "(585) 340-3377",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "first-time-homebuyer-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-09-38-516Z_27880189-5b63-34f5-2011-724036657065",
+    "meta": {
+      "callId": "27880189-5b63-34f5-2011-724036657065",
+      "digits": "5853403377",
+      "dialedNumber": "(585) 340-3377",
+      "catalogedName": "first-time-homebuyer-ny",
+      "sourceId": "legal-entry:first-time-homebuyer-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "first-time-homebuyer-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:09:38.516Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.830Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.501Z",
+  "lastSeededAt": "2026-05-03T19:44:16.501Z"
+}

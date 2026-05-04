@@ -1,0 +1,24 @@
+{
+  "callId": "67aadd18-d857-2561-3833-a79713d058c2",
+  "digits": "5859642320",
+  "dialedNumber": "5859642320",
+  "catalogedName": "Hamlin Public Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:53:12.542Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.710Z"
+  }
+}

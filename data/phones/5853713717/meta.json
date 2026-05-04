@@ -1,0 +1,70 @@
+{
+  "digits": "5853713717",
+  "kind": "phone",
+  "primaryName": "entry-callout:totten-trust-bank-account-ny",
+  "rawValue": "(585) 371-3717",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "totten-trust-bank-account-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "transfer-deceased-vehicle-title-ny",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-45-30-804Z_9f1704b1-0f5f-1ef9-cae1-dd64d0ba0a87",
+    "meta": {
+      "callId": "9f1704b1-0f5f-1ef9-cae1-dd64d0ba0a87",
+      "digits": "5853713717",
+      "dialedNumber": "(585) 371-3717",
+      "catalogedName": "totten-trust-bank-account-ny",
+      "sourceId": "legal-entry:totten-trust-bank-account-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "totten-trust-bank-account-ny"
+        },
+        {
+          "type": "entry",
+          "id": "transfer-deceased-vehicle-title-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:45:30.804Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.656Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.409Z",
+  "lastSeededAt": "2026-05-03T19:44:16.409Z"
+}

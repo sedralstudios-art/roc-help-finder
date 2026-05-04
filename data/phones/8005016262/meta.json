@@ -1,0 +1,61 @@
+{
+  "digits": "8005016262",
+  "kind": "phone",
+  "primaryName": "entry-callout:tobacco-retailer-licensing-ny",
+  "rawValue": "(800) 501-6262",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-50-08-177Z_0c8b62c5-335a-8f6c-59a1-7e1c7834a2c5",
+    "meta": {
+      "callId": "0c8b62c5-335a-8f6c-59a1-7e1c7834a2c5",
+      "digits": "8005016262",
+      "dialedNumber": "(800) 501-6262",
+      "catalogedName": "tobacco-retailer-licensing-ny",
+      "sourceId": "legal-entry:tobacco-retailer-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "tobacco-retailer-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:50:08.177Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.126Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.575Z",
+  "lastSeededAt": "2026-05-03T19:44:16.575Z"
+}

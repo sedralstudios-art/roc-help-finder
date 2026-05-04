@@ -1,0 +1,24 @@
+{
+  "callId": "4b49625b-4beb-1bfa-b92c-f4715a2c7c6c",
+  "digits": "5852755051",
+  "dialedNumber": "(585) 275-5051",
+  "catalogedName": "Eastman Dental Center (URMC)",
+  "sourceId": "eastmandental",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:54:25.568Z",
+  "durationSec": 29,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.601Z"
+  }
+}

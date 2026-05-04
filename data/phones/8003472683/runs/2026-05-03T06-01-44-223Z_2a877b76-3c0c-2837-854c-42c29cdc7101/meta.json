@@ -1,0 +1,29 @@
+{
+  "callId": "2a877b76-3c0c-2837-854c-42c29cdc7101",
+  "digits": "8003472683",
+  "dialedNumber": "(800) 347-2683",
+  "catalogedName": "credit-card-minimum-purchase-rules-ny",
+  "sourceId": "legal-entry:credit-card-minimum-purchase-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-card-minimum-purchase-rules-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:01:44.223Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.771Z"
+  }
+}

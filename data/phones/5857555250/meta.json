@@ -1,0 +1,61 @@
+{
+  "digits": "5857555250",
+  "kind": "phone",
+  "primaryName": "entry-callout:sewer-lateral-responsibility-ny",
+  "rawValue": "(585) 755-5250",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "sewer-lateral-responsibility-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-45-00-336Z_cf7e216f-2887-58ea-dec1-1c827aae25b6",
+    "meta": {
+      "callId": "cf7e216f-2887-58ea-dec1-1c827aae25b6",
+      "digits": "5857555250",
+      "dialedNumber": "(585) 755-5250",
+      "catalogedName": "sewer-lateral-responsibility-ny",
+      "sourceId": "legal-entry:sewer-lateral-responsibility-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "sewer-lateral-responsibility-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:45:00.336Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.089Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.566Z",
+  "lastSeededAt": "2026-05-03T19:44:16.566Z"
+}

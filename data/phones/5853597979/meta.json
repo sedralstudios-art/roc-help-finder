@@ -1,0 +1,59 @@
+{
+  "digits": "5853597979",
+  "kind": "phone",
+  "primaryName": "R-H Kicking Hunger School Food Pantry",
+  "rawValue": "585-359-7979",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rhkickinghunger",
+      "name": "R-H Kicking Hunger School Food Pantry",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-04-40-159Z_3f52edc3-0ed5-4aeb-6bb9-1ee948b057a2",
+    "meta": {
+      "callId": "3f52edc3-0ed5-4aeb-6bb9-1ee948b057a2",
+      "digits": "5853597979",
+      "dialedNumber": "5853597979",
+      "catalogedName": "R-H Kicking Hunger School Food Pantry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:04:40.159Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.348Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.445Z",
+  "lastSeededAt": "2026-05-03T19:44:16.445Z"
+}

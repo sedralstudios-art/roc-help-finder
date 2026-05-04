@@ -1,0 +1,24 @@
+{
+  "callId": "8a29f0ae-99d0-3f82-0fb6-9ed29a80a39d",
+  "digits": "5852710778",
+  "dialedNumber": "(585) 271-0778",
+  "catalogedName": "Head Start / Free Pre-K",
+  "sourceId": "hs",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:50:23.675Z",
+  "durationSec": 21,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.595Z"
+  }
+}

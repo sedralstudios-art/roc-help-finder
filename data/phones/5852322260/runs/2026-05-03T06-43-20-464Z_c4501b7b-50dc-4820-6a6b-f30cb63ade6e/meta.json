@@ -1,0 +1,29 @@
+{
+  "callId": "c4501b7b-50dc-4820-6a6b-f30cb63ade6e",
+  "digits": "5852322260",
+  "dialedNumber": "(585) 232-2260",
+  "catalogedName": "section-8-housing-voucher-ny",
+  "sourceId": "legal-entry:section-8-housing-voucher-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:43:20.464Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.078Z"
+  }
+}

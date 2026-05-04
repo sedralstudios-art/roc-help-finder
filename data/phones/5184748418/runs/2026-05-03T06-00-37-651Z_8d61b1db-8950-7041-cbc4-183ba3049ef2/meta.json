@@ -1,0 +1,29 @@
+{
+  "callId": "8d61b1db-8950-7041-cbc4-183ba3049ef2",
+  "digits": "5184748418",
+  "dialedNumber": "(518) 474-8418",
+  "catalogedName": "court-of-claims-suing-state-ny",
+  "sourceId": "legal-entry:court-of-claims-suing-state-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-of-claims-suing-state-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:00:37.651Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.764Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "4ad5d084-5fff-d31d-404d-4e3dd0817e02",
+  "digits": "5858891553",
+  "dialedNumber": "(585) 889-1553",
+  "catalogedName": "Wheatland Town Clerk",
+  "sourceId": "wheatlandclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:36:07.167Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.010Z"
+  }
+}

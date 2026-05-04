@@ -1,0 +1,45 @@
+{
+  "callId": "d1df5524-e552-a759-97e7-dde9f1e6e652",
+  "digits": "5184743852",
+  "dialedNumber": "(518) 474-3852",
+  "catalogedName": "religious-accommodation-school-ny",
+  "sourceId": "legal-entry:religious-accommodation-school-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "religious-accommodation-school-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-504-discipline-protection-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-504-vs-iep-when-to-switch-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-lockdown-drill-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-vaccine-medical-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:08:45.209Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.218Z"
+  }
+}

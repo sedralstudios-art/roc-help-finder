@@ -1,0 +1,93 @@
+{
+  "callId": "379ec0e7-c107-43a3-ad81-6a17def1f069",
+  "digits": "8553555777",
+  "dialedNumber": "855-355-5777",
+  "catalogedName": "Medicaid (Free Health Insurance)",
+  "sourceId": "medicaid",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "HOTLINES.nyStateOfHealth"
+    },
+    {
+      "type": "program",
+      "id": "medicaid"
+    },
+    {
+      "type": "entry",
+      "id": "aca-preventive-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "child-health-plus-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cobra-health-insurance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "contraception-coverage-ccca-ny"
+    },
+    {
+      "type": "entry",
+      "id": "essential-plan-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fertility-preservation-coverage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-application-walkthrough-ny"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-marketplace-ny"
+    },
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny"
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-health-care-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:58:44.558Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": "screenshot.png",
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.916Z"
+  }
+}

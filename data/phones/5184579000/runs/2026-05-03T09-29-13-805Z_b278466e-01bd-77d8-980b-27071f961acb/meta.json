@@ -1,0 +1,33 @@
+{
+  "callId": "b278466e-01bd-77d8-980b-27071f961acb",
+  "digits": "5184579000",
+  "dialedNumber": "(518) 457-9000",
+  "catalogedName": "pay-transparency-salary-range-ny",
+  "sourceId": "legal-entry:pay-transparency-salary-range-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pay-transparency-salary-range-ny"
+    },
+    {
+      "type": "entry",
+      "id": "warn-act-mass-layoff-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:29:13.805Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.896Z"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "callId": "01839d91-4fcb-a40d-9b4c-e8ea9f85e679",
+  "digits": "8662753427",
+  "dialedNumber": "(866) 275-3427",
+  "catalogedName": "mobile-home-tenant-rights-ny",
+  "sourceId": "legal-entry:mobile-home-tenant-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mobile-home-tenant-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rent-overcharge-ny"
+    },
+    {
+      "type": "entry",
+      "id": "roommate-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "subletting-airbnb-tenant-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tenant-right-to-organize-ny"
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:05:03.766Z",
+  "durationSec": 19,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.216Z"
+  }
+}

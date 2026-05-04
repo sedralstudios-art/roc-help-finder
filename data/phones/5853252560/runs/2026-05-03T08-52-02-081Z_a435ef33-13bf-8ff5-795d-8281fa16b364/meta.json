@@ -1,0 +1,33 @@
+{
+  "callId": "a435ef33-13bf-8ff5-795d-8281fa16b364",
+  "digits": "5853252560",
+  "dialedNumber": "(585) 325-2560",
+  "catalogedName": "good-cause-eviction-ny",
+  "sourceId": "legal-entry:good-cause-eviction-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tenant-organizing-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:52:02.081Z",
+  "durationSec": 15,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.706Z"
+  }
+}

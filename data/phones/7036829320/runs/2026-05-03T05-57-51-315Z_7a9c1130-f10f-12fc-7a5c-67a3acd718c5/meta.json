@@ -1,0 +1,29 @@
+{
+  "callId": "7a9c1130-f10f-12fc-7a5c-67a3acd718c5",
+  "digits": "7036829320",
+  "dialedNumber": "(703) 682-9320",
+  "catalogedName": "civil-asset-forfeiture-defense-ny",
+  "sourceId": "legal-entry:civil-asset-forfeiture-defense-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:57:51.315Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.743Z"
+  }
+}

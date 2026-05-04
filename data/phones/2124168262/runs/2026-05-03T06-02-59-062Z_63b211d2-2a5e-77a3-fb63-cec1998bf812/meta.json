@@ -1,0 +1,29 @@
+{
+  "callId": "63b211d2-2a5e-77a3-fb63-cec1998bf812",
+  "digits": "2124168262",
+  "dialedNumber": "(212) 416-8262",
+  "catalogedName": "donnelly-act-antitrust-ny",
+  "sourceId": "legal-entry:donnelly-act-antitrust-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "donnelly-act-antitrust-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:02:59.062Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.780Z"
+  }
+}

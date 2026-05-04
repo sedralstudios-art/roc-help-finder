@@ -1,0 +1,24 @@
+{
+  "callId": "bd9065b2-ca98-4479-0421-802927fc0e37",
+  "digits": "5853344030",
+  "dialedNumber": "5853344030",
+  "catalogedName": "Henrietta Senior Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:37:05.735Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.290Z"
+  }
+}

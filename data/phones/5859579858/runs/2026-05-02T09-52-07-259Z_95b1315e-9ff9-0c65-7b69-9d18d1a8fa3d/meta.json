@@ -1,0 +1,24 @@
+{
+  "callId": "95b1315e-9ff9-0c65-7b69-9d18d1a8fa3d",
+  "digits": "5859579858",
+  "dialedNumber": "5859579858",
+  "catalogedName": "Center for Employment Opportunities (CEO) Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:52:07.259Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.708Z"
+  }
+}

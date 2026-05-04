@@ -1,0 +1,61 @@
+{
+  "digits": "2024858000",
+  "kind": "phone",
+  "primaryName": "entry-callout:ny-apostille-document-authentication-ny",
+  "rawValue": "(202) 485-8000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-apostille-document-authentication-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-29-53-374Z_5c2c03ab-7052-e778-8c93-64fca40246bd",
+    "meta": {
+      "callId": "5c2c03ab-7052-e778-8c93-64fca40246bd",
+      "digits": "2024858000",
+      "dialedNumber": "(202) 485-8000",
+      "catalogedName": "ny-apostille-document-authentication-ny",
+      "sourceId": "legal-entry:ny-apostille-document-authentication-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ny-apostille-document-authentication-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:29:53.374Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.986Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.538Z",
+  "lastSeededAt": "2026-05-03T19:44:16.538Z"
+}

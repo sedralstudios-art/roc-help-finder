@@ -60,7 +60,7 @@ export const ANTI_SLAPP_LAWSUIT_NY = {
       qualifier: "Any NY defendant in a SLAPP-style lawsuit",
       access: "Phone at (585) 546-2130",
       outcome: "Referral to private attorneys with relevant experience",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org/lawyer-referral-service",
       verified: true,
       bilingual: false,

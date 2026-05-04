@@ -1,0 +1,29 @@
+{
+  "callId": "89f7d4a3-b745-64f4-2848-b405a9991f6e",
+  "digits": "8002277669",
+  "dialedNumber": "(800) 227-7669",
+  "catalogedName": "child-dependent-care-credit-ny",
+  "sourceId": "legal-entry:child-dependent-care-credit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-dependent-care-credit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:57:26.348Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.740Z"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "digits": "5857604328",
+  "kind": "phone",
+  "primaryName": "New Hope Immigration Legal Services",
+  "rawValue": "585-760-4328",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:legalImmigration",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "newhopeilm",
+      "name": "New Hope Immigration Legal Services",
+      "category": "documents",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "newhopeilslaw",
+      "name": "New Hope Immigration Legal Services",
+      "category": "legalImmigration",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-12-56-358Z_3a15daaa-88b5-7885-3c20-3634a62cd4fc",
+    "meta": {
+      "callId": "3a15daaa-88b5-7885-3c20-3634a62cd4fc",
+      "digits": "5857604328",
+      "dialedNumber": "5857604328",
+      "catalogedName": "New Hope Immigration Legal Services",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:12:56.358Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.625Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.360Z",
+  "lastSeededAt": "2026-05-03T19:44:16.360Z"
+}

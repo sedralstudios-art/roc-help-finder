@@ -1,0 +1,70 @@
+{
+  "digits": "7165514931",
+  "kind": "phone",
+  "primaryName": "entry-callout:social-media-fired-ny",
+  "rawValue": "(716) 551-4931",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "social-media-fired-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "union-basics-organizing-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-44-49-185Z_535f7afb-9526-5524-f08a-f19c2d611977",
+    "meta": {
+      "callId": "535f7afb-9526-5524-f08a-f19c2d611977",
+      "digits": "7165514931",
+      "dialedNumber": "(716) 551-4931",
+      "catalogedName": "social-media-fired-ny",
+      "sourceId": "legal-entry:social-media-fired-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "social-media-fired-ny"
+        },
+        {
+          "type": "entry",
+          "id": "union-basics-organizing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:44:49.185Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.651Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.408Z",
+  "lastSeededAt": "2026-05-03T19:44:16.408Z"
+}

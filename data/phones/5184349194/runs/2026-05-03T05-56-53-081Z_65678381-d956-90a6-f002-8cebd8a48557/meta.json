@@ -1,0 +1,29 @@
+{
+  "callId": "65678381-d956-90a6-f002-8cebd8a48557",
+  "digits": "5184349194",
+  "dialedNumber": "(518) 434-9194",
+  "catalogedName": "charitable-solicitation-registration-ny",
+  "sourceId": "legal-entry:charitable-solicitation-registration-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:56:53.081Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.736Z"
+  }
+}

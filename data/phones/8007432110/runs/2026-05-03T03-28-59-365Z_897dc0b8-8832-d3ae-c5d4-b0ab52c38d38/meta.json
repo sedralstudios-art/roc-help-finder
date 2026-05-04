@@ -1,0 +1,61 @@
+{
+  "callId": "897dc0b8-8832-d3ae-c5d4-b0ab52c38d38",
+  "digits": "8007432110",
+  "dialedNumber": "(800) 743-2110",
+  "catalogedName": "home-energy-audit-rebates-ny",
+  "sourceId": "legal-entry:home-energy-audit-rebates-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-energy-audit-rebates-ny"
+    },
+    {
+      "type": "entry",
+      "id": "home-generator-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "power-outage-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "smart-meter-opt-out-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-cost-history-truth-in-heating-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-deposit-refund-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-shutoff-protections-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:28:59.365Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.033Z"
+  }
+}

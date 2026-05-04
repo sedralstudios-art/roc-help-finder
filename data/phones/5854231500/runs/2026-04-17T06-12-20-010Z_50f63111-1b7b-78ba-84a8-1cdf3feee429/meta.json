@@ -1,0 +1,24 @@
+{
+  "callId": "50f63111-1b7b-78ba-84a8-1cdf3feee429",
+  "digits": "5854231500",
+  "dialedNumber": "(585) 423-1500",
+  "catalogedName": "NAMI Rochester",
+  "sourceId": "nami",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:12:20.010Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.693Z"
+  }
+}

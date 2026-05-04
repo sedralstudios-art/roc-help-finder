@@ -63,7 +63,7 @@ export const EMERGENCY_SHELTER_WARMING_CENTER_NY = {
       qualifier: "Anyone in Monroe County with no safe place to stay",
       access: "Walk-in at 111 Westfall Road or call (585) 753-6006",
       outcome: "Same-day emergency shelter placement",
-      phone: "(585) 753-6006",
+      phone: "",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: false,

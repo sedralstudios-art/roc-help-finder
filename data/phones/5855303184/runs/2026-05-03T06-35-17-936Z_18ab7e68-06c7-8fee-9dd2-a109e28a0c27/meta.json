@@ -1,0 +1,29 @@
+{
+  "callId": "18ab7e68-06c7-8fee-9dd2-a109e28a0c27",
+  "digits": "5855303184",
+  "dialedNumber": "(585) 530-3184",
+  "catalogedName": "poa-healthcare-proxy-ny",
+  "sourceId": "legal-entry:poa-healthcare-proxy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "poa-healthcare-proxy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:35:17.936Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.024Z"
+  }
+}

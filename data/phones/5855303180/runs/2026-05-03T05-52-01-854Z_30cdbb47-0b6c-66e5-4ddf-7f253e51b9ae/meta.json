@@ -1,0 +1,29 @@
+{
+  "callId": "30cdbb47-0b6c-66e5-4ddf-7f253e51b9ae",
+  "digits": "5855303180",
+  "dialedNumber": "(585) 530-3180",
+  "catalogedName": "attorney-grievance-complaint-ny",
+  "sourceId": "legal-entry:attorney-grievance-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "attorney-grievance-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:52:01.854Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.699Z"
+  }
+}

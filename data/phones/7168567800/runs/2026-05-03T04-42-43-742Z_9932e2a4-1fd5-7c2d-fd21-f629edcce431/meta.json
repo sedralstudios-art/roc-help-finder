@@ -1,0 +1,41 @@
+{
+  "callId": "9932e2a4-1fd5-7c2d-fd21-f629edcce431",
+  "digits": "7168567800",
+  "dialedNumber": "(716) 856-7800",
+  "catalogedName": "computer-crimes-penal-law-156-ny",
+  "sourceId": "legal-entry:computer-crimes-penal-law-156-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny"
+    },
+    {
+      "type": "entry",
+      "id": "credit-repair-companies-ny"
+    },
+    {
+      "type": "entry",
+      "id": "insurance-fraud-criminal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:42:43.742Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.407Z"
+  }
+}

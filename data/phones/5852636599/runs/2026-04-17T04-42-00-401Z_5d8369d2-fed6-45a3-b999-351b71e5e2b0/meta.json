@@ -1,0 +1,24 @@
+{
+  "callId": "5d8369d2-fed6-45a3-b999-351b71e5e2b0",
+  "digits": "5852636599",
+  "dialedNumber": "(585) 263-6599",
+  "catalogedName": "Eastman Dental Downtown",
+  "sourceId": "eastmandown",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:42:00.401Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.582Z"
+  }
+}

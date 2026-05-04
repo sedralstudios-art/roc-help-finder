@@ -1,0 +1,29 @@
+{
+  "callId": "5f963abc-d6ea-b699-129f-7227fbec83c3",
+  "digits": "5854547350",
+  "dialedNumber": "(585) 454-7350",
+  "catalogedName": "bail-reform-ny",
+  "sourceId": "legal-entry:bail-reform-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bail-reform-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:53:00.093Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.706Z"
+  }
+}

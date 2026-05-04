@@ -60,7 +60,7 @@ export const AED_DEFIBRILLATOR_GOOD_SAMARITAN_NY = {
       qualifier: "Monroe County residents and businesses",
       access: "Phone at (585) 753-5555",
       outcome: "Compliance guidance, complaint investigation",
-      phone: "(585) 753-5555",
+      phone: "",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

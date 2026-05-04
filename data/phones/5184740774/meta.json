@@ -1,0 +1,99 @@
+{
+  "digits": "5184740774",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-accident-what-to-do-first-ny",
+  "rawValue": "(518) 474-0774",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-accident-what-to-do-first-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "implied-consent-chemical-test-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "senior-driver-license-renewal-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-00-42-333Z_3ce5deb7-0e61-1ba3-488a-b9f90d5194e6",
+    "meta": {
+      "callId": "3ce5deb7-0e61-1ba3-488a-b9f90d5194e6",
+      "digits": "5184740774",
+      "dialedNumber": "(518) 474-0774",
+      "catalogedName": "car-accident-what-to-do-first-ny",
+      "sourceId": "legal-entry:car-accident-what-to-do-first-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-accident-what-to-do-first-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dwi-first-offense-ny"
+        },
+        {
+          "type": "entry",
+          "id": "implied-consent-chemical-test-ny"
+        },
+        {
+          "type": "entry",
+          "id": "license-suspension-ny"
+        },
+        {
+          "type": "entry",
+          "id": "senior-driver-license-renewal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:00:42.333Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.182Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Motor Vehicles Driver Improvement and Medical Reviews Unit",
+      "reason": "transcript-stated name (New York State Department of Motor Vehicles Driver Improvement and Medical Reviews Unit) differs from catalogued (car-accident-what-to-do-first-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.314Z",
+  "lastSeededAt": "2026-05-03T19:44:16.314Z"
+}

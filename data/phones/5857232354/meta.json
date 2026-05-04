@@ -1,0 +1,100 @@
+{
+  "digits": "5857232354",
+  "kind": "phone",
+  "primaryName": "entry-callout:abandoned-house-next-door-ny",
+  "rawValue": "(585) 723-2354",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "abandoned-house-next-door-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-placement-permit-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "gutter-downspout-drainage-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "home-business-zoning-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "hot-tub-spa-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "sump-pump-discharge-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "tree-removal-permit-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.277Z",
+  "lastSeededAt": "2026-05-03T19:44:16.277Z"
+}

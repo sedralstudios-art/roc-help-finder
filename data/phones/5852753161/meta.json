@@ -1,0 +1,86 @@
+{
+  "digits": "5852753161",
+  "kind": "phone",
+  "primaryName": "Strong Recovery Chemical Dependency",
+  "rawValue": "585-275-3161",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOSPITALS",
+      "slug": "behavioralHealthClinic",
+      "value": "585-275-3161",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "strongrecovery",
+      "name": "Strong Recovery Chemical Dependency",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-06-16-781Z_bf4963d9-fde7-f0c0-dcd8-529bfbaf98c0",
+    "meta": {
+      "callId": "bf4963d9-fde7-f0c0-dcd8-529bfbaf98c0",
+      "digits": "5852753161",
+      "dialedNumber": "585-275-3161",
+      "catalogedName": "Strong Recovery Chemical Dependency",
+      "sourceId": "strongrecovery",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "HOSPITALS.behavioralHealthClinic"
+        },
+        {
+          "type": "program",
+          "id": "strongrecovery"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:06:16.781Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.490Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "UR Medicine Behavioral Health and Wellness",
+      "reason": "transcript-stated name (UR Medicine Behavioral Health and Wellness) differs from catalogued (Strong Recovery Chemical Dependency)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.353Z",
+  "lastSeededAt": "2026-05-03T19:44:16.353Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:34:29.674Z",
+      "sourceUrl": "https://www.urmc.rochester.edu/conditions-and-treatments/addiction",
+      "sourceLabel": "URMC Addiction Conditions & Treatments page",
+      "notes": "Web confirms (585) 275-3161 for URMC Strong Recovery. May tree captured \"voicemail of Julia Greene\" (URMC Associate VP) — number routes correctly to URMC voicemail; just lands on a specific employee for after-hours."
+    }
+  ]
+}

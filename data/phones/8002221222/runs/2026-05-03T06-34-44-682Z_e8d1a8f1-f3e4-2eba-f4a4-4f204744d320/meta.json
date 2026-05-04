@@ -1,0 +1,29 @@
+{
+  "callId": "e8d1a8f1-f3e4-2eba-f4a4-4f204744d320",
+  "digits": "8002221222",
+  "dialedNumber": "(800) 222-1222",
+  "catalogedName": "pharmacy-errors-ny",
+  "sourceId": "legal-entry:pharmacy-errors-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacy-errors-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:34:44.682Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.019Z"
+  }
+}

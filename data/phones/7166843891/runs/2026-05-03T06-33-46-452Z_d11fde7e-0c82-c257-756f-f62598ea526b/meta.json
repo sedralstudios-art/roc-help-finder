@@ -1,0 +1,29 @@
+{
+  "callId": "d11fde7e-0c82-c257-756f-f62598ea526b",
+  "digits": "7166843891",
+  "dialedNumber": "(716) 684-3891",
+  "catalogedName": "pesticide-worker-protection-standard-ny",
+  "sourceId": "legal-entry:pesticide-worker-protection-standard-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:33:46.452Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.012Z"
+  }
+}

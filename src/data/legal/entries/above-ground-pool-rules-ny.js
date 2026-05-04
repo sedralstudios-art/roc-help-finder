@@ -82,7 +82,7 @@ export const ABOVE_GROUND_POOL_RULES_NY = {
       qualifier: "Rochester city property owners",
       access: "Phone at (585) 428-6520",
       outcome: "Permit applications, inspections, code guidance",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

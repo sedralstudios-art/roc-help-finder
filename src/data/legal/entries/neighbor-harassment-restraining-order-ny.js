@@ -62,7 +62,7 @@ export const NEIGHBOR_HARASSMENT_RESTRAINING_ORDER_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-5110",
       outcome: "Free or low-cost mediation, dispute resolution",
-      phone: "(585) 546-5110",
+      phone: "",
       url: "https://www.cdsadr.org",
       verified: true,
       bilingual: false,

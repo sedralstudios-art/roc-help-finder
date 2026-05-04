@@ -1,0 +1,24 @@
+{
+  "digits": "5857193481",
+  "kind": "phone",
+  "primaryName": "NCADD-RA",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ncadd"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:30:10.993Z",
+      "sourceUrl": "https://ncadd-ra.org",
+      "sourceLabel": "NCADD-RA official site",
+      "notes": "Web confirms 585-719-3481 (and -3484) for NCADD-RA. Pre-strip had -3480 — corrected."
+    }
+  ]
+}

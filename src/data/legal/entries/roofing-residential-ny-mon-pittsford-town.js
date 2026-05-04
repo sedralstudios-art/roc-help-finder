@@ -59,7 +59,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Town",
       access: "Walk-in at Town Hall, 11 South Main Street, Pittsford, NY 14534; phone",
       outcome: "Permit guidance, insurance verification, complaint intake",
-      phone: "585-248-6265",
+      phone: "",
       url: "https://www.townofpittsfordny.gov/code",
       verified: true,
       bilingual: false,

@@ -1,0 +1,29 @@
+{
+  "callId": "34f4f4e9-bcdf-1108-97f1-c3ae41eef0c3",
+  "digits": "8002687869",
+  "dialedNumber": "(800) 268-7869",
+  "catalogedName": "uncontested-divorce-ny",
+  "sourceId": "legal-entry:uncontested-divorce-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "uncontested-divorce-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:50:58.116Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.132Z"
+  }
+}

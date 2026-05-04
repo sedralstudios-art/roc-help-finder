@@ -1,0 +1,24 @@
+{
+  "callId": "8f85bdfe-582d-a2fc-7cb4-5580752c9d15",
+  "digits": "5856471150",
+  "dialedNumber": "(585) 647-1150",
+  "catalogedName": "VOA Residential Reentry",
+  "sourceId": "voareentry",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:30:01.368Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.715Z"
+  }
+}

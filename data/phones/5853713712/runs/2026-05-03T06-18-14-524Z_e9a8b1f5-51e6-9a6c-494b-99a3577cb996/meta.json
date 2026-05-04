@@ -1,0 +1,29 @@
+{
+  "callId": "e9a8b1f5-51e6-9a6c-494b-99a3577cb996",
+  "digits": "5853713712",
+  "dialedNumber": "(585) 371-3712",
+  "catalogedName": "jury-duty-employer-pay-ny",
+  "sourceId": "legal-entry:jury-duty-employer-pay-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "jury-duty-employer-pay-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:18:14.524Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.888Z"
+  }
+}

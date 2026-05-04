@@ -1,0 +1,61 @@
+{
+  "digits": "2124874444",
+  "kind": "phone",
+  "primaryName": "entry-callout:pawnshops-ny",
+  "rawValue": "(212) 487-4444",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pawnshops-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-32-39-917Z_c5747ef7-40e1-a66f-ee12-a6c1f71df0a1",
+    "meta": {
+      "callId": "c5747ef7-40e1-a66f-ee12-a6c1f71df0a1",
+      "digits": "2124874444",
+      "dialedNumber": "(212) 487-4444",
+      "catalogedName": "pawnshops-ny",
+      "sourceId": "legal-entry:pawnshops-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pawnshops-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:32:39.917Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.005Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.542Z",
+  "lastSeededAt": "2026-05-03T19:44:16.542Z"
+}

@@ -59,7 +59,7 @@ export const TRESPASSING_LAWS_NY = {
       qualifier: "Anyone who cannot afford an attorney",
       access: "Phone or court appointment",
       outcome: "Legal representation",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

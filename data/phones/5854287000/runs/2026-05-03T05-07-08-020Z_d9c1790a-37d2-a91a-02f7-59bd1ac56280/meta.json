@@ -1,0 +1,37 @@
+{
+  "callId": "d9c1790a-37d2-a91a-02f7-59bd1ac56280",
+  "digits": "5854287000",
+  "dialedNumber": "(585) 428-7000",
+  "catalogedName": "basic-star-exemption-credit-ny",
+  "sourceId": "legal-entry:basic-star-exemption-credit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "found-lost-property-wallet-ny"
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:07:08.020Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.496Z"
+  }
+}

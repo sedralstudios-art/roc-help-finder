@@ -1,0 +1,29 @@
+{
+  "callId": "cbd49de4-329c-0cb2-c731-12401dfb9238",
+  "digits": "5859224141",
+  "dialedNumber": "(585) 922-4141",
+  "catalogedName": "hospital-language-interpreter-ny",
+  "sourceId": "legal-entry:hospital-language-interpreter-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-language-interpreter-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:15:36.503Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.871Z"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "callId": "35862c76-1000-5db1-dd70-26ab7e0f5d0b",
+  "digits": "5854615690",
+  "dialedNumber": "(585) 461-5690",
+  "catalogedName": "animal-hoarding-reporting-ny",
+  "sourceId": "legal-entry:animal-hoarding-reporting-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny"
+    },
+    {
+      "type": "entry",
+      "id": "child-protective-services-process-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mandated-reporter-child-abuse-ny"
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:37:02.381Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.386Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "e4b3a3c8-4f4c-9168-e723-6c3305969818",
+  "digits": "5852955840",
+  "dialedNumber": "(585) 295-5840",
+  "catalogedName": "commercial-eviction-process-ny",
+  "sourceId": "legal-entry:commercial-eviction-process-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "commercial-eviction-process-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:58:57.848Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.751Z"
+  }
+}

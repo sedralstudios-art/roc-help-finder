@@ -1,0 +1,81 @@
+{
+  "digits": "8003725476",
+  "kind": "phone",
+  "primaryName": "entry-callout:pothole-damage-claim-ny",
+  "rawValue": "(800) 372-5476",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pothole-damage-claim-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-01-59-403Z_b43b931e-e02a-712f-09fb-1efd7ccd782f",
+    "meta": {
+      "callId": "b43b931e-e02a-712f-09fb-1efd7ccd782f",
+      "digits": "8003725476",
+      "dialedNumber": "(800) 372-5476",
+      "catalogedName": "pothole-damage-claim-ny",
+      "sourceId": "legal-entry:pothole-damage-claim-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pothole-damage-claim-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-plow-damage-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "street-light-out-report-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:01:59.403Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.471Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "America's Hottest Talk Line",
+      "reason": "transcript-stated name (America's Hottest Talk Line) differs from catalogued (pothole-damage-claim-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.352Z",
+  "lastSeededAt": "2026-05-03T19:44:16.352Z"
+}

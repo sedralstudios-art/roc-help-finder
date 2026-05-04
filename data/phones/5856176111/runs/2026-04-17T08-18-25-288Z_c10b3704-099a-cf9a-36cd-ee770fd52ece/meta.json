@@ -1,0 +1,24 @@
+{
+  "callId": "c10b3704-099a-cf9a-36cd-ee770fd52ece",
+  "digits": "5856176111",
+  "dialedNumber": "(585) 617-6111",
+  "catalogedName": "Ogden Town Clerk",
+  "sourceId": "ogdenclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:18:25.288Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.902Z"
+  }
+}

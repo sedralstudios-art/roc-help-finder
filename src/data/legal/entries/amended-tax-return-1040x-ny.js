@@ -75,7 +75,7 @@ export const AMENDED_TAX_RETURN_1040X_NY = {
       qualifier: "Any U.S. taxpayer",
       access: "Phone at (800) 829-1040",
       outcome: "Account lookups, amended return guidance",
-      phone: "(800) 829-1040",
+      phone: "",
       url: "https://www.irs.gov/filing/wheres-my-amended-return",
       verified: true,
       bilingual: true,

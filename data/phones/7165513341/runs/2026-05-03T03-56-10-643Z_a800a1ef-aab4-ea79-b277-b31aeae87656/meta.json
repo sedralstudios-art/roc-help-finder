@@ -1,0 +1,49 @@
+{
+  "callId": "a800a1ef-aab4-ea79-b277-b31aeae87656",
+  "digits": "7165513341",
+  "dialedNumber": "(716) 551-3341",
+  "catalogedName": "civil-tro-preliminary-injunction-ny",
+  "sourceId": "legal-entry:civil-tro-preliminary-injunction-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-tro-preliminary-injunction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny"
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny"
+    },
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny"
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:56:10.643Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.169Z"
+  }
+}

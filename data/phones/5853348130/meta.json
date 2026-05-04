@@ -1,0 +1,59 @@
+{
+  "digits": "5853348130",
+  "kind": "phone",
+  "primaryName": "Venture Compassionate Ministries Food Pantry",
+  "rawValue": "585-334-8130",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "venturefood",
+      "name": "Venture Compassionate Ministries Food Pantry",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-40-02-185Z_ef9785c6-9392-2211-3fa7-62633f23ad21",
+    "meta": {
+      "callId": "ef9785c6-9392-2211-3fa7-62633f23ad21",
+      "digits": "5853348130",
+      "dialedNumber": "5853348130",
+      "catalogedName": "Venture Compassionate Ministries Food Pantry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:40:02.185Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.296Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.445Z",
+  "lastSeededAt": "2026-05-03T19:44:16.445Z"
+}

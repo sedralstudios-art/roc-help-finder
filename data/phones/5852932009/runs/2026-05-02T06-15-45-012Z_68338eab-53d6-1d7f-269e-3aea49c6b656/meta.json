@@ -1,0 +1,24 @@
+{
+  "callId": "68338eab-53d6-1d7f-269e-3aea49c6b656",
+  "digits": "5852932009",
+  "dialedNumber": "5852932009",
+  "catalogedName": "Newman Riga Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:15:45.012Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.245Z"
+  }
+}

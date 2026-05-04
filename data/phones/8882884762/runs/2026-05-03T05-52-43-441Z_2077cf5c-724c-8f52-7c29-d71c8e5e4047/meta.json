@@ -1,0 +1,29 @@
+{
+  "callId": "2077cf5c-724c-8f52-7c29-d71c8e5e4047",
+  "digits": "8882884762",
+  "dialedNumber": "(888) 288-4762",
+  "catalogedName": "autism-insurance-coverage-ny",
+  "sourceId": "legal-entry:autism-insurance-coverage-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:52:43.441Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.704Z"
+  }
+}

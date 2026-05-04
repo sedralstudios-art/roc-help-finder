@@ -1,0 +1,24 @@
+{
+  "callId": "117c6588-5859-924d-3fb9-79b8d6df3ccf",
+  "digits": "5852527110",
+  "dialedNumber": "(585) 252-7110",
+  "catalogedName": "Free Financial Counseling",
+  "sourceId": "fec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:35:35.865Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.572Z"
+  }
+}

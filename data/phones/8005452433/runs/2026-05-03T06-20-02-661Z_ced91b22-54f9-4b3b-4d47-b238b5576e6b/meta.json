@@ -1,0 +1,29 @@
+{
+  "callId": "ced91b22-54f9-4b3b-4d47-b238b5576e6b",
+  "digits": "8005452433",
+  "dialedNumber": "(800) 545-2433",
+  "catalogedName": "library-borrowing-privacy-ny",
+  "sourceId": "legal-entry:library-borrowing-privacy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "library-borrowing-privacy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:20:02.661Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.900Z"
+  }
+}

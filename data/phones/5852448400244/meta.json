@@ -1,0 +1,28 @@
+{
+  "digits": "5852448400244",
+  "kind": "shortcode",
+  "primaryName": "Lifespan Transportation Help",
+  "rawValue": "585-244-8400 ext.244",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "lifespantrans",
+      "name": "Lifespan Transportation Help",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.423Z",
+  "lastSeededAt": "2026-05-03T19:44:16.423Z"
+}

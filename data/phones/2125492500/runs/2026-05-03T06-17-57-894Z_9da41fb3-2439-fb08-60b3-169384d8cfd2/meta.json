@@ -1,0 +1,29 @@
+{
+  "callId": "9da41fb3-2439-fb08-60b3-169384d8cfd2",
+  "digits": "2125492500",
+  "dialedNumber": "(212) 549-2500",
+  "catalogedName": "journalist-shield-law-ny",
+  "sourceId": "legal-entry:journalist-shield-law-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:17:57.894Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.887Z"
+  }
+}

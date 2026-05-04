@@ -1,0 +1,310 @@
+{
+  "digits": "5857531600",
+  "kind": "phone",
+  "primaryName": "Monroe County Clerk — File Court Papers & Get Certified Copies",
+  "rawValue": "585-753-1600",
+  "blockDial": false,
+  "tags": [
+    "cat:parentalProtection",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "clerk",
+      "value": "585-753-1600",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "mclerk",
+      "name": "Monroe County Clerk — File Court Papers & Get Certified Copies",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "adult-cannabis-personal-use-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "boundary-line-agreement-rpl-345-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-plot-abandoned-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "court-system-explained-ny-program",
+      "line": 39
+    },
+    {
+      "type": "entry",
+      "id": "domestic-partnership-registration-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "driveway-easement-access-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "easement-by-necessity-ny-cl",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "encroachment-property-line-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "furnace-repair-scam-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "home-title-theft-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "joint-tenancy-tenancy-in-common-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "land-contract-rent-to-own-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "marriage-certificate-copy-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "marriage-license-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "mechanic-lien-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mechanics-lien-private-construction-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-recording-tax-closing-cost-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "notarization-basics-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "notice-of-pendency-lis-pendens-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "ny-apostille-document-authentication-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "nys-tax-warrant-173-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "open-container-car-ny",
+      "line": 62
+    },
+    {
+      "type": "entry",
+      "id": "partition-joint-property-rpapl-9-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pet-trust-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "private-party-car-sales-tax-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "private-road-maintenance-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "prompt-pay-construction-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "property-survey-boundary-dispute-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "quiet-title-action-rpapl-15-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "quitclaim-deed-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "replacement-birth-certificate-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "selling-home-without-realtor-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "shared-driveway-dispute-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "shared-well-water-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "title-insurance-what-it-covers-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "transfer-on-death-deed-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "trust-accounting-scpa-2210-ny",
+      "line": 80
+    },
+    {
+      "type": "entry",
+      "id": "uncontested-divorce-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "vital-records-request-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-lien-exaggeration-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-59-37-291Z_907d6ffb-498f-7bdf-0af2-665882933061",
+    "meta": {
+      "callId": "907d6ffb-498f-7bdf-0af2-665882933061",
+      "digits": "5857531600",
+      "dialedNumber": "5857531600",
+      "catalogedName": "Monroe County Clerk — File Court Papers & Get Certified Copies",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:59:37.291Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.596Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Monroe County Clerk's Downtown Filing Office",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.268Z",
+  "lastSeededAt": "2026-05-03T19:44:16.268Z"
+}

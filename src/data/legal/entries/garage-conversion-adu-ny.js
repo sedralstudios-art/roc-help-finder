@@ -59,7 +59,7 @@ export const GARAGE_CONVERSION_ADU_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Permit processing, zoning information, inspections",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

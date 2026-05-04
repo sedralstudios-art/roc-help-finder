@@ -1,0 +1,24 @@
+{
+  "callId": "ddfdebde-2d99-2611-6291-3ff3fee60d47",
+  "digits": "5856375300",
+  "dialedNumber": "(585) 637-5300",
+  "catalogedName": "Brockport Village Clerk",
+  "sourceId": "brockportclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:43:09.417Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.935Z"
+  }
+}

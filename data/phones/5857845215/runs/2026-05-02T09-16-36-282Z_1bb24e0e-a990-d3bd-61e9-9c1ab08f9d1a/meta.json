@@ -1,0 +1,24 @@
+{
+  "callId": "1bb24e0e-a990-d3bd-61e9-9c1ab08f9d1a",
+  "digits": "5857845215",
+  "dialedNumber": "5857845215",
+  "catalogedName": "Brighton Assessor",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:16:36.282Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.633Z"
+  }
+}

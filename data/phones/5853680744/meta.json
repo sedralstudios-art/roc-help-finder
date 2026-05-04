@@ -1,0 +1,70 @@
+{
+  "digits": "5853680744",
+  "kind": "phone",
+  "primaryName": "Mission Share Outreach Center",
+  "rawValue": "585-368-0744",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "missionshare",
+      "name": "Mission Share Outreach Center",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-05-42-757Z_4c07527c-0758-d658-10e7-bc0c091673da",
+    "meta": {
+      "callId": "4c07527c-0758-d658-10e7-bc0c091673da",
+      "digits": "5853680744",
+      "dialedNumber": "5853680744",
+      "catalogedName": "Mission Share Outreach Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:05:42.757Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.350Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "following organizations",
+      "reason": "transcript-stated name (following organizations) differs from catalogued (Mission Share Outreach Center)"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.430Z",
+  "lastSeededAt": "2026-05-03T19:44:16.430Z",
+  "verifiedAt": "2026-05-03T20:21:01.726Z",
+  "verifiedRun": "2026-05-02T07-05-42-757Z_4c07527c-0758-d658-10e7-bc0c091673da",
+  "verifiedTranscriptOpening": "Hello, you have reached the following organizations, Mission Share Outreach Center and Crossroads Pregnancy Services. We are currently closed. For hours, directions, and general information press 5 no",
+  "verifiedMatchTokens": [
+    "mission",
+    "share",
+    "outreach"
+  ],
+  "verifiedRatio": 1
+}

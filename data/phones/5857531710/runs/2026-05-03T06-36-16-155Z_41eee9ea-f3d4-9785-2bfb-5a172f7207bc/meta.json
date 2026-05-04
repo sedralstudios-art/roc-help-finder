@@ -1,0 +1,29 @@
+{
+  "callId": "41eee9ea-f3d4-9785-2bfb-5a172f7207bc",
+  "digits": "5857531710",
+  "dialedNumber": "(585) 753-1710",
+  "catalogedName": "pothole-damage-claim-ny",
+  "sourceId": "legal-entry:pothole-damage-claim-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pothole-damage-claim-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:36:16.155Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.030Z"
+  }
+}

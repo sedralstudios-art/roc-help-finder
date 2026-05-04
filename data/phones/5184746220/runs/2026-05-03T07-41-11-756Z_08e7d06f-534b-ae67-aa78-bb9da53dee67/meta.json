@@ -1,0 +1,37 @@
+{
+  "callId": "08e7d06f-534b-ae67-aa78-bb9da53dee67",
+  "digits": "5184746220",
+  "dialedNumber": "(518) 474-6220",
+  "catalogedName": "early-voting-absentee-ballot-ny",
+  "sourceId": "legal-entry:early-voting-absentee-ballot-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "early-voting-absentee-ballot-ny"
+    },
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny"
+    },
+    {
+      "type": "entry",
+      "id": "voter-registration-deadline-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:41:11.756Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.372Z"
+  }
+}

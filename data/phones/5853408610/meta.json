@@ -1,0 +1,59 @@
+{
+  "digits": "5853408610",
+  "kind": "phone",
+  "primaryName": "Penfield Assessor",
+  "rawValue": "585-340-8610",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldassessor",
+      "name": "Penfield Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-48-40-023Z_9ca49564-8bb1-001f-74b2-e767141de565",
+    "meta": {
+      "callId": "9ca49564-8bb1-001f-74b2-e767141de565",
+      "digits": "5853408610",
+      "dialedNumber": "5853408610",
+      "catalogedName": "Penfield Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:48:40.023Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.315Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.452Z",
+  "lastSeededAt": "2026-05-03T19:44:16.452Z"
+}

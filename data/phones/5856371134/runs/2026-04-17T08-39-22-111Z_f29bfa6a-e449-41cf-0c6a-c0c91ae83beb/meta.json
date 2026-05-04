@@ -1,0 +1,24 @@
+{
+  "callId": "f29bfa6a-e449-41cf-0c6a-c0c91ae83beb",
+  "digits": "5856371134",
+  "dialedNumber": "(585) 637-1134",
+  "catalogedName": "Clarkson Justice Court",
+  "sourceId": "clarksoncourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:39:22.111Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.931Z"
+  }
+}

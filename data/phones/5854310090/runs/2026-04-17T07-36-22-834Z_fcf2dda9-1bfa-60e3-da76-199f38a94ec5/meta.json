@@ -1,0 +1,24 @@
+{
+  "callId": "fcf2dda9-1bfa-60e3-da76-199f38a94ec5",
+  "digits": "5854310090",
+  "dialedNumber": "(585) 431-0090",
+  "catalogedName": "Sweden/Clarkson Recreation",
+  "sourceId": "swedenclarksonrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:36:22.834Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.853Z"
+  }
+}

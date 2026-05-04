@@ -1,0 +1,75 @@
+{
+  "digits": "5854426470",
+  "kind": "phone",
+  "primaryName": "Center for Independent Living",
+  "rawValue": "585-442-6470",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rcil",
+      "name": "Center for Independent Living",
+      "category": "disabilitySvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-45-37-786Z_1e75c777-adfe-42be-d66f-2eefffd7e15c",
+    "meta": {
+      "callId": "1e75c777-adfe-42be-d66f-2eefffd7e15c",
+      "digits": "5854426470",
+      "dialedNumber": "5854426470",
+      "catalogedName": "Center for Independent Living",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:45:37.786Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.440Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.420Z",
+  "lastSeededAt": "2026-05-03T19:44:16.420Z",
+  "verifiedAt": "2026-05-03T20:21:01.750Z",
+  "verifiedRun": "2026-05-02T07-45-37-786Z_1e75c777-adfe-42be-d66f-2eefffd7e15c",
+  "verifiedTranscriptOpening": "...for calling the Center for Disability Rights and the Regional Center for Independent Living. Para continuar en español, presione 1. Our offices are currently closed. Please call back during our nor",
+  "verifiedMatchTokens": [
+    "independent",
+    "living"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:10:32.383Z",
+      "sourceUrl": "https://www.rcil.org",
+      "sourceLabel": "RCIL official site",
+      "notes": "Web confirms (585) 442-6470 (V/TTY) for RCIL at 497 State St. May tree captured \"Center for Disability Rights and the Regional Center for Independent Living\" — direct match."
+    }
+  ]
+}

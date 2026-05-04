@@ -1,0 +1,99 @@
+{
+  "digits": "5855303050",
+  "kind": "phone",
+  "primaryName": "entry-callout:guardian-ad-litem-ny",
+  "rawValue": "(585) 530-3050",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "guardian-ad-litem-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "involuntary-commitment-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-crisis-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-patient-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "psychiatric-advance-directive-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-31-31-916Z_7f20a1f8-d644-27b0-16d8-1741360c792f",
+    "meta": {
+      "callId": "7f20a1f8-d644-27b0-16d8-1741360c792f",
+      "digits": "5855303050",
+      "dialedNumber": "(585) 530-3050",
+      "catalogedName": "guardian-ad-litem-ny",
+      "sourceId": "legal-entry:guardian-ad-litem-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "guardian-ad-litem-ny"
+        },
+        {
+          "type": "entry",
+          "id": "involuntary-commitment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mental-health-crisis-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mental-health-patient-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "psychiatric-advance-directive-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:31:31.916Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.366Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Mental Hygiene Legal Service service our office hours are Monday through Friday from 9 a",
+      "reason": "transcript-stated name (Mental Hygiene Legal Service service our office hours are Monday through Friday from 9 a) differs from catalogued (guardian-ad-litem-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.317Z",
+  "lastSeededAt": "2026-05-03T19:44:16.317Z"
+}

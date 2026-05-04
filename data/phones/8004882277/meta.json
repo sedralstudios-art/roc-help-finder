@@ -1,0 +1,61 @@
+{
+  "digits": "8004882277",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-donation-charity-ny",
+  "rawValue": "(800) 488-2277",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-55-38-197Z_45343a1b-f499-194e-b847-6e285214bcf3",
+    "meta": {
+      "callId": "45343a1b-f499-194e-b847-6e285214bcf3",
+      "digits": "8004882277",
+      "dialedNumber": "(800) 488-2277",
+      "catalogedName": "car-donation-charity-ny",
+      "sourceId": "legal-entry:car-donation-charity-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-donation-charity-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:55:38.197Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.724Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.476Z",
+  "lastSeededAt": "2026-05-03T19:44:16.476Z"
+}

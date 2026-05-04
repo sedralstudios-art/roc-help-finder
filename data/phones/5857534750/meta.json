@@ -1,0 +1,59 @@
+{
+  "digits": "5857534750",
+  "kind": "phone",
+  "primaryName": "Monroe County DA — Victim Assistance Unit",
+  "rawValue": "585-753-4750",
+  "blockDial": false,
+  "tags": [
+    "cat:parentalProtection",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "daunit",
+      "name": "Monroe County DA — Victim Assistance Unit",
+      "category": "parentalProtection",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-03-19-785Z_39d00f52-3f1c-3ebe-4b78-25876db87cb6",
+    "meta": {
+      "callId": "39d00f52-3f1c-3ebe-4b78-25876db87cb6",
+      "digits": "5857534750",
+      "dialedNumber": "5857534750",
+      "catalogedName": "Monroe County DA — Victim Assistance Unit",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:03:19.785Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.603Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.427Z",
+  "lastSeededAt": "2026-05-03T19:44:16.427Z"
+}

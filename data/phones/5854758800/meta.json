@@ -1,0 +1,24 @@
+{
+  "digits": "5854758800",
+  "kind": "phone",
+  "primaryName": "Rochester Regional Health Hospice Bereavement",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hospicegrief"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:27:38.902Z",
+      "sourceUrl": "https://www.rochesterregional.org/services/hospice-care/our-services/bereavement-services",
+      "sourceLabel": "Rochester Regional Health Bereavement Services page",
+      "notes": "Web confirms 585-475-8800 for RRH Hospice Bereavement Services."
+    }
+  ]
+}

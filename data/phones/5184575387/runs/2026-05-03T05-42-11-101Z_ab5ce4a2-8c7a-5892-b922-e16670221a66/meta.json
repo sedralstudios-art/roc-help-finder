@@ -1,0 +1,33 @@
+{
+  "callId": "ab5ce4a2-8c7a-5892-b922-e16670221a66",
+  "digits": "5184575387",
+  "dialedNumber": "(518) 457-5387",
+  "catalogedName": "ny-estate-tax-threshold-ny",
+  "sourceId": "legal-entry:ny-estate-tax-threshold-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-estate-tax-threshold-ny"
+    },
+    {
+      "type": "entry",
+      "id": "safe-deposit-box-after-death-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:42:11.101Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.635Z"
+  }
+}

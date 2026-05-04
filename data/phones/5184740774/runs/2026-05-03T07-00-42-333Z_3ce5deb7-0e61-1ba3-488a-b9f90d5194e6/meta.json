@@ -1,0 +1,45 @@
+{
+  "callId": "3ce5deb7-0e61-1ba3-488a-b9f90d5194e6",
+  "digits": "5184740774",
+  "dialedNumber": "(518) 474-0774",
+  "catalogedName": "car-accident-what-to-do-first-ny",
+  "sourceId": "legal-entry:car-accident-what-to-do-first-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-accident-what-to-do-first-ny"
+    },
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny"
+    },
+    {
+      "type": "entry",
+      "id": "implied-consent-chemical-test-ny"
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny"
+    },
+    {
+      "type": "entry",
+      "id": "senior-driver-license-renewal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:00:42.333Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.182Z"
+  }
+}

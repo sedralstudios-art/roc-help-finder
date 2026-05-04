@@ -1,0 +1,61 @@
+{
+  "digits": "5852235050",
+  "kind": "phone",
+  "primaryName": "Perinton Community Center",
+  "rawValue": "585-223-5050",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "perintonrec",
+      "name": "Perinton Community Center",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-19-55-824Z_b205f30a-f5ed-74aa-ac5e-7c131e020b48",
+    "meta": {
+      "callId": "b205f30a-f5ed-74aa-ac5e-7c131e020b48",
+      "digits": "5852235050",
+      "dialedNumber": "5852235050",
+      "catalogedName": "Perinton Community Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:19:55.824Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.120Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Parentin Community Center",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.440Z",
+  "lastSeededAt": "2026-05-03T19:44:16.440Z"
+}

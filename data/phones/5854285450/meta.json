@@ -1,0 +1,61 @@
+{
+  "digits": "5854285450",
+  "kind": "phone",
+  "primaryName": "entry-callout:replevin-personal-property-recovery-ny",
+  "rawValue": "(585) 428-5450",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "replevin-personal-property-recovery-ny",
+      "line": 67
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-40-25-753Z_577a2cb3-07fd-f0ec-851a-a731ee4428a8",
+    "meta": {
+      "callId": "577a2cb3-07fd-f0ec-851a-a731ee4428a8",
+      "digits": "5854285450",
+      "dialedNumber": "(585) 428-5450",
+      "catalogedName": "replevin-personal-property-recovery-ny",
+      "sourceId": "legal-entry:replevin-personal-property-recovery-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "replevin-personal-property-recovery-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:40:25.753Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.058Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.558Z",
+  "lastSeededAt": "2026-05-03T19:44:16.558Z"
+}

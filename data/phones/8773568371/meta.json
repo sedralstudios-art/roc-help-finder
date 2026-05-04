@@ -1,0 +1,61 @@
+{
+  "digits": "8773568371",
+  "kind": "phone",
+  "primaryName": "entry-callout:emergency-shelter-warming-center-ny",
+  "rawValue": "1-877-356-8371",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-07-08-715Z_038e2a14-b5b7-f536-2ad8-bd77844bb55f",
+    "meta": {
+      "callId": "038e2a14-b5b7-f536-2ad8-bd77844bb55f",
+      "digits": "8773568371",
+      "dialedNumber": "1-877-356-8371",
+      "catalogedName": "emergency-shelter-warming-center-ny",
+      "sourceId": "legal-entry:emergency-shelter-warming-center-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "emergency-shelter-warming-center-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:07:08.715Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.811Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.496Z",
+  "lastSeededAt": "2026-05-03T19:44:16.496Z"
+}

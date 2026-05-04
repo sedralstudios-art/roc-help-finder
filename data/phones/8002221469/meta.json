@@ -1,0 +1,61 @@
+{
+  "digits": "8002221469",
+  "kind": "phone",
+  "primaryName": "entry-callout:cell-phone-while-driving-ny",
+  "rawValue": "(800) 222-1469",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-56-19-791Z_7190b8d6-6d31-3e99-dfe0-5df2d17a21db",
+    "meta": {
+      "callId": "7190b8d6-6d31-3e99-dfe0-5df2d17a21db",
+      "digits": "8002221469",
+      "dialedNumber": "(800) 222-1469",
+      "catalogedName": "cell-phone-while-driving-ny",
+      "sourceId": "legal-entry:cell-phone-while-driving-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cell-phone-while-driving-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:56:19.791Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.731Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.477Z",
+  "lastSeededAt": "2026-05-03T19:44:16.477Z"
+}

@@ -1,0 +1,59 @@
+{
+  "digits": "5856176107",
+  "kind": "phone",
+  "primaryName": "Ogden Assessor",
+  "rawValue": "585-617-6107",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ogdenassessor",
+      "name": "Ogden Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-20-52-370Z_1c78933b-9e73-7718-b635-e8244aac361a",
+    "meta": {
+      "callId": "1c78933b-9e73-7718-b635-e8244aac361a",
+      "digits": "5856176107",
+      "dialedNumber": "5856176107",
+      "catalogedName": "Ogden Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:20:52.370Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.515Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.450Z",
+  "lastSeededAt": "2026-05-03T19:44:16.450Z"
+}

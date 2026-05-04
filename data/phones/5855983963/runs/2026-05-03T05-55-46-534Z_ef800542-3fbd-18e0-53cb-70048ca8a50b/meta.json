@@ -1,0 +1,29 @@
+{
+  "callId": "ef800542-3fbd-18e0-53cb-70048ca8a50b",
+  "digits": "5855983963",
+  "dialedNumber": "(585) 598-3963",
+  "catalogedName": "car-donation-charity-ny",
+  "sourceId": "legal-entry:car-donation-charity-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:55:46.534Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.725Z"
+  }
+}

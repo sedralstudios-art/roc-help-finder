@@ -1,0 +1,24 @@
+{
+  "callId": "1dc361a9-583f-0374-6f46-7c1d678e54f1",
+  "digits": "5855863553",
+  "dialedNumber": "(585) 586-3553",
+  "catalogedName": "East Rochester Building Department",
+  "sourceId": "electrical-residential-ny-mon-east-rochester-village::East Rochester Building Department",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:10:32.154Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.893Z"
+  }
+}

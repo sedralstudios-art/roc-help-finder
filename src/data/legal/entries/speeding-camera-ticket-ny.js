@@ -60,7 +60,7 @@ export const SPEEDING_CAMERA_TICKET_NY = {
       qualifier: "Anyone who received a camera ticket in Rochester",
       access: "Phone at (585) 428-7482",
       outcome: "Hearing scheduling, payment processing, dispute resolution",
-      phone: "(585) 428-7482",
+      phone: "",
       url: "https://www.cityofrochester.gov/parking/",
       verified: true,
       bilingual: false,

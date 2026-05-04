@@ -1,0 +1,24 @@
+{
+  "callId": "ac6fdd69-81c0-095b-f9fb-03cc9ef0dff3",
+  "digits": "5854298232",
+  "dialedNumber": "(585) 429-8232",
+  "catalogedName": "Gates Senior Center",
+  "sourceId": "gatessenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:32:14.171Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.849Z"
+  }
+}

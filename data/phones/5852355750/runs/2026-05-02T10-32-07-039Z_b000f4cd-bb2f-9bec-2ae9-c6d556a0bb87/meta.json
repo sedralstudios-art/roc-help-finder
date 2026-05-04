@@ -1,0 +1,24 @@
+{
+  "callId": "b000f4cd-bb2f-9bec-2ae9-c6d556a0bb87",
+  "digits": "5852355750",
+  "dialedNumber": "5852355750",
+  "catalogedName": "Crisis Nursery of Greater Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:32:07.039Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.802Z"
+  }
+}

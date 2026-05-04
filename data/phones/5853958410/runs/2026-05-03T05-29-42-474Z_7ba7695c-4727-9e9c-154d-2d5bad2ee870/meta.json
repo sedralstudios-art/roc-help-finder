@@ -1,0 +1,33 @@
+{
+  "callId": "7ba7695c-4727-9e9c-154d-2d5bad2ee870",
+  "digits": "5853958410",
+  "dialedNumber": "585-395-8410",
+  "catalogedName": "Small Business Development Center (SBDC)",
+  "sourceId": "sbdc",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "sbdc"
+    },
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:29:42.474Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.553Z"
+  }
+}

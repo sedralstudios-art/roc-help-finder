@@ -1,0 +1,93 @@
+{
+  "digits": "5853347700",
+  "kind": "phone",
+  "primaryName": "entry-callout:basic-star-exemption-credit-ny",
+  "rawValue": "(585) 334-7700",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny",
+      "line": 62
+    },
+    {
+      "type": "entry",
+      "id": "home-business-zoning-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-39-12-481Z_a0591a46-acdf-136b-0414-18a46492bf8c",
+    "meta": {
+      "callId": "a0591a46-acdf-136b-0414-18a46492bf8c",
+      "digits": "5853347700",
+      "dialedNumber": "5853347700",
+      "catalogedName": "entry-callout:basic-star-exemption-credit-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:39:12.481Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.294Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "town of henrietta our offices are currently closed",
+      "reason": "transcript-stated name (town of henrietta our offices are currently closed) differs from catalogued (entry-callout:basic-star-exemption-credit-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.289Z",
+  "lastSeededAt": "2026-05-03T19:44:16.289Z"
+}

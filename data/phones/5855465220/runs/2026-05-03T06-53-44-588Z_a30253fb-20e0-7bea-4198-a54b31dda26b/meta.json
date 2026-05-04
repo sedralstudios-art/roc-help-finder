@@ -1,0 +1,29 @@
+{
+  "callId": "a30253fb-20e0-7bea-4198-a54b31dda26b",
+  "digits": "5855465220",
+  "dialedNumber": "(585) 546-5220",
+  "catalogedName": "wage-theft-ny",
+  "sourceId": "legal-entry:wage-theft-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wage-theft-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:53:44.588Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.150Z"
+  }
+}

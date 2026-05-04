@@ -1,0 +1,24 @@
+{
+  "callId": "29e84ef7-e69a-0e6d-842a-133a086f2b89",
+  "digits": "5859221940",
+  "dialedNumber": "(585) 922-1940",
+  "catalogedName": "Hospice Bereavement Services",
+  "sourceId": "hospicegrief",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:39:39.948Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.727Z"
+  }
+}

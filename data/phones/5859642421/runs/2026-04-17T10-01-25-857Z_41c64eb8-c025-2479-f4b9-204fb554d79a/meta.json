@@ -1,0 +1,24 @@
+{
+  "callId": "41c64eb8-c025-2479-f4b9-204fb554d79a",
+  "digits": "5859642421",
+  "dialedNumber": "(585) 964-2421",
+  "catalogedName": "Hamlin Town Clerk",
+  "sourceId": "hamlinclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T10:01:25.857Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.049Z"
+  }
+}

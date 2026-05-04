@@ -61,7 +61,7 @@ export const TELEHEALTH_RIGHTS_NY = {
       qualifier: "Any NYS resident with a health insurance complaint",
       access: "Phone at (800) 342-3736",
       outcome: "Investigation, enforcement, complaint resolution",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: false,

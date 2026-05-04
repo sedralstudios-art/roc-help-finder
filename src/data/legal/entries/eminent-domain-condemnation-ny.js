@@ -60,7 +60,7 @@ export const EMINENT_DOMAIN_CONDEMNATION_NY = {
       qualifier: "Low-income property owners in Monroe County",
       access: "Phone intake",
       outcome: "Legal advice and referrals",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

@@ -1,0 +1,53 @@
+{
+  "callId": "9f143b00-837b-9a58-fa3a-f71531026619",
+  "digits": "5854285425",
+  "dialedNumber": "(585) 428-5425",
+  "catalogedName": "grand-jury-process-ny",
+  "sourceId": "legal-entry:grand-jury-process-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny"
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny"
+    },
+    {
+      "type": "entry",
+      "id": "plea-withdrawal-cpl-220-60-ny"
+    },
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny"
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny"
+    },
+    {
+      "type": "entry",
+      "id": "youthful-offender-adjudication-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:45:23.678Z",
+  "durationSec": 21,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.119Z"
+  }
+}

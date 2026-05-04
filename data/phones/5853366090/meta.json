@@ -1,0 +1,50 @@
+{
+  "digits": "5853366090",
+  "kind": "phone",
+  "primaryName": "entry-callout:moving-truck-street-permit-ny",
+  "rawValue": "(585) 336-6090",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "moving-truck-street-permit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.304Z",
+  "lastSeededAt": "2026-05-03T19:44:16.304Z"
+}

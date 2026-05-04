@@ -1,0 +1,72 @@
+{
+  "digits": "8005325274",
+  "kind": "phone",
+  "primaryName": "entry-callout:leaving-hospital-against-medical-advice-ny",
+  "rawValue": "(800) 532-5274",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-10-10-835Z_c7dd5587-06b4-e2fd-9cfb-33917431702f",
+    "meta": {
+      "callId": "c7dd5587-06b4-e2fd-9cfb-33917431702f",
+      "digits": "8005325274",
+      "dialedNumber": "(800) 532-5274",
+      "catalogedName": "leaving-hospital-against-medical-advice-ny",
+      "sourceId": "legal-entry:leaving-hospital-against-medical-advice-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "leaving-hospital-against-medical-advice-ny"
+        },
+        {
+          "type": "entry",
+          "id": "prior-authorization-step-therapy-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:10:10.835Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.808Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Patient Advocate Foundation",
+      "reason": "transcript-stated name (Patient Advocate Foundation) differs from catalogued (leaving-hospital-against-medical-advice-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.400Z",
+  "lastSeededAt": "2026-05-03T19:44:16.400Z"
+}

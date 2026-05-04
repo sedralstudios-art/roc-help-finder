@@ -1,0 +1,29 @@
+{
+  "callId": "90e2aa89-8593-eb3d-85a8-23e2edb4af5b",
+  "digits": "5854282600",
+  "dialedNumber": "(585) 428-2600",
+  "catalogedName": "pet-store-retail-sale-ban-ny",
+  "sourceId": "legal-entry:pet-store-retail-sale-ban-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pet-store-retail-sale-ban-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:34:03.082Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.015Z"
+  }
+}

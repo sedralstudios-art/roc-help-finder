@@ -1,0 +1,61 @@
+{
+  "digits": "5854287030",
+  "kind": "phone",
+  "primaryName": "entry-callout:property-tax-installment-plan-ny",
+  "rawValue": "(585) 428-7030",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "property-tax-installment-plan-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-37-39-337Z_ac4b6456-5242-20fa-0ef3-d00312fd87bb",
+    "meta": {
+      "callId": "ac4b6456-5242-20fa-0ef3-d00312fd87bb",
+      "digits": "5854287030",
+      "dialedNumber": "(585) 428-7030",
+      "catalogedName": "property-tax-installment-plan-ny",
+      "sourceId": "legal-entry:property-tax-installment-plan-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "property-tax-installment-plan-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:37:39.337Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.040Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.553Z",
+  "lastSeededAt": "2026-05-03T19:44:16.553Z"
+}

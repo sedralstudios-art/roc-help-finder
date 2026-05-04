@@ -1,0 +1,61 @@
+{
+  "digits": "5857534192",
+  "kind": "phone",
+  "primaryName": "entry-callout:small-claims-procedure-ny",
+  "rawValue": "(585) 753-4192",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "small-claims-procedure-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-45-50-271Z_672550bf-e736-9ff9-75d9-49f5cd1299ed",
+    "meta": {
+      "callId": "672550bf-e736-9ff9-75d9-49f5cd1299ed",
+      "digits": "5857534192",
+      "dialedNumber": "(585) 753-4192",
+      "catalogedName": "small-claims-procedure-ny",
+      "sourceId": "legal-entry:small-claims-procedure-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "small-claims-procedure-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:45:50.271Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.096Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.568Z",
+  "lastSeededAt": "2026-05-03T19:44:16.568Z"
+}

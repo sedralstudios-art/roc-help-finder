@@ -1,0 +1,24 @@
+{
+  "callId": "b9d00dd6-d145-bafb-7ac9-3d4fe4eee17e",
+  "digits": "5852794900",
+  "dialedNumber": "(585) 279-4900",
+  "catalogedName": "Strong Ties Community Support Clinic",
+  "sourceId": "strongties",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:55:54.385Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.603Z"
+  }
+}

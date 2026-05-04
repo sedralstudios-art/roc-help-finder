@@ -1,0 +1,61 @@
+{
+  "digits": "5854286717",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-towed-repossessed-ny",
+  "rawValue": "(585) 428-6717",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-towed-repossessed-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-56-03-161Z_4bca1cfb-85f8-ac42-6972-ab9e4aebe423",
+    "meta": {
+      "callId": "4bca1cfb-85f8-ac42-6972-ab9e4aebe423",
+      "digits": "5854286717",
+      "dialedNumber": "(585) 428-6717",
+      "catalogedName": "car-towed-repossessed-ny",
+      "sourceId": "legal-entry:car-towed-repossessed-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-towed-repossessed-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:56:03.161Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.727Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.477Z",
+  "lastSeededAt": "2026-05-03T19:44:16.477Z"
+}

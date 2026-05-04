@@ -1,0 +1,33 @@
+{
+  "callId": "6b6eb955-1463-047a-d27c-a6a5cccd97cb",
+  "digits": "8886265151",
+  "dialedNumber": "(888) 626-5151",
+  "catalogedName": "adult-cannabis-personal-use-ny",
+  "sourceId": "legal-entry:adult-cannabis-personal-use-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-cannabis-personal-use-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medical-cannabis-program-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:30:32.377Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.559Z"
+  }
+}

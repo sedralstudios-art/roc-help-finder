@@ -1,0 +1,69 @@
+{
+  "digits": "5855468280",
+  "kind": "phone",
+  "primaryName": "Compeer Rochester",
+  "rawValue": "585-546-8280",
+  "blockDial": false,
+  "tags": [
+    "cat:mental",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "compeer",
+      "name": "Compeer Rochester",
+      "category": "mental",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-11-12-517Z_87834078-c18d-9929-1181-2d24acbe96b2",
+    "meta": {
+      "callId": "87834078-c18d-9929-1181-2d24acbe96b2",
+      "digits": "5855468280",
+      "dialedNumber": "5855468280",
+      "catalogedName": "Compeer Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:11:12.517Z",
+      "durationSec": 25,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.494Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Compere Rochester",
+      "reason": "transcript-stated name (Compere Rochester) differs from catalogued (Compeer Rochester)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.414Z",
+  "lastSeededAt": "2026-05-03T19:44:16.414Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:04:13.533Z",
+      "sourceUrl": "https://www.compeerrochester.org/contact",
+      "sourceLabel": "Compeer Rochester contact page",
+      "notes": "Web confirms (585) 546-8280 for Compeer Rochester. May tree captured \"Thank you for calling Compere Rochester\" (Whisper transcription of Compeer) — direct match."
+    }
+  ]
+}

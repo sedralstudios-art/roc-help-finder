@@ -1,0 +1,56 @@
+{
+  "digits": "3154434582",
+  "kind": "phone",
+  "primaryName": "entry-callout:bankruptcy-chapter7-ny",
+  "rawValue": "(315) 443-4582",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bankruptcy-chapter7-ny",
+      "line": 99
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-10-53-775Z_a2e4e396-edf4-c4ba-7f7f-bcc5b5072a6b",
+    "meta": {
+      "callId": "a2e4e396-edf4-c4ba-7f7f-bcc5b5072a6b",
+      "digits": "3154434582",
+      "dialedNumber": "3154434582",
+      "catalogedName": "entry-callout:bankruptcy-chapter7-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:10:53.775Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.098Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.470Z",
+  "lastSeededAt": "2026-05-03T19:44:16.470Z"
+}

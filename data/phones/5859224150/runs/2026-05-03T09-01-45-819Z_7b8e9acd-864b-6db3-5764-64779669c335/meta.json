@@ -1,0 +1,33 @@
+{
+  "callId": "7b8e9acd-864b-6db3-5764-64779669c335",
+  "digits": "5859224150",
+  "dialedNumber": "(585) 922-4150",
+  "catalogedName": "hospital-financial-assistance-charity-care-ny",
+  "sourceId": "legal-entry:hospital-financial-assistance-charity-care-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-financial-assistance-charity-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "molst-medical-orders-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:01:45.819Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.756Z"
+  }
+}

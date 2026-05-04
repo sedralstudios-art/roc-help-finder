@@ -1,0 +1,61 @@
+{
+  "digits": "3154831929",
+  "kind": "phone",
+  "primaryName": "entry-callout:wic-program-ny-program",
+  "rawValue": "(315) 483-1929",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wic-program-ny-program",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-54-59-474Z_b53c46d8-e8b2-92f6-fda9-b4d447e08a61",
+    "meta": {
+      "callId": "b53c46d8-e8b2-92f6-fda9-b4d447e08a61",
+      "digits": "3154831929",
+      "dialedNumber": "(315) 483-1929",
+      "catalogedName": "wic-program-ny-program",
+      "sourceId": "legal-entry:wic-program-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "wic-program-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:54:59.474Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.159Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.584Z",
+  "lastSeededAt": "2026-05-03T19:44:16.584Z"
+}

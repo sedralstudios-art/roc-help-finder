@@ -1,0 +1,24 @@
+{
+  "callId": "2121c116-8472-6bc4-7b06-9435d4ba701c",
+  "digits": "5854201400",
+  "dialedNumber": "(585) 420-1400",
+  "catalogedName": "MOCHA Center",
+  "sourceId": "mocha",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:10:41.778Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.691Z"
+  }
+}

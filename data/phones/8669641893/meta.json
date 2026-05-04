@@ -1,0 +1,90 @@
+{
+  "digits": "8669641893",
+  "kind": "phone",
+  "primaryName": "entry-callout:lost-stolen-wallet-what-to-do-ny-program",
+  "rawValue": "(866) 964-1893",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "representative-payee-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-continuing-disability-review-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "ssi-redetermination-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-22-06-881Z_6931b16d-5da7-3e5d-3441-44d546e756d0",
+    "meta": {
+      "callId": "6931b16d-5da7-3e5d-3441-44d546e756d0",
+      "digits": "8669641893",
+      "dialedNumber": "(866) 964-1893",
+      "catalogedName": "lost-stolen-wallet-what-to-do-ny-program",
+      "sourceId": "legal-entry:lost-stolen-wallet-what-to-do-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lost-stolen-wallet-what-to-do-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "representative-payee-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ssdi-continuing-disability-review-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ssi-redetermination-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:22:06.881Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.278Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "America's Hottest Talk Line",
+      "reason": "transcript-stated name (America's Hottest Talk Line) differs from catalogued (lost-stolen-wallet-what-to-do-ny-program)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.329Z",
+  "lastSeededAt": "2026-05-03T19:44:16.329Z"
+}

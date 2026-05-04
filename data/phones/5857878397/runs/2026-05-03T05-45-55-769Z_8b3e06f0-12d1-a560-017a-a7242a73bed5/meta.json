@@ -1,0 +1,29 @@
+{
+  "callId": "8b3e06f0-12d1-a560-017a-a7242a73bed5",
+  "digits": "5857878397",
+  "dialedNumber": "585-787-8397",
+  "catalogedName": "Meals on Wheels",
+  "sourceId": "mow",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mow"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:45:55.769Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.659Z"
+  }
+}

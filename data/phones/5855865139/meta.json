@@ -1,0 +1,59 @@
+{
+  "digits": "5855865139",
+  "kind": "phone",
+  "primaryName": "Penfield Hope Food Pantry",
+  "rawValue": "585-586-5139",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldhope",
+      "name": "Penfield Hope Food Pantry",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-18-07-558Z_abeefd7e-9fe5-65a8-e4ef-f1f559483424",
+    "meta": {
+      "callId": "abeefd7e-9fe5-65a8-e4ef-f1f559483424",
+      "digits": "5855865139",
+      "dialedNumber": "5855865139",
+      "catalogedName": "Penfield Hope Food Pantry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:18:07.558Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.508Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.452Z",
+  "lastSeededAt": "2026-05-03T19:44:16.452Z"
+}

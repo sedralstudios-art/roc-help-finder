@@ -1,0 +1,24 @@
+{
+  "callId": "3b433d04-bffb-da38-4c1f-b0633d37f902",
+  "digits": "5853346000",
+  "dialedNumber": "(585) 334-6000",
+  "catalogedName": "CP Rochester",
+  "sourceId": "cproch",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:40:52.662Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.656Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5854282046",
+  "kind": "phone",
+  "primaryName": "entry-callout:school-bus-stop-arm-violation-ny",
+  "rawValue": "(585) 428-2046",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-bus-stop-arm-violation-ny",
+      "line": 61
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-42-30-541Z_ab5e7ed1-a324-96fb-5d76-185556c84b4f",
+    "meta": {
+      "callId": "ab5e7ed1-a324-96fb-5d76-185556c84b4f",
+      "digits": "5854282046",
+      "dialedNumber": "(585) 428-2046",
+      "catalogedName": "school-bus-stop-arm-violation-ny",
+      "sourceId": "legal-entry:school-bus-stop-arm-violation-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "school-bus-stop-arm-violation-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:42:30.541Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.073Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.562Z",
+  "lastSeededAt": "2026-05-03T19:44:16.562Z"
+}

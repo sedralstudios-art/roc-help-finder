@@ -60,7 +60,7 @@ export const HOTEL_GUEST_RIGHTS_NY = {
       qualifier: "Any NYS resident or visitor",
       access: "Phone at (800) 771-7755",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau/file-complaint",
       verified: true,
       bilingual: true,

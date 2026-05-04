@@ -1,0 +1,69 @@
+{
+  "digits": "5853929461",
+  "kind": "phone",
+  "primaryName": "Parma Town Hall",
+  "rawValue": "585-392-9461",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "parmahall",
+      "name": "Parma Town Hall",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-16-36-075Z_8d05c957-9cb2-d6f2-5ab4-afe41aff861b",
+    "meta": {
+      "callId": "8d05c957-9cb2-d6f2-5ab4-afe41aff861b",
+      "digits": "5853929461",
+      "dialedNumber": "5853929461",
+      "catalogedName": "Parma Town Hall",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:16:36.075Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.375Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Town of Parma",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.461Z",
+  "lastSeededAt": "2026-05-03T19:44:16.461Z",
+  "verifiedAt": "2026-05-03T20:21:01.732Z",
+  "verifiedRun": "2026-05-02T07-16-36-075Z_8d05c957-9cb2-d6f2-5ab4-afe41aff861b",
+  "verifiedTranscriptOpening": "Thank you for calling the Town of Parma. Please listen carefully as our menu options have changed. If you know your party's extension number, you may dial it at any time. For the Town Clerk or Receive",
+  "verifiedMatchTokens": [
+    "parma",
+    "town"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

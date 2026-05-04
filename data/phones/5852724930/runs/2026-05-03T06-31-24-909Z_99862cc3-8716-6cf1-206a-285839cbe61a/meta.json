@@ -1,0 +1,29 @@
+{
+  "callId": "99862cc3-8716-6cf1-206a-285839cbe61a",
+  "digits": "5852724930",
+  "dialedNumber": "(585) 272-4930",
+  "catalogedName": "organ-donation-rights-ny",
+  "sourceId": "legal-entry:organ-donation-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "organ-donation-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:31:24.909Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.996Z"
+  }
+}

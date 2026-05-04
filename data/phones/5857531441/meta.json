@@ -1,0 +1,151 @@
+{
+  "digits": "5857531441",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-support-enforcement-ny",
+  "rawValue": "(585) 753-1441",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-support-enforcement-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "child-support-modification-income-change-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "child-support-modification-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "child-support-new-hire-reporting-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "child-support-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "driving-suspended-license-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "family-court-what-to-expect-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "passport-denial-child-support-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "tax-refund-garnishment-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "unmarried-parents-rights-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-21-07-393Z_37465295-20bc-7524-4843-b1df7bdce814",
+    "meta": {
+      "callId": "37465295-20bc-7524-4843-b1df7bdce814",
+      "digits": "5857531441",
+      "dialedNumber": "(585) 753-1441",
+      "catalogedName": "child-support-enforcement-ny",
+      "sourceId": "legal-entry:child-support-enforcement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-support-enforcement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-support-modification-income-change-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-support-modification-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-support-new-hire-reporting-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-support-ny"
+        },
+        {
+          "type": "entry",
+          "id": "driving-suspended-license-ny"
+        },
+        {
+          "type": "entry",
+          "id": "family-court-what-to-expect-ny"
+        },
+        {
+          "type": "entry",
+          "id": "license-suspension-ny"
+        },
+        {
+          "type": "entry",
+          "id": "passport-denial-child-support-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tax-refund-garnishment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "unmarried-parents-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:21:07.393Z",
+      "durationSec": 14,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.004Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.283Z",
+  "lastSeededAt": "2026-05-03T19:44:16.283Z"
+}

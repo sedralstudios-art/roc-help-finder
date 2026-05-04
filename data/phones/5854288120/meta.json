@@ -1,0 +1,61 @@
+{
+  "digits": "5854288120",
+  "kind": "phone",
+  "primaryName": "entry-callout:free-internet-computer-access-ny-program",
+  "rawValue": "(585) 428-8120",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "free-internet-computer-access-ny-program",
+      "line": 39
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-10-20-112Z_e786cc59-a10a-8194-3e95-aca36b460e6b",
+    "meta": {
+      "callId": "e786cc59-a10a-8194-3e95-aca36b460e6b",
+      "digits": "5854288120",
+      "dialedNumber": "(585) 428-8120",
+      "catalogedName": "free-internet-computer-access-ny-program",
+      "sourceId": "legal-entry:free-internet-computer-access-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "free-internet-computer-access-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:10:20.112Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.834Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.502Z",
+  "lastSeededAt": "2026-05-03T19:44:16.502Z"
+}

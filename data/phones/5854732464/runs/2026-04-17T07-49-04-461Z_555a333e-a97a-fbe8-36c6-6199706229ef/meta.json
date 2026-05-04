@@ -1,0 +1,24 @@
+{
+  "callId": "555a333e-a97a-fbe8-36c6-6199706229ef",
+  "digits": "5854732464",
+  "dialedNumber": "(585) 473-2464",
+  "catalogedName": "Learn2Earn (Center for Youth)",
+  "sourceId": "l2e",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:49:04.461Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.866Z"
+  }
+}

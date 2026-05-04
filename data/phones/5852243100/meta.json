@@ -1,0 +1,70 @@
+{
+  "digits": "5852243100",
+  "kind": "phone",
+  "primaryName": "entry-callout:health-insurance-application-walkthrough-ny",
+  "rawValue": "(585) 224-3100",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "health-insurance-application-walkthrough-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-55-36-141Z_92063c93-e105-ba13-a7e2-e99d89c57821",
+    "meta": {
+      "callId": "92063c93-e105-ba13-a7e2-e99d89c57821",
+      "digits": "5852243100",
+      "dialedNumber": "(585) 224-3100",
+      "catalogedName": "health-insurance-application-walkthrough-ny",
+      "sourceId": "legal-entry:health-insurance-application-walkthrough-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "health-insurance-application-walkthrough-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-state-of-health-marketplace-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:55:36.141Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.726Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.394Z",
+  "lastSeededAt": "2026-05-03T19:44:16.394Z"
+}

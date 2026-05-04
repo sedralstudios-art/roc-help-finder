@@ -1,0 +1,49 @@
+{
+  "callId": "323d906d-c742-ca1d-3bac-ef1c1feab533",
+  "digits": "8002478035",
+  "dialedNumber": "(800) 247-8035",
+  "catalogedName": "crime-victim-compensation-ny",
+  "sourceId": "legal-entry:crime-victim-compensation-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "crime-victim-compensation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "human-trafficking-victim-relief-ny"
+    },
+    {
+      "type": "entry",
+      "id": "negligent-security-landlord-crime-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "restitution-criminal-case-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sentencing-options-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sexual-assault-survivors-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:00:46.799Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.194Z"
+  }
+}

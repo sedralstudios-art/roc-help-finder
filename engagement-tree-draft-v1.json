@@ -1,0 +1,1045 @@
+{
+  "_meta": {
+    "purpose": "Discovery-mode engagement questionnaire — first taxonomy draft for review BEFORE any UI work. See project_engagement_questionnaire_2026_05_02.md for full design rationale.",
+    "version": "draft-v1",
+    "created": "2026-05-02",
+    "status": "draft for review — not wired into the app",
+    "shape": "Flat node lookup table; rootId points to entry node; question nodes have options that point to next nodes; leaf nodes hold suggestions.",
+    "constraints": "≤10 questions in any path. Each leaf has 3-15 items. Suggestions are existing program ids (programs.js) or entry ids (legal/entries/*.js). Discovery framing only — never assert eligibility, always 'might qualify, call to confirm'.",
+    "rules": [
+      "Sensitive signals (DV, immigration, suicide) route through SENSITIVE-set gating with content warnings — never auto-suggest by surprise.",
+      "Each suggestion carries a brief 'why' string explaining the link to the user's answers.",
+      "Adaptive: a 'no kids' answer in a parent branch should skip child-related sub-branches rather than ask irrelevant questions."
+    ],
+    "productBar": "Per Anthony 2026-05-02: this is the true product. Every linked entry/program must be attorney- or professional-verified before the questionnaire ships under HelpFinder's banner. Current state: most items carry factCheckedBy (web-search) or verified (program), NOT attorney review. Anchors are the only attorney-tier review path; 6 anchors live as of 2026-05-02 and even those are provisional pending sign-off.",
+    "reviewPolicy": "Two-track ship threshold (decided 2026-05-02 afternoon): entries ship at anchor or attorney-reviewed; programs ship at verified-program (fc stamp from web-search drain). Programs surface factual contact info — not legal-interpretation — so professional verification is the right bar; conflating program metadata with attorney review dilutes both terms."
+  },
+  "rootId": "start",
+  "nodes": {
+    "start": {
+      "type": "question",
+      "text": "What's the biggest thing on your mind right now?",
+      "subtext": "Pick the one that fits best — you can come back and try other paths.",
+      "options": [
+        {
+          "label": "Money is tight or bills are piling up",
+          "next": "money-which"
+        },
+        {
+          "label": "Health, doctor, or medication problem",
+          "next": "health-which"
+        },
+        {
+          "label": "Something at work or losing my job",
+          "next": "work-which"
+        },
+        {
+          "label": "Where I live — eviction, repairs, no place to go",
+          "next": "housing-which"
+        },
+        {
+          "label": "Family — kids, breakup, caregiving, baby on the way",
+          "next": "family-which"
+        },
+        {
+          "label": "Something about my situation — record, immigration, age, disability",
+          "next": "status-which"
+        },
+        {
+          "label": "Something else / not sure",
+          "next": "leaf-not-sure"
+        }
+      ]
+    },
+    "money-which": {
+      "type": "question",
+      "text": "Which of these is the biggest pain right now?",
+      "options": [
+        {
+          "label": "Can't pay rent or behind on rent",
+          "next": "leaf-money-rent"
+        },
+        {
+          "label": "Not enough food in the house",
+          "next": "leaf-money-food"
+        },
+        {
+          "label": "Behind on heat / electric / gas",
+          "next": "leaf-money-utilities"
+        },
+        {
+          "label": "Drowning in debt or credit-card calls",
+          "next": "leaf-money-debt"
+        },
+        {
+          "label": "Need cash now and don't know where to start",
+          "next": "leaf-money-cash"
+        }
+      ]
+    },
+    "leaf-money-rent": {
+      "type": "leaf",
+      "summary": "Behind on rent has more options than most people realize. Here's a starting list — none of these require a lawyer.",
+      "items": [
+        {
+          "id": "ta",
+          "type": "program",
+          "why": "Emergency rent / one-shot deal at Monroe County DSS — apply in person at 691 St Paul",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "communityplace",
+          "type": "program",
+          "why": "Rent assistance + case management; specific zips",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "eviction-process-ny",
+          "type": "entry",
+          "why": "What the landlord has to do BEFORE eviction — buys time and may surface defenses",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "tenant-habitability-ny",
+          "type": "entry",
+          "why": "Rent-withholding may be available if the unit has serious problems the landlord won't fix",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "211",
+          "type": "program",
+          "why": "Call 211 — they coordinate emergency rental assistance and can route to current programs",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "behind on rent ny",
+        "rent assistance rochester",
+        "emergency rental assistance ny",
+        "can't pay rent help",
+        "one shot deal monroe county"
+      ]
+    },
+    "leaf-money-food": {
+      "type": "leaf",
+      "summary": "Several things stack on top of each other — most don't require an income check.",
+      "items": [
+        {
+          "id": "snap",
+          "type": "program",
+          "why": "Monthly food benefit on an EBT card",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "snap-rights-ny",
+          "type": "entry",
+          "why": "What rights SNAP recipients have — recertification, fair hearings, post-conviction eligibility",
+          "reviewStatus": "websearch-verified"
+        },
+        {
+          "id": "foodlink",
+          "type": "program",
+          "why": "Free pantry — no paperwork, no income check at most locations",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "wic",
+          "type": "program",
+          "why": "If pregnant, postpartum, or kids under 5 — extra free food + nutrition counseling",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "meals",
+          "type": "program",
+          "why": "If RCSD student — free breakfast and lunch automatically",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "market",
+          "type": "program",
+          "why": "Rochester Public Market — Double Up matches SNAP $1-for-$1 on produce",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "mow",
+          "type": "program",
+          "why": "Meals on Wheels if 60+ or homebound",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "snap eligibility ny",
+        "food assistance ny",
+        "food pantry rochester",
+        "wic eligibility ny",
+        "free food near me",
+        "ebt apply ny",
+        "snap requirements ny"
+      ]
+    },
+    "leaf-money-utilities": {
+      "type": "leaf",
+      "summary": "Utility shutoff has a specific path — and there's a separate program for the equipment itself.",
+      "items": [
+        {
+          "id": "heap",
+          "type": "program",
+          "why": "Help with heating bills; emergency HEAP if heat is shut off",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "herr",
+          "type": "program",
+          "why": "If 60+ and own the home — pays up to $4-8K to repair or replace the furnace",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "rge",
+          "type": "program",
+          "why": "RG&E payment plans — call BEFORE shutoff",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "empower",
+          "type": "program",
+          "why": "Free home insulation, air sealing, heat pumps — lowers future bills",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "heap ny apply",
+        "emergency heap ny",
+        "can't pay heat bill",
+        "rge payment plan",
+        "heap eligibility ny",
+        "furnace replacement help ny"
+      ]
+    },
+    "leaf-money-debt": {
+      "type": "leaf",
+      "summary": "Free help here — be wary of for-profit 'debt relief' companies.",
+      "items": [
+        {
+          "id": "fec",
+          "type": "program",
+          "why": "Rochester Financial Empowerment Center — free 1-on-1 debt counseling",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "bankruptcyhelp",
+          "type": "program",
+          "why": "JustCause monthly bankruptcy clinic — find out if Chapter 7 or 13 fits",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "rmapi",
+          "type": "program",
+          "why": "Free coaching and financial counseling",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "debt help free ny",
+        "credit counseling rochester",
+        "bankruptcy help free rochester",
+        "drowning in debt help",
+        "financial empowerment center"
+      ]
+    },
+    "leaf-money-cash": {
+      "type": "leaf",
+      "summary": "There's no single 'just give me money' program, but a few benefits add up. The state's myBenefits portal is the one application that covers most.",
+      "items": [
+        {
+          "id": "myb",
+          "type": "program",
+          "why": "One application — SNAP + Medicaid + cash assistance + HEAP + childcare in one",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "ta",
+          "type": "program",
+          "why": "Temporary Assistance — monthly cash for rent, utilities, basics",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "eitc",
+          "type": "program",
+          "why": "Earned Income Tax Credit — refundable, you may have unclaimed past years",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "vita",
+          "type": "program",
+          "why": "CASH/VITA does free tax prep — can help recover past EITC",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "benefits-verification-letter-ny-program",
+          "type": "entry",
+          "why": "How to prove SNAP/Medicaid/cash receipt to landlord, employer, court — uniform letter from each agency",
+          "reviewStatus": "unverified"
+        }
+      ],
+      "targetQueries": [
+        "what benefits do i qualify for",
+        "what assistance is available ny",
+        "mybenefits ny gov",
+        "cash assistance ny",
+        "one application ny benefits",
+        "temporary assistance ny"
+      ]
+    },
+    "health-which": {
+      "type": "question",
+      "text": "What's the most pressing health issue?",
+      "options": [
+        {
+          "label": "No insurance / lost insurance",
+          "next": "leaf-health-insurance"
+        },
+        {
+          "label": "Can't afford prescriptions",
+          "next": "leaf-health-rx"
+        },
+        {
+          "label": "Mental health crisis or addiction",
+          "next": "leaf-health-crisis"
+        },
+        {
+          "label": "Need a doctor / dentist and can't pay",
+          "next": "leaf-health-clinic"
+        }
+      ]
+    },
+    "leaf-health-insurance": {
+      "type": "leaf",
+      "summary": "Most NY adults under 65 apply through NY State of Health. Different doors for different situations.",
+      "items": [
+        {
+          "id": "medicaid",
+          "type": "program",
+          "why": "Free or very low cost — covers doctors, hospital, dental, mental health, prescriptions",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "chip",
+          "type": "program",
+          "why": "If kids under 19 — free or low-cost coverage with a per-income premium",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "myb",
+          "type": "program",
+          "why": "One application covers Medicaid + cash + SNAP + HEAP",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "medicaid eligibility ny",
+        "free health insurance ny",
+        "no insurance what to do ny",
+        "ny state of health enroll",
+        "child health plus ny",
+        "medicaid apply ny"
+      ]
+    },
+    "leaf-health-rx": {
+      "type": "leaf",
+      "summary": "Three things stack here — and the state has a senior-specific program most people miss.",
+      "items": [
+        {
+          "id": "nyrxcard",
+          "type": "program",
+          "why": "Free discount card — up to 80% off, no application, use at CVS or Wegmans",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "epic",
+          "type": "program",
+          "why": "EPIC — NY's prescription program for seniors 65+ on Medicare",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "trill",
+          "type": "program",
+          "why": "Trillium pharmacy — sliding scale, no insurance required",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "free prescription discount ny",
+        "epic ny seniors",
+        "can't afford medication",
+        "ny rx card",
+        "prescription help ny",
+        "medicare part d help ny"
+      ]
+    },
+    "leaf-health-crisis": {
+      "type": "leaf",
+      "summary": "If in immediate danger to self or others, call 988 right now or go to a Strong walk-in. Otherwise these are the next-best paths.",
+      "warning": "If suicide or immediate self-harm: call or text 988 — free, 24/7. Spanish text: AYUDA to 988.",
+      "items": [
+        {
+          "id": "988crisis",
+          "type": "program",
+          "why": "Suicide and crisis lifeline — 24/7, includes addiction crisis",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "strongcrisis",
+          "type": "program",
+          "why": "Strong Memorial Psych Emergency — walk-in 24/7, no appointment",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "bhacccrisis",
+          "type": "program",
+          "why": "BHACC — walk-in crisis center, no appointment, daily 9am-9pm",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "trill",
+          "type": "program",
+          "why": "Trillium Health behavioral health — sliding scale",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "988 lifeline",
+        "mental health crisis rochester",
+        "suicide hotline ny",
+        "psych emergency rochester",
+        "behavioral health crisis center rochester"
+      ]
+    },
+    "leaf-health-clinic": {
+      "type": "leaf",
+      "summary": "Sliding-scale clinics see anyone who walks in — Jordan and Trillium take everyone insured or not.",
+      "items": [
+        {
+          "id": "jordan",
+          "type": "program",
+          "why": "Jordan Health Center — primary care, dental, mental health, walk-ins welcome",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "trill",
+          "type": "program",
+          "why": "Trillium Health — primary care, sliding scale, LGBTQ+ healthcare leader",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "eastmandental",
+          "type": "program",
+          "why": "Eastman Dental — sliding scale dental, walk-ins for emergencies",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "pp",
+          "type": "program",
+          "why": "Planned Parenthood — reproductive health + birth control + STI testing",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "free clinic rochester",
+        "sliding scale clinic rochester",
+        "no insurance doctor rochester",
+        "free dental rochester",
+        "jordan health center",
+        "trillium health rochester"
+      ]
+    },
+    "work-which": {
+      "type": "question",
+      "text": "Which one is closest?",
+      "options": [
+        {
+          "label": "Got fired or laid off",
+          "next": "leaf-work-fired"
+        },
+        {
+          "label": "Hurt at work",
+          "next": "leaf-work-injury"
+        },
+        {
+          "label": "Boss isn't paying me / wage theft",
+          "next": "leaf-work-wages"
+        },
+        {
+          "label": "Looking for work / training",
+          "next": "leaf-work-training"
+        }
+      ]
+    },
+    "leaf-work-fired": {
+      "type": "leaf",
+      "summary": "Some firings are unlawful even in an at-will state. Filing has hard deadlines.",
+      "items": [
+        {
+          "id": "wrongful-termination-ny",
+          "type": "entry",
+          "why": "When a firing is against the law — discrimination, retaliation, whistleblower",
+          "reviewStatus": "websearch-verified"
+        },
+        {
+          "id": "ta",
+          "type": "program",
+          "why": "Temporary Assistance to bridge until next paycheck",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "snap",
+          "type": "program",
+          "why": "Apply right away — SNAP processes faster after job loss",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "medicaid",
+          "type": "program",
+          "why": "Lost-job often qualifies for Medicaid even if it didn't before",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "wrongfully fired ny",
+        "fired for retaliation ny",
+        "wrongful termination new york",
+        "discrimination at work ny",
+        "at will employment ny",
+        "ny eeoc complaint"
+      ]
+    },
+    "leaf-work-injury": {
+      "type": "leaf",
+      "summary": "Workers' comp covers job injuries — including from desk-job repetitive strain. Don't miss the filing window.",
+      "items": [
+        {
+          "id": "workers-compensation-ny",
+          "type": "entry",
+          "why": "How NY workers' comp works — what's covered, deadlines, retaliation protection",
+          "reviewStatus": "websearch-verified"
+        },
+        {
+          "id": "lawny",
+          "type": "program",
+          "why": "LawNY — free legal help for low-income workers including comp denials",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "wjcny",
+          "type": "program",
+          "why": "Worker Justice Center — wage theft + retaliation + injury cases",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "workers comp ny",
+        "hurt at work ny",
+        "workers compensation claim ny",
+        "workers compensation rochester",
+        "wcb ny"
+      ]
+    },
+    "leaf-work-wages": {
+      "type": "leaf",
+      "summary": "Wage theft is illegal regardless of immigration status. NY has strong remedies.",
+      "items": [
+        {
+          "id": "wage-theft-ny",
+          "type": "entry",
+          "why": "What counts as wage theft + how to file with NY DOL",
+          "reviewStatus": "websearch-verified"
+        },
+        {
+          "id": "wjcny",
+          "type": "program",
+          "why": "Worker Justice Center of NY — wage theft, retaliation, harassment cases for low-wage workers; represents regardless of immigration status",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "lawny",
+          "type": "program",
+          "why": "LawNY — free representation in employment cases for low-income workers",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "wage theft ny",
+        "boss not paying me",
+        "minimum wage violation ny",
+        "report wage theft new york",
+        "ny labor law unpaid wages",
+        "final paycheck ny"
+      ]
+    },
+    "leaf-work-training": {
+      "type": "leaf",
+      "summary": "Multiple paths — RochesterWorks for adults, Learn2Earn for older teens.",
+      "items": [
+        {
+          "id": "l2e",
+          "type": "program",
+          "why": "Learn2Earn — paid internships and career exploration for older teens",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "fec",
+          "type": "program",
+          "why": "Rochester Financial Empowerment Center — free coaching including career and budget planning",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "job training rochester",
+        "free job training ny",
+        "rochesterworks",
+        "career training rochester",
+        "workforce development rochester"
+      ]
+    },
+    "housing-which": {
+      "type": "question",
+      "text": "Which is happening right now?",
+      "options": [
+        {
+          "label": "Got an eviction notice or court papers",
+          "next": "leaf-housing-eviction"
+        },
+        {
+          "label": "No place to sleep / homeless",
+          "next": "leaf-housing-homeless"
+        },
+        {
+          "label": "Apartment is unsafe — heat, mold, leaks, no lock",
+          "next": "leaf-housing-unsafe"
+        },
+        {
+          "label": "Landlord won't return my security deposit",
+          "next": "leaf-housing-deposit"
+        }
+      ]
+    },
+    "leaf-housing-eviction": {
+      "type": "leaf",
+      "summary": "Eviction has a process. Court papers do NOT mean you have to move that day.",
+      "items": [
+        {
+          "id": "eviction-process-ny",
+          "type": "entry",
+          "why": "What the landlord has to do BEFORE you can be removed — the timeline + cure window",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "ta",
+          "type": "program",
+          "why": "Emergency one-shot rent through Monroe DSS, in-person at 691 St Paul",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "vlsp",
+          "type": "program",
+          "why": "JustCause free legal clinics — online intake at legalhelprochester.com",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "lawny",
+          "type": "program",
+          "why": "LawNY — free housing legal help across 14 counties",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "eviction notice ny",
+        "stop eviction ny",
+        "rpapl 753",
+        "eviction process new york",
+        "rochester eviction help",
+        "court papers landlord ny"
+      ]
+    },
+    "leaf-housing-homeless": {
+      "type": "leaf",
+      "summary": "Walk-in shelter exists tonight. Daytime services (food + clothing + case management) stack on top.",
+      "items": [
+        {
+          "id": "housemercy",
+          "type": "program",
+          "why": "House of Mercy — emergency overnight shelter open 24/7, no ID required",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "communityplace",
+          "type": "program",
+          "why": "Community Place — case management + food + clothing + advocacy",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "ta",
+          "type": "program",
+          "why": "Temporary Assistance can fund placement into transitional housing",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "homeless shelter rochester",
+        "emergency shelter ny",
+        "where to sleep tonight rochester",
+        "house of mercy rochester",
+        "24 hour shelter rochester"
+      ]
+    },
+    "leaf-housing-unsafe": {
+      "type": "leaf",
+      "summary": "NY has the warranty of habitability — every NY landlord makes this promise automatically. Lease can't waive it.",
+      "items": [
+        {
+          "id": "tenant-habitability-ny",
+          "type": "entry",
+          "why": "What the warranty of habitability actually covers + tenant remedies",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "tenant-paint-lead-safe-ny",
+          "type": "entry",
+          "why": "Lead-paint hazards in pre-1978 rentals — RRP rules, landlord disclosure, what to do",
+          "reviewStatus": "websearch-verified"
+        },
+        {
+          "id": "vlsp",
+          "type": "program",
+          "why": "JustCause clinics — landlord-tenant cases",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "lawny",
+          "type": "program",
+          "why": "LawNY — direct representation in unsafe-conditions cases",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "landlord wont fix ny",
+        "unsafe apartment ny",
+        "warranty of habitability ny",
+        "no heat in apartment ny",
+        "rpp 235-b",
+        "code enforcement rochester"
+      ]
+    },
+    "leaf-housing-deposit": {
+      "type": "leaf",
+      "summary": "NY caps deposits at 1 month and gives a 14-day return deadline. Missing the deadline forfeits the right to keep ANY of it.",
+      "items": [
+        {
+          "id": "security-deposit-ny",
+          "type": "entry",
+          "why": "Anchor on GOL § 7-108 — 14-day rule, walk-throughs, what the landlord can and can't deduct",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "vlsp",
+          "type": "program",
+          "why": "JustCause Legal Clinics — free landlord-tenant clinic, online intake at legalhelprochester.com",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "lawny",
+          "type": "program",
+          "why": "LawNY — free housing legal help across 14 counties including security-deposit cases",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "security deposit ny",
+        "landlord not returning deposit ny",
+        "14 day rule security deposit",
+        "gob 7-108",
+        "one month rule security deposit ny"
+      ]
+    },
+    "family-which": {
+      "type": "question",
+      "text": "Which best fits your situation?",
+      "options": [
+        {
+          "label": "Pregnant or new baby",
+          "next": "leaf-family-baby"
+        },
+        {
+          "label": "Divorce, separation, custody",
+          "next": "leaf-family-split"
+        },
+        {
+          "label": "Caring for an older parent or disabled adult",
+          "next": "leaf-family-caregiving"
+        }
+      ]
+    },
+    "leaf-family-baby": {
+      "type": "leaf",
+      "summary": "Several stacking benefits — and NY's new Paid Prenatal Leave is unique.",
+      "items": [
+        {
+          "id": "wic",
+          "type": "program",
+          "why": "WIC — free healthy food + nutrition counseling for pregnancy + kids under 5",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "medicaid",
+          "type": "program",
+          "why": "Pregnancy Medicaid available even at higher incomes; kids under 1 covered automatically",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "chip",
+          "type": "program",
+          "why": "Child Health Plus — kids under 19, scales with income",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "ny paid family leave",
+        "wic ny apply",
+        "pregnancy benefits ny",
+        "paid prenatal leave ny",
+        "child health plus ny",
+        "new baby benefits ny"
+      ]
+    },
+    "leaf-family-split": {
+      "type": "leaf",
+      "summary": "Free family-law clinics exist — and child support intake is its own line at DSS.",
+      "items": [
+        {
+          "id": "child-support-ny",
+          "type": "entry",
+          "why": "How NY calculates child support + how to modify orders",
+          "reviewStatus": "stamped-only"
+        },
+        {
+          "id": "vlspfamily",
+          "type": "program",
+          "why": "JustCause Family Law Clinic — custody + orders of protection",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "child support ny",
+        "custody help free ny",
+        "family law clinic rochester",
+        "divorce help free ny",
+        "order of protection ny",
+        "justcause family law"
+      ],
+      "warning": "If the situation involves abuse or fear of harm — yours, your kids', or anyone in your house — call NY State DV Hotline 1-800-942-6906 (24/7, confidential, multilingual) or text 844-997-2121. The free family-law options below are for separation, custody, and child support; for safety planning, the hotline is the right first call."
+    },
+    "leaf-family-caregiving": {
+      "type": "leaf",
+      "summary": "EISEP is the in-home help program most people miss. Office for the Aging is the front door for seniors.",
+      "items": [
+        {
+          "id": "ofa",
+          "type": "program",
+          "why": "Office for the Aging — meals, transportation, Medicare help, caregiver support",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "eisep",
+          "type": "program",
+          "why": "Free in-home help for seniors 60+ NOT on Medicaid — personal care + housekeeping",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "mow",
+          "type": "program",
+          "why": "Meals on Wheels — hot meals delivered if 60+ or homebound",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "office for aging rochester",
+        "in home care for senior ny",
+        "caregiver support ny",
+        "eisep ny",
+        "meals on wheels rochester",
+        "monroe county aging"
+      ]
+    },
+    "status-which": {
+      "type": "question",
+      "text": "Which is closest?",
+      "options": [
+        {
+          "label": "I have a criminal record from years ago",
+          "next": "leaf-status-record"
+        },
+        {
+          "label": "Just turned 60 or older",
+          "next": "leaf-status-senior"
+        },
+        {
+          "label": "Have a disability",
+          "next": "leaf-status-disability"
+        },
+        {
+          "label": "Recently released from incarceration",
+          "next": "leaf-status-reentry"
+        }
+      ]
+    },
+    "leaf-status-record": {
+      "type": "leaf",
+      "summary": "NY's Clean Slate Act now seals most older convictions automatically — most people don't realize they qualify.",
+      "items": [
+        {
+          "id": "clean-slate-ny",
+          "type": "entry",
+          "why": "Anchor — automatic sealing of older convictions; nothing to file",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "wjcny",
+          "type": "program",
+          "why": "Worker Justice Center — represents people with records facing employment discrimination",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "snap-rights-ny",
+          "type": "entry",
+          "why": "SNAP eligibility after a conviction — most felony bars eliminated under recent NY changes",
+          "reviewStatus": "websearch-verified"
+        },
+        {
+          "id": "211",
+          "type": "program",
+          "why": "Call 211 — connects to current reentry programs in Monroe County",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "clean slate act ny",
+        "automatic sealing ny",
+        "seal criminal record ny",
+        "what is clean slate",
+        "cpl 160.57"
+      ]
+    },
+    "leaf-status-senior": {
+      "type": "leaf",
+      "summary": "Office for the Aging is the front door. EPIC for prescriptions is uniquely NY.",
+      "items": [
+        {
+          "id": "ofa",
+          "type": "program",
+          "why": "Office for the Aging — meals + transport + Medicare help + caregiver support",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "epic",
+          "type": "program",
+          "why": "NY's prescription program for seniors on Medicare",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "mow",
+          "type": "program",
+          "why": "Meals on Wheels if homebound",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "lunchclub",
+          "type": "program",
+          "why": "Free sit-down lunch at 20 senior centers across Monroe",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "senior services rochester",
+        "office for the aging monroe",
+        "epic prescription ny seniors",
+        "meals on wheels rochester",
+        "monroe county lunch club"
+      ]
+    },
+    "leaf-status-disability": {
+      "type": "leaf",
+      "summary": "ABLE accounts let people with disabilities save without losing SSI / Medicaid. Most people don't know about them.",
+      "items": [
+        {
+          "id": "able-account-disability-savings-ny",
+          "type": "entry",
+          "why": "How NY ABLE accounts work — tax-advantaged savings without losing SSI/Medicaid",
+          "reviewStatus": "stamped-only"
+        },
+        {
+          "id": "cdrny",
+          "type": "program",
+          "why": "Center for Disability Rights — advocacy, ABLE account help, benefits planning; run by people with disabilities",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "able account ny",
+        "disability benefits ny",
+        "ssi savings ny",
+        "center for disability rights rochester",
+        "disability advocacy ny"
+      ]
+    },
+    "leaf-status-reentry": {
+      "type": "leaf",
+      "summary": "Reentry has multiple stacking supports. SNAP and Medicaid often re-activate post-release.",
+      "items": [
+        {
+          "id": "clean-slate-ny",
+          "type": "entry",
+          "why": "Most older convictions seal automatically under Clean Slate Act",
+          "reviewStatus": "anchor"
+        },
+        {
+          "id": "snap",
+          "type": "program",
+          "why": "SNAP after conviction — most felony bars eliminated under recent NY changes",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "reentry programs rochester",
+        "after prison help ny",
+        "snap after conviction ny",
+        "clean slate ny",
+        "criminal record sealing ny"
+      ]
+    },
+    "leaf-not-sure": {
+      "type": "leaf",
+      "summary": "When the situation is hard to name, two paths cover the most ground: 211 connects to anything, and HelpFinder's main questionnaire walks through specifics.",
+      "items": [
+        {
+          "id": "211",
+          "type": "program",
+          "why": "Call 211 (or 1-877-356-9211) — staffed routing for any situation, 24/7",
+          "reviewStatus": "verified-program"
+        },
+        {
+          "id": "myb",
+          "type": "program",
+          "why": "myBenefits.ny.gov — one application covers SNAP + Medicaid + HEAP + cash + childcare",
+          "reviewStatus": "verified-program"
+        }
+      ],
+      "targetQueries": [
+        "what help is available ny",
+        "do i qualify for help ny",
+        "ny benefits eligibility",
+        "211 ny",
+        "mybenefits ny gov",
+        "find help rochester"
+      ]
+    }
+  }
+}

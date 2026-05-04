@@ -1,0 +1,37 @@
+{
+  "callId": "072aca75-feab-59f9-be73-6522aa97d172",
+  "digits": "8446973505",
+  "dialedNumber": "(844) 697-3505",
+  "catalogedName": "adult-protective-services-ny",
+  "sourceId": "legal-entry:adult-protective-services-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny"
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny"
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:03:02.841Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.487Z"
+  }
+}

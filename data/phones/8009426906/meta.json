@@ -1,0 +1,90 @@
+{
+  "digits": "8009426906",
+  "kind": "phone",
+  "primaryName": "NYS Domestic Violence Hotline",
+  "rawValue": "800-942-6906",
+  "blockDial": false,
+  "tags": [
+    "cat:domesticSvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "nysdvh",
+      "name": "NYS Domestic Violence Hotline",
+      "category": "domesticSvc",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "animal-cruelty-reporting-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "divorce-separation-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "order-of-protection-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "sexual-assault-survivors-rights-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-50-30-025Z_16e60e4f-94e6-8499-ee63-0261cfb6e740",
+    "meta": {
+      "callId": "16e60e4f-94e6-8499-ee63-0261cfb6e740",
+      "digits": "8009426906",
+      "dialedNumber": "8009426906",
+      "catalogedName": "NYS Domestic Violence Hotline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:50:30.025Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.849Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "New York State Domestic and Sexual Violence Hotline",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.307Z",
+  "lastSeededAt": "2026-05-03T19:44:16.307Z",
+  "verifiedAt": "2026-05-03T20:21:01.853Z",
+  "verifiedRun": "2026-05-02T10-50-30-025Z_16e60e4f-94e6-8499-ee63-0261cfb6e740",
+  "verifiedTranscriptOpening": "You have reached the New York State Domestic and Sexual Violence Hotline. An advocate will be with you momentarily.",
+  "verifiedMatchTokens": [
+    "domestic",
+    "violence"
+  ],
+  "verifiedRatio": 1
+}

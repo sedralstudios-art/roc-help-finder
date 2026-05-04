@@ -1,0 +1,29 @@
+{
+  "callId": "03472215-3010-8dde-5ac7-5bf74276d5ec",
+  "digits": "8556922531",
+  "dialedNumber": "1-855-692-2531",
+  "catalogedName": "ny-able-savings-disability-ny",
+  "sourceId": "legal-entry:ny-able-savings-disability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-able-savings-disability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:29:36.745Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.985Z"
+  }
+}

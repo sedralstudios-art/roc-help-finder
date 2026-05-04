@@ -1,0 +1,24 @@
+{
+  "callId": "7b8127f5-9078-eb1a-8634-f8c7249564df",
+  "digits": "5855468280",
+  "dialedNumber": "(585) 546-8280",
+  "catalogedName": "Compeer Rochester",
+  "sourceId": "compeer",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:23:57.577Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.708Z"
+  }
+}

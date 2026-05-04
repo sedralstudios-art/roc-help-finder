@@ -1,0 +1,69 @@
+{
+  "digits": "5852744069",
+  "kind": "phone",
+  "primaryName": "URMC Hospice Bereavement",
+  "rawValue": "585-274-4069",
+  "blockDial": false,
+  "tags": [
+    "cat:grief",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "urmcgrief",
+      "name": "URMC Hospice Bereavement",
+      "category": "grief",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-06-35-859Z_42689a81-875c-ff4a-d30b-4bb0db78582c",
+    "meta": {
+      "callId": "42689a81-875c-ff4a-d30b-4bb0db78582c",
+      "digits": "5852744069",
+      "dialedNumber": "5852744069",
+      "catalogedName": "URMC Hospice Bereavement",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:06:35.859Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.225Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Michelle Allman",
+      "reason": "transcript-stated name (Michelle Allman) differs from catalogued (URMC Hospice Bereavement)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.414Z",
+  "lastSeededAt": "2026-05-03T19:44:16.414Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:28:13.523Z",
+      "sourceUrl": "https://www.urmc.rochester.edu/home-care/hospice-care/bereavement",
+      "sourceLabel": "URMC Home Care Bereavement page",
+      "notes": "Web confirms (585) 274-4069 (Michele Allman, LMSW) as Monroe County URMC Hospice Bereavement contact. Apr 17 audit had captured \"Michelle Allman\" voicemail — same person, voicemail of named coordinator."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "94285630-265c-7227-b7d9-79dc47c65223",
+  "digits": "8883687238",
+  "dialedNumber": "(888) 368-7238",
+  "catalogedName": "moving-company-disputes-ny",
+  "sourceId": "legal-entry:moving-company-disputes-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "moving-company-disputes-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:26:42.034Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.947Z"
+  }
+}

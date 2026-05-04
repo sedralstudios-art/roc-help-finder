@@ -1,0 +1,29 @@
+{
+  "callId": "90e0b8dd-8434-de7e-79d0-78b3f638318c",
+  "digits": "8008569981",
+  "dialedNumber": "(800) 856-9981",
+  "catalogedName": "freelance-isnt-free-act-ny",
+  "sourceId": "legal-entry:freelance-isnt-free-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "freelance-isnt-free-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:10:45.071Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.838Z"
+  }
+}

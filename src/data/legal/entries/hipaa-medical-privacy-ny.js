@@ -59,7 +59,7 @@ export const HIPAA_MEDICAL_PRIVACY_NY = {
       qualifier: "Any patient in the US",
       access: "Phone or online",
       outcome: "Federal investigation, corrective actions, penalties",
-      phone: "(800) 368-1019",
+      phone: "",
       url: "https://www.hhs.gov/ocr/complaints/",
       verified: true,
       bilingual: true,

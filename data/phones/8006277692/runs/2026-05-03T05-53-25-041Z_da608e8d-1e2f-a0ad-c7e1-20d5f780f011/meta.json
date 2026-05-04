@@ -1,0 +1,29 @@
+{
+  "callId": "da608e8d-1e2f-a0ad-c7e1-20d5f780f011",
+  "digits": "8006277692",
+  "dialedNumber": "(800) 627-7692",
+  "catalogedName": "blood-bone-marrow-organ-donor-leave-ny",
+  "sourceId": "legal-entry:blood-bone-marrow-organ-donor-leave-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "blood-bone-marrow-organ-donor-leave-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:53:25.041Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.709Z"
+  }
+}

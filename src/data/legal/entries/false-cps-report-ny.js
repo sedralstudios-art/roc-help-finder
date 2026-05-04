@@ -61,7 +61,7 @@ export const FALSE_CPS_REPORT_NY = {
       qualifier: "Low income residents of Monroe and surrounding counties",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal advice and representation in Family Court",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

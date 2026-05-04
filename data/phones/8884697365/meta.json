@@ -1,0 +1,315 @@
+{
+  "digits": "8884697365",
+  "kind": "phone",
+  "primaryName": "NY Department of Labor — File a Wage Claim",
+  "rawValue": "888-469-7365",
+  "blockDial": false,
+  "tags": [
+    "cat:legalWorkers",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nysDOLLaborStandards",
+      "value": "888-469-7365",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "nydol",
+      "name": "NY Department of Labor — File a Wage Claim",
+      "category": "legalWorkers",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "bereavement-leave-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "blood-bone-marrow-organ-donor-leave-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "break-meal-period-work-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "child-labor-laws-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "domestic-worker-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "drug-testing-work-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny",
+      "line": 94
+    },
+    {
+      "type": "entry",
+      "id": "equal-pay-wage-gap-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "home-care-aide-wage-parity-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny",
+      "line": 119
+    },
+    {
+      "type": "entry",
+      "id": "independent-contractor-misclass-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "jury-duty-employer-pay-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "lactation-breaks-at-work-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "mandated-reporter-child-abuse-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-day-work-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "minimum-wage-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "nursing-mothers-workplace-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "overtime-rights-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "paid-sick-leave-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "pay-stub-wage-notice-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-workers-fairness-act-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "pto-vacation-at-separation-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "restaurant-food-inspection-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny",
+      "line": 94
+    },
+    {
+      "type": "entry",
+      "id": "salary-history-ban-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-training-required-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "social-media-fired-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "subpoena-what-to-do-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "temp-worker-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "tip-pooling-laws-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tip-theft-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "tipped-minimum-wage-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "undocumented-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-appeal-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-gig-workers-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "unpaid-final-paycheck-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "unpaid-internship-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "wage-assignment-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "wage-payment-frequency-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "wage-theft-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "wage-theft-prevention-act-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "workplace-retaliation-protection-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-27-57-119Z_af655456-b67e-6b66-cda2-11ac0bf65f68",
+    "meta": {
+      "callId": "af655456-b67e-6b66-cda2-11ac0bf65f68",
+      "digits": "8884697365",
+      "dialedNumber": "8884697365",
+      "catalogedName": "NY Department of Labor — File a Wage Claim",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:27:57.119Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.792Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.16666666666666666,
+      "extracted": "New York State Department of Labor's Contact Center",
+      "reason": "transcript-stated name (New York State Department of Labor's Contact Center) differs from catalogued (NY Department of Labor — File a Wage Claim)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.268Z",
+  "lastSeededAt": "2026-05-03T19:44:16.268Z"
+}

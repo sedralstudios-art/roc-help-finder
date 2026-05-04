@@ -1,0 +1,24 @@
+{
+  "callId": "f057304b-5058-8806-9aba-713e23ed1cd7",
+  "digits": "2126135000",
+  "dialedNumber": "2126135000",
+  "catalogedName": "NY Legal Assistance Group — Disability Benefits",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:09:44.620Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.095Z"
+  }
+}

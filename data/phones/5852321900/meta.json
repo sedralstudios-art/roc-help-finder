@@ -1,0 +1,61 @@
+{
+  "digits": "5852321900",
+  "kind": "phone",
+  "primaryName": "entry-callout:non-driver-state-id-ny",
+  "rawValue": "(585) 232-1900",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "non-driver-state-id-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-27-40-255Z_e84d5e59-2430-099a-4645-9b39a7df6e5e",
+    "meta": {
+      "callId": "e84d5e59-2430-099a-4645-9b39a7df6e5e",
+      "digits": "5852321900",
+      "dialedNumber": "(585) 232-1900",
+      "catalogedName": "non-driver-state-id-ny",
+      "sourceId": "legal-entry:non-driver-state-id-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "non-driver-state-id-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:27:40.255Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.954Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.533Z",
+  "lastSeededAt": "2026-05-03T19:44:16.533Z"
+}

@@ -1,0 +1,75 @@
+{
+  "digits": "2122276440",
+  "kind": "phone",
+  "primaryName": "NYCOSH — Workplace Safety Rights",
+  "rawValue": "212-227-6440",
+  "blockDial": false,
+  "tags": [
+    "cat:legalWorkers",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "nycosh",
+      "name": "NYCOSH — Workplace Safety Rights",
+      "category": "legalWorkers",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-physician-choice-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-07-29-917Z_bacc672a-3edb-2eae-879d-2a10b0a3c53b",
+    "meta": {
+      "callId": "bacc672a-3edb-2eae-879d-2a10b0a3c53b",
+      "digits": "2122276440",
+      "dialedNumber": "2122276440",
+      "catalogedName": "NYCOSH — Workplace Safety Rights",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:07:29.917Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.091Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.322Z",
+  "lastSeededAt": "2026-05-03T19:44:16.322Z"
+}

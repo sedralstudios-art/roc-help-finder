@@ -1,0 +1,37 @@
+{
+  "callId": "bfab85ac-41d8-dc78-8d56-9376919380bb",
+  "digits": "5857534240",
+  "dialedNumber": "(585) 753-4240",
+  "catalogedName": "pedestrian-crosswalk-right-of-way-ny",
+  "sourceId": "legal-entry:pedestrian-crosswalk-right-of-way-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny"
+    },
+    {
+      "type": "entry",
+      "id": "seatbelt-law-ny"
+    },
+    {
+      "type": "entry",
+      "id": "traffic-ticket-options-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:00:05.355Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.460Z"
+  }
+}

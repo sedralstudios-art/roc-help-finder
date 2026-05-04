@@ -1,0 +1,33 @@
+{
+  "callId": "61ea9157-f208-5c62-e155-6251a1294b4d",
+  "digits": "5184573282",
+  "dialedNumber": "(518) 457-3282",
+  "catalogedName": "grocery-item-pricing-accuracy-ny",
+  "sourceId": "legal-entry:grocery-item-pricing-accuracy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:37:28.341Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.604Z"
+  }
+}

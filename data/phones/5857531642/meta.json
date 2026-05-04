@@ -1,0 +1,61 @@
+{
+  "digits": "5857531642",
+  "kind": "phone",
+  "primaryName": "entry-callout:concealed-carry-pistol-permit-ny",
+  "rawValue": "(585) 753-1642",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "concealed-carry-pistol-permit-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-59-39-432Z_f508fbbd-44dd-4d6b-cf4b-04dc52ca00e6",
+    "meta": {
+      "callId": "f508fbbd-44dd-4d6b-cf4b-04dc52ca00e6",
+      "digits": "5857531642",
+      "dialedNumber": "(585) 753-1642",
+      "catalogedName": "concealed-carry-pistol-permit-ny",
+      "sourceId": "legal-entry:concealed-carry-pistol-permit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "concealed-carry-pistol-permit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:59:39.432Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.756Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.483Z",
+  "lastSeededAt": "2026-05-03T19:44:16.483Z"
+}

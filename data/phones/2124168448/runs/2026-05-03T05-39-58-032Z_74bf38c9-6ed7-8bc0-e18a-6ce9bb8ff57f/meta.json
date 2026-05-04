@@ -1,0 +1,33 @@
+{
+  "callId": "74bf38c9-6ed7-8bc0-e18a-6ce9bb8ff57f",
+  "digits": "2124168448",
+  "dialedNumber": "(212) 416-8448",
+  "catalogedName": "lawn-pesticide-neighbor-notice-ny",
+  "sourceId": "legal-entry:lawn-pesticide-neighbor-notice-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lawn-pesticide-neighbor-notice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-renovation-rule-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:39:58.032Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.621Z"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "digits": "5853403300",
+  "kind": "phone",
+  "primaryName": "PathStone (Jobs & Training)",
+  "rawValue": "585-340-3300",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ps",
+      "name": "PathStone (Jobs & Training)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "attic-insulation-rebate-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-defense-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "home-energy-audit-rebates-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-preforeclosure-90-day-notice-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ny-homeowner-assistance-fund-ny-program",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "rent-to-own-agreement-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-47-41-393Z_a8b2f9d1-b07b-69aa-4d9a-30cbe1c7e5f6",
+    "meta": {
+      "callId": "a8b2f9d1-b07b-69aa-4d9a-30cbe1c7e5f6",
+      "digits": "5853403300",
+      "dialedNumber": "5853403300",
+      "catalogedName": "PathStone (Jobs & Training)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:47:41.393Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.313Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Paxton Corporation",
+      "reason": "transcript-stated name (Paxton Corporation) differs from catalogued (PathStone (Jobs & Training))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.283Z",
+  "lastSeededAt": "2026-05-03T19:44:16.283Z"
+}

@@ -1,0 +1,78 @@
+{
+  "digits": "2122431313",
+  "kind": "phone",
+  "primaryName": "entry-callout:clean-slate-ny",
+  "rawValue": "(212) 243-1313",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "clean-slate-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "dismissed-case-sealing-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "drug-possession-basics-ny",
+      "line": 92
+    },
+    {
+      "type": "entry",
+      "id": "good-samaritan-law-ny",
+      "line": 75
+    },
+    {
+      "type": "entry",
+      "id": "marijuana-sealing-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-08-37-675Z_32864c0a-b656-aa21-dfc9-47a50146fa2d",
+    "meta": {
+      "callId": "32864c0a-b656-aa21-dfc9-47a50146fa2d",
+      "digits": "2122431313",
+      "dialedNumber": "2122431313",
+      "catalogedName": "entry-callout:clean-slate-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:08:37.675Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.093Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Legal Action Center",
+      "reason": "transcript-stated name (Legal Action Center) differs from catalogued (entry-callout:clean-slate-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.315Z",
+  "lastSeededAt": "2026-05-03T19:44:16.315Z"
+}

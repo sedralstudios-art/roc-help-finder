@@ -1,0 +1,106 @@
+{
+  "digits": "5857232443",
+  "kind": "phone",
+  "primaryName": "entry-callout:above-ground-pool-rules-ny",
+  "rawValue": "(585) 723-2443",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "backyard-chicken-laws-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "deck-patio-permit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-greece-town",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-greece-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-fire-pit-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-greece-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-greece-town",
+      "line": 62
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "short-term-rental-hosting-airbnb-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "solar-panel-rules-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-56-24-365Z_51fb6aa1-f50c-d989-6f4a-73e78333f505",
+    "meta": {
+      "callId": "51fb6aa1-f50c-d989-6f4a-73e78333f505",
+      "digits": "5857232443",
+      "dialedNumber": "5857232443",
+      "catalogedName": "entry-callout:above-ground-pool-rules-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:56:24.365Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.590Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.282Z",
+  "lastSeededAt": "2026-05-03T19:44:16.282Z"
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "277ef433-f1d3-0762-6ce0-bc735f07b925",
+  "digits": "8454858627",
+  "dialedNumber": "(845) 485-8627",
+  "catalogedName": "farm-worker-labor-rights-ny",
+  "sourceId": "legal-entry:farm-worker-labor-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:36:46.716Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.600Z"
+  }
+}

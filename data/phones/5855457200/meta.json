@@ -1,0 +1,130 @@
+{
+  "digits": "5855457200",
+  "kind": "phone",
+  "primaryName": "Trillium Health Food Pantry",
+  "rawValue": "585-545-7200",
+  "blockDial": false,
+  "tags": [
+    "cat:dental",
+    "cat:food",
+    "cat:health",
+    "cat:hivsti",
+    "cat:lgbtq",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "trillfood",
+      "name": "Trillium Health Food Pantry",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "trill",
+      "name": "Trillium Health (Pay What You Can)",
+      "category": "health",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "trilldental",
+      "name": "Trillium Health (Dental)",
+      "category": "dental",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "trilllgbtq",
+      "name": "Trillium Health (Gender-Affirming Care)",
+      "category": "lgbtq",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "trillhiv",
+      "name": "Trillium Health (HIV/STI)",
+      "category": "hivsti",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny",
+      "line": 54
+    },
+    {
+      "type": "entry",
+      "id": "prescription-assistance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-health-care-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-02-00-834Z_94cb7701-50ad-5c34-cb37-bab83360fdb8",
+    "meta": {
+      "callId": "94cb7701-50ad-5c34-cb37-bab83360fdb8",
+      "digits": "5855457200",
+      "dialedNumber": "5855457200",
+      "catalogedName": "Trillium Health Food Pantry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:02:00.834Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.476Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Trillium Health",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.284Z",
+  "lastSeededAt": "2026-05-03T19:44:16.284Z",
+  "verifiedAt": "2026-05-03T20:21:01.760Z",
+  "verifiedRun": "2026-05-02T08-02-00-834Z_94cb7701-50ad-5c34-cb37-bab83360fdb8",
+  "verifiedTranscriptOpening": "Thank you for calling Trillium Health. If this is a medical emergency, please hang up and dial 9-1-1. For English, press 1. Para Espanol, presione 2. Thank you for calling Trillium Health. This is a m",
+  "verifiedMatchTokens": [
+    "trillium",
+    "health"
+  ],
+  "verifiedRatio": 0.5,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:49:44.293Z",
+      "sourceUrl": "https://trilliumhealth.org",
+      "sourceLabel": "Trillium Health official site",
+      "notes": "Web confirms 585-545-7200 as Trillium Health main line. Used by trill (general health), trilldental, and trillfood (food pantry)."
+    }
+  ]
+}

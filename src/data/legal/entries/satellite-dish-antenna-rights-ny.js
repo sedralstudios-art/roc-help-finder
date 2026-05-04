@@ -57,7 +57,7 @@ export const SATELLITE_DISH_ANTENNA_RIGHTS_NY = {
       qualifier: "Any U.S. resident",
       access: "Phone at (888) 225-5322, file complaints online",
       outcome: "Enforcement action against HOAs or landlords violating OTARD",
-      phone: "(888) 225-5322",
+      phone: "",
       url: "https://www.fcc.gov/consumers/guides/installing-consumer-owned-antennas-and-satellite-dishes",
       verified: true,
       bilingual: true,

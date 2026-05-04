@@ -1,0 +1,79 @@
+{
+  "digits": "5854287690",
+  "kind": "phone",
+  "primaryName": "entry-callout:junk-vehicle-own-property-ny",
+  "rawValue": "(585) 428-7690",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "junk-vehicle-own-property-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "sewer-lateral-responsibility-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-26-43-193Z_98a46a70-3061-810d-7da1-4c785f5741e4",
+    "meta": {
+      "callId": "98a46a70-3061-810d-7da1-4c785f5741e4",
+      "digits": "5854287690",
+      "dialedNumber": "(585) 428-7690",
+      "catalogedName": "junk-vehicle-own-property-ny",
+      "sourceId": "legal-entry:junk-vehicle-own-property-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "junk-vehicle-own-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sewer-lateral-responsibility-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tenant-rights-repairs-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:26:43.193Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.537Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.350Z",
+  "lastSeededAt": "2026-05-03T19:44:16.350Z"
+}

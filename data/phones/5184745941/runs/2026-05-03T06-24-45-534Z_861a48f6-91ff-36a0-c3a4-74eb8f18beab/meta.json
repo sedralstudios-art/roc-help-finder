@@ -1,0 +1,29 @@
+{
+  "callId": "861a48f6-91ff-36a0-c3a4-74eb8f18beab",
+  "digits": "5184745941",
+  "dialedNumber": "(518) 474-5941",
+  "catalogedName": "mobile-home-park-closure-ny",
+  "sourceId": "legal-entry:mobile-home-park-closure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mobile-home-park-closure-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:24:45.534Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.933Z"
+  }
+}

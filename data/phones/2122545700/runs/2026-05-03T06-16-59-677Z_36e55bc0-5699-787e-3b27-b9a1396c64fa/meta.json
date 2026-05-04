@@ -1,0 +1,29 @@
+{
+  "callId": "36e55bc0-5699-787e-3b27-b9a1396c64fa",
+  "digits": "2122545700",
+  "dialedNumber": "(212) 254-5700",
+  "catalogedName": "inmate-visitation-communication-ny",
+  "sourceId": "legal-entry:inmate-visitation-communication-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:16:59.677Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.880Z"
+  }
+}

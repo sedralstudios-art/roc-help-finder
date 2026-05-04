@@ -1,0 +1,24 @@
+{
+  "callId": "250dc23c-0f91-2705-8a17-6a11dfa3843d",
+  "digits": "5854298289",
+  "dialedNumber": "5854298289",
+  "catalogedName": "Gates Recreation & Parks",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:41:35.361Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.431Z"
+  }
+}

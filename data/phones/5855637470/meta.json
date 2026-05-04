@@ -1,0 +1,64 @@
+{
+  "digits": "5855637470",
+  "kind": "phone",
+  "primaryName": "East House Affinity Place Warm Line",
+  "rawValue": "585-563-7470",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "easthousewarm",
+      "name": "East House Affinity Place Warm Line",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-47-52-253Z_2820f895-0afd-7951-3bd7-3f43aa0f4a50",
+    "meta": {
+      "callId": "2820f895-0afd-7951-3bd7-3f43aa0f4a50",
+      "digits": "5855637470",
+      "dialedNumber": "585-563-7470",
+      "catalogedName": "East House Affinity Place Warm Line",
+      "sourceId": "easthousewarm",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "easthousewarm"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:47:52.253Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.672Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.460Z",
+  "lastSeededAt": "2026-05-03T19:44:16.460Z"
+}

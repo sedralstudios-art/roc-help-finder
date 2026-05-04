@@ -1,0 +1,24 @@
+{
+  "callId": "5beab903-3c56-772c-5282-ca68ace82ee8",
+  "digits": "5853253050",
+  "dialedNumber": "(585) 325-3050",
+  "catalogedName": "Worker Justice Center of New York",
+  "sourceId": "electrical-residential-ny::Worker Justice Center of New York",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:31:08.292Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.642Z"
+  }
+}

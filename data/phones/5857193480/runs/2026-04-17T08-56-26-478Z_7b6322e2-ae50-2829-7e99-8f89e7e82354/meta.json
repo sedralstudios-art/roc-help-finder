@@ -1,0 +1,24 @@
+{
+  "callId": "7b6322e2-ae50-2829-7e99-8f89e7e82354",
+  "digits": "5857193480",
+  "dialedNumber": "(585) 719-3480",
+  "catalogedName": "NCADD-RA (Addiction Help)",
+  "sourceId": "ncadd",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:56:26.478Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.955Z"
+  }
+}

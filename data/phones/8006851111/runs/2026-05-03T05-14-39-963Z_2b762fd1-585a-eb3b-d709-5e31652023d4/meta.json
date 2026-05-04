@@ -1,0 +1,37 @@
+{
+  "callId": "2b762fd1-585a-eb3b-d709-5e31652023d4",
+  "digits": "8006851111",
+  "dialedNumber": "(800) 685-1111",
+  "catalogedName": "credit-freeze-security-freeze-ny",
+  "sourceId": "legal-entry:credit-freeze-security-freeze-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-freeze-security-freeze-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:14:39.963Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.513Z"
+  }
+}

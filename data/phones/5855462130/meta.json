@@ -1,0 +1,1449 @@
+{
+  "digits": "5855462130",
+  "kind": "phone",
+  "primaryName": "LEGAL_AID.monroeBarReferral",
+  "rawValue": "585-546-2130",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "LEGAL_AID",
+      "slug": "monroeBarReferral",
+      "value": "585-546-2130",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "able-account-disability-savings-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny",
+      "line": 67
+    },
+    {
+      "type": "entry",
+      "id": "acd-adjournment-contemplation-dismissal-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "alimony-modification-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "amusement-ride-safety-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "annulment-vs-divorce-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "anti-hazing-law-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "anti-slapp-lawsuit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "apartment-mold-disclosure-sale-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "article-78-proceeding-review-agency-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "assisted-living-complaint-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "attorney-grievance-complaint-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "auto-lease-early-termination-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "bait-and-switch-advertising-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "bankruptcy-chapter13-ny",
+      "line": 56
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "bereavement-leave-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "bike-accident-dooring-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "car-insurance-lapse-penalty-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-plot-abandoned-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "child-support-modification-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "civil-service-discipline-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "civil-tro-preliminary-injunction-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "co-op-condo-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "commercial-eviction-process-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "common-law-marriage-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "condo-conversion-tenant-buyout-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "condo-coop-offering-plan-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "condo-unit-owner-insurance-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-fairness-act-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-lawsuit-defense-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "consumer-debt-collector-licensing-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "consumer-product-recall-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "contest-will-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "contracts-must-be-in-writing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "cooperative-apartment-purchase-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "court-interpreter-request-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "court-of-claims-suing-state-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "cps-investigation-process-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "credit-repair-companies-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "dangerous-dog-classification-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "daycare-complaint-licensing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "debt-settlement-company-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny",
+      "line": 69
+    },
+    {
+      "type": "entry",
+      "id": "deck-patio-permit-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "defective-product-ucc-warranty-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "defensive-driving-pirp-course-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "disclaim-inheritance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "divorce-residency-requirement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "divorce-separation-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "dog-waste-cleanup-law-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "domestic-partnership-registration-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "donnelly-act-antitrust-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "dram-shop-act-bar-liability-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "driveway-easement-access-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "driving-suspended-license-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "drug-testing-work-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "easement-by-necessity-ny-cl",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "elevator-inspection-rules-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "employer-references-defamation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "emtala-emergency-room-stabilization-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "encroachment-property-line-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "erisa-pension-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "essential-plan-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "estate-administrator-commissions-scpa-2307-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "false-claims-act-whistleblower-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "food-allergy-restaurant-liability-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-settlement-conference-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "free-legal-help-monroe-ny-program",
+      "line": 24
+    },
+    {
+      "type": "entry",
+      "id": "freelance-isnt-free-act-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "freshwater-wetlands-permit-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "guardian-ad-litem-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "handwritten-will-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "high-cost-home-loan-banking-6-l-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "holdover-tenant-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "home-equity-line-credit-disclosure-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "home-inspection-contract-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "home-title-theft-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "hot-tub-spa-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "implied-consent-chemical-test-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "informed-consent-medical-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "insurance-fraud-criminal-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "invisible-fence-dog-escape-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "joint-account-creditor-levy-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "joint-tenancy-tenancy-in-common-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "judgment-enforcement-cplr-52-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "junior-license-gdl-restrictions-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "kendras-law-assisted-outpatient-treatment-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "lactation-breaks-at-work-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "land-contract-rent-to-own-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "landlord-interference-quiet-enjoyment-ny-cl",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "lawn-pesticide-neighbor-notice-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "lease-cosigner-guarantor-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "lemon-law-leased-vehicle-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "library-borrowing-privacy-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "license-suspended-unpaid-tickets-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "liquor-license-rules-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "living-will-advance-directive-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "mechanics-lien-private-construction-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-estate-recovery-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "medical-cannabis-program-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "medical-power-of-attorney-disputes-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-records-access-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "mold-homeowner-remediation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-recording-tax-closing-cost-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "move-over-law-emergency-vehicles-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nda-non-disclosure-agreement-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "negligent-security-landlord-crime-ny-cl",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-harassment-restraining-order-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-tree-roots-damage-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "new-home-warranty-right-to-cure-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nonconforming-use-grandfather-zoning-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "nonprofit-raffle-bingo-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny",
+      "line": 54
+    },
+    {
+      "type": "entry",
+      "id": "notice-of-claim-municipal-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "notice-of-pendency-lis-pendens-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-medicaid-asset-protection-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "ny-estate-tax-threshold-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "ny-estimated-tax-self-employed-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "ny-telemarketing-rules-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "nys-income-tax-installment-plan-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "nys-tax-warrant-173-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "nyslrs-public-pension-basics-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "odometer-fraud-used-car-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "open-container-car-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "open-meetings-law-public-participation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "opmc-physician-misconduct-complaint-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "overtime-rights-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "parenting-time-modification-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "partition-joint-property-rpapl-9-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "pawnshops-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "pay-on-death-bank-account-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "pay-transparency-salary-range-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "payday-loan-illegal-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-hit-by-car-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "personal-injury-basics-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "pet-kennel-boarding-licensing-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pet-trust-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "photo-name-used-without-permission-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "playground-equipment-liability-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "plea-withdrawal-cpl-220-60-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "pmi-cancellation-homeowner-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "post-adoption-contact-agreement-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "postnuptial-agreement-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-financial-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "prenuptial-agreement-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "prevailing-wage-public-works-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "private-nuisance-ny-cl",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "prompt-pay-construction-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-installment-plan-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "pto-vacation-at-separation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "public-adjuster-insurance-claim-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "puppy-lemon-law-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "pyramid-scheme-chain-letter-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "quiet-title-action-rpapl-15-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "quitclaim-deed-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-agency-disclosure-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "recreational-use-immunity-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "rent-to-own-agreement-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "rental-car-damage-waiver-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "renters-insurance-basics-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "replevin-personal-property-recovery-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "retail-installment-sales-act-ppl-402-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "retirement-401k-early-withdrawal-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "safe-deposit-box-after-death-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "salary-history-ban-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "salvage-title-branded-vehicle-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "scaffold-law-construction-240-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-bus-stop-arm-violation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "seatbelt-law-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "selling-home-without-realtor-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "septic-inspection-home-sale-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "seqr-environmental-review-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "sex-offender-registry-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-training-required-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "shared-driveway-dispute-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-civil-recovery-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-trip-fall-claim-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-appeal-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "smoking-policy-disclosure-housing-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "social-media-fired-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "spite-fence-malicious-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "standby-guardianship-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "stop-payment-order-check-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "structured-settlement-transfer-review-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "subpoena-what-to-do-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "supported-decision-making-agreement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "surviving-spouse-elective-share-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny",
+      "line": 83
+    },
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tila-mortgage-disclosures-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "timeshare-cancellation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tipped-minimum-wage-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "title-insurance-what-it-covers-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "tow-truck-scam-accident-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "trampoline-liability-ny-cl",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "transfer-on-death-deed-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "trucker-cdl-violations-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "trust-accounting-scpa-2210-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "trust-vs-will-estate-planning-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "uber-lyft-accident-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "uber-lyft-passenger-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "unclaimed-property-abandoned-funds-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "uncontested-divorce-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "unmarried-parents-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "utility-cost-history-truth-in-heating-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "vacation-pay-wage-protection-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "veteran-tuition-waiver-suny-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-benefits-vfbl-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "wage-theft-prevention-act-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "warn-act-mass-layoff-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "window-tint-limits-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-lump-sum-settlement-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-physician-choice-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "workers-compensation-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-discharge-public-policy-ny-cl",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-eviction-lockout-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-lien-exaggeration-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-termination-ny",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "yellowstone-injunction-commercial-lease-ny-cl",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "youthful-offender-adjudication-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-04-06-520Z_28abb0aa-c34a-e32f-4943-d0f951693c11",
+    "meta": {
+      "callId": "28abb0aa-c34a-e32f-4943-d0f951693c11",
+      "digits": "5855462130",
+      "dialedNumber": "5855462130",
+      "catalogedName": "LEGAL_AID.monroeBarReferral",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:04:06.520Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.480Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.263Z",
+  "lastSeededAt": "2026-05-03T19:44:16.263Z"
+}

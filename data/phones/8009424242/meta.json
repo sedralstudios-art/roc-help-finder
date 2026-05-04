@@ -1,0 +1,70 @@
+{
+  "digits": "8009424242",
+  "kind": "phone",
+  "primaryName": "entry-callout:cell-phone-while-driving-ny",
+  "rawValue": "(800) 942-4242",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-22-59-404Z_1008e057-ab0f-3cab-3446-a4af9519fbce",
+    "meta": {
+      "callId": "1008e057-ab0f-3cab-3446-a4af9519fbce",
+      "digits": "8009424242",
+      "dialedNumber": "(800) 942-4242",
+      "catalogedName": "cell-phone-while-driving-ny",
+      "sourceId": "legal-entry:cell-phone-while-driving-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cell-phone-while-driving-ny"
+        },
+        {
+          "type": "entry",
+          "id": "social-host-liability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:22:59.404Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.565Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.370Z",
+  "lastSeededAt": "2026-05-03T19:44:16.370Z"
+}

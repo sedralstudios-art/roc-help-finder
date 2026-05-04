@@ -1,0 +1,106 @@
+{
+  "digits": "5858891553",
+  "kind": "phone",
+  "primaryName": "Wheatland Town Clerk",
+  "rawValue": "585-889-1553",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "wheatlandclerk",
+      "name": "Wheatland Town Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "wheatlandassessor",
+      "name": "Wheatland Assessor",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "wheatlandbuilding",
+      "name": "Wheatland Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-wheatland-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-wheatland-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-wheatland-town",
+      "line": 24
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-wheatland-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-32-56-408Z_82e378d4-bead-d33c-53c8-5d746d4c3dbc",
+    "meta": {
+      "callId": "82e378d4-bead-d33c-53c8-5d746d4c3dbc",
+      "digits": "5858891553",
+      "dialedNumber": "5858891553",
+      "catalogedName": "Wheatland Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:32:56.408Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.667Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Town of Wheatland Municipal Office",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.293Z",
+  "lastSeededAt": "2026-05-03T19:44:16.293Z",
+  "verifiedAt": "2026-05-03T20:21:01.805Z",
+  "verifiedRun": "2026-05-02T09-32-56-408Z_82e378d4-bead-d33c-53c8-5d746d4c3dbc",
+  "verifiedTranscriptOpening": "Thank you for calling the Town of Wheatland Municipal Office. If you know your party's extension, you can dial it at any time. Please note that extensions may have changed. For the Town Directory by l",
+  "verifiedMatchTokens": [
+    "wheatland",
+    "town",
+    "clerk"
+  ],
+  "verifiedRatio": 1
+}

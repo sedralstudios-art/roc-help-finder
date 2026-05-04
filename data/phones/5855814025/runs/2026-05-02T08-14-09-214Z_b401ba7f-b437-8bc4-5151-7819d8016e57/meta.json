@@ -1,0 +1,24 @@
+{
+  "callId": "b401ba7f-b437-8bc4-5151-7819d8016e57",
+  "digits": "5855814025",
+  "dialedNumber": "5855814025",
+  "catalogedName": "Greece Animal Services",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:14:09.214Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.500Z"
+  }
+}

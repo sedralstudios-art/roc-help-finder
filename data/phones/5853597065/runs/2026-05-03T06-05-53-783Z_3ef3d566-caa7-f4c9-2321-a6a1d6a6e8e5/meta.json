@@ -1,0 +1,29 @@
+{
+  "callId": "3ef3d566-caa7-f4c9-2321-a6a1d6a6e8e5",
+  "digits": "5853597065",
+  "dialedNumber": "585-359-7065",
+  "catalogedName": "electrical-residential-ny-mon-henrietta-town",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-henrietta-town",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-henrietta-town"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:05:53.783Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.802Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "58ef89ee-0ad0-da29-3a07-de9552e606dd",
+  "digits": "8005267234",
+  "dialedNumber": "(800) 526-7234",
+  "catalogedName": "ada-workplace-accommodation-ny",
+  "sourceId": "legal-entry:ada-workplace-accommodation-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ada-workplace-accommodation-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:49:15.497Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.681Z"
+  }
+}

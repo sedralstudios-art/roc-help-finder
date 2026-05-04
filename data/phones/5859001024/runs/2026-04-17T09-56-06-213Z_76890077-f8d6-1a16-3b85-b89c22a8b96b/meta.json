@@ -1,0 +1,24 @@
+{
+  "callId": "76890077-f8d6-1a16-3b85-b89c22a8b96b",
+  "digits": "5859001024",
+  "dialedNumber": "(585) 900-1024",
+  "catalogedName": "Empire Justice Center — Low-Income Taxpayer Clinic",
+  "sourceId": "earned-income-tax-credit-ny::Empire Justice Center — Low-Income Taxpayer Clinic",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:56:06.213Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.041Z"
+  }
+}

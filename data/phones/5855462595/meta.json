@@ -1,0 +1,66 @@
+{
+  "digits": "5855462595",
+  "kind": "phone",
+  "primaryName": "entry-callout:contraception-coverage-ccca-ny",
+  "rawValue": "(585) 546-2595",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "contraception-coverage-ccca-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-05-59-843Z_3cced1e0-1d0e-8e1f-b2ce-c3943fb5dc28",
+    "meta": {
+      "callId": "3cced1e0-1d0e-8e1f-b2ce-c3943fb5dc28",
+      "digits": "5855462595",
+      "dialedNumber": "5855462595",
+      "catalogedName": "entry-callout:contraception-coverage-ccca-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:05:59.843Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.484Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.344Z",
+  "lastSeededAt": "2026-05-03T19:44:16.344Z"
+}

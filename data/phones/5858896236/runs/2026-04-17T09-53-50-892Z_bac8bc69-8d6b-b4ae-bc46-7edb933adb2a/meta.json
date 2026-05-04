@@ -1,0 +1,24 @@
+{
+  "callId": "bac8bc69-8d6b-b4ae-bc46-7edb933adb2a",
+  "digits": "5858896236",
+  "dialedNumber": "(585) 889-6236",
+  "catalogedName": "Wheatland Recreation",
+  "sourceId": "wheatlandrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:53:50.892Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.037Z"
+  }
+}

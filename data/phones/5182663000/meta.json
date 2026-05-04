@@ -1,0 +1,99 @@
+{
+  "digits": "5182663000",
+  "kind": "phone",
+  "primaryName": "entry-callout:cema-mortgage-refinance-savings-ny",
+  "rawValue": "(518) 266-3000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "nys-tax-warrant-173-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-01-47-640Z_c8858aa1-5617-1eef-cf2b-0d84e3e8bb0f",
+    "meta": {
+      "callId": "c8858aa1-5617-1eef-cf2b-0d84e3e8bb0f",
+      "digits": "5182663000",
+      "dialedNumber": "(518) 266-3000",
+      "catalogedName": "cema-mortgage-refinance-savings-ny",
+      "sourceId": "legal-entry:cema-mortgage-refinance-savings-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cema-mortgage-refinance-savings-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nonresident-income-tax-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nys-sales-tax-resale-exemption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nys-tax-warrant-173-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-estate-transfer-tax-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:01:47.640Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.188Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Division of Tax Appeal and Tax Appeal Tribunal",
+      "reason": "transcript-stated name (Division of Tax Appeal and Tax Appeal Tribunal) differs from catalogued (cema-mortgage-refinance-savings-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.314Z",
+  "lastSeededAt": "2026-05-03T19:44:16.314Z"
+}

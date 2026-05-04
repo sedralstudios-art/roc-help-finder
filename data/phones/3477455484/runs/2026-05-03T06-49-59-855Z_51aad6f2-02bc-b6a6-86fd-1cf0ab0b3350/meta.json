@@ -1,0 +1,29 @@
+{
+  "callId": "51aad6f2-02bc-b6a6-86fd-1cf0ab0b3350",
+  "digits": "3477455484",
+  "dialedNumber": "(347) 745-5484",
+  "catalogedName": "tenant-safe-harbor-act-ny",
+  "sourceId": "legal-entry:tenant-safe-harbor-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "tenant-safe-harbor-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:49:59.855Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.125Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "7c46faf2-bda9-198a-fbcd-c9bc2a437d32",
+  "digits": "5853418450",
+  "dialedNumber": "(585) 341-8450",
+  "catalogedName": "hospital-financial-assistance-charity-care-ny",
+  "sourceId": "legal-entry:hospital-financial-assistance-charity-care-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-financial-assistance-charity-care-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:14:54.953Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.866Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "5a84a5a4-3f2e-cda6-04ff-5233c263658e",
+  "digits": "5853929461",
+  "dialedNumber": "(585) 392-9461",
+  "catalogedName": "Parma Town Clerk",
+  "sourceId": "parmaclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:08:47.280Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.822Z"
+  }
+}

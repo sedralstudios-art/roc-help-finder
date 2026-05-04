@@ -41,7 +41,7 @@ export const SUMP_PUMP_DISCHARGE_NY = {
       "Monroe County Pure Waters handles sump pump connection enforcement at (585) 753-7370.",
       "If a sump pump discharge is flooding a neighbor's property, a complaint can be filed with the local code enforcement office.",
       "Rochester: Bureau of Inspection and Compliance at (585) 428-6520.",
-      "Greece: Code Enforcement at (585) 723-2396.",
+      "Greece: Code Enforcement at (585) 723-2354.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "The most common fix is running a PVC pipe from the sump pump through the basement wall to discharge at least 6 feet away from the foundation, pointing downhill.",
       "If the discharge creates ice on a public sidewalk in winter, the homeowner may be liable for slip-and-fall injuries."
@@ -60,7 +60,7 @@ export const SUMP_PUMP_DISCHARGE_NY = {
       qualifier: "Any property connected to the Monroe County sewer system",
       access: "Phone at (585) 753-7370",
       outcome: "Inspection, compliance deadlines, guidance on proper discharge",
-      phone: "(585) 753-7370",
+      phone: "",
       url: "https://www.monroecounty.gov/des-purewaters",
       verified: true,
       bilingual: false,

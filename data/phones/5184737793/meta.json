@@ -1,0 +1,61 @@
+{
+  "digits": "5184737793",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-protective-services-process-ny",
+  "rawValue": "(518) 473-7793",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-protective-services-process-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-57-42-994Z_ff8e4d71-81ab-609e-b93a-c4291dec4cca",
+    "meta": {
+      "callId": "ff8e4d71-81ab-609e-b93a-c4291dec4cca",
+      "digits": "5184737793",
+      "dialedNumber": "(518) 473-7793",
+      "catalogedName": "child-protective-services-process-ny",
+      "sourceId": "legal-entry:child-protective-services-process-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-protective-services-process-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:57:42.994Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.742Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.479Z",
+  "lastSeededAt": "2026-05-03T19:44:16.479Z"
+}

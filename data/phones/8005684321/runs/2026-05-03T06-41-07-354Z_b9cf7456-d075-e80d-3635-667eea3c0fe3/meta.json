@@ -1,0 +1,29 @@
+{
+  "callId": "b9cf7456-d075-e80d-3635-667eea3c0fe3",
+  "digits": "8005684321",
+  "dialedNumber": "(800) 568-4321",
+  "catalogedName": "right-of-disposition-remains-ny",
+  "sourceId": "legal-entry:right-of-disposition-remains-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:41:07.354Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.063Z"
+  }
+}

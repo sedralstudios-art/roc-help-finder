@@ -60,7 +60,7 @@ export const PASSPORT_DENIAL_CHILD_SUPPORT_NY = {
       qualifier: "Parents with child support cases in Monroe County",
       access: "Phone at (585) 753-6048",
       outcome: "Payment plan approval, passport hold resolution, arrears management",
-      phone: "(585) 753-6048",
+      phone: "",
       url: "https://www.monroecounty.gov",
       verified: true,
       bilingual: false,

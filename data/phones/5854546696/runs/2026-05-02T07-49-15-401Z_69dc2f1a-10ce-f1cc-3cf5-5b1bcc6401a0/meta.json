@@ -1,0 +1,24 @@
+{
+  "callId": "69dc2f1a-10ce-f1cc-3cf5-5b1bcc6401a0",
+  "digits": "5854546696",
+  "dialedNumber": "5854546696",
+  "catalogedName": "Open Door Mission (Mail Services)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:49:15.401Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.448Z"
+  }
+}

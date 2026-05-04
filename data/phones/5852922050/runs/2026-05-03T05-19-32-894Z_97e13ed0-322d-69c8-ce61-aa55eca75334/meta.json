@@ -1,0 +1,37 @@
+{
+  "callId": "97e13ed0-322d-69c8-ce61-aa55eca75334",
+  "digits": "5852922050",
+  "dialedNumber": "(585) 292-2050",
+  "catalogedName": "excelsior-scholarship-ny-program",
+  "sourceId": "legal-entry:excelsior-scholarship-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "excelsior-scholarship-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "fafsa-financial-aid-application-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "tap-tuition-assistance-program-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:19:32.894Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.525Z"
+  }
+}

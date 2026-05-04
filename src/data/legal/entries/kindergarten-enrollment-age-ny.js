@@ -41,7 +41,7 @@ export const KINDERGARTEN_ENROLLMENT_AGE_NY = {
 
   legalOptions: {
     en: [
-      "Each Monroe County school district has a Central Registration Office. Rochester City (585) 262-8200, Greece (585) 966-2000, Brighton (585) 242-5080, Penfield (585) 249-5700, Pittsford (585) 267-1000.",
+      "Each Monroe County school district has a Central Registration Office. Rochester City (585) 262-8200, Greece (585) 966-2000, Brighton (585) 242-5200, Penfield (585) 249-5700, Pittsford (585) 267-1000.",
       "NYS Education Department Office of P-16 at (518) 474-5920 for statewide rules.",
       "For Universal Pre-K questions, each district's UPK coordinator.",
       "Monroe County Office of the Committee on Preschool Special Education (CPSE) coordinates preschool special ed.",
@@ -62,7 +62,7 @@ export const KINDERGARTEN_ENROLLMENT_AGE_NY = {
       qualifier: "Any Rochester City family",
       access: "Phone, in-person at 131 W Broad St Rochester",
       outcome: "Enrollment processing, UPK placement",
-      phone: "(585) 262-8200",
+      phone: "",
       url: "https://www.rcsdk12.org/enroll",
       verified: true,
       bilingual: true,
@@ -75,7 +75,7 @@ export const KINDERGARTEN_ENROLLMENT_AGE_NY = {
       qualifier: "Any NY family",
       access: "Phone, website resources",
       outcome: "Rule clarification, district policy guidance",
-      phone: "(518) 474-5920",
+      phone: "",
       url: "https://www.nysed.gov/early-learning",
       verified: true,
       bilingual: true,

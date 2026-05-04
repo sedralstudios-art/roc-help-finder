@@ -1,0 +1,29 @@
+{
+  "callId": "e3238f16-9d02-27dd-5c69-ac15508a2de9",
+  "digits": "8003256000",
+  "dialedNumber": "(800) 325-6000",
+  "catalogedName": "grandparent-scam-phone-ny",
+  "sourceId": "legal-entry:grandparent-scam-phone-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:12:50.164Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.852Z"
+  }
+}

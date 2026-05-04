@@ -1,0 +1,70 @@
+{
+  "digits": "5184734818",
+  "kind": "phone",
+  "primaryName": "entry-callout:504-plan-vs-iep-ny",
+  "rawValue": "(518) 473-4818",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "504-plan-vs-iep-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-discipline-rights-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-09-42-646Z_cf4966d4-0a16-6af5-373c-11f0c330e96a",
+    "meta": {
+      "callId": "cf4966d4-0a16-6af5-373c-11f0c330e96a",
+      "digits": "5184734818",
+      "dialedNumber": "(518) 473-4818",
+      "catalogedName": "504-plan-vs-iep-ny",
+      "sourceId": "legal-entry:504-plan-vs-iep-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "504-plan-vs-iep-ny"
+        },
+        {
+          "type": "entry",
+          "id": "school-discipline-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:09:42.646Z",
+      "durationSec": 21,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.503Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.363Z",
+  "lastSeededAt": "2026-05-03T19:44:16.363Z"
+}

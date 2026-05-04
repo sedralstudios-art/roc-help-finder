@@ -1,0 +1,24 @@
+{
+  "callId": "b7994acf-8fce-5d9d-1571-1ee7fa41e1b6",
+  "digits": "5853924144",
+  "dialedNumber": "(585) 392-4144",
+  "catalogedName": "Hilton Village Clerk",
+  "sourceId": "hiltonclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:04:09.736Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.811Z"
+  }
+}

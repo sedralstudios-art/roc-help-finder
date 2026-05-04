@@ -1,0 +1,29 @@
+{
+  "callId": "af7db166-e753-c226-c01e-4ad1af60614c",
+  "digits": "5184747736",
+  "dialedNumber": "(518) 474-7736",
+  "catalogedName": "nyslrs-public-pension-basics-ny",
+  "sourceId": "legal-entry:nyslrs-public-pension-basics-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nyslrs-public-pension-basics-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:30:51.632Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.992Z"
+  }
+}

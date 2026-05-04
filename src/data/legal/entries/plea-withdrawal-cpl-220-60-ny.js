@@ -42,7 +42,7 @@ export const PLEA_WITHDRAWAL_CPL_220_60_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — free representation including plea withdrawal motion practice.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — appointed private counsel.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — appointed private counsel.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense with motion experience.",
       "Legal Aid Society of Rochester at (585) 232-4090 — support for indigent defendants.",
       "NY Immigrant Representation Project at (212) 613-5000 — Padilla immigration-plea review for non-citizen defendants.",
@@ -62,7 +62,7 @@ export const PLEA_WITHDRAWAL_CPL_220_60_NY = {
       qualifier: "Indigent Monroe County defendants",
       access: "Assigned at arraignment or phone (585) 753-4300",
       outcome: "Full representation and 220.60 motion advocacy",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,
@@ -75,7 +75,7 @@ export const PLEA_WITHDRAWAL_CPL_220_60_NY = {
       qualifier: "Any Monroe County defendant",
       access: "Phone at (585) 546-2130",
       outcome: "Consultation, hourly representation",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

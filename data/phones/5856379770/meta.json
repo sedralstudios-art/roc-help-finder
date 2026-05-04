@@ -1,0 +1,59 @@
+{
+  "digits": "5856379770",
+  "kind": "phone",
+  "primaryName": "The Gathering Table (Free Meal)",
+  "rawValue": "585-637-9770",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gatheringtable",
+      "name": "The Gathering Table (Free Meal)",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-47-35-378Z_5c154619-0d56-4d94-27ac-cb29d0e2648c",
+    "meta": {
+      "callId": "5c154619-0d56-4d94-27ac-cb29d0e2648c",
+      "digits": "5856379770",
+      "dialedNumber": "5856379770",
+      "catalogedName": "The Gathering Table (Free Meal)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:47:35.378Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.571Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.432Z",
+  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+}

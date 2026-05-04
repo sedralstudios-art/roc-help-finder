@@ -58,7 +58,7 @@ export const PAYDAY_LENDING_NY = {
       qualifier: "Any consumer in New York",
       access: "Phone or online",
       outcome: "Investigation and enforcement",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: false,

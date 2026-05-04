@@ -1,0 +1,29 @@
+{
+  "callId": "9c72a731-e66f-374c-a35e-f01b62572d03",
+  "digits": "5184741762",
+  "dialedNumber": "(518) 474-1762",
+  "catalogedName": "charter-school-application-ny",
+  "sourceId": "legal-entry:charter-school-application-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charter-school-application-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:57:09.698Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.738Z"
+  }
+}

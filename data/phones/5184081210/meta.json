@@ -1,0 +1,61 @@
+{
+  "digits": "5184081210",
+  "kind": "phone",
+  "primaryName": "entry-callout:home-care-aide-wage-parity-ny",
+  "rawValue": "(518) 408-1210",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-care-aide-wage-parity-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-13-48-414Z_c664f294-9704-ef03-8bc1-276ad7322be0",
+    "meta": {
+      "callId": "c664f294-9704-ef03-8bc1-276ad7322be0",
+      "digits": "5184081210",
+      "dialedNumber": "(518) 408-1210",
+      "catalogedName": "home-care-aide-wage-parity-ny",
+      "sourceId": "legal-entry:home-care-aide-wage-parity-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "home-care-aide-wage-parity-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:13:48.414Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.859Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.508Z",
+  "lastSeededAt": "2026-05-03T19:44:16.508Z"
+}

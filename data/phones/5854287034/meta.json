@@ -1,0 +1,70 @@
+{
+  "digits": "5854287034",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-car-seat-booster-ny",
+  "rawValue": "(585) 428-7034",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-car-seat-booster-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "homeowner-smoke-co-alarm-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-33-27-080Z_06e5daf0-bae1-c1e6-cd21-601b32463eb8",
+    "meta": {
+      "callId": "06e5daf0-bae1-c1e6-cd21-601b32463eb8",
+      "digits": "5854287034",
+      "dialedNumber": "(585) 428-7034",
+      "catalogedName": "child-car-seat-booster-ny",
+      "sourceId": "legal-entry:child-car-seat-booster-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-car-seat-booster-ny"
+        },
+        {
+          "type": "entry",
+          "id": "homeowner-smoke-co-alarm-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:33:27.080Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.579Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.381Z",
+  "lastSeededAt": "2026-05-03T19:44:16.381Z"
+}

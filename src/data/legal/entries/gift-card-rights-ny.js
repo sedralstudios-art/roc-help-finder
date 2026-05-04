@@ -60,7 +60,7 @@ export const GIFT_CARD_RIGHTS_NY = {
       qualifier: "Any consumer in New York",
       access: "Phone or online",
       outcome: "Investigation, mediation",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau",
       verified: true,
       bilingual: false,

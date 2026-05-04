@@ -1,0 +1,59 @@
+{
+  "digits": "5854207610",
+  "kind": "phone",
+  "primaryName": "Family Promise (Homeless Families)",
+  "rawValue": "585-420-7610",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "fpgroc",
+      "name": "Family Promise (Homeless Families)",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-21-55-368Z_b40eb17a-c24e-e3d2-433a-31e81f684134",
+    "meta": {
+      "callId": "b40eb17a-c24e-e3d2-433a-31e81f684134",
+      "digits": "5854207610",
+      "dialedNumber": "5854207610",
+      "catalogedName": "Family Promise (Homeless Families)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:21:55.368Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.387Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.417Z",
+  "lastSeededAt": "2026-05-03T19:44:16.417Z"
+}

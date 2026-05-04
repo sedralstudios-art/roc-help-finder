@@ -1,0 +1,29 @@
+{
+  "callId": "ff859ef5-e8ea-e112-662e-2b6edf5e3bdd",
+  "digits": "5184748855",
+  "dialedNumber": "(518) 474-8855",
+  "catalogedName": "notice-of-claim-municipal-ny",
+  "sourceId": "legal-entry:notice-of-claim-municipal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "notice-of-claim-municipal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:29:11.800Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.982Z"
+  }
+}

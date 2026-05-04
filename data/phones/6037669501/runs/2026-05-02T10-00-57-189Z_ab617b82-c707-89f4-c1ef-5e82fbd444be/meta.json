@@ -1,0 +1,24 @@
+{
+  "callId": "ab617b82-c707-89f4-c1ef-5e82fbd444be",
+  "digits": "6037669501",
+  "dialedNumber": "6037669501",
+  "catalogedName": "Angel Flight NE (Free Medical Flights)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:00:57.189Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.727Z"
+  }
+}

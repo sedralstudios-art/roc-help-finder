@@ -1,0 +1,29 @@
+{
+  "callId": "ec16fe86-c875-4448-0929-4dea0691ed16",
+  "digits": "5853367287",
+  "dialedNumber": "(585) 336-7287",
+  "catalogedName": "shed-permit-rules-ny",
+  "sourceId": "legal-entry:shed-permit-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:45:33.620Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.094Z"
+  }
+}

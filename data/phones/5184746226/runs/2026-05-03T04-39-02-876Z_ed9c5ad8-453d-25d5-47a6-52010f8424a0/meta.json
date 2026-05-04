@@ -1,0 +1,41 @@
+{
+  "callId": "ed9c5ad8-453d-25d5-47a6-52010f8424a0",
+  "digits": "5184746226",
+  "dialedNumber": "(518) 474-6226",
+  "catalogedName": "burial-cremation-rights-low-income-ny",
+  "sourceId": "legal-entry:burial-cremation-rights-low-income-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "burial-cremation-rights-low-income-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-burial-plot-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-plot-abandoned-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:39:02.876Z",
+  "durationSec": 8,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.393Z"
+  }
+}

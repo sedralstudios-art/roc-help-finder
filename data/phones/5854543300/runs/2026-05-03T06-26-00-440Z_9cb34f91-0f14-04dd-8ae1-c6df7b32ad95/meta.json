@@ -1,0 +1,29 @@
+{
+  "callId": "9cb34f91-0f14-04dd-8ae1-c6df7b32ad95",
+  "digits": "5854543300",
+  "dialedNumber": "(585) 454-3300",
+  "catalogedName": "motorcycle-helmet-and-safety-ny",
+  "sourceId": "legal-entry:motorcycle-helmet-and-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:26:00.440Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.942Z"
+  }
+}

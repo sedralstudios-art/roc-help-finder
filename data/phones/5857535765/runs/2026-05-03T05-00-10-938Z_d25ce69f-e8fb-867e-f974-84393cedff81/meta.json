@@ -1,0 +1,37 @@
+{
+  "callId": "d25ce69f-e8fb-867e-f974-84393cedff81",
+  "digits": "5857535765",
+  "dialedNumber": "585-753-5765",
+  "catalogedName": "MC.fosterCareIntake",
+  "sourceId": "pole:MC.fosterCareIntake",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "MC.fosterCareIntake"
+    },
+    {
+      "type": "entry",
+      "id": "foster-care-bill-of-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "foster-parent-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:00:10.938Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.481Z"
+  }
+}

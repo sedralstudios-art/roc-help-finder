@@ -1,0 +1,24 @@
+{
+  "callId": "6fd7ec8c-8b0c-7ad6-e0d0-b142cfed141c",
+  "digits": "5855462595",
+  "dialedNumber": "(585) 546-2595",
+  "catalogedName": "Planned Parenthood",
+  "sourceId": "pp",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:21:06.250Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.704Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "digits": "8666978487",
+  "kind": "phone",
+  "primaryName": "entry-callout:no-smoking-at-work-ny",
+  "rawValue": "1-866-697-8487",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny",
+      "line": 92
+    },
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-22-52-366Z_ae9b41a1-0aba-5c88-f363-94236f97d977",
+    "meta": {
+      "callId": "ae9b41a1-0aba-5c88-f363-94236f97d977",
+      "digits": "8666978487",
+      "dialedNumber": "1-866-697-8487",
+      "catalogedName": "no-smoking-at-work-ny",
+      "sourceId": "legal-entry:no-smoking-at-work-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "no-smoking-at-work-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tobacco-retailer-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:22:52.366Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.869Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.403Z",
+  "lastSeededAt": "2026-05-03T19:44:16.403Z"
+}

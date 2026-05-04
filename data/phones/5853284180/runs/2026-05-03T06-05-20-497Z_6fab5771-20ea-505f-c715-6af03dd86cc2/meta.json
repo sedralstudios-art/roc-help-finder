@@ -1,0 +1,29 @@
+{
+  "callId": "6fab5771-20ea-505f-c715-6af03dd86cc2",
+  "digits": "5853284180",
+  "dialedNumber": "(585) 328-4180",
+  "catalogedName": "earned-income-tax-credit-ny",
+  "sourceId": "legal-entry:earned-income-tax-credit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "earned-income-tax-credit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:05:20.497Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.798Z"
+  }
+}

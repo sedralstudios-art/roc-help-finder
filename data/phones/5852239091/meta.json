@@ -1,0 +1,70 @@
+{
+  "digits": "5852239091",
+  "kind": "phone",
+  "primaryName": "Fairport Public Library",
+  "rawValue": "585-223-9091",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "fairportlib",
+      "name": "Fairport Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-22-01-787Z_f670eb48-8b65-381e-fdb9-c4ec3722ef1c",
+    "meta": {
+      "callId": "f670eb48-8b65-381e-fdb9-c4ec3722ef1c",
+      "digits": "5852239091",
+      "dialedNumber": "5852239091",
+      "catalogedName": "Fairport Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:22:01.787Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.125Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Fairport Public Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.440Z",
+  "lastSeededAt": "2026-05-03T19:44:16.440Z",
+  "verifiedAt": "2026-05-03T20:21:01.672Z",
+  "verifiedRun": "2026-05-02T05-22-01-787Z_f670eb48-8b65-381e-fdb9-c4ec3722ef1c",
+  "verifiedTranscriptOpening": "Thank you for calling the Fairport Public Library. We are currently closed. Regular library hours are Monday through Thursday, 9 a.m. to 9 p.m., Friday, 9 a.m. to 6 p.m., and Saturday, 9 a.m. to 5 p.m",
+  "verifiedMatchTokens": [
+    "fairport",
+    "public",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

@@ -59,7 +59,7 @@ export const WELL_WATER_TESTING_NEW_HOME_NY = {
       qualifier: "Monroe County residents with private wells",
       access: "Phone at (585) 753-5555",
       outcome: "Water testing, results interpretation, treatment recommendations",
-      phone: "(585) 753-5555",
+      phone: "",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

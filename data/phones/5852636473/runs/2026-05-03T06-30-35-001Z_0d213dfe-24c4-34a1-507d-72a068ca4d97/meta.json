@@ -1,0 +1,29 @@
+{
+  "callId": "0d213dfe-24c4-34a1-507d-72a068ca4d97",
+  "digits": "5852636473",
+  "dialedNumber": "(585) 263-6473",
+  "catalogedName": "nys-sales-tax-resale-exemption-ny",
+  "sourceId": "legal-entry:nys-sales-tax-resale-exemption-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:30:35.001Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.991Z"
+  }
+}

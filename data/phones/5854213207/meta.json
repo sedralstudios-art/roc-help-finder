@@ -1,0 +1,71 @@
+{
+  "digits": "5854213207",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-fairport-village",
+  "rawValue": "(585) 421-3207",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-fairport-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-fairport-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-fairport-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-fairport-village",
+      "line": 62
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-23-47-221Z_7a0646a2-c3e5-4cc0-d6f3-57cf5d27493d",
+    "meta": {
+      "callId": "7a0646a2-c3e5-4cc0-d6f3-57cf5d27493d",
+      "digits": "5854213207",
+      "dialedNumber": "5854213207",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-fairport-village",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:23:47.221Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.391Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.326Z",
+  "lastSeededAt": "2026-05-03T19:44:16.326Z"
+}

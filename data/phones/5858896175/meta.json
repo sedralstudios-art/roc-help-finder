@@ -1,0 +1,59 @@
+{
+  "digits": "5858896175",
+  "kind": "phone",
+  "primaryName": "Chili Dog Control",
+  "rawValue": "585-889-6175",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "chilidogcontrol",
+      "name": "Chili Dog Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-44-13-792Z_c14a365d-b7f8-1504-c33a-b5ea2b25fe56",
+    "meta": {
+      "callId": "c14a365d-b7f8-1504-c33a-b5ea2b25fe56",
+      "digits": "5858896175",
+      "dialedNumber": "5858896175",
+      "catalogedName": "Chili Dog Control",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:44:13.792Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.692Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.436Z",
+  "lastSeededAt": "2026-05-03T19:44:16.436Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "4ba3258b-58a9-2c0b-5ba6-539cf90ca829",
+  "digits": "8008336917",
+  "dialedNumber": "(800) 833-6917",
+  "catalogedName": "medigap-medicare-supplement-ny",
+  "sourceId": "legal-entry:medigap-medicare-supplement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:23:30.666Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.925Z"
+  }
+}

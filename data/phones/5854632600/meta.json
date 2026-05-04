@@ -1,0 +1,77 @@
+{
+  "digits": "5854632600",
+  "kind": "phone",
+  "primaryName": "VA Healthcare (Veterans)",
+  "rawValue": "585-463-2600",
+  "blockDial": false,
+  "tags": [
+    "cat:veteranSvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "va",
+      "name": "VA Healthcare (Veterans)",
+      "category": "veteranSvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "veteran-tuition-waiver-suny-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "veterans-treatment-court-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-51-19-623Z_d50181e4-8c2c-c8f7-a98d-22b651594ebe",
+    "meta": {
+      "callId": "d50181e4-8c2c-c8f7-a98d-22b651594ebe",
+      "digits": "5854632600",
+      "dialedNumber": "5854632600",
+      "catalogedName": "VA Healthcare (Veterans)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:51:19.623Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.452Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Department of Veteran Affairs",
+      "reason": "transcript-stated name (Department of Veteran Affairs) differs from catalogued (VA Healthcare (Veterans))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.321Z",
+  "lastSeededAt": "2026-05-03T19:44:16.321Z"
+}

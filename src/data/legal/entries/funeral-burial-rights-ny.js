@@ -60,7 +60,7 @@ export const FUNERAL_BURIAL_RIGHTS_NY = {
       qualifier: "Monroe County residents without means to pay",
       access: "Phone",
       outcome: "County-funded burial or cremation",
-      phone: "(585) 753-6006",
+      phone: "",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: false,

@@ -1,0 +1,61 @@
+{
+  "digits": "5855860525",
+  "kind": "phone",
+  "primaryName": "East Rochester Community Resource Center",
+  "rawValue": "585-586-0525",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "erresource",
+      "name": "East Rochester Community Resource Center",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-15-08-263Z_9e7a0bca-fcd4-3a77-e663-cef2a5cc5e24",
+    "meta": {
+      "callId": "9e7a0bca-fcd4-3a77-e663-cef2a5cc5e24",
+      "digits": "5855860525",
+      "dialedNumber": "5855860525",
+      "catalogedName": "East Rochester Community Resource Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:15:08.263Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.502Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "East Rochester",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.439Z",
+  "lastSeededAt": "2026-05-03T19:44:16.439Z"
+}

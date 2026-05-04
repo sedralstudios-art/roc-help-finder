@@ -1,0 +1,133 @@
+{
+  "digits": "8005412831",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-health-plus-ny",
+  "rawValue": "1-800-541-2831",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-health-plus-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "disability-medicaid-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "disclaim-inheritance-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-spend-down-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "medicare-vs-medicaid-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny",
+      "line": 58
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-27-45-601Z_dd64d93d-3b54-e551-4899-65f771a738fb",
+    "meta": {
+      "callId": "dd64d93d-3b54-e551-4899-65f771a738fb",
+      "digits": "8005412831",
+      "dialedNumber": "1-800-541-2831",
+      "catalogedName": "child-health-plus-ny",
+      "sourceId": "legal-entry:child-health-plus-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-health-plus-ny"
+        },
+        {
+          "type": "entry",
+          "id": "disability-medicaid-ny"
+        },
+        {
+          "type": "entry",
+          "id": "disclaim-inheritance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hearing-aid-coverage-children-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-spend-down-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-savings-program-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-vs-medicaid-ny"
+        },
+        {
+          "type": "entry",
+          "id": "minor-medical-consent-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:27:45.601Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.027Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.286Z",
+  "lastSeededAt": "2026-05-03T19:44:16.286Z"
+}

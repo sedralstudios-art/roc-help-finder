@@ -1,0 +1,95 @@
+{
+  "digits": "5854286617",
+  "kind": "phone",
+  "primaryName": "Passport Office (City Hall)",
+  "rawValue": "585-428-6617",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "passport",
+      "name": "Passport Office (City Hall)",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "disabled-parking-permit-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "dog-leash-law-off-leash-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "domestic-partnership-registration-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "nonprofit-raffle-bingo-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-trip-fall-claim-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-31-48-210Z_75607d29-553d-9ee7-89ee-a504acad13a6",
+    "meta": {
+      "callId": "75607d29-553d-9ee7-89ee-a504acad13a6",
+      "digits": "5854286617",
+      "dialedNumber": "5854286617",
+      "catalogedName": "Passport Office (City Hall)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:31:48.210Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.408Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "City Clerk's Office",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.297Z",
+  "lastSeededAt": "2026-05-03T19:44:16.297Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:12:45.740Z",
+      "sourceUrl": "https://www.cityofrochester.gov/departments/city-clerk/passports",
+      "sourceLabel": "City of Rochester passport services page",
+      "notes": "Web confirms 585-428-6617 as Rochester Passport Office (City Clerk Licensing). May tree captured \"City Clerk's Office at City Hall, 30 Church Street, Room 100A\" — direct match."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "a2965559-8069-79a0-a964-47000f57f932",
+  "digits": "5184732492",
+  "dialedNumber": "(518) 473-2492",
+  "catalogedName": "assumed-name-dba-ny",
+  "sourceId": "legal-entry:assumed-name-dba-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny"
+    },
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny"
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny"
+    },
+    {
+      "type": "entry",
+      "id": "notarization-basics-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:13:42.905Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.252Z"
+  }
+}

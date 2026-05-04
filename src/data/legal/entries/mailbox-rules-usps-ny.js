@@ -60,7 +60,7 @@ export const MAILBOX_RULES_USPS_NY = {
       qualifier: "Anyone in the U.S.",
       access: "Phone at (877) 876-2455 or online at uspis.gov",
       outcome: "Federal investigation, prosecution referral",
-      phone: "(877) 876-2455",
+      phone: "",
       url: "https://www.uspis.gov",
       verified: true,
       bilingual: false,

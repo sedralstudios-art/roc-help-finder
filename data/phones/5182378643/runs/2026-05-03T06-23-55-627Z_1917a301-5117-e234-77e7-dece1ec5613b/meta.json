@@ -1,0 +1,29 @@
+{
+  "callId": "1917a301-5117-e234-77e7-dece1ec5613b",
+  "digits": "5182378643",
+  "dialedNumber": "(518) 237-8643",
+  "catalogedName": "metal-detecting-laws-ny",
+  "sourceId": "legal-entry:metal-detecting-laws-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "metal-detecting-laws-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:23:55.627Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.927Z"
+  }
+}

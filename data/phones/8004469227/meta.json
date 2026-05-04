@@ -1,0 +1,71 @@
+{
+  "digits": "8004469227",
+  "kind": "phone",
+  "primaryName": "entry-callout:moped-limited-use-motorcycle-ny",
+  "rawValue": "1-800-446-9227",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "moped-limited-use-motorcycle-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-26-25-412Z_e51dcb97-8ecc-6189-b064-b68184747f95",
+    "meta": {
+      "callId": "e51dcb97-8ecc-6189-b064-b68184747f95",
+      "digits": "8004469227",
+      "dialedNumber": "(800) 446-9227",
+      "catalogedName": "motorcycle-helmet-and-safety-ny",
+      "sourceId": "legal-entry:motorcycle-helmet-and-safety-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "motorcycle-helmet-and-safety-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:26:25.412Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.944Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.351Z",
+  "lastSeededAt": "2026-05-03T19:44:16.351Z"
+}

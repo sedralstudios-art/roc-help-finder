@@ -1,0 +1,29 @@
+{
+  "callId": "3eec6a75-a146-84ed-c7af-9a4ff0f3cd0b",
+  "digits": "5859224000",
+  "dialedNumber": "(585) 922-4000",
+  "catalogedName": "safe-haven-newborn-abandonment-ny",
+  "sourceId": "legal-entry:safe-haven-newborn-abandonment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:42:05.594Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.070Z"
+  }
+}

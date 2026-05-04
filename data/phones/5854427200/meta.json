@@ -1,0 +1,81 @@
+{
+  "digits": "5854427200",
+  "kind": "phone",
+  "primaryName": "entry-callout:utility-scam-impersonation-ny",
+  "rawValue": "(585) 442-7200",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "water-bill-dispute-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "water-main-break-responsibility-ny",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-04-10-721Z_994a8375-0157-ee1c-46a7-948c786b2f16",
+    "meta": {
+      "callId": "994a8375-0157-ee1c-46a7-948c786b2f16",
+      "digits": "5854427200",
+      "dialedNumber": "(585) 442-7200",
+      "catalogedName": "utility-scam-impersonation-ny",
+      "sourceId": "legal-entry:utility-scam-impersonation-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "utility-scam-impersonation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "water-bill-dispute-ny"
+        },
+        {
+          "type": "entry",
+          "id": "water-main-break-responsibility-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:04:10.721Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.482Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Customer Service Department of the Monroe County Water Authority",
+      "reason": "transcript-stated name (Customer Service Department of the Monroe County Water Authority) differs from catalogued (utility-scam-impersonation-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.353Z",
+  "lastSeededAt": "2026-05-03T19:44:16.353Z"
+}

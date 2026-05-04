@@ -1,0 +1,35 @@
+{
+  "digits": "5857533480",
+  "kind": "phone",
+  "primaryName": "entry-callout:acd-adjournment-contemplation-dismissal-ny",
+  "rawValue": "(585) 753-3480",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "acd-adjournment-contemplation-dismissal-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.335Z",
+  "lastSeededAt": "2026-05-03T19:44:16.335Z"
+}

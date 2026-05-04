@@ -1,0 +1,79 @@
+{
+  "digits": "5857535481",
+  "kind": "phone",
+  "primaryName": "Monroe County Sexual Health Clinic",
+  "rawValue": "585-753-5481",
+  "blockDial": false,
+  "tags": [
+    "cat:hivsti",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mcstd",
+      "name": "Monroe County Sexual Health Clinic",
+      "category": "hivsti",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "smoking-policy-disclosure-housing-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-09-11-119Z_b2a0d3ed-04e8-503a-8fbc-6ed6bd5a252f",
+    "meta": {
+      "callId": "b2a0d3ed-04e8-503a-8fbc-6ed6bd5a252f",
+      "digits": "5857535481",
+      "dialedNumber": "5857535481",
+      "catalogedName": "Monroe County Sexual Health Clinic",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:09:11.119Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.616Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.334Z",
+  "lastSeededAt": "2026-05-03T19:44:16.334Z",
+  "verifiedAt": "2026-05-03T20:21:01.791Z",
+  "verifiedRun": "2026-05-02T09-09-11-119Z_b2a0d3ed-04e8-503a-8fbc-6ed6bd5a252f",
+  "verifiedTranscriptOpening": "The Monroe County Sexual Health Clinic is now closed. We are located at 819 West Main Street in Rochester at the corner of Henyon Street. Please note that the clinic entrance and parking lot are locat",
+  "verifiedMatchTokens": [
+    "sexual",
+    "health",
+    "clinic"
+  ],
+  "verifiedRatio": 1
+}

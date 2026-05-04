@@ -1,0 +1,24 @@
+{
+  "callId": "ff29783f-68c1-183a-e5db-2f612397a8dd",
+  "digits": "5859221940",
+  "dialedNumber": "5859221940",
+  "catalogedName": "Hospice Bereavement Services",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:49:56.501Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.704Z"
+  }
+}

@@ -59,7 +59,7 @@ export const SCHOOL_MEALS_ELIGIBILITY_NY = {
       qualifier: "Every student in RCSD",
       access: "Automatic — no application needed",
       outcome: "Free breakfast and lunch",
-      phone: "(585) 262-8100",
+      phone: "",
       url: "https://www.rcsdk12.org/departments/food-services",
       verified: true,
       bilingual: false,

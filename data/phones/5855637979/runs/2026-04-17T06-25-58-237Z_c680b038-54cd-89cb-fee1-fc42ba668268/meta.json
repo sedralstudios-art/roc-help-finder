@@ -1,0 +1,24 @@
+{
+  "callId": "c680b038-54cd-89cb-fee1-fc42ba668268",
+  "digits": "5855637979",
+  "dialedNumber": "(585) 563-7979",
+  "catalogedName": "American Legion Post 1151 (+ local DAV office)",
+  "sourceId": "alpost1151",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:25:58.237Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.711Z"
+  }
+}

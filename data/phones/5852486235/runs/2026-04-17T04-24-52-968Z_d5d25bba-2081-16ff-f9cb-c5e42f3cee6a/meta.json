@@ -1,0 +1,24 @@
+{
+  "callId": "d5d25bba-2081-16ff-f9cb-c5e42f3cee6a",
+  "digits": "5852486235",
+  "dialedNumber": "(585) 248-6235",
+  "catalogedName": "Pittsford Seniors",
+  "sourceId": "pittsfordsenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:24:52.968Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.557Z"
+  }
+}

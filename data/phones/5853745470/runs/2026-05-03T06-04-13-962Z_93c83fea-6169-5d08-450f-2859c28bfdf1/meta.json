@@ -1,0 +1,29 @@
+{
+  "callId": "93c83fea-6169-5d08-450f-2859c28bfdf1",
+  "digits": "5853745470",
+  "dialedNumber": "(585) 374-5470",
+  "catalogedName": "e-waste-recycling-ny",
+  "sourceId": "legal-entry:e-waste-recycling-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:04:13.962Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.789Z"
+  }
+}

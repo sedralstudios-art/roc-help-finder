@@ -60,7 +60,7 @@ export const SCAFFOLD_LAW_CONSTRUCTION_240_NY = {
       qualifier: "Any NY worker injured on the job",
       access: "Phone at (877) 632-4996",
       outcome: "Benefits processing, dispute resolution",
-      phone: "(877) 632-4996",
+      phone: "",
       url: "https://www.wcb.ny.gov",
       verified: true,
       bilingual: true,

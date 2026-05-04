@@ -60,7 +60,7 @@ export const UNINSURED_MOTORIST_ACCIDENT_NY = {
       qualifier: "Any insured person in New York",
       access: "Phone or online",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: false,

@@ -1,0 +1,70 @@
+{
+  "digits": "5857531220",
+  "kind": "phone",
+  "primaryName": "entry-callout:property-tax-sale-ny",
+  "rawValue": "(585) 753-1220",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "property-tax-sale-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "slip-and-fall-premises-liability-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-32-48-895Z_40a44ca7-c969-c3c4-2f5c-4d1139f04d6d",
+    "meta": {
+      "callId": "40a44ca7-c969-c3c4-2f5c-4d1139f04d6d",
+      "digits": "5857531220",
+      "dialedNumber": "(585) 753-1220",
+      "catalogedName": "property-tax-sale-ny",
+      "sourceId": "legal-entry:property-tax-sale-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "property-tax-sale-ny"
+        },
+        {
+          "type": "entry",
+          "id": "slip-and-fall-premises-liability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:32:48.895Z",
+      "durationSec": 8,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.915Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.406Z",
+  "lastSeededAt": "2026-05-03T19:44:16.406Z"
+}

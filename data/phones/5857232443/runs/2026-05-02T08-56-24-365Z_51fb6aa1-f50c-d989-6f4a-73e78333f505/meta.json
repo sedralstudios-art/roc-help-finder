@@ -1,0 +1,24 @@
+{
+  "callId": "51fb6aa1-f50c-d989-6f4a-73e78333f505",
+  "digits": "5857232443",
+  "dialedNumber": "5857232443",
+  "catalogedName": "entry-callout:above-ground-pool-rules-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:56:24.365Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.590Z"
+  }
+}

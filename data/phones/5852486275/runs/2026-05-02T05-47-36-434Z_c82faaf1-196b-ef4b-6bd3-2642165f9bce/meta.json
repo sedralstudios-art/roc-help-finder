@@ -1,0 +1,24 @@
+{
+  "callId": "c82faaf1-196b-ef4b-6bd3-2642165f9bce",
+  "digits": "5852486275",
+  "dialedNumber": "5852486275",
+  "catalogedName": "Pittsford Community Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:47:36.434Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.184Z"
+  }
+}

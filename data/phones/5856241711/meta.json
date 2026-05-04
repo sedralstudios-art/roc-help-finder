@@ -1,0 +1,61 @@
+{
+  "digits": "5856241711",
+  "kind": "phone",
+  "primaryName": "Honeoye Falls Village Clerk",
+  "rawValue": "585-624-1711",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hfclerk",
+      "name": "Honeoye Falls Village Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-27-21-627Z_ef5546ab-abef-b01c-4499-9ce7284aab3f",
+    "meta": {
+      "callId": "ef5546ab-abef-b01c-4499-9ce7284aab3f",
+      "digits": "5856241711",
+      "dialedNumber": "5856241711",
+      "catalogedName": "Honeoye Falls Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:27:21.627Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.530Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.9,
+      "score": 0.4,
+      "extracted": "Honea Falls Village Office",
+      "reason": "jaccard 0.40"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.448Z",
+  "lastSeededAt": "2026-05-03T19:44:16.448Z"
+}

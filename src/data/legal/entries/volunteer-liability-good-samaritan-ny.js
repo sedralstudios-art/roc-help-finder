@@ -60,7 +60,7 @@ export const VOLUNTEER_LIABILITY_GOOD_SAMARITAN_NY = {
       qualifier: "Monroe County nonprofits and volunteers",
       access: "Phone at (585) 546-5110",
       outcome: "Dispute resolution, mediation",
-      phone: "(585) 546-5110",
+      phone: "",
       url: "https://www.cdsadr.org",
       verified: true,
       bilingual: false,

@@ -43,7 +43,7 @@ export const SPEEDY_TRIAL_CPL_30_30_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — free representation including 30.30 motions.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — appointed private counsel for indigent defendants.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — appointed private counsel for indigent defendants.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense attorneys.",
       "Legal Aid Society of Rochester at (585) 232-4090 — support for indigent defendants in misdemeanor matters.",
       "Federal Public Defender Western District NY at (716) 551-3341 — federal parallel proceedings where applicable.",
@@ -64,7 +64,7 @@ export const SPEEDY_TRIAL_CPL_30_30_NY = {
       qualifier: "Indigent Monroe County defendants",
       access: "Assigned at arraignment or phone (585) 753-4300",
       outcome: "Full representation through trial and speedy-trial advocacy",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,
@@ -77,7 +77,7 @@ export const SPEEDY_TRIAL_CPL_30_30_NY = {
       qualifier: "Any Monroe County defendant",
       access: "Phone at (585) 546-2130",
       outcome: "30-minute consultation, hourly or flat-fee representation",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

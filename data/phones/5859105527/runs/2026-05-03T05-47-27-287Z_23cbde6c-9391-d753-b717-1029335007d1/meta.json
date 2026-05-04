@@ -1,0 +1,29 @@
+{
+  "callId": "23cbde6c-9391-d753-b717-1029335007d1",
+  "digits": "5859105527",
+  "dialedNumber": "585-910-5527",
+  "catalogedName": "Recovery Houses of Rochester",
+  "sourceId": "recoveryhousesroc",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "recoveryhousesroc"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:47:27.287Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.670Z"
+  }
+}

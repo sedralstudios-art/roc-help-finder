@@ -1,0 +1,24 @@
+{
+  "callId": "abe17930-192b-3b56-fea7-25485c83b439",
+  "digits": "5853366055",
+  "dialedNumber": "5853366055",
+  "catalogedName": "Irondequoit Assessor",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:43:51.367Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.304Z"
+  }
+}

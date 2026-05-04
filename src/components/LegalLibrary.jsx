@@ -11,6 +11,15 @@ import { LEGAL_ENTRIES, LEGAL_ENTRIES_BY_ID, LEGAL_ENTRIES_BY_CATEGORY, LEGAL_CA
 import { GLOSSARY_TERMS_BY_CATEGORY } from "../data/legal/glossary-index";
 import GlossaryText from "./GlossaryTooltip";
 import { LEGAL_LANGS, RTL_LEGAL_LANGS } from "../data/legal/langs";
+import callerIdManifest from "../data/caller-id-manifest.json";
+
+function callerIdFor(ph) {
+  if (!ph) return null;
+  const d = String(ph).replace(/\D/g, '');
+  const norm = d.length === 11 && d.startsWith('1') ? d.substring(1) : d;
+  if (norm.length !== 10) return null;
+  return callerIdManifest[norm] || null;
+}
 
 const C = {
   forest: "#2e7d32", leaf: "#43a047", sage: "#e8f5e9",
@@ -1001,6 +1010,24 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
                     </a>
                   )}
                 </div>
+                {(() => {
+                  const cid = callerIdFor(c.phone);
+                  if (!cid) return null;
+                  return (
+                    <div style={{ marginTop: 10 }}>
+                      <img
+                        src={"/" + cid.file}
+                        alt={"Verified caller ID for " + (c.name || "this organization")}
+                        loading="lazy"
+                        style={{ display: "block", width: "100%", maxWidth: 320, height: "auto",
+                                 border: "1px solid " + C.sage, borderRadius: 6 }}
+                      />
+                      <div style={{ fontSize: 11, color: C.dust, marginTop: 4 }}>
+                        Caller ID a HelpFinder verification call captured from this number.
+                      </div>
+                    </div>
+                  );
+                })()}
               </div>
             ))}
           </div>

@@ -1,0 +1,29 @@
+{
+  "callId": "2abdd9f6-3ff5-c768-baea-66377b092d94",
+  "digits": "8004325191",
+  "dialedNumber": "(800) 432-5191",
+  "catalogedName": "electrical-residential-ny-mon-penfield-town",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-penfield-town",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-penfield-town"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:06:10.419Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.804Z"
+  }
+}

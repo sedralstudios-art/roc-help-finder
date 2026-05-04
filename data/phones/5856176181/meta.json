@@ -1,0 +1,70 @@
+{
+  "digits": "5856176181",
+  "kind": "phone",
+  "primaryName": "Ogden Farmers' Library",
+  "rawValue": "585-617-6181",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ogdenlib",
+      "name": "Ogden Farmers' Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-24-27-105Z_ca3dd4ca-78cf-e2c0-d4c7-9b97784d2734",
+    "meta": {
+      "callId": "ca3dd4ca-78cf-e2c0-d4c7-9b97784d2734",
+      "digits": "5856176181",
+      "dialedNumber": "5856176181",
+      "catalogedName": "Ogden Farmers' Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:24:27.105Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.523Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Ogden Farmers Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.451Z",
+  "lastSeededAt": "2026-05-03T19:44:16.451Z",
+  "verifiedAt": "2026-05-03T20:21:01.767Z",
+  "verifiedRun": "2026-05-02T08-24-27-105Z_ca3dd4ca-78cf-e2c0-d4c7-9b97784d2734",
+  "verifiedTranscriptOpening": "You have reached Ogden Farmers Library. We are closed on Friday, April 24th for staff development. We will reopen on Saturday, April 25th at 9 a.m. You may leave a message and we'll get back to you as",
+  "verifiedMatchTokens": [
+    "ogden",
+    "farmers",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

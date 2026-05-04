@@ -1,0 +1,88 @@
+{
+  "digits": "5184027600",
+  "kind": "phone",
+  "primaryName": "entry-callout:federal-lead-paint-disclosure-ny",
+  "rawValue": "(518) 402-7600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-renovation-rule-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "restaurant-food-inspection-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-48-19-381Z_7b518124-869c-3898-a2b2-b1365d995a02",
+    "meta": {
+      "callId": "7b518124-869c-3898-a2b2-b1365d995a02",
+      "digits": "5184027600",
+      "dialedNumber": "(518) 402-7600",
+      "catalogedName": "federal-lead-paint-disclosure-ny",
+      "sourceId": "legal-entry:federal-lead-paint-disclosure-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "federal-lead-paint-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lead-paint-renovation-rule-ny"
+        },
+        {
+          "type": "entry",
+          "id": "restaurant-food-inspection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "summer-camp-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:48:19.381Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.440Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.328Z",
+  "lastSeededAt": "2026-05-03T19:44:16.328Z"
+}

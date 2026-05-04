@@ -1,0 +1,72 @@
+{
+  "digits": "5859647420",
+  "kind": "phone",
+  "primaryName": "Life Solutions of Hamlin (Food Pantry)",
+  "rawValue": "585-964-7420",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "lifesolutionsfood",
+      "name": "Life Solutions of Hamlin (Food Pantry)",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-56-16-472Z_ab58e111-48e1-e521-f5c4-bc05d5c4e5ac",
+    "meta": {
+      "callId": "ab58e111-48e1-e521-f5c4-bc05d5c4e5ac",
+      "digits": "5859647420",
+      "dialedNumber": "5859647420",
+      "catalogedName": "Life Solutions of Hamlin (Food Pantry)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:56:16.472Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.716Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6,
+      "extracted": "Life Solutions of Hamlin",
+      "reason": "jaccard 0.60"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.443Z",
+  "lastSeededAt": "2026-05-03T19:44:16.443Z",
+  "verifiedAt": "2026-05-03T20:21:01.813Z",
+  "verifiedRun": "2026-05-02T09-56-16-472Z_ab58e111-48e1-e521-f5c4-bc05d5c4e5ac",
+  "verifiedTranscriptOpening": "You have reached Life Solutions of Hamlin. If you would like to make an appointment for the food pantry, please leave your name and number and I will call you back as soon as possible. If you are call",
+  "verifiedMatchTokens": [
+    "life",
+    "solutions",
+    "hamlin",
+    "food",
+    "pantry"
+  ],
+  "verifiedRatio": 1
+}

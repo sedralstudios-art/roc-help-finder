@@ -1,0 +1,61 @@
+{
+  "digits": "5857537100",
+  "kind": "phone",
+  "primaryName": "entry-callout:real-estate-transfer-tax-ny",
+  "rawValue": "(585) 753-7100",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-39-19-208Z_076f57bf-60d5-dfe5-38cb-e9dc00c55aba",
+    "meta": {
+      "callId": "076f57bf-60d5-dfe5-38cb-e9dc00c55aba",
+      "digits": "5857537100",
+      "dialedNumber": "(585) 753-7100",
+      "catalogedName": "real-estate-transfer-tax-ny",
+      "sourceId": "legal-entry:real-estate-transfer-tax-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "real-estate-transfer-tax-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:39:19.208Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.051Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.556Z",
+  "lastSeededAt": "2026-05-03T19:44:16.556Z"
+}

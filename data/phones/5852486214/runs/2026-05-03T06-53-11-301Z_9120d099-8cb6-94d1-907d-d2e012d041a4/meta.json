@@ -1,0 +1,29 @@
+{
+  "callId": "9120d099-8cb6-94d1-907d-d2e012d041a4",
+  "digits": "5852486214",
+  "dialedNumber": "585-248-6214",
+  "catalogedName": "volunteer-firefighter-property-tax-exemption-ny",
+  "sourceId": "legal-entry:volunteer-firefighter-property-tax-exemption-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:53:11.301Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.147Z"
+  }
+}

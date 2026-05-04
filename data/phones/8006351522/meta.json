@@ -1,0 +1,61 @@
+{
+  "digits": "8006351522",
+  "kind": "phone",
+  "primaryName": "entry-callout:mandated-reporter-child-abuse-ny",
+  "rawValue": "1-800-635-1522",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mandated-reporter-child-abuse-ny",
+      "line": 31
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-21-50-840Z_d90c928d-31e6-5ff0-1f4c-81008dcef701",
+    "meta": {
+      "callId": "d90c928d-31e6-5ff0-1f4c-81008dcef701",
+      "digits": "8006351522",
+      "dialedNumber": "1-800-635-1522",
+      "catalogedName": "mandated-reporter-child-abuse-ny",
+      "sourceId": "legal-entry:mandated-reporter-child-abuse-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mandated-reporter-child-abuse-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:21:50.840Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.913Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.522Z",
+  "lastSeededAt": "2026-05-03T19:44:16.522Z"
+}

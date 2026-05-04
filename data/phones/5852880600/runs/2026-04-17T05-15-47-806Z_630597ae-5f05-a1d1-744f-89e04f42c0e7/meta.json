@@ -1,0 +1,24 @@
+{
+  "callId": "630597ae-5f05-a1d1-744f-89e04f42c0e7",
+  "digits": "5852880600",
+  "dialedNumber": "(585) 288-0600",
+  "catalogedName": "Rochester Community Animal Clinic",
+  "sourceId": "rcac",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:15:47.806Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.625Z"
+  }
+}

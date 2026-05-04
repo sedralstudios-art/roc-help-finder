@@ -1,0 +1,29 @@
+{
+  "callId": "cd1f82aa-8314-b1ea-73d9-b46d2949532a",
+  "digits": "5857534600",
+  "dialedNumber": "(585) 753-4600",
+  "catalogedName": "inmate-visitation-communication-ny",
+  "sourceId": "legal-entry:inmate-visitation-communication-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:16:34.726Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.877Z"
+  }
+}

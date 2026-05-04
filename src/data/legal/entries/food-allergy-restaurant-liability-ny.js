@@ -60,7 +60,7 @@ export const FOOD_ALLERGY_RESTAURANT_LIABILITY_NY = {
       qualifier: "Monroe County residents and businesses",
       access: "Phone at (585) 753-5555",
       outcome: "Restaurant inspection, complaint investigation, compliance enforcement",
-      phone: "(585) 753-5555",
+      phone: "",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

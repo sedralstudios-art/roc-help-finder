@@ -1,0 +1,24 @@
+{
+  "digits": "8003955755",
+  "kind": "phone",
+  "primaryName": "GriefShare National Helpline",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "griefshare"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:32:50.463Z",
+      "sourceUrl": "https://www.griefshare.org/contact",
+      "sourceLabel": "GriefShare official contact page",
+      "notes": "Web confirms 800-395-5755 as GriefShare national helpline. Local Rochester groups are church-hosted; users find a group via the URL."
+    }
+  ]
+}

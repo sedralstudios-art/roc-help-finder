@@ -1,0 +1,61 @@
+{
+  "digits": "5857534545",
+  "kind": "phone",
+  "primaryName": "entry-callout:dwi-first-offense-ny",
+  "rawValue": "(585) 753-4545",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-03-57-332Z_cfe3e939-c803-5c51-724b-83bc414b2378",
+    "meta": {
+      "callId": "cfe3e939-c803-5c51-724b-83bc414b2378",
+      "digits": "5857534545",
+      "dialedNumber": "(585) 753-4545",
+      "catalogedName": "dwi-first-offense-ny",
+      "sourceId": "legal-entry:dwi-first-offense-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "dwi-first-offense-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:03:57.332Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.787Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.490Z",
+  "lastSeededAt": "2026-05-03T19:44:16.490Z"
+}

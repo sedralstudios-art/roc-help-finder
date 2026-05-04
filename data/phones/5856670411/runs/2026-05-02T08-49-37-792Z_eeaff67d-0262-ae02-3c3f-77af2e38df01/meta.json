@@ -1,0 +1,24 @@
+{
+  "callId": "eeaff67d-0262-ae02-3c3f-77af2e38df01",
+  "digits": "5856670411",
+  "dialedNumber": "5856670411",
+  "catalogedName": "Gathering Place Webster (Free Meals)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:49:37.792Z",
+  "durationSec": 25,
+  "status": "no_audio",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.575Z"
+  }
+}

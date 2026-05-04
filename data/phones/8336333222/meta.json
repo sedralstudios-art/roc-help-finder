@@ -1,0 +1,81 @@
+{
+  "digits": "8336333222",
+  "kind": "phone",
+  "primaryName": "entry-callout:ny-paid-family-leave",
+  "rawValue": "(833) 633-3222",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-paid-family-leave",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pregnancy-discrimination-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-workers-fairness-act-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-59-16-220Z_c03ce8b4-0a30-cf30-c038-977bbf3a566e",
+    "meta": {
+      "callId": "c03ce8b4-0a30-cf30-c038-977bbf3a566e",
+      "digits": "8336333222",
+      "dialedNumber": "(833) 633-3222",
+      "catalogedName": "ny-paid-family-leave",
+      "sourceId": "legal-entry:ny-paid-family-leave",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ny-paid-family-leave"
+        },
+        {
+          "type": "entry",
+          "id": "pregnancy-discrimination-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pregnant-workers-fairness-act-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:59:16.220Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.455Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "a Better Balances free and confidential legal helpline",
+      "reason": "transcript-stated name (a Better Balances free and confidential legal helpline) differs from catalogued (ny-paid-family-leave)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.352Z",
+  "lastSeededAt": "2026-05-03T19:44:16.352Z"
+}

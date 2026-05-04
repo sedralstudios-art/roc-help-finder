@@ -1,0 +1,78 @@
+{
+  "digits": "5857845260",
+  "kind": "phone",
+  "primaryName": "Brighton Recreation & Parks",
+  "rawValue": "585-784-5260",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonrec",
+      "name": "Brighton Recreation & Parks",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-19-48-547Z_11f88376-fef6-429e-71bc-aa4b36ae7e3d",
+    "meta": {
+      "callId": "11f88376-fef6-429e-71bc-aa4b36ae7e3d",
+      "digits": "5857845260",
+      "dialedNumber": "5857845260",
+      "catalogedName": "Brighton Recreation & Parks",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:19:48.547Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.639Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.75,
+      "extracted": "Town of Brighton Recreation and Parks Department",
+      "reason": "jaccard 0.75"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.431Z",
+  "lastSeededAt": "2026-05-03T19:44:16.431Z",
+  "verifiedAt": "2026-05-03T20:21:01.799Z",
+  "verifiedRun": "2026-05-02T09-19-48-547Z_11f88376-fef6-429e-71bc-aa4b36ae7e3d",
+  "verifiedTranscriptOpening": "Thank you for calling the Town of Brighton Recreation and Parks Department. The department is now closed. Business hours are Monday through Friday from 9 a.m. to 5 p.m. For lodge and parks information",
+  "verifiedMatchTokens": [
+    "brighton",
+    "recreation",
+    "parks"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:16:45.407Z",
+      "sourceUrl": "https://www.brightonny.gov/220/Recreation-and-Parks",
+      "sourceLabel": "Town of Brighton Recreation and Parks page",
+      "notes": "Web confirms (585) 784-5260 for Brighton Recreation & Parks main line. After-hours Parks Facility number is 585-208-3344 (separate, not used here). Earlier audit noted screenshot showed Lynch Woods Nature Park branding — that is a Brighton-rec sub-facility, consistent with parent department."
+    }
+  ]
+}

@@ -57,7 +57,7 @@ export const JURY_DUTY_RIGHTS_NY = {
       qualifier: "Any worker in Monroe County",
       access: "Phone",
       outcome: "Investigation and criminal prosecution",
-      phone: "(585) 753-4500",
+      phone: "",
       url: "https://www.monroecounty.gov/da",
       verified: true,
       bilingual: false,

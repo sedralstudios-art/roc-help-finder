@@ -1,0 +1,70 @@
+{
+  "digits": "5853366040",
+  "kind": "phone",
+  "primaryName": "Irondequoit Town Court",
+  "rawValue": "585-336-6040",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "irondequoitcourt",
+      "name": "Irondequoit Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-42-11-019Z_92bba221-0a5f-71ce-4d88-a6dd355f9fe9",
+    "meta": {
+      "callId": "92bba221-0a5f-71ce-4d88-a6dd355f9fe9",
+      "digits": "5853366040",
+      "dialedNumber": "5853366040",
+      "catalogedName": "Irondequoit Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:42:11.019Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.300Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Irondequoit Town Court",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.449Z",
+  "lastSeededAt": "2026-05-03T19:44:16.449Z",
+  "verifiedAt": "2026-05-03T20:21:01.716Z",
+  "verifiedRun": "2026-05-02T06-42-11-019Z_92bba221-0a5f-71ce-4d88-a6dd355f9fe9",
+  "verifiedTranscriptOpening": "Thank you for calling the Irondequoit Town Court. Office hours are Monday through Thursday, 9 a.m. to 5 p.m. and Friday, 8 a.m. to 4 p.m. If you know your party's extension, you may enter it at any ti",
+  "verifiedMatchTokens": [
+    "irondequoit",
+    "town",
+    "court"
+  ],
+  "verifiedRatio": 1
+}

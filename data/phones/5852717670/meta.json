@@ -1,0 +1,80 @@
+{
+  "digits": "5852717670",
+  "kind": "phone",
+  "primaryName": "Center for Youth (Runaway/Homeless Youth)",
+  "rawValue": "585-271-7670",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "cfy",
+      "name": "Center for Youth (Runaway/Homeless Youth)",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "pins-petition-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "replacement-birth-certificate-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "rochester-housing-authority-waitlist-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-33-07-351Z_ea7bfdce-33ea-a256-260b-197673bbca13",
+    "meta": {
+      "callId": "ea7bfdce-33ea-a256-260b-197673bbca13",
+      "digits": "5852717670",
+      "dialedNumber": "5852717670",
+      "catalogedName": "Center for Youth (Runaway/Homeless Youth)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:33:07.351Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.804Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.306Z",
+  "lastSeededAt": "2026-05-03T19:44:16.306Z"
+}

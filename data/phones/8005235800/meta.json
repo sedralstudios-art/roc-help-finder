@@ -1,0 +1,61 @@
+{
+  "digits": "8005235800",
+  "kind": "phone",
+  "primaryName": "entry-callout:medigap-medicare-supplement-ny",
+  "rawValue": "(800) 523-5800",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-23-05-706Z_a3f73fd6-0a3e-80a6-4e70-1b4437962204",
+    "meta": {
+      "callId": "a3f73fd6-0a3e-80a6-4e70-1b4437962204",
+      "digits": "8005235800",
+      "dialedNumber": "(800) 523-5800",
+      "catalogedName": "medigap-medicare-supplement-ny",
+      "sourceId": "legal-entry:medigap-medicare-supplement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "medigap-medicare-supplement-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:23:05.706Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.922Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.524Z",
+  "lastSeededAt": "2026-05-03T19:44:16.524Z"
+}

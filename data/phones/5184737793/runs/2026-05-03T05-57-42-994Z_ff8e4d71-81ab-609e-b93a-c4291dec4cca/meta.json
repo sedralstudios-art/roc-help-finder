@@ -1,0 +1,29 @@
+{
+  "callId": "ff8e4d71-81ab-609e-b93a-c4291dec4cca",
+  "digits": "5184737793",
+  "dialedNumber": "(518) 473-7793",
+  "catalogedName": "child-protective-services-process-ny",
+  "sourceId": "legal-entry:child-protective-services-process-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-protective-services-process-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:57:42.994Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.742Z"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "callId": "a55cc26d-f8d0-ca5e-f59e-358414acea0d",
+  "digits": "5184747354",
+  "dialedNumber": "(518) 474-7354",
+  "catalogedName": "food-allergy-restaurant-liability-ny",
+  "sourceId": "legal-entry:food-allergy-restaurant-liability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "food-allergy-restaurant-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "kids-selling-lemonade-stand-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medical-power-of-attorney-disputes-ny"
+    },
+    {
+      "type": "entry",
+      "id": "telehealth-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:48:48.790Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.442Z"
+  }
+}

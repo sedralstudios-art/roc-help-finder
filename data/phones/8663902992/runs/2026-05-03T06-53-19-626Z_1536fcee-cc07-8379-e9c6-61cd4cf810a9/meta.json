@@ -1,0 +1,29 @@
+{
+  "callId": "1536fcee-cc07-8379-e9c6-61cd4cf810a9",
+  "digits": "8663902992",
+  "dialedNumber": "(866) 390-2992",
+  "catalogedName": "voter-rights-ny",
+  "sourceId": "legal-entry:voter-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "voter-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:53:19.626Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.148Z"
+  }
+}

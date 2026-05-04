@@ -1,0 +1,83 @@
+{
+  "digits": "5858651550",
+  "kind": "phone",
+  "primaryName": "Villa of Hope (Mental Health)",
+  "rawValue": "585-865-1550",
+  "blockDial": false,
+  "tags": [
+    "cat:mental",
+    "cat:youth",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "villa",
+      "name": "Villa of Hope (Mental Health)",
+      "category": "mental",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "villaofhopeyouth",
+      "name": "Villa of Hope (Youth Services)",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "pins-petition-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-23-50-770Z_3d4a42b1-c6ae-8bae-937e-6ba80c0bb40e",
+    "meta": {
+      "callId": "3d4a42b1-c6ae-8bae-937e-6ba80c0bb40e",
+      "digits": "5858651550",
+      "dialedNumber": "5858651550",
+      "catalogedName": "Villa of Hope (Mental Health)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:23:50.770Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.647Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Villa of Hope",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.333Z",
+  "lastSeededAt": "2026-05-03T19:44:16.333Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:25:43.603Z",
+      "sourceUrl": "https://www.villaofhope.org",
+      "sourceLabel": "Villa of Hope official site",
+      "notes": "Web confirms (585) 865-1550 main + 585-581-4673 services line for Villa of Hope."
+    }
+  ]
+}

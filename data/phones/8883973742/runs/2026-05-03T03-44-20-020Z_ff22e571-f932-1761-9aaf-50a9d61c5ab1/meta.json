@@ -1,0 +1,53 @@
+{
+  "callId": "ff22e571-f932-1761-9aaf-50a9d61c5ab1",
+  "digits": "8883973742",
+  "dialedNumber": "(888) 397-3742",
+  "catalogedName": "credit-freeze-security-freeze-ny",
+  "sourceId": "legal-entry:credit-freeze-security-freeze-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-freeze-security-freeze-ny"
+    },
+    {
+      "type": "entry",
+      "id": "free-annual-credit-report-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:44:20.020Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.114Z"
+  }
+}

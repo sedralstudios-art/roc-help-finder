@@ -1,0 +1,126 @@
+{
+  "digits": "5857536006",
+  "kind": "phone",
+  "primaryName": "entry-callout:cdpap-consumer-directed-care-ny",
+  "rawValue": "(585) 753-6006",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cdpap-consumer-directed-care-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "funeral-burial-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "funeral-home-price-disclosure-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-estate-recovery-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "snap-work-requirements-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "telehealth-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-35-15-641Z_d2d9444a-589c-97e6-f1a6-c6468d8fbe5f",
+    "meta": {
+      "callId": "d2d9444a-589c-97e6-f1a6-c6468d8fbe5f",
+      "digits": "5857536006",
+      "dialedNumber": "(585) 753-6006",
+      "catalogedName": "cdpap-consumer-directed-care-ny",
+      "sourceId": "legal-entry:cdpap-consumer-directed-care-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cdpap-consumer-directed-care-ny"
+        },
+        {
+          "type": "entry",
+          "id": "emergency-shelter-warming-center-ny"
+        },
+        {
+          "type": "entry",
+          "id": "funeral-burial-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "funeral-home-price-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-estate-recovery-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-work-requirements-ny"
+        },
+        {
+          "type": "entry",
+          "id": "telehealth-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "weatherization-assistance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:35:15.641Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.063Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Department of Human Services New York State Benefit Card Replacement Line",
+      "reason": "transcript-stated name (Monroe County Department of Human Services New York State Benefit Card Replacement Line) differs from catalogued (cdpap-consumer-directed-care-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.290Z",
+  "lastSeededAt": "2026-05-03T19:44:16.290Z"
+}

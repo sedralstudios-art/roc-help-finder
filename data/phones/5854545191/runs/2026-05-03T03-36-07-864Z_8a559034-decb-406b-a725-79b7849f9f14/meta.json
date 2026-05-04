@@ -1,0 +1,57 @@
+{
+  "callId": "8a559034-decb-406b-a725-79b7849f9f14",
+  "digits": "5854545191",
+  "dialedNumber": "(585) 454-5191",
+  "catalogedName": "electrical-residential-ny-mon-brighton-town",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-brighton-town",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-brighton-town"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-clarkson-town"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-east-rochester-village"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-greece-town"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-hamlin-town"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-penfield-town"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-sweden-town"
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-webster-town"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:36:07.864Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.069Z"
+  }
+}

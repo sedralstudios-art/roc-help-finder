@@ -1,0 +1,61 @@
+{
+  "digits": "5857535070",
+  "kind": "phone",
+  "primaryName": "entry-callout:hearing-aid-coverage-children-ny",
+  "rawValue": "(585) 753-5070",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-13-15-134Z_94a53c8c-a30e-8964-e317-3d70befe673e",
+    "meta": {
+      "callId": "94a53c8c-a30e-8964-e317-3d70befe673e",
+      "digits": "5857535070",
+      "dialedNumber": "(585) 753-5070",
+      "catalogedName": "hearing-aid-coverage-children-ny",
+      "sourceId": "legal-entry:hearing-aid-coverage-children-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hearing-aid-coverage-children-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:13:15.134Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.854Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.507Z",
+  "lastSeededAt": "2026-05-03T19:44:16.507Z"
+}

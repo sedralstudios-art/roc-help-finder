@@ -1,0 +1,29 @@
+{
+  "callId": "e0ac47f9-7660-cdfe-768e-51955c60ef76",
+  "digits": "2123067450",
+  "dialedNumber": "(212) 306-7450",
+  "catalogedName": "pay-transparency-salary-range-ny",
+  "sourceId": "legal-entry:pay-transparency-salary-range-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pay-transparency-salary-range-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:32:48.224Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.006Z"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "digits": "5857535437",
+  "kind": "phone",
+  "primaryName": "Healthy Families Monroe County",
+  "rawValue": "585-753-5437",
+  "blockDial": false,
+  "tags": [
+    "cat:childcare",
+    "cat:disabilitySvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "healthyfam",
+      "name": "Healthy Families Monroe County",
+      "category": "childcare",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "nfp",
+      "name": "Nurse-Family Partnership",
+      "category": "childcare",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "earlyint",
+      "name": "Early Intervention (Ages 0-3)",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "cpse",
+      "name": "Preschool Special Ed (Ages 3-5)",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "wic-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-08-06-478Z_6a46cd90-6238-6782-2dfd-37c75dd060d8",
+    "meta": {
+      "callId": "6a46cd90-6238-6782-2dfd-37c75dd060d8",
+      "digits": "5857535437",
+      "dialedNumber": "5857535437",
+      "catalogedName": "Healthy Families Monroe County",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:08:06.478Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.613Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.09090909090909091,
+      "extracted": "Monroe County Department of Public Health Early Intervention and Preschool Special Education Programs",
+      "reason": "transcript-stated name (Monroe County Department of Public Health Early Intervention and Preschool Special Education Programs) differs from catalogued (Healthy Families Monroe County)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.296Z",
+  "lastSeededAt": "2026-05-03T19:44:16.296Z"
+}

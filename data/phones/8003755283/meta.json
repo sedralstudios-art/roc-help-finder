@@ -1,0 +1,80 @@
+{
+  "digits": "8003755283",
+  "kind": "phone",
+  "primaryName": "USCIS Buffalo (Green Card, Citizenship, Visa)",
+  "rawValue": "800-375-5283",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "uscis",
+      "name": "USCIS Buffalo (Green Card, Citizenship, Visa)",
+      "category": "documents",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "immigration-work-permit-ead-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "naturalization-citizenship-eligibility-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-08-02-718Z_25a46fb5-75b7-2c11-35c6-97858d998e1f",
+    "meta": {
+      "callId": "25a46fb5-75b7-2c11-35c6-97858d998e1f",
+      "digits": "8003755283",
+      "dialedNumber": "8003755283",
+      "catalogedName": "USCIS Buffalo (Green Card, Citizenship, Visa)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:08:02.718Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.744Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.1111111111111111,
+      "extracted": "United States Citizenship and Immigration Services",
+      "reason": "transcript-stated name (United States Citizenship and Immigration Services) differs from catalogued (USCIS Buffalo (Green Card, Citizenship, Visa))"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.334Z",
+  "lastSeededAt": "2026-05-03T19:44:16.334Z",
+  "verifiedAt": "2026-05-03T20:21:01.831Z",
+  "verifiedRun": "2026-05-02T10-08-02-718Z_25a46fb5-75b7-2c11-35c6-97858d998e1f",
+  "verifiedTranscriptOpening": "Thank you for calling the United States Citizenship and Immigration Services, or USCIS. Para cambiar a español, simplemente diga español, o presione dos. To ensure high quality of service we record ou",
+  "verifiedMatchTokens": [
+    "uscis",
+    "citizenship"
+  ],
+  "verifiedRatio": 0.3333333333333333
+}

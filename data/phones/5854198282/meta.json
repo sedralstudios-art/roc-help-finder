@@ -1,0 +1,40 @@
+{
+  "digits": "5854198282",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-20-04-631Z_129c2643-894e-6f05-3e4a-116ad0e9a9ce",
+    "meta": {
+      "callId": "129c2643-894e-6f05-3e4a-116ad0e9a9ce",
+      "digits": "5854198282",
+      "dialedNumber": "5854198282",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:20:04.631Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.383Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

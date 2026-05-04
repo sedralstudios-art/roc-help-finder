@@ -1,0 +1,29 @@
+{
+  "callId": "8c733a78-144b-36dc-e9f9-9916c8b1fd7b",
+  "digits": "3178371500",
+  "dialedNumber": "(317) 837-1500",
+  "catalogedName": "wood-stove-epa-certification-ny",
+  "sourceId": "legal-entry:wood-stove-epa-certification-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wood-stove-epa-certification-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:55:24.425Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.162Z"
+  }
+}

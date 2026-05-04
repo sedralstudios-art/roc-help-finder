@@ -1,0 +1,61 @@
+{
+  "digits": "5854231592",
+  "kind": "phone",
+  "primaryName": "entry-callout:psychiatric-advance-directive-ny",
+  "rawValue": "(585) 423-1592",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "psychiatric-advance-directive-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-38-12-625Z_604e97af-b3b2-b5a5-6b04-31b59a81f8d6",
+    "meta": {
+      "callId": "604e97af-b3b2-b5a5-6b04-31b59a81f8d6",
+      "digits": "5854231592",
+      "dialedNumber": "(585) 423-1592",
+      "catalogedName": "psychiatric-advance-directive-ny",
+      "sourceId": "legal-entry:psychiatric-advance-directive-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "psychiatric-advance-directive-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:38:12.625Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.043Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.554Z",
+  "lastSeededAt": "2026-05-03T19:44:16.554Z"
+}

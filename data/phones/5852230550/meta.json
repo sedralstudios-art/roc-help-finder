@@ -1,0 +1,64 @@
+{
+  "digits": "5852230550",
+  "kind": "phone",
+  "primaryName": "Perinton Recreation 55+ Program",
+  "rawValue": "585-223-0550",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "perintonsenior",
+      "name": "Perinton Recreation 55+ Program",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-46-29-065Z_7740dbc0-2526-df18-aacc-17025a180c26",
+    "meta": {
+      "callId": "7740dbc0-2526-df18-aacc-17025a180c26",
+      "digits": "5852230550",
+      "dialedNumber": "585-223-0550",
+      "catalogedName": "Perinton Recreation 55+ Program",
+      "sourceId": "perintonsenior",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "perintonsenior"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:46:29.065Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.663Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.440Z",
+  "lastSeededAt": "2026-05-03T19:44:16.440Z"
+}

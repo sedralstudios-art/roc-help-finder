@@ -1,0 +1,29 @@
+{
+  "callId": "3f637109-5a48-c828-ac78-9deb37a1fcd0",
+  "digits": "5855303136",
+  "dialedNumber": "(585) 530-3136",
+  "catalogedName": "notary-public-services-ny",
+  "sourceId": "legal-entry:notary-public-services-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:28:46.867Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.979Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5856858300",
+  "kind": "phone",
+  "primaryName": "entry-callout:autism-insurance-coverage-ny",
+  "rawValue": "(585) 685-8300",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny",
+      "line": 55
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-52-51-763Z_ff6a7d2c-a29b-e40c-8a39-1dde4969923d",
+    "meta": {
+      "callId": "ff6a7d2c-a29b-e40c-8a39-1dde4969923d",
+      "digits": "5856858300",
+      "dialedNumber": "(585) 685-8300",
+      "catalogedName": "autism-insurance-coverage-ny",
+      "sourceId": "legal-entry:autism-insurance-coverage-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "autism-insurance-coverage-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:52:51.763Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.705Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.470Z",
+  "lastSeededAt": "2026-05-03T19:44:16.470Z"
+}

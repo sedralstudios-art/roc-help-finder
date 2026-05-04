@@ -60,7 +60,7 @@ export const MOVE_OVER_LAW_EMERGENCY_VEHICLES_NY = {
       qualifier: "Any resident",
       access: "Phone at (585) 546-2130",
       outcome: "Referral to private traffic attorneys",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org/lawyer-referral-service",
       verified: true,
       bilingual: false,

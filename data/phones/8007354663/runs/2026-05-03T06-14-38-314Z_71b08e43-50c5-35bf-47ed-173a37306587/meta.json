@@ -1,0 +1,29 @@
+{
+  "callId": "71b08e43-50c5-35bf-47ed-173a37306587",
+  "digits": "8007354663",
+  "dialedNumber": "(800) 735-4663",
+  "catalogedName": "home-inspector-licensing-ny",
+  "sourceId": "legal-entry:home-inspector-licensing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:14:38.314Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.865Z"
+  }
+}

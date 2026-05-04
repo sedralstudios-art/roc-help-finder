@@ -1,0 +1,25 @@
+{
+  "digits": "5856781041",
+  "kind": "phone",
+  "primaryName": "Dress for Success Rochester",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "dfs",
+      "name": "Dress for Success Rochester"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:08:35.079Z",
+      "sourceUrl": "https://rochester.dressforsuccess.org/contact/",
+      "sourceLabel": "Dress for Success Rochester contact page (Yelp + 211lifeline cross-confirmed)",
+      "notes": "Web confirms 585-678-1041 for Dress for Success Rochester. Address corrected to 47 State St (was missing in pre-strip)."
+    }
+  ]
+}

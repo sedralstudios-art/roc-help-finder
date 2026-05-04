@@ -1,0 +1,29 @@
+{
+  "callId": "1918317d-2326-05d5-b971-20ca735dab55",
+  "digits": "8007551030",
+  "dialedNumber": "(800) 755-1030",
+  "catalogedName": "stop-payment-order-check-ny",
+  "sourceId": "legal-entry:stop-payment-order-check-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "stop-payment-order-check-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:47:55.041Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.111Z"
+  }
+}

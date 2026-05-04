@@ -1,0 +1,24 @@
+{
+  "callId": "c54fb025-a47f-77ec-f483-d6ace39f0fae",
+  "digits": "5852476100",
+  "dialedNumber": "(585) 247-6100",
+  "catalogedName": "Town of Gates Building Department",
+  "sourceId": "roofing-residential-ny-mon-gates-town::Town of Gates Building Department",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:27:08.440Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.559Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5854135091",
+  "kind": "phone",
+  "primaryName": "entry-callout:snap-rights-ny",
+  "rawValue": "(585) 413-5091",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-46-06-900Z_51996b3b-70e0-ffdf-7062-406f607a2290",
+    "meta": {
+      "callId": "51996b3b-70e0-ffdf-7062-406f607a2290",
+      "digits": "5854135091",
+      "dialedNumber": "(585) 413-5091",
+      "catalogedName": "snap-rights-ny",
+      "sourceId": "legal-entry:snap-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "snap-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:46:06.900Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.098Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.568Z",
+  "lastSeededAt": "2026-05-03T19:44:16.568Z"
+}

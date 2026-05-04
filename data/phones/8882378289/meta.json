@@ -1,0 +1,61 @@
+{
+  "digits": "8882378289",
+  "kind": "phone",
+  "primaryName": "entry-callout:e-waste-recycling-ny",
+  "rawValue": "(888) 237-8289",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-04-22-257Z_d72a236e-92c7-1b60-9a9d-e2d40eb00d74",
+    "meta": {
+      "callId": "d72a236e-92c7-1b60-9a9d-e2d40eb00d74",
+      "digits": "8882378289",
+      "dialedNumber": "(888) 237-8289",
+      "catalogedName": "e-waste-recycling-ny",
+      "sourceId": "legal-entry:e-waste-recycling-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "e-waste-recycling-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:04:22.257Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.790Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.491Z",
+  "lastSeededAt": "2026-05-03T19:44:16.491Z"
+}

@@ -60,7 +60,7 @@ export const ADULT_ADOPTION_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 371-3310",
       outcome: "Adoption petition filing, court hearings, adoption orders",
-      phone: "(585) 371-3310",
+      phone: "",
       url: "https://www.nycourts.gov/courts/7jd/monroe/surrogate/",
       verified: true,
       bilingual: false,

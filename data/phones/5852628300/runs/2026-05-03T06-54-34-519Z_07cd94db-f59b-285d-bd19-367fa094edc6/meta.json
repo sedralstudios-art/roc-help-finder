@@ -1,0 +1,29 @@
+{
+  "callId": "07cd94db-f59b-285d-bd19-367fa094edc6",
+  "digits": "5852628300",
+  "dialedNumber": "(585) 262-8300",
+  "catalogedName": "whole-milk-school-meal-ny",
+  "sourceId": "legal-entry:whole-milk-school-meal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "whole-milk-school-meal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:54:34.519Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.156Z"
+  }
+}

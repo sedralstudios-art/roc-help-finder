@@ -1,0 +1,124 @@
+{
+  "digits": "5854545191",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-brighton-town",
+  "rawValue": "(585) 454-5191",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-brighton-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-clarkson-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-east-rochester-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-greece-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-hamlin-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-penfield-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-sweden-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-webster-town",
+      "line": 18
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-36-07-864Z_8a559034-decb-406b-a725-79b7849f9f14",
+    "meta": {
+      "callId": "8a559034-decb-406b-a725-79b7849f9f14",
+      "digits": "5854545191",
+      "dialedNumber": "(585) 454-5191",
+      "catalogedName": "electrical-residential-ny-mon-brighton-town",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-brighton-town",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-brighton-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-clarkson-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-east-rochester-village"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-greece-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-hamlin-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-penfield-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-sweden-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-webster-town"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:36:07.864Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.069Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.291Z",
+  "lastSeededAt": "2026-05-03T19:44:16.291Z"
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "7f20a1f8-d644-27b0-16d8-1741360c792f",
+  "digits": "5855303050",
+  "dialedNumber": "(585) 530-3050",
+  "catalogedName": "guardian-ad-litem-ny",
+  "sourceId": "legal-entry:guardian-ad-litem-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "guardian-ad-litem-ny"
+    },
+    {
+      "type": "entry",
+      "id": "involuntary-commitment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-crisis-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-patient-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "psychiatric-advance-directive-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:31:31.916Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.366Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "d50181e4-8c2c-c8f7-a98d-22b651594ebe",
+  "digits": "5854632600",
+  "dialedNumber": "5854632600",
+  "catalogedName": "VA Healthcare (Veterans)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:51:19.623Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.452Z"
+  }
+}

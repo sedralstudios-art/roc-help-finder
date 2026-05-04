@@ -1,0 +1,24 @@
+{
+  "callId": "bb452315-0a8b-5894-3cb9-555876e08c5d",
+  "digits": "5859228040",
+  "dialedNumber": "5859228040",
+  "catalogedName": "Home-Based Crisis Intervention (Youth)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:42:36.339Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.828Z"
+  }
+}

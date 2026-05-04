@@ -60,7 +60,7 @@ export const VET_MALPRACTICE_PET_INJURY_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (518) 474-3817 or online",
       outcome: "Investigation, possible disciplinary action against the veterinarian's license",
-      phone: "(518) 474-3817",
+      phone: "",
       url: "https://www.op.nysed.gov",
       verified: true,
       bilingual: false,

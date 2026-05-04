@@ -1,0 +1,61 @@
+{
+  "digits": "5854286950",
+  "kind": "phone",
+  "primaryName": "entry-callout:apartment-electric-submetering-ny",
+  "rawValue": "(585) 428-6950",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-electric-submetering-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-50-55-293Z_b6747935-9ff4-e3dd-e060-a24408bdf2d1",
+    "meta": {
+      "callId": "b6747935-9ff4-e3dd-e060-a24408bdf2d1",
+      "digits": "5854286950",
+      "dialedNumber": "(585) 428-6950",
+      "catalogedName": "apartment-electric-submetering-ny",
+      "sourceId": "legal-entry:apartment-electric-submetering-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "apartment-electric-submetering-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:50:55.293Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.692Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.466Z",
+  "lastSeededAt": "2026-05-03T19:44:16.466Z"
+}

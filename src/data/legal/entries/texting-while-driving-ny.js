@@ -60,7 +60,7 @@ export const TEXTING_WHILE_DRIVING_NY = {
       qualifier: "Any NYS driver",
       access: "Online at dmv.ny.gov or (518) 486-9786",
       outcome: "Point information, license status, PIRP enrollment",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/tickets/cell-phone-use-background",
       verified: true,
       bilingual: false,

@@ -60,7 +60,7 @@ export const APARTMENT_TOO_HOT_SUMMER_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-3700",
       outcome: "Counseling, complaint assistance, referrals",
-      phone: "(585) 546-3700",
+      phone: "",
       url: "https://www.thehousingcouncil.org",
       verified: true,
       bilingual: true,

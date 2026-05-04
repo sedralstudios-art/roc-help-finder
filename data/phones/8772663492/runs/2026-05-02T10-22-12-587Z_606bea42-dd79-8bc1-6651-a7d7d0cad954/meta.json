@@ -1,0 +1,24 @@
+{
+  "callId": "606bea42-dd79-8bc1-6651-a7d7d0cad954",
+  "digits": "8772663492",
+  "dialedNumber": "8772663492",
+  "catalogedName": "RG&E Payment Help",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:22:12.587Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.779Z"
+  }
+}

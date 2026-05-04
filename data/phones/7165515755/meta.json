@@ -1,0 +1,61 @@
+{
+  "digits": "7165515755",
+  "kind": "phone",
+  "primaryName": "entry-callout:section-8-portability-ny-program",
+  "rawValue": "(716) 551-5755",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "section-8-portability-ny-program",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-43-53-753Z_ed2f3abe-d809-f11b-2e45-82f4a4975c0f",
+    "meta": {
+      "callId": "ed2f3abe-d809-f11b-2e45-82f4a4975c0f",
+      "digits": "7165515755",
+      "dialedNumber": "(716) 551-5755",
+      "catalogedName": "section-8-portability-ny-program",
+      "sourceId": "legal-entry:section-8-portability-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "section-8-portability-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:43:53.753Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.082Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.565Z",
+  "lastSeededAt": "2026-05-03T19:44:16.565Z"
+}

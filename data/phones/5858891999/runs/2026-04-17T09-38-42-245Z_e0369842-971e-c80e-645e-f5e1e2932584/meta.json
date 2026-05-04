@@ -1,0 +1,24 @@
+{
+  "callId": "e0369842-971e-c80e-645e-f5e1e2932584",
+  "digits": "5858891999",
+  "dialedNumber": "(585) 889-1999",
+  "catalogedName": "Chili Town Court",
+  "sourceId": "chilicourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:38:42.245Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.014Z"
+  }
+}

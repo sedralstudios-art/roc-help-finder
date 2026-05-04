@@ -60,7 +60,7 @@ export const JURY_DUTY_EXCUSE_NY = {
       qualifier: "Anyone summoned for jury duty in Monroe County",
       access: "Phone at (585) 428-5454 (County/Supreme) or (585) 428-2020 (City Court)",
       outcome: "Postponement, excuse, or rescheduling of jury service",
-      phone: "(585) 428-5454",
+      phone: "",
       url: "https://www.nyjuror.gov",
       verified: true,
       bilingual: false,

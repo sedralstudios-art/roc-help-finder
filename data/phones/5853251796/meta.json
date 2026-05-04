@@ -1,0 +1,67 @@
+{
+  "digits": "5853251796",
+  "kind": "phone",
+  "primaryName": "Dimitri House",
+  "rawValue": "585-325-1796",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "dimitri",
+      "name": "Dimitri House",
+      "category": "clothing",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-24-04-524Z_0328800d-3ad7-b8c1-a388-771be51ea0dc",
+    "meta": {
+      "callId": "0328800d-3ad7-b8c1-a388-771be51ea0dc",
+      "digits": "5853251796",
+      "dialedNumber": "5853251796",
+      "catalogedName": "Dimitri House",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:24:04.524Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.263Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.424Z",
+  "lastSeededAt": "2026-05-03T19:44:16.424Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:13:58.130Z",
+      "sourceUrl": "https://dimitri-house.org",
+      "sourceLabel": "Dimitri House official site",
+      "notes": "Web confirms (585) 325-1796 for Dimitri House at 102 N Union St. UNHIDING — May tree had Whisper hallucination (silent audio) but web verification is strong."
+    }
+  ]
+}

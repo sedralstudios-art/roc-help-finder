@@ -1,0 +1,24 @@
+{
+  "callId": "90fbaee4-d469-98fa-9490-a8d563d99760",
+  "digits": "5854426470",
+  "dialedNumber": "(585) 442-6470",
+  "catalogedName": "Center for Independent Living",
+  "sourceId": "rcil",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:40:51.891Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.857Z"
+  }
+}

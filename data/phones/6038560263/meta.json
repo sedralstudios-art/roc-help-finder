@@ -1,0 +1,61 @@
+{
+  "digits": "6038560263",
+  "kind": "phone",
+  "primaryName": "entry-callout:mobile-home-park-closure-ny",
+  "rawValue": "(603) 856-0263",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mobile-home-park-closure-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-25-02-186Z_d0e65238-d009-da99-a1ad-fe5bf87ae11a",
+    "meta": {
+      "callId": "d0e65238-d009-da99-a1ad-fe5bf87ae11a",
+      "digits": "6038560263",
+      "dialedNumber": "(603) 856-0263",
+      "catalogedName": "mobile-home-park-closure-ny",
+      "sourceId": "legal-entry:mobile-home-park-closure-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mobile-home-park-closure-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:25:02.186Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.935Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.528Z",
+  "lastSeededAt": "2026-05-03T19:44:16.528Z"
+}

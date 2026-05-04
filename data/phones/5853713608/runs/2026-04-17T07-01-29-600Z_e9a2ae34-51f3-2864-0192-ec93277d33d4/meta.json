@@ -1,0 +1,24 @@
+{
+  "callId": "e9a2ae34-51f3-2864-0192-ec93277d33d4",
+  "digits": "5853713608",
+  "dialedNumber": "(585) 371-3608",
+  "catalogedName": "Housing Court — Warrant of Habitability",
+  "sourceId": "warrantsvc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:01:29.600Z",
+  "durationSec": 23,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.797Z"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "callId": "f6e3c75a-ec06-2e39-bd0c-63fac8eb6ee6",
+  "digits": "8003216742",
+  "dialedNumber": "(800) 321-6742",
+  "catalogedName": "ny-hero-act-infectious-disease-ny",
+  "sourceId": "legal-entry:ny-hero-act-infectious-disease-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny"
+    },
+    {
+      "type": "entry",
+      "id": "scaffold-law-construction-240-ny"
+    },
+    {
+      "type": "entry",
+      "id": "workplace-retaliation-protection-ny"
+    },
+    {
+      "type": "entry",
+      "id": "workplace-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:55:25.862Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.469Z"
+  }
+}

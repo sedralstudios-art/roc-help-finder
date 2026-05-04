@@ -1,0 +1,24 @@
+{
+  "callId": "b282f1e2-7e64-2d1c-ce66-320107eb55b4",
+  "digits": "5853366060",
+  "dialedNumber": "5853366060",
+  "catalogedName": "Irondequoit Public Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:44:58.933Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.306Z"
+  }
+}

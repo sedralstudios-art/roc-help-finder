@@ -1,0 +1,24 @@
+{
+  "callId": "abeae199-3a45-9fc9-9656-31842818f6de",
+  "digits": "5852754501",
+  "dialedNumber": "5852754501",
+  "catalogedName": "Strong Memorial Psych Emergency",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:34:08.235Z",
+  "durationSec": 26,
+  "status": "no_audio",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.806Z"
+  }
+}

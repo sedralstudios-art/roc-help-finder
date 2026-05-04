@@ -1,0 +1,29 @@
+{
+  "callId": "72c67559-3af8-4cce-b89e-8f5d2b8b6d31",
+  "digits": "2122421290",
+  "dialedNumber": "(212) 242-1290",
+  "catalogedName": "postnuptial-agreement-ny",
+  "sourceId": "legal-entry:postnuptial-agreement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "postnuptial-agreement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:36:07.831Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.030Z"
+  }
+}

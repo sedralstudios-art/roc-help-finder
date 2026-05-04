@@ -61,7 +61,7 @@ export const HOW_TO_READ_LEASE_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-3700",
       outcome: "Free lease review, counseling, referrals",
-      phone: "(585) 546-3700",
+      phone: "",
       url: "https://www.thehousingcouncil.org",
       verified: true,
       bilingual: true,

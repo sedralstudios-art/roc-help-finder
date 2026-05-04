@@ -1,0 +1,29 @@
+{
+  "callId": "2f6bb84b-2701-df49-3887-4044cb5ed04d",
+  "digits": "8885815812",
+  "dialedNumber": "(888) 581-5812",
+  "catalogedName": "unemployment-overpayment-ny",
+  "sourceId": "legal-entry:unemployment-overpayment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "unemployment-overpayment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:51:14.747Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.134Z"
+  }
+}

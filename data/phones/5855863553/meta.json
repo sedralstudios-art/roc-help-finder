@@ -1,0 +1,82 @@
+{
+  "digits": "5855863553",
+  "kind": "phone",
+  "primaryName": "East Rochester Clerk/Treasurer",
+  "rawValue": "585-586-3553",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "erclerk",
+      "name": "East Rochester Clerk/Treasurer",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-east-rochester-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-east-rochester-village",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-east-rochester-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-east-rochester-village",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-16-12-182Z_b56da76c-6267-92c8-6718-3aa87e705300",
+    "meta": {
+      "callId": "b56da76c-6267-92c8-6718-3aa87e705300",
+      "digits": "5855863553",
+      "dialedNumber": "5855863553",
+      "catalogedName": "East Rochester Clerk/Treasurer",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:16:12.182Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.504Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Village of East Rochester",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.308Z",
+  "lastSeededAt": "2026-05-03T19:44:16.308Z"
+}

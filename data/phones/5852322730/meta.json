@@ -1,0 +1,75 @@
+{
+  "digits": "5852322730",
+  "kind": "phone",
+  "primaryName": "REOC (Free Job Training)",
+  "rawValue": "585-232-2730",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "cat:employment",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "reocjobs",
+      "name": "REOC (Free Job Training)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "reoc",
+      "name": "Rochester Educational Opportunity Center (REOC)",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "ged-hse-programs-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-26-18-626Z_fd34b8d0-cbe6-43e2-15c1-732f39d9c833",
+    "meta": {
+      "callId": "fd34b8d0-cbe6-43e2-15c1-732f39d9c833",
+      "digits": "5852322730",
+      "dialedNumber": "5852322730",
+      "catalogedName": "REOC (Free Job Training)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:26:18.626Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.135Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Rochester EOC",
+      "reason": "transcript-stated name (Rochester EOC) differs from catalogued (REOC (Free Job Training))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.333Z",
+  "lastSeededAt": "2026-05-03T19:44:16.333Z"
+}

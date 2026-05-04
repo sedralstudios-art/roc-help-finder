@@ -1,0 +1,70 @@
+{
+  "digits": "5854613520",
+  "kind": "phone",
+  "primaryName": "entry-callout:health-insurance-marketplace-ny",
+  "rawValue": "(585) 461-3520",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "health-insurance-marketplace-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "hospice-palliative-care-rights-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-57-44-121Z_f526bbf1-0108-a3be-44af-9dffc54c6222",
+    "meta": {
+      "callId": "f526bbf1-0108-a3be-44af-9dffc54c6222",
+      "digits": "5854613520",
+      "dialedNumber": "(585) 461-3520",
+      "catalogedName": "health-insurance-marketplace-ny",
+      "sourceId": "legal-entry:health-insurance-marketplace-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "health-insurance-marketplace-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hospice-palliative-care-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:57:44.121Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.736Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.395Z",
+  "lastSeededAt": "2026-05-03T19:44:16.395Z"
+}

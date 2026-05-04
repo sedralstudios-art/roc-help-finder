@@ -1,0 +1,29 @@
+{
+  "callId": "cfc02f04-8f19-3456-b2e7-909efc4ec9c6",
+  "digits": "5184746904",
+  "dialedNumber": "(518) 474-6904",
+  "catalogedName": "cps-investigation-process-ny",
+  "sourceId": "legal-entry:cps-investigation-process-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cps-investigation-process-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:01:19.245Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.769Z"
+  }
+}

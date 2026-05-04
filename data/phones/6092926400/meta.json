@@ -1,0 +1,61 @@
+{
+  "digits": "6092926400",
+  "kind": "phone",
+  "primaryName": "entry-callout:nonresident-income-tax-ny",
+  "rawValue": "(609) 292-6400",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-28-21-901Z_4212eda5-d10f-6639-43b0-6a7ed83faf74",
+    "meta": {
+      "callId": "4212eda5-d10f-6639-43b0-6a7ed83faf74",
+      "digits": "6092926400",
+      "dialedNumber": "(609) 292-6400",
+      "catalogedName": "nonresident-income-tax-ny",
+      "sourceId": "legal-entry:nonresident-income-tax-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "nonresident-income-tax-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:28:21.901Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.976Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.535Z",
+  "lastSeededAt": "2026-05-03T19:44:16.535Z"
+}

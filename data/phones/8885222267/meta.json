@@ -1,0 +1,70 @@
+{
+  "digits": "8885222267",
+  "kind": "phone",
+  "primaryName": "entry-callout:pay-transparency-salary-range-ny",
+  "rawValue": "(888-522-2267",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pay-transparency-salary-range-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "vacation-pay-wage-protection-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-28-07-497Z_ac49338e-0a67-e6fd-bb6a-40783ffc523f",
+    "meta": {
+      "callId": "ac49338e-0a67-e6fd-bb6a-40783ffc523f",
+      "digits": "8885222267",
+      "dialedNumber": "(888-522-2267",
+      "catalogedName": "pay-transparency-salary-range-ny",
+      "sourceId": "legal-entry:pay-transparency-salary-range-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pay-transparency-salary-range-ny"
+        },
+        {
+          "type": "entry",
+          "id": "vacation-pay-wage-protection-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:28:07.497Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.892Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.405Z",
+  "lastSeededAt": "2026-05-03T19:44:16.405Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "d19c6099-a24b-e770-9fc7-2afbc05f1f05",
+  "digits": "5852710660",
+  "dialedNumber": "(585) 271-0660",
+  "catalogedName": "The Arc of Monroe County",
+  "sourceId": "arcmc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:49:14.644Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.593Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "674a7444-74ba-c3c5-3a62-595c2cde30a5",
+  "digits": "5859662000",
+  "dialedNumber": "(585) 966-2000",
+  "catalogedName": "kindergarten-enrollment-age-ny",
+  "sourceId": "legal-entry:kindergarten-enrollment-age-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny"
+    },
+    {
+      "type": "entry",
+      "id": "whole-milk-school-meal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:39:24.777Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.616Z"
+  }
+}

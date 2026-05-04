@@ -1,0 +1,29 @@
+{
+  "callId": "71b98a4c-86a2-fb8d-a4ac-db75e7443894",
+  "digits": "5184576811",
+  "dialedNumber": "(518) 457-6811",
+  "catalogedName": "police-complaint-ny",
+  "sourceId": "legal-entry:police-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "police-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:35:34.565Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.025Z"
+  }
+}

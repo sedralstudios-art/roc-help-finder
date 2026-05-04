@@ -1,0 +1,24 @@
+{
+  "callId": "4de6a124-04ba-44be-c806-3934345f856c",
+  "digits": "5857845120",
+  "dialedNumber": "(585) 784-5120",
+  "catalogedName": "Brighton Animal Control",
+  "sourceId": "brightonanimal",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:15:31.356Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.980Z"
+  }
+}

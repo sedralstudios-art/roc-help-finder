@@ -1,0 +1,24 @@
+{
+  "callId": "174984d5-dfe3-5ed1-97e4-3977e095d31c",
+  "digits": "2122431313",
+  "dialedNumber": "2122431313",
+  "catalogedName": "entry-callout:clean-slate-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:03:56.205Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.087Z"
+  }
+}

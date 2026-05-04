@@ -1,0 +1,29 @@
+{
+  "callId": "44f0ef9e-8a6f-eebf-3ead-03f21e88ee27",
+  "digits": "5857232415",
+  "dialedNumber": "(585) 723-2415",
+  "catalogedName": "dumpster-rental-homeowner-ny",
+  "sourceId": "legal-entry:dumpster-rental-homeowner-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:03:40.694Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.785Z"
+  }
+}

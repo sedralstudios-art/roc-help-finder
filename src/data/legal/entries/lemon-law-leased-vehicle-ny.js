@@ -60,7 +60,7 @@ export const LEMON_LAW_LEASED_VEHICLE_NY = {
       qualifier: "Any NY buyer or lessee of a qualifying vehicle",
       access: "Phone at (800) 771-7755",
       outcome: "Free arbitration, manufacturer bound by outcome, lessee can still go to court if loses",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau/lemon-law",
       verified: true,
       bilingual: true,

@@ -1,0 +1,115 @@
+{
+  "digits": "5854420220",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-car-seat-booster-ny",
+  "rawValue": "(585) 442-0220",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-car-seat-booster-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "emergency-rental-assistance-program-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ny-estimated-tax-self-employed-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ny-pension-tax-exclusion-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pharmacist-emergency-refill-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "pins-petition-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "whole-milk-school-meal-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-42-14-551Z_5c193768-02bb-d4ae-b131-1de26c215b42",
+    "meta": {
+      "callId": "5c193768-02bb-d4ae-b131-1de26c215b42",
+      "digits": "5854420220",
+      "dialedNumber": "(585) 442-0220",
+      "catalogedName": "child-car-seat-booster-ny",
+      "sourceId": "legal-entry:child-car-seat-booster-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-car-seat-booster-ny"
+        },
+        {
+          "type": "entry",
+          "id": "emergency-rental-assistance-program-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-estimated-tax-self-employed-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-pension-tax-exclusion-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pharmacist-emergency-refill-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pins-petition-ny"
+        },
+        {
+          "type": "entry",
+          "id": "whole-milk-school-meal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:42:14.551Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.103Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.295Z",
+  "lastSeededAt": "2026-05-03T19:44:16.295Z"
+}

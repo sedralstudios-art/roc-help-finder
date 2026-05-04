@@ -1,0 +1,81 @@
+{
+  "digits": "5855461700",
+  "kind": "phone",
+  "primaryName": "entry-callout:medicaid-buy-in-working-disabled-ny",
+  "rawValue": "(585) 546-1700",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-buy-in-working-disabled-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "special-education-iep-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-continuing-disability-review-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-53-26-014Z_937ab0d0-ac6a-231c-7b9a-ebe3440a2d56",
+    "meta": {
+      "callId": "937ab0d0-ac6a-231c-7b9a-ebe3440a2d56",
+      "digits": "5855461700",
+      "dialedNumber": "(585) 546-1700",
+      "catalogedName": "medicaid-buy-in-working-disabled-ny",
+      "sourceId": "legal-entry:medicaid-buy-in-working-disabled-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "medicaid-buy-in-working-disabled-ny"
+        },
+        {
+          "type": "entry",
+          "id": "special-education-iep-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ssdi-continuing-disability-review-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:53:26.014Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.426Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Starbridge",
+      "reason": "transcript-stated name (Starbridge) differs from catalogued (medicaid-buy-in-working-disabled-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.350Z",
+  "lastSeededAt": "2026-05-03T19:44:16.350Z"
+}

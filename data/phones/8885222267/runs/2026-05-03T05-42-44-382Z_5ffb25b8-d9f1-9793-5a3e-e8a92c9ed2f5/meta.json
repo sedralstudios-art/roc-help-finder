@@ -1,0 +1,33 @@
+{
+  "callId": "5ffb25b8-d9f1-9793-5a3e-e8a92c9ed2f5",
+  "digits": "8885222267",
+  "dialedNumber": "(888-522-2267",
+  "catalogedName": "pay-transparency-salary-range-ny",
+  "sourceId": "legal-entry:pay-transparency-salary-range-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pay-transparency-salary-range-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vacation-pay-wage-protection-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:42:44.382Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.638Z"
+  }
+}

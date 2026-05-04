@@ -1,0 +1,24 @@
+{
+  "callId": "a9e950a9-ed1f-1009-69d2-ce2b8f726551",
+  "digits": "8007997233",
+  "dialedNumber": "8007997233",
+  "catalogedName": "National Domestic Violence Hotline",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:49:39.390Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.846Z"
+  }
+}

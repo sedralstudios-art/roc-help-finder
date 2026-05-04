@@ -1,0 +1,29 @@
+{
+  "callId": "25bbd7ec-e108-e339-10d4-e76e129a2e31",
+  "digits": "5854752098",
+  "dialedNumber": "(585) 475-2098",
+  "catalogedName": "selling-online-sales-tax-ny",
+  "sourceId": "legal-entry:selling-online-sales-tax-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "selling-online-sales-tax-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:44:10.415Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.084Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5852341050",
+  "kind": "phone",
+  "primaryName": "Saathi of Rochester (South Asian Support)",
+  "rawValue": "585-234-1050",
+  "blockDial": false,
+  "tags": [
+    "cat:domesticSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "saathi",
+      "name": "Saathi of Rochester (South Asian Support)",
+      "category": "domesticSvc",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-32-22-479Z_d7a207c7-612d-b84e-afbe-842eebb97936",
+    "meta": {
+      "callId": "d7a207c7-612d-b84e-afbe-842eebb97936",
+      "digits": "5852341050",
+      "dialedNumber": "5852341050",
+      "catalogedName": "Saathi of Rochester (South Asian Support)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:32:22.479Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.148Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Saathi of Rochester helpline",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.420Z",
+  "lastSeededAt": "2026-05-03T19:44:16.420Z"
+}

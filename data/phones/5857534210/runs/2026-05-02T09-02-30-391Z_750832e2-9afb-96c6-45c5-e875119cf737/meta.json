@@ -1,0 +1,24 @@
+{
+  "callId": "750832e2-9afb-96c6-45c5-e875119cf737",
+  "digits": "5857534210",
+  "dialedNumber": "5857534210",
+  "catalogedName": "MC.publicDefender",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:02:30.391Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.602Z"
+  }
+}

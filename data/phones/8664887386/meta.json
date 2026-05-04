@@ -1,0 +1,71 @@
+{
+  "digits": "8664887386",
+  "kind": "phone",
+  "primaryName": "The Trevor Project (LGBTQ+ Youth Crisis)",
+  "rawValue": "866-488-7386",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:lgbtq",
+    "crisis-line",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "trevorProject",
+      "value": "866-488-7386",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "trevor",
+      "name": "The Trevor Project (LGBTQ+ Youth Crisis)",
+      "category": "lgbtq",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-51-21-548Z_90d61a86-66b5-0616-95e4-db4c46a39145",
+    "meta": {
+      "callId": "90d61a86-66b5-0616-95e4-db4c46a39145",
+      "digits": "8664887386",
+      "dialedNumber": "8664887386",
+      "catalogedName": "The Trevor Project (LGBTQ+ Youth Crisis)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:51:21.548Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.851Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "a life-threatening emergency",
+      "reason": "transcript-stated name (a life-threatening emergency) differs from catalogued (The Trevor Project (LGBTQ+ Youth Crisis))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.355Z",
+  "lastSeededAt": "2026-05-03T19:44:16.355Z"
+}

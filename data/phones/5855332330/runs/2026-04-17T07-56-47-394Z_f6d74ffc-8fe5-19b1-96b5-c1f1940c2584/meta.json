@@ -1,0 +1,24 @@
+{
+  "callId": "f6d74ffc-8fe5-19b1-96b5-c1f1940c2584",
+  "digits": "5855332330",
+  "dialedNumber": "(585) 533-2330",
+  "catalogedName": "Rush Assessor",
+  "sourceId": "rushassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:56:47.394Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.877Z"
+  }
+}

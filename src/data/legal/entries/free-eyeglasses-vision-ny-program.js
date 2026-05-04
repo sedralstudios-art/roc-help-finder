@@ -59,7 +59,7 @@ export const FREE_EYEGLASSES_VISION_NY = {
       qualifier: "Anyone — sliding scale based on income",
       access: "Phone at (585) 423-2800",
       outcome: "Eye exam and glasses at reduced cost",
-      phone: "(585) 423-2800",
+      phone: "",
       url: "https://www.jordanhealth.org",
       verified: true,
       bilingual: true,

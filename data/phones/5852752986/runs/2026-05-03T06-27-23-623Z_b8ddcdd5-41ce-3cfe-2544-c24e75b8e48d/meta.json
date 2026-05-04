@@ -1,0 +1,29 @@
+{
+  "callId": "b8ddcdd5-41ce-3cfe-2544-c24e75b8e48d",
+  "digits": "5852752986",
+  "dialedNumber": "(585) 275-2986",
+  "catalogedName": "newborn-screening-ny",
+  "sourceId": "legal-entry:newborn-screening-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "newborn-screening-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:27:23.623Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.952Z"
+  }
+}

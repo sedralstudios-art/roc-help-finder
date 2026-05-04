@@ -1,0 +1,24 @@
+{
+  "callId": "ca3dd4ca-78cf-e2c0-d4c7-9b97784d2734",
+  "digits": "5856176181",
+  "dialedNumber": "5856176181",
+  "catalogedName": "Ogden Farmers' Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:24:27.105Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.523Z"
+  }
+}

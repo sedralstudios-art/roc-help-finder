@@ -1,0 +1,224 @@
+{
+  "digits": "211",
+  "kind": "shortcode",
+  "primaryName": "Code Blue Warming Centers",
+  "rawValue": "211",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:weather",
+    "crisis-line",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "call211",
+      "value": "211",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "codeblue",
+      "name": "Code Blue Warming Centers",
+      "category": "weather",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "amended-tax-return-1040x-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "apartment-too-hot-summer-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "apply-for-benefits-online-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "bail-how-it-works-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "bottle-deposit-returnable-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "child-dependent-care-credit-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "collecting-court-judgment-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "economic-impact-payment-recovery-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "emergency-rental-assistance-program-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-child-credit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "free-cell-phone-lifeline-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "free-eyeglasses-vision-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "free-internet-computer-access-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "free-legal-help-monroe-ny-program",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "free-tax-filing-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "garage-sale-estate-sale-tax-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-help-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "junk-vehicle-own-property-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-home-care-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-preforeclosure-90-day-notice-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "ny-estimated-tax-self-employed-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ny-pension-tax-exclusion-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pins-petition-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "refund-anticipation-loan-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "rent-increase-lease-renewal-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-meals-eligibility-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "seat-belt-child-seat-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "selling-online-sales-tax-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "short-term-rental-hosting-airbnb-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "smoke-co-detector-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "summer-food-service-program-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "wood-stove-epa-certification-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "woodstove-fireplace-rules-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "do-not-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.268Z",
+  "lastSeededAt": "2026-05-03T19:44:16.268Z"
+}

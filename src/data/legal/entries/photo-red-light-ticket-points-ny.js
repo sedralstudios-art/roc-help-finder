@@ -60,7 +60,7 @@ export const PHOTO_RED_LIGHT_TICKET_POINTS_NY = {
       qualifier: "Any NYS driver",
       access: "Online at dmv.ny.gov or (518) 486-9786",
       outcome: "Point total check, license status, PIRP information",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/tickets/about-nys-driver-point-system",
       verified: true,
       bilingual: false,

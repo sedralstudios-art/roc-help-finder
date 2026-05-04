@@ -59,7 +59,7 @@ export const WRONGFUL_CONVICTION_COMPENSATION_NY = {
       qualifier: "Wrongfully convicted individuals",
       access: "Online application",
       outcome: "Legal representation for exoneration and compensation",
-      phone: "(212) 364-5340",
+      phone: "",
       url: "https://innocenceproject.org",
       verified: true,
       bilingual: false,

@@ -1,0 +1,24 @@
+{
+  "callId": "656bb2a9-6cb4-619b-7eec-4d26081211f8",
+  "digits": "5852323051",
+  "dialedNumber": "5852323051",
+  "catalogedName": "JustCause Legal Clinics (Free)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:27:21.932Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.137Z"
+  }
+}

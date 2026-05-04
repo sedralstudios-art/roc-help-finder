@@ -1,0 +1,117 @@
+{
+  "digits": "5857537600",
+  "kind": "phone",
+  "primaryName": "entry-callout:bottle-bill-deposit-return-ny",
+  "rawValue": "(585) 753-7600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "composting-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "vehicle-registration-inspection-ny",
+      "line": 63
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-40-12-062Z_a2fac94e-aa19-5577-9f04-9708d096ed11",
+    "meta": {
+      "callId": "a2fac94e-aa19-5577-9f04-9708d096ed11",
+      "digits": "5857537600",
+      "dialedNumber": "(585) 753-7600",
+      "catalogedName": "bottle-bill-deposit-return-ny",
+      "sourceId": "legal-entry:bottle-bill-deposit-return-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "bottle-bill-deposit-return-ny"
+        },
+        {
+          "type": "entry",
+          "id": "composting-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dumpster-rental-homeowner-ny"
+        },
+        {
+          "type": "entry",
+          "id": "e-waste-recycling-ny"
+        },
+        {
+          "type": "entry",
+          "id": "getting-id-documents-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "plastic-bag-fee-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "vehicle-registration-inspection-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:40:12.062Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.092Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County's Department of Environmental Services",
+      "reason": "transcript-stated name (Monroe County's Department of Environmental Services) differs from catalogued (bottle-bill-deposit-return-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.294Z",
+  "lastSeededAt": "2026-05-03T19:44:16.294Z"
+}

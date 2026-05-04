@@ -1,0 +1,61 @@
+{
+  "digits": "5184576512",
+  "kind": "phone",
+  "primaryName": "entry-callout:moving-company-disputes-ny",
+  "rawValue": "(518) 457-6512",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "moving-company-disputes-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-26-33-720Z_9ee12031-2301-b02c-9fa2-c607143699b3",
+    "meta": {
+      "callId": "9ee12031-2301-b02c-9fa2-c607143699b3",
+      "digits": "5184576512",
+      "dialedNumber": "(518) 457-6512",
+      "catalogedName": "moving-company-disputes-ny",
+      "sourceId": "legal-entry:moving-company-disputes-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "moving-company-disputes-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:26:33.720Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.946Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.531Z",
+  "lastSeededAt": "2026-05-03T19:44:16.531Z"
+}

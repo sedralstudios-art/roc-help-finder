@@ -1,0 +1,29 @@
+{
+  "callId": "01087c65-5100-3102-4c00-bcaf747deae2",
+  "digits": "8003362628",
+  "dialedNumber": "(800) 336-2628",
+  "catalogedName": "boat-operator-safety-certificate-ny",
+  "sourceId": "legal-entry:boat-operator-safety-certificate-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boat-operator-safety-certificate-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:53:49.993Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.712Z"
+  }
+}

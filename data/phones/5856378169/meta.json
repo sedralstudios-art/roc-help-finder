@@ -1,0 +1,59 @@
+{
+  "digits": "5856378169",
+  "kind": "phone",
+  "primaryName": "Brockport Ecumenical Food Shelf",
+  "rawValue": "585-637-8169",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brockportfood",
+      "name": "Brockport Ecumenical Food Shelf",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-44-31-834Z_27399291-520d-0ece-38a9-97db8bb2c6e1",
+    "meta": {
+      "callId": "27399291-520d-0ece-38a9-97db8bb2c6e1",
+      "digits": "5856378169",
+      "dialedNumber": "5856378169",
+      "catalogedName": "Brockport Ecumenical Food Shelf",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:44:31.834Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.565Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.432Z",
+  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+}

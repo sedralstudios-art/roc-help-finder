@@ -60,7 +60,7 @@ export const HOME_BUSINESS_SALES_TAX_NY = {
       qualifier: "Any NYS seller",
       access: "Phone at (518) 485-2889 or online at tax.ny.gov",
       outcome: "Free registration, compliance guidance, return filing",
-      phone: "(518) 485-2889",
+      phone: "",
       url: "https://www.tax.ny.gov/bus/st/stidx.htm",
       verified: true,
       bilingual: true,

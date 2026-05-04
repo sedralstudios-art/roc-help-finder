@@ -1,0 +1,29 @@
+{
+  "callId": "753cf197-5a9b-eae4-9e1d-321a1ccf20d2",
+  "digits": "5184749700",
+  "dialedNumber": "(518) 474-9700",
+  "catalogedName": "cps-investigation-process-ny",
+  "sourceId": "legal-entry:cps-investigation-process-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cps-investigation-process-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:01:27.577Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.770Z"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "digits": "5857845240",
+  "kind": "phone",
+  "primaryName": "Brighton Town Clerk",
+  "rawValue": "585-784-5240",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonclerk",
+      "name": "Brighton Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-17-37-888Z_0984e714-5019-7a20-34aa-3baedcca5cec",
+    "meta": {
+      "callId": "0984e714-5019-7a20-34aa-3baedcca5cec",
+      "digits": "5857845240",
+      "dialedNumber": "5857845240",
+      "catalogedName": "Brighton Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:17:37.888Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.635Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Daniel Amon",
+      "reason": "transcript-stated name (Daniel Amon) differs from catalogued (Brighton Town Clerk)"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.430Z",
+  "lastSeededAt": "2026-05-03T19:44:16.430Z",
+  "verifiedAt": "2026-05-03T20:21:01.798Z",
+  "verifiedRun": "2026-05-02T09-17-37-888Z_0984e714-5019-7a20-34aa-3baedcca5cec",
+  "verifiedTranscriptOpening": "Hello, this is Daniel Amon, Brighton Town Clerk. The Town Clerk's office is currently closed. Please leave a message and we will return your call on the next business day. Thanks. Message complete.",
+  "verifiedMatchTokens": [
+    "brighton",
+    "town",
+    "clerk"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:11:03.630Z",
+      "sourceUrl": "https://www.brightonny.gov/216/Town-Clerk",
+      "sourceLabel": "Town of Brighton Town Clerk page",
+      "notes": "Direct match: web confirms (585) 784-5240 AND tree dialer transcript says \"Town Clerks Office\"."
+    }
+  ]
+}

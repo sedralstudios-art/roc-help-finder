@@ -1,0 +1,24 @@
+{
+  "callId": "9d1b7545-6d54-21c3-2ade-bfbe2b8f7a8f",
+  "digits": "5853408655",
+  "dialedNumber": "5853408655",
+  "catalogedName": "Penfield Recreation and Parks",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:52:47.631Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.323Z"
+  }
+}

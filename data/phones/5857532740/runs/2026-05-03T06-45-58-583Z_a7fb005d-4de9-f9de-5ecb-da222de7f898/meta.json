@@ -1,0 +1,29 @@
+{
+  "callId": "a7fb005d-4de9-f9de-5ecb-da222de7f898",
+  "digits": "5857532740",
+  "dialedNumber": "(585) 753-2740",
+  "catalogedName": "snap-rights-ny",
+  "sourceId": "legal-entry:snap-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "snap-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:45:58.583Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.097Z"
+  }
+}

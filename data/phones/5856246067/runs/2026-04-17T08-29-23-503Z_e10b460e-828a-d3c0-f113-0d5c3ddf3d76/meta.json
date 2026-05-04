@@ -1,0 +1,24 @@
+{
+  "callId": "e10b460e-828a-d3c0-f113-0d5c3ddf3d76",
+  "digits": "5856246067",
+  "dialedNumber": "(585) 624-6067",
+  "catalogedName": "Mendon Public Library",
+  "sourceId": "mendonlib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:29:23.503Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.918Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "8c727287-92ce-e6a6-7a3d-1d58d2a08a4d",
+  "digits": "8003499960",
+  "dialedNumber": "(800) 349-9960",
+  "catalogedName": "lost-stolen-wallet-what-to-do-ny-program",
+  "sourceId": "legal-entry:lost-stolen-wallet-what-to-do-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:47.926Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.626Z"
+  }
+}

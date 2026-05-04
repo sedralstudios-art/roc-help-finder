@@ -1,0 +1,61 @@
+{
+  "digits": "5852486210",
+  "kind": "phone",
+  "primaryName": "Pittsford Town Clerk",
+  "rawValue": "585-248-6210",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordclerk",
+      "name": "Pittsford Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-41-46-795Z_1a81fe00-3bfd-fa0b-68df-6fc007f0eb53",
+    "meta": {
+      "callId": "1a81fe00-3bfd-fa0b-68df-6fc007f0eb53",
+      "digits": "5852486210",
+      "dialedNumber": "5852486210",
+      "catalogedName": "Pittsford Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:41:46.795Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.169Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Office of the Pittsburgh Town Clerk",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.453Z",
+  "lastSeededAt": "2026-05-03T19:44:16.453Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5852325433",
+  "kind": "phone",
+  "primaryName": "entry-callout:recording-police-ny",
+  "rawValue": "(585) 232-5433",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "recording-police-ny",
+      "line": 76
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-39-27-532Z_b290915b-3e97-9df8-993c-5ec541a98c34",
+    "meta": {
+      "callId": "b290915b-3e97-9df8-993c-5ec541a98c34",
+      "digits": "5852325433",
+      "dialedNumber": "(585) 232-5433",
+      "catalogedName": "recording-police-ny",
+      "sourceId": "legal-entry:recording-police-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "recording-police-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:39:27.532Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.052Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.556Z",
+  "lastSeededAt": "2026-05-03T19:44:16.556Z"
+}

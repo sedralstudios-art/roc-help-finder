@@ -1,0 +1,29 @@
+{
+  "callId": "834bd27e-723b-0d4d-aa00-06eb21ecdd39",
+  "digits": "5856134200",
+  "dialedNumber": "(585) 613-4200",
+  "catalogedName": "property-tax-installment-plan-ny",
+  "sourceId": "legal-entry:property-tax-installment-plan-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "property-tax-installment-plan-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:37:47.663Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.041Z"
+  }
+}

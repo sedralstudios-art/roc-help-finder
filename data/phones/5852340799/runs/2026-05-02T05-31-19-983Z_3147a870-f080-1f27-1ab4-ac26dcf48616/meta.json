@@ -1,0 +1,24 @@
+{
+  "callId": "3147a870-f080-1f27-1ab4-ac26dcf48616",
+  "digits": "5852340799",
+  "dialedNumber": "5852340799",
+  "catalogedName": "Penfield Ecumenical Food Shelf",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:31:19.983Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.146Z"
+  }
+}

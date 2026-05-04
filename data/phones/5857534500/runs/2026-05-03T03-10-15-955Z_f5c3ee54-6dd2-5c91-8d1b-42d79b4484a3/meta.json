@@ -1,0 +1,81 @@
+{
+  "callId": "f5c3ee54-6dd2-5c91-8d1b-42d79b4484a3",
+  "digits": "5857534500",
+  "dialedNumber": "(585) 753-4500",
+  "catalogedName": "acd-adjournment-contemplation-dismissal-ny",
+  "sourceId": "legal-entry:acd-adjournment-contemplation-dismissal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "acd-adjournment-contemplation-dismissal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "anti-hazing-law-ny"
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny"
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny"
+    },
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny"
+    },
+    {
+      "type": "entry",
+      "id": "dram-shop-act-bar-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny"
+    },
+    {
+      "type": "entry",
+      "id": "insurance-fraud-criminal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "jury-duty-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "recording-conversations-one-party-ny"
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "subpoena-what-to-do-ny"
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-lien-exaggeration-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:10:15.955Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.948Z"
+  }
+}

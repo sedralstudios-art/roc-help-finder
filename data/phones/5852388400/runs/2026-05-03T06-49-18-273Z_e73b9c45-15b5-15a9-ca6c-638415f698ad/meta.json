@@ -1,0 +1,29 @@
+{
+  "callId": "e73b9c45-15b5-15a9-ca6c-638415f698ad",
+  "digits": "5852388400",
+  "dialedNumber": "(585) 238-8400",
+  "catalogedName": "temporary-disability-insurance-ny",
+  "sourceId": "legal-entry:temporary-disability-insurance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:49:18.273Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.121Z"
+  }
+}

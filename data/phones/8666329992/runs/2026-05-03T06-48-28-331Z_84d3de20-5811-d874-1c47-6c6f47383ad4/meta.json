@@ -1,0 +1,29 @@
+{
+  "callId": "84d3de20-5811-d874-1c47-6c6f47383ad4",
+  "digits": "8666329992",
+  "dialedNumber": "(866) 632-9992",
+  "catalogedName": "summer-food-service-program-ny-program",
+  "sourceId": "legal-entry:summer-food-service-program-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "summer-food-service-program-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:48:28.331Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.116Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "9bf70a5a-6663-1293-077f-8466088eaf95",
+  "digits": "5854546696",
+  "dialedNumber": "(585) 454-6696",
+  "catalogedName": "Open Door Mission (Mail Services)",
+  "sourceId": "mailsvc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:45:44.539Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.863Z"
+  }
+}

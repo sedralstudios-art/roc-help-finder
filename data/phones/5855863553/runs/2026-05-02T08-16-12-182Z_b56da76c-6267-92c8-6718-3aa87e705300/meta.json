@@ -1,0 +1,24 @@
+{
+  "callId": "b56da76c-6267-92c8-6718-3aa87e705300",
+  "digits": "5855863553",
+  "dialedNumber": "5855863553",
+  "catalogedName": "East Rochester Clerk/Treasurer",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:16:12.182Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.504Z"
+  }
+}

@@ -61,7 +61,7 @@ export const DRUG_TESTING_WORK_NY = {
       qualifier: "Any worker in New York",
       access: "Phone at (888) 469-7365",
       outcome: "Investigation, enforcement, guidance on worker rights",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov",
       verified: true,
       bilingual: true,

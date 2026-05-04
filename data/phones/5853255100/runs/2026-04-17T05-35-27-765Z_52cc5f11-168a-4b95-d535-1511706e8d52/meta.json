@@ -1,0 +1,24 @@
+{
+  "callId": "52cc5f11-168a-4b95-d535-1511706e8d52",
+  "digits": "5853255100",
+  "dialedNumber": "(585) 325-5100",
+  "catalogedName": "Huther Doyle Memorial Institute",
+  "sourceId": "huther",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:35:27.765Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.649Z"
+  }
+}

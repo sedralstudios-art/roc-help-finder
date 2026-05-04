@@ -1,0 +1,76 @@
+{
+  "digits": "8002723900",
+  "kind": "phone",
+  "primaryName": "Alzheimer's Association Rochester",
+  "rawValue": "800-272-3900",
+  "blockDial": false,
+  "tags": [
+    "cat:caregiver",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "alz",
+      "name": "Alzheimer's Association Rochester",
+      "category": "caregiver",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-44-31-954Z_c210c934-56be-9a32-adf0-d9db2ab4542b",
+    "meta": {
+      "callId": "c210c934-56be-9a32-adf0-d9db2ab4542b",
+      "digits": "8002723900",
+      "dialedNumber": "8002723900",
+      "catalogedName": "Alzheimer's Association Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:44:31.954Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.833Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Alzheimer's Association",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.427Z",
+  "lastSeededAt": "2026-05-03T19:44:16.427Z",
+  "verifiedAt": "2026-05-03T20:21:01.824Z",
+  "verifiedRun": "2026-05-02T10-44-31-954Z_c210c934-56be-9a32-adf0-d9db2ab4542b",
+  "verifiedTranscriptOpening": "Thank you for calling the Alzheimer's Association. Gracias por llamar al Alzheimer's Association. Para continuar en español, presione 2.",
+  "verifiedMatchTokens": [
+    "alzheimer"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T21:07:33.426Z",
+      "sourceUrl": "https://www.alz.org/help-support/resources/helpline",
+      "sourceLabel": "Alzheimer's Association official 24/7 Helpline page",
+      "notes": "Direct match: web confirms 800-272-3900 AND tree dialer transcript says \"Alzheimer's Association\". Cross-verified."
+    }
+  ]
+}

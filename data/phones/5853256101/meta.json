@@ -1,0 +1,30 @@
+{
+  "digits": "5853256101",
+  "kind": "phone",
+  "primaryName": "entry-callout:adoption-tax-credit-ny",
+  "rawValue": "(585) 325-6101",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adoption-tax-credit-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "post-adoption-contact-agreement-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.364Z",
+  "lastSeededAt": "2026-05-03T19:44:16.364Z"
+}

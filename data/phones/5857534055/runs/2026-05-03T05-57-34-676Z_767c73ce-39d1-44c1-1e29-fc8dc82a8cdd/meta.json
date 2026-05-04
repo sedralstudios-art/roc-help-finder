@@ -1,0 +1,29 @@
+{
+  "callId": "767c73ce-39d1-44c1-1e29-fc8dc82a8cdd",
+  "digits": "5857534055",
+  "dialedNumber": "(585) 753-4055",
+  "catalogedName": "child-protective-services-process-ny",
+  "sourceId": "legal-entry:child-protective-services-process-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-protective-services-process-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:57:34.676Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.741Z"
+  }
+}

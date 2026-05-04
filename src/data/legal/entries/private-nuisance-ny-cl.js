@@ -59,7 +59,7 @@ export const PRIVATE_NUISANCE_NY_CL = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-5110",
       outcome: "Trained mediators, confidential sessions, no cost in many cases",
-      phone: "(585) 546-5110",
+      phone: "",
       url: "https://www.cdsadr.org",
       verified: true,
       bilingual: true,

@@ -1,0 +1,88 @@
+{
+  "digits": "8005694287",
+  "kind": "phone",
+  "primaryName": "entry-callout:mortgage-servicer-rules-ny",
+  "rawValue": "(800) 569-4287",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "rent-to-own-agreement-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "reverse-mortgage-seniors-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-23-15-593Z_b677706d-3945-aabc-e3a0-0e648130f72d",
+    "meta": {
+      "callId": "b677706d-3945-aabc-e3a0-0e648130f72d",
+      "digits": "8005694287",
+      "dialedNumber": "(800) 569-4287",
+      "catalogedName": "mortgage-servicer-rules-ny",
+      "sourceId": "legal-entry:mortgage-servicer-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mortgage-servicer-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rent-to-own-agreement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "reverse-mortgage-seniors-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veterans-housing-assistance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:23:15.593Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.283Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.329Z",
+  "lastSeededAt": "2026-05-03T19:44:16.329Z"
+}

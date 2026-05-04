@@ -1,0 +1,61 @@
+{
+  "digits": "5184742518",
+  "kind": "phone",
+  "primaryName": "entry-callout:open-meetings-law-public-participation-ny",
+  "rawValue": "(518) 474-2518",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "open-meetings-law-public-participation-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "public-records-request-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-13-45-206Z_3195c191-b45f-5b16-d338-1cec564dfcd8",
+    "meta": {
+      "callId": "3195c191-b45f-5b16-d338-1cec564dfcd8",
+      "digits": "5184742518",
+      "dialedNumber": "5184742518",
+      "catalogedName": "entry-callout:open-meetings-law-public-participation-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:13:45.206Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.106Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.404Z",
+  "lastSeededAt": "2026-05-03T19:44:16.404Z"
+}

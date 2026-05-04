@@ -1,0 +1,29 @@
+{
+  "callId": "828b98ee-0485-3057-bd8b-a34ce3d46e6e",
+  "digits": "5184745930",
+  "dialedNumber": "(518) 474-5930",
+  "catalogedName": "library-borrowing-privacy-ny",
+  "sourceId": "legal-entry:library-borrowing-privacy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "library-borrowing-privacy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:19:54.351Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.899Z"
+  }
+}

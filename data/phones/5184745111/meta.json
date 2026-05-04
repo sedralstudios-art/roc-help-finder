@@ -1,0 +1,45 @@
+{
+  "digits": "5184745111",
+  "kind": "phone",
+  "primaryName": "entry-callout:bicycle-helmet-under-14-ny",
+  "rawValue": "(518) 474-5111",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bicycle-helmet-under-14-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "child-car-seat-booster-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "seatbelt-law-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.313Z",
+  "lastSeededAt": "2026-05-03T19:44:16.313Z"
+}

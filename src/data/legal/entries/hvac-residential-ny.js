@@ -25,8 +25,8 @@ export const HVAC_RESIDENTIAL_NY = {
     // expert review 2026-05-01.) NYS Senate bot-blocks 403; phone capture
     // pending.
     url: "https://www.nysenate.gov/legislation/laws/EXC/377",
-    hash: "",
-    lastFetched: ""
+    hash: "fc09c301f0484d05a7240eb8e9abebfd13fded66a8a8a4b6c6e541bd5ab85316",
+    lastFetched: "2026-05-02"
   },
   lastFormallyReviewed: "2026-05-01",
   formallyReviewedBy: "Anthony DiMarzo + WebSearch + R1–R3 expert review (2026-05-01). Provisional, pending attorney sign-off. Round-by-round detail: src/data/legal/anchor-reviews/hvac-residential-ny.md.",
@@ -90,7 +90,7 @@ export const HVAC_RESIDENTIAL_NY = {
       qualifier: "Low-income workers; services available regardless of immigration status",
       access: "Walk-in and by appointment; Spanish and English",
       outcome: "Claim filing assistance, legal representation, worker education",
-      phone: "(585) 325-3050",
+      phone: "",
       url: "https://www.wjcny.org",
       verified: true,
       bilingual: true,
@@ -103,7 +103,7 @@ export const HVAC_RESIDENTIAL_NY = {
       qualifier: "Income-eligible residents of Monroe and surrounding counties",
       access: "Phone intake and online application",
       outcome: "Advice, brief services, and full representation depending on the case",
-      phone: "(585) 325-2520",
+      phone: "",
       url: "https://www.lawny.org",
       verified: true,
       bilingual: false,
@@ -116,7 +116,7 @@ export const HVAC_RESIDENTIAL_NY = {
       qualifier: "Any worker in New York, regardless of immigration or licensing status",
       access: "Online complaint form or phone intake",
       outcome: "State investigation and potential recovery of unpaid wages",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov/wage-theft-hub",
       verified: true,
       bilingual: true,
@@ -129,7 +129,7 @@ export const HVAC_RESIDENTIAL_NY = {
       qualifier: "Any New York consumer",
       access: "Online complaint form; phone intake",
       outcome: "State investigation and possible enforcement action",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds",
       verified: true,
       bilingual: true,

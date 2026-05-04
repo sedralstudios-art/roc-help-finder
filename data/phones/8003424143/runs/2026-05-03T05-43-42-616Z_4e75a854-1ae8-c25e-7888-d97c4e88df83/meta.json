@@ -1,0 +1,33 @@
+{
+  "callId": "4e75a854-1ae8-c25e-7888-d97c4e88df83",
+  "digits": "8003424143",
+  "dialedNumber": "(800) 342-4143",
+  "catalogedName": "recreational-use-immunity-ny",
+  "sourceId": "legal-entry:recreational-use-immunity-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "recreational-use-immunity-ny"
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:43:42.616Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.644Z"
+  }
+}

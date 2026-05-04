@@ -1,0 +1,36 @@
+{
+  "digits": "3158473842",
+  "kind": "phone",
+  "primaryName": "Narcotics Anonymous Rochester",
+  "rawValue": "315-847-3842",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "na",
+      "name": "Narcotics Anonymous Rochester",
+      "category": "addiction",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.415Z",
+  "lastSeededAt": "2026-05-03T19:44:16.415Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:14:34.682Z",
+      "sourceUrl": "https://nny-na.org",
+      "sourceLabel": "Northern NY NA official site",
+      "notes": "Web confirms (315) 847-3842 as Northern NY NA helpline covering Rochester. UNHIDING. Recovery-tier line."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "45930eed-47a4-286c-1cc6-cb99b43e9125",
+  "digits": "5855864332",
+  "dialedNumber": "5855864332",
+  "catalogedName": "Pittsford Village Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:17:17.702Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.506Z"
+  }
+}

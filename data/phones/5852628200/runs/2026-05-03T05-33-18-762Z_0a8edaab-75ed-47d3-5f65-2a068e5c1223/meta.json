@@ -1,0 +1,33 @@
+{
+  "callId": "0a8edaab-75ed-47d3-5f65-2a068e5c1223",
+  "digits": "5852628200",
+  "dialedNumber": "(585) 262-8200",
+  "catalogedName": "charter-school-application-ny",
+  "sourceId": "legal-entry:charter-school-application-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charter-school-application-ny"
+    },
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:33:18.762Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.578Z"
+  }
+}

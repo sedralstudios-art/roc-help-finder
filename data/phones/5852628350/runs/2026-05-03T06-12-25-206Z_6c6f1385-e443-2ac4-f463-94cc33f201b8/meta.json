@@ -1,0 +1,29 @@
+{
+  "callId": "6c6f1385-e443-2ac4-f463-94cc33f201b8",
+  "digits": "5852628350",
+  "dialedNumber": "(585) 262-8350",
+  "catalogedName": "ged-hse-programs-ny",
+  "sourceId": "legal-entry:ged-hse-programs-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ged-hse-programs-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:12:25.206Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.849Z"
+  }
+}

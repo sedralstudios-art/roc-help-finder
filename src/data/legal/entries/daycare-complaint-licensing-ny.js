@@ -49,7 +49,7 @@ export const DAYCARE_COMPLAINT_LICENSING_NY = {
   },
 
   example: {
-    en: "A parent in Greece noticed that her 3-year-old's daycare had 15 children with only one caregiver — well above the allowed ratio. She filed a complaint with OCFS at (800) 732-5207. An investigator visited the daycare within a week, confirmed the ratio violation, and issued a corrective action plan requiring the provider to hire additional staff within 30 days. The parent's identity was never disclosed to the provider."
+    en: "A parent in Greece noticed that her 3-year-old's daycare had 15 children with only one caregiver — well above the allowed ratio. She filed a complaint with OCFS at [number being verified]. An investigator visited the daycare within a week, confirmed the ratio violation, and issued a corrective action plan requiring the provider to hire additional staff within 30 days. The parent's identity was never disclosed to the provider."
   },
 
   counsel: [
@@ -60,7 +60,7 @@ export const DAYCARE_COMPLAINT_LICENSING_NY = {
       qualifier: "Any person with a concern about a child care program",
       access: "Phone at (800) 732-5207",
       outcome: "Investigation, corrective action, license enforcement",
-      phone: "(800) 732-5207",
+      phone: "",
       url: "https://ocfs.ny.gov/programs/childcare/",
       verified: true,
       bilingual: true,
@@ -73,7 +73,7 @@ export const DAYCARE_COMPLAINT_LICENSING_NY = {
       qualifier: "Parents in Monroe County",
       access: "Phone at (585) 654-4720",
       outcome: "Licensed provider referrals, quality information, parent support",
-      phone: "(585) 654-4720",
+      phone: "",
       url: "https://www.childcarecouncil.com",
       verified: true,
       bilingual: true,

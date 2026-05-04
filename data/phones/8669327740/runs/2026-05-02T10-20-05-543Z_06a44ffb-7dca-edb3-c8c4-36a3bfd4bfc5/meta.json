@@ -1,0 +1,24 @@
+{
+  "callId": "06a44ffb-7dca-edb3-c8c4-36a3bfd4bfc5",
+  "digits": "8669327740",
+  "dialedNumber": "8669327740",
+  "catalogedName": "Medicaid Transportation (Free Medical Rides)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:20:05.543Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.774Z"
+  }
+}

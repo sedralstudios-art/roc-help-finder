@@ -1,0 +1,41 @@
+{
+  "callId": "7d311e65-da1a-8419-b6cc-81888ebdb979",
+  "digits": "2124168121",
+  "dialedNumber": "(212) 416-8121",
+  "catalogedName": "condo-conversion-tenant-buyout-ny",
+  "sourceId": "legal-entry:condo-conversion-tenant-buyout-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "condo-conversion-tenant-buyout-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cooperative-apartment-purchase-ny"
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-rescue-scams-ny"
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:43:41.219Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.413Z"
+  }
+}

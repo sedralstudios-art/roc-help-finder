@@ -1,0 +1,77 @@
+{
+  "callId": "2bc2cf7e-5cde-4682-bdd2-7304e8d474b8",
+  "digits": "8008291040",
+  "dialedNumber": "(800) 829-1040",
+  "catalogedName": "adoption-tax-credit-ny",
+  "sourceId": "legal-entry:adoption-tax-credit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adoption-tax-credit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "amended-tax-return-1040x-ny"
+    },
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny"
+    },
+    {
+      "type": "entry",
+      "id": "child-dependent-care-credit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "disclaim-inheritance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "economic-impact-payment-recovery-ny"
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-child-credit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "irs-offer-in-compromise-ny"
+    },
+    {
+      "type": "entry",
+      "id": "joint-tenancy-tenancy-in-common-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-pension-tax-exclusion-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-income-tax-installment-plan-ny"
+    },
+    {
+      "type": "entry",
+      "id": "retirement-401k-early-withdrawal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:12:31.906Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.959Z"
+  }
+}

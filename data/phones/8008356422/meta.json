@@ -1,0 +1,61 @@
+{
+  "digits": "8008356422",
+  "kind": "phone",
+  "primaryName": "entry-callout:stolen-vehicle-recovery-ny",
+  "rawValue": "(800) 835-6422",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-47-30-050Z_f1032cf6-a991-fa47-2496-ef1120274cb2",
+    "meta": {
+      "callId": "f1032cf6-a991-fa47-2496-ef1120274cb2",
+      "digits": "8008356422",
+      "dialedNumber": "(800) 835-6422",
+      "catalogedName": "stolen-vehicle-recovery-ny",
+      "sourceId": "legal-entry:stolen-vehicle-recovery-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "stolen-vehicle-recovery-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:47:30.050Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.106Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.571Z",
+  "lastSeededAt": "2026-05-03T19:44:16.571Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "2ff677b6-96df-07a5-fa40-c6af59a36459",
+  "digits": "5854422000",
+  "dialedNumber": "(585) 442-2000",
+  "catalogedName": "water-service-line-lead-pipe-ny",
+  "sourceId": "legal-entry:water-service-line-lead-pipe-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "water-service-line-lead-pipe-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:54:09.554Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.153Z"
+  }
+}

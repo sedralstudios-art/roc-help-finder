@@ -1,0 +1,61 @@
+{
+  "digits": "8002221222",
+  "kind": "phone",
+  "primaryName": "entry-callout:pharmacy-errors-ny",
+  "rawValue": "(800) 222-1222",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacy-errors-ny",
+      "line": 13
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-34-44-682Z_e8d1a8f1-f3e4-2eba-f4a4-4f204744d320",
+    "meta": {
+      "callId": "e8d1a8f1-f3e4-2eba-f4a4-4f204744d320",
+      "digits": "8002221222",
+      "dialedNumber": "(800) 222-1222",
+      "catalogedName": "pharmacy-errors-ny",
+      "sourceId": "legal-entry:pharmacy-errors-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pharmacy-errors-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:34:44.682Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.019Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.547Z",
+  "lastSeededAt": "2026-05-03T19:44:16.547Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5855303120",
+  "kind": "phone",
+  "primaryName": "entry-callout:mental-health-records-access-ny",
+  "rawValue": "(585) 530-3120",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mental-health-records-access-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-23-47-306Z_c8d01bc9-dc12-0229-2cc4-5f92f9da4297",
+    "meta": {
+      "callId": "c8d01bc9-dc12-0229-2cc4-5f92f9da4297",
+      "digits": "5855303120",
+      "dialedNumber": "(585) 530-3120",
+      "catalogedName": "mental-health-records-access-ny",
+      "sourceId": "legal-entry:mental-health-records-access-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mental-health-records-access-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:23:47.306Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.926Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.526Z",
+  "lastSeededAt": "2026-05-03T19:44:16.526Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "97c91c31-9027-a948-510e-1f367ca1100e",
+  "digits": "5853251796",
+  "dialedNumber": "(585) 325-1796",
+  "catalogedName": "Dimitri House",
+  "sourceId": "dimitri",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:26:18.586Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.636Z"
+  }
+}

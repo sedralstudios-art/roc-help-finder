@@ -1,0 +1,41 @@
+{
+  "callId": "db5dfb2d-4b48-c5ec-5487-ebb281ed8927",
+  "digits": "5857537050",
+  "dialedNumber": "(585) 753-7050",
+  "catalogedName": "lost-driver-license-replacement-ny",
+  "sourceId": "legal-entry:lost-driver-license-replacement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "moped-limited-use-motorcycle-ny"
+    },
+    {
+      "type": "entry",
+      "id": "private-party-car-sales-tax-ny"
+    },
+    {
+      "type": "entry",
+      "id": "transfer-deceased-vehicle-title-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:53:03.390Z",
+  "durationSec": 23,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.465Z"
+  }
+}

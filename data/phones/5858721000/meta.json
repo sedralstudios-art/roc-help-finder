@@ -1,0 +1,67 @@
+{
+  "digits": "5858721000",
+  "kind": "phone",
+  "primaryName": "Webster Town Clerk",
+  "rawValue": "585-872-1000",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "websterclerk",
+      "name": "Webster Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-24-55-790Z_661aed2b-c198-f658-3819-f35f646c9b3a",
+    "meta": {
+      "callId": "661aed2b-c198-f658-3819-f35f646c9b3a",
+      "digits": "5858721000",
+      "dialedNumber": "5858721000",
+      "catalogedName": "Webster Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:24:55.790Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.649Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.456Z",
+  "lastSeededAt": "2026-05-03T19:44:16.456Z",
+  "verifiedAt": "2026-05-03T20:21:01.802Z",
+  "verifiedRun": "2026-05-02T09-24-55-790Z_661aed2b-c198-f658-3819-f35f646c9b3a",
+  "verifiedTranscriptOpening": "Calling the Town of Webster. We are sorry that there is no one available to answer your call. If you know your party's extension, you may dial it at any time. Please dial 0 for the operator. Press 1 f",
+  "verifiedMatchTokens": [
+    "webster",
+    "town"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

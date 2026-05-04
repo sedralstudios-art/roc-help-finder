@@ -40,7 +40,7 @@ export const BASKETBALL_HOOP_STREET_DRIVEWAY_NY = {
   legalOptions: {
     en: [
       "The local code enforcement office can explain the rules for a specific town. In Rochester, call 311.",
-      "In Greece, call Code Enforcement at (585) 723-2396.",
+      "In Greece, call Code Enforcement at (585) 723-2354.",
       "In Irondequoit, call Code Enforcement at (585) 336-6060.",
       "In Penfield, call Code Enforcement at (585) 340-8640.",
       "For any other town, call the town hall and ask for the building or code enforcement department.",

@@ -1,0 +1,29 @@
+{
+  "callId": "668825ba-8575-8cf7-3906-e09ed3836f3f",
+  "digits": "5184630300",
+  "dialedNumber": "(518) 463-0300",
+  "catalogedName": "real-estate-broker-agency-disclosure-ny",
+  "sourceId": "legal-entry:real-estate-broker-agency-disclosure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "real-estate-broker-agency-disclosure-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:39:10.879Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.050Z"
+  }
+}

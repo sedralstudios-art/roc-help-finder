@@ -1,0 +1,61 @@
+{
+  "digits": "5854873300",
+  "kind": "phone",
+  "primaryName": "entry-callout:cancer-screening-leave-ny",
+  "rawValue": "(585) 487-3300",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cancer-screening-leave-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-55-04-922Z_f8524b36-ce18-ee9c-3f07-9cca977d60c4",
+    "meta": {
+      "callId": "f8524b36-ce18-ee9c-3f07-9cca977d60c4",
+      "digits": "5854873300",
+      "dialedNumber": "(585) 487-3300",
+      "catalogedName": "cancer-screening-leave-ny",
+      "sourceId": "legal-entry:cancer-screening-leave-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cancer-screening-leave-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:55:04.922Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.721Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.475Z",
+  "lastSeededAt": "2026-05-03T19:44:16.475Z"
+}

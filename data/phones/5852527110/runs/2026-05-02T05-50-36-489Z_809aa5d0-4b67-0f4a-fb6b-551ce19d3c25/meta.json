@@ -1,0 +1,24 @@
+{
+  "callId": "809aa5d0-4b67-0f4a-fb6b-551ce19d3c25",
+  "digits": "5852527110",
+  "dialedNumber": "5852527110",
+  "catalogedName": "Rochester Financial Empowerment Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:50:36.489Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.190Z"
+  }
+}

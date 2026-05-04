@@ -1,0 +1,24 @@
+{
+  "callId": "24f070d0-298b-fb6f-8240-49a207048536",
+  "digits": "5852486240",
+  "dialedNumber": "5852486240",
+  "catalogedName": "Pittsford Animal Control",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:45:30.118Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.177Z"
+  }
+}

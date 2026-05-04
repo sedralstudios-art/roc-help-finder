@@ -1,0 +1,29 @@
+{
+  "callId": "0dbb59bd-6497-d97b-138a-4a979ca64a4d",
+  "digits": "5852324674",
+  "dialedNumber": "585-232-4674",
+  "catalogedName": "Pathway Houses of Rochester",
+  "sourceId": "pathwayhouses",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pathwayhouses"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:47:43.930Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.671Z"
+  }
+}

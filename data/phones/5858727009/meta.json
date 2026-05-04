@@ -1,0 +1,59 @@
+{
+  "digits": "5858727009",
+  "kind": "phone",
+  "primaryName": "Webster Animal Control",
+  "rawValue": "585-872-7009",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "websteranimal",
+      "name": "Webster Animal Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-25-54-883Z_05811234-34c2-2ef0-fc1d-3fa370c8765f",
+    "meta": {
+      "callId": "05811234-34c2-2ef0-fc1d-3fa370c8765f",
+      "digits": "5858727009",
+      "dialedNumber": "5858727009",
+      "catalogedName": "Webster Animal Control",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:25:54.883Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.651Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.458Z",
+  "lastSeededAt": "2026-05-03T19:44:16.458Z"
+}

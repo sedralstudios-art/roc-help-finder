@@ -1,0 +1,24 @@
+{
+  "callId": "3195c191-b45f-5b16-d338-1cec564dfcd8",
+  "digits": "5184742518",
+  "dialedNumber": "5184742518",
+  "catalogedName": "entry-callout:open-meetings-law-public-participation-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:13:45.206Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.106Z"
+  }
+}

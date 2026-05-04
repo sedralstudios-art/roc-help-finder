@@ -1,0 +1,81 @@
+{
+  "digits": "5852584550",
+  "kind": "phone",
+  "primaryName": "entry-callout:farm-worker-labor-rights-ny",
+  "rawValue": "(585) 258-4550",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "prevailing-wage-public-works-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-45-09-757Z_fca56939-5075-8754-29a2-06322bc3b9ce",
+    "meta": {
+      "callId": "fca56939-5075-8754-29a2-06322bc3b9ce",
+      "digits": "5852584550",
+      "dialedNumber": "(585) 258-4550",
+      "catalogedName": "farm-worker-labor-rights-ny",
+      "sourceId": "legal-entry:farm-worker-labor-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "farm-worker-labor-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "paid-prenatal-leave-ny"
+        },
+        {
+          "type": "entry",
+          "id": "prevailing-wage-public-works-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:45:09.757Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.386Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.16666666666666666,
+      "extracted": "New York State Department of Labor's Contact Center",
+      "reason": "transcript-stated name (New York State Department of Labor's Contact Center) differs from catalogued (farm-worker-labor-rights-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.347Z",
+  "lastSeededAt": "2026-05-03T19:44:16.347Z"
+}

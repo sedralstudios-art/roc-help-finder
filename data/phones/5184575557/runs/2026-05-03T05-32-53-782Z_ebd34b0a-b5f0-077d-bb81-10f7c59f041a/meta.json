@@ -1,0 +1,33 @@
+{
+  "callId": "ebd34b0a-b5f0-077d-bb81-10f7c59f041a",
+  "digits": "5184575557",
+  "dialedNumber": "(518) 457-5557",
+  "catalogedName": "cema-mortgage-refinance-savings-ny",
+  "sourceId": "legal-entry:cema-mortgage-refinance-savings-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny"
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:32:53.782Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.576Z"
+  }
+}

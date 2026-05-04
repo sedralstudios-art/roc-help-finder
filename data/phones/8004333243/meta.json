@@ -1,0 +1,70 @@
+{
+  "digits": "8004333243",
+  "kind": "phone",
+  "primaryName": "entry-callout:fafsa-financial-aid-application-ny-program",
+  "rawValue": "(800) 433-3243",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "fafsa-financial-aid-application-ny-program",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "student-loan-options-ny",
+      "line": 63
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-47-48-163Z_b241a121-88d7-9472-a117-1407dc2f5311",
+    "meta": {
+      "callId": "b241a121-88d7-9472-a117-1407dc2f5311",
+      "digits": "8004333243",
+      "dialedNumber": "(800) 433-3243",
+      "catalogedName": "fafsa-financial-aid-application-ny-program",
+      "sourceId": "legal-entry:fafsa-financial-aid-application-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "fafsa-financial-aid-application-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "student-loan-options-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:47:48.163Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.681Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.391Z",
+  "lastSeededAt": "2026-05-03T19:44:16.391Z"
+}

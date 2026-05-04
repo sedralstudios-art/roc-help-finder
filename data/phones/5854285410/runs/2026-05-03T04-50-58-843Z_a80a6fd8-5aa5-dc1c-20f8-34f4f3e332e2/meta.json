@@ -1,0 +1,41 @@
+{
+  "callId": "a80a6fd8-5aa5-dc1c-20f8-34f4f3e332e2",
+  "digits": "5854285410",
+  "dialedNumber": "(585) 428-5410",
+  "catalogedName": "joint-account-creditor-levy-ny",
+  "sourceId": "legal-entry:joint-account-creditor-levy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "joint-account-creditor-levy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "partition-joint-property-rpapl-9-ny"
+    },
+    {
+      "type": "entry",
+      "id": "prompt-pay-construction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "quiet-title-action-rpapl-15-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:50:58.843Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.454Z"
+  }
+}

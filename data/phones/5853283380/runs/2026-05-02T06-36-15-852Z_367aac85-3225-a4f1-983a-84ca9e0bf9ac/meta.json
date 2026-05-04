@@ -1,0 +1,24 @@
+{
+  "callId": "367aac85-3225-a4f1-983a-84ca9e0bf9ac",
+  "digits": "5853283380",
+  "dialedNumber": "5853283380",
+  "catalogedName": "Foodlink / Food Pantries",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:36:15.852Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.288Z"
+  }
+}

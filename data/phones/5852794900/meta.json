@@ -1,0 +1,61 @@
+{
+  "digits": "5852794900",
+  "kind": "phone",
+  "primaryName": "Strong Ties Community Support Clinic",
+  "rawValue": "585-279-4900",
+  "blockDial": false,
+  "tags": [
+    "cat:mental",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "strongties",
+      "name": "Strong Ties Community Support Clinic",
+      "category": "mental",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-09-42-452Z_f94cf96e-3dd4-6c9e-a8a2-6455ed0d6599",
+    "meta": {
+      "callId": "f94cf96e-3dd4-6c9e-a8a2-6455ed0d6599",
+      "digits": "5852794900",
+      "dialedNumber": "5852794900",
+      "catalogedName": "Strong Ties Community Support Clinic",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:09:42.452Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.231Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "UR Medicine Behavioral Health and Wellness",
+      "reason": "transcript-stated name (UR Medicine Behavioral Health and Wellness) differs from catalogued (Strong Ties Community Support Clinic)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.432Z",
+  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+}

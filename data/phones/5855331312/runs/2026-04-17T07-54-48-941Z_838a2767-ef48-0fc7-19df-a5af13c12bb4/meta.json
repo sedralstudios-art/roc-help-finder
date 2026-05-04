@@ -1,0 +1,24 @@
+{
+  "callId": "838a2767-ef48-0fc7-19df-a5af13c12bb4",
+  "digits": "5855331312",
+  "dialedNumber": "(585) 533-1312",
+  "catalogedName": "Rush Town Clerk",
+  "sourceId": "rushclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:54:48.941Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.874Z"
+  }
+}

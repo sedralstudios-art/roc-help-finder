@@ -1,0 +1,88 @@
+{
+  "digits": "5857534942",
+  "kind": "phone",
+  "primaryName": "WIC (Women, Infants & Children)",
+  "rawValue": "585-753-4942",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "wic",
+      "value": "585-753-4942",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "wic",
+      "name": "WIC (Women, Infants & Children)",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "child-car-seat-booster-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "wic-application-walkthrough-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-04-13-252Z_88171abc-0e1a-9e3e-fef2-a753b7518ce0",
+    "meta": {
+      "callId": "88171abc-0e1a-9e3e-fef2-a753b7518ce0",
+      "digits": "5857534942",
+      "dialedNumber": "5857534942",
+      "catalogedName": "WIC (Women, Infants & Children)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:04:13.252Z",
+      "durationSec": 21,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.605Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Monroe County WIC program",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.319Z",
+  "lastSeededAt": "2026-05-03T19:44:16.319Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:45:05.810Z",
+      "sourceUrl": "https://www.monroecounty.gov/health-maternal-WIC",
+      "sourceLabel": "Monroe County Health Department WIC page + 211lifeline confirmation",
+      "notes": "Web confirms 585-753-4942 as Monroe County WIC service line at 111 Westfall Rd. Multiple independent sources agree."
+    }
+  ]
+}

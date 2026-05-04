@@ -1,0 +1,59 @@
+{
+  "digits": "5852486280",
+  "kind": "phone",
+  "primaryName": "Pittsford Recreation Department",
+  "rawValue": "585-248-6280",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordrec",
+      "name": "Pittsford Recreation Department",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-48-26-746Z_f015c96f-1d9f-6775-44e4-b21ff23aa391",
+    "meta": {
+      "callId": "f015c96f-1d9f-6775-44e4-b21ff23aa391",
+      "digits": "5852486280",
+      "dialedNumber": "5852486280",
+      "catalogedName": "Pittsford Recreation Department",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:48:26.746Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.186Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.454Z",
+  "lastSeededAt": "2026-05-03T19:44:16.454Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "4eed54fa-7d11-a51b-b55d-cf60fb647741",
+  "digits": "2129659200",
+  "dialedNumber": "(212) 965-9200",
+  "catalogedName": "post-conviction-440-motion-ny",
+  "sourceId": "legal-entry:post-conviction-440-motion-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:35:51.211Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.027Z"
+  }
+}

@@ -73,7 +73,7 @@ export const ECONOMIC_IMPACT_PAYMENT_RECOVERY_NY = {
       qualifier: "Any U.S. taxpayer",
       access: "Phone at (800) 829-1040",
       outcome: "Account lookups, amended return guidance",
-      phone: "(800) 829-1040",
+      phone: "",
       url: "https://www.irs.gov/coronavirus",
       verified: true,
       bilingual: true,

@@ -61,7 +61,7 @@ export const FIVE04_PLAN_SCHOOL_RIGHTS_NY = {
       qualifier: "Any student in a public school",
       access: "Phone at (800) 421-3481, file complaints online at ed.gov/ocr",
       outcome: "Investigation, enforcement, resolution agreements",
-      phone: "(800) 421-3481",
+      phone: "",
       url: "https://www2.ed.gov/about/offices/list/ocr/index.html",
       verified: true,
       bilingual: true,

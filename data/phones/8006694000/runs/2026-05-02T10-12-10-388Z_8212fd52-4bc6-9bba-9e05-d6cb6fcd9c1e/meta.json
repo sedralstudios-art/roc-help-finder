@@ -1,0 +1,24 @@
+{
+  "callId": "8212fd52-4bc6-9bba-9e05-d6cb6fcd9c1e",
+  "digits": "8006694000",
+  "dialedNumber": "8006694000",
+  "catalogedName": "EEOC — Employment Discrimination Complaint",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:12:10.388Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.754Z"
+  }
+}

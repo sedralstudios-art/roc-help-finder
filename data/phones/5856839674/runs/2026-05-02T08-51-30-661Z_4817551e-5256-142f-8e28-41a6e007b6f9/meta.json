@@ -1,0 +1,24 @@
+{
+  "callId": "4817551e-5256-142f-8e28-41a6e007b6f9",
+  "digits": "5856839674",
+  "dialedNumber": "5856839674",
+  "catalogedName": "Greece Ecumenical Food Shelf & Clothing Closet",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:51:30.661Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.580Z"
+  }
+}

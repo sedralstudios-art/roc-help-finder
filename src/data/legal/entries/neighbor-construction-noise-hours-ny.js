@@ -39,7 +39,7 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
   legalOptions: {
     en: [
       "Rochester: Construction generally allowed 7 a.m. to 9 p.m. weekdays, limited weekend hours. Complaints through 311 or police at (585) 428-6720.",
-      "Greece: Code Enforcement at (585) 723-2396.",
+      "Greece: Code Enforcement at (585) 723-2354.",
       "Irondequoit: Police non-emergency at (585) 336-6000.",
       "Brighton: Police non-emergency at (585) 784-5150.",
       "Henrietta: Police non-emergency at (585) 334-4500.",
@@ -51,7 +51,7 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
       "A noise log (date, time, type of noise, duration) strengthens complaints about ongoing violations.",
       "Henrietta: Construction allowed 7 a.m. to 9 p.m. (Code § 168-2). (Verified 2026-04-17.)",
       "Rochester: construction activities permitted 7:00 AM to 10:00 PM. Call 311. (Verified 2026-04-17.)",
-      "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
+      "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2354. (Verified 2026-04-17.)",
       "Penfield: quiet hours 11:00 PM to 7:00 AM. Code Enforcement at (585) 340-8640. (Verified 2026-04-17.)",
       "Chili: noise prohibited 10:00 PM to 7:00 AM. (Verified 2026-04-17.)",
       "Clarkson: power equipment in residential zones prohibited 10:00 PM to 7:00 AM (exception for snow removal). (Verified 2026-04-17.)",

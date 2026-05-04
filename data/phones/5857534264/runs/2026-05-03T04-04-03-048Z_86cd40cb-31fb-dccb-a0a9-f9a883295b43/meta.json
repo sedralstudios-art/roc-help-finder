@@ -1,0 +1,49 @@
+{
+  "callId": "86cd40cb-31fb-dccb-a0a9-f9a883295b43",
+  "digits": "5857534264",
+  "dialedNumber": "(585) 753-4264",
+  "catalogedName": "implied-consent-chemical-test-ny",
+  "sourceId": "legal-entry:implied-consent-chemical-test-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "implied-consent-chemical-test-ny"
+    },
+    {
+      "type": "entry",
+      "id": "miranda-rights-explained-ny"
+    },
+    {
+      "type": "entry",
+      "id": "plea-bargain-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "probation-violation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sex-offender-registry-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-treatment-court-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:04:03.048Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.211Z"
+  }
+}

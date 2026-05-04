@@ -1,0 +1,24 @@
+{
+  "callId": "6df9d48e-de86-48fb-8f2b-1dd62813efd3",
+  "digits": "5857535437",
+  "dialedNumber": "(585) 753-5437",
+  "catalogedName": "Healthy Families Monroe County",
+  "sourceId": "healthyfam",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:33:58.304Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.720Z"
+  }
+}

@@ -60,7 +60,7 @@ export const FAMILY_COURT_WHAT_TO_EXPECT_NY = {
       qualifier: "Anyone with a Family Court case in Monroe County",
       access: "First floor, Hall of Justice, 99 Exchange Blvd, Rochester",
       outcome: "Free help with paperwork, filing, and understanding the process",
-      phone: "(585) 371-3544",
+      phone: "",
       url: "https://www.nycourts.gov/courts/7jd/monroe/family/",
       verified: true,
       bilingual: true,

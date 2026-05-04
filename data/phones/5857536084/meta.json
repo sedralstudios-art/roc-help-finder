@@ -1,0 +1,35 @@
+{
+  "digits": "5857536084",
+  "kind": "phone",
+  "primaryName": "entry-callout:adoption-basics-ny",
+  "rawValue": "(585) 753-6084",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adoption-basics-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "adoption-subsidy-foster-care-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "adoption-tax-credit-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.336Z",
+  "lastSeededAt": "2026-05-03T19:44:16.336Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5854618330",
+  "kind": "phone",
+  "primaryName": "entry-callout:medicaid-hcbs-waiver-ny",
+  "rawValue": "(585) 461-8330",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-22-32-426Z_9e3c9e53-6a48-9314-3ec9-126fb7d198d4",
+    "meta": {
+      "callId": "9e3c9e53-6a48-9314-3ec9-126fb7d198d4",
+      "digits": "5854618330",
+      "dialedNumber": "(585) 461-8330",
+      "catalogedName": "medicaid-hcbs-waiver-ny",
+      "sourceId": "legal-entry:medicaid-hcbs-waiver-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "medicaid-hcbs-waiver-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:22:32.426Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.917Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.524Z",
+  "lastSeededAt": "2026-05-03T19:44:16.524Z"
+}

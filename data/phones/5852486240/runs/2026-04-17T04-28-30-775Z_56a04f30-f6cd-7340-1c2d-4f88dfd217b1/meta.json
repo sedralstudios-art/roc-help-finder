@@ -1,0 +1,24 @@
+{
+  "callId": "56a04f30-f6cd-7340-1c2d-4f88dfd217b1",
+  "digits": "5852486240",
+  "dialedNumber": "(585) 248-6240",
+  "catalogedName": "Pittsford Animal Control",
+  "sourceId": "pittsfordanimal",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:28:30.775Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.561Z"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "digits": "6462057800",
+  "kind": "phone",
+  "primaryName": "entry-callout:minimum-auto-insurance-coverage-ny",
+  "rawValue": "(646) 205-7800",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "mva-no-insurance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-hit-by-car-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-55-37-291Z_d830d87e-8fd0-633c-3084-6a5e411f006b",
+    "meta": {
+      "callId": "d830d87e-8fd0-633c-3084-6a5e411f006b",
+      "digits": "6462057800",
+      "dialedNumber": "(646) 205-7800",
+      "catalogedName": "minimum-auto-insurance-coverage-ny",
+      "sourceId": "legal-entry:minimum-auto-insurance-coverage-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "minimum-auto-insurance-coverage-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mva-no-insurance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pedestrian-hit-by-car-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:55:37.291Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.436Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Motor Vehicle Accident Indemnification Corporation",
+      "reason": "transcript-stated name (Motor Vehicle Accident Indemnification Corporation) differs from catalogued (minimum-auto-insurance-coverage-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.350Z",
+  "lastSeededAt": "2026-05-03T19:44:16.350Z"
+}

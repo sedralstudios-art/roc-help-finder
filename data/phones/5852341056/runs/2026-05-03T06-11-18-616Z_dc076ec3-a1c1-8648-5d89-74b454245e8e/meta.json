@@ -1,0 +1,29 @@
+{
+  "callId": "dc076ec3-a1c1-8648-5d89-74b454245e8e",
+  "digits": "5852341056",
+  "dialedNumber": "(585) 234-1056",
+  "catalogedName": "freshwater-wetlands-permit-ny",
+  "sourceId": "legal-entry:freshwater-wetlands-permit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "freshwater-wetlands-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:11:18.616Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.842Z"
+  }
+}

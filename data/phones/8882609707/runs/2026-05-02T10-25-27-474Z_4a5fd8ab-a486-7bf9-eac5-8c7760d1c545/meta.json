@@ -1,0 +1,24 @@
+{
+  "callId": "4a5fd8ab-a486-7bf9-eac5-8c7760d1c545",
+  "digits": "8882609707",
+  "dialedNumber": "8882609707",
+  "catalogedName": "Air Care Alliance (Medical Flight Referral)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:25:27.474Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.787Z"
+  }
+}

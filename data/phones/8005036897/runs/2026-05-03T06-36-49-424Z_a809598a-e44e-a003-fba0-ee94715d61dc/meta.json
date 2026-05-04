@@ -1,0 +1,29 @@
+{
+  "callId": "a809598a-e44e-a003-fba0-ee94715d61dc",
+  "digits": "8005036897",
+  "dialedNumber": "(800) 503-6897",
+  "catalogedName": "prescription-assistance-ny",
+  "sourceId": "legal-entry:prescription-assistance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "prescription-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:36:49.424Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.034Z"
+  }
+}

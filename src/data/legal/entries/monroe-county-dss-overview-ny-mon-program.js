@@ -23,7 +23,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
   },
 
   whatItMeans: {
-    en: "Monroe County Department of Human Services (DHS, also referred to as DSS) is the local agency that administers most public-benefit programs for Monroe County residents on behalf of NY state and the federal government. DHS processes applications and handles ongoing case management for SNAP (food stamps), Medicaid and Child Health Plus, Temporary Assistance (Family Assistance and Safety Net Assistance), HEAP (Home Energy Assistance Program), Child Care Assistance Program, child-support enforcement and establishment, Adult Protective Services, Child Protective Services, foster care, and emergency housing placement. Two office locations operate in Rochester. The 691 St. Paul Street office, ZIP 14605, is the primary intake location for SNAP, Medicaid, Temporary Assistance, and other financial-assistance programs. Walk-in intake is available Monday through Friday 8:00 a.m. to 4:00 p.m. The 111 Westfall Road office, ZIP 14620, handles administrative functions, child-support services, employment services, child care assistance, HEAP Heating Equipment Repair and Replacement, and many family-services programs. Same hours. For most programs, online filing through mybenefits.ny.gov is the fastest pathway — the NY OTDA portal accepts SNAP, Temporary Assistance, HEAP, and Medicaid applications, handles document uploads, and lets existing recipients recertify and report changes. Phone intake is available at (585) 753-6960 for an application mailed to the home. A walk-in visit during business hours gets a same-day application packet and often a same-day interview for households applying for expedited SNAP or emergency assistance. Emergency assistance eligibility (for imminent eviction, utility shutoff, or homelessness) is typically handled with same-day intake at 691 St. Paul Street. Emergency needs outside business hours go to the after-hours crisis line at (585) 442-1742 or the 2-1-1 LIFE LINE for the Finger Lakes region. Language services are available at intake; DHS has a Limited English Proficiency policy with phone-based interpretation for over 100 languages. Reasonable accommodations are available on request for applicants with disabilities. Caseworker complaints or issues with an existing case can be escalated to the DHS Constituent Services unit. Denials and reductions on DHS-processed cases are appealable through the NY Fair Hearing process under SSL § 22 — not through a DHS internal process — within 60 days, and aid continuing is available when requested before the effective date. Legal Aid Society of Rochester, LawNY, and Empire Justice Center represent low-income Monroe County residents in fair hearings and complex DHS cases at no cost."
+    en: "Monroe County Department of Human Services (DHS, also referred to as DSS) is the local agency that administers most public-benefit programs for Monroe County residents on behalf of NY state and the federal government. DHS processes applications and handles ongoing case management for SNAP (food stamps), Medicaid and Child Health Plus, Temporary Assistance (Family Assistance and Safety Net Assistance), HEAP (Home Energy Assistance Program), Child Care Assistance Program, child-support enforcement and establishment, Adult Protective Services, Child Protective Services, foster care, and emergency housing placement. Two office locations operate in Rochester. The 691 St. Paul Street office, ZIP 14605, is the primary intake location for SNAP, Medicaid, Temporary Assistance, and other financial-assistance programs. Walk-in intake is available Monday through Friday 8:00 a.m. to 4:00 p.m. The 111 Westfall Road office, ZIP 14620, handles administrative functions, child-support services, employment services, child care assistance, HEAP Heating Equipment Repair and Replacement, and many family-services programs. Same hours. For most programs, online filing through mybenefits.ny.gov is the fastest pathway — the NY OTDA portal accepts SNAP, Temporary Assistance, HEAP, and Medicaid applications, handles document uploads, and lets existing recipients recertify and report changes. Phone intake is available at [number being verified] for an application mailed to the home. A walk-in visit during business hours gets a same-day application packet and often a same-day interview for households applying for expedited SNAP or emergency assistance. Emergency assistance eligibility (for imminent eviction, utility shutoff, or homelessness) is typically handled with same-day intake at 691 St. Paul Street. Emergency needs outside business hours go to the after-hours crisis line at [number being verified] or the 2-1-1 LIFE LINE for the Finger Lakes region. Language services are available at intake; DHS has a Limited English Proficiency policy with phone-based interpretation for over 100 languages. Reasonable accommodations are available on request for applicants with disabilities. Caseworker complaints or issues with an existing case can be escalated to the DHS Constituent Services unit. Denials and reductions on DHS-processed cases are appealable through the NY Fair Hearing process under SSL § 22 — not through a DHS internal process — within 60 days, and aid continuing is available when requested before the effective date. Legal Aid Society of Rochester, LawNY, and Empire Justice Center represent low-income Monroe County residents in fair hearings and complex DHS cases at no cost."
   },
 
   yourRights: {
@@ -64,7 +64,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
       qualifier: "Low income residents of Monroe and surrounding counties",
       access: "Phone intake, walk-in, or referral",
       outcome: "Direct representation and advice on benefits cases",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
@@ -77,7 +77,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
       qualifier: "Low income residents in 14 Western NY counties including Monroe",
       access: "Phone intake at (585) 325-2520",
       outcome: "Direct representation",
-      phone: "(585) 325-2520",
+      phone: "",
       url: "https://www.lawny.org",
       verified: true,
       bilingual: false,
@@ -90,7 +90,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
       qualifier: "Low and moderate income residents statewide (all NYS counties except NYC)",
       access: "Phone intake at (585) 454-4060",
       outcome: "Direct representation, impact litigation, and policy advocacy",
-      phone: "(585) 454-4060",
+      phone: "",
       url: "https://www.empirejustice.org",
       verified: true,
       bilingual: false,

@@ -1,0 +1,29 @@
+{
+  "callId": "2820dfda-d426-8e7d-91dd-a9a36972f172",
+  "digits": "5854517310",
+  "dialedNumber": "(585) 451-7310",
+  "catalogedName": "election-law-ballot-challenge-ny",
+  "sourceId": "legal-entry:election-law-ballot-challenge-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:05:37.154Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.800Z"
+  }
+}

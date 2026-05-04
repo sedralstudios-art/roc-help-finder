@@ -1,0 +1,29 @@
+{
+  "callId": "4a02912d-ee2e-31b4-463b-5518a487804d",
+  "digits": "2128767700",
+  "dialedNumber": "(212) 876-7700",
+  "catalogedName": "puppy-lemon-law-ny",
+  "sourceId": "legal-entry:puppy-lemon-law-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "puppy-lemon-law-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:38:45.903Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.047Z"
+  }
+}

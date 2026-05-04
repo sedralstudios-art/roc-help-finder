@@ -1,0 +1,87 @@
+{
+  "digits": "5852881700",
+  "kind": "phone",
+  "primaryName": "RTS Bus Service",
+  "rawValue": "585-288-1700",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rts",
+      "name": "RTS Bus Service",
+      "category": "transport",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rtsplanner",
+      "name": "RTS Trip Planner (Bus Routes)",
+      "category": "transport",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "ada-public-transit-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "senior-driver-license-renewal-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-13-42-619Z_bbce4de7-7fd9-5ee4-a2e0-c930280cb8b3",
+    "meta": {
+      "callId": "bbce4de7-7fd9-5ee4-a2e0-c930280cb8b3",
+      "digits": "5852881700",
+      "dialedNumber": "5852881700",
+      "catalogedName": "RTS Bus Service",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:13:42.619Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.240Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "RTS Customer Service",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.321Z",
+  "lastSeededAt": "2026-05-03T19:44:16.321Z",
+  "verifiedAt": "2026-05-03T20:21:01.703Z",
+  "verifiedRun": "2026-05-02T06-13-42-619Z_bbce4de7-7fd9-5ee4-a2e0-c930280cb8b3",
+  "verifiedTranscriptOpening": "Thank you for calling RTS Customer Service. When calling to book an on-demand ride, please have your exact addresses ready to give the representative. For RTS Connect Next bus information, visit MyRTS",
+  "verifiedMatchTokens": [
+    "rts",
+    "bus"
+  ],
+  "verifiedRatio": 1
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "5fc7efd2-d76d-d0ca-2ef7-e0b7e45df823",
+  "digits": "5854822561",
+  "dialedNumber": "5854822561",
+  "catalogedName": "Owen's House (Crisis Nursery East)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:38:38.648Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.818Z"
+  }
+}

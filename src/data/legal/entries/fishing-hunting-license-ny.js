@@ -60,7 +60,7 @@ export const FISHING_HUNTING_LICENSE_NY = {
       qualifier: "Anyone in the Finger Lakes/Western NY region",
       access: "Phone at (585) 226-5400",
       outcome: "License information, regulation questions, permit processing",
-      phone: "(585) 226-5400",
+      phone: "",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,

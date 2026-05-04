@@ -23,7 +23,7 @@ export const MEALS_ON_WHEELS_SENIOR_NUTRITION_NY_PROGRAM = {
   },
 
   whatItMeans: {
-    en: "The Older Americans Act (42 USC Sections 3030d, 3030g) funds senior nutrition programs in every state. The programs have two main forms. Congregate meals are served at senior centers, community centers, and some housing complexes — typically lunch, Monday through Friday. Participants eat together, which provides social connection in addition to nutrition. Home-delivered meals (commonly called Meals on Wheels) are brought to the home by volunteers or paid staff. Home delivery is for seniors who have difficulty leaving the home or preparing meals. Both programs are free to participate, though a suggested voluntary donation is common — no senior is denied a meal for inability to pay or donate. Meals are designed to provide at least one-third of the Recommended Dietary Allowance for older adults. Special diets (diabetic, low-sodium, pureed, kosher, halal, culturally specific) are often available depending on the provider. In Monroe County, the Monroe County Office for the Aging at (585) 753-6280 coordinates senior nutrition and makes referrals. Local providers include Lifespan of Greater Rochester, Visiting Nurse Service of Rochester and Monroe County, ABC Senior Centers, and numerous community-based nonprofits. Enrollment typically involves a brief phone intake and sometimes an in-home assessment for Meals on Wheels. Meals can start within days of the assessment. Federal funding covers most of the program cost; state and county funds fill in; suggested donations and some private funding add the remainder."
+    en: "The Older Americans Act (42 USC Sections 3030d, 3030g) funds senior nutrition programs in every state. The programs have two main forms. Congregate meals are served at senior centers, community centers, and some housing complexes — typically lunch, Monday through Friday. Participants eat together, which provides social connection in addition to nutrition. Home-delivered meals (commonly called Meals on Wheels) are brought to the home by volunteers or paid staff. Home delivery is for seniors who have difficulty leaving the home or preparing meals. Both programs are free to participate, though a suggested voluntary donation is common — no senior is denied a meal for inability to pay or donate. Meals are designed to provide at least one-third of the Recommended Dietary Allowance for older adults. Special diets (diabetic, low-sodium, pureed, kosher, halal, culturally specific) are often available depending on the provider. In Monroe County, the Monroe County Office for the Aging at [number being verified] coordinates senior nutrition and makes referrals. Local providers include Lifespan of Greater Rochester, Visiting Nurse Service of Rochester and Monroe County, ABC Senior Centers, and numerous community-based nonprofits. Enrollment typically involves a brief phone intake and sometimes an in-home assessment for Meals on Wheels. Meals can start within days of the assessment. Federal funding covers most of the program cost; state and county funds fill in; suggested donations and some private funding add the remainder."
   },
 
   yourRights: {
@@ -60,7 +60,7 @@ export const MEALS_ON_WHEELS_SENIOR_NUTRITION_NY_PROGRAM = {
       qualifier: "Monroe County seniors 60+ and their families",
       access: "Phone at (585) 753-6280",
       outcome: "Assessment, enrollment, referral to local providers",
-      phone: "(585) 753-6280",
+      phone: "",
       url: "https://www.monroecounty.gov/aging",
       verified: true,
       bilingual: false,
@@ -73,7 +73,7 @@ export const MEALS_ON_WHEELS_SENIOR_NUTRITION_NY_PROGRAM = {
       qualifier: "Seniors 60+ in the Greater Rochester area",
       access: "Phone at (585) 244-8400",
       outcome: "Information, referral, advocacy",
-      phone: "(585) 244-8400",
+      phone: "",
       url: "https://www.lifespan-roch.org",
       verified: true,
       bilingual: false,

@@ -1,0 +1,61 @@
+{
+  "digits": "8009627077",
+  "kind": "phone",
+  "primaryName": "entry-callout:private-investigator-licensing-ny",
+  "rawValue": "(800) 962-7077",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-37-14-375Z_675479ae-8f79-91c4-199e-0956dbd83165",
+    "meta": {
+      "callId": "675479ae-8f79-91c4-199e-0956dbd83165",
+      "digits": "8009627077",
+      "dialedNumber": "(800) 962-7077",
+      "catalogedName": "private-investigator-licensing-ny",
+      "sourceId": "legal-entry:private-investigator-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "private-investigator-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:37:14.375Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.037Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.552Z",
+  "lastSeededAt": "2026-05-03T19:44:16.552Z"
+}

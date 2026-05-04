@@ -1,0 +1,24 @@
+{
+  "callId": "a60af0a6-8a06-9b42-7aa2-2440ae0b2997",
+  "digits": "5857536280",
+  "dialedNumber": "5857536280",
+  "catalogedName": "Office for the Aging",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:10:01.028Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.618Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "digits": "5854282447",
+  "kind": "phone",
+  "primaryName": "entry-callout:school-bus-safety-laws-ny",
+  "rawValue": "(585) 428-2447",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-bus-safety-laws-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "traffic-court-what-to-expect-ny-program",
+      "line": 62
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-44-07-580Z_722d3059-8a9a-009b-0297-913bdb903dad",
+    "meta": {
+      "callId": "722d3059-8a9a-009b-0297-913bdb903dad",
+      "digits": "5854282447",
+      "dialedNumber": "(585) 428-2447",
+      "catalogedName": "school-bus-safety-laws-ny",
+      "sourceId": "legal-entry:school-bus-safety-laws-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "school-bus-safety-laws-ny"
+        },
+        {
+          "type": "entry",
+          "id": "traffic-court-what-to-expect-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:44:07.580Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.647Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.407Z",
+  "lastSeededAt": "2026-05-03T19:44:16.407Z"
+}

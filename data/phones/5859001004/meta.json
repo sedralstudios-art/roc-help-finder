@@ -1,0 +1,97 @@
+{
+  "digits": "5859001004",
+  "kind": "phone",
+  "primaryName": "Free Tax Filing (CASH/VITA)",
+  "rawValue": "585-900-1004",
+  "blockDial": false,
+  "tags": [
+    "cat:cash",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "LEGAL_AID",
+      "slug": "cashRoc",
+      "value": "585-900-1004",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "vita",
+      "name": "Free Tax Filing (CASH/VITA)",
+      "category": "cash",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "cashvita",
+      "name": "CASH Free Tax Prep",
+      "category": "cash",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-29-46-440Z_18adc597-9791-d4dd-77c5-3f8085e57c03",
+    "meta": {
+      "callId": "18adc597-9791-d4dd-77c5-3f8085e57c03",
+      "digits": "5859001004",
+      "dialedNumber": "585-900-1004",
+      "catalogedName": "Free Tax Filing (CASH/VITA)",
+      "sourceId": "vita",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "LEGAL_AID.cashRoc"
+        },
+        {
+          "type": "program",
+          "id": "vita"
+        },
+        {
+          "type": "program",
+          "id": "cashvita"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:29:46.440Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.311Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "CASH Office",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.332Z",
+  "lastSeededAt": "2026-05-03T19:44:16.332Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:02:57.717Z",
+      "sourceUrl": "https://empirejustice.org/cash/",
+      "sourceLabel": "Empire Justice Center CASH program page",
+      "notes": "Web confirms 585-900-1004 for CASH program tax prep (Central Library Rochester location)."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "callId": "8f247be7-23bb-2f2e-4e54-8cb5eff970f6",
+  "digits": "5854286855",
+  "dialedNumber": "(585) 428-6855",
+  "catalogedName": "dumpster-rental-homeowner-ny",
+  "sourceId": "legal-entry:dumpster-rental-homeowner-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sewer-backup-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "water-bill-dispute-ny"
+    },
+    {
+      "type": "entry",
+      "id": "water-main-break-responsibility-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:44:42.463Z",
+  "durationSec": 15,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.419Z"
+  }
+}

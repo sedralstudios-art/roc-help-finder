@@ -1,0 +1,59 @@
+{
+  "digits": "5855637747",
+  "kind": "phone",
+  "primaryName": "Refugees Helping Refugees",
+  "rawValue": "585-563-7747",
+  "blockDial": false,
+  "tags": [
+    "cat:refugeeSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rhrroc",
+      "name": "Refugees Helping Refugees",
+      "category": "refugeeSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-12-15-543Z_fe5fde4c-c0ef-fea3-1e2e-518d802a7388",
+    "meta": {
+      "callId": "fe5fde4c-c0ef-fea3-1e2e-518d802a7388",
+      "digits": "5855637747",
+      "dialedNumber": "5855637747",
+      "catalogedName": "Refugees Helping Refugees",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:12:15.543Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.496Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.421Z",
+  "lastSeededAt": "2026-05-03T19:44:16.421Z"
+}

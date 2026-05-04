@@ -1,0 +1,29 @@
+{
+  "callId": "fb63d7a7-6b18-9347-a995-d640242a2b42",
+  "digits": "5184028727",
+  "dialedNumber": "(518) 402-8727",
+  "catalogedName": "pesticide-worker-protection-standard-ny",
+  "sourceId": "legal-entry:pesticide-worker-protection-standard-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:33:29.805Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.010Z"
+  }
+}

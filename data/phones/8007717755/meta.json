@@ -1,0 +1,905 @@
+{
+  "digits": "8007717755",
+  "kind": "phone",
+  "primaryName": "NYS Attorney General — Consumer Complaints",
+  "rawValue": "800-771-7755",
+  "blockDial": false,
+  "tags": [
+    "cat:legalDebt",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nysAGConsumer",
+      "value": "800-771-7755",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "nysag",
+      "name": "NYS Attorney General — Consumer Complaints",
+      "category": "legalDebt",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "airline-passenger-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "amusement-ride-safety-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "anti-hazing-law-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "apartment-mold-disclosure-sale-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "apartment-rent-receipt-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "appliance-repair-refund-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "assisted-living-complaint-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "auto-body-shop-steering-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "auto-dealer-junk-fees-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "auto-lease-early-termination-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "auto-lemon-law-new-car-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "auto-repair-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "bait-and-switch-advertising-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "bank-account-freeze-exemption-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "basement-waterproofing-contractor-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "bed-bug-hotel-airbnb-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "cable-internet-billing-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "car-boot-immobilizer-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "car-repossession-personal-property-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "car-towed-repossessed-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "cell-phone-contract-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "commercial-eviction-process-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "consumer-arbitration-clause-ny-cl",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-fairness-act-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-lawsuit-defense-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "consumer-debt-collector-licensing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "contraception-coverage-ccca-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "contractor-fraud-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "contracts-must-be-in-writing-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-minimum-purchase-rules-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "credit-repair-companies-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "credit-report-dispute-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "debt-collection-harassment-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "debt-collection-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "debt-collector-calling-work-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "debt-settlement-company-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "debt-zombie-time-barred-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny",
+      "line": 65
+    },
+    {
+      "type": "entry",
+      "id": "default-judgment-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "defective-product-ucc-warranty-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "donnelly-act-antitrust-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cancel-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "driveway-paving-scam-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "elder-abuse-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny",
+      "line": 107
+    },
+    {
+      "type": "entry",
+      "id": "emergency-room-billing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "esa-vs-service-animal-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "extended-warranty-scam-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "flag-flagpole-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "free-annual-credit-report-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "furnace-repair-scam-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "garage-mechanic-unlicensed-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "gift-card-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "gym-membership-cancellation-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "high-cost-home-loan-banking-6-l-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "hipaa-medical-privacy-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "home-improvement-contractor-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "home-inspection-contract-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "home-title-theft-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "home-warranty-disputes-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "home-warranty-vs-home-insurance-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "hotel-guest-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny",
+      "line": 132
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "immigration-basics-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "internet-outage-refund-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "internet-privacy-data-breach-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "internet-purchase-chargebacks-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "internet-service-outage-refund-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "joint-account-creditor-levy-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "land-contract-rent-to-own-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "lemon-law-leased-vehicle-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "lemon-law-used-car-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "locked-out-of-house-locksmith-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "mechanics-lien-private-construction-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "medical-debt-credit-report-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "medical-debt-ny",
+      "line": 58
+    },
+    {
+      "type": "entry",
+      "id": "mobile-home-tenant-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "motor-vehicle-service-contract-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "moving-company-disputes-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mva-no-insurance-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "new-home-warranty-right-to-cure-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "non-compete-agreements-ny-cl",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-bed-hold-readmission-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-rights-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "ny-driving-abstract-license-history-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "ny-telemarketing-rules-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "odometer-fraud-used-car-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pawnshops-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "payday-lending-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "payday-loan-illegal-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "pet-deposit-pet-rent-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-hilton-village",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-spencerport-village",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "police-complaint-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "predatory-lending-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "price-gouging-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "private-lot-parking-towing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "private-party-car-sales-tax-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "puppy-lemon-law-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "pyramid-scheme-chain-letter-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "recording-conversations-one-party-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "refund-anticipation-loan-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "religious-accommodation-work-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "rent-to-own-agreement-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "rental-application-fee-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "rental-car-damage-waiver-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "rental-move-in-cost-limits-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "rental-scam-fake-listing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "restaurant-food-inspection-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "restroom-access-act-allys-law-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "retail-installment-sales-act-ppl-402-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "return-refund-policy-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "right-to-repair-car-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "right-to-repair-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "road-salt-damage-car-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "robocall-donotcall-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "salvage-title-branded-vehicle-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "satellite-dish-antenna-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "scam-protection-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "security-deposit-interest-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "security-deposit-ny",
+      "line": 70
+    },
+    {
+      "type": "entry",
+      "id": "self-storage-unit-lien-auction-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-reporting-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-civil-recovery-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "smoking-policy-disclosure-housing-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "storage-unit-lien-auction-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "structured-settlement-transfer-review-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "subscription-cancellation-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "telemarketer-donotcall-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tenant-screening-blacklist-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "timeshare-cancellation-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tow-truck-scam-accident-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "uber-lyft-passenger-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "unauthorized-towing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "unclaimed-property-abandoned-funds-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "undocumented-rights-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "used-car-buyer-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "used-car-dealer-complaint-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "wage-assignment-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "warranty-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-lien-exaggeration-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-15-23-277Z_8f6a6337-590e-63af-355b-1c0ea1924cb7",
+    "meta": {
+      "callId": "8f6a6337-590e-63af-355b-1c0ea1924cb7",
+      "digits": "8007717755",
+      "dialedNumber": "8007717755",
+      "catalogedName": "NYS Attorney General — Consumer Complaints",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:15:23.277Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.762Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Office of the New York State Attorney General",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.264Z",
+  "lastSeededAt": "2026-05-03T19:44:16.264Z"
+}

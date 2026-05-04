@@ -1,0 +1,61 @@
+{
+  "digits": "2124168035",
+  "kind": "phone",
+  "primaryName": "entry-callout:concert-ticket-resale-rights-ny",
+  "rawValue": "(212) 416-8035",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-59-47-749Z_e9f19a23-a5a2-ea5f-9288-10dece2ce330",
+    "meta": {
+      "callId": "e9f19a23-a5a2-ea5f-9288-10dece2ce330",
+      "digits": "2124168035",
+      "dialedNumber": "(212) 416-8035",
+      "catalogedName": "concert-ticket-resale-rights-ny",
+      "sourceId": "legal-entry:concert-ticket-resale-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "concert-ticket-resale-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:59:47.749Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.757Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.483Z",
+  "lastSeededAt": "2026-05-03T19:44:16.483Z"
+}

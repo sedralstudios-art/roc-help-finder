@@ -1,0 +1,57 @@
+{
+  "callId": "9395c15b-62f5-e71a-b06c-08294a860531",
+  "digits": "8888387697",
+  "dialedNumber": "(888) 838-7697",
+  "catalogedName": "burial-cremation-rights-low-income-ny",
+  "sourceId": "legal-entry:burial-cremation-rights-low-income-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "burial-cremation-rights-low-income-ny"
+    },
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny"
+    },
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny"
+    },
+    {
+      "type": "entry",
+      "id": "military-spouse-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "service-member-lease-termination-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veteran-tuition-waiver-suny-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-benefits-apportionment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-property-tax-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:34:05.708Z",
+  "durationSec": 13,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.058Z"
+  }
+}

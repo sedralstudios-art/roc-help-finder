@@ -1,0 +1,37 @@
+{
+  "callId": "d07dfe1a-817f-d085-c0e1-2b3c9412d786",
+  "digits": "5854232800",
+  "dialedNumber": "(585) 423-2800",
+  "catalogedName": "dental-care-low-income-ny-program",
+  "sourceId": "legal-entry:dental-care-low-income-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "free-eyeglasses-vision-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-marketplace-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:15:46.279Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.516Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "14d9cf62-2583-7b89-baf1-6bc3b2174e84",
+  "digits": "5859879500",
+  "dialedNumber": "5859879500",
+  "catalogedName": "Salvation Army (Food, Clothing, Vouchers)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:00:06.036Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.725Z"
+  }
+}

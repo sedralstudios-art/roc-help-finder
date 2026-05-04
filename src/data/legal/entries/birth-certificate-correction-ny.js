@@ -59,7 +59,7 @@ export const BIRTH_CERTIFICATE_CORRECTION_NY = {
       qualifier: "Any person born in New York State (outside NYC)",
       access: "Phone or mail",
       outcome: "Corrected or amended birth certificate",
-      phone: "(855) 322-1022",
+      phone: "",
       url: "https://www.health.ny.gov/vital_records/",
       verified: true,
       bilingual: false,

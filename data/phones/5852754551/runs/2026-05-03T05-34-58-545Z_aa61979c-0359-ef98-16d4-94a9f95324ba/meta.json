@@ -1,0 +1,33 @@
+{
+  "callId": "aa61979c-0359-ef98-16d4-94a9f95324ba",
+  "digits": "5852754551",
+  "dialedNumber": "(585) 275-4551",
+  "catalogedName": "dental-care-low-income-ny-program",
+  "sourceId": "legal-entry:dental-care-low-income-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:34:58.545Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.589Z"
+  }
+}

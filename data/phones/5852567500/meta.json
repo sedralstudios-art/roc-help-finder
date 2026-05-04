@@ -1,0 +1,65 @@
+{
+  "digits": "5852567500",
+  "kind": "phone",
+  "primaryName": "Hillside Work-Scholarship Connection",
+  "rawValue": "585-256-7500",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hillside",
+      "name": "Hillside Work-Scholarship Connection",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "adoption-tax-credit-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-51-37-740Z_f45d7e17-2310-c89c-691e-d79c76214541",
+    "meta": {
+      "callId": "f45d7e17-2310-c89c-691e-d79c76214541",
+      "digits": "5852567500",
+      "dialedNumber": "5852567500",
+      "catalogedName": "Hillside Work-Scholarship Connection",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:51:37.740Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.192Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.358Z",
+  "lastSeededAt": "2026-05-03T19:44:16.358Z"
+}

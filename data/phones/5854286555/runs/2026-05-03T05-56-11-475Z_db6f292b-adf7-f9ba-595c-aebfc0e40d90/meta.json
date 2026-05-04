@@ -1,0 +1,29 @@
+{
+  "callId": "db6f292b-adf7-f9ba-595c-aebfc0e40d90",
+  "digits": "5854286555",
+  "dialedNumber": "(585) 428-6555",
+  "catalogedName": "cell-phone-while-driving-ny",
+  "sourceId": "legal-entry:cell-phone-while-driving-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:56:11.475Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.728Z"
+  }
+}

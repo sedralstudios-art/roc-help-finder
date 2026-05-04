@@ -1,0 +1,33 @@
+{
+  "callId": "d8b340f9-fb0c-4d53-1f89-2f720c38a0d5",
+  "digits": "5184575434",
+  "dialedNumber": "(518) 457-5434",
+  "catalogedName": "nys-income-tax-installment-plan-ny",
+  "sourceId": "legal-entry:nys-income-tax-installment-plan-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nys-income-tax-installment-plan-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-tax-warrant-173-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:42:27.744Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.636Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "5157ed91-cae0-d843-a806-4c639d20229d",
+  "digits": "5183883300",
+  "dialedNumber": "(518) 388-3300",
+  "catalogedName": "lottery-prize-claims-ny",
+  "sourceId": "legal-entry:lottery-prize-claims-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lottery-prize-claims-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:21:34.191Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.911Z"
+  }
+}

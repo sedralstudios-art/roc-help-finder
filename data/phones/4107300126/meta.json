@@ -1,0 +1,61 @@
+{
+  "digits": "4107300126",
+  "kind": "phone",
+  "primaryName": "entry-callout:surrogacy-child-parent-security-act-ny",
+  "rawValue": "(410) 730-0126",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-48-36-650Z_dfa1cfb7-a716-c944-da89-5659446750bd",
+    "meta": {
+      "callId": "dfa1cfb7-a716-c944-da89-5659446750bd",
+      "digits": "4107300126",
+      "dialedNumber": "(410) 730-0126",
+      "catalogedName": "surrogacy-child-parent-security-act-ny",
+      "sourceId": "legal-entry:surrogacy-child-parent-security-act-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "surrogacy-child-parent-security-act-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:48:36.650Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.116Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.572Z",
+  "lastSeededAt": "2026-05-03T19:44:16.572Z"
+}

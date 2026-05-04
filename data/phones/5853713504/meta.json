@@ -1,0 +1,70 @@
+{
+  "digits": "5853713504",
+  "kind": "phone",
+  "primaryName": "entry-callout:landlord-interference-quiet-enjoyment-ny-cl",
+  "rawValue": "(585) 371-3504",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "landlord-interference-quiet-enjoyment-ny-cl",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-appeal-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-39-49-706Z_576bba93-5c35-3e38-5a9e-28ddcf65340c",
+    "meta": {
+      "callId": "576bba93-5c35-3e38-5a9e-28ddcf65340c",
+      "digits": "5853713504",
+      "dialedNumber": "(585) 371-3504",
+      "catalogedName": "landlord-interference-quiet-enjoyment-ny-cl",
+      "sourceId": "legal-entry:landlord-interference-quiet-enjoyment-ny-cl",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "landlord-interference-quiet-enjoyment-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "small-claims-appeal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:39:49.706Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.620Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.399Z",
+  "lastSeededAt": "2026-05-03T19:44:16.399Z"
+}

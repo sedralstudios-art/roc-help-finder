@@ -1,0 +1,24 @@
+{
+  "callId": "11f169d2-8f79-e3d1-bc97-cd66dc57a67e",
+  "digits": "5853216808",
+  "dialedNumber": "(585) 321-6808",
+  "catalogedName": "Dress for Success Rochester",
+  "sourceId": "dfs",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:23:38.643Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.632Z"
+  }
+}

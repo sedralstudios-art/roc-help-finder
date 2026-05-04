@@ -1,0 +1,49 @@
+{
+  "callId": "f8f5dfdd-347b-9fe9-0dc9-789b323134bf",
+  "digits": "5858727068",
+  "dialedNumber": "(585) 872-7068",
+  "catalogedName": "code-enforcement-complaint-ny",
+  "sourceId": "legal-entry:code-enforcement-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny"
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:57:17.181Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.175Z"
+  }
+}

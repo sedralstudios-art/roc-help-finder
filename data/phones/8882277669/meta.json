@@ -1,0 +1,117 @@
+{
+  "digits": "8882277669",
+  "kind": "phone",
+  "primaryName": "entry-callout:aarp-tax-aide-ny",
+  "rawValue": "(888) 227-7669",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "aarp-tax-aide-ny",
+      "line": 76
+    },
+    {
+      "type": "entry",
+      "id": "amended-tax-return-1040x-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "economic-impact-payment-recovery-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-real-property-tax-credit-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "ny-pension-tax-exclusion-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "refund-anticipation-loan-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "retirement-401k-early-withdrawal-ny",
+      "line": 80
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-37-51-909Z_d8d0f0c0-808b-d374-d0d0-c037c11d55c5",
+    "meta": {
+      "callId": "d8d0f0c0-808b-d374-d0d0-c037c11d55c5",
+      "digits": "8882277669",
+      "dialedNumber": "(888) 227-7669",
+      "catalogedName": "aarp-tax-aide-ny",
+      "sourceId": "legal-entry:aarp-tax-aide-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "aarp-tax-aide-ny"
+        },
+        {
+          "type": "entry",
+          "id": "amended-tax-return-1040x-ny"
+        },
+        {
+          "type": "entry",
+          "id": "economic-impact-payment-recovery-ny"
+        },
+        {
+          "type": "entry",
+          "id": "empire-state-real-property-tax-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-pension-tax-exclusion-ny"
+        },
+        {
+          "type": "entry",
+          "id": "refund-anticipation-loan-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "retirement-401k-early-withdrawal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:37:51.909Z",
+      "durationSec": 13,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.079Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "AARP Foundation Tax Aid",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.293Z",
+  "lastSeededAt": "2026-05-03T19:44:16.293Z"
+}

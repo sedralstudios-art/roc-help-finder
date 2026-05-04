@@ -1,0 +1,24 @@
+{
+  "callId": "a7f945d5-92aa-4139-7222-8bd27831e559",
+  "digits": "5856246150",
+  "dialedNumber": "(585) 624-6150",
+  "catalogedName": "Village of Honeoye Falls Code Enforcement",
+  "sourceId": "electrical-residential-ny-mon-honeoye-falls-village::Village of Honeoye Falls Code Enforcement",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:30:09.200Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.919Z"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "digits": "5856371134",
+  "kind": "phone",
+  "primaryName": "Clarkson Justice Court",
+  "rawValue": "585-637-1134",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "clarksoncourt",
+      "name": "Clarkson Justice Court",
+      "category": "legal",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-37-51-022Z_357704c1-c971-3665-c4b4-2b1967cdf204",
+    "meta": {
+      "callId": "357704c1-c971-3665-c4b4-2b1967cdf204",
+      "digits": "5856371134",
+      "dialedNumber": "5856371134",
+      "catalogedName": "Clarkson Justice Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:37:51.022Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.551Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.438Z",
+  "lastSeededAt": "2026-05-03T19:44:16.438Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:17:04.453Z",
+      "sourceUrl": "https://townofclarksonny.gov/justice-court/",
+      "sourceLabel": "Town of Clarkson Justice Court page",
+      "notes": "Web confirms (585) 637-1134 for Clarkson Justice Court. Hours updated to current site listing M-Th noon-5pm. UNHIDING."
+    }
+  ]
+}

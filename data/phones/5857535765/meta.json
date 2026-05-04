@@ -1,0 +1,82 @@
+{
+  "digits": "5857535765",
+  "kind": "phone",
+  "primaryName": "MC.fosterCareIntake",
+  "rawValue": "585-753-5765",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "fosterCareIntake",
+      "value": "585-753-5765",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "foster-care-bill-of-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "foster-parent-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-00-10-938Z_d25ce69f-e8fb-867e-f974-84393cedff81",
+    "meta": {
+      "callId": "d25ce69f-e8fb-867e-f974-84393cedff81",
+      "digits": "5857535765",
+      "dialedNumber": "585-753-5765",
+      "catalogedName": "MC.fosterCareIntake",
+      "sourceId": "pole:MC.fosterCareIntake",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "MC.fosterCareIntake"
+        },
+        {
+          "type": "entry",
+          "id": "foster-care-bill-of-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "foster-parent-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:00:10.938Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.481Z"
+      }
+    },
+    "verdict": {
+      "bucket": "voicemail-of-person",
+      "confidence": 0.9,
+      "reason": "matches voicemail-of-person pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.331Z",
+  "lastSeededAt": "2026-05-03T19:44:16.331Z"
+}

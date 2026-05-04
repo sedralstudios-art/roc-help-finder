@@ -1,0 +1,24 @@
+{
+  "callId": "e41569e7-7765-d943-6873-3aa4b886c28d",
+  "digits": "5855467220",
+  "dialedNumber": "5855467220",
+  "catalogedName": "Catholic Charities Immigration Services",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:09:11.989Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.490Z"
+  }
+}

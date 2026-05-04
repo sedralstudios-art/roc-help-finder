@@ -1,0 +1,61 @@
+{
+  "digits": "8772085421",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-boot-immobilizer-ny",
+  "rawValue": "(877) 208-5421",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-boot-immobilizer-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-55-21-561Z_0957295d-4639-5c6a-733c-46b1c8ba7cf1",
+    "meta": {
+      "callId": "0957295d-4639-5c6a-733c-46b1c8ba7cf1",
+      "digits": "8772085421",
+      "dialedNumber": "(877) 208-5421",
+      "catalogedName": "car-boot-immobilizer-ny",
+      "sourceId": "legal-entry:car-boot-immobilizer-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-boot-immobilizer-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:55:21.561Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.723Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.475Z",
+  "lastSeededAt": "2026-05-03T19:44:16.475Z"
+}

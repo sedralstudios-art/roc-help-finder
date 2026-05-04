@@ -1,0 +1,24 @@
+{
+  "callId": "8e84caeb-df80-888d-0865-63e00543ca12",
+  "digits": "5855046195",
+  "dialedNumber": "5855046195",
+  "catalogedName": "Tenant Defense Project",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:55:57.821Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.462Z"
+  }
+}

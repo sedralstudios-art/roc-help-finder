@@ -1,0 +1,24 @@
+{
+  "callId": "e7b4e567-fb86-dec0-e2a9-0bf720a877fa",
+  "digits": "8003423736",
+  "dialedNumber": "800-342-3736",
+  "catalogedName": "HOTLINES.nysDFS",
+  "sourceId": "pole:HOTLINES.nysDFS",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-03T02:36:46.038Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.862Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "03a31c7a-e4c8-e70b-1b8c-9be91bf25836",
+  "digits": "5858896175",
+  "dialedNumber": "(585) 889-6175",
+  "catalogedName": "Chili Dog Control",
+  "sourceId": "chilidogcontrol",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:51:16.418Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.033Z"
+  }
+}

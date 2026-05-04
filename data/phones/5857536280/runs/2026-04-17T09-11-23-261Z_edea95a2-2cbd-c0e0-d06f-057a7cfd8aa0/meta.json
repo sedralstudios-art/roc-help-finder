@@ -1,0 +1,24 @@
+{
+  "callId": "edea95a2-2cbd-c0e0-d06f-057a7cfd8aa0",
+  "digits": "5857536280",
+  "dialedNumber": "(585) 753-6280",
+  "catalogedName": "Office for the Aging",
+  "sourceId": "ofa",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:11:23.261Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.973Z"
+  }
+}

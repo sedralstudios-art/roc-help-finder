@@ -1,0 +1,79 @@
+{
+  "digits": "5184734437",
+  "kind": "phone",
+  "primaryName": "entry-callout:pharmacist-administered-vaccines-ny",
+  "rawValue": "(518) 473-4437",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-immunization-requirements-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-vaccine-medical-exemption-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-00-54-433Z_1caa41b9-9e45-7b45-ddcc-94aa8d56f094",
+    "meta": {
+      "callId": "1caa41b9-9e45-7b45-ddcc-94aa8d56f094",
+      "digits": "5184734437",
+      "dialedNumber": "(518) 473-4437",
+      "catalogedName": "pharmacist-administered-vaccines-ny",
+      "sourceId": "legal-entry:pharmacist-administered-vaccines-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pharmacist-administered-vaccines-ny"
+        },
+        {
+          "type": "entry",
+          "id": "school-immunization-requirements-ny"
+        },
+        {
+          "type": "entry",
+          "id": "school-vaccine-medical-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:00:54.433Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.465Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.352Z",
+  "lastSeededAt": "2026-05-03T19:44:16.352Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5855303000",
+  "kind": "phone",
+  "primaryName": "entry-callout:leaving-hospital-against-medical-advice-ny",
+  "rawValue": "(585) 530-3000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-19-46-037Z_c5901db1-eedf-cec4-5722-03159324138b",
+    "meta": {
+      "callId": "c5901db1-eedf-cec4-5722-03159324138b",
+      "digits": "5855303000",
+      "dialedNumber": "(585) 530-3000",
+      "catalogedName": "leaving-hospital-against-medical-advice-ny",
+      "sourceId": "legal-entry:leaving-hospital-against-medical-advice-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "leaving-hospital-against-medical-advice-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:19:46.037Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.898Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.519Z",
+  "lastSeededAt": "2026-05-03T19:44:16.519Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "9e731896-56cd-47b8-e2fa-0afdb9048a0b",
+  "digits": "5853852576",
+  "dialedNumber": "5853852576",
+  "catalogedName": "East Rochester Town Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:10:42.718Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.362Z"
+  }
+}

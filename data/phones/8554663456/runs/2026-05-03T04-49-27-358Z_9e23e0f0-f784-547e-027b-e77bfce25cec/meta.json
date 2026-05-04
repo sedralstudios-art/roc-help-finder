@@ -1,0 +1,41 @@
+{
+  "callId": "9e23e0f0-f784-547e-027b-e77bfce25cec",
+  "digits": "8554663456",
+  "dialedNumber": "1-855-466-3456",
+  "catalogedName": "foreclosure-rescue-scams-ny",
+  "sourceId": "legal-entry:foreclosure-rescue-scams-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "foreclosure-rescue-scams-ny"
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-settlement-conference-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-preforeclosure-90-day-notice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:49:27.358Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.445Z"
+  }
+}

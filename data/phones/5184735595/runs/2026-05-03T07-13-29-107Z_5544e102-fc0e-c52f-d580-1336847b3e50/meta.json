@@ -1,0 +1,41 @@
+{
+  "callId": "5544e102-fc0e-c52f-d580-1336847b3e50",
+  "digits": "5184735595",
+  "dialedNumber": "(518) 473-5595",
+  "catalogedName": "cell-phone-while-driving-ny",
+  "sourceId": "legal-entry:cell-phone-while-driving-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ignition-interlock-dwi-ny"
+    },
+    {
+      "type": "entry",
+      "id": "moving-violation-points-ny"
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:13:29.107Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.239Z"
+  }
+}

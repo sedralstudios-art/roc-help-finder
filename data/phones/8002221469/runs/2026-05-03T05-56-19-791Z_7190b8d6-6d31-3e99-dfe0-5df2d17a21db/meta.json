@@ -1,0 +1,29 @@
+{
+  "callId": "7190b8d6-6d31-3e99-dfe0-5df2d17a21db",
+  "digits": "8002221469",
+  "dialedNumber": "(800) 222-1469",
+  "catalogedName": "cell-phone-while-driving-ny",
+  "sourceId": "legal-entry:cell-phone-while-driving-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:56:19.791Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.731Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "f35a8c00-2f6c-550b-9aa1-4a7c622fc165",
+  "digits": "2129790611",
+  "dialedNumber": "(212) 979-0611",
+  "catalogedName": "rent-stabilization-basics-ny",
+  "sourceId": "legal-entry:rent-stabilization-basics-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "rent-stabilization-basics-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:00.807Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.055Z"
+  }
+}

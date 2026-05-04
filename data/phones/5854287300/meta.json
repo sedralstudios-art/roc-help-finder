@@ -1,0 +1,85 @@
+{
+  "digits": "5854287300",
+  "kind": "phone",
+  "primaryName": "Rochester Public Library",
+  "rawValue": "585-428-7300",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:education",
+    "cat:internet",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "lib",
+      "name": "Rochester Public Library",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "libhotspot",
+      "name": "Library WiFi Hotspot Lending",
+      "category": "internet",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "libid",
+      "name": "Rochester Public Library (Document Help)",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-32-52-158Z_51a8762e-d966-d267-0dc2-84d38d774dfb",
+    "meta": {
+      "callId": "51a8762e-d966-d267-0dc2-84d38d774dfb",
+      "digits": "5854287300",
+      "dialedNumber": "5854287300",
+      "catalogedName": "Rochester Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:32:52.158Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.410Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Central Library and the Rundown Memorial Building and the Bausch and Lomb Public Library Building",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.334Z",
+  "lastSeededAt": "2026-05-03T19:44:16.334Z",
+  "verifiedAt": "2026-05-03T20:21:01.744Z",
+  "verifiedRun": "2026-05-02T07-32-52-158Z_51a8762e-d966-d267-0dc2-84d38d774dfb",
+  "verifiedTranscriptOpening": "Hello, you have reached the Central Library and the Rundown Memorial Building and the Bausch and Lomb Public Library Building. At this time, the library is closed. For library hours and holiday closin",
+  "verifiedMatchTokens": [
+    "public",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

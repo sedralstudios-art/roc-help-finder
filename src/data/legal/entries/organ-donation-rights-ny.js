@@ -60,7 +60,7 @@ export const ORGAN_DONATION_RIGHTS_NY = {
       qualifier: "Anyone in the Finger Lakes/Western NY region",
       access: "Phone at (585) 272-4930",
       outcome: "Donation information, registration help, family support",
-      phone: "(585) 272-4930",
+      phone: "",
       url: "https://www.donorrecovery.org",
       verified: true,
       bilingual: false,

@@ -1,0 +1,70 @@
+{
+  "digits": "5852922300",
+  "kind": "phone",
+  "primaryName": "entry-callout:college-in-state-tuition-residency-ny",
+  "rawValue": "(585) 292-2300",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "yellowstone-injunction-commercial-lease-ny-cl",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-29-55-277Z_fa6a832d-50c7-701f-d257-19927ebdf80d",
+    "meta": {
+      "callId": "fa6a832d-50c7-701f-d257-19927ebdf80d",
+      "digits": "5852922300",
+      "dialedNumber": "(585) 292-2300",
+      "catalogedName": "college-in-state-tuition-residency-ny",
+      "sourceId": "legal-entry:college-in-state-tuition-residency-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "college-in-state-tuition-residency-ny"
+        },
+        {
+          "type": "entry",
+          "id": "yellowstone-injunction-commercial-lease-ny-cl"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:29:55.277Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.599Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.385Z",
+  "lastSeededAt": "2026-05-03T19:44:16.385Z"
+}

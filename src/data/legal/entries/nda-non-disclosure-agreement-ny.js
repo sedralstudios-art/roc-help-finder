@@ -60,7 +60,7 @@ export const NDA_NON_DISCLOSURE_AGREEMENT_NY = {
       qualifier: "Any worker in New York",
       access: "Phone at (888) 392-3644",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(888) 392-3644",
+      phone: "",
       url: "https://dhr.ny.gov",
       verified: true,
       bilingual: true,

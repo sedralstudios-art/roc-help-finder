@@ -1,0 +1,1 @@
+[transcription error: Command failed: "C:\Users\adima\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\adima\helpfinder\call-data\transcribe-ov.py" "C:\Users\adima\helpfinder\call-data\recordings\legal-entry:c]

@@ -1,0 +1,29 @@
+{
+  "callId": "587070f2-41ba-eaa0-5a7d-65dce6d84d24",
+  "digits": "5852671000",
+  "dialedNumber": "(585) 267-1000",
+  "catalogedName": "kindergarten-enrollment-age-ny",
+  "sourceId": "legal-entry:kindergarten-enrollment-age-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:18:56.108Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.893Z"
+  }
+}

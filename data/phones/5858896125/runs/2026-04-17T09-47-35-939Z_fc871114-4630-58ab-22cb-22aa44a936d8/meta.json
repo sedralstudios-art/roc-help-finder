@@ -1,0 +1,24 @@
+{
+  "callId": "fc871114-4630-58ab-22cb-22aa44a936d8",
+  "digits": "5858896125",
+  "dialedNumber": "(585) 889-6125",
+  "catalogedName": "Chili Town Clerk",
+  "sourceId": "chiliclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:47:35.939Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.028Z"
+  }
+}

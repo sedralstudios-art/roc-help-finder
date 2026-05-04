@@ -1,0 +1,24 @@
+{
+  "callId": "7314f5a9-d5cb-fb9d-61eb-9e4ab27b1e0a",
+  "digits": "5853250186",
+  "dialedNumber": "(585) 325-0186",
+  "catalogedName": "Narcotics Anonymous Rochester",
+  "sourceId": "na",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:24:54.951Z",
+  "durationSec": 28,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.634Z"
+  }
+}

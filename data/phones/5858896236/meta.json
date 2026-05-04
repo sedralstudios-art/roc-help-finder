@@ -1,0 +1,61 @@
+{
+  "digits": "5858896236",
+  "kind": "phone",
+  "primaryName": "Wheatland Recreation",
+  "rawValue": "585-889-6236",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "wheatlandrec",
+      "name": "Wheatland Recreation",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-46-06-978Z_a0668eae-f9fe-d6fb-8096-e305a84952ce",
+    "meta": {
+      "callId": "a0668eae-f9fe-d6fb-8096-e305a84952ce",
+      "digits": "5858896236",
+      "dialedNumber": "5858896236",
+      "catalogedName": "Wheatland Recreation",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:46:06.978Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.696Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Vickie Tiger",
+      "reason": "transcript-stated name (Vickie Tiger) differs from catalogued (Wheatland Recreation)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.459Z",
+  "lastSeededAt": "2026-05-03T19:44:16.459Z"
+}

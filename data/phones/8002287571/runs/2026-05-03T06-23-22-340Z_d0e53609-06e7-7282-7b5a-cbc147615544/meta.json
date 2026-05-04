@@ -1,0 +1,29 @@
+{
+  "callId": "d0e53609-06e7-7282-7b5a-cbc147615544",
+  "digits": "8002287571",
+  "dialedNumber": "(800) 228-7571",
+  "catalogedName": "medigap-medicare-supplement-ny",
+  "sourceId": "legal-entry:medigap-medicare-supplement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:23:22.340Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.923Z"
+  }
+}

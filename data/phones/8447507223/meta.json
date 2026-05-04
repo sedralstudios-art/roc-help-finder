@@ -1,0 +1,56 @@
+{
+  "digits": "8447507223",
+  "kind": "phone",
+  "primaryName": "entry-callout:narcan-access-ny",
+  "rawValue": "(844) 750-7223",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "narcan-access-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-17-57-289Z_04d0b62c-8fd5-a90c-56dd-09ce099bcf99",
+    "meta": {
+      "callId": "04d0b62c-8fd5-a90c-56dd-09ce099bcf99",
+      "digits": "8447507223",
+      "dialedNumber": "8447507223",
+      "catalogedName": "entry-callout:narcan-access-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:17:57.289Z",
+      "durationSec": 9,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.769Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.531Z",
+  "lastSeededAt": "2026-05-03T19:44:16.532Z"
+}

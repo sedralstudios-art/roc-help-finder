@@ -1,0 +1,88 @@
+{
+  "digits": "5852755051",
+  "kind": "phone",
+  "primaryName": "Eastman Dental Center (URMC)",
+  "rawValue": "585-275-5051",
+  "blockDial": false,
+  "tags": [
+    "cat:dental",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "eastmandental",
+      "name": "Eastman Dental Center (URMC)",
+      "category": "dental",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-health-care-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-08-40-326Z_00e1b1ab-da17-68a5-34f9-37cf89fa83ca",
+    "meta": {
+      "callId": "00e1b1ab-da17-68a5-34f9-37cf89fa83ca",
+      "digits": "5852755051",
+      "dialedNumber": "5852755051",
+      "catalogedName": "Eastman Dental Center (URMC)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:08:40.326Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.229Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Eastman Dental",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.332Z",
+  "lastSeededAt": "2026-05-03T19:44:16.332Z",
+  "verifiedAt": "2026-05-03T20:21:01.700Z",
+  "verifiedRun": "2026-05-02T06-08-40-326Z_00e1b1ab-da17-68a5-34f9-37cf89fa83ca",
+  "verifiedTranscriptOpening": "Thank you for calling Eastman Dental. If you have a dental emergency, please press 1 now. If you are a new patient or you would like to schedule, cancel, or make changes to an existing appointment in ",
+  "verifiedMatchTokens": [
+    "eastman",
+    "dental"
+  ],
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:21:07.250Z",
+      "sourceUrl": "https://www.urmc.rochester.edu/dentistry",
+      "sourceLabel": "URMC Eastman Dental page",
+      "notes": "Web confirms 585-275-5051 as Eastman Dental main appointment line. Both eastmandental (Elmwood Ave) and eastmandown (Sibley Tower downtown) use this central scheduling number per URMC."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "20728728-908b-785c-9c9f-4146caf338f5",
+  "digits": "5852922140",
+  "dialedNumber": "(585) 292-2140",
+  "catalogedName": "campus-sexual-violence-enough-is-enough-ny",
+  "sourceId": "legal-entry:campus-sexual-violence-enough-is-enough-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "campus-sexual-violence-enough-is-enough-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:54:31.637Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.717Z"
+  }
+}

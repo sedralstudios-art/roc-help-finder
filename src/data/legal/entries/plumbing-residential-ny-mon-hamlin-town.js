@@ -20,7 +20,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Hamlin handles plumbing under its general building permit process. The town follows the state Uniform Fire Prevention and Building Code. Most plumbing work needs a permit — water heater replacement, new fixtures, sewer and water lines.\n\nHamlin's Building Department issues 300+ permits a year. The town takes permitless work seriously — the stated fine for work done without a permit is $125.\n\nThere's no separate plumber license chapter. Plumbers need liability insurance and workers comp. Whether Hamlin honors a Rochester Examining Board plumber certificate, the fee schedule, and homeowner plumbing rules aren't published online. Call (585) 964-8181 to confirm before starting."
+    en: "Hamlin handles plumbing under its general building permit process. The town follows the state Uniform Fire Prevention and Building Code. Most plumbing work needs a permit — water heater replacement, new fixtures, sewer and water lines.\n\nHamlin's Building Department issues 300+ permits a year. The town takes permitless work seriously — the stated fine for work done without a permit is $125.\n\nThere's no separate plumber license chapter. Plumbers need liability insurance and workers comp. Whether Hamlin honors a Rochester Examining Board plumber certificate, the fee schedule, and homeowner plumbing rules aren't published online. Call [number being verified] to confirm before starting."
   },
 
   example: {
@@ -59,7 +59,7 @@ export const entry = {
       qualifier: "Open to residents and contractors working in Hamlin",
       access: "Phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-964-8181",
+      phone: "",
       url: "https://hamlinny.org/building-inspector/",
       verified: true,
       bilingual: false,

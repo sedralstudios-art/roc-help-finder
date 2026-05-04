@@ -1,0 +1,29 @@
+{
+  "callId": "b4d999b4-937c-2d12-948e-9bec5a823fe9",
+  "digits": "5857537440",
+  "dialedNumber": "(585) 753-7440",
+  "catalogedName": "section-8-housing-voucher-ny",
+  "sourceId": "legal-entry:section-8-housing-voucher-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:43:28.772Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.079Z"
+  }
+}

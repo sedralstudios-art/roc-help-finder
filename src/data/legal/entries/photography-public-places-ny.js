@@ -60,7 +60,7 @@ export const PHOTOGRAPHY_PUBLIC_PLACES_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (212) 607-3300",
       outcome: "Legal guidance, complaint assistance, civil rights advocacy",
-      phone: "(212) 607-3300",
+      phone: "",
       url: "https://www.nyclu.org",
       verified: true,
       bilingual: false,

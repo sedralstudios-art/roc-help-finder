@@ -1,0 +1,24 @@
+{
+  "callId": "de43ef6e-cd35-26f0-4bd9-b67ea12ad036",
+  "digits": "8009938982",
+  "dialedNumber": "8009938982",
+  "catalogedName": "Disability Rights NY (Special Ed Advocacy)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:17:17.162Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.767Z"
+  }
+}

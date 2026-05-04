@@ -1,0 +1,64 @@
+{
+  "digits": "5854103370",
+  "kind": "phone",
+  "primaryName": "Liberty Resources Recovery Support Navigator",
+  "rawValue": "585-410-3370",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "libertyrec",
+      "name": "Liberty Resources Recovery Support Navigator",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-47-35-600Z_60bd608a-7519-7c6a-db90-bf813c1cf610",
+    "meta": {
+      "callId": "60bd608a-7519-7c6a-db90-bf813c1cf610",
+      "digits": "5854103370",
+      "dialedNumber": "585-410-3370",
+      "catalogedName": "Liberty Resources Recovery Support Navigator",
+      "sourceId": "libertyrec",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "libertyrec"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:47:35.600Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.670Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.460Z",
+  "lastSeededAt": "2026-05-03T19:44:16.460Z"
+}

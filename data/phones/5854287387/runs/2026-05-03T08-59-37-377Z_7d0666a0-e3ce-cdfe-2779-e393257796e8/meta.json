@@ -1,0 +1,33 @@
+{
+  "callId": "7d0666a0-e3ce-cdfe-2779-e393257796e8",
+  "digits": "5854287387",
+  "dialedNumber": "(585) 428-7387",
+  "catalogedName": "holdover-tenant-ny",
+  "sourceId": "legal-entry:holdover-tenant-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "holdover-tenant-ny"
+    },
+    {
+      "type": "entry",
+      "id": "month-to-month-tenancy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:59:37.377Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.746Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "0ffe601b-170a-a6f9-9c9d-3d45c341556e",
+  "digits": "5856378683",
+  "dialedNumber": "5856378683",
+  "catalogedName": "Sweden Assessor",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:45:34.125Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.567Z"
+  }
+}

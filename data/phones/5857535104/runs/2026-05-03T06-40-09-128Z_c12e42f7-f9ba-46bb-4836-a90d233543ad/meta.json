@@ -1,0 +1,29 @@
+{
+  "callId": "c12e42f7-f9ba-46bb-4836-a90d233543ad",
+  "digits": "5857535104",
+  "dialedNumber": "(585) 753-5104",
+  "catalogedName": "replacement-birth-certificate-ny",
+  "sourceId": "legal-entry:replacement-birth-certificate-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "replacement-birth-certificate-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:09.128Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.056Z"
+  }
+}

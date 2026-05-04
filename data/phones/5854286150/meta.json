@@ -1,0 +1,61 @@
+{
+  "digits": "5854286150",
+  "kind": "phone",
+  "primaryName": "entry-callout:federal-lead-paint-disclosure-ny",
+  "rawValue": "(585) 428-6150",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-09-05-212Z_22e63f22-24d2-8e1d-150d-c2e4c764ba24",
+    "meta": {
+      "callId": "22e63f22-24d2-8e1d-150d-c2e4c764ba24",
+      "digits": "5854286150",
+      "dialedNumber": "(585) 428-6150",
+      "catalogedName": "federal-lead-paint-disclosure-ny",
+      "sourceId": "legal-entry:federal-lead-paint-disclosure-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "federal-lead-paint-disclosure-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:09:05.212Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.825Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.500Z",
+  "lastSeededAt": "2026-05-03T19:44:16.500Z"
+}

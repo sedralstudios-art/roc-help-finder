@@ -1,0 +1,61 @@
+{
+  "digits": "5184742731",
+  "kind": "phone",
+  "primaryName": "entry-callout:vital-records-request-ny",
+  "rawValue": "(518) 474-2731",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "vital-records-request-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-52-46-352Z_594e4d75-8ab6-c521-1217-bba797ee6527",
+    "meta": {
+      "callId": "594e4d75-8ab6-c521-1217-bba797ee6527",
+      "digits": "5184742731",
+      "dialedNumber": "(518) 474-2731",
+      "catalogedName": "vital-records-request-ny",
+      "sourceId": "legal-entry:vital-records-request-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "vital-records-request-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:52:46.352Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.144Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.580Z",
+  "lastSeededAt": "2026-05-03T19:44:16.580Z"
+}

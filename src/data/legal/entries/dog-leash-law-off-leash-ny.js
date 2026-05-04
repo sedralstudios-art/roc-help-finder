@@ -58,7 +58,7 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
       qualifier: "City of Rochester residents and complaints",
       access: "Phone, walk-in at 184 Verona Street",
       outcome: "Complaint intake, investigation, court coordination",
-      phone: "(585) 428-7274",
+      phone: "",
       url: "https://www.cityofrochester.gov/animalservices/",
       verified: true,
       bilingual: false,

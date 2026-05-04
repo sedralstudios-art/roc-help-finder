@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-05-03T02:31:54.305Z",
+  "source": "src/data/canonical/phones.js (entries with blockDial: true)",
+  "count": 13,
+  "digits": [
+    "211",
+    "311",
+    "8002738255",
+    "8004224453",
+    "8006564673",
+    "8007997233",
+    "8009855990",
+    "8664887386",
+    "8775658860",
+    "8778467369",
+    "8888439461",
+    "911",
+    "988"
+  ],
+  "detail": [
+    {
+      "digits": "211",
+      "value": "211",
+      "ref": "HOTLINES.call211",
+      "category": "staffed-routing",
+      "notes": "Operated by Goodwill of the Finger Lakes for the Rochester region. 24/7. Staffed routing line — NEVER auto-dial."
+    },
+    {
+      "digits": "311",
+      "value": "311",
+      "ref": "CRISIS.municipal311",
+      "category": "municipal",
+      "notes": "Rochester / municipal services routing. NEVER auto-dial."
+    },
+    {
+      "digits": "8002738255",
+      "value": "800-273-8255",
+      "ref": "CRISIS.suicide988Legacy",
+      "category": "crisis",
+      "notes": "Legacy SAMHSA suicide hotline. Still active, may route to 988. NEVER auto-dial."
+    },
+    {
+      "digits": "8004224453",
+      "value": "800-422-4453",
+      "ref": "CRISIS.childhelp",
+      "category": "crisis",
+      "notes": "Childhelp National Child Abuse Hotline. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8006564673",
+      "value": "800-656-4673",
+      "ref": "CRISIS.rainn",
+      "category": "crisis",
+      "notes": "RAINN National Sexual Assault Hotline. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8007997233",
+      "value": "800-799-7233",
+      "ref": "CRISIS.dvHotline",
+      "category": "crisis",
+      "notes": "National Domestic Violence Hotline. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8009855990",
+      "value": "800-985-5990",
+      "ref": "CRISIS.disasterDistress",
+      "category": "crisis",
+      "notes": "SAMHSA Disaster Distress Helpline. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8664887386",
+      "value": "866-488-7386",
+      "ref": "CRISIS.trevorProject",
+      "category": "crisis",
+      "notes": "Trevor Project — LGBTQ youth crisis support. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8775658860",
+      "value": "877-565-8860",
+      "ref": "CRISIS.transLifeline",
+      "category": "crisis",
+      "notes": "Trans Lifeline — peer support for trans people in crisis. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8778467369",
+      "value": "877-846-7369",
+      "ref": "CRISIS.oasasHopeline",
+      "category": "crisis",
+      "notes": "NYS OASAS Confidential Hope Line — substance use, addiction, problem gambling. Staffed 24/7. NEVER auto-dial."
+    },
+    {
+      "digits": "8888439461",
+      "value": "888-843-9461",
+      "ref": "CRISIS.womensLawVAW",
+      "category": "crisis",
+      "notes": "WomensLaw safe-exit hotline (VAW resource line). Staffed. NEVER auto-dial."
+    },
+    {
+      "digits": "911",
+      "value": "911",
+      "ref": "CRISIS.emergency911",
+      "category": "emergency",
+      "notes": "Emergency services. NEVER auto-dial under any circumstance."
+    },
+    {
+      "digits": "988",
+      "value": "988",
+      "ref": "HOTLINES.call988",
+      "category": "crisis",
+      "notes": "24/7. Interpreters in 240+ languages. Staffed crisis line — NEVER auto-dial."
+    }
+  ]
+}

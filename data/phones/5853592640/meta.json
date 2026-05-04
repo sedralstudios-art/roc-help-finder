@@ -1,0 +1,70 @@
+{
+  "digits": "5853592640",
+  "kind": "phone",
+  "primaryName": "Henrietta Town Court",
+  "rawValue": "585-359-2640",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettacourt",
+      "name": "Henrietta Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-00-51-333Z_e005ae64-43b4-66e9-92a6-23ee2194d0d7",
+    "meta": {
+      "callId": "e005ae64-43b4-66e9-92a6-23ee2194d0d7",
+      "digits": "5853592640",
+      "dialedNumber": "5853592640",
+      "catalogedName": "Henrietta Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:00:51.333Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.340Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Henrietta Town Court",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.444Z",
+  "lastSeededAt": "2026-05-03T19:44:16.444Z",
+  "verifiedAt": "2026-05-03T20:21:01.724Z",
+  "verifiedRun": "2026-05-02T07-00-51-333Z_e005ae64-43b4-66e9-92a6-23ee2194d0d7",
+  "verifiedTranscriptOpening": "You have reached Henrietta Town Court. The court office is currently closed. The office is closed. This has nothing to do with court times. Court may be in session at this time. If you need help from ",
+  "verifiedMatchTokens": [
+    "henrietta",
+    "town",
+    "court"
+  ],
+  "verifiedRatio": 1
+}

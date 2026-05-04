@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_EAST_ROCHESTER_VILLAGE = {
   title: { en: "Residential Roofing in East Rochester — Combined Town/Village, Zoning Board 45-Day Review" },
 
   summary: {
-    en: "East Rochester is a merged town and village with a single government. The Building Department enforces the New York Uniform Fire Prevention and Building Code under Chapter 67 of the Town/Village Code. Building permits are required for the construction or structural alteration of any building or part of a building. One-family and two-family residential permit applications are referred to the Zoning Board of Appeals for architectural review under Chapter 4 of the Code. The Board has 45 days to act; failure to act within that period is treated as approval. The Building Department at (585) 586-3553 confirms scope."
+    en: "East Rochester is a merged town and village with a single government. The Building Department enforces the New York Uniform Fire Prevention and Building Code under Chapter 67 of the Town/Village Code. Building permits are required for the construction or structural alteration of any building or part of a building. One-family and two-family residential permit applications are referred to the Zoning Board of Appeals for architectural review under Chapter 4 of the Code. The Board has 45 days to act; failure to act within that period is treated as approval. The Building Department at [number being verified] confirms scope."
   },
 
   whatItMeans: {
@@ -17,7 +17,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_EAST_ROCHESTER_VILLAGE = {
   },
 
   example: {
-    en: "A homeowner in East Rochester plans a reroof that also changes material from asphalt shingles to standing-seam metal. She calls the Building Department at (585) 586-3553 to confirm the permit requirement. Because the application is for a one-family home, it is referred to the Zoning Board of Appeals for architectural review under Chapter 4. The Board has 45 days to act. The Board approves the material change at its next meeting, and the permit issues."
+    en: "A homeowner in East Rochester plans a reroof that also changes material from asphalt shingles to standing-seam metal. She calls the Building Department at [number being verified] to confirm the permit requirement. Because the application is for a one-family home, it is referred to the Zoning Board of Appeals for architectural review under Chapter 4. The Board has 45 days to act. The Board approves the material change at its next meeting, and the permit issues."
   },
 
   whoQualifies: {
@@ -56,7 +56,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_EAST_ROCHESTER_VILLAGE = {
       qualifier: "Residents, property owners, and contractors working inside the Town/Village",
       access: "317 Main Street, Suite 2000, East Rochester, NY 14445; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 586-3553",
+      phone: "",
       url: "https://eastrochesterny.gov/departments/building-department",
       verified: true,
       bilingual: false,

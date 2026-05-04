@@ -1,0 +1,88 @@
+{
+  "digits": "8003216742",
+  "kind": "phone",
+  "primaryName": "entry-callout:ny-hero-act-infectious-disease-ny",
+  "rawValue": "(800) 321-6742",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "scaffold-law-construction-240-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "workplace-retaliation-protection-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "workplace-safety-ny",
+      "line": 69
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-25-22-670Z_756ab092-82d1-323e-7440-f9df2b719048",
+    "meta": {
+      "callId": "756ab092-82d1-323e-7440-f9df2b719048",
+      "digits": "8003216742",
+      "dialedNumber": "(800) 321-6742",
+      "catalogedName": "ny-hero-act-infectious-disease-ny",
+      "sourceId": "legal-entry:ny-hero-act-infectious-disease-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ny-hero-act-infectious-disease-ny"
+        },
+        {
+          "type": "entry",
+          "id": "scaffold-law-construction-240-ny"
+        },
+        {
+          "type": "entry",
+          "id": "workplace-retaliation-protection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "workplace-safety-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:25:22.670Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.295Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.330Z",
+  "lastSeededAt": "2026-05-03T19:44:16.330Z"
+}

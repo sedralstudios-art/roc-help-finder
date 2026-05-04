@@ -1,0 +1,59 @@
+{
+  "digits": "5856176126",
+  "kind": "phone",
+  "primaryName": "Ogden Senior Center",
+  "rawValue": "585-617-6126",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ogdensenior",
+      "name": "Ogden Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-22-32-544Z_555457a9-0f62-52a2-7617-a7679cebb714",
+    "meta": {
+      "callId": "555457a9-0f62-52a2-7617-a7679cebb714",
+      "digits": "5856176126",
+      "dialedNumber": "5856176126",
+      "catalogedName": "Ogden Senior Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:22:32.544Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.519Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.451Z",
+  "lastSeededAt": "2026-05-03T19:44:16.451Z"
+}

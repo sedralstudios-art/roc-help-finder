@@ -1,0 +1,24 @@
+{
+  "callId": "9b37b743-b271-2de9-e137-28b760de7370",
+  "digits": "5856247168",
+  "dialedNumber": "(585) 624-7168",
+  "catalogedName": "Mendon-Honeoye Falls Recreation",
+  "sourceId": "mendonrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:31:07.795Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.921Z"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "digits": "5859879500",
+  "kind": "phone",
+  "primaryName": "Salvation Army (Food, Clothing, Vouchers)",
+  "rawValue": "585-987-9500",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "cat:funeral",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "salvationarmy",
+      "name": "Salvation Army (Food, Clothing, Vouchers)",
+      "category": "clothing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "salvburial",
+      "name": "Salvation Army (Emergency Funeral Help)",
+      "category": "funeral",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "after-a-fire-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T10-00-06-036Z_14d9cf62-2583-7b89-baf1-6bc3b2174e84",
+    "meta": {
+      "callId": "14d9cf62-2583-7b89-baf1-6bc3b2174e84",
+      "digits": "5859879500",
+      "dialedNumber": "5859879500",
+      "catalogedName": "Salvation Army (Food, Clothing, Vouchers)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:00:06.036Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.725Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Salvation Army of Greater Rochester",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.322Z",
+  "lastSeededAt": "2026-05-03T19:44:16.322Z",
+  "verifiedAt": "2026-05-03T20:21:01.814Z",
+  "verifiedRun": "2026-05-02T10-00-06-036Z_14d9cf62-2583-7b89-baf1-6bc3b2174e84",
+  "verifiedTranscriptOpening": "Thank you for calling the Salvation Army of Greater Rochester. We look forward to helping you. Para español, marqué dos. Our offices are currently closed. Normal office hours are Monday through Friday",
+  "verifiedMatchTokens": [
+    "salvation",
+    "army"
+  ],
+  "verifiedRatio": 0.4
+}

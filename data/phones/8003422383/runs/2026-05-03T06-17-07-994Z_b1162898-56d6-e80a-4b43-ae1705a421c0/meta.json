@@ -1,0 +1,29 @@
+{
+  "callId": "b1162898-56d6-e80a-4b43-ae1705a421c0",
+  "digits": "8003422383",
+  "dialedNumber": "(800) 342-2383",
+  "catalogedName": "insulin-cost-cap-ny",
+  "sourceId": "legal-entry:insulin-cost-cap-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:17:07.994Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.881Z"
+  }
+}

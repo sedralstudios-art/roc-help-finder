@@ -1,0 +1,61 @@
+{
+  "digits": "5184865747",
+  "kind": "phone",
+  "primaryName": "entry-callout:assigned-counsel-program-ny",
+  "rawValue": "(518) 486-5747",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-51-53-527Z_619f82d6-0b90-a91a-6023-b5d6c9310bf3",
+    "meta": {
+      "callId": "619f82d6-0b90-a91a-6023-b5d6c9310bf3",
+      "digits": "5184865747",
+      "dialedNumber": "(518) 486-5747",
+      "catalogedName": "assigned-counsel-program-ny",
+      "sourceId": "legal-entry:assigned-counsel-program-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "assigned-counsel-program-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:51:53.527Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.698Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.468Z",
+  "lastSeededAt": "2026-05-03T19:44:16.468Z"
+}

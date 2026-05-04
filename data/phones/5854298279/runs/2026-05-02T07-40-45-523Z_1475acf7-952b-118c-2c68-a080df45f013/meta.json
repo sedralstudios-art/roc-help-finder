@@ -1,0 +1,24 @@
+{
+  "callId": "1475acf7-952b-118c-2c68-a080df45f013",
+  "digits": "5854298279",
+  "dialedNumber": "5854298279",
+  "catalogedName": "Gates Code Enforcement / Dog Warden",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:40:45.523Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.429Z"
+  }
+}

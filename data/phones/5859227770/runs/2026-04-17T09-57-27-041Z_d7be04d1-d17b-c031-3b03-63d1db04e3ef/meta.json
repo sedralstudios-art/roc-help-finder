@@ -1,0 +1,24 @@
+{
+  "callId": "d7be04d1-d17b-c031-3b03-63d1db04e3ef",
+  "digits": "5859227770",
+  "dialedNumber": "(585) 922-7770",
+  "catalogedName": "Genesee Mental Health Center",
+  "sourceId": "genesee",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:57:27.041Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.043Z"
+  }
+}

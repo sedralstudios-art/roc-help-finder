@@ -1,0 +1,61 @@
+{
+  "digits": "5852325385",
+  "kind": "phone",
+  "primaryName": "entry-callout:police-complaint-ny",
+  "rawValue": "(585) 232-5385",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "police-complaint-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-35-26-248Z_091c14be-3295-ea6b-07f5-fabaaee46e59",
+    "meta": {
+      "callId": "091c14be-3295-ea6b-07f5-fabaaee46e59",
+      "digits": "5852325385",
+      "dialedNumber": "(585) 232-5385",
+      "catalogedName": "police-complaint-ny",
+      "sourceId": "legal-entry:police-complaint-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "police-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:35:26.248Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.025Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.548Z",
+  "lastSeededAt": "2026-05-03T19:44:16.548Z"
+}

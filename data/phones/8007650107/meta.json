@@ -1,0 +1,61 @@
+{
+  "digits": "8007650107",
+  "kind": "phone",
+  "primaryName": "entry-callout:funeral-director-licensing-ny",
+  "rawValue": "(800) 765-0107",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-11-35-262Z_14f4257e-a044-5e77-1c43-ec8383e373b4",
+    "meta": {
+      "callId": "14f4257e-a044-5e77-1c43-ec8383e373b4",
+      "digits": "8007650107",
+      "dialedNumber": "(800) 765-0107",
+      "catalogedName": "funeral-director-licensing-ny",
+      "sourceId": "legal-entry:funeral-director-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "funeral-director-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:11:35.262Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.843Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.504Z",
+  "lastSeededAt": "2026-05-03T19:44:16.504Z"
+}

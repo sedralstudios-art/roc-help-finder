@@ -61,7 +61,7 @@ export const OPEN_MEETINGS_LAW_PUBLIC_PARTICIPATION_NY = {
       qualifier: "Any NY resident or public body",
       access: "Phone at (518) 474-2518",
       outcome: "Written advisory opinions, informal guidance, published decisions",
-      phone: "(518) 474-2518",
+      phone: "",
       url: "https://dos.ny.gov/coog",
       verified: true,
       bilingual: false,

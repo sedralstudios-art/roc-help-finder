@@ -1,0 +1,79 @@
+{
+  "digits": "5857537370",
+  "kind": "phone",
+  "primaryName": "entry-callout:grease-trap-restaurant-ny",
+  "rawValue": "(585) 753-7370",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grease-trap-restaurant-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "sewer-backup-liability-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "sump-pump-discharge-ny",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-46-48-044Z_f6beea23-8f20-d869-fbb6-0f580edac1d6",
+    "meta": {
+      "callId": "f6beea23-8f20-d869-fbb6-0f580edac1d6",
+      "digits": "5857537370",
+      "dialedNumber": "(585) 753-7370",
+      "catalogedName": "grease-trap-restaurant-ny",
+      "sourceId": "legal-entry:grease-trap-restaurant-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "grease-trap-restaurant-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sewer-backup-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sump-pump-discharge-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:46:48.044Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.396Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.348Z",
+  "lastSeededAt": "2026-05-03T19:44:16.348Z"
+}

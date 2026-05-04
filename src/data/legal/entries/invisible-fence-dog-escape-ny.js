@@ -60,7 +60,7 @@ export const INVISIBLE_FENCE_DOG_ESCAPE_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 428-7274",
       outcome: "Investigation, dangerous dog hearings, enforcement",
-      phone: "(585) 428-7274",
+      phone: "",
       url: "https://www.monroecounty.gov/animalservices",
       verified: true,
       bilingual: false,

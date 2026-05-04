@@ -1,0 +1,24 @@
+{
+  "callId": "831acee5-684b-8f64-eb0e-9fa05e370244",
+  "digits": "5857535063",
+  "dialedNumber": "(585) 753-5063",
+  "catalogedName": "Monroe County Department of Health — Opioid Overdose Prevention Program",
+  "sourceId": "narcan-access-ny::Monroe County Department of Health — Opioid Overdose Prevention Program",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:07:58.821Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.968Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "fc034fb2-3c22-87ca-8400-6d2d8445b13e",
+  "digits": "5184029167",
+  "dialedNumber": "(518) 402-9167",
+  "catalogedName": "seqr-environmental-review-ny",
+  "sourceId": "legal-entry:seqr-environmental-review-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "seqr-environmental-review-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:44:27.059Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.086Z"
+  }
+}

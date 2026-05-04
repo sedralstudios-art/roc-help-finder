@@ -1,0 +1,291 @@
+{
+  "digits": "5854286520",
+  "kind": "phone",
+  "primaryName": "ROCHESTER_CITY.bureauInspection",
+  "rawValue": "585-428-6520",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "ROCHESTER_CITY",
+      "slug": "bureauInspection",
+      "value": "585-428-6520",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "abandoned-house-next-door-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "apartment-pest-roach-mouse-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "appliance-left-by-landlord-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "backyard-chicken-laws-ny",
+      "line": 66
+    },
+    {
+      "type": "entry",
+      "id": "basement-apartment-legal-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "basement-egress-window-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "bedbug-tenant-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "carbon-monoxide-poisoning-liability-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "deck-patio-permit-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "dog-waste-cleanup-law-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "electric-fence-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "electric-vehicle-charging-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "garage-conversion-adu-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "garage-sale-yard-sale-law-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "gas-leak-what-to-do-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "grease-trap-restaurant-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "gutter-downspout-drainage-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "heat-not-working-tenant-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "home-business-zoning-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "home-generator-rules-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "hot-tub-spa-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "housing-code-violations-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "ice-dam-roof-damage-ny-cl",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "landlord-not-returning-calls-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-tenant-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "neighbors-security-light-ny-cl",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-dining-food-truck-permit-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "rent-withholding-repair-deduct-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "renters-rights-checklist-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "short-term-rental-hosting-airbnb-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "solar-panel-rules-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "subletting-airbnb-tenant-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "sump-pump-discharge-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rent-strike-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "tree-damage-neighbor-liability-ny-cl",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "water-damage-tenant-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "water-heater-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "woodstove-fireplace-rules-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "zoning-variance-permit-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T02-38-48-619Z_1be8ea6b-5633-d5d9-4418-f302c5f57b14",
+    "meta": {
+      "callId": "1be8ea6b-5633-d5d9-4418-f302c5f57b14",
+      "digits": "5854286520",
+      "dialedNumber": "585-428-6520",
+      "catalogedName": "ROCHESTER_CITY.bureauInspection",
+      "sourceId": "pole:ROCHESTER_CITY.bureauInspection",
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-03T02:38:48.619Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.867Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "City of Rochester",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.268Z",
+  "lastSeededAt": "2026-05-03T19:44:16.268Z"
+}

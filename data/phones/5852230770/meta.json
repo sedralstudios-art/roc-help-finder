@@ -1,0 +1,105 @@
+{
+  "digits": "5852230770",
+  "kind": "phone",
+  "primaryName": "Perinton Town Clerk",
+  "rawValue": "585-223-0770",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:legal",
+    "cat:pets",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "perintonclerk",
+      "name": "Perinton Town Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "perintoncourt",
+      "name": "Perinton Justice Court",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "perintonanimal",
+      "name": "Perinton Animal Control",
+      "category": "pets",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "perintonhall",
+      "name": "Perinton Town Hall",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-perinton-town",
+      "line": 59
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-perinton-town",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-perinton-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-perinton-town",
+      "line": 61
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-17-48-050Z_7da7bd50-2940-89e6-18aa-99c399e625f3",
+    "meta": {
+      "callId": "7da7bd50-2940-89e6-18aa-99c399e625f3",
+      "digits": "5852230770",
+      "dialedNumber": "5852230770",
+      "catalogedName": "Perinton Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:17:48.050Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.115Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Parentin Town Hall",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.287Z",
+  "lastSeededAt": "2026-05-03T19:44:16.287Z"
+}

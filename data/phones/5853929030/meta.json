@@ -1,0 +1,67 @@
+{
+  "digits": "5853929030",
+  "kind": "phone",
+  "primaryName": "Hilton-Parma Senior Center",
+  "rawValue": "585-392-9030",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hiltonsenior",
+      "name": "Hilton-Parma Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "hiltonrec",
+      "name": "Hilton-Parma Parks and Recreation",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-14-41-533Z_c1bf7bf2-d490-fc87-3147-ea2c0e0fe3f5",
+    "meta": {
+      "callId": "c1bf7bf2-d490-fc87-3147-ea2c0e0fe3f5",
+      "digits": "5853929030",
+      "dialedNumber": "5853929030",
+      "catalogedName": "Hilton-Parma Senior Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:14:41.533Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.371Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.362Z",
+  "lastSeededAt": "2026-05-03T19:44:16.362Z"
+}

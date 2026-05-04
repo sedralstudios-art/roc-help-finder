@@ -1,0 +1,81 @@
+{
+  "digits": "8446973505",
+  "kind": "phone",
+  "primaryName": "entry-callout:adult-protective-services-ny",
+  "rawValue": "(844) 697-3505",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-30-54-990Z_88b8fc20-aef0-9241-2fac-0c4076779a40",
+    "meta": {
+      "callId": "88b8fc20-aef0-9241-2fac-0c4076779a40",
+      "digits": "8446973505",
+      "dialedNumber": "(844) 697-3505",
+      "catalogedName": "adult-protective-services-ny",
+      "sourceId": "legal-entry:adult-protective-services-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "adult-protective-services-ny"
+        },
+        {
+          "type": "entry",
+          "id": "door-to-door-sales-cooling-off-ny"
+        },
+        {
+          "type": "entry",
+          "id": "long-term-care-ombudsman-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:30:54.990Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.317Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.14285714285714285,
+      "extracted": "helpline for the New York State Office of Children and Family Services Bureau of Adult Services",
+      "reason": "transcript-stated name (helpline for the New York State Office of Children and Family Services Bureau of Adult Services) differs from catalogued (adult-protective-services-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.337Z",
+  "lastSeededAt": "2026-05-03T19:44:16.337Z"
+}

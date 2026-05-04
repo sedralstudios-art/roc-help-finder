@@ -1,0 +1,59 @@
+{
+  "digits": "5852354491",
+  "kind": "phone",
+  "primaryName": "SWEM Community Services (Food Cupboard)",
+  "rawValue": "585-235-4491",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swemfood",
+      "name": "SWEM Community Services (Food Cupboard)",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-34-15-870Z_1d1fb38f-4433-d11f-1e5e-9abe876b1729",
+    "meta": {
+      "callId": "1d1fb38f-4433-d11f-1e5e-9abe876b1729",
+      "digits": "5852354491",
+      "dialedNumber": "5852354491",
+      "catalogedName": "SWEM Community Services (Food Cupboard)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:34:15.870Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.153Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.441Z",
+  "lastSeededAt": "2026-05-03T19:44:16.441Z"
+}

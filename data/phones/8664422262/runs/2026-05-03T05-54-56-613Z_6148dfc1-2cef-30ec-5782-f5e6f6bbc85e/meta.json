@@ -1,0 +1,29 @@
+{
+  "callId": "6148dfc1-2cef-30ec-5782-f5e6f6bbc85e",
+  "digits": "8664422262",
+  "dialedNumber": "(866) 442-2262",
+  "catalogedName": "cancer-screening-leave-ny",
+  "sourceId": "legal-entry:cancer-screening-leave-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cancer-screening-leave-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:54:56.613Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.720Z"
+  }
+}

@@ -61,7 +61,7 @@ export const SUBPOENA_WHAT_TO_DO_NY = {
       qualifier: "Witnesses in Monroe County criminal cases",
       access: "Phone at (585) 753-4500",
       outcome: "Witness scheduling, travel reimbursement, subpoena questions",
-      phone: "(585) 753-4500",
+      phone: "",
       url: "https://www.monroecounty.gov/da",
       verified: true,
       bilingual: false,

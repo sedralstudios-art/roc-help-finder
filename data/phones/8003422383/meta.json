@@ -1,0 +1,61 @@
+{
+  "digits": "8003422383",
+  "kind": "phone",
+  "primaryName": "entry-callout:insulin-cost-cap-ny",
+  "rawValue": "(800) 342-2383",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-17-07-994Z_b1162898-56d6-e80a-4b43-ae1705a421c0",
+    "meta": {
+      "callId": "b1162898-56d6-e80a-4b43-ae1705a421c0",
+      "digits": "8003422383",
+      "dialedNumber": "(800) 342-2383",
+      "catalogedName": "insulin-cost-cap-ny",
+      "sourceId": "legal-entry:insulin-cost-cap-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "insulin-cost-cap-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:17:07.994Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.881Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.514Z",
+  "lastSeededAt": "2026-05-03T19:44:16.514Z"
+}

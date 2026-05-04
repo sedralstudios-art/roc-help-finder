@@ -1,0 +1,24 @@
+{
+  "callId": "6227a05a-e241-fa64-4a91-f2b3bc7fc37e",
+  "digits": "7573189174",
+  "dialedNumber": "7573189174",
+  "catalogedName": "Mercy Medical Airlift",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:04:00.302Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.734Z"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "digits": "5853526864",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-spencerport-village",
+  "rawValue": "(585) 352-6864",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-spencerport-village",
+      "line": 16
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-56-54-771Z_4e6084b4-fe37-93c4-228c-c6716b0473f8",
+    "meta": {
+      "callId": "4e6084b4-fe37-93c4-228c-c6716b0473f8",
+      "digits": "5853526864",
+      "dialedNumber": "5853526864",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-spencerport-village",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:56:54.771Z",
+      "durationSec": 25,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.332Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Keith",
+      "reason": "transcript-stated name (Keith) differs from catalogued (entry-callout:electrical-residential-ny-mon-spencerport-village)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.496Z",
+  "lastSeededAt": "2026-05-03T19:44:16.496Z"
+}

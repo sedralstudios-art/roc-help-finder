@@ -1,0 +1,29 @@
+{
+  "callId": "5d43ae9d-cc82-aa4a-85c0-d54162240d52",
+  "digits": "5857536048",
+  "dialedNumber": "(585) 753-6048",
+  "catalogedName": "passport-denial-child-support-ny",
+  "sourceId": "legal-entry:passport-denial-child-support-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "passport-denial-child-support-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:32:31.593Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.004Z"
+  }
+}

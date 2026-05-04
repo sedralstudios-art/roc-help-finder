@@ -1,0 +1,70 @@
+{
+  "digits": "5856712060",
+  "kind": "phone",
+  "primaryName": "Webster Community Chest (Meal Program)",
+  "rawValue": "585-671-2060",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "webstercommchest",
+      "name": "Webster Community Chest (Meal Program)",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-50-40-863Z_49d71ac2-f87c-d598-a4bc-0e8710328d9e",
+    "meta": {
+      "callId": "49d71ac2-f87c-d598-a4bc-0e8710328d9e",
+      "digits": "5856712060",
+      "dialedNumber": "5856712060",
+      "catalogedName": "Webster Community Chest (Meal Program)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:50:40.863Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.578Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.875,
+      "score": 0.375,
+      "extracted": "Webster Community Chest serving the 14580 zip code",
+      "reason": "jaccard 0.38"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.457Z",
+  "lastSeededAt": "2026-05-03T19:44:16.457Z",
+  "verifiedAt": "2026-05-03T20:21:01.775Z",
+  "verifiedRun": "2026-05-02T08-50-40-863Z_49d71ac2-f87c-d598-a4bc-0e8710328d9e",
+  "verifiedTranscriptOpening": "You have reached the Webster Community Chest serving the 14580 zip code. Please leave your name, phone number, and a brief message. And please speak clearly and slowly. If you have caller ID block on ",
+  "verifiedMatchTokens": [
+    "webster",
+    "community",
+    "chest"
+  ],
+  "verifiedRatio": 0.75
+}

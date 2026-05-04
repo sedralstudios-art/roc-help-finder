@@ -1,0 +1,30 @@
+{
+  "digits": "2124166058",
+  "kind": "phone",
+  "primaryName": "entry-callout:bulk-sale-notice-ny",
+  "rawValue": "(212) 416-6058",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "false-claims-act-whistleblower-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.368Z",
+  "lastSeededAt": "2026-05-03T19:44:16.368Z"
+}

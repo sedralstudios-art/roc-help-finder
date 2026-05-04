@@ -1,0 +1,40 @@
+{
+  "digits": "5852955700",
+  "kind": "phone",
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-20-14-107Z_f09ab4ab-a324-5c5a-f64d-c2284afaeea1",
+    "meta": {
+      "callId": "f09ab4ab-a324-5c5a-f64d-c2284afaeea1",
+      "digits": "5852955700",
+      "dialedNumber": "5852955700",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:20:14.107Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.254Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5184028403",
+  "kind": "phone",
+  "primaryName": "entry-callout:wood-stove-epa-certification-ny",
+  "rawValue": "(518) 402-8403",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wood-stove-epa-certification-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-55-16-108Z_061e0e19-0c6f-e7bc-0a32-b81e147bc3a9",
+    "meta": {
+      "callId": "061e0e19-0c6f-e7bc-0a32-b81e147bc3a9",
+      "digits": "5184028403",
+      "dialedNumber": "(518) 402-8403",
+      "catalogedName": "wood-stove-epa-certification-ny",
+      "sourceId": "legal-entry:wood-stove-epa-certification-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "wood-stove-epa-certification-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:55:16.108Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.161Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.584Z",
+  "lastSeededAt": "2026-05-03T19:44:16.584Z"
+}

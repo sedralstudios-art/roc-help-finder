@@ -61,7 +61,7 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
       qualifier: "Low to moderate income residents",
       access: "Phone at (585) 340-3300",
       outcome: "Homebuyer education, mortgage readiness, financial counseling",
-      phone: "(585) 340-3300",
+      phone: "",
       url: "https://www.pathstone.org",
       verified: true,
       bilingual: true,

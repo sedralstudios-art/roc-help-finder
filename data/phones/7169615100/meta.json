@@ -1,0 +1,61 @@
+{
+  "digits": "7169615100",
+  "kind": "phone",
+  "primaryName": "entry-callout:itin-application-ny",
+  "rawValue": "(716) 961-5100",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "itin-application-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-17-24-623Z_664be291-808f-9b99-41e3-7f482293bcc6",
+    "meta": {
+      "callId": "664be291-808f-9b99-41e3-7f482293bcc6",
+      "digits": "7169615100",
+      "dialedNumber": "(716) 961-5100",
+      "catalogedName": "itin-application-ny",
+      "sourceId": "legal-entry:itin-application-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "itin-application-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:17:24.623Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.883Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.515Z",
+  "lastSeededAt": "2026-05-03T19:44:16.515Z"
+}

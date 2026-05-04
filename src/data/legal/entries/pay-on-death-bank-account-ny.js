@@ -61,7 +61,7 @@ export const PAY_ON_DEATH_BANK_ACCOUNT_NY = {
       qualifier: "Low-income Monroe County residents",
       access: "Phone intake at (585) 232-4090",
       outcome: "Advice on estate planning, small-estate procedures, beneficiary designations",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

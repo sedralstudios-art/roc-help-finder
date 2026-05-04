@@ -1,0 +1,70 @@
+{
+  "digits": "5852414400",
+  "kind": "phone",
+  "primaryName": "entry-callout:after-a-fire-ny",
+  "rawValue": "(585) 241-4400",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "after-a-fire-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "homeowner-smoke-co-alarm-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-30-40-691Z_8bac2c69-55d2-2256-aa49-d791182f351b",
+    "meta": {
+      "callId": "8bac2c69-55d2-2256-aa49-d791182f351b",
+      "digits": "5852414400",
+      "dialedNumber": "(585) 241-4400",
+      "catalogedName": "after-a-fire-ny",
+      "sourceId": "legal-entry:after-a-fire-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "after-a-fire-ny"
+        },
+        {
+          "type": "entry",
+          "id": "homeowner-smoke-co-alarm-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:30:40.691Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.561Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.364Z",
+  "lastSeededAt": "2026-05-03T19:44:16.364Z"
+}

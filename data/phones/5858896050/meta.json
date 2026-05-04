@@ -1,0 +1,90 @@
+{
+  "digits": "5858896050",
+  "kind": "phone",
+  "primaryName": "Scottsville Village Clerk",
+  "rawValue": "585-889-6050",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "scottsvilleclerk",
+      "name": "Scottsville Village Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-scottsville-village",
+      "line": 59
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-scottsville-village",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-scottsville-village",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-scottsville-village",
+      "line": 14
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-40-17-754Z_df0547ce-c3f7-0726-030b-4bf46f242123",
+    "meta": {
+      "callId": "df0547ce-c3f7-0726-030b-4bf46f242123",
+      "digits": "5858896050",
+      "dialedNumber": "5858896050",
+      "catalogedName": "Scottsville Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:40:17.754Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.684Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.9,
+      "score": 0.4,
+      "extracted": "Village of Scottsville outside our normal business hours",
+      "reason": "jaccard 0.40"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.310Z",
+  "lastSeededAt": "2026-05-03T19:44:16.310Z",
+  "verifiedAt": "2026-05-03T20:21:01.807Z",
+  "verifiedRun": "2026-05-02T09-40-17-754Z_df0547ce-c3f7-0726-030b-4bf46f242123",
+  "verifiedTranscriptOpening": "You have reached the Village of Scottsville outside our normal business hours. Monday hours are 7.30 a.m. to 8.00 p.m. Tuesday, Wednesday and Thursday hours are 7.30 a.m. to 4.00 p.m. Friday hours are",
+  "verifiedMatchTokens": [
+    "scottsville",
+    "village"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

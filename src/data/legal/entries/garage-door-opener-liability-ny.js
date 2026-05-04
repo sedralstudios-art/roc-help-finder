@@ -60,7 +60,7 @@ export const GARAGE_DOOR_OPENER_LIABILITY_NY = {
       qualifier: "Anyone in the U.S.",
       access: "Phone at (800) 638-2772 or online at cpsc.gov",
       outcome: "Product safety investigation, recalls, public alerts",
-      phone: "(800) 638-2772",
+      phone: "",
       url: "https://www.cpsc.gov",
       verified: true,
       bilingual: true,

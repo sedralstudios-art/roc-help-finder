@@ -1,0 +1,92 @@
+{
+  "digits": "8669469733",
+  "kind": "phone",
+  "primaryName": "OPWDD (Developmental Disabilities)",
+  "rawValue": "866-946-9733",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "opwdd",
+      "name": "OPWDD (Developmental Disabilities)",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "selfdirect",
+      "name": "Self-Direction (OPWDD)",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-records-access-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "supported-decision-making-agreement-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-21-08-279Z_0374ef8a-c666-7c14-fd5a-630adcc7ae11",
+    "meta": {
+      "callId": "0374ef8a-c666-7c14-fd5a-630adcc7ae11",
+      "digits": "8669469733",
+      "dialedNumber": "8669469733",
+      "catalogedName": "OPWDD (Developmental Disabilities)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:21:08.279Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.776Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.9,
+      "score": 0.4,
+      "extracted": "New York State Office for People with Developmental Disabilities",
+      "reason": "jaccard 0.40"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.307Z",
+  "lastSeededAt": "2026-05-03T19:44:16.307Z",
+  "verifiedAt": "2026-05-03T20:21:01.865Z",
+  "verifiedRun": "2026-05-02T10-21-08-279Z_0374ef8a-c666-7c14-fd5a-630adcc7ae11",
+  "verifiedTranscriptOpening": "You have reached the New York State Office for People with Developmental Disabilities. To continue in English, press 1. Ha contactado la Oficina para Personas con Discapacidades del Desarrollo del Est",
+  "verifiedMatchTokens": [
+    "developmental",
+    "disabilities"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

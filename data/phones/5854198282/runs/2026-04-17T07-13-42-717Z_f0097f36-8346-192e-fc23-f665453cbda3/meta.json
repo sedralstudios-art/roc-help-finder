@@ -1,0 +1,24 @@
+{
+  "callId": "f0097f36-8346-192e-fc23-f665453cbda3",
+  "digits": "5854198282",
+  "dialedNumber": "(585) 419-8282",
+  "catalogedName": "East Rochester Clerk/Treasurer",
+  "sourceId": "erclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:13:42.717Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.828Z"
+  }
+}

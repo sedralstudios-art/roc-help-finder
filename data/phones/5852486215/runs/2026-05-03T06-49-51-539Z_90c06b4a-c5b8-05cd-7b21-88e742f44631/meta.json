@@ -1,0 +1,29 @@
+{
+  "callId": "90c06b4a-c5b8-05cd-7b21-88e742f44631",
+  "digits": "5852486215",
+  "dialedNumber": "(585) 248-6215",
+  "catalogedName": "tenant-rights-repairs-ny",
+  "sourceId": "legal-entry:tenant-rights-repairs-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:49:51.539Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.125Z"
+  }
+}

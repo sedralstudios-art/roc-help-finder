@@ -1,0 +1,59 @@
+{
+  "digits": "5855331370",
+  "kind": "phone",
+  "primaryName": "Rush Public Library",
+  "rawValue": "585-533-1370",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rushlib",
+      "name": "Rush Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-59-16-765Z_38c6da6c-a5c9-0ce9-3146-1a3b5f95ff31",
+    "meta": {
+      "callId": "38c6da6c-a5c9-0ce9-3146-1a3b5f95ff31",
+      "digits": "5855331370",
+      "dialedNumber": "5855331370",
+      "catalogedName": "Rush Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:59:16.765Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.470Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.455Z",
+  "lastSeededAt": "2026-05-03T19:44:16.455Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "c1ea9234-edbc-2ecc-b062-315aa09969e4",
+  "digits": "5856377389",
+  "dialedNumber": "585-637-7389",
+  "catalogedName": "roofing-residential-ny-mon-sweden-town",
+  "sourceId": "legal-entry:roofing-residential-ny-mon-sweden-town",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-sweden-town"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:41:48.968Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.068Z"
+  }
+}

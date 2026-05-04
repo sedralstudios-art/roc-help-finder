@@ -1,0 +1,122 @@
+{
+  "digits": "5852628100",
+  "kind": "phone",
+  "primaryName": "Family Resource Centers (RCSD)",
+  "rawValue": "585-262-8100",
+  "blockDial": false,
+  "tags": [
+    "cat:childcare",
+    "cat:education",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "frc",
+      "name": "Family Resource Centers (RCSD)",
+      "category": "childcare",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "ged",
+      "name": "Free GED / High School Equivalency",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "esl",
+      "name": "Free English Classes (ESL)",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "homeless-student-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "menstrual-products-schools-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "school-field-trip-permission-liability-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "school-lunch-debt-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-meals-eligibility-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "school-residency-dispute-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "school-residency-enrollment-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "school-suspension-hearing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "summer-food-service-program-ny-program",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-55-44-202Z_44212733-2be7-a851-1732-36dc8a7fcedd",
+    "meta": {
+      "callId": "44212733-2be7-a851-1732-36dc8a7fcedd",
+      "digits": "5852628100",
+      "dialedNumber": "5852628100",
+      "catalogedName": "Family Resource Centers (RCSD)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:55:44.202Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.200Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Rochester City School District",
+      "reason": "transcript-stated name (Rochester City School District) differs from catalogued (Family Resource Centers (RCSD))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.280Z",
+  "lastSeededAt": "2026-05-03T19:44:16.280Z"
+}

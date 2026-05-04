@@ -1,0 +1,97 @@
+{
+  "digits": "8778467369",
+  "kind": "phone",
+  "primaryName": "NYS OASAS HOPEline (Substance Use)",
+  "rawValue": "877-846-7369",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:addiction",
+    "crisis-line",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "oasasHopeline",
+      "value": "877-846-7369",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "oasashopeline",
+      "name": "NYS OASAS HOPEline (Substance Use)",
+      "category": "addiction",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "drug-possession-basics-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "good-samaritan-law-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "medical-cannabis-program-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-records-access-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "narcan-access-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-53-16-869Z_b175d2bd-ebfe-6a7f-0132-f615ff156de0",
+    "meta": {
+      "callId": "b175d2bd-ebfe-6a7f-0132-f615ff156de0",
+      "digits": "8778467369",
+      "dialedNumber": "8778467369",
+      "catalogedName": "NYS OASAS HOPEline (Substance Use)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:53:16.869Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.856Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Office of Addiction Services and Supports Confidential Hope Line",
+      "reason": "transcript-stated name (New York State Office of Addiction Services and Supports Confidential Hope Line) differs from catalogued (NYS OASAS HOPEline (Substance Use))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.292Z",
+  "lastSeededAt": "2026-05-03T19:44:16.292Z"
+}

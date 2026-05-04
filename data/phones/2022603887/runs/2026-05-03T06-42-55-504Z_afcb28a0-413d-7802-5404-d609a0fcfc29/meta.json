@@ -1,0 +1,29 @@
+{
+  "callId": "afcb28a0-413d-7802-5404-d609a0fcfc29",
+  "digits": "2022603887",
+  "dialedNumber": "(202) 260-3887",
+  "catalogedName": "school-records-ferpa-request-ny",
+  "sourceId": "legal-entry:school-records-ferpa-request-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-records-ferpa-request-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:42:55.504Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.075Z"
+  }
+}

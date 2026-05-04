@@ -1,0 +1,24 @@
+{
+  "callId": "ad0ea6fa-897c-6a64-5cfb-bdb0cf98a929",
+  "digits": "5858896132",
+  "dialedNumber": "(585) 889-6132",
+  "catalogedName": "Chili Assessor",
+  "sourceId": "chiliassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:48:57.952Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.031Z"
+  }
+}

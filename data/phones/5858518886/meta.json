@@ -1,0 +1,96 @@
+{
+  "digits": "5858518886",
+  "kind": "phone",
+  "primaryName": "Reentry Association of Western NY (RAWNY)",
+  "rawValue": "585-851-8886",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:legalCrimRecord",
+    "cat:reentry",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rawny",
+      "name": "Reentry Association of Western NY (RAWNY)",
+      "category": "reentry",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rawnyid",
+      "name": "RAWNY (Help Getting Any Documents)",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rawnyrecord",
+      "name": "RAWNY — Reentry Association of Western NY",
+      "category": "legalCrimRecord",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "reentry-rights-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-22-47-425Z_363335c6-c9a8-da83-059c-b7396e27bde6",
+    "meta": {
+      "callId": "363335c6-c9a8-da83-059c-b7396e27bde6",
+      "digits": "5858518886",
+      "dialedNumber": "5858518886",
+      "catalogedName": "Reentry Association of Western NY (RAWNY)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:22:47.425Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.645Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.16666666666666666,
+      "extracted": "voicemail for the reentry one-stop",
+      "reason": "transcript-stated name (voicemail for the reentry one-stop) differs from catalogued (Reentry Association of Western NY (RAWNY))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.307Z",
+  "lastSeededAt": "2026-05-03T19:44:16.307Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:11:29.160Z",
+      "sourceUrl": "https://www.rawny.org/contact-us/",
+      "sourceLabel": "RAWNY contact-us page",
+      "notes": "Web confirms (585) 851-8886 for RAWNY. Used by 3 programs: rawny + rawnyid + rawnyrecord. May tree captured \"voicemail for the reentry one-stop\" (RAWNY style) — direct match."
+    }
+  ]
+}

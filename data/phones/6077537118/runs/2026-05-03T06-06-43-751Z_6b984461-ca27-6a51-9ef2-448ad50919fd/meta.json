@@ -1,0 +1,29 @@
+{
+  "callId": "6b984461-ca27-6a51-9ef2-448ad50919fd",
+  "digits": "6077537118",
+  "dialedNumber": "(607) 753-7118",
+  "catalogedName": "electrical-residential-ny-mon-scottsville-village",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-scottsville-village",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-scottsville-village"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:06:43.751Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.807Z"
+  }
+}

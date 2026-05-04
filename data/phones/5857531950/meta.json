@@ -1,0 +1,67 @@
+{
+  "digits": "5857531950",
+  "kind": "phone",
+  "primaryName": "Monroe County Legislature",
+  "rawValue": "585-753-1950",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:parentalProtection",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mcleg",
+      "name": "Monroe County Legislature",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "mclegislature",
+      "name": "Monroe County Legislature — County Services",
+      "category": "parentalProtection",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-00-26-964Z_4eb0b40a-079b-c7f7-085c-e8b4903b74cd",
+    "meta": {
+      "callId": "4eb0b40a-079b-c7f7-085c-e8b4903b74cd",
+      "digits": "5857531950",
+      "dialedNumber": "5857531950",
+      "catalogedName": "Monroe County Legislature",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:00:26.964Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.598Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.358Z",
+  "lastSeededAt": "2026-05-03T19:44:16.358Z"
+}

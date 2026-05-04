@@ -1,0 +1,61 @@
+{
+  "digits": "5167419000",
+  "kind": "phone",
+  "primaryName": "entry-callout:special-needs-trust-ny",
+  "rawValue": "(516) 741-9000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-46-40-170Z_395cc245-4878-a0e9-8e66-16b5c80951b9",
+    "meta": {
+      "callId": "395cc245-4878-a0e9-8e66-16b5c80951b9",
+      "digits": "5167419000",
+      "dialedNumber": "(516) 741-9000",
+      "catalogedName": "special-needs-trust-ny",
+      "sourceId": "legal-entry:special-needs-trust-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "special-needs-trust-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:46:40.170Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.101Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.569Z",
+  "lastSeededAt": "2026-05-03T19:44:16.569Z"
+}

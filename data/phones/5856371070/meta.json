@@ -1,0 +1,59 @@
+{
+  "digits": "5856371070",
+  "kind": "phone",
+  "primaryName": "Sweden Justice Court",
+  "rawValue": "585-637-1070",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swedencourt",
+      "name": "Sweden Justice Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-35-57-404Z_e94c7cec-531b-01d2-520e-3ecad8d54366",
+    "meta": {
+      "callId": "e94c7cec-531b-01d2-520e-3ecad8d54366",
+      "digits": "5856371070",
+      "dialedNumber": "5856371070",
+      "catalogedName": "Sweden Justice Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:35:57.404Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.547Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.456Z",
+  "lastSeededAt": "2026-05-03T19:44:16.456Z"
+}

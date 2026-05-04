@@ -1,0 +1,95 @@
+{
+  "digits": "5853713413",
+  "kind": "phone",
+  "primaryName": "Rochester City Court — Criminal Order of Protection",
+  "rawValue": "585-371-3413",
+  "blockDial": false,
+  "tags": [
+    "cat:legalCrimRecord",
+    "cat:parentalProtection",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rochcitycourt",
+      "name": "Rochester City Court — Criminal Order of Protection",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "certrelief",
+      "name": "Certificate of Relief from Civil Disabilities",
+      "category": "legalCrimRecord",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "acd-adjournment-contemplation-dismissal-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "criminal-appeal-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "criminal-case-process-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "rights-when-arrested-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-07-50-795Z_38bf6321-dcde-84e9-9f90-d540ff292f28",
+    "meta": {
+      "callId": "38bf6321-dcde-84e9-9f90-d540ff292f28",
+      "digits": "5853713413",
+      "dialedNumber": "5853713413",
+      "catalogedName": "Rochester City Court — Criminal Order of Protection",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:07:50.795Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.355Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Criminal Branch of Rochester City Court",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.292Z",
+  "lastSeededAt": "2026-05-03T19:44:16.292Z"
+}

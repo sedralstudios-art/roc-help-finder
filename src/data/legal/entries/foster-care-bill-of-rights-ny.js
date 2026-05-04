@@ -61,7 +61,7 @@ export const FOSTER_CARE_BILL_OF_RIGHTS_NY = {
       qualifier: "Children and families involved in foster care in Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal representation for children and parents in foster care proceedings",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

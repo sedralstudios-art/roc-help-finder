@@ -1,0 +1,24 @@
+{
+  "callId": "318ec9f3-a817-341f-da41-3ad11688b5fd",
+  "digits": "5853597009",
+  "dialedNumber": "(585) 359-7009",
+  "catalogedName": "Henrietta Animal Control",
+  "sourceId": "henriettadogcontrol",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:00:57.272Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.681Z"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "digits": "5853924144",
+  "kind": "phone",
+  "primaryName": "Hilton Village Clerk",
+  "rawValue": "585-392-4144",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hiltonclerk",
+      "name": "Hilton Village Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-hilton-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-hilton-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-hilton-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-hilton-village",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-12-47-214Z_32563dff-1b59-f5b9-931c-82354326b77b",
+    "meta": {
+      "callId": "32563dff-1b59-f5b9-931c-82354326b77b",
+      "digits": "5853924144",
+      "dialedNumber": "5853924144",
+      "catalogedName": "Hilton Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:12:47.214Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.367Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Village of Hilton office",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.309Z",
+  "lastSeededAt": "2026-05-03T19:44:16.309Z",
+  "verifiedAt": "2026-05-03T20:21:01.730Z",
+  "verifiedRun": "2026-05-02T07-12-47-214Z_32563dff-1b59-f5b9-931c-82354326b77b",
+  "verifiedTranscriptOpening": "Thank you for calling the Village of Hilton office. We are now closed. If you have a water or sewer emergency, please page 585-220-1561 or 585-525-0709. Enter your phone number and your call will be r",
+  "verifiedMatchTokens": [
+    "hilton",
+    "village"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

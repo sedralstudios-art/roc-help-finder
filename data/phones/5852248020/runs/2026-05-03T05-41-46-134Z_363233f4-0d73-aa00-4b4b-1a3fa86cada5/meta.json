@@ -1,0 +1,33 @@
+{
+  "callId": "363233f4-0d73-aa00-4b4b-1a3fa86cada5",
+  "digits": "5852248020",
+  "dialedNumber": "(585) 224-8020",
+  "catalogedName": "naturalization-citizenship-eligibility-ny",
+  "sourceId": "legal-entry:naturalization-citizenship-eligibility-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "naturalization-citizenship-eligibility-ny"
+    },
+    {
+      "type": "entry",
+      "id": "u-visa-crime-victim-immigration-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:41:46.134Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.632Z"
+  }
+}

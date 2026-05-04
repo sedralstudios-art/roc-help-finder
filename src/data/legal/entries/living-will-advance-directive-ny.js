@@ -60,7 +60,7 @@ export const LIVING_WILL_ADVANCE_DIRECTIVE_NY = {
       qualifier: "Seniors 60+ and their families in Monroe County",
       access: "Phone at (585) 244-8400",
       outcome: "Completed advance directive documents, family guidance, referrals",
-      phone: "(585) 244-8400",
+      phone: "",
       url: "https://www.lifespan-roch.org",
       verified: true,
       bilingual: false,

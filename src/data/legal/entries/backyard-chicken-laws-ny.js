@@ -65,7 +65,7 @@ export const BACKYARD_CHICKEN_LAWS_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Zoning information, complaint resolution",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

@@ -1,0 +1,33 @@
+{
+  "callId": "2380947b-1d52-62e8-c78e-207bbfaa9ca9",
+  "digits": "5184742121",
+  "dialedNumber": "(518) 474-2121",
+  "catalogedName": "moped-limited-use-motorcycle-ny",
+  "sourceId": "legal-entry:moped-limited-use-motorcycle-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "moped-limited-use-motorcycle-ny"
+    },
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:41:37.817Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.631Z"
+  }
+}

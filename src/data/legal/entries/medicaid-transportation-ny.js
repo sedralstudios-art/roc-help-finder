@@ -58,7 +58,7 @@ export const MEDICAID_TRANSPORTATION_NY = {
       qualifier: "Medicaid recipients in Monroe County",
       access: "Phone",
       outcome: "Ride scheduling and complaint resolution",
-      phone: "(585) 753-6998",
+      phone: "",
       url: "https://www.monroecounty.gov",
       verified: true,
       bilingual: false,

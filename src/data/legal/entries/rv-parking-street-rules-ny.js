@@ -40,7 +40,7 @@ export const RV_PARKING_STREET_RULES_NY = {
     en: [
       "Rochester: RVs, trucks, and trailers cannot park on any city street for more than 6 hours. Contact the Bureau of Inspection and Compliance at (585) 428-6520. (Verified April 2026.)",
       "Irondequoit: One RV is allowed on the front yard driveway or hard surface, at least 4 ft from the front property line and 3 ft from the side. One RV in the side yard, up to two in the rear yard. Maximum two RVs stored in the open. No fixed utility connections. No living or housekeeping use on the premises. Building Department at (585) 467-8840. (Verified April 2026.)",
-      "Greece: Code Enforcement at (585) 723-2396.",
+      "Greece: Code Enforcement at (585) 723-2354.",
       "Brighton: Building Department at (585) 784-5220.",
       "Henrietta: Building Department at (585) 334-7700.",
       "Penfield: Building and Zoning at (585) 340-8630.",
@@ -63,7 +63,7 @@ export const RV_PARKING_STREET_RULES_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Code information, complaint resolution, inspections",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

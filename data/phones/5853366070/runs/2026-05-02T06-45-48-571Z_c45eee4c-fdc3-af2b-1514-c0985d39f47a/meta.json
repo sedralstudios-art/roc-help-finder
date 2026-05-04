@@ -1,0 +1,24 @@
+{
+  "callId": "c45eee4c-fdc3-af2b-1514-c0985d39f47a",
+  "digits": "5853366070",
+  "dialedNumber": "5853366070",
+  "catalogedName": "Irondequoit Lunch Club 60 (Senior Meals)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:45:48.571Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.309Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "abeefd7e-9fe5-65a8-e4ef-f1f559483424",
+  "digits": "5855865139",
+  "dialedNumber": "5855865139",
+  "catalogedName": "Penfield Hope Food Pantry",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:18:07.558Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.508Z"
+  }
+}

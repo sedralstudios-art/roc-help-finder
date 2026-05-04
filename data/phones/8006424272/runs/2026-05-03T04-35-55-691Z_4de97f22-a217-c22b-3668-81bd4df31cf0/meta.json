@@ -1,0 +1,45 @@
+{
+  "callId": "4de97f22-a217-c22b-3668-81bd4df31cf0",
+  "digits": "8006424272",
+  "dialedNumber": "(800) 642-4272",
+  "catalogedName": "smart-meter-opt-out-ny",
+  "sourceId": "legal-entry:smart-meter-opt-out-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "smart-meter-opt-out-ny"
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-deposit-refund-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-shutoff-protections-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:35:55.691Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.384Z"
+  }
+}

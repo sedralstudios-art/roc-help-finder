@@ -1,0 +1,79 @@
+{
+  "digits": "8005225006",
+  "kind": "phone",
+  "primaryName": "entry-callout:wic-application-walkthrough-ny",
+  "rawValue": "1-800-522-5006",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wic-application-walkthrough-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "wic-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "wic-program-ny-program",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-05-12-534Z_4e50e8b2-d6a4-5d8f-3663-b5b8207d106d",
+    "meta": {
+      "callId": "4e50e8b2-d6a4-5d8f-3663-b5b8207d106d",
+      "digits": "8005225006",
+      "dialedNumber": "1-800-522-5006",
+      "catalogedName": "wic-application-walkthrough-ny",
+      "sourceId": "legal-entry:wic-application-walkthrough-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "wic-application-walkthrough-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wic-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wic-program-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:05:12.534Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.487Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.353Z",
+  "lastSeededAt": "2026-05-03T19:44:16.353Z"
+}

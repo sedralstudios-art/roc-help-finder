@@ -1,0 +1,24 @@
+{
+  "callId": "c8895424-f08c-1eba-130b-5abf533219ca",
+  "digits": "5854678840",
+  "dialedNumber": "(585) 467-8840",
+  "catalogedName": "Irondequoit Town Clerk",
+  "sourceId": "irondequoitclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:47:35.220Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.865Z"
+  }
+}

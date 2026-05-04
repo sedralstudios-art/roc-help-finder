@@ -1,0 +1,24 @@
+{
+  "callId": "b2874b4e-3d93-6186-2c0f-4aa3fa546115",
+  "digits": "5852486275",
+  "dialedNumber": "(585) 248-6275",
+  "catalogedName": "Pittsford Community Library",
+  "sourceId": "pittsfordlib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:31:10.466Z",
+  "durationSec": 19,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.566Z"
+  }
+}

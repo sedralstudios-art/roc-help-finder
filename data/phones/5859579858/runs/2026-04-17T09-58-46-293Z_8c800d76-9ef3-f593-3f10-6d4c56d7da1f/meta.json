@@ -1,0 +1,24 @@
+{
+  "callId": "8c800d76-9ef3-f593-3f10-6d4c56d7da1f",
+  "digits": "5859579858",
+  "dialedNumber": "(585) 957-9858",
+  "catalogedName": "Center for Employment Opportunities (CEO) Rochester",
+  "sourceId": "ceoroc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:58:46.293Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.045Z"
+  }
+}

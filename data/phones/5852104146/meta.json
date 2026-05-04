@@ -1,0 +1,59 @@
+{
+  "digits": "5852104146",
+  "kind": "phone",
+  "primaryName": "Trillium Health Harm Reduction",
+  "rawValue": "585-210-4146",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "trilliumhr",
+      "name": "Trillium Health Harm Reduction",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-16-42-575Z_299f11fc-7ddf-c7ba-c4ae-a79753b5c81a",
+    "meta": {
+      "callId": "299f11fc-7ddf-c7ba-c4ae-a79753b5c81a",
+      "digits": "5852104146",
+      "dialedNumber": "5852104146",
+      "catalogedName": "Trillium Health Harm Reduction",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:16:42.575Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.112Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.416Z",
+  "lastSeededAt": "2026-05-03T19:44:16.416Z"
+}

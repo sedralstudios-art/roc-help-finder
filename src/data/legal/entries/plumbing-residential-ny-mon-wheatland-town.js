@@ -21,7 +21,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Wheatland town code says directly: \"In all cases where there is to be installation of new plumbing or alteration of existing plumbing, a plumbing permit must be obtained.\" That's strict — it covers alterations, not just new installs. Water heater replacement, moving fixtures, and almost any other plumbing change triggers the permit.\n\nThe town's enforcement penalties are sharp. Work done without a required permit gets charged 4 times the normal permit cost. A separate $100 stop-work order also applies.\n\nFees are set by Town Board resolution. Exact amounts aren't on the public website — call (585) 889-1553 to confirm.\n\nWheatland doesn't have its own plumber license chapter (unlike Scottsville village, which does register plumbers). Plumbers need liability insurance and workers comp. Whether Wheatland honors a Rochester Examining Board plumber certificate is not published.\n\nThe town Building Department and Fire Marshal do plan review and inspections in-house.\n\nIMPORTANT: Scottsville village is inside Wheatland but has its own Code Enforcement office for village-limit addresses."
+    en: "Wheatland town code says directly: \"In all cases where there is to be installation of new plumbing or alteration of existing plumbing, a plumbing permit must be obtained.\" That's strict — it covers alterations, not just new installs. Water heater replacement, moving fixtures, and almost any other plumbing change triggers the permit.\n\nThe town's enforcement penalties are sharp. Work done without a required permit gets charged 4 times the normal permit cost. A separate $100 stop-work order also applies.\n\nFees are set by Town Board resolution. Exact amounts aren't on the public website — call [number being verified] to confirm.\n\nWheatland doesn't have its own plumber license chapter (unlike Scottsville village, which does register plumbers). Plumbers need liability insurance and workers comp. Whether Wheatland honors a Rochester Examining Board plumber certificate is not published.\n\nThe town Building Department and Fire Marshal do plan review and inspections in-house.\n\nIMPORTANT: Scottsville village is inside Wheatland but has its own Code Enforcement office for village-limit addresses."
   },
 
   example: {
@@ -60,7 +60,7 @@ export const entry = {
       qualifier: "Open to residents and contractors working in Wheatland (outside Scottsville village)",
       access: "22 Main St, Scottsville; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-889-1553",
+      phone: "",
       url: "https://www.townofwheatland.org/building-department",
       verified: true,
       bilingual: false,

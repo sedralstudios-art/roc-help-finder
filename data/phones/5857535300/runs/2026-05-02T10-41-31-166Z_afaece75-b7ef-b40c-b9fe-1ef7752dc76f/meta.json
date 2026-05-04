@@ -1,0 +1,24 @@
+{
+  "callId": "afaece75-b7ef-b40c-b9fe-1ef7752dc76f",
+  "digits": "5857535300",
+  "dialedNumber": "5857535300",
+  "catalogedName": "Monroe County Opioid Response Helpline",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:41:31.166Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.825Z"
+  }
+}

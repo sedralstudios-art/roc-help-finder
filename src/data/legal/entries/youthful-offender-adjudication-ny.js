@@ -43,7 +43,7 @@ export const YOUTHFUL_OFFENDER_ADJUDICATION_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — representation for indigent young defendants.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — private counsel assigned to indigent defendants.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — private counsel assigned to indigent defendants.",
       "Legal Aid Society of Rochester at (585) 232-4090 — YO sealing and collateral consequences.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense attorneys.",
       "NYS Division of Criminal Justice Services (DCJS) RAP Sheet at (518) 485-7644 — confirm YO sealing status on criminal history record.",
@@ -64,7 +64,7 @@ export const YOUTHFUL_OFFENDER_ADJUDICATION_NY = {
       qualifier: "Indigent Monroe County defendants",
       access: "Assigned at arraignment or phone (585) 753-4300",
       outcome: "Full representation through trial and sentencing",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,
@@ -77,7 +77,7 @@ export const YOUTHFUL_OFFENDER_ADJUDICATION_NY = {
       qualifier: "Any Monroe County defendant",
       access: "Phone at (585) 546-2130",
       outcome: "30-minute consultation, hourly representation",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

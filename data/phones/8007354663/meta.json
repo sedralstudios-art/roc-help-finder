@@ -1,0 +1,61 @@
+{
+  "digits": "8007354663",
+  "kind": "phone",
+  "primaryName": "entry-callout:home-inspector-licensing-ny",
+  "rawValue": "(800) 735-4663",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-14-38-314Z_71b08e43-50c5-35bf-47ed-173a37306587",
+    "meta": {
+      "callId": "71b08e43-50c5-35bf-47ed-173a37306587",
+      "digits": "8007354663",
+      "dialedNumber": "(800) 735-4663",
+      "catalogedName": "home-inspector-licensing-ny",
+      "sourceId": "legal-entry:home-inspector-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "home-inspector-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:14:38.314Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.865Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.509Z",
+  "lastSeededAt": "2026-05-03T19:44:16.509Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "ea7bfdce-33ea-a256-260b-197673bbca13",
+  "digits": "5852717670",
+  "dialedNumber": "5852717670",
+  "catalogedName": "Center for Youth (Runaway/Homeless Youth)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:33:07.351Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.804Z"
+  }
+}

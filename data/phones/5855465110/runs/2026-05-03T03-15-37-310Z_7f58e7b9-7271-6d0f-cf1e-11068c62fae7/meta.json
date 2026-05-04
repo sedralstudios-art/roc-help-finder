@@ -1,0 +1,77 @@
+{
+  "callId": "7f58e7b9-7271-6d0f-cf1e-11068c62fae7",
+  "digits": "5855465110",
+  "dialedNumber": "(585) 546-5110",
+  "catalogedName": "contest-will-ny",
+  "sourceId": "legal-entry:contest-will-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "contest-will-ny"
+    },
+    {
+      "type": "entry",
+      "id": "contracts-must-be-in-writing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "driveway-easement-access-ny"
+    },
+    {
+      "type": "entry",
+      "id": "encroachment-property-line-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lawn-pesticide-neighbor-notice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-disputes-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-harassment-restraining-order-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-tree-roots-damage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "parenting-time-modification-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pet-custody-separation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "private-nuisance-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "shared-driveway-dispute-ny"
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-liability-good-samaritan-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:15:37.310Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.977Z"
+  }
+}

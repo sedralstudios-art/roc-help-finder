@@ -1,0 +1,81 @@
+{
+  "digits": "8002690271",
+  "kind": "phone",
+  "primaryName": "entry-callout:identity-theft-response-steps-ny",
+  "rawValue": "(800) 269-0271",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "representative-payee-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-50-04-876Z_28ad02b8-a79f-4ade-26c3-7dd753ff1333",
+    "meta": {
+      "callId": "28ad02b8-a79f-4ade-26c3-7dd753ff1333",
+      "digits": "8002690271",
+      "dialedNumber": "(800) 269-0271",
+      "catalogedName": "identity-theft-response-steps-ny",
+      "sourceId": "legal-entry:identity-theft-response-steps-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "identity-theft-response-steps-ny"
+        },
+        {
+          "type": "entry",
+          "id": "representative-payee-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "truth-in-caller-id-spoofing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:50:04.876Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.411Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "hotline for the Social Security Administration",
+      "reason": "transcript-stated name (hotline for the Social Security Administration) differs from catalogued (identity-theft-response-steps-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.349Z",
+  "lastSeededAt": "2026-05-03T19:44:16.349Z"
+}

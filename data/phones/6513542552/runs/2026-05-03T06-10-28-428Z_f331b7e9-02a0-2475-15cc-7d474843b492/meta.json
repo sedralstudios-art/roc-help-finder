@@ -1,0 +1,29 @@
+{
+  "callId": "f331b7e9-02a0-2475-15cc-7d474843b492",
+  "digits": "6513542552",
+  "dialedNumber": "(651) 354-2552",
+  "catalogedName": "free-internet-computer-access-ny-program",
+  "sourceId": "legal-entry:free-internet-computer-access-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "free-internet-computer-access-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:10:28.428Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.836Z"
+  }
+}

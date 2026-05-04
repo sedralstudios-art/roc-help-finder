@@ -60,7 +60,7 @@ export const GUN_SAFE_STORAGE_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 753-4178",
       outcome: "Free gun locks, safety information, regulatory guidance",
-      phone: "(585) 753-4178",
+      phone: "",
       url: "https://www.monroecounty.gov/sheriff",
       verified: true,
       bilingual: false,

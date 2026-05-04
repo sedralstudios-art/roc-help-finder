@@ -1,0 +1,24 @@
+{
+  "callId": "897a1405-71ca-e5e0-f721-755c15bd1358",
+  "digits": "5854298289",
+  "dialedNumber": "(585) 429-8289",
+  "catalogedName": "Gates Recreation & Parks",
+  "sourceId": "gatesrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:16:22.778Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.698Z"
+  }
+}

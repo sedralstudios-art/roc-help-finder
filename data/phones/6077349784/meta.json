@@ -1,0 +1,61 @@
+{
+  "digits": "6077349784",
+  "kind": "phone",
+  "primaryName": "entry-callout:immigration-basics-ny",
+  "rawValue": "(607) 734-9784",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "immigration-basics-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-16-09-771Z_f80712c8-583b-f858-5601-e02acec4b539",
+    "meta": {
+      "callId": "f80712c8-583b-f858-5601-e02acec4b539",
+      "digits": "6077349784",
+      "dialedNumber": "(607) 734-9784",
+      "catalogedName": "immigration-basics-ny",
+      "sourceId": "legal-entry:immigration-basics-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "immigration-basics-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:16:09.771Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.875Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.512Z",
+  "lastSeededAt": "2026-05-03T19:44:16.512Z"
+}

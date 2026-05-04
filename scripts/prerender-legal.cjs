@@ -26,6 +26,21 @@ const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ENTRIES_DIR = path.join(ROOT, 'src', 'data', 'legal', 'entries');
 
+// Caller-ID manifest — keyed on 10-digit normalized phone, value = {file, ...}.
+// Renders the dialer-captured caller-ID screenshot next to verified phones.
+const CALLER_ID_MANIFEST = (() => {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'data', 'caller-id-manifest.json'), 'utf8'));
+  } catch (e) { return {}; }
+})();
+function callerIdForSSR(ph) {
+  if (!ph) return null;
+  const d = String(ph).replace(/\D/g, '');
+  const norm = d.length === 11 && d.startsWith('1') ? d.substring(1) : d;
+  if (norm.length !== 10) return null;
+  return CALLER_ID_MANIFEST[norm] || null;
+}
+
 // English-only per maintainer policy (locked 2026-04-30). Translation data
 // remains in src/data/legal/translations/ but is not prerendered. Restoring
 // any language requires explicit maintainer greenlight + native-speaker review
@@ -544,6 +559,11 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
           if (c.phone) h += ' — <a href="tel:' + esc(c.phone.replace(/[^0-9+]/g, '')) + '">' + esc(c.phone) + '</a>';
           if (c.url) h += ' — <a href="' + esc(c.url) + '" rel="noopener">website</a>';
           if (c.focus) h += '<br><span class="focus">' + esc(c.focus) + '</span>';
+          const cid = callerIdForSSR(c.phone);
+          if (cid) {
+            h += '<br><img src="/' + esc(cid.file) + '" alt="' + esc('Verified caller ID for ' + (c.name || 'this organization')) + '" loading="lazy" style="display:block;width:100%;max-width:320px;height:auto;border:1px solid #e8e4dc;border-radius:6px;margin-top:8px" />';
+            h += '<div style="font-size:11px;color:#888;margin-top:4px">Caller ID a HelpFinder verification call captured from this number.</div>';
+          }
           return h + '</li>';
         })
         .join('') +

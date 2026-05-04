@@ -60,7 +60,7 @@ export const DIGITAL_ASSETS_AFTER_DEATH_NY = {
       qualifier: "Low income residents of Monroe and surrounding counties",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal advice and representation",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

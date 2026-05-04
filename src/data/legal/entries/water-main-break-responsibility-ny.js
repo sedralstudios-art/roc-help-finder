@@ -59,7 +59,7 @@ export const WATER_MAIN_BREAK_RESPONSIBILITY_NY = {
       qualifier: "Monroe County Water Authority customers",
       access: "Phone at (585) 442-7200",
       outcome: "Main repairs, bill adjustments, service information",
-      phone: "(585) 442-7200",
+      phone: "",
       url: "https://www.mcwa.com",
       verified: true,
       bilingual: false,

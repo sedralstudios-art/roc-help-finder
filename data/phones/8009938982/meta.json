@@ -1,0 +1,159 @@
+{
+  "digits": "8009938982",
+  "kind": "phone",
+  "primaryName": "Disability Rights NY (Special Ed Advocacy)",
+  "rawValue": "800-993-8982",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "cat:legalDiscrim",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "specialedadvocate",
+      "name": "Disability Rights NY (Special Ed Advocacy)",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "adarochester",
+      "name": "Disability Rights NY — ADA Complaints",
+      "category": "legalDiscrim",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "acces-vr-ny",
+      "line": 80
+    },
+    {
+      "type": "entry",
+      "id": "ada-public-transit-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "ada-title-iii-public-accommodations-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "article-78-proceeding-review-agency-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "guardianship-scpa17a-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "menstrual-products-schools-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-records-access-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "newborn-screening-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "ny-able-savings-disability-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "school-iep-disputes-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "school-residency-enrollment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "school-suspension-hearing-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-17-17-162Z_de43ef6e-cd35-26f0-4bd9-b67ea12ad036",
+    "meta": {
+      "callId": "de43ef6e-cd35-26f0-4bd9-b67ea12ad036",
+      "digits": "8009938982",
+      "dialedNumber": "8009938982",
+      "catalogedName": "Disability Rights NY (Special Ed Advocacy)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:17:17.162Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.767Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.9,
+      "score": 0.4,
+      "extracted": "Disability Rights New York",
+      "reason": "jaccard 0.40"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.274Z",
+  "lastSeededAt": "2026-05-03T19:44:16.274Z",
+  "verifiedAt": "2026-05-03T20:21:01.854Z",
+  "verifiedRun": "2026-05-02T10-17-17-162Z_de43ef6e-cd35-26f0-4bd9-b67ea12ad036",
+  "verifiedTranscriptOpening": "You have reached Disability Rights New York. We are sorry we cannot take a call at this time. Please leave a message. Usted ha llamado a Disability Rights New York. Lamentamos no poder atender a su ll",
+  "verifiedMatchTokens": [
+    "disability",
+    "rights",
+    "ed"
+  ],
+  "verifiedRatio": 0.6
+}

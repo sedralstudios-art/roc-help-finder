@@ -1,0 +1,33 @@
+{
+  "callId": "1008e057-ab0f-3cab-3446-a4af9519fbce",
+  "digits": "8009424242",
+  "dialedNumber": "(800) 942-4242",
+  "catalogedName": "cell-phone-while-driving-ny",
+  "sourceId": "legal-entry:cell-phone-while-driving-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny"
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:22:59.404Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.565Z"
+  }
+}

@@ -61,7 +61,7 @@ export const CHILD_SUPPORT_MODIFICATION_INCOME_CHANGE_NY = {
       qualifier: "Low income parents in Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal representation in child support modification proceedings",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

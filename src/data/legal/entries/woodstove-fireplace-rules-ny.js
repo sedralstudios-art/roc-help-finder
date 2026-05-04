@@ -59,7 +59,7 @@ export const WOODSTOVE_FIREPLACE_RULES_NY = {
       qualifier: "Monroe County and surrounding area",
       access: "Phone at (585) 226-5400",
       outcome: "Complaint investigation, burn ban information",
-      phone: "(585) 226-5400",
+      phone: "",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,

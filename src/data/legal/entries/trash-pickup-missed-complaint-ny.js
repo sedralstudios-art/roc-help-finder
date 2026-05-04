@@ -41,7 +41,7 @@ export const TRASH_PICKUP_MISSED_COMPLAINT_NY = {
     en: [
       "Rochester: Report missed pickups through 311 or online at cityofrochester.gov. Department of Environmental Services at (585) 428-7369.",
       "Greece: Town contracts with a hauler. DPW at (585) 723-2425.",
-      "Irondequoit: Town contracts with a hauler. DPW at (585) 336-6075.",
+      "Irondequoit: Town contracts with a hauler. DPW at (585) 336-6090.",
       "Brighton: Town contracts with a hauler. DPW at (585) 784-5250.",
       "Henrietta: Town contracts with a hauler. DPW at (585) 334-7730.",
       "Penfield: Town contracts with a hauler. DPW at (585) 340-8660.",

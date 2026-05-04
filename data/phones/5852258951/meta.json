@@ -1,0 +1,70 @@
+{
+  "digits": "5852258951",
+  "kind": "phone",
+  "primaryName": "Greece Public Library",
+  "rawValue": "585-225-8951",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "greecelib",
+      "name": "Greece Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-24-11-129Z_1ac1221e-9214-63cd-7cd1-c0e004c81729",
+    "meta": {
+      "callId": "1ac1221e-9214-63cd-7cd1-c0e004c81729",
+      "digits": "5852258951",
+      "dialedNumber": "5852258951",
+      "catalogedName": "Greece Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:24:11.129Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.129Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Greece Public Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.428Z",
+  "lastSeededAt": "2026-05-03T19:44:16.428Z",
+  "verifiedAt": "2026-05-03T20:21:01.675Z",
+  "verifiedRun": "2026-05-02T05-24-11-129Z_1ac1221e-9214-63cd-7cd1-c0e004c81729",
+  "verifiedTranscriptOpening": "Thank you for calling the Greece Public Library. Our service hours are as follows. Monday through Thursday, the library will be open from 9 a.m. to 9 p.m. Friday and Saturday, the library will be open",
+  "verifiedMatchTokens": [
+    "greece",
+    "public",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

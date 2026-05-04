@@ -1,0 +1,24 @@
+{
+  "callId": "f1d46381-83e9-5210-946e-6f5d868f7ba0",
+  "digits": "5853991285",
+  "dialedNumber": "(585) 399-1285",
+  "catalogedName": "RMAPI (Coaching & Mobility)",
+  "sourceId": "rmapi",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:08:50.665Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.689Z"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "digits": "5854298279",
+  "kind": "phone",
+  "primaryName": "Gates Code Enforcement / Dog Warden",
+  "rawValue": "585-429-8279",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gatesdogwarden",
+      "name": "Gates Code Enforcement / Dog Warden",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-40-45-523Z_1475acf7-952b-118c-2c68-a080df45f013",
+    "meta": {
+      "callId": "1475acf7-952b-118c-2c68-a080df45f013",
+      "digits": "5854298279",
+      "dialedNumber": "5854298279",
+      "catalogedName": "Gates Code Enforcement / Dog Warden",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:40:45.523Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.429Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.442Z",
+  "lastSeededAt": "2026-05-03T19:44:16.442Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "554e27e9-f04e-f7ef-a190-ca29ff1cbc7a",
+  "digits": "5184733355",
+  "dialedNumber": "(518) 473-3355",
+  "catalogedName": "nonconforming-use-grandfather-zoning-ny",
+  "sourceId": "legal-entry:nonconforming-use-grandfather-zoning-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nonconforming-use-grandfather-zoning-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:27:48.576Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.955Z"
+  }
+}

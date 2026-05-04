@@ -1,0 +1,37 @@
+{
+  "callId": "addc84c0-f22a-95e3-d26a-c214026c9240",
+  "digits": "8336333222",
+  "dialedNumber": "(833) 633-3222",
+  "catalogedName": "ny-paid-family-leave",
+  "sourceId": "legal-entry:ny-paid-family-leave",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-paid-family-leave"
+    },
+    {
+      "type": "entry",
+      "id": "pregnancy-discrimination-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-workers-fairness-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:28:27.619Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.544Z"
+  }
+}

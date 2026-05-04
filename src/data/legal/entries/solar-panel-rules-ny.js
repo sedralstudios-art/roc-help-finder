@@ -63,7 +63,7 @@ export const SOLAR_PANEL_RULES_NY = {
       qualifier: "Any NYS homeowner",
       access: "Online at nyserda.ny.gov/ny-sun or phone at (866) 697-3732",
       outcome: "Incentive information, installer directory, program enrollment",
-      phone: "(866) 697-3732",
+      phone: "",
       url: "https://www.nyserda.ny.gov/ny-sun",
       verified: true,
       bilingual: false,

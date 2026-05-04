@@ -1,0 +1,111 @@
+{
+  "digits": "5852252000",
+  "kind": "phone",
+  "primaryName": "Town of Greece Town Hall",
+  "rawValue": "585-225-2000",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:youth",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "greecehall",
+      "name": "Town of Greece Town Hall",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "greecerec",
+      "name": "Greece Parks and Recreation",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "greecetax",
+      "name": "Greece Tax Collection",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "junk-vehicle-own-property-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "sewer-lateral-responsibility-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-23-05-413Z_75197ba9-f93b-a0bb-e37c-0775f743df0a",
+    "meta": {
+      "callId": "75197ba9-f93b-a0bb-e37c-0775f743df0a",
+      "digits": "5852252000",
+      "dialedNumber": "5852252000",
+      "catalogedName": "Town of Greece Town Hall",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:23:05.413Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.127Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "town of Greece",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.287Z",
+  "lastSeededAt": "2026-05-03T19:44:16.287Z",
+  "verifiedAt": "2026-05-03T20:21:01.675Z",
+  "verifiedRun": "2026-05-02T05-23-05-413Z_75197ba9-f93b-a0bb-e37c-0775f743df0a",
+  "verifiedTranscriptOpening": "Thank you for calling the town of Greece. Our offices are now closed. If this is a police emergency or an animal control emergency, please hang up and call 911. If you need assistance from our Departm",
+  "verifiedMatchTokens": [
+    "town",
+    "greece",
+    "town"
+  ],
+  "verifiedRatio": 0.75
+}

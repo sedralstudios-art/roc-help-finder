@@ -1,0 +1,37 @@
+{
+  "callId": "ed23de93-0ea1-d0ef-836e-0b347b388664",
+  "digits": "6462057800",
+  "dialedNumber": "(646) 205-7800",
+  "catalogedName": "minimum-auto-insurance-coverage-ny",
+  "sourceId": "legal-entry:minimum-auto-insurance-coverage-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mva-no-insurance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-hit-by-car-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:27:54.240Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.541Z"
+  }
+}

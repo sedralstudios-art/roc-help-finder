@@ -1,0 +1,29 @@
+{
+  "callId": "b83f6390-2846-77a9-82df-24dd38b903e6",
+  "digits": "8334990343",
+  "dialedNumber": "(833) 499-0343",
+  "catalogedName": "negligent-security-landlord-crime-ny-cl",
+  "sourceId": "legal-entry:negligent-security-landlord-crime-ny-cl",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "negligent-security-landlord-crime-ny-cl"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:26:58.661Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.948Z"
+  }
+}

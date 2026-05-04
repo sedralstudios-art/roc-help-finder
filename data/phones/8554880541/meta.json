@@ -1,0 +1,80 @@
+{
+  "digits": "8554880541",
+  "kind": "phone",
+  "primaryName": "entry-callout:benefits-verification-letter-ny-program",
+  "rawValue": "1-855-488-0541",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-18-02-735Z_89cae99e-70e6-226b-2e0c-144595f932f3",
+    "meta": {
+      "callId": "89cae99e-70e6-226b-2e0c-144595f932f3",
+      "digits": "8554880541",
+      "dialedNumber": "1-855-488-0541",
+      "catalogedName": "benefits-verification-letter-ny-program",
+      "sourceId": "legal-entry:benefits-verification-letter-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "benefits-verification-letter-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "ssi-disability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:18:02.735Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.543Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Supplement Program Customer Support Center",
+      "reason": "transcript-stated name (New York State Supplement Program Customer Support Center) differs from catalogued (benefits-verification-letter-ny-program)"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.367Z",
+  "lastSeededAt": "2026-05-03T19:44:16.367Z",
+  "verifiedAt": "2026-05-03T20:21:01.859Z",
+  "verifiedRun": "2026-05-03T08-18-02-735Z_89cae99e-70e6-226b-2e0c-144595f932f3",
+  "verifiedTranscriptOpening": "You have reached the New York State Supplement Program Customer Support Center. The office is now closed. If you would like to request a benefit verification letter to be used as proof of income or to",
+  "verifiedMatchTokens": [
+    "verification",
+    "letter"
+  ],
+  "verifiedRatio": 0.4
+}

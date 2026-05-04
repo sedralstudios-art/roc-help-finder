@@ -1,0 +1,33 @@
+{
+  "callId": "3118e59a-e15d-4019-ab01-1ed8078e4f5e",
+  "digits": "5854287038",
+  "dialedNumber": "(585) 428-7038",
+  "catalogedName": "seat-belt-child-seat-ny",
+  "sourceId": "legal-entry:seat-belt-child-seat-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "seat-belt-child-seat-ny"
+    },
+    {
+      "type": "entry",
+      "id": "smoke-co-detector-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:44:24.214Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.649Z"
+  }
+}

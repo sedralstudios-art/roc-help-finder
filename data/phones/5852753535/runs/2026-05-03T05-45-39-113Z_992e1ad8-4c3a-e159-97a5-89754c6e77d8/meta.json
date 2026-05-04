@@ -1,0 +1,29 @@
+{
+  "callId": "992e1ad8-4c3a-e159-97a5-89754c6e77d8",
+  "digits": "5852753535",
+  "dialedNumber": "585-275-3535",
+  "catalogedName": "HOSPITALS.main",
+  "sourceId": "pole:HOSPITALS.main",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "HOSPITALS.main"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:45:39.113Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.657Z"
+  }
+}

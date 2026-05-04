@@ -1,0 +1,61 @@
+{
+  "digits": "5855461081",
+  "kind": "phone",
+  "primaryName": "entry-callout:veterans-housing-assistance-ny",
+  "rawValue": "(585) 546-1081",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-52-13-031Z_38d56645-8a0a-ed8d-712c-57caf22a3630",
+    "meta": {
+      "callId": "38d56645-8a0a-ed8d-712c-57caf22a3630",
+      "digits": "5855461081",
+      "dialedNumber": "(585) 546-1081",
+      "catalogedName": "veterans-housing-assistance-ny",
+      "sourceId": "legal-entry:veterans-housing-assistance-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "veterans-housing-assistance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:52:13.031Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.141Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.579Z",
+  "lastSeededAt": "2026-05-03T19:44:16.579Z"
+}

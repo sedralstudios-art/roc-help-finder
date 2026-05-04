@@ -1,0 +1,33 @@
+{
+  "callId": "6e6d7bb4-cf01-87d8-7f6f-e61baece9b24",
+  "digits": "5855303100",
+  "dialedNumber": "(585) 530-3100",
+  "catalogedName": "criminal-appeal-ny",
+  "sourceId": "legal-entry:criminal-appeal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "criminal-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "right-to-a-lawyer-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:34:33.605Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.586Z"
+  }
+}

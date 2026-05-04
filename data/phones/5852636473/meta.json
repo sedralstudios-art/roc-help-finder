@@ -1,0 +1,61 @@
+{
+  "digits": "5852636473",
+  "kind": "phone",
+  "primaryName": "entry-callout:nys-sales-tax-resale-exemption-ny",
+  "rawValue": "(585) 263-6473",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-30-35-001Z_0d213dfe-24c4-34a1-507d-72a068ca4d97",
+    "meta": {
+      "callId": "0d213dfe-24c4-34a1-507d-72a068ca4d97",
+      "digits": "5852636473",
+      "dialedNumber": "(585) 263-6473",
+      "catalogedName": "nys-sales-tax-resale-exemption-ny",
+      "sourceId": "legal-entry:nys-sales-tax-resale-exemption-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "nys-sales-tax-resale-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:30:35.001Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.991Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.539Z",
+  "lastSeededAt": "2026-05-03T19:44:16.539Z"
+}

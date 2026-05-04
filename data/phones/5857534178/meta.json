@@ -1,0 +1,336 @@
+{
+  "digits": "5857534178",
+  "kind": "phone",
+  "primaryName": "MC.sheriff",
+  "rawValue": "585-753-4178",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "sheriff",
+      "value": "585-753-4178",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "check-fraud-stolen-check-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "dangerous-dog-classification-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-pet-protection-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "driveway-paving-scam-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "firearm-surrender-order-protection-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "fireworks-laws-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "found-lost-property-wallet-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "gun-safe-storage-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "home-title-theft-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "junk-vehicle-own-property-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "license-plate-reader-privacy-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-harassment-restraining-order-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "police-complaint-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "rental-scam-fake-listing-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "school-bus-stop-arm-violation-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-48-48-642Z_8e181ed0-9cda-4154-7dff-c5403a9568d3",
+    "meta": {
+      "callId": "8e181ed0-9cda-4154-7dff-c5403a9568d3",
+      "digits": "5857534178",
+      "dialedNumber": "585-753-4178",
+      "catalogedName": "MC.sheriff",
+      "sourceId": "pole:MC.sheriff",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "MC.sheriff"
+        },
+        {
+          "type": "entry",
+          "id": "check-fraud-stolen-check-ny"
+        },
+        {
+          "type": "entry",
+          "id": "contractor-home-improvement-deposit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dangerous-dog-classification-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deer-vehicle-collision-ny"
+        },
+        {
+          "type": "entry",
+          "id": "domestic-violence-pet-protection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "driveway-paving-scam-ny"
+        },
+        {
+          "type": "entry",
+          "id": "firearm-surrender-order-protection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fireworks-laws-ny"
+        },
+        {
+          "type": "entry",
+          "id": "found-lost-property-wallet-ny"
+        },
+        {
+          "type": "entry",
+          "id": "grandparent-scam-phone-ny"
+        },
+        {
+          "type": "entry",
+          "id": "gun-safe-storage-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-title-theft-ny"
+        },
+        {
+          "type": "entry",
+          "id": "identity-theft-response-steps-ny"
+        },
+        {
+          "type": "entry",
+          "id": "illegal-eviction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "illegal-lockout-ny"
+        },
+        {
+          "type": "entry",
+          "id": "junk-vehicle-own-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "license-plate-reader-privacy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lost-driver-license-replacement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "neighbor-harassment-restraining-order-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-complaint-neglect-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pedestrian-crosswalk-right-of-way-ny"
+        },
+        {
+          "type": "entry",
+          "id": "police-complaint-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rental-scam-fake-listing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "safe-haven-newborn-abandonment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "school-bus-stop-arm-violation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "senior-fraud-prevention-ny"
+        },
+        {
+          "type": "entry",
+          "id": "stolen-vehicle-recovery-ny"
+        },
+        {
+          "type": "entry",
+          "id": "summer-camp-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "utility-scam-impersonation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-tow-vehicle-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:48:48.642Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.873Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Monroe County Sheriff's Office",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.270Z",
+  "lastSeededAt": "2026-05-03T19:44:16.270Z"
+}

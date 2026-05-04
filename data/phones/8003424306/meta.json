@@ -1,0 +1,70 @@
+{
+  "digits": "8003424306",
+  "kind": "phone",
+  "primaryName": "entry-callout:civil-service-discipline-ny",
+  "rawValue": "(800) 342-4306",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-service-discipline-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "nyslrs-public-pension-basics-ny",
+      "line": 56
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-33-52-022Z_3ff829da-34e3-78e1-ecc9-38a051f4e6c3",
+    "meta": {
+      "callId": "3ff829da-34e3-78e1-ecc9-38a051f4e6c3",
+      "digits": "8003424306",
+      "dialedNumber": "(800) 342-4306",
+      "catalogedName": "civil-service-discipline-ny",
+      "sourceId": "legal-entry:civil-service-discipline-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "civil-service-discipline-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nyslrs-public-pension-basics-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:33:52.022Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.582Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.384Z",
+  "lastSeededAt": "2026-05-03T19:44:16.384Z"
+}

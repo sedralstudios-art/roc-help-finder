@@ -1,0 +1,24 @@
+{
+  "callId": "8123b27b-8067-cfa6-2886-a0056493d6cd",
+  "digits": "5852653770",
+  "dialedNumber": "(585) 265-3770",
+  "catalogedName": "Webster Village Hall",
+  "sourceId": "webstervillageclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:44:28.067Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.586Z"
+  }
+}

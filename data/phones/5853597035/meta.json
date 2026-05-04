@@ -1,0 +1,28 @@
+{
+  "digits": "5853597035",
+  "kind": "phone",
+  "primaryName": "Henrietta Town Clerk",
+  "rawValue": "585-359-7035",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettaclerk",
+      "name": "Henrietta Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.444Z",
+  "lastSeededAt": "2026-05-03T19:44:16.444Z"
+}

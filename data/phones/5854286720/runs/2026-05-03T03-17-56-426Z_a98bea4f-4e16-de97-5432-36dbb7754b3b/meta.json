@@ -1,0 +1,73 @@
+{
+  "callId": "a98bea4f-4e16-de97-5432-36dbb7754b3b",
+  "digits": "5854286720",
+  "dialedNumber": "(585) 428-6720",
+  "catalogedName": "bicycle-helmet-under-14-ny",
+  "sourceId": "legal-entry:bicycle-helmet-under-14-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bicycle-helmet-under-14-ny"
+    },
+    {
+      "type": "entry",
+      "id": "burning-trash-leaves-laws-ny"
+    },
+    {
+      "type": "entry",
+      "id": "car-boot-immobilizer-ny"
+    },
+    {
+      "type": "entry",
+      "id": "catalytic-converter-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "driveway-paving-scam-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fireworks-laws-ny"
+    },
+    {
+      "type": "entry",
+      "id": "garage-band-noise-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "locked-out-of-house-locksmith-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny"
+    },
+    {
+      "type": "entry",
+      "id": "porch-piracy-package-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "security-camera-neighbor-privacy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:17:56.426Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.988Z"
+  }
+}

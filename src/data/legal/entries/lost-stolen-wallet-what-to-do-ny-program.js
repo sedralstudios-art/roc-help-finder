@@ -61,7 +61,7 @@ export const LOST_STOLEN_WALLET_WHAT_TO_DO_NY = {
       qualifier: "Any U.S. resident",
       access: "Online at identitytheft.gov or phone at (877) 438-4338",
       outcome: "Personalized recovery plan, dispute letters, fraud documentation",
-      phone: "(877) 438-4338",
+      phone: "",
       url: "https://www.identitytheft.gov",
       verified: true,
       bilingual: true,

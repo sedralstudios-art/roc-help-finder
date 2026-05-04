@@ -1,0 +1,188 @@
+{
+  "digits": "5853253050",
+  "kind": "phone",
+  "primaryName": "Worker Justice Center of New York",
+  "rawValue": "585-325-3050",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "LEGAL_AID",
+      "slug": "workerJusticeCenter",
+      "value": "585-325-3050",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "wjcny",
+      "name": "Worker Justice Center of New York",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "break-meal-period-work-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny",
+      "line": 68
+    },
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "human-trafficking-victim-relief-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny",
+      "line": 93
+    },
+    {
+      "type": "entry",
+      "id": "independent-contractor-misclass-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-workers-fairness-act-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "prevailing-wage-public-works-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny",
+      "line": 68
+    },
+    {
+      "type": "entry",
+      "id": "scaffold-law-construction-240-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "temp-worker-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "tip-pooling-laws-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "union-basics-organizing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "unpaid-internship-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "wage-payment-frequency-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "warn-act-mass-layoff-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "workplace-retaliation-protection-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-termination-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-28-03-766Z_148ef83c-56c2-a83d-9641-9eb56dbe6c7c",
+    "meta": {
+      "callId": "148ef83c-56c2-a83d-9641-9eb56dbe6c7c",
+      "digits": "5853253050",
+      "dialedNumber": "5853253050",
+      "catalogedName": "Worker Justice Center of New York",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:28:03.766Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.271Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Worker Justice Center of New York",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.272Z",
+  "lastSeededAt": "2026-05-03T19:44:16.272Z",
+  "verifiedAt": "2026-05-03T20:21:01.710Z",
+  "verifiedRun": "2026-05-02T06-28-03-766Z_148ef83c-56c2-a83d-9641-9eb56dbe6c7c",
+  "verifiedTranscriptOpening": "Thank you for calling Worker Justice Center of New York. Gracias por llamar al Centro de Justicia para Trabajadores. For English, press 1. Para Español, press 2. Thank you for calling Worker Justice C",
+  "verifiedMatchTokens": [
+    "worker",
+    "justice"
+  ],
+  "verifiedRatio": 1
+}

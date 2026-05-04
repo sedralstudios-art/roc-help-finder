@@ -60,7 +60,7 @@ export const TENANT_PAINT_APARTMENT_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-3700",
       outcome: "Counseling, deposit dispute guidance, referrals",
-      phone: "(585) 546-3700",
+      phone: "",
       url: "https://www.thehousingcouncil.org",
       verified: true,
       bilingual: true,

@@ -1,0 +1,57 @@
+{
+  "callId": "eeef1f46-2b32-b01e-7a3d-a37c25706902",
+  "digits": "8005140301",
+  "dialedNumber": "(800) 514-0301",
+  "catalogedName": "accessible-parking-abuse-ny",
+  "sourceId": "legal-entry:accessible-parking-abuse-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "accessible-parking-abuse-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ada-title-iii-public-accommodations-ny"
+    },
+    {
+      "type": "entry",
+      "id": "disabled-parking-permit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "esa-vs-service-animal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "paratransit-ada-transportation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "public-accommodations-ada-ny"
+    },
+    {
+      "type": "entry",
+      "id": "restroom-access-act-allys-law-ny"
+    },
+    {
+      "type": "entry",
+      "id": "service-animal-public-access-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:30:59.072Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.042Z"
+  }
+}

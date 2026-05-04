@@ -58,7 +58,7 @@ export const FREE_CELL_PHONE_LIFELINE_NY = {
       qualifier: "Any qualifying household in the US",
       access: "Online",
       outcome: "Eligibility determination and carrier enrollment",
-      phone: "(800) 234-9473",
+      phone: "",
       url: "https://www.checklifeline.org",
       verified: true,
       bilingual: true,

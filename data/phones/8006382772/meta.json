@@ -1,0 +1,90 @@
+{
+  "digits": "8006382772",
+  "kind": "phone",
+  "primaryName": "entry-callout:consumer-product-recall-rights-ny",
+  "rawValue": "(800) 638-2772",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "consumer-product-recall-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "garage-door-opener-liability-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "playground-equipment-liability-ny",
+      "line": 61
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-35-44-522Z_2d140a7a-9d72-44d7-f072-9dddbdd9f59d",
+    "meta": {
+      "callId": "2d140a7a-9d72-44d7-f072-9dddbdd9f59d",
+      "digits": "8006382772",
+      "dialedNumber": "(800) 638-2772",
+      "catalogedName": "consumer-product-recall-rights-ny",
+      "sourceId": "legal-entry:consumer-product-recall-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "consumer-product-recall-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "garage-door-opener-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "playground-equipment-liability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:35:44.522Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.342Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "United States Consumer Product Safety Commission",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.344Z",
+  "lastSeededAt": "2026-05-03T19:44:16.344Z",
+  "verifiedAt": "2026-05-03T20:21:01.842Z",
+  "verifiedRun": "2026-05-03T07-35-44-522Z_2d140a7a-9d72-44d7-f072-9dddbdd9f59d",
+  "verifiedTranscriptOpening": "You have reached the United States Consumer Product Safety Commission. Our normal business hours are 8 a.m. to 5.30 p.m. Eastern Standard Time Monday through Friday. Press 1 to leave a voicemail or pr",
+  "verifiedMatchTokens": [
+    "consumer",
+    "product",
+    "recall"
+  ],
+  "verifiedRatio": 0.5
+}

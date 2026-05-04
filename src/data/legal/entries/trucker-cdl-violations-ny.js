@@ -60,7 +60,7 @@ export const TRUCKER_CDL_VIOLATIONS_NY = {
       qualifier: "Anyone in Monroe County",
       access: "Phone at (585) 546-2130",
       outcome: "Referral to a traffic attorney, initial consultation",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

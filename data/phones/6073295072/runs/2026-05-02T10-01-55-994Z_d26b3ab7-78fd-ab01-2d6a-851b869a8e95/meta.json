@@ -1,0 +1,24 @@
+{
+  "callId": "d26b3ab7-78fd-ab01-2d6a-851b869a8e95",
+  "digits": "6073295072",
+  "dialedNumber": "6073295072",
+  "catalogedName": "Compassionate Friends (Child Loss)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:01:55.994Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.729Z"
+  }
+}

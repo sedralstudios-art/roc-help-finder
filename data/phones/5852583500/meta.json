@@ -1,0 +1,81 @@
+{
+  "digits": "5852583500",
+  "kind": "phone",
+  "primaryName": "RochesterWorks! (Job Center)",
+  "rawValue": "585-258-3500",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rw",
+      "name": "RochesterWorks! (Job Center)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "syep",
+      "name": "Summer Youth Employment (SYEP)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rocjob",
+      "name": "ROC Your Job (After School Jobs)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-53-40-398Z_5d0a89bc-1f6c-997b-df92-34e5159d4fd2",
+    "meta": {
+      "callId": "5d0a89bc-1f6c-997b-df92-34e5159d4fd2",
+      "digits": "5852583500",
+      "dialedNumber": "5852583500",
+      "catalogedName": "RochesterWorks! (Job Center)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:53:40.398Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.196Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Rochester Works",
+      "reason": "transcript-stated name (Rochester Works) differs from catalogued (RochesterWorks! (Job Center))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.320Z",
+  "lastSeededAt": "2026-05-03T19:44:16.320Z"
+}

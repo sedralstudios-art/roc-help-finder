@@ -61,7 +61,7 @@ export const TENANT_RIGHT_TO_ORGANIZE_NY = {
       qualifier: "Any renter in Monroe County",
       access: "Phone",
       outcome: "Organizing assistance, meeting support, training",
-      phone: "(585) 546-3700",
+      phone: "",
       url: "https://www.thehousingcouncil.org",
       verified: true,
       bilingual: false,

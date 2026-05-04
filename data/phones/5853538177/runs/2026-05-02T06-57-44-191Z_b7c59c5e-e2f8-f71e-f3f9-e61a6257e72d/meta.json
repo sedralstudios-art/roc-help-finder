@@ -1,0 +1,24 @@
+{
+  "callId": "b7c59c5e-e2f8-f71e-f3f9-e61a6257e72d",
+  "digits": "5853538177",
+  "dialedNumber": "5853538177",
+  "catalogedName": null,
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:57:44.191Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.334Z"
+  }
+}

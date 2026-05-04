@@ -1,0 +1,153 @@
+{
+  "digits": "5857532550",
+  "kind": "phone",
+  "primaryName": "entry-callout:agricultural-assessment-farm-rpt-305-ny",
+  "rawValue": "(585) 753-2550",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "agricultural-assessment-farm-rpt-305-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "beekeeping-laws-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "composting-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "cottage-food-selling-from-home-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "coyote-wild-turkey-urban-wildlife-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "deer-damage-garden-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "electric-fence-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "rainwater-collection-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "selling-online-sales-tax-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "septic-inspection-home-sale-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-19-07-116Z_641c43f1-bdb7-d07b-86b2-4b01659b41c3",
+    "meta": {
+      "callId": "641c43f1-bdb7-d07b-86b2-4b01659b41c3",
+      "digits": "5857532550",
+      "dialedNumber": "(585) 753-2550",
+      "catalogedName": "agricultural-assessment-farm-rpt-305-ny",
+      "sourceId": "legal-entry:agricultural-assessment-farm-rpt-305-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "agricultural-assessment-farm-rpt-305-ny"
+        },
+        {
+          "type": "entry",
+          "id": "beekeeping-laws-ny"
+        },
+        {
+          "type": "entry",
+          "id": "composting-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "cottage-food-selling-from-home-ny"
+        },
+        {
+          "type": "entry",
+          "id": "coyote-wild-turkey-urban-wildlife-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deer-damage-garden-ny"
+        },
+        {
+          "type": "entry",
+          "id": "electric-fence-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rainwater-collection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "right-to-farm-ny"
+        },
+        {
+          "type": "entry",
+          "id": "selling-online-sales-tax-ny"
+        },
+        {
+          "type": "entry",
+          "id": "septic-inspection-home-sale-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:19:07.116Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.994Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Cornell Cooperative Extension of Monroe County",
+      "reason": "transcript-stated name (Cornell Cooperative Extension of Monroe County) differs from catalogued (agricultural-assessment-farm-rpt-305-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.282Z",
+  "lastSeededAt": "2026-05-03T19:44:16.282Z"
+}

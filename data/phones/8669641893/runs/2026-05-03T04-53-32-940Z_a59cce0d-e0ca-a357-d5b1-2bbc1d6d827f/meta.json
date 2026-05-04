@@ -1,0 +1,41 @@
+{
+  "callId": "a59cce0d-e0ca-a357-d5b1-2bbc1d6d827f",
+  "digits": "8669641893",
+  "dialedNumber": "(866) 964-1893",
+  "catalogedName": "lost-stolen-wallet-what-to-do-ny-program",
+  "sourceId": "legal-entry:lost-stolen-wallet-what-to-do-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "representative-payee-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-continuing-disability-review-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssi-redetermination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:53:32.940Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.466Z"
+  }
+}

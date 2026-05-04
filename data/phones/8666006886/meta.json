@@ -1,0 +1,84 @@
+{
+  "digits": "8666006886",
+  "kind": "phone",
+  "primaryName": "Planned Parenthood",
+  "rawValue": "866-600-6886",
+  "blockDial": false,
+  "tags": [
+    "cat:health",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pp",
+      "name": "Planned Parenthood",
+      "category": "health",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "brightonpp",
+      "name": "Planned Parenthood Brighton",
+      "category": "health",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-19-02-185Z_ffac7177-16f8-6fb0-471f-c333881b4516",
+    "meta": {
+      "callId": "ffac7177-16f8-6fb0-471f-c333881b4516",
+      "digits": "8666006886",
+      "dialedNumber": "8666006886",
+      "catalogedName": "Planned Parenthood",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:19:02.185Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.771Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Planned Parenthood of Central and Western New York",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.355Z",
+  "lastSeededAt": "2026-05-03T19:44:16.355Z",
+  "verifiedAt": "2026-05-03T20:21:01.862Z",
+  "verifiedRun": "2026-05-02T10-19-02-185Z_ffac7177-16f8-6fb0-471f-c333881b4516",
+  "verifiedTranscriptOpening": "Thank you for calling Planned Parenthood of Central and Western New York. If you are having a medical emergency, hang up and dial 911. If you are a patient and would like to contact our on-call servic",
+  "verifiedMatchTokens": [
+    "planned",
+    "parenthood"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:15:41.610Z",
+      "sourceUrl": "https://www.plannedparenthood.org/health-center/new-york/brighton/14618/brighton-health-center-3787-91040",
+      "sourceLabel": "Planned Parenthood Brighton Health Center page (via search snippet)",
+      "notes": "Web confirms 1-866-600-6886 as PP Central & Western NY call center main line. Used by both pp + brightonpp programs."
+    }
+  ]
+}

@@ -61,7 +61,7 @@ export const UTILITY_SCAM_IMPERSONATION_NY = {
       qualifier: "Any NYS utility customer",
       access: "Phone at (800) 342-3377",
       outcome: "Investigation, fraud alerts, utility protection",
-      phone: "(800) 342-3377",
+      phone: "",
       url: "https://www.dps.ny.gov",
       verified: true,
       bilingual: true,

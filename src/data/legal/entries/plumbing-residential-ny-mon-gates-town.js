@@ -20,7 +20,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Gates licenses its own plumbers through the town code (Chapter 143). Any plumber doing work as a business in Gates has to register with the town and pay an annual fee.\n\nA plumbing permit is needed for any new plumbing installation or any change to existing plumbing. The code specifically calls out backflow prevention device installations — those must be done by a Gates-registered plumber.\n\nWhether Gates honors a Rochester Examining Board certificate toward its license, the exact fee schedule, and whether homeowners can do their own plumbing in their home are not fully spelled out on the public page. Call the Building Department at (585) 429-8241 to confirm.\n\nTerry Rech is the Building Inspector. Office hours M-F 9am-4pm."
+    en: "Gates licenses its own plumbers through the town code (Chapter 143). Any plumber doing work as a business in Gates has to register with the town and pay an annual fee.\n\nA plumbing permit is needed for any new plumbing installation or any change to existing plumbing. The code specifically calls out backflow prevention device installations — those must be done by a Gates-registered plumber.\n\nWhether Gates honors a Rochester Examining Board certificate toward its license, the exact fee schedule, and whether homeowners can do their own plumbing in their home are not fully spelled out on the public page. Call the Building Department at [number being verified] to confirm.\n\nTerry Rech is the Building Inspector. Office hours M-F 9am-4pm."
   },
 
   example: {
@@ -59,7 +59,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and plumbers working inside the Town",
       access: "1605 Buffalo Road; phone; email trech@townofgates.org",
       outcome: "Registration, permit issuance, inspection scheduling",
-      phone: "585-429-8241",
+      phone: "",
       url: "https://www.townofgatesny.gov/building-department-and-public-works/",
       verified: true,
       bilingual: false,

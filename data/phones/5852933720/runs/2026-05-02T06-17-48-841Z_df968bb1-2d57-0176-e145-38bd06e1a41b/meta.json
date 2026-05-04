@@ -1,0 +1,24 @@
+{
+  "callId": "df968bb1-2d57-0176-e145-38bd06e1a41b",
+  "digits": "5852933720",
+  "dialedNumber": "5852933720",
+  "catalogedName": "Churchville Village Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:17:48.841Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.250Z"
+  }
+}

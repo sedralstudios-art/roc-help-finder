@@ -60,7 +60,7 @@ export const MEDICAL_MARIJUANA_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (888) 926-7267 or online at cannabis.ny.gov",
       outcome: "Program information, provider search, dispensary locations",
-      phone: "(888) 926-7267",
+      phone: "",
       url: "https://cannabis.ny.gov",
       verified: true,
       bilingual: true,

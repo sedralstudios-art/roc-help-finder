@@ -198,7 +198,23 @@
       "Bash(pdftotext /tmp/fairport_elec.pdf -)",
       "Bash(curl -sL --max-time 20 \"https://www.townofpittsfordny.gov/code\" -o /tmp/pittsford_code.html)",
       "Bash(curl -sLI --max-time 15 \"https://cms9files.revize.com/fairport/filestorage/27/141/Electrical_Permit_Application_Packet.pdf\")",
-      "WebFetch(domain:autohvac.ai)"
+      "WebFetch(domain:autohvac.ai)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell($env:USERPROFILE)",
+      "Bash(curl -sI \"https://helpfinder.help/know-your-rights/504-plan-vs-iep-ny\")",
+      "Bash(curl -sI \"https://helpfinder.help/know-your-rights/504-plan-vs-iep-ny/\")",
+      "Bash(curl -s \"https://helpfinder.help/know-your-rights/504-plan-vs-iep-ny\")",
+      "Bash(curl -sIL \"https://helpfinder.help/know-your-rights/504-plan-vs-iep-ny/\")",
+      "Bash(curl -sI \"https://www.helpfinder.help/\")",
+      "Bash(curl -sI \"http://helpfinder.help/\")",
+      "Bash(curl -sI \"https://helpfinder.help/some-deleted-old-url\")",
+      "Bash(curl -sI \"https://helpfinder.help/glossary/ada/\")",
+      "Bash(curl -sI \"https://helpfinder.help/glossary/ada\")",
+      "Bash(curl -s \"https://helpfinder.help/sitemap.xml\")",
+      "Bash(curl -sI \"https://helpfinder.help/sitemap-entries-en.xml\")",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

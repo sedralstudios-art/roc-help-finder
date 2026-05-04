@@ -1,0 +1,180 @@
+{
+  "digits": "5857534500",
+  "kind": "phone",
+  "primaryName": "entry-callout:acd-adjournment-contemplation-dismissal-ny",
+  "rawValue": "(585) 753-4500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "acd-adjournment-contemplation-dismissal-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "anti-hazing-law-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "dram-shop-act-bar-liability-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "insurance-fraud-criminal-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "jury-duty-rights-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "recording-conversations-one-party-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "subpoena-what-to-do-ny",
+      "line": 62
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-lien-exaggeration-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-10-15-955Z_f5c3ee54-6dd2-5c91-8d1b-42d79b4484a3",
+    "meta": {
+      "callId": "f5c3ee54-6dd2-5c91-8d1b-42d79b4484a3",
+      "digits": "5857534500",
+      "dialedNumber": "(585) 753-4500",
+      "catalogedName": "acd-adjournment-contemplation-dismissal-ny",
+      "sourceId": "legal-entry:acd-adjournment-contemplation-dismissal-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "acd-adjournment-contemplation-dismissal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "anti-hazing-law-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-victims-act-statute-of-limitations-ny"
+        },
+        {
+          "type": "entry",
+          "id": "civil-asset-forfeiture-defense-ny"
+        },
+        {
+          "type": "entry",
+          "id": "computer-crimes-penal-law-156-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dram-shop-act-bar-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "grand-jury-process-ny"
+        },
+        {
+          "type": "entry",
+          "id": "insurance-fraud-criminal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "jury-duty-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "private-investigator-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "recording-conversations-one-party-ny"
+        },
+        {
+          "type": "entry",
+          "id": "social-host-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "subpoena-what-to-do-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-lien-exaggeration-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:10:15.955Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.948Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County District Attorney's Office",
+      "reason": "transcript-stated name (Monroe County District Attorney's Office) differs from catalogued (acd-adjournment-contemplation-dismissal-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.279Z",
+  "lastSeededAt": "2026-05-03T19:44:16.279Z"
+}

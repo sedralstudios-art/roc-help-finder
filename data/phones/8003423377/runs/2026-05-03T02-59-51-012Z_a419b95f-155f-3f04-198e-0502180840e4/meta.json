@@ -1,0 +1,93 @@
+{
+  "callId": "a419b95f-155f-3f04-198e-0502180840e4",
+  "digits": "8003423377",
+  "dialedNumber": "800-342-3377",
+  "catalogedName": "HOTLINES.nysPSC",
+  "sourceId": "pole:HOTLINES.nysPSC",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "HOTLINES.nysPSC"
+    },
+    {
+      "type": "entry",
+      "id": "apartment-electric-submetering-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cable-internet-billing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "community-solar-subscription-ny"
+    },
+    {
+      "type": "entry",
+      "id": "internet-outage-refund-ny"
+    },
+    {
+      "type": "entry",
+      "id": "internet-service-outage-refund-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mobile-home-tenant-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "power-outage-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "smart-meter-opt-out-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-net-metering-ny"
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-cost-history-truth-in-heating-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-deposit-refund-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-shutoff-protections-ny"
+    },
+    {
+      "type": "entry",
+      "id": "water-bill-dispute-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:59:51.012Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.920Z"
+  }
+}

@@ -59,7 +59,7 @@ export const WORKERS_COMP_RETALIATION_NY = {
       qualifier: "Any worker in New York",
       access: "Phone or online",
       outcome: "Investigation, reinstatement orders, criminal referrals",
-      phone: "(877) 632-4996",
+      phone: "",
       url: "https://www.wcb.ny.gov",
       verified: true,
       bilingual: true,

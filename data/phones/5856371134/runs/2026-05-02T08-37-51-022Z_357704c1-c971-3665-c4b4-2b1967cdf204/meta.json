@@ -1,0 +1,24 @@
+{
+  "callId": "357704c1-c971-3665-c4b4-2b1967cdf204",
+  "digits": "5856371134",
+  "dialedNumber": "5856371134",
+  "catalogedName": "Clarkson Justice Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:37:51.022Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.551Z"
+  }
+}

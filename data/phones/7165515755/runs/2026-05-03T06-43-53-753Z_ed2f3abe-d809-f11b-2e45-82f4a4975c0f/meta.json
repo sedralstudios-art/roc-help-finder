@@ -1,0 +1,29 @@
+{
+  "callId": "ed2f3abe-d809-f11b-2e45-82f4a4975c0f",
+  "digits": "7165515755",
+  "dialedNumber": "(716) 551-5755",
+  "catalogedName": "section-8-portability-ny-program",
+  "sourceId": "legal-entry:section-8-portability-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "section-8-portability-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:43:53.753Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.082Z"
+  }
+}

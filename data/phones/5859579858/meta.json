@@ -1,0 +1,78 @@
+{
+  "digits": "5859579858",
+  "kind": "phone",
+  "primaryName": "Center for Employment Opportunities (CEO) Rochester",
+  "rawValue": "585-957-9858",
+  "blockDial": false,
+  "tags": [
+    "cat:reentry",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ceoroc",
+      "name": "Center for Employment Opportunities (CEO) Rochester",
+      "category": "reentry",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-52-07-259Z_95b1315e-9ff9-0c65-7b69-9d18d1a8fa3d",
+    "meta": {
+      "callId": "95b1315e-9ff9-0c65-7b69-9d18d1a8fa3d",
+      "digits": "5859579858",
+      "dialedNumber": "5859579858",
+      "catalogedName": "Center for Employment Opportunities (CEO) Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:52:07.259Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.708Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Center for Employment Opportunities",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.425Z",
+  "lastSeededAt": "2026-05-03T19:44:16.425Z",
+  "verifiedAt": "2026-05-03T20:21:01.811Z",
+  "verifiedRun": "2026-05-02T09-52-07-259Z_95b1315e-9ff9-0c65-7b69-9d18d1a8fa3d",
+  "verifiedTranscriptOpening": "Thank you for calling the Center for Employment Opportunities, or CEO in Rochester, New York. If you know the extension number of the person you are trying to reach, please enter it now. Otherwise, pl",
+  "verifiedMatchTokens": [
+    "employment",
+    "opportunities",
+    "ceo"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:26:40.568Z",
+      "sourceUrl": "https://my.greaterrochesterchamber.com/memberdirectory/Details/center-for-employment-opportunities-1743561",
+      "sourceLabel": "Greater Rochester Chamber of Commerce member directory + findhelp.org cross-confirmed",
+      "notes": "Direct match: web confirms (585) 957-9858 AND tree dialer transcript says \"Center For Employment Opportunities\"."
+    }
+  ]
+}

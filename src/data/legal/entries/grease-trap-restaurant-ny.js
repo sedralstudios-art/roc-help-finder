@@ -59,7 +59,7 @@ export const GREASE_TRAP_RESTAURANT_NY = {
       qualifier: "Any food business connected to the Monroe County sewer system",
       access: "Phone at (585) 753-7370",
       outcome: "Compliance information, inspections, violation resolution",
-      phone: "(585) 753-7370",
+      phone: "",
       url: "https://www.monroecounty.gov/des-purewaters",
       verified: true,
       bilingual: false,

@@ -1,0 +1,45 @@
+{
+  "callId": "05feb7e1-c6e1-acca-fb65-1f56573274ae",
+  "digits": "2124305982",
+  "dialedNumber": "(212) 430-5982",
+  "catalogedName": "lactation-breaks-at-work-ny",
+  "sourceId": "legal-entry:lactation-breaks-at-work-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lactation-breaks-at-work-ny"
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny"
+    },
+    {
+      "type": "entry",
+      "id": "salary-history-ban-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-training-required-ny"
+    },
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:32:36.550Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.373Z"
+  }
+}

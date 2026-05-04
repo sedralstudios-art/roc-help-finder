@@ -1,0 +1,61 @@
+{
+  "digits": "8589935530",
+  "kind": "phone",
+  "primaryName": "entry-callout:dumpster-rental-homeowner-ny",
+  "rawValue": "8589935530",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny",
+      "line": 95
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-03-49-021Z_a0d67216-2d75-6764-dd64-c152a7bd5f23",
+    "meta": {
+      "callId": "a0d67216-2d75-6764-dd64-c152a7bd5f23",
+      "digits": "8589935530",
+      "dialedNumber": "8589935530",
+      "catalogedName": "dumpster-rental-homeowner-ny",
+      "sourceId": "legal-entry:dumpster-rental-homeowner-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "dumpster-rental-homeowner-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:03:49.021Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.786Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.490Z",
+  "lastSeededAt": "2026-05-03T19:44:16.490Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5184736464",
+  "kind": "phone",
+  "primaryName": "entry-callout:accessible-parking-abuse-ny",
+  "rawValue": "(518) 473-6464",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "accessible-parking-abuse-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-48-42-193Z_e3109483-5e54-33d4-c262-5bc3c7a9f4d0",
+    "meta": {
+      "callId": "e3109483-5e54-33d4-c262-5bc3c7a9f4d0",
+      "digits": "5184736464",
+      "dialedNumber": "(518) 473-6464",
+      "catalogedName": "accessible-parking-abuse-ny",
+      "sourceId": "legal-entry:accessible-parking-abuse-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "accessible-parking-abuse-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:48:42.193Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.677Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.462Z",
+  "lastSeededAt": "2026-05-03T19:44:16.462Z"
+}

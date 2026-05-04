@@ -1,0 +1,33 @@
+{
+  "callId": "4e01604f-cf3c-61ab-82af-2130785d2e71",
+  "digits": "5184743114",
+  "dialedNumber": "(518) 474-3114",
+  "catalogedName": "dram-shop-act-bar-liability-ny",
+  "sourceId": "legal-entry:dram-shop-act-bar-liability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dram-shop-act-bar-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "liquor-license-rules-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:38:05.857Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.636Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "2025143345",
+  "kind": "phone",
+  "primaryName": "entry-callout:false-claims-act-whistleblower-ny",
+  "rawValue": "(202) 514-3345",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "false-claims-act-whistleblower-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-08-31-898Z_c20accf8-b8e1-8341-427a-7f4c24a4fdd0",
+    "meta": {
+      "callId": "c20accf8-b8e1-8341-427a-7f4c24a4fdd0",
+      "digits": "2025143345",
+      "dialedNumber": "(202) 514-3345",
+      "catalogedName": "false-claims-act-whistleblower-ny",
+      "sourceId": "legal-entry:false-claims-act-whistleblower-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "false-claims-act-whistleblower-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:08:31.898Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.821Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.499Z",
+  "lastSeededAt": "2026-05-03T19:44:16.499Z"
+}

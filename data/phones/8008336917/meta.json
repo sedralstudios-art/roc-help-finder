@@ -1,0 +1,61 @@
+{
+  "digits": "8008336917",
+  "kind": "phone",
+  "primaryName": "entry-callout:medigap-medicare-supplement-ny",
+  "rawValue": "(800) 833-6917",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-23-30-666Z_4ba3258b-58a9-2c0b-5ba6-539cf90ca829",
+    "meta": {
+      "callId": "4ba3258b-58a9-2c0b-5ba6-539cf90ca829",
+      "digits": "8008336917",
+      "dialedNumber": "(800) 833-6917",
+      "catalogedName": "medigap-medicare-supplement-ny",
+      "sourceId": "legal-entry:medigap-medicare-supplement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "medigap-medicare-supplement-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:23:30.666Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.925Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.525Z",
+  "lastSeededAt": "2026-05-03T19:44:16.525Z"
+}

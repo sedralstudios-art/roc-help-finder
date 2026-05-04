@@ -1,0 +1,29 @@
+{
+  "callId": "16c7000a-22e0-d187-ce0c-7703ed90e63f",
+  "digits": "5852714440",
+  "dialedNumber": "(585) 271-4440",
+  "catalogedName": "payday-loan-illegal-ny",
+  "sourceId": "legal-entry:payday-loan-illegal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "payday-loan-illegal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:32:56.527Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.007Z"
+  }
+}

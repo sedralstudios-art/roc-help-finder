@@ -1,0 +1,29 @@
+{
+  "callId": "a0aa464f-ea4f-ec4c-ad1d-8fa33098664e",
+  "digits": "5184740710",
+  "dialedNumber": "(518) 474-0710",
+  "catalogedName": "motorcycle-helmet-and-safety-ny",
+  "sourceId": "legal-entry:motorcycle-helmet-and-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:26:17.085Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.944Z"
+  }
+}

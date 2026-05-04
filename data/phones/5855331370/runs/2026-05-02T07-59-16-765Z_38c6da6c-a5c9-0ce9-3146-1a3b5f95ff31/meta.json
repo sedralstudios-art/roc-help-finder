@@ -1,0 +1,24 @@
+{
+  "callId": "38c6da6c-a5c9-0ce9-3146-1a3b5f95ff31",
+  "digits": "5855331370",
+  "dialedNumber": "5855331370",
+  "catalogedName": "Rush Public Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:59:16.765Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.470Z"
+  }
+}

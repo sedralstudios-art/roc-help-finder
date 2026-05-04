@@ -61,7 +61,7 @@ export const REPRESENTATIVE_PAYEE_RIGHTS_NY = {
       qualifier: "Any Social Security or SSI beneficiary",
       access: "Phone at (800) 269-0271",
       outcome: "Investigation, criminal referral, payee removal",
-      phone: "(800) 269-0271",
+      phone: "",
       url: "https://oig.ssa.gov",
       verified: true,
       bilingual: true,

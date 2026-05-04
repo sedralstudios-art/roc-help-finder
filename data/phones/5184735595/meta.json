@@ -1,0 +1,90 @@
+{
+  "digits": "5184735595",
+  "kind": "phone",
+  "primaryName": "entry-callout:cell-phone-while-driving-ny",
+  "rawValue": "(518) 473-5595",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ignition-interlock-dwi-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "moving-violation-points-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-13-29-107Z_5544e102-fc0e-c52f-d580-1336847b3e50",
+    "meta": {
+      "callId": "5544e102-fc0e-c52f-d580-1336847b3e50",
+      "digits": "5184735595",
+      "dialedNumber": "(518) 473-5595",
+      "catalogedName": "cell-phone-while-driving-ny",
+      "sourceId": "legal-entry:cell-phone-while-driving-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cell-phone-while-driving-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ignition-interlock-dwi-ny"
+        },
+        {
+          "type": "entry",
+          "id": "moving-violation-points-ny"
+        },
+        {
+          "type": "entry",
+          "id": "social-host-liability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:13:29.107Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.239Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Motor Vehicles",
+      "reason": "transcript-stated name (New York State Department of Motor Vehicles) differs from catalogued (cell-phone-while-driving-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.324Z",
+  "lastSeededAt": "2026-05-03T19:44:16.324Z"
+}

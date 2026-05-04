@@ -1,0 +1,61 @@
+{
+  "digits": "5205461005",
+  "kind": "phone",
+  "primaryName": "entry-callout:special-needs-trust-ny",
+  "rawValue": "(520) 546-1005",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-46-56-794Z_3c7996ef-9e7c-cc73-e11d-94afc04e6497",
+    "meta": {
+      "callId": "3c7996ef-9e7c-cc73-e11d-94afc04e6497",
+      "digits": "5205461005",
+      "dialedNumber": "(520) 546-1005",
+      "catalogedName": "special-needs-trust-ny",
+      "sourceId": "legal-entry:special-needs-trust-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "special-needs-trust-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:46:56.794Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.103Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.570Z",
+  "lastSeededAt": "2026-05-03T19:44:16.570Z"
+}

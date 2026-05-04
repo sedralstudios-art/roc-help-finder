@@ -1,0 +1,61 @@
+{
+  "digits": "8007010501",
+  "kind": "phone",
+  "primaryName": "entry-callout:medicare-appeals-four-levels-ny",
+  "rawValue": "(800) 701-0501",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-22-57-379Z_8af08d92-c4e6-f993-6e0c-a5aef388e1c5",
+    "meta": {
+      "callId": "8af08d92-c4e6-f993-6e0c-a5aef388e1c5",
+      "digits": "8007010501",
+      "dialedNumber": "(800) 701-0501",
+      "catalogedName": "medicare-appeals-four-levels-ny",
+      "sourceId": "legal-entry:medicare-appeals-four-levels-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "medicare-appeals-four-levels-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:22:57.379Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.921Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.524Z",
+  "lastSeededAt": "2026-05-03T19:44:16.524Z"
+}

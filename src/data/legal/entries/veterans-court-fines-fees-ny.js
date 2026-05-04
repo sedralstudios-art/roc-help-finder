@@ -63,7 +63,7 @@ export const VETERANS_COURT_FINES_FEES_NY = {
       qualifier: "Defendants who cannot afford a private attorney",
       access: "Phone at (585) 753-4210",
       outcome: "Fine reduction, payment plan negotiation, representation",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

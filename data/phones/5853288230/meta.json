@@ -1,0 +1,61 @@
+{
+  "digits": "5853288230",
+  "kind": "phone",
+  "primaryName": "entry-callout:certificate-relief-disabilities-ny",
+  "rawValue": "(585) 328-8230",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "certificate-relief-disabilities-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-56-44-767Z_d15dc1b1-acc8-1d18-3824-2146b04fcffa",
+    "meta": {
+      "callId": "d15dc1b1-acc8-1d18-3824-2146b04fcffa",
+      "digits": "5853288230",
+      "dialedNumber": "(585) 328-8230",
+      "catalogedName": "certificate-relief-disabilities-ny",
+      "sourceId": "legal-entry:certificate-relief-disabilities-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "certificate-relief-disabilities-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:56:44.767Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.735Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.478Z",
+  "lastSeededAt": "2026-05-03T19:44:16.478Z"
+}

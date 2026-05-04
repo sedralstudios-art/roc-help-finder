@@ -1,0 +1,24 @@
+{
+  "callId": "8f6a6337-590e-63af-355b-1c0ea1924cb7",
+  "digits": "8007717755",
+  "dialedNumber": "8007717755",
+  "catalogedName": "NYS Attorney General — Consumer Complaints",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:15:23.277Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.762Z"
+  }
+}

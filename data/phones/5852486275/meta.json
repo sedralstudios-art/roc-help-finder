@@ -1,0 +1,69 @@
+{
+  "digits": "5852486275",
+  "kind": "phone",
+  "primaryName": "Pittsford Community Library",
+  "rawValue": "585-248-6275",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordlib",
+      "name": "Pittsford Community Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-47-36-434Z_c82faaf1-196b-ef4b-6bd3-2642165f9bce",
+    "meta": {
+      "callId": "c82faaf1-196b-ef4b-6bd3-2642165f9bce",
+      "digits": "5852486275",
+      "dialedNumber": "5852486275",
+      "catalogedName": "Pittsford Community Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:47:36.434Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.184Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Pittsford Library",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.454Z",
+  "lastSeededAt": "2026-05-03T19:44:16.454Z",
+  "verifiedAt": "2026-05-03T20:21:01.687Z",
+  "verifiedRun": "2026-05-02T05-47-36-434Z_c82faaf1-196b-ef4b-6bd3-2642165f9bce",
+  "verifiedTranscriptOpening": "This is the Pittsford Library. The library is currently closed. Please visit us online for complete information. Thank you. This is the Pittsford Library. The library is currently closed. Please visit",
+  "verifiedMatchTokens": [
+    "pittsford",
+    "library"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

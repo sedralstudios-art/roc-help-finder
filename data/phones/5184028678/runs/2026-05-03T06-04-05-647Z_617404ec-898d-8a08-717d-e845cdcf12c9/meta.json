@@ -1,0 +1,29 @@
+{
+  "callId": "617404ec-898d-8a08-717d-e845cdcf12c9",
+  "digits": "5184028678",
+  "dialedNumber": "(518) 402-8678",
+  "catalogedName": "e-waste-recycling-ny",
+  "sourceId": "legal-entry:e-waste-recycling-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:04:05.647Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.788Z"
+  }
+}

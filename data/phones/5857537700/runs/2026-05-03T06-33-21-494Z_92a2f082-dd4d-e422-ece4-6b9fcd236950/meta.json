@@ -1,0 +1,29 @@
+{
+  "callId": "92a2f082-dd4d-e422-ece4-6b9fcd236950",
+  "digits": "5857537700",
+  "dialedNumber": "(585) 753-7700",
+  "catalogedName": "pedestrian-crosswalk-right-of-way-ny",
+  "sourceId": "legal-entry:pedestrian-crosswalk-right-of-way-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:33:21.494Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.009Z"
+  }
+}

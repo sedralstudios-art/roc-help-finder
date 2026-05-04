@@ -1,0 +1,25 @@
+{
+  "digits": "5184368495",
+  "kind": "phone",
+  "primaryName": "entry-callout:agricultural-assessment-farm-rpt-305-ny",
+  "rawValue": "(518) 436-8495",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "agricultural-assessment-farm-rpt-305-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.464Z",
+  "lastSeededAt": "2026-05-03T19:44:16.464Z"
+}

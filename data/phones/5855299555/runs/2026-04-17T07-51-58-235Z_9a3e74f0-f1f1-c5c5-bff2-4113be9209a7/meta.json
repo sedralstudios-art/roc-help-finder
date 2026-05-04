@@ -1,0 +1,24 @@
+{
+  "callId": "9a3e74f0-f1f1-c5c5-bff2-4113be9209a7",
+  "digits": "5855299555",
+  "dialedNumber": "(585) 529-9555",
+  "catalogedName": "Providence Housing (Supportive)",
+  "sourceId": "prov",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:51:58.235Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.870Z"
+  }
+}

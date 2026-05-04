@@ -1,0 +1,75 @@
+{
+  "digits": "5856246060",
+  "kind": "phone",
+  "primaryName": "Mendon Town Court",
+  "rawValue": "585-624-6060",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:housing",
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mendoncourt",
+      "name": "Mendon Town Court",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "mendonbuilding",
+      "name": "Mendon Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "mendonhall",
+      "name": "Mendon Town Hall",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-28-23-781Z_19cca3ce-df39-5fb4-e4dc-a8a86c570330",
+    "meta": {
+      "callId": "19cca3ce-df39-5fb4-e4dc-a8a86c570330",
+      "digits": "5856246060",
+      "dialedNumber": "5856246060",
+      "catalogedName": "Mendon Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:28:23.781Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.532Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.335Z",
+  "lastSeededAt": "2026-05-03T19:44:16.335Z"
+}

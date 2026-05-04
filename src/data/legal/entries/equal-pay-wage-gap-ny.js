@@ -60,7 +60,7 @@ export const EQUAL_PAY_WAGE_GAP_NY = {
       qualifier: "Any worker in New York",
       access: "Phone at (888) 469-7365",
       outcome: "Investigation, back pay recovery, enforcement",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov",
       verified: true,
       bilingual: true,

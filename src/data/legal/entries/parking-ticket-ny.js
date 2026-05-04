@@ -57,7 +57,7 @@ export const PARKING_TICKET_NY = {
       qualifier: "Anyone with a Rochester parking ticket",
       access: "Phone, online, or in person",
       outcome: "Payment processing, hearing scheduling, dispute resolution",
-      phone: "(585) 428-7482",
+      phone: "",
       url: "https://www.cityofrochester.gov/parking/",
       verified: true,
       bilingual: false,

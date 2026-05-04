@@ -1,0 +1,33 @@
+{
+  "callId": "abf57f63-3d50-5f01-042f-eec0127522b8",
+  "digits": "8004249393",
+  "dialedNumber": "(800) 424-9393",
+  "catalogedName": "odometer-fraud-used-car-ny",
+  "sourceId": "legal-entry:odometer-fraud-used-car-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "odometer-fraud-used-car-ny"
+    },
+    {
+      "type": "entry",
+      "id": "salvage-title-branded-vehicle-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:42:36.062Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.637Z"
+  }
+}

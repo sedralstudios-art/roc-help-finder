@@ -1,0 +1,97 @@
+{
+  "digits": "5855046195",
+  "kind": "phone",
+  "primaryName": "Tenant Defense Project",
+  "rawValue": "585-504-6195",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "cat:legal",
+    "cat:legalEviction",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "tenant",
+      "name": "Tenant Defense Project",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "tenantdefense2",
+      "name": "Tenant Defense Project",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "tenantdefenseevict",
+      "name": "Tenant Defense Project (Eviction Help)",
+      "category": "legalEviction",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "eviction-process-ny",
+      "line": 79
+    },
+    {
+      "type": "entry",
+      "id": "tenant-habitability-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-55-57-821Z_8e84caeb-df80-888d-0865-63e00543ca12",
+    "meta": {
+      "callId": "8e84caeb-df80-888d-0865-63e00543ca12",
+      "digits": "5855046195",
+      "dialedNumber": "5855046195",
+      "catalogedName": "Tenant Defense Project",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:55:57.821Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.462Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.75,
+      "extracted": "Tenant Defense Project of Monroe County",
+      "reason": "jaccard 0.75"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.306Z",
+  "lastSeededAt": "2026-05-03T19:44:16.306Z",
+  "verifiedAt": "2026-05-03T20:21:01.756Z",
+  "verifiedRun": "2026-05-02T07-55-57-821Z_8e84caeb-df80-888d-0865-63e00543ca12",
+  "verifiedTranscriptOpening": "You have reached the Tenant Defense Project of Monroe County. Please be advised that we are a civil legal service program and do not provide rental assistance. However, if you do have a landlord-tenan",
+  "verifiedMatchTokens": [
+    "tenant",
+    "defense",
+    "project"
+  ],
+  "verifiedRatio": 1
+}

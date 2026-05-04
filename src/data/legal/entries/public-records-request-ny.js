@@ -60,7 +60,7 @@ export const PUBLIC_RECORDS_REQUEST_NY = {
       qualifier: "Any person making a FOIL request",
       access: "Phone or online",
       outcome: "Free advisory opinions and guidance",
-      phone: "(518) 474-2518",
+      phone: "",
       url: "https://opengovernment.ny.gov",
       verified: true,
       bilingual: false,

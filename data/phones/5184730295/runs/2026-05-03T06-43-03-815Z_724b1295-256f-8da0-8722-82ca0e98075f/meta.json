@@ -1,0 +1,29 @@
+{
+  "callId": "724b1295-256f-8da0-8722-82ca0e98075f",
+  "digits": "5184730295",
+  "dialedNumber": "(518) 473-0295",
+  "catalogedName": "school-residency-enrollment-ny",
+  "sourceId": "legal-entry:school-residency-enrollment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-residency-enrollment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:43:03.815Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.076Z"
+  }
+}

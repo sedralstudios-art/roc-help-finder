@@ -1,0 +1,33 @@
+{
+  "callId": "c961573d-b4f0-a71d-c10c-73c81074afef",
+  "digits": "5184573502",
+  "dialedNumber": "(518) 457-3502",
+  "catalogedName": "pet-kennel-boarding-licensing-ny",
+  "sourceId": "legal-entry:pet-kennel-boarding-licensing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pet-kennel-boarding-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pet-store-retail-sale-ban-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:30:20.203Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.901Z"
+  }
+}

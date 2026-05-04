@@ -23,7 +23,7 @@ export const MLTC_MANAGED_LONG_TERM_CARE_NY_PROGRAM = {
   },
 
   whatItMeans: {
-    en: "MLTC is a Medicaid program through which most New York adults needing ongoing long-term care receive services through a private health plan contracted with the state, rather than through traditional fee-for-service Medicaid. The required enrollment population includes adults 21+ who need more than 120 days of community-based long-term care services (home care, adult day care, medical supplies and equipment, transportation to medical appointments) and dual eligibles meeting similar criteria. The MLTC plan receives a monthly capitation payment from Medicaid and is responsible for arranging the enrollee's covered services. Three plan types: (1) Partial Capitation MLTC covers only long-term care services — the enrollee keeps fee-for-service Medicare and Medicaid for medical care; (2) Medicaid Advantage Plus (MAP) combines Medicare Advantage and Medicaid long-term care in one plan; (3) Program of All-Inclusive Care for the Elderly (PACE) integrates all care for enrollees 55+ who qualify for nursing home placement. Enrollment process: the local Department of Social Services refers the person to NY Medicaid Choice (the state enrollment broker) at 1-888-401-6582. An independent assessor (currently the Conflict-Free Evaluation and Enrollment Center, CFEEC) conducts an initial assessment of daily living needs. If the person qualifies, they select a plan from those operating in Monroe County. Each plan publishes a provider network — which home care agencies it contracts with, which nursing homes accept its members. The enrollee has the right to change plans during open enrollment (annually) and has a 90-day plan-switch right at the start of enrollment. Continuity of care: when switching plans, the new plan must continue the existing hours and aides for a transition period (typically 90 days for personal care). Fair hearings: an enrollee can request a Medicaid fair hearing for any denial, reduction, or termination of services. The fair hearing is free and decisions can reinstate services with retroactive coverage. Aid continuing: if the fair hearing is requested within 10 days of a reduction notice, services must continue at the pre-reduction level while the hearing is pending."
+    en: "MLTC is a Medicaid program through which most New York adults needing ongoing long-term care receive services through a private health plan contracted with the state, rather than through traditional fee-for-service Medicaid. The required enrollment population includes adults 21+ who need more than 120 days of community-based long-term care services (home care, adult day care, medical supplies and equipment, transportation to medical appointments) and dual eligibles meeting similar criteria. The MLTC plan receives a monthly capitation payment from Medicaid and is responsible for arranging the enrollee's covered services. Three plan types: (1) Partial Capitation MLTC covers only long-term care services — the enrollee keeps fee-for-service Medicare and Medicaid for medical care; (2) Medicaid Advantage Plus (MAP) combines Medicare Advantage and Medicaid long-term care in one plan; (3) Program of All-Inclusive Care for the Elderly (PACE) integrates all care for enrollees 55+ who qualify for nursing home placement. Enrollment process: the local Department of Social Services refers the person to NY Medicaid Choice (the state enrollment broker) at [number being verified]. An independent assessor (currently the Conflict-Free Evaluation and Enrollment Center, CFEEC) conducts an initial assessment of daily living needs. If the person qualifies, they select a plan from those operating in Monroe County. Each plan publishes a provider network — which home care agencies it contracts with, which nursing homes accept its members. The enrollee has the right to change plans during open enrollment (annually) and has a 90-day plan-switch right at the start of enrollment. Continuity of care: when switching plans, the new plan must continue the existing hours and aides for a transition period (typically 90 days for personal care). Fair hearings: an enrollee can request a Medicaid fair hearing for any denial, reduction, or termination of services. The fair hearing is free and decisions can reinstate services with retroactive coverage. Aid continuing: if the fair hearing is requested within 10 days of a reduction notice, services must continue at the pre-reduction level while the hearing is pending."
   },
 
   yourRights: {
@@ -62,7 +62,7 @@ export const MLTC_MANAGED_LONG_TERM_CARE_NY_PROGRAM = {
       qualifier: "Medicaid recipients needing long-term care",
       access: "Phone at (888) 401-6582",
       outcome: "Plan enrollment, switch processing, general information",
-      phone: "(888) 401-6582",
+      phone: "",
       url: "https://nymedicaidchoice.com",
       verified: true,
       bilingual: true,
@@ -75,7 +75,7 @@ export const MLTC_MANAGED_LONG_TERM_CARE_NY_PROGRAM = {
       qualifier: "Any MLTC enrollee or applicant statewide",
       access: "Phone at (844) 614-8800",
       outcome: "Free ombuds advocacy, fair hearing assistance",
-      phone: "(844) 614-8800",
+      phone: "",
       url: "https://icannys.org",
       verified: true,
       bilingual: true,

@@ -1,0 +1,70 @@
+{
+  "digits": "5857534780",
+  "kind": "phone",
+  "primaryName": "entry-callout:crime-victim-compensation-ny",
+  "rawValue": "(585) 753-4780",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "crime-victim-compensation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "restitution-criminal-case-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-34-25-287Z_24690787-facb-6de9-ac01-2955e3555745",
+    "meta": {
+      "callId": "24690787-facb-6de9-ac01-2955e3555745",
+      "digits": "5857534780",
+      "dialedNumber": "(585) 753-4780",
+      "catalogedName": "crime-victim-compensation-ny",
+      "sourceId": "legal-entry:crime-victim-compensation-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "crime-victim-compensation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "restitution-criminal-case-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:34:25.287Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.585Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.386Z",
+  "lastSeededAt": "2026-05-03T19:44:16.386Z"
+}

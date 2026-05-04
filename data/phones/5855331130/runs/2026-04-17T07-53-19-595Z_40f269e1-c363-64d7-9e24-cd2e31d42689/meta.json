@@ -1,0 +1,24 @@
+{
+  "callId": "40f269e1-c363-64d7-9e24-cd2e31d42689",
+  "digits": "5855331130",
+  "dialedNumber": "(585) 533-1130",
+  "catalogedName": "Rush Justice Court",
+  "sourceId": "rushcourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:53:19.595Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.872Z"
+  }
+}

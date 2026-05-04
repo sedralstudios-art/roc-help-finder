@@ -1,0 +1,29 @@
+{
+  "callId": "036400dc-d885-fe99-bc95-37b0e01cff06",
+  "digits": "5857535030",
+  "dialedNumber": "(585) 753-5030",
+  "catalogedName": "lead-paint-renovation-rule-ny",
+  "sourceId": "legal-entry:lead-paint-renovation-rule-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lead-paint-renovation-rule-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:19:37.724Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.897Z"
+  }
+}

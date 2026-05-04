@@ -1,0 +1,98 @@
+{
+  "digits": "5857533430",
+  "kind": "phone",
+  "primaryName": "entry-callout:bail-reform-ny",
+  "rawValue": "(585) 753-3430",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bail-reform-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "drug-possession-basics-ny",
+      "line": 81
+    },
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "plea-withdrawal-cpl-220-60-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "youthful-offender-adjudication-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-01-30-204Z_5f927cbc-d31a-4b68-f815-45d2c32ef458",
+    "meta": {
+      "callId": "5f927cbc-d31a-4b68-f815-45d2c32ef458",
+      "digits": "5857533430",
+      "dialedNumber": "5857533430",
+      "catalogedName": "entry-callout:bail-reform-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:01:30.204Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.600Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Assigned Counsel Office",
+      "reason": "transcript-stated name (Monroe County Assigned Counsel Office) differs from catalogued (entry-callout:bail-reform-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.285Z",
+  "lastSeededAt": "2026-05-03T19:44:16.285Z"
+}

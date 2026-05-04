@@ -1,0 +1,24 @@
+{
+  "callId": "85ad6d0c-2acc-5c85-38f3-90fbb6960c96",
+  "digits": "5853408636",
+  "dialedNumber": "5853408636",
+  "catalogedName": "Penfield Building Department",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:51:43.296Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.321Z"
+  }
+}

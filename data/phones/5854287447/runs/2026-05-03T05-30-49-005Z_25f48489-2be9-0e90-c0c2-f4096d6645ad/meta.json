@@ -1,0 +1,33 @@
+{
+  "callId": "25f48489-2be9-0e90-c0c2-f4096d6645ad",
+  "digits": "5854287447",
+  "dialedNumber": "(585) 428-7447",
+  "catalogedName": "amusement-ride-safety-ny",
+  "sourceId": "legal-entry:amusement-ride-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "amusement-ride-safety-ny"
+    },
+    {
+      "type": "entry",
+      "id": "notice-of-claim-municipal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:30:49.005Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.562Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "2165225301",
+  "kind": "phone",
+  "primaryName": "entry-callout:military-divorce-benefits-ny",
+  "rawValue": "(216) 522-5301",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-24-03-950Z_4cae813c-64e7-3434-24ca-6682a67388a0",
+    "meta": {
+      "callId": "4cae813c-64e7-3434-24ca-6682a67388a0",
+      "digits": "2165225301",
+      "dialedNumber": "(216) 522-5301",
+      "catalogedName": "military-divorce-benefits-ny",
+      "sourceId": "legal-entry:military-divorce-benefits-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "military-divorce-benefits-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:24:03.950Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.928Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.526Z",
+  "lastSeededAt": "2026-05-03T19:44:16.526Z"
+}

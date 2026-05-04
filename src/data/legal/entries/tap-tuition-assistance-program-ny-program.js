@@ -62,7 +62,7 @@ export const TAP_TUITION_ASSISTANCE_PROGRAM_NY_PROGRAM = {
       qualifier: "Any NY student applying for state aid",
       access: "Phone at (888) 697-4372",
       outcome: "Application status, eligibility determinations, appeal filing",
-      phone: "(888) 697-4372",
+      phone: "",
       url: "https://www.hesc.ny.gov",
       verified: true,
       bilingual: true,

@@ -60,7 +60,7 @@ export const EMPLOYER_REFERENCES_DEFAMATION_NY = {
       qualifier: "Any worker in New York",
       access: "Phone at (888) 392-3644",
       outcome: "Investigation, mediation, enforcement of anti-retaliation protections",
-      phone: "(888) 392-3644",
+      phone: "",
       url: "https://dhr.ny.gov",
       verified: true,
       bilingual: true,

@@ -1,0 +1,24 @@
+{
+  "callId": "4173394e-0804-452c-914a-c0c448070d28",
+  "digits": "5855463700",
+  "dialedNumber": "5855463700",
+  "catalogedName": "Housing Council at PathStone",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:07:06.294Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.486Z"
+  }
+}

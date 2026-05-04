@@ -1,0 +1,24 @@
+{
+  "callId": "a14a576f-252c-6018-4200-518aeeb69945",
+  "digits": "5853254170",
+  "dialedNumber": "5853254170",
+  "catalogedName": "NeighborWorks (Homebuyer Help)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:29:56.497Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.275Z"
+  }
+}

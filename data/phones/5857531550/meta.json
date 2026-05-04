@@ -1,0 +1,103 @@
+{
+  "digits": "5857531550",
+  "kind": "phone",
+  "primaryName": "Monroe County Board of Elections",
+  "rawValue": "585-753-1550",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "voterreg",
+      "name": "Monroe County Board of Elections",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "crown-act-hair-discrimination-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "early-voting-absentee-ballot-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "reentry-rights-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "voter-registration-deadline-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "voter-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "voting-rights-after-conviction-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-58-34-108Z_9f083037-5f23-d4de-4e58-ec8580cac5b0",
+    "meta": {
+      "callId": "9f083037-5f23-d4de-4e58-ec8580cac5b0",
+      "digits": "5857531550",
+      "dialedNumber": "5857531550",
+      "catalogedName": "Monroe County Board of Elections",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:58:34.108Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.594Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.287Z",
+  "lastSeededAt": "2026-05-03T19:44:16.287Z",
+  "verifiedAt": "2026-05-03T20:21:01.780Z",
+  "verifiedRun": "2026-05-02T08-58-34-108Z_9f083037-5f23-d4de-4e58-ec8580cac5b0",
+  "verifiedTranscriptOpening": "Hello. The Monroe County Board of Elections is now closed. Many questions can be answered on our website. Please visit our website at www.monroecounty.gov forward slash elections for information. For ",
+  "verifiedMatchTokens": [
+    "board",
+    "elections"
+  ],
+  "verifiedRatio": 1
+}

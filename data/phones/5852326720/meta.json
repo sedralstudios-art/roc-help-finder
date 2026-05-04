@@ -1,0 +1,67 @@
+{
+  "digits": "5852326720",
+  "kind": "phone",
+  "primaryName": "Alcoholics Anonymous Rochester",
+  "rawValue": "585-232-6720",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "aa",
+      "name": "Alcoholics Anonymous Rochester",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-29-24-455Z_a201e816-fcd1-0885-ebb0-f8497e021edb",
+    "meta": {
+      "callId": "a201e816-fcd1-0885-ebb0-f8497e021edb",
+      "digits": "5852326720",
+      "dialedNumber": "5852326720",
+      "catalogedName": "Alcoholics Anonymous Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:29:24.455Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.142Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.416Z",
+  "lastSeededAt": "2026-05-03T19:44:16.416Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:04:56.765Z",
+      "sourceUrl": "https://rochesteraa.org",
+      "sourceLabel": "AA Rochester official site",
+      "notes": "Web confirms (585) 232-6720 as the 24/7 AA Rochester contact line. Recovery-tier resource."
+    }
+  ]
+}

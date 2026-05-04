@@ -1,0 +1,24 @@
+{
+  "callId": "25127d9f-5f6b-8f0d-cbf7-3ddaca4a6dc4",
+  "digits": "5859648181",
+  "dialedNumber": "(585) 964-8181",
+  "catalogedName": "Hamlin Building Inspector",
+  "sourceId": "hamlinbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T10:05:23.797Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.076Z"
+  }
+}

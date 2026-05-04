@@ -1,0 +1,77 @@
+{
+  "digits": "5852754501",
+  "kind": "phone",
+  "primaryName": "Strong Memorial Psych Emergency",
+  "rawValue": "585-275-4501",
+  "blockDial": false,
+  "tags": [
+    "cat:crisis",
+    "cat:mental",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOSPITALS",
+      "slug": "psychEmergency",
+      "value": "585-275-4501",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "strongcrisis",
+      "name": "Strong Memorial Psych Emergency",
+      "category": "crisis",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "strong",
+      "name": "Strong Memorial Psych Emergency",
+      "category": "mental",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-34-08-235Z_abeae199-3a45-9fc9-9656-31842818f6de",
+    "meta": {
+      "callId": "abeae199-3a45-9fc9-9656-31842818f6de",
+      "digits": "5852754501",
+      "dialedNumber": "5852754501",
+      "catalogedName": "Strong Memorial Psych Emergency",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:34:08.235Z",
+      "durationSec": 26,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.806Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "C-POP",
+      "reason": "transcript-stated name (C-POP) differs from catalogued (Strong Memorial Psych Emergency)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.331Z",
+  "lastSeededAt": "2026-05-03T19:44:16.331Z"
+}

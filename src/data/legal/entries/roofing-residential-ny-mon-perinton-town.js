@@ -58,7 +58,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Town",
       access: "Town Hall; phone; online permit application at perinton.org",
       outcome: "Permit guidance, inspection scheduling, complaint intake",
-      phone: "585-223-0770",
+      phone: "",
       url: "https://perinton.org/departments/public-works/building-and-codes-department/",
       verified: true,
       bilingual: false,

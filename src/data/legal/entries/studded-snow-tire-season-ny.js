@@ -55,7 +55,7 @@ export const STUDDED_SNOW_TIRE_SEASON_NY = {
       qualifier: "Any NYS driver",
       access: "Phone, website, local DMV office",
       outcome: "Information on tire and equipment rules",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov",
       verified: true,
       bilingual: true,

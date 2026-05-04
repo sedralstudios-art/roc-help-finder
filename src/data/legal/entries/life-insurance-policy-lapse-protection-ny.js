@@ -61,7 +61,7 @@ export const LIFE_INSURANCE_POLICY_LAPSE_PROTECTION_NY = {
       qualifier: "Any NY resident",
       access: "Phone at (800) 342-3736",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: false,

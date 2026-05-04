@@ -1,0 +1,24 @@
+{
+  "callId": "cc0ae3d8-083c-16ac-7397-7b4e8258a857",
+  "digits": "5853853643",
+  "dialedNumber": "(585) 385-3643",
+  "catalogedName": "Jean Daniel Senior Center",
+  "sourceId": "ersenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:07:15.820Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.688Z"
+  }
+}

@@ -60,7 +60,7 @@ export const SHOPLIFTING_PETIT_LARCENY_NY = {
       qualifier: "Anyone who cannot afford an attorney",
       access: "Phone or court appointment",
       outcome: "Legal representation, ACD requests, plea negotiations",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

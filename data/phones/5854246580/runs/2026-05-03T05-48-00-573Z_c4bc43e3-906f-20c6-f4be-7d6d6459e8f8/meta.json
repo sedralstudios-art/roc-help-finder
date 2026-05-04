@@ -1,0 +1,29 @@
+{
+  "callId": "c4bc43e3-906f-20c6-f4be-7d6d6459e8f8",
+  "digits": "5854246580",
+  "dialedNumber": "585-424-6580",
+  "catalogedName": "Pathways Rochester (Catholic Health MAT)",
+  "sourceId": "pathwaysmat",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pathwaysmat"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:48:00.573Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.673Z"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "digits": "5858727068",
+  "kind": "phone",
+  "primaryName": "entry-callout:code-enforcement-complaint-ny",
+  "rawValue": "(585) 872-7068",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-57-17-181Z_f8f5dfdd-347b-9fe9-0dc9-789b323134bf",
+    "meta": {
+      "callId": "f8f5dfdd-347b-9fe9-0dc9-789b323134bf",
+      "digits": "5858727068",
+      "dialedNumber": "(585) 872-7068",
+      "catalogedName": "code-enforcement-complaint-ny",
+      "sourceId": "legal-entry:code-enforcement-complaint-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "code-enforcement-complaint-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fence-height-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rv-parking-street-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shed-permit-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "suv-truck-parking-residential-ny"
+        },
+        {
+          "type": "entry",
+          "id": "swimming-pool-liability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:57:17.181Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.175Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Kim Doyle and Supervisor Sheldon's",
+      "reason": "transcript-stated name (Kim Doyle and Supervisor Sheldon's) differs from catalogued (code-enforcement-complaint-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.302Z",
+  "lastSeededAt": "2026-05-03T19:44:16.302Z"
+}

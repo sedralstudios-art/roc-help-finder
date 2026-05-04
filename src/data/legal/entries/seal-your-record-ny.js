@@ -59,7 +59,7 @@ export const SEAL_YOUR_RECORD_NY = {
       qualifier: "Low-income residents of Monroe and surrounding counties",
       access: "Phone intake",
       outcome: "Full assistance with sealing applications",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

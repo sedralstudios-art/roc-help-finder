@@ -1,0 +1,29 @@
+{
+  "callId": "e810b32f-f8b9-f7d3-497d-15db883deab9",
+  "digits": "5852449000",
+  "dialedNumber": "585-244-9000",
+  "catalogedName": "Trillium Health Pharmacy",
+  "sourceId": "trillrx",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "trillrx"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:46:04.077Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.660Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "fd237d5e-83e4-fa4a-d1ab-0f5dece69c4f",
+  "digits": "8007483243",
+  "dialedNumber": "(800) 748-3243",
+  "catalogedName": "pharmacist-administered-vaccines-ny",
+  "sourceId": "legal-entry:pharmacist-administered-vaccines-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:34:28.038Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.017Z"
+  }
+}

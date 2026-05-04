@@ -1,0 +1,61 @@
+{
+  "digits": "5184740252",
+  "kind": "phone",
+  "primaryName": "entry-callout:mandated-reporter-child-abuse-ny",
+  "rawValue": "(518) 474-0252",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mandated-reporter-child-abuse-ny",
+      "line": 82
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-21-59-150Z_e1f48643-a6cb-c490-074f-5af4b051192f",
+    "meta": {
+      "callId": "e1f48643-a6cb-c490-074f-5af4b051192f",
+      "digits": "5184740252",
+      "dialedNumber": "(518) 474-0252",
+      "catalogedName": "mandated-reporter-child-abuse-ny",
+      "sourceId": "legal-entry:mandated-reporter-child-abuse-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mandated-reporter-child-abuse-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:21:59.150Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.914Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.523Z",
+  "lastSeededAt": "2026-05-03T19:44:16.523Z"
+}

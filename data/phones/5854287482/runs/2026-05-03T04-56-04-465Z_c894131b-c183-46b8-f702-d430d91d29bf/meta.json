@@ -1,0 +1,41 @@
+{
+  "callId": "c894131b-c183-46b8-f702-d430d91d29bf",
+  "digits": "5854287482",
+  "dialedNumber": "(585) 428-7482",
+  "catalogedName": "parking-overnight-street-ny",
+  "sourceId": "legal-entry:parking-overnight-street-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "parking-overnight-street-ny"
+    },
+    {
+      "type": "entry",
+      "id": "parking-ticket-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snow-emergency-alternate-parking-roc"
+    },
+    {
+      "type": "entry",
+      "id": "speeding-camera-ticket-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:56:04.465Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.469Z"
+  }
+}

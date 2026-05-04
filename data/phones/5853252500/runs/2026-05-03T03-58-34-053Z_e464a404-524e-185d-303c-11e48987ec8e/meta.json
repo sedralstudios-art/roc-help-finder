@@ -1,0 +1,49 @@
+{
+  "callId": "e464a404-524e-185d-303c-11e48987ec8e",
+  "digits": "5853252500",
+  "dialedNumber": "(585) 325-2500",
+  "catalogedName": "cooperative-apartment-purchase-ny",
+  "sourceId": "legal-entry:cooperative-apartment-purchase-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cooperative-apartment-purchase-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fair-housing-discrimination-ny"
+    },
+    {
+      "type": "entry",
+      "id": "land-contract-rent-to-own-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pet-housing-breed-restriction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tenant-blacklist-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:58:34.053Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.182Z"
+  }
+}

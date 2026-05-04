@@ -1,0 +1,37 @@
+{
+  "callId": "de984eab-42c4-fe1f-6a5b-152f905a1362",
+  "digits": "8009084490",
+  "dialedNumber": "(800) 908-4490",
+  "catalogedName": "identity-theft-ny",
+  "sourceId": "legal-entry:identity-theft-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "identity-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mail-theft-federal-crime-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:23:06.710Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-helper-output-not-json",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.530Z"
+  }
+}

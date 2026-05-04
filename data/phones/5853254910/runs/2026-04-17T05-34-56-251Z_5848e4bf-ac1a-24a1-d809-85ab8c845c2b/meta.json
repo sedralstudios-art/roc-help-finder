@@ -1,0 +1,24 @@
+{
+  "callId": "5848e4bf-ac1a-24a1-d809-85ab8c845c2b",
+  "digits": "5853254910",
+  "dialedNumber": "(585) 325-4910",
+  "catalogedName": "Baden Street Settlement",
+  "sourceId": "baden",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:34:56.251Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.648Z"
+  }
+}

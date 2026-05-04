@@ -1,0 +1,61 @@
+{
+  "digits": "5853418450",
+  "kind": "phone",
+  "primaryName": "entry-callout:hospital-financial-assistance-charity-care-ny",
+  "rawValue": "(585) 341-8450",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-financial-assistance-charity-care-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-14-54-953Z_7c46faf2-bda9-198a-fbcd-c9bc2a437d32",
+    "meta": {
+      "callId": "7c46faf2-bda9-198a-fbcd-c9bc2a437d32",
+      "digits": "5853418450",
+      "dialedNumber": "(585) 341-8450",
+      "catalogedName": "hospital-financial-assistance-charity-care-ny",
+      "sourceId": "legal-entry:hospital-financial-assistance-charity-care-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hospital-financial-assistance-charity-care-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:14:54.953Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.866Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.510Z",
+  "lastSeededAt": "2026-05-03T19:44:16.510Z"
+}

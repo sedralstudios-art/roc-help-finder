@@ -1,0 +1,24 @@
+{
+  "callId": "b9089e9c-b832-94e8-0759-4a4994a79ca7",
+  "digits": "5854364460",
+  "dialedNumber": "(585) 436-4460",
+  "catalogedName": "New York Electrical Inspection Agency (NYEIA)",
+  "sourceId": "electrical-residential-ny-mon-greece-town::New York Electrical Inspection Agency (NYEIA)",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:37:23.978Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.854Z"
+  }
+}

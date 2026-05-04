@@ -1,0 +1,83 @@
+{
+  "digits": "5855462580",
+  "kind": "phone",
+  "primaryName": "House of Mercy",
+  "rawValue": "585-546-2580",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "housemercy",
+      "name": "House of Mercy",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "replacement-birth-certificate-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-05-10-802Z_aed37e1c-76dc-1e3e-fdd0-f9242de3c933",
+    "meta": {
+      "callId": "aed37e1c-76dc-1e3e-fdd0-f9242de3c933",
+      "digits": "5855462580",
+      "dialedNumber": "5855462580",
+      "catalogedName": "House of Mercy",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:05:10.802Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.482Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "House of Mercy",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.355Z",
+  "lastSeededAt": "2026-05-03T19:44:16.355Z",
+  "verifiedAt": "2026-05-03T20:21:01.761Z",
+  "verifiedRun": "2026-05-02T08-05-10-802Z_aed37e1c-76dc-1e3e-fdd0-f9242de3c933",
+  "verifiedTranscriptOpening": "Thank you for calling the House of Mercy. To speak to reception, please press 0. For the executive assistant or volunteer opportunities, press 2. For finance and administration, press 3. For social wo",
+  "verifiedMatchTokens": [
+    "house",
+    "mercy"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:47:17.397Z",
+      "sourceUrl": "https://houseofmercyrochester.org",
+      "sourceLabel": "House of Mercy Rochester official site",
+      "notes": "Web confirms 585-546-2580 for House of Mercy. Crisis-tier shelter and food pantry — high user-impact."
+    }
+  ]
+}

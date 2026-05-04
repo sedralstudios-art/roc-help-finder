@@ -1,0 +1,29 @@
+{
+  "callId": "27880189-5b63-34f5-2011-724036657065",
+  "digits": "5853403377",
+  "dialedNumber": "(585) 340-3377",
+  "catalogedName": "first-time-homebuyer-ny",
+  "sourceId": "legal-entry:first-time-homebuyer-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "first-time-homebuyer-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:09:38.516Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.830Z"
+  }
+}

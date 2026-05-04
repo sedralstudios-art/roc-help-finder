@@ -61,7 +61,7 @@ export const MENTAL_HEALTH_DAY_WORK_NY = {
       qualifier: "Any worker in New York",
       access: "Phone at (888) 469-7365",
       outcome: "Investigation, enforcement, worker protection",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov/paid-sick-leave",
       verified: true,
       bilingual: true,

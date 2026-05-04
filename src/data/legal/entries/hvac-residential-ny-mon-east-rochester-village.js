@@ -15,7 +15,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "East Rochester follows the state Uniform Fire Prevention and Building Code for HVAC work. That includes the Mechanical Code and the Fuel Gas Code. The 2025 Energy Code applies to any permit filed after December 31, 2025 — replacement furnaces, heat pumps, and AC units all have to meet the stricter efficiency rules.\n\nThe village does NOT license HVAC contractors. But gas line work is plumbing. Gas line work needs a qualified plumber with insurance (or a homeowner signing the affidavit).\n\nHVAC permits go through the Building Department. There's no separate third-party agency for HVAC inspection — the village's own inspectors handle it. That's different from electrical, which does use outside agencies.\n\nAnyone handling refrigerant must have federal EPA Section 608 certification.\n\nHomeowner rules: East Rochester allows homeowner HVAC work. Homeowners can sign an affidavit in place of contractor insurance.\n\nEast Rochester has a combined town/village government — one application covers both jurisdictions. Call (585) 385-3513 to schedule inspections with Inspector Jim Herko."
+    en: "East Rochester follows the state Uniform Fire Prevention and Building Code for HVAC work. That includes the Mechanical Code and the Fuel Gas Code. The 2025 Energy Code applies to any permit filed after December 31, 2025 — replacement furnaces, heat pumps, and AC units all have to meet the stricter efficiency rules.\n\nThe village does NOT license HVAC contractors. But gas line work is plumbing. Gas line work needs a qualified plumber with insurance (or a homeowner signing the affidavit).\n\nHVAC permits go through the Building Department. There's no separate third-party agency for HVAC inspection — the village's own inspectors handle it. That's different from electrical, which does use outside agencies.\n\nAnyone handling refrigerant must have federal EPA Section 608 certification.\n\nHomeowner rules: East Rochester allows homeowner HVAC work. Homeowners can sign an affidavit in place of contractor insurance.\n\nEast Rochester has a combined town/village government — one application covers both jurisdictions. Call [number being verified] to schedule inspections with Inspector Jim Herko."
   },
 
   example: {
@@ -54,7 +54,7 @@ export const entry = {
     qualifier: "Open to residents and contractors working in East Rochester",
     access: "Phone",
     outcome: "Permit issuance, inspection scheduling, code guidance",
-    phone: "585-586-3553",
+    phone: "",
     url: "https://eastrochesterny.gov/departments/building-department",
     verified: true,
     bilingual: false,

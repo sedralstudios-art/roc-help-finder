@@ -1,0 +1,24 @@
+{
+  "callId": "fe5fde4c-c0ef-fea3-1e2e-518d802a7388",
+  "digits": "5855637747",
+  "dialedNumber": "5855637747",
+  "catalogedName": "Refugees Helping Refugees",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:12:15.543Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.496Z"
+  }
+}

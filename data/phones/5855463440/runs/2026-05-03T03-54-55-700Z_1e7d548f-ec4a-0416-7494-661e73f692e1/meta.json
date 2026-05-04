@@ -1,0 +1,49 @@
+{
+  "callId": "1e7d548f-ec4a-0416-7494-661e73f692e1",
+  "digits": "5855463440",
+  "dialedNumber": "(585) 546-3440",
+  "catalogedName": "card-act-credit-card-fees-ny",
+  "sourceId": "legal-entry:card-act-credit-card-fees-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "card-act-credit-card-fees-ny"
+    },
+    {
+      "type": "entry",
+      "id": "credit-repair-companies-ny"
+    },
+    {
+      "type": "entry",
+      "id": "debt-settlement-company-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-settlement-conference-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-preforeclosure-90-day-notice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-homeowner-assistance-fund-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:54:55.700Z",
+  "durationSec": 15,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.163Z"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "callId": "bbdd9730-6eab-1454-6013-70e2651449ac",
+  "digits": "7187396400",
+  "dialedNumber": "(718) 739-6400",
+  "catalogedName": "apartment-electric-submetering-ny",
+  "sourceId": "legal-entry:apartment-electric-submetering-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-electric-submetering-ny"
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mitchell-lama-affordable-housing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rent-stabilization-basics-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:37:34.616Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.387Z"
+  }
+}

@@ -60,7 +60,7 @@ export const ELECTRIC_FENCE_RULES_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 753-2550",
       outcome: "Guidance on proper fencing and agricultural practices",
-      phone: "(585) 753-2550",
+      phone: "",
       url: "https://monroe.cce.cornell.edu",
       verified: true,
       bilingual: false,

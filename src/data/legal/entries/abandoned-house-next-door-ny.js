@@ -40,7 +40,7 @@ export const ABANDONED_HOUSE_NEXT_DOOR_NY = {
   legalOptions: {
     en: [
       "Rochester: Report abandoned properties through 311 or the Bureau of Inspection and Compliance at (585) 428-6520. The city's Vacant Property Registry requires registration and maintenance of vacant buildings.",
-      "Greece: Code Enforcement at (585) 723-2396.",
+      "Greece: Code Enforcement at (585) 723-2354.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "Brighton: Building Department at (585) 784-5220.",
       "Gates: Building Department at (585) 247-6100.",

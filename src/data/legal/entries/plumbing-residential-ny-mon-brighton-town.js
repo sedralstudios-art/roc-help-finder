@@ -57,7 +57,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_BRIGHTON_TOWN = {
       qualifier: "Residents, property owners, and plumbers working inside the Town",
       access: "Temporarily at 680 Westfall Road during Town Hall renovation; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 784-5250",
+      phone: "",
       url: "https://www.brightonny.gov/595/Building-and-Planning",
       verified: true,
       bilingual: false,

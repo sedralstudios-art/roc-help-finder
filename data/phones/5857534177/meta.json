@@ -1,0 +1,61 @@
+{
+  "digits": "5857534177",
+  "kind": "phone",
+  "primaryName": "entry-callout:judgment-enforcement-cplr-52-ny",
+  "rawValue": "(585) 753-4177",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "judgment-enforcement-cplr-52-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-18-06-201Z_b39287b6-e0e5-c94b-8b79-5e7fcd37b09d",
+    "meta": {
+      "callId": "b39287b6-e0e5-c94b-8b79-5e7fcd37b09d",
+      "digits": "5857534177",
+      "dialedNumber": "(585) 753-4177",
+      "catalogedName": "judgment-enforcement-cplr-52-ny",
+      "sourceId": "legal-entry:judgment-enforcement-cplr-52-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "judgment-enforcement-cplr-52-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:18:06.201Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.888Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.516Z",
+  "lastSeededAt": "2026-05-03T19:44:16.516Z"
+}

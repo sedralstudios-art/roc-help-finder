@@ -1,0 +1,97 @@
+{
+  "digits": "8774384338",
+  "kind": "phone",
+  "primaryName": "entry-callout:credit-freeze-security-freeze-ny",
+  "rawValue": "(877) 438-4338",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-freeze-security-freeze-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "mail-theft-federal-crime-ny",
+      "line": 79
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-23-31-097Z_2c6094ce-0eac-9067-c9a5-915126ad1442",
+    "meta": {
+      "callId": "2c6094ce-0eac-9067-c9a5-915126ad1442",
+      "digits": "8774384338",
+      "dialedNumber": "(877) 438-4338",
+      "catalogedName": "credit-freeze-security-freeze-ny",
+      "sourceId": "legal-entry:credit-freeze-security-freeze-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "credit-freeze-security-freeze-ny"
+        },
+        {
+          "type": "entry",
+          "id": "identity-theft-ny"
+        },
+        {
+          "type": "entry",
+          "id": "identity-theft-response-steps-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lost-stolen-wallet-what-to-do-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "mail-theft-federal-crime-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:23:31.097Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.291Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.315Z",
+  "lastSeededAt": "2026-05-03T19:44:16.315Z"
+}

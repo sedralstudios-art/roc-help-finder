@@ -1,0 +1,61 @@
+{
+  "digits": "5852623730",
+  "kind": "phone",
+  "primaryName": "entry-callout:voting-rights-after-conviction-ny",
+  "rawValue": "(585) 262-3730",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "voting-rights-after-conviction-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-53-27-964Z_55745797-7f7e-d755-519f-c747933579c4",
+    "meta": {
+      "callId": "55745797-7f7e-d755-519f-c747933579c4",
+      "digits": "5852623730",
+      "dialedNumber": "(585) 262-3730",
+      "catalogedName": "voting-rights-after-conviction-ny",
+      "sourceId": "legal-entry:voting-rights-after-conviction-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "voting-rights-after-conviction-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:53:27.964Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.149Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.581Z",
+  "lastSeededAt": "2026-05-03T19:44:16.581Z"
+}

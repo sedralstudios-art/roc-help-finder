@@ -1,0 +1,25 @@
+{
+  "digits": "5184578876",
+  "kind": "phone",
+  "primaryName": "entry-callout:agricultural-assessment-farm-rpt-305-ny",
+  "rawValue": "(518) 457-8876",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "agricultural-assessment-farm-rpt-305-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.464Z",
+  "lastSeededAt": "2026-05-03T19:44:16.464Z"
+}

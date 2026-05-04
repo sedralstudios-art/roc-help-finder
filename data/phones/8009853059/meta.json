@@ -1,0 +1,70 @@
+{
+  "digits": "8009853059",
+  "kind": "phone",
+  "primaryName": "entry-callout:surprise-medical-billing-ny",
+  "rawValue": "(800) 985-3059",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surprise-medical-billing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-bills-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-45-22-486Z_f570dddb-78e9-e110-d701-a732fbf99ff7",
+    "meta": {
+      "callId": "f570dddb-78e9-e110-d701-a732fbf99ff7",
+      "digits": "8009853059",
+      "dialedNumber": "(800) 985-3059",
+      "catalogedName": "surprise-medical-billing-ny",
+      "sourceId": "legal-entry:surprise-medical-billing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "surprise-medical-billing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "surprise-medical-bills-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:45:22.486Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.655Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.409Z",
+  "lastSeededAt": "2026-05-03T19:44:16.409Z"
+}

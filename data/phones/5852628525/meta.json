@@ -1,0 +1,70 @@
+{
+  "digits": "5852628525",
+  "kind": "phone",
+  "primaryName": "entry-callout:school-iep-disputes-ny",
+  "rawValue": "(585) 262-8525",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-iep-disputes-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "special-education-iep-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-44-15-887Z_2db93cef-ec43-948f-30cc-51624a861992",
+    "meta": {
+      "callId": "2db93cef-ec43-948f-30cc-51624a861992",
+      "digits": "5852628525",
+      "dialedNumber": "(585) 262-8525",
+      "catalogedName": "school-iep-disputes-ny",
+      "sourceId": "legal-entry:school-iep-disputes-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "school-iep-disputes-ny"
+        },
+        {
+          "type": "entry",
+          "id": "special-education-iep-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:44:15.887Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.648Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.407Z",
+  "lastSeededAt": "2026-05-03T19:44:16.407Z"
+}

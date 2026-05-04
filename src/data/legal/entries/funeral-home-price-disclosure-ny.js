@@ -60,7 +60,7 @@ export const FUNERAL_HOME_PRICE_DISCLOSURE_NY = {
       qualifier: "Any U.S. resident",
       access: "Phone at (877) 382-4357, file complaints at ftc.gov",
       outcome: "Investigation, enforcement, fines for violations",
-      phone: "(877) 382-4357",
+      phone: "",
       url: "https://www.ftc.gov/legal-library/browse/rules/funeral-industry-practices-revised-rule",
       verified: true,
       bilingual: true,

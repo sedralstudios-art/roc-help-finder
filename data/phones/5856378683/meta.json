@@ -1,0 +1,69 @@
+{
+  "digits": "5856378683",
+  "kind": "phone",
+  "primaryName": "Sweden Assessor",
+  "rawValue": "585-637-8683",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swedenassessor",
+      "name": "Sweden Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-45-34-125Z_0ffe601b-170a-a6f9-9c9d-3d45c341556e",
+    "meta": {
+      "callId": "0ffe601b-170a-a6f9-9c9d-3d45c341556e",
+      "digits": "5856378683",
+      "dialedNumber": "5856378683",
+      "catalogedName": "Sweden Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:45:34.125Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.567Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Town of Sweden",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.456Z",
+  "lastSeededAt": "2026-05-03T19:44:16.456Z",
+  "verifiedAt": "2026-05-03T20:21:01.773Z",
+  "verifiedRun": "2026-05-02T08-45-34-125Z_0ffe601b-170a-a6f9-9c9d-3d45c341556e",
+  "verifiedTranscriptOpening": "You have reached the Town of Sweden, Town of Clarkson Assessor's Office. If you wish to grieve your assessment for the Town of Clarkson, please submit for the",
+  "verifiedMatchTokens": [
+    "sweden",
+    "assessor"
+  ],
+  "verifiedRatio": 1
+}

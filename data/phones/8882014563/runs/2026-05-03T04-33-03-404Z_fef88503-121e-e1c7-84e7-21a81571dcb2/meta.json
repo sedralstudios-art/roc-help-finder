@@ -1,0 +1,45 @@
+{
+  "callId": "fef88503-121e-e1c7-84e7-21a81571dcb2",
+  "digits": "8882014563",
+  "dialedNumber": "(888) 201-4563",
+  "catalogedName": "long-term-care-ombudsman-ny",
+  "sourceId": "legal-entry:long-term-care-ombudsman-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-bed-hold-readmission-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-discharge-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:33:03.404Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.376Z"
+  }
+}

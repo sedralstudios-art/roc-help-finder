@@ -59,7 +59,7 @@ export const HOME_GENERATOR_RULES_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (518) 474-4073",
       outcome: "Code interpretation, guidance on permit requirements",
-      phone: "(518) 474-4073",
+      phone: "",
       url: "https://dos.ny.gov/building-standards-and-codes",
       verified: true,
       bilingual: false,

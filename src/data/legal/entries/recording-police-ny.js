@@ -73,7 +73,7 @@ export const RECORDING_POLICE_NY = {
       qualifier: "Any person in Rochester",
       access: "Phone or online",
       outcome: "Investigation of police conduct",
-      phone: "(585) 232-5433",
+      phone: "",
       url: "https://www.cityofrochester.gov/PAB/",
       verified: true,
       bilingual: false,

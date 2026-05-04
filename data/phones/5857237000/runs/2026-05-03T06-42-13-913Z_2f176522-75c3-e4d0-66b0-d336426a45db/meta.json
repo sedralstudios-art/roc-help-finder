@@ -1,0 +1,29 @@
+{
+  "callId": "2f176522-75c3-e4d0-66b0-d336426a45db",
+  "digits": "5857237000",
+  "dialedNumber": "(585) 723-7000",
+  "catalogedName": "safe-haven-newborn-abandonment-ny",
+  "sourceId": "legal-entry:safe-haven-newborn-abandonment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:42:13.913Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.071Z"
+  }
+}

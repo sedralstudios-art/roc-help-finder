@@ -39,7 +39,7 @@ export const DUMPSTER_PLACEMENT_PERMIT_NY = {
   legalOptions: {
     en: [
       "Rochester: Street obstruction permits for dumpsters are handled by the Bureau of Operations at (585) 428-7538.",
-      "Greece: Code enforcement at (585) 723-2396.",
+      "Greece: Code enforcement at (585) 723-2354.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "Brighton: Building Department at (585) 784-5220.",
       "For any other town, contact the local highway or building department for duration limits and dumpster rules.",
@@ -61,7 +61,7 @@ export const DUMPSTER_PLACEMENT_PERMIT_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-7538",
       outcome: "Permit processing, compliance information",
-      phone: "(585) 428-7538",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

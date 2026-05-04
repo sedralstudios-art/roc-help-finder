@@ -1,0 +1,61 @@
+{
+  "digits": "8002068125",
+  "kind": "phone",
+  "primaryName": "entry-callout:mltc-managed-long-term-care-ny-program",
+  "rawValue": "(800) 206-8125",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-24-37-212Z_ab257151-44ea-c7c2-99fe-1dfa82e1e0fe",
+    "meta": {
+      "callId": "ab257151-44ea-c7c2-99fe-1dfa82e1e0fe",
+      "digits": "8002068125",
+      "dialedNumber": "(800) 206-8125",
+      "catalogedName": "mltc-managed-long-term-care-ny-program",
+      "sourceId": "legal-entry:mltc-managed-long-term-care-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mltc-managed-long-term-care-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:24:37.212Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.932Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.527Z",
+  "lastSeededAt": "2026-05-03T19:44:16.527Z"
+}

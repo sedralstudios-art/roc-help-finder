@@ -1,0 +1,29 @@
+{
+  "callId": "cd937d03-9b34-29a6-56e0-c90d576772eb",
+  "digits": "5187864872",
+  "dialedNumber": "(518) 786-4872",
+  "catalogedName": "service-member-lease-termination-ny",
+  "sourceId": "legal-entry:service-member-lease-termination-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "service-member-lease-termination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:44:43.690Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.088Z"
+  }
+}

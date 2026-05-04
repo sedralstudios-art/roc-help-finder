@@ -59,7 +59,7 @@ export const TRAFFIC_COURT_WHAT_TO_EXPECT_NY = {
       qualifier: "Tickets issued in Rochester",
       access: "Hall of Justice, 99 Exchange Blvd, Rochester",
       outcome: "Plea conferences, trials, payment processing",
-      phone: "(585) 428-2447",
+      phone: "",
       url: "https://www.nycourts.gov/courts/7jd/rochester-city/traffic.shtml",
       verified: true,
       bilingual: false,

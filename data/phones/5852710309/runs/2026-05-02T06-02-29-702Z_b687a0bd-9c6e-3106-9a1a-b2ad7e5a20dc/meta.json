@@ -1,0 +1,24 @@
+{
+  "callId": "b687a0bd-9c6e-3106-9a1a-b2ad7e5a20dc",
+  "digits": "5852710309",
+  "dialedNumber": "5852710309",
+  "catalogedName": "Mary Cariola Children's Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:02:29.702Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.216Z"
+  }
+}

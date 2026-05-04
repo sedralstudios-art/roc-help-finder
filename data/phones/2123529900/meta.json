@@ -1,0 +1,61 @@
+{
+  "digits": "2123529900",
+  "kind": "phone",
+  "primaryName": "entry-callout:unemployment-appeal-ny",
+  "rawValue": "212-352-9900",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "unemployment-appeal-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-51-06-421Z_d09817e4-a023-74a5-5b67-36c7c6ee6ac6",
+    "meta": {
+      "callId": "d09817e4-a023-74a5-5b67-36c7c6ee6ac6",
+      "digits": "2123529900",
+      "dialedNumber": "212-352-9900",
+      "catalogedName": "unemployment-appeal-ny",
+      "sourceId": "legal-entry:unemployment-appeal-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "unemployment-appeal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:51:06.421Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.133Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.577Z",
+  "lastSeededAt": "2026-05-03T19:44:16.577Z"
+}

@@ -1,0 +1,79 @@
+{
+  "digits": "5853713600",
+  "kind": "phone",
+  "primaryName": "entry-callout:new-home-warranty-right-to-cure-ny",
+  "rawValue": "(585) 371-3600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "new-home-warranty-right-to-cure-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "self-storage-unit-lien-auction-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "spite-fence-malicious-ny",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-56-26-161Z_587cdeb0-9164-699a-1b31-a3f1a76a1929",
+    "meta": {
+      "callId": "587cdeb0-9164-699a-1b31-a3f1a76a1929",
+      "digits": "5853713600",
+      "dialedNumber": "(585) 371-3600",
+      "catalogedName": "new-home-warranty-right-to-cure-ny",
+      "sourceId": "legal-entry:new-home-warranty-right-to-cure-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "new-home-warranty-right-to-cure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "self-storage-unit-lien-auction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "spite-fence-malicious-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:56:26.161Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.441Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.351Z",
+  "lastSeededAt": "2026-05-03T19:44:16.351Z"
+}

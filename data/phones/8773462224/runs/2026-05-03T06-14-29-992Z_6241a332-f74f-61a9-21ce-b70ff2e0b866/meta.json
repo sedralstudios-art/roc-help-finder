@@ -1,0 +1,29 @@
+{
+  "callId": "6241a332-f74f-61a9-21ce-b70ff2e0b866",
+  "digits": "8773462224",
+  "dialedNumber": "(877) 346-2224",
+  "catalogedName": "home-inspector-licensing-ny",
+  "sourceId": "legal-entry:home-inspector-licensing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:14:29.992Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.864Z"
+  }
+}

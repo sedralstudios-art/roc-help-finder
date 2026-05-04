@@ -1,0 +1,24 @@
+{
+  "callId": "75607d29-553d-9ee7-89ee-a504acad13a6",
+  "digits": "5854286617",
+  "dialedNumber": "5854286617",
+  "catalogedName": "Passport Office (City Hall)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:31:48.210Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.408Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "f9df3949-4b3e-0353-5b29-2dd60a4ce41c",
+  "digits": "5852656694",
+  "dialedNumber": "5852656694",
+  "catalogedName": "Webster HOPE Food Pantry",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:00:22.880Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.211Z"
+  }
+}

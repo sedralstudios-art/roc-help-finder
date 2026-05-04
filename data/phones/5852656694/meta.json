@@ -1,0 +1,67 @@
+{
+  "digits": "5852656694",
+  "kind": "phone",
+  "primaryName": "Webster HOPE Food Pantry",
+  "rawValue": "585-265-6694",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "websterhope",
+      "name": "Webster HOPE Food Pantry",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-00-22-880Z_f9df3949-4b3e-0353-5b29-2dd60a4ce41c",
+    "meta": {
+      "callId": "f9df3949-4b3e-0353-5b29-2dd60a4ce41c",
+      "digits": "5852656694",
+      "dialedNumber": "5852656694",
+      "catalogedName": "Webster HOPE Food Pantry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:00:22.880Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.211Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.457Z",
+  "lastSeededAt": "2026-05-03T19:44:16.457Z",
+  "verifiedAt": "2026-05-03T20:21:01.694Z",
+  "verifiedRun": "2026-05-02T06-00-22-880Z_f9df3949-4b3e-0353-5b29-2dd60a4ce41c",
+  "verifiedTranscriptOpening": "Webster Hope is currently closed. If you would like to leave a message, press zero at any time. Our normal business hours are Mondays 5-7, Tuesdays 10-noon, Wednesdays 3-5, and Thursdays 5-7. Please d",
+  "verifiedMatchTokens": [
+    "webster",
+    "hope"
+  ],
+  "verifiedRatio": 0.5
+}

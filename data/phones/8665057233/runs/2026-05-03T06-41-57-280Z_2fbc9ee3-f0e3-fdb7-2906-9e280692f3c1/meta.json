@@ -1,0 +1,29 @@
+{
+  "callId": "2fbc9ee3-f0e3-fdb7-2906-9e280692f3c1",
+  "digits": "8665057233",
+  "dialedNumber": "1-866-505-7233",
+  "catalogedName": "safe-haven-newborn-abandonment-ny",
+  "sourceId": "legal-entry:safe-haven-newborn-abandonment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:41:57.280Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.069Z"
+  }
+}

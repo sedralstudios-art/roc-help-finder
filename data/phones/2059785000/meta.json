@@ -1,0 +1,61 @@
+{
+  "digits": "2059785000",
+  "kind": "phone",
+  "primaryName": "entry-callout:surrogacy-child-parent-security-act-ny",
+  "rawValue": "(205) 978-5000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-48-44-970Z_6696eceb-4e6f-9e3a-596f-a35a08858f2b",
+    "meta": {
+      "callId": "6696eceb-4e6f-9e3a-596f-a35a08858f2b",
+      "digits": "2059785000",
+      "dialedNumber": "(205) 978-5000",
+      "catalogedName": "surrogacy-child-parent-security-act-ny",
+      "sourceId": "legal-entry:surrogacy-child-parent-security-act-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "surrogacy-child-parent-security-act-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:48:44.970Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.117Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.573Z",
+  "lastSeededAt": "2026-05-03T19:44:16.573Z"
+}

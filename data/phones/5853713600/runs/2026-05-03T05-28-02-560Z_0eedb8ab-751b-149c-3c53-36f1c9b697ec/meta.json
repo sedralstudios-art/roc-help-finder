@@ -1,0 +1,37 @@
+{
+  "callId": "0eedb8ab-751b-149c-3c53-36f1c9b697ec",
+  "digits": "5853713600",
+  "dialedNumber": "(585) 371-3600",
+  "catalogedName": "new-home-warranty-right-to-cure-ny",
+  "sourceId": "legal-entry:new-home-warranty-right-to-cure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "new-home-warranty-right-to-cure-ny"
+    },
+    {
+      "type": "entry",
+      "id": "self-storage-unit-lien-auction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "spite-fence-malicious-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:28:02.560Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.542Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "8d31cf8c-b72b-9ef4-95fb-1647c1a162a0",
+  "digits": "5853408664",
+  "dialedNumber": "(585) 340-8664",
+  "catalogedName": "Penfield Senior Programs (DEAR)",
+  "sourceId": "penfieldsenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:54:39.223Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.673Z"
+  }
+}

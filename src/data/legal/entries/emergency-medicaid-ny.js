@@ -57,7 +57,7 @@ export const EMERGENCY_MEDICAID_NY = {
       qualifier: "Monroe County residents",
       access: "Phone, in person, or online",
       outcome: "Application processing",
-      phone: "(585) 753-6960",
+      phone: "",
       url: "https://mybenefits.ny.gov",
       verified: true,
       bilingual: false,

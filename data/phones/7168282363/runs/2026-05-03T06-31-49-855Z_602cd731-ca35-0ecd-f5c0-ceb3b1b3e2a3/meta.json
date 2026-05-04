@@ -1,0 +1,29 @@
+{
+  "callId": "602cd731-ca35-0ecd-f5c0-ceb3b1b3e2a3",
+  "digits": "7168282363",
+  "dialedNumber": "(716) 828-2363",
+  "catalogedName": "pace-program-all-inclusive-care-elderly-ny-program",
+  "sourceId": "legal-entry:pace-program-all-inclusive-care-elderly-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pace-program-all-inclusive-care-elderly-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:31:49.855Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.999Z"
+  }
+}

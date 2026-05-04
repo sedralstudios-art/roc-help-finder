@@ -1,0 +1,61 @@
+{
+  "digits": "5187762500",
+  "kind": "phone",
+  "primaryName": "entry-callout:liquor-license-rules-ny",
+  "rawValue": "(518) 776-2500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "liquor-license-rules-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-20-44-253Z_7501d0cc-d5d0-3c01-ed3c-464551fb9776",
+    "meta": {
+      "callId": "7501d0cc-d5d0-3c01-ed3c-464551fb9776",
+      "digits": "5187762500",
+      "dialedNumber": "(518) 776-2500",
+      "catalogedName": "liquor-license-rules-ny",
+      "sourceId": "legal-entry:liquor-license-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "liquor-license-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:20:44.253Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.905Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.521Z",
+  "lastSeededAt": "2026-05-03T19:44:16.521Z"
+}

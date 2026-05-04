@@ -1,0 +1,69 @@
+{
+  "digits": "5857535141",
+  "kind": "phone",
+  "primaryName": "Monroe County Vital Records",
+  "rawValue": "585-753-5141",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mcvital",
+      "name": "Monroe County Vital Records",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-07-02-473Z_09e59df7-6bac-e18f-4a3b-4c69f07eae96",
+    "meta": {
+      "callId": "09e59df7-6bac-e18f-4a3b-4c69f07eae96",
+      "digits": "5857535141",
+      "dialedNumber": "5857535141",
+      "catalogedName": "Monroe County Vital Records",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:07:02.473Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.611Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Office of Vital Records for Monroe County",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.426Z",
+  "lastSeededAt": "2026-05-03T19:44:16.426Z",
+  "verifiedAt": "2026-05-03T20:21:01.789Z",
+  "verifiedRun": "2026-05-02T09-07-02-473Z_09e59df7-6bac-e18f-4a3b-4c69f07eae96",
+  "verifiedTranscriptOpening": "Thank you for calling the Office of Vital Records for Monroe County, New York. We are located at 740 East Henrietta Road. The office has appointment-only hours from 9 a.m. to 3 p.m., Monday through Fr",
+  "verifiedMatchTokens": [
+    "vital",
+    "records"
+  ],
+  "verifiedRatio": 1
+}

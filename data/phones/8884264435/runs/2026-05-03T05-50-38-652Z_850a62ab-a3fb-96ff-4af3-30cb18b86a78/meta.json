@@ -1,0 +1,29 @@
+{
+  "callId": "850a62ab-a3fb-96ff-4af3-30cb18b86a78",
+  "digits": "8884264435",
+  "dialedNumber": "(888) 426-4435",
+  "catalogedName": "animal-hoarding-reporting-ny",
+  "sourceId": "legal-entry:animal-hoarding-reporting-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:50:38.652Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.690Z"
+  }
+}

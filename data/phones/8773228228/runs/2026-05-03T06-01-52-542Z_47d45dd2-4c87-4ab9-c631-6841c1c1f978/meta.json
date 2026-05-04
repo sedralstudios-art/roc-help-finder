@@ -1,0 +1,29 @@
+{
+  "callId": "47d45dd2-4c87-4ab9-c631-6841c1c1f978",
+  "digits": "8773228228",
+  "dialedNumber": "(877) 322-8228",
+  "catalogedName": "credit-report-dispute-ny",
+  "sourceId": "legal-entry:credit-report-dispute-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-report-dispute-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:01:52.542Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.772Z"
+  }
+}

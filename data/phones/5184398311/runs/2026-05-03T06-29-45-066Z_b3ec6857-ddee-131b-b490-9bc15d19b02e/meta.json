@@ -1,0 +1,29 @@
+{
+  "callId": "b3ec6857-ddee-131b-b490-9bc15d19b02e",
+  "digits": "5184398311",
+  "dialedNumber": "(518) 439-8311",
+  "catalogedName": "ny-able-savings-disability-ny",
+  "sourceId": "legal-entry:ny-able-savings-disability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-able-savings-disability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:29:45.066Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.985Z"
+  }
+}

@@ -58,7 +58,7 @@ export const LEMON_LAW_USED_CAR_NY = {
       qualifier: "Any car buyer in New York",
       access: "Phone or online",
       outcome: "Free arbitration, repair orders, refunds",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau/lemon-law",
       verified: true,
       bilingual: true,

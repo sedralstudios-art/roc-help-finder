@@ -1,0 +1,29 @@
+{
+  "callId": "a402826c-964c-ce74-d069-811bd8376425",
+  "digits": "5854286680",
+  "dialedNumber": "(585) 428-6680",
+  "catalogedName": "water-service-line-lead-pipe-ny",
+  "sourceId": "legal-entry:water-service-line-lead-pipe-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "water-service-line-lead-pipe-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:54:01.226Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.152Z"
+  }
+}

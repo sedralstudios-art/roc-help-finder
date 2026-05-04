@@ -1,0 +1,24 @@
+{
+  "callId": "400e10f0-6bb4-6da7-2958-9ba5844467c0",
+  "digits": "5857845215",
+  "dialedNumber": "(585) 784-5215",
+  "catalogedName": "Brighton Assessor",
+  "sourceId": "brightonassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:17:54.668Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.983Z"
+  }
+}

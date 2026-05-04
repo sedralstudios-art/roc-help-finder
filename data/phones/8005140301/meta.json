@@ -1,0 +1,126 @@
+{
+  "digits": "8005140301",
+  "kind": "phone",
+  "primaryName": "entry-callout:accessible-parking-abuse-ny",
+  "rawValue": "(800) 514-0301",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "accessible-parking-abuse-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "ada-title-iii-public-accommodations-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "disabled-parking-permit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "esa-vs-service-animal-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "paratransit-ada-transportation-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "public-accommodations-ada-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "restroom-access-act-allys-law-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "service-animal-public-access-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-30-59-072Z_eeef1f46-2b32-b01e-7a3d-a37c25706902",
+    "meta": {
+      "callId": "eeef1f46-2b32-b01e-7a3d-a37c25706902",
+      "digits": "8005140301",
+      "dialedNumber": "(800) 514-0301",
+      "catalogedName": "accessible-parking-abuse-ny",
+      "sourceId": "legal-entry:accessible-parking-abuse-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "accessible-parking-abuse-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ada-title-iii-public-accommodations-ny"
+        },
+        {
+          "type": "entry",
+          "id": "disabled-parking-permit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "esa-vs-service-animal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "paratransit-ada-transportation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "public-accommodations-ada-ny"
+        },
+        {
+          "type": "entry",
+          "id": "restroom-access-act-allys-law-ny"
+        },
+        {
+          "type": "entry",
+          "id": "service-animal-public-access-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:30:59.072Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.042Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Americans with Disabilities Act Information Line at the U",
+      "reason": "transcript-stated name (Americans with Disabilities Act Information Line at the U) differs from catalogued (accessible-parking-abuse-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.288Z",
+  "lastSeededAt": "2026-05-03T19:44:16.288Z"
+}

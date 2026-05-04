@@ -1,0 +1,70 @@
+{
+  "digits": "5852923100",
+  "kind": "phone",
+  "primaryName": "entry-callout:fafsa-financial-aid-application-ny-program",
+  "rawValue": "(585) 292-3100",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "fafsa-financial-aid-application-ny-program",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "tap-tuition-assistance-program-ny-program",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-48-37-653Z_4e4fd5b2-9ff9-1497-c0a3-82a1f707132c",
+    "meta": {
+      "callId": "4e4fd5b2-9ff9-1497-c0a3-82a1f707132c",
+      "digits": "5852923100",
+      "dialedNumber": "(585) 292-3100",
+      "catalogedName": "fafsa-financial-aid-application-ny-program",
+      "sourceId": "legal-entry:fafsa-financial-aid-application-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "fafsa-financial-aid-application-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "tap-tuition-assistance-program-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:48:37.653Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.686Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.391Z",
+  "lastSeededAt": "2026-05-03T19:44:16.391Z"
+}

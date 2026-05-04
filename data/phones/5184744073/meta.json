@@ -1,0 +1,97 @@
+{
+  "digits": "5184744073",
+  "kind": "phone",
+  "primaryName": "entry-callout:basement-egress-window-ny",
+  "rawValue": "(518) 474-4073",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basement-egress-window-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "elevator-inspection-rules-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "home-generator-rules-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "homeowner-smoke-co-alarm-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "propane-tank-rules-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-16-17-222Z_c7b34474-d385-a8e6-5705-24488e0e1fcb",
+    "meta": {
+      "callId": "c7b34474-d385-a8e6-5705-24488e0e1fcb",
+      "digits": "5184744073",
+      "dialedNumber": "(518) 474-4073",
+      "catalogedName": "basement-egress-window-ny",
+      "sourceId": "legal-entry:basement-egress-window-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "basement-egress-window-ny"
+        },
+        {
+          "type": "entry",
+          "id": "elevator-inspection-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-generator-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "homeowner-smoke-co-alarm-ny"
+        },
+        {
+          "type": "entry",
+          "id": "propane-tank-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:16:17.222Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.263Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.313Z",
+  "lastSeededAt": "2026-05-03T19:44:16.313Z"
+}

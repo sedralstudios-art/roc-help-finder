@@ -1,0 +1,79 @@
+{
+  "digits": "5854421742",
+  "kind": "phone",
+  "primaryName": "entry-callout:after-a-fire-ny",
+  "rawValue": "(585) 442-1742",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "after-a-fire-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "monroe-county-dss-overview-ny-mon-program",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-04-29-087Z_43b2d27e-061c-9988-6082-fae8db7dd35c",
+    "meta": {
+      "callId": "43b2d27e-061c-9988-6082-fae8db7dd35c",
+      "digits": "5854421742",
+      "dialedNumber": "(585) 442-1742",
+      "catalogedName": "after-a-fire-ny",
+      "sourceId": "legal-entry:after-a-fire-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "after-a-fire-ny"
+        },
+        {
+          "type": "entry",
+          "id": "emergency-cash-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "monroe-county-dss-overview-ny-mon-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:04:29.087Z",
+      "durationSec": 19,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.492Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.338Z",
+  "lastSeededAt": "2026-05-03T19:44:16.338Z"
+}

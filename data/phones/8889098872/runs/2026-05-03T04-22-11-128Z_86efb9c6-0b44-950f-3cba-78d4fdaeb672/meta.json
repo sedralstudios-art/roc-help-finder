@@ -1,0 +1,45 @@
+{
+  "callId": "86efb9c6-0b44-950f-3cba-78d4fdaeb672",
+  "digits": "8889098872",
+  "dialedNumber": "(888) 909-8872",
+  "catalogedName": "credit-freeze-security-freeze-ny",
+  "sourceId": "legal-entry:credit-freeze-security-freeze-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-freeze-security-freeze-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:22:11.128Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.285Z"
+  }
+}

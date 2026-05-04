@@ -1,0 +1,29 @@
+{
+  "callId": "ea7bfe1b-169b-7c49-5946-a722e8b34370",
+  "digits": "5184578637",
+  "dialedNumber": "(518) 457-8637",
+  "catalogedName": "mortgage-recording-tax-closing-cost-ny",
+  "sourceId": "legal-entry:mortgage-recording-tax-closing-cost-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mortgage-recording-tax-closing-cost-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:25:35.474Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.939Z"
+  }
+}

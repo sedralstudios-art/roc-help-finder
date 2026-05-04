@@ -1,0 +1,61 @@
+{
+  "digits": "3148010800",
+  "kind": "phone",
+  "primaryName": "entry-callout:veterans-property-tax-exemption-ny",
+  "rawValue": "(314) 801-0800",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "veterans-property-tax-exemption-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-52-38-031Z_00b5b007-e2b1-c6e0-ef53-69a78c43dbc5",
+    "meta": {
+      "callId": "00b5b007-e2b1-c6e0-ef53-69a78c43dbc5",
+      "digits": "3148010800",
+      "dialedNumber": "(314) 801-0800",
+      "catalogedName": "veterans-property-tax-exemption-ny",
+      "sourceId": "legal-entry:veterans-property-tax-exemption-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "veterans-property-tax-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:52:38.031Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.144Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.580Z",
+  "lastSeededAt": "2026-05-03T19:44:16.580Z"
+}

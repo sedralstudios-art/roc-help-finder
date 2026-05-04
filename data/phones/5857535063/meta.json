@@ -1,0 +1,66 @@
+{
+  "digits": "5857535063",
+  "kind": "phone",
+  "primaryName": "entry-callout:hiv-test-confidentiality-ny",
+  "rawValue": "(585) 753-5063",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "narcan-access-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "newborn-screening-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-04-53-575Z_386b823b-863c-205d-1b5a-34e082263572",
+    "meta": {
+      "callId": "386b823b-863c-205d-1b5a-34e082263572",
+      "digits": "5857535063",
+      "dialedNumber": "5857535063",
+      "catalogedName": "entry-callout:hiv-test-confidentiality-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:04:53.575Z",
+      "durationSec": 10,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.607Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.348Z",
+  "lastSeededAt": "2026-05-03T19:44:16.348Z"
+}

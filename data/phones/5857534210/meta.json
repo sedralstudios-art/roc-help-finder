@@ -1,0 +1,316 @@
+{
+  "digits": "5857534210",
+  "kind": "phone",
+  "primaryName": "MC.publicDefender",
+  "rawValue": "585-753-4210",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "publicDefender",
+      "value": "585-753-4210",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "access-to-courts-incarcerated-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "bail-how-it-works-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "bail-reform-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "boat-operator-safety-certificate-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "child-left-in-car-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "clean-slate-ny",
+      "line": 77
+    },
+    {
+      "type": "entry",
+      "id": "common-misdemeanor-charges-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "contempt-of-court-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "cooperating-witness-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "criminal-appeal-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "criminal-case-process-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "driving-suspended-license-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "drug-possession-basics-ny",
+      "line": 68
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-diving-scrap-law-ny",
+      "line": 62
+    },
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "free-legal-help-monroe-ny-program",
+      "line": 24
+    },
+    {
+      "type": "entry",
+      "id": "good-samaritan-law-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "hit-and-run-leaving-scene-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "ignition-interlock-dwi-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "implied-consent-chemical-test-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "insurance-fraud-criminal-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "jury-nullification-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "juvenile-delinquency-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "license-suspended-unpaid-tickets-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "miranda-rights-explained-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "missed-court-warrant-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "plea-bargain-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "probation-basics-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "probation-violation-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "problem-solving-courts-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "recording-police-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "reentry-rights-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "right-to-a-lawyer-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "right-to-remain-silent-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "rights-during-police-encounter-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "rights-when-arrested-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "self-defense-laws-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "sentencing-options-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "sex-offender-registry-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-civil-recovery-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-petit-larceny-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "sovereign-citizen-myths-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "subpoena-what-to-do-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "trespassing-laws-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "truancy-compulsory-education-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "veterans-court-fines-fees-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "veterans-treatment-court-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "what-happens-at-arraignment-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-02-30-391Z_750832e2-9afb-96c6-45c5-e875119cf737",
+    "meta": {
+      "callId": "750832e2-9afb-96c6-45c5-e875119cf737",
+      "digits": "5857534210",
+      "dialedNumber": "5857534210",
+      "catalogedName": "MC.publicDefender",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:02:30.391Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.602Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Public Defender's Office",
+      "reason": "transcript-stated name (Monroe County Public Defender's Office) differs from catalogued (MC.publicDefender)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.267Z",
+  "lastSeededAt": "2026-05-03T19:44:16.267Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "076bfd32-adec-6946-0b0f-6474ada39567",
+  "digits": "5855468030",
+  "dialedNumber": "5855468030",
+  "catalogedName": null,
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:10:13.629Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.492Z"
+  }
+}

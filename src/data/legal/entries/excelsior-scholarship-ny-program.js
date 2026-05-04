@@ -62,7 +62,7 @@ export const EXCELSIOR_SCHOLARSHIP_NY_PROGRAM = {
       qualifier: "Any NY student or family applying for state aid",
       access: "Phone at (888) 697-4372",
       outcome: "Application status, waiver requests, appeals",
-      phone: "(888) 697-4372",
+      phone: "",
       url: "https://www.hesc.ny.gov",
       verified: true,
       bilingual: true,

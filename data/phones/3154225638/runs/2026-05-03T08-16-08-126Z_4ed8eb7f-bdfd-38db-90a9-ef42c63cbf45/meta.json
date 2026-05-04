@@ -1,0 +1,33 @@
+{
+  "callId": "4ed8eb7f-bdfd-38db-90a9-ef42c63cbf45",
+  "digits": "3154225638",
+  "dialedNumber": "(315) 422-5638",
+  "catalogedName": "background-check-rights-ny",
+  "sourceId": "legal-entry:background-check-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "background-check-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "seal-your-record-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:16:08.126Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.534Z"
+  }
+}

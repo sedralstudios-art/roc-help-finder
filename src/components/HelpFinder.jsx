@@ -4,6 +4,18 @@ import ShareButton from "./ShareButton";
 import { helpFinderToGlossaryCategory, glossaryCategoryLabel } from "../data/legal/glossary-tag-map";
 import { GLOSSARY_TERMS_BY_CATEGORY } from "../data/legal/glossary-index";
 import GlossaryText from "./GlossaryTooltip";
+import callerIdManifest from "../data/caller-id-manifest.json";
+
+// Look up a phone string in the caller-ID manifest by 10-digit normalization.
+// Returns the manifest entry (or null) so the program card can render a
+// dialer-captured caller-ID screenshot next to the phone number.
+function callerIdFor(ph) {
+  if (!ph) return null;
+  const d = String(ph).replace(/\D/g, '');
+  const norm = d.length === 11 && d.startsWith('1') ? d.substring(1) : d;
+  if (norm.length !== 10) return null;
+  return callerIdManifest[norm] || null;
+}
 
 // ─────────────────────────────────────────────
 // mapsHandoff — universal tap-to-navigate (added April 9, 2026)
@@ -753,6 +765,24 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
               </a>
             </div>
           )}
+          {(() => {
+            const cid = callerIdFor(p.ph);
+            if (!cid) return null;
+            return (
+              <div style={{ marginBottom: 10 }}>
+                <img
+                  src={"/" + cid.file}
+                  alt={"Verified caller ID for " + (p.n || "this organization")}
+                  loading="lazy"
+                  style={{ display: "block", width: "100%", maxWidth: 320, height: "auto",
+                           border: "1px solid #ddd", borderRadius: 6 }}
+                />
+                <div style={{ fontSize: 11, color: "#888", marginTop: 4 }}>
+                  Caller ID a HelpFinder verification call captured from this number.
+                </div>
+              </div>
+            );
+          })()}
           {p.ad && (
             <div style={{ marginBottom: 8, display: "flex", alignItems: "flex-start", gap: 6 }}>
               <span style={{ fontSize: 13, color: "#636363" }}>📍</span>

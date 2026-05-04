@@ -1,0 +1,33 @@
+{
+  "callId": "01e6c8c0-a610-9fae-efb7-68674449ece0",
+  "digits": "5184028888",
+  "dialedNumber": "(518) 402-8888",
+  "catalogedName": "boat-operator-safety-certificate-ny",
+  "sourceId": "legal-entry:boat-operator-safety-certificate-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boat-operator-safety-certificate-ny"
+    },
+    {
+      "type": "entry",
+      "id": "recreational-use-immunity-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:32:03.914Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.570Z"
+  }
+}

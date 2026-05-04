@@ -1,0 +1,29 @@
+{
+  "callId": "58c1cf0b-741d-bf73-10de-5ccb45d2bd3b",
+  "digits": "8002255342",
+  "dialedNumber": "(800) 225-5342",
+  "catalogedName": "pmi-cancellation-homeowner-ny",
+  "sourceId": "legal-entry:pmi-cancellation-homeowner-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pmi-cancellation-homeowner-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:35:09.627Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.022Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "b830b46e-f8f9-d153-c073-90c8b8e277dd",
+  "digits": "5184737552",
+  "dialedNumber": "(518) 473-7552",
+  "catalogedName": "newborn-screening-ny",
+  "sourceId": "legal-entry:newborn-screening-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "newborn-screening-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:27:15.294Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.951Z"
+  }
+}

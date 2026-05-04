@@ -1,0 +1,33 @@
+{
+  "callId": "96d1d747-3a44-ae4c-5f81-0a56477e1126",
+  "digits": "5852923100",
+  "dialedNumber": "(585) 292-3100",
+  "catalogedName": "fafsa-financial-aid-application-ny-program",
+  "sourceId": "legal-entry:fafsa-financial-aid-application-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "fafsa-financial-aid-application-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "tap-tuition-assistance-program-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:36:38.376Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.599Z"
+  }
+}

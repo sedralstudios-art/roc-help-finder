@@ -1,0 +1,37 @@
+{
+  "callId": "3fc7ae75-273e-84fb-95e2-21618dcc6e97",
+  "digits": "8006636114",
+  "dialedNumber": "(800) 663-6114",
+  "catalogedName": "informed-consent-medical-ny",
+  "sourceId": "legal-entry:informed-consent-medical-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "informed-consent-medical-ny"
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "opmc-physician-misconduct-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:25:20.536Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.533Z"
+  }
+}

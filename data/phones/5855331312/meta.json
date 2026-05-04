@@ -1,0 +1,88 @@
+{
+  "digits": "5855331312",
+  "kind": "phone",
+  "primaryName": "Rush Town Clerk",
+  "rawValue": "585-533-1312",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rushclerk",
+      "name": "Rush Town Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rushbuilding",
+      "name": "Rush Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-rush-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-rush-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-rush-town",
+      "line": 23
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-rush-town",
+      "line": 19
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-58-26-803Z_6fa2fd87-27e7-6b42-df5b-87a99d7e55d4",
+    "meta": {
+      "callId": "6fa2fd87-27e7-6b42-df5b-87a99d7e55d4",
+      "digits": "5855331312",
+      "dialedNumber": "5855331312",
+      "catalogedName": "Rush Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:58:26.803Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.468Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.298Z",
+  "lastSeededAt": "2026-05-03T19:44:16.298Z"
+}

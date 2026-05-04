@@ -1,0 +1,70 @@
+{
+  "digits": "5184575557",
+  "kind": "phone",
+  "primaryName": "entry-callout:cema-mortgage-refinance-savings-ny",
+  "rawValue": "(518) 457-5557",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-23-48-323Z_12c94942-97d3-500d-bf93-9c71f5c4077d",
+    "meta": {
+      "callId": "12c94942-97d3-500d-bf93-9c71f5c4077d",
+      "digits": "5184575557",
+      "dialedNumber": "(518) 457-5557",
+      "catalogedName": "cema-mortgage-refinance-savings-ny",
+      "sourceId": "legal-entry:cema-mortgage-refinance-savings-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cema-mortgage-refinance-savings-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-estate-transfer-tax-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:23:48.323Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.570Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.376Z",
+  "lastSeededAt": "2026-05-03T19:44:16.376Z"
+}

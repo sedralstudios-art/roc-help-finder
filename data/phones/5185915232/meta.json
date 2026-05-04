@@ -1,0 +1,73 @@
+{
+  "digits": "5185915232",
+  "kind": "phone",
+  "primaryName": "entry-callout:agricultural-assessment-farm-rpt-305-ny",
+  "rawValue": "(518) 591-5232",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "agricultural-assessment-farm-rpt-305-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "disabled-homeowner-property-tax-exemption-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-grievance-ny",
+      "line": 81
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-15-52-295Z_9b7eef13-9097-6a16-4648-f24e224c59be",
+    "meta": {
+      "callId": "9b7eef13-9097-6a16-4648-f24e224c59be",
+      "digits": "5185915232",
+      "dialedNumber": "5185915232",
+      "catalogedName": "entry-callout:agricultural-assessment-farm-rpt-305-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:15:52.295Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.110Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Taxation and Finance",
+      "reason": "transcript-stated name (New York State Department of Taxation and Finance) differs from catalogued (entry-callout:agricultural-assessment-farm-rpt-305-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.323Z",
+  "lastSeededAt": "2026-05-03T19:44:16.323Z"
+}

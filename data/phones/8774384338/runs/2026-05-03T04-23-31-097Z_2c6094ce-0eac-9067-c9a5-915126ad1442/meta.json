@@ -1,0 +1,45 @@
+{
+  "callId": "2c6094ce-0eac-9067-c9a5-915126ad1442",
+  "digits": "8774384338",
+  "dialedNumber": "(877) 438-4338",
+  "catalogedName": "credit-freeze-security-freeze-ny",
+  "sourceId": "legal-entry:credit-freeze-security-freeze-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-freeze-security-freeze-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "mail-theft-federal-crime-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:23:31.097Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.291Z"
+  }
+}

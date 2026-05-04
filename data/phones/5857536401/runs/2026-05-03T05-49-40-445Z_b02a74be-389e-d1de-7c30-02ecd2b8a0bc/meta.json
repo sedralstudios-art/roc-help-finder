@@ -1,0 +1,29 @@
+{
+  "callId": "b02a74be-389e-d1de-7c30-02ecd2b8a0bc",
+  "digits": "5857536401",
+  "dialedNumber": "(585) 753-6401",
+  "catalogedName": "adult-protective-services-ny",
+  "sourceId": "legal-entry:adult-protective-services-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:49:40.445Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.684Z"
+  }
+}

@@ -60,7 +60,7 @@ export const VEHICLE_REGISTRATION_INSPECTION_NY = {
       qualifier: "Any vehicle owner in Monroe County",
       access: "In person or online",
       outcome: "Registration processing, penalty information",
-      phone: "(585) 753-7600",
+      phone: "",
       url: "https://dmv.ny.gov",
       verified: true,
       bilingual: false,

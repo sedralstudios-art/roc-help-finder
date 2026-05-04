@@ -60,7 +60,7 @@ export const REFUSE_SERVICE_BUSINESS_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (888) 392-3644 or online at dhr.ny.gov",
       outcome: "Investigation, mediation, hearing, damages",
-      phone: "(888) 392-3644",
+      phone: "",
       url: "https://dhr.ny.gov",
       verified: true,
       bilingual: true,

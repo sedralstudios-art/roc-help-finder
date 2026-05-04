@@ -61,7 +61,7 @@ export const INVOLUNTARY_COMMITMENT_NY = {
       qualifier: "Any person involuntarily committed in Monroe County",
       access: "Phone",
       outcome: "Free legal representation at commitment hearings",
-      phone: "(585) 530-3050",
+      phone: "",
       url: "https://www.nycourts.gov/courts/ad4/MHLS/index.shtml",
       verified: true,
       bilingual: false,

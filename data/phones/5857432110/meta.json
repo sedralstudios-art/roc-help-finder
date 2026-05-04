@@ -1,0 +1,61 @@
+{
+  "digits": "5857432110",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-perinton-town",
+  "rawValue": "(585) 743-2110",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-perinton-town",
+      "line": 16
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-06-18-750Z_235dc483-e0bf-6f20-868a-ff2a560b0284",
+    "meta": {
+      "callId": "235dc483-e0bf-6f20-868a-ff2a560b0284",
+      "digits": "5857432110",
+      "dialedNumber": "(585) 743-2110",
+      "catalogedName": "electrical-residential-ny-mon-perinton-town",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-perinton-town",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-perinton-town"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:06:18.750Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.805Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.494Z",
+  "lastSeededAt": "2026-05-03T19:44:16.494Z"
+}

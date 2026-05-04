@@ -1,0 +1,61 @@
+{
+  "digits": "8777774778",
+  "kind": "phone",
+  "primaryName": "entry-callout:earned-income-tax-credit-ny",
+  "rawValue": "(877) 777-4778",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "earned-income-tax-credit-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-05-28-829Z_1e750c29-6247-69f1-c14c-a6403e5342c7",
+    "meta": {
+      "callId": "1e750c29-6247-69f1-c14c-a6403e5342c7",
+      "digits": "8777774778",
+      "dialedNumber": "(877) 777-4778",
+      "catalogedName": "earned-income-tax-credit-ny",
+      "sourceId": "legal-entry:earned-income-tax-credit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "earned-income-tax-credit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:05:28.829Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.799Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.493Z",
+  "lastSeededAt": "2026-05-03T19:44:16.493Z"
+}

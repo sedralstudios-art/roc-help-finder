@@ -1,0 +1,37 @@
+{
+  "callId": "b19029e2-b535-26d9-c9cd-8bb2487967b0",
+  "digits": "5857537380",
+  "dialedNumber": "(585) 753-7380",
+  "catalogedName": "flood-zone-insurance-ny",
+  "sourceId": "legal-entry:flood-zone-insurance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "flood-zone-insurance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "freshwater-wetlands-permit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rainwater-collection-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:45:58.813Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.391Z"
+  }
+}

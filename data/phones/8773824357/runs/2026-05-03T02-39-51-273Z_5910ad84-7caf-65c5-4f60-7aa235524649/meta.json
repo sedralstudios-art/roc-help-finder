@@ -1,0 +1,24 @@
+{
+  "callId": "5910ad84-7caf-65c5-4f60-7aa235524649",
+  "digits": "8773824357",
+  "dialedNumber": "877-382-4357",
+  "catalogedName": "HOTLINES.ftcConsumer",
+  "sourceId": "pole:HOTLINES.ftcConsumer",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-03T02:39:51.273Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.869Z"
+  }
+}

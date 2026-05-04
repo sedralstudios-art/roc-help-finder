@@ -1,0 +1,29 @@
+{
+  "callId": "e2b53ef7-819f-bf0f-02a5-1d38efd93b27",
+  "digits": "2124360395",
+  "dialedNumber": "(212) 436-0395",
+  "catalogedName": "freelance-isnt-free-act-ny",
+  "sourceId": "legal-entry:freelance-isnt-free-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "freelance-isnt-free-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:10:36.749Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.837Z"
+  }
+}

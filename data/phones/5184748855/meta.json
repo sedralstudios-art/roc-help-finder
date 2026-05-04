@@ -1,0 +1,61 @@
+{
+  "digits": "5184748855",
+  "kind": "phone",
+  "primaryName": "entry-callout:notice-of-claim-municipal-ny",
+  "rawValue": "(518) 474-8855",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "notice-of-claim-municipal-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-29-11-800Z_ff859ef5-e8ea-e112-662e-2b6edf5e3bdd",
+    "meta": {
+      "callId": "ff859ef5-e8ea-e112-662e-2b6edf5e3bdd",
+      "digits": "5184748855",
+      "dialedNumber": "(518) 474-8855",
+      "catalogedName": "notice-of-claim-municipal-ny",
+      "sourceId": "legal-entry:notice-of-claim-municipal-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "notice-of-claim-municipal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:29:11.800Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.982Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.536Z",
+  "lastSeededAt": "2026-05-03T19:44:16.536Z"
+}

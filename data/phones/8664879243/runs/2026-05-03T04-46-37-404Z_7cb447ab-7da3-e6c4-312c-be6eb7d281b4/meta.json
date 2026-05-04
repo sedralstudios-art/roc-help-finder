@@ -1,0 +1,41 @@
+{
+  "callId": "7cb447ab-7da3-e6c4-312c-be6eb7d281b4",
+  "digits": "8664879243",
+  "dialedNumber": "(866) 487-9243",
+  "catalogedName": "family-medical-leave-ny",
+  "sourceId": "legal-entry:family-medical-leave-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "family-medical-leave-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-day-work-ny"
+    },
+    {
+      "type": "entry",
+      "id": "overtime-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "unpaid-internship-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:46:37.404Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.426Z"
+  }
+}

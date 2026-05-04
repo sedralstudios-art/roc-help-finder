@@ -62,7 +62,7 @@ export const SOCIAL_SECURITY_SURVIVORS_BENEFITS_NY = {
       qualifier: "Anyone eligible for Social Security benefits",
       access: "Phone at (800) 772-1213 or in person at 100 Chestnut St, Rochester",
       outcome: "Benefits application, eligibility determination",
-      phone: "(800) 772-1213",
+      phone: "",
       url: "https://www.ssa.gov/benefits/survivors/",
       verified: true,
       bilingual: true,

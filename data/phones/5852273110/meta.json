@@ -1,0 +1,59 @@
+{
+  "digits": "5852273110",
+  "kind": "phone",
+  "primaryName": "Greece Town Court",
+  "rawValue": "585-227-3110",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "greececourt",
+      "name": "Greece Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-25-13-763Z_2ae6c678-cb00-950c-0117-78631db7e94b",
+    "meta": {
+      "callId": "2ae6c678-cb00-950c-0117-78631db7e94b",
+      "digits": "5852273110",
+      "dialedNumber": "5852273110",
+      "catalogedName": "Greece Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:25:13.763Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.132Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.429Z",
+  "lastSeededAt": "2026-05-03T19:44:16.429Z"
+}

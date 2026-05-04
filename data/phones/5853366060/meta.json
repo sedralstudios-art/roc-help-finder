@@ -1,0 +1,111 @@
+{
+  "digits": "5853366060",
+  "kind": "phone",
+  "primaryName": "Irondequoit Public Library",
+  "rawValue": "585-336-6060",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "irondequoitlib",
+      "name": "Irondequoit Public Library",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "home-business-zoning-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "hot-tub-spa-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "short-term-rental-hosting-airbnb-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tree-removal-permit-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-44-58-933Z_b282f1e2-7e64-2d1c-ce66-320107eb55b4",
+    "meta": {
+      "callId": "b282f1e2-7e64-2d1c-ce66-320107eb55b4",
+      "digits": "5853366060",
+      "dialedNumber": "5853366060",
+      "catalogedName": "Irondequoit Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:44:58.933Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.306Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Irondequoit Public Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.284Z",
+  "lastSeededAt": "2026-05-03T19:44:16.284Z",
+  "verifiedAt": "2026-05-03T20:21:01.717Z",
+  "verifiedRun": "2026-05-02T06-44-58-933Z_b282f1e2-7e64-2d1c-ce66-320107eb55b4",
+  "verifiedTranscriptOpening": "Thank you for calling the Irondequoit Public Library. The library is currently closed. Our regular business hours are Monday through Thursday 10 a.m. to 9 p.m., Friday 10 a.m. to 6 p.m., Saturday 10 a",
+  "verifiedMatchTokens": [
+    "irondequoit",
+    "public",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

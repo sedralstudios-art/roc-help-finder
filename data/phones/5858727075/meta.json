@@ -1,0 +1,59 @@
+{
+  "digits": "5858727075",
+  "kind": "phone",
+  "primaryName": "Webster Public Library",
+  "rawValue": "585-872-7075",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "websterlib",
+      "name": "Webster Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-30-07-828Z_bc5967a8-ad8a-9d55-11ad-e367c2ef2d7f",
+    "meta": {
+      "callId": "bc5967a8-ad8a-9d55-11ad-e367c2ef2d7f",
+      "digits": "5858727075",
+      "dialedNumber": "5858727075",
+      "catalogedName": "Webster Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:30:07.828Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.661Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.457Z",
+  "lastSeededAt": "2026-05-03T19:44:16.457Z"
+}

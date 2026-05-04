@@ -1,0 +1,61 @@
+{
+  "digits": "5857538000",
+  "kind": "phone",
+  "primaryName": "entry-callout:puppy-lemon-law-ny",
+  "rawValue": "(585) 753-8000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "puppy-lemon-law-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-38-37-588Z_6c8306ed-96ef-8b60-8023-8aa6a3247f3a",
+    "meta": {
+      "callId": "6c8306ed-96ef-8b60-8023-8aa6a3247f3a",
+      "digits": "5857538000",
+      "dialedNumber": "(585) 753-8000",
+      "catalogedName": "puppy-lemon-law-ny",
+      "sourceId": "legal-entry:puppy-lemon-law-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "puppy-lemon-law-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:38:37.588Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.046Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.555Z",
+  "lastSeededAt": "2026-05-03T19:44:16.555Z"
+}

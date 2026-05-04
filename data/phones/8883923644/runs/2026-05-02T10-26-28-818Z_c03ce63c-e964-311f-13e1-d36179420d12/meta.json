@@ -1,0 +1,24 @@
+{
+  "callId": "c03ce63c-e964-311f-13e1-d36179420d12",
+  "digits": "8883923644",
+  "dialedNumber": "8883923644",
+  "catalogedName": "NYS Human Rights Division — Housing Discrimination",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:26:28.818Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.789Z"
+  }
+}

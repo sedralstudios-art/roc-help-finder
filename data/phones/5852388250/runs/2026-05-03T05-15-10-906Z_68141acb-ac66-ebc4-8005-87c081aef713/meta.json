@@ -1,0 +1,37 @@
+{
+  "callId": "68141acb-ac66-ebc4-8005-87c081aef713",
+  "digits": "5852388250",
+  "dialedNumber": "(585) 238-8250",
+  "catalogedName": "crown-act-hair-discrimination-ny",
+  "sourceId": "legal-entry:crown-act-hair-discrimination-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "crown-act-hair-discrimination-ny"
+    },
+    {
+      "type": "entry",
+      "id": "equal-credit-opportunity-act-ny"
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-termination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:15:10.906Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.514Z"
+  }
+}

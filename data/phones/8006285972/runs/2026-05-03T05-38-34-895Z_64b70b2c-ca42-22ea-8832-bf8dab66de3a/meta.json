@@ -1,0 +1,33 @@
+{
+  "callId": "64b70b2c-ca42-22ea-8832-bf8dab66de3a",
+  "digits": "8006285972",
+  "dialedNumber": "(800) 628-5972",
+  "catalogedName": "hospice-palliative-care-rights-ny",
+  "sourceId": "legal-entry:hospice-palliative-care-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospice-palliative-care-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medical-records-access-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:38:34.895Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.611Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "digits": "5857534300",
+  "kind": "phone",
+  "primaryName": "entry-callout:acd-adjournment-contemplation-dismissal-ny",
+  "rawValue": "(585) 753-4300",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "acd-adjournment-contemplation-dismissal-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "bail-how-it-works-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "grand-jury-process-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "plea-withdrawal-cpl-220-60-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "youthful-offender-adjudication-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.283Z",
+  "lastSeededAt": "2026-05-03T19:44:16.283Z"
+}

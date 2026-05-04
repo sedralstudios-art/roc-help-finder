@@ -1,0 +1,81 @@
+{
+  "digits": "5854282444",
+  "kind": "phone",
+  "primaryName": "entry-callout:court-system-explained-ny-program",
+  "rawValue": "(585) 428-2444",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-system-explained-ny-program",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-procedure-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "traffic-ticket-options-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-36-44-739Z_0c39edfc-101e-6a32-11f0-69fad0a7b3a7",
+    "meta": {
+      "callId": "0c39edfc-101e-6a32-11f0-69fad0a7b3a7",
+      "digits": "5854282444",
+      "dialedNumber": "(585) 428-2444",
+      "catalogedName": "court-system-explained-ny-program",
+      "sourceId": "legal-entry:court-system-explained-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "court-system-explained-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "small-claims-procedure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "traffic-ticket-options-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:36:44.739Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.347Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "this recording in error",
+      "reason": "transcript-stated name (this recording in error) differs from catalogued (court-system-explained-ny-program)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.344Z",
+  "lastSeededAt": "2026-05-03T19:44:16.344Z"
+}

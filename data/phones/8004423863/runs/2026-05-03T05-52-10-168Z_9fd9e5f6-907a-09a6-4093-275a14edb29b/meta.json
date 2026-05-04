@@ -1,0 +1,29 @@
+{
+  "callId": "9fd9e5f6-907a-09a6-4093-275a14edb29b",
+  "digits": "8004423863",
+  "dialedNumber": "(800) 442-3863",
+  "catalogedName": "attorney-grievance-complaint-ny",
+  "sourceId": "legal-entry:attorney-grievance-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "attorney-grievance-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:52:10.168Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.700Z"
+  }
+}

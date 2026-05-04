@@ -1,0 +1,88 @@
+{
+  "digits": "5857536477",
+  "kind": "phone",
+  "primaryName": "Furnace Repair/Replacement (HEAP HERR)",
+  "rawValue": "585-753-6477",
+  "blockDial": false,
+  "tags": [
+    "cat:utilities",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "heapDirect",
+      "value": "585-753-6477",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "herr",
+      "name": "Furnace Repair/Replacement (HEAP HERR)",
+      "category": "utilities",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "attic-insulation-rebate-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-28-39-691Z_018d2635-b10e-08d4-880b-1802ef9feff4",
+    "meta": {
+      "callId": "018d2635-b10e-08d4-880b-1802ef9feff4",
+      "digits": "5857536477",
+      "dialedNumber": "585-753-6477",
+      "catalogedName": "Furnace Repair/Replacement (HEAP HERR)",
+      "sourceId": "herr",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "MC.heapDirect"
+        },
+        {
+          "type": "program",
+          "id": "herr"
+        },
+        {
+          "type": "entry",
+          "id": "attic-insulation-rebate-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:28:39.691Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.308Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Home Energy Assistance Program's information line",
+      "reason": "transcript-stated name (Monroe County Home Energy Assistance Program's information line) differs from catalogued (Furnace Repair/Replacement (HEAP HERR))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.331Z",
+  "lastSeededAt": "2026-05-03T19:44:16.331Z"
+}

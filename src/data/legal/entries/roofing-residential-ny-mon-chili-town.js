@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CHILI_TOWN = {
   title: { en: "Residential Roofing in the Town of Chili — CloudPermit Portal, Call-to-Confirm Permit Scope" },
 
   summary: {
-    en: "The Town of Chili enforces the New York Uniform Fire Prevention and Building Code (adopted statewide under Executive Law 379) under Chapter 210 of the Town Code. Permit applications are filed online through the CloudPermit portal after a one-time account setup. Chili publishes project guides for fences, pools, sheds, decks, generators, finished basements, and ramps — but not a roofing-specific guide. The Building Department at (585) 889-6143 confirms whether a specific roofing project needs a permit. In-house town inspectors handle the inspections."
+    en: "The Town of Chili enforces the New York Uniform Fire Prevention and Building Code (adopted statewide under Executive Law 379) under Chapter 210 of the Town Code. Permit applications are filed online through the CloudPermit portal after a one-time account setup. Chili publishes project guides for fences, pools, sheds, decks, generators, finished basements, and ramps — but not a roofing-specific guide. The Building Department at [number being verified] confirms whether a specific roofing project needs a permit. In-house town inspectors handle the inspections."
   },
 
   whatItMeans: {
@@ -17,7 +17,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CHILI_TOWN = {
   },
 
   example: {
-    en: "A homeowner in Chili plans a reroof that also replaces two rotted decking panels. She calls the Building Department at (585) 889-6143. The inspector confirms that the decking replacement pushes the job into the permit-required alteration category. She files through the CloudPermit portal, pays the fee, and schedules the inspection. A town inspector checks the deck before the new material goes on."
+    en: "A homeowner in Chili plans a reroof that also replaces two rotted decking panels. She calls the Building Department at [number being verified]. The inspector confirms that the decking replacement pushes the job into the permit-required alteration category. She files through the CloudPermit portal, pays the fee, and schedules the inspection. A town inspector checks the deck before the new material goes on."
   },
 
   whoQualifies: {
@@ -56,7 +56,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CHILI_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "Chili Town Hall, 3333 Chili Avenue, Rochester, NY 14624; phone; email building@chiliny.gov; CloudPermit online",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 889-6143",
+      phone: "",
       url: "https://www.townofchili.org/202/Building-Department",
       verified: true,
       bilingual: false,

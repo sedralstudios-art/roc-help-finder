@@ -1,0 +1,61 @@
+{
+  "digits": "8663495191",
+  "kind": "phone",
+  "primaryName": "entry-callout:free-annual-credit-report-ny",
+  "rawValue": "(866) 349-5191",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "free-annual-credit-report-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-10-03-475Z_6256ccbb-24ca-a766-5e47-876d8f76acc8",
+    "meta": {
+      "callId": "6256ccbb-24ca-a766-5e47-876d8f76acc8",
+      "digits": "8663495191",
+      "dialedNumber": "(866) 349-5191",
+      "catalogedName": "free-annual-credit-report-ny",
+      "sourceId": "legal-entry:free-annual-credit-report-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "free-annual-credit-report-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:10:03.475Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.833Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.502Z",
+  "lastSeededAt": "2026-05-03T19:44:16.502Z"
+}

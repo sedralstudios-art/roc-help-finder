@@ -59,7 +59,7 @@ export const ZONING_VARIANCE_PERMIT_NY = {
       qualifier: "City of Rochester properties",
       access: "Phone or in person",
       outcome: "Permit applications, zoning determinations, violation resolution",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov/buildings/",
       verified: true,
       bilingual: false,

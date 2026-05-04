@@ -1,0 +1,88 @@
+{
+  "digits": "5858727070",
+  "kind": "phone",
+  "primaryName": "entry-callout:snow-plow-damage-property-ny",
+  "rawValue": "(585) 872-7070",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-27-33-062Z_a43a4730-b534-1fd0-f6d0-a738acd8cd48",
+    "meta": {
+      "callId": "a43a4730-b534-1fd0-f6d0-a738acd8cd48",
+      "digits": "5858727070",
+      "dialedNumber": "(585) 872-7070",
+      "catalogedName": "snow-plow-damage-property-ny",
+      "sourceId": "legal-entry:snow-plow-damage-property-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "snow-plow-damage-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-removal-ordinance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "street-light-out-report-ny"
+        },
+        {
+          "type": "entry",
+          "id": "trash-pickup-missed-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:27:33.062Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.305Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.331Z",
+  "lastSeededAt": "2026-05-03T19:44:16.331Z"
+}

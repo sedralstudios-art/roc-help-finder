@@ -1,0 +1,24 @@
+{
+  "digits": "5856976100",
+  "kind": "phone",
+  "primaryName": "Rochester Housing Authority",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ph"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:38:02.461Z",
+      "sourceUrl": "https://www.rochesterhousing.org",
+      "sourceLabel": "Rochester Housing Authority official",
+      "notes": "Web confirmed via 2026-05-04 lookup."
+    }
+  ]
+}

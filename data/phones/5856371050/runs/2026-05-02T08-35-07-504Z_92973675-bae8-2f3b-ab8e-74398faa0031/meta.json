@@ -1,0 +1,24 @@
+{
+  "callId": "92973675-bae8-2f3b-ab8e-74398faa0031",
+  "digits": "5856371050",
+  "dialedNumber": "5856371050",
+  "catalogedName": "Seymour Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:35:07.504Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.545Z"
+  }
+}

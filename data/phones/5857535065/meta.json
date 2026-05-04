@@ -1,0 +1,61 @@
+{
+  "digits": "5857535065",
+  "kind": "phone",
+  "primaryName": "entry-callout:summer-camp-licensing-ny",
+  "rawValue": "(585) 753-5065",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-48-20-006Z_4cbc0a33-7706-bfdb-2fa6-732cbe975c56",
+    "meta": {
+      "callId": "4cbc0a33-7706-bfdb-2fa6-732cbe975c56",
+      "digits": "5857535065",
+      "dialedNumber": "(585) 753-5065",
+      "catalogedName": "summer-camp-licensing-ny",
+      "sourceId": "legal-entry:summer-camp-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "summer-camp-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:48:20.006Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.115Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.572Z",
+  "lastSeededAt": "2026-05-03T19:44:16.572Z"
+}

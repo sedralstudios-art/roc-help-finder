@@ -1,0 +1,49 @@
+{
+  "digits": "5854345577",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-24-38-411Z_5b8caf07-beeb-c94e-55e3-20348063c711",
+    "meta": {
+      "callId": "5b8caf07-beeb-c94e-55e3-20348063c711",
+      "digits": "5854345577",
+      "dialedNumber": "(585) 434-5577",
+      "catalogedName": "charitable-solicitation-registration-ny",
+      "sourceId": "legal-entry:charitable-solicitation-registration-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "charitable-solicitation-registration-ny"
+        },
+        {
+          "type": "entry",
+          "id": "property-tax-religious-charitable-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:24:38.411Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.576Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

@@ -1,0 +1,198 @@
+{
+  "digits": "5853713412",
+  "kind": "phone",
+  "primaryName": "Rochester City Court — Civil Division (Habitability)",
+  "rawValue": "585-371-3412",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:legalEviction",
+    "cat:legalSmallClaims",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "warrantsvc",
+      "name": "Rochester City Court — Civil Division (Habitability)",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "housingcourtevict",
+      "name": "Rochester City Court — Civil Division (Housing/Eviction)",
+      "category": "legalEviction",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rochcitycourt_sc",
+      "name": "Rochester City Court — Small Claims",
+      "category": "legalSmallClaims",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "commercial-eviction-process-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-fairness-act-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny",
+      "line": 72
+    },
+    {
+      "type": "entry",
+      "id": "default-judgment-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "eviction-process-ny",
+      "line": 74
+    },
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "holdover-tenant-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "home-inspection-contract-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "judgment-enforcement-cplr-52-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mechanics-lien-private-construction-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "month-to-month-tenancy-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "rent-withholding-repair-deduct-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "rental-car-damage-waiver-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "rental-move-in-cost-limits-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "security-deposit-ny",
+      "line": 67
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-civil-recovery-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "tenant-organizing-rights-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-safe-harbor-act-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-06-45-914Z_ecf2949c-f344-9e22-c716-755a65108138",
+    "meta": {
+      "callId": "ecf2949c-f344-9e22-c716-755a65108138",
+      "digits": "5853713412",
+      "dialedNumber": "5853713412",
+      "catalogedName": "Rochester City Court — Civil Division (Habitability)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:06:45.914Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.352Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Rochester City Court Civil Branch",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.271Z",
+  "lastSeededAt": "2026-05-03T19:44:16.271Z"
+}

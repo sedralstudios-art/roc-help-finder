@@ -40,7 +40,7 @@ export const HOT_TUB_SPA_RULES_NY = {
     en: [
       "The local building department can explain hot tub permit and fencing requirements for each town.",
       "Rochester Bureau of Buildings at (585) 428-6520.",
-      "Greece Building Department at (585) 723-2396.",
+      "Greece Building Department at (585) 723-2354.",
       "Brighton Building Department at (585) 784-5220.",
       "Irondequoit Building Department at (585) 336-6060.",
       "For electrical questions, a licensed electrician should be consulted. The NYS Department of State can verify electrician licenses.",
@@ -61,7 +61,7 @@ export const HOT_TUB_SPA_RULES_NY = {
       qualifier: "Rochester city property owners",
       access: "Phone at (585) 428-6520",
       outcome: "Permit applications, inspections, code guidance",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

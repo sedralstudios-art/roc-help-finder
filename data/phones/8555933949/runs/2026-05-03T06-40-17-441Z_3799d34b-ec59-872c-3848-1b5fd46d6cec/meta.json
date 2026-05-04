@@ -1,0 +1,29 @@
+{
+  "callId": "3799d34b-ec59-872c-3848-1b5fd46d6cec",
+  "digits": "8555933949",
+  "dialedNumber": "(855) 593-3949",
+  "catalogedName": "replacement-social-security-card-ny",
+  "sourceId": "legal-entry:replacement-social-security-card-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "replacement-social-security-card-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:17.441Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.057Z"
+  }
+}

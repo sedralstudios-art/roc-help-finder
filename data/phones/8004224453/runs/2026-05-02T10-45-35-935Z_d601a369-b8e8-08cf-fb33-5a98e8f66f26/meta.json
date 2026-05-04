@@ -1,0 +1,24 @@
+{
+  "callId": "d601a369-b8e8-08cf-fb33-5a98e8f66f26",
+  "digits": "8004224453",
+  "dialedNumber": "8004224453",
+  "catalogedName": "National Child Abuse Hotline",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:45:35.935Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.836Z"
+  }
+}

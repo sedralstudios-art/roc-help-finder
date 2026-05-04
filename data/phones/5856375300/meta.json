@@ -1,0 +1,98 @@
+{
+  "digits": "5856375300",
+  "kind": "phone",
+  "primaryName": "Brockport Village Clerk",
+  "rawValue": "585-637-5300",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brockportclerk",
+      "name": "Brockport Village Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-brockport-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-brockport-village",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-brockport-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-brockport-village",
+      "line": 14
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-42-52-884Z_fa549447-aeb3-52ed-52be-b915764f09ac",
+    "meta": {
+      "callId": "fa549447-aeb3-52ed-52be-b915764f09ac",
+      "digits": "5856375300",
+      "dialedNumber": "5856375300",
+      "catalogedName": "Brockport Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:42:52.884Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.561Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Village of Brockport offices",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.308Z",
+  "lastSeededAt": "2026-05-03T19:44:16.308Z",
+  "verifiedAt": "2026-05-03T20:21:01.773Z",
+  "verifiedRun": "2026-05-02T08-42-52-884Z_fa549447-aeb3-52ed-52be-b915764f09ac",
+  "verifiedTranscriptOpening": "You have reached the Village of Brockport offices. If you know your party's extension, you may enter it at any time during this message. To return to the beginning of this menu, press 9 at any time. F",
+  "verifiedMatchTokens": [
+    "brockport",
+    "village"
+  ],
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:19:08.094Z",
+      "sourceUrl": "https://brockportny.gov/",
+      "sourceLabel": "Village of Brockport official site (formerly brockportny.org)",
+      "notes": "Direct match: web confirms (585) 637-5300 AND tree dialer transcript says \"Village of Brockport, NY\"."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "digits": "8776324996",
+  "kind": "phone",
+  "primaryName": "entry-callout:caregiver-rights-family-ny",
+  "rawValue": "(877) 632-4996",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "caregiver-rights-family-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "domestic-worker-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-day-work-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "scaffold-law-construction-240-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "temp-worker-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-benefits-vfbl-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-lump-sum-settlement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-physician-choice-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-retaliation-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "workers-compensation-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-23-18-336Z_1c743e4c-7666-6483-c0d0-e5c6213e2e89",
+    "meta": {
+      "callId": "1c743e4c-7666-6483-c0d0-e5c6213e2e89",
+      "digits": "8776324996",
+      "dialedNumber": "8776324996",
+      "catalogedName": "entry-callout:caregiver-rights-family-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:23:18.336Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.781Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Workers' Compensation Board",
+      "reason": "transcript-stated name (New York State Workers' Compensation Board) differs from catalogued (entry-callout:caregiver-rights-family-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.281Z",
+  "lastSeededAt": "2026-05-03T19:44:16.281Z"
+}

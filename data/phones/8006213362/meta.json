@@ -1,0 +1,70 @@
+{
+  "digits": "8006213362",
+  "kind": "phone",
+  "primaryName": "entry-callout:burial-cremation-rights-low-income-ny",
+  "rawValue": "(800) 621-3362",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "burial-cremation-rights-low-income-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "flood-zone-insurance-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-32-20-550Z_9da8affa-9491-6473-6e87-88930360e5c3",
+    "meta": {
+      "callId": "9da8affa-9491-6473-6e87-88930360e5c3",
+      "digits": "8006213362",
+      "dialedNumber": "(800) 621-3362",
+      "catalogedName": "burial-cremation-rights-low-income-ny",
+      "sourceId": "legal-entry:burial-cremation-rights-low-income-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "burial-cremation-rights-low-income-ny"
+        },
+        {
+          "type": "entry",
+          "id": "flood-zone-insurance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:32:20.550Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.572Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.369Z",
+  "lastSeededAt": "2026-05-03T19:44:16.369Z"
+}

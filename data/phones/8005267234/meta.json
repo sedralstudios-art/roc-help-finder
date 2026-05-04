@@ -1,0 +1,61 @@
+{
+  "digits": "8005267234",
+  "kind": "phone",
+  "primaryName": "entry-callout:ada-workplace-accommodation-ny",
+  "rawValue": "(800) 526-7234",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ada-workplace-accommodation-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-49-15-497Z_58ef89ee-0ad0-da29-3a07-de9552e606dd",
+    "meta": {
+      "callId": "58ef89ee-0ad0-da29-3a07-de9552e606dd",
+      "digits": "8005267234",
+      "dialedNumber": "(800) 526-7234",
+      "catalogedName": "ada-workplace-accommodation-ny",
+      "sourceId": "legal-entry:ada-workplace-accommodation-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ada-workplace-accommodation-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:49:15.497Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.681Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.463Z",
+  "lastSeededAt": "2026-05-03T19:44:16.463Z"
+}

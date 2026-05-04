@@ -1,0 +1,99 @@
+{
+  "digits": "5184020785",
+  "kind": "phone",
+  "primaryName": "entry-callout:funeral-burial-rights-ny",
+  "rawValue": "(518) 402-0785",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "funeral-burial-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "funeral-home-price-disclosure-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "funeral-prepayment-trust-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-28-57-368Z_70ac2166-44cb-7e95-f1e7-d344e695850c",
+    "meta": {
+      "callId": "70ac2166-44cb-7e95-f1e7-d344e695850c",
+      "digits": "5184020785",
+      "dialedNumber": "(518) 402-0785",
+      "catalogedName": "funeral-burial-rights-ny",
+      "sourceId": "legal-entry:funeral-burial-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "funeral-burial-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "funeral-director-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "funeral-home-price-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "funeral-prepayment-trust-ny"
+        },
+        {
+          "type": "entry",
+          "id": "right-of-disposition-remains-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:28:57.368Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.312Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.16666666666666666,
+      "extracted": "Sean at the Bureau of Funeral Directing",
+      "reason": "transcript-stated name (Sean at the Bureau of Funeral Directing) differs from catalogued (funeral-burial-rights-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.316Z",
+  "lastSeededAt": "2026-05-03T19:44:16.316Z"
+}

@@ -60,7 +60,7 @@ export const GARAGE_MECHANIC_UNLICENSED_NY = {
       qualifier: "Any NYS vehicle owner",
       access: "Phone at (518) 474-0919",
       outcome: "Investigation, enforcement against unlicensed operators",
-      phone: "(518) 474-0919",
+      phone: "",
       url: "https://dmv.ny.gov",
       verified: true,
       bilingual: false,

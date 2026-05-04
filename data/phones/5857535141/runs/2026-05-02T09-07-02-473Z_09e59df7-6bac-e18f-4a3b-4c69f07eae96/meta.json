@@ -1,0 +1,24 @@
+{
+  "callId": "09e59df7-6bac-e18f-4a3b-4c69f07eae96",
+  "digits": "5857535141",
+  "dialedNumber": "5857535141",
+  "catalogedName": "Monroe County Vital Records",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:07:02.473Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.611Z"
+  }
+}

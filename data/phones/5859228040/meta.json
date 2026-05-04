@@ -1,0 +1,78 @@
+{
+  "digits": "5859228040",
+  "kind": "phone",
+  "primaryName": "Home-Based Crisis Intervention (Youth)",
+  "rawValue": "585-922-8040",
+  "blockDial": false,
+  "tags": [
+    "cat:mental",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hbci",
+      "name": "Home-Based Crisis Intervention (Youth)",
+      "category": "mental",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-42-36-339Z_bb452315-0a8b-5894-3cb9-555876e08c5d",
+    "meta": {
+      "callId": "bb452315-0a8b-5894-3cb9-555876e08c5d",
+      "digits": "5859228040",
+      "dialedNumber": "5859228040",
+      "catalogedName": "Home-Based Crisis Intervention (Youth)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:42:36.339Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.828Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monica Sirianni",
+      "reason": "transcript-stated name (Monica Sirianni) differs from catalogued (Home-Based Crisis Intervention (Youth))"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.414Z",
+  "lastSeededAt": "2026-05-03T19:44:16.414Z",
+  "verifiedAt": "2026-05-03T20:21:01.810Z",
+  "verifiedRun": "2026-05-02T10-42-36-339Z_bb452315-0a8b-5894-3cb9-555876e08c5d",
+  "verifiedTranscriptOpening": "Hello, you've reached Monica Sirianni, Program Manager for Home-Based Crisis Intervention serving Monroe and Ontario County. Thank you for your message. I'll be out of the office on Tuesday, April 28t",
+  "verifiedMatchTokens": [
+    "home",
+    "based",
+    "intervention"
+  ],
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:27:02.824Z",
+      "sourceUrl": "https://www.rochesterregional.org/services/youth-family-behavioral-health/crisis-care",
+      "sourceLabel": "Rochester Regional Health crisis care page",
+      "notes": "Web confirms (585) 922-8040 for HBCI Program Manager. Crisis-tier youth intervention."
+    }
+  ]
+}

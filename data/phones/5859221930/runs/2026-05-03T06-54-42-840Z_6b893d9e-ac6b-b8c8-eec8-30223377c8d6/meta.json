@@ -1,0 +1,29 @@
+{
+  "callId": "6b893d9e-ac6b-b8c8-eec8-30223377c8d6",
+  "digits": "5859221930",
+  "dialedNumber": "(585) 922-1930",
+  "catalogedName": "wic-program-ny-program",
+  "sourceId": "legal-entry:wic-program-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wic-program-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:54:42.840Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.157Z"
+  }
+}

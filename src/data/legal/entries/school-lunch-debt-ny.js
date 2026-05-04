@@ -60,7 +60,7 @@ export const SCHOOL_LUNCH_DEBT_NY = {
       qualifier: "RCSD students and families",
       access: "Phone at (585) 262-8100",
       outcome: "Free meals for all students, account resolution",
-      phone: "(585) 262-8100",
+      phone: "",
       url: "https://www.rcsdk12.org",
       verified: true,
       bilingual: true,

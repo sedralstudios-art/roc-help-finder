@@ -1,0 +1,70 @@
+{
+  "digits": "5853928350",
+  "kind": "phone",
+  "primaryName": "Parma Public Library",
+  "rawValue": "585-392-8350",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "parmalib",
+      "name": "Parma Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-13-52-016Z_b8cf3bfc-8433-5f48-c1ef-95dfdacf22c4",
+    "meta": {
+      "callId": "b8cf3bfc-8433-5f48-c1ef-95dfdacf22c4",
+      "digits": "5853928350",
+      "dialedNumber": "5853928350",
+      "catalogedName": "Parma Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:13:52.016Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.369Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Parma Public Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.447Z",
+  "lastSeededAt": "2026-05-03T19:44:16.447Z",
+  "verifiedAt": "2026-05-03T20:21:01.731Z",
+  "verifiedRun": "2026-05-02T07-13-52-016Z_b8cf3bfc-8433-5f48-c1ef-95dfdacf22c4",
+  "verifiedTranscriptOpening": "Hello, you've reached the Parma Public Library. Our hours are Monday through Thursday, 10 a.m. to 8 p.m. Friday, 10 a.m. to 6 p.m. The fourth Friday of each month is 12 to 6 p.m. and Saturdays 10 a.m.",
+  "verifiedMatchTokens": [
+    "parma",
+    "public",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

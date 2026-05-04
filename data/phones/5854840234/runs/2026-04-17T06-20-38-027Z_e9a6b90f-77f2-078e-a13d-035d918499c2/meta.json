@@ -1,0 +1,24 @@
+{
+  "callId": "e9a6b90f-77f2-078e-a13d-035d918499c2",
+  "digits": "5854840234",
+  "dialedNumber": "(585) 484-0234",
+  "catalogedName": "ROCovery Fitness",
+  "sourceId": "rocovery",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:20:38.027Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.703Z"
+  }
+}

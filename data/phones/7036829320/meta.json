@@ -1,0 +1,61 @@
+{
+  "digits": "7036829320",
+  "kind": "phone",
+  "primaryName": "entry-callout:civil-asset-forfeiture-defense-ny",
+  "rawValue": "(703) 682-9320",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-57-51-315Z_7a9c1130-f10f-12fc-7a5c-67a3acd718c5",
+    "meta": {
+      "callId": "7a9c1130-f10f-12fc-7a5c-67a3acd718c5",
+      "digits": "7036829320",
+      "dialedNumber": "(703) 682-9320",
+      "catalogedName": "civil-asset-forfeiture-defense-ny",
+      "sourceId": "legal-entry:civil-asset-forfeiture-defense-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "civil-asset-forfeiture-defense-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:57:51.315Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.743Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.479Z",
+  "lastSeededAt": "2026-05-03T19:44:16.479Z"
+}

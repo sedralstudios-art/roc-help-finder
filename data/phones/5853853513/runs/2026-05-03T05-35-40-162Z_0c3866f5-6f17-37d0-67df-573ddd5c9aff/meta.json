@@ -1,0 +1,33 @@
+{
+  "callId": "0c3866f5-6f17-37d0-67df-573ddd5c9aff",
+  "digits": "5853853513",
+  "dialedNumber": "(585) 385-3513",
+  "catalogedName": "electrical-residential-ny-mon-east-rochester-village",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-east-rochester-village",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-east-rochester-village"
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-east-rochester-village"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:35:40.162Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.593Z"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "digits": "5852475050",
+  "kind": "phone",
+  "primaryName": "Gates Chili School Food Pantry",
+  "rawValue": "585-247-5050",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gateschilifoodpantry",
+      "name": "Gates Chili School Food Pantry",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-38-34-342Z_a5178d47-da2a-abc4-28fd-709fc7600a93",
+    "meta": {
+      "callId": "a5178d47-da2a-abc4-28fd-709fc7600a93",
+      "digits": "5852475050",
+      "dialedNumber": "5852475050",
+      "catalogedName": "Gates Chili School Food Pantry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:38:34.342Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.163Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Gates-Chile Central School District",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.435Z",
+  "lastSeededAt": "2026-05-03T19:44:16.435Z",
+  "verifiedAt": "2026-05-03T20:21:01.684Z",
+  "verifiedRun": "2026-05-02T05-38-34-342Z_a5178d47-da2a-abc4-28fd-709fc7600a93",
+  "verifiedTranscriptOpening": "Thank you for calling the Gates-Chile Central School District. We are currently closed. Please call back during normal business hours, Monday through Friday, 730 a.m. to 4 p.m. If you know your party'",
+  "verifiedMatchTokens": [
+    "gates",
+    "school"
+  ],
+  "verifiedRatio": 0.4
+}

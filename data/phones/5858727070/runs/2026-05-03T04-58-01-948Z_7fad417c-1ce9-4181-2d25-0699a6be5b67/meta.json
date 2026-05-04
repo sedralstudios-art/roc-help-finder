@@ -1,0 +1,41 @@
+{
+  "callId": "7fad417c-1ce9-4181-2d25-0699a6be5b67",
+  "digits": "5858727070",
+  "dialedNumber": "(585) 872-7070",
+  "catalogedName": "snow-plow-damage-property-ny",
+  "sourceId": "legal-entry:snow-plow-damage-property-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny"
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:58:01.948Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.477Z"
+  }
+}

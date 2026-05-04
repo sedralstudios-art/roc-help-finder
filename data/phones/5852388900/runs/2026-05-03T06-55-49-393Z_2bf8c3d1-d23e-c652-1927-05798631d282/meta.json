@@ -1,0 +1,29 @@
+{
+  "callId": "2bf8c3d1-d23e-c652-1927-05798631d282",
+  "digits": "5852388900",
+  "dialedNumber": "(585) 238-8900",
+  "catalogedName": "workers-comp-physician-choice-ny",
+  "sourceId": "legal-entry:workers-comp-physician-choice-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "workers-comp-physician-choice-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:55:49.393Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.165Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "f2881588-6b27-a457-b119-ec3c06510287",
+  "digits": "5856371130",
+  "dialedNumber": "(585) 637-1130",
+  "catalogedName": "Clarkson Town Clerk",
+  "sourceId": "clarksonclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:37:14.605Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.929Z"
+  }
+}

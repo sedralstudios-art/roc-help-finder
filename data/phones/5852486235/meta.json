@@ -1,0 +1,59 @@
+{
+  "digits": "5852486235",
+  "kind": "phone",
+  "primaryName": "Pittsford Seniors",
+  "rawValue": "585-248-6235",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordsenior",
+      "name": "Pittsford Seniors",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-43-27-434Z_05865437-a15b-1c77-059a-4f6a1626fd29",
+    "meta": {
+      "callId": "05865437-a15b-1c77-059a-4f6a1626fd29",
+      "digits": "5852486235",
+      "dialedNumber": "5852486235",
+      "catalogedName": "Pittsford Seniors",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:43:27.434Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.173Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.454Z",
+  "lastSeededAt": "2026-05-03T19:44:16.454Z"
+}

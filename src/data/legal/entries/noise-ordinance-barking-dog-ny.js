@@ -61,7 +61,7 @@ export const NOISE_ORDINANCE_BARKING_DOG_NY = {
       qualifier: "City of Rochester residents",
       access: "Phone",
       outcome: "Investigation, warnings, nuisance proceedings",
-      phone: "(585) 428-7274",
+      phone: "",
       url: "https://www.cityofrochester.gov/animalservices/",
       verified: true,
       bilingual: false,

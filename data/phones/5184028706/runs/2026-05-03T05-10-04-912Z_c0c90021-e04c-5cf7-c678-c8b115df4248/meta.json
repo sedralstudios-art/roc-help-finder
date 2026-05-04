@@ -1,0 +1,37 @@
+{
+  "callId": "c0c90021-e04c-5cf7-c678-c8b115df4248",
+  "digits": "5184028706",
+  "dialedNumber": "(518) 402-8706",
+  "catalogedName": "bottle-bill-deposit-return-ny",
+  "sourceId": "legal-entry:bottle-bill-deposit-return-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny"
+    },
+    {
+      "type": "entry",
+      "id": "bottle-deposit-returnable-ny"
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:10:04.912Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.503Z"
+  }
+}

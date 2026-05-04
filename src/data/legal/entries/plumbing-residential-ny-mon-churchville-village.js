@@ -20,7 +20,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Churchville is a small village. There's no separate plumber license chapter in the village code. Instead, all building work (including plumbing) goes through one combined permit application. The application asks for proof of liability insurance and workers comp (or a \"Self/No employees\" box for a homeowner or sole proprietor).\n\nPlumbing work follows the state Uniform Code. That covers things like water heater replacement, new fixtures, and sewer/water line work. The village building inspector/code enforcement officer inspects the work and enforces the code.\n\nExact fees and whether homeowners can pull their own plumbing permits are not published online. Call the Building Inspector at (585) 293-3720 ext. 134 to confirm."
+    en: "Churchville is a small village. There's no separate plumber license chapter in the village code. Instead, all building work (including plumbing) goes through one combined permit application. The application asks for proof of liability insurance and workers comp (or a \"Self/No employees\" box for a homeowner or sole proprietor).\n\nPlumbing work follows the state Uniform Code. That covers things like water heater replacement, new fixtures, and sewer/water line work. The village building inspector/code enforcement officer inspects the work and enforces the code.\n\nExact fees and whether homeowners can pull their own plumbing permits are not published online. Call the Building Inspector at [number being verified] ext. 134 to confirm."
   },
 
   example: {
@@ -59,7 +59,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Village",
       access: "23 E Buffalo St; phone; hours M-F 7am-3:30pm",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-293-3720",
+      phone: "",
       url: "https://churchville.net/applications/",
       verified: true,
       bilingual: false,

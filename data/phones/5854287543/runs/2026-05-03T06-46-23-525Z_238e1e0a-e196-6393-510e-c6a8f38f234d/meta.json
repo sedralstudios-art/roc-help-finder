@@ -1,0 +1,29 @@
+{
+  "callId": "238e1e0a-e196-6393-510e-c6a8f38f234d",
+  "digits": "5854287543",
+  "dialedNumber": "(585) 428-7543",
+  "catalogedName": "snow-removal-ordinance-ny",
+  "sourceId": "legal-entry:snow-removal-ordinance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:46:23.525Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.099Z"
+  }
+}

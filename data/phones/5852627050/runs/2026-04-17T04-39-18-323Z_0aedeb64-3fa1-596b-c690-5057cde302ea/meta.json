@@ -1,0 +1,24 @@
+{
+  "callId": "0aedeb64-3fa1-596b-c690-5057cde302ea",
+  "digits": "5852627050",
+  "dialedNumber": "(585) 262-7050",
+  "catalogedName": "Catholic Family Center (Refugees)",
+  "sourceId": "cfc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:39:18.323Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.578Z"
+  }
+}

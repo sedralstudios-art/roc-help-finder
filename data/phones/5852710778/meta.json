@@ -1,0 +1,66 @@
+{
+  "digits": "5852710778",
+  "kind": "phone",
+  "primaryName": "Head Start / Free Pre-K",
+  "rawValue": "585-271-0778",
+  "blockDial": false,
+  "tags": [
+    "cat:childcare",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hs",
+      "name": "Head Start / Free Pre-K",
+      "category": "childcare",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "pat",
+      "name": "Parents as Teachers",
+      "category": "childcare",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-04-34-805Z_530141c2-8934-dee9-58f2-7c1a34f4655d",
+    "meta": {
+      "callId": "530141c2-8934-dee9-58f2-7c1a34f4655d",
+      "digits": "5852710778",
+      "dialedNumber": "5852710778",
+      "catalogedName": "Head Start / Free Pre-K",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:04:34.805Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.220Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.357Z",
+  "lastSeededAt": "2026-05-03T19:44:16.357Z"
+}

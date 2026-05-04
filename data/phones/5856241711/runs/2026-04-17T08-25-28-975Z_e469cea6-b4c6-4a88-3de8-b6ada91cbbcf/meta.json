@@ -1,0 +1,24 @@
+{
+  "callId": "e469cea6-b4c6-4a88-3de8-b6ada91cbbcf",
+  "digits": "5856241711",
+  "dialedNumber": "(585) 624-1711",
+  "catalogedName": "Honeoye Falls Village Clerk",
+  "sourceId": "hfclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:25:28.975Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.911Z"
+  }
+}

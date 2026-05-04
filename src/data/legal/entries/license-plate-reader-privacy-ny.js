@@ -60,7 +60,7 @@ export const LICENSE_PLATE_READER_PRIVACY_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (212) 607-3300",
       outcome: "Legal advocacy, FOIL assistance, policy reform",
-      phone: "(212) 607-3300",
+      phone: "",
       url: "https://www.nyclu.org",
       verified: true,
       bilingual: false,

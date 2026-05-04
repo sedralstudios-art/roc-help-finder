@@ -1,0 +1,240 @@
+{
+  "digits": "5184869786",
+  "kind": "phone",
+  "primaryName": "DMV Non-Driver ID Card",
+  "rawValue": "518-486-9786",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nysDMVAbandonedVehicle",
+      "value": "518-486-9786",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "dmvid",
+      "name": "DMV Non-Driver ID Card",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "abandoned-vehicle-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "adult-cannabis-personal-use-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "bait-and-switch-advertising-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "car-registration-lapse-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "defensive-driving-pirp-course-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "driving-suspended-license-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "driving-without-insurance-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "junior-license-gdl-restrictions-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "license-points-reduction-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "license-suspended-unpaid-tickets-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-dv-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "moped-limited-use-motorcycle-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "motor-vehicle-service-contract-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "moving-violation-vs-nonmoving-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "non-driver-state-id-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "ny-driving-abstract-license-history-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "open-container-car-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "photo-red-light-ticket-points-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "private-party-car-sales-tax-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "real-id-enhanced-license-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "seatbelt-law-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "snowmobile-atv-laws-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "studded-snow-tire-season-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "suspended-license-hardship-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "texting-while-driving-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "transfer-deceased-vehicle-title-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "vehicle-title-transfer-private-sale-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "window-tint-limits-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-14-48-180Z_da7cca8f-de6d-efb0-b0af-7d4d7eafd10a",
+    "meta": {
+      "callId": "da7cca8f-de6d-efb0-b0af-7d4d7eafd10a",
+      "digits": "5184869786",
+      "dialedNumber": "5184869786",
+      "catalogedName": "DMV Non-Driver ID Card",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:14:48.180Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.108Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Motor Vehicles",
+      "reason": "transcript-stated name (New York State Department of Motor Vehicles) differs from catalogued (DMV Non-Driver ID Card)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.270Z",
+  "lastSeededAt": "2026-05-03T19:44:16.270Z"
+}

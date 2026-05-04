@@ -1,0 +1,77 @@
+{
+  "digits": "8772663492",
+  "kind": "phone",
+  "primaryName": "RG&E Payment Help",
+  "rawValue": "877-266-3492",
+  "blockDial": false,
+  "tags": [
+    "cat:utilities",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "UTILITIES",
+      "slug": "rgeBillHelp",
+      "value": "877-266-3492",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "rge",
+      "name": "RG&E Payment Help",
+      "category": "utilities",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-22-12-587Z_606bea42-dd79-8bc1-6651-a7d7d0cad954",
+    "meta": {
+      "callId": "606bea42-dd79-8bc1-6651-a7d7d0cad954",
+      "digits": "8772663492",
+      "dialedNumber": "8772663492",
+      "catalogedName": "RG&E Payment Help",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:22:12.587Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.779Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Rochester Gas and Electric",
+      "reason": "transcript-stated name (Rochester Gas and Electric) differs from catalogued (RG&E Payment Help)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.354Z",
+  "lastSeededAt": "2026-05-03T19:44:16.354Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:54:34.244Z",
+      "sourceUrl": "https://www.rge.com/account/waystopay/help-with-bill",
+      "sourceLabel": "RG&E Help With Your Bill page",
+      "notes": "Web confirms 1-877-266-3492 as RG&E bill-help / payment plan line. Main customer service is 1-800-743-1701 (different)."
+    }
+  ]
+}

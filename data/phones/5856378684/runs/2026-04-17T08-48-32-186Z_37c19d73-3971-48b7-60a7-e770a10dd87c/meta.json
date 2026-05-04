@@ -1,0 +1,24 @@
+{
+  "callId": "37c19d73-3971-48b7-60a7-e770a10dd87c",
+  "digits": "5856378684",
+  "dialedNumber": "(585) 637-8684",
+  "catalogedName": "Sweden Building Department",
+  "sourceId": "swedenbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:48:32.186Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.942Z"
+  }
+}

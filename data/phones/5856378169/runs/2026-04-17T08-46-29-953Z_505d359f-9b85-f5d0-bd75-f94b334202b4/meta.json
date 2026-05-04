@@ -1,0 +1,24 @@
+{
+  "callId": "505d359f-9b85-f5d0-bd75-f94b334202b4",
+  "digits": "5856378169",
+  "dialedNumber": "(585) 637-8169",
+  "catalogedName": "Brockport Ecumenical Food Shelf",
+  "sourceId": "brockportfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:46:29.953Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.939Z"
+  }
+}

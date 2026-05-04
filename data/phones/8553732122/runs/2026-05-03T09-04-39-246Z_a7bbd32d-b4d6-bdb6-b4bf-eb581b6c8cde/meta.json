@@ -1,0 +1,33 @@
+{
+  "callId": "a7bbd32d-b4d6-bdb6-b4bf-eb581b6c8cde",
+  "digits": "8553732122",
+  "dialedNumber": "(855) 373-2122",
+  "catalogedName": "involuntary-commitment-ny",
+  "sourceId": "legal-entry:involuntary-commitment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "involuntary-commitment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-patient-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:04:39.246Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.772Z"
+  }
+}

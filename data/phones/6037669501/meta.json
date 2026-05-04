@@ -1,0 +1,59 @@
+{
+  "digits": "6037669501",
+  "kind": "phone",
+  "primaryName": "Angel Flight NE (Free Medical Flights)",
+  "rawValue": "603-766-9501",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "angelflight",
+      "name": "Angel Flight NE (Free Medical Flights)",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-00-57-189Z_ab617b82-c707-89f4-c1ef-5e82fbd444be",
+    "meta": {
+      "callId": "ab617b82-c707-89f4-c1ef-5e82fbd444be",
+      "digits": "6037669501",
+      "dialedNumber": "6037669501",
+      "catalogedName": "Angel Flight NE (Free Medical Flights)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:00:57.189Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.727Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.428Z",
+  "lastSeededAt": "2026-05-03T19:44:16.428Z"
+}

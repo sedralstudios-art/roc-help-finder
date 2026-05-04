@@ -1,0 +1,65 @@
+{
+  "callId": "180bb026-e625-c069-140d-4145072c1d8d",
+  "digits": "2124168700",
+  "dialedNumber": "(212) 416-8700",
+  "catalogedName": "civil-service-discipline-ny",
+  "sourceId": "legal-entry:civil-service-discipline-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-service-discipline-ny"
+    },
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny"
+    },
+    {
+      "type": "entry",
+      "id": "freelance-isnt-free-act-ny"
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pay-transparency-salary-range-ny"
+    },
+    {
+      "type": "entry",
+      "id": "prevailing-wage-public-works-ny"
+    },
+    {
+      "type": "entry",
+      "id": "prompt-pay-construction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vacation-pay-wage-protection-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:24:12.608Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.012Z"
+  }
+}

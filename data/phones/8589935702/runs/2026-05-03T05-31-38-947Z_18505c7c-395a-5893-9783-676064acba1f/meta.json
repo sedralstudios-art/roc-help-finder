@@ -1,0 +1,33 @@
+{
+  "callId": "18505c7c-395a-5893-9783-676064acba1f",
+  "digits": "8589935702",
+  "dialedNumber": "8589935702",
+  "catalogedName": "basketball-hoop-street-driveway-ny",
+  "sourceId": "legal-entry:basketball-hoop-street-driveway-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny"
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:31:38.947Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.567Z"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "digits": "5859648181",
+  "kind": "phone",
+  "primaryName": "Hamlin Building Inspector",
+  "rawValue": "585-964-8181",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hamlinbuilding",
+      "name": "Hamlin Building Inspector",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-hamlin-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-hamlin-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-hamlin-town",
+      "line": 23
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-hamlin-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-57-21-673Z_1b4da8d9-e4e5-75ad-de2e-1479ad0e3704",
+    "meta": {
+      "callId": "1b4da8d9-e4e5-75ad-de2e-1479ad0e3704",
+      "digits": "5859648181",
+      "dialedNumber": "5859648181",
+      "catalogedName": "Hamlin Building Inspector",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:57:21.673Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.718Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Cheryl Pichelli at the Town of Hamlin Building Department",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.309Z",
+  "lastSeededAt": "2026-05-03T19:44:16.309Z"
+}

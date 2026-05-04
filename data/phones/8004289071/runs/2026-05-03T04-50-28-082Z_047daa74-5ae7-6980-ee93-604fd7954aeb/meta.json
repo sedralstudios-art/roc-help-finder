@@ -1,0 +1,41 @@
+{
+  "callId": "047daa74-5ae7-6980-ee93-604fd7954aeb",
+  "digits": "8004289071",
+  "dialedNumber": "(800) 428-9071",
+  "catalogedName": "insulin-cost-cap-ny",
+  "sourceId": "legal-entry:insulin-cost-cap-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny"
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-bills-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:50:28.082Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.453Z"
+  }
+}

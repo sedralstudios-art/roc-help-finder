@@ -60,7 +60,7 @@ export const APARTMENT_FIRE_ESCAPE_SAFETY_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-7037",
       outcome: "Inspection, violation orders, compliance enforcement",
-      phone: "(585) 428-7037",
+      phone: "",
       url: "https://www.cityofrochester.gov/fire",
       verified: true,
       bilingual: false,

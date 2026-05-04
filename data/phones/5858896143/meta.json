@@ -1,0 +1,73 @@
+{
+  "digits": "5858896143",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-chili-town",
+  "rawValue": "(585) 889-6143",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-chili-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-chili-town",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-chili-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-chili-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-43-22-658Z_5fe847ad-27d7-00a7-a7ef-c2c08163498c",
+    "meta": {
+      "callId": "5fe847ad-27d7-00a7-a7ef-c2c08163498c",
+      "digits": "5858896143",
+      "dialedNumber": "5858896143",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-chili-town",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:43:22.658Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.690Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Town of Chili Code Enforcement and Building Department",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.326Z",
+  "lastSeededAt": "2026-05-03T19:44:16.326Z"
+}

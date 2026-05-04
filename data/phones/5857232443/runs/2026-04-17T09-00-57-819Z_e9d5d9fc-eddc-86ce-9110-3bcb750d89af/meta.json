@@ -1,0 +1,24 @@
+{
+  "callId": "e9d5d9fc-eddc-86ce-9110-3bcb750d89af",
+  "digits": "5857232443",
+  "dialedNumber": "(585) 723-2443",
+  "catalogedName": "Town of Greece Building Department",
+  "sourceId": "electrical-residential-ny-mon-greece-town::Town of Greece Building Department",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:00:57.819Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.960Z"
+  }
+}

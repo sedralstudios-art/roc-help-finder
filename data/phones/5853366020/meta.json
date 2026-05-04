@@ -1,0 +1,42 @@
+{
+  "digits": "5853366020",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-41-05-560Z_1004a1a2-bf9d-34d3-8881-595ced1d6054",
+    "meta": {
+      "callId": "1004a1a2-bf9d-34d3-8881-595ced1d6054",
+      "digits": "5853366020",
+      "dialedNumber": "5853366020",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:41:05.560Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.298Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Town of Irondequoit Community Development Department",
+      "reason": "transcript-stated name (Town of Irondequoit Community Development Department) differs from catalogued (null)"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

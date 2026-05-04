@@ -1,0 +1,37 @@
+{
+  "callId": "8ff50083-487d-5f9c-eb31-b0948814145f",
+  "digits": "5853034901",
+  "dialedNumber": "(585) 303-4901",
+  "catalogedName": "electrical-residential-ny-mon-honeoye-falls-village",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-honeoye-falls-village",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-honeoye-falls-village"
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-honeoye-falls-village"
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-honeoye-falls-village"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:42:33.130Z",
+  "durationSec": 24,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.376Z"
+  }
+}

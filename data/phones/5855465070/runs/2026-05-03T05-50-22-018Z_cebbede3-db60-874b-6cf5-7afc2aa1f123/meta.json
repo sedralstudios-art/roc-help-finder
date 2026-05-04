@@ -1,0 +1,29 @@
+{
+  "callId": "cebbede3-db60-874b-6cf5-7afc2aa1f123",
+  "digits": "5855465070",
+  "dialedNumber": "(585) 546-5070",
+  "catalogedName": "animal-cruelty-reporting-ny",
+  "sourceId": "legal-entry:animal-cruelty-reporting-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-cruelty-reporting-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:50:22.018Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.688Z"
+  }
+}

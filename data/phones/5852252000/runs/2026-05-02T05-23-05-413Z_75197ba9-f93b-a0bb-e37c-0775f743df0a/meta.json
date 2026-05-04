@@ -1,0 +1,24 @@
+{
+  "callId": "75197ba9-f93b-a0bb-e37c-0775f743df0a",
+  "digits": "5852252000",
+  "dialedNumber": "5852252000",
+  "catalogedName": "Town of Greece Town Hall",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:23:05.413Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.127Z"
+  }
+}

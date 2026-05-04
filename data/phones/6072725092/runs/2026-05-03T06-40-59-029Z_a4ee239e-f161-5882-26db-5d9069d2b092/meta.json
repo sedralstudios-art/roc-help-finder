@@ -1,0 +1,29 @@
+{
+  "callId": "a4ee239e-f161-5882-26db-5d9069d2b092",
+  "digits": "6072725092",
+  "dialedNumber": "(607) 272-5092",
+  "catalogedName": "right-of-disposition-remains-ny",
+  "sourceId": "legal-entry:right-of-disposition-remains-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:59.029Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.062Z"
+  }
+}

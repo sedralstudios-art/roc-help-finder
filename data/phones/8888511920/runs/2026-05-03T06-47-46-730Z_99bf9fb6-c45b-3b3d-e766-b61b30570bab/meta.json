@@ -1,0 +1,29 @@
+{
+  "callId": "99bf9fb6-c45b-3b3d-e766-b61b30570bab",
+  "digits": "8888511920",
+  "dialedNumber": "(888) 851-1920",
+  "catalogedName": "stop-payment-order-check-ny",
+  "sourceId": "legal-entry:stop-payment-order-check-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "stop-payment-order-check-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:47:46.730Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.110Z"
+  }
+}

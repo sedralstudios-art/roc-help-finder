@@ -1,0 +1,61 @@
+{
+  "digits": "5852671000",
+  "kind": "phone",
+  "primaryName": "entry-callout:kindergarten-enrollment-age-ny",
+  "rawValue": "(585) 267-1000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-18-56-108Z_587070f2-41ba-eaa0-5a7d-65dce6d84d24",
+    "meta": {
+      "callId": "587070f2-41ba-eaa0-5a7d-65dce6d84d24",
+      "digits": "5852671000",
+      "dialedNumber": "(585) 267-1000",
+      "catalogedName": "kindergarten-enrollment-age-ny",
+      "sourceId": "legal-entry:kindergarten-enrollment-age-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "kindergarten-enrollment-age-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:18:56.108Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.893Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.518Z",
+  "lastSeededAt": "2026-05-03T19:44:16.518Z"
+}

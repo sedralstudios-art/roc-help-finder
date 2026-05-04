@@ -59,7 +59,7 @@ export const AUTO_LEMON_LAW_NEW_CAR_NY = {
       qualifier: "Any new car buyer in New York within 18,000 miles or 2 years",
       access: "Phone or online",
       outcome: "Free binding arbitration",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau/new-car-lemon-law",
       verified: true,
       bilingual: false,

@@ -1,0 +1,64 @@
+{
+  "digits": "5853597032",
+  "kind": "phone",
+  "primaryName": "Henrietta Assessor",
+  "rawValue": "585-359-7032",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettaassessor",
+      "name": "Henrietta Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-46-37-388Z_f1e6c79c-8d27-5b68-4d2b-79432426f133",
+    "meta": {
+      "callId": "f1e6c79c-8d27-5b68-4d2b-79432426f133",
+      "digits": "5853597032",
+      "dialedNumber": "585-359-7032",
+      "catalogedName": "Henrietta Assessor",
+      "sourceId": "henriettaassessor",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "henriettaassessor"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:46:37.388Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.664Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.445Z",
+  "lastSeededAt": "2026-05-03T19:44:16.445Z"
+}

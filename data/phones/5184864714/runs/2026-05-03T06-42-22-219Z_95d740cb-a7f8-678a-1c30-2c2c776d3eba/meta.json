@@ -1,0 +1,29 @@
+{
+  "callId": "95d740cb-a7f8-678a-1c30-2c2c776d3eba",
+  "digits": "5184864714",
+  "dialedNumber": "(518) 486-4714",
+  "catalogedName": "salvage-title-branded-vehicle-ny",
+  "sourceId": "legal-entry:salvage-title-branded-vehicle-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "salvage-title-branded-vehicle-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:42:22.219Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.072Z"
+  }
+}

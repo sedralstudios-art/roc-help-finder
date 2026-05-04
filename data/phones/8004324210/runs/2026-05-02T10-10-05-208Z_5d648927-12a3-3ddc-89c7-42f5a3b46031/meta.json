@@ -1,0 +1,24 @@
+{
+  "callId": "5d648927-12a3-3ddc-89c7-42f5a3b46031",
+  "digits": "8004324210",
+  "dialedNumber": "8004324210",
+  "catalogedName": null,
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:10:05.208Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.749Z"
+  }
+}

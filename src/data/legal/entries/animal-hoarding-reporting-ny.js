@@ -60,7 +60,7 @@ export const ANIMAL_HOARDING_REPORTING_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 428-7274",
       outcome: "Investigation, animal seizure, cruelty charges",
-      phone: "(585) 428-7274",
+      phone: "",
       url: "https://www.monroecounty.gov/animalservices",
       verified: true,
       bilingual: false,

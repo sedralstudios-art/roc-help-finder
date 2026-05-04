@@ -1,0 +1,24 @@
+{
+  "callId": "229fb099-557a-099f-3ca2-0f470be38185",
+  "digits": "5854213202",
+  "dialedNumber": "5854213202",
+  "catalogedName": "Fairport Village Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:22:57.162Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.390Z"
+  }
+}

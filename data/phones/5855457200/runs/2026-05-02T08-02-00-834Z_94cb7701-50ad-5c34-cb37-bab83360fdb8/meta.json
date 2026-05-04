@@ -1,0 +1,24 @@
+{
+  "callId": "94cb7701-50ad-5c34-cb37-bab83360fdb8",
+  "digits": "5855457200",
+  "dialedNumber": "5855457200",
+  "catalogedName": "Trillium Health Food Pantry",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:02:00.834Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.476Z"
+  }
+}

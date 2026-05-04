@@ -1,0 +1,29 @@
+{
+  "callId": "8d6e013f-c61d-513f-3c14-9d68243c1af1",
+  "digits": "5854287369",
+  "dialedNumber": "(585) 428-7369",
+  "catalogedName": "trash-pickup-missed-complaint-ny",
+  "sourceId": "legal-entry:trash-pickup-missed-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:50:24.823Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.128Z"
+  }
+}

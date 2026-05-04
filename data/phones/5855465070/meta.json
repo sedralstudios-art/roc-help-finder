@@ -1,0 +1,61 @@
+{
+  "digits": "5855465070",
+  "kind": "phone",
+  "primaryName": "entry-callout:animal-cruelty-reporting-ny",
+  "rawValue": "(585) 546-5070",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-cruelty-reporting-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-50-22-018Z_cebbede3-db60-874b-6cf5-7afc2aa1f123",
+    "meta": {
+      "callId": "cebbede3-db60-874b-6cf5-7afc2aa1f123",
+      "digits": "5855465070",
+      "dialedNumber": "(585) 546-5070",
+      "catalogedName": "animal-cruelty-reporting-ny",
+      "sourceId": "legal-entry:animal-cruelty-reporting-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "animal-cruelty-reporting-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:50:22.018Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.688Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.466Z",
+  "lastSeededAt": "2026-05-03T19:44:16.466Z"
+}

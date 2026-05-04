@@ -1,0 +1,44 @@
+{
+  "digits": "8332475346",
+  "kind": "phone",
+  "primaryName": "CDPAP (You Get Paid to Care for Your Loved One)",
+  "rawValue": "1-833-247-5346",
+  "blockDial": false,
+  "tags": [
+    "cat:caregiver",
+    "cat:disabilitySvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "cdpap",
+      "name": "CDPAP (You Get Paid to Care for Your Loved One)",
+      "category": "disabilitySvc",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "cdpapcg",
+      "name": "CDPAP (Get Paid to Be Their Caregiver)",
+      "category": "caregiver",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.359Z",
+  "lastSeededAt": "2026-05-03T19:44:16.359Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:16:31.187Z",
+      "sourceUrl": "https://pplfirst.com/programs/new-york/ny-consumer-directed-personal-assistance-program-cdpap/",
+      "sourceLabel": "PPL official CDPAP page (NY State Medicaid Statewide Fiscal Intermediary)",
+      "notes": "Web confirms 1-833-247-5346 as PPL/CDPAP statewide intake. UNHIDING cdpap + cdpapcg. As of 2025, PPL is the only CDPAP fiscal intermediary in NY."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "a445bc68-8e82-256a-4356-7d10ef636fd4",
+  "digits": "5853929462",
+  "dialedNumber": "585-392-9462",
+  "catalogedName": "Parma Town Clerk",
+  "sourceId": "parmaclerk",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "parmaclerk"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:46:45.704Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.665Z"
+  }
+}

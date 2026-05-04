@@ -1,0 +1,24 @@
+{
+  "callId": "6bf9b9f4-2440-ddf3-76cf-94f5b7102dc8",
+  "digits": "5859647222",
+  "dialedNumber": "5859647222",
+  "catalogedName": "Hamlin Recreation",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:55:10.335Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.714Z"
+  }
+}

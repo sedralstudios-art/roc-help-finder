@@ -1,0 +1,219 @@
+{
+  "digits": "8773824357",
+  "kind": "phone",
+  "primaryName": "HOTLINES.ftcConsumer",
+  "rawValue": "877-382-4357",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "ftcConsumer",
+      "value": "877-382-4357",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "bait-and-switch-advertising-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "burial-cremation-rights-low-income-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "card-act-credit-card-fees-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-minimum-purchase-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "credit-repair-companies-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny",
+      "line": 68
+    },
+    {
+      "type": "entry",
+      "id": "defective-product-ucc-warranty-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "donnelly-act-antitrust-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "equal-credit-opportunity-act-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-rescue-scams-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "funeral-home-price-disclosure-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "internet-purchase-chargebacks-ny",
+      "line": 62
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "ny-telemarketing-rules-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "odometer-fraud-used-car-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "photo-name-used-without-permission-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "puppy-lemon-law-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "pyramid-scheme-chain-letter-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "rental-car-damage-waiver-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "right-to-repair-car-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-civil-recovery-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "tila-mortgage-disclosures-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-39-51-273Z_5910ad84-7caf-65c5-4f60-7aa235524649",
+    "meta": {
+      "callId": "5910ad84-7caf-65c5-4f60-7aa235524649",
+      "digits": "8773824357",
+      "dialedNumber": "877-382-4357",
+      "catalogedName": "HOTLINES.ftcConsumer",
+      "sourceId": "pole:HOTLINES.ftcConsumer",
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-03T02:39:51.273Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.869Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.270Z",
+  "lastSeededAt": "2026-05-03T19:44:16.270Z"
+}

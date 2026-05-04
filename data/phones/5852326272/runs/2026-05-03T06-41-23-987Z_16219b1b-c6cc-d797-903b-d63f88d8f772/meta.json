@@ -1,0 +1,29 @@
+{
+  "callId": "16219b1b-c6cc-d797-903b-d63f88d8f772",
+  "digits": "5852326272",
+  "dialedNumber": "(585) 232-6272",
+  "catalogedName": "rights-during-police-encounter-ny",
+  "sourceId": "legal-entry:rights-during-police-encounter-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "rights-during-police-encounter-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:41:23.987Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.065Z"
+  }
+}

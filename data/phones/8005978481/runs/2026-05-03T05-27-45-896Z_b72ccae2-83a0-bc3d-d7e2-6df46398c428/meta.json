@@ -1,0 +1,37 @@
+{
+  "callId": "b72ccae2-83a0-bc3d-d7e2-6df46398c428",
+  "digits": "8005978481",
+  "dialedNumber": "(800) 597-8481",
+  "catalogedName": "mental-health-crisis-rights-ny",
+  "sourceId": "legal-entry:mental-health-crisis-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mental-health-crisis-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-parity-insurance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-records-access-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:27:45.896Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.540Z"
+  }
+}

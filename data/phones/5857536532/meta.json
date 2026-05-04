@@ -1,0 +1,143 @@
+{
+  "digits": "5857536532",
+  "kind": "phone",
+  "primaryName": "Child Protective Services (CPS)",
+  "rawValue": "585-753-6532",
+  "blockDial": false,
+  "tags": [
+    "cat:domesticSvc",
+    "cat:parentalProtection",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "cps",
+      "name": "Child Protective Services (CPS)",
+      "category": "domesticSvc",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "cpsparent",
+      "name": "Child Protective Services — Report Child Endangerment",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "assisted-living-complaint-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "cps-investigation-process-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "elder-abuse-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "home-alone-age-kids-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-abuse-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-financial-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-revocation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "representative-payee-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "reverse-mortgage-seniors-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "scam-protection-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-11-02-030Z_d88693bc-579c-1b3f-1916-5046e9b2d5db",
+    "meta": {
+      "callId": "d88693bc-579c-1b3f-1916-5046e9b2d5db",
+      "digits": "5857536532",
+      "dialedNumber": "5857536532",
+      "catalogedName": "Child Protective Services (CPS)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:11:02.030Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.620Z"
+      }
+    },
+    "verdict": {
+      "bucket": "voicemail-of-person",
+      "confidence": 0.9,
+      "reason": "matches voicemail-of-person pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.275Z",
+  "lastSeededAt": "2026-05-03T19:44:16.275Z"
+}

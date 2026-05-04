@@ -1,0 +1,243 @@
+{
+  "digits": "5857535555",
+  "kind": "phone",
+  "primaryName": "entry-callout:aed-defibrillator-good-samaritan-ny",
+  "rawValue": "(585) 753-5555",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "aed-defibrillator-good-samaritan-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "apartment-bed-bug-new-tenant-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "apartment-smell-marijuana-neighbor-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "asbestos-home-renovation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "bed-bug-hotel-airbnb-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "cottage-food-selling-from-home-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "dog-license-ny",
+      "line": 73
+    },
+    {
+      "type": "entry",
+      "id": "food-allergy-restaurant-liability-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "garage-sale-yard-sale-law-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "grease-trap-restaurant-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "hotel-guest-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "landlord-mold-disclosure-rental-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "mold-homeowner-remediation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-smoking-secondhand-apartment-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-dining-food-truck-permit-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "pet-licensing-dog-license-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "radon-testing-home-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "septic-inspection-home-sale-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "septic-system-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "shared-well-water-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "well-water-testing-new-home-ny",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-55-21-573Z_70b569e7-72c6-f0ee-3392-d87f0bf86fcb",
+    "meta": {
+      "callId": "70b569e7-72c6-f0ee-3392-d87f0bf86fcb",
+      "digits": "5857535555",
+      "dialedNumber": "(585) 753-5555",
+      "catalogedName": "aed-defibrillator-good-samaritan-ny",
+      "sourceId": "legal-entry:aed-defibrillator-good-samaritan-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "aed-defibrillator-good-samaritan-ny"
+        },
+        {
+          "type": "entry",
+          "id": "apartment-bed-bug-new-tenant-ny"
+        },
+        {
+          "type": "entry",
+          "id": "apartment-smell-marijuana-neighbor-ny"
+        },
+        {
+          "type": "entry",
+          "id": "asbestos-home-renovation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "bed-bug-hotel-airbnb-ny"
+        },
+        {
+          "type": "entry",
+          "id": "cottage-food-selling-from-home-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dog-license-ny"
+        },
+        {
+          "type": "entry",
+          "id": "food-allergy-restaurant-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "garage-sale-yard-sale-law-ny"
+        },
+        {
+          "type": "entry",
+          "id": "grease-trap-restaurant-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hotel-guest-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "landlord-mold-disclosure-rental-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mold-homeowner-remediation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "neighbor-smoking-secondhand-apartment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "outdoor-dining-food-truck-permit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pet-licensing-dog-license-ny"
+        },
+        {
+          "type": "entry",
+          "id": "radon-testing-home-ny"
+        },
+        {
+          "type": "entry",
+          "id": "septic-inspection-home-sale-ny"
+        },
+        {
+          "type": "entry",
+          "id": "septic-system-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shared-well-water-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "well-water-testing-new-home-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:55:21.573Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.902Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Department of Public Health",
+      "reason": "transcript-stated name (Monroe County Department of Public Health) differs from catalogued (aed-defibrillator-good-samaritan-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.273Z",
+  "lastSeededAt": "2026-05-03T19:44:16.273Z"
+}

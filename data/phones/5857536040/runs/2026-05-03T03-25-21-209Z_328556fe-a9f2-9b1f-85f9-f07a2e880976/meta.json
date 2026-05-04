@@ -1,0 +1,65 @@
+{
+  "callId": "328556fe-a9f2-9b1f-85f9-f07a2e880976",
+  "digits": "5857536040",
+  "dialedNumber": "(585) 753-6040",
+  "catalogedName": "kendras-law-assisted-outpatient-treatment-ny",
+  "sourceId": "legal-entry:kendras-law-assisted-outpatient-treatment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kendras-law-assisted-outpatient-treatment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "problem-solving-courts-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "va-disability-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veteran-tuition-waiver-suny-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-benefits-apportionment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-benefits-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-property-tax-exemption-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-treatment-court-ny"
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:25:21.209Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.017Z"
+  }
+}

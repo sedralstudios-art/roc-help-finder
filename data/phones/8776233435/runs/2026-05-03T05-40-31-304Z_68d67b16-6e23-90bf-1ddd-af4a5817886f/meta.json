@@ -1,0 +1,33 @@
+{
+  "callId": "68d67b16-6e23-90bf-1ddd-af4a5817886f",
+  "digits": "8776233435",
+  "dialedNumber": "(877) 623-3435",
+  "catalogedName": "liquor-license-rules-ny",
+  "sourceId": "legal-entry:liquor-license-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "liquor-license-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:31.304Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.625Z"
+  }
+}

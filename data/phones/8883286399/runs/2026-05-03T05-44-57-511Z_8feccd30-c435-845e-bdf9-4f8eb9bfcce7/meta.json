@@ -1,0 +1,33 @@
+{
+  "callId": "8feccd30-c435-845e-bdf9-4f8eb9bfcce7",
+  "digits": "8883286399",
+  "dialedNumber": "1-888-328-6399",
+  "catalogedName": "stolen-ebt-snap-replacement-ny",
+  "sourceId": "legal-entry:stolen-ebt-snap-replacement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "stolen-ebt-snap-replacement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "summer-ebt-sun-bucks-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:44:57.511Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.652Z"
+  }
+}

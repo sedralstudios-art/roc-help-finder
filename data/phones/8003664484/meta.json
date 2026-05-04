@@ -1,0 +1,61 @@
+{
+  "digits": "8003664484",
+  "kind": "phone",
+  "primaryName": "entry-callout:truth-in-caller-id-spoofing-ny",
+  "rawValue": "(800) 366-4484",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-50-41-472Z_a3aaf318-674e-ac48-8444-7606b5aeb09a",
+    "meta": {
+      "callId": "a3aaf318-674e-ac48-8444-7606b5aeb09a",
+      "digits": "8003664484",
+      "dialedNumber": "(800) 366-4484",
+      "catalogedName": "truth-in-caller-id-spoofing-ny",
+      "sourceId": "legal-entry:truth-in-caller-id-spoofing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "truth-in-caller-id-spoofing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:50:41.472Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.130Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.576Z",
+  "lastSeededAt": "2026-05-03T19:44:16.576Z"
+}

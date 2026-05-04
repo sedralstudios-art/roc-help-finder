@@ -1,0 +1,24 @@
+{
+  "callId": "0fc481ca-8212-0f0d-6c6f-25c7e6e17ff9",
+  "digits": "5852327310",
+  "dialedNumber": "5852327310",
+  "catalogedName": null,
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:30:18.410Z",
+  "durationSec": 21,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.144Z"
+  }
+}

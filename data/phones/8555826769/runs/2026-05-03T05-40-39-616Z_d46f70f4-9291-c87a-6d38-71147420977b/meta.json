@@ -1,0 +1,33 @@
+{
+  "callId": "d46f70f4-9291-c87a-6d38-71147420977b",
+  "digits": "8555826769",
+  "dialedNumber": "1-855-582-6769",
+  "catalogedName": "long-term-care-ombudsman-ny",
+  "sourceId": "legal-entry:long-term-care-ombudsman-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-bed-hold-readmission-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:39.616Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.625Z"
+  }
+}

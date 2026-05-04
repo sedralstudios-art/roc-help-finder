@@ -1,0 +1,29 @@
+{
+  "callId": "6da5513d-9f41-0ac9-f2c0-6c7afdee8137",
+  "digits": "8883737888",
+  "dialedNumber": "1-888-373-7888",
+  "catalogedName": "human-trafficking-victim-relief-ny",
+  "sourceId": "legal-entry:human-trafficking-victim-relief-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "human-trafficking-victim-relief-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:15:53.125Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.873Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "f39629c1-8a13-e1a0-d36e-3285a79b8531",
+  "digits": "5852486265",
+  "dialedNumber": "(585) 248-6265",
+  "catalogedName": "Pittsford Building and Code Enforcement",
+  "sourceId": "pittsfordbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:29:58.783Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.563Z"
+  }
+}

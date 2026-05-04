@@ -1,0 +1,29 @@
+{
+  "callId": "f201c36a-13dd-f56a-32fa-72ccf0c089ea",
+  "digits": "6175656370",
+  "dialedNumber": "(617) 565-6370",
+  "catalogedName": "stolen-ebt-snap-replacement-ny",
+  "sourceId": "legal-entry:stolen-ebt-snap-replacement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "stolen-ebt-snap-replacement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:47:21.740Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.106Z"
+  }
+}

@@ -61,7 +61,7 @@ export const SCHOOL_BUS_SAFETY_LAWS_NY = {
       qualifier: "Any driver ticketed in Monroe County",
       access: "In person",
       outcome: "Trial, plea, or dismissal",
-      phone: "(585) 428-2447",
+      phone: "",
       url: "https://www.cityofrochester.gov/trafficviolations/",
       verified: true,
       bilingual: false,

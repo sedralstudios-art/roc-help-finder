@@ -61,7 +61,7 @@ export const MARRIAGE_LICENSE_NY = {
       qualifier: "Anyone — no residency requirement",
       access: "In person",
       outcome: "Marriage license issuance",
-      phone: "(585) 753-1600",
+      phone: "",
       url: "https://www.monroecounty.gov/clerk-marriage",
       verified: true,
       bilingual: false,

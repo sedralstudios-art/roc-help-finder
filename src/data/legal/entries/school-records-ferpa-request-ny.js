@@ -61,7 +61,7 @@ export const SCHOOL_RECORDS_FERPA_REQUEST_NY = {
       qualifier: "Any parent or eligible student",
       access: "Phone at (202) 260-3887",
       outcome: "Investigation of school FERPA compliance",
-      phone: "(202) 260-3887",
+      phone: "",
       url: "https://studentprivacy.ed.gov/file-a-complaint",
       verified: true,
       bilingual: false,

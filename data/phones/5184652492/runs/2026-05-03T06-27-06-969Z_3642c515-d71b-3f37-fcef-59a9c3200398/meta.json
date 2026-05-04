@@ -1,0 +1,29 @@
+{
+  "callId": "3642c515-d71b-3f37-fcef-59a9c3200398",
+  "digits": "5184652492",
+  "dialedNumber": "(518) 465-2492",
+  "catalogedName": "new-home-construction-warranty-ny",
+  "sourceId": "legal-entry:new-home-construction-warranty-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:27:06.969Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.949Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "67c019c4-77df-b708-6647-c299455332cd",
+  "digits": "8007721213",
+  "dialedNumber": "8007721213",
+  "catalogedName": "Social Security Office (Free SSN Card)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:16:14.375Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.764Z"
+  }
+}

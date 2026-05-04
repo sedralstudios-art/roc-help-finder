@@ -1,0 +1,29 @@
+{
+  "callId": "a58f0e27-6538-54e4-d555-2fa09c0d4910",
+  "digits": "5184572087",
+  "dialedNumber": "(518) 457-2087",
+  "catalogedName": "beekeeping-laws-ny",
+  "sourceId": "legal-entry:beekeeping-laws-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "beekeeping-laws-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:53:08.406Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.707Z"
+  }
+}

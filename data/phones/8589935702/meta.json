@@ -1,0 +1,70 @@
+{
+  "digits": "8589935702",
+  "kind": "phone",
+  "primaryName": "entry-callout:basketball-hoop-street-driveway-ny",
+  "rawValue": "8589935702",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny",
+      "line": 98
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny",
+      "line": 107
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-16-56-159Z_3f389d8e-7f17-fda7-ae02-d2a8beb3afe8",
+    "meta": {
+      "callId": "3f389d8e-7f17-fda7-ae02-d2a8beb3afe8",
+      "digits": "8589935702",
+      "dialedNumber": "8589935702",
+      "catalogedName": "basketball-hoop-street-driveway-ny",
+      "sourceId": "legal-entry:basketball-hoop-street-driveway-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "basketball-hoop-street-driveway-ny"
+        },
+        {
+          "type": "entry",
+          "id": "leaf-blower-noise-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:16:56.159Z",
+      "durationSec": 14,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.538Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.367Z",
+  "lastSeededAt": "2026-05-03T19:44:16.367Z"
+}

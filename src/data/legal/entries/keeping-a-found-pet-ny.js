@@ -23,7 +23,7 @@ export const KEEPING_A_FOUND_PET_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Agriculture and Markets Law Section 117, anyone who finds a lost dog must report it to the local dog control officer within 48 hours. The dog control officer holds the dog and attempts to find the owner. If the dog has a license tag, the owner is contacted directly. If no owner is found after five days (or seven days for a dog with a license or microchip), the dog can be put up for adoption. The finder can ask to adopt the dog at that point. For cats, New York law is less specific. There is no statewide requirement to report a found cat to animal control. However, local laws may apply. In Rochester, stray cats can be reported to Rochester Animal Services at (585) 428-7274. Shelters typically hold cats for a minimum holding period (usually five days) before making them available for adoption. If the animal has a microchip, the shelter or a vet can scan it and contact the registered owner. Keeping a found animal without trying to locate the owner first can create legal problems — technically, pets are property, and keeping someone else's property without making a reasonable effort to find the owner could be treated as possession of stolen property."
+    en: "Under New York Agriculture and Markets Law Section 117, anyone who finds a lost dog must report it to the local dog control officer within 48 hours. The dog control officer holds the dog and attempts to find the owner. If the dog has a license tag, the owner is contacted directly. If no owner is found after five days (or seven days for a dog with a license or microchip), the dog can be put up for adoption. The finder can ask to adopt the dog at that point. For cats, New York law is less specific. There is no statewide requirement to report a found cat to animal control. However, local laws may apply. In Rochester, stray cats can be reported to Rochester Animal Services at [number being verified]. Shelters typically hold cats for a minimum holding period (usually five days) before making them available for adoption. If the animal has a microchip, the shelter or a vet can scan it and contact the registered owner. Keeping a found animal without trying to locate the owner first can create legal problems — technically, pets are property, and keeping someone else's property without making a reasonable effort to find the owner could be treated as possession of stolen property."
   },
 
   yourRights: {
@@ -60,7 +60,7 @@ export const KEEPING_A_FOUND_PET_NY = {
       qualifier: "Anyone in Monroe County",
       access: "Phone at (585) 223-1330",
       outcome: "Stray intake, owner search, adoption",
-      phone: "(585) 223-1330",
+      phone: "",
       url: "https://www.lollypop.org",
       verified: true,
       bilingual: false,
@@ -73,7 +73,7 @@ export const KEEPING_A_FOUND_PET_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-7274",
       outcome: "Stray animal pickup, holding, owner reunification, adoption",
-      phone: "(585) 428-7274",
+      phone: "",
       url: "https://www.cityofrochester.gov/animalservices/",
       verified: true,
       bilingual: false,

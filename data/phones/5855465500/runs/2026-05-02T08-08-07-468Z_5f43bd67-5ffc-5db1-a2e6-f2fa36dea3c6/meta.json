@@ -1,0 +1,24 @@
+{
+  "callId": "5f43bd67-5ffc-5db1-a2e6-f2fa36dea3c6",
+  "digits": "5855465500",
+  "dialedNumber": "5855465500",
+  "catalogedName": "YMCA of Greater Rochester (Youth)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:08:07.468Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.488Z"
+  }
+}

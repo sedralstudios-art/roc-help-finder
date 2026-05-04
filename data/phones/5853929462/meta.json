@@ -1,0 +1,64 @@
+{
+  "digits": "5853929462",
+  "kind": "phone",
+  "primaryName": "Parma Town Clerk",
+  "rawValue": "585-392-9462",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "parmaclerk",
+      "name": "Parma Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-46-45-704Z_a445bc68-8e82-256a-4356-7d10ef636fd4",
+    "meta": {
+      "callId": "a445bc68-8e82-256a-4356-7d10ef636fd4",
+      "digits": "5853929462",
+      "dialedNumber": "585-392-9462",
+      "catalogedName": "Parma Town Clerk",
+      "sourceId": "parmaclerk",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "parmaclerk"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:46:45.704Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.665Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.446Z",
+  "lastSeededAt": "2026-05-03T19:44:16.446Z"
+}

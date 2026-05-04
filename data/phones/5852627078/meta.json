@@ -1,0 +1,61 @@
+{
+  "digits": "5852627078",
+  "kind": "phone",
+  "primaryName": "entry-callout:grandparent-kinship-custody-ny",
+  "rawValue": "(585) 262-7078",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grandparent-kinship-custody-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-12-41-848Z_8aa7c9bc-65a6-b31e-d9c3-b40f2f83ad2a",
+    "meta": {
+      "callId": "8aa7c9bc-65a6-b31e-d9c3-b40f2f83ad2a",
+      "digits": "5852627078",
+      "dialedNumber": "(585) 262-7078",
+      "catalogedName": "grandparent-kinship-custody-ny",
+      "sourceId": "legal-entry:grandparent-kinship-custody-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "grandparent-kinship-custody-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:12:41.848Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.851Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.506Z",
+  "lastSeededAt": "2026-05-03T19:44:16.506Z"
+}

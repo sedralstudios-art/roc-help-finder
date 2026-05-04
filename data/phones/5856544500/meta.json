@@ -1,0 +1,61 @@
+{
+  "digits": "5856544500",
+  "kind": "phone",
+  "primaryName": "entry-callout:pins-petition-ny",
+  "rawValue": "(585) 654-4500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pins-petition-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-35-01-315Z_f0a52861-078c-d538-296c-3872ba9b223d",
+    "meta": {
+      "callId": "f0a52861-078c-d538-296c-3872ba9b223d",
+      "digits": "5856544500",
+      "dialedNumber": "(585) 654-4500",
+      "catalogedName": "pins-petition-ny",
+      "sourceId": "legal-entry:pins-petition-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pins-petition-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:35:01.315Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.021Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.547Z",
+  "lastSeededAt": "2026-05-03T19:44:16.547Z"
+}

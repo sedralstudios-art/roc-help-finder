@@ -1,0 +1,24 @@
+{
+  "callId": "37d1aa20-a694-dbcb-0b0e-7eb927849cfa",
+  "digits": "5852933880",
+  "dialedNumber": "(585) 293-3880",
+  "catalogedName": "Riga Town Court",
+  "sourceId": "rigacourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:05:45.034Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.617Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "ec125f8e-d485-42cf-f50d-fb2d89fef248",
+  "digits": "5854298241",
+  "dialedNumber": "(585) 429-8241",
+  "catalogedName": "Town of Gates Building Department",
+  "sourceId": "electrical-residential-ny-mon-gates-town::Town of Gates Building Department",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:33:33.258Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.850Z"
+  }
+}

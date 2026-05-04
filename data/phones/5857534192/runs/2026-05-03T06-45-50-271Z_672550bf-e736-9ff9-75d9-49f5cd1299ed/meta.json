@@ -1,0 +1,29 @@
+{
+  "callId": "672550bf-e736-9ff9-75d9-49f5cd1299ed",
+  "digits": "5857534192",
+  "dialedNumber": "(585) 753-4192",
+  "catalogedName": "small-claims-procedure-ny",
+  "sourceId": "legal-entry:small-claims-procedure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "small-claims-procedure-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:45:50.271Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.096Z"
+  }
+}

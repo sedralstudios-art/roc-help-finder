@@ -1,0 +1,61 @@
+{
+  "digits": "5184742117",
+  "kind": "phone",
+  "primaryName": "entry-callout:boat-operator-safety-certificate-ny",
+  "rawValue": "(518) 474-2117",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boat-operator-safety-certificate-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-53-41-681Z_dc19f57b-5209-80b8-1e8a-c78d3bdc3d63",
+    "meta": {
+      "callId": "dc19f57b-5209-80b8-1e8a-c78d3bdc3d63",
+      "digits": "5184742117",
+      "dialedNumber": "(518) 474-2117",
+      "catalogedName": "boat-operator-safety-certificate-ny",
+      "sourceId": "legal-entry:boat-operator-safety-certificate-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "boat-operator-safety-certificate-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:53:41.681Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.711Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.472Z",
+  "lastSeededAt": "2026-05-03T19:44:16.472Z"
+}

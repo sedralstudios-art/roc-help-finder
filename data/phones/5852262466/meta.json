@@ -1,0 +1,108 @@
+{
+  "digits": "5852262466",
+  "kind": "phone",
+  "primaryName": "entry-callout:bottle-bill-deposit-return-ny",
+  "rawValue": "(585) 226-2466",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "burning-trash-leaves-laws-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "freshwater-wetlands-permit-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "seqr-environmental-review-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-53-50-662Z_a3c0db43-59c7-f39d-b118-9a2447a52c2e",
+    "meta": {
+      "callId": "a3c0db43-59c7-f39d-b118-9a2447a52c2e",
+      "digits": "5852262466",
+      "dialedNumber": "(585) 226-2466",
+      "catalogedName": "bottle-bill-deposit-return-ny",
+      "sourceId": "legal-entry:bottle-bill-deposit-return-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "bottle-bill-deposit-return-ny"
+        },
+        {
+          "type": "entry",
+          "id": "burning-trash-leaves-laws-ny"
+        },
+        {
+          "type": "entry",
+          "id": "freshwater-wetlands-permit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pesticide-worker-protection-standard-ny"
+        },
+        {
+          "type": "entry",
+          "id": "plastic-bag-fee-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "seqr-environmental-review-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:53:50.662Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.157Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Environmental Conservation Region 8 Headquarters in Avon",
+      "reason": "transcript-stated name (New York State Department of Environmental Conservation Region 8 Headquarters in Avon) differs from catalogued (bottle-bill-deposit-return-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.301Z",
+  "lastSeededAt": "2026-05-03T19:44:16.301Z"
+}

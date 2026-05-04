@@ -1,0 +1,29 @@
+{
+  "callId": "4d5d4745-b0e7-5e14-444b-150d393885c0",
+  "digits": "5853383600",
+  "dialedNumber": "(585) 338-3600",
+  "catalogedName": "contractor-home-improvement-deposit-ny",
+  "sourceId": "legal-entry:contractor-home-improvement-deposit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:00:12.694Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.759Z"
+  }
+}

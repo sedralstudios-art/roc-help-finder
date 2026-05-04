@@ -1,0 +1,24 @@
+{
+  "callId": "101039ee-f6f0-b1a9-1b78-951669a0293a",
+  "digits": "5853539882",
+  "dialedNumber": "(585) 353-9882",
+  "catalogedName": "Rochester Free Store",
+  "sourceId": "freestore",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:57:56.570Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.677Z"
+  }
+}

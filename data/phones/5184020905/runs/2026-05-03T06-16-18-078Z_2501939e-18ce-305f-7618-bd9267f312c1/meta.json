@@ -1,0 +1,29 @@
+{
+  "callId": "2501939e-18ce-305f-7618-bd9267f312c1",
+  "digits": "5184020905",
+  "dialedNumber": "(518) 402-0905",
+  "catalogedName": "informed-consent-medical-ny",
+  "sourceId": "legal-entry:informed-consent-medical-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "informed-consent-medical-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:16:18.078Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.875Z"
+  }
+}

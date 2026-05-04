@@ -1,0 +1,108 @@
+{
+  "digits": "5184572036",
+  "kind": "phone",
+  "primaryName": "entry-callout:basic-star-exemption-credit-ny",
+  "rawValue": "(518) 457-2036",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-installment-plan-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "school-tax-bill-explained-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "star-senior-exemption-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-52-38-874Z_de628eb3-8bf0-8374-dd7b-f64942a478e3",
+    "meta": {
+      "callId": "de628eb3-8bf0-8374-dd7b-f64942a478e3",
+      "digits": "5184572036",
+      "dialedNumber": "(518) 457-2036",
+      "catalogedName": "basic-star-exemption-credit-ny",
+      "sourceId": "legal-entry:basic-star-exemption-credit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "basic-star-exemption-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "plastic-bag-fee-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "property-tax-installment-plan-ny"
+        },
+        {
+          "type": "entry",
+          "id": "school-tax-bill-explained-ny"
+        },
+        {
+          "type": "entry",
+          "id": "star-senior-exemption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "volunteer-firefighter-property-tax-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:52:38.874Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.152Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Taxation and Finance",
+      "reason": "transcript-stated name (New York State Department of Taxation and Finance) differs from catalogued (basic-star-exemption-credit-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.301Z",
+  "lastSeededAt": "2026-05-03T19:44:16.301Z"
+}

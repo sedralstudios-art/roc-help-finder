@@ -1,0 +1,29 @@
+{
+  "callId": "4669d8b8-5fd2-9232-79ce-b274e49060d4",
+  "digits": "5854282020",
+  "dialedNumber": "(585) 428-2020",
+  "catalogedName": "jury-duty-excuse-ny",
+  "sourceId": "legal-entry:jury-duty-excuse-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "jury-duty-excuse-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:18:22.843Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.889Z"
+  }
+}

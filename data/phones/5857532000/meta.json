@@ -1,0 +1,35 @@
+{
+  "digits": "5857532000",
+  "kind": "phone",
+  "primaryName": "entry-callout:agricultural-assessment-farm-rpt-305-ny",
+  "rawValue": "(585) 753-2000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "agricultural-assessment-farm-rpt-305-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "nonconforming-use-grandfather-zoning-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "seqr-environmental-review-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.338Z",
+  "lastSeededAt": "2026-05-03T19:44:16.338Z"
+}

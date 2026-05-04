@@ -1,0 +1,33 @@
+{
+  "callId": "ee93f3a8-8be7-de0f-7a12-accc06cec2bd",
+  "digits": "8443323267",
+  "dialedNumber": "1-844-332-3267",
+  "catalogedName": "dangerous-wild-animal-ban-ny",
+  "sourceId": "legal-entry:dangerous-wild-animal-ban-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dangerous-wild-animal-ban-ny"
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:34:41.917Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.587Z"
+  }
+}

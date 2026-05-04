@@ -1,0 +1,24 @@
+{
+  "callId": "beb089a3-47b5-9154-c940-3a32de43ad4a",
+  "digits": "5858892023",
+  "dialedNumber": "5858892023",
+  "catalogedName": "Scottsville Free Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:35:37.575Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.673Z"
+  }
+}

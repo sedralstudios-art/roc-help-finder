@@ -1,0 +1,29 @@
+{
+  "callId": "6bc8548c-0a97-de06-3a5f-d5ebe0e618d2",
+  "digits": "5852628237",
+  "dialedNumber": "(585) 262-8237",
+  "catalogedName": "school-meal-allergy-accommodation-ny",
+  "sourceId": "legal-entry:school-meal-allergy-accommodation-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-meal-allergy-accommodation-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:42:47.184Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.074Z"
+  }
+}

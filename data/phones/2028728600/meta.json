@@ -1,0 +1,61 @@
+{
+  "digits": "2028728600",
+  "kind": "phone",
+  "primaryName": "entry-callout:criminal-discovery-reform-cpl-245-ny",
+  "rawValue": "(202) 872-8600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-02-00-868Z_b2e45802-2948-d09a-0a44-5e8a1476623c",
+    "meta": {
+      "callId": "b2e45802-2948-d09a-0a44-5e8a1476623c",
+      "digits": "2028728600",
+      "dialedNumber": "(202) 872-8600",
+      "catalogedName": "criminal-discovery-reform-cpl-245-ny",
+      "sourceId": "legal-entry:criminal-discovery-reform-cpl-245-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "criminal-discovery-reform-cpl-245-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:02:00.868Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.773Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.487Z",
+  "lastSeededAt": "2026-05-03T19:44:16.487Z"
+}

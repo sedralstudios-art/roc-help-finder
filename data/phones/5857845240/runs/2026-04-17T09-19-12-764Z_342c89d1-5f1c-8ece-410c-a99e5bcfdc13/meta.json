@@ -1,0 +1,24 @@
+{
+  "callId": "342c89d1-5f1c-8ece-410c-a99e5bcfdc13",
+  "digits": "5857845240",
+  "dialedNumber": "(585) 784-5240",
+  "catalogedName": "Brighton Town Clerk",
+  "sourceId": "brightonclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:19:12.764Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.985Z"
+  }
+}

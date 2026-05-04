@@ -1,0 +1,41 @@
+{
+  "callId": "cced9d93-f4ec-517f-02c9-e3fe84865ed5",
+  "digits": "8003250778",
+  "dialedNumber": "1-800-325-0778",
+  "catalogedName": "benefits-verification-letter-ny-program",
+  "sourceId": "legal-entry:benefits-verification-letter-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "social-security-retirement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:38:02.898Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.388Z"
+  }
+}

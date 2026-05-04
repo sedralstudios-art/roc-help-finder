@@ -1,0 +1,71 @@
+{
+  "digits": "5856371145",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-clarkson-town",
+  "rawValue": "(585) 637-1145",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-clarkson-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-clarkson-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-clarkson-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-clarkson-town",
+      "line": 22
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-38-40-623Z_74cb9207-60bd-d8f4-46a0-d2e947a710ae",
+    "meta": {
+      "callId": "74cb9207-60bd-d8f4-46a0-d2e947a710ae",
+      "digits": "5856371145",
+      "dialedNumber": "5856371145",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-clarkson-town",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:38:40.623Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.553Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.326Z",
+  "lastSeededAt": "2026-05-03T19:44:16.326Z"
+}

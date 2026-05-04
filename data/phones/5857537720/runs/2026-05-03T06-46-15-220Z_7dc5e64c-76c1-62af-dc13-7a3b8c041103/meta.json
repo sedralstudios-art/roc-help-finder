@@ -1,0 +1,29 @@
+{
+  "callId": "7dc5e64c-76c1-62af-dc13-7a3b8c041103",
+  "digits": "5857537720",
+  "dialedNumber": "(585) 753-7720",
+  "catalogedName": "snow-plow-damage-property-ny",
+  "sourceId": "legal-entry:snow-plow-damage-property-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:46:15.220Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.099Z"
+  }
+}

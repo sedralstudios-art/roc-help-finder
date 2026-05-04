@@ -1,0 +1,59 @@
+{
+  "digits": "5852486240",
+  "kind": "phone",
+  "primaryName": "Pittsford Animal Control",
+  "rawValue": "585-248-6240",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordanimal",
+      "name": "Pittsford Animal Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-45-30-118Z_24f070d0-298b-fb6f-8240-49a207048536",
+    "meta": {
+      "callId": "24f070d0-298b-fb6f-8240-49a207048536",
+      "digits": "5852486240",
+      "dialedNumber": "5852486240",
+      "catalogedName": "Pittsford Animal Control",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:45:30.118Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.177Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.454Z",
+  "lastSeededAt": "2026-05-03T19:44:16.454Z"
+}

@@ -60,7 +60,7 @@ export const CONTRACTOR_HOME_IMPROVEMENT_DEPOSIT_NY = {
       qualifier: "Any New York homeowner",
       access: "Phone at (800) 697-1220 or online complaint",
       outcome: "Investigation, mediation, referral",
-      phone: "(800) 697-1220",
+      phone: "",
       url: "https://dos.ny.gov/consumer-protection",
       verified: true,
       bilingual: false,

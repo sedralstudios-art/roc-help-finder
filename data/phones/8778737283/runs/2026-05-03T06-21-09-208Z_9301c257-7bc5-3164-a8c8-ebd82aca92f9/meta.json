@@ -1,0 +1,29 @@
+{
+  "callId": "9301c257-7bc5-3164-a8c8-ebd82aca92f9",
+  "digits": "8778737283",
+  "dialedNumber": "(877) 873-7283",
+  "catalogedName": "long-term-care-ombudsman-ny",
+  "sourceId": "legal-entry:long-term-care-ombudsman-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:21:09.208Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.908Z"
+  }
+}

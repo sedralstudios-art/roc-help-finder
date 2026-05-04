@@ -1,0 +1,24 @@
+{
+  "callId": "027e19ca-b2b3-1756-db79-a170726bda39",
+  "digits": "5853929449",
+  "dialedNumber": "(585) 392-9449",
+  "catalogedName": "Parma Building Department",
+  "sourceId": "parmabuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:07:52.651Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.821Z"
+  }
+}

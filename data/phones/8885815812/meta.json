@@ -1,0 +1,61 @@
+{
+  "digits": "8885815812",
+  "kind": "phone",
+  "primaryName": "entry-callout:unemployment-overpayment-ny",
+  "rawValue": "(888) 581-5812",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "unemployment-overpayment-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-51-14-747Z_2f6bb84b-2701-df49-3887-4044cb5ed04d",
+    "meta": {
+      "callId": "2f6bb84b-2701-df49-3887-4044cb5ed04d",
+      "digits": "8885815812",
+      "dialedNumber": "(888) 581-5812",
+      "catalogedName": "unemployment-overpayment-ny",
+      "sourceId": "legal-entry:unemployment-overpayment-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "unemployment-overpayment-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:51:14.747Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.134Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.577Z",
+  "lastSeededAt": "2026-05-03T19:44:16.577Z"
+}

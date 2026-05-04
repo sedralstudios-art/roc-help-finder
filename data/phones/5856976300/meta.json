@@ -1,0 +1,70 @@
+{
+  "digits": "5856976300",
+  "kind": "phone",
+  "primaryName": "entry-callout:reentry-housing-voucher-ny-program",
+  "rawValue": "(585) 697-6300",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "section-8-portability-ny-program",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-43-50-938Z_699d2982-a895-9ca5-f0ad-54788b83887e",
+    "meta": {
+      "callId": "699d2982-a895-9ca5-f0ad-54788b83887e",
+      "digits": "5856976300",
+      "dialedNumber": "(585) 697-6300",
+      "catalogedName": "reentry-housing-voucher-ny-program",
+      "sourceId": "legal-entry:reentry-housing-voucher-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "reentry-housing-voucher-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "section-8-portability-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:43:50.938Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.645Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.406Z",
+  "lastSeededAt": "2026-05-03T19:44:16.406Z"
+}

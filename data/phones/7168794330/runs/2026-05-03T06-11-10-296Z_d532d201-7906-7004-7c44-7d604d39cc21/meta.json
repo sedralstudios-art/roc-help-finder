@@ -1,0 +1,29 @@
+{
+  "callId": "d532d201-7906-7004-7c44-7d604d39cc21",
+  "digits": "7168794330",
+  "dialedNumber": "(716) 879-4330",
+  "catalogedName": "freshwater-wetlands-permit-ny",
+  "sourceId": "legal-entry:freshwater-wetlands-permit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "freshwater-wetlands-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:11:10.296Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.841Z"
+  }
+}

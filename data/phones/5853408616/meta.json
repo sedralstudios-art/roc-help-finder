@@ -1,0 +1,59 @@
+{
+  "digits": "5853408616",
+  "kind": "phone",
+  "primaryName": "Penfield Animal Control",
+  "rawValue": "585-340-8616",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldanimal",
+      "name": "Penfield Animal Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-35-51-553Z_f6ddfc5d-4bb0-b89d-9abb-98f72c0e1014",
+    "meta": {
+      "callId": "f6ddfc5d-4bb0-b89d-9abb-98f72c0e1014",
+      "digits": "5853408616",
+      "dialedNumber": "5853408616",
+      "catalogedName": "Penfield Animal Control",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:35:51.553Z",
+      "durationSec": 10,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.811Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.453Z",
+  "lastSeededAt": "2026-05-03T19:44:16.453Z"
+}

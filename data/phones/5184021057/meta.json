@@ -1,0 +1,61 @@
+{
+  "digits": "5184021057",
+  "kind": "phone",
+  "primaryName": "entry-callout:emtala-emergency-room-stabilization-ny",
+  "rawValue": "(518) 402-1057",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emtala-emergency-room-stabilization-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-07-50-309Z_69ca71f4-961b-19a5-6e5d-91c01569b5f5",
+    "meta": {
+      "callId": "69ca71f4-961b-19a5-6e5d-91c01569b5f5",
+      "digits": "5184021057",
+      "dialedNumber": "(518) 402-1057",
+      "catalogedName": "emtala-emergency-room-stabilization-ny",
+      "sourceId": "legal-entry:emtala-emergency-room-stabilization-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "emtala-emergency-room-stabilization-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:07:50.309Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.817Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.498Z",
+  "lastSeededAt": "2026-05-03T19:44:16.498Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "c3e5ec8b-83e0-0af2-fb69-c1622f565f36",
+  "digits": "8887660008",
+  "dialedNumber": "(888) 766-0008",
+  "catalogedName": "lost-driver-license-replacement-ny",
+  "sourceId": "legal-entry:lost-driver-license-replacement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:21:17.550Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.909Z"
+  }
+}

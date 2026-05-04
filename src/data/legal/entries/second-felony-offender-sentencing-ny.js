@@ -44,7 +44,7 @@ export const SECOND_FELONY_OFFENDER_SENTENCING_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — representation including predicate-felony challenges.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — private counsel assigned to indigent defendants.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — private counsel assigned to indigent defendants.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — criminal defense and post-conviction attorneys.",
       "Empire Justice Center Criminal Justice at (585) 454-4060 — impact cases and policy.",
       "Innocence Project at (212) 364-5340 — post-conviction representation in innocence cases.",
@@ -65,7 +65,7 @@ export const SECOND_FELONY_OFFENDER_SENTENCING_NY = {
       qualifier: "Indigent Monroe County defendants",
       access: "Assigned at arraignment or phone (585) 753-4300",
       outcome: "Full representation through trial, sentencing, and appeal",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,
@@ -78,7 +78,7 @@ export const SECOND_FELONY_OFFENDER_SENTENCING_NY = {
       qualifier: "Any Monroe County defendant",
       access: "Phone at (585) 546-2130",
       outcome: "Consultation, representation, sliding-fee arrangements",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

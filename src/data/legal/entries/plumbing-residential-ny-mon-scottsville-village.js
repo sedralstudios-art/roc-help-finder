@@ -60,7 +60,7 @@ export const entry = {
       qualifier: "Open to residents and contractors working inside the Village",
       access: "Phone",
       outcome: "Registration, permit issuance, inspection scheduling",
-      phone: "585-889-6050",
+      phone: "",
       url: "https://www.scottsvilleny.org/code-enforcement-building-inspector",
       verified: true,
       bilingual: false,

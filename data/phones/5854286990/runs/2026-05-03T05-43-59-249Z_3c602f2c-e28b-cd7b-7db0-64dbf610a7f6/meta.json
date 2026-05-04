@@ -1,0 +1,33 @@
+{
+  "callId": "3c602f2c-e28b-cd7b-7db0-64dbf610a7f6",
+  "digits": "5854286990",
+  "dialedNumber": "(585) 428-6990",
+  "catalogedName": "rent-withholding-repair-deduct-ny",
+  "sourceId": "legal-entry:rent-withholding-repair-deduct-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "rent-withholding-repair-deduct-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rental-move-in-cost-limits-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:43:59.249Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.646Z"
+  }
+}

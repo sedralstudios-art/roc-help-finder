@@ -20,7 +20,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Rush publishes a permit-trigger list that's based on project scope, not licensee type. Ordinary like-kind replacement (faucet swap, clog clearing, leak repair at an existing fitting) is exempt from permits.\n\nBut structural changes — new fixture installation, water heater replacement, sewer line work — are covered by the state Plumbing Code and typically need a permit. The exact list of what needs a permit isn't spelled out on the public page; call to confirm.\n\nRush doesn't have its own plumber licensing chapter. Plumbers need liability insurance and workers comp. Whether Rush honors a Rochester Examining Board plumber certificate and whether homeowners can pull plumbing permits aren't published. Call (585) 533-1312 to confirm.\n\nThe Town Clerk accepts permit applications outside inspector hours (Mon-Thu 7am-12pm)."
+    en: "Rush publishes a permit-trigger list that's based on project scope, not licensee type. Ordinary like-kind replacement (faucet swap, clog clearing, leak repair at an existing fitting) is exempt from permits.\n\nBut structural changes — new fixture installation, water heater replacement, sewer line work — are covered by the state Plumbing Code and typically need a permit. The exact list of what needs a permit isn't spelled out on the public page; call to confirm.\n\nRush doesn't have its own plumber licensing chapter. Plumbers need liability insurance and workers comp. Whether Rush honors a Rochester Examining Board plumber certificate and whether homeowners can pull plumbing permits aren't published. Call [number being verified] to confirm.\n\nThe Town Clerk accepts permit applications outside inspector hours (Mon-Thu 7am-12pm)."
   },
 
   example: {
@@ -60,7 +60,7 @@ export const entry = {
       qualifier: "Open to residents and contractors working in Rush",
       access: "5977 East Henrietta Rd; phone; hours M-Th 7am-12pm",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-533-1312",
+      phone: "",
       url: "https://www.townofrush.com/departments/building.html",
       verified: true,
       bilingual: false,

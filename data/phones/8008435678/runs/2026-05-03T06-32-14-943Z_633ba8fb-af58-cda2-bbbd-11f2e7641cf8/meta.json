@@ -1,0 +1,29 @@
+{
+  "callId": "633ba8fb-af58-cda2-bbbd-11f2e7641cf8",
+  "digits": "8008435678",
+  "dialedNumber": "(800) 843-5678",
+  "catalogedName": "parental-kidnapping-custody-ny",
+  "sourceId": "legal-entry:parental-kidnapping-custody-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "parental-kidnapping-custody-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:32:14.943Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.002Z"
+  }
+}

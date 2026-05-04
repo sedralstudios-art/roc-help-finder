@@ -1,0 +1,29 @@
+{
+  "callId": "0eb8e0bb-d64d-b5ca-2c81-9f36185dcdd3",
+  "digits": "8005544501",
+  "dialedNumber": "(800) 554-4501",
+  "catalogedName": "outdoor-dining-food-truck-permit-ny",
+  "sourceId": "legal-entry:outdoor-dining-food-truck-permit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "outdoor-dining-food-truck-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:31:33.233Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.997Z"
+  }
+}

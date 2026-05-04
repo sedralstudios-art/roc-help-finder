@@ -1,0 +1,37 @@
+{
+  "callId": "9487d342-607e-a8d9-9684-04ccc14b9a0b",
+  "digits": "8004245323",
+  "dialedNumber": "(800) 424-5323",
+  "catalogedName": "apartment-mold-disclosure-sale-ny",
+  "sourceId": "legal-entry:apartment-mold-disclosure-sale-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-mold-disclosure-sale-ny"
+    },
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tenant-paint-lead-safe-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:05:41.984Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.494Z"
+  }
+}

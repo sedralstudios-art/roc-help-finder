@@ -9,7 +9,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_SWEDEN_TOWN = {
   title: { en: "Residential Plumbing in the Town of Sweden — Separate Sewer Connection Permit, Brockport Village Separate" },
 
   summary: {
-    en: "The Town of Sweden handles plumbing under the general building permit. No separate plumber license. A separate building sewer connection permit is required for new hookups, with the fee set by Town Board. The Town Building Department covers addresses outside Brockport village; the village runs its own separate Building and Code Department. The Sweden Building Department at (585) 637-8684 confirms scope and fees. A 2026 fee schedule PDF is posted online."
+    en: "The Town of Sweden handles plumbing under the general building permit. No separate plumber license. A separate building sewer connection permit is required for new hookups, with the fee set by Town Board. The Town Building Department covers addresses outside Brockport village; the village runs its own separate Building and Code Department. The Sweden Building Department at [number being verified] confirms scope and fees. A 2026 fee schedule PDF is posted online."
   },
 
   whatItMeans: {
@@ -57,7 +57,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_SWEDEN_TOWN = {
       qualifier: "Residents and contractors working in Sweden outside Brockport village",
       access: "18 State Street, Brockport; phone; email PlanningZoning@townofswedenny.gov; hours M-F 8:30am-4:30pm",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 637-8684",
+      phone: "",
       url: "https://www.townofswedenny.gov/building-department",
       verified: true,
       bilingual: false,

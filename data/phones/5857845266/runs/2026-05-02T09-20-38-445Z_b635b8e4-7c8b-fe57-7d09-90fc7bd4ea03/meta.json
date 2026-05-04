@@ -1,0 +1,24 @@
+{
+  "callId": "b635b8e4-7c8b-fe57-7d09-90fc7bd4ea03",
+  "digits": "5857845266",
+  "dialedNumber": "5857845266",
+  "catalogedName": "Brighton Senior Program",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:20:38.445Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.641Z"
+  }
+}

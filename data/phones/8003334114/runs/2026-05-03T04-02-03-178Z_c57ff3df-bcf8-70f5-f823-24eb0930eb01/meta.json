@@ -1,0 +1,49 @@
+{
+  "callId": "c57ff3df-bcf8-70f5-f823-24eb0930eb01",
+  "digits": "8003334114",
+  "dialedNumber": "(800) 333-4114",
+  "catalogedName": "hospital-discharge-rights-ny",
+  "sourceId": "legal-entry:hospital-discharge-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-discharge-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicare-advantage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:02:03.178Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.199Z"
+  }
+}

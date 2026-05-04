@@ -1,0 +1,61 @@
+{
+  "digits": "8773569211",
+  "kind": "phone",
+  "primaryName": "entry-callout:bottle-deposit-returnable-ny",
+  "rawValue": "1-877-356-9211",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-deposit-returnable-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-54-06-635Z_28dca54d-2318-3b31-77ae-5fa8401c8813",
+    "meta": {
+      "callId": "28dca54d-2318-3b31-77ae-5fa8401c8813",
+      "digits": "8773569211",
+      "dialedNumber": "1-877-356-9211",
+      "catalogedName": "bottle-deposit-returnable-ny",
+      "sourceId": "legal-entry:bottle-deposit-returnable-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "bottle-deposit-returnable-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:54:06.635Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.714Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.473Z",
+  "lastSeededAt": "2026-05-03T19:44:16.473Z"
+}

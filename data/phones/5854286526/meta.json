@@ -1,0 +1,78 @@
+{
+  "digits": "5854286526",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-rochester-city",
+  "rawValue": "(585) 428-6526",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-rochester-city",
+      "line": 14
+    },
+    {
+      "type": "entry",
+      "id": "elevator-inspection-rules-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-rochester-city",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-rochester-city",
+      "line": 76
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-rochester-city",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-30-44-714Z_7c59df8e-19c9-a5f9-de17-0ee522afc5ae",
+    "meta": {
+      "callId": "7c59df8e-19c9-a5f9-de17-0ee522afc5ae",
+      "digits": "5854286526",
+      "dialedNumber": "5854286526",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-rochester-city",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:30:44.714Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.406Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.14285714285714285,
+      "extracted": "City of Rochester Building Department",
+      "reason": "transcript-stated name (City of Rochester Building Department) differs from catalogued (entry-callout:electrical-residential-ny-mon-rochester-city)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.316Z",
+  "lastSeededAt": "2026-05-03T19:44:16.316Z"
+}

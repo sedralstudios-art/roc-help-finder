@@ -62,7 +62,7 @@ export const DECK_PATIO_PERMIT_NY = {
       qualifier: "Rochester city property owners",
       access: "Phone at (585) 428-6520",
       outcome: "Permit applications, code compliance, inspections",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

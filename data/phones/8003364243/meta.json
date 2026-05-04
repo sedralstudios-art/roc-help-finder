@@ -1,0 +1,61 @@
+{
+  "digits": "8003364243",
+  "kind": "phone",
+  "primaryName": "entry-callout:journalist-shield-law-ny",
+  "rawValue": "(800) 336-4243",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "open-meetings-law-public-participation-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-05-54-711Z_84acd3e9-b873-8ebf-d642-937e73d3c625",
+    "meta": {
+      "callId": "84acd3e9-b873-8ebf-d642-937e73d3c625",
+      "digits": "8003364243",
+      "dialedNumber": "8003364243",
+      "catalogedName": "entry-callout:journalist-shield-law-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:05:54.711Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.739Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.398Z",
+  "lastSeededAt": "2026-05-03T19:44:16.398Z"
+}

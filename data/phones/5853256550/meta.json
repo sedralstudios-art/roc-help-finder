@@ -1,0 +1,61 @@
+{
+  "digits": "5853256550",
+  "kind": "phone",
+  "primaryName": "entry-callout:motor-vehicle-service-contract-ny",
+  "rawValue": "(585) 325-6550",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "motor-vehicle-service-contract-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-25-43-794Z_d3cd2089-979a-4a39-2e91-d1a92754a008",
+    "meta": {
+      "callId": "d3cd2089-979a-4a39-2e91-d1a92754a008",
+      "digits": "5853256550",
+      "dialedNumber": "(585) 325-6550",
+      "catalogedName": "motor-vehicle-service-contract-ny",
+      "sourceId": "legal-entry:motor-vehicle-service-contract-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "motor-vehicle-service-contract-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:25:43.794Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.940Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.529Z",
+  "lastSeededAt": "2026-05-03T19:44:16.529Z"
+}

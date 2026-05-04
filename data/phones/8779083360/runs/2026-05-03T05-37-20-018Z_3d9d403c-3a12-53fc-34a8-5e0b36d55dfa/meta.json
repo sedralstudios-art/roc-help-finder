@@ -1,0 +1,33 @@
+{
+  "callId": "3d9d403c-3a12-53fc-34a8-5e0b36d55dfa",
+  "digits": "8779083360",
+  "dialedNumber": "(877) 908-3360",
+  "catalogedName": "grandparent-scam-phone-ny",
+  "sourceId": "legal-entry:grandparent-scam-phone-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny"
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:37:20.018Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.603Z"
+  }
+}

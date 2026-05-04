@@ -1,0 +1,61 @@
+{
+  "digits": "5852922140",
+  "kind": "phone",
+  "primaryName": "entry-callout:campus-sexual-violence-enough-is-enough-ny",
+  "rawValue": "(585) 292-2140",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "campus-sexual-violence-enough-is-enough-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-54-31-637Z_20728728-908b-785c-9c9f-4146caf338f5",
+    "meta": {
+      "callId": "20728728-908b-785c-9c9f-4146caf338f5",
+      "digits": "5852922140",
+      "dialedNumber": "(585) 292-2140",
+      "catalogedName": "campus-sexual-violence-enough-is-enough-ny",
+      "sourceId": "legal-entry:campus-sexual-violence-enough-is-enough-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "campus-sexual-violence-enough-is-enough-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:54:31.637Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.717Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.474Z",
+  "lastSeededAt": "2026-05-03T19:44:16.474Z"
+}

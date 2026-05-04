@@ -1,0 +1,24 @@
+{
+  "callId": "dde8da86-7a6f-1c2d-2caa-06c3baa959ac",
+  "digits": "5858892028",
+  "dialedNumber": "(585) 889-2028",
+  "catalogedName": "Grace's Table Food Cupboard",
+  "sourceId": "gracestablefood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:41:19.221Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.018Z"
+  }
+}

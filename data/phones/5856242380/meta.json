@@ -1,0 +1,124 @@
+{
+  "digits": "5856242380",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-brighton-town",
+  "rawValue": "(585) 624-2380",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-brighton-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-clarkson-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-east-rochester-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-greece-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-penfield-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-scottsville-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-sweden-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-webster-town",
+      "line": 18
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-37-00-119Z_b34aef7d-6e70-28ad-89b1-f2985cd818d8",
+    "meta": {
+      "callId": "b34aef7d-6e70-28ad-89b1-f2985cd818d8",
+      "digits": "5856242380",
+      "dialedNumber": "(585) 624-2380",
+      "catalogedName": "electrical-residential-ny-mon-brighton-town",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-brighton-town",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-brighton-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-clarkson-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-east-rochester-village"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-greece-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-penfield-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-scottsville-village"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-sweden-town"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-webster-town"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:37:00.119Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.074Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.292Z",
+  "lastSeededAt": "2026-05-03T19:44:16.292Z"
+}

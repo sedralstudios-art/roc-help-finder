@@ -1,0 +1,61 @@
+{
+  "digits": "5853942000",
+  "kind": "phone",
+  "primaryName": "entry-callout:veterans-benefits-ny",
+  "rawValue": "(585) 394-2000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "veterans-benefits-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-52-04-707Z_1761cbd6-c2b3-6565-f764-88e148167240",
+    "meta": {
+      "callId": "1761cbd6-c2b3-6565-f764-88e148167240",
+      "digits": "5853942000",
+      "dialedNumber": "(585) 394-2000",
+      "catalogedName": "veterans-benefits-ny",
+      "sourceId": "legal-entry:veterans-benefits-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "veterans-benefits-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:52:04.707Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.140Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.579Z",
+  "lastSeededAt": "2026-05-03T19:44:16.579Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "ca9b96df-3d4d-eecb-d409-d0b90c264456",
+  "digits": "5857845300",
+  "dialedNumber": "5857845300",
+  "catalogedName": "Brighton Memorial Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:21:43.235Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.643Z"
+  }
+}

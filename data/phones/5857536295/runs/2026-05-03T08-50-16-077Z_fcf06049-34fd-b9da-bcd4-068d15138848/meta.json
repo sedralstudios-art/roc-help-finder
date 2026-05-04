@@ -1,0 +1,33 @@
+{
+  "callId": "fcf06049-34fd-b9da-bcd4-068d15138848",
+  "digits": "5857536295",
+  "dialedNumber": "(585) 753-6295",
+  "catalogedName": "foster-care-aging-out-ny",
+  "sourceId": "legal-entry:foster-care-aging-out-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "foster-care-aging-out-ny"
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-kinship-custody-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:50:16.077Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.695Z"
+  }
+}

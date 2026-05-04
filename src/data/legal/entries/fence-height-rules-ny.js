@@ -40,7 +40,7 @@ export const FENCE_HEIGHT_RULES_NY = {
     en: [
       "Rochester: Building permits for fences are handled by the Bureau of Inspection and Compliance at (585) 428-6520. Max height: 4 feet front, 6 feet side/rear.",
       "Brighton: Building Department at (585) 784-5220. Permit required.",
-      "Greece: Code Enforcement at (585) 723-2396. Permit required for most fences.",
+      "Greece: Code Enforcement at (585) 723-2354. Permit required for most fences.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "Penfield: Building and Zoning at (585) 340-8630.",
       "Webster: Building Department at (585) 872-7068.",
@@ -82,7 +82,7 @@ export const FENCE_HEIGHT_RULES_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Permit processing, code information, inspections",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

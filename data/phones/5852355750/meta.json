@@ -1,0 +1,59 @@
+{
+  "digits": "5852355750",
+  "kind": "phone",
+  "primaryName": "Crisis Nursery of Greater Rochester",
+  "rawValue": "585-235-5750",
+  "blockDial": false,
+  "tags": [
+    "cat:crisisChild",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "crisisnursery",
+      "name": "Crisis Nursery of Greater Rochester",
+      "category": "crisisChild",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-32-07-039Z_b000f4cd-bb2f-9bec-2ae9-c6d556a0bb87",
+    "meta": {
+      "callId": "b000f4cd-bb2f-9bec-2ae9-c6d556a0bb87",
+      "digits": "5852355750",
+      "dialedNumber": "5852355750",
+      "catalogedName": "Crisis Nursery of Greater Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:32:07.039Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.802Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.426Z",
+  "lastSeededAt": "2026-05-03T19:44:16.426Z"
+}

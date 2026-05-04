@@ -1,0 +1,24 @@
+{
+  "callId": "d9750d05-6390-49ea-8e9a-a7c84dd727ab",
+  "digits": "5853592540",
+  "dialedNumber": "(585) 359-2540",
+  "catalogedName": "Henrietta Recreation Center",
+  "sourceId": "henriettarec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:59:35.715Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.679Z"
+  }
+}

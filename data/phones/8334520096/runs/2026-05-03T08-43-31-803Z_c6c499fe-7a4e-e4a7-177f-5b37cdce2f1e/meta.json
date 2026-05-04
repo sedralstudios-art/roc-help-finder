@@ -1,0 +1,33 @@
+{
+  "callId": "c6c499fe-7a4e-e4a7-177f-5b37cdce2f1e",
+  "digits": "8334520096",
+  "dialedNumber": "1-833-452-0096",
+  "catalogedName": "emergency-rental-assistance-program-ny",
+  "sourceId": "legal-entry:emergency-rental-assistance-program-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emergency-rental-assistance-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "summer-ebt-sun-bucks-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:43:31.803Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.661Z"
+  }
+}

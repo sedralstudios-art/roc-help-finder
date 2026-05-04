@@ -61,7 +61,7 @@ export const SEX_OFFENDER_REGISTRY_NY = {
       qualifier: "Registrants and the public",
       access: "Phone at (518) 457-2490",
       outcome: "Registration guidance, compliance questions, public registry access",
-      phone: "(518) 457-2490",
+      phone: "",
       url: "https://www.criminaljustice.ny.gov/nsor/",
       verified: true,
       bilingual: false,

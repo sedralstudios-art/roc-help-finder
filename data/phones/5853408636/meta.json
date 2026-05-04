@@ -1,0 +1,120 @@
+{
+  "digits": "5853408636",
+  "kind": "phone",
+  "primaryName": "Penfield Building Department",
+  "rawValue": "585-340-8636",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldbuilding",
+      "name": "Penfield Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-penfield-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "home-business-zoning-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-penfield-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-penfield-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-penfield-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "short-term-rental-hosting-airbnb-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "solar-panel-rules-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-51-43-296Z_85ad6d0c-2acc-5c85-38f3-90fbb6960c96",
+    "meta": {
+      "callId": "85ad6d0c-2acc-5c85-38f3-90fbb6960c96",
+      "digits": "5853408636",
+      "dialedNumber": "5853408636",
+      "catalogedName": "Penfield Building Department",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:51:43.296Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.321Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Town of Penfield Building Zoning Fire Marshal",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.282Z",
+  "lastSeededAt": "2026-05-03T19:44:16.282Z",
+  "verifiedAt": "2026-05-03T20:21:01.720Z",
+  "verifiedRun": "2026-05-02T06-51-43-296Z_85ad6d0c-2acc-5c85-38f3-90fbb6960c96",
+  "verifiedTranscriptOpening": "You have reached the Town of Penfield Building Zoning Fire Marshal.",
+  "verifiedMatchTokens": [
+    "penfield",
+    "building"
+  ],
+  "verifiedRatio": 1
+}

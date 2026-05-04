@@ -1,0 +1,561 @@
+{
+  "digits": "5853252520",
+  "kind": "phone",
+  "primaryName": "LawNY (Free Legal Services)",
+  "rawValue": "585-325-2520",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:legalEviction",
+    "cat:parentalProtection",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "LEGAL_AID",
+      "slug": "lawNY",
+      "value": "585-325-2520",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "lawny",
+      "name": "LawNY (Free Legal Services)",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "lawnyparent",
+      "name": "LawNY — Free Family Law Legal Help",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "lawnyevict",
+      "name": "LawNY — Tenant Legal Help",
+      "category": "legalEviction",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "alimony-modification-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "annulment-vs-divorce-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "apartment-bed-bug-new-tenant-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "apartment-rent-receipt-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "benefit-overpayment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "benefits-denial-appeal-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "change-locks-tenant-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "child-support-modification-income-change-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "child-support-modification-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "child-support-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "childcare-assistance-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "clean-slate-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-lawsuit-defense-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "consumer-debt-collector-licensing-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "cps-investigation-process-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "custody-basics-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "debt-collection-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "debt-zombie-time-barred-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "default-judgment-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "disability-medicaid-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "dismissed-case-sealing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "divorce-separation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny",
+      "line": 81
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "eviction-process-ny",
+      "line": 77
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-request-walkthrough-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-defense-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "free-legal-help-monroe-ny-program",
+      "line": 24
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-visitation-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "guardianship-article81-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "heap-utility-assistance-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "home-alone-age-kids-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny",
+      "line": 106
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "immigration-basics-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "landlord-mold-disclosure-rental-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "landlord-retaliation-ban-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "landlord-selling-building-tenant-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "lease-assignment-sublease-difference-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "lease-assignment-sublet-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "license-suspension-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "lifeline-phone-program-fed",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "marijuana-sealing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-spend-down-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "medical-debt-ny",
+      "line": 60
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "minimum-wage-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "monroe-county-dss-overview-ny-mon-program",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "mva-no-insurance-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-smoking-secondhand-apartment-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "order-of-protection-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "overtime-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "parenting-time-modification-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "parole-community-supervision-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "pet-housing-breed-restriction-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny",
+      "line": 58
+    },
+    {
+      "type": "entry",
+      "id": "poa-healthcare-proxy-ny",
+      "line": 92
+    },
+    {
+      "type": "entry",
+      "id": "poor-person-application-walkthrough-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-grievance-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "rental-application-fee-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "respond-to-lawsuit-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny",
+      "line": 81
+    },
+    {
+      "type": "entry",
+      "id": "school-meals-free-reduced-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "security-deposit-interest-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "security-deposit-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "senior-disabled-early-lease-termination-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-procedure-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "snap-after-conviction-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "snap-expedited-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 54
+    },
+    {
+      "type": "entry",
+      "id": "social-security-retirement-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "star-senior-exemption-ny",
+      "line": 91
+    },
+    {
+      "type": "entry",
+      "id": "tanf-public-assistance-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "tenant-habitability-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "tenant-safe-harbor-act-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "trust-vs-will-estate-planning-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "undocumented-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-appeal-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-insurance-ny",
+      "line": 54
+    },
+    {
+      "type": "entry",
+      "id": "unmarried-parents-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "wage-theft-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "wic-ny",
+      "line": 56
+    },
+    {
+      "type": "entry",
+      "id": "workers-compensation-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "workplace-safety-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-termination-ny",
+      "line": 55
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-26-09-697Z_c20ae94f-3338-54dd-c81a-f948fb17c44b",
+    "meta": {
+      "callId": "c20ae94f-3338-54dd-c81a-f948fb17c44b",
+      "digits": "5853252520",
+      "dialedNumber": "5853252520",
+      "catalogedName": "LawNY (Free Legal Services)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:26:09.697Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.267Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Legal Assistance of Western New York Rochester",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.264Z",
+  "lastSeededAt": "2026-05-03T19:44:16.264Z"
+}

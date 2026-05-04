@@ -1,0 +1,29 @@
+{
+  "callId": "099686af-9b03-d046-29f7-142be47e7652",
+  "digits": "5852322810",
+  "dialedNumber": "(585) 232-2810",
+  "catalogedName": "rochester-housing-authority-waitlist-ny",
+  "sourceId": "legal-entry:rochester-housing-authority-waitlist-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "rochester-housing-authority-waitlist-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:41:40.650Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.067Z"
+  }
+}

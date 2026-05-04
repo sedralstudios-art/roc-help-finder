@@ -1,0 +1,29 @@
+{
+  "callId": "94a53c8c-a30e-8964-e317-3d70befe673e",
+  "digits": "5857535070",
+  "dialedNumber": "(585) 753-5070",
+  "catalogedName": "hearing-aid-coverage-children-ny",
+  "sourceId": "legal-entry:hearing-aid-coverage-children-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:13:15.134Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.854Z"
+  }
+}

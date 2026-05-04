@@ -1,0 +1,24 @@
+{
+  "callId": "b99dcdd3-2b9d-8f35-d812-75884e15970a",
+  "digits": "5856338690",
+  "dialedNumber": "(585) 633-8690",
+  "catalogedName": "Hope Dealers BTC",
+  "sourceId": "hopedealers",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:32:29.112Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.922Z"
+  }
+}

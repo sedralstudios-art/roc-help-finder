@@ -60,7 +60,7 @@ export const CEMETERY_PLOT_ABANDONED_NY = {
       qualifier: "Any person with a cemetery-related complaint in New York",
       access: "Phone at (518) 474-6226",
       outcome: "Investigation, enforcement, complaint resolution",
-      phone: "(518) 474-6226",
+      phone: "",
       url: "https://dos.ny.gov/cemetery-information",
       verified: true,
       bilingual: false,

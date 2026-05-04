@@ -1,0 +1,59 @@
+{
+  "digits": "5854455380",
+  "kind": "phone",
+  "primaryName": "Teen Empowerment",
+  "rawValue": "585-445-5380",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "te",
+      "name": "Teen Empowerment",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-46-27-779Z_7b485a1d-861c-da52-52bb-eb6f74d8ef3a",
+    "meta": {
+      "callId": "7b485a1d-861c-da52-52bb-eb6f74d8ef3a",
+      "digits": "5854455380",
+      "dialedNumber": "5854455380",
+      "catalogedName": "Teen Empowerment",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:46:27.779Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.441Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.419Z",
+  "lastSeededAt": "2026-05-03T19:44:16.419Z"
+}

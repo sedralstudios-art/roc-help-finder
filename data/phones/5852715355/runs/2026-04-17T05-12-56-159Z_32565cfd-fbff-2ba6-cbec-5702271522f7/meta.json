@@ -1,0 +1,24 @@
+{
+  "callId": "32565cfd-fbff-2ba6-cbec-5702271522f7",
+  "digits": "5852715355",
+  "dialedNumber": "(585) 271-5355",
+  "catalogedName": "Brighton Food Cupboard (JFS)",
+  "sourceId": "brightonfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:12:56.159Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.623Z"
+  }
+}

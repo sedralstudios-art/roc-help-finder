@@ -1,0 +1,60 @@
+{
+  "digits": "988",
+  "kind": "shortcode",
+  "primaryName": "988 Suicide & Crisis Lifeline",
+  "rawValue": "988",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:crisis",
+    "cat:mental",
+    "cat:veteranSvc",
+    "crisis-line",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "call988",
+      "value": "988",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "988crisis",
+      "name": "988 Suicide & Crisis Lifeline",
+      "category": "crisis",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "988",
+      "name": "988 Suicide & Crisis Lifeline",
+      "category": "mental",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "vetcrisis",
+      "name": "Veterans Crisis Line",
+      "category": "veteranSvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-crisis-rights-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "do-not-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.305Z",
+  "lastSeededAt": "2026-05-03T19:44:16.305Z"
+}

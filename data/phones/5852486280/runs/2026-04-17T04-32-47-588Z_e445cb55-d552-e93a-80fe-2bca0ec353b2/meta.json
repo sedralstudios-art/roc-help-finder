@@ -1,0 +1,24 @@
+{
+  "callId": "e445cb55-d552-e93a-80fe-2bca0ec353b2",
+  "digits": "5852486280",
+  "dialedNumber": "(585) 248-6280",
+  "catalogedName": "Pittsford Recreation Department",
+  "sourceId": "pittsfordrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:32:47.588Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.568Z"
+  }
+}

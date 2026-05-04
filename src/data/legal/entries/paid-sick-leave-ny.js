@@ -60,7 +60,7 @@ export const PAID_SICK_LEAVE_NY = {
       qualifier: "Any worker in New York",
       access: "Online or phone",
       outcome: "Investigation and enforcement",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov/paid-sick-leave",
       verified: true,
       bilingual: false,

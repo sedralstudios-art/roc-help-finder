@@ -59,7 +59,7 @@ export const GRILLING_APARTMENT_BALCONY_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-7436",
       outcome: "Fire code guidance, violation resolution",
-      phone: "(585) 428-7436",
+      phone: "",
       url: "https://www.cityofrochester.gov/fire",
       verified: true,
       bilingual: false,

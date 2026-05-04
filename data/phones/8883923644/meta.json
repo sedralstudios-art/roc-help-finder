@@ -1,0 +1,349 @@
+{
+  "digits": "8883923644",
+  "kind": "phone",
+  "primaryName": "NYS Human Rights Division — Housing Discrimination",
+  "rawValue": "888-392-3644",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:legalDiscrim",
+    "cat:legalWorkers",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nysDHR",
+      "value": "888-392-3644",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "hcpdiscrim",
+      "name": "NYS Human Rights Division — Housing Discrimination",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "nydhr",
+      "name": "NYS Division of Human Rights — Employment",
+      "category": "legalWorkers",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "nydhrdisc",
+      "name": "NYS Division of Human Rights",
+      "category": "legalDiscrim",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "ada-title-iii-public-accommodations-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "ada-workplace-accommodation-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "age-discrimination-work-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "background-check-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "bereavement-leave-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "campus-sexual-violence-enough-is-enough-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "charter-school-application-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "co-op-condo-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "constructive-discharge-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "cooperative-apartment-purchase-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "crown-act-hair-discrimination-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "disability-housing-accommodation-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "domestic-worker-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "emotional-support-animal-housing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "employer-references-defamation-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "equal-pay-wage-gap-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "esa-vs-service-animal-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "fair-chance-act-ban-the-box-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "fair-housing-discrimination-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "gender-marker-change-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "genetic-discrimination-gina-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "hotel-guest-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "housing-discrimination-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "medical-cannabis-program-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "medical-marijuana-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nda-non-disclosure-agreement-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-harassment-restraining-order-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "ny-paid-family-leave",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "pet-deposit-pet-rent-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "pregnancy-discrimination-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-worker-accommodations-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "pregnant-workers-fairness-act-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "public-accommodations-ada-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "refuse-service-business-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "religious-accommodation-work-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "restroom-access-act-allys-law-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "salary-history-ban-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-walkthrough-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "service-animal-public-access-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-reporting-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-training-required-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "sexual-orientation-discrimination-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "source-of-income-discrimination-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "tenant-blacklist-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "uber-lyft-passenger-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "unpaid-internship-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "workplace-discrimination-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "workplace-retaliation-protection-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-discharge-public-policy-ny-cl",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-26-28-818Z_c03ce63c-e964-311f-13e1-d36179420d12",
+    "meta": {
+      "callId": "c03ce63c-e964-311f-13e1-d36179420d12",
+      "digits": "8883923644",
+      "dialedNumber": "8883923644",
+      "catalogedName": "NYS Human Rights Division — Housing Discrimination",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:26:28.818Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.789Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.266Z",
+  "lastSeededAt": "2026-05-03T19:44:16.266Z"
+}

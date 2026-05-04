@@ -1,0 +1,80 @@
+{
+  "digits": "5853283380",
+  "kind": "phone",
+  "primaryName": "Foodlink / Food Pantries",
+  "rawValue": "585-328-3380",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "foodlink",
+      "name": "Foodlink / Food Pantries",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "snap-expedited-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-36-15-852Z_367aac85-3225-a4f1-983a-84ca9e0bf9ac",
+    "meta": {
+      "callId": "367aac85-3225-a4f1-983a-84ca9e0bf9ac",
+      "digits": "5853283380",
+      "dialedNumber": "5853283380",
+      "catalogedName": "Foodlink / Food Pantries",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:36:15.852Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.288Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Food Link",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.332Z",
+  "lastSeededAt": "2026-05-03T19:44:16.332Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:45:51.291Z",
+      "sourceUrl": "https://foodlinkny.org/find-food/",
+      "sourceLabel": "Foodlink official Find Food page",
+      "notes": "Web confirms 585-328-3380 for Foodlink HQ. Address corrected: 2011 Mt Read Blvd (not 1999 as previously catalogued). HQ does NOT provide direct food assistance — users should use Find Food map."
+    }
+  ]
+}

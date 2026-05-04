@@ -1,0 +1,80 @@
+{
+  "digits": "5856378684",
+  "kind": "phone",
+  "primaryName": "Sweden Building Department",
+  "rawValue": "585-637-8684",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swedenbuilding",
+      "name": "Sweden Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-sweden-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-sweden-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-sweden-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-sweden-town",
+      "line": 14
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-46-35-880Z_999a99dc-f3d3-3c72-874a-b3a52c691e88",
+    "meta": {
+      "callId": "999a99dc-f3d3-3c72-874a-b3a52c691e88",
+      "digits": "5856378684",
+      "dialedNumber": "5856378684",
+      "catalogedName": "Sweden Building Department",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:46:35.880Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.569Z"
+      }
+    },
+    "verdict": {
+      "bucket": "voicemail-of-person",
+      "confidence": 0.9,
+      "reason": "matches voicemail-of-person pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.309Z",
+  "lastSeededAt": "2026-05-03T19:44:16.309Z"
+}

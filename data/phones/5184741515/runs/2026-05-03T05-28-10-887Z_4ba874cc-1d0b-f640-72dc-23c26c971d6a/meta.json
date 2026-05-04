@@ -1,0 +1,37 @@
+{
+  "callId": "4ba874cc-1d0b-f640-72dc-23c26c971d6a",
+  "digits": "5184741515",
+  "dialedNumber": "(518) 474-1515",
+  "catalogedName": "no-smoking-at-work-ny",
+  "sourceId": "legal-entry:no-smoking-at-work-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny"
+    },
+    {
+      "type": "entry",
+      "id": "smoking-policy-disclosure-housing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:28:10.887Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.542Z"
+  }
+}

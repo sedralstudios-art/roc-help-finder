@@ -60,7 +60,7 @@ export const GARAGE_SALE_YARD_SALE_LAW_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Information about city rules, inspections, citation resolution",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

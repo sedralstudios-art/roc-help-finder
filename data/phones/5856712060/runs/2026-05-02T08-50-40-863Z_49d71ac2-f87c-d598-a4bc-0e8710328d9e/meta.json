@@ -1,0 +1,24 @@
+{
+  "callId": "49d71ac2-f87c-d598-a4bc-0e8710328d9e",
+  "digits": "5856712060",
+  "dialedNumber": "5856712060",
+  "catalogedName": "Webster Community Chest (Meal Program)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:50:40.863Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.578Z"
+  }
+}

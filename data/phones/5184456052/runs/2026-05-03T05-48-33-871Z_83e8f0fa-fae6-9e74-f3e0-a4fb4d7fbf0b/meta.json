@@ -1,0 +1,29 @@
+{
+  "callId": "83e8f0fa-fae6-9e74-f3e0-a4fb4d7fbf0b",
+  "digits": "5184456052",
+  "dialedNumber": "(518) 445-6052",
+  "catalogedName": "access-to-courts-incarcerated-ny",
+  "sourceId": "legal-entry:access-to-courts-incarcerated-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "access-to-courts-incarcerated-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:48:33.871Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.676Z"
+  }
+}

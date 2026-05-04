@@ -1,0 +1,64 @@
+{
+  "digits": "5854288110",
+  "kind": "phone",
+  "primaryName": "NYS Tax Assistance Program (TAP)",
+  "rawValue": "585-428-8110",
+  "blockDial": false,
+  "tags": [
+    "cat:cash",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "nystap",
+      "name": "NYS Tax Assistance Program (TAP)",
+      "category": "cash",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-47-02-336Z_75a62cf3-e316-3a16-46f8-2102f6ad1a3e",
+    "meta": {
+      "callId": "75a62cf3-e316-3a16-46f8-2102f6ad1a3e",
+      "digits": "5854288110",
+      "dialedNumber": "585-428-8110",
+      "catalogedName": "NYS Tax Assistance Program (TAP)",
+      "sourceId": "nystap",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "nystap"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:47:02.336Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.667Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.459Z",
+  "lastSeededAt": "2026-05-03T19:44:16.459Z"
+}

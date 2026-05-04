@@ -1,0 +1,70 @@
+{
+  "digits": "8668155440",
+  "kind": "phone",
+  "primaryName": "entry-callout:hospital-discharge-rights-ny",
+  "rawValue": "(866) 815-5440",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-discharge-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-38-43-201Z_596a7ae4-29a2-711e-b868-b3c47d0e9d5d",
+    "meta": {
+      "callId": "596a7ae4-29a2-711e-b868-b3c47d0e9d5d",
+      "digits": "8668155440",
+      "dialedNumber": "(866) 815-5440",
+      "catalogedName": "hospital-discharge-rights-ny",
+      "sourceId": "legal-entry:hospital-discharge-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hospital-discharge-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-appeals-four-levels-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:38:43.201Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.612Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.396Z",
+  "lastSeededAt": "2026-05-03T19:44:16.396Z"
+}

@@ -1,0 +1,77 @@
+{
+  "digits": "8887961234",
+  "kind": "phone",
+  "primaryName": "Rx Outreach (Low-Cost Mail Order)",
+  "rawValue": "888-796-1234",
+  "blockDial": false,
+  "tags": [
+    "cat:prescriptions",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rxoutreach",
+      "name": "Rx Outreach (Low-Cost Mail Order)",
+      "category": "prescriptions",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-30-05-088Z_2811f0ba-ed5f-6c13-a916-da5767532d9e",
+    "meta": {
+      "callId": "2811f0ba-ed5f-6c13-a916-da5767532d9e",
+      "digits": "8887961234",
+      "dialedNumber": "8887961234",
+      "catalogedName": "Rx Outreach (Low-Cost Mail Order)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:30:05.088Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.797Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "RxOutreach for Spanish Press 2",
+      "reason": "transcript-stated name (RxOutreach for Spanish Press 2) differs from catalogued (Rx Outreach (Low-Cost Mail Order))"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.413Z",
+  "lastSeededAt": "2026-05-03T19:44:16.413Z",
+  "verifiedAt": "2026-05-03T20:21:01.876Z",
+  "verifiedRun": "2026-05-02T10-30-05-088Z_2811f0ba-ed5f-6c13-a916-da5767532d9e",
+  "verifiedTranscriptOpening": "Thank you for calling RxOutreach for Spanish Press 2. If this is a medical emergency, please hang up and dial 911. Our offices are not open at this time. If you know your prescription number and want ",
+  "verifiedMatchTokens": [
+    "rx",
+    "outreach"
+  ],
+  "verifiedRatio": 0.4,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:22:31.325Z",
+      "sourceUrl": "https://rxoutreach.org",
+      "sourceLabel": "Rx Outreach official site",
+      "notes": "Web confirms 1-888-796-1234 as Rx Outreach toll-free patient line. Alt local 314-222-0472."
+    }
+  ]
+}

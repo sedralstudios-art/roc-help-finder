@@ -1,0 +1,29 @@
+{
+  "callId": "81b919b6-72be-7514-d7bc-991bdfd27718",
+  "digits": "5854287725",
+  "dialedNumber": "(585) 428-7725",
+  "catalogedName": "adult-cannabis-personal-use-ny",
+  "sourceId": "legal-entry:adult-cannabis-personal-use-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-cannabis-personal-use-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:49:23.810Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.682Z"
+  }
+}

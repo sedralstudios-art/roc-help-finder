@@ -1,0 +1,70 @@
+{
+  "digits": "5852884777",
+  "kind": "phone",
+  "primaryName": "entry-callout:dental-care-low-income-ny-program",
+  "rawValue": "(585) 288-4777",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "free-eyeglasses-vision-ny-program",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-34-53-967Z_b1265dbe-f3bf-4da4-5aaa-34a719d124d6",
+    "meta": {
+      "callId": "b1265dbe-f3bf-4da4-5aaa-34a719d124d6",
+      "digits": "5852884777",
+      "dialedNumber": "(585) 288-4777",
+      "catalogedName": "dental-care-low-income-ny-program",
+      "sourceId": "legal-entry:dental-care-low-income-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "dental-care-low-income-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "free-eyeglasses-vision-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:34:53.967Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.622Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.387Z",
+  "lastSeededAt": "2026-05-03T19:44:16.387Z"
+}

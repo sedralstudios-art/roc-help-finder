@@ -1,0 +1,29 @@
+{
+  "callId": "130a7963-6cc2-8561-7dc0-d6c7f81402fa",
+  "digits": "5184740919",
+  "dialedNumber": "(518) 474-0919",
+  "catalogedName": "garage-mechanic-unlicensed-ny",
+  "sourceId": "legal-entry:garage-mechanic-unlicensed-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "garage-mechanic-unlicensed-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:12:00.235Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.846Z"
+  }
+}

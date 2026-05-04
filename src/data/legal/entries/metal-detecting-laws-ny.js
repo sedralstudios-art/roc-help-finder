@@ -60,7 +60,7 @@ export const METAL_DETECTING_LAWS_NY = {
       qualifier: "Anyone using NYS Parks",
       access: "Phone at (518) 474-0456 or parks.ny.gov",
       outcome: "Rule information, permit questions",
-      phone: "(518) 474-0456",
+      phone: "",
       url: "https://parks.ny.gov",
       verified: true,
       bilingual: false,

@@ -1,0 +1,61 @@
+{
+  "digits": "5854286445",
+  "kind": "phone",
+  "primaryName": "entry-callout:small-claims-appeal-ny",
+  "rawValue": "(585) 428-6445",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "small-claims-appeal-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-45-41-934Z_9abfe892-5bec-242e-d299-e3fb9b97b9b2",
+    "meta": {
+      "callId": "9abfe892-5bec-242e-d299-e3fb9b97b9b2",
+      "digits": "5854286445",
+      "dialedNumber": "(585) 428-6445",
+      "catalogedName": "small-claims-appeal-ny",
+      "sourceId": "legal-entry:small-claims-appeal-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "small-claims-appeal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:45:41.934Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.095Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.568Z",
+  "lastSeededAt": "2026-05-03T19:44:16.568Z"
+}

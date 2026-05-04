@@ -1,0 +1,24 @@
+{
+  "callId": "a13c1502-e74b-d8d0-b39d-398265725801",
+  "digits": "5854532370",
+  "dialedNumber": "(585) 453-2370",
+  "catalogedName": "RHAFT (Rush-Henrietta Food Terminal)",
+  "sourceId": "rhaftfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:42:51.808Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.860Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "8007421664",
+  "kind": "phone",
+  "primaryName": "entry-callout:property-tax-religious-charitable-exemption-ny",
+  "rawValue": "(800) 742-1664",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-37-55-993Z_9495df35-4e29-e1b3-193b-d346ace50991",
+    "meta": {
+      "callId": "9495df35-4e29-e1b3-193b-d346ace50991",
+      "digits": "8007421664",
+      "dialedNumber": "(800) 742-1664",
+      "catalogedName": "property-tax-religious-charitable-exemption-ny",
+      "sourceId": "legal-entry:property-tax-religious-charitable-exemption-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "property-tax-religious-charitable-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:37:55.993Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.042Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.553Z",
+  "lastSeededAt": "2026-05-03T19:44:16.553Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5854517310",
+  "kind": "phone",
+  "primaryName": "entry-callout:election-law-ballot-challenge-ny",
+  "rawValue": "(585) 451-7310",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-05-37-154Z_2820dfda-d426-8e7d-91dd-a9a36972f172",
+    "meta": {
+      "callId": "2820dfda-d426-8e7d-91dd-a9a36972f172",
+      "digits": "5854517310",
+      "dialedNumber": "(585) 451-7310",
+      "catalogedName": "election-law-ballot-challenge-ny",
+      "sourceId": "legal-entry:election-law-ballot-challenge-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "election-law-ballot-challenge-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:05:37.154Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.800Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.493Z",
+  "lastSeededAt": "2026-05-03T19:44:16.493Z"
+}

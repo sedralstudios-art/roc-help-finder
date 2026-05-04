@@ -1,0 +1,33 @@
+{
+  "callId": "1e11ad25-c8a3-9610-cb0c-408360727a04",
+  "digits": "5854613520",
+  "dialedNumber": "(585) 461-3520",
+  "catalogedName": "health-insurance-marketplace-ny",
+  "sourceId": "legal-entry:health-insurance-marketplace-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "health-insurance-marketplace-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hospice-palliative-care-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:38:01.616Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.608Z"
+  }
+}

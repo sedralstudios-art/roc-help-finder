@@ -1,0 +1,45 @@
+{
+  "callId": "80200a11-efca-cf6a-c8b2-1c65a875651e",
+  "digits": "2124168401",
+  "dialedNumber": "(212) 416-8401",
+  "catalogedName": "cemetery-perpetual-care-trust-ny",
+  "sourceId": "legal-entry:cemetery-perpetual-care-trust-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny"
+    },
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hoa-disputes-ny"
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny"
+    },
+    {
+      "type": "entry",
+      "id": "trust-accounting-scpa-2210-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:20:15.968Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-dial-pad-not-ready",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.278Z"
+  }
+}

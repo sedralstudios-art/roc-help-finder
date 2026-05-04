@@ -1,0 +1,82 @@
+{
+  "digits": "5852922000",
+  "kind": "phone",
+  "primaryName": "Monroe Community College (MCC)",
+  "rawValue": "585-292-2000",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mcc",
+      "name": "Monroe Community College (MCC)",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "pathwaysmcc",
+      "name": "Pathways to MCC (Free College + GED)",
+      "category": "education",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-14-46-385Z_a9b8bbfa-ed8c-2657-430f-4b1d4e907382",
+    "meta": {
+      "callId": "a9b8bbfa-ed8c-2657-430f-4b1d4e907382",
+      "digits": "5852922000",
+      "dialedNumber": "5852922000",
+      "catalogedName": "Monroe Community College (MCC)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:14:46.385Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.242Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Monroe Community College",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.334Z",
+  "lastSeededAt": "2026-05-03T19:44:16.334Z",
+  "verifiedAt": "2026-05-03T20:21:01.703Z",
+  "verifiedRun": "2026-05-02T06-14-46-385Z_a9b8bbfa-ed8c-2657-430f-4b1d4e907382",
+  "verifiedTranscriptOpening": "Thank you for calling Monroe Community College. Our administrative offices are presently closed. Regular office hours are Monday through Friday from 8.45 a.m. until 4.45 p.m. If this is an emergency, ",
+  "verifiedMatchTokens": [
+    "community",
+    "college"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

@@ -60,7 +60,7 @@ export const UNAUTHORIZED_CHARGES_BANK_NY = {
       qualifier: "Any consumer in the US",
       access: "Online",
       outcome: "Investigation, bank must respond within 15 days",
-      phone: "(855) 411-2372",
+      phone: "",
       url: "https://www.consumerfinance.gov/complaint/",
       verified: true,
       bilingual: true,

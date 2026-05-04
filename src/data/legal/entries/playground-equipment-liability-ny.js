@@ -60,7 +60,7 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
       qualifier: "Any U.S. resident",
       access: "Online at cpsc.gov, phone at (800) 638-2772",
       outcome: "Safety guidelines, recall information, product complaints",
-      phone: "(800) 638-2772",
+      phone: "",
       url: "https://www.cpsc.gov/Safety-Education/Safety-Guides/Sports-Fitness-and-Recreation/Playground-Safety",
       verified: true,
       bilingual: true,

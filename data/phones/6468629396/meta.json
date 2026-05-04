@@ -1,0 +1,61 @@
+{
+  "digits": "6468629396",
+  "kind": "phone",
+  "primaryName": "entry-callout:gender-marker-change-ny",
+  "rawValue": "(646) 862-9396",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "gender-marker-change-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-12-33-529Z_f9bf2750-ec4c-36a5-b40c-91001ec4a84a",
+    "meta": {
+      "callId": "f9bf2750-ec4c-36a5-b40c-91001ec4a84a",
+      "digits": "6468629396",
+      "dialedNumber": "(646) 862-9396",
+      "catalogedName": "gender-marker-change-ny",
+      "sourceId": "legal-entry:gender-marker-change-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "gender-marker-change-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:12:33.529Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.850Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.506Z",
+  "lastSeededAt": "2026-05-03T19:44:16.506Z"
+}

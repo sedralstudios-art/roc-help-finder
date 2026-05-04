@@ -1,0 +1,24 @@
+{
+  "callId": "052a8819-1890-944f-35f2-b5389c05f87b",
+  "digits": "5853538177",
+  "dialedNumber": "(585) 353-8177",
+  "catalogedName": "Hamlin Dog Control / Dog Shelter",
+  "sourceId": "hamlindogcontrol",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:56:45.662Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.676Z"
+  }
+}

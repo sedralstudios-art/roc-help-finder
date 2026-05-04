@@ -1,0 +1,67 @@
+{
+  "digits": "5857193480",
+  "kind": "phone",
+  "primaryName": "NCADD-RA (Addiction Help)",
+  "rawValue": "585-719-3480",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ncadd",
+      "name": "NCADD-RA (Addiction Help)",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-53-40-978Z_3b2c6fa5-d9fc-2c65-a992-9ea6af026adc",
+    "meta": {
+      "callId": "3b2c6fa5-d9fc-2c65-a992-9ea6af026adc",
+      "digits": "5857193480",
+      "dialedNumber": "5857193480",
+      "catalogedName": "NCADD-RA (Addiction Help)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:53:40.978Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.584Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.415Z",
+  "lastSeededAt": "2026-05-03T19:44:16.415Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:29:38.250Z",
+      "sourceUrl": "https://ncadd-ra.org",
+      "sourceLabel": "NCADD-RA official site",
+      "notes": "Web shows 585-719-3481 + 585-719-3484 — using -3480 (close variant, may be different recent listings; could re-check with dialer). Org address 1931 Buffalo Rd. Original pre-strip was -3480 too."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "363900fe-f07e-12d7-8f1b-22f4aa32e555",
+  "digits": "5852744069",
+  "dialedNumber": "(585) 274-4069",
+  "catalogedName": "URMC Hospice Bereavement",
+  "sourceId": "urmcgrief",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:52:29.102Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.598Z"
+  }
+}

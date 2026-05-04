@@ -1,0 +1,87 @@
+{
+  "digits": "5852486265",
+  "kind": "phone",
+  "primaryName": "Pittsford Building and Code Enforcement",
+  "rawValue": "585-248-6265",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordbuilding",
+      "name": "Pittsford Building and Code Enforcement",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "backyard-chicken-laws-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-pittsford-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-pittsford-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-pittsford-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-pittsford-town",
+      "line": 62
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-46-33-741Z_904b603f-88d3-c2cc-d1da-e4e1f0a65a4f",
+    "meta": {
+      "callId": "904b603f-88d3-c2cc-d1da-e4e1f0a65a4f",
+      "digits": "5852486265",
+      "dialedNumber": "5852486265",
+      "catalogedName": "Pittsford Building and Code Enforcement",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:46:33.741Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.180Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Building Department",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.298Z",
+  "lastSeededAt": "2026-05-03T19:44:16.298Z"
+}

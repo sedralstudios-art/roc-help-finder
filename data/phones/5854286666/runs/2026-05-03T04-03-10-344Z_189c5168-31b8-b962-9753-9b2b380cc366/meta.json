@@ -1,0 +1,49 @@
+{
+  "callId": "189c5168-31b8-b962-9753-9b2b380cc366",
+  "digits": "5854286666",
+  "dialedNumber": "(585) 428-6666",
+  "catalogedName": "identity-theft-ny",
+  "sourceId": "legal-entry:identity-theft-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "identity-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-disputes-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "revenge-porn-online-harassment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:03:10.344Z",
+  "durationSec": 26,
+  "status": "no_audio",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.205Z"
+  }
+}

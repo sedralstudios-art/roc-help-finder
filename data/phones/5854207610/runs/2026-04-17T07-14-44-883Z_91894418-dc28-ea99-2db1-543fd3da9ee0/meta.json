@@ -1,0 +1,24 @@
+{
+  "callId": "91894418-dc28-ea99-2db1-543fd3da9ee0",
+  "digits": "5854207610",
+  "dialedNumber": "(585) 420-7610",
+  "catalogedName": "Family Promise (Homeless Families)",
+  "sourceId": "fpgroc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:14:44.883Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.828Z"
+  }
+}

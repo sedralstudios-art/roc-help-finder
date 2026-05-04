@@ -1,0 +1,189 @@
+{
+  "digits": "5854287274",
+  "kind": "phone",
+  "primaryName": "entry-callout:animal-at-large-roaming-dog-ny",
+  "rawValue": "(585) 428-7274",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-at-large-roaming-dog-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "animal-cruelty-reporting-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "coyote-wild-turkey-urban-wildlife-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "dangerous-dog-classification-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "dangerous-wild-animal-ban-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "dog-bite-liability-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "dog-leash-law-off-leash-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-pet-protection-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "found-lost-property-wallet-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "invisible-fence-dog-escape-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "keeping-a-found-pet-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "noise-complaint-quiet-hours-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "noise-ordinance-barking-dog-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "pet-kennel-boarding-licensing-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-02-53-545Z_4696d8f0-bfe9-ee0a-1ee4-bd318f809263",
+    "meta": {
+      "callId": "4696d8f0-bfe9-ee0a-1ee4-bd318f809263",
+      "digits": "5854287274",
+      "dialedNumber": "(585) 428-7274",
+      "catalogedName": "animal-at-large-roaming-dog-ny",
+      "sourceId": "legal-entry:animal-at-large-roaming-dog-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "animal-at-large-roaming-dog-ny"
+        },
+        {
+          "type": "entry",
+          "id": "animal-cruelty-reporting-ny"
+        },
+        {
+          "type": "entry",
+          "id": "animal-hoarding-reporting-ny"
+        },
+        {
+          "type": "entry",
+          "id": "coyote-wild-turkey-urban-wildlife-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dangerous-dog-classification-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dangerous-wild-animal-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dog-bite-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dog-leash-law-off-leash-ny"
+        },
+        {
+          "type": "entry",
+          "id": "domestic-violence-pet-protection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "found-lost-property-wallet-ny"
+        },
+        {
+          "type": "entry",
+          "id": "invisible-fence-dog-escape-ny"
+        },
+        {
+          "type": "entry",
+          "id": "keeping-a-found-pet-ny"
+        },
+        {
+          "type": "entry",
+          "id": "noise-complaint-quiet-hours-ny"
+        },
+        {
+          "type": "entry",
+          "id": "noise-ordinance-barking-dog-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pet-kennel-boarding-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:02:53.545Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.937Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Rochester Animal Services",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.277Z",
+  "lastSeededAt": "2026-05-03T19:44:16.277Z"
+}

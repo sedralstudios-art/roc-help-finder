@@ -1,0 +1,24 @@
+{
+  "callId": "749c40e7-f3aa-e76f-30f7-4e3a7f90ce20",
+  "digits": "5852957810",
+  "dialedNumber": "(585) 295-7810",
+  "catalogedName": "Veterans Outreach Center",
+  "sourceId": "voc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:21:43.861Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.630Z"
+  }
+}

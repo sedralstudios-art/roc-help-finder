@@ -1,0 +1,61 @@
+{
+  "digits": "8882609707",
+  "kind": "phone",
+  "primaryName": "Air Care Alliance (Medical Flight Referral)",
+  "rawValue": "888-260-9707",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "aircarealliance",
+      "name": "Air Care Alliance (Medical Flight Referral)",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-25-27-474Z_4a5fd8ab-a486-7bf9-eac5-8c7760d1c545",
+    "meta": {
+      "callId": "4a5fd8ab-a486-7bf9-eac5-8c7760d1c545",
+      "digits": "8882609707",
+      "dialedNumber": "8882609707",
+      "catalogedName": "Air Care Alliance (Medical Flight Referral)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:25:27.474Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.787Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "America's Hottest Talk Line",
+      "reason": "transcript-stated name (America's Hottest Talk Line) differs from catalogued (Air Care Alliance (Medical Flight Referral))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.428Z",
+  "lastSeededAt": "2026-05-03T19:44:16.428Z"
+}

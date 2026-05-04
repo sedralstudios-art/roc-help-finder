@@ -1,0 +1,33 @@
+{
+  "callId": "e7f62fb7-93a0-fe2c-0c62-31082de1ecf1",
+  "digits": "5852922300",
+  "dialedNumber": "(585) 292-2300",
+  "catalogedName": "college-in-state-tuition-residency-ny",
+  "sourceId": "legal-entry:college-in-state-tuition-residency-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny"
+    },
+    {
+      "type": "entry",
+      "id": "yellowstone-injunction-commercial-lease-ny-cl"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:34:00.338Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.583Z"
+  }
+}

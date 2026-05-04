@@ -1,0 +1,78 @@
+{
+  "digits": "5857845300",
+  "kind": "phone",
+  "primaryName": "Brighton Memorial Library",
+  "rawValue": "585-784-5300",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonlib",
+      "name": "Brighton Memorial Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-21-43-235Z_ca9b96df-3d4d-eecb-d409-d0b90c264456",
+    "meta": {
+      "callId": "ca9b96df-3d4d-eecb-d409-d0b90c264456",
+      "digits": "5857845300",
+      "dialedNumber": "5857845300",
+      "catalogedName": "Brighton Memorial Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:21:43.235Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.643Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Brighton Memorial Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.431Z",
+  "lastSeededAt": "2026-05-03T19:44:16.431Z",
+  "verifiedAt": "2026-05-03T20:21:01.800Z",
+  "verifiedRun": "2026-05-02T09-21-43-235Z_ca9b96df-3d4d-eecb-d409-d0b90c264456",
+  "verifiedTranscriptOpening": "Thank you for calling Brighton Memorial Library. The library is closed. The library is open Monday to Thursday from 9 a.m. to 8 p.m., Fridays from 9 a.m. to 6 p.m., and Saturdays and Sundays from noon",
+  "verifiedMatchTokens": [
+    "brighton",
+    "memorial",
+    "library"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:14:23.622Z",
+      "sourceUrl": "https://www.brightonlibrary.org",
+      "sourceLabel": "Brighton Memorial Library official site",
+      "notes": "Direct match: web confirms 585-784-5300 AND tree dialer transcript says \"Brighton Memorial Library\"."
+    }
+  ]
+}

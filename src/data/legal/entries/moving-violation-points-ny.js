@@ -59,7 +59,7 @@ export const MOVING_VIOLATION_POINTS_NY = {
       qualifier: "Any licensed driver in New York",
       access: "Online or phone",
       outcome: "Point totals, DRA payments, hearing requests",
-      phone: "(518) 473-5595",
+      phone: "",
       url: "https://dmv.ny.gov/tickets/about-nys-driver-point-system",
       verified: true,
       bilingual: false,

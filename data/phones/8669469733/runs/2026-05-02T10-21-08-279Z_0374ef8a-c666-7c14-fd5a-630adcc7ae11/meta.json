@@ -1,0 +1,24 @@
+{
+  "callId": "0374ef8a-c666-7c14-fd5a-630adcc7ae11",
+  "digits": "8669469733",
+  "dialedNumber": "8669469733",
+  "catalogedName": "OPWDD (Developmental Disabilities)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:21:08.279Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.776Z"
+  }
+}

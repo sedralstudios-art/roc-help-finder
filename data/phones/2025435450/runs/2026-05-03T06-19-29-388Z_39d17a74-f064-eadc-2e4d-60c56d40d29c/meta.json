@@ -1,0 +1,29 @@
+{
+  "callId": "39d17a74-f064-eadc-2e4d-60c56d40d29c",
+  "digits": "2025435450",
+  "dialedNumber": "(202) 543-5450",
+  "catalogedName": "lawn-pesticide-neighbor-notice-ny",
+  "sourceId": "legal-entry:lawn-pesticide-neighbor-notice-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lawn-pesticide-neighbor-notice-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:19:29.388Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.896Z"
+  }
+}

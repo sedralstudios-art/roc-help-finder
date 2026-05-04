@@ -61,7 +61,7 @@ export const RELIGIOUS_ACCOMMODATION_SCHOOL_NY = {
       qualifier: "Any student in a New York public school",
       access: "Phone at (518) 474-3852",
       outcome: "Complaint investigation, guidance, compliance enforcement",
-      phone: "(518) 474-3852",
+      phone: "",
       url: "https://www.nysed.gov",
       verified: true,
       bilingual: false,

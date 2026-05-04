@@ -1,0 +1,29 @@
+{
+  "callId": "7aa114aa-3e89-9b76-1375-3b16f9adadd6",
+  "digits": "8448457269",
+  "dialedNumber": "(844) 845-7269",
+  "catalogedName": "campus-sexual-violence-enough-is-enough-ny",
+  "sourceId": "legal-entry:campus-sexual-violence-enough-is-enough-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "campus-sexual-violence-enough-is-enough-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:54:48.289Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.719Z"
+  }
+}

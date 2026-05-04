@@ -1,0 +1,29 @@
+{
+  "callId": "dbeaf02a-daf7-a275-256c-e8ed12cea5fb",
+  "digits": "5852388531",
+  "dialedNumber": "(585) 238-8531",
+  "catalogedName": "home-daycare-license-ny",
+  "sourceId": "legal-entry:home-daycare-license-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-daycare-license-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:14:05.044Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.861Z"
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "digits": "5852323051",
+  "kind": "phone",
+  "primaryName": "JustCause Legal Clinics (Free)",
+  "rawValue": "585-232-3051",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:legalDebt",
+    "cat:parentalProtection",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "LEGAL_AID",
+      "slug": "justCause",
+      "value": "585-232-3051",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "vlsp",
+      "name": "JustCause Legal Clinics (Free)",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "vlspfamily",
+      "name": "JustCause — Family Law Clinic",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "bankruptcyhelp",
+      "name": "Bankruptcy Legal Clinics (Free) — JustCause",
+      "category": "legalDebt",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "alimony-spousal-support-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "appliance-repair-refund-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "basement-waterproofing-contractor-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-burial-plot-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "child-custody-relocation-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "child-support-enforcement-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "collecting-court-judgment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "common-law-marriage-ny",
+      "line": 66
+    },
+    {
+      "type": "entry",
+      "id": "debt-collection-rights-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "default-judgment-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "divorce-residency-requirement-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "divorce-separation-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "diy-will-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "domestic-partnership-registration-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "driveway-paving-scam-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "estate-administrator-commissions-scpa-2307-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "eviction-process-ny",
+      "line": 78
+    },
+    {
+      "type": "entry",
+      "id": "family-court-what-to-expect-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "force-placed-homeowner-insurance-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "free-legal-help-monroe-ny-program",
+      "line": 24
+    },
+    {
+      "type": "entry",
+      "id": "furnace-repair-scam-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "garage-conversion-adu-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "garage-mechanic-unlicensed-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-adoption-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "gutter-downspout-drainage-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "handwritten-will-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "health-care-proxy-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "hoa-disputes-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "holdover-tenant-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "home-sale-disclosure-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "home-warranty-disputes-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "land-contract-rent-to-own-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "landlord-interference-quiet-enjoyment-ny-cl",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "month-to-month-tenancy-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mva-no-insurance-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "neighbors-security-light-ny-cl",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "pet-trust-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "post-adoption-contact-agreement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-basics-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-financial-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "pre-eviction-notice-rules-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "prenuptial-agreement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "private-road-maintenance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "property-survey-boundary-dispute-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-sale-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "quitclaim-deed-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "respond-to-lawsuit-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "rochester-housing-authority-waitlist-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "security-camera-neighbor-privacy-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "security-deposit-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "selling-home-without-realtor-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "sexual-assault-survivors-rights-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-appeal-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-procedure-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "small-estate-affidavit-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "spouses-right-to-home-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "stepparent-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "surviving-spouse-elective-share-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tenant-blacklist-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-habitability-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tenant-organizing-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "tenant-safe-harbor-act-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "totten-trust-bank-account-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "transfer-deceased-vehicle-title-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "transfer-on-death-deed-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "tree-damage-neighbor-liability-ny-cl",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "trust-vs-will-estate-planning-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "uncontested-divorce-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "wage-assignment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-estate-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-eviction-lockout-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-27-21-932Z_656bb2a9-6cb4-619b-7eec-4d26081211f8",
+    "meta": {
+      "callId": "656bb2a9-6cb4-619b-7eec-4d26081211f8",
+      "digits": "5852323051",
+      "dialedNumber": "5852323051",
+      "catalogedName": "JustCause Legal Clinics (Free)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:27:21.932Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.137Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.265Z",
+  "lastSeededAt": "2026-05-03T19:44:16.265Z"
+}

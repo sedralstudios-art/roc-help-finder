@@ -1,0 +1,24 @@
+{
+  "callId": "a42c55b1-4075-4fd2-f5c0-d809b9b2423e",
+  "digits": "5853366052",
+  "dialedNumber": "5853366052",
+  "catalogedName": "Irondequoit Animal Control",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:43:01.515Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.302Z"
+  }
+}

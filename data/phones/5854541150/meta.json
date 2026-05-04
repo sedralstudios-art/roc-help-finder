@@ -1,0 +1,59 @@
+{
+  "digits": "5854541150",
+  "kind": "phone",
+  "primaryName": "VOA Veterans Housing",
+  "rawValue": "585-454-1150",
+  "blockDial": false,
+  "tags": [
+    "cat:veteranSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "voa",
+      "name": "VOA Veterans Housing",
+      "category": "veteranSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-37-48-446Z_0365d85a-0478-e52e-585c-a8d6a013aaff",
+    "meta": {
+      "callId": "0365d85a-0478-e52e-585c-a8d6a013aaff",
+      "digits": "5854541150",
+      "dialedNumber": "5854541150",
+      "catalogedName": "VOA Veterans Housing",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:37:48.446Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.816Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.422Z",
+  "lastSeededAt": "2026-05-03T19:44:16.422Z"
+}

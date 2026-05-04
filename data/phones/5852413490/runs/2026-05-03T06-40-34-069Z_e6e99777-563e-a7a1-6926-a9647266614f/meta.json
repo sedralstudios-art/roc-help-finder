@@ -1,0 +1,29 @@
+{
+  "callId": "e6e99777-563e-a7a1-6926-a9647266614f",
+  "digits": "5852413490",
+  "dialedNumber": "(585) 241-3490",
+  "catalogedName": "restitution-criminal-case-ny",
+  "sourceId": "legal-entry:restitution-criminal-case-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "restitution-criminal-case-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:34.069Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.059Z"
+  }
+}

@@ -60,7 +60,7 @@ export const DRIVING_WITHOUT_INSURANCE_NY = {
       qualifier: "Any vehicle owner in New York",
       access: "In person, online, or by mail",
       outcome: "Registration restoration, penalty information",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/insurance/insurance-requirements",
       verified: true,
       bilingual: false,

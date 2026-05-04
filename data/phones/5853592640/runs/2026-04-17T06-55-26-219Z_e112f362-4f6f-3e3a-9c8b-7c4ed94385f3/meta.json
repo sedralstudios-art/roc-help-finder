@@ -1,0 +1,24 @@
+{
+  "callId": "e112f362-4f6f-3e3a-9c8b-7c4ed94385f3",
+  "digits": "5853592640",
+  "dialedNumber": "(585) 359-2640",
+  "catalogedName": "Henrietta Town Court",
+  "sourceId": "henriettacourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:55:26.219Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.748Z"
+  }
+}

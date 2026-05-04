@@ -1,0 +1,91 @@
+{
+  "digits": "8007997233",
+  "kind": "phone",
+  "primaryName": "National Domestic Violence Hotline",
+  "rawValue": "800-799-7233",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:domesticSvc",
+    "crisis-line",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "dvHotline",
+      "value": "800-799-7233",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "ndvh",
+      "name": "National Domestic Violence Hotline",
+      "category": "domesticSvc",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-legal-options-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "order-of-protection-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-49-39-390Z_a9e950a9-ed1f-1009-69d2-ce2b8f726551",
+    "meta": {
+      "callId": "a9e950a9-ed1f-1009-69d2-ce2b8f726551",
+      "digits": "8007997233",
+      "dialedNumber": "8007997233",
+      "catalogedName": "National Domestic Violence Hotline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:49:39.390Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.846Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "National Domestic Violence Hotline",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.319Z",
+  "lastSeededAt": "2026-05-03T19:44:16.319Z",
+  "verifiedAt": "2026-05-03T20:21:01.849Z",
+  "verifiedRun": "2026-05-02T10-49-39-390Z_a9e950a9-ed1f-1009-69d2-ce2b8f726551",
+  "verifiedTranscriptOpening": "Thank you for calling the National Domestic Violence Hotline. Para espanol, oprima dos.",
+  "verifiedMatchTokens": [
+    "national",
+    "domestic",
+    "violence"
+  ],
+  "verifiedRatio": 1
+}

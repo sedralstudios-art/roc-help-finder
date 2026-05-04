@@ -1,0 +1,29 @@
+{
+  "digits": "8009855990",
+  "kind": "phone",
+  "primaryName": "CRISIS.disasterDistress",
+  "rawValue": "800-985-5990",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "crisis-line",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "disasterDistress",
+      "value": "800-985-5990",
+      "blockDial": true
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "do-not-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.411Z",
+  "lastSeededAt": "2026-05-03T19:44:16.411Z"
+}

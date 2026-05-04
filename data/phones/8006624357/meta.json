@@ -1,0 +1,66 @@
+{
+  "digits": "8006624357",
+  "kind": "phone",
+  "primaryName": "SAMHSA National Helpline",
+  "rawValue": "800-662-4357",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "samhsa"
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-48-48-981Z_1bd8c3cf-7da7-e4cc-012d-a4413def23ef",
+    "meta": {
+      "callId": "1bd8c3cf-7da7-e4cc-012d-a4413def23ef",
+      "digits": "8006624357",
+      "dialedNumber": "8006624357",
+      "catalogedName": "SAMHSA National Helpline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:48:48.981Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.844Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.6818181818181819,
+      "score": 0.18181818181818182,
+      "extracted": "Substance Abuse and Mental Health Services Administration's National Helpline for information on treatment and recovery ",
+      "reason": "jaccard 0.18"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.417Z",
+  "lastSeededAt": "2026-05-03T19:44:16.417Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:36:10.709Z",
+      "sourceUrl": "https://www.samhsa.gov/find-help/national-helpline",
+      "sourceLabel": "SAMHSA national helpline page",
+      "notes": "Web verified — crisis-tier helpline."
+    }
+  ]
+}

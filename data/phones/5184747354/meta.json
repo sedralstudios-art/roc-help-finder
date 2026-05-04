@@ -1,0 +1,88 @@
+{
+  "digits": "5184747354",
+  "kind": "phone",
+  "primaryName": "entry-callout:food-allergy-restaurant-liability-ny",
+  "rawValue": "(518) 474-7354",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "food-allergy-restaurant-liability-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "kids-selling-lemonade-stand-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medical-power-of-attorney-disputes-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "telehealth-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-18-56-474Z_630d03ad-ad8a-b2ad-d6f0-4b6bac9beb5b",
+    "meta": {
+      "callId": "630d03ad-ad8a-b2ad-d6f0-4b6bac9beb5b",
+      "digits": "5184747354",
+      "dialedNumber": "(518) 474-7354",
+      "catalogedName": "food-allergy-restaurant-liability-ny",
+      "sourceId": "legal-entry:food-allergy-restaurant-liability-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "food-allergy-restaurant-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "kids-selling-lemonade-stand-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medical-power-of-attorney-disputes-ny"
+        },
+        {
+          "type": "entry",
+          "id": "telehealth-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:18:56.474Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.262Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.328Z",
+  "lastSeededAt": "2026-05-03T19:44:16.328Z"
+}

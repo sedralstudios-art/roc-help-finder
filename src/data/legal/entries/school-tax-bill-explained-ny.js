@@ -59,7 +59,7 @@ export const SCHOOL_TAX_BILL_EXPLAINED_NY = {
       qualifier: "Any NYS homeowner",
       access: "Online at tax.ny.gov/star or (518) 457-2036",
       outcome: "STAR exemption application, savings of $900 to $1,500 per year",
-      phone: "(518) 457-2036",
+      phone: "",
       url: "https://www.tax.ny.gov/pit/property/star/",
       verified: true,
       bilingual: true,

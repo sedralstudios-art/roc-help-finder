@@ -1,0 +1,61 @@
+{
+  "digits": "5852628220",
+  "kind": "phone",
+  "primaryName": "entry-callout:504-plan-vs-iep-ny",
+  "rawValue": "(585) 262-8220",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "504-plan-vs-iep-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-48-08-885Z_8f47ac32-bf1f-1a97-26c9-ebe797f16d23",
+    "meta": {
+      "callId": "8f47ac32-bf1f-1a97-26c9-ebe797f16d23",
+      "digits": "5852628220",
+      "dialedNumber": "(585) 262-8220",
+      "catalogedName": "504-plan-vs-iep-ny",
+      "sourceId": "legal-entry:504-plan-vs-iep-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "504-plan-vs-iep-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:48:08.885Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.674Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.461Z",
+  "lastSeededAt": "2026-05-03T19:44:16.461Z"
+}

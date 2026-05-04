@@ -1,0 +1,24 @@
+{
+  "callId": "90d61a86-66b5-0616-95e4-db4c46a39145",
+  "digits": "8664887386",
+  "dialedNumber": "8664887386",
+  "catalogedName": "The Trevor Project (LGBTQ+ Youth Crisis)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:51:21.548Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.851Z"
+  }
+}

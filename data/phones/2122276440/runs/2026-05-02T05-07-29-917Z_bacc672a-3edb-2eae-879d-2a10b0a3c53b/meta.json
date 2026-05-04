@@ -1,0 +1,24 @@
+{
+  "callId": "bacc672a-3edb-2eae-879d-2a10b0a3c53b",
+  "digits": "2122276440",
+  "dialedNumber": "2122276440",
+  "catalogedName": "NYCOSH — Workplace Safety Rights",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:07:29.917Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.091Z"
+  }
+}

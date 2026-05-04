@@ -60,7 +60,7 @@ export const MOLD_HOMEOWNER_REMEDIATION_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (518) 457-2735",
       outcome: "License verification, complaint investigation, guidance",
-      phone: "(518) 457-2735",
+      phone: "",
       url: "https://dol.ny.gov/mold",
       verified: true,
       bilingual: false,

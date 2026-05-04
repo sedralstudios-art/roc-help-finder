@@ -1,0 +1,33 @@
+{
+  "callId": "b5c8175c-bdcb-d658-6377-b3387ed809a4",
+  "digits": "5854287200",
+  "dialedNumber": "(585) 428-7200",
+  "catalogedName": "postnuptial-agreement-ny",
+  "sourceId": "legal-entry:postnuptial-agreement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "postnuptial-agreement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "standby-guardianship-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:32:09.875Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.911Z"
+  }
+}

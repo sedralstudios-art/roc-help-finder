@@ -1,0 +1,24 @@
+{
+  "callId": "999a99dc-f3d3-3c72-874a-b3a52c691e88",
+  "digits": "5856378684",
+  "dialedNumber": "5856378684",
+  "catalogedName": "Sweden Building Department",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:46:35.880Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.569Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "digits": "5854422250",
+  "kind": "phone",
+  "primaryName": "Big Brothers Big Sisters of Greater Rochester",
+  "rawValue": "585-442-2250",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "bbbs",
+      "name": "Big Brothers Big Sisters of Greater Rochester",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-44-34-873Z_e3d84637-49df-9000-1c45-10e8af83d73b",
+    "meta": {
+      "callId": "e3d84637-49df-9000-1c45-10e8af83d73b",
+      "digits": "5854422250",
+      "dialedNumber": "5854422250",
+      "catalogedName": "Big Brothers Big Sisters of Greater Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:44:34.873Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.437Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Big Brothers Big Sisters of Greater Rochester",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.419Z",
+  "lastSeededAt": "2026-05-03T19:44:16.419Z",
+  "verifiedAt": "2026-05-03T20:21:01.750Z",
+  "verifiedRun": "2026-05-02T07-44-34-873Z_e3d84637-49df-9000-1c45-10e8af83d73b",
+  "verifiedTranscriptOpening": "Thank you for calling Big Brothers Big Sisters of Greater Rochester. We are currently closed. To hear our office hours and location, please press 2. If you're calling about donations, please press 4. ",
+  "verifiedMatchTokens": [
+    "big",
+    "brothers",
+    "big",
+    "sisters",
+    "greater"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T21:16:40.187Z",
+      "sourceUrl": "https://www.beabig.org",
+      "sourceLabel": "Big Brothers Big Sisters of Greater Rochester website footer",
+      "notes": "Direct match: web confirms (585) 442-2250 AND tree dialer transcript says \"Thank you for calling Big Brothers Big Sisters of Greater Rochester\"."
+    }
+  ]
+}

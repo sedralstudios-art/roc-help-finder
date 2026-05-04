@@ -1,0 +1,37 @@
+{
+  "callId": "b5c004ad-6fe4-9ec1-4d94-9945e04fdc97",
+  "digits": "5857531860",
+  "dialedNumber": "(585) 753-1860",
+  "catalogedName": "court-system-explained-ny-program",
+  "sourceId": "legal-entry:court-system-explained-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-system-explained-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "ny-estate-tax-threshold-ny"
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:37:23.236Z",
+  "durationSec": 6,
+  "status": "no_audio",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.352Z"
+  }
+}

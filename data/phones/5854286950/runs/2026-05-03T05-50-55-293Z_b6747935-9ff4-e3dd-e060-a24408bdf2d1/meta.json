@@ -1,0 +1,29 @@
+{
+  "callId": "b6747935-9ff4-e3dd-e060-a24408bdf2d1",
+  "digits": "5854286950",
+  "dialedNumber": "(585) 428-6950",
+  "catalogedName": "apartment-electric-submetering-ny",
+  "sourceId": "legal-entry:apartment-electric-submetering-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-electric-submetering-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:50:55.293Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.692Z"
+  }
+}

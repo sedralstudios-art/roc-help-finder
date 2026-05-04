@@ -1,0 +1,24 @@
+{
+  "callId": "ae823c41-86de-100a-ea94-c42e6a9d51ea",
+  "digits": "5852708626",
+  "dialedNumber": "5852708626",
+  "catalogedName": "Mary's Place (Refugee Welcome)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:01:28.134Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.214Z"
+  }
+}

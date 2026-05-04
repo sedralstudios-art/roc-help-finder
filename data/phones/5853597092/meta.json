@@ -1,0 +1,69 @@
+{
+  "digits": "5853597092",
+  "kind": "phone",
+  "primaryName": "Henrietta Public Library",
+  "rawValue": "585-359-7092",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettalib",
+      "name": "Henrietta Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-03-49-357Z_fa8a2a5b-946b-1989-c448-3e5d293925d3",
+    "meta": {
+      "callId": "fa8a2a5b-946b-1989-c448-3e5d293925d3",
+      "digits": "5853597092",
+      "dialedNumber": "5853597092",
+      "catalogedName": "Henrietta Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:03:49.357Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.347Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Town of Henrietta Library",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.445Z",
+  "lastSeededAt": "2026-05-03T19:44:16.445Z",
+  "verifiedAt": "2026-05-03T20:21:01.726Z",
+  "verifiedRun": "2026-05-02T07-03-49-357Z_fa8a2a5b-946b-1989-c448-3e5d293925d3",
+  "verifiedTranscriptOpening": "You have reached the Town of Henrietta Library. We are currently closed. I did not get your response in time. Please try again. You have reached the Town of Henrietta Library. We are currently closed.",
+  "verifiedMatchTokens": [
+    "henrietta",
+    "library"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

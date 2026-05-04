@@ -1,0 +1,24 @@
+{
+  "callId": "1c6e3555-980c-a563-d130-c7fc18e40df6",
+  "digits": "5183814350",
+  "dialedNumber": "5183814350",
+  "catalogedName": "Parent to Parent of NYS (Family Voices)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:11:44.328Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.100Z"
+  }
+}

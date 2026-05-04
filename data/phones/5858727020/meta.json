@@ -1,0 +1,67 @@
+{
+  "digits": "5858727020",
+  "kind": "phone",
+  "primaryName": "Webster Justice Court",
+  "rawValue": "585-872-7020",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "webstercourt",
+      "name": "Webster Justice Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-26-56-133Z_63cd08d8-5f6b-16b0-7d0d-731d0e56f1e7",
+    "meta": {
+      "callId": "63cd08d8-5f6b-16b0-7d0d-731d0e56f1e7",
+      "digits": "5858727020",
+      "dialedNumber": "5858727020",
+      "catalogedName": "Webster Justice Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:26:56.133Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.653Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.456Z",
+  "lastSeededAt": "2026-05-03T19:44:16.456Z",
+  "verifiedAt": "2026-05-03T20:21:01.803Z",
+  "verifiedRun": "2026-05-02T09-26-56-133Z_63cd08d8-5f6b-16b0-7d0d-731d0e56f1e7",
+  "verifiedTranscriptOpening": "Thank you for calling. Town of Webster Courts. We are currently closed. At the tone, please leave a message. When you finish recording, you may hang up or press the pound key for more options. Thank y",
+  "verifiedMatchTokens": [
+    "webster",
+    "court"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

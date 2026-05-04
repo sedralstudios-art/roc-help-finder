@@ -1,0 +1,220 @@
+{
+  "digits": "911",
+  "kind": "shortcode",
+  "primaryName": "CRISIS.emergency911",
+  "rawValue": "911",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "crisis-line",
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "emergency911",
+      "value": "911",
+      "blockDial": true
+    },
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "aed-defibrillator-good-samaritan-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "animal-cruelty-reporting-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "anti-hazing-law-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "apartment-too-hot-summer-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "bike-accident-dooring-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "burning-trash-leaves-laws-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "car-accident-what-to-do-first-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "carbon-monoxide-poisoning-liability-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "catalytic-converter-theft-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "cell-phone-while-driving-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "child-left-in-car-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "citizens-arrest-ny",
+      "line": 14
+    },
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-legal-options-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "drug-possession-basics-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "elder-abuse-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "firearm-surrender-order-protection-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "fireworks-laws-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "food-allergy-restaurant-liability-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "gas-leak-what-to-do-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "good-samaritan-law-ny",
+      "line": 10
+    },
+    {
+      "type": "entry",
+      "id": "harassment-cyberstalking-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "heat-not-working-tenant-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "hit-and-run-leaving-scene-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "housing-code-violations-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "kendras-law-assisted-outpatient-treatment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-crisis-rights-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "narcan-access-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "reporting-child-abuse-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "self-defense-laws-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "texting-while-driving-ny",
+      "line": 33
+    },
+    {
+      "type": "entry",
+      "id": "u-visa-crime-victim-immigration-ny",
+      "line": 54
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-motorist-accident-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "do-not-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.269Z",
+  "lastSeededAt": "2026-05-03T19:44:16.269Z"
+}

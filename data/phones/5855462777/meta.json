@@ -1,0 +1,85 @@
+{
+  "digits": "5855462777",
+  "kind": "phone",
+  "primaryName": "RESTORE Sexual Assault Services",
+  "rawValue": "585-546-2777",
+  "blockDial": false,
+  "tags": [
+    "cat:domesticSvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "restore",
+      "name": "RESTORE Sexual Assault Services",
+      "category": "domesticSvc",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "campus-sexual-violence-enough-is-enough-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "change-locks-tenant-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "crime-victim-compensation-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "sexual-assault-survivors-rights-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-39-28-889Z_80f741e3-d0cb-08f3-9a75-b697da406669",
+    "meta": {
+      "callId": "80f741e3-d0cb-08f3-9a75-b697da406669",
+      "digits": "5855462777",
+      "dialedNumber": "5855462777",
+      "catalogedName": "RESTORE Sexual Assault Services",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:39:28.889Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.820Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.297Z",
+  "lastSeededAt": "2026-05-03T19:44:16.297Z"
+}

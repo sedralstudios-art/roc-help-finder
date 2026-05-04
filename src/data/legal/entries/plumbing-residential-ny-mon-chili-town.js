@@ -9,7 +9,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_CHILI_TOWN = {
   title: { en: "Residential Plumbing in the Town of Chili — Town-Issued Master Plumber License, CloudPermit Portal" },
 
   summary: {
-    en: "The Town of Chili runs its own Master Plumber licensing program. The town does not accept a Rochester Examining Board of Plumbers certificate in place of a Chili license. Plumbing permits are separate from building permits and filed online through the CloudPermit portal. Homeowners can pull a plumbing permit for like-for-like fixture or appliance swaps on an owner-occupied single-family home and do the work personally. Moving fixtures or changing the plumbing layout requires a Chili-licensed plumber. The Building Department at (585) 889-6143 handles licensing, permits, and inspections."
+    en: "The Town of Chili runs its own Master Plumber licensing program. The town does not accept a Rochester Examining Board of Plumbers certificate in place of a Chili license. Plumbing permits are separate from building permits and filed online through the CloudPermit portal. Homeowners can pull a plumbing permit for like-for-like fixture or appliance swaps on an owner-occupied single-family home and do the work personally. Moving fixtures or changing the plumbing layout requires a Chili-licensed plumber. The Building Department at [number being verified] handles licensing, permits, and inspections."
   },
 
   whatItMeans: {
@@ -57,7 +57,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_CHILI_TOWN = {
       qualifier: "Residents, property owners, and plumbers working inside the Town",
       access: "Town Hall, 3333 Chili Ave; phone; email building@chiliny.gov",
       outcome: "License issuance, permit issuance, inspection scheduling",
-      phone: "(585) 889-6143",
+      phone: "",
       url: "https://www.chiliny.gov/202/Building-Department",
       verified: true,
       bilingual: false,

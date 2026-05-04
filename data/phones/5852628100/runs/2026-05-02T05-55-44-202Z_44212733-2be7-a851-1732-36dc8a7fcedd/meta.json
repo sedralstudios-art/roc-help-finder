@@ -1,0 +1,24 @@
+{
+  "callId": "44212733-2be7-a851-1732-36dc8a7fcedd",
+  "digits": "5852628100",
+  "dialedNumber": "5852628100",
+  "catalogedName": "Family Resource Centers (RCSD)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:55:44.202Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.200Z"
+  }
+}

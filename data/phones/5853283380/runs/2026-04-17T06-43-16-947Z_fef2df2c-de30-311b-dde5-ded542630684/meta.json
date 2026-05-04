@@ -1,0 +1,24 @@
+{
+  "callId": "fef2df2c-de30-311b-dde5-ded542630684",
+  "digits": "5853283380",
+  "dialedNumber": "(585) 328-3380",
+  "catalogedName": "Foodlink / Food Pantries",
+  "sourceId": "foodlink",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:43:16.947Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.731Z"
+  }
+}

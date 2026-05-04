@@ -1,0 +1,61 @@
+{
+  "digits": "5857535600",
+  "kind": "phone",
+  "primaryName": "entry-callout:court-system-explained-ny-program",
+  "rawValue": "(585) 753-5600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-system-explained-ny-program",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-01-02-596Z_7ae6b5b6-515b-3349-80bd-d68e1761f3ea",
+    "meta": {
+      "callId": "7ae6b5b6-515b-3349-80bd-d68e1761f3ea",
+      "digits": "5857535600",
+      "dialedNumber": "(585) 753-5600",
+      "catalogedName": "court-system-explained-ny-program",
+      "sourceId": "legal-entry:court-system-explained-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "court-system-explained-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:01:02.596Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.767Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.485Z",
+  "lastSeededAt": "2026-05-03T19:44:16.485Z"
+}

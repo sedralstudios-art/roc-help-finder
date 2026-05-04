@@ -1,0 +1,61 @@
+{
+  "digits": "5854873330",
+  "kind": "phone",
+  "primaryName": "entry-callout:surrogacy-child-parent-security-act-ny",
+  "rawValue": "(585) 487-3330",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-49-01-631Z_be505cc0-c5e6-d27a-3a28-d3815cd4a294",
+    "meta": {
+      "callId": "be505cc0-c5e6-d27a-3a28-d3815cd4a294",
+      "digits": "5854873330",
+      "dialedNumber": "(585) 487-3330",
+      "catalogedName": "surrogacy-child-parent-security-act-ny",
+      "sourceId": "legal-entry:surrogacy-child-parent-security-act-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "surrogacy-child-parent-security-act-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:49:01.631Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.119Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.573Z",
+  "lastSeededAt": "2026-05-03T19:44:16.573Z"
+}

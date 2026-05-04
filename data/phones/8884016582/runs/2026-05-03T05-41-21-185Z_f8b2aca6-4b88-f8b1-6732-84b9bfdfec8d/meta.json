@@ -1,0 +1,33 @@
+{
+  "callId": "f8b2aca6-4b88-f8b1-6732-84b9bfdfec8d",
+  "digits": "8884016582",
+  "dialedNumber": "1-888-401-6582",
+  "catalogedName": "mltc-managed-long-term-care-ny-program",
+  "sourceId": "legal-entry:mltc-managed-long-term-care-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "pace-program-all-inclusive-care-elderly-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:41:21.185Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.629Z"
+  }
+}

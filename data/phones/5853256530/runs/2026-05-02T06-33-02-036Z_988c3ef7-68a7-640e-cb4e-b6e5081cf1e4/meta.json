@@ -1,0 +1,24 @@
+{
+  "callId": "988c3ef7-68a7-640e-cb4e-b6e5081cf1e4",
+  "digits": "5853256530",
+  "dialedNumber": "5853256530",
+  "catalogedName": "Urban League of Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:33:02.036Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.282Z"
+  }
+}

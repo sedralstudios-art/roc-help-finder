@@ -60,7 +60,7 @@ export const CAR_INSURANCE_LAPSE_PENALTY_NY = {
       qualifier: "Any NYS vehicle owner",
       access: "Phone at (518) 474-0705",
       outcome: "Lapse resolution, reinstatement, penalty payment",
-      phone: "(518) 474-0705",
+      phone: "",
       url: "https://dmv.ny.gov/insurance/insurance-lapse-702",
       verified: true,
       bilingual: false,

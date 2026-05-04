@@ -59,7 +59,7 @@ export const AUTO_REPAIR_RIGHTS_NY = {
       qualifier: "Any vehicle owner in New York",
       access: "Phone or online",
       outcome: "Investigation and enforcement action against the shop",
-      phone: "(518) 474-8943",
+      phone: "",
       url: "https://dmv.ny.gov",
       verified: true,
       bilingual: false,

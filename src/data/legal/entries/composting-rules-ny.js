@@ -59,7 +59,7 @@ export const COMPOSTING_RULES_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 753-7600 or monroecounty.gov/ecopark",
       outcome: "Free compost bins, yard waste disposal, recycling information",
-      phone: "(585) 753-7600",
+      phone: "",
       url: "https://www.monroecounty.gov/ecopark",
       verified: true,
       bilingual: false,

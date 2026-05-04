@@ -1,0 +1,59 @@
+{
+  "digits": "5856378161",
+  "kind": "phone",
+  "primaryName": "Sweden Senior Center",
+  "rawValue": "585-637-8161",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swedensenior",
+      "name": "Sweden Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-43-42-592Z_4b8e7af6-7641-300c-f41a-fa9b614d92fb",
+    "meta": {
+      "callId": "4b8e7af6-7641-300c-f41a-fa9b614d92fb",
+      "digits": "5856378161",
+      "dialedNumber": "5856378161",
+      "catalogedName": "Sweden Senior Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:43:42.592Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.563Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.433Z",
+  "lastSeededAt": "2026-05-03T19:44:16.433Z"
+}

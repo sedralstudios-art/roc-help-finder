@@ -59,7 +59,7 @@ export const RENT_OVERCHARGE_NY = {
       qualifier: "Tenants in rent-stabilized apartments",
       access: "Phone or online",
       outcome: "Investigation, rent reduction, refunds",
-      phone: "(866) 275-3427",
+      phone: "",
       url: "https://hcr.ny.gov",
       verified: true,
       bilingual: true,

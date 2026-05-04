@@ -1,0 +1,29 @@
+{
+  "callId": "a5493ead-79e2-4df3-d76e-a307503e3a14",
+  "digits": "5854287493",
+  "dialedNumber": "(585) 428-7493",
+  "catalogedName": "car-accident-what-to-do-first-ny",
+  "sourceId": "legal-entry:car-accident-what-to-do-first-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-accident-what-to-do-first-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:55:13.244Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.722Z"
+  }
+}

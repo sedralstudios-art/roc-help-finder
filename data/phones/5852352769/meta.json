@@ -1,0 +1,64 @@
+{
+  "digits": "5852352769",
+  "kind": "phone",
+  "primaryName": "Salvation Army Free Furniture Pickup",
+  "rawValue": "585-235-2769",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "safurniture",
+      "name": "Salvation Army Free Furniture Pickup",
+      "category": "clothing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-47-10-651Z_41923676-f07c-cc8d-993a-b232ce772b6d",
+    "meta": {
+      "callId": "41923676-f07c-cc8d-993a-b232ce772b6d",
+      "digits": "5852352769",
+      "dialedNumber": "585-235-2769",
+      "catalogedName": "Salvation Army Free Furniture Pickup",
+      "sourceId": "safurniture",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "safurniture"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:47:10.651Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.668Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.459Z",
+  "lastSeededAt": "2026-05-03T19:44:16.459Z"
+}

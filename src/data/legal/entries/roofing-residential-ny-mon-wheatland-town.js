@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_WHEATLAND_TOWN = {
   title: { en: "Residential Roofing in the Town of Wheatland — Explicit Permit Required Any Size, 4x Penalty + $100" },
 
   summary: {
-    en: "The Town of Wheatland explicitly requires a building permit for roofs, decks, porches, and entryways of any size. The Building Department lists the requirement directly on its permit page — no ambiguity about whether a small reroof requires a permit. If work begins without a permit, the town can issue a Stop Work order with penalties of four times the permit cost plus $100. The Village of Scottsville sits inside Wheatland and runs its own separate code enforcement. The Building Department at (585) 889-1553 handles scope confirmation."
+    en: "The Town of Wheatland explicitly requires a building permit for roofs, decks, porches, and entryways of any size. The Building Department lists the requirement directly on its permit page — no ambiguity about whether a small reroof requires a permit. If work begins without a permit, the town can issue a Stop Work order with penalties of four times the permit cost plus $100. The Village of Scottsville sits inside Wheatland and runs its own separate code enforcement. The Building Department at [number being verified] handles scope confirmation."
   },
 
   whatItMeans: {
@@ -17,7 +17,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_WHEATLAND_TOWN = {
   },
 
   example: {
-    en: "A homeowner in Wheatland (outside Scottsville village) needs a complete roof replacement. Because the town explicitly lists roofs of any size as permit-required, he calls the Building Department at (585) 889-1553 before hiring a contractor. The contractor submits a permit application, pays the fee, and waits for approval before starting. Starting first would have triggered a 4x + $100 penalty."
+    en: "A homeowner in Wheatland (outside Scottsville village) needs a complete roof replacement. Because the town explicitly lists roofs of any size as permit-required, he calls the Building Department at [number being verified] before hiring a contractor. The contractor submits a permit application, pays the fee, and waits for approval before starting. Starting first would have triggered a 4x + $100 penalty."
   },
 
   whoQualifies: {
@@ -57,7 +57,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_WHEATLAND_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "22 Main Street, Scottsville; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 889-1553",
+      phone: "",
       url: "https://www.townofwheatland.org/building-department",
       verified: true,
       bilingual: false,

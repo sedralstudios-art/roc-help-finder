@@ -1,0 +1,24 @@
+{
+  "callId": "d7a207c7-612d-b84e-afbe-842eebb97936",
+  "digits": "5852341050",
+  "dialedNumber": "5852341050",
+  "catalogedName": "Saathi of Rochester (South Asian Support)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:32:22.479Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.148Z"
+  }
+}

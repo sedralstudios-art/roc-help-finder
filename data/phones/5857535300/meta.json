@@ -1,0 +1,64 @@
+{
+  "digits": "5857535300",
+  "kind": "phone",
+  "primaryName": "Monroe County Opioid Response Helpline",
+  "rawValue": "585-753-5300",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mcdohopioid"
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-41-31-166Z_afaece75-b7ef-b40c-b9fe-1ef7752dc76f",
+    "meta": {
+      "callId": "afaece75-b7ef-b40c-b9fe-1ef7752dc76f",
+      "digits": "5857535300",
+      "dialedNumber": "5857535300",
+      "catalogedName": "Monroe County Opioid Response Helpline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:41:31.166Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.825Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.417Z",
+  "lastSeededAt": "2026-05-03T19:44:16.417Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:36:10.708Z",
+      "sourceUrl": "https://www.monroecounty.gov/opioid-narcan",
+      "sourceLabel": "Monroe County DPH Opioid page",
+      "notes": "Web verified — crisis-tier helpline."
+    }
+  ]
+}

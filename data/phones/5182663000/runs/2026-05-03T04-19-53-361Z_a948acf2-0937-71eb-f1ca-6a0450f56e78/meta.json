@@ -1,0 +1,45 @@
+{
+  "callId": "a948acf2-0937-71eb-f1ca-6a0450f56e78",
+  "digits": "5182663000",
+  "dialedNumber": "(518) 266-3000",
+  "catalogedName": "cema-mortgage-refinance-savings-ny",
+  "sourceId": "legal-entry:cema-mortgage-refinance-savings-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-tax-warrant-173-ny"
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:19:53.361Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.277Z"
+  }
+}

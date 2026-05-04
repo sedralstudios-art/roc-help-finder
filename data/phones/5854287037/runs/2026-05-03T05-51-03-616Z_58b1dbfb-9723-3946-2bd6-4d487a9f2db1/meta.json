@@ -1,0 +1,29 @@
+{
+  "callId": "58b1dbfb-9723-3946-2bd6-4d487a9f2db1",
+  "digits": "5854287037",
+  "dialedNumber": "(585) 428-7037",
+  "catalogedName": "apartment-fire-escape-safety-ny",
+  "sourceId": "legal-entry:apartment-fire-escape-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-fire-escape-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:51:03.616Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.693Z"
+  }
+}

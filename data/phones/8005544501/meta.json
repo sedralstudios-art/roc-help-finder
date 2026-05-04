@@ -1,0 +1,61 @@
+{
+  "digits": "8005544501",
+  "kind": "phone",
+  "primaryName": "entry-callout:outdoor-dining-food-truck-permit-ny",
+  "rawValue": "(800) 554-4501",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "outdoor-dining-food-truck-permit-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-31-33-233Z_0eb8e0bb-d64d-b5ca-2c81-9f36185dcdd3",
+    "meta": {
+      "callId": "0eb8e0bb-d64d-b5ca-2c81-9f36185dcdd3",
+      "digits": "8005544501",
+      "dialedNumber": "(800) 554-4501",
+      "catalogedName": "outdoor-dining-food-truck-permit-ny",
+      "sourceId": "legal-entry:outdoor-dining-food-truck-permit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "outdoor-dining-food-truck-permit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:31:33.233Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.997Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.540Z",
+  "lastSeededAt": "2026-05-03T19:44:16.540Z"
+}

@@ -65,7 +65,7 @@ export const SPEEDING_TICKET_NY = {
       qualifier: "Low income residents of Monroe County and surrounding counties",
       access: "Phone intake at (585) 232-4090",
       outcome: "Advice and referral on traffic-related civil consequences",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

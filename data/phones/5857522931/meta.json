@@ -1,0 +1,79 @@
+{
+  "digits": "5857522931",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-riga-town",
+  "rawValue": "(585) 752-2931",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-riga-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-riga-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-riga-town",
+      "line": 23
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-18-57-372Z_e8d0badc-8e0d-debe-f56f-3bb37a284132",
+    "meta": {
+      "callId": "e8d0badc-8e0d-debe-f56f-3bb37a284132",
+      "digits": "5857522931",
+      "dialedNumber": "(585) 752-2931",
+      "catalogedName": "electrical-residential-ny-mon-riga-town",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-riga-town",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-riga-town"
+        },
+        {
+          "type": "entry",
+          "id": "hvac-residential-ny-mon-riga-town"
+        },
+        {
+          "type": "entry",
+          "id": "plumbing-residential-ny-mon-riga-town"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:18:57.372Z",
+      "durationSec": 6,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.523Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.347Z",
+  "lastSeededAt": "2026-05-03T19:44:16.347Z"
+}

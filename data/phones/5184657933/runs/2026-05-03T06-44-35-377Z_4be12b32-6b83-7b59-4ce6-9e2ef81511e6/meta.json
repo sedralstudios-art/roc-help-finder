@@ -1,0 +1,29 @@
+{
+  "callId": "4be12b32-6b83-7b59-4ce6-9e2ef81511e6",
+  "digits": "5184657933",
+  "dialedNumber": "(518) 465-7933",
+  "catalogedName": "seqr-environmental-review-ny",
+  "sourceId": "legal-entry:seqr-environmental-review-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "seqr-environmental-review-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:44:35.377Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.087Z"
+  }
+}

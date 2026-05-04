@@ -1,0 +1,61 @@
+{
+  "digits": "8006592955",
+  "kind": "phone",
+  "primaryName": "entry-callout:commercial-eviction-process-ny",
+  "rawValue": "(800) 659-2955",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "commercial-eviction-process-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-59-14-478Z_1b9b622e-1651-cba2-bb52-b90fc1674fc2",
+    "meta": {
+      "callId": "1b9b622e-1651-cba2-bb52-b90fc1674fc2",
+      "digits": "8006592955",
+      "dialedNumber": "(800) 659-2955",
+      "catalogedName": "commercial-eviction-process-ny",
+      "sourceId": "legal-entry:commercial-eviction-process-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "commercial-eviction-process-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:59:14.478Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.753Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.482Z",
+  "lastSeededAt": "2026-05-03T19:44:16.482Z"
+}

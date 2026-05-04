@@ -1,0 +1,68 @@
+{
+  "digits": "5856371130",
+  "kind": "phone",
+  "primaryName": "Clarkson Town Clerk",
+  "rawValue": "585-637-1130",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "clarksonclerk",
+      "name": "Clarkson Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-37-01-575Z_bbe3bcfb-f1d9-b8bf-d282-1a4fa1ec6baf",
+    "meta": {
+      "callId": "bbe3bcfb-f1d9-b8bf-d282-1a4fa1ec6baf",
+      "digits": "5856371130",
+      "dialedNumber": "5856371130",
+      "catalogedName": "Clarkson Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:37:01.575Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.549Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.438Z",
+  "lastSeededAt": "2026-05-03T19:44:16.438Z",
+  "verifiedAt": "2026-05-03T20:21:01.771Z",
+  "verifiedRun": "2026-05-02T08-37-01-575Z_bbe3bcfb-f1d9-b8bf-d282-1a4fa1ec6baf",
+  "verifiedTranscriptOpening": "Hi there, you've reached the Clarkson Town Hall. If you need to speak with the Town Clerk, press 1, Highway Department, press 2, Building Department, press 3, Courts, press 4, Assessor, press 5, Town ",
+  "verifiedMatchTokens": [
+    "clarkson",
+    "town",
+    "clerk"
+  ],
+  "verifiedRatio": 1
+}

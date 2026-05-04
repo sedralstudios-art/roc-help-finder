@@ -1,0 +1,159 @@
+{
+  "digits": "8666973732",
+  "kind": "phone",
+  "primaryName": "EmPower+ (Free Home Upgrades)",
+  "rawValue": "866-697-3732",
+  "blockDial": false,
+  "tags": [
+    "cat:utilities",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "UTILITIES",
+      "slug": "empowerPlus",
+      "value": "866-697-3732",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "empower",
+      "name": "EmPower+ (Free Home Upgrades)",
+      "category": "utilities",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "attic-insulation-rebate-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "electric-vehicle-charging-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "home-energy-audit-rebates-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "solar-net-metering-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "solar-panel-rules-ny",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "wood-stove-epa-certification-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-21-59-233Z_eb8b207e-27ac-c87c-77da-984258b12c51",
+    "meta": {
+      "callId": "eb8b207e-27ac-c87c-77da-984258b12c51",
+      "digits": "8666973732",
+      "dialedNumber": "866-697-3732",
+      "catalogedName": "EmPower+ (Free Home Upgrades)",
+      "sourceId": "empower",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "UTILITIES.empowerPlus"
+        },
+        {
+          "type": "program",
+          "id": "empower"
+        },
+        {
+          "type": "entry",
+          "id": "attic-insulation-rebate-ny"
+        },
+        {
+          "type": "entry",
+          "id": "electric-vehicle-charging-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-energy-audit-rebates-ny"
+        },
+        {
+          "type": "entry",
+          "id": "solar-installation-contract-ny"
+        },
+        {
+          "type": "entry",
+          "id": "solar-net-metering-ny"
+        },
+        {
+          "type": "entry",
+          "id": "solar-panel-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "weatherization-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wood-stove-epa-certification-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:21:59.233Z",
+      "durationSec": 13,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.007Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "NYSERDA",
+      "reason": "transcript-stated name (NYSERDA) differs from catalogued (EmPower+ (Free Home Upgrades))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.283Z",
+  "lastSeededAt": "2026-05-03T19:44:16.283Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:55:34.898Z",
+      "sourceUrl": "https://www.nyserda.ny.gov/All-Programs/EmPower-New-York-Program",
+      "sourceLabel": "NYSERDA EmPower+ program page",
+      "notes": "Web confirms 866-697-3732 (866-NYSERDA) as the EmPower+ application help line. May tree captured \"Thank you for calling NYSERDA\" — direct match."
+    }
+  ]
+}

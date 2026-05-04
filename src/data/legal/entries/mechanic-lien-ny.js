@@ -60,7 +60,7 @@ export const MECHANIC_LIEN_NY = {
       qualifier: "Any property in Monroe County",
       access: "Phone or in person",
       outcome: "Lien information, filing, discharge",
-      phone: "(585) 753-1600",
+      phone: "",
       url: "https://www.monroecounty.gov/clerk",
       verified: true,
       bilingual: false,

@@ -1,0 +1,373 @@
+{
+  "digits": "311",
+  "kind": "shortcode",
+  "primaryName": "Rochester 311 (City Services)",
+  "rawValue": "311",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:legal",
+    "cat:seniorSvc",
+    "cat:weather",
+    "cat:youth",
+    "crisis-line",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "municipal311",
+      "value": "311",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "roc311",
+      "name": "Rochester 311 (City Services)",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "seniorcenters",
+      "name": "City R-Centers (Senior Programs)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rcentersyouth",
+      "name": "City R-Centers (Youth Programs)",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rcenters",
+      "name": "City R-Centers (Year-Round)",
+      "category": "weather",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "abandoned-house-next-door-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "abandoned-vehicle-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "accessible-parking-abuse-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "apartment-bed-bug-new-tenant-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "apartment-fire-escape-safety-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "apartment-pest-roach-mouse-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "asbestos-tenant-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "bedbug-tenant-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "bike-accident-dooring-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "car-accident-what-to-do-first-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "check-fraud-stolen-check-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "composting-rules-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "constructive-eviction-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "dog-waste-cleanup-law-ny",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-pet-protection-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-diving-scrap-law-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "garage-band-noise-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "heat-not-working-tenant-ny",
+      "line": 35
+    },
+    {
+      "type": "entry",
+      "id": "home-title-theft-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "housing-code-violations-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "landlord-not-returning-calls-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "landlord-retaliation-ny",
+      "line": 37
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-tenant-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny",
+      "line": 7
+    },
+    {
+      "type": "entry",
+      "id": "mold-tenant-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "mva-no-insurance-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-harassment-restraining-order-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "noise-complaint-quiet-hours-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "noise-ordinance-barking-dog-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-fire-pit-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "parking-overnight-street-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "pothole-damage-claim-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "private-lot-parking-towing-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "private-nuisance-ny-cl",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "rental-scam-fake-listing-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-trip-fall-claim-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "smoke-co-detector-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "snow-emergency-alternate-parking-roc",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "snow-ice-sidewalk-liability-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "tenant-habitability-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tenant-lock-change-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rent-strike-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "tenant-security-camera-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "tow-truck-scam-accident-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "tree-fence-property-line-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "do-not-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.265Z",
+  "lastSeededAt": "2026-05-03T19:44:16.265Z"
+}

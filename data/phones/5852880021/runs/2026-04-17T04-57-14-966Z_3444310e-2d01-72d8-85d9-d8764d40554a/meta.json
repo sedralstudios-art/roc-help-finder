@@ -1,0 +1,24 @@
+{
+  "callId": "3444310e-2d01-72d8-85d9-d8764d40554a",
+  "digits": "5852880021",
+  "dialedNumber": "(585) 288-0021",
+  "catalogedName": "Community Place of Greater Rochester",
+  "sourceId": "communityplace",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:57:14.966Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.605Z"
+  }
+}

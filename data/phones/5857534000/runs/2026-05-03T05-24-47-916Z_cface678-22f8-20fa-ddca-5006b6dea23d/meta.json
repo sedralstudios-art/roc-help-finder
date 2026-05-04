@@ -1,0 +1,37 @@
+{
+  "callId": "cface678-22f8-20fa-ddca-5006b6dea23d",
+  "digits": "5857534000",
+  "dialedNumber": "(585) 753-4000",
+  "catalogedName": "ignition-interlock-dwi-ny",
+  "sourceId": "legal-entry:ignition-interlock-dwi-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ignition-interlock-dwi-ny"
+    },
+    {
+      "type": "entry",
+      "id": "probation-violation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "restitution-criminal-case-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:24:47.916Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-helper-output-not-json",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.532Z"
+  }
+}

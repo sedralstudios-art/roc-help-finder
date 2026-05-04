@@ -54,7 +54,7 @@ export const entry = {
     qualifier: "Open to residents and contractors working in Town of Perinton",
     access: "Phone",
     outcome: "Permit issuance, inspection scheduling, code guidance",
-    phone: "585-223-0770",
+    phone: "",
     url: "https://perinton.gov/departments/public-works/building-and-codes-department/",
     verified: true,
     bilingual: false,

@@ -1,0 +1,25 @@
+{
+  "digits": "5182663030",
+  "kind": "phone",
+  "primaryName": "entry-callout:bulk-sale-notice-ny",
+  "rawValue": "(518) 266-3030",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.473Z",
+  "lastSeededAt": "2026-05-03T19:44:16.473Z"
+}

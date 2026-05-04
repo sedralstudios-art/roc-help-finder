@@ -58,7 +58,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Town",
       access: "Temporarily at 680 Westfall Road during Town Hall renovation; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-784-5250",
+      phone: "",
       url: "https://www.brightonny.gov/970/Building-Permit-Applications",
       verified: true,
       bilingual: false,

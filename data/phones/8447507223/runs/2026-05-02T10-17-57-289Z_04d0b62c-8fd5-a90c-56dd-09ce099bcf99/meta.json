@@ -1,0 +1,24 @@
+{
+  "callId": "04d0b62c-8fd5-a90c-56dd-09ce099bcf99",
+  "digits": "8447507223",
+  "dialedNumber": "8447507223",
+  "catalogedName": "entry-callout:narcan-access-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:17:57.289Z",
+  "durationSec": 9,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.769Z"
+  }
+}

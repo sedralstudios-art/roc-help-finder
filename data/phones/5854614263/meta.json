@@ -1,0 +1,40 @@
+{
+  "digits": "5854614263",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-50-14-436Z_711ca33a-8440-8da9-2859-eebc434da605",
+    "meta": {
+      "callId": "711ca33a-8440-8da9-2859-eebc434da605",
+      "digits": "5854614263",
+      "dialedNumber": "5854614263",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:50:14.436Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.450Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

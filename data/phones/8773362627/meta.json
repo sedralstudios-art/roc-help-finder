@@ -1,0 +1,61 @@
+{
+  "digits": "8773362627",
+  "kind": "phone",
+  "primaryName": "entry-callout:flood-zone-insurance-ny",
+  "rawValue": "(877) 336-2627",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "flood-zone-insurance-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-09-46-838Z_04ec640f-8316-92e7-227c-112f586ddfde",
+    "meta": {
+      "callId": "04ec640f-8316-92e7-227c-112f586ddfde",
+      "digits": "8773362627",
+      "dialedNumber": "(877) 336-2627",
+      "catalogedName": "flood-zone-insurance-ny",
+      "sourceId": "legal-entry:flood-zone-insurance-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "flood-zone-insurance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:09:46.838Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.831Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.501Z",
+  "lastSeededAt": "2026-05-03T19:44:16.501Z"
+}

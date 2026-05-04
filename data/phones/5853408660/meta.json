@@ -1,0 +1,90 @@
+{
+  "digits": "5853408660",
+  "kind": "phone",
+  "primaryName": "entry-callout:sidewalk-repair-who-pays-ny",
+  "rawValue": "(585) 340-8660",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-57-30-290Z_b3e78768-21ef-ce23-fcd9-86eceaf7427d",
+    "meta": {
+      "callId": "b3e78768-21ef-ce23-fcd9-86eceaf7427d",
+      "digits": "5853408660",
+      "dialedNumber": "(585) 340-8660",
+      "catalogedName": "sidewalk-repair-who-pays-ny",
+      "sourceId": "legal-entry:sidewalk-repair-who-pays-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "sidewalk-repair-who-pays-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-plow-damage-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-removal-ordinance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "trash-pickup-missed-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:57:30.290Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.475Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Andrew Urquitz with Penfield Recreation",
+      "reason": "transcript-stated name (Andrew Urquitz with Penfield Recreation) differs from catalogued (sidewalk-repair-who-pays-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.330Z",
+  "lastSeededAt": "2026-05-03T19:44:16.330Z"
+}

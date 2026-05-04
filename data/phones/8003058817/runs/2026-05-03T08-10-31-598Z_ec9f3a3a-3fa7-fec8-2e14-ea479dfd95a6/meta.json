@@ -1,0 +1,33 @@
+{
+  "callId": "ec9f3a3a-3fa7-fec8-2e14-ea479dfd95a6",
+  "digits": "8003058817",
+  "dialedNumber": "(800) 305-8817",
+  "catalogedName": "504-plan-vs-iep-ny",
+  "sourceId": "legal-entry:504-plan-vs-iep-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "504-plan-vs-iep-ny"
+    },
+    {
+      "type": "entry",
+      "id": "early-intervention-infants-toddlers-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:10:31.598Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.508Z"
+  }
+}

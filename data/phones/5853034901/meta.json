@@ -1,0 +1,79 @@
+{
+  "digits": "5853034901",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-honeoye-falls-village",
+  "rawValue": "(585) 303-4901",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-honeoye-falls-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-honeoye-falls-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-honeoye-falls-village",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-42-33-130Z_8ff50083-487d-5f9c-eb31-b0948814145f",
+    "meta": {
+      "callId": "8ff50083-487d-5f9c-eb31-b0948814145f",
+      "digits": "5853034901",
+      "dialedNumber": "(585) 303-4901",
+      "catalogedName": "electrical-residential-ny-mon-honeoye-falls-village",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-honeoye-falls-village",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-honeoye-falls-village"
+        },
+        {
+          "type": "entry",
+          "id": "plumbing-residential-ny-mon-honeoye-falls-village"
+        },
+        {
+          "type": "entry",
+          "id": "roofing-residential-ny-mon-honeoye-falls-village"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:42:33.130Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.376Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.346Z",
+  "lastSeededAt": "2026-05-03T19:44:16.346Z"
+}

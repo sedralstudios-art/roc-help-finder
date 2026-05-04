@@ -60,7 +60,7 @@ export const BOAT_REGISTRATION_NY = {
       qualifier: "Any NYS boater",
       access: "Online at parks.ny.gov/recreation/boating or (518) 474-0456",
       outcome: "Free safety course, registration guidance, launch locations",
-      phone: "(518) 474-0456",
+      phone: "",
       url: "https://parks.ny.gov/recreation/boating/",
       verified: true,
       bilingual: false,

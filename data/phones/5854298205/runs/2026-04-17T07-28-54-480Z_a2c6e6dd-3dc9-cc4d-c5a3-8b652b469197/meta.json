@@ -1,0 +1,24 @@
+{
+  "callId": "a2c6e6dd-3dc9-cc4d-c5a3-8b652b469197",
+  "digits": "5854298205",
+  "dialedNumber": "(585) 429-8205",
+  "catalogedName": "Gates Town Clerk",
+  "sourceId": "gatesclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:28:54.480Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.844Z"
+  }
+}

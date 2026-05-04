@@ -1,0 +1,30 @@
+{
+  "digits": "5184324046",
+  "kind": "phone",
+  "primaryName": "entry-callout:boundary-line-agreement-rpl-345-ny",
+  "rawValue": "(518) 432-4046",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boundary-line-agreement-rpl-345-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "easement-by-necessity-ny-cl",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.367Z",
+  "lastSeededAt": "2026-05-03T19:44:16.367Z"
+}

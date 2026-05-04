@@ -1,0 +1,259 @@
+{
+  "digits": "5855463700",
+  "kind": "phone",
+  "primaryName": "Housing Council at PathStone",
+  "rawValue": "585-546-3700",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "cat:legal",
+    "cat:legalEviction",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "ROCHESTER_CITY",
+      "slug": "housingCouncil",
+      "value": "585-546-3700",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "housingcouncil",
+      "name": "Housing Council at PathStone",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "housingcouncillegal",
+      "name": "Housing Council — Tenant Rights",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "housingcouncilrent",
+      "name": "Housing Council at PathStone — Renter Help",
+      "category": "legalEviction",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "abandoned-property-after-eviction-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "apartment-carpet-replacement-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "apartment-pest-roach-mouse-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "apartment-too-hot-summer-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "appliance-left-by-landlord-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "basement-apartment-legal-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "carbon-monoxide-poisoning-liability-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "cema-mortgage-refinance-savings-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "first-time-homebuyer-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-rescue-scams-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-settlement-conference-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "heat-not-working-tenant-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "high-cost-home-loan-banking-6-l-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "how-to-read-lease-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "ice-dam-roof-damage-ny-cl",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "landlord-enter-emergency-ny-cl",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "landlord-not-returning-calls-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "landlord-retaliation-ban-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "landlord-retaliation-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "landlord-showing-apartment-notice-ny-cl",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "landlord-wont-give-receipt-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "moving-out-checklist-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "renters-rights-checklist-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "right-to-counsel-eviction-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-walkthrough-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "sewer-backup-liability-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-lease-break-early-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-paint-apartment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rent-strike-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-right-to-organize-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "water-damage-tenant-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "water-heater-rules-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-07-06-294Z_4173394e-0804-452c-914a-c0c448070d28",
+    "meta": {
+      "callId": "4173394e-0804-452c-914a-c0c448070d28",
+      "digits": "5855463700",
+      "dialedNumber": "5855463700",
+      "catalogedName": "Housing Council at PathStone",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:07:06.294Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.486Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Housing Council at Pathstone",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.269Z",
+  "lastSeededAt": "2026-05-03T19:44:16.269Z",
+  "verifiedAt": "2026-05-03T20:21:01.762Z",
+  "verifiedRun": "2026-05-02T08-07-06-294Z_4173394e-0804-452c-914a-c0c448070d28",
+  "verifiedTranscriptOpening": "Thank you for calling the Housing Council at Pathstone. Our office is currently closed. If you know your party's extension, please press number 2 and enter the extension at the conclusion of this mess",
+  "verifiedMatchTokens": [
+    "housing",
+    "pathstone"
+  ],
+  "verifiedRatio": 1
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "94c8b5b4-2d51-8b25-8c9f-fe192e286339",
+  "digits": "5853952751",
+  "dialedNumber": "(585) 395-2751",
+  "catalogedName": "college-in-state-tuition-residency-ny",
+  "sourceId": "legal-entry:college-in-state-tuition-residency-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:58:41.199Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.749Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "41923676-f07c-cc8d-993a-b232ce772b6d",
+  "digits": "5852352769",
+  "dialedNumber": "585-235-2769",
+  "catalogedName": "Salvation Army Free Furniture Pickup",
+  "sourceId": "safurniture",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "safurniture"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:47:10.651Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.668Z"
+  }
+}

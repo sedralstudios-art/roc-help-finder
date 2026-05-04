@@ -1,0 +1,61 @@
+{
+  "digits": "8003433637",
+  "kind": "phone",
+  "primaryName": "entry-callout:restroom-access-act-allys-law-ny",
+  "rawValue": "(800) 343-3637",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "restroom-access-act-allys-law-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-40-42-386Z_2790f490-19a3-c049-f88d-9d9c46d5156c",
+    "meta": {
+      "callId": "2790f490-19a3-c049-f88d-9d9c46d5156c",
+      "digits": "8003433637",
+      "dialedNumber": "(800) 343-3637",
+      "catalogedName": "restroom-access-act-allys-law-ny",
+      "sourceId": "legal-entry:restroom-access-act-allys-law-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "restroom-access-act-allys-law-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:40:42.386Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.060Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.558Z",
+  "lastSeededAt": "2026-05-03T19:44:16.558Z"
+}

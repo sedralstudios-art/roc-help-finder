@@ -1,0 +1,24 @@
+{
+  "callId": "95b2386f-7150-d725-c8e5-f45aa5101dec",
+  "digits": "5855637747",
+  "dialedNumber": "(585) 563-7747",
+  "catalogedName": "Refugees Helping Refugees",
+  "sourceId": "rhrroc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:25:17.945Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.710Z"
+  }
+}

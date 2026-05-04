@@ -1,0 +1,67 @@
+{
+  "digits": "5854201400",
+  "kind": "phone",
+  "primaryName": "MOCHA Center",
+  "rawValue": "585-420-1400",
+  "blockDial": false,
+  "tags": [
+    "cat:hivsti",
+    "cat:lgbtq",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mocha",
+      "name": "MOCHA Center",
+      "category": "lgbtq",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "mochahiv",
+      "name": "MOCHA Center (HIV Prevention)",
+      "category": "hivsti",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-21-04-979Z_71afd6e0-679c-378a-96d7-5a78f334f65f",
+    "meta": {
+      "callId": "71afd6e0-679c-378a-96d7-5a78f334f65f",
+      "digits": "5854201400",
+      "dialedNumber": "5854201400",
+      "catalogedName": "MOCHA Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:21:04.979Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.385Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.360Z",
+  "lastSeededAt": "2026-05-03T19:44:16.360Z"
+}

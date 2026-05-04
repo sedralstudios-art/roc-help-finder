@@ -63,7 +63,7 @@ export const UNCLAIMED_LIFE_INSURANCE_BENEFITS_NY = {
       qualifier: "Anyone with a potential claim",
       access: "Phone at (800) 221-9311 or osc.state.ny.us/unclaimed-funds",
       outcome: "Free search, claim processing",
-      phone: "(800) 221-9311",
+      phone: "",
       url: "https://www.osc.state.ny.us/unclaimed-funds",
       verified: true,
       bilingual: true,

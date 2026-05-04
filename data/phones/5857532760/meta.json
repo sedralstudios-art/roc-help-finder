@@ -1,0 +1,61 @@
+{
+  "digits": "5857532760",
+  "kind": "phone",
+  "primaryName": "entry-callout:disability-medicaid-ny",
+  "rawValue": "(585) 753-2760",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "disability-medicaid-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-02-34-117Z_015e8e24-fd36-bad9-302d-d42140944e04",
+    "meta": {
+      "callId": "015e8e24-fd36-bad9-302d-d42140944e04",
+      "digits": "5857532760",
+      "dialedNumber": "(585) 753-2760",
+      "catalogedName": "disability-medicaid-ny",
+      "sourceId": "legal-entry:disability-medicaid-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "disability-medicaid-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:02:34.117Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.777Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.488Z",
+  "lastSeededAt": "2026-05-03T19:44:16.488Z"
+}

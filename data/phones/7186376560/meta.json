@@ -1,0 +1,61 @@
+{
+  "digits": "7186376560",
+  "kind": "phone",
+  "primaryName": "entry-callout:youthful-offender-adjudication-ny",
+  "rawValue": "(718) 637-6560",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "youthful-offender-adjudication-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-56-22-642Z_9345bc13-f56f-3e74-d908-3f8fd2607934",
+    "meta": {
+      "callId": "9345bc13-f56f-3e74-d908-3f8fd2607934",
+      "digits": "7186376560",
+      "dialedNumber": "(718) 637-6560",
+      "catalogedName": "youthful-offender-adjudication-ny",
+      "sourceId": "legal-entry:youthful-offender-adjudication-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "youthful-offender-adjudication-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:56:22.642Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.168Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.586Z",
+  "lastSeededAt": "2026-05-03T19:44:16.586Z"
+}

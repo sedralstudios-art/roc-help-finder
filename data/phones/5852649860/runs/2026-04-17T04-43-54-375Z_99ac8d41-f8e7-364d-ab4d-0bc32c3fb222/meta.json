@@ -1,0 +1,24 @@
+{
+  "callId": "99ac8d41-f8e7-364d-ab4d-0bc32c3fb222",
+  "digits": "5852649860",
+  "dialedNumber": "(585) 264-9860",
+  "catalogedName": "Pittsford Food Cupboard",
+  "sourceId": "pittsfordfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:43:54.375Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.585Z"
+  }
+}

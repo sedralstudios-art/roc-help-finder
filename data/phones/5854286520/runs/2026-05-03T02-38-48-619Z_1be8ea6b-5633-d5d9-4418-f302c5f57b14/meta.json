@@ -1,0 +1,24 @@
+{
+  "callId": "1be8ea6b-5633-d5d9-4418-f302c5f57b14",
+  "digits": "5854286520",
+  "dialedNumber": "585-428-6520",
+  "catalogedName": "ROCHESTER_CITY.bureauInspection",
+  "sourceId": "pole:ROCHESTER_CITY.bureauInspection",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-03T02:38:48.619Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.867Z"
+  }
+}

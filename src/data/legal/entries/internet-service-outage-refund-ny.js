@@ -60,7 +60,7 @@ export const INTERNET_SERVICE_OUTAGE_REFUND_NY = {
       qualifier: "Any U.S. resident",
       access: "Phone at (888) 225-5322, file at consumercomplaints.fcc.gov",
       outcome: "Investigation, provider contact, complaint resolution",
-      phone: "(888) 225-5322",
+      phone: "",
       url: "https://consumercomplaints.fcc.gov",
       verified: true,
       bilingual: true,

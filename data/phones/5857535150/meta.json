@@ -1,0 +1,65 @@
+{
+  "digits": "5857535150",
+  "kind": "phone",
+  "primaryName": "entry-callout:bicycle-helmet-under-14-ny",
+  "rawValue": "(585) 753-5150",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bicycle-helmet-under-14-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "child-car-seat-booster-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "homeowner-smoke-co-alarm-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "restaurant-food-inspection-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "school-vaccine-medical-exemption-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "water-service-line-lead-pipe-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.285Z",
+  "lastSeededAt": "2026-05-03T19:44:16.285Z"
+}

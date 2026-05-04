@@ -1,0 +1,33 @@
+{
+  "callId": "902c5c62-e20a-fc46-1140-451503d018b5",
+  "digits": "8005667636",
+  "dialedNumber": "1-800-566-7636",
+  "catalogedName": "immigration-basics-ny",
+  "sourceId": "legal-entry:immigration-basics-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "immigration-basics-ny"
+    },
+    {
+      "type": "entry",
+      "id": "undocumented-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:03:34.645Z",
+  "durationSec": 24,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.767Z"
+  }
+}

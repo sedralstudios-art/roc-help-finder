@@ -60,7 +60,7 @@ export const AUTO_DEALER_JUNK_FEES_NY = {
       qualifier: "Any person buying a vehicle in New York",
       access: "Phone at (800) 771-7755",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/auto",
       verified: true,
       bilingual: true,

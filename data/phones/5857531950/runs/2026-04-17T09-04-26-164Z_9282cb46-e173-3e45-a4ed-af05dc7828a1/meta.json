@@ -1,0 +1,24 @@
+{
+  "callId": "9282cb46-e173-3e45-a4ed-af05dc7828a1",
+  "digits": "5857531950",
+  "dialedNumber": "(585) 753-1950",
+  "catalogedName": "Monroe County Legislature",
+  "sourceId": "mcleg",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:04:26.164Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.965Z"
+  }
+}

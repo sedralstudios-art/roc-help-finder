@@ -1,0 +1,24 @@
+{
+  "callId": "fab8a98e-1b04-8589-0864-3a8112639c1d",
+  "digits": "5857536960",
+  "dialedNumber": "(585) 753-6960",
+  "catalogedName": "SNAP (Food Assistance)",
+  "sourceId": "snap",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:12:13.575Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.974Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "digits": "8883286399",
+  "kind": "phone",
+  "primaryName": "entry-callout:stolen-ebt-snap-replacement-ny",
+  "rawValue": "1-888-328-6399",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "stolen-ebt-snap-replacement-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "summer-ebt-sun-bucks-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-44-57-511Z_8feccd30-c435-845e-bdf9-4f8eb9bfcce7",
+    "meta": {
+      "callId": "8feccd30-c435-845e-bdf9-4f8eb9bfcce7",
+      "digits": "8883286399",
+      "dialedNumber": "1-888-328-6399",
+      "catalogedName": "stolen-ebt-snap-replacement-ny",
+      "sourceId": "legal-entry:stolen-ebt-snap-replacement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "stolen-ebt-snap-replacement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "summer-ebt-sun-bucks-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:44:57.511Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.652Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.408Z",
+  "lastSeededAt": "2026-05-03T19:44:16.408Z"
+}

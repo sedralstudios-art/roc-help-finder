@@ -1,0 +1,64 @@
+{
+  "digits": "5852324674",
+  "kind": "phone",
+  "primaryName": "Pathway Houses of Rochester",
+  "rawValue": "585-232-4674",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pathwayhouses",
+      "name": "Pathway Houses of Rochester",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-47-43-930Z_0dbb59bd-6497-d97b-138a-4a979ca64a4d",
+    "meta": {
+      "callId": "0dbb59bd-6497-d97b-138a-4a979ca64a4d",
+      "digits": "5852324674",
+      "dialedNumber": "585-232-4674",
+      "catalogedName": "Pathway Houses of Rochester",
+      "sourceId": "pathwayhouses",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "pathwayhouses"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:47:43.930Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.671Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.460Z",
+  "lastSeededAt": "2026-05-03T19:44:16.460Z"
+}

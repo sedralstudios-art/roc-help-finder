@@ -1,0 +1,108 @@
+{
+  "digits": "5855461817",
+  "kind": "phone",
+  "primaryName": "entry-callout:adult-adoption-ny",
+  "rawValue": "(585) 546-1817",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-adoption-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "boundary-line-agreement-rpl-345-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "car-accident-what-to-do-first-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "eviction-process-ny",
+      "line": 83
+    },
+    {
+      "type": "entry",
+      "id": "poa-healthcare-proxy-ny",
+      "line": 118
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-50-04-334Z_9ac72161-2e97-950e-0925-7fadc2b0ffc7",
+    "meta": {
+      "callId": "9ac72161-2e97-950e-0925-7fadc2b0ffc7",
+      "digits": "5855461817",
+      "dialedNumber": "(585) 546-1817",
+      "catalogedName": "adult-adoption-ny",
+      "sourceId": "legal-entry:adult-adoption-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "adult-adoption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "boundary-line-agreement-rpl-345-ny"
+        },
+        {
+          "type": "entry",
+          "id": "bulk-sale-notice-ny"
+        },
+        {
+          "type": "entry",
+          "id": "car-accident-what-to-do-first-ny"
+        },
+        {
+          "type": "entry",
+          "id": "eviction-process-ny"
+        },
+        {
+          "type": "entry",
+          "id": "poa-healthcare-proxy-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:50:04.334Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.141Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Bar Association",
+      "reason": "transcript-stated name (Monroe County Bar Association) differs from catalogued (adult-adoption-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.300Z",
+  "lastSeededAt": "2026-05-03T19:44:16.300Z"
+}

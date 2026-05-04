@@ -1,0 +1,40 @@
+{
+  "digits": "5853344500",
+  "kind": "phone",
+  "primaryName": "entry-callout:animal-at-large-roaming-dog-ny",
+  "rawValue": "(585) 334-4500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-at-large-roaming-dog-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "garage-band-noise-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "parking-overnight-street-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.323Z",
+  "lastSeededAt": "2026-05-03T19:44:16.323Z"
+}

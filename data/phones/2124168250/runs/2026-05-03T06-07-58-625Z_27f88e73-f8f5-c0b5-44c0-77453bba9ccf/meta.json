@@ -1,0 +1,29 @@
+{
+  "callId": "27f88e73-f8f5-c0b5-44c0-77453bba9ccf",
+  "digits": "2124168250",
+  "dialedNumber": "(212) 416-8250",
+  "catalogedName": "equal-credit-opportunity-act-ny",
+  "sourceId": "legal-entry:equal-credit-opportunity-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "equal-credit-opportunity-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:07:58.625Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.818Z"
+  }
+}

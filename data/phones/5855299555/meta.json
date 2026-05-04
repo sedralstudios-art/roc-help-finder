@@ -1,0 +1,74 @@
+{
+  "digits": "5855299555",
+  "kind": "phone",
+  "primaryName": "Providence Housing (Supportive)",
+  "rawValue": "585-529-9555",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "prov",
+      "name": "Providence Housing (Supportive)",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "providencehousing",
+      "name": "Providence Housing",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-56-46-938Z_8835d84f-7227-1af1-f505-b271daae50d4",
+    "meta": {
+      "callId": "8835d84f-7227-1af1-f505-b271daae50d4",
+      "digits": "5855299555",
+      "dialedNumber": "5855299555",
+      "catalogedName": "Providence Housing (Supportive)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:56:46.938Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.464Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.357Z",
+  "lastSeededAt": "2026-05-03T19:44:16.357Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:39:54.257Z",
+      "sourceUrl": "https://providencehousing.org",
+      "sourceLabel": "Providence Housing official site",
+      "notes": "Web confirms (585) 529-9555 for Providence Housing Development Corp."
+    }
+  ]
+}

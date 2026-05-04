@@ -1,0 +1,61 @@
+{
+  "digits": "5854282600",
+  "kind": "phone",
+  "primaryName": "entry-callout:pet-store-retail-sale-ban-ny",
+  "rawValue": "(585) 428-2600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pet-store-retail-sale-ban-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-34-03-082Z_90e2aa89-8593-eb3d-85a8-23e2edb4af5b",
+    "meta": {
+      "callId": "90e2aa89-8593-eb3d-85a8-23e2edb4af5b",
+      "digits": "5854282600",
+      "dialedNumber": "(585) 428-2600",
+      "catalogedName": "pet-store-retail-sale-ban-ny",
+      "sourceId": "legal-entry:pet-store-retail-sale-ban-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pet-store-retail-sale-ban-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:34:03.082Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.015Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.546Z",
+  "lastSeededAt": "2026-05-03T19:44:16.546Z"
+}

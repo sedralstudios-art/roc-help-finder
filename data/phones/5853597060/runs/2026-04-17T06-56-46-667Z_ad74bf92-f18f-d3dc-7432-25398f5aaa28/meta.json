@@ -1,0 +1,24 @@
+{
+  "callId": "ad74bf92-f18f-d3dc-7432-25398f5aaa28",
+  "digits": "5853597060",
+  "dialedNumber": "(585) 359-7060",
+  "catalogedName": "Henrietta Building Department",
+  "sourceId": "henriettabuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:56:46.667Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.750Z"
+  }
+}

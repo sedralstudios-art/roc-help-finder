@@ -1,0 +1,59 @@
+{
+  "digits": "5858893074",
+  "kind": "phone",
+  "primaryName": "Wheatland Town Court",
+  "rawValue": "585-889-3074",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "wheatlandcourt",
+      "name": "Wheatland Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-38-20-421Z_47b0cca7-4ff7-1329-b070-37059f610e25",
+    "meta": {
+      "callId": "47b0cca7-4ff7-1329-b070-37059f610e25",
+      "digits": "5858893074",
+      "dialedNumber": "5858893074",
+      "catalogedName": "Wheatland Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:38:20.421Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.679Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.458Z",
+  "lastSeededAt": "2026-05-03T19:44:16.458Z"
+}

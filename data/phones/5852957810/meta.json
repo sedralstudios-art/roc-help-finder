@@ -1,0 +1,59 @@
+{
+  "digits": "5852957810",
+  "kind": "phone",
+  "primaryName": "Veterans Outreach Center",
+  "rawValue": "585-295-7810",
+  "blockDial": false,
+  "tags": [
+    "cat:veteranSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "voc",
+      "name": "Veterans Outreach Center",
+      "category": "veteranSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-21-13-240Z_8cf500da-c4a9-983f-af74-a76c41aa4ea3",
+    "meta": {
+      "callId": "8cf500da-c4a9-983f-af74-a76c41aa4ea3",
+      "digits": "5852957810",
+      "dialedNumber": "5852957810",
+      "catalogedName": "Veterans Outreach Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:21:13.240Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.256Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.422Z",
+  "lastSeededAt": "2026-05-03T19:44:16.422Z"
+}

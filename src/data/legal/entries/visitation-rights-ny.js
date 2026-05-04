@@ -59,7 +59,7 @@ export const VISITATION_RIGHTS_NY = {
       qualifier: "Monroe County residents",
       access: "In person or phone",
       outcome: "Court orders, enforcement, modification",
-      phone: "(585) 371-3544",
+      phone: "",
       url: "https://ww2.nycourts.gov/courts/7jd/monroe/family/index.shtml",
       verified: true,
       bilingual: false,

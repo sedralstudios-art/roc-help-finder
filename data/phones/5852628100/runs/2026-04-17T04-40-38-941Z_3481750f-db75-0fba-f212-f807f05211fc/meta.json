@@ -1,0 +1,24 @@
+{
+  "callId": "3481750f-db75-0fba-f212-f807f05211fc",
+  "digits": "5852628100",
+  "dialedNumber": "(585) 262-8100",
+  "catalogedName": "Free School Meals",
+  "sourceId": "meals",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:40:38.941Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.580Z"
+  }
+}

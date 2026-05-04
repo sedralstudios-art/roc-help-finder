@@ -1,0 +1,80 @@
+{
+  "digits": "8004224453",
+  "kind": "phone",
+  "primaryName": "National Child Abuse Hotline",
+  "rawValue": "800-422-4453",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:domesticSvc",
+    "crisis-line",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "childhelp",
+      "value": "800-422-4453",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "ncah",
+      "name": "National Child Abuse Hotline",
+      "category": "domesticSvc",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-45-35-935Z_d601a369-b8e8-08cf-fb33-5a98e8f66f26",
+    "meta": {
+      "callId": "d601a369-b8e8-08cf-fb33-5a98e8f66f26",
+      "digits": "8004224453",
+      "dialedNumber": "8004224453",
+      "catalogedName": "National Child Abuse Hotline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:45:35.935Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.836Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.8,
+      "extracted": "Child Help National Child Abuse Hotline",
+      "reason": "jaccard 0.80"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.354Z",
+  "lastSeededAt": "2026-05-03T19:44:16.354Z",
+  "verifiedAt": "2026-05-03T20:21:01.833Z",
+  "verifiedRun": "2026-05-02T10-45-35-935Z_d601a369-b8e8-08cf-fb33-5a98e8f66f26",
+  "verifiedTranscriptOpening": "You have reached the Child Help National Child Abuse Hotline, Para Español Presione 2. If this is a life-threatening emergency, hang up and call 911. For terms of service or more information about the",
+  "verifiedMatchTokens": [
+    "national",
+    "child",
+    "abuse"
+  ],
+  "verifiedRatio": 1
+}

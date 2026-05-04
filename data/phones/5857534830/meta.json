@@ -1,0 +1,61 @@
+{
+  "digits": "5857534830",
+  "kind": "phone",
+  "primaryName": "entry-callout:negligent-security-landlord-crime-ny-cl",
+  "rawValue": "(585) 753-4830",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "negligent-security-landlord-crime-ny-cl",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-26-50-344Z_2015e3f8-2961-f501-e32c-4162e3b5e4c5",
+    "meta": {
+      "callId": "2015e3f8-2961-f501-e32c-4162e3b5e4c5",
+      "digits": "5857534830",
+      "dialedNumber": "(585) 753-4830",
+      "catalogedName": "negligent-security-landlord-crime-ny-cl",
+      "sourceId": "legal-entry:negligent-security-landlord-crime-ny-cl",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "negligent-security-landlord-crime-ny-cl"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:26:50.344Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.948Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.532Z",
+  "lastSeededAt": "2026-05-03T19:44:16.532Z"
+}

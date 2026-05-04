@@ -60,7 +60,7 @@ export const LANDLORD_ENTER_EMERGENCY_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-3700",
       outcome: "Counseling, landlord notification letters, referrals",
-      phone: "(585) 546-3700",
+      phone: "",
       url: "https://www.thehousingcouncil.org",
       verified: true,
       bilingual: true,

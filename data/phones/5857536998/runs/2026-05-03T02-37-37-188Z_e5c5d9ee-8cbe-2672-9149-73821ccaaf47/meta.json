@@ -1,0 +1,24 @@
+{
+  "callId": "e5c5d9ee-8cbe-2672-9149-73821ccaaf47",
+  "digits": "5857536998",
+  "dialedNumber": "585-753-6998",
+  "catalogedName": "SNAP (Food Assistance)",
+  "sourceId": "snap",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-03T02:37:37.188Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.864Z"
+  }
+}

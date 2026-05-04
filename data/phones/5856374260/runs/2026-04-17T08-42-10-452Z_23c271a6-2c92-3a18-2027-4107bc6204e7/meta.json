@@ -1,0 +1,24 @@
+{
+  "callId": "23c271a6-2c92-3a18-2027-4107bc6204e7",
+  "digits": "5856374260",
+  "dialedNumber": "(585) 637-4260",
+  "catalogedName": "Clarkson Dog Control",
+  "sourceId": "clarksondogcontrol",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:42:10.452Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.934Z"
+  }
+}

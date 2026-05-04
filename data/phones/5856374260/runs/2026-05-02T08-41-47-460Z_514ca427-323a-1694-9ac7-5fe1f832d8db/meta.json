@@ -1,0 +1,24 @@
+{
+  "callId": "514ca427-323a-1694-9ac7-5fe1f832d8db",
+  "digits": "5856374260",
+  "dialedNumber": "5856374260",
+  "catalogedName": "Clarkson Dog Control",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:41:47.460Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.559Z"
+  }
+}

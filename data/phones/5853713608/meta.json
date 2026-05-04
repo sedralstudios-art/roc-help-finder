@@ -1,0 +1,40 @@
+{
+  "digits": "5853713608",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-09-43-385Z_85682379-7982-948e-8210-e8e9de40fe87",
+    "meta": {
+      "callId": "85682379-7982-948e-8210-e8e9de40fe87",
+      "digits": "5853713608",
+      "dialedNumber": "5853713608",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:09:43.385Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.360Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

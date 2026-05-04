@@ -60,7 +60,7 @@ export const RIGHT_TO_REPAIR_CAR_NY = {
       qualifier: "Anyone in the U.S.",
       access: "Online at ftc.gov or (877) 382-4357",
       outcome: "Investigation, enforcement against warranty violations",
-      phone: "(877) 382-4357",
+      phone: "",
       url: "https://www.ftc.gov",
       verified: true,
       bilingual: true,

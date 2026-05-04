@@ -60,7 +60,7 @@ export const SECURITY_DEPOSIT_INTEREST_NY = {
       qualifier: "Low income tenants in Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal advice, representation in deposit disputes",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

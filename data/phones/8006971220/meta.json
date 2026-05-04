@@ -1,0 +1,271 @@
+{
+  "digits": "8006971220",
+  "kind": "phone",
+  "primaryName": "HOTLINES.nysDCP",
+  "rawValue": "800-697-1220",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "nysDCP",
+      "value": "800-697-1220",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "auto-dealer-junk-fees-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "auto-lease-early-termination-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "clothing-footwear-sales-tax-exemption-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "condo-conversion-tenant-buyout-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "deck-patio-permit-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "extended-warranty-scam-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "funeral-home-price-disclosure-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "home-warranty-vs-home-insurance-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "hotel-guest-rights-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ignition-interlock-dwi-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "mold-homeowner-remediation-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "moped-limited-use-motorcycle-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "ny-telemarketing-rules-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "pawn-shop-rights-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "private-lot-parking-towing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "propane-tank-rules-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "self-storage-unit-lien-auction-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "tow-truck-scam-accident-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "water-main-break-responsibility-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-51-59-762Z_08de03e9-857b-8ed5-c7a2-6a924664bfc6",
+    "meta": {
+      "callId": "08de03e9-857b-8ed5-c7a2-6a924664bfc6",
+      "digits": "8006971220",
+      "dialedNumber": "800-697-1220",
+      "catalogedName": "HOTLINES.nysDCP",
+      "sourceId": "pole:HOTLINES.nysDCP",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "HOTLINES.nysDCP"
+        },
+        {
+          "type": "entry",
+          "id": "auto-dealer-junk-fees-ny"
+        },
+        {
+          "type": "entry",
+          "id": "auto-lease-early-termination-ny"
+        },
+        {
+          "type": "entry",
+          "id": "clothing-footwear-sales-tax-exemption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "condo-conversion-tenant-buyout-ny"
+        },
+        {
+          "type": "entry",
+          "id": "contractor-home-improvement-deposit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "credit-card-surcharge-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deck-patio-permit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dumpster-rental-homeowner-ny"
+        },
+        {
+          "type": "entry",
+          "id": "extended-warranty-scam-ny"
+        },
+        {
+          "type": "entry",
+          "id": "funeral-home-price-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-warranty-vs-home-insurance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hotel-guest-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ignition-interlock-dwi-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mold-homeowner-remediation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "moped-limited-use-motorcycle-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-telemarketing-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pawn-shop-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "private-lot-parking-towing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "propane-tank-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "self-storage-unit-lien-auction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tow-truck-scam-accident-ny"
+        },
+        {
+          "type": "entry",
+          "id": "water-main-break-responsibility-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-tow-vehicle-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:51:59.762Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.886Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.272Z",
+  "lastSeededAt": "2026-05-03T19:44:16.272Z"
+}

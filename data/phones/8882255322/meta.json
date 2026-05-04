@@ -1,0 +1,115 @@
+{
+  "digits": "8882255322",
+  "kind": "phone",
+  "primaryName": "entry-callout:cell-phone-contract-rights-ny",
+  "rawValue": "(888) 225-5322",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cell-phone-contract-rights-ny",
+      "line": 63
+    },
+    {
+      "type": "entry",
+      "id": "internet-outage-refund-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "internet-service-outage-refund-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "motor-vehicle-service-contract-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ny-telemarketing-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "satellite-dish-antenna-rights-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-41-22-090Z_4de21d39-f2ad-49f1-e2af-d36abd5c8882",
+    "meta": {
+      "callId": "4de21d39-f2ad-49f1-e2af-d36abd5c8882",
+      "digits": "8882255322",
+      "dialedNumber": "(888) 225-5322",
+      "catalogedName": "cell-phone-contract-rights-ny",
+      "sourceId": "legal-entry:cell-phone-contract-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cell-phone-contract-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "internet-outage-refund-ny"
+        },
+        {
+          "type": "entry",
+          "id": "internet-service-outage-refund-ny"
+        },
+        {
+          "type": "entry",
+          "id": "motor-vehicle-service-contract-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-telemarketing-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "satellite-dish-antenna-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "truth-in-caller-id-spoofing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:41:22.090Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.098Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.295Z",
+  "lastSeededAt": "2026-05-03T19:44:16.295Z"
+}

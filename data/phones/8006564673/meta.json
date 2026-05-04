@@ -1,0 +1,91 @@
+{
+  "digits": "8006564673",
+  "kind": "phone",
+  "primaryName": "RAINN (Sexual Assault Hotline)",
+  "rawValue": "800-656-4673",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:domesticSvc",
+    "crisis-line",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "rainn",
+      "value": "800-656-4673",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "rainn",
+      "name": "RAINN (Sexual Assault Hotline)",
+      "category": "domesticSvc",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "sexual-assault-survivors-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-47-44-908Z_e56cb5cf-70ad-6eef-6946-49b9c794758f",
+    "meta": {
+      "callId": "e56cb5cf-70ad-6eef-6946-49b9c794758f",
+      "digits": "8006564673",
+      "dialedNumber": "8006564673",
+      "catalogedName": "RAINN (Sexual Assault Hotline)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:47:44.908Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.841Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "National Sexual Assault Hotline operated by RAINN",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.320Z",
+  "lastSeededAt": "2026-05-03T19:44:16.320Z",
+  "verifiedAt": "2026-05-03T20:21:01.843Z",
+  "verifiedRun": "2026-05-02T10-47-44-908Z_e56cb5cf-70ad-6eef-6946-49b9c794758f",
+  "verifiedTranscriptOpening": "You have reached the National Sexual Assault Hotline operated by RAINN. To continue in English, press 1. Para continuar en español, presione el número 2. I'm sorry. I did not understand that response.",
+  "verifiedMatchTokens": [
+    "rainn",
+    "sexual",
+    "assault"
+  ],
+  "verifiedRatio": 1
+}

@@ -1,0 +1,187 @@
+{
+  "digits": "5857531661",
+  "kind": "phone",
+  "primaryName": "entry-callout:bottle-bill-deposit-return-ny",
+  "rawValue": "(585) 753-1661",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-minimum-purchase-rules-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "home-inspection-contract-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "mechanics-lien-private-construction-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "odometer-fraud-used-car-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "puppy-lemon-law-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pyramid-scheme-chain-letter-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "rental-car-damage-waiver-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "salvage-title-branded-vehicle-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-03-33-685Z_55870b77-8895-24df-5dc1-97ddc0ce37b6",
+    "meta": {
+      "callId": "55870b77-8895-24df-5dc1-97ddc0ce37b6",
+      "digits": "5857531661",
+      "dialedNumber": "(585) 753-1661",
+      "catalogedName": "bottle-bill-deposit-return-ny",
+      "sourceId": "legal-entry:bottle-bill-deposit-return-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "bottle-bill-deposit-return-ny"
+        },
+        {
+          "type": "entry",
+          "id": "credit-card-minimum-purchase-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "door-to-door-sales-cooling-off-ny"
+        },
+        {
+          "type": "entry",
+          "id": "eyeglass-contact-lens-prescription-release-ny"
+        },
+        {
+          "type": "entry",
+          "id": "grocery-item-pricing-accuracy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-inspection-contract-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mechanics-lien-private-construction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "new-home-construction-warranty-ny"
+        },
+        {
+          "type": "entry",
+          "id": "odometer-fraud-used-car-ny"
+        },
+        {
+          "type": "entry",
+          "id": "plastic-bag-fee-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "puppy-lemon-law-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pyramid-scheme-chain-letter-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rental-car-damage-waiver-ny"
+        },
+        {
+          "type": "entry",
+          "id": "salvage-title-branded-vehicle-ny"
+        },
+        {
+          "type": "entry",
+          "id": "solar-installation-contract-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:03:33.685Z",
+      "durationSec": 6,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.942Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.278Z",
+  "lastSeededAt": "2026-05-03T19:44:16.278Z"
+}

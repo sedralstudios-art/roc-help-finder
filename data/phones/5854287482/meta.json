@@ -1,0 +1,90 @@
+{
+  "digits": "5854287482",
+  "kind": "phone",
+  "primaryName": "entry-callout:parking-overnight-street-ny",
+  "rawValue": "(585) 428-7482",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "parking-overnight-street-ny",
+      "line": 65
+    },
+    {
+      "type": "entry",
+      "id": "parking-ticket-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "snow-emergency-alternate-parking-roc",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "speeding-camera-ticket-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-26-31-840Z_87797e42-c74c-0b6c-2d06-c5b612b76c8a",
+    "meta": {
+      "callId": "87797e42-c74c-0b6c-2d06-c5b612b76c8a",
+      "digits": "5854287482",
+      "dialedNumber": "(585) 428-7482",
+      "catalogedName": "parking-overnight-street-ny",
+      "sourceId": "legal-entry:parking-overnight-street-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "parking-overnight-street-ny"
+        },
+        {
+          "type": "entry",
+          "id": "parking-ticket-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-emergency-alternate-parking-roc"
+        },
+        {
+          "type": "entry",
+          "id": "speeding-camera-ticket-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:26:31.840Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.300Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "City of Rochester",
+      "reason": "transcript-stated name (City of Rochester) differs from catalogued (parking-overnight-street-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.330Z",
+  "lastSeededAt": "2026-05-03T19:44:16.330Z"
+}

@@ -1,0 +1,41 @@
+{
+  "callId": "c4a81869-ec32-567d-f62a-dad6d6dc27f7",
+  "digits": "8005694287",
+  "dialedNumber": "(800) 569-4287",
+  "catalogedName": "mortgage-servicer-rules-ny",
+  "sourceId": "legal-entry:mortgage-servicer-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rent-to-own-agreement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "reverse-mortgage-seniors-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:54:08.472Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.467Z"
+  }
+}

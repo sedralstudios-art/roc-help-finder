@@ -1,0 +1,24 @@
+{
+  "callId": "c2e4d3fd-9c00-b1ca-915d-e98a54dac75a",
+  "digits": "5854632600",
+  "dialedNumber": "(585) 463-2600",
+  "catalogedName": "VA Healthcare (Veterans)",
+  "sourceId": "va",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:17:09.782Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.699Z"
+  }
+}

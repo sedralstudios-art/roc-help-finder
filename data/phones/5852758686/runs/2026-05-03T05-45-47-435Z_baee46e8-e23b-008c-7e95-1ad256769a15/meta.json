@@ -1,0 +1,29 @@
+{
+  "callId": "baee46e8-e23b-008c-7e95-1ad256769a15",
+  "digits": "5852758686",
+  "dialedNumber": "585-275-8686",
+  "catalogedName": "HOSPITALS.psychCrisisLine",
+  "sourceId": "pole:HOSPITALS.psychCrisisLine",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "HOSPITALS.psychCrisisLine"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:45:47.435Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.658Z"
+  }
+}

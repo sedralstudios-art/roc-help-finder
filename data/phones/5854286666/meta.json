@@ -1,0 +1,106 @@
+{
+  "digits": "5854286666",
+  "kind": "phone",
+  "primaryName": "entry-callout:identity-theft-ny",
+  "rawValue": "(585) 428-6666",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "identity-theft-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-disputes-ny-cl",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "revenge-porn-online-harassment-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T06-59-34-587Z_ac304f26-9244-5e28-c34d-765cd6909b08",
+    "meta": {
+      "callId": "ac304f26-9244-5e28-c34d-765cd6909b08",
+      "digits": "5854286666",
+      "dialedNumber": "(585) 428-6666",
+      "catalogedName": "identity-theft-ny",
+      "sourceId": "legal-entry:identity-theft-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "identity-theft-ny"
+        },
+        {
+          "type": "entry",
+          "id": "illegal-eviction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "illegal-lockout-ny"
+        },
+        {
+          "type": "entry",
+          "id": "neighbor-disputes-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "revenge-porn-online-harassment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "safe-haven-newborn-abandonment-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:59:34.587Z",
+      "durationSec": 23,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.175Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.304Z",
+  "lastSeededAt": "2026-05-03T19:44:16.304Z"
+}

@@ -60,7 +60,7 @@ export const CONSTRUCTIVE_DISCHARGE_NY = {
       qualifier: "Low-income residents of Monroe County",
       access: "Phone intake",
       outcome: "Legal advice and referrals",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

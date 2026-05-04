@@ -1,0 +1,70 @@
+{
+  "digits": "5859579710",
+  "kind": "phone",
+  "primaryName": "entry-callout:assigned-counsel-program-ny",
+  "rawValue": "(585) 957-9710",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "itin-application-ny",
+      "line": 29
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-31-05-646Z_5dce198e-bf5b-1758-4724-c27f5e0eaa44",
+    "meta": {
+      "callId": "5dce198e-bf5b-1758-4724-c27f5e0eaa44",
+      "digits": "5859579710",
+      "dialedNumber": "(585) 957-9710",
+      "catalogedName": "assigned-counsel-program-ny",
+      "sourceId": "legal-entry:assigned-counsel-program-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "assigned-counsel-program-ny"
+        },
+        {
+          "type": "entry",
+          "id": "itin-application-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:31:05.646Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.563Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.366Z",
+  "lastSeededAt": "2026-05-03T19:44:16.366Z"
+}

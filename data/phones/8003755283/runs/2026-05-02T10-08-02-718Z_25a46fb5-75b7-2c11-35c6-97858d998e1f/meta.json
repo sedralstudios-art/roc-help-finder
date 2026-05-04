@@ -1,0 +1,24 @@
+{
+  "callId": "25a46fb5-75b7-2c11-35c6-97858d998e1f",
+  "digits": "8003755283",
+  "dialedNumber": "8003755283",
+  "catalogedName": "USCIS Buffalo (Green Card, Citizenship, Visa)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:08:02.718Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.744Z"
+  }
+}

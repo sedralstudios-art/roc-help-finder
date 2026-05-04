@@ -45,7 +45,7 @@ export const GRAND_JURY_PROCESS_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — free representation including grand jury notice and testimony strategy.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — appointed private counsel.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — appointed private counsel.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense attorneys with grand jury experience.",
       "Monroe County District Attorney at (585) 753-4500 — grand jury calendar and witness subpoena coordination.",
       "Federal Public Defender Western District NY at (716) 551-3341 — federal grand jury parallel proceedings.",
@@ -66,7 +66,7 @@ export const GRAND_JURY_PROCESS_NY = {
       qualifier: "Indigent Monroe County defendants",
       access: "Assigned at arraignment or phone (585) 753-4300",
       outcome: "Full representation and advice on whether to testify",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,
@@ -79,7 +79,7 @@ export const GRAND_JURY_PROCESS_NY = {
       qualifier: "Any Monroe County defendant or witness",
       access: "Phone at (585) 546-2130",
       outcome: "30-minute consultation, representation through grand jury and trial",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

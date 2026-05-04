@@ -1,0 +1,29 @@
+{
+  "callId": "04e70c65-e545-c9ad-e3c4-a789ec8185bf",
+  "digits": "5184029665",
+  "dialedNumber": "(518) 402-9665",
+  "catalogedName": "heating-oil-tank-removal-ny",
+  "sourceId": "legal-entry:heating-oil-tank-removal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "heating-oil-tank-removal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:13:31.782Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.857Z"
+  }
+}

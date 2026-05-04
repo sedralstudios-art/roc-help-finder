@@ -1,0 +1,61 @@
+{
+  "digits": "5857531800",
+  "kind": "phone",
+  "primaryName": "entry-callout:elevator-inspection-rules-ny",
+  "rawValue": "(585) 753-1800",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "elevator-inspection-rules-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-07-00-383Z_cb0767dd-03ca-d120-a746-21dc1c162bb0",
+    "meta": {
+      "callId": "cb0767dd-03ca-d120-a746-21dc1c162bb0",
+      "digits": "5857531800",
+      "dialedNumber": "(585) 753-1800",
+      "catalogedName": "elevator-inspection-rules-ny",
+      "sourceId": "legal-entry:elevator-inspection-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "elevator-inspection-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:07:00.383Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.810Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.496Z",
+  "lastSeededAt": "2026-05-03T19:44:16.496Z"
+}

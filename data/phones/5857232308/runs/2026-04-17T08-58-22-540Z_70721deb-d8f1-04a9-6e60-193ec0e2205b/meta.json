@@ -1,0 +1,24 @@
+{
+  "callId": "70721deb-d8f1-04a9-6e60-193ec0e2205b",
+  "digits": "5857232308",
+  "dialedNumber": "(585) 723-2308",
+  "catalogedName": "Greece Assessor (Property Tax Exemptions)",
+  "sourceId": "greeceassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:58:22.540Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.956Z"
+  }
+}

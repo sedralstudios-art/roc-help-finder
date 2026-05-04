@@ -1,0 +1,24 @@
+{
+  "callId": "fc51e941-77aa-7a5a-1fc0-338d0d65c8c5",
+  "digits": "5854213202",
+  "dialedNumber": "(585) 421-3202",
+  "catalogedName": "Fairport Village Clerk",
+  "sourceId": "fairportclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:16:06.131Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.829Z"
+  }
+}

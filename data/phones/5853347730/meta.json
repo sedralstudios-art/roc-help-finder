@@ -1,0 +1,97 @@
+{
+  "digits": "5853347730",
+  "kind": "phone",
+  "primaryName": "entry-callout:sidewalk-repair-who-pays-ny",
+  "rawValue": "(585) 334-7730",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-35-29-848Z_c283177a-8891-eda1-9e07-0446897fff7f",
+    "meta": {
+      "callId": "c283177a-8891-eda1-9e07-0446897fff7f",
+      "digits": "5853347730",
+      "dialedNumber": "(585) 334-7730",
+      "catalogedName": "sidewalk-repair-who-pays-ny",
+      "sourceId": "legal-entry:sidewalk-repair-who-pays-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "sidewalk-repair-who-pays-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-plow-damage-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-removal-ordinance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "street-light-out-report-ny"
+        },
+        {
+          "type": "entry",
+          "id": "trash-pickup-missed-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:35:29.848Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.383Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.318Z",
+  "lastSeededAt": "2026-05-03T19:44:16.318Z"
+}

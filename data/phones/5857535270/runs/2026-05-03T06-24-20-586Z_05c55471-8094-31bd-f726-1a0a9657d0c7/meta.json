@@ -1,0 +1,29 @@
+{
+  "callId": "05c55471-8094-31bd-f726-1a0a9657d0c7",
+  "digits": "5857535270",
+  "dialedNumber": "(585) 753-5270",
+  "catalogedName": "minor-medical-consent-ny",
+  "sourceId": "legal-entry:minor-medical-consent-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:24:20.586Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.930Z"
+  }
+}

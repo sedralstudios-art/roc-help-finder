@@ -1,0 +1,29 @@
+{
+  "callId": "50cb1aea-d723-7e05-e92d-4a6aee0b1169",
+  "digits": "8776976278",
+  "dialedNumber": "(877) 697-6278",
+  "catalogedName": "community-solar-subscription-ny",
+  "sourceId": "legal-entry:community-solar-subscription-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "community-solar-subscription-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:59:22.789Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.754Z"
+  }
+}

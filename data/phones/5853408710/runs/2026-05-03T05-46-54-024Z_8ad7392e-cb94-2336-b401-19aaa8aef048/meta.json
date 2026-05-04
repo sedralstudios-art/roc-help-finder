@@ -1,0 +1,29 @@
+{
+  "callId": "8ad7392e-cb94-2336-b401-19aaa8aef048",
+  "digits": "5853408710",
+  "dialedNumber": "585-340-8710",
+  "catalogedName": "Penfield Town Clerk",
+  "sourceId": "penfieldclerk",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldclerk"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:46:54.024Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.666Z"
+  }
+}

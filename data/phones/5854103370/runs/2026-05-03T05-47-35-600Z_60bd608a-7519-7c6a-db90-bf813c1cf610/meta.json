@@ -1,0 +1,29 @@
+{
+  "callId": "60bd608a-7519-7c6a-db90-bf813c1cf610",
+  "digits": "5854103370",
+  "dialedNumber": "585-410-3370",
+  "catalogedName": "Liberty Resources Recovery Support Navigator",
+  "sourceId": "libertyrec",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "libertyrec"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:47:35.600Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.670Z"
+  }
+}

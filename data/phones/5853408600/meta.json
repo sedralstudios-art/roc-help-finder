@@ -1,0 +1,50 @@
+{
+  "digits": "5853408600",
+  "kind": "phone",
+  "primaryName": "entry-callout:animal-at-large-roaming-dog-ny",
+  "rawValue": "(585) 340-8600",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-at-large-roaming-dog-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "garage-band-noise-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.300Z",
+  "lastSeededAt": "2026-05-03T19:44:16.300Z"
+}

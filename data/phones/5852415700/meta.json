@@ -1,0 +1,61 @@
+{
+  "digits": "5852415700",
+  "kind": "phone",
+  "primaryName": "entry-callout:autism-insurance-coverage-ny",
+  "rawValue": "(585) 241-5700",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-52-35-130Z_95e63618-960f-02e1-a0d9-fbe2a41d0c40",
+    "meta": {
+      "callId": "95e63618-960f-02e1-a0d9-fbe2a41d0c40",
+      "digits": "5852415700",
+      "dialedNumber": "(585) 241-5700",
+      "catalogedName": "autism-insurance-coverage-ny",
+      "sourceId": "legal-entry:autism-insurance-coverage-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "autism-insurance-coverage-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:52:35.130Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.703Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.469Z",
+  "lastSeededAt": "2026-05-03T19:44:16.469Z"
+}

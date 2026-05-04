@@ -1,0 +1,24 @@
+{
+  "callId": "88171abc-0e1a-9e3e-fef2-a753b7518ce0",
+  "digits": "5857534942",
+  "dialedNumber": "5857534942",
+  "catalogedName": "WIC (Women, Infants & Children)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:04:13.252Z",
+  "durationSec": 21,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.605Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "70ac2166-44cb-7e95-f1e7-d344e695850c",
+  "digits": "5184020785",
+  "dialedNumber": "(518) 402-0785",
+  "catalogedName": "funeral-burial-rights-ny",
+  "sourceId": "legal-entry:funeral-burial-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "funeral-burial-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "funeral-home-price-disclosure-ny"
+    },
+    {
+      "type": "entry",
+      "id": "funeral-prepayment-trust-ny"
+    },
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:28:57.368Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.312Z"
+  }
+}

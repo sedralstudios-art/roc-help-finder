@@ -1,0 +1,24 @@
+{
+  "callId": "8226cb0e-93d9-92cb-db63-90c91ee80c77",
+  "digits": "5854672230",
+  "dialedNumber": "(585) 467-2230",
+  "catalogedName": "Monroe County Re-entry Task Force",
+  "sourceId": "mcreentryt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:19:08.601Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.701Z"
+  }
+}

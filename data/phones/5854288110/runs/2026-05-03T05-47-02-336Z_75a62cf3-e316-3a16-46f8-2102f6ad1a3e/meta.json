@@ -1,0 +1,29 @@
+{
+  "callId": "75a62cf3-e316-3a16-46f8-2102f6ad1a3e",
+  "digits": "5854288110",
+  "dialedNumber": "585-428-8110",
+  "catalogedName": "NYS Tax Assistance Program (TAP)",
+  "sourceId": "nystap",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "nystap"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:47:02.336Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.667Z"
+  }
+}

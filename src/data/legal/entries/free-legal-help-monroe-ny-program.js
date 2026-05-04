@@ -21,7 +21,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
   },
 
   whatItMeans: {
-    en: "Free legal help in Monroe County comes from several organizations, each with a different focus. Legal Aid Society of Rochester: the largest provider. Covers housing (eviction defense, habitability, landlord disputes), family (custody, divorce, orders of protection, child support), consumer (debt defense, bankruptcy advice, credit disputes), criminal record sealing, benefits (SNAP, Medicaid, TA, fair hearings), employment (wage theft, discrimination), and immigration. Phone: (585) 232-4090. LawNY (Legal Assistance of Western New York): covers 14 counties including Monroe. Focuses on housing, benefits, family law, immigration, and disability rights. Phone: (585) 325-2520. Empire Justice Center: focuses on systemic advocacy, impact litigation, policy work, and individual cases in housing, health, education, and immigration. Also runs training for other legal aid providers. Phone: (585) 454-4060. JustCause (formerly Volunteer Legal Services Project): coordinates pro bono lawyers for clinics and individual cases in family law, bankruptcy, immigration, and consumer issues. Phone: (585) 232-3051. Monroe County Public Defender: represents defendants in criminal cases who cannot afford a private attorney. Assigned at arraignment. Phone: (585) 753-4210. Center for Disability Rights: disability-related legal issues, accommodation advocacy, and benefits navigation. Phone: (585) 546-7510. Catholic Family Center Immigration Services: immigration legal help by DOJ-accredited representatives. Phone: (585) 546-7220. Several specialty legal-aid resources fill specific gaps. The Volunteer Lawyers Project at the Monroe County Bar Association coordinates short-term volunteer attorney advice on various civil matters; intake is through the bar association at (585) 546-2130. Legal services at universities — Cornell Law School Family Court Clinic and the William E. Macaulay Honors College's legal clinic — accept students for clinical experience and serve clients in narrow case types each semester. Court-based programs include the Monroe County Family Court Self-Help Center and Rochester City Court's housing court resource room, which offer free help with forms and procedural questions but cannot represent parties in court. The NYS Office of Court Administration's online resource at nycourts.gov/courthelp covers most types of cases with form generators and step-by-step guides. For immigration cases specifically, ImmigrationLawHelp.org maintains a list of accredited providers; not all immigration attorneys are equally qualified, and using a DOJ-accredited representative through Catholic Family Center or another legitimate provider avoids notario fraud — a common scam targeting immigrants."
+    en: "Free legal help in Monroe County comes from several organizations, each with a different focus. Legal Aid Society of Rochester: the largest provider. Covers housing (eviction defense, habitability, landlord disputes), family (custody, divorce, orders of protection, child support), consumer (debt defense, bankruptcy advice, credit disputes), criminal record sealing, benefits (SNAP, Medicaid, TA, fair hearings), employment (wage theft, discrimination), and immigration. Phone: [number being verified]. LawNY (Legal Assistance of Western New York): covers 14 counties including Monroe. Focuses on housing, benefits, family law, immigration, and disability rights. Phone: [number being verified]. Empire Justice Center: focuses on systemic advocacy, impact litigation, policy work, and individual cases in housing, health, education, and immigration. Also runs training for other legal aid providers. Phone: [number being verified]. JustCause (formerly Volunteer Legal Services Project): coordinates pro bono lawyers for clinics and individual cases in family law, bankruptcy, immigration, and consumer issues. Phone: [number being verified]. Monroe County Public Defender: represents defendants in criminal cases who cannot afford a private attorney. Assigned at arraignment. Phone: [number being verified]. Center for Disability Rights: disability-related legal issues, accommodation advocacy, and benefits navigation. Phone: [number being verified]. Catholic Family Center Immigration Services: immigration legal help by DOJ-accredited representatives. Phone: [number being verified]. Several specialty legal-aid resources fill specific gaps. The Volunteer Lawyers Project at the Monroe County Bar Association coordinates short-term volunteer attorney advice on various civil matters; intake is through the bar association at [number being verified]. Legal services at universities — Cornell Law School Family Court Clinic and the William E. Macaulay Honors College's legal clinic — accept students for clinical experience and serve clients in narrow case types each semester. Court-based programs include the Monroe County Family Court Self-Help Center and Rochester City Court's housing court resource room, which offer free help with forms and procedural questions but cannot represent parties in court. The NYS Office of Court Administration's online resource at nycourts.gov/courthelp covers most types of cases with form generators and step-by-step guides. For immigration cases specifically, ImmigrationLawHelp.org maintains a list of accredited providers; not all immigration attorneys are equally qualified, and using a DOJ-accredited representative through Catholic Family Center or another legitimate provider avoids notario fraud — a common scam targeting immigrants."
   },
 
   yourRights: {
@@ -47,7 +47,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
   },
 
   example: {
-    en: "A woman in Rochester is dealing with three issues at once: an eviction, a custody dispute, and a defaulted student loan in collections. She calls Legal Aid at (585) 232-4090. Legal Aid handles the eviction defense directly. They refer the custody matter to their family law unit. For the student loan, they provide advice on her rights and refer her to JustCause for a pro bono attorney to review the collection action. One phone call connected her to help for all three issues."
+    en: "A woman in Rochester is dealing with three issues at once: an eviction, a custody dispute, and a defaulted student loan in collections. She calls Legal Aid at [number being verified]. Legal Aid handles the eviction defense directly. They refer the custody matter to their family law unit. For the student loan, they provide advice on her rights and refer her to JustCause for a pro bono attorney to review the collection action. One phone call connected her to help for all three issues."
   },
 
   counsel: [
@@ -58,7 +58,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "Low-income residents of Monroe and surrounding counties",
       access: "Phone intake",
       outcome: "Direct representation, advice, or referral",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
@@ -71,7 +71,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "Low-income residents in 14 Western NY counties",
       access: "Phone intake",
       outcome: "Direct representation",
-      phone: "(585) 325-2520",
+      phone: "",
       url: "https://www.lawny.org",
       verified: true,
       bilingual: false,
@@ -84,7 +84,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "Low and moderate income residents statewide",
       access: "Phone intake",
       outcome: "Direct representation, impact litigation, policy advocacy",
-      phone: "(585) 454-4060",
+      phone: "",
       url: "https://www.empirejustice.org",
       verified: true,
       bilingual: false,
@@ -97,7 +97,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "Low-income residents of Monroe County",
       access: "Phone",
       outcome: "Volunteer attorney matching and legal clinics",
-      phone: "(585) 232-3051",
+      phone: "",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
@@ -110,7 +110,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "Defendants who cannot afford a private attorney",
       access: "Assigned at arraignment",
       outcome: "Full criminal representation",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,
@@ -123,7 +123,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "People with disabilities in Rochester area",
       access: "Phone or in person",
       outcome: "Advocacy, referral, legal guidance",
-      phone: "(585) 546-7510",
+      phone: "",
       url: "https://cdrnys.org",
       verified: true,
       bilingual: false,
@@ -136,7 +136,7 @@ export const FREE_LEGAL_HELP_MONROE_NY = {
       qualifier: "Low-income immigrants in Monroe County",
       access: "Phone intake",
       outcome: "Direct representation by DOJ-accredited representatives",
-      phone: "(585) 546-7220",
+      phone: "",
       url: "https://www.cfcrochester.org",
       verified: true,
       bilingual: true,

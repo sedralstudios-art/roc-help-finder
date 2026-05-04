@@ -1,0 +1,29 @@
+{
+  "callId": "6f052da3-5356-0501-be0b-56433854cd9d",
+  "digits": "5854287075",
+  "dialedNumber": "(585) 428-7075",
+  "catalogedName": "marriage-license-ny",
+  "sourceId": "legal-entry:marriage-license-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "marriage-license-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:22:07.460Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.915Z"
+  }
+}

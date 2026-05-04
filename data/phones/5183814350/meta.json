@@ -1,0 +1,59 @@
+{
+  "digits": "5183814350",
+  "kind": "phone",
+  "primaryName": "Parent to Parent of NYS (Family Voices)",
+  "rawValue": "518-381-4350",
+  "blockDial": false,
+  "tags": [
+    "cat:caregiver",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "familyvoices",
+      "name": "Parent to Parent of NYS (Family Voices)",
+      "category": "caregiver",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-11-44-328Z_1c6e3555-980c-a563-d130-c7fc18e40df6",
+    "meta": {
+      "callId": "1c6e3555-980c-a563-d130-c7fc18e40df6",
+      "digits": "5183814350",
+      "dialedNumber": "5183814350",
+      "catalogedName": "Parent to Parent of NYS (Family Voices)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:11:44.328Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.100Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.427Z",
+  "lastSeededAt": "2026-05-03T19:44:16.427Z"
+}

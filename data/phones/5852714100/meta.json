@@ -1,0 +1,61 @@
+{
+  "digits": "5852714100",
+  "kind": "phone",
+  "primaryName": "entry-callout:charitable-solicitation-registration-ny",
+  "rawValue": "(585) 271-4100",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-57-01-385Z_154f2fb6-9a95-25e4-5101-cb97ae284eaa",
+    "meta": {
+      "callId": "154f2fb6-9a95-25e4-5101-cb97ae284eaa",
+      "digits": "5852714100",
+      "dialedNumber": "(585) 271-4100",
+      "catalogedName": "charitable-solicitation-registration-ny",
+      "sourceId": "legal-entry:charitable-solicitation-registration-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "charitable-solicitation-registration-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:57:01.385Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.737Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.478Z",
+  "lastSeededAt": "2026-05-03T19:44:16.478Z"
+}

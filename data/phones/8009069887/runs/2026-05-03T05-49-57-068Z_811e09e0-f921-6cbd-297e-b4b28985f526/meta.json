@@ -1,0 +1,29 @@
+{
+  "callId": "811e09e0-f921-6cbd-297e-b4b28985f526",
+  "digits": "8009069887",
+  "dialedNumber": "(800) 906-9887",
+  "catalogedName": "amended-tax-return-1040x-ny",
+  "sourceId": "legal-entry:amended-tax-return-1040x-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "amended-tax-return-1040x-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:49:57.068Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.686Z"
+  }
+}

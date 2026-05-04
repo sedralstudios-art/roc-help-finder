@@ -1,0 +1,29 @@
+{
+  "callId": "cfe3e939-c803-5c51-724b-83bc414b2378",
+  "digits": "5857534545",
+  "dialedNumber": "(585) 753-4545",
+  "catalogedName": "dwi-first-offense-ny",
+  "sourceId": "legal-entry:dwi-first-offense-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dwi-first-offense-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:03:57.332Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.787Z"
+  }
+}

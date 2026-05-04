@@ -64,7 +64,7 @@ export const EXPUNGEMENT_VS_SEALING_NY = {
       qualifier: "People with criminal records in the Rochester area",
       access: "Phone or in person",
       outcome: "Free legal assistance with sealing applications",
-      phone: "(585) 244-1135",
+      phone: "",
       url: "https://www.communityalternatives.org",
       verified: true,
       bilingual: false,

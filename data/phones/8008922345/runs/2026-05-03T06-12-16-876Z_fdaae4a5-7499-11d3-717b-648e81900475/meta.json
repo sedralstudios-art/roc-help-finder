@@ -1,0 +1,29 @@
+{
+  "callId": "fdaae4a5-7499-11d3-717b-648e81900475",
+  "digits": "8008922345",
+  "dialedNumber": "(800) 892-2345",
+  "catalogedName": "gas-leak-what-to-do-ny",
+  "sourceId": "legal-entry:gas-leak-what-to-do-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "gas-leak-what-to-do-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:12:16.876Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.848Z"
+  }
+}

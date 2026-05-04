@@ -74,7 +74,7 @@ export const SUMMER_FOOD_SERVICE_PROGRAM_NY_PROGRAM = {
       qualifier: "Children 18 and under in the Rochester area",
       access: "Phone at (585) 262-8100",
       outcome: "Site locations, hours, accommodations",
-      phone: "(585) 262-8100",
+      phone: "",
       url: "https://www.rcsdk12.org/departments/food-services",
       verified: true,
       bilingual: true,

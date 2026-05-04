@@ -60,7 +60,7 @@ export const CAR_BOOT_IMMOBILIZER_NY = {
       qualifier: "Rochester city",
       access: "Phone at (585) 428-7484",
       outcome: "Ticket payment, boot removal, dispute resolution",
-      phone: "(585) 428-7484",
+      phone: "",
       url: "https://www.cityofrochester.gov/parking/",
       verified: true,
       bilingual: false,

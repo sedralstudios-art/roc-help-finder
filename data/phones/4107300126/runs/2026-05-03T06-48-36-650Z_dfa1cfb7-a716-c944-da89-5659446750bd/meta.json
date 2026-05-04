@@ -1,0 +1,29 @@
+{
+  "callId": "dfa1cfb7-a716-c944-da89-5659446750bd",
+  "digits": "4107300126",
+  "dialedNumber": "(410) 730-0126",
+  "catalogedName": "surrogacy-child-parent-security-act-ny",
+  "sourceId": "legal-entry:surrogacy-child-parent-security-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:48:36.650Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.116Z"
+  }
+}

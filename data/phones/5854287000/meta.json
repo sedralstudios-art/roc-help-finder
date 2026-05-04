@@ -1,0 +1,79 @@
+{
+  "digits": "5854287000",
+  "kind": "phone",
+  "primaryName": "entry-callout:basic-star-exemption-credit-ny",
+  "rawValue": "(585) 428-7000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "found-lost-property-wallet-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-07-08-020Z_d9c1790a-37d2-a91a-02f7-59bd1ac56280",
+    "meta": {
+      "callId": "d9c1790a-37d2-a91a-02f7-59bd1ac56280",
+      "digits": "5854287000",
+      "dialedNumber": "(585) 428-7000",
+      "catalogedName": "basic-star-exemption-credit-ny",
+      "sourceId": "legal-entry:basic-star-exemption-credit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "basic-star-exemption-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "found-lost-property-wallet-ny"
+        },
+        {
+          "type": "entry",
+          "id": "volunteer-firefighter-property-tax-exemption-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:07:08.020Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "dial-connect-timeout",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.496Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.340Z",
+  "lastSeededAt": "2026-05-03T19:44:16.340Z"
+}

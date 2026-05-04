@@ -1,0 +1,29 @@
+{
+  "digits": "8002738255",
+  "kind": "phone",
+  "primaryName": "CRISIS.suicide988Legacy",
+  "rawValue": "800-273-8255",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "crisis-line",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "suicide988Legacy",
+      "value": "800-273-8255",
+      "blockDial": true
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "do-not-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.410Z",
+  "lastSeededAt": "2026-05-03T19:44:16.410Z"
+}

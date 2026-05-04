@@ -57,7 +57,7 @@ export const PAY_STUB_WAGE_NOTICE_NY = {
       qualifier: "Any worker in New York",
       access: "Online or phone",
       outcome: "Investigation and enforcement",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov",
       verified: true,
       bilingual: false,

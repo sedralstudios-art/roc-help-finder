@@ -1,0 +1,59 @@
+{
+  "digits": "5853216808",
+  "kind": "phone",
+  "primaryName": "Dress for Success Rochester",
+  "rawValue": "585-321-6808",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "dfs",
+      "name": "Dress for Success Rochester",
+      "category": "employment",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-22-13-679Z_d246bc95-b0fd-5124-ce4b-b020ed39c489",
+    "meta": {
+      "callId": "d246bc95-b0fd-5124-ce4b-b020ed39c489",
+      "digits": "5853216808",
+      "dialedNumber": "5853216808",
+      "catalogedName": "Dress for Success Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:22:13.679Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.258Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.418Z",
+  "lastSeededAt": "2026-05-03T19:44:16.418Z"
+}

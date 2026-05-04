@@ -1,0 +1,61 @@
+{
+  "digits": "5854427130",
+  "kind": "phone",
+  "primaryName": "entry-callout:emergency-shelter-warming-center-ny",
+  "rawValue": "(585) 442-7130",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-07-17-035Z_f0fbba71-b5ca-9f2a-5c1c-027a7443d0a2",
+    "meta": {
+      "callId": "f0fbba71-b5ca-9f2a-5c1c-027a7443d0a2",
+      "digits": "5854427130",
+      "dialedNumber": "(585) 442-7130",
+      "catalogedName": "emergency-shelter-warming-center-ny",
+      "sourceId": "legal-entry:emergency-shelter-warming-center-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "emergency-shelter-warming-center-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:07:17.035Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.813Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.496Z",
+  "lastSeededAt": "2026-05-03T19:44:16.496Z"
+}

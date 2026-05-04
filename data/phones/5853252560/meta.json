@@ -1,0 +1,70 @@
+{
+  "digits": "5853252560",
+  "kind": "phone",
+  "primaryName": "entry-callout:good-cause-eviction-ny",
+  "rawValue": "(585) 325-2560",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "tenant-organizing-rights-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-52-02-081Z_a435ef33-13bf-8ff5-795d-8281fa16b364",
+    "meta": {
+      "callId": "a435ef33-13bf-8ff5-795d-8281fa16b364",
+      "digits": "5853252560",
+      "dialedNumber": "(585) 325-2560",
+      "catalogedName": "good-cause-eviction-ny",
+      "sourceId": "legal-entry:good-cause-eviction-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "good-cause-eviction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tenant-organizing-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:52:02.081Z",
+      "durationSec": 15,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.706Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.393Z",
+  "lastSeededAt": "2026-05-03T19:44:16.393Z"
+}

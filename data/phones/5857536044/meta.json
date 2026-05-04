@@ -1,0 +1,82 @@
+{
+  "digits": "5857536044",
+  "kind": "phone",
+  "primaryName": "Emergency Shelter (Homeless)",
+  "rawValue": "585-753-6044",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "shelter",
+      "name": "Emergency Shelter (Homeless)",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "after-a-fire-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-07-05-687Z_11ff3508-e6a4-baef-a36f-80676bf04fe1",
+    "meta": {
+      "callId": "11ff3508-e6a4-baef-a36f-80676bf04fe1",
+      "digits": "5857536044",
+      "dialedNumber": "585-753-6044",
+      "catalogedName": "Emergency Shelter (Homeless)",
+      "sourceId": "shelter",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "shelter"
+        },
+        {
+          "type": "entry",
+          "id": "after-a-fire-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:07:05.687Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.492Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.356Z",
+  "lastSeededAt": "2026-05-03T19:44:16.356Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:39:13.246Z",
+      "sourceUrl": "https://www.cityofrochester.gov/homelessness-resources-rochester",
+      "sourceLabel": "City of Rochester homelessness resources page (cross-confirmed multiple sources)",
+      "notes": "Web confirms 585-753-6044 as Monroe County DHS shelter intake (M-F 8am-3pm). After-hours 585-442-1742. Crisis-tier shelter line."
+    }
+  ]
+}

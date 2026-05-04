@@ -1,0 +1,24 @@
+{
+  "callId": "fa8a2a5b-946b-1989-c448-3e5d293925d3",
+  "digits": "5853597092",
+  "dialedNumber": "5853597092",
+  "catalogedName": "Henrietta Public Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:03:49.357Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.347Z"
+  }
+}

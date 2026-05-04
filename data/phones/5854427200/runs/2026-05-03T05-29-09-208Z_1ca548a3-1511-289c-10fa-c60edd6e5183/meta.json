@@ -1,0 +1,37 @@
+{
+  "callId": "1ca548a3-1511-289c-10fa-c60edd6e5183",
+  "digits": "5854427200",
+  "dialedNumber": "(585) 442-7200",
+  "catalogedName": "utility-scam-impersonation-ny",
+  "sourceId": "legal-entry:utility-scam-impersonation-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "water-bill-dispute-ny"
+    },
+    {
+      "type": "entry",
+      "id": "water-main-break-responsibility-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:29:09.208Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.549Z"
+  }
+}

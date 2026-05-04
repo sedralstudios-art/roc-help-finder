@@ -1,0 +1,29 @@
+{
+  "callId": "28a89d4a-cd89-bfd0-d307-7237c968a843",
+  "digits": "5857532787",
+  "dialedNumber": "(585) 753-2787",
+  "catalogedName": "early-intervention-infants-toddlers-ny",
+  "sourceId": "legal-entry:early-intervention-infants-toddlers-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "early-intervention-infants-toddlers-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:04:38.891Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.792Z"
+  }
+}

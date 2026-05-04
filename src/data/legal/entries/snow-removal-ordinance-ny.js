@@ -40,7 +40,7 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
     en: [
       "Rochester: snow that fell after 8:00 PM must be cleared by 9:00 AM the next day. Snow that fell after 9:00 AM must be cleared by 8:00 PM the same day. Commissioner can remove snow from any sidewalk if left for 12 hours. Shoveling snow onto sidewalks, roads, or fire hydrants is illegal. Call 311. (Verified 2026-04-17.)",
       "Greece: Property owners must clear within 24 hours. DPW at (585) 723-2425.",
-      "Irondequoit: 24-hour deadline. DPW at (585) 336-6075.",
+      "Irondequoit: 24-hour deadline. DPW at (585) 336-6090.",
       "Brighton: 24-hour deadline. Call (585) 784-5250.",
       "Henrietta: Check with DPW at (585) 334-7730.",
       "Penfield: Check with DPW at (585) 340-8660.",

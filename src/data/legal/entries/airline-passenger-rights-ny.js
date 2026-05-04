@@ -60,7 +60,7 @@ export const AIRLINE_PASSENGER_RIGHTS_NY = {
       qualifier: "Any U.S. air passenger",
       access: "Phone at (202) 366-2220 or secure.dot.gov/air-travel-complaint",
       outcome: "DOT-mediated resolution, tracked complaint",
-      phone: "(202) 366-2220",
+      phone: "",
       url: "https://www.transportation.gov/airconsumer",
       verified: true,
       bilingual: true,

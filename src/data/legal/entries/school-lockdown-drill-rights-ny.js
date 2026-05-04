@@ -60,7 +60,7 @@ export const SCHOOL_LOCKDOWN_DRILL_RIGHTS_NY = {
       qualifier: "Any public or private school in New York",
       access: "Phone at (518) 474-3852",
       outcome: "Compliance oversight, complaint investigation, guidance",
-      phone: "(518) 474-3852",
+      phone: "",
       url: "https://www.nysed.gov",
       verified: true,
       bilingual: false,

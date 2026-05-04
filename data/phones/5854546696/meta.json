@@ -1,0 +1,77 @@
+{
+  "digits": "5854546696",
+  "kind": "phone",
+  "primaryName": "Open Door Mission (Mail Services)",
+  "rawValue": "585-454-6696",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mailsvc",
+      "name": "Open Door Mission (Mail Services)",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "opendoor",
+      "name": "Open Door Mission (Clothing & Meals)",
+      "category": "clothing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-49-15-401Z_69dc2f1a-10ce-f1cc-3cf5-5b1bcc6401a0",
+    "meta": {
+      "callId": "69dc2f1a-10ce-f1cc-3cf5-5b1bcc6401a0",
+      "digits": "5854546696",
+      "dialedNumber": "5854546696",
+      "catalogedName": "Open Door Mission (Mail Services)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:49:15.401Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.448Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.75,
+      "extracted": "Open Door Mission",
+      "reason": "jaccard 0.75"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.357Z",
+  "lastSeededAt": "2026-05-03T19:44:16.357Z",
+  "verifiedAt": "2026-05-03T20:21:01.752Z",
+  "verifiedRun": "2026-05-02T07-49-15-401Z_69dc2f1a-10ce-f1cc-3cf5-5b1bcc6401a0",
+  "verifiedTranscriptOpening": "Thank you for calling the Open Door Mission. Please listen carefully as our menu options have changed. If you know your party's extension, you may dial it now. For an employee directory, dial 9. For v",
+  "verifiedMatchTokens": [
+    "door",
+    "mission"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

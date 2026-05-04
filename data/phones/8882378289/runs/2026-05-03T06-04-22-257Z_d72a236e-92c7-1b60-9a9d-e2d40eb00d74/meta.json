@@ -1,0 +1,29 @@
+{
+  "callId": "d72a236e-92c7-1b60-9a9d-e2d40eb00d74",
+  "digits": "8882378289",
+  "dialedNumber": "(888) 237-8289",
+  "catalogedName": "e-waste-recycling-ny",
+  "sourceId": "legal-entry:e-waste-recycling-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:04:22.257Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.790Z"
+  }
+}

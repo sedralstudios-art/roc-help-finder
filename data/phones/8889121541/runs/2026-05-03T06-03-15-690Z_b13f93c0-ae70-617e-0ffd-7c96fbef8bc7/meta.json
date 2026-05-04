@@ -1,0 +1,29 @@
+{
+  "callId": "b13f93c0-ae70-617e-0ffd-7c96fbef8bc7",
+  "digits": "8889121541",
+  "dialedNumber": "(888) 912-1541",
+  "catalogedName": "driving-suspended-license-ny",
+  "sourceId": "legal-entry:driving-suspended-license-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "driving-suspended-license-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:03:15.690Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.783Z"
+  }
+}

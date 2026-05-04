@@ -1,0 +1,29 @@
+{
+  "callId": "1bcff7c9-1569-280f-efaa-aecb4ab9598f",
+  "digits": "8008675222",
+  "dialedNumber": "(800) 867-5222",
+  "catalogedName": "power-outage-rights-ny",
+  "sourceId": "legal-entry:power-outage-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "power-outage-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:36:32.788Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.032Z"
+  }
+}

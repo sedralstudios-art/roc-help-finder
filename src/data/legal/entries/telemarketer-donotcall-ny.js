@@ -60,7 +60,7 @@ export const TELEMARKETER_DONOTCALL_NY = {
       qualifier: "Any person in the US",
       access: "Online or phone",
       outcome: "Registration, complaint filing, enforcement",
-      phone: "(888) 382-1222",
+      phone: "",
       url: "https://www.donotcall.gov",
       verified: true,
       bilingual: true,

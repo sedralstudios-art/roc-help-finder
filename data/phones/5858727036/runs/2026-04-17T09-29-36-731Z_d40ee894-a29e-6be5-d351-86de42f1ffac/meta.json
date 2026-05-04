@@ -1,0 +1,24 @@
+{
+  "callId": "d40ee894-a29e-6be5-d351-86de42f1ffac",
+  "digits": "5858727036",
+  "dialedNumber": "(585) 872-7036",
+  "catalogedName": "Webster Building Department",
+  "sourceId": "websterbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:29:36.731Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.000Z"
+  }
+}

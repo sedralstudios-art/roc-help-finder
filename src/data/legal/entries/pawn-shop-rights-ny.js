@@ -61,7 +61,7 @@ export const PAWN_SHOP_RIGHTS_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (800) 697-1220",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 697-1220",
+      phone: "",
       url: "https://dos.ny.gov/consumer-protection",
       verified: true,
       bilingual: true,

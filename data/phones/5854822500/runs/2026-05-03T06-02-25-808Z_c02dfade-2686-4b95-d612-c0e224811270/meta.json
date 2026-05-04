@@ -1,0 +1,29 @@
+{
+  "callId": "c02dfade-2686-4b95-d612-c0e224811270",
+  "digits": "5854822500",
+  "dialedNumber": "(585) 482-2500",
+  "catalogedName": "defensive-driving-pirp-course-ny",
+  "sourceId": "legal-entry:defensive-driving-pirp-course-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "defensive-driving-pirp-course-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:02:25.808Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.776Z"
+  }
+}

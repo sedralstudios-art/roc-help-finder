@@ -1,0 +1,70 @@
+{
+  "digits": "5187762160",
+  "kind": "phone",
+  "primaryName": "entry-callout:assumed-name-dba-ny",
+  "rawValue": "(518) 776-2160",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-31-13-973Z_e2fdf29b-9d34-573f-4a6d-35f532dc0f5f",
+    "meta": {
+      "callId": "e2fdf29b-9d34-573f-4a6d-35f532dc0f5f",
+      "digits": "5187762160",
+      "dialedNumber": "(518) 776-2160",
+      "catalogedName": "assumed-name-dba-ny",
+      "sourceId": "legal-entry:assumed-name-dba-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "assumed-name-dba-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shareholder-derivative-lawsuit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:31:13.973Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.564Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.366Z",
+  "lastSeededAt": "2026-05-03T19:44:16.366Z"
+}

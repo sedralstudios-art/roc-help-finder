@@ -1,0 +1,67 @@
+{
+  "digits": "5854298289",
+  "kind": "phone",
+  "primaryName": "Gates Recreation & Parks",
+  "rawValue": "585-429-8289",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gatesrec",
+      "name": "Gates Recreation & Parks",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "gatessenior",
+      "name": "Gates Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-41-35-361Z_250dc23c-0f91-2705-8a17-6a11dfa3843d",
+    "meta": {
+      "callId": "250dc23c-0f91-2705-8a17-6a11dfa3843d",
+      "digits": "5854298289",
+      "dialedNumber": "5854298289",
+      "catalogedName": "Gates Recreation & Parks",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:41:35.361Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.431Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.361Z",
+  "lastSeededAt": "2026-05-03T19:44:16.361Z"
+}

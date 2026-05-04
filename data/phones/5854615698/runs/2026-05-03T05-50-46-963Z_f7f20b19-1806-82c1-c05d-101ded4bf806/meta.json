@@ -1,0 +1,29 @@
+{
+  "callId": "f7f20b19-1806-82c1-c05d-101ded4bf806",
+  "digits": "5854615698",
+  "dialedNumber": "(585) 461-5698",
+  "catalogedName": "animal-hoarding-reporting-ny",
+  "sourceId": "legal-entry:animal-hoarding-reporting-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:50:46.963Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.691Z"
+  }
+}

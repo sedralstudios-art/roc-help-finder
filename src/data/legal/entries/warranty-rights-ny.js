@@ -60,7 +60,7 @@ export const WARRANTY_RIGHTS_NY = {
       qualifier: "Any consumer in New York",
       access: "Phone or online",
       outcome: "Investigation and mediation",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau",
       verified: true,
       bilingual: true,

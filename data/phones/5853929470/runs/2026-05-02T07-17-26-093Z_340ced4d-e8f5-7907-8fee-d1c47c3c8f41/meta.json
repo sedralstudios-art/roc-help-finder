@@ -1,0 +1,24 @@
+{
+  "callId": "340ced4d-e8f5-7907-8fee-d1c47c3c8f41",
+  "digits": "5853929470",
+  "dialedNumber": "5853929470",
+  "catalogedName": "Parma Town Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:17:26.093Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.377Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "310cefd3-69af-ae60-b62b-d4b2558fa90f",
+  "digits": "5858651550",
+  "dialedNumber": "(585) 865-1550",
+  "catalogedName": "Villa of Hope (Mental Health)",
+  "sourceId": "villa",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:25:17.301Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.994Z"
+  }
+}

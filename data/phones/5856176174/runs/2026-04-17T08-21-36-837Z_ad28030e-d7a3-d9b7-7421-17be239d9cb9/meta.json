@@ -1,0 +1,24 @@
+{
+  "callId": "ad28030e-d7a3-d9b7-7421-17be239d9cb9",
+  "digits": "5856176174",
+  "dialedNumber": "(585) 617-6174",
+  "catalogedName": "Ogden Parks and Recreation",
+  "sourceId": "ogdenrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:21:36.837Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.906Z"
+  }
+}

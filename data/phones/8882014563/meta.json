@@ -1,0 +1,99 @@
+{
+  "digits": "8882014563",
+  "kind": "phone",
+  "primaryName": "entry-callout:long-term-care-ombudsman-ny",
+  "rawValue": "(888) 201-4563",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-bed-hold-readmission-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-discharge-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-rights-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-06-12-185Z_69889f92-ccb4-9fb4-5b41-c8b3433900d3",
+    "meta": {
+      "callId": "69889f92-ccb4-9fb4-5b41-c8b3433900d3",
+      "digits": "8882014563",
+      "dialedNumber": "(888) 201-4563",
+      "catalogedName": "long-term-care-ombudsman-ny",
+      "sourceId": "legal-entry:long-term-care-ombudsman-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "long-term-care-ombudsman-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-bed-hold-readmission-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-complaint-neglect-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-discharge-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:06:12.185Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.209Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Nursing Home hotline",
+      "reason": "transcript-stated name (New York State Nursing Home hotline) differs from catalogued (long-term-care-ombudsman-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.318Z",
+  "lastSeededAt": "2026-05-03T19:44:16.318Z"
+}

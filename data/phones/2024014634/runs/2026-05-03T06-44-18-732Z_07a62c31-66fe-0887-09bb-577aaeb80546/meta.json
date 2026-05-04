@@ -1,0 +1,29 @@
+{
+  "callId": "07a62c31-66fe-0887-09bb-577aaeb80546",
+  "digits": "2024014634",
+  "dialedNumber": "(202) 401-4634",
+  "catalogedName": "senior-congregate-meals-ny",
+  "sourceId": "legal-entry:senior-congregate-meals-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "senior-congregate-meals-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:44:18.732Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.085Z"
+  }
+}

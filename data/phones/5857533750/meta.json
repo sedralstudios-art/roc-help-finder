@@ -1,0 +1,61 @@
+{
+  "digits": "5857533750",
+  "kind": "phone",
+  "primaryName": "entry-callout:apartment-fire-escape-safety-ny",
+  "rawValue": "(585) 753-3750",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-fire-escape-safety-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-51-11-937Z_85692829-c308-0db7-0fb7-6cfb6ea1db4f",
+    "meta": {
+      "callId": "85692829-c308-0db7-0fb7-6cfb6ea1db4f",
+      "digits": "5857533750",
+      "dialedNumber": "(585) 753-3750",
+      "catalogedName": "apartment-fire-escape-safety-ny",
+      "sourceId": "legal-entry:apartment-fire-escape-safety-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "apartment-fire-escape-safety-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:51:11.937Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.693Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.467Z",
+  "lastSeededAt": "2026-05-03T19:44:16.467Z"
+}

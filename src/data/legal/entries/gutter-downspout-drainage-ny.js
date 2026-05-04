@@ -40,7 +40,7 @@ export const GUTTER_DOWNSPOUT_DRAINAGE_NY = {
     en: [
       "The first step is a written request to the neighbor (text, email, or letter) asking them to redirect the drainage. This creates a record.",
       "Rochester: Code enforcement at (585) 428-6520 handles drainage and grading complaints.",
-      "Greece: Code Enforcement at (585) 723-2396.",
+      "Greece: Code Enforcement at (585) 723-2354.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "For persistent problems, a nuisance lawsuit can be filed in Supreme Court seeking an order to redirect the drainage and damages for property harm.",
       "For damages of $5,000 or less, Rochester City Court small claims is an option ($3,000 in town/village courts; $10,000 only in NYC).",
@@ -60,7 +60,7 @@ export const GUTTER_DOWNSPOUT_DRAINAGE_NY = {
       qualifier: "Low and moderate income Monroe County residents",
       access: "Phone intake at (585) 232-3051",
       outcome: "Legal advice and referrals",
-      phone: "(585) 232-3051",
+      phone: "",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,

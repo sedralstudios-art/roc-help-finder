@@ -1,0 +1,78 @@
+{
+  "digits": "5852880021",
+  "kind": "phone",
+  "primaryName": "Community Place of Greater Rochester",
+  "rawValue": "585-288-0021",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "communityplace",
+      "name": "Community Place of Greater Rochester",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-10-45-903Z_f2e2de93-6b47-2bba-9aef-ee82239aaca4",
+    "meta": {
+      "callId": "f2e2de93-6b47-2bba-9aef-ee82239aaca4",
+      "digits": "5852880021",
+      "dialedNumber": "5852880021",
+      "catalogedName": "Community Place of Greater Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:10:45.903Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.234Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Community Place of Greater Rochester and Charles Settlement House",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.412Z",
+  "lastSeededAt": "2026-05-03T19:44:16.412Z",
+  "verifiedAt": "2026-05-03T20:21:01.702Z",
+  "verifiedRun": "2026-05-02T06-10-45-903Z_f2e2de93-6b47-2bba-9aef-ee82239aaca4",
+  "verifiedTranscriptOpening": "Thank you for calling the Community Place of Greater Rochester and Charles Settlement House. Our normal business hours are 830 a.m. to 5 p.m., Monday through Friday, except for scheduled holidays. Ple",
+  "verifiedMatchTokens": [
+    "community",
+    "place",
+    "greater"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:51:29.103Z",
+      "sourceUrl": "https://communityplace.org",
+      "sourceLabel": "Community Place of Greater Rochester official site",
+      "notes": "Web confirms 585-288-0021 for 145 Parsells Ave location, 585-327-7200 for 57 Central Park (main)."
+    }
+  ]
+}

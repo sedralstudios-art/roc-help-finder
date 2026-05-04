@@ -1,0 +1,29 @@
+{
+  "callId": "c20accf8-b8e1-8341-427a-7f4c24a4fdd0",
+  "digits": "2025143345",
+  "dialedNumber": "(202) 514-3345",
+  "catalogedName": "false-claims-act-whistleblower-ny",
+  "sourceId": "legal-entry:false-claims-act-whistleblower-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "false-claims-act-whistleblower-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:08:31.898Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.821Z"
+  }
+}

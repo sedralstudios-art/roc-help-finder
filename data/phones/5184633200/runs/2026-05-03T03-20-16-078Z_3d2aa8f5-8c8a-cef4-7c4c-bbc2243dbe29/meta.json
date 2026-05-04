@@ -1,0 +1,69 @@
+{
+  "callId": "3d2aa8f5-8c8a-cef4-7c4c-bbc2243dbe29",
+  "digits": "5184633200",
+  "dialedNumber": "(518) 463-3200",
+  "catalogedName": "bulk-sale-notice-ny",
+  "sourceId": "legal-entry:bulk-sale-notice-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "handwritten-will-ny"
+    },
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny"
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "pet-trust-ny"
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny"
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny"
+    },
+    {
+      "type": "entry",
+      "id": "surviving-spouse-elective-share-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:20:16.078Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.999Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "callId": "a3035505-4dcf-5ecf-024a-c9f217d30220",
+  "digits": "8002215689",
+  "dialedNumber": "(800) 221-5689",
+  "catalogedName": "school-lunch-debt-ny",
+  "sourceId": "legal-entry:school-lunch-debt-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-lunch-debt-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-meal-allergy-accommodation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-work-requirements-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:03:03.900Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.476Z"
+  }
+}

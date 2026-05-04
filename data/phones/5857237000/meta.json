@@ -1,0 +1,61 @@
+{
+  "digits": "5857237000",
+  "kind": "phone",
+  "primaryName": "entry-callout:safe-haven-newborn-abandonment-ny",
+  "rawValue": "(585) 723-7000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-42-13-913Z_2f176522-75c3-e4d0-66b0-d336426a45db",
+    "meta": {
+      "callId": "2f176522-75c3-e4d0-66b0-d336426a45db",
+      "digits": "5857237000",
+      "dialedNumber": "(585) 723-7000",
+      "catalogedName": "safe-haven-newborn-abandonment-ny",
+      "sourceId": "legal-entry:safe-haven-newborn-abandonment-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "safe-haven-newborn-abandonment-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:42:13.913Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.071Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.561Z",
+  "lastSeededAt": "2026-05-03T19:44:16.561Z"
+}

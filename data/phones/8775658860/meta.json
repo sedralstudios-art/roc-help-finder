@@ -1,0 +1,79 @@
+{
+  "digits": "8775658860",
+  "kind": "phone",
+  "primaryName": "Trans Lifeline",
+  "rawValue": "877-565-8860",
+  "blockDial": true,
+  "tags": [
+    "blockDial",
+    "cat:lgbtq",
+    "crisis-line",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "CRISIS",
+      "slug": "transLifeline",
+      "value": "877-565-8860",
+      "blockDial": true
+    },
+    {
+      "type": "program",
+      "id": "translifeline",
+      "name": "Trans Lifeline",
+      "category": "lgbtq",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-52-13-120Z_01d533e8-08d1-1f6b-b5f0-544492abba06",
+    "meta": {
+      "callId": "01d533e8-08d1-1f6b-b5f0-544492abba06",
+      "digits": "8775658860",
+      "dialedNumber": "8775658860",
+      "catalogedName": "Trans Lifeline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:52:13.120Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.853Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Trans Lifeline",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.355Z",
+  "lastSeededAt": "2026-05-03T19:44:16.355Z",
+  "verifiedAt": "2026-05-03T20:21:01.868Z",
+  "verifiedRun": "2026-05-02T10-52-13-120Z_01d533e8-08d1-1f6b-b5f0-544492abba06",
+  "verifiedTranscriptOpening": "Thank you for calling Trans Lifeline. Gracias por llamar a Trans Lifeline. For English, press 1. Para Espanol, pressione 2.",
+  "verifiedMatchTokens": [
+    "trans",
+    "lifeline"
+  ],
+  "verifiedRatio": 1
+}

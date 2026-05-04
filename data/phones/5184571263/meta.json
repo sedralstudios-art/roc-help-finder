@@ -1,0 +1,72 @@
+{
+  "digits": "5184571263",
+  "kind": "phone",
+  "primaryName": "entry-callout:ny-hero-act-infectious-disease-ny",
+  "rawValue": "(518) 457-1263",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-hero-act-infectious-disease-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "workplace-safety-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-25-03-388Z_21cba680-c293-bb25-e4a1-b80510c367c2",
+    "meta": {
+      "callId": "21cba680-c293-bb25-e4a1-b80510c367c2",
+      "digits": "5184571263",
+      "dialedNumber": "(518) 457-1263",
+      "catalogedName": "ny-hero-act-infectious-disease-ny",
+      "sourceId": "legal-entry:ny-hero-act-infectious-disease-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ny-hero-act-infectious-disease-ny"
+        },
+        {
+          "type": "entry",
+          "id": "workplace-safety-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:25:03.388Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.878Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Labor Public Employees Safety and Health Bureau",
+      "reason": "transcript-stated name (New York State Department of Labor Public Employees Safety and Health Bureau) differs from catalogued (ny-hero-act-infectious-disease-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.404Z",
+  "lastSeededAt": "2026-05-03T19:44:16.404Z"
+}

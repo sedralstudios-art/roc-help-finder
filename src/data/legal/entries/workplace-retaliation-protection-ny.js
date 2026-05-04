@@ -62,7 +62,7 @@ export const WORKPLACE_RETALIATION_PROTECTION_NY = {
       qualifier: "Any worker in New York",
       access: "Phone at (888) 469-7365",
       outcome: "Investigation, enforcement, back pay, reinstatement",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov",
       verified: true,
       bilingual: true,

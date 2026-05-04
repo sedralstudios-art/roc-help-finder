@@ -1,0 +1,70 @@
+{
+  "digits": "3157811465",
+  "kind": "phone",
+  "primaryName": "entry-callout:security-deposit-ny",
+  "rawValue": "(315) 781-1465",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "security-deposit-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 54
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-44-32-549Z_869896da-0857-8eff-7b05-745eec33b843",
+    "meta": {
+      "callId": "869896da-0857-8eff-7b05-745eec33b843",
+      "digits": "3157811465",
+      "dialedNumber": "(315) 781-1465",
+      "catalogedName": "security-deposit-ny",
+      "sourceId": "legal-entry:security-deposit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "security-deposit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:44:32.549Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.649Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.408Z",
+  "lastSeededAt": "2026-05-03T19:44:16.408Z"
+}

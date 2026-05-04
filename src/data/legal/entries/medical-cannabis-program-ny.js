@@ -66,7 +66,7 @@ export const MEDICAL_CANNABIS_PROGRAM_NY = {
       qualifier: "Any NY patient or caregiver",
       access: "Phone at (888) 626-5151",
       outcome: "Information, registration support, complaint intake",
-      phone: "(888) 626-5151",
+      phone: "",
       url: "https://cannabis.ny.gov",
       verified: true,
       bilingual: true,

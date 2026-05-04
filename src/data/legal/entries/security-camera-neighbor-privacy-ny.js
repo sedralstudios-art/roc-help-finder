@@ -60,7 +60,7 @@ export const SECURITY_CAMERA_NEIGHBOR_PRIVACY_NY = {
       qualifier: "Low and moderate income Monroe County residents",
       access: "Phone intake at (585) 232-3051",
       outcome: "Legal advice and referrals",
-      phone: "(585) 232-3051",
+      phone: "",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,

@@ -60,7 +60,7 @@ export const LEASE_ASSIGNMENT_SUBLET_NY = {
       qualifier: "Low income tenants in Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal advice, representation in sublet disputes",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

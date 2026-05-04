@@ -1,0 +1,24 @@
+{
+  "callId": "e5f27c3a-f43f-6773-6d69-77db5ab9260a",
+  "digits": "5859221250",
+  "dialedNumber": "(585) 922-1250",
+  "catalogedName": "Goodwill (Career Help)",
+  "sourceId": "gw",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:39:04.053Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.726Z"
+  }
+}

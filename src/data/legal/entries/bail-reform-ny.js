@@ -61,7 +61,7 @@ export const BAIL_REFORM_NY = {
       qualifier: "Defendants who cannot afford a private attorney",
       access: "Phone at (585) 753-4210, present at arraignment",
       outcome: "Representation at arraignment, bail arguments, release advocacy",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

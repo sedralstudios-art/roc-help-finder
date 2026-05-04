@@ -1,0 +1,45 @@
+{
+  "callId": "77602a20-909a-71dd-2e23-53826edbc9db",
+  "digits": "5853713630",
+  "dialedNumber": "(585) 371-3630",
+  "catalogedName": "guardian-ad-litem-ny",
+  "sourceId": "legal-entry:guardian-ad-litem-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "guardian-ad-litem-ny"
+    },
+    {
+      "type": "entry",
+      "id": "handwritten-will-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pet-trust-ny"
+    },
+    {
+      "type": "entry",
+      "id": "surviving-spouse-elective-share-ny"
+    },
+    {
+      "type": "entry",
+      "id": "unclaimed-property-abandoned-funds-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:30:20.571Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.318Z"
+  }
+}

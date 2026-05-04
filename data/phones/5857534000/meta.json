@@ -1,0 +1,79 @@
+{
+  "digits": "5857534000",
+  "kind": "phone",
+  "primaryName": "entry-callout:ignition-interlock-dwi-ny",
+  "rawValue": "(585) 753-4000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ignition-interlock-dwi-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "probation-violation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "restitution-criminal-case-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-51-10-434Z_dea60374-d274-0869-e610-255be31bfacc",
+    "meta": {
+      "callId": "dea60374-d274-0869-e610-255be31bfacc",
+      "digits": "5857534000",
+      "dialedNumber": "(585) 753-4000",
+      "catalogedName": "ignition-interlock-dwi-ny",
+      "sourceId": "legal-entry:ignition-interlock-dwi-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ignition-interlock-dwi-ny"
+        },
+        {
+          "type": "entry",
+          "id": "probation-violation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "restitution-criminal-case-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:51:10.434Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.416Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.349Z",
+  "lastSeededAt": "2026-05-03T19:44:16.349Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "a3f2c578-f9ab-4c35-7409-7cb72a896646",
+  "digits": "5857536200",
+  "dialedNumber": "(585) 753-6200",
+  "catalogedName": "ny-state-of-health-marketplace-ny",
+  "sourceId": "legal-entry:ny-state-of-health-marketplace-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:30:10.010Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.988Z"
+  }
+}

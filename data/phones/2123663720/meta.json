@@ -1,0 +1,61 @@
+{
+  "digits": "2123663720",
+  "kind": "phone",
+  "primaryName": "entry-callout:nys-income-tax-installment-plan-ny",
+  "rawValue": "(212) 366-3720",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nys-income-tax-installment-plan-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-30-26-655Z_c71fe5eb-fbb8-772e-fa45-bfdc5f124dc1",
+    "meta": {
+      "callId": "c71fe5eb-fbb8-772e-fa45-bfdc5f124dc1",
+      "digits": "2123663720",
+      "dialedNumber": "(212) 366-3720",
+      "catalogedName": "nys-income-tax-installment-plan-ny",
+      "sourceId": "legal-entry:nys-income-tax-installment-plan-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "nys-income-tax-installment-plan-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:30:26.655Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.990Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.539Z",
+  "lastSeededAt": "2026-05-03T19:44:16.539Z"
+}

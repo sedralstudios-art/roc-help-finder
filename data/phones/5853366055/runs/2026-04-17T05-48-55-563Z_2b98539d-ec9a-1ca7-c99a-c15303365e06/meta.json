@@ -1,0 +1,24 @@
+{
+  "callId": "2b98539d-ec9a-1ca7-c99a-c15303365e06",
+  "digits": "5853366055",
+  "dialedNumber": "(585) 336-6055",
+  "catalogedName": "Irondequoit Assessor",
+  "sourceId": "irondequoitassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:48:55.563Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.666Z"
+  }
+}

@@ -60,7 +60,7 @@ export const WHAT_HAPPENS_AT_ARRAIGNMENT_NY = {
       qualifier: "Anyone facing criminal charges who qualifies financially",
       access: "Phone at (585) 753-4210",
       outcome: "Assigned attorney for arraignment and all subsequent proceedings",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

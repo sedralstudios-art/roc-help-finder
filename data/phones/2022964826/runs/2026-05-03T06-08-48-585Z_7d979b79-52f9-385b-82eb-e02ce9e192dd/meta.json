@@ -1,0 +1,29 @@
+{
+  "callId": "7d979b79-52f9-385b-82eb-e02ce9e192dd",
+  "digits": "2022964826",
+  "dialedNumber": "(202) 296-4826",
+  "catalogedName": "false-claims-act-whistleblower-ny",
+  "sourceId": "legal-entry:false-claims-act-whistleblower-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "false-claims-act-whistleblower-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:08:48.585Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.823Z"
+  }
+}

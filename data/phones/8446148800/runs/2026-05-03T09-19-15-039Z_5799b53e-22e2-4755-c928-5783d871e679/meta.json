@@ -1,0 +1,33 @@
+{
+  "callId": "5799b53e-22e2-4755-c928-5783d871e679",
+  "digits": "8446148800",
+  "dialedNumber": "(844) 614-8800",
+  "catalogedName": "mltc-managed-long-term-care-ny-program",
+  "sourceId": "legal-entry:mltc-managed-long-term-care-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "pace-program-all-inclusive-care-elderly-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:19:15.039Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.850Z"
+  }
+}

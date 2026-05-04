@@ -1,0 +1,24 @@
+{
+  "callId": "855a85fa-20ee-ab44-3975-e7e31e6e6f68",
+  "digits": "5854544060",
+  "dialedNumber": "(585) 454-4060",
+  "catalogedName": "Empire Justice Center",
+  "sourceId": "benefit-overpayment-ny::Empire Justice Center",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:43:49.753Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.861Z"
+  }
+}

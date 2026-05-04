@@ -1,0 +1,33 @@
+{
+  "callId": "576bba93-5c35-3e38-5a9e-28ddcf65340c",
+  "digits": "5853713504",
+  "dialedNumber": "(585) 371-3504",
+  "catalogedName": "landlord-interference-quiet-enjoyment-ny-cl",
+  "sourceId": "legal-entry:landlord-interference-quiet-enjoyment-ny-cl",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "landlord-interference-quiet-enjoyment-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-appeal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:39:49.706Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.620Z"
+  }
+}

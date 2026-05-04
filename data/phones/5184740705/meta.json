@@ -1,0 +1,61 @@
+{
+  "digits": "5184740705",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-insurance-lapse-penalty-ny",
+  "rawValue": "(518) 474-0705",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-insurance-lapse-penalty-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-55-54-848Z_e93d10ec-d1d0-9442-6bd5-0af42c196589",
+    "meta": {
+      "callId": "e93d10ec-d1d0-9442-6bd5-0af42c196589",
+      "digits": "5184740705",
+      "dialedNumber": "(518) 474-0705",
+      "catalogedName": "car-insurance-lapse-penalty-ny",
+      "sourceId": "legal-entry:car-insurance-lapse-penalty-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-insurance-lapse-penalty-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:55:54.848Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.726Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.476Z",
+  "lastSeededAt": "2026-05-03T19:44:16.476Z"
+}

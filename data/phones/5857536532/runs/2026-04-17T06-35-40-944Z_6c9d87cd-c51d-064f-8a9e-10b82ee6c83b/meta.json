@@ -1,0 +1,24 @@
+{
+  "callId": "6c9d87cd-c51d-064f-8a9e-10b82ee6c83b",
+  "digits": "5857536532",
+  "dialedNumber": "(585) 753-6532",
+  "catalogedName": "Child Protective Services (CPS)",
+  "sourceId": "cps",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:35:40.944Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.722Z"
+  }
+}

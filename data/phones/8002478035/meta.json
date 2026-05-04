@@ -1,0 +1,106 @@
+{
+  "digits": "8002478035",
+  "kind": "phone",
+  "primaryName": "entry-callout:crime-victim-compensation-ny",
+  "rawValue": "(800) 247-8035",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "crime-victim-compensation-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "human-trafficking-victim-relief-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "negligent-security-landlord-crime-ny-cl",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "restitution-criminal-case-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "sentencing-options-ny",
+      "line": 92
+    },
+    {
+      "type": "entry",
+      "id": "sexual-assault-survivors-rights-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-00-46-799Z_323d906d-c742-ca1d-3bac-ef1c1feab533",
+    "meta": {
+      "callId": "323d906d-c742-ca1d-3bac-ef1c1feab533",
+      "digits": "8002478035",
+      "dialedNumber": "(800) 247-8035",
+      "catalogedName": "crime-victim-compensation-ny",
+      "sourceId": "legal-entry:crime-victim-compensation-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "crime-victim-compensation-ny"
+        },
+        {
+          "type": "entry",
+          "id": "human-trafficking-victim-relief-ny"
+        },
+        {
+          "type": "entry",
+          "id": "negligent-security-landlord-crime-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "restitution-criminal-case-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sentencing-options-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sexual-assault-survivors-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:00:46.799Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.194Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.303Z",
+  "lastSeededAt": "2026-05-03T19:44:16.303Z"
+}

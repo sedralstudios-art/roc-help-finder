@@ -60,7 +60,7 @@ export const entry = {
     qualifier: "Open to residents and contractors working in Town of Chili",
     access: "Phone",
     outcome: "Permit issuance, inspection scheduling, code guidance",
-    phone: "585-889-6143",
+    phone: "",
     url: "https://www.chiliny.gov/202/Building-Department",
     verified: true,
     bilingual: false,

@@ -1,0 +1,70 @@
+{
+  "digits": "5857536800",
+  "kind": "phone",
+  "primaryName": "entry-callout:medicaid-hcbs-waiver-ny",
+  "rawValue": "(585) 753-6800",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-15-04-061Z_d4cfccdc-4553-ff1a-36f8-773ec2f0acd5",
+    "meta": {
+      "callId": "d4cfccdc-4553-ff1a-36f8-773ec2f0acd5",
+      "digits": "5857536800",
+      "dialedNumber": "(585) 753-6800",
+      "catalogedName": "medicaid-hcbs-waiver-ny",
+      "sourceId": "legal-entry:medicaid-hcbs-waiver-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "medicaid-hcbs-waiver-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-state-supplementation-program-ssp-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:15:04.061Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.831Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.401Z",
+  "lastSeededAt": "2026-05-03T19:44:16.401Z"
+}

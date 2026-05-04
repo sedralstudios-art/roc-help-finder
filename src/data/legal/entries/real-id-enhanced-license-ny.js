@@ -60,7 +60,7 @@ export const REAL_ID_ENHANCED_LICENSE_NY = {
       qualifier: "Any NY resident",
       access: "In person at a DMV office; online at dmv.ny.gov",
       outcome: "License issuance, document verification",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/id-card/federal-real-id",
       verified: true,
       bilingual: true,

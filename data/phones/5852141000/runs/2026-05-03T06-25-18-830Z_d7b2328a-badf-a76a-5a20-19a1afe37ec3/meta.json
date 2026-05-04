@@ -1,0 +1,29 @@
+{
+  "callId": "d7b2328a-badf-a76a-5a20-19a1afe37ec3",
+  "digits": "5852141000",
+  "dialedNumber": "(585) 214-1000",
+  "catalogedName": "molst-medical-orders-ny",
+  "sourceId": "legal-entry:molst-medical-orders-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "molst-medical-orders-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:25:18.830Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.937Z"
+  }
+}

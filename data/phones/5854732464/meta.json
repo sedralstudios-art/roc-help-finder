@@ -1,0 +1,67 @@
+{
+  "digits": "5854732464",
+  "kind": "phone",
+  "primaryName": "Learn2Earn (Center for Youth)",
+  "rawValue": "585-473-2464",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "l2e",
+      "name": "Learn2Earn (Center for Youth)",
+      "category": "youth",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-54-04-661Z_c7597a53-b360-fc42-3716-7d43f9881b74",
+    "meta": {
+      "callId": "c7597a53-b360-fc42-3716-7d43f9881b74",
+      "digits": "5854732464",
+      "dialedNumber": "5854732464",
+      "catalogedName": "Learn2Earn (Center for Youth)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:54:04.661Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.458Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Center for Youth at 905 Monroe Avenue",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.358Z",
+  "lastSeededAt": "2026-05-03T19:44:16.358Z"
+}

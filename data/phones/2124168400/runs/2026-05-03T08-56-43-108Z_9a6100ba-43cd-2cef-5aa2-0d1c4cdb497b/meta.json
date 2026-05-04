@@ -1,0 +1,33 @@
+{
+  "callId": "9a6100ba-43cd-2cef-5aa2-0d1c4cdb497b",
+  "digits": "2124168400",
+  "dialedNumber": "(212) 416-8400",
+  "catalogedName": "health-insurance-external-appeal-ny",
+  "sourceId": "legal-entry:health-insurance-external-appeal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "health-insurance-external-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-insurance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:56:43.108Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.731Z"
+  }
+}

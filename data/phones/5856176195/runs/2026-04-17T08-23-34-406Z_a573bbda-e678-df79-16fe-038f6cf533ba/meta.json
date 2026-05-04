@@ -1,0 +1,24 @@
+{
+  "callId": "a573bbda-e678-df79-16fe-038f6cf533ba",
+  "digits": "5856176195",
+  "dialedNumber": "(585) 617-6195",
+  "catalogedName": "Ogden Building Department",
+  "sourceId": "ogdenbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:23:34.406Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.909Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "f56329bb-e767-1d29-a2cf-61fe89e160c8",
+  "digits": "5854286883",
+  "dialedNumber": "585-428-6883",
+  "catalogedName": "tenant-habitability-ny",
+  "sourceId": "legal-entry:tenant-habitability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "tenant-habitability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:49:43.215Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.124Z"
+  }
+}

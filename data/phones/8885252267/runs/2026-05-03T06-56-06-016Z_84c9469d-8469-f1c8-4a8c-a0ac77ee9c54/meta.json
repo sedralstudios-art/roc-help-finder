@@ -1,0 +1,29 @@
+{
+  "callId": "84c9469d-8469-f1c8-4a8c-a0ac77ee9c54",
+  "digits": "8885252267",
+  "dialedNumber": "888-525-2267",
+  "catalogedName": "wrongful-termination-ny",
+  "sourceId": "legal-entry:wrongful-termination-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wrongful-termination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:56:06.016Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.167Z"
+  }
+}

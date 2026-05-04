@@ -1,0 +1,24 @@
+{
+  "callId": "c1bf7bf2-d490-fc87-3147-ea2c0e0fe3f5",
+  "digits": "5853929030",
+  "dialedNumber": "5853929030",
+  "catalogedName": "Hilton-Parma Senior Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:14:41.533Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.371Z"
+  }
+}

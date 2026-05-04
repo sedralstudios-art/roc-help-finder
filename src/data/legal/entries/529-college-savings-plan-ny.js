@@ -61,7 +61,7 @@ export const NY_529_COLLEGE_SAVINGS_PLAN_NY = {
       qualifier: "NY residents and out-of-state residents saving for a beneficiary",
       access: "Phone at (877) 697-2837 or nysaves.org",
       outcome: "Account management, contribution confirmation, withdrawal processing",
-      phone: "(877) 697-2837",
+      phone: "",
       url: "https://www.nysaves.org",
       verified: true,
       bilingual: true,

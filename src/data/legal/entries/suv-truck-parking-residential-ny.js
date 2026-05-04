@@ -39,7 +39,7 @@ export const SUV_TRUCK_PARKING_RESIDENTIAL_NY = {
   legalOptions: {
     en: [
       "Rochester: Commercial vehicle parking restrictions enforced by Bureau of Inspection at (585) 428-6520.",
-      "Greece: Code Enforcement at (585) 723-2396.",
+      "Greece: Code Enforcement at (585) 723-2354.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "Brighton: Building Department at (585) 784-5220.",
       "Henrietta: Building Department at (585) 334-7700.",
@@ -62,7 +62,7 @@ export const SUV_TRUCK_PARKING_RESIDENTIAL_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Code information, violation resolution",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

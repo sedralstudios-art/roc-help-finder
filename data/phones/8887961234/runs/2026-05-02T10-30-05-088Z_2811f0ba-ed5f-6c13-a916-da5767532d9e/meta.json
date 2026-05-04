@@ -1,0 +1,24 @@
+{
+  "callId": "2811f0ba-ed5f-6c13-a916-da5767532d9e",
+  "digits": "8887961234",
+  "dialedNumber": "8887961234",
+  "catalogedName": "Rx Outreach (Low-Cost Mail Order)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:30:05.088Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.797Z"
+  }
+}

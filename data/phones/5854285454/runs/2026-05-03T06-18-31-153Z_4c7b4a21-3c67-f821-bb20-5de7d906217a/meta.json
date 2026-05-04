@@ -1,0 +1,29 @@
+{
+  "callId": "4c7b4a21-3c67-f821-bb20-5de7d906217a",
+  "digits": "5854285454",
+  "dialedNumber": "(585) 428-5454",
+  "catalogedName": "jury-duty-excuse-ny",
+  "sourceId": "legal-entry:jury-duty-excuse-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "jury-duty-excuse-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:18:31.153Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.890Z"
+  }
+}

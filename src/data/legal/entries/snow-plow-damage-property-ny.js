@@ -41,7 +41,7 @@ export const SNOW_PLOW_DAMAGE_PROPERTY_NY = {
     en: [
       "Rochester: Report plow damage to the Bureau of Operations at (585) 428-7538 or through 311.",
       "Greece: Highway Department at (585) 723-2425.",
-      "Irondequoit: Highway Department at (585) 336-6075.",
+      "Irondequoit: Highway Department at (585) 336-6090.",
       "Gates: Highway Department at (585) 247-6100.",
       "Henrietta: Highway Department at (585) 334-7730.",
       "Brighton: Highway Department at (585) 784-5250.",
@@ -65,7 +65,7 @@ export const SNOW_PLOW_DAMAGE_PROPERTY_NY = {
       qualifier: "Monroe County road damage",
       access: "Phone at (585) 753-7720",
       outcome: "Damage claim processing, repair scheduling",
-      phone: "(585) 753-7720",
+      phone: "",
       url: "https://www.monroecounty.gov/dot",
       verified: true,
       bilingual: false,

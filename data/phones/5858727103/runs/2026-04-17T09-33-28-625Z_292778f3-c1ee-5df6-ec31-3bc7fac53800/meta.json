@@ -1,0 +1,24 @@
+{
+  "callId": "292778f3-c1ee-5df6-ec31-3bc7fac53800",
+  "digits": "5858727103",
+  "dialedNumber": "(585) 872-7103",
+  "catalogedName": "Webster 55+ Programs",
+  "sourceId": "webstersenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:33:28.625Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.006Z"
+  }
+}

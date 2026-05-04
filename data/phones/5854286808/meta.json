@@ -1,0 +1,61 @@
+{
+  "digits": "5854286808",
+  "kind": "phone",
+  "primaryName": "entry-callout:garage-conversion-adu-ny",
+  "rawValue": "(585) 428-6808",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "garage-conversion-adu-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-11-51-895Z_c58c2ed1-d107-e958-0953-42f61e0b2aa1",
+    "meta": {
+      "callId": "c58c2ed1-d107-e958-0953-42f61e0b2aa1",
+      "digits": "5854286808",
+      "dialedNumber": "(585) 428-6808",
+      "catalogedName": "garage-conversion-adu-ny",
+      "sourceId": "legal-entry:garage-conversion-adu-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "garage-conversion-adu-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:11:51.895Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.845Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.505Z",
+  "lastSeededAt": "2026-05-03T19:44:16.505Z"
+}

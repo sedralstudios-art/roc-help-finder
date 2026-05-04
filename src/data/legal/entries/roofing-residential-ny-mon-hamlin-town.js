@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_HAMLIN_TOWN = {
   title: { en: "Residential Roofing in the Town of Hamlin — Explicit Permit Required, Two-Layer NYS Code Maximum" },
 
   summary: {
-    en: "The Town of Hamlin explicitly requires a building permit for all roof-related work, including tear-offs and re-roofing. The New York Uniform Fire Prevention and Building Code (as adopted by the town) limits residential roofing to two layers total. Starting a third layer without a full tear-off is a code violation. Failure to pull a required permit adds a $125 fee or fine to the permit cost. The Building Department at (585) 964-8181 confirms scope and handles inspections. Hamlin is one of the clearer Monroe County towns in stating the roofing permit rule directly."
+    en: "The Town of Hamlin explicitly requires a building permit for all roof-related work, including tear-offs and re-roofing. The New York Uniform Fire Prevention and Building Code (as adopted by the town) limits residential roofing to two layers total. Starting a third layer without a full tear-off is a code violation. Failure to pull a required permit adds a $125 fee or fine to the permit cost. The Building Department at [number being verified] confirms scope and handles inspections. Hamlin is one of the clearer Monroe County towns in stating the roofing permit rule directly."
   },
 
   whatItMeans: {
@@ -56,7 +56,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_HAMLIN_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "Town Hall; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 964-8181",
+      phone: "",
       url: "https://hamlinny.org/building-inspector/",
       verified: true,
       bilingual: false,

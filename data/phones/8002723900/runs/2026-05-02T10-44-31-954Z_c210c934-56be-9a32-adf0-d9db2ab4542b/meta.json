@@ -1,0 +1,24 @@
+{
+  "callId": "c210c934-56be-9a32-adf0-d9db2ab4542b",
+  "digits": "8002723900",
+  "dialedNumber": "8002723900",
+  "catalogedName": "Alzheimer's Association Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:44:31.954Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.833Z"
+  }
+}

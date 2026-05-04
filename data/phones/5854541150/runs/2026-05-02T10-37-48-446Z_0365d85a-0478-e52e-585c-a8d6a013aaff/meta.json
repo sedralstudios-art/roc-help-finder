@@ -1,0 +1,24 @@
+{
+  "callId": "0365d85a-0478-e52e-585c-a8d6a013aaff",
+  "digits": "5854541150",
+  "dialedNumber": "5854541150",
+  "catalogedName": "VOA Veterans Housing",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:37:48.446Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.816Z"
+  }
+}

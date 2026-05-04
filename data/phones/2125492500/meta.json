@@ -1,0 +1,61 @@
+{
+  "digits": "2125492500",
+  "kind": "phone",
+  "primaryName": "entry-callout:journalist-shield-law-ny",
+  "rawValue": "(212) 549-2500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-17-57-894Z_9da41fb3-2439-fb08-60b3-169384d8cfd2",
+    "meta": {
+      "callId": "9da41fb3-2439-fb08-60b3-169384d8cfd2",
+      "digits": "2125492500",
+      "dialedNumber": "(212) 549-2500",
+      "catalogedName": "journalist-shield-law-ny",
+      "sourceId": "legal-entry:journalist-shield-law-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "journalist-shield-law-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:17:57.894Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.887Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.516Z",
+  "lastSeededAt": "2026-05-03T19:44:16.516Z"
+}

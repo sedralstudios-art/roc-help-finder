@@ -1,0 +1,24 @@
+{
+  "callId": "bdb8a6d1-65e5-9dcd-84d1-612feadff6a4",
+  "digits": "5857533430",
+  "dialedNumber": "(585) 753-3430",
+  "catalogedName": "Monroe County Assigned Counsel Program",
+  "sourceId": "drug-possession-basics-ny::Monroe County Assigned Counsel Program",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:05:09.747Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.966Z"
+  }
+}

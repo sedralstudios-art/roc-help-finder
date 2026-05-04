@@ -1,0 +1,61 @@
+{
+  "digits": "5184020905",
+  "kind": "phone",
+  "primaryName": "entry-callout:informed-consent-medical-ny",
+  "rawValue": "(518) 402-0905",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "informed-consent-medical-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-16-18-078Z_2501939e-18ce-305f-7618-bd9267f312c1",
+    "meta": {
+      "callId": "2501939e-18ce-305f-7618-bd9267f312c1",
+      "digits": "5184020905",
+      "dialedNumber": "(518) 402-0905",
+      "catalogedName": "informed-consent-medical-ny",
+      "sourceId": "legal-entry:informed-consent-medical-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "informed-consent-medical-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:16:18.078Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.875Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.512Z",
+  "lastSeededAt": "2026-05-03T19:44:16.512Z"
+}

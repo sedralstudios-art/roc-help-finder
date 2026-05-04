@@ -1,0 +1,24 @@
+{
+  "callId": "70cfb51c-702b-8b39-1c4c-154bcb3b8358",
+  "digits": "5853408623",
+  "dialedNumber": "5853408623",
+  "catalogedName": "Penfield Town Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:49:43.889Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.317Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "digits": "5852708626",
+  "kind": "phone",
+  "primaryName": "Mary's Place (Refugee Welcome)",
+  "rawValue": "585-270-8626",
+  "blockDial": false,
+  "tags": [
+    "cat:refugeeSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "maryplace",
+      "name": "Mary's Place (Refugee Welcome)",
+      "category": "refugeeSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-01-28-134Z_ae823c41-86de-100a-ea94-c42e6a9d51ea",
+    "meta": {
+      "callId": "ae823c41-86de-100a-ea94-c42e6a9d51ea",
+      "digits": "5852708626",
+      "dialedNumber": "5852708626",
+      "catalogedName": "Mary's Place (Refugee Welcome)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:01:28.134Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.214Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6,
+      "extracted": "MARY'S PLACE REFUGEE OUTREACH",
+      "reason": "jaccard 0.60"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.421Z",
+  "lastSeededAt": "2026-05-03T19:44:16.421Z",
+  "verifiedAt": "2026-05-03T20:21:01.695Z",
+  "verifiedRun": "2026-05-02T06-01-28-134Z_ae823c41-86de-100a-ea94-c42e6a9d51ea",
+  "verifiedTranscriptOpening": "THANK YOU FOR CALLING MARY'S PLACE REFUGEE OUTREACH. WE ARE LOCATED AT 414 LEXINGTON AVENUE, ROCHESTER, NEW YORK. OUR HOURS OF OPERATION ARE MONDAY THROUGH FRIDAY, 830 A.M. TO 4 p.m we are closed on s",
+  "verifiedMatchTokens": [
+    "mary",
+    "place",
+    "refugee"
+  ],
+  "verifiedRatio": 0.75
+}

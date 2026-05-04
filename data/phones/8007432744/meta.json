@@ -1,0 +1,61 @@
+{
+  "digits": "8007432744",
+  "kind": "phone",
+  "primaryName": "entry-callout:home-inspector-licensing-ny",
+  "rawValue": "(800) 743-2744",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-14-21-673Z_7881952d-b2b5-31f0-c31e-0c2b4180f6e0",
+    "meta": {
+      "callId": "7881952d-b2b5-31f0-c31e-0c2b4180f6e0",
+      "digits": "8007432744",
+      "dialedNumber": "(800) 743-2744",
+      "catalogedName": "home-inspector-licensing-ny",
+      "sourceId": "legal-entry:home-inspector-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "home-inspector-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:14:21.673Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.863Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.509Z",
+  "lastSeededAt": "2026-05-03T19:44:16.509Z"
+}

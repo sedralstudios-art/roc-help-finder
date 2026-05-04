@@ -1,0 +1,33 @@
+{
+  "callId": "e70a912f-ce8d-4d23-d7c9-fd57d58d61bd",
+  "digits": "8006214000",
+  "dialedNumber": "(800) 621-4000",
+  "catalogedName": "emancipation-minor-ny",
+  "sourceId": "legal-entry:emancipation-minor-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emancipation-minor-ny"
+    },
+    {
+      "type": "entry",
+      "id": "foster-care-aging-out-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:42:26.678Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.656Z"
+  }
+}

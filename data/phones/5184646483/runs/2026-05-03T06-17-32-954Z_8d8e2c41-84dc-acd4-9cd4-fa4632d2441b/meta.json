@@ -1,0 +1,29 @@
+{
+  "callId": "8d8e2c41-84dc-acd4-9cd4-fa4632d2441b",
+  "digits": "5184646483",
+  "dialedNumber": "(518) 464-6483",
+  "catalogedName": "journalist-shield-law-ny",
+  "sourceId": "legal-entry:journalist-shield-law-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:17:32.954Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.884Z"
+  }
+}

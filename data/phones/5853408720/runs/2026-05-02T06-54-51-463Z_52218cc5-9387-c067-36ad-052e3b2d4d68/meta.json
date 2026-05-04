@@ -1,0 +1,24 @@
+{
+  "callId": "52218cc5-9387-c067-36ad-052e3b2d4d68",
+  "digits": "5853408720",
+  "dialedNumber": "5853408720",
+  "catalogedName": "Penfield Public Library",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:54:51.463Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.328Z"
+  }
+}

@@ -1,36 +1,3 @@
 {
-  "entries": [
-    {
-      "anchorId": "deceptive-business-practices-ny",
-      "url": "https://www.nysenate.gov/legislation/laws/GBS/349",
-      "domain": "www.nysenate.gov",
-      "status": 403,
-      "statusText": "Forbidden",
-      "blockedAt": "2026-05-01"
-    },
-    {
-      "anchorId": "hvac-residential-ny",
-      "url": "https://www.nysenate.gov/legislation/laws/EXC/377",
-      "domain": "www.nysenate.gov",
-      "status": 403,
-      "statusText": "Forbidden",
-      "blockedAt": "2026-05-01"
-    },
-    {
-      "anchorId": "security-deposit-ny",
-      "url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
-      "domain": "www.nysenate.gov",
-      "status": 403,
-      "statusText": "Forbidden",
-      "blockedAt": "2026-05-01"
-    },
-    {
-      "anchorId": "tenant-habitability-ny",
-      "url": "https://www.nysenate.gov/legislation/laws/RPP/235-B",
-      "domain": "www.nysenate.gov",
-      "status": 403,
-      "statusText": "Forbidden",
-      "blockedAt": "2026-05-01"
-    }
-  ]
+  "entries": []
 }

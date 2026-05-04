@@ -1,0 +1,61 @@
+{
+  "digits": "3017588144",
+  "kind": "phone",
+  "primaryName": "entry-callout:public-adjuster-insurance-claim-ny",
+  "rawValue": "(301) 758-8144",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "public-adjuster-insurance-claim-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-38-29-266Z_b86d314c-3dbd-871d-8ede-d67c64d34597",
+    "meta": {
+      "callId": "b86d314c-3dbd-871d-8ede-d67c64d34597",
+      "digits": "3017588144",
+      "dialedNumber": "(301) 758-8144",
+      "catalogedName": "public-adjuster-insurance-claim-ny",
+      "sourceId": "legal-entry:public-adjuster-insurance-claim-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "public-adjuster-insurance-claim-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:38:29.266Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.045Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.554Z",
+  "lastSeededAt": "2026-05-03T19:44:16.554Z"
+}

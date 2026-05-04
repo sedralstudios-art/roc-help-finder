@@ -1,0 +1,24 @@
+{
+  "callId": "2d39e9e4-7ce5-eb41-40f2-bfeacc657a30",
+  "digits": "5857814063",
+  "dialedNumber": "(585) 781-4063",
+  "catalogedName": "Hamlin Seniors Program",
+  "sourceId": "hamlinsenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:14:46.872Z",
+  "durationSec": 11,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.979Z"
+  }
+}

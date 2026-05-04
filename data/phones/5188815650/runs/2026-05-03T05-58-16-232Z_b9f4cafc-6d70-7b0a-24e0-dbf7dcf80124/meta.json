@@ -1,0 +1,29 @@
+{
+  "callId": "b9f4cafc-6d70-7b0a-24e0-dbf7dcf80124",
+  "digits": "5188815650",
+  "dialedNumber": "(518) 881-5650",
+  "catalogedName": "civil-tro-preliminary-injunction-ny",
+  "sourceId": "legal-entry:civil-tro-preliminary-injunction-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-tro-preliminary-injunction-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:58:16.232Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.746Z"
+  }
+}

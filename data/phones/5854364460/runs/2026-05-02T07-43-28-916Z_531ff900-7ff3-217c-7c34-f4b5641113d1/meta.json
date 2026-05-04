@@ -1,0 +1,24 @@
+{
+  "callId": "531ff900-7ff3-217c-7c34-f4b5641113d1",
+  "digits": "5854364460",
+  "dialedNumber": "5854364460",
+  "catalogedName": "entry-callout:electrical-residential-ny-mon-brighton-town",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:43:28.916Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.435Z"
+  }
+}

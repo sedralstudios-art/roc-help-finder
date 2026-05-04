@@ -1,0 +1,99 @@
+{
+  "digits": "8002219311",
+  "kind": "phone",
+  "primaryName": "entry-callout:abandoned-bank-account-ny",
+  "rawValue": "(800) 221-9311",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "abandoned-bank-account-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "safe-deposit-box-after-death-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "unclaimed-life-insurance-benefits-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "unclaimed-property-abandoned-funds-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-10-00-858Z_fbcc0680-2a71-ce45-451e-debaff0eddc2",
+    "meta": {
+      "callId": "fbcc0680-2a71-ce45-451e-debaff0eddc2",
+      "digits": "8002219311",
+      "dialedNumber": "(800) 221-9311",
+      "catalogedName": "abandoned-bank-account-ny",
+      "sourceId": "legal-entry:abandoned-bank-account-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "abandoned-bank-account-ny"
+        },
+        {
+          "type": "entry",
+          "id": "beneficiary-designation-trumps-will-ny"
+        },
+        {
+          "type": "entry",
+          "id": "safe-deposit-box-after-death-ny"
+        },
+        {
+          "type": "entry",
+          "id": "unclaimed-life-insurance-benefits-ny"
+        },
+        {
+          "type": "entry",
+          "id": "unclaimed-property-abandoned-funds-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:10:00.858Z",
+      "durationSec": 23,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.235Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Comptroller's Office of Unclaimed Funds",
+      "reason": "transcript-stated name (New York State Comptroller's Office of Unclaimed Funds) differs from catalogued (abandoned-bank-account-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.310Z",
+  "lastSeededAt": "2026-05-03T19:44:16.310Z"
+}

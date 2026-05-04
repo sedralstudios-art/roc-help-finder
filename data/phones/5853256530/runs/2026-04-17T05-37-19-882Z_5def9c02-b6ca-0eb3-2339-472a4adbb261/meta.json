@@ -1,0 +1,24 @@
+{
+  "callId": "5def9c02-b6ca-0eb3-2339-472a4adbb261",
+  "digits": "5853256530",
+  "dialedNumber": "(585) 325-6530",
+  "catalogedName": "Urban League of Rochester",
+  "sourceId": "urbanleague",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:37:19.882Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.651Z"
+  }
+}

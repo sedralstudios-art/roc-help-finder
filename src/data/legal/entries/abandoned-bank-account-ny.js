@@ -60,7 +60,7 @@ export const ABANDONED_BANK_ACCOUNT_NY = {
       qualifier: "Any person who may have unclaimed property in New York",
       access: "Phone at (800) 221-9311, search at osc.state.ny.us/unclaimed-funds",
       outcome: "Free search, claim processing, fund recovery",
-      phone: "(800) 221-9311",
+      phone: "",
       url: "https://www.osc.state.ny.us/unclaimed-funds",
       verified: true,
       bilingual: false,

@@ -1,0 +1,24 @@
+{
+  "callId": "70b19919-005f-53f7-0d62-2d7b58e1d6ed",
+  "digits": "5856371145",
+  "dialedNumber": "(585) 637-1145",
+  "catalogedName": "Town of Clarkson Building Department",
+  "sourceId": "electrical-residential-ny-mon-clarkson-town::Town of Clarkson Building Department",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:40:20.115Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.932Z"
+  }
+}

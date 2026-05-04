@@ -1,0 +1,24 @@
+{
+  "callId": "f961f94e-de6a-76d4-d7c6-3562252a9ae3",
+  "digits": "5858896050",
+  "dialedNumber": "(585) 889-6050",
+  "catalogedName": "Scottsville Village Clerk",
+  "sourceId": "scottsvilleclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:46:16.297Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.026Z"
+  }
+}

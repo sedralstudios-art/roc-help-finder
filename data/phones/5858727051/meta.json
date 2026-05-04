@@ -1,0 +1,61 @@
+{
+  "digits": "5858727051",
+  "kind": "phone",
+  "primaryName": "Webster Assessor",
+  "rawValue": "585-872-7051",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "websterassessor",
+      "name": "Webster Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-29-01-118Z_8fd7aee2-1174-aebd-02fc-1f5f65ba00c1",
+    "meta": {
+      "callId": "8fd7aee2-1174-aebd-02fc-1f5f65ba00c1",
+      "digits": "5858727051",
+      "dialedNumber": "5858727051",
+      "catalogedName": "Webster Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:29:01.118Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.659Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Town of Webster Assessing Department",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.457Z",
+  "lastSeededAt": "2026-05-03T19:44:16.457Z"
+}

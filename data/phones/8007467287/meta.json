@@ -1,0 +1,61 @@
+{
+  "digits": "8007467287",
+  "kind": "phone",
+  "primaryName": "entry-callout:pharmacist-administered-vaccines-ny",
+  "rawValue": "(800) 746-7287",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-34-11-408Z_c3620623-9f9c-1e1e-5ebc-c2c2654d007b",
+    "meta": {
+      "callId": "c3620623-9f9c-1e1e-5ebc-c2c2654d007b",
+      "digits": "8007467287",
+      "dialedNumber": "(800) 746-7287",
+      "catalogedName": "pharmacist-administered-vaccines-ny",
+      "sourceId": "legal-entry:pharmacist-administered-vaccines-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pharmacist-administered-vaccines-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:34:11.408Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.015Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.546Z",
+  "lastSeededAt": "2026-05-03T19:44:16.546Z"
+}

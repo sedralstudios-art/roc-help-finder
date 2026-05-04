@@ -1,0 +1,24 @@
+{
+  "callId": "67294263-7cc0-b016-9021-8127f003f9a5",
+  "digits": "5855462130",
+  "dialedNumber": "(585) 546-2130",
+  "catalogedName": "Monroe County Bar Association Lawyer Referral Service",
+  "sourceId": "license-suspension-ny::Monroe County Bar Association Lawyer Referral Service",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:01:46.699Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.883Z"
+  }
+}

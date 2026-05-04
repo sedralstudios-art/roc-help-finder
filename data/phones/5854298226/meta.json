@@ -1,0 +1,59 @@
+{
+  "digits": "5854298226",
+  "kind": "phone",
+  "primaryName": "Gates Assessor",
+  "rawValue": "585-429-8226",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gatesassessor",
+      "name": "Gates Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-37-25-875Z_76e5f0ae-c4d9-e3f4-9982-bd10c896d3d5",
+    "meta": {
+      "callId": "76e5f0ae-c4d9-e3f4-9982-bd10c896d3d5",
+      "digits": "5854298226",
+      "dialedNumber": "5854298226",
+      "catalogedName": "Gates Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:37:25.875Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.421Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.440Z",
+  "lastSeededAt": "2026-05-03T19:44:16.440Z"
+}

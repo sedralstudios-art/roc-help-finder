@@ -1,0 +1,29 @@
+{
+  "callId": "1c38454b-fdf6-c67a-32da-40c8054a297d",
+  "digits": "5853399800",
+  "dialedNumber": "(585) 339-9800",
+  "catalogedName": "rochester-housing-authority-waitlist-ny",
+  "sourceId": "legal-entry:rochester-housing-authority-waitlist-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "rochester-housing-authority-waitlist-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:41:32.330Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.066Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "5da421c7-e894-0496-af1e-0442a20012b4",
+  "digits": "8006213115",
+  "dialedNumber": "(800) 621-3115",
+  "catalogedName": "tax-refund-garnishment-ny",
+  "sourceId": "legal-entry:tax-refund-garnishment-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "tax-refund-garnishment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:49:09.945Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.120Z"
+  }
+}

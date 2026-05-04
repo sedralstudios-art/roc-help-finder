@@ -1,0 +1,61 @@
+{
+  "digits": "8773462224",
+  "kind": "phone",
+  "primaryName": "entry-callout:home-inspector-licensing-ny",
+  "rawValue": "(877) 346-2224",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-14-29-992Z_6241a332-f74f-61a9-21ce-b70ff2e0b866",
+    "meta": {
+      "callId": "6241a332-f74f-61a9-21ce-b70ff2e0b866",
+      "digits": "8773462224",
+      "dialedNumber": "(877) 346-2224",
+      "catalogedName": "home-inspector-licensing-ny",
+      "sourceId": "legal-entry:home-inspector-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "home-inspector-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:14:29.992Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.864Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.509Z",
+  "lastSeededAt": "2026-05-03T19:44:16.509Z"
+}

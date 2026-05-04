@@ -61,7 +61,7 @@ export const INTERNET_PRIVACY_DATA_BREACH_NY = {
       qualifier: "Any New York resident",
       access: "Phone or online",
       outcome: "Investigation and enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/bureau/internet-and-technology-bureau",
       verified: true,
       bilingual: false,

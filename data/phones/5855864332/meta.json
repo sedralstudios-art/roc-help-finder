@@ -1,0 +1,77 @@
+{
+  "digits": "5855864332",
+  "kind": "phone",
+  "primaryName": "Pittsford Village Clerk",
+  "rawValue": "585-586-4332",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordvillageclerk",
+      "name": "Pittsford Village Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-pittsford-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-pittsford-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-pittsford-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-17-17-702Z_45930eed-47a4-286c-1cc6-cb99b43e9125",
+    "meta": {
+      "callId": "45930eed-47a4-286c-1cc6-cb99b43e9125",
+      "digits": "5855864332",
+      "dialedNumber": "5855864332",
+      "catalogedName": "Pittsford Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:17:17.702Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.506Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Village of Pittsburgh Municipal Office",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.322Z",
+  "lastSeededAt": "2026-05-03T19:44:16.322Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5855465500",
+  "kind": "phone",
+  "primaryName": "YMCA of Greater Rochester (Youth)",
+  "rawValue": "585-546-5500",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ymcayouth",
+      "name": "YMCA of Greater Rochester (Youth)",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-08-07-468Z_5f43bd67-5ffc-5db1-a2e6-f2fa36dea3c6",
+    "meta": {
+      "callId": "5f43bd67-5ffc-5db1-a2e6-f2fa36dea3c6",
+      "digits": "5855465500",
+      "dialedNumber": "5855465500",
+      "catalogedName": "YMCA of Greater Rochester (Youth)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:08:07.468Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.488Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Association office",
+      "reason": "transcript-stated name (Association office) differs from catalogued (YMCA of Greater Rochester (Youth))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.420Z",
+  "lastSeededAt": "2026-05-03T19:44:16.420Z"
+}

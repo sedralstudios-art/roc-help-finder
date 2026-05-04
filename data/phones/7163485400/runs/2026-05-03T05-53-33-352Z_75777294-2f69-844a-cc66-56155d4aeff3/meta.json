@@ -1,0 +1,29 @@
+{
+  "callId": "75777294-2f69-844a-cc66-56155d4aeff3",
+  "digits": "7163485400",
+  "dialedNumber": "(716) 348-5400",
+  "catalogedName": "blood-bone-marrow-organ-donor-leave-ny",
+  "sourceId": "legal-entry:blood-bone-marrow-organ-donor-leave-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "blood-bone-marrow-organ-donor-leave-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:53:33.352Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.710Z"
+  }
+}

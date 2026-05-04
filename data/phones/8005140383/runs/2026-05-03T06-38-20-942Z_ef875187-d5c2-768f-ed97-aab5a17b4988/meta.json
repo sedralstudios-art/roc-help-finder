@@ -1,0 +1,29 @@
+{
+  "callId": "ef875187-d5c2-768f-ed97-aab5a17b4988",
+  "digits": "8005140383",
+  "dialedNumber": "(800) 514-0383",
+  "catalogedName": "public-accommodations-ada-ny",
+  "sourceId": "legal-entry:public-accommodations-ada-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "public-accommodations-ada-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:38:20.942Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.044Z"
+  }
+}

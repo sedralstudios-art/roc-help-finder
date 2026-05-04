@@ -1,0 +1,24 @@
+{
+  "callId": "1e3409c5-1647-92ee-b08c-845724ea734b",
+  "digits": "5853250186",
+  "dialedNumber": "5853250186",
+  "catalogedName": "Narcotics Anonymous Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:23:14.719Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.261Z"
+  }
+}

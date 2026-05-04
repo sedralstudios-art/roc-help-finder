@@ -1,0 +1,24 @@
+{
+  "callId": "cec06bea-129b-7059-a395-fa6e8f0d0409",
+  "digits": "5856976000",
+  "dialedNumber": "5856976000",
+  "catalogedName": "Section 8 Housing Voucher",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:52:37.540Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.582Z"
+  }
+}

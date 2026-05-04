@@ -1,0 +1,33 @@
+{
+  "callId": "de04a56a-a6d2-0cb2-6e9c-9f5992da88bc",
+  "digits": "5184742011",
+  "dialedNumber": "(518) 474-2011",
+  "catalogedName": "health-care-proxy-ny",
+  "sourceId": "legal-entry:health-care-proxy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "health-care-proxy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "molst-medical-orders-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:54:47.801Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.721Z"
+  }
+}

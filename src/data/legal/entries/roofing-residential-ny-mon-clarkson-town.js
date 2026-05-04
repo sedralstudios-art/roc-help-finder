@@ -19,7 +19,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CLARKSON_TOWN = {
   },
 
   example: {
-    en: "A contractor accepts a reroof on a house in Clarkson outside village limits. Before materials arrive, the contractor calls the Building Department at (585) 637-1145, files the roofing permit application, pays the $100 fee, and schedules the inspection. If the tear-off had started before the permit issued, the fee would have doubled to $200 and a stop-work order could have halted the crew."
+    en: "A contractor accepts a reroof on a house in Clarkson outside village limits. Before materials arrive, the contractor calls the Building Department at [number being verified], files the roofing permit application, pays the $100 fee, and schedules the inspection. If the tear-off had started before the permit issued, the fee would have doubled to $200 and a stop-work order could have halted the crew."
   },
 
   whoQualifies: {
@@ -59,7 +59,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CLARKSON_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "3710 Lake Road, PO Box 858, Clarkson, NY 14430; phone; email",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 637-1145",
+      phone: "",
       url: "https://townofclarksonny.gov/building-department/",
       verified: true,
       bilingual: false,

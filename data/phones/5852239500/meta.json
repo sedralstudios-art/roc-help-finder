@@ -1,0 +1,88 @@
+{
+  "digits": "5852239500",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-fairport-village",
+  "rawValue": "(585) 223-9500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-fairport-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-perinton-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-fairport-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-fairport-village",
+      "line": 16
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-45-38-445Z_5b4a136b-cfba-e9e2-4519-82635cf36a34",
+    "meta": {
+      "callId": "5b4a136b-cfba-e9e2-4519-82635cf36a34",
+      "digits": "5852239500",
+      "dialedNumber": "(585) 223-9500",
+      "catalogedName": "electrical-residential-ny-mon-fairport-village",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-fairport-village",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-fairport-village"
+        },
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-perinton-town"
+        },
+        {
+          "type": "entry",
+          "id": "hvac-residential-ny-mon-fairport-village"
+        },
+        {
+          "type": "entry",
+          "id": "plumbing-residential-ny-mon-fairport-village"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:45:38.445Z",
+      "durationSec": 8,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.424Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.327Z",
+  "lastSeededAt": "2026-05-03T19:44:16.327Z"
+}

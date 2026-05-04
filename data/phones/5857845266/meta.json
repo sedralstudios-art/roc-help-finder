@@ -1,0 +1,67 @@
+{
+  "digits": "5857845266",
+  "kind": "phone",
+  "primaryName": "Brighton Senior Program",
+  "rawValue": "585-784-5266",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonsenior",
+      "name": "Brighton Senior Program",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-20-38-445Z_b635b8e4-7c8b-fe57-7d09-90fc7bd4ea03",
+    "meta": {
+      "callId": "b635b8e4-7c8b-fe57-7d09-90fc7bd4ea03",
+      "digits": "5857845266",
+      "dialedNumber": "5857845266",
+      "catalogedName": "Brighton Senior Program",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:20:38.445Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.641Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.431Z",
+  "lastSeededAt": "2026-05-03T19:44:16.431Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:17:56.664Z",
+      "sourceUrl": "https://www.brightonny.gov/363/Brighton-Senior-Program",
+      "sourceLabel": "Town of Brighton Senior Program page",
+      "notes": "Direct match: web confirms (585) 784-5266 (dedicated senior line) AND tree dialer transcript says \"Brighton Senior Citizens\". Initial search conflated with rec dept main 5260; direct page fetch clarified."
+    }
+  ]
+}

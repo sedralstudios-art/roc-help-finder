@@ -1,0 +1,76 @@
+{
+  "digits": "5857536960",
+  "kind": "phone",
+  "primaryName": "MC.snapAppointmentLine",
+  "rawValue": "585-753-6960",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "snapAppointmentLine",
+      "value": "585-753-6960",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny",
+      "line": 66
+    },
+    {
+      "type": "entry",
+      "id": "emergency-medicaid-ny",
+      "line": 60
+    },
+    {
+      "type": "entry",
+      "id": "monroe-county-dss-overview-ny-mon-program",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-12-06-718Z_ca8bab9c-9e14-acd2-c10f-fe9dc5d4de24",
+    "meta": {
+      "callId": "ca8bab9c-9e14-acd2-c10f-fe9dc5d4de24",
+      "digits": "5857536960",
+      "dialedNumber": "5857536960",
+      "catalogedName": "MC.snapAppointmentLine",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:12:06.718Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.622Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Department of Human Services Applications and Appointment Office",
+      "reason": "transcript-stated name (Monroe County Department of Human Services Applications and Appointment Office) differs from catalogued (MC.snapAppointmentLine)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.319Z",
+  "lastSeededAt": "2026-05-03T19:44:16.319Z"
+}

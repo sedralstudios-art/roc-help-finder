@@ -1,0 +1,29 @@
+{
+  "callId": "f80712c8-583b-f858-5601-e02acec4b539",
+  "digits": "6077349784",
+  "dialedNumber": "(607) 734-9784",
+  "catalogedName": "immigration-basics-ny",
+  "sourceId": "legal-entry:immigration-basics-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "immigration-basics-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:16:09.771Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.875Z"
+  }
+}

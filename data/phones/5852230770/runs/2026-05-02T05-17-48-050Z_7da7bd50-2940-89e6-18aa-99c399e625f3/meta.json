@@ -1,0 +1,24 @@
+{
+  "callId": "7da7bd50-2940-89e6-18aa-99c399e625f3",
+  "digits": "5852230770",
+  "dialedNumber": "5852230770",
+  "catalogedName": "Perinton Town Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:17:48.050Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.115Z"
+  }
+}

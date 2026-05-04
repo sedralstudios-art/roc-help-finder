@@ -1,0 +1,24 @@
+{
+  "callId": "0eb77795-f7ed-929c-bc7c-f2ea19f40a93",
+  "digits": "5852486238",
+  "dialedNumber": "5852486238",
+  "catalogedName": "Pittsford Town Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:44:30.987Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.175Z"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "callId": "eb8b207e-27ac-c87c-77da-984258b12c51",
+  "digits": "8666973732",
+  "dialedNumber": "866-697-3732",
+  "catalogedName": "EmPower+ (Free Home Upgrades)",
+  "sourceId": "empower",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "UTILITIES.empowerPlus"
+    },
+    {
+      "type": "program",
+      "id": "empower"
+    },
+    {
+      "type": "entry",
+      "id": "attic-insulation-rebate-ny"
+    },
+    {
+      "type": "entry",
+      "id": "electric-vehicle-charging-ny"
+    },
+    {
+      "type": "entry",
+      "id": "home-energy-audit-rebates-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-installation-contract-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-net-metering-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-panel-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "wood-stove-epa-certification-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:21:59.233Z",
+  "durationSec": 13,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": "screenshot.png",
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.007Z"
+  }
+}

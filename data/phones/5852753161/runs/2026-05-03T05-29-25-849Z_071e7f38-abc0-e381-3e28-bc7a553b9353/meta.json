@@ -1,0 +1,33 @@
+{
+  "callId": "071e7f38-abc0-e381-3e28-bc7a553b9353",
+  "digits": "5852753161",
+  "dialedNumber": "585-275-3161",
+  "catalogedName": "Strong Recovery Chemical Dependency",
+  "sourceId": "strongrecovery",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "HOSPITALS.behavioralHealthClinic"
+    },
+    {
+      "type": "program",
+      "id": "strongrecovery"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:29:25.849Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.551Z"
+  }
+}

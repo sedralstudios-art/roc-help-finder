@@ -1,0 +1,40 @@
+{
+  "digits": "5853408629",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-50-43-502Z_0921b3d1-d950-789d-481c-4c3e0726148c",
+    "meta": {
+      "callId": "0921b3d1-d950-789d-481c-4c3e0726148c",
+      "digits": "5853408629",
+      "dialedNumber": "5853408629",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:50:43.502Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.319Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

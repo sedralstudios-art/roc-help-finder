@@ -1,0 +1,301 @@
+{
+  "digits": "8003423334",
+  "kind": "phone",
+  "primaryName": "NY Office of Temporary & Disability Assistance — Fair Hearings",
+  "rawValue": "800-342-3334",
+  "blockDial": false,
+  "tags": [
+    "cat:legalBenefits",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "fairhearing",
+      "name": "NY Office of Temporary & Disability Assistance — Fair Hearings",
+      "category": "legalBenefits",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "apply-for-benefits-online-ny-program",
+      "line": 24
+    },
+    {
+      "type": "entry",
+      "id": "benefit-overpayment-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "benefits-denial-appeal-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "cdpap-consumer-directed-care-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "childcare-assistance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "childcare-subsidy-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-request-walkthrough-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-denial-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-buy-in-working-disabled-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-home-care-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-spend-down-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-medicaid-asset-protection-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "safety-net-assistance-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "snap-after-conviction-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "snap-expedited-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "snap-recertification-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "snap-work-requirements-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "stolen-ebt-snap-replacement-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "tanf-public-assistance-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-51-07-075Z_2edee82e-028b-a721-6976-26c852c3652e",
+    "meta": {
+      "callId": "2edee82e-028b-a721-6976-26c852c3652e",
+      "digits": "8003423334",
+      "dialedNumber": "800-342-3334",
+      "catalogedName": "NY Office of Temporary & Disability Assistance — Fair Hearings",
+      "sourceId": "fairhearing",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "fairhearing"
+        },
+        {
+          "type": "entry",
+          "id": "apply-for-benefits-online-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "benefit-overpayment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "benefits-denial-appeal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "cdpap-consumer-directed-care-ny"
+        },
+        {
+          "type": "entry",
+          "id": "childcare-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "childcare-subsidy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dental-care-low-income-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "emergency-cash-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fair-hearing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fair-hearing-request-walkthrough-ny"
+        },
+        {
+          "type": "entry",
+          "id": "health-insurance-denial-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-buy-in-working-disabled-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-home-care-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-spend-down-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mltc-managed-long-term-care-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-medicaid-asset-protection-ny"
+        },
+        {
+          "type": "entry",
+          "id": "safety-net-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-after-conviction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-expedited-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-recertification-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snap-work-requirements-ny"
+        },
+        {
+          "type": "entry",
+          "id": "stolen-ebt-snap-replacement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tanf-public-assistance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:51:07.075Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.883Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "New York State Office of Temporary and Disability Assistance",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.272Z",
+  "lastSeededAt": "2026-05-03T19:44:16.272Z",
+  "verifiedAt": "2026-05-03T20:21:01.827Z",
+  "verifiedRun": "2026-05-03T02-51-07-075Z_2edee82e-028b-a721-6976-26c852c3652e",
+  "verifiedTranscriptOpening": "If you are calling from a touch-tone phone and would like to continue in English, press 1. Si usted está llamando de un teléfono de marcación por tonos y le gustaría continuar en español, oprima 2. Yo",
+  "verifiedMatchTokens": [
+    "temporary",
+    "disability",
+    "hearings"
+  ],
+  "verifiedRatio": 0.75
+}

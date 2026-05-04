@@ -1,0 +1,72 @@
+{
+  "digits": "8004428106",
+  "kind": "phone",
+  "primaryName": "entry-callout:eyeglass-contact-lens-prescription-release-ny",
+  "rawValue": "(800) 442-8106",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny",
+      "line": 30
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-46-45-609Z_279ea140-47ba-1a6e-292b-a37c714d727f",
+    "meta": {
+      "callId": "279ea140-47ba-1a6e-292b-a37c714d727f",
+      "digits": "8004428106",
+      "dialedNumber": "(800) 442-8106",
+      "catalogedName": "eyeglass-contact-lens-prescription-release-ny",
+      "sourceId": "legal-entry:eyeglass-contact-lens-prescription-release-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "eyeglass-contact-lens-prescription-release-ny"
+        },
+        {
+          "type": "entry",
+          "id": "office-of-professions-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:46:45.609Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.677Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Education Department's Office of Professional Discipline",
+      "reason": "transcript-stated name (New York State Education Department's Office of Professional Discipline) differs from catalogued (eyeglass-contact-lens-prescription-release-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.391Z",
+  "lastSeededAt": "2026-05-03T19:44:16.391Z"
+}

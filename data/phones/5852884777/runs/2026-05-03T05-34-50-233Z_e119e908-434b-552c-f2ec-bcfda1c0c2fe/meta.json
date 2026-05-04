@@ -1,0 +1,33 @@
+{
+  "callId": "e119e908-434b-552c-f2ec-bcfda1c0c2fe",
+  "digits": "5852884777",
+  "dialedNumber": "(585) 288-4777",
+  "catalogedName": "dental-care-low-income-ny-program",
+  "sourceId": "legal-entry:dental-care-low-income-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "free-eyeglasses-vision-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:34:50.233Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.588Z"
+  }
+}

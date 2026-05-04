@@ -1,0 +1,91 @@
+{
+  "digits": "5854286907",
+  "kind": "phone",
+  "primaryName": "Rochester Public Market + Double Up",
+  "rawValue": "585-428-6907",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "market",
+      "name": "Rochester Public Market + Double Up",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "cottage-food-selling-from-home-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-dining-food-truck-permit-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-01-46-954Z_82c7152e-21c1-c3d4-7130-bf839337bed4",
+    "meta": {
+      "callId": "82c7152e-21c1-c3d4-7130-bf839337bed4",
+      "digits": "5854286907",
+      "dialedNumber": "585-428-6907",
+      "catalogedName": "Rochester Public Market + Double Up",
+      "sourceId": "market",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "market"
+        },
+        {
+          "type": "entry",
+          "id": "cottage-food-selling-from-home-ny"
+        },
+        {
+          "type": "entry",
+          "id": "outdoor-dining-food-truck-permit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:01:46.954Z",
+      "durationSec": 6,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.485Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.332Z",
+  "lastSeededAt": "2026-05-03T19:44:16.332Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:48:28.239Z",
+      "sourceUrl": "https://www.cityofrochester.gov/publicmarket",
+      "sourceLabel": "City of Rochester Public Market page",
+      "notes": "Web confirms 585-428-6907 for the Rochester Public Market."
+    }
+  ]
+}

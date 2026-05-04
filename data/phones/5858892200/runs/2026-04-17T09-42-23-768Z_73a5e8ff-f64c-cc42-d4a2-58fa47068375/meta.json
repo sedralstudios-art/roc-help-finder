@@ -1,0 +1,24 @@
+{
+  "callId": "73a5e8ff-f64c-cc42-d4a2-58fa47068375",
+  "digits": "5858892200",
+  "dialedNumber": "(585) 889-2200",
+  "catalogedName": "Chili Public Library",
+  "sourceId": "chililib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:42:23.768Z",
+  "durationSec": 19,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.020Z"
+  }
+}

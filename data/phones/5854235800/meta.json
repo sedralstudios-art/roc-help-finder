@@ -1,0 +1,86 @@
+{
+  "digits": "5854235800",
+  "kind": "phone",
+  "primaryName": "Jordan Health Center",
+  "rawValue": "585-423-5800",
+  "blockDial": false,
+  "tags": [
+    "cat:dental",
+    "cat:health",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "jordan",
+      "name": "Jordan Health Center",
+      "category": "health",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "jordandental",
+      "name": "Jordan Health (Dental)",
+      "category": "dental",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "uninsured-health-care-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-25-27-724Z_57f5954d-e868-a52f-bbf5-e28e0e5457d5",
+    "meta": {
+      "callId": "57f5954d-e868-a52f-bbf5-e28e0e5457d5",
+      "digits": "5854235800",
+      "dialedNumber": "5854235800",
+      "catalogedName": "Jordan Health Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:25:27.724Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.395Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.320Z",
+  "lastSeededAt": "2026-05-03T19:44:16.320Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:20:25.421Z",
+      "sourceUrl": "https://www.jordanhealth.org",
+      "sourceLabel": "Jordan Health official site",
+      "notes": "Web confirms 585-423-5800 as Jordan Health Center main line. Used by both jordan (general health) and jordandental."
+    }
+  ]
+}

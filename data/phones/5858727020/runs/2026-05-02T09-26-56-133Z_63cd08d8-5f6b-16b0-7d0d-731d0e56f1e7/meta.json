@@ -1,0 +1,24 @@
+{
+  "callId": "63cd08d8-5f6b-16b0-7d0d-731d0e56f1e7",
+  "digits": "5858727020",
+  "dialedNumber": "5858727020",
+  "catalogedName": "Webster Justice Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:26:56.133Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.653Z"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "digits": "8004289071",
+  "kind": "phone",
+  "primaryName": "entry-callout:insulin-cost-cap-ny",
+  "rawValue": "(800) 428-9071",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-bills-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-50-28-082Z_047daa74-5ae7-6980-ee93-604fd7954aeb",
+    "meta": {
+      "callId": "047daa74-5ae7-6980-ee93-604fd7954aeb",
+      "digits": "8004289071",
+      "dialedNumber": "(800) 428-9071",
+      "catalogedName": "insulin-cost-cap-ny",
+      "sourceId": "legal-entry:insulin-cost-cap-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "insulin-cost-cap-ny"
+        },
+        {
+          "type": "entry",
+          "id": "office-of-professions-complaint-ny"
+        },
+        {
+          "type": "entry",
+          "id": "prior-authorization-step-therapy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "surprise-medical-bills-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:50:28.082Z",
+      "durationSec": 7,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.453Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.328Z",
+  "lastSeededAt": "2026-05-03T19:44:16.328Z"
+}

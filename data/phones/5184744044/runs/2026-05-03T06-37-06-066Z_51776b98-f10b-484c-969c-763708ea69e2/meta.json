@@ -1,0 +1,29 @@
+{
+  "callId": "51776b98-f10b-484c-969c-763708ea69e2",
+  "digits": "5184744044",
+  "dialedNumber": "(518) 474-4044",
+  "catalogedName": "prevailing-wage-public-works-ny",
+  "sourceId": "legal-entry:prevailing-wage-public-works-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "prevailing-wage-public-works-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:37:06.066Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.036Z"
+  }
+}

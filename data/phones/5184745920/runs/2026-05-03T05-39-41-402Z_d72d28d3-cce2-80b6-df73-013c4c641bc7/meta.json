@@ -1,0 +1,33 @@
+{
+  "callId": "d72d28d3-cce2-80b6-df73-013c4c641bc7",
+  "digits": "5184745920",
+  "dialedNumber": "(518) 474-5920",
+  "catalogedName": "kindergarten-enrollment-age-ny",
+  "sourceId": "legal-entry:kindergarten-enrollment-age-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-vaccine-medical-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:39:41.402Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.619Z"
+  }
+}

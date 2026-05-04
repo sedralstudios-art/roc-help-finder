@@ -1,0 +1,29 @@
+{
+  "callId": "29d5d9c2-a1b7-83ca-b652-a30163454382",
+  "digits": "8008967743",
+  "dialedNumber": "(800) 896-7743",
+  "catalogedName": "service-member-lease-termination-ny",
+  "sourceId": "legal-entry:service-member-lease-termination-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "service-member-lease-termination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:44:52.018Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.089Z"
+  }
+}

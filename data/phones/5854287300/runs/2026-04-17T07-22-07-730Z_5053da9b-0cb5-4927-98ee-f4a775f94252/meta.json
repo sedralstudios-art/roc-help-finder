@@ -1,0 +1,24 @@
+{
+  "callId": "5053da9b-0cb5-4927-98ee-f4a775f94252",
+  "digits": "5854287300",
+  "dialedNumber": "(585) 428-7300",
+  "catalogedName": "Rochester Public Library",
+  "sourceId": "lib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:22:07.730Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.836Z"
+  }
+}

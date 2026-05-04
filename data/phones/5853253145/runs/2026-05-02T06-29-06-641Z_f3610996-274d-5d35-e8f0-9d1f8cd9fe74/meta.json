@@ -1,0 +1,24 @@
+{
+  "callId": "f3610996-274d-5d35-e8f0-9d1f8cd9fe74",
+  "digits": "5853253145",
+  "dialedNumber": "5853253145",
+  "catalogedName": "Mental Health Association of Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:29:06.641Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.273Z"
+  }
+}

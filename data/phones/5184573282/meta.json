@@ -1,0 +1,70 @@
+{
+  "digits": "5184573282",
+  "kind": "phone",
+  "primaryName": "entry-callout:grocery-item-pricing-accuracy-ny",
+  "rawValue": "(518) 457-3282",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-53-58-903Z_20a9a953-506c-29d0-fa6d-6c2bd7492bce",
+    "meta": {
+      "callId": "20a9a953-506c-29d0-fa6d-6c2bd7492bce",
+      "digits": "5184573282",
+      "dialedNumber": "(518) 457-3282",
+      "catalogedName": "grocery-item-pricing-accuracy-ny",
+      "sourceId": "legal-entry:grocery-item-pricing-accuracy-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "grocery-item-pricing-accuracy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "right-to-farm-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:53:58.903Z",
+      "durationSec": 15,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.716Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.394Z",
+  "lastSeededAt": "2026-05-03T19:44:16.394Z"
+}

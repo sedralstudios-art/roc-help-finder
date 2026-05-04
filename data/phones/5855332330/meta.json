@@ -1,0 +1,59 @@
+{
+  "digits": "5855332330",
+  "kind": "phone",
+  "primaryName": "Rush Assessor",
+  "rawValue": "585-533-2330",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rushassessor",
+      "name": "Rush Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-00-06-437Z_93d79ace-113a-3f4d-48af-5212e934f5e3",
+    "meta": {
+      "callId": "93d79ace-113a-3f4d-48af-5212e934f5e3",
+      "digits": "5855332330",
+      "dialedNumber": "5855332330",
+      "catalogedName": "Rush Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:00:06.437Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.472Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.455Z",
+  "lastSeededAt": "2026-05-03T19:44:16.455Z"
+}

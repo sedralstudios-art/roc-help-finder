@@ -1,0 +1,29 @@
+{
+  "callId": "d5e1a8fe-f8eb-a79b-7737-9f1f365fd478",
+  "digits": "7033088432",
+  "dialedNumber": "(703) 308-8432",
+  "catalogedName": "wood-stove-epa-certification-ny",
+  "sourceId": "legal-entry:wood-stove-epa-certification-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wood-stove-epa-certification-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:55:07.782Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.160Z"
+  }
+}

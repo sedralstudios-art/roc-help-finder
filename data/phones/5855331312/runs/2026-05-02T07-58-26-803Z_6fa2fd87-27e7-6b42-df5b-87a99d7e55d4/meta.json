@@ -1,0 +1,24 @@
+{
+  "callId": "6fa2fd87-27e7-6b42-df5b-87a99d7e55d4",
+  "digits": "5855331312",
+  "dialedNumber": "5855331312",
+  "catalogedName": "Rush Town Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:58:26.803Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.468Z"
+  }
+}

@@ -61,7 +61,7 @@ export const UNION_BASICS_ORGANIZING_NY = {
       qualifier: "Private-sector workers in western New York",
       access: "Phone at (716) 551-4931",
       outcome: "Investigation, election scheduling, reinstatement orders, back pay",
-      phone: "(716) 551-4931",
+      phone: "",
       url: "https://www.nlrb.gov",
       verified: true,
       bilingual: false,

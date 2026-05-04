@@ -1,0 +1,27 @@
+{
+  "digits": "741741",
+  "kind": "shortcode",
+  "primaryName": "HOTLINES.crisisText",
+  "rawValue": "Text HOME to 741741",
+  "blockDial": false,
+  "tags": [
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "crisisText",
+      "value": "Text HOME to 741741",
+      "blockDial": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.409Z",
+  "lastSeededAt": "2026-05-03T19:44:16.409Z"
+}

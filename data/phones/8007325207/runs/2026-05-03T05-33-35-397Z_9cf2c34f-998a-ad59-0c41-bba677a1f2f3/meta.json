@@ -1,0 +1,33 @@
+{
+  "callId": "9cf2c34f-998a-ad59-0c41-bba677a1f2f3",
+  "digits": "8007325207",
+  "dialedNumber": "(800) 732-5207",
+  "catalogedName": "child-care-licensing-ny",
+  "sourceId": "legal-entry:child-care-licensing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-care-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "daycare-complaint-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:33:35.397Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.580Z"
+  }
+}

@@ -60,7 +60,7 @@ export const COLLECTING_COURT_JUDGMENT_NY = {
       qualifier: "Low and moderate income Monroe County residents",
       access: "Phone intake at (585) 232-3051",
       outcome: "Legal advice and help with collection tools",
-      phone: "(585) 232-3051",
+      phone: "",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,

@@ -1,0 +1,29 @@
+{
+  "callId": "08694187-5734-c495-fe44-cf940885a52c",
+  "digits": "5184743333",
+  "dialedNumber": "(518) 474-3333",
+  "catalogedName": "foster-care-bill-of-rights-ny",
+  "sourceId": "legal-entry:foster-care-bill-of-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "foster-care-bill-of-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:09:55.152Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.832Z"
+  }
+}

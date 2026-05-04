@@ -1,0 +1,99 @@
+{
+  "digits": "2124168401",
+  "kind": "phone",
+  "primaryName": "entry-callout:cemetery-perpetual-care-trust-ny",
+  "rawValue": "(212) 416-8401",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "hoa-disputes-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "trust-accounting-scpa-2210-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-02-55-321Z_21b11bad-66b7-2054-9d00-4f449db8d929",
+    "meta": {
+      "callId": "21b11bad-66b7-2054-9d00-4f449db8d929",
+      "digits": "2124168401",
+      "dialedNumber": "(212) 416-8401",
+      "catalogedName": "cemetery-perpetual-care-trust-ny",
+      "sourceId": "legal-entry:cemetery-perpetual-care-trust-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cemetery-perpetual-care-trust-ny"
+        },
+        {
+          "type": "entry",
+          "id": "charitable-solicitation-registration-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hoa-disputes-ny"
+        },
+        {
+          "type": "entry",
+          "id": "property-tax-religious-charitable-exemption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "trust-accounting-scpa-2210-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:02:55.321Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.193Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Attorney General's Charities Bureau",
+      "reason": "transcript-stated name (Attorney General's Charities Bureau) differs from catalogued (cemetery-perpetual-care-trust-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.314Z",
+  "lastSeededAt": "2026-05-03T19:44:16.314Z"
+}

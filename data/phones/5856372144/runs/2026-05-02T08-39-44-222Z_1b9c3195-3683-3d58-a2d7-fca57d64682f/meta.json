@@ -1,0 +1,24 @@
+{
+  "callId": "1b9c3195-3683-3d58-a2d7-fca57d64682f",
+  "digits": "5856372144",
+  "dialedNumber": "5856372144",
+  "catalogedName": "Sweden Town Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:39:44.222Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.555Z"
+  }
+}

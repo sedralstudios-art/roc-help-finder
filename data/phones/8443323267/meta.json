@@ -1,0 +1,72 @@
+{
+  "digits": "8443323267",
+  "kind": "phone",
+  "primaryName": "entry-callout:dangerous-wild-animal-ban-ny",
+  "rawValue": "1-844-332-3267",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dangerous-wild-animal-ban-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-34-03-432Z_cdee70d1-42a4-417b-db7e-41f1ed4a4b82",
+    "meta": {
+      "callId": "cdee70d1-42a4-417b-db7e-41f1ed4a4b82",
+      "digits": "8443323267",
+      "dialedNumber": "1-844-332-3267",
+      "catalogedName": "dangerous-wild-animal-ban-ny",
+      "sourceId": "legal-entry:dangerous-wild-animal-ban-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "dangerous-wild-animal-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deer-vehicle-collision-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:34:03.432Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.617Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Environmental Conservation Police Dispatch",
+      "reason": "transcript-stated name (New York State Department of Environmental Conservation Police Dispatch) differs from catalogued (dangerous-wild-animal-ban-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.387Z",
+  "lastSeededAt": "2026-05-03T19:44:16.387Z"
+}

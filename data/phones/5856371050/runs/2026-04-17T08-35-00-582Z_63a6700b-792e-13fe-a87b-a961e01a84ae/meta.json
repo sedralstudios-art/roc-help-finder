@@ -1,0 +1,24 @@
+{
+  "callId": "63a6700b-792e-13fe-a87b-a961e01a84ae",
+  "digits": "5856371050",
+  "dialedNumber": "(585) 637-1050",
+  "catalogedName": "Seymour Library",
+  "sourceId": "seymourlib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:35:00.582Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.925Z"
+  }
+}

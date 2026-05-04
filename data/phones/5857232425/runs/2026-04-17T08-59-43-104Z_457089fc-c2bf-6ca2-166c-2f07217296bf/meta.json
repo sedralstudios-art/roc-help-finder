@@ -1,0 +1,24 @@
+{
+  "callId": "457089fc-c2bf-6ca2-166c-2f07217296bf",
+  "digits": "5857232425",
+  "dialedNumber": "(585) 723-2425",
+  "catalogedName": "Greece Community & Senior Center",
+  "sourceId": "greecesenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:59:43.104Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.959Z"
+  }
+}

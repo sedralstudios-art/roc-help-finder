@@ -1,0 +1,61 @@
+{
+  "digits": "5184028678",
+  "kind": "phone",
+  "primaryName": "entry-callout:e-waste-recycling-ny",
+  "rawValue": "(518) 402-8678",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-04-05-647Z_617404ec-898d-8a08-717d-e845cdcf12c9",
+    "meta": {
+      "callId": "617404ec-898d-8a08-717d-e845cdcf12c9",
+      "digits": "5184028678",
+      "dialedNumber": "(518) 402-8678",
+      "catalogedName": "e-waste-recycling-ny",
+      "sourceId": "legal-entry:e-waste-recycling-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "e-waste-recycling-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:04:05.647Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.788Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.490Z",
+  "lastSeededAt": "2026-05-03T19:44:16.490Z"
+}

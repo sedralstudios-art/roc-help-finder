@@ -1,0 +1,33 @@
+{
+  "callId": "9673c53c-f9ab-e499-7c14-36482dc958ad",
+  "digits": "5857536260",
+  "dialedNumber": "585-753-6260",
+  "catalogedName": "Monroe County Youth Bureau",
+  "sourceId": "yb",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "yb"
+    },
+    {
+      "type": "entry",
+      "id": "pins-petition-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:29:50.798Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.553Z"
+  }
+}

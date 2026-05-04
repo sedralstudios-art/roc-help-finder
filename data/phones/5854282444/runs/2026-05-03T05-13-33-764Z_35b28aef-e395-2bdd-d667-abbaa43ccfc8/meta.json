@@ -1,0 +1,37 @@
+{
+  "callId": "35b28aef-e395-2bdd-d667-abbaa43ccfc8",
+  "digits": "5854282444",
+  "dialedNumber": "(585) 428-2444",
+  "catalogedName": "court-system-explained-ny-program",
+  "sourceId": "legal-entry:court-system-explained-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-system-explained-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "small-claims-procedure-ny"
+    },
+    {
+      "type": "entry",
+      "id": "traffic-ticket-options-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:13:33.764Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.511Z"
+  }
+}

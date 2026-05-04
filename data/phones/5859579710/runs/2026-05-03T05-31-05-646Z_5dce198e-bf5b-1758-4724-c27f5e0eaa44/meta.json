@@ -1,0 +1,33 @@
+{
+  "callId": "5dce198e-bf5b-1758-4724-c27f5e0eaa44",
+  "digits": "5859579710",
+  "dialedNumber": "(585) 957-9710",
+  "catalogedName": "assigned-counsel-program-ny",
+  "sourceId": "legal-entry:assigned-counsel-program-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "itin-application-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:31:05.646Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.563Z"
+  }
+}

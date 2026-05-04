@@ -1,0 +1,70 @@
+{
+  "digits": "5852248020",
+  "kind": "phone",
+  "primaryName": "entry-callout:naturalization-citizenship-eligibility-ny",
+  "rawValue": "(585) 224-8020",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "naturalization-citizenship-eligibility-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "u-visa-crime-victim-immigration-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-20-55-864Z_08743b9e-c034-152a-2cd5-109ad9cd885e",
+    "meta": {
+      "callId": "08743b9e-c034-152a-2cd5-109ad9cd885e",
+      "digits": "5852248020",
+      "dialedNumber": "(585) 224-8020",
+      "catalogedName": "naturalization-citizenship-eligibility-ny",
+      "sourceId": "legal-entry:naturalization-citizenship-eligibility-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "naturalization-citizenship-eligibility-ny"
+        },
+        {
+          "type": "entry",
+          "id": "u-visa-crime-victim-immigration-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:20:55.864Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.860Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.403Z",
+  "lastSeededAt": "2026-05-03T19:44:16.403Z"
+}

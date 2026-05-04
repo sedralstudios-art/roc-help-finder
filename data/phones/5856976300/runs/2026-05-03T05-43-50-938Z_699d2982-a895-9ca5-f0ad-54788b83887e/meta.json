@@ -1,0 +1,33 @@
+{
+  "callId": "699d2982-a895-9ca5-f0ad-54788b83887e",
+  "digits": "5856976300",
+  "dialedNumber": "(585) 697-6300",
+  "catalogedName": "reentry-housing-voucher-ny-program",
+  "sourceId": "legal-entry:reentry-housing-voucher-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "section-8-portability-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:43:50.938Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.645Z"
+  }
+}

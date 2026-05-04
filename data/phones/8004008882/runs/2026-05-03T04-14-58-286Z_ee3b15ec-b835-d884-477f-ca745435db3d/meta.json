@@ -1,0 +1,45 @@
+{
+  "callId": "ee3b15ec-b835-d884-477f-ca745435db3d",
+  "digits": "8004008882",
+  "dialedNumber": "(800) 400-8882",
+  "catalogedName": "autism-insurance-coverage-ny",
+  "sourceId": "legal-entry:autism-insurance-coverage-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-denial-ny"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-external-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny"
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:14:58.286Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.258Z"
+  }
+}

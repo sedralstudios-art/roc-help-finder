@@ -1,0 +1,24 @@
+{
+  "callId": "e5e6c58c-c6bb-fbd0-448b-b898abfc4f4d",
+  "digits": "5853253145",
+  "dialedNumber": "(585) 325-3145",
+  "catalogedName": "Mental Health Association of Rochester",
+  "sourceId": "mha",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:32:52.643Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.645Z"
+  }
+}

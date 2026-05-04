@@ -1,0 +1,70 @@
+{
+  "digits": "5854213202",
+  "kind": "phone",
+  "primaryName": "Fairport Village Clerk",
+  "rawValue": "585-421-3202",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "fairportclerk",
+      "name": "Fairport Village Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-22-57-162Z_229fb099-557a-099f-3ca2-0f470be38185",
+    "meta": {
+      "callId": "229fb099-557a-099f-3ca2-0f470be38185",
+      "digits": "5854213202",
+      "dialedNumber": "5854213202",
+      "catalogedName": "Fairport Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:22:57.162Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.390Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Megan Cook",
+      "reason": "transcript-stated name (Megan Cook) differs from catalogued (Fairport Village Clerk)"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.439Z",
+  "lastSeededAt": "2026-05-03T19:44:16.439Z",
+  "verifiedAt": "2026-05-03T20:21:01.735Z",
+  "verifiedRun": "2026-05-02T07-22-57-162Z_229fb099-557a-099f-3ca2-0f470be38185",
+  "verifiedTranscriptOpening": "Hello, this is Megan Cook, the Clerk Treasurer for the Village of Fairport. I'm currently out of the office and I will be returning in just a moment.",
+  "verifiedMatchTokens": [
+    "fairport",
+    "village",
+    "clerk"
+  ],
+  "verifiedRatio": 1
+}

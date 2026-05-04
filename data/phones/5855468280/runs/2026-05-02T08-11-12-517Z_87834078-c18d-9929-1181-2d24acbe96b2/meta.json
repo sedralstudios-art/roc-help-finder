@@ -1,0 +1,24 @@
+{
+  "callId": "87834078-c18d-9929-1181-2d24acbe96b2",
+  "digits": "5855468280",
+  "dialedNumber": "5855468280",
+  "catalogedName": "Compeer Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:11:12.517Z",
+  "durationSec": 25,
+  "status": "no_audio",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.494Z"
+  }
+}

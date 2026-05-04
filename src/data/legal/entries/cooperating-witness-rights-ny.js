@@ -59,7 +59,7 @@ export const COOPERATING_WITNESS_RIGHTS_NY = {
       qualifier: "Anyone who cannot afford an attorney",
       access: "Phone or court appointment",
       outcome: "Legal representation and negotiation",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

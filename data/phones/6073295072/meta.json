@@ -1,0 +1,59 @@
+{
+  "digits": "6073295072",
+  "kind": "phone",
+  "primaryName": "Compassionate Friends (Child Loss)",
+  "rawValue": "607-329-5072",
+  "blockDial": false,
+  "tags": [
+    "cat:grief",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "compassfriends",
+      "name": "Compassionate Friends (Child Loss)",
+      "category": "grief",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-01-55-994Z_d26b3ab7-78fd-ab01-2d6a-851b869a8e95",
+    "meta": {
+      "callId": "d26b3ab7-78fd-ab01-2d6a-851b869a8e95",
+      "digits": "6073295072",
+      "dialedNumber": "6073295072",
+      "catalogedName": "Compassionate Friends (Child Loss)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:01:55.994Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.729Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.415Z",
+  "lastSeededAt": "2026-05-03T19:44:16.415Z"
+}

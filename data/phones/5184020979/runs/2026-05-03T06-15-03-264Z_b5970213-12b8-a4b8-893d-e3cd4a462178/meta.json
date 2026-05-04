@@ -1,0 +1,29 @@
+{
+  "callId": "b5970213-12b8-a4b8-893d-e3cd4a462178",
+  "digits": "5184020979",
+  "dialedNumber": "(518) 402-0979",
+  "catalogedName": "hospital-financial-assistance-charity-care-ny",
+  "sourceId": "legal-entry:hospital-financial-assistance-charity-care-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-financial-assistance-charity-care-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:15:03.264Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.867Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "db372c28-0e90-d014-2724-14a37a712692",
+  "digits": "2126374042",
+  "dialedNumber": "(212) 637-4042",
+  "catalogedName": "lead-paint-renovation-rule-ny",
+  "sourceId": "legal-entry:lead-paint-renovation-rule-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lead-paint-renovation-rule-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:06.339Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.622Z"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "digits": "5853252500",
+  "kind": "phone",
+  "primaryName": "entry-callout:cooperative-apartment-purchase-ny",
+  "rawValue": "(585) 325-2500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cooperative-apartment-purchase-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "fair-housing-discrimination-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "land-contract-rent-to-own-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "pet-housing-breed-restriction-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-blacklist-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-58-34-053Z_e464a404-524e-185d-303c-11e48987ec8e",
+    "meta": {
+      "callId": "e464a404-524e-185d-303c-11e48987ec8e",
+      "digits": "5853252500",
+      "dialedNumber": "(585) 325-2500",
+      "catalogedName": "cooperative-apartment-purchase-ny",
+      "sourceId": "legal-entry:cooperative-apartment-purchase-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cooperative-apartment-purchase-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fair-housing-discrimination-ny"
+        },
+        {
+          "type": "entry",
+          "id": "land-contract-rent-to-own-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mortgage-servicer-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pet-housing-breed-restriction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tenant-blacklist-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:58:34.053Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.182Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Legal Assistance of Western New York Rochester",
+      "reason": "transcript-stated name (Legal Assistance of Western New York Rochester) differs from catalogued (cooperative-apartment-purchase-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.302Z",
+  "lastSeededAt": "2026-05-03T19:44:16.302Z"
+}

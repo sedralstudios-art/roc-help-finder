@@ -1,0 +1,61 @@
+{
+  "digits": "8554558477",
+  "kind": "phone",
+  "primaryName": "entry-callout:lifeline-phone-program-fed",
+  "rawValue": "(855) 455-8477",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lifeline-phone-program-fed",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-20-27-609Z_0e86b327-29f9-5af3-f8c5-7867f5c3986d",
+    "meta": {
+      "callId": "0e86b327-29f9-5af3-f8c5-7867f5c3986d",
+      "digits": "8554558477",
+      "dialedNumber": "(855) 455-8477",
+      "catalogedName": "lifeline-phone-program-fed",
+      "sourceId": "legal-entry:lifeline-phone-program-fed",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lifeline-phone-program-fed"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:20:27.609Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.903Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.520Z",
+  "lastSeededAt": "2026-05-03T19:44:16.520Z"
+}

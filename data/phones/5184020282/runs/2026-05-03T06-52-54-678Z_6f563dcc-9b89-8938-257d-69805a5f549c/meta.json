@@ -1,0 +1,29 @@
+{
+  "callId": "6f563dcc-9b89-8938-257d-69805a5f549c",
+  "digits": "5184020282",
+  "dialedNumber": "(518) 402-0282",
+  "catalogedName": "volunteer-firefighter-benefits-vfbl-ny",
+  "sourceId": "legal-entry:volunteer-firefighter-benefits-vfbl-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-benefits-vfbl-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:52:54.678Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.145Z"
+  }
+}

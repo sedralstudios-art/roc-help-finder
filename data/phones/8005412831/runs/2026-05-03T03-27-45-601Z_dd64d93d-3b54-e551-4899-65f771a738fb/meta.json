@@ -1,0 +1,61 @@
+{
+  "callId": "dd64d93d-3b54-e551-4899-65f771a738fb",
+  "digits": "8005412831",
+  "dialedNumber": "1-800-541-2831",
+  "catalogedName": "child-health-plus-ny",
+  "sourceId": "legal-entry:child-health-plus-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-health-plus-ny"
+    },
+    {
+      "type": "entry",
+      "id": "disability-medicaid-ny"
+    },
+    {
+      "type": "entry",
+      "id": "disclaim-inheritance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-spend-down-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicare-vs-medicaid-ny"
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:27:45.601Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.027Z"
+  }
+}

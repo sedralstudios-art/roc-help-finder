@@ -1,0 +1,77 @@
+{
+  "digits": "8006984543",
+  "kind": "phone",
+  "primaryName": "Child Health Plus",
+  "rawValue": "800-698-4543",
+  "blockDial": false,
+  "tags": [
+    "cat:health",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "childHealthPlus",
+      "value": "800-698-4543",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "chip",
+      "name": "Child Health Plus",
+      "category": "health",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-14-17-853Z_74c3f5a9-6a9c-30b8-e62b-19ceaeecf913",
+    "meta": {
+      "callId": "74c3f5a9-6a9c-30b8-e62b-19ceaeecf913",
+      "digits": "8006984543",
+      "dialedNumber": "8006984543",
+      "catalogedName": "Child Health Plus",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:14:17.853Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.759Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "New York State of Health",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.353Z",
+  "lastSeededAt": "2026-05-03T19:44:16.353Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:53:27.818Z",
+      "sourceUrl": "https://nystateofhealth.ny.gov",
+      "sourceLabel": "NY State of Health official + nyhealth.gov + multiple cross-confirmed sources",
+      "notes": "Web confirms 1-800-698-4543 (1-800-698-4KIDS) as Child Health Plus / Childrens Medicaid line."
+    }
+  ]
+}

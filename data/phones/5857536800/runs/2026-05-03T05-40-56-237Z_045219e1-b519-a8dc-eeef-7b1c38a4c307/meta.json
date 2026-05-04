@@ -1,0 +1,33 @@
+{
+  "callId": "045219e1-b519-a8dc-eeef-7b1c38a4c307",
+  "digits": "5857536800",
+  "dialedNumber": "(585) 753-6800",
+  "catalogedName": "medicaid-hcbs-waiver-ny",
+  "sourceId": "legal-entry:medicaid-hcbs-waiver-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:56.237Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.627Z"
+  }
+}

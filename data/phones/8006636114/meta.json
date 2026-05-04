@@ -1,0 +1,81 @@
+{
+  "digits": "8006636114",
+  "kind": "phone",
+  "primaryName": "entry-callout:informed-consent-medical-ny",
+  "rawValue": "(800) 663-6114",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "informed-consent-medical-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "opmc-physician-misconduct-complaint-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-52-18-142Z_77e1e665-465b-9b1f-78ed-0f1184f94599",
+    "meta": {
+      "callId": "77e1e665-465b-9b1f-78ed-0f1184f94599",
+      "digits": "8006636114",
+      "dialedNumber": "(800) 663-6114",
+      "catalogedName": "informed-consent-medical-ny",
+      "sourceId": "legal-entry:informed-consent-medical-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "informed-consent-medical-ny"
+        },
+        {
+          "type": "entry",
+          "id": "office-of-professions-complaint-ny"
+        },
+        {
+          "type": "entry",
+          "id": "opmc-physician-misconduct-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:52:18.142Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.421Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.1,
+      "extracted": "position complaint line of the Office of Professional Medical Conduct at the New York State Department of Health",
+      "reason": "transcript-stated name (position complaint line of the Office of Professional Medical Conduct at the New York State Department of Health) differs from catalogued (informed-consent-medical-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.349Z",
+  "lastSeededAt": "2026-05-03T19:44:16.349Z"
+}

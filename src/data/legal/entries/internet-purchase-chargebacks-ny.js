@@ -59,7 +59,7 @@ export const INTERNET_PURCHASE_CHARGEBACKS_NY = {
       qualifier: "Any consumer in the US",
       access: "Online",
       outcome: "Complaint filing, enforcement data",
-      phone: "(877) 382-4357",
+      phone: "",
       url: "https://reportfraud.ftc.gov",
       verified: true,
       bilingual: true,

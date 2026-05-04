@@ -1,0 +1,45 @@
+{
+  "callId": "c7c7441d-048f-a7a7-2e37-d649aef6b926",
+  "digits": "8778762455",
+  "dialedNumber": "(877) 876-2455",
+  "catalogedName": "check-fraud-stolen-check-ny",
+  "sourceId": "legal-entry:check-fraud-stolen-check-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "check-fraud-stolen-check-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mail-theft-federal-crime-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mailbox-rules-usps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "porch-piracy-package-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pyramid-scheme-chain-letter-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:20:38.711Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-dial-pad-not-ready",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.279Z"
+  }
+}

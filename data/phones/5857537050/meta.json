@@ -1,0 +1,88 @@
+{
+  "digits": "5857537050",
+  "kind": "phone",
+  "primaryName": "entry-callout:lost-driver-license-replacement-ny",
+  "rawValue": "(585) 753-7050",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "moped-limited-use-motorcycle-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "private-party-car-sales-tax-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "transfer-deceased-vehicle-title-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-53-03-390Z_db5dfb2d-4b48-c5ec-5487-ebb281ed8927",
+    "meta": {
+      "callId": "db5dfb2d-4b48-c5ec-5487-ebb281ed8927",
+      "digits": "5857537050",
+      "dialedNumber": "(585) 753-7050",
+      "catalogedName": "lost-driver-license-replacement-ny",
+      "sourceId": "legal-entry:lost-driver-license-replacement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lost-driver-license-replacement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "moped-limited-use-motorcycle-ny"
+        },
+        {
+          "type": "entry",
+          "id": "private-party-car-sales-tax-ny"
+        },
+        {
+          "type": "entry",
+          "id": "transfer-deceased-vehicle-title-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:53:03.390Z",
+      "durationSec": 23,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.465Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.329Z",
+  "lastSeededAt": "2026-05-03T19:44:16.329Z"
+}

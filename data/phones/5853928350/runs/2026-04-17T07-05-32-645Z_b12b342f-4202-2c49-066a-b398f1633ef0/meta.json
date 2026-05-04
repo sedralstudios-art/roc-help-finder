@@ -1,0 +1,24 @@
+{
+  "callId": "b12b342f-4202-2c49-066a-b398f1633ef0",
+  "digits": "5853928350",
+  "dialedNumber": "(585) 392-8350",
+  "catalogedName": "Parma Public Library",
+  "sourceId": "parmalib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:05:32.645Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.818Z"
+  }
+}

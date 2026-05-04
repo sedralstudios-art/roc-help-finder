@@ -1,0 +1,83 @@
+{
+  "digits": "5853683950",
+  "kind": "phone",
+  "primaryName": "Behavioral Health Access & Crisis Center",
+  "rawValue": "585-368-3950",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "cat:crisis",
+    "cat:mental",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "bhacccrisis",
+      "name": "Behavioral Health Access & Crisis Center",
+      "category": "crisis",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "bhacc",
+      "name": "Behavioral Health Access & Crisis Center",
+      "category": "mental",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "unitycd",
+      "name": "Unity Hospital Chemical Dependency",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-36-46-756Z_a3848206-6d6e-809d-fa2d-e34753157b20",
+    "meta": {
+      "callId": "a3848206-6d6e-809d-fa2d-e34753157b20",
+      "digits": "5853683950",
+      "dialedNumber": "5853683950",
+      "catalogedName": "Behavioral Health Access & Crisis Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:36:46.756Z",
+      "durationSec": 22,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.814Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.332Z",
+  "lastSeededAt": "2026-05-03T19:44:16.332Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:21:42.064Z",
+      "sourceUrl": "https://www.rochesterregional.org/locations/behavioral-health/st-marys",
+      "sourceLabel": "Rochester Regional Health BHACC official page",
+      "notes": "Web confirms (585) 368-3950 as the main BHACC walk-in crisis line. Used by both bhacc + bhacccrisis programs. Crisis-tier resource — high user-impact verification."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "981092d7-c937-0ab4-7b22-b406619f0ff7",
+  "digits": "5852653770",
+  "dialedNumber": "5852653770",
+  "catalogedName": "Webster Village Hall",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:59:19.186Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.209Z"
+  }
+}

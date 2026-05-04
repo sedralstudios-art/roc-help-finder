@@ -1,0 +1,29 @@
+{
+  "callId": "44279026-2368-5177-270d-dc499ec608a3",
+  "digits": "8005959600",
+  "dialedNumber": "(800) 595-9600",
+  "catalogedName": "electrical-residential-ny-mon-scottsville-village",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-scottsville-village",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-scottsville-village"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:06:27.065Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.806Z"
+  }
+}

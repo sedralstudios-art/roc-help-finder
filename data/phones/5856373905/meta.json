@@ -1,0 +1,61 @@
+{
+  "digits": "5856373905",
+  "kind": "phone",
+  "primaryName": "Oak Orchard Health (Brockport)",
+  "rawValue": "585-637-3905",
+  "blockDial": false,
+  "tags": [
+    "cat:health",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "oakorchard",
+      "name": "Oak Orchard Health (Brockport)",
+      "category": "health",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-40-46-057Z_64ae5a33-9120-1263-09ae-f04a310d09e4",
+    "meta": {
+      "callId": "64ae5a33-9120-1263-09ae-f04a310d09e4",
+      "digits": "5856373905",
+      "dialedNumber": "5856373905",
+      "catalogedName": "Oak Orchard Health (Brockport)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:40:46.057Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.557Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.75,
+      "extracted": "Oak Orchard Health",
+      "reason": "jaccard 0.75"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.432Z",
+  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+}

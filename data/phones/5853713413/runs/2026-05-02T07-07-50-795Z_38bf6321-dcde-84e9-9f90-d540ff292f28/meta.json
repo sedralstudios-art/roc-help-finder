@@ -1,0 +1,24 @@
+{
+  "callId": "38bf6321-dcde-84e9-9f90-d540ff292f28",
+  "digits": "5853713413",
+  "dialedNumber": "5853713413",
+  "catalogedName": "Rochester City Court — Criminal Order of Protection",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:07:50.795Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.355Z"
+  }
+}

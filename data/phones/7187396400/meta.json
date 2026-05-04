@@ -1,0 +1,88 @@
+{
+  "digits": "7187396400",
+  "kind": "phone",
+  "primaryName": "entry-callout:apartment-electric-submetering-ny",
+  "rawValue": "(718) 739-6400",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-electric-submetering-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "mitchell-lama-affordable-housing-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "rent-stabilization-basics-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-11-20-427Z_69944f0b-77ac-48a6-81e3-9be7f072c1d8",
+    "meta": {
+      "callId": "69944f0b-77ac-48a6-81e3-9be7f072c1d8",
+      "digits": "7187396400",
+      "dialedNumber": "(718) 739-6400",
+      "catalogedName": "apartment-electric-submetering-ny",
+      "sourceId": "legal-entry:apartment-electric-submetering-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "apartment-electric-submetering-ny"
+        },
+        {
+          "type": "entry",
+          "id": "late-rent-fee-cap-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mitchell-lama-affordable-housing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rent-stabilization-basics-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:11:20.427Z",
+      "durationSec": 6,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.230Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.324Z",
+  "lastSeededAt": "2026-05-03T19:44:16.324Z"
+}

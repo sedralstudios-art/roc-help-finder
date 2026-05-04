@@ -1,0 +1,24 @@
+{
+  "callId": "4c07527c-0758-d658-10e7-bc0c091673da",
+  "digits": "5853680744",
+  "dialedNumber": "5853680744",
+  "catalogedName": "Mission Share Outreach Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:05:42.757Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.350Z"
+  }
+}

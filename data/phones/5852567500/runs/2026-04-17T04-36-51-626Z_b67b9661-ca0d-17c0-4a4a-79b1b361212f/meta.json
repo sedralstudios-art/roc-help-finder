@@ -1,0 +1,24 @@
+{
+  "callId": "b67b9661-ca0d-17c0-4a4a-79b1b361212f",
+  "digits": "5852567500",
+  "dialedNumber": "(585) 256-7500",
+  "catalogedName": "Hillside Work-Scholarship Connection",
+  "sourceId": "hillside",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:36:51.626Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.574Z"
+  }
+}

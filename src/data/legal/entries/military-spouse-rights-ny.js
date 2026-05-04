@@ -60,7 +60,7 @@ export const MILITARY_SPOUSE_RIGHTS_NY = {
       qualifier: "Any military family in NYS",
       access: "Phone at (888) 838-7697",
       outcome: "Benefits counseling, referrals, advocacy",
-      phone: "(888) 838-7697",
+      phone: "",
       url: "https://veterans.ny.gov",
       verified: true,
       bilingual: false,

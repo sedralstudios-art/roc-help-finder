@@ -61,7 +61,7 @@ export const CO_OP_CONDO_RIGHTS_NY = {
       qualifier: "Any co-op or condo buyer or owner in New York",
       access: "Phone at (212) 416-8122",
       outcome: "Offering plan review, board complaint investigation, enforcement",
-      phone: "(212) 416-8122",
+      phone: "",
       url: "https://ag.ny.gov/real-estate-finance",
       verified: true,
       bilingual: false,

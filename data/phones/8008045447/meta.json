@@ -1,0 +1,90 @@
+{
+  "digits": "8008045447",
+  "kind": "phone",
+  "primaryName": "entry-callout:family-health-care-decisions-act-ny",
+  "rawValue": "(800) 804-5447",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "family-health-care-decisions-act-ny",
+      "line": 91
+    },
+    {
+      "type": "entry",
+      "id": "hospital-discharge-rights-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "patient-rights-hospital-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-15-40-392Z_c9077ac8-a952-3da3-3e32-980cade43611",
+    "meta": {
+      "callId": "c9077ac8-a952-3da3-3e32-980cade43611",
+      "digits": "8008045447",
+      "dialedNumber": "(800) 804-5447",
+      "catalogedName": "family-health-care-decisions-act-ny",
+      "sourceId": "legal-entry:family-health-care-decisions-act-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "family-health-care-decisions-act-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hospital-discharge-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "leaving-hospital-against-medical-advice-ny"
+        },
+        {
+          "type": "entry",
+          "id": "patient-rights-hospital-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:15:40.392Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.248Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.1111111111111111,
+      "extracted": "New York State Department of Health Hospital Complaint Line",
+      "reason": "transcript-stated name (New York State Department of Health Hospital Complaint Line) differs from catalogued (family-health-care-decisions-act-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.327Z",
+  "lastSeededAt": "2026-05-03T19:44:16.327Z"
+}

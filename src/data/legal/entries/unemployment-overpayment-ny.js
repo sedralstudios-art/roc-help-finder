@@ -59,7 +59,7 @@ export const UNEMPLOYMENT_OVERPAYMENT_NY = {
       qualifier: "Any unemployment claimant in New York",
       access: "Phone or online",
       outcome: "ALJ hearing, overpayment review",
-      phone: "(888) 581-5812",
+      phone: "",
       url: "https://dol.ny.gov/unemployment-insurance-hearings",
       verified: true,
       bilingual: true,

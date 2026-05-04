@@ -1,0 +1,29 @@
+{
+  "callId": "be505cc0-c5e6-d27a-3a28-d3815cd4a294",
+  "digits": "5854873330",
+  "dialedNumber": "(585) 487-3330",
+  "catalogedName": "surrogacy-child-parent-security-act-ny",
+  "sourceId": "legal-entry:surrogacy-child-parent-security-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:49:01.631Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.119Z"
+  }
+}

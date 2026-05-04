@@ -1,0 +1,24 @@
+{
+  "callId": "2a4ab145-26fa-7b03-92e8-0be50fde4e68",
+  "digits": "5854532370",
+  "dialedNumber": "5854532370",
+  "catalogedName": "RHAFT (Rush-Henrietta Food Terminal)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:47:18.138Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.443Z"
+  }
+}

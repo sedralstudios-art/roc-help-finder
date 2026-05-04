@@ -1,0 +1,83 @@
+{
+  "digits": "5852489011",
+  "kind": "phone",
+  "primaryName": "Autism Up",
+  "rawValue": "585-248-9011",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "autismup",
+      "name": "Autism Up",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny",
+      "line": 54
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-49-30-517Z_00caf2cc-5518-42f7-7aaf-fc5cce3584ec",
+    "meta": {
+      "callId": "00caf2cc-5518-42f7-7aaf-fc5cce3584ec",
+      "digits": "5852489011",
+      "dialedNumber": "5852489011",
+      "catalogedName": "Autism Up",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:49:30.517Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.188Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Autism Up",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.359Z",
+  "lastSeededAt": "2026-05-03T19:44:16.359Z",
+  "verifiedAt": "2026-05-03T20:21:01.687Z",
+  "verifiedRun": "2026-05-02T05-49-30-517Z_00caf2cc-5518-42f7-7aaf-fc5cce3584ec",
+  "verifiedTranscriptOpening": "Hello, and thank you for calling Autism Up. Many of our staff are working hybrid schedule or are with our participants. We encourage you to leave a message which is forwarded to them, no matter where ",
+  "verifiedMatchTokens": [
+    "autism",
+    "up"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T21:14:55.186Z",
+      "sourceUrl": "https://www.autismup.org/contact",
+      "sourceLabel": "Autism Up official Contact page",
+      "notes": "Direct match: web confirms (585) 248-9011 AND tree dialer transcript says \"thank you for calling Autism Up\"."
+    }
+  ]
+}

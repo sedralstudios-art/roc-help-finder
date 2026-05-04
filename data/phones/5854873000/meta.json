@@ -1,0 +1,61 @@
+{
+  "digits": "5854873000",
+  "kind": "phone",
+  "primaryName": "entry-callout:fertility-preservation-coverage-ny",
+  "rawValue": "(585) 487-3000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "fertility-preservation-coverage-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-09-21-859Z_df98a0d6-ba64-43ac-fd18-095f883d9efa",
+    "meta": {
+      "callId": "df98a0d6-ba64-43ac-fd18-095f883d9efa",
+      "digits": "5854873000",
+      "dialedNumber": "(585) 487-3000",
+      "catalogedName": "fertility-preservation-coverage-ny",
+      "sourceId": "legal-entry:fertility-preservation-coverage-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "fertility-preservation-coverage-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:09:21.859Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.828Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.501Z",
+  "lastSeededAt": "2026-05-03T19:44:16.501Z"
+}

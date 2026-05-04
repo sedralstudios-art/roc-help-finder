@@ -1,0 +1,59 @@
+{
+  "digits": "5855868302",
+  "kind": "phone",
+  "primaryName": "East Rochester Public Library",
+  "rawValue": "585-586-8302",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "erlib",
+      "name": "East Rochester Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-18-57-428Z_40997a90-63fc-4cc8-826f-dbbf491b4bdd",
+    "meta": {
+      "callId": "40997a90-63fc-4cc8-826f-dbbf491b4bdd",
+      "digits": "5855868302",
+      "dialedNumber": "5855868302",
+      "catalogedName": "East Rochester Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:18:57.428Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.510Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.439Z",
+  "lastSeededAt": "2026-05-03T19:44:16.439Z"
+}

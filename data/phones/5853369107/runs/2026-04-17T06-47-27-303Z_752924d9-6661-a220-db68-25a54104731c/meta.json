@@ -1,0 +1,24 @@
+{
+  "callId": "752924d9-6661-a220-db68-25a54104731c",
+  "digits": "5853369107",
+  "dialedNumber": "(585) 336-9107",
+  "catalogedName": "Irondequoit Community Cupboard",
+  "sourceId": "irondequoitcupboard",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:47:27.303Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.738Z"
+  }
+}

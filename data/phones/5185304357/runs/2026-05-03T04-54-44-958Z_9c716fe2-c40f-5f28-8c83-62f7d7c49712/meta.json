@@ -1,0 +1,41 @@
+{
+  "callId": "9c716fe2-c40f-5f28-8c83-62f7d7c49712",
+  "digits": "5185304357",
+  "dialedNumber": "(518) 530-4357",
+  "catalogedName": "nonresident-income-tax-ny",
+  "sourceId": "legal-entry:nonresident-income-tax-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-income-tax-installment-plan-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nys-tax-warrant-173-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:54:44.958Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.468Z"
+  }
+}

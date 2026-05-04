@@ -48,7 +48,7 @@ export const IMMIGRATION_BASICS_NY = {
   },
 
   example: {
-    en: "Rosa's DACA status is expiring in two months and she needs to renew. She calls Catholic Family Center Immigration Services at (585) 546-7220 and schedules an appointment. A DOJ-accredited representative helps her gather documents, fill out the renewal application, and submit it before the deadline. The service is free. Rosa avoids using a notario in her neighborhood who charged $500 for the same form."
+    en: "Rosa's DACA status is expiring in two months and she needs to renew. She calls Catholic Family Center Immigration Services at [number being verified] and schedules an appointment. A DOJ-accredited representative helps her gather documents, fill out the renewal application, and submit it before the deadline. The service is free. Rosa avoids using a notario in her neighborhood who charged $500 for the same form."
   },
 
   counsel: [
@@ -59,7 +59,7 @@ export const IMMIGRATION_BASICS_NY = {
       qualifier: "Low-income residents of Monroe County and surrounding area",
       access: "Phone intake at (585) 546-7220",
       outcome: "Direct representation by DOJ-accredited representatives and attorneys",
-      phone: "(585) 546-7220",
+      phone: "",
       url: "https://www.cfcrochester.org",
       verified: true,
       bilingual: true,
@@ -72,7 +72,7 @@ export const IMMIGRATION_BASICS_NY = {
       qualifier: "Low-income residents in 14 Western NY counties",
       access: "Phone intake at (585) 325-2520",
       outcome: "Direct representation",
-      phone: "(585) 325-2520",
+      phone: "",
       url: "https://www.lawny.org",
       verified: true,
       bilingual: false,
@@ -85,7 +85,7 @@ export const IMMIGRATION_BASICS_NY = {
       qualifier: "Anyone in New York State",
       access: "Phone",
       outcome: "Information and referral",
-      phone: "1-800-566-7636",
+      phone: "",
       url: "https://www.newamericans.ny.gov",
       verified: true,
       bilingual: true,

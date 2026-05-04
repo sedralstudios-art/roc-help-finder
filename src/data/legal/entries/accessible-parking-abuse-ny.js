@@ -60,7 +60,7 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
       qualifier: "People with disabilities in the Rochester area",
       access: "Phone at (585) 546-7510",
       outcome: "Advocacy, ADA complaint assistance, accessible parking enforcement",
-      phone: "(585) 546-7510",
+      phone: "",
       url: "https://www.cdrnys.org",
       verified: true,
       bilingual: false,

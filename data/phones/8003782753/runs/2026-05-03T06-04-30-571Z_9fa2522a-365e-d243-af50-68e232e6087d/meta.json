@@ -1,0 +1,29 @@
+{
+  "callId": "9fa2522a-365e-d243-af50-68e232e6087d",
+  "digits": "8003782753",
+  "dialedNumber": "(800) 378-2753",
+  "catalogedName": "e-waste-recycling-ny",
+  "sourceId": "legal-entry:e-waste-recycling-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:04:30.571Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.791Z"
+  }
+}

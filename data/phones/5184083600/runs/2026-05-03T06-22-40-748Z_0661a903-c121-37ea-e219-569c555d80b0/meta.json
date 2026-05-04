@@ -1,0 +1,29 @@
+{
+  "callId": "0661a903-c121-37ea-e219-569c555d80b0",
+  "digits": "5184083600",
+  "dialedNumber": "(518) 408-3600",
+  "catalogedName": "medicaid-hcbs-waiver-ny",
+  "sourceId": "legal-entry:medicaid-hcbs-waiver-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:22:40.748Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.919Z"
+  }
+}

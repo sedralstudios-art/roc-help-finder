@@ -60,7 +60,7 @@ export const CONTEMPT_OF_COURT_NY = {
       qualifier: "Monroe County residents with family court orders",
       access: "Phone at (585) 371-3544",
       outcome: "Contempt hearings, order enforcement, compliance monitoring",
-      phone: "(585) 371-3544",
+      phone: "",
       url: "https://www.nycourts.gov/courts/7jd/monroe/family/",
       verified: true,
       bilingual: false,

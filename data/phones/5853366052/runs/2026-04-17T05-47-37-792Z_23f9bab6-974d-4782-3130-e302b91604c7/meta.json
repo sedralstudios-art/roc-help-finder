@@ -1,0 +1,24 @@
+{
+  "callId": "23f9bab6-974d-4782-3130-e302b91604c7",
+  "digits": "5853366052",
+  "dialedNumber": "(585) 336-6052",
+  "catalogedName": "Irondequoit Animal Control",
+  "sourceId": "irondequoitanimal",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:47:37.792Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.664Z"
+  }
+}

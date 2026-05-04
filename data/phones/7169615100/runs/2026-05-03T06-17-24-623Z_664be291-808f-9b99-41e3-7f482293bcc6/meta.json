@@ -1,0 +1,29 @@
+{
+  "callId": "664be291-808f-9b99-41e3-7f482293bcc6",
+  "digits": "7169615100",
+  "dialedNumber": "(716) 961-5100",
+  "catalogedName": "itin-application-ny",
+  "sourceId": "legal-entry:itin-application-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "itin-application-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:17:24.623Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.883Z"
+  }
+}

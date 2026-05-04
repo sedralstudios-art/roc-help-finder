@@ -1,0 +1,80 @@
+{
+  "digits": "5853254170",
+  "kind": "phone",
+  "primaryName": "NeighborWorks (Homebuyer Help)",
+  "rawValue": "585-325-4170",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "nw",
+      "name": "NeighborWorks (Homebuyer Help)",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "first-time-homebuyer-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-preforeclosure-90-day-notice-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "ny-homeowner-assistance-fund-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tila-mortgage-disclosures-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-29-56-497Z_a14a576f-252c-6018-4200-518aeeb69945",
+    "meta": {
+      "callId": "a14a576f-252c-6018-4200-518aeeb69945",
+      "digits": "5853254170",
+      "dialedNumber": "5853254170",
+      "catalogedName": "NeighborWorks (Homebuyer Help)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:29:56.497Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.275Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.306Z",
+  "lastSeededAt": "2026-05-03T19:44:16.306Z"
+}

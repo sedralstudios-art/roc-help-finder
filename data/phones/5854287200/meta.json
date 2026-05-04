@@ -1,0 +1,70 @@
+{
+  "digits": "5854287200",
+  "kind": "phone",
+  "primaryName": "entry-callout:postnuptial-agreement-ny",
+  "rawValue": "(585) 428-7200",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "postnuptial-agreement-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "standby-guardianship-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-32-09-875Z_b5c8175c-bdcb-d658-6377-b3387ed809a4",
+    "meta": {
+      "callId": "b5c8175c-bdcb-d658-6377-b3387ed809a4",
+      "digits": "5854287200",
+      "dialedNumber": "(585) 428-7200",
+      "catalogedName": "postnuptial-agreement-ny",
+      "sourceId": "legal-entry:postnuptial-agreement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "postnuptial-agreement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "standby-guardianship-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:32:09.875Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.911Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.406Z",
+  "lastSeededAt": "2026-05-03T19:44:16.406Z"
+}

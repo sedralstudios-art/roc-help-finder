@@ -1,0 +1,29 @@
+{
+  "callId": "ae3597a7-7e7c-64ca-fd94-ed76ed998508",
+  "digits": "2124166000",
+  "dialedNumber": "(212) 416-6000",
+  "catalogedName": "wage-theft-prevention-act-ny",
+  "sourceId": "legal-entry:wage-theft-prevention-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wage-theft-prevention-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:53:52.910Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.151Z"
+  }
+}

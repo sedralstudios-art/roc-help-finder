@@ -1,0 +1,29 @@
+{
+  "callId": "924abb76-8548-e58d-53d6-e8cdb9011c61",
+  "digits": "7168528550",
+  "dialedNumber": "(716) 852-8550",
+  "catalogedName": "computer-crimes-penal-law-156-ny",
+  "sourceId": "legal-entry:computer-crimes-penal-law-156-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:59:31.113Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.755Z"
+  }
+}

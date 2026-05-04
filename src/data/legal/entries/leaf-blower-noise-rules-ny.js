@@ -40,7 +40,7 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
     en: [
       "Rochester: construction activities permitted 7:00 AM to 10:00 PM. No specific equipment hour restriction outside construction — enforcement is based on unreasonable noise. Call 311. (Verified 2026-04-17.)",
       "Henrietta: power equipment and construction noise allowed only between 7:00 AM and 9:00 PM (Code § 168-2). (Verified 2026-04-17.)",
-      "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
+      "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2354. (Verified 2026-04-17.)",
       "Penfield: quiet hours 11:00 PM to 7:00 AM. Code Enforcement at (585) 340-8640. (Verified 2026-04-17.)",
       "Chili: noise prohibited 10:00 PM to 7:00 AM. (Verified 2026-04-17.)",
       "Irondequoit: Code Enforcement at (585) 336-6060. Noise ordinance Chapter 160.",

@@ -60,7 +60,7 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (800) 342-3736 or online at dfs.ny.gov",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: true,

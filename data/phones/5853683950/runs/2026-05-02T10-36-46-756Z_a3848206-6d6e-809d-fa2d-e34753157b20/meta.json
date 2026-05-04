@@ -1,0 +1,24 @@
+{
+  "callId": "a3848206-6d6e-809d-fa2d-e34753157b20",
+  "digits": "5853683950",
+  "dialedNumber": "5853683950",
+  "catalogedName": "Behavioral Health Access & Crisis Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:36:46.756Z",
+  "durationSec": 22,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.814Z"
+  }
+}

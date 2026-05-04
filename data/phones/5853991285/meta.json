@@ -1,0 +1,59 @@
+{
+  "digits": "5853991285",
+  "kind": "phone",
+  "primaryName": "RMAPI (Coaching & Mobility)",
+  "rawValue": "585-399-1285",
+  "blockDial": false,
+  "tags": [
+    "cat:cash",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rmapi",
+      "name": "RMAPI (Coaching & Mobility)",
+      "category": "cash",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-19-14-913Z_62db2aa3-c60c-8aa6-eec3-d5c2cda9ee09",
+    "meta": {
+      "callId": "62db2aa3-c60c-8aa6-eec3-d5c2cda9ee09",
+      "digits": "5853991285",
+      "dialedNumber": "5853991285",
+      "catalogedName": "RMAPI (Coaching & Mobility)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:19:14.913Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.381Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.412Z",
+  "lastSeededAt": "2026-05-03T19:44:16.412Z"
+}

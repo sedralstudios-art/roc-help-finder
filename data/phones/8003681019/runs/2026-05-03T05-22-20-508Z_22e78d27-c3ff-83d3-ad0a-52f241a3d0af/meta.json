@@ -1,0 +1,37 @@
+{
+  "callId": "22e78d27-c3ff-83d3-ad0a-52f241a3d0af",
+  "digits": "8003681019",
+  "dialedNumber": "(800) 368-1019",
+  "catalogedName": "hipaa-medical-privacy-ny",
+  "sourceId": "legal-entry:hipaa-medical-privacy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hipaa-medical-privacy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hospital-language-interpreter-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medical-records-access-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:22:20.508Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.529Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "cc44679e-b08d-383d-38dc-e813ae5c9da5",
+  "digits": "5853254910",
+  "dialedNumber": "5853254910",
+  "catalogedName": "Baden Street Settlement",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:30:58.055Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.277Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5857686696",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-scottsville-village",
+  "rawValue": "(585) 768-6696",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-scottsville-village",
+      "line": 16
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-06-35-419Z_0e338138-fc11-5762-c28a-5414d82de2da",
+    "meta": {
+      "callId": "0e338138-fc11-5762-c28a-5414d82de2da",
+      "digits": "5857686696",
+      "dialedNumber": "(585) 768-6696",
+      "catalogedName": "electrical-residential-ny-mon-scottsville-village",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-scottsville-village",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-scottsville-village"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:06:35.419Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.807Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.495Z",
+  "lastSeededAt": "2026-05-03T19:44:16.495Z"
+}

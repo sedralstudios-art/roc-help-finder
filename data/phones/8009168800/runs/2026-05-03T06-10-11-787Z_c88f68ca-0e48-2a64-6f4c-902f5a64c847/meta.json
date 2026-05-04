@@ -1,0 +1,29 @@
+{
+  "callId": "c88f68ca-0e48-2a64-6f4c-902f5a64c847",
+  "digits": "8009168800",
+  "dialedNumber": "(800) 916-8800",
+  "catalogedName": "free-annual-credit-report-ny",
+  "sourceId": "legal-entry:free-annual-credit-report-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "free-annual-credit-report-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:10:11.787Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.834Z"
+  }
+}

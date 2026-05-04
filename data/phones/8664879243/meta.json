@@ -1,0 +1,88 @@
+{
+  "digits": "8664879243",
+  "kind": "phone",
+  "primaryName": "entry-callout:family-medical-leave-ny",
+  "rawValue": "(866) 487-9243",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "family-medical-leave-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-day-work-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "overtime-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "unpaid-internship-rights-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-16-43-925Z_93a55975-9825-6281-4949-ef4430ff5684",
+    "meta": {
+      "callId": "93a55975-9825-6281-4949-ef4430ff5684",
+      "digits": "8664879243",
+      "dialedNumber": "(866) 487-9243",
+      "catalogedName": "family-medical-leave-ny",
+      "sourceId": "legal-entry:family-medical-leave-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "family-medical-leave-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mental-health-day-work-ny"
+        },
+        {
+          "type": "entry",
+          "id": "overtime-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "unpaid-internship-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:16:43.925Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.253Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.327Z",
+  "lastSeededAt": "2026-05-03T19:44:16.327Z"
+}

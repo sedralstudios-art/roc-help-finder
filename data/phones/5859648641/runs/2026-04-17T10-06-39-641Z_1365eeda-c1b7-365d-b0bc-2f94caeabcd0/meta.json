@@ -1,0 +1,24 @@
+{
+  "callId": "1365eeda-c1b7-365d-b0bc-2f94caeabcd0",
+  "digits": "5859648641",
+  "dialedNumber": "(585) 964-8641",
+  "catalogedName": "Hamlin Town Court",
+  "sourceId": "hamlincourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T10:06:39.641Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.079Z"
+  }
+}

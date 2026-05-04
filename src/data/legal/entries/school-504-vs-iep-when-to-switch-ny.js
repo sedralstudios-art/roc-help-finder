@@ -61,7 +61,7 @@ export const SCHOOL_504_VS_IEP_WHEN_TO_SWITCH_NY = {
       qualifier: "Low income families in Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal representation in IEP disputes and due process hearings",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

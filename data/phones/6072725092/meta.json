@@ -1,0 +1,61 @@
+{
+  "digits": "6072725092",
+  "kind": "phone",
+  "primaryName": "entry-callout:right-of-disposition-remains-ny",
+  "rawValue": "(607) 272-5092",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-40-59-029Z_a4ee239e-f161-5882-26db-5d9069d2b092",
+    "meta": {
+      "callId": "a4ee239e-f161-5882-26db-5d9069d2b092",
+      "digits": "6072725092",
+      "dialedNumber": "(607) 272-5092",
+      "catalogedName": "right-of-disposition-remains-ny",
+      "sourceId": "legal-entry:right-of-disposition-remains-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "right-of-disposition-remains-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:40:59.029Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.062Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.559Z",
+  "lastSeededAt": "2026-05-03T19:44:16.559Z"
+}

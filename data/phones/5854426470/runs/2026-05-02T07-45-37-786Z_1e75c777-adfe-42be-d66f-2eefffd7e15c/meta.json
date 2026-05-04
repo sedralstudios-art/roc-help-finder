@@ -1,0 +1,24 @@
+{
+  "callId": "1e75c777-adfe-42be-d66f-2eefffd7e15c",
+  "digits": "5854426470",
+  "dialedNumber": "5854426470",
+  "catalogedName": "Center for Independent Living",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:45:37.786Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.440Z"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "digits": "7165514441",
+  "kind": "phone",
+  "primaryName": "entry-callout:fired-for-legal-off-duty-activity-ny",
+  "rawValue": "(716) 551-4441",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "lactation-breaks-at-work-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "salary-history-ban-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-training-required-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-27-50-326Z_5b85a8a4-49e0-0a45-4b6b-402f586cb145",
+    "meta": {
+      "callId": "5b85a8a4-49e0-0a45-4b6b-402f586cb145",
+      "digits": "7165514441",
+      "dialedNumber": "(716) 551-4441",
+      "catalogedName": "fired-for-legal-off-duty-activity-ny",
+      "sourceId": "legal-entry:fired-for-legal-off-duty-activity-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "fired-for-legal-off-duty-activity-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lactation-breaks-at-work-ny"
+        },
+        {
+          "type": "entry",
+          "id": "paid-prenatal-leave-ny"
+        },
+        {
+          "type": "entry",
+          "id": "salary-history-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sexual-harassment-training-required-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:27:50.326Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.307Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.316Z",
+  "lastSeededAt": "2026-05-03T19:44:16.316Z"
+}

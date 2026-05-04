@@ -1,0 +1,64 @@
+{
+  "digits": "5856972012",
+  "kind": "phone",
+  "primaryName": "Habitat for Humanity ReStore",
+  "rawValue": "585-697-2012",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "habitatrestore",
+      "name": "Habitat for Humanity ReStore",
+      "category": "clothing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-47-18-975Z_0f63d93e-4e00-23a8-7e9f-4c77fe9220e3",
+    "meta": {
+      "callId": "0f63d93e-4e00-23a8-7e9f-4c77fe9220e3",
+      "digits": "5856972012",
+      "dialedNumber": "585-697-2012",
+      "catalogedName": "Habitat for Humanity ReStore",
+      "sourceId": "habitatrestore",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "habitatrestore"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:47:18.975Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.669Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.460Z",
+  "lastSeededAt": "2026-05-03T19:44:16.460Z"
+}

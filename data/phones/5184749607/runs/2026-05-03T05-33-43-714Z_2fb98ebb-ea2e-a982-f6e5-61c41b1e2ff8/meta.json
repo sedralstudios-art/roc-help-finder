@@ -1,0 +1,33 @@
+{
+  "callId": "2fb98ebb-ea2e-a982-f6e5-61c41b1e2ff8",
+  "digits": "5184749607",
+  "dialedNumber": "(518) 474-9607",
+  "catalogedName": "child-left-in-car-ny",
+  "sourceId": "legal-entry:child-left-in-car-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-left-in-car-ny"
+    },
+    {
+      "type": "entry",
+      "id": "false-cps-report-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:33:43.714Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.581Z"
+  }
+}

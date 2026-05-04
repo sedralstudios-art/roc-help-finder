@@ -1,0 +1,29 @@
+{
+  "callId": "ce68cbcc-15a7-47ba-ddac-f1ba818470ed",
+  "digits": "2028334614",
+  "dialedNumber": "(202) 833-4614",
+  "catalogedName": "journalist-shield-law-ny",
+  "sourceId": "legal-entry:journalist-shield-law-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:17:49.580Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.886Z"
+  }
+}

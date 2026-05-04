@@ -1,0 +1,364 @@
+{
+  "digits": "5857536998",
+  "kind": "phone",
+  "primaryName": "SNAP (Food Assistance)",
+  "rawValue": "585-753-6998",
+  "blockDial": false,
+  "tags": [
+    "cat:cash",
+    "cat:food",
+    "cat:funeral",
+    "cat:transport",
+    "cat:utilities",
+    "cat:vision",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "snap",
+      "name": "SNAP (Food Assistance)",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "heap",
+      "name": "HEAP (Heating Help)",
+      "category": "utilities",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "ta",
+      "name": "Temporary Assistance (Cash Help)",
+      "category": "cash",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "ebtbus",
+      "name": "EBT Bus Pass",
+      "category": "transport",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "medicaidvision",
+      "name": "Medicaid Vision Coverage",
+      "category": "vision",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "mcburial",
+      "name": "Monroe County Burial Assistance",
+      "category": "funeral",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "medicaidburial",
+      "name": "Medicaid Burial Allowance (NYS)",
+      "category": "funeral",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "taxivoucher",
+      "name": "DSS Transportation Vouchers (Taxi/Rides)",
+      "category": "transport",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "apply-for-benefits-online-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "benefit-overpayment-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "benefits-denial-appeal-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "child-health-plus-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "dental-care-low-income-ny-program",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "disability-medicaid-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "dss-combined-application-walkthrough-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "early-intervention-infants-toddlers-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "emancipation-minor-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "emergency-medicaid-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "emergency-rental-assistance-program-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-child-credit-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "foster-care-bill-of-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "foster-parent-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "funeral-prepayment-trust-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "heap-utility-assistance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "home-care-aide-wage-parity-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "kinship-care-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-buy-in-working-disabled-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-home-care-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-spend-down-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-transportation-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "medical-bill-negotiation-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicare-vs-medicaid-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "monroe-county-dss-overview-ny-mon-program",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-medicaid-asset-protection-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "payday-lending-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "reentry-rights-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "rent-increase-lease-renewal-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "safety-net-assistance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "section-8-portability-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "senior-disabled-early-lease-termination-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "snap-after-conviction-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "snap-expedited-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "snap-recertification-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "stolen-ebt-snap-replacement-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "summer-ebt-sun-bucks-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "tanf-public-assistance-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "utility-shutoff-protections-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T02-37-37-188Z_e5c5d9ee-8cbe-2672-9149-73821ccaaf47",
+    "meta": {
+      "callId": "e5c5d9ee-8cbe-2672-9149-73821ccaaf47",
+      "digits": "5857536998",
+      "dialedNumber": "585-753-6998",
+      "catalogedName": "SNAP (Food Assistance)",
+      "sourceId": "snap",
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-03T02:37:37.188Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.864Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.266Z",
+  "lastSeededAt": "2026-05-03T19:44:16.266Z"
+}

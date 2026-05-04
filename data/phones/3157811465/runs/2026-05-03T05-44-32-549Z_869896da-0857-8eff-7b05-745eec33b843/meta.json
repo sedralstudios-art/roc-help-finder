@@ -1,0 +1,33 @@
+{
+  "callId": "869896da-0857-8eff-7b05-745eec33b843",
+  "digits": "3157811465",
+  "dialedNumber": "(315) 781-1465",
+  "catalogedName": "security-deposit-ny",
+  "sourceId": "legal-entry:security-deposit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "security-deposit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:44:32.549Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.649Z"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "digits": "5854287538",
+  "kind": "phone",
+  "primaryName": "Rochester City Council (Constituent Help)",
+  "rawValue": "585-428-7538",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "citycouncil",
+      "name": "Rochester City Council (Constituent Help)",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-placement-permit-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "mailbox-rules-usps-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "moving-truck-street-permit-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-33-57-576Z_8a41cc52-1518-ab2b-0583-8721137eddd8",
+    "meta": {
+      "callId": "8a41cc52-1518-ab2b-0583-8721137eddd8",
+      "digits": "5854287538",
+      "dialedNumber": "5854287538",
+      "catalogedName": "Rochester City Council (Constituent Help)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:33:57.576Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.413Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.296Z",
+  "lastSeededAt": "2026-05-03T19:44:16.296Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:09:21.428Z",
+      "sourceUrl": "https://www.cityofrochester.gov/departments/city-council",
+      "sourceLabel": "City of Rochester City Council page",
+      "notes": "Web confirms (585) 428-7538 as Rochester City Council main line. May tree captured \"thank you for contacting City Council\" — direct match."
+    }
+  ]
+}

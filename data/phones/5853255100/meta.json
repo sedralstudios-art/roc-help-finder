@@ -1,0 +1,66 @@
+{
+  "digits": "5853255100",
+  "kind": "phone",
+  "primaryName": "Huther Doyle",
+  "rawValue": "585-325-5100",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "huther"
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-32-02-222Z_79cfb424-c1bc-6890-e368-249c895f7ea2",
+    "meta": {
+      "callId": "79cfb424-c1bc-6890-e368-249c895f7ea2",
+      "digits": "5853255100",
+      "dialedNumber": "5853255100",
+      "catalogedName": "Huther Doyle Memorial Institute",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:32:02.222Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.279Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "Cesar Doyle",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.356Z",
+  "lastSeededAt": "2026-05-03T19:44:16.356Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:31:10.105Z",
+      "sourceUrl": "https://hutherdoyle.com",
+      "sourceLabel": "Huther Doyle official site",
+      "notes": "Web confirms phone for this program."
+    }
+  ]
+}

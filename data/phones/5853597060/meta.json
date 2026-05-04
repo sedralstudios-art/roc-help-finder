@@ -1,0 +1,95 @@
+{
+  "digits": "5853597060",
+  "kind": "phone",
+  "primaryName": "Henrietta Building Department",
+  "rawValue": "585-359-7060",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettabuilding",
+      "name": "Henrietta Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-henrietta-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-henrietta-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-fire-pit-rules-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-henrietta-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-henrietta-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-02-45-933Z_53d85255-3067-ffbd-abdf-f47d232a8ae6",
+    "meta": {
+      "callId": "53d85255-3067-ffbd-abdf-f47d232a8ae6",
+      "digits": "5853597060",
+      "dialedNumber": "5853597060",
+      "catalogedName": "Henrietta Building Department",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:02:45.933Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.344Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.9,
+      "score": 0.4,
+      "extracted": "Town of Henrietta Building and Fire Prevention Department",
+      "reason": "jaccard 0.40"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.298Z",
+  "lastSeededAt": "2026-05-03T19:44:16.298Z",
+  "verifiedAt": "2026-05-03T20:21:01.725Z",
+  "verifiedRun": "2026-05-02T07-02-45-933Z_53d85255-3067-ffbd-abdf-f47d232a8ae6",
+  "verifiedTranscriptOpening": "Thank you for calling the Town of Henrietta Building and Fire Prevention Department. If you are calling to schedule an inspection, you must speak to a team member. Please do not leave a message with y",
+  "verifiedMatchTokens": [
+    "henrietta",
+    "building"
+  ],
+  "verifiedRatio": 1
+}

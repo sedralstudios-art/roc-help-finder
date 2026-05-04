@@ -1,0 +1,70 @@
+{
+  "digits": "5859357800",
+  "kind": "phone",
+  "primaryName": "Child Advocacy Center of Greater Rochester (formerly Bivona)",
+  "rawValue": "585-935-7800",
+  "blockDial": false,
+  "tags": [
+    "cat:domesticSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "biv",
+      "name": "Child Advocacy Center of Greater Rochester (formerly Bivona)",
+      "category": "domesticSvc",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-43-40-923Z_1e97f165-40c3-f1dc-ee2c-66cbd31d3391",
+    "meta": {
+      "callId": "1e97f165-40c3-f1dc-ee2c-66cbd31d3391",
+      "digits": "5859357800",
+      "dialedNumber": "5859357800",
+      "catalogedName": "Child Advocacy Center of Greater Rochester (formerly Bivona)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:43:40.923Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.830Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6,
+      "extracted": "Child Advocacy Center of Greater Rochester",
+      "reason": "jaccard 0.60"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.420Z",
+  "lastSeededAt": "2026-05-03T19:44:16.420Z",
+  "verifiedAt": "2026-05-03T20:21:01.811Z",
+  "verifiedRun": "2026-05-02T10-43-40-923Z_1e97f165-40c3-f1dc-ee2c-66cbd31d3391",
+  "verifiedTranscriptOpening": "Thank you for calling the Child Advocacy Center of Greater Rochester. If you are calling during regular business hours, which are Monday through Friday, from 830 a.m. to 5 p.m., please leave a message",
+  "verifiedMatchTokens": [
+    "child",
+    "advocacy",
+    "greater"
+  ],
+  "verifiedRatio": 0.6
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5184528231",
+  "kind": "phone",
+  "primaryName": "entry-callout:cemetery-perpetual-care-trust-ny",
+  "rawValue": "(518) 452-8231",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-56-28-132Z_1df3efd0-3b0c-7397-58e6-d4c0a0f663ba",
+    "meta": {
+      "callId": "1df3efd0-3b0c-7397-58e6-d4c0a0f663ba",
+      "digits": "5184528231",
+      "dialedNumber": "(518) 452-8231",
+      "catalogedName": "cemetery-perpetual-care-trust-ny",
+      "sourceId": "legal-entry:cemetery-perpetual-care-trust-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "cemetery-perpetual-care-trust-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:56:28.132Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.733Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.477Z",
+  "lastSeededAt": "2026-05-03T19:44:16.477Z"
+}

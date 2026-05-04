@@ -1,0 +1,24 @@
+{
+  "callId": "ee9e89b0-5761-d99d-a3f0-08c4ece2cc7d",
+  "digits": "5854235800",
+  "dialedNumber": "(585) 423-5800",
+  "catalogedName": "Jordan Health Center",
+  "sourceId": "jordan",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:13:58.554Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.695Z"
+  }
+}

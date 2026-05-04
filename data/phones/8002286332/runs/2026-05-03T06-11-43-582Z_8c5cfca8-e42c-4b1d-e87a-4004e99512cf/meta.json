@@ -1,0 +1,29 @@
+{
+  "callId": "8c5cfca8-e42c-4b1d-e87a-4004e99512cf",
+  "digits": "8002286332",
+  "dialedNumber": "(800) 228-6332",
+  "catalogedName": "funeral-prepayment-trust-ny",
+  "sourceId": "legal-entry:funeral-prepayment-trust-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "funeral-prepayment-trust-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:11:43.582Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.844Z"
+  }
+}

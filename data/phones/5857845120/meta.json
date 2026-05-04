@@ -1,0 +1,78 @@
+{
+  "digits": "5857845120",
+  "kind": "phone",
+  "primaryName": "Brighton Animal Control",
+  "rawValue": "585-784-5120",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonanimal",
+      "name": "Brighton Animal Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-14-56-966Z_ccd01fc6-97ab-d6ab-71bc-a9d6427d6b66",
+    "meta": {
+      "callId": "ccd01fc6-97ab-d6ab-71bc-a9d6427d6b66",
+      "digits": "5857845120",
+      "dialedNumber": "5857845120",
+      "catalogedName": "Brighton Animal Control",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:14:56.966Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.629Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.75,
+      "extracted": "Brighton Police Animal Control",
+      "reason": "jaccard 0.75"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.431Z",
+  "lastSeededAt": "2026-05-03T19:44:16.431Z",
+  "verifiedAt": "2026-05-03T20:21:01.797Z",
+  "verifiedRun": "2026-05-02T09-14-56-966Z_ccd01fc6-97ab-d6ab-71bc-a9d6427d6b66",
+  "verifiedTranscriptOpening": "You have reached Brighton Police Animal Control. If there's an animal in distress or if this is an emergency,",
+  "verifiedMatchTokens": [
+    "brighton",
+    "animal",
+    "control"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:07:51.100Z",
+      "sourceUrl": "https://www.brightonny.gov/faq.aspx?TID=18",
+      "sourceLabel": "Town of Brighton FAQ page",
+      "notes": "Web confirms (585) 784-5120 for Brighton Animal Control. Tree had dialer-captured digits-only screenshot but no greeting transcript — web evidence stands alone."
+    }
+  ]
+}

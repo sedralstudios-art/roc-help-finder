@@ -1,0 +1,29 @@
+{
+  "callId": "1326309c-980d-a573-e183-81a279f049f1",
+  "digits": "5852236500",
+  "dialedNumber": "(585) 223-6500",
+  "catalogedName": "animal-cruelty-reporting-ny",
+  "sourceId": "legal-entry:animal-cruelty-reporting-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-cruelty-reporting-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:50:30.329Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.689Z"
+  }
+}

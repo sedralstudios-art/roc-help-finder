@@ -1,0 +1,37 @@
+{
+  "callId": "58693132-b13d-27e0-9d1d-ee0e6b3d92e8",
+  "digits": "8003725476",
+  "dialedNumber": "(800) 372-5476",
+  "catalogedName": "pothole-damage-claim-ny",
+  "sourceId": "legal-entry:pothole-damage-claim-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pothole-damage-claim-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny"
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:28:52.575Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.547Z"
+  }
+}

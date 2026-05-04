@@ -1,0 +1,117 @@
+{
+  "digits": "8006334227",
+  "kind": "phone",
+  "primaryName": "entry-callout:hospice-palliative-care-rights-ny",
+  "rawValue": "1-800-633-4227",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospice-palliative-care-rights-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicare-advantage-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicare-late-enrollment-penalty-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicare-vs-medicaid-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "pace-program-all-inclusive-care-elderly-ny-program",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-46-26-973Z_6e191990-bb4b-74ce-4fec-2fab5535cc3c",
+    "meta": {
+      "callId": "6e191990-bb4b-74ce-4fec-2fab5535cc3c",
+      "digits": "8006334227",
+      "dialedNumber": "1-800-633-4227",
+      "catalogedName": "hospice-palliative-care-rights-ny",
+      "sourceId": "legal-entry:hospice-palliative-care-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hospice-palliative-care-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-advantage-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-appeals-four-levels-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-late-enrollment-penalty-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicare-vs-medicaid-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medigap-medicare-supplement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pace-program-all-inclusive-care-elderly-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:46:26.973Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.125Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Medicare",
+      "reason": "transcript-stated name (Medicare) differs from catalogued (hospice-palliative-care-rights-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.296Z",
+  "lastSeededAt": "2026-05-03T19:44:16.296Z"
+}

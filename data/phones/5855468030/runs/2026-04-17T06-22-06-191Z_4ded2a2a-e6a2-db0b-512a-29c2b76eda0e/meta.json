@@ -1,0 +1,24 @@
+{
+  "callId": "4ded2a2a-e6a2-db0b-512a-29c2b76eda0e",
+  "digits": "5855468030",
+  "dialedNumber": "(585) 546-8030",
+  "catalogedName": "EmPower NY (Free Home Upgrades)",
+  "sourceId": "empower",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:22:06.191Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.706Z"
+  }
+}

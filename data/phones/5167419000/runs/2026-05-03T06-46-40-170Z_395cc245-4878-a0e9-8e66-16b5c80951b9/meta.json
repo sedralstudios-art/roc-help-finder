@@ -1,0 +1,29 @@
+{
+  "callId": "395cc245-4878-a0e9-8e66-16b5c80951b9",
+  "digits": "5167419000",
+  "dialedNumber": "(516) 741-9000",
+  "catalogedName": "special-needs-trust-ny",
+  "sourceId": "legal-entry:special-needs-trust-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:46:40.170Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.101Z"
+  }
+}

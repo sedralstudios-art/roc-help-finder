@@ -61,7 +61,7 @@ export const GENETIC_DISCRIMINATION_GINA_NY = {
       qualifier: "Any worker in the United States",
       access: "Phone at (800) 669-4000, file at eeoc.gov",
       outcome: "Investigation, mediation, enforcement, damages",
-      phone: "(800) 669-4000",
+      phone: "",
       url: "https://www.eeoc.gov/genetic-information-discrimination",
       verified: true,
       bilingual: true,

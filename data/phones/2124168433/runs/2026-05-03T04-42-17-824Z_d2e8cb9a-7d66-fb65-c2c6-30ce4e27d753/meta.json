@@ -1,0 +1,41 @@
+{
+  "callId": "d2e8cb9a-7d66-fb65-c2c6-30ce4e27d753",
+  "digits": "2124168433",
+  "dialedNumber": "(212) 416-8433",
+  "catalogedName": "computer-crimes-penal-law-156-ny",
+  "sourceId": "legal-entry:computer-crimes-penal-law-156-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny"
+    },
+    {
+      "type": "entry",
+      "id": "library-borrowing-privacy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "photo-name-used-without-permission-ny"
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:42:17.824Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.406Z"
+  }
+}

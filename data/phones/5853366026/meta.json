@@ -1,0 +1,54 @@
+{
+  "digits": "5853366026",
+  "kind": "phone",
+  "primaryName": "Irondequoit Building Department",
+  "rawValue": "585-336-6026",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "irondequoitbuilding",
+      "name": "Irondequoit Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "deck-patio-permit-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-irondequoit-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-irondequoit-town",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-irondequoit-town",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-irondequoit-town",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.298Z",
+  "lastSeededAt": "2026-05-03T19:44:16.298Z"
+}

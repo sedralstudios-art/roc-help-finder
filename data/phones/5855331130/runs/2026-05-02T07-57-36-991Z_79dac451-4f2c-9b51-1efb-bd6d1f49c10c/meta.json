@@ -1,0 +1,24 @@
+{
+  "callId": "79dac451-4f2c-9b51-1efb-bd6d1f49c10c",
+  "digits": "5855331130",
+  "dialedNumber": "5855331130",
+  "catalogedName": "Rush Justice Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:57:36.991Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.466Z"
+  }
+}

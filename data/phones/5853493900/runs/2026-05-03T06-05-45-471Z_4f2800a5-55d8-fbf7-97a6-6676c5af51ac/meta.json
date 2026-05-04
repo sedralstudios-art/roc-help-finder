@@ -1,0 +1,29 @@
+{
+  "callId": "4f2800a5-55d8-fbf7-97a6-6676c5af51ac",
+  "digits": "5853493900",
+  "dialedNumber": "(585) 349-3900",
+  "catalogedName": "electrical-residential-ny-mon-hamlin-town",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-hamlin-town",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-hamlin-town"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:05:45.471Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.801Z"
+  }
+}

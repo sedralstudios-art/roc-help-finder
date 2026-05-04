@@ -1,0 +1,33 @@
+{
+  "callId": "5698a659-49fd-143d-7611-6b082985216e",
+  "digits": "8002349473",
+  "dialedNumber": "(800) 234-9473",
+  "catalogedName": "free-cell-phone-lifeline-ny",
+  "sourceId": "legal-entry:free-cell-phone-lifeline-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "free-cell-phone-lifeline-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lifeline-phone-program-fed"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:37:03.363Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.601Z"
+  }
+}

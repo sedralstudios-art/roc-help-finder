@@ -1,0 +1,61 @@
+{
+  "digits": "5852486238",
+  "kind": "phone",
+  "primaryName": "Pittsford Town Court",
+  "rawValue": "585-248-6238",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pittsfordcourt",
+      "name": "Pittsford Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-44-30-987Z_0eb77795-f7ed-929c-bc7c-f2ea19f40a93",
+    "meta": {
+      "callId": "0eb77795-f7ed-929c-bc7c-f2ea19f40a93",
+      "digits": "5852486238",
+      "dialedNumber": "5852486238",
+      "catalogedName": "Pittsford Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:44:30.987Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.175Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Pittsburgh Town Court",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.453Z",
+  "lastSeededAt": "2026-05-03T19:44:16.453Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "8664545110",
+  "kind": "phone",
+  "primaryName": "entry-callout:diy-will-ny",
+  "rawValue": "866-454-5110",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "diy-will-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-02-42-439Z_e759eacc-ac81-b273-83b9-8bb51d27d688",
+    "meta": {
+      "callId": "e759eacc-ac81-b273-83b9-8bb51d27d688",
+      "digits": "8664545110",
+      "dialedNumber": "866-454-5110",
+      "catalogedName": "diy-will-ny",
+      "sourceId": "legal-entry:diy-will-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "diy-will-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:02:42.439Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.778Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.488Z",
+  "lastSeededAt": "2026-05-03T19:44:16.488Z"
+}

@@ -59,7 +59,7 @@ export const HEARING_AID_HELP_NY = {
       qualifier: "Anyone in the Rochester area who is deaf or hard of hearing",
       access: "Phone at (585) 544-1240",
       outcome: "Services, referrals, community connections",
-      phone: "(585) 544-1240",
+      phone: "",
       url: "https://www.rsdeaf.org",
       verified: true,
       bilingual: false,

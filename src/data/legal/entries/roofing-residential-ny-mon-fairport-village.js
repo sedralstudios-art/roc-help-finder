@@ -59,7 +59,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Village",
       access: "Village Hall, 31 South Main Street, Fairport, NY 14450; phone; email",
       outcome: "Permit guidance, inspection scheduling, complaint intake",
-      phone: "585-421-3207",
+      phone: "",
       url: "https://www.village.fairport.ny.us/departments/building_planning___zoning_code_enforcement/index.php",
       verified: true,
       bilingual: false,

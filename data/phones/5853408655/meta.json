@@ -1,0 +1,77 @@
+{
+  "digits": "5853408655",
+  "kind": "phone",
+  "primaryName": "Penfield Recreation and Parks",
+  "rawValue": "585-340-8655",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldrec",
+      "name": "Penfield Recreation and Parks",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-52-47-631Z_9d1b7545-6d54-21c3-2ade-bfbe2b8f7a8f",
+    "meta": {
+      "callId": "9d1b7545-6d54-21c3-2ade-bfbe2b8f7a8f",
+      "digits": "5853408655",
+      "dialedNumber": "5853408655",
+      "catalogedName": "Penfield Recreation and Parks",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:52:47.631Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.323Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Penfield Recreation",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.453Z",
+  "lastSeededAt": "2026-05-03T19:44:16.453Z",
+  "verifiedAt": "2026-05-03T20:21:01.720Z",
+  "verifiedRun": "2026-05-02T06-52-47-631Z_9d1b7545-6d54-21c3-2ade-bfbe2b8f7a8f",
+  "verifiedTranscriptOpening": "Thank you for calling Penfield Recreation. Our office is now closed. Office hours are Monday through Friday from 8.30 a.m. to 9 p.m. and Saturday and Sunday from 8 a.m. to 3 p.m. If you know your part",
+  "verifiedMatchTokens": [
+    "penfield",
+    "recreation"
+  ],
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:13:16.223Z",
+      "sourceUrl": "https://www.penfieldny.gov/programs_and_activities/",
+      "sourceLabel": "Town of Penfield Programs and Activities page",
+      "notes": "Web confirms (585) 340-8655 for Penfield Recreation. May tree captured \"Thank you for calling Penfield Recreation\" — direct match."
+    }
+  ]
+}

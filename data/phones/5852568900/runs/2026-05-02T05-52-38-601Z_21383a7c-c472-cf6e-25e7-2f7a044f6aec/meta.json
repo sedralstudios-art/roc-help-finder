@@ -1,0 +1,24 @@
+{
+  "callId": "21383a7c-c472-cf6e-25e7-2f7a044f6aec",
+  "digits": "5852568900",
+  "dialedNumber": "5852568900",
+  "catalogedName": "Ibero-American Action League",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:52:38.601Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.194Z"
+  }
+}

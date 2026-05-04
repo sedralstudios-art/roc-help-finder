@@ -59,7 +59,7 @@ export const DIY_WILL_NY = {
       qualifier: "Low-income residents of Monroe County",
       access: "Phone intake",
       outcome: "Free will preparation assistance",
-      phone: "(585) 232-3051",
+      phone: "",
       url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,

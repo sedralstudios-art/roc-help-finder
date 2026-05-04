@@ -1,0 +1,33 @@
+{
+  "callId": "0797373f-bc46-d0d4-3c2d-bf0d31bdb968",
+  "digits": "8004333243",
+  "dialedNumber": "(800) 433-3243",
+  "catalogedName": "fafsa-financial-aid-application-ny-program",
+  "sourceId": "legal-entry:fafsa-financial-aid-application-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "fafsa-financial-aid-application-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "student-loan-options-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:36:30.061Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.598Z"
+  }
+}

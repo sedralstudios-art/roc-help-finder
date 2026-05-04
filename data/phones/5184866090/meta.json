@@ -1,0 +1,72 @@
+{
+  "digits": "5184866090",
+  "kind": "phone",
+  "primaryName": "entry-callout:bullying-harassment-school-ny",
+  "rawValue": "(518) 486-6090",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bullying-harassment-school-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "menstrual-products-schools-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-20-07-487Z_b0e383c1-5a68-f15a-39ee-4b5eee23fce6",
+    "meta": {
+      "callId": "b0e383c1-5a68-f15a-39ee-4b5eee23fce6",
+      "digits": "5184866090",
+      "dialedNumber": "(518) 486-6090",
+      "catalogedName": "bullying-harassment-school-ny",
+      "sourceId": "legal-entry:bullying-harassment-school-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "bullying-harassment-school-ny"
+        },
+        {
+          "type": "entry",
+          "id": "menstrual-products-schools-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:20:07.487Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.552Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Education Department's Office of Student Support Services",
+      "reason": "transcript-stated name (New York State Education Department's Office of Student Support Services) differs from catalogued (bullying-harassment-school-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.369Z",
+  "lastSeededAt": "2026-05-03T19:44:16.369Z"
+}

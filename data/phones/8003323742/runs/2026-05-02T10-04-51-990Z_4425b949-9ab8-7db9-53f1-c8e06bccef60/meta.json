@@ -1,0 +1,24 @@
+{
+  "callId": "4425b949-9ab8-7db9-53f1-c8e06bccef60",
+  "digits": "8003323742",
+  "dialedNumber": "8003323742",
+  "catalogedName": "EPIC (Senior Prescription Help)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:04:51.990Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.736Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "digits": "8009239394",
+  "kind": "phone",
+  "primaryName": "Trillium Health Pharmacy",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "trillrx",
+      "name": "Trillium Health Pharmacy"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:50:24.069Z",
+      "sourceUrl": "https://www.trilliumhealth.pharmacy/",
+      "sourceLabel": "Trillium Health Pharmacy official site",
+      "notes": "Web confirms 800-923-9394 (toll-free) as canonical pharmacy line. Pre-strip had 585-244-9000 (local Rochester direct line) — both may route to same pharmacy; using toll-free per official site."
+    }
+  ]
+}

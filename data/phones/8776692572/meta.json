@@ -1,0 +1,61 @@
+{
+  "digits": "8776692572",
+  "kind": "phone",
+  "primaryName": "entry-callout:utility-deposit-refund-ny",
+  "rawValue": "(877) 669-2572",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "utility-deposit-refund-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-51-31-377Z_7db9a8d0-3aee-e899-7fe4-64d42fee25f1",
+    "meta": {
+      "callId": "7db9a8d0-3aee-e899-7fe4-64d42fee25f1",
+      "digits": "8776692572",
+      "dialedNumber": "(877) 669-2572",
+      "catalogedName": "utility-deposit-refund-ny",
+      "sourceId": "legal-entry:utility-deposit-refund-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "utility-deposit-refund-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:51:31.377Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.136Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.578Z",
+  "lastSeededAt": "2026-05-03T19:44:16.578Z"
+}

@@ -59,7 +59,7 @@ export const WRONGFUL_DEATH_NY = {
       qualifier: "Low-income residents of Monroe County",
       access: "Phone intake",
       outcome: "Legal advice and referrals to wrongful death attorneys",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

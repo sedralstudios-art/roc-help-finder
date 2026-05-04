@@ -62,7 +62,7 @@ export const CAR_ACCIDENT_WHAT_TO_DO_FIRST_NY = {
       qualifier: "Any driver involved in an accident in New York",
       access: "Online at dmv.ny.gov or phone at (518) 474-0774",
       outcome: "Accident report filing, insurance verification",
-      phone: "(518) 474-0774",
+      phone: "",
       url: "https://dmv.ny.gov/forms/mv104.pdf",
       verified: true,
       bilingual: false,

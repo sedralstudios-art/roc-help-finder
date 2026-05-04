@@ -1,0 +1,61 @@
+{
+  "digits": "2126555840",
+  "kind": "phone",
+  "primaryName": "entry-callout:minimum-auto-insurance-coverage-ny",
+  "rawValue": "(212) 655-5840",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-24-12-264Z_03c191c6-8b2a-fc1a-dc92-652055e8e5cb",
+    "meta": {
+      "callId": "03c191c6-8b2a-fc1a-dc92-652055e8e5cb",
+      "digits": "2126555840",
+      "dialedNumber": "(212) 655-5840",
+      "catalogedName": "minimum-auto-insurance-coverage-ny",
+      "sourceId": "legal-entry:minimum-auto-insurance-coverage-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "minimum-auto-insurance-coverage-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:24:12.264Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.929Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.526Z",
+  "lastSeededAt": "2026-05-03T19:44:16.526Z"
+}

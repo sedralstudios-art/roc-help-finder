@@ -1,0 +1,68 @@
+{
+  "digits": "5853346000",
+  "kind": "phone",
+  "primaryName": "CP Rochester",
+  "rawValue": "585-334-6000",
+  "blockDial": false,
+  "tags": [
+    "cat:disabilitySvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "cproch",
+      "name": "CP Rochester",
+      "category": "disabilitySvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-38-10-195Z_d333147e-beee-7ed6-aeca-c9ed69a79df7",
+    "meta": {
+      "callId": "d333147e-beee-7ed6-aeca-c9ed69a79df7",
+      "digits": "5853346000",
+      "dialedNumber": "5853346000",
+      "catalogedName": "CP Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:38:10.195Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.292Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "CP Rochester",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.421Z",
+  "lastSeededAt": "2026-05-03T19:44:16.421Z",
+  "verifiedAt": "2026-05-03T20:21:01.714Z",
+  "verifiedRun": "2026-05-02T06-38-10-195Z_d333147e-beee-7ed6-aeca-c9ed69a79df7",
+  "verifiedTranscriptOpening": "Thank you for calling CP Rochester. Administrative offices are currently closed. Administrative office hours are from 8 a.m. to 4 p.m., Monday through Friday. If this is a medical emergency, please ha",
+  "verifiedMatchTokens": [
+    "cp"
+  ],
+  "verifiedRatio": 1
+}

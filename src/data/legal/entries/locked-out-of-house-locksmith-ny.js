@@ -60,7 +60,7 @@ export const LOCKED_OUT_OF_HOUSE_LOCKSMITH_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (800) 771-7755 or ag.ny.gov",
       outcome: "Investigation, restitution, deceptive-practice enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds",
       verified: true,
       bilingual: false,

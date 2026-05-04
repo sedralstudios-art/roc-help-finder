@@ -1,0 +1,29 @@
+{
+  "callId": "e518be27-c85d-8b88-486f-be4f6ed79abb",
+  "digits": "5182730861",
+  "dialedNumber": "(518) 273-0861",
+  "catalogedName": "electrical-residential-ny-mon-scottsville-village",
+  "sourceId": "legal-entry:electrical-residential-ny-mon-scottsville-village",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-scottsville-village"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:06:52.060Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.809Z"
+  }
+}

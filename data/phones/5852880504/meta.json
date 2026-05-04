@@ -1,0 +1,59 @@
+{
+  "digits": "5852880504",
+  "kind": "phone",
+  "primaryName": "Spiritus Christi Prison Outreach",
+  "rawValue": "585-288-0504",
+  "blockDial": false,
+  "tags": [
+    "cat:reentry",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "spiritus",
+      "name": "Spiritus Christi Prison Outreach",
+      "category": "reentry",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-11-36-082Z_0ffe7194-d55a-2f05-86fd-cc743edf453a",
+    "meta": {
+      "callId": "0ffe7194-d55a-2f05-86fd-cc743edf453a",
+      "digits": "5852880504",
+      "dialedNumber": "5852880504",
+      "catalogedName": "Spiritus Christi Prison Outreach",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:11:36.082Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.236Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.425Z",
+  "lastSeededAt": "2026-05-03T19:44:16.425Z"
+}

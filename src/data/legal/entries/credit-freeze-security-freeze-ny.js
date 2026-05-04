@@ -61,7 +61,7 @@ export const CREDIT_FREEZE_SECURITY_FREEZE_NY = {
       qualifier: "Anyone in the United States",
       access: "Online at identitytheft.gov",
       outcome: "Personalized recovery plan, sample letters, law enforcement report",
-      phone: "(877) 438-4338",
+      phone: "",
       url: "https://www.identitytheft.gov",
       verified: true,
       bilingual: true,

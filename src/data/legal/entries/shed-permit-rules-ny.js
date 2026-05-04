@@ -39,7 +39,7 @@ export const SHED_PERMIT_RULES_NY = {
   legalOptions: {
     en: [
       "Rochester: Sheds under 120 sq ft may not need a permit but must meet setback rules. Bureau of Inspection at (585) 428-6520.",
-      "Greece: Sheds under 200 sq ft typically exempt from permit. Code Enforcement at (585) 723-2396.",
+      "Greece: Sheds under 200 sq ft typically exempt from permit. Code Enforcement at (585) 723-2354.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "Brighton: Building Department at (585) 784-5220.",
       "Henrietta: Building Department at (585) 334-7700.",
@@ -79,7 +79,7 @@ export const SHED_PERMIT_RULES_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6520",
       outcome: "Permit processing, zoning information, inspections",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

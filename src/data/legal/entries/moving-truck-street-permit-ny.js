@@ -40,7 +40,7 @@ export const MOVING_TRUCK_STREET_PERMIT_NY = {
     en: [
       "Rochester: Street obstruction permits for moving trucks from the Bureau of Operations at (585) 428-7538. Cost $25 to $75.",
       "Greece: No formal moving truck permit. Overnight ban applies. Police non-emergency at (585) 865-9200.",
-      "Irondequoit: Check with DPW at (585) 336-6075.",
+      "Irondequoit: Check with DPW at (585) 336-6090.",
       "Brighton: Check with DPW at (585) 784-5250.",
       "For pods or containers placed on the street for multiple days, a permit is more likely to be required. Check with the local building department.",
       "If the truck blocks a fire hydrant, crosswalk, or driveway, it can be ticketed regardless of whether a permit was obtained.",
@@ -60,7 +60,7 @@ export const MOVING_TRUCK_STREET_PERMIT_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-7538",
       outcome: "Permit processing, no-parking sign posting, space reservation",
-      phone: "(585) 428-7538",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

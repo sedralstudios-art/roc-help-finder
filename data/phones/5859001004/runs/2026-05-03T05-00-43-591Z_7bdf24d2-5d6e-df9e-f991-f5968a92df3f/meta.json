@@ -1,0 +1,37 @@
+{
+  "callId": "7bdf24d2-5d6e-df9e-f991-f5968a92df3f",
+  "digits": "5859001004",
+  "dialedNumber": "585-900-1004",
+  "catalogedName": "Free Tax Filing (CASH/VITA)",
+  "sourceId": "vita",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "LEGAL_AID.cashRoc"
+    },
+    {
+      "type": "program",
+      "id": "vita"
+    },
+    {
+      "type": "program",
+      "id": "cashvita"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:00:43.591Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.483Z"
+  }
+}

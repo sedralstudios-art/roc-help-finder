@@ -60,7 +60,7 @@ export const NEIGHBOR_SMOKING_SECONDHAND_APARTMENT_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 753-5555",
       outcome: "Complaint investigation, enforcement in common areas",
-      phone: "(585) 753-5555",
+      phone: "",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

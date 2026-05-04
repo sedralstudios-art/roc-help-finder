@@ -1,0 +1,29 @@
+{
+  "callId": "b2e45802-2948-d09a-0a44-5e8a1476623c",
+  "digits": "2028728600",
+  "dialedNumber": "(202) 872-8600",
+  "catalogedName": "criminal-discovery-reform-cpl-245-ny",
+  "sourceId": "legal-entry:criminal-discovery-reform-cpl-245-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:02:00.868Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.773Z"
+  }
+}

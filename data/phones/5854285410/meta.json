@@ -1,0 +1,90 @@
+{
+  "digits": "5854285410",
+  "kind": "phone",
+  "primaryName": "entry-callout:joint-account-creditor-levy-ny",
+  "rawValue": "(585) 428-5410",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "joint-account-creditor-levy-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "partition-joint-property-rpapl-9-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "prompt-pay-construction-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "quiet-title-action-rpapl-15-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-21-01-214Z_1d493131-2c83-9883-f31e-4b9f7e7d02a7",
+    "meta": {
+      "callId": "1d493131-2c83-9883-f31e-4b9f7e7d02a7",
+      "digits": "5854285410",
+      "dialedNumber": "(585) 428-5410",
+      "catalogedName": "joint-account-creditor-levy-ny",
+      "sourceId": "legal-entry:joint-account-creditor-levy-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "joint-account-creditor-levy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "partition-joint-property-rpapl-9-ny"
+        },
+        {
+          "type": "entry",
+          "id": "prompt-pay-construction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "quiet-title-action-rpapl-15-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:21:01.214Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.273Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "this recording in error",
+      "reason": "transcript-stated name (this recording in error) differs from catalogued (joint-account-creditor-levy-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.329Z",
+  "lastSeededAt": "2026-05-03T19:44:16.329Z"
+}

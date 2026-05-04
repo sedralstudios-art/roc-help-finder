@@ -61,7 +61,7 @@ export const MIRANDA_RIGHTS_EXPLAINED_NY = {
       qualifier: "Defendants who cannot afford a private attorney",
       access: "Phone at (585) 753-4210",
       outcome: "Full representation including Miranda suppression motions",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

@@ -23,7 +23,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
   },
 
   whatItMeans: {
-    en: "Getting identity documents when a person has lost everything is a chicken-and-egg problem — most agencies want one form of ID to issue another. The solution is to work through the chain in the right order. Step one: birth certificate. A birth certificate anchors most other identity documents. For a person born in Rochester, the Monroe County Clerk issues certified copies at (585) 753-1600. For births elsewhere in NY State, the NY Department of Health Vital Records office at (855) 322-1022 or health.ny.gov/vital_records handles orders by mail, online, and in person. The certified-copy fee is posted at the DOH site and adjusts periodically. Fee waivers are available for applicants receiving public assistance — a DSS caseworker can issue a fee-waiver letter or a Form ACH-31 that Vital Records accepts. For births in New York City, the NYC Department of Health handles vital records on its own pathway. Step two: Social Security card. A replacement SSA card is free. Applications use Form SS-5. Originals or certified copies of identity and age documents are required. A U.S.-born applicant typically needs the birth certificate obtained in step one plus a NY driver license, state ID, or passport. If identity documents are incomplete, SSA can accept combinations (school records, employer ID, medical records). The Social Security Administration limit is up to three replacement cards per year and ten in a lifetime, though certain exceptions apply (name change, protected-name-change categories, domestic-violence situations). The local SSA office in Rochester is at 100 State Street; the national SSA line is (800) 772-1213. Step three: NY State non-driver ID. The DMV issues non-driver ID cards at any office. Monroe County DMV offices include Mt. Hope, Greece, Henrietta, and downtown Rochester locations. Required documentation is set by NY DMV's 6-point verification system: proof of identity (usually birth certificate or passport), proof of Social Security number (the card itself, W-2, or SSA statement), and two proofs of NY residency (utility bill, bank statement, lease, etc.). The non-driver ID fee is posted on the DMV fee schedule and varies by age. The Enhanced ID (REAL-ID compliant) costs more and requires additional documentation. Standard Green Light Law ID is available without regard to immigration status using accepted foreign documents — the NY Standard ID does not say 'Not for Federal Purposes' in the same way a federal non-compliant ID does but the federal-travel version requires additional documents. Where to start if the applicant has nothing. RAWNY (Rochester Area Workers Needed for Yesterday) at 186-188 North Water Street in Rochester is a free community program that walks applicants through the document chain, serving formerly incarcerated residents, people experiencing homelessness, and anyone who has lost identity documents. RAWNY case workers coordinate with the County Clerk, SSA, and DMV to smooth the process. Other reentry pathways: a person about to be released from state prison can request assistance from the DOCCS facility transition coordinator. Monroe County DHS can assist with document fees for public-assistance recipients. Most Monroe County libraries allow free printing and scanning for document-related tasks. The full chain typically takes three to six weeks end to end."
+    en: "Getting identity documents when a person has lost everything is a chicken-and-egg problem — most agencies want one form of ID to issue another. The solution is to work through the chain in the right order. Step one: birth certificate. A birth certificate anchors most other identity documents. For a person born in Rochester, the Monroe County Clerk issues certified copies at [number being verified]. For births elsewhere in NY State, the NY Department of Health Vital Records office at [number being verified] or health.ny.gov/vital_records handles orders by mail, online, and in person. The certified-copy fee is posted at the DOH site and adjusts periodically. Fee waivers are available for applicants receiving public assistance — a DSS caseworker can issue a fee-waiver letter or a Form ACH-31 that Vital Records accepts. For births in New York City, the NYC Department of Health handles vital records on its own pathway. Step two: Social Security card. A replacement SSA card is free. Applications use Form SS-5. Originals or certified copies of identity and age documents are required. A U.S.-born applicant typically needs the birth certificate obtained in step one plus a NY driver license, state ID, or passport. If identity documents are incomplete, SSA can accept combinations (school records, employer ID, medical records). The Social Security Administration limit is up to three replacement cards per year and ten in a lifetime, though certain exceptions apply (name change, protected-name-change categories, domestic-violence situations). The local SSA office in Rochester is at 100 State Street; the national SSA line is [number being verified]. Step three: NY State non-driver ID. The DMV issues non-driver ID cards at any office. Monroe County DMV offices include Mt. Hope, Greece, Henrietta, and downtown Rochester locations. Required documentation is set by NY DMV's 6-point verification system: proof of identity (usually birth certificate or passport), proof of Social Security number (the card itself, W-2, or SSA statement), and two proofs of NY residency (utility bill, bank statement, lease, etc.). The non-driver ID fee is posted on the DMV fee schedule and varies by age. The Enhanced ID (REAL-ID compliant) costs more and requires additional documentation. Standard Green Light Law ID is available without regard to immigration status using accepted foreign documents — the NY Standard ID does not say 'Not for Federal Purposes' in the same way a federal non-compliant ID does but the federal-travel version requires additional documents. Where to start if the applicant has nothing. RAWNY (Rochester Area Workers Needed for Yesterday) at 186-188 North Water Street in Rochester is a free community program that walks applicants through the document chain, serving formerly incarcerated residents, people experiencing homelessness, and anyone who has lost identity documents. RAWNY case workers coordinate with the County Clerk, SSA, and DMV to smooth the process. Other reentry pathways: a person about to be released from state prison can request assistance from the DOCCS facility transition coordinator. Monroe County DHS can assist with document fees for public-assistance recipients. Most Monroe County libraries allow free printing and scanning for document-related tasks. The full chain typically takes three to six weeks end to end."
   },
 
   yourRights: {
@@ -61,7 +61,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
       qualifier: "Any Monroe County resident with missing documents",
       access: "Walk-in or phone",
       outcome: "Hands-on assistance completing the document chain",
-      phone: "(585) 851-8886",
+      phone: "",
       url: "https://www.rawny.org",
       verified: true,
       bilingual: false,
@@ -74,7 +74,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
       qualifier: "Person born in Rochester or their legal representative",
       access: "In person or by mail",
       outcome: "Certified birth certificate copy",
-      phone: "(585) 753-1600",
+      phone: "",
       url: "https://www.monroecounty.gov/clerk",
       verified: true,
       bilingual: false,
@@ -87,7 +87,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
       qualifier: "Person born in NY State (outside NYC)",
       access: "Phone, online, mail, in-person at Albany",
       outcome: "Certified copy of vital record",
-      phone: "(855) 322-1022",
+      phone: "",
       url: "https://www.health.ny.gov/vital_records",
       verified: true,
       bilingual: true,
@@ -100,7 +100,7 @@ export const GETTING_ID_DOCUMENTS_NY = {
       qualifier: "Any person with a valid SSN or eligible for one",
       access: "Phone, in person at 100 State Street, online",
       outcome: "Free replacement card (up to 3 per year, 10 lifetime)",
-      phone: "(800) 772-1213",
+      phone: "",
       url: "https://www.ssa.gov/number-card",
       verified: true,
       bilingual: true,

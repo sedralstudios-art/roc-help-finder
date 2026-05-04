@@ -1,0 +1,77 @@
+{
+  "digits": "5852384800",
+  "kind": "phone",
+  "primaryName": "East House",
+  "rawValue": "585-238-4800",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "easthouse",
+      "name": "East House",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-36-26-486Z_4452df9c-fd64-2ace-c79d-59d26ea1110b",
+    "meta": {
+      "callId": "4452df9c-fd64-2ace-c79d-59d26ea1110b",
+      "digits": "5852384800",
+      "dialedNumber": "5852384800",
+      "catalogedName": "East House",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:36:26.486Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.158Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "East House",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.416Z",
+  "lastSeededAt": "2026-05-03T19:44:16.416Z",
+  "verifiedAt": "2026-05-03T20:21:01.682Z",
+  "verifiedRun": "2026-05-02T05-36-26-486Z_4452df9c-fd64-2ace-c79d-59d26ea1110b",
+  "verifiedTranscriptOpening": "Thank you for calling East House. Our offices are now closed. Our hours of operation are 8 a.m. through 4 p.m., Monday through Friday. If you know your party's extension, you may enter it at any time ",
+  "verifiedMatchTokens": [
+    "east",
+    "house"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:31:57.681Z",
+      "sourceUrl": "https://easthouse.org",
+      "sourceLabel": "East House official site",
+      "notes": "Web confirms 585-238-4800 for East House. May tree captured \"Thank you for calling East House\" — direct match."
+    }
+  ]
+}

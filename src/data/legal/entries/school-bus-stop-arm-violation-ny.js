@@ -60,7 +60,7 @@ export const SCHOOL_BUS_STOP_ARM_VIOLATION_NY = {
       qualifier: "Drivers ticketed in Rochester",
       access: "Phone at (585) 428-2046",
       outcome: "Ticket resolution, hearing scheduling, fine payment",
-      phone: "(585) 428-2046",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

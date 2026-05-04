@@ -1,0 +1,29 @@
+{
+  "callId": "dff498c4-da77-b6c1-eb3f-d56ce24d7143",
+  "digits": "2126375000",
+  "dialedNumber": "(212) 637-5000",
+  "catalogedName": "asbestos-tenant-rights-ny",
+  "sourceId": "legal-entry:asbestos-tenant-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "asbestos-tenant-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:51:45.208Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.697Z"
+  }
+}

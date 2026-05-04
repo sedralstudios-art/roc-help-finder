@@ -61,7 +61,7 @@ export const CEMETERY_BURIAL_PLOT_RIGHTS_NY = {
       qualifier: "Any NYS resident with a cemetery complaint",
       access: "Phone at (518) 474-6226",
       outcome: "Investigation, mediation, enforcement against cemeteries",
-      phone: "(518) 474-6226",
+      phone: "",
       url: "https://dos.ny.gov/cemeteries",
       verified: true,
       bilingual: false,

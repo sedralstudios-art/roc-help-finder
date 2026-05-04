@@ -1,0 +1,124 @@
+{
+  "digits": "8003423720",
+  "kind": "phone",
+  "primaryName": "entry-callout:animal-hoarding-reporting-ny",
+  "rawValue": "(800) 342-3720",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "animal-hoarding-reporting-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "child-care-licensing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "child-protective-services-process-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "cps-investigation-process-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "home-alone-age-kids-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "mandated-reporter-child-abuse-ny",
+      "line": 31
+    },
+    {
+      "type": "entry",
+      "id": "reporting-child-abuse-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-32-06-875Z_d4e21411-2dce-7f2a-376d-28cf8bf877b7",
+    "meta": {
+      "callId": "d4e21411-2dce-7f2a-376d-28cf8bf877b7",
+      "digits": "8003423720",
+      "dialedNumber": "(800) 342-3720",
+      "catalogedName": "animal-hoarding-reporting-ny",
+      "sourceId": "legal-entry:animal-hoarding-reporting-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "animal-hoarding-reporting-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-care-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-protective-services-process-ny"
+        },
+        {
+          "type": "entry",
+          "id": "cps-investigation-process-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-alone-age-kids-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mandated-reporter-child-abuse-ny"
+        },
+        {
+          "type": "entry",
+          "id": "reporting-child-abuse-ny"
+        },
+        {
+          "type": "entry",
+          "id": "summer-camp-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:32:06.875Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.047Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.289Z",
+  "lastSeededAt": "2026-05-03T19:44:16.289Z"
+}

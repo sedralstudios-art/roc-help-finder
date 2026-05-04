@@ -1,0 +1,61 @@
+{
+  "digits": "5184571929",
+  "kind": "phone",
+  "primaryName": "entry-callout:refund-anticipation-loan-rights-ny",
+  "rawValue": "(518) 457-1929",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "refund-anticipation-loan-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-39-52-500Z_096781d9-0b44-9514-0357-8d18406b6c28",
+    "meta": {
+      "callId": "096781d9-0b44-9514-0357-8d18406b6c28",
+      "digits": "5184571929",
+      "dialedNumber": "(518) 457-1929",
+      "catalogedName": "refund-anticipation-loan-rights-ny",
+      "sourceId": "legal-entry:refund-anticipation-loan-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "refund-anticipation-loan-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:39:52.500Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.055Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.557Z",
+  "lastSeededAt": "2026-05-03T19:44:16.557Z"
+}

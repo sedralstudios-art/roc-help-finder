@@ -1,0 +1,29 @@
+{
+  "callId": "5f4da320-6405-226c-8fa6-68232c129574",
+  "digits": "5853416502",
+  "dialedNumber": "(585) 341-6502",
+  "catalogedName": "hospital-language-interpreter-ny",
+  "sourceId": "legal-entry:hospital-language-interpreter-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-language-interpreter-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:15:44.817Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.872Z"
+  }
+}

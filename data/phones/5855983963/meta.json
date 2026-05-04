@@ -1,0 +1,61 @@
+{
+  "digits": "5855983963",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-donation-charity-ny",
+  "rawValue": "(585) 598-3963",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-55-46-534Z_ef800542-3fbd-18e0-53cb-70048ca8a50b",
+    "meta": {
+      "callId": "ef800542-3fbd-18e0-53cb-70048ca8a50b",
+      "digits": "5855983963",
+      "dialedNumber": "(585) 598-3963",
+      "catalogedName": "car-donation-charity-ny",
+      "sourceId": "legal-entry:car-donation-charity-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-donation-charity-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:55:46.534Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.725Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.476Z",
+  "lastSeededAt": "2026-05-03T19:44:16.476Z"
+}

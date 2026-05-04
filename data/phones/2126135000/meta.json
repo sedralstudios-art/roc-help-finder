@@ -1,0 +1,75 @@
+{
+  "digits": "2126135000",
+  "kind": "phone",
+  "primaryName": "NY Legal Assistance Group — Disability Benefits",
+  "rawValue": "212-613-5000",
+  "blockDial": false,
+  "tags": [
+    "cat:legalBenefits",
+    "cat:legalImmigration",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "disabilityadvocacy",
+      "name": "NY Legal Assistance Group — Disability Benefits",
+      "category": "legalBenefits",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "nycairr",
+      "name": "NYLAG Immigration — Deportation Defense",
+      "category": "legalImmigration",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "plea-withdrawal-cpl-220-60-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-09-44-620Z_f057304b-5058-8806-9aba-713e23ed1cd7",
+    "meta": {
+      "callId": "f057304b-5058-8806-9aba-713e23ed1cd7",
+      "digits": "2126135000",
+      "dialedNumber": "2126135000",
+      "catalogedName": "NY Legal Assistance Group — Disability Benefits",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:09:44.620Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.095Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "New York Legal Assisting Group",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.334Z",
+  "lastSeededAt": "2026-05-03T19:44:16.334Z"
+}

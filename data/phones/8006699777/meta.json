@@ -1,0 +1,124 @@
+{
+  "digits": "8006699777",
+  "kind": "phone",
+  "primaryName": "HUD Housing Discrimination Hotline",
+  "rawValue": "800-669-9777",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "cat:legalDiscrim",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hud",
+      "name": "HUD Housing Discrimination Hotline",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "huddisc",
+      "name": "HUD — Housing Discrimination Complaint",
+      "category": "legalDiscrim",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "disability-housing-accommodation-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "emotional-support-animal-housing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "esa-vs-service-animal-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "fair-housing-discrimination-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "housing-discrimination-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "pet-deposit-pet-rent-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-walkthrough-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "source-of-income-discrimination-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-13-14-219Z_1b22b5e1-ff35-1409-c908-269cc9cdde4a",
+    "meta": {
+      "callId": "1b22b5e1-ff35-1409-c908-269cc9cdde4a",
+      "digits": "8006699777",
+      "dialedNumber": "8006699777",
+      "catalogedName": "HUD Housing Discrimination Hotline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:13:14.219Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.757Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.09090909090909091,
+      "extracted": "Office of Fair Housing and Equal Opportunity at the United States Department of Housing and Urban Development",
+      "reason": "transcript-stated name (Office of Fair Housing and Equal Opportunity at the United States Department of Housing and Urban Development) differs from catalogued (HUD Housing Discrimination Hotline)"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.281Z",
+  "lastSeededAt": "2026-05-03T19:44:16.281Z",
+  "verifiedAt": "2026-05-03T20:21:01.844Z",
+  "verifiedRun": "2026-05-02T10-13-14-219Z_1b22b5e1-ff35-1409-c908-269cc9cdde4a",
+  "verifiedTranscriptOpening": "Thank you for calling the Office of Fair Housing and Equal Opportunity at the United States Department of Housing and Urban Development. You have reached the intake hotline number. If you believe your",
+  "verifiedMatchTokens": [
+    "hud",
+    "housing",
+    "discrimination"
+  ],
+  "verifiedRatio": 1
+}

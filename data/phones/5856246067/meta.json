@@ -1,0 +1,59 @@
+{
+  "digits": "5856246067",
+  "kind": "phone",
+  "primaryName": "Mendon Public Library",
+  "rawValue": "585-624-6067",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mendonlib",
+      "name": "Mendon Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-30-03-116Z_add336f7-45bb-7be4-e31d-f932b1e3b341",
+    "meta": {
+      "callId": "add336f7-45bb-7be4-e31d-f932b1e3b341",
+      "digits": "5856246067",
+      "dialedNumber": "5856246067",
+      "catalogedName": "Mendon Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:30:03.116Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.536Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.448Z",
+  "lastSeededAt": "2026-05-03T19:44:16.448Z"
+}

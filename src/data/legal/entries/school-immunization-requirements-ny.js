@@ -60,7 +60,7 @@ export const SCHOOL_IMMUNIZATION_REQUIREMENTS_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (518) 473-4437",
       outcome: "Guidance on requirements, exemption process, compliance questions",
-      phone: "(518) 473-4437",
+      phone: "",
       url: "https://www.health.ny.gov/prevention/immunization/schools/",
       verified: true,
       bilingual: false,

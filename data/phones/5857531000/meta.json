@@ -1,0 +1,61 @@
+{
+  "digits": "5857531000",
+  "kind": "phone",
+  "primaryName": "entry-callout:right-to-farm-ny",
+  "rawValue": "(585) 753-1000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-41-15-672Z_528a686f-e0fc-33d2-9e71-e8911608a62d",
+    "meta": {
+      "callId": "528a686f-e0fc-33d2-9e71-e8911608a62d",
+      "digits": "5857531000",
+      "dialedNumber": "(585) 753-1000",
+      "catalogedName": "right-to-farm-ny",
+      "sourceId": "legal-entry:right-to-farm-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "right-to-farm-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:41:15.672Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.064Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.559Z",
+  "lastSeededAt": "2026-05-03T19:44:16.559Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "ca8bab9c-9e14-acd2-c10f-fe9dc5d4de24",
+  "digits": "5857536960",
+  "dialedNumber": "5857536960",
+  "catalogedName": "MC.snapAppointmentLine",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:12:06.718Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.622Z"
+  }
+}

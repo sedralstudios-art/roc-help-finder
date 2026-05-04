@@ -62,7 +62,7 @@ export const PET_HOUSING_BREED_RESTRICTION_NY = {
       qualifier: "Low-income tenants in Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal advice, representation in housing court",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

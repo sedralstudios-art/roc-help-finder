@@ -1,0 +1,24 @@
+{
+  "callId": "e3b1fb89-f7d5-a759-e59c-0a0d46d18fe4",
+  "digits": "5859648748",
+  "dialedNumber": "(585) 964-8748",
+  "catalogedName": "Hamlin Assessor",
+  "sourceId": "hamlinassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T10:08:00.183Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.081Z"
+  }
+}

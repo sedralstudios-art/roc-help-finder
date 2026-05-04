@@ -1,0 +1,37 @@
+{
+  "callId": "ad463bbd-63e2-ad8e-2a61-ee2e9367c2d7",
+  "digits": "5852700411",
+  "dialedNumber": "(585) 270-0411",
+  "catalogedName": "condo-conversion-tenant-buyout-ny",
+  "sourceId": "legal-entry:condo-conversion-tenant-buyout-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "condo-conversion-tenant-buyout-ny"
+    },
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tenant-organizing-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:12:01.865Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.509Z"
+  }
+}

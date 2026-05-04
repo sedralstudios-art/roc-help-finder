@@ -1,0 +1,91 @@
+{
+  "digits": "8003323742",
+  "kind": "phone",
+  "primaryName": "EPIC (Senior Prescription Help)",
+  "rawValue": "800-332-3742",
+  "blockDial": false,
+  "tags": [
+    "cat:prescriptions",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "epic",
+      "value": "800-332-3742",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "epic",
+      "name": "EPIC (Senior Prescription Help)",
+      "category": "prescriptions",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "epic-prescription-seniors-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "medicare-late-enrollment-penalty-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "prescription-assistance-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-04-51-990Z_4425b949-9ab8-7db9-53f1-c8e06bccef60",
+    "meta": {
+      "callId": "4425b949-9ab8-7db9-53f1-c8e06bccef60",
+      "digits": "8003323742",
+      "dialedNumber": "8003323742",
+      "catalogedName": "EPIC (Senior Prescription Help)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:04:51.990Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.736Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.305Z",
+  "lastSeededAt": "2026-05-03T19:44:16.305Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:21:58.621Z",
+      "sourceUrl": "https://www.health.ny.gov/health_care/epic/application_contact.htm",
+      "sourceLabel": "NY DOH EPIC Application Contact page",
+      "notes": "Web confirms 1-800-332-3742 as NY EPIC senior prescription helpline. TTY 1-800-290-9138 separately."
+    }
+  ]
+}

@@ -60,7 +60,7 @@ export const HOME_DAYCARE_LICENSE_NY = {
       qualifier: "Anyone providing or seeking child care in the Rochester region",
       access: "Phone at (585) 238-8531",
       outcome: "Registration processing, licensing, inspections, complaint investigation",
-      phone: "(585) 238-8531",
+      phone: "",
       url: "https://ocfs.ny.gov/programs/childcare/",
       verified: true,
       bilingual: false,

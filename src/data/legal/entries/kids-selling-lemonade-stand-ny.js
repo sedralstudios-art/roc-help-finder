@@ -57,7 +57,7 @@ export const KIDS_SELLING_LEMONADE_STAND_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (518) 474-7354",
       outcome: "Guidance on food sale laws and permit exemptions",
-      phone: "(518) 474-7354",
+      phone: "",
       url: "https://www.health.ny.gov",
       verified: true,
       bilingual: false,

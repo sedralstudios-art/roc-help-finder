@@ -1,0 +1,37 @@
+{
+  "callId": "a724a816-85d1-b820-e847-0afc42078b4e",
+  "digits": "5857537370",
+  "dialedNumber": "(585) 753-7370",
+  "catalogedName": "grease-trap-restaurant-ny",
+  "sourceId": "legal-entry:grease-trap-restaurant-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grease-trap-restaurant-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sewer-backup-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sump-pump-discharge-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:21:26.333Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.528Z"
+  }
+}

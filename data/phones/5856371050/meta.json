@@ -1,0 +1,69 @@
+{
+  "digits": "5856371050",
+  "kind": "phone",
+  "primaryName": "Seymour Library",
+  "rawValue": "585-637-1050",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "seymourlib",
+      "name": "Seymour Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-35-07-504Z_92973675-bae8-2f3b-ab8e-74398faa0031",
+    "meta": {
+      "callId": "92973675-bae8-2f3b-ab8e-74398faa0031",
+      "digits": "5856371050",
+      "dialedNumber": "5856371050",
+      "catalogedName": "Seymour Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:35:07.504Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.545Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Seymour Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.433Z",
+  "lastSeededAt": "2026-05-03T19:44:16.433Z",
+  "verifiedAt": "2026-05-03T20:21:01.770Z",
+  "verifiedRun": "2026-05-02T08-35-07-504Z_92973675-bae8-2f3b-ab8e-74398faa0031",
+  "verifiedTranscriptOpening": "Welcome to the Seymour Library, a public library serving Brockport, Clarkson, and Sweden, New York. The library is currently closed. We open at 10 a.m. Monday through Saturday. Please call back during",
+  "verifiedMatchTokens": [
+    "seymour",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_PENFIELD_TOWN = {
   title: { en: "Residential Roofing in the Town of Penfield — Broadest Permit Language in Monroe County, Repair Included" },
 
   summary: {
-    en: "The Town of Penfield requires a building permit for construction, enlargement, alteration, repair, moving, or demolition of any building or structure. Penfield's permit language is the broadest among Monroe County towns — it explicitly includes 'repair,' which pulls ordinary roofing work into the permit requirement. Construction valued over $20,000 requires two sets of architect-stamped or engineer-stamped plans plus a PDF. Insurance certificates have to list the Town of Penfield as certificate holder. The Building Department at (585) 340-8636 confirms scope. Penfield Landmark properties may require additional review."
+    en: "The Town of Penfield requires a building permit for construction, enlargement, alteration, repair, moving, or demolition of any building or structure. Penfield's permit language is the broadest among Monroe County towns — it explicitly includes 'repair,' which pulls ordinary roofing work into the permit requirement. Construction valued over $20,000 requires two sets of architect-stamped or engineer-stamped plans plus a PDF. Insurance certificates have to list the Town of Penfield as certificate holder. The Building Department at [number being verified] confirms scope. Penfield Landmark properties may require additional review."
   },
 
   whatItMeans: {
@@ -17,7 +17,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_PENFIELD_TOWN = {
   },
 
   example: {
-    en: "A contractor in Penfield plans to strip and re-shingle a residential roof. Because Penfield's code includes 'repair' in the permit-required list — unlike Pittsford or Perinton, which exempt routine re-roofing — the contractor calls the Building Department at (585) 340-8636 before starting. He files the permit, provides an insurance certificate listing the Town of Penfield as certificate holder, and a town inspector signs off at final."
+    en: "A contractor in Penfield plans to strip and re-shingle a residential roof. Because Penfield's code includes 'repair' in the permit-required list — unlike Pittsford or Perinton, which exempt routine re-roofing — the contractor calls the Building Department at [number being verified] before starting. He files the permit, provides an insurance certificate listing the Town of Penfield as certificate holder, and a town inspector signs off at final."
   },
 
   whoQualifies: {
@@ -56,7 +56,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_PENFIELD_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "Town Hall; phone; online via penfield.org",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 340-8636",
+      phone: "",
       url: "https://www.penfield.org/your_government/departments/building/property_improvements/index.php",
       verified: true,
       bilingual: false,

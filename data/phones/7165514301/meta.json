@@ -1,0 +1,70 @@
+{
+  "digits": "7165514301",
+  "kind": "phone",
+  "primaryName": "entry-callout:assumed-name-dba-ny",
+  "rawValue": "(716) 551-4301",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-31-22-305Z_8243a90a-4f2f-e65a-52ce-09a872b8fd6b",
+    "meta": {
+      "callId": "8243a90a-4f2f-e65a-52ce-09a872b8fd6b",
+      "digits": "7165514301",
+      "dialedNumber": "(716) 551-4301",
+      "catalogedName": "assumed-name-dba-ny",
+      "sourceId": "legal-entry:assumed-name-dba-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "assumed-name-dba-ny"
+        },
+        {
+          "type": "entry",
+          "id": "bulk-sale-notice-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:31:22.305Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.565Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.366Z",
+  "lastSeededAt": "2026-05-03T19:44:16.366Z"
+}

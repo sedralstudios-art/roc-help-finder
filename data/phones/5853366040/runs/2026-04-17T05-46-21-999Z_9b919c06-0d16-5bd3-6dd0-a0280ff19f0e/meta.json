@@ -1,0 +1,24 @@
+{
+  "callId": "9b919c06-0d16-5bd3-6dd0-a0280ff19f0e",
+  "digits": "5853366040",
+  "dialedNumber": "(585) 336-6040",
+  "catalogedName": "Irondequoit Town Court",
+  "sourceId": "irondequoitcourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:46:21.999Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.662Z"
+  }
+}

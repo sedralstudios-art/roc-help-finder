@@ -56,7 +56,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_PARMA_TOWN = {
       qualifier: "Residents and contractors working in Parma outside Hilton village",
       access: "Phone; email building@parmany.org; hours Mon-Fri 8 a.m. to 4 p.m.",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 392-9449",
+      phone: "",
       url: "https://parmany.gov/departments/building/",
       verified: true,
       bilingual: false,

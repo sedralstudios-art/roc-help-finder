@@ -1,0 +1,61 @@
+{
+  "digits": "8008922345",
+  "kind": "phone",
+  "primaryName": "entry-callout:gas-leak-what-to-do-ny",
+  "rawValue": "(800) 892-2345",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "gas-leak-what-to-do-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-12-16-876Z_fdaae4a5-7499-11d3-717b-648e81900475",
+    "meta": {
+      "callId": "fdaae4a5-7499-11d3-717b-648e81900475",
+      "digits": "8008922345",
+      "dialedNumber": "(800) 892-2345",
+      "catalogedName": "gas-leak-what-to-do-ny",
+      "sourceId": "legal-entry:gas-leak-what-to-do-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "gas-leak-what-to-do-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:12:16.876Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.848Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.505Z",
+  "lastSeededAt": "2026-05-03T19:44:16.505Z"
+}

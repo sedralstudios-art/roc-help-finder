@@ -1,0 +1,61 @@
+{
+  "digits": "5854232400",
+  "kind": "phone",
+  "primaryName": "entry-callout:prescription-assistance-ny",
+  "rawValue": "(585) 423-2400",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "prescription-assistance-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-36-41-106Z_cd1bb307-731f-6ec1-0578-ce70568ac662",
+    "meta": {
+      "callId": "cd1bb307-731f-6ec1-0578-ce70568ac662",
+      "digits": "5854232400",
+      "dialedNumber": "(585) 423-2400",
+      "catalogedName": "prescription-assistance-ny",
+      "sourceId": "legal-entry:prescription-assistance-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "prescription-assistance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:36:41.106Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.033Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.551Z",
+  "lastSeededAt": "2026-05-03T19:44:16.551Z"
+}

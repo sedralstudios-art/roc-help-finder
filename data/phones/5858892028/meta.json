@@ -1,0 +1,59 @@
+{
+  "digits": "5858892028",
+  "kind": "phone",
+  "primaryName": "Grace's Table Food Cupboard",
+  "rawValue": "585-889-2028",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gracestablefood",
+      "name": "Grace's Table Food Cupboard",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-36-28-118Z_df23b325-d47c-7c2f-4105-41e7c83d2165",
+    "meta": {
+      "callId": "df23b325-d47c-7c2f-4105-41e7c83d2165",
+      "digits": "5858892028",
+      "dialedNumber": "5858892028",
+      "catalogedName": "Grace's Table Food Cupboard",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:36:28.118Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.675Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.458Z",
+  "lastSeededAt": "2026-05-03T19:44:16.458Z"
+}

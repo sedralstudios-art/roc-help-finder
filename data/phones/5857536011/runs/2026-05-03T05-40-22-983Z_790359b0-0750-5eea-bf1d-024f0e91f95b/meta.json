@@ -1,0 +1,33 @@
+{
+  "callId": "790359b0-0750-5eea-bf1d-024f0e91f95b",
+  "digits": "5857536011",
+  "dialedNumber": "(585) 753-6011",
+  "catalogedName": "license-suspension-dv-ny",
+  "sourceId": "legal-entry:license-suspension-dv-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "license-suspension-dv-ny"
+    },
+    {
+      "type": "entry",
+      "id": "paternity-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:22.983Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.624Z"
+  }
+}

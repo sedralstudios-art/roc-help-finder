@@ -1,0 +1,71 @@
+{
+  "digits": "8005806665",
+  "kind": "phone",
+  "primaryName": "entry-callout:workers-comp-claim-walkthrough-ny",
+  "rawValue": "(800) 580-6665",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "workers-comp-claim-walkthrough-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-lump-sum-settlement-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "workers-comp-physician-choice-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "workers-compensation-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-11-07-625Z_e9c5c142-24e7-96c4-2764-c50a9b1374ec",
+    "meta": {
+      "callId": "e9c5c142-24e7-96c4-2764-c50a9b1374ec",
+      "digits": "8005806665",
+      "dialedNumber": "8005806665",
+      "catalogedName": "entry-callout:workers-comp-claim-walkthrough-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:11:07.625Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.751Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.331Z",
+  "lastSeededAt": "2026-05-03T19:44:16.331Z"
+}

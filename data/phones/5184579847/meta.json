@@ -1,0 +1,81 @@
+{
+  "digits": "5184579847",
+  "kind": "phone",
+  "primaryName": "entry-callout:dismissed-case-sealing-ny",
+  "rawValue": "(518) 457-9847",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dismissed-case-sealing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "get-rap-sheet-ny",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "marijuana-sealing-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-40-05-606Z_be445fe2-b6c5-ff01-849e-a63de8a71d11",
+    "meta": {
+      "callId": "be445fe2-b6c5-ff01-849e-a63de8a71d11",
+      "digits": "5184579847",
+      "dialedNumber": "(518) 457-9847",
+      "catalogedName": "dismissed-case-sealing-ny",
+      "sourceId": "legal-entry:dismissed-case-sealing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "dismissed-case-sealing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "get-rap-sheet-ny"
+        },
+        {
+          "type": "entry",
+          "id": "marijuana-sealing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:40:05.606Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.367Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Division of Criminal Justice Services",
+      "reason": "transcript-stated name (New York State Division of Criminal Justice Services) differs from catalogued (dismissed-case-sealing-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.346Z",
+  "lastSeededAt": "2026-05-03T19:44:16.346Z"
+}

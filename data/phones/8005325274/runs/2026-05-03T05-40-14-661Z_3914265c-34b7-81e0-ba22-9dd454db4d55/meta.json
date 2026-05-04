@@ -1,0 +1,33 @@
+{
+  "callId": "3914265c-34b7-81e0-ba22-9dd454db4d55",
+  "digits": "8005325274",
+  "dialedNumber": "(800) 532-5274",
+  "catalogedName": "leaving-hospital-against-medical-advice-ny",
+  "sourceId": "legal-entry:leaving-hospital-against-medical-advice-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny"
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:40:14.661Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.623Z"
+  }
+}

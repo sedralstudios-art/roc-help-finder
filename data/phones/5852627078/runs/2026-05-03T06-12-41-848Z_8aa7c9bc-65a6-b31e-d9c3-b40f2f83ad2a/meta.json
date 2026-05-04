@@ -1,0 +1,29 @@
+{
+  "callId": "8aa7c9bc-65a6-b31e-d9c3-b40f2f83ad2a",
+  "digits": "5852627078",
+  "dialedNumber": "(585) 262-7078",
+  "catalogedName": "grandparent-kinship-custody-ny",
+  "sourceId": "legal-entry:grandparent-kinship-custody-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grandparent-kinship-custody-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:12:41.848Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.851Z"
+  }
+}

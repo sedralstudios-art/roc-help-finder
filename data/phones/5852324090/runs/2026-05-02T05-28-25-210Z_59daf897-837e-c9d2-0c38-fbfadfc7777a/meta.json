@@ -1,0 +1,24 @@
+{
+  "callId": "59daf897-837e-c9d2-0c38-fbfadfc7777a",
+  "digits": "5852324090",
+  "dialedNumber": "5852324090",
+  "catalogedName": "Legal Aid Society",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:28:25.210Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.139Z"
+  }
+}

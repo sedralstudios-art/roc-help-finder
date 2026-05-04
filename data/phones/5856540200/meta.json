@@ -1,0 +1,64 @@
+{
+  "digits": "5856540200",
+  "kind": "phone",
+  "primaryName": "RTS Access (Lift Line Paratransit)",
+  "rawValue": "585-654-0200",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "liftline",
+      "name": "RTS Access (Lift Line Paratransit)",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-46-12-404Z_eb28c510-8143-c06d-dd22-b008d1961c7f",
+    "meta": {
+      "callId": "eb28c510-8143-c06d-dd22-b008d1961c7f",
+      "digits": "5856540200",
+      "dialedNumber": "585-654-0200",
+      "catalogedName": "RTS Access (Lift Line Paratransit)",
+      "sourceId": "liftline",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "liftline"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:46:12.404Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.660Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.422Z",
+  "lastSeededAt": "2026-05-03T19:44:16.422Z"
+}

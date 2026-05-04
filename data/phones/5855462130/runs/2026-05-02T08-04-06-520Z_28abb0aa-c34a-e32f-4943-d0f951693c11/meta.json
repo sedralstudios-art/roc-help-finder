@@ -1,0 +1,24 @@
+{
+  "callId": "28abb0aa-c34a-e32f-4943-d0f951693c11",
+  "digits": "5855462130",
+  "dialedNumber": "5855462130",
+  "catalogedName": "LEGAL_AID.monroeBarReferral",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:04:06.520Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.480Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "09ecc7e5-d90e-2f2b-a330-1def45554376",
+  "digits": "5853408664",
+  "dialedNumber": "5853408664",
+  "catalogedName": "Penfield Senior Programs (DEAR)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:53:48.369Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.325Z"
+  }
+}

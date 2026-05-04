@@ -1,0 +1,29 @@
+{
+  "callId": "4cbc0a33-7706-bfdb-2fa6-732cbe975c56",
+  "digits": "5857535065",
+  "dialedNumber": "(585) 753-5065",
+  "catalogedName": "summer-camp-licensing-ny",
+  "sourceId": "legal-entry:summer-camp-licensing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:48:20.006Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.115Z"
+  }
+}

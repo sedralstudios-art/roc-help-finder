@@ -1,0 +1,24 @@
+{
+  "callId": "ff26f29b-4b81-0622-0b62-d3893958ed56",
+  "digits": "5854289339",
+  "dialedNumber": "(585) 428-9339",
+  "catalogedName": "City of Rochester Examining Board of Electricians",
+  "sourceId": "electrical-residential-ny-mon-rochester-city::City of Rochester Examining Board of Electricians",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:25:09.950Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.840Z"
+  }
+}

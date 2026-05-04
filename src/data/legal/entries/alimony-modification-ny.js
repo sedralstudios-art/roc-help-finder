@@ -60,7 +60,7 @@ export const ALIMONY_MODIFICATION_NY = {
       qualifier: "Low income residents of Monroe County",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal representation in maintenance modification proceedings",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

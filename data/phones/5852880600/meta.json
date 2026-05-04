@@ -1,0 +1,70 @@
+{
+  "digits": "5852880600",
+  "kind": "phone",
+  "primaryName": "Rochester Community Animal Clinic",
+  "rawValue": "585-288-0600",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rcac",
+      "name": "Rochester Community Animal Clinic",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-12-39-770Z_693da7a6-5f0c-89cb-d9bb-b1e675621c1c",
+    "meta": {
+      "callId": "693da7a6-5f0c-89cb-d9bb-b1e675621c1c",
+      "digits": "5852880600",
+      "dialedNumber": "5852880600",
+      "catalogedName": "Rochester Community Animal Clinic",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:12:39.770Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.238Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6,
+      "extracted": "Rochester Community Animal Clinic after normal business hours",
+      "reason": "jaccard 0.60"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.426Z",
+  "lastSeededAt": "2026-05-03T19:44:16.426Z",
+  "verifiedAt": "2026-05-03T20:21:01.702Z",
+  "verifiedRun": "2026-05-02T06-12-39-770Z_693da7a6-5f0c-89cb-d9bb-b1e675621c1c",
+  "verifiedTranscriptOpening": "You have reached Rochester Community Animal Clinic after normal business hours. We are sorry to have missed your call. If your pet is having an emergency, press 1 to get the number for Rochester Emerg",
+  "verifiedMatchTokens": [
+    "community",
+    "animal",
+    "clinic"
+  ],
+  "verifiedRatio": 1
+}

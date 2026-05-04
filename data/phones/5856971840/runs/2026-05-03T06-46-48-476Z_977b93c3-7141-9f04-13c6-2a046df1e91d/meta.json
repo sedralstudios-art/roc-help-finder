@@ -1,0 +1,29 @@
+{
+  "callId": "977b93c3-7141-9f04-13c6-2a046df1e91d",
+  "digits": "5856971840",
+  "dialedNumber": "(585) 697-1840",
+  "catalogedName": "special-needs-trust-ny",
+  "sourceId": "legal-entry:special-needs-trust-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:46:48.476Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.102Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "digits": "5858727036",
+  "kind": "phone",
+  "primaryName": "Webster Building Department",
+  "rawValue": "585-872-7036",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "websterbuilding",
+      "name": "Webster Building Department",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-webster-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-webster-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-webster-town",
+      "line": 23
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-webster-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-27-56-267Z_b5fecc9a-b9bf-0987-3cde-03e4f428c510",
+    "meta": {
+      "callId": "b5fecc9a-b9bf-0987-3cde-03e4f428c510",
+      "digits": "5858727036",
+      "dialedNumber": "5858727036",
+      "catalogedName": "Webster Building Department",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:27:56.267Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.657Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.309Z",
+  "lastSeededAt": "2026-05-03T19:44:16.309Z"
+}

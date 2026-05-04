@@ -1,0 +1,113 @@
+{
+  "callId": "a509e212-69d7-d4d8-9be8-3a2bd61f4348",
+  "digits": "2126073300",
+  "dialedNumber": "(212) 607-3300",
+  "catalogedName": "anti-slapp-lawsuit-ny",
+  "sourceId": "legal-entry:anti-slapp-lawsuit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "anti-slapp-lawsuit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "article-78-proceeding-review-agency-ny"
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny"
+    },
+    {
+      "type": "entry",
+      "id": "early-voting-absentee-ballot-ny"
+    },
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny"
+    },
+    {
+      "type": "entry",
+      "id": "emtala-emergency-room-stabilization-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny"
+    },
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny"
+    },
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny"
+    },
+    {
+      "type": "entry",
+      "id": "license-plate-reader-privacy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny"
+    },
+    {
+      "type": "entry",
+      "id": "menstrual-products-schools-ny"
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny"
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny"
+    },
+    {
+      "type": "entry",
+      "id": "photography-public-places-ny"
+    },
+    {
+      "type": "entry",
+      "id": "police-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "political-signs-yard-ny"
+    },
+    {
+      "type": "entry",
+      "id": "refuse-to-show-id-police-ny"
+    },
+    {
+      "type": "entry",
+      "id": "religious-accommodation-school-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rights-when-arrested-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:53:06.543Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.893Z"
+  }
+}

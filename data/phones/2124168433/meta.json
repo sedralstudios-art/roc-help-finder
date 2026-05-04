@@ -1,0 +1,90 @@
+{
+  "digits": "2124168433",
+  "kind": "phone",
+  "primaryName": "entry-callout:computer-crimes-penal-law-156-ny",
+  "rawValue": "(212) 416-8433",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "computer-crimes-penal-law-156-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "library-borrowing-privacy-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "photo-name-used-without-permission-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-42-17-824Z_d2e8cb9a-7d66-fb65-c2c6-30ce4e27d753",
+    "meta": {
+      "callId": "d2e8cb9a-7d66-fb65-c2c6-30ce4e27d753",
+      "digits": "2124168433",
+      "dialedNumber": "(212) 416-8433",
+      "catalogedName": "computer-crimes-penal-law-156-ny",
+      "sourceId": "legal-entry:computer-crimes-penal-law-156-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "computer-crimes-penal-law-156-ny"
+        },
+        {
+          "type": "entry",
+          "id": "library-borrowing-privacy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "photo-name-used-without-permission-ny"
+        },
+        {
+          "type": "entry",
+          "id": "private-investigator-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:42:17.824Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.406Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Office of the Attorney General",
+      "reason": "transcript-stated name (New York State Office of the Attorney General) differs from catalogued (computer-crimes-penal-law-156-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.325Z",
+  "lastSeededAt": "2026-05-03T19:44:16.325Z"
+}

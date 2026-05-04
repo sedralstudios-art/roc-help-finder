@@ -60,7 +60,7 @@ export const NY_ESTATE_TAX_THRESHOLD_NY = {
       qualifier: "Executors of NY estates",
       access: "Phone at (518) 457-5387",
       outcome: "Return filing, information, payment plans",
-      phone: "(518) 457-5387",
+      phone: "",
       url: "https://www.tax.ny.gov/bus/estate/",
       verified: true,
       bilingual: false,

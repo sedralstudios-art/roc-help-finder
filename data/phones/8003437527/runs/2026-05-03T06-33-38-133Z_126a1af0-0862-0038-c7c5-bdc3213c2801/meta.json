@@ -1,0 +1,29 @@
+{
+  "callId": "126a1af0-0862-0038-c7c5-bdc3213c2801",
+  "digits": "8003437527",
+  "dialedNumber": "(800) 343-7527",
+  "catalogedName": "pesticide-worker-protection-standard-ny",
+  "sourceId": "legal-entry:pesticide-worker-protection-standard-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:33:38.133Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.011Z"
+  }
+}

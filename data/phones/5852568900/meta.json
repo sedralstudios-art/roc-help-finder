@@ -1,0 +1,77 @@
+{
+  "digits": "5852568900",
+  "kind": "phone",
+  "primaryName": "Ibero-American Action League",
+  "rawValue": "585-256-8900",
+  "blockDial": false,
+  "tags": [
+    "cat:refugeeSvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ibero",
+      "name": "Ibero-American Action League",
+      "category": "refugeeSvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "ged-hse-programs-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T05-52-38-601Z_21383a7c-c472-cf6e-25e7-2f7a044f6aec",
+    "meta": {
+      "callId": "21383a7c-c472-cf6e-25e7-2f7a044f6aec",
+      "digits": "5852568900",
+      "dialedNumber": "5852568900",
+      "catalogedName": "Ibero-American Action League",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:52:38.601Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.194Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Ibero-American Action League",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.359Z",
+  "lastSeededAt": "2026-05-03T19:44:16.359Z",
+  "verifiedAt": "2026-05-03T20:21:01.690Z",
+  "verifiedRun": "2026-05-02T05-52-38-601Z_21383a7c-c472-cf6e-25e7-2f7a044f6aec",
+  "verifiedTranscriptOpening": "Thank you for calling Ibero-American Action League. For English, press 1. Para español o prima el 2. To dial by last name, press 9. Thank you.",
+  "verifiedMatchTokens": [
+    "ibero",
+    "american",
+    "action",
+    "league"
+  ],
+  "verifiedRatio": 1
+}

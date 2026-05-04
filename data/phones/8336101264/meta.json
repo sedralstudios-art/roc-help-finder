@@ -1,0 +1,61 @@
+{
+  "digits": "8336101264",
+  "kind": "phone",
+  "primaryName": "entry-callout:ada-title-iii-public-accommodations-ny",
+  "rawValue": "833-610-1264",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ada-title-iii-public-accommodations-ny",
+      "line": 62
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-49-07-178Z_ef0db863-5acd-3a0d-382f-e1e1a203e933",
+    "meta": {
+      "callId": "ef0db863-5acd-3a0d-382f-e1e1a203e933",
+      "digits": "8336101264",
+      "dialedNumber": "833-610-1264",
+      "catalogedName": "ada-title-iii-public-accommodations-ny",
+      "sourceId": "legal-entry:ada-title-iii-public-accommodations-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ada-title-iii-public-accommodations-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:49:07.178Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.680Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.463Z",
+  "lastSeededAt": "2026-05-03T19:44:16.463Z"
+}

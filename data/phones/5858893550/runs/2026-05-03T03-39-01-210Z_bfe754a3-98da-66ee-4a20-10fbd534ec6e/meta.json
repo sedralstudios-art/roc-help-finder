@@ -1,0 +1,53 @@
+{
+  "callId": "bfe754a3-98da-66ee-4a20-10fbd534ec6e",
+  "digits": "5858893550",
+  "dialedNumber": "(585) 889-3550",
+  "catalogedName": "above-ground-pool-rules-ny",
+  "sourceId": "legal-entry:above-ground-pool-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "backyard-chicken-laws-ny"
+    },
+    {
+      "type": "entry",
+      "id": "basic-star-exemption-credit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:39:01.210Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.087Z"
+  }
+}

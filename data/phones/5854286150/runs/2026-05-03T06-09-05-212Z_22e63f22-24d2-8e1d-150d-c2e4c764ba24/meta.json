@@ -1,0 +1,29 @@
+{
+  "callId": "22e63f22-24d2-8e1d-150d-c2e4c764ba24",
+  "digits": "5854286150",
+  "dialedNumber": "(585) 428-6150",
+  "catalogedName": "federal-lead-paint-disclosure-ny",
+  "sourceId": "legal-entry:federal-lead-paint-disclosure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:09:05.212Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.825Z"
+  }
+}

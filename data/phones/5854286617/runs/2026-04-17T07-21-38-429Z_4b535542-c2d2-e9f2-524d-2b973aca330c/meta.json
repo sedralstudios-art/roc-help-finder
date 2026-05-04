@@ -1,0 +1,24 @@
+{
+  "callId": "4b535542-c2d2-e9f2-524d-2b973aca330c",
+  "digits": "5854286617",
+  "dialedNumber": "(585) 428-6617",
+  "catalogedName": "Passport Office (City Hall)",
+  "sourceId": "passport",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:21:38.429Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.836Z"
+  }
+}

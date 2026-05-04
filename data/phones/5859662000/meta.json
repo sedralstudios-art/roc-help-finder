@@ -1,0 +1,72 @@
+{
+  "digits": "5859662000",
+  "kind": "phone",
+  "primaryName": "entry-callout:kindergarten-enrollment-age-ny",
+  "rawValue": "(585) 966-2000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "whole-milk-school-meal-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-05-44-817Z_f9b7b1f8-2296-7ff6-a647-c91bb9547ad5",
+    "meta": {
+      "callId": "f9b7b1f8-2296-7ff6-a647-c91bb9547ad5",
+      "digits": "5859662000",
+      "dialedNumber": "(585) 966-2000",
+      "catalogedName": "kindergarten-enrollment-age-ny",
+      "sourceId": "legal-entry:kindergarten-enrollment-age-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "kindergarten-enrollment-age-ny"
+        },
+        {
+          "type": "entry",
+          "id": "whole-milk-school-meal-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:05:44.817Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.778Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Greece Central School District",
+      "reason": "transcript-stated name (Greece Central School District) differs from catalogued (kindergarten-enrollment-age-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.398Z",
+  "lastSeededAt": "2026-05-03T19:44:16.398Z"
+}

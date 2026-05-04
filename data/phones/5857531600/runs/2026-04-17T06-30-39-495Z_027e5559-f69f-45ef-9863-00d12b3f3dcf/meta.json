@@ -1,0 +1,24 @@
+{
+  "callId": "027e5559-f69f-45ef-9863-00d12b3f3dcf",
+  "digits": "5857531600",
+  "dialedNumber": "(585) 753-1600",
+  "catalogedName": "Monroe County Clerk — File Court Papers & Get Certified Copies",
+  "sourceId": "mclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:30:39.495Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.716Z"
+  }
+}

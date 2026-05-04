@@ -1,0 +1,70 @@
+{
+  "digits": "8454858627",
+  "kind": "phone",
+  "primaryName": "entry-callout:farm-worker-labor-rights-ny",
+  "rawValue": "(845) 485-8627",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "pesticide-worker-protection-standard-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-49-26-679Z_9817efcb-395c-5f18-5e66-ffcbc2fa7a8f",
+    "meta": {
+      "callId": "9817efcb-395c-5f18-5e66-ffcbc2fa7a8f",
+      "digits": "8454858627",
+      "dialedNumber": "(845) 485-8627",
+      "catalogedName": "farm-worker-labor-rights-ny",
+      "sourceId": "legal-entry:farm-worker-labor-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "farm-worker-labor-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pesticide-worker-protection-standard-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:49:26.679Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.690Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.392Z",
+  "lastSeededAt": "2026-05-03T19:44:16.392Z"
+}

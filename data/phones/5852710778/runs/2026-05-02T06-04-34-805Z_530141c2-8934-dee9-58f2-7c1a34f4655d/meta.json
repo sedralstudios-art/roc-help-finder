@@ -1,0 +1,24 @@
+{
+  "callId": "530141c2-8934-dee9-58f2-7c1a34f4655d",
+  "digits": "5852710778",
+  "dialedNumber": "5852710778",
+  "catalogedName": "Head Start / Free Pre-K",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:04:34.805Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.220Z"
+  }
+}

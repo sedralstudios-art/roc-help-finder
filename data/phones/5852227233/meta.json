@@ -1,0 +1,130 @@
+{
+  "digits": "5852227233",
+  "kind": "phone",
+  "primaryName": "Willow Center (Domestic Violence)",
+  "rawValue": "585-222-7233",
+  "blockDial": false,
+  "tags": [
+    "cat:domesticSvc",
+    "cat:parentalProtection",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "willow",
+      "name": "Willow Center (Domestic Violence)",
+      "category": "domesticSvc",
+      "hidden": true
+    },
+    {
+      "type": "program",
+      "id": "willowsafety",
+      "name": "Willow Center — Safety Planning for Parents",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "change-locks-tenant-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "child-victims-act-statute-of-limitations-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-legal-options-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-pet-protection-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "emergency-shelter-warming-center-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "firearm-surrender-order-protection-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "harassment-cyberstalking-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "human-trafficking-victim-relief-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "revenge-porn-online-harassment-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tenant-lock-change-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "u-visa-crime-victim-immigration-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "undocumented-rights-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-31-16-548Z_53633056-3273-ad18-5aae-58b3a68fa9ce",
+    "meta": {
+      "callId": "53633056-3273-ad18-5aae-58b3a68fa9ce",
+      "digits": "5852227233",
+      "dialedNumber": "5852227233",
+      "catalogedName": "Willow Center (Domestic Violence)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:31:16.548Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.799Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "hotline",
+      "reason": "transcript-stated name (hotline) differs from catalogued (Willow Center (Domestic Violence))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.278Z",
+  "lastSeededAt": "2026-05-03T19:44:16.278Z"
+}

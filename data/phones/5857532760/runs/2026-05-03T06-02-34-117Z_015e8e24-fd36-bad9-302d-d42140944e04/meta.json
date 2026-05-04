@@ -1,0 +1,29 @@
+{
+  "callId": "015e8e24-fd36-bad9-302d-d42140944e04",
+  "digits": "5857532760",
+  "dialedNumber": "(585) 753-2760",
+  "catalogedName": "disability-medicaid-ny",
+  "sourceId": "legal-entry:disability-medicaid-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "disability-medicaid-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:02:34.117Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.777Z"
+  }
+}

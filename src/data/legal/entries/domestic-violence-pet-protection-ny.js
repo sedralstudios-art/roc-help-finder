@@ -61,7 +61,7 @@ export const DOMESTIC_VIOLENCE_PET_PROTECTION_NY = {
       qualifier: "DV survivors in Monroe County",
       access: "24-hour hotline at (585) 222-7233",
       outcome: "Safety planning, emergency shelter, legal advocacy, pet arrangements",
-      phone: "(585) 222-7233",
+      phone: "",
       url: "https://willowcenterny.org",
       verified: true,
       bilingual: true,

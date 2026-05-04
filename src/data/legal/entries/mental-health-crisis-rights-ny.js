@@ -61,7 +61,7 @@ export const MENTAL_HEALTH_CRISIS_RIGHTS_NY = {
       qualifier: "Anyone facing involuntary commitment in Monroe County and surrounding area",
       access: "Phone at (585) 530-3050",
       outcome: "Legal representation at commitment hearings, patient rights advocacy",
-      phone: "(585) 530-3050",
+      phone: "",
       url: "https://www.nycourts.gov/courts/ad4/MHLS.shtml",
       verified: true,
       bilingual: false,

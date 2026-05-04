@@ -1,0 +1,29 @@
+{
+  "callId": "8af08d92-c4e6-f993-6e0c-a5aef388e1c5",
+  "digits": "8007010501",
+  "dialedNumber": "(800) 701-0501",
+  "catalogedName": "medicare-appeals-four-levels-ny",
+  "sourceId": "legal-entry:medicare-appeals-four-levels-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:22:57.379Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.921Z"
+  }
+}

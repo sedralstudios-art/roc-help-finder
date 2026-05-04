@@ -1,0 +1,99 @@
+{
+  "digits": "8889098872",
+  "kind": "phone",
+  "primaryName": "entry-callout:credit-freeze-security-freeze-ny",
+  "rawValue": "(888) 909-8872",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "credit-freeze-security-freeze-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-22-11-128Z_86efb9c6-0b44-950f-3cba-78d4fdaeb672",
+    "meta": {
+      "callId": "86efb9c6-0b44-950f-3cba-78d4fdaeb672",
+      "digits": "8889098872",
+      "dialedNumber": "(888) 909-8872",
+      "catalogedName": "credit-freeze-security-freeze-ny",
+      "sourceId": "legal-entry:credit-freeze-security-freeze-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "credit-freeze-security-freeze-ny"
+        },
+        {
+          "type": "entry",
+          "id": "identity-theft-ny"
+        },
+        {
+          "type": "entry",
+          "id": "identity-theft-response-steps-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lost-stolen-wallet-what-to-do-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "senior-fraud-prevention-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:22:11.128Z",
+      "durationSec": 7,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.285Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "TransUnion",
+      "reason": "transcript-stated name (TransUnion) differs from catalogued (credit-freeze-security-freeze-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.315Z",
+  "lastSeededAt": "2026-05-03T19:44:16.315Z"
+}

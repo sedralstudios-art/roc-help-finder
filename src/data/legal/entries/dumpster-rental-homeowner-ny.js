@@ -60,7 +60,7 @@ export const DUMPSTER_RENTAL_HOMEOWNER_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-6855",
       outcome: "Permit issuance, disposal guidance",
-      phone: "(585) 428-6855",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

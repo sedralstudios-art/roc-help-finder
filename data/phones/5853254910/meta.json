@@ -1,0 +1,59 @@
+{
+  "digits": "5853254910",
+  "kind": "phone",
+  "primaryName": "Baden Street Settlement",
+  "rawValue": "585-325-4910",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "baden",
+      "name": "Baden Street Settlement",
+      "category": "clothing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-30-58-055Z_cc44679e-b08d-383d-38dc-e813ae5c9da5",
+    "meta": {
+      "callId": "cc44679e-b08d-383d-38dc-e813ae5c9da5",
+      "digits": "5853254910",
+      "dialedNumber": "5853254910",
+      "catalogedName": "Baden Street Settlement",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:30:58.055Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.277Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.424Z",
+  "lastSeededAt": "2026-05-03T19:44:16.424Z"
+}

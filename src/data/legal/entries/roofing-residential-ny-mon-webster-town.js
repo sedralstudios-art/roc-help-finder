@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_WEBSTER_TOWN = {
   title: { en: "Residential Roofing in the Town of Webster — Permits, Plan Review, and the Village of Webster Boundary" },
 
   summary: {
-    en: "The Town of Webster requires building permits for construction work that has to meet the NY State Uniform Fire Prevention and Building Code. A typical roof replacement or structural roof repair needs a permit. Insurance certificates have to list the Town of Webster as certificate holder. For construction over $20,000, stamped plans from a licensed architect or engineer are required. The Village of Webster is a separate jurisdiction inside the town — which office handles a permit depends on which side of the village line the property sits. The Webster Building Department at (585) 872-7036 confirms permit requirements before a specific project starts."
+    en: "The Town of Webster requires building permits for construction work that has to meet the NY State Uniform Fire Prevention and Building Code. A typical roof replacement or structural roof repair needs a permit. Insurance certificates have to list the Town of Webster as certificate holder. For construction over $20,000, stamped plans from a licensed architect or engineer are required. The Village of Webster is a separate jurisdiction inside the town — which office handles a permit depends on which side of the village line the property sits. The Webster Building Department at [number being verified] confirms permit requirements before a specific project starts."
   },
 
   whatItMeans: {
@@ -55,7 +55,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_WEBSTER_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "1000 Ridge Road, Webster, NY 14580; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 872-7036",
+      phone: "",
       url: "https://www.websterny.gov/162/Building-Department",
       verified: true,
       bilingual: false,

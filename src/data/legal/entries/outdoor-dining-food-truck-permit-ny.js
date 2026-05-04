@@ -59,7 +59,7 @@ export const OUTDOOR_DINING_FOOD_TRUCK_PERMIT_NY = {
       qualifier: "Anyone operating or concerned about a food establishment in Monroe County",
       access: "Phone at (585) 753-5555",
       outcome: "Permit processing, inspections, complaint investigation",
-      phone: "(585) 753-5555",
+      phone: "",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

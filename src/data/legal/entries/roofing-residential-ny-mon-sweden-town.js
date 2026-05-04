@@ -11,7 +11,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_SWEDEN_TOWN = {
   },
 
   summary: {
-    en: "The Town of Sweden enforces the New York Uniform Fire Prevention and Building Code (adopted statewide under Executive Law 379) through Chapter 64 of the Town Code. The Building Department at (585) 637-8684 confirms whether a specific roofing project needs a permit. The town does not publish a roofing-specific guide, so a call before starting work is the reliable path. Residential construction plans are submitted to the Town Clerk in duplicate. The Village of Brockport straddles Sweden and the Town of Clarkson, so jurisdiction is confirmed by address before the application is filed."
+    en: "The Town of Sweden enforces the New York Uniform Fire Prevention and Building Code (adopted statewide under Executive Law 379) through Chapter 64 of the Town Code. The Building Department at [number being verified] confirms whether a specific roofing project needs a permit. The town does not publish a roofing-specific guide, so a call before starting work is the reliable path. Residential construction plans are submitted to the Town Clerk in duplicate. The Village of Brockport straddles Sweden and the Town of Clarkson, so jurisdiction is confirmed by address before the application is filed."
   },
 
   whatItMeans: {
@@ -19,7 +19,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_SWEDEN_TOWN = {
   },
 
   example: {
-    en: "A homeowner in Sweden, outside village limits, plans a reroof that will also replace two sheets of soft decking. The homeowner calls the Building Department at (585) 637-8684. The inspector confirms the decking replacement pushes the job into the alteration category, emails the application, and asks for the plans in duplicate at the Town Clerk. The permit issues three days later and the inspection is scheduled after the tear-off."
+    en: "A homeowner in Sweden, outside village limits, plans a reroof that will also replace two sheets of soft decking. The homeowner calls the Building Department at [number being verified]. The inspector confirms the decking replacement pushes the job into the alteration category, emails the application, and asks for the plans in duplicate at the Town Clerk. The permit issues three days later and the inspection is scheduled after the tear-off."
   },
 
   whoQualifies: {
@@ -59,7 +59,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_SWEDEN_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "18 State Street, Brockport, NY 14420; phone; fax 585-637-7389",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 637-8684",
+      phone: "",
       url: "https://www.townofsweden.org/departments/building-department",
       verified: true,
       bilingual: false,

@@ -1,0 +1,59 @@
+{
+  "digits": "5856374260",
+  "kind": "phone",
+  "primaryName": "Clarkson Dog Control",
+  "rawValue": "585-637-4260",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "clarksondogcontrol",
+      "name": "Clarkson Dog Control",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-41-47-460Z_514ca427-323a-1694-9ac7-5fe1f832d8db",
+    "meta": {
+      "callId": "514ca427-323a-1694-9ac7-5fe1f832d8db",
+      "digits": "5856374260",
+      "dialedNumber": "5856374260",
+      "catalogedName": "Clarkson Dog Control",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:41:47.460Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.559Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.438Z",
+  "lastSeededAt": "2026-05-03T19:44:16.438Z"
+}

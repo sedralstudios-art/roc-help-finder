@@ -1,0 +1,24 @@
+{
+  "callId": "a732c636-446c-895b-92c4-51f6f45cb0a8",
+  "digits": "5856371044",
+  "dialedNumber": "5856371044",
+  "catalogedName": "Brockport Village Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:34:04.628Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.543Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "9295b533-1b3e-6d38-2e0c-5e3d6c90ffd6",
+  "digits": "5854345577",
+  "dialedNumber": "(585) 434-5577",
+  "catalogedName": "charitable-solicitation-registration-ny",
+  "sourceId": "legal-entry:charitable-solicitation-registration-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny"
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-religious-charitable-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:33:02.114Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.576Z"
+  }
+}

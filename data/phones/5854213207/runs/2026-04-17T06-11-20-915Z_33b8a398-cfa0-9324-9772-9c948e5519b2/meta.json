@@ -1,0 +1,24 @@
+{
+  "callId": "33b8a398-cfa0-9324-9772-9c948e5519b2",
+  "digits": "5854213207",
+  "dialedNumber": "(585) 421-3207",
+  "catalogedName": "Village of Fairport Building and Code Enforcement",
+  "sourceId": "electrical-residential-ny-mon-fairport-village::Village of Fairport Building and Code Enforcement",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:11:20.915Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.692Z"
+  }
+}

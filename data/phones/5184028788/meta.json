@@ -1,0 +1,61 @@
+{
+  "digits": "5184028788",
+  "kind": "phone",
+  "primaryName": "entry-callout:lawn-pesticide-neighbor-notice-ny",
+  "rawValue": "(518) 402-8788",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lawn-pesticide-neighbor-notice-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-19-12-758Z_5d80cf7f-a9e2-2bdb-b8fd-1a5d0b96bada",
+    "meta": {
+      "callId": "5d80cf7f-a9e2-2bdb-b8fd-1a5d0b96bada",
+      "digits": "5184028788",
+      "dialedNumber": "(518) 402-8788",
+      "catalogedName": "lawn-pesticide-neighbor-notice-ny",
+      "sourceId": "legal-entry:lawn-pesticide-neighbor-notice-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lawn-pesticide-neighbor-notice-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:19:12.758Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.895Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.518Z",
+  "lastSeededAt": "2026-05-03T19:44:16.518Z"
+}

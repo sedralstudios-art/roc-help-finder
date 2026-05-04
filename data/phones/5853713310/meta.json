@@ -1,0 +1,187 @@
+{
+  "digits": "5853713310",
+  "kind": "phone",
+  "primaryName": "entry-callout:adoption-basics-ny",
+  "rawValue": "(585) 371-3310",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adoption-basics-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "adult-adoption-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "contest-will-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "death-certificate-ordering-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "disclaim-inheritance-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "estate-administrator-commissions-scpa-2307-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "partition-joint-property-rpapl-9-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "right-of-disposition-remains-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "safe-deposit-box-after-death-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "small-estate-affidavit-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "standby-guardianship-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "trust-accounting-scpa-2210-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-estate-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-death-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-01-44-374Z_fc676fd5-da50-04fa-873a-1d080d26ec97",
+    "meta": {
+      "callId": "fc676fd5-da50-04fa-873a-1d080d26ec97",
+      "digits": "5853713310",
+      "dialedNumber": "(585) 371-3310",
+      "catalogedName": "adoption-basics-ny",
+      "sourceId": "legal-entry:adoption-basics-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "adoption-basics-ny"
+        },
+        {
+          "type": "entry",
+          "id": "adult-adoption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "beneficiary-designation-trumps-will-ny"
+        },
+        {
+          "type": "entry",
+          "id": "contest-will-ny"
+        },
+        {
+          "type": "entry",
+          "id": "death-certificate-ordering-ny"
+        },
+        {
+          "type": "entry",
+          "id": "disclaim-inheritance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "estate-administrator-commissions-scpa-2307-ny"
+        },
+        {
+          "type": "entry",
+          "id": "partition-joint-property-rpapl-9-ny"
+        },
+        {
+          "type": "entry",
+          "id": "right-of-disposition-remains-ny"
+        },
+        {
+          "type": "entry",
+          "id": "safe-deposit-box-after-death-ny"
+        },
+        {
+          "type": "entry",
+          "id": "small-estate-affidavit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "standby-guardianship-ny"
+        },
+        {
+          "type": "entry",
+          "id": "trust-accounting-scpa-2210-ny"
+        },
+        {
+          "type": "entry",
+          "id": "when-someone-dies-estate-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-death-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:01:44.374Z",
+      "durationSec": 14,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.932Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.277Z",
+  "lastSeededAt": "2026-05-03T19:44:16.277Z"
+}

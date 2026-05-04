@@ -1,0 +1,79 @@
+{
+  "digits": "8004245323",
+  "kind": "phone",
+  "primaryName": "entry-callout:apartment-mold-disclosure-sale-ny",
+  "rawValue": "(800) 424-5323",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "apartment-mold-disclosure-sale-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "tenant-paint-lead-safe-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-32-48-433Z_6834ad67-06aa-9384-d772-84b24739df0a",
+    "meta": {
+      "callId": "6834ad67-06aa-9384-d772-84b24739df0a",
+      "digits": "8004245323",
+      "dialedNumber": "(800) 424-5323",
+      "catalogedName": "apartment-mold-disclosure-sale-ny",
+      "sourceId": "legal-entry:apartment-mold-disclosure-sale-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "apartment-mold-disclosure-sale-ny"
+        },
+        {
+          "type": "entry",
+          "id": "federal-lead-paint-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tenant-paint-lead-safe-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:32:48.433Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.326Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.339Z",
+  "lastSeededAt": "2026-05-03T19:44:16.339Z"
+}

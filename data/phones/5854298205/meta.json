@@ -1,0 +1,40 @@
+{
+  "digits": "5854298205",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-36-36-047Z_660dc0a0-811b-24af-f80e-ffed2721769e",
+    "meta": {
+      "callId": "660dc0a0-811b-24af-f80e-ffed2721769e",
+      "digits": "5854298205",
+      "dialedNumber": "5854298205",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:36:36.047Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.419Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

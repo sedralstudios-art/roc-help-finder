@@ -1,0 +1,29 @@
+{
+  "callId": "180a1678-d37b-6a3c-ff86-bdd3231223fa",
+  "digits": "5184748724",
+  "dialedNumber": "(518) 474-8724",
+  "catalogedName": "eyeglass-contact-lens-prescription-release-ny",
+  "sourceId": "legal-entry:eyeglass-contact-lens-prescription-release-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:08:15.270Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.820Z"
+  }
+}

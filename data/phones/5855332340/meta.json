@@ -1,0 +1,67 @@
+{
+  "digits": "5855332340",
+  "kind": "phone",
+  "primaryName": "Rush Senior Citizens",
+  "rawValue": "585-533-2340",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rushsenior",
+      "name": "Rush Senior Citizens",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rushrec",
+      "name": "Rush Recreation",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-00-56-392Z_a167e5aa-3c8d-c72f-3970-8deda56e1f39",
+    "meta": {
+      "callId": "a167e5aa-3c8d-c72f-3970-8deda56e1f39",
+      "digits": "5855332340",
+      "dialedNumber": "5855332340",
+      "catalogedName": "Rush Senior Citizens",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:00:56.392Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.474Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.362Z",
+  "lastSeededAt": "2026-05-03T19:44:16.362Z"
+}

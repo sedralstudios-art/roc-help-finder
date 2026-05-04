@@ -1,0 +1,67 @@
+{
+  "digits": "5857845152",
+  "kind": "phone",
+  "primaryName": "Brighton Town Court",
+  "rawValue": "585-784-5152",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightoncourt",
+      "name": "Brighton Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-15-46-786Z_ca316a5a-ff37-fcbf-9270-2a4ab19a77e9",
+    "meta": {
+      "callId": "ca316a5a-ff37-fcbf-9270-2a4ab19a77e9",
+      "digits": "5857845152",
+      "dialedNumber": "5857845152",
+      "catalogedName": "Brighton Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:15:46.786Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.631Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.430Z",
+  "lastSeededAt": "2026-05-03T19:44:16.430Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:12:22.205Z",
+      "sourceUrl": "https://www.brightonny.gov/64/Town-Court",
+      "sourceLabel": "Brighton Town Court official page",
+      "notes": "Web confirms (585) 784-5152 as Brighton Town Court main line. Initial search conflated with Building & Planning (5250); direct page fetch clarified."
+    }
+  ]
+}

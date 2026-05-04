@@ -1,0 +1,29 @@
+{
+  "callId": "c5901db1-eedf-cec4-5722-03159324138b",
+  "digits": "5855303000",
+  "dialedNumber": "(585) 530-3000",
+  "catalogedName": "leaving-hospital-against-medical-advice-ny",
+  "sourceId": "legal-entry:leaving-hospital-against-medical-advice-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "leaving-hospital-against-medical-advice-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:19:46.037Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.898Z"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "digits": "5852231617",
+  "kind": "phone",
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-18-50-795Z_550a7a46-9159-80a0-b72d-2bad96ad062a",
+    "meta": {
+      "callId": "550a7a46-9159-80a0-b72d-2bad96ad062a",
+      "digits": "5852231617",
+      "dialedNumber": "5852231617",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:18:50.795Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.117Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Parentin Recreation 55 Plus office",
+      "reason": "transcript-stated name (Parentin Recreation 55 Plus office) differs from catalogued (null)"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

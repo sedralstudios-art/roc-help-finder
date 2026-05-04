@@ -1,0 +1,45 @@
+{
+  "callId": "10e963fb-215d-1777-aec4-d8e3f8109243",
+  "digits": "8883821222",
+  "dialedNumber": "(888) 382-1222",
+  "catalogedName": "extended-warranty-scam-ny",
+  "sourceId": "legal-entry:extended-warranty-scam-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "extended-warranty-scam-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-telemarketing-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "robocall-donotcall-ny"
+    },
+    {
+      "type": "entry",
+      "id": "telemarketer-donotcall-ny"
+    },
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:25:56.386Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.301Z"
+  }
+}

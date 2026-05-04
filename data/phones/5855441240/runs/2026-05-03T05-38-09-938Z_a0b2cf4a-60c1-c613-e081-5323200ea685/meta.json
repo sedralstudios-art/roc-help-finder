@@ -1,0 +1,33 @@
+{
+  "callId": "a0b2cf4a-60c1-c613-e081-5323200ea685",
+  "digits": "5855441240",
+  "dialedNumber": "(585) 544-1240",
+  "catalogedName": "hearing-aid-coverage-children-ny",
+  "sourceId": "legal-entry:hearing-aid-coverage-children-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-help-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:38:09.938Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.609Z"
+  }
+}

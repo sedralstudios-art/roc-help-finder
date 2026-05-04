@@ -1,0 +1,24 @@
+{
+  "callId": "e3b36425-6c42-771e-98f2-3973218b0769",
+  "digits": "5857604328",
+  "dialedNumber": "(585) 760-4328",
+  "catalogedName": "New Hope Immigration Legal Services",
+  "sourceId": "newhopeilm",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:13:31.438Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.976Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "54c59d91-8340-8732-edcf-e1cf96a5c2be",
+  "digits": "5856372144",
+  "dialedNumber": "(585) 637-2144",
+  "catalogedName": "Sweden Town Clerk",
+  "sourceId": "swedenclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:41:14.712Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.933Z"
+  }
+}

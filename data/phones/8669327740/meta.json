@@ -1,0 +1,69 @@
+{
+  "digits": "8669327740",
+  "kind": "phone",
+  "primaryName": "Medicaid Transportation (Free Medical Rides)",
+  "rawValue": "866-932-7740",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "medicaidride",
+      "name": "Medicaid Transportation (Free Medical Rides)",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-20-05-543Z_06a44ffb-7dca-edb3-c8c4-36a3bfd4bfc5",
+    "meta": {
+      "callId": "06a44ffb-7dca-edb3-c8c4-36a3bfd4bfc5",
+      "digits": "8669327740",
+      "dialedNumber": "8669327740",
+      "catalogedName": "Medicaid Transportation (Free Medical Rides)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:20:05.543Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.774Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "MAS",
+      "reason": "transcript-stated name (MAS) differs from catalogued (Medicaid Transportation (Free Medical Rides))"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.423Z",
+  "lastSeededAt": "2026-05-03T19:44:16.423Z",
+  "verifiedAt": "2026-05-03T20:21:01.865Z",
+  "verifiedRun": "2026-05-02T10-20-05-543Z_06a44ffb-7dca-edb3-c8c4-36a3bfd4bfc5",
+  "verifiedTranscriptOpening": "Thank you for calling MAS, your connection to non-emergency medical transportation. If you are experiencing a true medical emergency, please hang up and dial 911. Exciting news for medical providers, ",
+  "verifiedMatchTokens": [
+    "transportation",
+    "medical"
+  ],
+  "verifiedRatio": 0.5
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "c54e5460-fd8c-734c-08fe-dfc1c8833012",
+  "digits": "8002477421",
+  "dialedNumber": "(800) 247-7421",
+  "catalogedName": "molst-medical-orders-ny",
+  "sourceId": "legal-entry:molst-medical-orders-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "molst-medical-orders-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:25:27.157Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.938Z"
+  }
+}

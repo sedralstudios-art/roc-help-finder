@@ -1,0 +1,33 @@
+{
+  "callId": "a90c33bb-fc38-6024-baca-023ba625be0d",
+  "digits": "8448782274",
+  "dialedNumber": "(844) 878-2274",
+  "catalogedName": "photo-name-used-without-permission-ny",
+  "sourceId": "legal-entry:photo-name-used-without-permission-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "photo-name-used-without-permission-ny"
+    },
+    {
+      "type": "entry",
+      "id": "revenge-porn-online-harassment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:31:20.871Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.906Z"
+  }
+}

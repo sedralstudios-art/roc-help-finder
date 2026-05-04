@@ -1,0 +1,59 @@
+{
+  "digits": "5859648748",
+  "kind": "phone",
+  "primaryName": "Hamlin Assessor",
+  "rawValue": "585-964-8748",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hamlinassessor",
+      "name": "Hamlin Assessor",
+      "category": "housing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-59-01-435Z_b411aa74-c78d-91ac-300c-f620d37b8b11",
+    "meta": {
+      "callId": "b411aa74-c78d-91ac-300c-f620d37b8b11",
+      "digits": "5859648748",
+      "dialedNumber": "5859648748",
+      "catalogedName": "Hamlin Assessor",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:59:01.435Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.723Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.443Z",
+  "lastSeededAt": "2026-05-03T19:44:16.443Z"
+}

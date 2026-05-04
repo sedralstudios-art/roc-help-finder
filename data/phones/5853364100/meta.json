@@ -1,0 +1,36 @@
+{
+  "digits": "5853364100",
+  "kind": "phone",
+  "primaryName": "Free School Meals",
+  "rawValue": "585-336-4100",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "meals",
+      "name": "Free School Meals",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.411Z",
+  "lastSeededAt": "2026-05-03T19:44:16.411Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:46:39.310Z",
+      "sourceUrl": "https://www.rcsdk12.org/departments/food-services",
+      "sourceLabel": "RCSD Food Services department page",
+      "notes": "Web confirms 585-336-4100 as RCSD Food and Nutrition Department line. Email sfs@rcsdk12.org also available."
+    }
+  ]
+}

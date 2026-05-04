@@ -1,0 +1,61 @@
+{
+  "digits": "2023662220",
+  "kind": "phone",
+  "primaryName": "entry-callout:airline-passenger-rights-ny",
+  "rawValue": "(202) 366-2220",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "airline-passenger-rights-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-49-48-756Z_ffd5e317-4a7f-a60a-34b9-f3707db2efb4",
+    "meta": {
+      "callId": "ffd5e317-4a7f-a60a-34b9-f3707db2efb4",
+      "digits": "2023662220",
+      "dialedNumber": "(202) 366-2220",
+      "catalogedName": "airline-passenger-rights-ny",
+      "sourceId": "legal-entry:airline-passenger-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "airline-passenger-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:49:48.756Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.685Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.464Z",
+  "lastSeededAt": "2026-05-03T19:44:16.464Z"
+}

@@ -1,0 +1,59 @@
+{
+  "digits": "5857814063",
+  "kind": "phone",
+  "primaryName": "Hamlin Seniors Program",
+  "rawValue": "585-781-4063",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hamlinsenior",
+      "name": "Hamlin Seniors Program",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-13-55-231Z_5c29dc1b-d727-95ae-986f-f96197000195",
+    "meta": {
+      "callId": "5c29dc1b-d727-95ae-986f-f96197000195",
+      "digits": "5857814063",
+      "dialedNumber": "5857814063",
+      "catalogedName": "Hamlin Seniors Program",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:13:55.231Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.627Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.443Z",
+  "lastSeededAt": "2026-05-03T19:44:16.443Z"
+}

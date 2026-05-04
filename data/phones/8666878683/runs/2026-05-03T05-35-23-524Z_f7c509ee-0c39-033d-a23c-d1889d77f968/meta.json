@@ -1,0 +1,33 @@
+{
+  "callId": "f7c509ee-0c39-033d-a23c-d1889d77f968",
+  "digits": "8666878683",
+  "dialedNumber": "(866) 687-8683",
+  "catalogedName": "early-voting-absentee-ballot-ny",
+  "sourceId": "legal-entry:early-voting-absentee-ballot-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "early-voting-absentee-ballot-ny"
+    },
+    {
+      "type": "entry",
+      "id": "voting-rights-after-conviction-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:35:23.524Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.592Z"
+  }
+}

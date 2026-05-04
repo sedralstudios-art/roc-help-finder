@@ -1,0 +1,57 @@
+{
+  "callId": "35036b01-5cc9-b8c0-5c15-83089387c776",
+  "digits": "8553221022",
+  "dialedNumber": "(855) 322-1022",
+  "catalogedName": "birth-certificate-correction-ny",
+  "sourceId": "legal-entry:birth-certificate-correction-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "birth-certificate-correction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "death-certificate-ordering-ny"
+    },
+    {
+      "type": "entry",
+      "id": "gender-marker-change-ny"
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "marriage-certificate-copy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "real-id-enhanced-license-ny"
+    },
+    {
+      "type": "entry",
+      "id": "replacement-birth-certificate-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vital-records-request-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:33:14.724Z",
+  "durationSec": 21,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.053Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "e04a55c1-7d1c-fc3b-5e4a-e4e6ea0e27bd",
+  "digits": "5857536044",
+  "dialedNumber": "585-753-6044",
+  "catalogedName": "Emergency Shelter (Homeless)",
+  "sourceId": "shelter",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "shelter"
+    },
+    {
+      "type": "entry",
+      "id": "after-a-fire-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:29:34.168Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.552Z"
+  }
+}

@@ -60,7 +60,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
       qualifier: "Any NYS rider",
       access: "Online at parks.ny.gov or (518) 474-0456",
       outcome: "Registration, trail maps, safety course enrollment",
-      phone: "(518) 474-0456",
+      phone: "",
       url: "https://parks.ny.gov/recreation/snowmobiles/",
       verified: true,
       bilingual: false,

@@ -1,0 +1,59 @@
+{
+  "digits": "5852340799",
+  "kind": "phone",
+  "primaryName": "Penfield Ecumenical Food Shelf",
+  "rawValue": "585-234-0799",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "penfieldfoodshelf",
+      "name": "Penfield Ecumenical Food Shelf",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-31-19-983Z_3147a870-f080-1f27-1ab4-ac26dcf48616",
+    "meta": {
+      "callId": "3147a870-f080-1f27-1ab4-ac26dcf48616",
+      "digits": "5852340799",
+      "dialedNumber": "5852340799",
+      "catalogedName": "Penfield Ecumenical Food Shelf",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:31:19.983Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.146Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.452Z",
+  "lastSeededAt": "2026-05-03T19:44:16.452Z"
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "3e6f704b-64b4-6d1e-f025-d29db8431e51",
+  "digits": "2123645340",
+  "dialedNumber": "(212) 364-5340",
+  "catalogedName": "assigned-counsel-program-ny",
+  "sourceId": "legal-entry:assigned-counsel-program-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assigned-counsel-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "plea-withdrawal-cpl-220-60-ny"
+    },
+    {
+      "type": "entry",
+      "id": "post-conviction-440-motion-ny"
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-conviction-compensation-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:12:26.622Z",
+  "durationSec": 15,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.247Z"
+  }
+}

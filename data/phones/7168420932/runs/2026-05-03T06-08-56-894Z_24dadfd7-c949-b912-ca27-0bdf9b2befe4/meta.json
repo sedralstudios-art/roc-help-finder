@@ -1,0 +1,29 @@
+{
+  "callId": "24dadfd7-c949-b912-ca27-0bdf9b2befe4",
+  "digits": "7168420932",
+  "dialedNumber": "(716) 842-0932",
+  "catalogedName": "farm-worker-labor-rights-ny",
+  "sourceId": "legal-entry:farm-worker-labor-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "farm-worker-labor-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:08:56.894Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.824Z"
+  }
+}

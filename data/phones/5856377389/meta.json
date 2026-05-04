@@ -1,0 +1,61 @@
+{
+  "digits": "5856377389",
+  "kind": "phone",
+  "primaryName": "entry-callout:roofing-residential-ny-mon-sweden-town",
+  "rawValue": "585-637-7389",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-sweden-town",
+      "line": 60
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-41-48-968Z_c1ea9234-edbc-2ecc-b062-315aa09969e4",
+    "meta": {
+      "callId": "c1ea9234-edbc-2ecc-b062-315aa09969e4",
+      "digits": "5856377389",
+      "dialedNumber": "585-637-7389",
+      "catalogedName": "roofing-residential-ny-mon-sweden-town",
+      "sourceId": "legal-entry:roofing-residential-ny-mon-sweden-town",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "roofing-residential-ny-mon-sweden-town"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:41:48.968Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.068Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.560Z",
+  "lastSeededAt": "2026-05-03T19:44:16.560Z"
+}

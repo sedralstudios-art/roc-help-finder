@@ -1,0 +1,24 @@
+{
+  "callId": "05811234-34c2-2ef0-fc1d-3fa370c8765f",
+  "digits": "5858727009",
+  "dialedNumber": "5858727009",
+  "catalogedName": "Webster Animal Control",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:25:54.883Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.651Z"
+  }
+}

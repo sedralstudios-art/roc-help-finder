@@ -60,7 +60,7 @@ export const LOTTERY_PRIZE_CLAIMS_NY = {
       qualifier: "Any lottery winner in New York",
       access: "Phone or in person",
       outcome: "Prize validation and payment",
-      phone: "(518) 388-3300",
+      phone: "",
       url: "https://nylottery.ny.gov/claim-a-prize",
       verified: true,
       bilingual: false,

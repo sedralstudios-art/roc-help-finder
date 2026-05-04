@@ -1,0 +1,61 @@
+{
+  "digits": "8774872778",
+  "kind": "phone",
+  "primaryName": "entry-callout:passport-denial-child-support-ny",
+  "rawValue": "(877) 487-2778",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "passport-denial-child-support-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-32-23-281Z_ce9f2f10-4ff4-0578-6d32-80db2471f9ab",
+    "meta": {
+      "callId": "ce9f2f10-4ff4-0578-6d32-80db2471f9ab",
+      "digits": "8774872778",
+      "dialedNumber": "(877) 487-2778",
+      "catalogedName": "passport-denial-child-support-ny",
+      "sourceId": "legal-entry:passport-denial-child-support-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "passport-denial-child-support-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:32:23.281Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.003Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.542Z",
+  "lastSeededAt": "2026-05-03T19:44:16.542Z"
+}

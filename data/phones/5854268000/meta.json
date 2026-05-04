@@ -1,0 +1,69 @@
+{
+  "digits": "5854268000",
+  "kind": "phone",
+  "primaryName": "DePaul (Mental Health + Addiction Housing)",
+  "rawValue": "585-426-8000",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "depaul",
+      "name": "DePaul (Mental Health + Addiction Housing)",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-28-36-961Z_aeb616c1-facf-1c3b-66e3-13501072ce7e",
+    "meta": {
+      "callId": "aeb616c1-facf-1c3b-66e3-13501072ce7e",
+      "digits": "5854268000",
+      "dialedNumber": "5854268000",
+      "catalogedName": "DePaul (Mental Health + Addiction Housing)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:28:36.961Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.402Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7,
+      "score": 0.2,
+      "extracted": "DePaul",
+      "reason": "jaccard 0.20"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.416Z",
+  "lastSeededAt": "2026-05-03T19:44:16.416Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:05:52.070Z",
+      "sourceUrl": "http://www.depaul.org/",
+      "sourceLabel": "DePaul official site",
+      "notes": "Web confirms (585) 426-8000 for DePaul Rochester main line."
+    }
+  ]
+}

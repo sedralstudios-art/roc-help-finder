@@ -1,0 +1,24 @@
+{
+  "callId": "39f709db-fc71-26c7-b030-76b396bbd19d",
+  "digits": "5853597009",
+  "dialedNumber": "5853597009",
+  "catalogedName": "Henrietta Animal Control",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:01:41.157Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.342Z"
+  }
+}

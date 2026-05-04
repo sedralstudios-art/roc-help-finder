@@ -1,0 +1,56 @@
+{
+  "digits": "5854231500",
+  "kind": "phone",
+  "primaryName": "entry-callout:section-8-housing-voucher-walkthrough-ny",
+  "rawValue": "(585) 423-1500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-walkthrough-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-24-37-188Z_64c74c3e-4079-2cc8-af8e-5e09a587dbe9",
+    "meta": {
+      "callId": "64c74c3e-4079-2cc8-af8e-5e09a587dbe9",
+      "digits": "5854231500",
+      "dialedNumber": "5854231500",
+      "catalogedName": "entry-callout:section-8-housing-voucher-walkthrough-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:24:37.188Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.393Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.564Z",
+  "lastSeededAt": "2026-05-03T19:44:16.564Z"
+}

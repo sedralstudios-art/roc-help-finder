@@ -1,0 +1,41 @@
+{
+  "callId": "d5f2211c-af7e-ee0d-d370-9487e7cb8843",
+  "digits": "8007431701",
+  "dialedNumber": "1-800-743-1701",
+  "catalogedName": "UTILITIES.rgeMain",
+  "sourceId": "pole:UTILITIES.rgeMain",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "UTILITIES.rgeMain"
+    },
+    {
+      "type": "entry",
+      "id": "furnace-repair-scam-ny"
+    },
+    {
+      "type": "entry",
+      "id": "solar-net-metering-ny"
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:36:25.807Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.385Z"
+  }
+}

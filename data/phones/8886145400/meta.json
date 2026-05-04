@@ -1,0 +1,149 @@
+{
+  "digits": "8886145400",
+  "kind": "phone",
+  "primaryName": "Community Health Advocates (Medicaid Help)",
+  "rawValue": "888-614-5400",
+  "blockDial": false,
+  "tags": [
+    "cat:legalBenefits",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "cssnyHealth",
+      "value": "888-614-5400",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "medicaidadvocate",
+      "name": "Community Health Advocates (Medicaid Help)",
+      "category": "legalBenefits",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "aca-preventive-care-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "cobra-health-insurance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "contraception-coverage-ccca-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "essential-plan-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-application-walkthrough-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-external-appeal-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "hospital-financial-assistance-charity-care-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "medical-debt-ny",
+      "line": 33
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-parity-insurance-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "prior-authorization-step-therapy-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-bills-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "telehealth-rights-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-29-01-814Z_0168da1e-7658-120a-4c6b-99b5f05352bf",
+    "meta": {
+      "callId": "0168da1e-7658-120a-4c6b-99b5f05352bf",
+      "digits": "8886145400",
+      "dialedNumber": "8886145400",
+      "catalogedName": "Community Health Advocates (Medicaid Help)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:29:01.814Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.794Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6,
+      "extracted": "Community Health Advocates",
+      "reason": "jaccard 0.60"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.276Z",
+  "lastSeededAt": "2026-05-03T19:44:16.276Z",
+  "verifiedAt": "2026-05-03T20:21:01.875Z",
+  "verifiedRun": "2026-05-02T10-29-01-814Z_0168da1e-7658-120a-4c6b-99b5f05352bf",
+  "verifiedTranscriptOpening": "You have reached Community Health Advocates, the CSS Navigator Network and the Community Health Access to Addiction and Mental Health Care Project. If this is a medical or mental health emergency, ple",
+  "verifiedMatchTokens": [
+    "community",
+    "health",
+    "advocates"
+  ],
+  "verifiedRatio": 0.75
+}

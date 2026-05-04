@@ -1,0 +1,24 @@
+{
+  "callId": "aeb616c1-facf-1c3b-66e3-13501072ce7e",
+  "digits": "5854268000",
+  "dialedNumber": "5854268000",
+  "catalogedName": "DePaul (Mental Health + Addiction Housing)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:28:36.961Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.402Z"
+  }
+}

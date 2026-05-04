@@ -1,0 +1,70 @@
+{
+  "digits": "8007325207",
+  "kind": "phone",
+  "primaryName": "entry-callout:child-care-licensing-ny",
+  "rawValue": "(800) 732-5207",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-care-licensing-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "daycare-complaint-licensing-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-27-50-033Z_30ee8862-1dc1-9b75-b453-19611bd5086e",
+    "meta": {
+      "callId": "30ee8862-1dc1-9b75-b453-19611bd5086e",
+      "digits": "8007325207",
+      "dialedNumber": "(800) 732-5207",
+      "catalogedName": "child-care-licensing-ny",
+      "sourceId": "legal-entry:child-care-licensing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "child-care-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "daycare-complaint-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:27:50.033Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.591Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.382Z",
+  "lastSeededAt": "2026-05-03T19:44:16.382Z"
+}

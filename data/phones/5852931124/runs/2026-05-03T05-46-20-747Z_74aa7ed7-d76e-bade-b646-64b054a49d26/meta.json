@@ -1,0 +1,29 @@
+{
+  "callId": "74aa7ed7-d76e-bade-b646-64b054a49d26",
+  "digits": "5852931124",
+  "dialedNumber": "585-293-1124",
+  "catalogedName": "Riga Assessor",
+  "sourceId": "rigaassessor",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rigaassessor"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:46:20.747Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.661Z"
+  }
+}

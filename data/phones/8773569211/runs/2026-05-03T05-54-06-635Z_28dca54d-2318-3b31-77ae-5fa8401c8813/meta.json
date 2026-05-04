@@ -1,0 +1,29 @@
+{
+  "callId": "28dca54d-2318-3b31-77ae-5fa8401c8813",
+  "digits": "8773569211",
+  "dialedNumber": "1-877-356-9211",
+  "catalogedName": "bottle-deposit-returnable-ny",
+  "sourceId": "legal-entry:bottle-deposit-returnable-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-deposit-returnable-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:54:06.635Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.714Z"
+  }
+}

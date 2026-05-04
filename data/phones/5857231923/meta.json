@@ -1,0 +1,70 @@
+{
+  "digits": "5857231923",
+  "kind": "phone",
+  "primaryName": "entry-callout:hvac-residential-ny-mon-greece-town",
+  "rawValue": "(585) 723-1923",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-greece-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-greece-town",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-02-34-631Z_00f74a7d-2a15-cde1-beec-7434511f6c01",
+    "meta": {
+      "callId": "00f74a7d-2a15-cde1-beec-7434511f6c01",
+      "digits": "5857231923",
+      "dialedNumber": "(585) 723-1923",
+      "catalogedName": "hvac-residential-ny-mon-greece-town",
+      "sourceId": "legal-entry:hvac-residential-ny-mon-greece-town",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hvac-residential-ny-mon-greece-town"
+        },
+        {
+          "type": "entry",
+          "id": "plumbing-residential-ny-mon-greece-town"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:02:34.631Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.761Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.397Z",
+  "lastSeededAt": "2026-05-03T19:44:16.397Z"
+}

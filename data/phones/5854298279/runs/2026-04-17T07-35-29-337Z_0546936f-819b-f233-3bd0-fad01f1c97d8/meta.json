@@ -1,0 +1,24 @@
+{
+  "callId": "0546936f-819b-f233-3bd0-fad01f1c97d8",
+  "digits": "5854298279",
+  "dialedNumber": "(585) 429-8279",
+  "catalogedName": "Gates Code Enforcement / Dog Warden",
+  "sourceId": "gatesdogwarden",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:35:29.337Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.852Z"
+  }
+}

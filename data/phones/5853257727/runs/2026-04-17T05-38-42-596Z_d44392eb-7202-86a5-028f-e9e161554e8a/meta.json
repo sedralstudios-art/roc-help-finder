@@ -1,0 +1,24 @@
+{
+  "callId": "d44392eb-7202-86a5-028f-e9e161554e8a",
+  "digits": "5853257727",
+  "dialedNumber": "(585) 325-7727",
+  "catalogedName": "Judicial Process Commission",
+  "sourceId": "jpc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:38:42.596Z",
+  "durationSec": 29,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.653Z"
+  }
+}

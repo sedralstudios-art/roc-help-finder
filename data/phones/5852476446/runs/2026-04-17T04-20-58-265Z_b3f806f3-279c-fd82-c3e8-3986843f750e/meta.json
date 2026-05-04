@@ -1,0 +1,24 @@
+{
+  "callId": "b3f806f3-279c-fd82-c3e8-3986843f750e",
+  "digits": "5852476446",
+  "dialedNumber": "(585) 247-6446",
+  "catalogedName": "Gates Public Library",
+  "sourceId": "gateslib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:20:58.265Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.550Z"
+  }
+}

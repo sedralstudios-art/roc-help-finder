@@ -1,0 +1,85 @@
+{
+  "digits": "8882098124",
+  "kind": "phone",
+  "primaryName": "NY Unemployment Insurance",
+  "rawValue": "888-209-8124",
+  "blockDial": false,
+  "tags": [
+    "cat:legalWorkers",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "unemployment",
+      "name": "NY Unemployment Insurance",
+      "category": "legalWorkers",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-appeal-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-insurance-ny",
+      "line": 32
+    },
+    {
+      "type": "entry",
+      "id": "unemployment-insurance-walkthrough-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-24-23-230Z_789f9985-62d8-c82c-6a23-5ad7e74b39a3",
+    "meta": {
+      "callId": "789f9985-62d8-c82c-6a23-5ad7e74b39a3",
+      "digits": "8882098124",
+      "dialedNumber": "8882098124",
+      "catalogedName": "NY Unemployment Insurance",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:24:23.230Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.784Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "New York State Department of Labor's Unemployment Insurance Telephone Claim Center",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.322Z",
+  "lastSeededAt": "2026-05-03T19:44:16.322Z",
+  "verifiedAt": "2026-05-03T20:21:01.871Z",
+  "verifiedRun": "2026-05-02T10-24-23-230Z_789f9985-62d8-c82c-6a23-5ad7e74b39a3",
+  "verifiedTranscriptOpening": "You have reached the New York State Department of Labor's Unemployment Insurance Telephone Claim Center. We are currently closed. If you would like to get answers to frequently asked questions about u",
+  "verifiedMatchTokens": [
+    "unemployment",
+    "insurance"
+  ],
+  "verifiedRatio": 1
+}

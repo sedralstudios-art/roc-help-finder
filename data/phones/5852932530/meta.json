@@ -1,0 +1,59 @@
+{
+  "digits": "5852932530",
+  "kind": "phone",
+  "primaryName": "Riga Town Clerk",
+  "rawValue": "585-293-2530",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rigaclerk",
+      "name": "Riga Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-16-43-908Z_4d62fda8-b6e8-c70c-7d1a-89b126db1ec7",
+    "meta": {
+      "callId": "4d62fda8-b6e8-c70c-7d1a-89b126db1ec7",
+      "digits": "5852932530",
+      "dialedNumber": "5852932530",
+      "catalogedName": "Riga Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:16:43.908Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.248Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.437Z",
+  "lastSeededAt": "2026-05-03T19:44:16.437Z"
+}

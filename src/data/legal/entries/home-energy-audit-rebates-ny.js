@@ -60,7 +60,7 @@ export const HOME_ENERGY_AUDIT_REBATES_NY = {
       qualifier: "Any NYS homeowner or renter",
       access: "Phone at (866) 697-3732",
       outcome: "Subsidized energy audits, rebates, free upgrades for qualifying households",
-      phone: "(866) 697-3732",
+      phone: "",
       url: "https://www.nyserda.ny.gov",
       verified: true,
       bilingual: true,

@@ -1,0 +1,29 @@
+{
+  "callId": "62097c06-e903-3365-220a-4ac92ab9b74a",
+  "digits": "8003423661",
+  "dialedNumber": "1-800-342-3661",
+  "catalogedName": "traffic-ticket-options-ny",
+  "sourceId": "legal-entry:traffic-ticket-options-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "traffic-ticket-options-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:50:16.502Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.127Z"
+  }
+}

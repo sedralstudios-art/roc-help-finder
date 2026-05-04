@@ -20,7 +20,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Riga doesn't have its own plumber licensing chapter. Instead, plumbing work goes through the town's general building permit process under the state building code. Most plumbing work — water heater replacement, new fixtures, sewer/water line work — needs a permit.\n\nWhether Riga honors a Rochester Examining Board plumber certificate, whether homeowners can pull their own plumbing permits, and the current fee schedule are not published on the town's website. The best path is to call the Building Inspector directly.\n\nJames Ignatowski is the Building Inspector and Code Enforcement Officer. Phone (585) 293-3880 ext 124. Cell (585) 752-2931."
+    en: "Riga doesn't have its own plumber licensing chapter. Instead, plumbing work goes through the town's general building permit process under the state building code. Most plumbing work — water heater replacement, new fixtures, sewer/water line work — needs a permit.\n\nWhether Riga honors a Rochester Examining Board plumber certificate, whether homeowners can pull their own plumbing permits, and the current fee schedule are not published on the town's website. The best path is to call the Building Inspector directly.\n\nJames Ignatowski is the Building Inspector and Code Enforcement Officer. Phone [number being verified] ext 124. Cell [number being verified]."
   },
 
   example: {
@@ -59,7 +59,7 @@ export const entry = {
       qualifier: "Open to residents, property owners, and contractors working inside the Town",
       access: "6460 Buffalo Rd, Churchville; phone; cell 585-752-2931",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "585-293-3880",
+      phone: "",
       url: "https://www.townofriga.com/building-department/",
       verified: true,
       bilingual: false,

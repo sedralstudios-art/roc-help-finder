@@ -1,0 +1,24 @@
+{
+  "callId": "083fbdf3-d26d-dd71-36ff-129df39983c3",
+  "digits": "5856471150",
+  "dialedNumber": "5856471150",
+  "catalogedName": "VOA Residential Reentry",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:48:37.902Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.573Z"
+  }
+}

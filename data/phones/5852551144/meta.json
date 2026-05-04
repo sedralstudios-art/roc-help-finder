@@ -1,0 +1,61 @@
+{
+  "digits": "5852551144",
+  "kind": "phone",
+  "primaryName": "entry-callout:boat-operator-safety-certificate-ny",
+  "rawValue": "(585) 255-1144",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boat-operator-safety-certificate-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-53-58-315Z_c8f969a8-82a1-23da-55c9-491b6c3f9b62",
+    "meta": {
+      "callId": "c8f969a8-82a1-23da-55c9-491b6c3f9b62",
+      "digits": "5852551144",
+      "dialedNumber": "(585) 255-1144",
+      "catalogedName": "boat-operator-safety-certificate-ny",
+      "sourceId": "legal-entry:boat-operator-safety-certificate-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "boat-operator-safety-certificate-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:53:58.315Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.713Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.473Z",
+  "lastSeededAt": "2026-05-03T19:44:16.473Z"
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5184454250",
+  "kind": "phone",
+  "primaryName": "entry-callout:charter-school-application-ny",
+  "rawValue": "(518) 445-4250",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charter-school-application-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-57-18-019Z_8fab1e38-8242-b675-eda1-d78026bdb0a0",
+    "meta": {
+      "callId": "8fab1e38-8242-b675-eda1-d78026bdb0a0",
+      "digits": "5184454250",
+      "dialedNumber": "(518) 445-4250",
+      "catalogedName": "charter-school-application-ny",
+      "sourceId": "legal-entry:charter-school-application-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "charter-school-application-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:57:18.019Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.739Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.478Z",
+  "lastSeededAt": "2026-05-03T19:44:16.478Z"
+}

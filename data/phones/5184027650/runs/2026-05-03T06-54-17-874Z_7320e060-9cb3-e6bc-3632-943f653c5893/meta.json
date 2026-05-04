@@ -1,0 +1,29 @@
+{
+  "callId": "7320e060-9cb3-e6bc-3632-943f653c5893",
+  "digits": "5184027650",
+  "dialedNumber": "(518) 402-7650",
+  "catalogedName": "water-service-line-lead-pipe-ny",
+  "sourceId": "legal-entry:water-service-line-lead-pipe-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "water-service-line-lead-pipe-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:54:17.874Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.154Z"
+  }
+}

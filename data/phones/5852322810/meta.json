@@ -1,0 +1,61 @@
+{
+  "digits": "5852322810",
+  "kind": "phone",
+  "primaryName": "entry-callout:rochester-housing-authority-waitlist-ny",
+  "rawValue": "(585) 232-2810",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "rochester-housing-authority-waitlist-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-41-40-650Z_099686af-9b03-d046-29f7-142be47e7652",
+    "meta": {
+      "callId": "099686af-9b03-d046-29f7-142be47e7652",
+      "digits": "5852322810",
+      "dialedNumber": "(585) 232-2810",
+      "catalogedName": "rochester-housing-authority-waitlist-ny",
+      "sourceId": "legal-entry:rochester-housing-authority-waitlist-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "rochester-housing-authority-waitlist-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:41:40.650Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.067Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.560Z",
+  "lastSeededAt": "2026-05-03T19:44:16.560Z"
+}

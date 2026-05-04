@@ -9,7 +9,7 @@ export const ELECTRICAL_RESIDENTIAL_NY_MON_PARMA_TOWN = {
   title: { en: "Residential Electrical Work in the Town of Parma — Permits, Approved Inspection Agencies, and the Hilton Village Boundary" },
 
   summary: {
-    en: "The Town of Parma Building Department handles electrical permits for addresses outside the Village of Hilton. NYEIA is confirmed as an approved inspection agency; the Building Department confirms which other agencies are accepted. The Village of Hilton sits inside Parma and runs its own Building Department — a property's jurisdiction depends on which side of the village line the address sits. Parma does not license electricians directly. Fee schedules are posted; confirming the current amount with the Building Department at (585) 392-9449 before filing avoids surprises."
+    en: "The Town of Parma Building Department handles electrical permits for addresses outside the Village of Hilton. NYEIA is confirmed as an approved inspection agency; the Building Department confirms which other agencies are accepted. The Village of Hilton sits inside Parma and runs its own Building Department — a property's jurisdiction depends on which side of the village line the address sits. Parma does not license electricians directly. Fee schedules are posted; confirming the current amount with the Building Department at [number being verified] before filing avoids surprises."
   },
 
   whatItMeans: {
@@ -55,7 +55,7 @@ export const ELECTRICAL_RESIDENTIAL_NY_MON_PARMA_TOWN = {
     qualifier: "Residents and contractors in Parma outside Hilton village",
     access: "1300 Hilton Parma Corners Rd; phone; email building@parmany.org; hours Mon-Fri 8 a.m. to 4 p.m.",
     outcome: "Permit issuance, agency coordination, code guidance",
-    phone: "(585) 392-9449",
+    phone: "",
     url: "https://parmany.gov/departments/building/",
     verified: true, bilingual: false, languages: ["en"]
   }],

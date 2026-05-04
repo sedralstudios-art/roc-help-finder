@@ -1,0 +1,79 @@
+{
+  "digits": "5852388250",
+  "kind": "phone",
+  "primaryName": "entry-callout:crown-act-hair-discrimination-ny",
+  "rawValue": "(585) 238-8250",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "crown-act-hair-discrimination-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "equal-credit-opportunity-act-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-termination-ny",
+      "line": 54
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-38-12-599Z_35dce60a-c790-828f-1e41-bb5735c78dd6",
+    "meta": {
+      "callId": "35dce60a-c790-828f-1e41-bb5735c78dd6",
+      "digits": "5852388250",
+      "dialedNumber": "(585) 238-8250",
+      "catalogedName": "crown-act-hair-discrimination-ny",
+      "sourceId": "legal-entry:crown-act-hair-discrimination-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "crown-act-hair-discrimination-ny"
+        },
+        {
+          "type": "entry",
+          "id": "equal-credit-opportunity-act-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-termination-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:38:12.599Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.356Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.345Z",
+  "lastSeededAt": "2026-05-03T19:44:16.345Z"
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "ade39d3c-2267-b612-1e8d-7824e4491aec",
+  "digits": "5184738781",
+  "dialedNumber": "(518) 473-8781",
+  "catalogedName": "summer-food-service-program-ny-program",
+  "sourceId": "legal-entry:summer-food-service-program-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "summer-food-service-program-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "whole-milk-school-meal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:45:14.167Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.654Z"
+  }
+}

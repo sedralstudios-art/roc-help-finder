@@ -1,0 +1,169 @@
+{
+  "digits": "5184744429",
+  "kind": "phone",
+  "primaryName": "entry-callout:boundary-line-agreement-rpl-345-ny",
+  "rawValue": "(518) 474-4429",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boundary-line-agreement-rpl-345-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "home-inspection-contract-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "home-inspector-licensing-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "marriage-certificate-copy-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "pawnshops-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "private-investigator-licensing-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "quiet-title-action-rpapl-15-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-agency-disclosure-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-transfer-tax-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-lien-exaggeration-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-14-28-863Z_dce90588-991b-7208-e520-bfd2e47db3a5",
+    "meta": {
+      "callId": "dce90588-991b-7208-e520-bfd2e47db3a5",
+      "digits": "5184744429",
+      "dialedNumber": "(518) 474-4429",
+      "catalogedName": "boundary-line-agreement-rpl-345-ny",
+      "sourceId": "legal-entry:boundary-line-agreement-rpl-345-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "boundary-line-agreement-rpl-345-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-inspection-contract-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-inspector-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "marriage-certificate-copy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "new-home-construction-warranty-ny"
+        },
+        {
+          "type": "entry",
+          "id": "notary-public-services-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pawnshops-ny"
+        },
+        {
+          "type": "entry",
+          "id": "private-investigator-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "quiet-title-action-rpapl-15-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-estate-broker-agency-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-estate-broker-commission-dispute-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-estate-transfer-tax-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-lien-exaggeration-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:14:28.863Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.971Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.280Z",
+  "lastSeededAt": "2026-05-03T19:44:16.280Z"
+}

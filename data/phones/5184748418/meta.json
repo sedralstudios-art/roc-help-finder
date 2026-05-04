@@ -1,0 +1,61 @@
+{
+  "digits": "5184748418",
+  "kind": "phone",
+  "primaryName": "entry-callout:court-of-claims-suing-state-ny",
+  "rawValue": "(518) 474-8418",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-of-claims-suing-state-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-00-37-651Z_8d61b1db-8950-7041-cbc4-183ba3049ef2",
+    "meta": {
+      "callId": "8d61b1db-8950-7041-cbc4-183ba3049ef2",
+      "digits": "5184748418",
+      "dialedNumber": "(518) 474-8418",
+      "catalogedName": "court-of-claims-suing-state-ny",
+      "sourceId": "legal-entry:court-of-claims-suing-state-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "court-of-claims-suing-state-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:00:37.651Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.764Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.484Z",
+  "lastSeededAt": "2026-05-03T19:44:16.484Z"
+}

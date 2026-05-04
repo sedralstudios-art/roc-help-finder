@@ -1,0 +1,37 @@
+{
+  "callId": "3d7746ac-a0c7-e827-743b-03e612517288",
+  "digits": "5853408640",
+  "dialedNumber": "(585) 340-8640",
+  "catalogedName": "basketball-hoop-street-driveway-ny",
+  "sourceId": "legal-entry:basketball-hoop-street-driveway-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny"
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:33:48.532Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.332Z"
+  }
+}

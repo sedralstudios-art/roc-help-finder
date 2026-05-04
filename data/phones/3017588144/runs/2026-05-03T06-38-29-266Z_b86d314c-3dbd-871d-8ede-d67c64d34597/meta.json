@@ -1,0 +1,29 @@
+{
+  "callId": "b86d314c-3dbd-871d-8ede-d67c64d34597",
+  "digits": "3017588144",
+  "dialedNumber": "(301) 758-8144",
+  "catalogedName": "public-adjuster-insurance-claim-ny",
+  "sourceId": "legal-entry:public-adjuster-insurance-claim-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "public-adjuster-insurance-claim-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:38:29.266Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.045Z"
+  }
+}

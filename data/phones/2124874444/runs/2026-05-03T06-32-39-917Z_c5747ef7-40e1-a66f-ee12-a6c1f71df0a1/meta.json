@@ -1,0 +1,29 @@
+{
+  "callId": "c5747ef7-40e1-a66f-ee12-a6c1f71df0a1",
+  "digits": "2124874444",
+  "dialedNumber": "(212) 487-4444",
+  "catalogedName": "pawnshops-ny",
+  "sourceId": "legal-entry:pawnshops-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pawnshops-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:32:39.917Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.005Z"
+  }
+}

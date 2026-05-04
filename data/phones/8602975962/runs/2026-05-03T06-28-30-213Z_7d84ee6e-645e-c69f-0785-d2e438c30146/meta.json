@@ -1,0 +1,29 @@
+{
+  "callId": "7d84ee6e-645e-c69f-0785-d2e438c30146",
+  "digits": "8602975962",
+  "dialedNumber": "(860) 297-5962",
+  "catalogedName": "nonresident-income-tax-ny",
+  "sourceId": "legal-entry:nonresident-income-tax-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:28:30.213Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.977Z"
+  }
+}

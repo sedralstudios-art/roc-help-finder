@@ -1,0 +1,77 @@
+{
+  "digits": "5853253145",
+  "kind": "phone",
+  "primaryName": "Mental Health Association of Rochester",
+  "rawValue": "585-325-3145",
+  "blockDial": false,
+  "tags": [
+    "cat:mental",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mha",
+      "name": "Mental Health Association of Rochester",
+      "category": "mental",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-29-06-641Z_f3610996-274d-5d35-e8f0-9d1f8cd9fe74",
+    "meta": {
+      "callId": "f3610996-274d-5d35-e8f0-9d1f8cd9fe74",
+      "digits": "5853253145",
+      "dialedNumber": "5853253145",
+      "catalogedName": "Mental Health Association of Rochester",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:29:06.641Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.273Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Mental Health Association of Rochester",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.413Z",
+  "lastSeededAt": "2026-05-03T19:44:16.413Z",
+  "verifiedAt": "2026-05-03T20:21:01.710Z",
+  "verifiedRun": "2026-05-02T06-29-06-641Z_f3610996-274d-5d35-e8f0-9d1f8cd9fe74",
+  "verifiedTranscriptOpening": "Thank you for calling Mental Health Association of Rochester. Para español, por favor, no es que el dos. Our office is currently closed. If you're experiencing a crisis, please hang up and dial 988. I",
+  "verifiedMatchTokens": [
+    "mental",
+    "health"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:24:53.636Z",
+      "sourceUrl": "https://mharochester.org",
+      "sourceLabel": "Mental Health Association of Rochester official site",
+      "notes": "Web confirms (585) 325-3145 for Mental Health Association of Rochester."
+    }
+  ]
+}

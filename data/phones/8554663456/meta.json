@@ -1,0 +1,90 @@
+{
+  "digits": "8554663456",
+  "kind": "phone",
+  "primaryName": "entry-callout:foreclosure-rescue-scams-ny",
+  "rawValue": "1-855-466-3456",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "foreclosure-rescue-scams-ny",
+      "line": 66
+    },
+    {
+      "type": "entry",
+      "id": "foreclosure-settlement-conference-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-preforeclosure-90-day-notice-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-20-00-270Z_e32819eb-ea28-89fe-c6b2-f8aab282ee71",
+    "meta": {
+      "callId": "e32819eb-ea28-89fe-c6b2-f8aab282ee71",
+      "digits": "8554663456",
+      "dialedNumber": "1-855-466-3456",
+      "catalogedName": "foreclosure-rescue-scams-ny",
+      "sourceId": "legal-entry:foreclosure-rescue-scams-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "foreclosure-rescue-scams-ny"
+        },
+        {
+          "type": "entry",
+          "id": "foreclosure-settlement-conference-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mortgage-preforeclosure-90-day-notice-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mortgage-servicer-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:20:00.270Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.267Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Attorney General's Homeowner Protection Program hotline",
+      "reason": "transcript-stated name (Attorney General's Homeowner Protection Program hotline) differs from catalogued (foreclosure-rescue-scams-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.328Z",
+  "lastSeededAt": "2026-05-03T19:44:16.328Z"
+}

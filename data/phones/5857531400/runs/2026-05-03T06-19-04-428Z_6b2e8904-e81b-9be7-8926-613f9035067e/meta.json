@@ -1,0 +1,29 @@
+{
+  "callId": "6b2e8904-e81b-9be7-8926-613f9035067e",
+  "digits": "5857531400",
+  "dialedNumber": "(585) 753-1400",
+  "catalogedName": "landlord-retaliation-ban-ny",
+  "sourceId": "legal-entry:landlord-retaliation-ban-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "landlord-retaliation-ban-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:19:04.428Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.894Z"
+  }
+}

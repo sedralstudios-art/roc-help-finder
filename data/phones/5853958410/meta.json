@@ -1,0 +1,85 @@
+{
+  "digits": "5853958410",
+  "kind": "phone",
+  "primaryName": "Small Business Development Center (SBDC)",
+  "rawValue": "585-395-8410",
+  "blockDial": false,
+  "tags": [
+    "cat:employment",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "sbdc",
+      "name": "Small Business Development Center (SBDC)",
+      "category": "employment",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-08-06-563Z_7ee4280d-897b-3b53-8cf3-6a4407a24f1c",
+    "meta": {
+      "callId": "7ee4280d-897b-3b53-8cf3-6a4407a24f1c",
+      "digits": "5853958410",
+      "dialedNumber": "585-395-8410",
+      "catalogedName": "Small Business Development Center (SBDC)",
+      "sourceId": "sbdc",
+      "sourceOwners": [
+        {
+          "type": "program",
+          "id": "sbdc"
+        },
+        {
+          "type": "entry",
+          "id": "assumed-name-dba-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:08:06.563Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.495Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Small Business Development Center",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.357Z",
+  "lastSeededAt": "2026-05-03T19:44:16.357Z",
+  "verifiedAt": "2026-05-03T20:21:01.733Z",
+  "verifiedRun": "2026-05-03T08-08-06-563Z_7ee4280d-897b-3b53-8cf3-6a4407a24f1c",
+  "verifiedTranscriptOpening": "Welcome to the Small Business Development Center. Please hold. Thank you.",
+  "verifiedMatchTokens": [
+    "small",
+    "business",
+    "development"
+  ],
+  "verifiedRatio": 0.75
+}

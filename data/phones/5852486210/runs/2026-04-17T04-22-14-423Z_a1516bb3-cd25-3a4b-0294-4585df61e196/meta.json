@@ -1,0 +1,24 @@
+{
+  "callId": "a1516bb3-cd25-3a4b-0294-4585df61e196",
+  "digits": "5852486210",
+  "dialedNumber": "(585) 248-6210",
+  "catalogedName": "Pittsford Town Clerk",
+  "sourceId": "pittsfordclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:22:14.423Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.552Z"
+  }
+}

@@ -61,7 +61,7 @@ export const HOME_TITLE_THEFT_NY = {
       qualifier: "Monroe County property owners",
       access: "Phone at (585) 753-1600",
       outcome: "Free deed notification alerts, property record access",
-      phone: "(585) 753-1600",
+      phone: "",
       url: "https://www.monroecounty.gov/clerk",
       verified: true,
       bilingual: false,

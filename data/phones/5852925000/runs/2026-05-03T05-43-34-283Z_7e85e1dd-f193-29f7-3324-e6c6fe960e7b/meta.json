@@ -1,0 +1,33 @@
+{
+  "callId": "7e85e1dd-f193-29f7-3324-e6c6fe960e7b",
+  "digits": "5852925000",
+  "dialedNumber": "(585) 292-5000",
+  "catalogedName": "real-estate-broker-agency-disclosure-ny",
+  "sourceId": "legal-entry:real-estate-broker-agency-disclosure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "real-estate-broker-agency-disclosure-ny"
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:43:34.283Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.643Z"
+  }
+}

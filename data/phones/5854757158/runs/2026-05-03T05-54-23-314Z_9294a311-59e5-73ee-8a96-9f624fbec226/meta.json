@@ -1,0 +1,29 @@
+{
+  "callId": "9294a311-59e5-73ee-8a96-9f624fbec226",
+  "digits": "5854757158",
+  "dialedNumber": "(585) 475-7158",
+  "catalogedName": "campus-sexual-violence-enough-is-enough-ny",
+  "sourceId": "legal-entry:campus-sexual-violence-enough-is-enough-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "campus-sexual-violence-enough-is-enough-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:54:23.314Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.716Z"
+  }
+}

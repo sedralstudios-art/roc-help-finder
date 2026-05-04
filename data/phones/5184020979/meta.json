@@ -1,0 +1,61 @@
+{
+  "digits": "5184020979",
+  "kind": "phone",
+  "primaryName": "entry-callout:hospital-financial-assistance-charity-care-ny",
+  "rawValue": "(518) 402-0979",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hospital-financial-assistance-charity-care-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-15-03-264Z_b5970213-12b8-a4b8-893d-e3cd4a462178",
+    "meta": {
+      "callId": "b5970213-12b8-a4b8-893d-e3cd4a462178",
+      "digits": "5184020979",
+      "dialedNumber": "(518) 402-0979",
+      "catalogedName": "hospital-financial-assistance-charity-care-ny",
+      "sourceId": "legal-entry:hospital-financial-assistance-charity-care-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hospital-financial-assistance-charity-care-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:15:03.264Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.867Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.510Z",
+  "lastSeededAt": "2026-05-03T19:44:16.510Z"
+}

@@ -1,0 +1,58 @@
+{
+  "digits": "5859001024",
+  "kind": "phone",
+  "primaryName": "entry-callout:earned-income-tax-credit-ny",
+  "rawValue": "(585) 900-1024",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "earned-income-tax-credit-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-48-04-287Z_82b4f339-5e76-17b0-da76-3ae887703052",
+    "meta": {
+      "callId": "82b4f339-5e76-17b0-da76-3ae887703052",
+      "digits": "5859001024",
+      "dialedNumber": "5859001024",
+      "catalogedName": "entry-callout:earned-income-tax-credit-ny",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:48:04.287Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.700Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.1111111111111111,
+      "extracted": "Tax Advocacy Program at Appiah Justice Center in Rochester",
+      "reason": "transcript-stated name (Tax Advocacy Program at Appiah Justice Center in Rochester) differs from catalogued (entry-callout:earned-income-tax-credit-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.493Z",
+  "lastSeededAt": "2026-05-03T19:44:16.493Z"
+}

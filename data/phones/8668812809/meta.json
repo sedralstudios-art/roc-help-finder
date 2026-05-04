@@ -1,0 +1,61 @@
+{
+  "digits": "8668812809",
+  "kind": "phone",
+  "primaryName": "entry-callout:temporary-disability-insurance-ny",
+  "rawValue": "(866) 881-2809",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-49-26-580Z_080cd750-2f82-2492-b612-3dd861ac2635",
+    "meta": {
+      "callId": "080cd750-2f82-2492-b612-3dd861ac2635",
+      "digits": "8668812809",
+      "dialedNumber": "(866) 881-2809",
+      "catalogedName": "temporary-disability-insurance-ny",
+      "sourceId": "legal-entry:temporary-disability-insurance-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "temporary-disability-insurance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:49:26.580Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.122Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.574Z",
+  "lastSeededAt": "2026-05-03T19:44:16.574Z"
+}

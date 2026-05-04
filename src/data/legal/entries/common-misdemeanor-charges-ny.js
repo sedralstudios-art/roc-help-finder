@@ -58,7 +58,7 @@ export const COMMON_MISDEMEANOR_CHARGES_NY = {
       qualifier: "Defendants who cannot afford a private attorney",
       access: "Assigned at arraignment",
       outcome: "Full representation through disposition",
-      phone: "(585) 753-4210",
+      phone: "",
       url: "https://www.monroecounty.gov/defender",
       verified: true,
       bilingual: false,

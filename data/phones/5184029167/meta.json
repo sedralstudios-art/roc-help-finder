@@ -1,0 +1,61 @@
+{
+  "digits": "5184029167",
+  "kind": "phone",
+  "primaryName": "entry-callout:seqr-environmental-review-ny",
+  "rawValue": "(518) 402-9167",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "seqr-environmental-review-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-44-27-059Z_fc034fb2-3c22-87ca-8400-6d2d8445b13e",
+    "meta": {
+      "callId": "fc034fb2-3c22-87ca-8400-6d2d8445b13e",
+      "digits": "5184029167",
+      "dialedNumber": "(518) 402-9167",
+      "catalogedName": "seqr-environmental-review-ny",
+      "sourceId": "legal-entry:seqr-environmental-review-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "seqr-environmental-review-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:44:27.059Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.086Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.566Z",
+  "lastSeededAt": "2026-05-03T19:44:16.566Z"
+}

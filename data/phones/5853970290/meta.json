@@ -1,0 +1,59 @@
+{
+  "digits": "5853970290",
+  "kind": "phone",
+  "primaryName": "Spencerport Ecumenical Food Shelf",
+  "rawValue": "585-397-0290",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "spencerportfoodshelf",
+      "name": "Spencerport Ecumenical Food Shelf",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-18-25-047Z_4e53a0f8-d0ce-0d58-2c7d-6fcd9840020c",
+    "meta": {
+      "callId": "4e53a0f8-d0ce-0d58-2c7d-6fcd9840020c",
+      "digits": "5853970290",
+      "dialedNumber": "5853970290",
+      "catalogedName": "Spencerport Ecumenical Food Shelf",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:18:25.047Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.379Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.450Z",
+  "lastSeededAt": "2026-05-03T19:44:16.450Z"
+}

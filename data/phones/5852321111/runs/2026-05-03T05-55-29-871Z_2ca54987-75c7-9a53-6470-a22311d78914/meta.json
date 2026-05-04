@@ -1,0 +1,29 @@
+{
+  "callId": "2ca54987-75c7-9a53-6470-a22311d78914",
+  "digits": "5852321111",
+  "dialedNumber": "(585) 232-1111",
+  "catalogedName": "car-donation-charity-ny",
+  "sourceId": "legal-entry:car-donation-charity-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:55:29.871Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.724Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5852441288",
+  "kind": "phone",
+  "primaryName": "entry-callout:nursing-home-discharge-rights-ny",
+  "rawValue": "(585) 244-1288",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nursing-home-discharge-rights-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-29-28-434Z_aa8af130-5513-4b39-d8b7-2bbf1defe193",
+    "meta": {
+      "callId": "aa8af130-5513-4b39-d8b7-2bbf1defe193",
+      "digits": "5852441288",
+      "dialedNumber": "(585) 244-1288",
+      "catalogedName": "nursing-home-discharge-rights-ny",
+      "sourceId": "legal-entry:nursing-home-discharge-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "nursing-home-discharge-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:29:28.434Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.984Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.537Z",
+  "lastSeededAt": "2026-05-03T19:44:16.537Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "5853c595-d5e9-3e88-976a-3f1b6e2b2260",
+  "digits": "5852656694",
+  "dialedNumber": "(585) 265-6694",
+  "catalogedName": "Webster HOPE Food Pantry",
+  "sourceId": "websterhope",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:45:50.069Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.588Z"
+  }
+}

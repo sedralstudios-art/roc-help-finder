@@ -1,0 +1,24 @@
+{
+  "callId": "79cfb424-c1bc-6890-e368-249c895f7ea2",
+  "digits": "5853255100",
+  "dialedNumber": "5853255100",
+  "catalogedName": "Huther Doyle Memorial Institute",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:32:02.222Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.279Z"
+  }
+}

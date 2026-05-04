@@ -1,0 +1,24 @@
+{
+  "callId": "2dd8b9f1-cd57-75b8-7eb9-1d9204cf7871",
+  "digits": "5859647222",
+  "dialedNumber": "(585) 964-7222",
+  "catalogedName": "Hamlin Recreation",
+  "sourceId": "hamlinrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T10:02:44.408Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.051Z"
+  }
+}

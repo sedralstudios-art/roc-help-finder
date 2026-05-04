@@ -1,0 +1,61 @@
+{
+  "digits": "8009254733",
+  "kind": "phone",
+  "primaryName": "entry-callout:pharmacist-administered-vaccines-ny",
+  "rawValue": "(800) 925-4733",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-34-19-734Z_7b6ed272-c1cb-5fd3-948b-586eb0b83436",
+    "meta": {
+      "callId": "7b6ed272-c1cb-5fd3-948b-586eb0b83436",
+      "digits": "8009254733",
+      "dialedNumber": "(800) 925-4733",
+      "catalogedName": "pharmacist-administered-vaccines-ny",
+      "sourceId": "legal-entry:pharmacist-administered-vaccines-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "pharmacist-administered-vaccines-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:34:19.734Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.017Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.546Z",
+  "lastSeededAt": "2026-05-03T19:44:16.546Z"
+}

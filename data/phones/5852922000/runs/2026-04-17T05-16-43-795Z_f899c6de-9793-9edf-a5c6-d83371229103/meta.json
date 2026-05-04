@@ -1,0 +1,24 @@
+{
+  "callId": "f899c6de-9793-9edf-a5c6-d83371229103",
+  "digits": "5852922000",
+  "dialedNumber": "(585) 292-2000",
+  "catalogedName": "Monroe Community College (MCC)",
+  "sourceId": "mcc",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:16:43.795Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.625Z"
+  }
+}

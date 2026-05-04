@@ -1,0 +1,24 @@
+{
+  "callId": "162af94d-ce01-d253-a735-d3e9d303e918",
+  "digits": "5857845250",
+  "dialedNumber": "(585) 784-5250",
+  "catalogedName": "Brighton Building & Planning",
+  "sourceId": "brightonbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:20:33.514Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.987Z"
+  }
+}

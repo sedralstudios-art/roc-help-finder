@@ -1,0 +1,33 @@
+{
+  "callId": "46947aa0-b827-4332-5fcd-95bb2c8a16f7",
+  "digits": "5184734818",
+  "dialedNumber": "(518) 473-4818",
+  "catalogedName": "504-plan-vs-iep-ny",
+  "sourceId": "legal-entry:504-plan-vs-iep-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "504-plan-vs-iep-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-discipline-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:29:59.118Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.554Z"
+  }
+}

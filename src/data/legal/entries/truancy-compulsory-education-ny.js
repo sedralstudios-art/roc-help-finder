@@ -59,7 +59,7 @@ export const TRUANCY_COMPULSORY_EDUCATION_NY = {
       qualifier: "Low-income families in Monroe County",
       access: "Phone intake",
       outcome: "Legal advice and representation",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

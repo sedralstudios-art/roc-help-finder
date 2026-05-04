@@ -1,0 +1,61 @@
+{
+  "digits": "2124360395",
+  "kind": "phone",
+  "primaryName": "entry-callout:freelance-isnt-free-act-ny",
+  "rawValue": "(212) 436-0395",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "freelance-isnt-free-act-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-10-36-749Z_e2b53ef7-819f-bf0f-02a5-1d38efd93b27",
+    "meta": {
+      "callId": "e2b53ef7-819f-bf0f-02a5-1d38efd93b27",
+      "digits": "2124360395",
+      "dialedNumber": "(212) 436-0395",
+      "catalogedName": "freelance-isnt-free-act-ny",
+      "sourceId": "legal-entry:freelance-isnt-free-act-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "freelance-isnt-free-act-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:10:36.749Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.837Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.503Z",
+  "lastSeededAt": "2026-05-03T19:44:16.503Z"
+}

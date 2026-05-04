@@ -60,7 +60,7 @@ export const CAR_REGISTRATION_LAPSE_NY = {
       qualifier: "Any NYS vehicle owner",
       access: "Online at dmv.ny.gov or (518) 486-9786",
       outcome: "Registration renewal, penalty payment, plate surrender",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov",
       verified: true,
       bilingual: false,

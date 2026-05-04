@@ -1,0 +1,61 @@
+{
+  "digits": "5853952751",
+  "kind": "phone",
+  "primaryName": "entry-callout:college-in-state-tuition-residency-ny",
+  "rawValue": "(585) 395-2751",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-58-41-199Z_94c8b5b4-2d51-8b25-8c9f-fe192e286339",
+    "meta": {
+      "callId": "94c8b5b4-2d51-8b25-8c9f-fe192e286339",
+      "digits": "5853952751",
+      "dialedNumber": "(585) 395-2751",
+      "catalogedName": "college-in-state-tuition-residency-ny",
+      "sourceId": "legal-entry:college-in-state-tuition-residency-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "college-in-state-tuition-residency-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:58:41.199Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.749Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.480Z",
+  "lastSeededAt": "2026-05-03T19:44:16.480Z"
+}

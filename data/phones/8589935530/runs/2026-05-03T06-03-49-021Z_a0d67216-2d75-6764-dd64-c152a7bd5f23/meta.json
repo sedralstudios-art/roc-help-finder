@@ -1,0 +1,29 @@
+{
+  "callId": "a0d67216-2d75-6764-dd64-c152a7bd5f23",
+  "digits": "8589935530",
+  "dialedNumber": "8589935530",
+  "catalogedName": "dumpster-rental-homeowner-ny",
+  "sourceId": "legal-entry:dumpster-rental-homeowner-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:03:49.021Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.786Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "0d3f4f96-55d7-7764-8a3f-2097b476ccfd",
+  "digits": "2123973050",
+  "dialedNumber": "(212) 397-3050",
+  "catalogedName": "speedy-trial-cpl-30-30-ny",
+  "sourceId": "legal-entry:speedy-trial-cpl-30-30-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:47:05.107Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.104Z"
+  }
+}

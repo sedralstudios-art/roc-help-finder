@@ -1,0 +1,29 @@
+{
+  "callId": "401e4784-8b2a-ec65-929a-82f418de5f4b",
+  "digits": "5852495700",
+  "dialedNumber": "(585) 249-5700",
+  "catalogedName": "kindergarten-enrollment-age-ny",
+  "sourceId": "legal-entry:kindergarten-enrollment-age-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kindergarten-enrollment-age-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:18:47.785Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.892Z"
+  }
+}

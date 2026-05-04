@@ -1,0 +1,29 @@
+{
+  "callId": "f1e6c79c-8d27-5b68-4d2b-79432426f133",
+  "digits": "5853597032",
+  "dialedNumber": "585-359-7032",
+  "catalogedName": "Henrietta Assessor",
+  "sourceId": "henriettaassessor",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettaassessor"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:46:37.388Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.664Z"
+  }
+}

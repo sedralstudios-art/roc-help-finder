@@ -1,0 +1,33 @@
+{
+  "callId": "20dd91ce-b456-a36a-1bf4-16af2280555e",
+  "digits": "8003082145",
+  "dialedNumber": "(800) 308-2145",
+  "catalogedName": "homeless-student-rights-ny",
+  "sourceId": "legal-entry:homeless-student-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "homeless-student-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-residency-enrollment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:00:42.533Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.751Z"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "digits": "5852265400",
+  "kind": "phone",
+  "primaryName": "entry-callout:boat-registration-ny",
+  "rawValue": "(585) 226-5400",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boat-registration-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "bottle-deposit-returnable-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "coyote-wild-turkey-urban-wildlife-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "dangerous-wild-animal-ban-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "deer-damage-garden-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "fishing-hunting-license-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "heating-oil-tank-removal-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "lawn-pesticide-neighbor-notice-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-fire-pit-rules-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "raccoon-skunk-wildlife-removal-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "snowmobile-atv-laws-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "woodstove-fireplace-rules-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-13-22-848Z_f37006ec-4d7b-1d4b-c5d6-cdba0d894e8d",
+    "meta": {
+      "callId": "f37006ec-4d7b-1d4b-c5d6-cdba0d894e8d",
+      "digits": "5852265400",
+      "dialedNumber": "(585) 226-5400",
+      "catalogedName": "boat-registration-ny",
+      "sourceId": "legal-entry:boat-registration-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "boat-registration-ny"
+        },
+        {
+          "type": "entry",
+          "id": "bottle-deposit-returnable-ny"
+        },
+        {
+          "type": "entry",
+          "id": "coyote-wild-turkey-urban-wildlife-ny"
+        },
+        {
+          "type": "entry",
+          "id": "dangerous-wild-animal-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deer-damage-garden-ny"
+        },
+        {
+          "type": "entry",
+          "id": "e-waste-recycling-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fishing-hunting-license-ny"
+        },
+        {
+          "type": "entry",
+          "id": "heating-oil-tank-removal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lawn-pesticide-neighbor-notice-ny"
+        },
+        {
+          "type": "entry",
+          "id": "outdoor-fire-pit-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "raccoon-skunk-wildlife-removal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snowmobile-atv-laws-ny"
+        },
+        {
+          "type": "entry",
+          "id": "woodstove-fireplace-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:13:22.848Z",
+      "durationSec": 15,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.965Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.280Z",
+  "lastSeededAt": "2026-05-03T19:44:16.280Z"
+}

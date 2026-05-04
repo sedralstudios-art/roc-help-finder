@@ -1,0 +1,145 @@
+{
+  "digits": "8007721213",
+  "kind": "phone",
+  "primaryName": "Social Security Office (Free SSN Card)",
+  "rawValue": "800-772-1213",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ssaroch",
+      "name": "Social Security Office (Free SSN Card)",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "disabled-homeowner-property-tax-exemption-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "mail-theft-federal-crime-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "medicare-late-enrollment-penalty-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "medicare-savings-program-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "ny-able-savings-disability-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "social-security-retirement-ny",
+      "line": 32
+    },
+    {
+      "type": "entry",
+      "id": "social-security-survivors-benefits-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-denial-appeal-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-ny",
+      "line": 33
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-16-14-375Z_67c019c4-77df-b708-6647-c299455332cd",
+    "meta": {
+      "callId": "67c019c4-77df-b708-6647-c299455332cd",
+      "digits": "8007721213",
+      "dialedNumber": "8007721213",
+      "catalogedName": "Social Security Office (Free SSN Card)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:16:14.375Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.764Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Social Security Administration",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.276Z",
+  "lastSeededAt": "2026-05-03T19:44:16.276Z",
+  "verifiedAt": "2026-05-03T20:21:01.848Z",
+  "verifiedRun": "2026-05-02T10-16-14-375Z_67c019c4-77df-b708-6647-c299455332cd",
+  "verifiedTranscriptOpening": "Welcome to the Social Security Administration, Para Español, Marquez 7. For training and quality assurance, your call will be monitored over the phone.",
+  "verifiedMatchTokens": [
+    "social",
+    "security"
+  ],
+  "verifiedRatio": 0.5
+}

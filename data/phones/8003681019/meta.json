@@ -1,0 +1,79 @@
+{
+  "digits": "8003681019",
+  "kind": "phone",
+  "primaryName": "entry-callout:hipaa-medical-privacy-ny",
+  "rawValue": "(800) 368-1019",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hipaa-medical-privacy-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "hospital-language-interpreter-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "medical-records-access-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-47-54-497Z_8272fcc5-31c0-2d4b-8fcb-b5401f1caa77",
+    "meta": {
+      "callId": "8272fcc5-31c0-2d4b-8fcb-b5401f1caa77",
+      "digits": "8003681019",
+      "dialedNumber": "(800) 368-1019",
+      "catalogedName": "hipaa-medical-privacy-ny",
+      "sourceId": "legal-entry:hipaa-medical-privacy-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "hipaa-medical-privacy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hospital-language-interpreter-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medical-records-access-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:47:54.497Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.401Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.348Z",
+  "lastSeededAt": "2026-05-03T19:44:16.348Z"
+}

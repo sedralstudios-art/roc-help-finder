@@ -1,0 +1,24 @@
+{
+  "callId": "b175d2bd-ebfe-6a7f-0132-f615ff156de0",
+  "digits": "8778467369",
+  "dialedNumber": "8778467369",
+  "catalogedName": "NYS OASAS HOPEline (Substance Use)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:53:16.869Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.856Z"
+  }
+}

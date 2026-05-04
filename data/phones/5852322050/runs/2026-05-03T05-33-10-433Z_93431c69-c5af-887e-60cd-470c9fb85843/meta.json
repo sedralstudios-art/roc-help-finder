@@ -1,0 +1,33 @@
+{
+  "callId": "93431c69-c5af-887e-60cd-470c9fb85843",
+  "digits": "5852322050",
+  "dialedNumber": "(585) 232-2050",
+  "catalogedName": "charter-school-application-ny",
+  "sourceId": "legal-entry:charter-school-application-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "charter-school-application-ny"
+    },
+    {
+      "type": "entry",
+      "id": "itin-application-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:33:10.433Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.577Z"
+  }
+}

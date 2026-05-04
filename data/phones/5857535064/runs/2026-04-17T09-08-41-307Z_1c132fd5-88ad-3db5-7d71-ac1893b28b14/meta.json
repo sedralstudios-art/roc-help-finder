@@ -1,0 +1,24 @@
+{
+  "callId": "1c132fd5-88ad-3db5-7d71-ac1893b28b14",
+  "digits": "5857535064",
+  "dialedNumber": "(585) 753-5064",
+  "catalogedName": "Monroe County Housing Complaints",
+  "sourceId": "mchealthhousing",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:08:41.307Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.969Z"
+  }
+}

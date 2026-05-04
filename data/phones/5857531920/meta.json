@@ -1,0 +1,61 @@
+{
+  "digits": "5857531920",
+  "kind": "phone",
+  "primaryName": "entry-callout:grocery-item-pricing-accuracy-ny",
+  "rawValue": "(585) 753-1920",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-13-06-810Z_342213a6-0d01-d2ab-bf16-92ae0f5160fe",
+    "meta": {
+      "callId": "342213a6-0d01-d2ab-bf16-92ae0f5160fe",
+      "digits": "5857531920",
+      "dialedNumber": "(585) 753-1920",
+      "catalogedName": "grocery-item-pricing-accuracy-ny",
+      "sourceId": "legal-entry:grocery-item-pricing-accuracy-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "grocery-item-pricing-accuracy-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:13:06.810Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.854Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.507Z",
+  "lastSeededAt": "2026-05-03T19:44:16.507Z"
+}

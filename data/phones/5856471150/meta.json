@@ -1,0 +1,69 @@
+{
+  "digits": "5856471150",
+  "kind": "phone",
+  "primaryName": "VOA Residential Reentry",
+  "rawValue": "585-647-1150",
+  "blockDial": false,
+  "tags": [
+    "cat:reentry",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "voareentry",
+      "name": "VOA Residential Reentry",
+      "category": "reentry",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-48-37-902Z_083fbdf3-d26d-dd71-36ff-129df39983c3",
+    "meta": {
+      "callId": "083fbdf3-d26d-dd71-36ff-129df39983c3",
+      "digits": "5856471150",
+      "dialedNumber": "5856471150",
+      "catalogedName": "VOA Residential Reentry",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:48:37.902Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.573Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Volunteers of America of Upstate New York",
+      "reason": "transcript-stated name (Volunteers of America of Upstate New York) differs from catalogued (VOA Residential Reentry)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.424Z",
+  "lastSeededAt": "2026-05-03T19:44:16.424Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:12:10.071Z",
+      "sourceUrl": "https://www.voaupny.org/contact/",
+      "sourceLabel": "VOA Upstate NY contact page",
+      "notes": "Web confirms (585) 647-1150 as VOA Rochester main line at 214 Lake Ave. May tree captured \"Volunteers of America of Upstate New York\" — direct match."
+    }
+  ]
+}

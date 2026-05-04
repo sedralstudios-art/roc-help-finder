@@ -9,7 +9,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_CLARKSON_TOWN = {
   title: { en: "Residential Plumbing in the Town of Clarkson — Separate Permit, $65 + $2-per-Fixture Fee, and Double-Fee Penalty" },
 
   summary: {
-    en: "The Town of Clarkson requires a separate plumbing permit, not bundled with the general building permit. The published residential fee is $65 flat plus $2 per fixture. The fee doubles when work starts without a permit — a strong incentive to pull it first. A sewer hookup carries a separate $125 town fee plus a $250 county fee. Clarkson does not run its own plumber licensing chapter. A plumber has to show current general liability insurance and workers' compensation coverage (or a CE-200 waiver for a qualifying sole proprietor). Whether Clarkson honors a City of Rochester Examining Board of Plumbers certificate is confirmed by the Building Department at (585) 637-1145."
+    en: "The Town of Clarkson requires a separate plumbing permit, not bundled with the general building permit. The published residential fee is $65 flat plus $2 per fixture. The fee doubles when work starts without a permit — a strong incentive to pull it first. A sewer hookup carries a separate $125 town fee plus a $250 county fee. Clarkson does not run its own plumber licensing chapter. A plumber has to show current general liability insurance and workers' compensation coverage (or a CE-200 waiver for a qualifying sole proprietor). Whether Clarkson honors a City of Rochester Examining Board of Plumbers certificate is confirmed by the Building Department at [number being verified]."
   },
 
   whatItMeans: {
@@ -58,7 +58,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_CLARKSON_TOWN = {
       qualifier: "Residents, property owners, and plumbers working inside the Town",
       access: "3710 Lake Road North, Brockport (back entrance); phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 637-1145",
+      phone: "",
       url: "https://townofclarksonny.gov/building-department/",
       verified: true,
       bilingual: false,

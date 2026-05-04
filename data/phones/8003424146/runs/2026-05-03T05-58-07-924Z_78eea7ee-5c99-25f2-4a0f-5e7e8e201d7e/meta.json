@@ -1,0 +1,29 @@
+{
+  "callId": "78eea7ee-5c99-25f2-4a0f-5e7e8e201d7e",
+  "digits": "8003424146",
+  "dialedNumber": "(800) 342-4146",
+  "catalogedName": "civil-service-discipline-ny",
+  "sourceId": "legal-entry:civil-service-discipline-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "civil-service-discipline-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:58:07.924Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.745Z"
+  }
+}

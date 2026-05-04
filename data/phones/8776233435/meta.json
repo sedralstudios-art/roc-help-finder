@@ -1,0 +1,70 @@
+{
+  "digits": "8776233435",
+  "kind": "phone",
+  "primaryName": "entry-callout:liquor-license-rules-ny",
+  "rawValue": "(877) 623-3435",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "liquor-license-rules-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-12-17-818Z_41a5bd29-5255-2728-ea4e-209f5d4c0018",
+    "meta": {
+      "callId": "41a5bd29-5255-2728-ea4e-209f5d4c0018",
+      "digits": "8776233435",
+      "dialedNumber": "(877) 623-3435",
+      "catalogedName": "liquor-license-rules-ny",
+      "sourceId": "legal-entry:liquor-license-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "liquor-license-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "social-host-liability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:12:17.818Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.817Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.400Z",
+  "lastSeededAt": "2026-05-03T19:44:16.400Z"
+}

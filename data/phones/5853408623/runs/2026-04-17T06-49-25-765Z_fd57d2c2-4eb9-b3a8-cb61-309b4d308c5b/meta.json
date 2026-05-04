@@ -1,0 +1,24 @@
+{
+  "callId": "fd57d2c2-4eb9-b3a8-cb61-309b4d308c5b",
+  "digits": "5853408623",
+  "dialedNumber": "(585) 340-8623",
+  "catalogedName": "Penfield Town Court",
+  "sourceId": "penfieldcourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:49:25.765Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.741Z"
+  }
+}

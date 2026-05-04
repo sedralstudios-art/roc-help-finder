@@ -11,7 +11,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_RIGA_TOWN = {
   },
 
   summary: {
-    en: "The Town of Riga enforces the New York Uniform Fire Prevention and Building Code (adopted statewide under Executive Law 379) through Chapter 35 of the Town Code. The Building Department at (585) 293-3880 ext 124 confirms whether a specific roofing project needs a permit. The same office also runs a fill permit program for materials added to a site after a Certificate of Occupancy has been issued. The Village of Churchville sits inside the Town of Riga and runs its own code office, so jurisdiction is confirmed by address before the application is filed."
+    en: "The Town of Riga enforces the New York Uniform Fire Prevention and Building Code (adopted statewide under Executive Law 379) through Chapter 35 of the Town Code. The Building Department at [number being verified] ext 124 confirms whether a specific roofing project needs a permit. The same office also runs a fill permit program for materials added to a site after a Certificate of Occupancy has been issued. The Village of Churchville sits inside the Town of Riga and runs its own code office, so jurisdiction is confirmed by address before the application is filed."
   },
 
   whatItMeans: {
@@ -19,7 +19,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_RIGA_TOWN = {
   },
 
   example: {
-    en: "A homeowner in the Town of Riga, outside village limits, plans a roof replacement that also replaces two soft decking panels. The homeowner calls the Building Inspector at (585) 293-3880 ext 124. The inspector confirms a permit is required because of the decking work, emails the application, and schedules the inspection after the tear-off."
+    en: "A homeowner in the Town of Riga, outside village limits, plans a roof replacement that also replaces two soft decking panels. The homeowner calls the Building Inspector at [number being verified] ext 124. The inspector confirms a permit is required because of the decking work, emails the application, and schedules the inspection after the tear-off."
   },
 
   whoQualifies: {
@@ -59,7 +59,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_RIGA_TOWN = {
       qualifier: "Residents, property owners, and contractors working inside the Town",
       access: "Town Hall; phone; email building.inspector@townofriga.org",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 293-3880",
+      phone: "",
       url: "https://www.townofriga.com/building-department/",
       verified: true,
       bilingual: false,

@@ -1,0 +1,61 @@
+{
+  "digits": "5853367287",
+  "kind": "phone",
+  "primaryName": "entry-callout:shed-permit-rules-ny",
+  "rawValue": "(585) 336-7287",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny",
+      "line": 63
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-45-33-620Z_ec16fe86-c875-4448-0929-4dea0691ed16",
+    "meta": {
+      "callId": "ec16fe86-c875-4448-0929-4dea0691ed16",
+      "digits": "5853367287",
+      "dialedNumber": "(585) 336-7287",
+      "catalogedName": "shed-permit-rules-ny",
+      "sourceId": "legal-entry:shed-permit-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "shed-permit-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:45:33.620Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.094Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.567Z",
+  "lastSeededAt": "2026-05-03T19:44:16.567Z"
+}

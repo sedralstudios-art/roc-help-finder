@@ -1,0 +1,24 @@
+{
+  "callId": "d88693bc-579c-1b3f-1916-5046e9b2d5db",
+  "digits": "5857536532",
+  "dialedNumber": "5857536532",
+  "catalogedName": "Child Protective Services (CPS)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:11:02.030Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.620Z"
+  }
+}

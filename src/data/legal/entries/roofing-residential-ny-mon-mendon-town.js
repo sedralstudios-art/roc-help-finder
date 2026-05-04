@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_MENDON_TOWN = {
   title: { en: "Residential Roofing in the Town of Mendon — Permits, EPODs, and the Honeoye Falls Village Boundary" },
 
   summary: {
-    en: "The Town of Mendon enforces the NYS Uniform Fire Prevention and Building Code through Chapter 241 of the Town Code. The Village of Honeoye Falls sits inside Mendon and runs its own code enforcement — a property's jurisdiction depends on which side of the village line it sits on. Roofing work typically requires a permit when it goes beyond a like-for-like repair. Environmental Protection Overlay Districts (EPODs) add a separate review for certain properties. Calling the Building Department at (585) 624-6066 is the reliable way to confirm whether a specific project needs a permit and whether the property is in an EPOD."
+    en: "The Town of Mendon enforces the NYS Uniform Fire Prevention and Building Code through Chapter 241 of the Town Code. The Village of Honeoye Falls sits inside Mendon and runs its own code enforcement — a property's jurisdiction depends on which side of the village line it sits on. Roofing work typically requires a permit when it goes beyond a like-for-like repair. Environmental Protection Overlay Districts (EPODs) add a separate review for certain properties. Calling the Building Department at [number being verified] is the reliable way to confirm whether a specific project needs a permit and whether the property is in an EPOD."
   },
 
   whatItMeans: {
@@ -17,7 +17,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_MENDON_TOWN = {
   },
 
   example: {
-    en: "A contractor planning a roof replacement on a house in the Town of Mendon calls the Building Department at (585) 624-6066 to confirm whether a permit is needed. The department also checks whether the property falls inside an Environmental Protection Overlay District, which would require additional review. The contractor files both the building permit and the EPOD permit, performs the work, and calls the town inspector for the final inspection. The town closes the permit after the inspection passes."
+    en: "A contractor planning a roof replacement on a house in the Town of Mendon calls the Building Department at [number being verified] to confirm whether a permit is needed. The department also checks whether the property falls inside an Environmental Protection Overlay District, which would require additional review. The contractor files both the building permit and the EPOD permit, performs the work, and calls the town inspector for the final inspection. The town closes the permit after the inspection passes."
   },
 
   whoQualifies: {
@@ -57,7 +57,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_MENDON_TOWN = {
       qualifier: "Residents, property owners, and contractors inside the Town",
       access: "16 West Main Street, Honeoye Falls, NY 14472; phone",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 624-6066",
+      phone: "",
       url: "https://townofmendonny.gov/departments/building/",
       verified: true,
       bilingual: false,

@@ -1,0 +1,41 @@
+{
+  "callId": "14663f51-53a8-47ec-00ee-7c7ec1704bb7",
+  "digits": "5856544720",
+  "dialedNumber": "(585) 654-4720",
+  "catalogedName": "child-care-licensing-ny",
+  "sourceId": "legal-entry:child-care-licensing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "child-care-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "childcare-assistance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "childcare-subsidy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "daycare-complaint-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:14:36.073Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.244Z"
+  }
+}

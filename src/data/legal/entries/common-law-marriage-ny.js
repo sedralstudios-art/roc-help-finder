@@ -63,7 +63,7 @@ export const COMMON_LAW_MARRIAGE_NY = {
       qualifier: "Low income residents of Monroe County",
       access: "Referral through Monroe County Bar Association at (585) 546-2130",
       outcome: "Pro bono attorney for wills and estate planning",
-      phone: "(585) 232-3051",
+      phone: "",
       url: "https://mcba.org/?pg=TelescaCenterforJustice",
       verified: true,
       bilingual: false,

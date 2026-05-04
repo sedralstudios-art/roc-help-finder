@@ -1,0 +1,37 @@
+{
+  "callId": "557f889b-4adb-ad37-7657-b436a120392e",
+  "digits": "5184737016",
+  "dialedNumber": "(518) 473-7016",
+  "catalogedName": "autism-insurance-coverage-ny",
+  "sourceId": "legal-entry:autism-insurance-coverage-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "autism-insurance-coverage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "early-intervention-infants-toddlers-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hearing-aid-coverage-children-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:06:22.972Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.495Z"
+  }
+}

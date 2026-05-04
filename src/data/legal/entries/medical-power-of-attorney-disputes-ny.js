@@ -60,7 +60,7 @@ export const MEDICAL_POWER_OF_ATTORNEY_DISPUTES_NY = {
       qualifier: "Any NYS resident",
       access: "Online at health.ny.gov",
       outcome: "Free proxy forms, guidance on advance directives",
-      phone: "(518) 474-7354",
+      phone: "",
       url: "https://www.health.ny.gov/professionals/patients/health_care_proxy/",
       verified: true,
       bilingual: false,

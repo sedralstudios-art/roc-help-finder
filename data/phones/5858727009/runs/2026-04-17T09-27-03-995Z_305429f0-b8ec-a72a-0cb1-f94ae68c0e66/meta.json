@@ -1,0 +1,24 @@
+{
+  "callId": "305429f0-b8ec-a72a-0cb1-f94ae68c0e66",
+  "digits": "5858727009",
+  "dialedNumber": "(585) 872-7009",
+  "catalogedName": "Webster Animal Control",
+  "sourceId": "websteranimal",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:27:03.995Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.996Z"
+  }
+}

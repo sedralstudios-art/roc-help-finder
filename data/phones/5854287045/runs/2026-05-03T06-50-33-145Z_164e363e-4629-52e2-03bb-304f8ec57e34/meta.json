@@ -1,0 +1,29 @@
+{
+  "callId": "164e363e-4629-52e2-03bb-304f8ec57e34",
+  "digits": "5854287045",
+  "dialedNumber": "(585) 428-7045",
+  "catalogedName": "tree-removal-permit-ny",
+  "sourceId": "legal-entry:tree-removal-permit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "tree-removal-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:50:33.145Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.129Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "digits": "5854288150",
+  "kind": "phone",
+  "primaryName": "entry-callout:notary-public-services-ny",
+  "rawValue": "(585) 428-8150",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-28-38-541Z_f8eeda4b-028d-76d7-e2c6-3ee83551c270",
+    "meta": {
+      "callId": "f8eeda4b-028d-76d7-e2c6-3ee83551c270",
+      "digits": "5854288150",
+      "dialedNumber": "(585) 428-8150",
+      "catalogedName": "notary-public-services-ny",
+      "sourceId": "legal-entry:notary-public-services-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "notary-public-services-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:28:38.541Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.978Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.535Z",
+  "lastSeededAt": "2026-05-03T19:44:16.535Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "263360f1-cd75-d822-3e09-de65e5bfaab5",
+  "digits": "3154284124",
+  "dialedNumber": "(315) 428-4124",
+  "catalogedName": "liquor-license-rules-ny",
+  "sourceId": "legal-entry:liquor-license-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "liquor-license-rules-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:20:35.921Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.904Z"
+  }
+}

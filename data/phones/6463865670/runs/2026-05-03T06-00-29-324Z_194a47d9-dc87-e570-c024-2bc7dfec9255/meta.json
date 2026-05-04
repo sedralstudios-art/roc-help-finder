@@ -1,0 +1,29 @@
+{
+  "callId": "194a47d9-dc87-e570-c024-2bc7dfec9255",
+  "digits": "6463865670",
+  "dialedNumber": "(646) 386-5670",
+  "catalogedName": "court-interpreter-request-ny",
+  "sourceId": "legal-entry:court-interpreter-request-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-interpreter-request-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:00:29.324Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.763Z"
+  }
+}

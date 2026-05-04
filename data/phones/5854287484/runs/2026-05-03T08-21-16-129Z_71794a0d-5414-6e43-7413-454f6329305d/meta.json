@@ -1,0 +1,33 @@
+{
+  "callId": "71794a0d-5414-6e43-7413-454f6329305d",
+  "digits": "5854287484",
+  "dialedNumber": "(585) 428-7484",
+  "catalogedName": "car-boot-immobilizer-ny",
+  "sourceId": "legal-entry:car-boot-immobilizer-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-boot-immobilizer-ny"
+    },
+    {
+      "type": "entry",
+      "id": "car-towed-repossessed-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:21:16.129Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.557Z"
+  }
+}

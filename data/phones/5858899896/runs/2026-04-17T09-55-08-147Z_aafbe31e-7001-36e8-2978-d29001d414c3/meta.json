@@ -1,0 +1,24 @@
+{
+  "callId": "aafbe31e-7001-36e8-2978-d29001d414c3",
+  "digits": "5858899896",
+  "dialedNumber": "(585) 889-9896",
+  "catalogedName": "Chili Presbyterian Food Cupboard",
+  "sourceId": "chilifood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:55:08.147Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.040Z"
+  }
+}

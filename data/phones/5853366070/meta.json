@@ -1,0 +1,75 @@
+{
+  "digits": "5853366070",
+  "kind": "phone",
+  "primaryName": "Irondequoit Lunch Club 60 (Senior Meals)",
+  "rawValue": "585-336-6070",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "cat:seniorSvc",
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "irondequoitlunchclub",
+      "name": "Irondequoit Lunch Club 60 (Senior Meals)",
+      "category": "food",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "irondequoitsenior",
+      "name": "Irondequoit Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "irondequoitrec",
+      "name": "Irondequoit Recreation",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-45-48-571Z_c45eee4c-fdc3-af2b-1514-c0985d39f47a",
+    "meta": {
+      "callId": "c45eee4c-fdc3-af2b-1514-c0985d39f47a",
+      "digits": "5853366070",
+      "dialedNumber": "5853366070",
+      "catalogedName": "Irondequoit Lunch Club 60 (Senior Meals)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:45:48.571Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.309Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.335Z",
+  "lastSeededAt": "2026-05-03T19:44:16.335Z"
+}

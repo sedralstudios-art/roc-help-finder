@@ -1,0 +1,61 @@
+{
+  "digits": "8002477421",
+  "kind": "phone",
+  "primaryName": "entry-callout:molst-medical-orders-ny",
+  "rawValue": "(800) 247-7421",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "molst-medical-orders-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-25-27-157Z_c54e5460-fd8c-734c-08fe-dfc1c8833012",
+    "meta": {
+      "callId": "c54e5460-fd8c-734c-08fe-dfc1c8833012",
+      "digits": "8002477421",
+      "dialedNumber": "(800) 247-7421",
+      "catalogedName": "molst-medical-orders-ny",
+      "sourceId": "legal-entry:molst-medical-orders-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "molst-medical-orders-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:25:27.157Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.938Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.529Z",
+  "lastSeededAt": "2026-05-03T19:44:16.529Z"
+}

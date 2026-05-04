@@ -59,7 +59,7 @@ export const CHECK_FRAUD_STOLEN_CHECK_NY = {
       qualifier: "Any U.S. resident",
       access: "Phone at (877) 876-2455, report online at uspis.gov",
       outcome: "Investigation, arrest, prosecution of mail thieves",
-      phone: "(877) 876-2455",
+      phone: "",
       url: "https://www.uspis.gov",
       verified: true,
       bilingual: false,

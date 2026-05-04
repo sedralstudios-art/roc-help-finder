@@ -1,0 +1,29 @@
+{
+  "callId": "cd1bb307-731f-6ec1-0578-ce70568ac662",
+  "digits": "5854232400",
+  "dialedNumber": "(585) 423-2400",
+  "catalogedName": "prescription-assistance-ny",
+  "sourceId": "legal-entry:prescription-assistance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "prescription-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:36:41.106Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.033Z"
+  }
+}

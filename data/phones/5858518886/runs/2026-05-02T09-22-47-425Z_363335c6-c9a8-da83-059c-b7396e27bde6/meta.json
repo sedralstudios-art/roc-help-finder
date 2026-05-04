@@ -1,0 +1,24 @@
+{
+  "callId": "363335c6-c9a8-da83-059c-b7396e27bde6",
+  "digits": "5858518886",
+  "dialedNumber": "5858518886",
+  "catalogedName": "Reentry Association of Western NY (RAWNY)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:22:47.425Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.645Z"
+  }
+}

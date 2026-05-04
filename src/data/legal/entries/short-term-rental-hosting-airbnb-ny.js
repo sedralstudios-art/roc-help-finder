@@ -64,7 +64,7 @@ export const SHORT_TERM_RENTAL_HOSTING_AIRBNB_NY = {
       qualifier: "Rochester city property owners",
       access: "Phone at (585) 428-6520",
       outcome: "Registration, Certificate of Occupancy, code guidance",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

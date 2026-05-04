@@ -1,0 +1,33 @@
+{
+  "callId": "c5108e9d-8086-82d0-a202-360d7056978c",
+  "digits": "8004428106",
+  "dialedNumber": "(800) 442-8106",
+  "catalogedName": "eyeglass-contact-lens-prescription-release-ny",
+  "sourceId": "legal-entry:eyeglass-contact-lens-prescription-release-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny"
+    },
+    {
+      "type": "entry",
+      "id": "office-of-professions-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:36:21.736Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.598Z"
+  }
+}

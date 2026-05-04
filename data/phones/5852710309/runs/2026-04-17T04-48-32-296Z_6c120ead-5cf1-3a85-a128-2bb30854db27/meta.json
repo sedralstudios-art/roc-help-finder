@@ -1,0 +1,24 @@
+{
+  "callId": "6c120ead-5cf1-3a85-a128-2bb30854db27",
+  "digits": "5852710309",
+  "dialedNumber": "(585) 271-0309",
+  "catalogedName": "Mary Cariola Children's Center",
+  "sourceId": "marycariola",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:48:32.296Z",
+  "durationSec": 23,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.592Z"
+  }
+}

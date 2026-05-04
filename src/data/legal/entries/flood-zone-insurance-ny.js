@@ -60,7 +60,7 @@ export const FLOOD_ZONE_INSURANCE_NY = {
       qualifier: "Anyone in the U.S.",
       access: "Online at msc.fema.gov or phone at (877) 336-2627",
       outcome: "Flood zone determination, insurance guidance, map amendment processing",
-      phone: "(877) 336-2627",
+      phone: "",
       url: "https://msc.fema.gov",
       verified: true,
       bilingual: true,

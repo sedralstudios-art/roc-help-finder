@@ -1,0 +1,70 @@
+{
+  "digits": "5184746746",
+  "kind": "phone",
+  "primaryName": "entry-callout:carbon-monoxide-poisoning-liability-ny",
+  "rawValue": "(518) 474-6746",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "carbon-monoxide-poisoning-liability-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-benefits-vfbl-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-22-13-597Z_f9df4536-fbb0-d015-2058-b133e494a415",
+    "meta": {
+      "callId": "f9df4536-fbb0-d015-2058-b133e494a415",
+      "digits": "5184746746",
+      "dialedNumber": "(518) 474-6746",
+      "catalogedName": "carbon-monoxide-poisoning-liability-ny",
+      "sourceId": "legal-entry:carbon-monoxide-poisoning-liability-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "carbon-monoxide-poisoning-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "volunteer-firefighter-benefits-vfbl-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:22:13.597Z",
+      "durationSec": 24,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.561Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.369Z",
+  "lastSeededAt": "2026-05-03T19:44:16.369Z"
+}

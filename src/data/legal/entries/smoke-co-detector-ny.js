@@ -57,7 +57,7 @@ export const SMOKE_CO_DETECTOR_NY = {
       qualifier: "Any Rochester residence",
       access: "Phone",
       outcome: "Inspection and compliance orders",
-      phone: "(585) 428-7038",
+      phone: "",
       url: "https://www.cityofrochester.gov/fire/",
       verified: true,
       bilingual: false,

@@ -1,0 +1,24 @@
+{
+  "callId": "73c8bf37-07cd-d48b-ee24-353d3567c733",
+  "digits": "5853713490",
+  "dialedNumber": "(585) 371-3490",
+  "catalogedName": "Monroe County Family Court",
+  "sourceId": "familycourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:05:37.090Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.687Z"
+  }
+}

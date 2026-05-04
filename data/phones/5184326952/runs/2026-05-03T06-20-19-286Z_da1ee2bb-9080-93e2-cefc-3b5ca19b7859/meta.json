@@ -1,0 +1,29 @@
+{
+  "callId": "da1ee2bb-9080-93e2-cefc-3b5ca19b7859",
+  "digits": "5184326952",
+  "dialedNumber": "(518) 432-6952",
+  "catalogedName": "library-borrowing-privacy-ny",
+  "sourceId": "legal-entry:library-borrowing-privacy-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "library-borrowing-privacy-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:20:19.286Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.902Z"
+  }
+}

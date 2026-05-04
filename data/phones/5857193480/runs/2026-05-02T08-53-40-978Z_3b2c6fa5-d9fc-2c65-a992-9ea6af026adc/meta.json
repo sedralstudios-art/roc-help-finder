@@ -1,0 +1,24 @@
+{
+  "callId": "3b2c6fa5-d9fc-2c65-a992-9ea6af026adc",
+  "digits": "5857193480",
+  "dialedNumber": "5857193480",
+  "catalogedName": "NCADD-RA (Addiction Help)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:53:40.978Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.584Z"
+  }
+}

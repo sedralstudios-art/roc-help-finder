@@ -1,0 +1,70 @@
+{
+  "digits": "5854287038",
+  "kind": "phone",
+  "primaryName": "entry-callout:seat-belt-child-seat-ny",
+  "rawValue": "(585) 428-7038",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "seat-belt-child-seat-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "smoke-co-detector-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-44-24-214Z_3118e59a-e15d-4019-ab01-1ed8078e4f5e",
+    "meta": {
+      "callId": "3118e59a-e15d-4019-ab01-1ed8078e4f5e",
+      "digits": "5854287038",
+      "dialedNumber": "(585) 428-7038",
+      "catalogedName": "seat-belt-child-seat-ny",
+      "sourceId": "legal-entry:seat-belt-child-seat-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "seat-belt-child-seat-ny"
+        },
+        {
+          "type": "entry",
+          "id": "smoke-co-detector-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:44:24.214Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.649Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.407Z",
+  "lastSeededAt": "2026-05-03T19:44:16.407Z"
+}

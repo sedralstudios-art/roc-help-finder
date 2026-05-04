@@ -1,0 +1,29 @@
+{
+  "callId": "4e2250f7-d83a-e40f-a4a5-2d2b833ed30f",
+  "digits": "2124967400",
+  "dialedNumber": "(212) 496-7400",
+  "catalogedName": "condo-conversion-tenant-buyout-ny",
+  "sourceId": "legal-entry:condo-conversion-tenant-buyout-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "condo-conversion-tenant-buyout-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:59:56.060Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.757Z"
+  }
+}

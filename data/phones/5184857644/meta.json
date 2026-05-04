@@ -1,0 +1,97 @@
+{
+  "digits": "5184857644",
+  "kind": "phone",
+  "primaryName": "entry-callout:criminal-discovery-reform-cpl-245-ny",
+  "rawValue": "(518) 485-7644",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "criminal-discovery-reform-cpl-245-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "second-felony-offender-sentencing-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "speedy-trial-cpl-30-30-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "youthful-offender-adjudication-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-24-33-011Z_5c6392fb-87e8-076a-d552-36959531923b",
+    "meta": {
+      "callId": "5c6392fb-87e8-076a-d552-36959531923b",
+      "digits": "5184857644",
+      "dialedNumber": "(518) 485-7644",
+      "catalogedName": "criminal-discovery-reform-cpl-245-ny",
+      "sourceId": "legal-entry:criminal-discovery-reform-cpl-245-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "criminal-discovery-reform-cpl-245-ny"
+        },
+        {
+          "type": "entry",
+          "id": "motion-to-suppress-evidence-cpl-710-ny"
+        },
+        {
+          "type": "entry",
+          "id": "second-felony-offender-sentencing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "speedy-trial-cpl-30-30-ny"
+        },
+        {
+          "type": "entry",
+          "id": "youthful-offender-adjudication-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:24:33.011Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.296Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.315Z",
+  "lastSeededAt": "2026-05-03T19:44:16.315Z"
+}

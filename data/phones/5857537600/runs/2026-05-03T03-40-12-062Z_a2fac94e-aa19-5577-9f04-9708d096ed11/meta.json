@@ -1,0 +1,53 @@
+{
+  "callId": "a2fac94e-aa19-5577-9f04-9708d096ed11",
+  "digits": "5857537600",
+  "dialedNumber": "(585) 753-7600",
+  "catalogedName": "bottle-bill-deposit-return-ny",
+  "sourceId": "legal-entry:bottle-bill-deposit-return-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny"
+    },
+    {
+      "type": "entry",
+      "id": "composting-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny"
+    },
+    {
+      "type": "entry",
+      "id": "e-waste-recycling-ny"
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vehicle-registration-inspection-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:40:12.062Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.092Z"
+  }
+}

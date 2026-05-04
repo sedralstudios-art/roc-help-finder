@@ -61,7 +61,7 @@ export const COURT_INTERPRETER_REQUEST_NY = {
       qualifier: "Any party in NY court proceedings",
       access: "Phone at (646) 386-5670",
       outcome: "Interpreter scheduling, policy guidance, complaint processing",
-      phone: "(646) 386-5670",
+      phone: "",
       url: "https://www.nycourts.gov/courts/languageaccess",
       verified: true,
       bilingual: true,

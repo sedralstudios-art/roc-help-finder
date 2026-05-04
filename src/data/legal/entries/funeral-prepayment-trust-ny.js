@@ -61,7 +61,7 @@ export const FUNERAL_PREPAYMENT_TRUST_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (518) 402-0785",
       outcome: "Investigation, enforcement, consumer information",
-      phone: "(518) 402-0785",
+      phone: "",
       url: "https://www.health.ny.gov/professionals/funeral_director/",
       verified: true,
       bilingual: false,

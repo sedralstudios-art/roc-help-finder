@@ -1,0 +1,61 @@
+{
+  "digits": "5184456052",
+  "kind": "phone",
+  "primaryName": "entry-callout:access-to-courts-incarcerated-ny",
+  "rawValue": "(518) 445-6052",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "access-to-courts-incarcerated-ny",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-48-33-871Z_83e8f0fa-fae6-9e74-f3e0-a4fb4d7fbf0b",
+    "meta": {
+      "callId": "83e8f0fa-fae6-9e74-f3e0-a4fb4d7fbf0b",
+      "digits": "5184456052",
+      "dialedNumber": "(518) 445-6052",
+      "catalogedName": "access-to-courts-incarcerated-ny",
+      "sourceId": "legal-entry:access-to-courts-incarcerated-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "access-to-courts-incarcerated-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:48:33.871Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.676Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.462Z",
+  "lastSeededAt": "2026-05-03T19:44:16.462Z"
+}

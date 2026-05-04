@@ -1,0 +1,24 @@
+{
+  "callId": "53633056-3273-ad18-5aae-58b3a68fa9ce",
+  "digits": "5852227233",
+  "dialedNumber": "5852227233",
+  "catalogedName": "Willow Center (Domestic Violence)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:31:16.548Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.799Z"
+  }
+}

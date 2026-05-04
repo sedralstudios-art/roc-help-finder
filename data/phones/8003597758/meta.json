@@ -1,0 +1,49 @@
+{
+  "digits": "8003597758",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-15-58-691Z_2d76bc0e-150f-6d0f-7883-0d99d852a374",
+    "meta": {
+      "callId": "2d76bc0e-150f-6d0f-7883-0d99d852a374",
+      "digits": "8003597758",
+      "dialedNumber": "(800) 359-7758",
+      "catalogedName": "military-divorce-benefits-ny",
+      "sourceId": "legal-entry:military-divorce-benefits-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "military-divorce-benefits-ny"
+        },
+        {
+          "type": "entry",
+          "id": "service-member-lease-termination-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:15:58.691Z",
+      "durationSec": 20,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.836Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "b5bf34af-dbba-4513-b797-fc19720d7ae8",
+  "digits": "8008271000",
+  "dialedNumber": "(800) 827-1000",
+  "catalogedName": "burial-cremation-rights-low-income-ny",
+  "sourceId": "legal-entry:burial-cremation-rights-low-income-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "burial-cremation-rights-low-income-ny"
+    },
+    {
+      "type": "entry",
+      "id": "disabled-homeowner-property-tax-exemption-ny"
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "va-disability-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "veterans-benefits-apportionment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:19:01.774Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.275Z"
+  }
+}

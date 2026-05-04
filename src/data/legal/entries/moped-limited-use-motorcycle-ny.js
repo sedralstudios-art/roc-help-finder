@@ -41,7 +41,7 @@ export const MOPED_LIMITED_USE_MOTORCYCLE_NY = {
     en: [
       "NYS DMV at (518) 486-9786 handles moped registration, class determination, and motorcycle license testing.",
       "Monroe County DMV at (585) 753-7050 processes in-person registration at the Rochester office.",
-      "For motorcycle license testing, NYS Motorcycle Safety Program at (518) 474-2121 lists approved test sites.",
+      "For motorcycle license testing, NYS Motorcycle Safety Program at 1-800-446-9227 lists approved test sites.",
       "NYS Division of Consumer Protection at (800) 697-1220 handles complaints about moped dealers misrepresenting class.",
       "For traffic tickets, Monroe County Traffic Violations Agency or city/town court where the ticket was issued.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income riders in moped-related cases."
@@ -60,7 +60,7 @@ export const MOPED_LIMITED_USE_MOTORCYCLE_NY = {
       qualifier: "Any NY moped or motorcycle owner",
       access: "Phone, walk-in local DMV office, website",
       outcome: "Registration, class correction, license endorsement",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/registration/limited-use-motorcycles",
       verified: true,
       bilingual: true,
@@ -73,7 +73,7 @@ export const MOPED_LIMITED_USE_MOTORCYCLE_NY = {
       qualifier: "Any NY moped buyer",
       access: "Phone, online complaint form",
       outcome: "Complaint investigation, dealer compliance",
-      phone: "(800) 697-1220",
+      phone: "",
       url: "https://dos.ny.gov/consumer-protection",
       verified: true,
       bilingual: true,

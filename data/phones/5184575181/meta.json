@@ -1,0 +1,135 @@
+{
+  "digits": "5184575181",
+  "kind": "phone",
+  "primaryName": "entry-callout:car-donation-charity-ny",
+  "rawValue": "(518) 457-5181",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "child-dependent-care-credit-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-child-credit-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-real-property-tax-credit-ny",
+      "line": 103
+    },
+    {
+      "type": "entry",
+      "id": "nonresident-income-tax-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "ny-estimated-tax-self-employed-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "ny-pension-tax-exclusion-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "tax-refund-garnishment-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-26-32-331Z_e9f886ae-1545-c31c-131d-54d903b79d9e",
+    "meta": {
+      "callId": "e9f886ae-1545-c31c-131d-54d903b79d9e",
+      "digits": "5184575181",
+      "dialedNumber": "(518) 457-5181",
+      "catalogedName": "car-donation-charity-ny",
+      "sourceId": "legal-entry:car-donation-charity-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "car-donation-charity-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-dependent-care-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "empire-state-child-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "empire-state-real-property-tax-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nonresident-income-tax-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-estimated-tax-self-employed-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ny-pension-tax-exclusion-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tax-refund-garnishment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tobacco-retailer-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:26:32.331Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.023Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Department of Taxation and Finance",
+      "reason": "transcript-stated name (New York State Department of Taxation and Finance) differs from catalogued (car-donation-charity-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.286Z",
+  "lastSeededAt": "2026-05-03T19:44:16.286Z"
+}

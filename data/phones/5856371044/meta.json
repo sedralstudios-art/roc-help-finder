@@ -1,0 +1,78 @@
+{
+  "digits": "5856371044",
+  "kind": "phone",
+  "primaryName": "Brockport Village Court",
+  "rawValue": "585-637-1044",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brockportcourt",
+      "name": "Brockport Village Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-34-04-628Z_a732c636-446c-895b-92c4-51f6f45cb0a8",
+    "meta": {
+      "callId": "a732c636-446c-895b-92c4-51f6f45cb0a8",
+      "digits": "5856371044",
+      "dialedNumber": "5856371044",
+      "catalogedName": "Brockport Village Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:34:04.628Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.543Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Brockport Village Court",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.432Z",
+  "lastSeededAt": "2026-05-03T19:44:16.432Z",
+  "verifiedAt": "2026-05-03T20:21:01.770Z",
+  "verifiedRun": "2026-05-02T08-34-04-628Z_a732c636-446c-895b-92c4-51f6f45cb0a8",
+  "verifiedTranscriptOpening": "Thank you for calling Brockport Village Court. Our office hours are Monday through Thursday from 7.30 a.m. to 3 p.m. Court is held on every Friday, and we are not able to accept calls while court is i",
+  "verifiedMatchTokens": [
+    "brockport",
+    "village",
+    "court"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:19:57.186Z",
+      "sourceUrl": "https://brockportny.gov/village-court/",
+      "sourceLabel": "Village of Brockport Village Court page",
+      "notes": "Direct match: web confirms (585) 637-1044 for Brockport Village Court. Apr 17 audit had flagged this as \"Mayor's Office\" but that was the Apr 17 .amr file-misalignment bug; trusting fresh web verification."
+    }
+  ]
+}

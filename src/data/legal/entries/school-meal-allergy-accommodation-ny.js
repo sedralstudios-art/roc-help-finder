@@ -59,7 +59,7 @@ export const SCHOOL_MEAL_ALLERGY_ACCOMMODATION_NY = {
       qualifier: "Any student in a school participating in the National School Lunch Program",
       access: "Phone at (800) 221-5689",
       outcome: "Investigation, enforcement, accommodation compliance",
-      phone: "(800) 221-5689",
+      phone: "",
       url: "https://www.fns.usda.gov/cn/accommodating-children-disabilities-school-meal-programs",
       verified: true,
       bilingual: true,

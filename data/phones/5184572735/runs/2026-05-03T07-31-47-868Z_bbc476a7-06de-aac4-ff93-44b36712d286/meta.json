@@ -1,0 +1,37 @@
+{
+  "callId": "bbc476a7-06de-aac4-ff93-44b36712d286",
+  "digits": "5184572735",
+  "dialedNumber": "(518) 457-2735",
+  "catalogedName": "amusement-ride-safety-ny",
+  "sourceId": "legal-entry:amusement-ride-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "amusement-ride-safety-ny"
+    },
+    {
+      "type": "entry",
+      "id": "landlord-mold-disclosure-rental-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mold-homeowner-remediation-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:31:47.868Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.321Z"
+  }
+}

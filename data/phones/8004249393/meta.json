@@ -1,0 +1,72 @@
+{
+  "digits": "8004249393",
+  "kind": "phone",
+  "primaryName": "entry-callout:odometer-fraud-used-car-ny",
+  "rawValue": "(800) 424-9393",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "odometer-fraud-used-car-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "salvage-title-branded-vehicle-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-27-00-965Z_a14b3404-e56d-9261-9b1c-ca02a4507753",
+    "meta": {
+      "callId": "a14b3404-e56d-9261-9b1c-ca02a4507753",
+      "digits": "8004249393",
+      "dialedNumber": "(800) 424-9393",
+      "catalogedName": "odometer-fraud-used-car-ny",
+      "sourceId": "legal-entry:odometer-fraud-used-car-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "odometer-fraud-used-car-ny"
+        },
+        {
+          "type": "entry",
+          "id": "salvage-title-branded-vehicle-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:27:00.965Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "external-hangup",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.888Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "National Highway Traffic Safety Administration hotline",
+      "reason": "transcript-stated name (National Highway Traffic Safety Administration hotline) differs from catalogued (odometer-fraud-used-car-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.404Z",
+  "lastSeededAt": "2026-05-03T19:44:16.404Z"
+}

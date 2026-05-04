@@ -1,0 +1,33 @@
+{
+  "callId": "e8b764f0-11ac-f4e2-6c90-27f0bdb20d6b",
+  "digits": "5854287343",
+  "dialedNumber": "(585) 428-7343",
+  "catalogedName": "neighbor-tree-roots-damage-ny",
+  "sourceId": "legal-entry:neighbor-tree-roots-damage-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "neighbor-tree-roots-damage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tree-removal-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:41:54.462Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.633Z"
+  }
+}

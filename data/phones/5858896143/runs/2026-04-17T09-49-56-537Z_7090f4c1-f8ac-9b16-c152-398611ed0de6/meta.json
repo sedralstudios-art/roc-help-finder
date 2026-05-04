@@ -1,0 +1,24 @@
+{
+  "callId": "7090f4c1-f8ac-9b16-c152-398611ed0de6",
+  "digits": "5858896143",
+  "dialedNumber": "(585) 889-6143",
+  "catalogedName": "Town of Chili Building Department",
+  "sourceId": "electrical-residential-ny-mon-chili-town::Town of Chili Building Department",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:49:56.537Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.032Z"
+  }
+}

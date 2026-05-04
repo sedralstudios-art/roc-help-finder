@@ -9,7 +9,7 @@ export const ELECTRICAL_RESIDENTIAL_NY_MON_CHURCHVILLE_VILLAGE = {
   title: { en: "Residential Electrical Work in the Village of Churchville — Electrician's Report and Municipal Electric" },
 
   summary: {
-    en: "Churchville is unusual — the village runs its own electrical utility, Churchville Municipal Electric. That adds a step most New York villages do not have. For new service or any service-level change (a service upgrade, a new service entrance, a meter relocation), the electrician has to file a village Electrician's Report before the utility will energize. Electrical inspections are handled by a third-party agency; NYEIA is explicitly set up as an approved inspector for Churchville. The Building Inspector at (585) 293-3720 ext 134 confirms which other agencies the village accepts."
+    en: "Churchville is unusual — the village runs its own electrical utility, Churchville Municipal Electric. That adds a step most New York villages do not have. For new service or any service-level change (a service upgrade, a new service entrance, a meter relocation), the electrician has to file a village Electrician's Report before the utility will energize. Electrical inspections are handled by a third-party agency; NYEIA is explicitly set up as an approved inspector for Churchville. The Building Inspector at [number being verified] ext 134 confirms which other agencies the village accepts."
   },
 
   whatItMeans: {
@@ -56,7 +56,7 @@ export const ELECTRICAL_RESIDENTIAL_NY_MON_CHURCHVILLE_VILLAGE = {
     qualifier: "Residents and contractors working inside the Village",
     access: "23 E Buffalo St; phone ext 134; hours Mon-Fri 7 a.m. to 3:30 p.m.",
     outcome: "Permit issuance, Electrician's Report processing, code guidance",
-    phone: "(585) 293-3720",
+    phone: "",
     url: "https://churchville.net/building-inspector-code-enforcement-officer/",
     verified: true, bilingual: false, languages: ["en"]
   }],

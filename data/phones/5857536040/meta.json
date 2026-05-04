@@ -1,0 +1,144 @@
+{
+  "digits": "5857536040",
+  "kind": "phone",
+  "primaryName": "entry-callout:kendras-law-assisted-outpatient-treatment-ny",
+  "rawValue": "(585) 753-6040",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "kendras-law-assisted-outpatient-treatment-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "problem-solving-courts-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "va-disability-appeal-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "veteran-tuition-waiver-suny-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "veterans-benefits-apportionment-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "veterans-benefits-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "veterans-property-tax-exemption-ny",
+      "line": 74
+    },
+    {
+      "type": "entry",
+      "id": "veterans-treatment-court-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-25-21-209Z_328556fe-a9f2-9b1f-85f9-f07a2e880976",
+    "meta": {
+      "callId": "328556fe-a9f2-9b1f-85f9-f07a2e880976",
+      "digits": "5857536040",
+      "dialedNumber": "(585) 753-6040",
+      "catalogedName": "kendras-law-assisted-outpatient-treatment-ny",
+      "sourceId": "legal-entry:kendras-law-assisted-outpatient-treatment-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "kendras-law-assisted-outpatient-treatment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "problem-solving-courts-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "va-disability-appeal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veteran-tuition-waiver-suny-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veterans-benefits-apportionment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veterans-benefits-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veterans-housing-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veterans-property-tax-exemption-ny"
+        },
+        {
+          "type": "entry",
+          "id": "veterans-treatment-court-ny"
+        },
+        {
+          "type": "entry",
+          "id": "when-someone-dies-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:25:21.209Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.017Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County Veterans Service Agency",
+      "reason": "transcript-stated name (Monroe County Veterans Service Agency) differs from catalogued (kendras-law-assisted-outpatient-treatment-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.284Z",
+  "lastSeededAt": "2026-05-03T19:44:16.284Z"
+}

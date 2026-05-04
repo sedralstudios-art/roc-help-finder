@@ -1,0 +1,29 @@
+{
+  "callId": "75ba4293-7fd8-6679-c206-a00e54f94ae8",
+  "digits": "6468803005",
+  "dialedNumber": "(646) 880-3005",
+  "catalogedName": "surrogacy-child-parent-security-act-ny",
+  "sourceId": "legal-entry:surrogacy-child-parent-security-act-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surrogacy-child-parent-security-act-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:48:53.300Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.118Z"
+  }
+}

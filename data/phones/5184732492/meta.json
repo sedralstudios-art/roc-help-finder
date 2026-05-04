@@ -1,0 +1,97 @@
+{
+  "digits": "5184732492",
+  "kind": "phone",
+  "primaryName": "entry-callout:assumed-name-dba-ny",
+  "rawValue": "(518) 473-2492",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "assumed-name-dba-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "charitable-solicitation-registration-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "notarization-basics-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-13-42-905Z_a2965559-8069-79a0-a964-47000f57f932",
+    "meta": {
+      "callId": "a2965559-8069-79a0-a964-47000f57f932",
+      "digits": "5184732492",
+      "dialedNumber": "(518) 473-2492",
+      "catalogedName": "assumed-name-dba-ny",
+      "sourceId": "legal-entry:assumed-name-dba-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "assumed-name-dba-ny"
+        },
+        {
+          "type": "entry",
+          "id": "charitable-solicitation-registration-ny"
+        },
+        {
+          "type": "entry",
+          "id": "new-home-construction-warranty-ny"
+        },
+        {
+          "type": "entry",
+          "id": "notarization-basics-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shareholder-derivative-lawsuit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:13:42.905Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.252Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.312Z",
+  "lastSeededAt": "2026-05-03T19:44:16.312Z"
+}

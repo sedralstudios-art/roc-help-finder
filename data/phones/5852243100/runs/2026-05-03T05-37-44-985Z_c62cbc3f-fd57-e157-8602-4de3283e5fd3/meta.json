@@ -1,0 +1,33 @@
+{
+  "callId": "c62cbc3f-fd57-e157-8602-4de3283e5fd3",
+  "digits": "5852243100",
+  "dialedNumber": "(585) 224-3100",
+  "catalogedName": "health-insurance-application-walkthrough-ny",
+  "sourceId": "legal-entry:health-insurance-application-walkthrough-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "health-insurance-application-walkthrough-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-of-health-marketplace-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:37:44.985Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.606Z"
+  }
+}

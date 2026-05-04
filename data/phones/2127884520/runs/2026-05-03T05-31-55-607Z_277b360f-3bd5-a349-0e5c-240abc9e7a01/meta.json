@@ -1,0 +1,33 @@
+{
+  "callId": "277b360f-3bd5-a349-0e5c-240abc9e7a01",
+  "digits": "2127884520",
+  "dialedNumber": "(212) 788-4520",
+  "catalogedName": "birth-certificate-correction-ny",
+  "sourceId": "legal-entry:birth-certificate-correction-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "birth-certificate-correction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vital-records-request-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:31:55.607Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.569Z"
+  }
+}

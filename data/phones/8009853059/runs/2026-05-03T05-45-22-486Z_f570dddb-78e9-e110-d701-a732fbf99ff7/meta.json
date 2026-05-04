@@ -1,0 +1,33 @@
+{
+  "callId": "f570dddb-78e9-e110-d701-a732fbf99ff7",
+  "digits": "8009853059",
+  "dialedNumber": "(800) 985-3059",
+  "catalogedName": "surprise-medical-billing-ny",
+  "sourceId": "legal-entry:surprise-medical-billing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "surprise-medical-billing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "surprise-medical-bills-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:45:22.486Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.655Z"
+  }
+}

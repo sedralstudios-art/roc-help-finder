@@ -56,7 +56,7 @@ export const DOG_WASTE_CLEANUP_LAW_NY = {
       qualifier: "City of Rochester residents and visitors",
       access: "Phone or 311",
       outcome: "Complaint intake, ticket issuance, violation follow-up",
-      phone: "(585) 428-6520",
+      phone: "",
       url: "https://www.cityofrochester.gov",
       verified: true,
       bilingual: false,

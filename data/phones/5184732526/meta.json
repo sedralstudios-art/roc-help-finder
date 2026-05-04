@@ -1,0 +1,61 @@
+{
+  "digits": "5184732526",
+  "kind": "phone",
+  "primaryName": "entry-callout:mitchell-lama-affordable-housing-ny",
+  "rawValue": "(518) 473-2526",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "mitchell-lama-affordable-housing-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-24-28-902Z_6856ffbb-30fa-2640-a371-028207477d00",
+    "meta": {
+      "callId": "6856ffbb-30fa-2640-a371-028207477d00",
+      "digits": "5184732526",
+      "dialedNumber": "(518) 473-2526",
+      "catalogedName": "mitchell-lama-affordable-housing-ny",
+      "sourceId": "legal-entry:mitchell-lama-affordable-housing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "mitchell-lama-affordable-housing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:24:28.902Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.931Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.527Z",
+  "lastSeededAt": "2026-05-03T19:44:16.527Z"
+}

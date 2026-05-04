@@ -64,7 +64,7 @@ export const PARKING_OVERNIGHT_STREET_NY = {
       qualifier: "Rochester city residents",
       access: "Phone at (585) 428-7482",
       outcome: "Ticket payment, dispute, parking information",
-      phone: "(585) 428-7482",
+      phone: "",
       url: "https://www.cityofrochester.gov/parking/",
       verified: true,
       bilingual: false,

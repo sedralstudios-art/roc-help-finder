@@ -18,8 +18,8 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
   isAnchor: true,
   anchorSource: {
     url: "https://www.nysenate.gov/legislation/laws/GBS/349",
-    hash: "",
-    lastFetched: ""
+    hash: "e920bf3f4a49d9c95d39d95565c61d4c4546de4fd62b78d139d33c15cd5c9ddc",
+    lastFetched: "2026-05-02"
   },
   lastFormallyReviewed: "2026-05-01",
   formallyReviewedBy: "Anthony DiMarzo + WebSearch + R1–R3 expert review (2026-05-01). Provisional, pending attorney sign-off. Round-by-round detail: src/data/legal/anchor-reviews/deceptive-business-practices-ny.md.",
@@ -85,7 +85,7 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
       qualifier: "Low-income Monroe County residents",
       access: "Phone at (585) 232-4090",
       outcome: "Advice, demand letter support, small claims representation",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
@@ -98,7 +98,7 @@ export const DECEPTIVE_BUSINESS_PRACTICES_NY = {
       qualifier: "Any NY consumer",
       access: "Online complaint or phone (800) 771-7755",
       outcome: "Investigation, mediation, enforcement action",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/file-complaint/consumer",
       verified: true,
       bilingual: true,

@@ -1,0 +1,59 @@
+{
+  "digits": "5858891604",
+  "kind": "phone",
+  "primaryName": "Union Presbyterian Food Cupboard",
+  "rawValue": "585-889-1604",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "unionpresfood",
+      "name": "Union Presbyterian Food Cupboard",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-33-46-132Z_b5bfbd41-5daf-9fae-e569-4c9bc1673e90",
+    "meta": {
+      "callId": "b5bfbd41-5daf-9fae-e569-4c9bc1673e90",
+      "digits": "5858891604",
+      "dialedNumber": "5858891604",
+      "catalogedName": "Union Presbyterian Food Cupboard",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:33:46.132Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.669Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.458Z",
+  "lastSeededAt": "2026-05-03T19:44:16.458Z"
+}

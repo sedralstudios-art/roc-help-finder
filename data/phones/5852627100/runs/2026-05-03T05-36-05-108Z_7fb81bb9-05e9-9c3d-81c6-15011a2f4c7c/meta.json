@@ -1,0 +1,33 @@
+{
+  "callId": "7fb81bb9-05e9-9c3d-81c6-15011a2f4c7c",
+  "digits": "5852627100",
+  "dialedNumber": "(585) 262-7100",
+  "catalogedName": "emergency-rental-assistance-program-ny",
+  "sourceId": "legal-entry:emergency-rental-assistance-program-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emergency-rental-assistance-program-ny"
+    },
+    {
+      "type": "entry",
+      "id": "safety-net-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:36:05.108Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.596Z"
+  }
+}

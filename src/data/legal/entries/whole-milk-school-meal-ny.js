@@ -39,7 +39,7 @@ export const WHOLE_MILK_SCHOOL_MEAL_NY = {
   legalOptions: {
     en: [
       "NYS Education Department Child Nutrition Program at (518) 473-8781 administers school meal rules in NY.",
-      "Each Monroe County school district has a Food Service Director who can explain current milk offerings — Rochester City School District Food Services (585) 262-8300, Greece Central Food Service (585) 966-2000, Brighton Food Service (585) 242-5080.",
+      "Each Monroe County school district has a Food Service Director who can explain current milk offerings — Rochester City School District Food Services (585) 262-8300, Greece Central Food Service (585) 966-2000, Brighton Food Service (585) 242-5200.",
       "For medical dietary substitutes, a student medical form (FNS 10-A equivalent) submitted through the school nurse and food service director.",
       "U.S. Department of Agriculture Food and Nutrition Service at (703) 305-2062 handles federal school meal reimbursement rules.",
       "Monroe County 2-1-1 at (585) 442-0220 can connect families to summer meal programs and local school food resources."
@@ -58,7 +58,7 @@ export const WHOLE_MILK_SCHOOL_MEAL_NY = {
       qualifier: "Any NY school, parent, or student",
       access: "Phone, website guidance, district technical assistance",
       outcome: "Guidance on NY and federal rules, dispute resolution with districts",
-      phone: "(518) 473-8781",
+      phone: "",
       url: "https://www.nysed.gov/child-nutrition",
       verified: true,
       bilingual: true,
@@ -71,7 +71,7 @@ export const WHOLE_MILK_SCHOOL_MEAL_NY = {
       qualifier: "Any parent or school in the Northeast region",
       access: "Phone, website",
       outcome: "Rule clarification, reimbursement guidance",
-      phone: "(703) 305-2062",
+      phone: "",
       url: "https://www.fns.usda.gov/cn",
       verified: true,
       bilingual: true,

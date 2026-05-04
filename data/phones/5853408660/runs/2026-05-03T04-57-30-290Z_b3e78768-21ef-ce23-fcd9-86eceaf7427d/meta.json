@@ -1,0 +1,41 @@
+{
+  "callId": "b3e78768-21ef-ce23-fcd9-86eceaf7427d",
+  "digits": "5853408660",
+  "dialedNumber": "(585) 340-8660",
+  "catalogedName": "sidewalk-repair-who-pays-ny",
+  "sourceId": "legal-entry:sidewalk-repair-who-pays-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny"
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:57:30.290Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.475Z"
+  }
+}

@@ -59,7 +59,7 @@ export const MEDICAL_BILL_NEGOTIATION_NY = {
       qualifier: "Any consumer in the Rochester area",
       access: "Phone",
       outcome: "Free assistance navigating bills and financial assistance",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

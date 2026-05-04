@@ -1,0 +1,91 @@
+{
+  "digits": "5854285990",
+  "kind": "phone",
+  "primaryName": "Rochester City Hall — City Services & Emergency Help",
+  "rawValue": "585-428-5990",
+  "blockDial": false,
+  "tags": [
+    "cat:parentalProtection",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "townhall",
+      "name": "Rochester City Hall — City Services & Emergency Help",
+      "category": "parentalProtection",
+      "hidden": true
+    },
+    {
+      "type": "entry",
+      "id": "bottle-bill-deposit-return-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-renovation-rule-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "plastic-bag-fee-ban-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "tenant-habitability-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-29-41-160Z_2f7ecb9f-ce13-7d75-089e-2ce0f7c6f5c1",
+    "meta": {
+      "callId": "2f7ecb9f-ce13-7d75-089e-2ce0f7c6f5c1",
+      "digits": "5854285990",
+      "dialedNumber": "5854285990",
+      "catalogedName": "Rochester City Hall — City Services & Emergency Help",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:29:41.160Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.404Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "City of Rochester",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.308Z",
+  "lastSeededAt": "2026-05-03T19:44:16.308Z",
+  "verifiedAt": "2026-05-03T20:21:01.740Z",
+  "verifiedRun": "2026-05-02T07-29-41-160Z_2f7ecb9f-ce13-7d75-089e-2ce0f7c6f5c1",
+  "verifiedTranscriptOpening": "Welcome to the City of Rochester. If this call is a police, fire, or medical emergency, please hang up and dial 911. If this is a Rochester Police non-emergency matter, please press 1. If this is a Wa",
+  "verifiedMatchTokens": [
+    "city",
+    "city",
+    "emergency"
+  ],
+  "verifiedRatio": 0.75
+}

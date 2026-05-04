@@ -1,0 +1,24 @@
+{
+  "callId": "a201e816-fcd1-0885-ebb0-f8497e021edb",
+  "digits": "5852326720",
+  "dialedNumber": "5852326720",
+  "catalogedName": "Alcoholics Anonymous Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:29:24.455Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.142Z"
+  }
+}

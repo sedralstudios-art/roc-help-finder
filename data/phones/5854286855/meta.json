@@ -1,0 +1,88 @@
+{
+  "digits": "5854286855",
+  "kind": "phone",
+  "primaryName": "entry-callout:dumpster-rental-homeowner-ny",
+  "rawValue": "(585) 428-6855",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "dumpster-rental-homeowner-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "sewer-backup-liability-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "water-bill-dispute-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "water-main-break-responsibility-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-44-42-463Z_8f247be7-23bb-2f2e-4e54-8cb5eff970f6",
+    "meta": {
+      "callId": "8f247be7-23bb-2f2e-4e54-8cb5eff970f6",
+      "digits": "5854286855",
+      "dialedNumber": "(585) 428-6855",
+      "catalogedName": "dumpster-rental-homeowner-ny",
+      "sourceId": "legal-entry:dumpster-rental-homeowner-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "dumpster-rental-homeowner-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sewer-backup-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "water-bill-dispute-ny"
+        },
+        {
+          "type": "entry",
+          "id": "water-main-break-responsibility-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:44:42.463Z",
+      "durationSec": 15,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.419Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.326Z",
+  "lastSeededAt": "2026-05-03T19:44:16.326Z"
+}

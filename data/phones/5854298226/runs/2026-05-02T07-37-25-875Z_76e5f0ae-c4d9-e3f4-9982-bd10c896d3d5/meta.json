@@ -1,0 +1,24 @@
+{
+  "callId": "76e5f0ae-c4d9-e3f4-9982-bd10c896d3d5",
+  "digits": "5854298226",
+  "dialedNumber": "5854298226",
+  "catalogedName": "Gates Assessor",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:37:25.875Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.421Z"
+  }
+}

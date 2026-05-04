@@ -1,0 +1,29 @@
+{
+  "callId": "7db9a8d0-3aee-e899-7fe4-64d42fee25f1",
+  "digits": "8776692572",
+  "dialedNumber": "(877) 669-2572",
+  "catalogedName": "utility-deposit-refund-ny",
+  "sourceId": "legal-entry:utility-deposit-refund-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "utility-deposit-refund-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:51:31.377Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.136Z"
+  }
+}

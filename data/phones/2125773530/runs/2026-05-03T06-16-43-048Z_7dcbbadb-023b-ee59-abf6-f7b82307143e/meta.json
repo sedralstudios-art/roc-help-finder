@@ -1,0 +1,29 @@
+{
+  "callId": "7dcbbadb-023b-ee59-abf6-f7b82307143e",
+  "digits": "2125773530",
+  "dialedNumber": "(212) 577-3530",
+  "catalogedName": "inmate-visitation-communication-ny",
+  "sourceId": "legal-entry:inmate-visitation-communication-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:16:43.048Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.878Z"
+  }
+}

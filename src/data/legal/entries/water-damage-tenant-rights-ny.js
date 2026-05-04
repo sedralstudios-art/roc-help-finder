@@ -23,7 +23,7 @@ export const WATER_DAMAGE_TENANT_RIGHTS_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Real Property Law Section 235-b, every residential lease in the state includes an implied warranty of habitability. This means the landlord must keep the building in a condition fit to live in. Water leaks, burst pipes, and flooding that make the home unsafe or unlivable are the landlord's responsibility to fix. The landlord must act within a reasonable time after being notified. If the landlord does not fix the problem, the tenant can report it to the local code enforcement office, which can order repairs. In Rochester, code enforcement is handled by the Bureau of Inspection and Compliance at (585) 428-6520. The tenant's personal property — furniture, clothing, electronics — is generally not the landlord's responsibility unless the damage was caused by the landlord's failure to maintain the building after being notified. This is why renter's insurance is important — it covers the tenant's belongings. If the apartment is unlivable because of water damage, the tenant may have the right to withhold rent, repair and deduct, or break the lease without penalty."
+    en: "Under New York Real Property Law Section 235-b, every residential lease in the state includes an implied warranty of habitability. This means the landlord must keep the building in a condition fit to live in. Water leaks, burst pipes, and flooding that make the home unsafe or unlivable are the landlord's responsibility to fix. The landlord must act within a reasonable time after being notified. If the landlord does not fix the problem, the tenant can report it to the local code enforcement office, which can order repairs. In Rochester, code enforcement is handled by the Bureau of Inspection and Compliance at [number being verified]. The tenant's personal property — furniture, clothing, electronics — is generally not the landlord's responsibility unless the damage was caused by the landlord's failure to maintain the building after being notified. This is why renter's insurance is important — it covers the tenant's belongings. If the apartment is unlivable because of water damage, the tenant may have the right to withhold rent, repair and deduct, or break the lease without penalty."
   },
 
   yourRights: {
@@ -60,7 +60,7 @@ export const WATER_DAMAGE_TENANT_RIGHTS_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-3700",
       outcome: "Counseling, mediation, and referrals",
-      phone: "(585) 546-3700",
+      phone: "",
       url: "https://www.thehousingcouncil.org",
       verified: true,
       bilingual: true,
@@ -73,7 +73,7 @@ export const WATER_DAMAGE_TENANT_RIGHTS_NY = {
       qualifier: "Low income residents of Monroe and surrounding counties",
       access: "Phone intake at (585) 232-4090",
       outcome: "Legal advice and representation",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

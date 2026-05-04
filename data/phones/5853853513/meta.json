@@ -1,0 +1,70 @@
+{
+  "digits": "5853853513",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-east-rochester-village",
+  "rawValue": "(585) 385-3513",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-east-rochester-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-east-rochester-village",
+      "line": 18
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-41-20-959Z_f3a758ec-afba-c25f-ea3c-a2030268f648",
+    "meta": {
+      "callId": "f3a758ec-afba-c25f-ea3c-a2030268f648",
+      "digits": "5853853513",
+      "dialedNumber": "(585) 385-3513",
+      "catalogedName": "electrical-residential-ny-mon-east-rochester-village",
+      "sourceId": "legal-entry:electrical-residential-ny-mon-east-rochester-village",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "electrical-residential-ny-mon-east-rochester-village"
+        },
+        {
+          "type": "entry",
+          "id": "hvac-residential-ny-mon-east-rochester-village"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:41:20.959Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.652Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.389Z",
+  "lastSeededAt": "2026-05-03T19:44:16.389Z"
+}

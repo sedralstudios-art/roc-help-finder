@@ -1,0 +1,29 @@
+{
+  "callId": "04ec640f-8316-92e7-227c-112f586ddfde",
+  "digits": "8773362627",
+  "dialedNumber": "(877) 336-2627",
+  "catalogedName": "flood-zone-insurance-ny",
+  "sourceId": "legal-entry:flood-zone-insurance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "flood-zone-insurance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:09:46.838Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.831Z"
+  }
+}

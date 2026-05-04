@@ -1,0 +1,29 @@
+{
+  "callId": "6095340d-d75a-949a-8367-0ee687c5c1c0",
+  "digits": "5184574492",
+  "dialedNumber": "(518) 457-4492",
+  "catalogedName": "cottage-food-selling-from-home-ny",
+  "sourceId": "legal-entry:cottage-food-selling-from-home-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "cottage-food-selling-from-home-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:00:21.009Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.761Z"
+  }
+}

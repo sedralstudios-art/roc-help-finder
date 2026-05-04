@@ -1,0 +1,99 @@
+{
+  "digits": "8003429871",
+  "kind": "phone",
+  "primaryName": "entry-callout:adult-home-resident-rights-ny",
+  "rawValue": "1 (800) 342-9871",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "caregiver-rights-family-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "heap-utility-assistance-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "meals-on-wheels-senior-nutrition-ny-program",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "senior-congregate-meals-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-11-20-022Z_5b6dccdf-5160-9e28-b814-c971b2ff1ae2",
+    "meta": {
+      "callId": "5b6dccdf-5160-9e28-b814-c971b2ff1ae2",
+      "digits": "8003429871",
+      "dialedNumber": "1 (800) 342-9871",
+      "catalogedName": "adult-home-resident-rights-ny",
+      "sourceId": "legal-entry:adult-home-resident-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "adult-home-resident-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "caregiver-rights-family-ny"
+        },
+        {
+          "type": "entry",
+          "id": "heap-utility-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "meals-on-wheels-senior-nutrition-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "senior-congregate-meals-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:11:20.022Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.241Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York Connects",
+      "reason": "transcript-stated name (New York Connects) differs from catalogued (adult-home-resident-rights-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.310Z",
+  "lastSeededAt": "2026-05-03T19:44:16.310Z"
+}

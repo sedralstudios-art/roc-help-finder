@@ -61,7 +61,7 @@ export const RESTITUTION_CRIMINAL_CASE_NY = {
       qualifier: "Crime victims in Monroe County",
       access: "Phone at (585) 753-4780",
       outcome: "Restitution requests, victim notification, court support",
-      phone: "(585) 753-4780",
+      phone: "",
       url: "https://www.monroecounty.gov/da",
       verified: true,
       bilingual: false,

@@ -1,0 +1,24 @@
+{
+  "callId": "70836b10-4022-a220-89bb-438d792a815f",
+  "digits": "5853252520",
+  "dialedNumber": "(585) 325-2520",
+  "catalogedName": "Legal Assistance of Western New York (LawNY)",
+  "sourceId": "benefit-overpayment-ny::Legal Assistance of Western New York (LawNY)",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:28:38.723Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.639Z"
+  }
+}

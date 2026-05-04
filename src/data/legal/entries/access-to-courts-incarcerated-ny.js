@@ -60,7 +60,7 @@ export const ACCESS_TO_COURTS_INCARCERATED_NY = {
       qualifier: "Indigent people incarcerated in NY State prisons (DOCCS); does not serve county jails or federal prisons",
       access: "Phone or mail",
       outcome: "Legal advice, representation, referrals",
-      phone: "(518) 445-6052",
+      phone: "",
       url: "https://www.plsny.org",
       verified: true,
       bilingual: false,

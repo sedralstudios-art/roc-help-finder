@@ -1,0 +1,97 @@
+{
+  "digits": "8003423009",
+  "kind": "phone",
+  "primaryName": "NYS SNAP Hotline",
+  "rawValue": "800-342-3009",
+  "blockDial": false,
+  "tags": [
+    "cat:legalBenefits",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "snaphotline",
+      "name": "NYS SNAP Hotline",
+      "category": "legalBenefits",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program",
+      "line": 64
+    },
+    {
+      "type": "entry",
+      "id": "emergency-cash-assistance-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "heap-utility-assistance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "ny-able-savings-disability-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "snap-expedited-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "snap-rights-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "tanf-public-assistance-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-07-00-976Z_34276d46-8ace-3ac8-f9f7-aa8be754f212",
+    "meta": {
+      "callId": "34276d46-8ace-3ac8-f9f7-aa8be754f212",
+      "digits": "8003423009",
+      "dialedNumber": "8003423009",
+      "catalogedName": "NYS SNAP Hotline",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:07:00.976Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.741Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Office of Temporary and Disability Assistance",
+      "reason": "transcript-stated name (New York State Office of Temporary and Disability Assistance) differs from catalogued (NYS SNAP Hotline)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.287Z",
+  "lastSeededAt": "2026-05-03T19:44:16.287Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "df927df3-e252-2f5b-d2e8-996578a71c6f",
+  "digits": "5852489011",
+  "dialedNumber": "(585) 248-9011",
+  "catalogedName": "Autism Up",
+  "sourceId": "autismup",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:34:12.963Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.570Z"
+  }
+}

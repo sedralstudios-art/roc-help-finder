@@ -1,0 +1,29 @@
+{
+  "callId": "e90f59a6-d28e-363b-39c8-438f91b76a2c",
+  "digits": "5857531380",
+  "dialedNumber": "(585) 753-1380",
+  "catalogedName": "notice-of-claim-municipal-ny",
+  "sourceId": "legal-entry:notice-of-claim-municipal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "notice-of-claim-municipal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:29:03.487Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.981Z"
+  }
+}

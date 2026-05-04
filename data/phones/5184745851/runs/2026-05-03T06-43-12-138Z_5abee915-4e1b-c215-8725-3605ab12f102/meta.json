@@ -1,0 +1,29 @@
+{
+  "callId": "5abee915-4e1b-c215-8725-3605ab12f102",
+  "digits": "5184745851",
+  "dialedNumber": "(518) 474-5851",
+  "catalogedName": "school-transportation-bus-rights-ny",
+  "sourceId": "legal-entry:school-transportation-bus-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "school-transportation-bus-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:43:12.138Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.077Z"
+  }
+}

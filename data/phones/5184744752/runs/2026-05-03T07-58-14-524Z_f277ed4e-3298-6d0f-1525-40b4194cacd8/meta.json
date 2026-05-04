@@ -1,0 +1,37 @@
+{
+  "callId": "f277ed4e-3298-6d0f-1525-40b4194cacd8",
+  "digits": "5184744752",
+  "dialedNumber": "(518) 474-4752",
+  "catalogedName": "ny-apostille-document-authentication-ny",
+  "sourceId": "legal-entry:ny-apostille-document-authentication-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ny-apostille-document-authentication-ny"
+    },
+    {
+      "type": "entry",
+      "id": "recreational-use-immunity-ny"
+    },
+    {
+      "type": "entry",
+      "id": "vital-records-request-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:58:14.524Z",
+  "durationSec": 21,
+  "status": "success",
+  "reason": null,
+  "endedReason": "external-hangup",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.450Z"
+  }
+}

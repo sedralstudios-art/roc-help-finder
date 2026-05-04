@@ -1,0 +1,126 @@
+{
+  "digits": "8553221022",
+  "kind": "phone",
+  "primaryName": "entry-callout:birth-certificate-correction-ny",
+  "rawValue": "(855) 322-1022",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "birth-certificate-correction-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "death-certificate-ordering-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "gender-marker-change-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "getting-id-documents-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "marriage-certificate-copy-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "real-id-enhanced-license-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "replacement-birth-certificate-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "vital-records-request-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-33-14-724Z_35036b01-5cc9-b8c0-5c15-83089387c776",
+    "meta": {
+      "callId": "35036b01-5cc9-b8c0-5c15-83089387c776",
+      "digits": "8553221022",
+      "dialedNumber": "(855) 322-1022",
+      "catalogedName": "birth-certificate-correction-ny",
+      "sourceId": "legal-entry:birth-certificate-correction-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "birth-certificate-correction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "death-certificate-ordering-ny"
+        },
+        {
+          "type": "entry",
+          "id": "gender-marker-change-ny"
+        },
+        {
+          "type": "entry",
+          "id": "getting-id-documents-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "marriage-certificate-copy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-id-enhanced-license-ny"
+        },
+        {
+          "type": "entry",
+          "id": "replacement-birth-certificate-ny"
+        },
+        {
+          "type": "entry",
+          "id": "vital-records-request-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:33:14.724Z",
+      "durationSec": 21,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.053Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "National Records section of the New York State Department of Health",
+      "reason": "transcript-stated name (National Records section of the New York State Department of Health) differs from catalogued (birth-certificate-correction-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.289Z",
+  "lastSeededAt": "2026-05-03T19:44:16.289Z"
+}

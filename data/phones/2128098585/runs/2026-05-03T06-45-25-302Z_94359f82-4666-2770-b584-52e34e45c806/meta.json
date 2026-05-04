@@ -1,0 +1,29 @@
+{
+  "callId": "94359f82-4666-2770-b584-52e34e45c806",
+  "digits": "2128098585",
+  "dialedNumber": "(212) 809-8585",
+  "catalogedName": "sexual-orientation-discrimination-ny",
+  "sourceId": "legal-entry:sexual-orientation-discrimination-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "sexual-orientation-discrimination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:45:25.302Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.092Z"
+  }
+}

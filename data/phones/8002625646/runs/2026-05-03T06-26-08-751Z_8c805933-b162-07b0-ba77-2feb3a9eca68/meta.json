@@ -1,0 +1,29 @@
+{
+  "callId": "8c805933-b162-07b0-ba77-2feb3a9eca68",
+  "digits": "8002625646",
+  "dialedNumber": "(800) 262-5646",
+  "catalogedName": "motorcycle-helmet-and-safety-ny",
+  "sourceId": "legal-entry:motorcycle-helmet-and-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:26:08.751Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.943Z"
+  }
+}

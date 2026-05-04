@@ -9,7 +9,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_PENFIELD_TOWN = {
   title: { en: "Residential Plumbing in the Town of Penfield — Chapter 94 Building Code, Homeowner Self-Work Allowed" },
 
   summary: {
-    en: "The Town of Penfield regulates plumbing under Chapter 94 of the Town Code, which covers general building construction. A plumbing permit is required for any install, enlargement, alteration, repair, removal, conversion, or replacement of plumbing. Penfield does not have a separate plumber licensing chapter. Property owners are explicitly permitted to do their own plumbing work on an owner-occupied home — the same rule that applies to Penfield electrical. Town inspectors handle plumbing inspections in-house. The Building and Zoning Department at (585) 340-8636 confirms scope, fees, and scope."
+    en: "The Town of Penfield regulates plumbing under Chapter 94 of the Town Code, which covers general building construction. A plumbing permit is required for any install, enlargement, alteration, repair, removal, conversion, or replacement of plumbing. Penfield does not have a separate plumber licensing chapter. Property owners are explicitly permitted to do their own plumbing work on an owner-occupied home — the same rule that applies to Penfield electrical. Town inspectors handle plumbing inspections in-house. The Building and Zoning Department at [number being verified] confirms scope, fees, and scope."
   },
 
   whatItMeans: {
@@ -57,7 +57,7 @@ export const PLUMBING_RESIDENTIAL_NY_MON_PENFIELD_TOWN = {
       qualifier: "Residents and contractors working in Penfield",
       access: "3100 Atlantic Avenue; phone; hours M-F 8:30am-4:30pm",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 340-8636",
+      phone: "",
       url: "https://www.penfieldny.gov/your_government/departments/building/",
       verified: true,
       bilingual: false,

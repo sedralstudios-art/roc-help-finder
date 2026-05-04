@@ -1,0 +1,37 @@
+{
+  "callId": "2d140a7a-9d72-44d7-f072-9dddbdd9f59d",
+  "digits": "8006382772",
+  "dialedNumber": "(800) 638-2772",
+  "catalogedName": "consumer-product-recall-rights-ny",
+  "sourceId": "legal-entry:consumer-product-recall-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "consumer-product-recall-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "garage-door-opener-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "playground-equipment-liability-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T07:35:44.522Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.342Z"
+  }
+}

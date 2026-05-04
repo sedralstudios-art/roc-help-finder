@@ -1,0 +1,24 @@
+{
+  "callId": "ff5be5e6-932a-18e6-3635-58a4f549814b",
+  "digits": "5852933720",
+  "dialedNumber": "(585) 293-3720",
+  "catalogedName": "Churchville Village Clerk",
+  "sourceId": "churchvilleclerk",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:04:22.201Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.615Z"
+  }
+}

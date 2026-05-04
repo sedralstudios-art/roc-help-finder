@@ -1,0 +1,24 @@
+{
+  "callId": "95eaccb4-e7ed-2c12-b3b8-1d94a88be781",
+  "digits": "5857275142",
+  "dialedNumber": "(585) 727-5142",
+  "catalogedName": "All 4 Pets WNY",
+  "sourceId": "all4pets",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:02:37.175Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.961Z"
+  }
+}

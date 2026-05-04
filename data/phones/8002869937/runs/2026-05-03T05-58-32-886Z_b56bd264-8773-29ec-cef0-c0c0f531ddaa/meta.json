@@ -1,0 +1,29 @@
+{
+  "callId": "b56bd264-8773-29ec-cef0-c0c0f531ddaa",
+  "digits": "8002869937",
+  "dialedNumber": "(800) 286-9937",
+  "catalogedName": "college-in-state-tuition-residency-ny",
+  "sourceId": "legal-entry:college-in-state-tuition-residency-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:58:32.886Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.748Z"
+  }
+}

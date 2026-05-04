@@ -45,7 +45,7 @@ export const POST_CONVICTION_440_MOTION_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender Appellate/Post-Conviction at (585) 753-4300 — free representation for indigent post-conviction matters.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — appointed private post-conviction counsel.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — appointed private post-conviction counsel.",
       "Innocence Project at (212) 364-5340 — free representation in DNA-based actual-innocence cases.",
       "Exoneration Initiative at (212) 965-9200 — NYC-based post-conviction non-DNA innocence cases.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private post-conviction attorneys.",
@@ -66,7 +66,7 @@ export const POST_CONVICTION_440_MOTION_NY = {
       qualifier: "Convicted persons with plausible DNA-based innocence claims",
       access: "Written intake at innocenceproject.org or phone (212) 364-5340",
       outcome: "Case evaluation, representation, DNA testing coordination",
-      phone: "(212) 364-5340",
+      phone: "",
       url: "https://innocenceproject.org",
       verified: true,
       bilingual: false,
@@ -79,7 +79,7 @@ export const POST_CONVICTION_440_MOTION_NY = {
       qualifier: "Indigent Monroe County post-conviction applicants",
       access: "Phone (585) 753-4300",
       outcome: "Intake, Criminal Procedure Law § 440 motion preparation, representation",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,

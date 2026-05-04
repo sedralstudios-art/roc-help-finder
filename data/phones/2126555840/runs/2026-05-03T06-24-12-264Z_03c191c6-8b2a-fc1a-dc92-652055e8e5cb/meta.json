@@ -1,0 +1,29 @@
+{
+  "callId": "03c191c6-8b2a-fc1a-dc92-652055e8e5cb",
+  "digits": "2126555840",
+  "dialedNumber": "(212) 655-5840",
+  "catalogedName": "minimum-auto-insurance-coverage-ny",
+  "sourceId": "legal-entry:minimum-auto-insurance-coverage-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "minimum-auto-insurance-coverage-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:24:12.264Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.929Z"
+  }
+}

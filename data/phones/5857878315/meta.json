@@ -1,0 +1,61 @@
+{
+  "digits": "5857878315",
+  "kind": "phone",
+  "primaryName": "entry-callout:meals-on-wheels-senior-nutrition-ny-program",
+  "rawValue": "(585) 787-8315",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "meals-on-wheels-senior-nutrition-ny-program",
+      "line": 44
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-22-15-783Z_cd99b420-4736-e068-d456-6fce9645cb1c",
+    "meta": {
+      "callId": "cd99b420-4736-e068-d456-6fce9645cb1c",
+      "digits": "5857878315",
+      "dialedNumber": "(585) 787-8315",
+      "catalogedName": "meals-on-wheels-senior-nutrition-ny-program",
+      "sourceId": "legal-entry:meals-on-wheels-senior-nutrition-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "meals-on-wheels-senior-nutrition-ny-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:22:15.783Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.916Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.523Z",
+  "lastSeededAt": "2026-05-03T19:44:16.523Z"
+}

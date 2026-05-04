@@ -58,7 +58,7 @@ export const POLITICAL_SIGNS_YARD_NY = {
       qualifier: "Any NYS resident whose constitutional rights are at issue",
       access: "Phone at (212) 607-3300",
       outcome: "Legal advice, advocacy, possible representation in free speech cases",
-      phone: "(212) 607-3300",
+      phone: "",
       url: "https://www.nyclu.org",
       verified: true,
       bilingual: false,

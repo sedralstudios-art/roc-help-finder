@@ -62,7 +62,7 @@ export const TOW_TRUCK_SCAM_ACCIDENT_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (800) 697-1220",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 697-1220",
+      phone: "",
       url: "https://dos.ny.gov/consumer-protection",
       verified: true,
       bilingual: true,

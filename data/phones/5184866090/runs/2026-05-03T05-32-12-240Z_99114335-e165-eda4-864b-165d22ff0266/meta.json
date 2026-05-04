@@ -1,0 +1,33 @@
+{
+  "callId": "99114335-e165-eda4-864b-165d22ff0266",
+  "digits": "5184866090",
+  "dialedNumber": "(518) 486-6090",
+  "catalogedName": "bullying-harassment-school-ny",
+  "sourceId": "legal-entry:bullying-harassment-school-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bullying-harassment-school-ny"
+    },
+    {
+      "type": "entry",
+      "id": "menstrual-products-schools-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:32:12.240Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.571Z"
+  }
+}

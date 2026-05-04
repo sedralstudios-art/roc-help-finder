@@ -1,0 +1,29 @@
+{
+  "callId": "8f47ac32-bf1f-1a97-26c9-ebe797f16d23",
+  "digits": "5852628220",
+  "dialedNumber": "(585) 262-8220",
+  "catalogedName": "504-plan-vs-iep-ny",
+  "sourceId": "legal-entry:504-plan-vs-iep-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "504-plan-vs-iep-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:48:08.885Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.674Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "dea749a0-7a7f-faa2-fde3-c3f563d8891c",
+  "digits": "5184625526",
+  "dialedNumber": "(518) 462-5526",
+  "catalogedName": "freshwater-wetlands-permit-ny",
+  "sourceId": "legal-entry:freshwater-wetlands-permit-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "freshwater-wetlands-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:11:26.944Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.843Z"
+  }
+}

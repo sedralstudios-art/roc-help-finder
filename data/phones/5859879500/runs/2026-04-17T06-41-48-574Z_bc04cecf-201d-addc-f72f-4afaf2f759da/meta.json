@@ -1,0 +1,24 @@
+{
+  "callId": "bc04cecf-201d-addc-f72f-4afaf2f759da",
+  "digits": "5859879500",
+  "dialedNumber": "(585) 987-9500",
+  "catalogedName": "Salvation Army (Food, Clothing, Vouchers)",
+  "sourceId": "salvationarmy",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:41:48.574Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.729Z"
+  }
+}

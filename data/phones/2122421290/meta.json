@@ -1,0 +1,61 @@
+{
+  "digits": "2122421290",
+  "kind": "phone",
+  "primaryName": "entry-callout:postnuptial-agreement-ny",
+  "rawValue": "(212) 242-1290",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "postnuptial-agreement-ny",
+      "line": 48
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-36-07-831Z_72c67559-3af8-4cce-b89e-8f5d2b8b6d31",
+    "meta": {
+      "callId": "72c67559-3af8-4cce-b89e-8f5d2b8b6d31",
+      "digits": "2122421290",
+      "dialedNumber": "(212) 242-1290",
+      "catalogedName": "postnuptial-agreement-ny",
+      "sourceId": "legal-entry:postnuptial-agreement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "postnuptial-agreement-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:36:07.831Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.030Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.550Z",
+  "lastSeededAt": "2026-05-03T19:44:16.550Z"
+}

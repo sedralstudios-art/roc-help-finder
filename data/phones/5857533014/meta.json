@@ -1,0 +1,70 @@
+{
+  "digits": "5857533014",
+  "kind": "phone",
+  "primaryName": "entry-callout:concert-ticket-resale-rights-ny",
+  "rawValue": "(585) 753-3014",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny",
+      "line": 66
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-30-44-087Z_0cd74e3e-7a4d-8a46-a015-72c61731acf8",
+    "meta": {
+      "callId": "0cd74e3e-7a4d-8a46-a015-72c61731acf8",
+      "digits": "5857533014",
+      "dialedNumber": "(585) 753-3014",
+      "catalogedName": "concert-ticket-resale-rights-ny",
+      "sourceId": "legal-entry:concert-ticket-resale-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "concert-ticket-resale-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deceptive-business-practices-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:30:44.087Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.604Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.386Z",
+  "lastSeededAt": "2026-05-03T19:44:16.386Z"
+}

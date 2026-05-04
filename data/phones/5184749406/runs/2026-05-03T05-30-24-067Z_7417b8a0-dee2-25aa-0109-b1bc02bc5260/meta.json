@@ -1,0 +1,33 @@
+{
+  "callId": "7417b8a0-dee2-25aa-0109-b1bc02bc5260",
+  "digits": "5184749406",
+  "dialedNumber": "(518) 474-9406",
+  "catalogedName": "adoption-subsidy-foster-care-ny",
+  "sourceId": "legal-entry:adoption-subsidy-foster-care-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adoption-subsidy-foster-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "adoption-tax-credit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:30:24.067Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.558Z"
+  }
+}

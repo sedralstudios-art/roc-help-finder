@@ -1,0 +1,29 @@
+{
+  "callId": "9db637a8-50c6-6ca9-5e6e-3e3b98742890",
+  "digits": "5184575508",
+  "dialedNumber": "(518) 457-5508",
+  "catalogedName": "amusement-ride-safety-ny",
+  "sourceId": "legal-entry:amusement-ride-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "amusement-ride-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:50:13.709Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.687Z"
+  }
+}

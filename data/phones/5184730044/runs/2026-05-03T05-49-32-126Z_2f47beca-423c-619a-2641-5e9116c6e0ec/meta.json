@@ -1,0 +1,29 @@
+{
+  "callId": "2f47beca-423c-619a-2641-5e9116c6e0ec",
+  "digits": "5184730044",
+  "dialedNumber": "(518) 473-0044",
+  "catalogedName": "adult-home-resident-rights-ny",
+  "sourceId": "legal-entry:adult-home-resident-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:49:32.126Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.683Z"
+  }
+}

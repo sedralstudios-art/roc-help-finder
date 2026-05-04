@@ -1,0 +1,29 @@
+{
+  "callId": "704c3523-274d-035f-9339-58d2066fb146",
+  "digits": "8005412437",
+  "dialedNumber": "(800) 541-2437",
+  "catalogedName": "hiv-test-confidentiality-ny",
+  "sourceId": "legal-entry:hiv-test-confidentiality-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:13:40.101Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.858Z"
+  }
+}

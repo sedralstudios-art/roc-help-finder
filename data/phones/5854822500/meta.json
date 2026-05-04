@@ -1,0 +1,61 @@
+{
+  "digits": "5854822500",
+  "kind": "phone",
+  "primaryName": "entry-callout:defensive-driving-pirp-course-ny",
+  "rawValue": "(585) 482-2500",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "defensive-driving-pirp-course-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-02-25-808Z_c02dfade-2686-4b95-d612-c0e224811270",
+    "meta": {
+      "callId": "c02dfade-2686-4b95-d612-c0e224811270",
+      "digits": "5854822500",
+      "dialedNumber": "(585) 482-2500",
+      "catalogedName": "defensive-driving-pirp-course-ny",
+      "sourceId": "legal-entry:defensive-driving-pirp-course-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "defensive-driving-pirp-course-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:02:25.808Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.776Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.487Z",
+  "lastSeededAt": "2026-05-03T19:44:16.487Z"
+}

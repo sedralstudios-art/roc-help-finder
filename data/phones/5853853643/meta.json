@@ -1,0 +1,59 @@
+{
+  "digits": "5853853643",
+  "kind": "phone",
+  "primaryName": "Jean Daniel Senior Center",
+  "rawValue": "585-385-3643",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ersenior",
+      "name": "Jean Daniel Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-11-43-013Z_b500bbf5-85fe-ea9f-bd82-de7984c7348e",
+    "meta": {
+      "callId": "b500bbf5-85fe-ea9f-bd82-de7984c7348e",
+      "digits": "5853853643",
+      "dialedNumber": "5853853643",
+      "catalogedName": "Jean Daniel Senior Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:11:43.013Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.365Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.439Z",
+  "lastSeededAt": "2026-05-03T19:44:16.439Z"
+}

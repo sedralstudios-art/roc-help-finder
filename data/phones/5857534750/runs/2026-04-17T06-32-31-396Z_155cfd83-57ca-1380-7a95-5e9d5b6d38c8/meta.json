@@ -1,0 +1,24 @@
+{
+  "callId": "155cfd83-57ca-1380-7a95-5e9d5b6d38c8",
+  "digits": "5857534750",
+  "dialedNumber": "(585) 753-4750",
+  "catalogedName": "Monroe County DA — Victim Assistance Unit",
+  "sourceId": "daunit",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:32:31.396Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.718Z"
+  }
+}

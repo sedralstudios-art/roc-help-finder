@@ -1,0 +1,29 @@
+{
+  "callId": "aa8af130-5513-4b39-d8b7-2bbf1defe193",
+  "digits": "5852441288",
+  "dialedNumber": "(585) 244-1288",
+  "catalogedName": "nursing-home-discharge-rights-ny",
+  "sourceId": "legal-entry:nursing-home-discharge-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nursing-home-discharge-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:29:28.434Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.984Z"
+  }
+}

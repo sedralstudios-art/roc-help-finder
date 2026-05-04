@@ -1,0 +1,24 @@
+{
+  "callId": "00e1b1ab-da17-68a5-34f9-37cf89fa83ca",
+  "digits": "5852755051",
+  "dialedNumber": "5852755051",
+  "catalogedName": "Eastman Dental Center (URMC)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:08:40.326Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.229Z"
+  }
+}

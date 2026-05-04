@@ -1,0 +1,29 @@
+{
+  "callId": "8cd991c7-662c-715c-d82b-bcd04fba7ed5",
+  "digits": "8888398682",
+  "dialedNumber": "(888) 839-8682",
+  "catalogedName": "early-voting-absentee-ballot-ny",
+  "sourceId": "legal-entry:early-voting-absentee-ballot-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "early-voting-absentee-ballot-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:05:03.849Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.795Z"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "digits": "8668936772",
+  "kind": "phone",
+  "primaryName": "entry-callout:adult-home-resident-rights-ny",
+  "rawValue": "(866) 893-6772",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny",
+      "line": 29
+    },
+    {
+      "type": "entry",
+      "id": "assisted-living-complaint-ny",
+      "line": 13
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-discharge-rights-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-02-22-801Z_56538dd9-c065-e26f-07b9-916795406a60",
+    "meta": {
+      "callId": "56538dd9-c065-e26f-07b9-916795406a60",
+      "digits": "8668936772",
+      "dialedNumber": "(866) 893-6772",
+      "catalogedName": "adult-home-resident-rights-ny",
+      "sourceId": "legal-entry:adult-home-resident-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "adult-home-resident-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "assisted-living-complaint-ny"
+        },
+        {
+          "type": "entry",
+          "id": "nursing-home-discharge-rights-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:02:22.801Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "dial-connect-timeout",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.486Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.337Z",
+  "lastSeededAt": "2026-05-03T19:44:16.337Z"
+}

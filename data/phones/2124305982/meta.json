@@ -1,0 +1,97 @@
+{
+  "digits": "2124305982",
+  "kind": "phone",
+  "primaryName": "entry-callout:lactation-breaks-at-work-ny",
+  "rawValue": "(212) 430-5982",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lactation-breaks-at-work-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "paid-prenatal-leave-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "salary-history-ban-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "sexual-harassment-training-required-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "temporary-disability-insurance-ny",
+      "line": 53
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-32-36-550Z_05feb7e1-c6e1-acca-fb65-1f56573274ae",
+    "meta": {
+      "callId": "05feb7e1-c6e1-acca-fb65-1f56573274ae",
+      "digits": "2124305982",
+      "dialedNumber": "(212) 430-5982",
+      "catalogedName": "lactation-breaks-at-work-ny",
+      "sourceId": "legal-entry:lactation-breaks-at-work-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lactation-breaks-at-work-ny"
+        },
+        {
+          "type": "entry",
+          "id": "paid-prenatal-leave-ny"
+        },
+        {
+          "type": "entry",
+          "id": "salary-history-ban-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sexual-harassment-training-required-ny"
+        },
+        {
+          "type": "entry",
+          "id": "temporary-disability-insurance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:32:36.550Z",
+      "durationSec": 12,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.373Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.317Z",
+  "lastSeededAt": "2026-05-03T19:44:16.317Z"
+}

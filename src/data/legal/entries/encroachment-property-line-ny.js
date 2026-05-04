@@ -60,7 +60,7 @@ export const ENCROACHMENT_PROPERTY_LINE_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 546-5110",
       outcome: "Free or low-cost mediation",
-      phone: "(585) 546-5110",
+      phone: "",
       url: "https://www.cdsadr.org",
       verified: true,
       bilingual: false,

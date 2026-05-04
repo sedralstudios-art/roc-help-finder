@@ -60,7 +60,7 @@ export const BANK_ACCOUNT_FROZEN_NY = {
       qualifier: "Low income residents of Monroe and surrounding counties",
       access: "Phone intake at (585) 232-4090",
       outcome: "Emergency motions, exemption claims, judgment defense",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

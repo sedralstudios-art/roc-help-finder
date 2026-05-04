@@ -1,0 +1,24 @@
+{
+  "callId": "7ae90e5e-cb48-b213-40b7-f5c8b7765903",
+  "digits": "5856176107",
+  "dialedNumber": "(585) 617-6107",
+  "catalogedName": "Ogden Assessor",
+  "sourceId": "ogdenassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:17:23.327Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.901Z"
+  }
+}

@@ -49,7 +49,7 @@ export const ELDER_ABUSE_NY = {
   },
 
   example: {
-    en: "A neighbor notices that an elderly woman in Irondequoit has stopped coming outside, looks thinner, and appears frightened when her adult son is around. The neighbor calls Monroe County APS at (585) 753-6532. A caseworker visits, finds evidence of financial exploitation (the son has been cashing the mother's Social Security checks) and neglect (medication not being administered). APS connects the mother with services including Meals on Wheels, a visiting nurse, and a referral to Legal Aid for financial recovery."
+    en: "A neighbor notices that an elderly woman in Irondequoit has stopped coming outside, looks thinner, and appears frightened when her adult son is around. The neighbor calls Monroe County APS at [number being verified]. A caseworker visits, finds evidence of financial exploitation (the son has been cashing the mother's Social Security checks) and neglect (medication not being administered). APS connects the mother with services including Meals on Wheels, a visiting nurse, and a referral to Legal Aid for financial recovery."
   },
 
   counsel: [
@@ -60,7 +60,7 @@ export const ELDER_ABUSE_NY = {
       qualifier: "Vulnerable adults in Monroe County",
       access: "Phone",
       outcome: "Investigation, emergency services, case management",
-      phone: "(585) 753-6532",
+      phone: "",
       url: "https://www.monroecounty.gov",
       verified: true,
       bilingual: false,
@@ -73,7 +73,7 @@ export const ELDER_ABUSE_NY = {
       qualifier: "Seniors 60+ in Monroe County",
       access: "Phone",
       outcome: "Advocacy and service coordination",
-      phone: "(585) 244-8400",
+      phone: "",
       url: "https://eldersource.org",
       verified: true,
       bilingual: false,

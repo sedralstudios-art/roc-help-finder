@@ -1,0 +1,68 @@
+{
+  "digits": "5856372144",
+  "kind": "phone",
+  "primaryName": "Sweden Town Clerk",
+  "rawValue": "585-637-2144",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swedenclerk",
+      "name": "Sweden Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-39-44-222Z_1b9c3195-3683-3d58-a2d7-fca57d64682f",
+    "meta": {
+      "callId": "1b9c3195-3683-3d58-a2d7-fca57d64682f",
+      "digits": "5856372144",
+      "dialedNumber": "5856372144",
+      "catalogedName": "Sweden Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:39:44.222Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.555Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.455Z",
+  "lastSeededAt": "2026-05-03T19:44:16.455Z",
+  "verifiedAt": "2026-05-03T20:21:01.772Z",
+  "verifiedRun": "2026-05-02T08-39-44-222Z_1b9c3195-3683-3d58-a2d7-fca57d64682f",
+  "verifiedTranscriptOpening": "Hi, you've reached the clerk's office at the town of Sweden. No one's available to take your phone call at the moment, so if you please leave a message after the tone, someone will get back to you jus",
+  "verifiedMatchTokens": [
+    "sweden",
+    "town",
+    "clerk"
+  ],
+  "verifiedRatio": 1
+}

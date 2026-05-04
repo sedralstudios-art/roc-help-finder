@@ -1,0 +1,53 @@
+{
+  "callId": "daaebfba-03a1-ab44-1bfe-7fa4b60a3683",
+  "digits": "5853408630",
+  "dialedNumber": "(585) 340-8630",
+  "catalogedName": "code-enforcement-complaint-ny",
+  "sourceId": "legal-entry:code-enforcement-complaint-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nonprofit-raffle-bingo-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tree-removal-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:43:05.141Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.108Z"
+  }
+}

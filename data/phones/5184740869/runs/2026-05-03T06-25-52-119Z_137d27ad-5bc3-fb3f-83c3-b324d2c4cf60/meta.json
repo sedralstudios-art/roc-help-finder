@@ -1,0 +1,29 @@
+{
+  "callId": "137d27ad-5bc3-fb3f-83c3-b324d2c4cf60",
+  "digits": "5184740869",
+  "dialedNumber": "(518) 474-0869",
+  "catalogedName": "motorcycle-helmet-and-safety-ny",
+  "sourceId": "legal-entry:motorcycle-helmet-and-safety-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "motorcycle-helmet-and-safety-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:25:52.119Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.941Z"
+  }
+}

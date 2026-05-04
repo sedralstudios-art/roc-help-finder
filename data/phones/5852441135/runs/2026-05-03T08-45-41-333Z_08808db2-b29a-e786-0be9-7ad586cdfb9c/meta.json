@@ -1,0 +1,33 @@
+{
+  "callId": "08808db2-b29a-e786-0be9-7ad586cdfb9c",
+  "digits": "5852441135",
+  "dialedNumber": "(585) 244-1135",
+  "catalogedName": "expungement-vs-sealing-ny",
+  "sourceId": "legal-entry:expungement-vs-sealing-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "expungement-vs-sealing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fair-chance-act-ban-the-box-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:45:41.333Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.671Z"
+  }
+}

@@ -62,7 +62,7 @@ export const WAGE_PAYMENT_FREQUENCY_NY = {
       qualifier: "Any worker in New York",
       access: "Phone or online",
       outcome: "Investigation and enforcement",
-      phone: "(888) 469-7365",
+      phone: "",
       url: "https://dol.ny.gov/unpaidwithheld-wages-and-wage-supplements",
       verified: true,
       bilingual: true,

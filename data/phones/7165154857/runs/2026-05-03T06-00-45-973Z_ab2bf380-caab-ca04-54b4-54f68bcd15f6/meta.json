@@ -1,0 +1,29 @@
+{
+  "callId": "ab2bf380-caab-ca04-54b4-54f68bcd15f6",
+  "digits": "7165154857",
+  "dialedNumber": "(716) 515-4857",
+  "catalogedName": "court-of-claims-suing-state-ny",
+  "sourceId": "legal-entry:court-of-claims-suing-state-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-of-claims-suing-state-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:00:45.973Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.765Z"
+  }
+}

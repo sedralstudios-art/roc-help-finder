@@ -1,0 +1,24 @@
+{
+  "callId": "a955eac8-9a34-733f-4093-6c9f4ab28823",
+  "digits": "5856378161",
+  "dialedNumber": "(585) 637-8161",
+  "catalogedName": "Sweden Senior Center",
+  "sourceId": "swedensenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:45:08.162Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.937Z"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "callId": "8e181ed0-9cda-4154-7dff-c5403a9568d3",
+  "digits": "5857534178",
+  "dialedNumber": "585-753-4178",
+  "catalogedName": "MC.sheriff",
+  "sourceId": "pole:MC.sheriff",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "MC.sheriff"
+    },
+    {
+      "type": "entry",
+      "id": "check-fraud-stolen-check-ny"
+    },
+    {
+      "type": "entry",
+      "id": "contractor-home-improvement-deposit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "dangerous-dog-classification-ny"
+    },
+    {
+      "type": "entry",
+      "id": "deer-vehicle-collision-ny"
+    },
+    {
+      "type": "entry",
+      "id": "domestic-violence-pet-protection-ny"
+    },
+    {
+      "type": "entry",
+      "id": "driveway-paving-scam-ny"
+    },
+    {
+      "type": "entry",
+      "id": "firearm-surrender-order-protection-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fireworks-laws-ny"
+    },
+    {
+      "type": "entry",
+      "id": "found-lost-property-wallet-ny"
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny"
+    },
+    {
+      "type": "entry",
+      "id": "gun-safe-storage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "home-title-theft-ny"
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "illegal-eviction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "illegal-lockout-ny"
+    },
+    {
+      "type": "entry",
+      "id": "junk-vehicle-own-property-ny"
+    },
+    {
+      "type": "entry",
+      "id": "license-plate-reader-privacy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-harassment-restraining-order-ny"
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pedestrian-crosswalk-right-of-way-ny"
+    },
+    {
+      "type": "entry",
+      "id": "police-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rental-scam-fake-listing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "safe-haven-newborn-abandonment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-bus-stop-arm-violation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny"
+    },
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny"
+    },
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "utility-scam-impersonation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-tow-vehicle-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:48:48.642Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.873Z"
+  }
+}

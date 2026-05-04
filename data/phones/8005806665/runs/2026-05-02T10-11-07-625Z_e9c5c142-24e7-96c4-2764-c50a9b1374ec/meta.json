@@ -1,0 +1,24 @@
+{
+  "callId": "e9c5c142-24e7-96c4-2764-c50a9b1374ec",
+  "digits": "8005806665",
+  "dialedNumber": "8005806665",
+  "catalogedName": "entry-callout:workers-comp-claim-walkthrough-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:11:07.625Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.751Z"
+  }
+}

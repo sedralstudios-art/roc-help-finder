@@ -1,0 +1,222 @@
+{
+  "digits": "5857536280",
+  "kind": "phone",
+  "primaryName": "Office for the Aging",
+  "rawValue": "585-753-6280",
+  "blockDial": false,
+  "tags": [
+    "cat:caregiver",
+    "cat:disabilitySvc",
+    "cat:seniorSvc",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "main",
+      "value": "585-753-6280",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "ofa",
+      "name": "Office for the Aging",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "seniorfarm",
+      "name": "Senior Farmers Market Nutrition Program",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "eisep",
+      "name": "EISEP (In-Home Help for Seniors)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "hcbs",
+      "name": "Home and Community Based Services Waiver",
+      "category": "disabilitySvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "mcrespite",
+      "name": "Monroe County Respite Services",
+      "category": "caregiver",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "carenavigator",
+      "name": "NY Connects (Care Navigator)",
+      "category": "caregiver",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "lunchclub",
+      "name": "Monroe County Lunch Club (Senior Meals)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "aarp-tax-aide-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "apartment-too-hot-summer-ny",
+      "line": 36
+    },
+    {
+      "type": "entry",
+      "id": "caregiver-rights-family-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "empire-state-real-property-tax-credit-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "epic-prescription-seniors-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "funeral-director-licensing-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "homeowner-smoke-co-alarm-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "hospital-discharge-rights-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "insulin-cost-cap-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-insurance-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "meals-on-wheels-senior-nutrition-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "medical-cannabis-program-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicare-advantage-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "medicare-appeals-four-levels-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "medigap-medicare-supplement-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "ny-pension-tax-exclusion-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "senior-congregate-meals-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-10-01-028Z_a60af0a6-8a06-9b42-7aa2-2440ae0b2997",
+    "meta": {
+      "callId": "a60af0a6-8a06-9b42-7aa2-2440ae0b2997",
+      "digits": "5857536280",
+      "dialedNumber": "5857536280",
+      "catalogedName": "Office for the Aging",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:10:01.028Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.618Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.271Z",
+  "lastSeededAt": "2026-05-03T19:44:16.271Z"
+}

@@ -1,0 +1,109 @@
+{
+  "callId": "60a7c11f-357f-1feb-0671-88cab937f5f2",
+  "digits": "5855467510",
+  "dialedNumber": "585-546-7510",
+  "catalogedName": "Center for Disability Rights",
+  "sourceId": "cdrny",
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "ref": "LEGAL_AID.centerForDisabilityRights"
+    },
+    {
+      "type": "program",
+      "id": "cdrny"
+    },
+    {
+      "type": "entry",
+      "id": "able-account-disability-savings-ny"
+    },
+    {
+      "type": "entry",
+      "id": "accessible-parking-abuse-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ada-title-iii-public-accommodations-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ada-workplace-accommodation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cdpap-consumer-directed-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "disability-housing-accommodation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "free-legal-help-monroe-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-buy-in-working-disabled-ny"
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny"
+    },
+    {
+      "type": "entry",
+      "id": "paratransit-ada-transportation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "public-accommodations-ada-ny"
+    },
+    {
+      "type": "entry",
+      "id": "representative-payee-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "school-discipline-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "service-animal-public-access-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-denial-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-ny"
+    },
+    {
+      "type": "entry",
+      "id": "ssi-redetermination-ny"
+    },
+    {
+      "type": "entry",
+      "id": "supported-decision-making-agreement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:54:12.512Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": "screenshot.png",
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.897Z"
+  }
+}

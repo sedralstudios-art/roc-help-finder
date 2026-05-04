@@ -1,0 +1,90 @@
+{
+  "digits": "5852933720",
+  "kind": "phone",
+  "primaryName": "Churchville Village Clerk",
+  "rawValue": "585-293-3720",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "churchvilleclerk",
+      "name": "Churchville Village Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-churchville-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-churchville-village",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-churchville-village",
+      "line": 23
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-churchville-village",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-17-48-841Z_df968bb1-2d57-0176-e145-38bd06e1a41b",
+    "meta": {
+      "callId": "df968bb1-2d57-0176-e145-38bd06e1a41b",
+      "digits": "5852933720",
+      "dialedNumber": "5852933720",
+      "catalogedName": "Churchville Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:17:48.841Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.250Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Village of Churchville",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.308Z",
+  "lastSeededAt": "2026-05-03T19:44:16.308Z",
+  "verifiedAt": "2026-05-03T20:21:01.706Z",
+  "verifiedRun": "2026-05-02T06-17-48-841Z_df968bb1-2d57-0176-e145-38bd06e1a41b",
+  "verifiedTranscriptOpening": "Thank you for calling the Village of Churchville. Our office is currently closed. The summer office hours are 8 a.m. to 4 p.m. Monday through Thursday and 8 a.m. to 1 p.m. on Friday. The Department of",
+  "verifiedMatchTokens": [
+    "churchville",
+    "village"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

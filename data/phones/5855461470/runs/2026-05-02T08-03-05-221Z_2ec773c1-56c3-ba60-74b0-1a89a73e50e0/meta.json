@@ -1,0 +1,24 @@
+{
+  "callId": "2ec773c1-56c3-ba60-74b0-1a89a73e50e0",
+  "digits": "5855461470",
+  "dialedNumber": "5855461470",
+  "catalogedName": "Habitat for Humanity",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:03:05.221Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.478Z"
+  }
+}

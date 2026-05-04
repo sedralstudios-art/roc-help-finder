@@ -1,0 +1,24 @@
+{
+  "callId": "82b4f339-5e76-17b0-da76-3ae887703052",
+  "digits": "5859001024",
+  "dialedNumber": "5859001024",
+  "catalogedName": "entry-callout:earned-income-tax-credit-ny",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:48:04.287Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.700Z"
+  }
+}

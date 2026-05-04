@@ -1,0 +1,24 @@
+{
+  "callId": "aeca4222-0b6b-b7d9-4cdb-a6e98727642f",
+  "digits": "5855457200",
+  "dialedNumber": "(585) 545-7200",
+  "catalogedName": "Trillium Health Food Pantry",
+  "sourceId": "trillfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:58:43.544Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.879Z"
+  }
+}

@@ -60,7 +60,7 @@ export const PRENUPTIAL_AGREEMENT_NY = {
       qualifier: "Anyone in Monroe County",
       access: "Phone at (585) 546-2130",
       outcome: "Referral to a family law attorney, initial consultation",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

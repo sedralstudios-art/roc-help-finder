@@ -1,0 +1,24 @@
+{
+  "callId": "cff76f87-db17-04bd-3087-6ef59a51e744",
+  "digits": "5854614263",
+  "dialedNumber": "(585) 461-4263",
+  "catalogedName": "Meals on Wheels",
+  "sourceId": "mow",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:46:34.893Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.864Z"
+  }
+}

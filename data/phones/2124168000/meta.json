@@ -1,0 +1,106 @@
+{
+  "digits": "2124168000",
+  "kind": "phone",
+  "primaryName": "entry-callout:court-of-claims-suing-state-ny",
+  "rawValue": "(212) 416-8000",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "court-of-claims-suing-state-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "elevator-inspection-rules-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "good-cause-eviction-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "notary-public-services-ny",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "service-member-lease-termination-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-59-28-474Z_0913ce09-97e6-f31f-4d3d-4b8235476c74",
+    "meta": {
+      "callId": "0913ce09-97e6-f31f-4d3d-4b8235476c74",
+      "digits": "2124168000",
+      "dialedNumber": "(212) 416-8000",
+      "catalogedName": "court-of-claims-suing-state-ny",
+      "sourceId": "legal-entry:court-of-claims-suing-state-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "court-of-claims-suing-state-ny"
+        },
+        {
+          "type": "entry",
+          "id": "elevator-inspection-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "good-cause-eviction-ny"
+        },
+        {
+          "type": "entry",
+          "id": "lien-law-77-trust-fund-action-ny"
+        },
+        {
+          "type": "entry",
+          "id": "notary-public-services-ny"
+        },
+        {
+          "type": "entry",
+          "id": "service-member-lease-termination-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:59:28.474Z",
+      "durationSec": 8,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.188Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.302Z",
+  "lastSeededAt": "2026-05-03T19:44:16.302Z"
+}

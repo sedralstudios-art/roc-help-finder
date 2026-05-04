@@ -1,0 +1,24 @@
+{
+  "callId": "148ef83c-56c2-a83d-9641-9eb56dbe6c7c",
+  "digits": "5853253050",
+  "dialedNumber": "5853253050",
+  "catalogedName": "Worker Justice Center of New York",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:28:03.766Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.271Z"
+  }
+}

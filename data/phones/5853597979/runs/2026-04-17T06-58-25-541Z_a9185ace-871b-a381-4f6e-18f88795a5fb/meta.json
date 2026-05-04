@@ -1,0 +1,24 @@
+{
+  "callId": "a9185ace-871b-a381-4f6e-18f88795a5fb",
+  "digits": "5853597979",
+  "dialedNumber": "(585) 359-7979",
+  "catalogedName": "R-H Kicking Hunger School Food Pantry",
+  "sourceId": "rhkickinghunger",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T06:58:25.541Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.752Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "digits": "5854260410",
+  "kind": "phone",
+  "primaryName": "Gates Town Court",
+  "rawValue": "585-426-0410",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gatescourt",
+      "name": "Gates Town Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-27-34-874Z_feb94b70-84ab-904f-91b6-60caf35d7635",
+    "meta": {
+      "callId": "feb94b70-84ab-904f-91b6-60caf35d7635",
+      "digits": "5854260410",
+      "dialedNumber": "5854260410",
+      "catalogedName": "Gates Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:27:34.874Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.399Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Town of Gates Court Office",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.440Z",
+  "lastSeededAt": "2026-05-03T19:44:16.440Z",
+  "verifiedAt": "2026-05-03T20:21:01.737Z",
+  "verifiedRun": "2026-05-02T07-27-34-874Z_feb94b70-84ab-904f-91b6-60caf35d7635",
+  "verifiedTranscriptOpening": "Thank you for calling the Town of Gates Court Office. Our office is open Monday through Friday from 9 a.m. to 5 p.m. If you are calling during normal business hours, we are currently assisting other c",
+  "verifiedMatchTokens": [
+    "gates",
+    "town",
+    "court"
+  ],
+  "verifiedRatio": 1
+}

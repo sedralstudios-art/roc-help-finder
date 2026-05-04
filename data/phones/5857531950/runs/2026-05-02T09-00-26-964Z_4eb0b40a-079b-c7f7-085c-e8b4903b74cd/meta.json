@@ -1,0 +1,24 @@
+{
+  "callId": "4eb0b40a-079b-c7f7-085c-e8b4903b74cd",
+  "digits": "5857531950",
+  "dialedNumber": "5857531950",
+  "catalogedName": "Monroe County Legislature",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:00:26.964Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.598Z"
+  }
+}

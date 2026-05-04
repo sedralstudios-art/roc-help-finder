@@ -1,0 +1,37 @@
+{
+  "callId": "04ef4dbc-7a7f-f095-21f8-f109dbf48e53",
+  "digits": "8002690271",
+  "dialedNumber": "(800) 269-0271",
+  "catalogedName": "identity-theft-response-steps-ny",
+  "sourceId": "legal-entry:identity-theft-response-steps-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny"
+    },
+    {
+      "type": "entry",
+      "id": "representative-payee-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "truth-in-caller-id-spoofing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:23:57.542Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-helper-output-not-json",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.531Z"
+  }
+}

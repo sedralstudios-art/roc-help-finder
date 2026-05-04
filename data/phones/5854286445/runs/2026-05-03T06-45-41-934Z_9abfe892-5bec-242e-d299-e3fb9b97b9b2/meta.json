@@ -1,0 +1,29 @@
+{
+  "callId": "9abfe892-5bec-242e-d299-e3fb9b97b9b2",
+  "digits": "5854286445",
+  "dialedNumber": "(585) 428-6445",
+  "catalogedName": "small-claims-appeal-ny",
+  "sourceId": "legal-entry:small-claims-appeal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "small-claims-appeal-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:45:41.934Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.095Z"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "digits": "2126073300",
+  "kind": "phone",
+  "primaryName": "entry-callout:anti-slapp-lawsuit-ny",
+  "rawValue": "(212) 607-3300",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "anti-slapp-lawsuit-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "article-78-proceeding-review-agency-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "civil-asset-forfeiture-defense-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "early-voting-absentee-ballot-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "emtala-emergency-room-stabilization-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "fired-for-legal-off-duty-activity-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "hiv-test-confidentiality-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "journalist-shield-law-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "license-plate-reader-privacy-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "menstrual-products-schools-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "motion-to-suppress-evidence-cpl-710-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "photography-public-places-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "police-complaint-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "political-signs-yard-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "refuse-to-show-id-police-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "religious-accommodation-school-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "rights-when-arrested-ny",
+      "line": 95
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-53-06-543Z_a509e212-69d7-d4d8-9be8-3a2bd61f4348",
+    "meta": {
+      "callId": "a509e212-69d7-d4d8-9be8-3a2bd61f4348",
+      "digits": "2126073300",
+      "dialedNumber": "(212) 607-3300",
+      "catalogedName": "anti-slapp-lawsuit-ny",
+      "sourceId": "legal-entry:anti-slapp-lawsuit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "anti-slapp-lawsuit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "article-78-proceeding-review-agency-ny"
+        },
+        {
+          "type": "entry",
+          "id": "civil-asset-forfeiture-defense-ny"
+        },
+        {
+          "type": "entry",
+          "id": "early-voting-absentee-ballot-ny"
+        },
+        {
+          "type": "entry",
+          "id": "election-law-ballot-challenge-ny"
+        },
+        {
+          "type": "entry",
+          "id": "emtala-emergency-room-stabilization-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fired-for-legal-off-duty-activity-ny"
+        },
+        {
+          "type": "entry",
+          "id": "hiv-test-confidentiality-ny"
+        },
+        {
+          "type": "entry",
+          "id": "inmate-visitation-communication-ny"
+        },
+        {
+          "type": "entry",
+          "id": "journalist-shield-law-ny"
+        },
+        {
+          "type": "entry",
+          "id": "license-plate-reader-privacy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medicaid-hcbs-waiver-ny"
+        },
+        {
+          "type": "entry",
+          "id": "menstrual-products-schools-ny"
+        },
+        {
+          "type": "entry",
+          "id": "minor-medical-consent-ny"
+        },
+        {
+          "type": "entry",
+          "id": "motion-to-suppress-evidence-cpl-710-ny"
+        },
+        {
+          "type": "entry",
+          "id": "photography-public-places-ny"
+        },
+        {
+          "type": "entry",
+          "id": "police-complaint-ny"
+        },
+        {
+          "type": "entry",
+          "id": "political-signs-yard-ny"
+        },
+        {
+          "type": "entry",
+          "id": "refuse-to-show-id-police-ny"
+        },
+        {
+          "type": "entry",
+          "id": "religious-accommodation-school-ny"
+        },
+        {
+          "type": "entry",
+          "id": "rights-when-arrested-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shareholder-derivative-lawsuit-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:53:06.543Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.893Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York Civil Liberties Union",
+      "reason": "transcript-stated name (New York Civil Liberties Union) differs from catalogued (anti-slapp-lawsuit-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.272Z",
+  "lastSeededAt": "2026-05-03T19:44:16.272Z"
+}

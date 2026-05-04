@@ -1,0 +1,107 @@
+{
+  "digits": "5852933880",
+  "kind": "phone",
+  "primaryName": "Riga Town Court",
+  "rawValue": "585-293-3880",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:legal",
+    "cat:pets",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "rigacourt",
+      "name": "Riga Town Court",
+      "category": "legal",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rigadogcontrol",
+      "name": "Riga Dog Control",
+      "category": "pets",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "rigahall",
+      "name": "Riga Town Hall",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-riga-town",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-riga-town",
+      "line": 57
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-riga-town",
+      "line": 23
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-riga-town",
+      "line": 14
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-18-52-932Z_e867a214-74c4-247e-a58e-455976fccd11",
+    "meta": {
+      "callId": "e867a214-74c4-247e-a58e-455976fccd11",
+      "digits": "5852933880",
+      "dialedNumber": "5852933880",
+      "catalogedName": "Riga Town Court",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:18:52.932Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.252Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Town of Riga",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.293Z",
+  "lastSeededAt": "2026-05-03T19:44:16.293Z",
+  "verifiedAt": "2026-05-03T20:21:01.707Z",
+  "verifiedRun": "2026-05-02T06-18-52-932Z_e867a214-74c4-247e-a58e-455976fccd11",
+  "verifiedTranscriptOpening": "You have reached the Town of Riga. The town offices are now closed. If you are trying to reach the Highway Department, press 1. For the Town Clerk, press 2. For the Town Court, press 3. For the Recrea",
+  "verifiedMatchTokens": [
+    "riga",
+    "town",
+    "court"
+  ],
+  "verifiedRatio": 1
+}

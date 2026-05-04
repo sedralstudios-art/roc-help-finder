@@ -1,0 +1,24 @@
+{
+  "callId": "7c59df8e-19c9-a5f9-de17-0ee522afc5ae",
+  "digits": "5854286526",
+  "dialedNumber": "5854286526",
+  "catalogedName": "entry-callout:electrical-residential-ny-mon-rochester-city",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:30:44.714Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.406Z"
+  }
+}

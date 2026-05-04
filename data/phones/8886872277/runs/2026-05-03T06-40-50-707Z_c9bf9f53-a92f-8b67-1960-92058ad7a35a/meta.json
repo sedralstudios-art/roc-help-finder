@@ -1,0 +1,29 @@
+{
+  "callId": "c9bf9f53-a92f-8b67-1960-92058ad7a35a",
+  "digits": "8886872277",
+  "dialedNumber": "(888) 687-2277",
+  "catalogedName": "reverse-mortgage-seniors-ny",
+  "sourceId": "legal-entry:reverse-mortgage-seniors-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "reverse-mortgage-seniors-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:50.707Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.061Z"
+  }
+}

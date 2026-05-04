@@ -1,0 +1,28 @@
+{
+  "digits": "5855251608",
+  "kind": "phone",
+  "primaryName": "Hamlin Dog Control / Dog Shelter",
+  "rawValue": "585-525-1608",
+  "blockDial": false,
+  "tags": [
+    "cat:pets",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hamlindogcontrol",
+      "name": "Hamlin Dog Control / Dog Shelter",
+      "category": "pets",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.444Z",
+  "lastSeededAt": "2026-05-03T19:44:16.444Z"
+}

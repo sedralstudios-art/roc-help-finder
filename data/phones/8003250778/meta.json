@@ -1,0 +1,88 @@
+{
+  "digits": "8003250778",
+  "kind": "phone",
+  "primaryName": "entry-callout:benefits-verification-letter-ny-program",
+  "rawValue": "1-800-325-0778",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "benefits-verification-letter-ny-program",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "social-security-retirement-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "ssdi-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "ssi-disability-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-12-22-722Z_94880483-1cfb-7162-4041-d4fea5d5e8aa",
+    "meta": {
+      "callId": "94880483-1cfb-7162-4041-d4fea5d5e8aa",
+      "digits": "8003250778",
+      "dialedNumber": "1-800-325-0778",
+      "catalogedName": "benefits-verification-letter-ny-program",
+      "sourceId": "legal-entry:benefits-verification-letter-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "benefits-verification-letter-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "social-security-retirement-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ssdi-ny"
+        },
+        {
+          "type": "entry",
+          "id": "ssi-disability-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:12:22.722Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.235Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.324Z",
+  "lastSeededAt": "2026-05-03T19:44:16.324Z"
+}

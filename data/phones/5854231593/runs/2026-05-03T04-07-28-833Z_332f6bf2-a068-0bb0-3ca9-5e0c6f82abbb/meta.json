@@ -1,0 +1,45 @@
+{
+  "callId": "332f6bf2-a068-0bb0-3ca9-5e0c6f82abbb",
+  "digits": "5854231593",
+  "dialedNumber": "585-423-1593",
+  "catalogedName": "NAMI Rochester",
+  "sourceId": "nami",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "nami"
+    },
+    {
+      "type": "program",
+      "id": "namigrief"
+    },
+    {
+      "type": "program",
+      "id": "namifamily"
+    },
+    {
+      "type": "entry",
+      "id": "kendras-law-assisted-outpatient-treatment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-crisis-rights-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:07:28.833Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": "screenshot.png",
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.225Z"
+  }
+}

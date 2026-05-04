@@ -28,7 +28,7 @@ export const MANDATED_REPORTER_CHILD_ABUSE_NY = {
   },
 
   whatItMeans: {
-    en: "New York Social Services Law Section 413 establishes the list of mandated reporters — people who, by virtue of their profession or role, must report to the State Central Register when they have reasonable cause to suspect that a child is being abused or maltreated. The duty is triggered by: observation of the child, information from the child, or information from a parent or other person. Reasonable cause means that a reasonable person in the same profession would suspect the child is being abused or maltreated. Certainty is not required. The mandated reporter does not investigate — that is CPS's job. The reporter makes the report based on what they know. The report goes to the State Central Register at 1-800-342-3720 (open 24/7). For NY state employees and mandated reporters, a dedicated line is available at 1-800-635-1522. The report can be made orally or in writing (Form LDSS-2221A). A mandated reporter who makes a good-faith report is protected from civil and criminal liability by Social Services Law § 419. The identity of the mandated reporter is kept confidential from the subject of the report. Failure to report: Social Services Law § 420 makes willful failure to report by a mandated reporter a Class A misdemeanor punishable by up to one year in jail and a fine up to $1,000. A civil suit for damages can also be brought against a mandated reporter who fails to report and damage results. All mandated reporters must complete training on identification and reporting. Many professions require continuing education in mandated reporting. As of 2023, the law clarified that the mandated reporter should make the report themselves — not delegate to a supervisor. This addressed cases where reports were lost in institutional chains. The reporter can (and usually should) inform their supervisor but cannot substitute telling the supervisor for calling the SCR."
+    en: "New York Social Services Law Section 413 establishes the list of mandated reporters — people who, by virtue of their profession or role, must report to the State Central Register when they have reasonable cause to suspect that a child is being abused or maltreated. The duty is triggered by: observation of the child, information from the child, or information from a parent or other person. Reasonable cause means that a reasonable person in the same profession would suspect the child is being abused or maltreated. Certainty is not required. The mandated reporter does not investigate — that is CPS's job. The reporter makes the report based on what they know. The report goes to the State Central Register at [number being verified] (open 24/7). For NY state employees and mandated reporters, a dedicated line is available at [number being verified]. The report can be made orally or in writing (Form LDSS-2221A). A mandated reporter who makes a good-faith report is protected from civil and criminal liability by Social Services Law § 419. The identity of the mandated reporter is kept confidential from the subject of the report. Failure to report: Social Services Law § 420 makes willful failure to report by a mandated reporter a Class A misdemeanor punishable by up to one year in jail and a fine up to $1,000. A civil suit for damages can also be brought against a mandated reporter who fails to report and damage results. All mandated reporters must complete training on identification and reporting. Many professions require continuing education in mandated reporting. As of 2023, the law clarified that the mandated reporter should make the report themselves — not delegate to a supervisor. This addressed cases where reports were lost in institutional chains. The reporter can (and usually should) inform their supervisor but cannot substitute telling the supervisor for calling the SCR."
   },
 
   yourRights: {
@@ -55,7 +55,7 @@ export const MANDATED_REPORTER_CHILD_ABUSE_NY = {
   },
 
   example: {
-    en: "A school nurse in Monroe County noticed that a student came to class with unusual bruising repeatedly over two weeks. The student was quiet about how the bruises happened. The nurse met with the student privately, listened, and suspected maltreatment. She called the SCR directly from her office at (800) 342-3720 and made a report. She told her school administrator after making the report. She completed the LDSS-2221A form the next day and sent it to the SCR. CPS investigated and, based on their findings, worked with the family on services. The nurse was not the subject of any retaliation and her role was protected by Social Services Law § 419."
+    en: "A school nurse in Monroe County noticed that a student came to class with unusual bruising repeatedly over two weeks. The student was quiet about how the bruises happened. The nurse met with the student privately, listened, and suspected maltreatment. She called the SCR directly from her office at [number being verified] and made a report. She told her school administrator after making the report. She completed the LDSS-2221A form the next day and sent it to the SCR. CPS investigated and, based on their findings, worked with the family on services. The nurse was not the subject of any retaliation and her role was protected by Social Services Law § 419."
   },
 
   counsel: [
@@ -66,7 +66,7 @@ export const MANDATED_REPORTER_CHILD_ABUSE_NY = {
       qualifier: "Any person with reasonable cause to suspect child abuse or maltreatment",
       access: "Phone at (800) 342-3720",
       outcome: "Report intake, routing to local CPS",
-      phone: "(800) 342-3720",
+      phone: "",
       url: "https://ocfs.ny.gov/programs/cps/",
       verified: true,
       bilingual: true,
@@ -79,7 +79,7 @@ export const MANDATED_REPORTER_CHILD_ABUSE_NY = {
       qualifier: "Any NY mandated reporter",
       access: "Online at ocfs.ny.gov/mandatedreporter",
       outcome: "Certificate of completion, updated training",
-      phone: "(518) 474-0252",
+      phone: "",
       url: "https://ocfs.ny.gov/mandatedreporter",
       verified: true,
       bilingual: true,

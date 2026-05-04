@@ -1,0 +1,29 @@
+{
+  "callId": "9e3c9e53-6a48-9314-3ec9-126fb7d198d4",
+  "digits": "5854618330",
+  "dialedNumber": "(585) 461-8330",
+  "catalogedName": "medicaid-hcbs-waiver-ny",
+  "sourceId": "legal-entry:medicaid-hcbs-waiver-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:22:32.426Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.917Z"
+  }
+}

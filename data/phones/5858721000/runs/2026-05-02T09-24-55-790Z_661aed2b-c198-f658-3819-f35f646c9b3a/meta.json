@@ -1,0 +1,24 @@
+{
+  "callId": "661aed2b-c198-f658-3819-f35f646c9b3a",
+  "digits": "5858721000",
+  "dialedNumber": "5858721000",
+  "catalogedName": "Webster Town Clerk",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:24:55.790Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.649Z"
+  }
+}

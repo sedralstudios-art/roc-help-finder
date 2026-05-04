@@ -22,7 +22,7 @@ export const PATIENT_RIGHTS_HOSPITAL_NY = {
   },
 
   whatItMeans: {
-    en: "Under Public Health Law § 2803 and 10 NYCRR § 405.7, every hospital patient in New York has a Patient Bill of Rights. The hospital must provide a written copy at admission. Key rights include: the right to informed consent — the doctor must explain the diagnosis, proposed treatment, risks, alternatives, and likely outcomes before the patient agrees. The right to refuse treatment — a competent adult can refuse any treatment, even life-sustaining treatment, and the refusal must be documented. The right to privacy and confidentiality — medical information cannot be shared without the patient's written authorization (with limited exceptions like mandatory reporting and public health emergencies). The right to access medical records — the hospital must provide copies within 10 days of a written request, and can charge a reasonable per-page fee. The right to be treated with dignity and respect — free from abuse, neglect, and discrimination. The right to have a patient advocate — hospitals must have a patient relations or patient advocacy office. The right to file a complaint — complaints can be directed to the hospital's patient advocate, to the NY Department of Health at (800) 804-5447, or to the Joint Commission. Retaliation for filing a complaint is prohibited."
+    en: "Under Public Health Law § 2803 and 10 NYCRR § 405.7, every hospital patient in New York has a Patient Bill of Rights. The hospital must provide a written copy at admission. Key rights include: the right to informed consent — the doctor must explain the diagnosis, proposed treatment, risks, alternatives, and likely outcomes before the patient agrees. The right to refuse treatment — a competent adult can refuse any treatment, even life-sustaining treatment, and the refusal must be documented. The right to privacy and confidentiality — medical information cannot be shared without the patient's written authorization (with limited exceptions like mandatory reporting and public health emergencies). The right to access medical records — the hospital must provide copies within 10 days of a written request, and can charge a reasonable per-page fee. The right to be treated with dignity and respect — free from abuse, neglect, and discrimination. The right to have a patient advocate — hospitals must have a patient relations or patient advocacy office. The right to file a complaint — complaints can be directed to the hospital's patient advocate, to the NY Department of Health at [number being verified], or to the Joint Commission. Retaliation for filing a complaint is prohibited."
   },
 
   yourRights: {
@@ -60,7 +60,7 @@ export const PATIENT_RIGHTS_HOSPITAL_NY = {
       qualifier: "Any patient in a New York hospital",
       access: "Phone or online",
       outcome: "Investigation and enforcement",
-      phone: "(800) 804-5447",
+      phone: "",
       url: "https://www.health.ny.gov/facilities/hospital/",
       verified: true,
       bilingual: false,

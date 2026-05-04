@@ -1,0 +1,24 @@
+{
+  "callId": "24a3c43d-a550-cb99-b0db-06439ea61d4c",
+  "digits": "5853280990",
+  "dialedNumber": "5853280990",
+  "catalogedName": "Boys & Girls Club of Rochester",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:35:10.681Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.286Z"
+  }
+}

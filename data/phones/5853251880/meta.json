@@ -1,0 +1,40 @@
+{
+  "digits": "5853251880",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-25-05-960Z_daf6417d-a467-106a-4a22-53c312f5d908",
+    "meta": {
+      "callId": "daf6417d-a467-106a-4a22-53c312f5d908",
+      "digits": "5853251880",
+      "dialedNumber": "5853251880",
+      "catalogedName": "CDPAP (You Get Paid to Care for Your Loved One)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:25:05.960Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.265Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

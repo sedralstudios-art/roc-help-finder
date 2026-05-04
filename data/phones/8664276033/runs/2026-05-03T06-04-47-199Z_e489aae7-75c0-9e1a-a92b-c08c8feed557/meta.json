@@ -1,0 +1,29 @@
+{
+  "callId": "e489aae7-75c0-9e1a-a92b-c08c8feed557",
+  "digits": "8664276033",
+  "dialedNumber": "(866) 427-6033",
+  "catalogedName": "early-intervention-infants-toddlers-ny",
+  "sourceId": "legal-entry:early-intervention-infants-toddlers-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "early-intervention-infants-toddlers-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:04:47.199Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.793Z"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "digits": "5184852889",
+  "kind": "phone",
+  "primaryName": "entry-callout:bulk-sale-notice-ny",
+  "rawValue": "(518) 485-2889",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "garage-sale-estate-sale-tax-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "home-business-sales-tax-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "nys-sales-tax-resale-exemption-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "selling-online-sales-tax-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "short-term-rental-hosting-airbnb-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "awaiting-first-dial",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.294Z",
+  "lastSeededAt": "2026-05-03T19:44:16.294Z"
+}

@@ -59,7 +59,7 @@ export const BURNING_TRASH_LEAVES_LAWS_NY = {
       qualifier: "Monroe County and surrounding area",
       access: "Phone at (585) 226-2466",
       outcome: "Enforcement, burn ban information, complaint investigation",
-      phone: "(585) 226-2466",
+      phone: "",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,

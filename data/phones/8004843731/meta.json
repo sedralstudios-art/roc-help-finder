@@ -1,0 +1,78 @@
+{
+  "digits": "8004843731",
+  "kind": "phone",
+  "primaryName": "Never Use Alone",
+  "rawValue": "800-484-3731",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "neverusealone",
+      "name": "Never Use Alone",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-46-41-827Z_5547dae1-7483-5e8a-2056-43ada9956508",
+    "meta": {
+      "callId": "5547dae1-7483-5e8a-2056-43ada9956508",
+      "digits": "8004843731",
+      "dialedNumber": "8004843731",
+      "catalogedName": "Never Use Alone",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:46:41.827Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.839Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Never Use Alone",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.417Z",
+  "lastSeededAt": "2026-05-03T19:44:16.417Z",
+  "verifiedAt": "2026-05-03T20:21:01.836Z",
+  "verifiedRun": "2026-05-02T10-46-41-827Z_5547dae1-7483-5e8a-2056-43ada9956508",
+  "verifiedTranscriptOpening": "Thank you for calling Never Use Alone. Please note that using this service does not guarantee your safety and help may not arrive in time. You are using the service at your own risk. When connected, y",
+  "verifiedMatchTokens": [
+    "never",
+    "use",
+    "alone"
+  ],
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:38:02.459Z",
+      "sourceUrl": "https://neverusealone.com/",
+      "sourceLabel": "Never Use Alone official",
+      "notes": "Web confirmed via 2026-05-04 lookup."
+    }
+  ]
+}

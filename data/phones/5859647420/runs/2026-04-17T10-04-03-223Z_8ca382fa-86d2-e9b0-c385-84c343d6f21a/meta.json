@@ -1,0 +1,24 @@
+{
+  "callId": "8ca382fa-86d2-e9b0-c385-84c343d6f21a",
+  "digits": "5859647420",
+  "dialedNumber": "(585) 964-7420",
+  "catalogedName": "Life Solutions of Hamlin (Food Pantry)",
+  "sourceId": "lifesolutionsfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T10:04:03.223Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.053Z"
+  }
+}

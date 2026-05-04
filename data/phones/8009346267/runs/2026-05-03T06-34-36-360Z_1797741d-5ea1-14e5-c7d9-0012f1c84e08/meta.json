@@ -1,0 +1,29 @@
+{
+  "callId": "1797741d-5ea1-14e5-c7d9-0012f1c84e08",
+  "digits": "8009346267",
+  "dialedNumber": "(800) 934-6267",
+  "catalogedName": "pharmacist-administered-vaccines-ny",
+  "sourceId": "legal-entry:pharmacist-administered-vaccines-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "pharmacist-administered-vaccines-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:34:36.360Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.018Z"
+  }
+}

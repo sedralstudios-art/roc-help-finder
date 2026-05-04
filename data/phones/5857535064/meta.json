@@ -1,0 +1,97 @@
+{
+  "digits": "5857535064",
+  "kind": "phone",
+  "primaryName": "Monroe County Housing Complaints",
+  "rawValue": "585-753-5064",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "mchealthhousing",
+      "name": "Monroe County Housing Complaints",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "housing-code-violations-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-tenant-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "lead-testing-child-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "mold-tenant-rights-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "seat-belt-child-seat-ny",
+      "line": 40
+    },
+    {
+      "type": "entry",
+      "id": "tenant-paint-apartment-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "tenant-paint-lead-safe-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-05-57-039Z_54be06fa-b2ee-f677-7206-a0beb9867837",
+    "meta": {
+      "callId": "54be06fa-b2ee-f677-7206-a0beb9867837",
+      "digits": "5857535064",
+      "dialedNumber": "5857535064",
+      "catalogedName": "Monroe County Housing Complaints",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:05:57.039Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.609Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.125,
+      "extracted": "Monroe County Public Health Food Protection section",
+      "reason": "transcript-stated name (Monroe County Public Health Food Protection section) differs from catalogued (Monroe County Housing Complaints)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.286Z",
+  "lastSeededAt": "2026-05-03T19:44:16.286Z"
+}

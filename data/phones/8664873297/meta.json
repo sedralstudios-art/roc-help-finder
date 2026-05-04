@@ -1,0 +1,61 @@
+{
+  "digits": "8664873297",
+  "kind": "phone",
+  "primaryName": "entry-callout:coyote-wild-turkey-urban-wildlife-ny",
+  "rawValue": "(866) 487-3297",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "coyote-wild-turkey-urban-wildlife-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-01-10-931Z_d2faea50-5e65-e4e0-a850-d8bb275661d1",
+    "meta": {
+      "callId": "d2faea50-5e65-e4e0-a850-d8bb275661d1",
+      "digits": "8664873297",
+      "dialedNumber": "(866) 487-3297",
+      "catalogedName": "coyote-wild-turkey-urban-wildlife-ny",
+      "sourceId": "legal-entry:coyote-wild-turkey-urban-wildlife-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "coyote-wild-turkey-urban-wildlife-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:01:10.931Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.768Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.485Z",
+  "lastSeededAt": "2026-05-03T19:44:16.485Z"
+}

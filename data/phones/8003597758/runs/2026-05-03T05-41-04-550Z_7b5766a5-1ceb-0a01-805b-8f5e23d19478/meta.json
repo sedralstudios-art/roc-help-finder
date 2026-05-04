@@ -1,0 +1,33 @@
+{
+  "callId": "7b5766a5-1ceb-0a01-805b-8f5e23d19478",
+  "digits": "8003597758",
+  "dialedNumber": "(800) 359-7758",
+  "catalogedName": "military-divorce-benefits-ny",
+  "sourceId": "legal-entry:military-divorce-benefits-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny"
+    },
+    {
+      "type": "entry",
+      "id": "service-member-lease-termination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:41:04.550Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.628Z"
+  }
+}

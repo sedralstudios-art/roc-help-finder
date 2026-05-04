@@ -1,0 +1,24 @@
+{
+  "callId": "e77a6ded-6f6b-cf98-03fe-2ddfc15a8b26",
+  "digits": "5853526864",
+  "dialedNumber": "(585) 352-6864",
+  "catalogedName": "Spencerport Municipal Electric",
+  "sourceId": "electrical-residential-ny-mon-spencerport-village::Spencerport Municipal Electric",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:55:23.164Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.674Z"
+  }
+}

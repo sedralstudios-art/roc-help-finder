@@ -1,0 +1,24 @@
+{
+  "callId": "10066a59-f310-0074-01fb-e046bf661951",
+  "digits": "5852640604",
+  "dialedNumber": "(585) 264-0604",
+  "catalogedName": "Pittsford Youth Services",
+  "sourceId": "pittsfordyouth",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:09:57.979Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.621Z"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "digits": "5853257727",
+  "kind": "phone",
+  "primaryName": "Judicial Process Commission",
+  "rawValue": "585-325-7727",
+  "blockDial": false,
+  "tags": [
+    "cat:legalCrimRecord",
+    "cat:reentry",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "jpc",
+      "name": "Judicial Process Commission",
+      "category": "reentry",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "jpcrecord",
+      "name": "Judicial Process Commission — Record Clearing",
+      "category": "legalCrimRecord",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-34-05-657Z_291b7468-58ad-8f1e-8088-dce7ac756d86",
+    "meta": {
+      "callId": "291b7468-58ad-8f1e-8088-dce7ac756d86",
+      "digits": "5853257727",
+      "dialedNumber": "5853257727",
+      "catalogedName": "Judicial Process Commission",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:34:05.657Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.284Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "JPC",
+      "reason": "transcript-stated name (JPC) differs from catalogued (Judicial Process Commission)"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.360Z",
+  "lastSeededAt": "2026-05-03T19:44:16.360Z",
+  "verifiedAt": "2026-05-03T20:21:01.712Z",
+  "verifiedRun": "2026-05-02T06-34-05-657Z_291b7468-58ad-8f1e-8088-dce7ac756d86",
+  "verifiedTranscriptOpening": "Thank you for calling JPC, Judicial Process Commission. Our hours of operation are Monday through Fridays, 9 a.m. till noon and 1 p.m. till 5 p.m. Please leave a message after the beep and someone wil",
+  "verifiedMatchTokens": [
+    "judicial",
+    "process",
+    "commission"
+  ],
+  "verifiedRatio": 1
+}

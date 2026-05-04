@@ -1,0 +1,72 @@
+{
+  "digits": "8003499960",
+  "kind": "phone",
+  "primaryName": "entry-callout:lost-stolen-wallet-what-to-do-ny-program",
+  "rawValue": "(800) 349-9960",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-stolen-wallet-what-to-do-ny-program",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T09-14-15-244Z_1be4ae0a-f6c2-62a6-958b-42fed96c6405",
+    "meta": {
+      "callId": "1be4ae0a-f6c2-62a6-958b-42fed96c6405",
+      "digits": "8003499960",
+      "dialedNumber": "(800) 349-9960",
+      "catalogedName": "lost-stolen-wallet-what-to-do-ny-program",
+      "sourceId": "legal-entry:lost-stolen-wallet-what-to-do-ny-program",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lost-stolen-wallet-what-to-do-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "senior-fraud-prevention-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T09:14:15.244Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.827Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Equifax Consumer Care",
+      "reason": "transcript-stated name (Equifax Consumer Care) differs from catalogued (lost-stolen-wallet-what-to-do-ny-program)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.401Z",
+  "lastSeededAt": "2026-05-03T19:44:16.401Z"
+}

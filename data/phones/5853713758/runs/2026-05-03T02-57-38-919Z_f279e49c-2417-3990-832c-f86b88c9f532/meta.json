@@ -1,0 +1,97 @@
+{
+  "callId": "f279e49c-2417-3990-832c-f86b88c9f532",
+  "digits": "5853713758",
+  "dialedNumber": "(585) 371-3758",
+  "catalogedName": "alimony-modification-ny",
+  "sourceId": "legal-entry:alimony-modification-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "alimony-modification-ny"
+    },
+    {
+      "type": "entry",
+      "id": "annulment-vs-divorce-ny"
+    },
+    {
+      "type": "entry",
+      "id": "article-78-proceeding-review-agency-ny"
+    },
+    {
+      "type": "entry",
+      "id": "civil-tro-preliminary-injunction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "commercial-eviction-process-ny"
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-fairness-act-ny"
+    },
+    {
+      "type": "entry",
+      "id": "court-interpreter-request-ny"
+    },
+    {
+      "type": "entry",
+      "id": "default-judgment-ny"
+    },
+    {
+      "type": "entry",
+      "id": "divorce-residency-requirement-ny"
+    },
+    {
+      "type": "entry",
+      "id": "divorce-separation-ny"
+    },
+    {
+      "type": "entry",
+      "id": "easement-by-necessity-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "election-law-ballot-challenge-ny"
+    },
+    {
+      "type": "entry",
+      "id": "guardian-ad-litem-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mechanics-lien-private-construction-ny"
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T02:57:38.919Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.914Z"
+  }
+}

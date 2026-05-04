@@ -1,0 +1,61 @@
+{
+  "digits": "2024014634",
+  "kind": "phone",
+  "primaryName": "entry-callout:senior-congregate-meals-ny",
+  "rawValue": "(202) 401-4634",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "senior-congregate-meals-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-44-18-732Z_07a62c31-66fe-0887-09bb-577aaeb80546",
+    "meta": {
+      "callId": "07a62c31-66fe-0887-09bb-577aaeb80546",
+      "digits": "2024014634",
+      "dialedNumber": "(202) 401-4634",
+      "catalogedName": "senior-congregate-meals-ny",
+      "sourceId": "legal-entry:senior-congregate-meals-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "senior-congregate-meals-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:44:18.732Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.085Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.565Z",
+  "lastSeededAt": "2026-05-03T19:44:16.565Z"
+}

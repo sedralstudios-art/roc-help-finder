@@ -1,0 +1,61 @@
+{
+  "digits": "8007676732",
+  "kind": "phone",
+  "primaryName": "entry-callout:opmc-physician-misconduct-complaint-ny",
+  "rawValue": "(800) 767-6732",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "opmc-physician-misconduct-complaint-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-31-08-277Z_3171d0ca-1229-b6db-980d-dfc4d38fc242",
+    "meta": {
+      "callId": "3171d0ca-1229-b6db-980d-dfc4d38fc242",
+      "digits": "8007676732",
+      "dialedNumber": "(800) 767-6732",
+      "catalogedName": "opmc-physician-misconduct-complaint-ny",
+      "sourceId": "legal-entry:opmc-physician-misconduct-complaint-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "opmc-physician-misconduct-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:31:08.277Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.994Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.540Z",
+  "lastSeededAt": "2026-05-03T19:44:16.540Z"
+}

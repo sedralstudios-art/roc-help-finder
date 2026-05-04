@@ -1,0 +1,24 @@
+{
+  "callId": "8a41cc52-1518-ab2b-0583-8721137eddd8",
+  "digits": "5854287538",
+  "dialedNumber": "5854287538",
+  "catalogedName": "Rochester City Council (Constituent Help)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:33:57.576Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.413Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "callId": "b2d77a15-6c6a-1ccd-3ce2-74c07c34ee40",
+  "digits": "5857536000",
+  "dialedNumber": "(585) 753-6000",
+  "catalogedName": "burial-cremation-rights-low-income-ny",
+  "sourceId": "legal-entry:burial-cremation-rights-low-income-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "burial-cremation-rights-low-income-ny"
+    },
+    {
+      "type": "entry",
+      "id": "minor-medical-consent-ny"
+    },
+    {
+      "type": "entry",
+      "id": "non-driver-state-id-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rochester-housing-authority-waitlist-ny"
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:17:40.621Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.268Z"
+  }
+}

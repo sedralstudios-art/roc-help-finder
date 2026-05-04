@@ -1,0 +1,29 @@
+{
+  "callId": "95a93488-8043-31d0-e286-628f2e3a86f4",
+  "digits": "2023663784",
+  "dialedNumber": "(202) 366-3784",
+  "catalogedName": "drug-testing-work-ny",
+  "sourceId": "legal-entry:drug-testing-work-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "drug-testing-work-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:03:32.376Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.784Z"
+  }
+}

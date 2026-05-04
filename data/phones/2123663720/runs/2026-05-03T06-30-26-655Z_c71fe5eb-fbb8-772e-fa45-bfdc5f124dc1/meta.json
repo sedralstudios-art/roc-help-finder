@@ -1,0 +1,29 @@
+{
+  "callId": "c71fe5eb-fbb8-772e-fa45-bfdc5f124dc1",
+  "digits": "2123663720",
+  "dialedNumber": "(212) 366-3720",
+  "catalogedName": "nys-income-tax-installment-plan-ny",
+  "sourceId": "legal-entry:nys-income-tax-installment-plan-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nys-income-tax-installment-plan-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:30:26.655Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.990Z"
+  }
+}

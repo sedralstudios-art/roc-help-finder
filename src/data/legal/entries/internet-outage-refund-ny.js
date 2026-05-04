@@ -60,7 +60,7 @@ export const INTERNET_OUTAGE_REFUND_NY = {
       qualifier: "Anyone in the U.S.",
       access: "Online at fcc.gov or (888) 225-5322",
       outcome: "Provider must respond within 30 days, credit or resolution",
-      phone: "(888) 225-5322",
+      phone: "",
       url: "https://www.fcc.gov/consumers/guides/filing-informal-complaint",
       verified: true,
       bilingual: true,

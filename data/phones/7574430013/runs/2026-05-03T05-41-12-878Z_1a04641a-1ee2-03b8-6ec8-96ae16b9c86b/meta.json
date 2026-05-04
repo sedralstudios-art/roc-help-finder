@@ -1,0 +1,33 @@
+{
+  "callId": "1a04641a-1ee2-03b8-6ec8-96ae16b9c86b",
+  "digits": "7574430013",
+  "dialedNumber": "(757) 443-0013",
+  "catalogedName": "military-divorce-benefits-ny",
+  "sourceId": "legal-entry:military-divorce-benefits-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny"
+    },
+    {
+      "type": "entry",
+      "id": "service-member-lease-termination-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:41:12.878Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.629Z"
+  }
+}

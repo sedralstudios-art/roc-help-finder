@@ -1,0 +1,29 @@
+{
+  "callId": "5f45a153-1d53-8d69-22f6-371e4f1a7745",
+  "digits": "8772684430",
+  "dialedNumber": "(877) 268-4430",
+  "catalogedName": "inmate-visitation-communication-ny",
+  "sourceId": "legal-entry:inmate-visitation-communication-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "inmate-visitation-communication-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:16:26.399Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.876Z"
+  }
+}

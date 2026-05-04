@@ -1,0 +1,80 @@
+{
+  "digits": "5853524771",
+  "kind": "phone",
+  "primaryName": "Spencerport Village Clerk",
+  "rawValue": "585-352-4771",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "spencerportclerk",
+      "name": "Spencerport Village Clerk",
+      "category": "documents",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-spencerport-village",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-spencerport-village",
+      "line": 16
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-55-55-800Z_8dd55b87-4e41-2102-a8d0-117f0fe517c1",
+    "meta": {
+      "callId": "8dd55b87-4e41-2102-a8d0-117f0fe517c1",
+      "digits": "5853524771",
+      "dialedNumber": "5853524771",
+      "catalogedName": "Spencerport Village Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:55:55.800Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.330Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "village of Spencerport",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.335Z",
+  "lastSeededAt": "2026-05-03T19:44:16.335Z",
+  "verifiedAt": "2026-05-03T20:21:01.722Z",
+  "verifiedRun": "2026-05-02T06-55-55-800Z_8dd55b87-4e41-2102-a8d0-117f0fe517c1",
+  "verifiedTranscriptOpening": "You have reached the village of Spencerport. Our office is currently closed. If you know your party's extension, you may dial it at any time. For our dial by name directory, press pound. For our staff",
+  "verifiedMatchTokens": [
+    "spencerport",
+    "village"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

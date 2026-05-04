@@ -1,0 +1,78 @@
+{
+  "digits": "5855461470",
+  "kind": "phone",
+  "primaryName": "Habitat for Humanity",
+  "rawValue": "585-546-1470",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hab",
+      "name": "Habitat for Humanity",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "car-donation-charity-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "first-time-homebuyer-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-03-05-221Z_2ec773c1-56c3-ba60-74b0-1a89a73e50e0",
+    "meta": {
+      "callId": "2ec773c1-56c3-ba60-74b0-1a89a73e50e0",
+      "digits": "5855461470",
+      "dialedNumber": "5855461470",
+      "catalogedName": "Habitat for Humanity",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:03:05.221Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.478Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.333Z",
+  "lastSeededAt": "2026-05-03T19:44:16.333Z",
+  "verifiedAt": "2026-05-03T20:21:01.760Z",
+  "verifiedRun": "2026-05-02T08-03-05-221Z_2ec773c1-56c3-ba60-74b0-1a89a73e50e0",
+  "verifiedTranscriptOpening": "Thanks for calling Greater Rochester Habitat for Humanity. To reach one of our restores, or to schedule a donation pickup, please press 1. To learn more about our home ownership or home repair program",
+  "verifiedMatchTokens": [
+    "habitat",
+    "humanity"
+  ],
+  "verifiedRatio": 1
+}

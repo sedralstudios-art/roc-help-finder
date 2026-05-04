@@ -1,0 +1,61 @@
+{
+  "digits": "5857533220",
+  "kind": "phone",
+  "primaryName": "entry-callout:probation-basics-ny",
+  "rawValue": "(585) 753-3220",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "probation-basics-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-37-22-699Z_5930f032-b496-1208-db70-fce60e33c7d1",
+    "meta": {
+      "callId": "5930f032-b496-1208-db70-fce60e33c7d1",
+      "digits": "5857533220",
+      "dialedNumber": "(585) 753-3220",
+      "catalogedName": "probation-basics-ny",
+      "sourceId": "legal-entry:probation-basics-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "probation-basics-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:37:22.699Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.038Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.552Z",
+  "lastSeededAt": "2026-05-03T19:44:16.552Z"
+}

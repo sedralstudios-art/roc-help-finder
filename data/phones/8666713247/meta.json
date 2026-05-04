@@ -1,0 +1,61 @@
+{
+  "digits": "8666713247",
+  "kind": "phone",
+  "primaryName": "entry-callout:emotional-support-animal-housing-ny",
+  "rawValue": "(866) 671-3247",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emotional-support-animal-housing-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-07-25-362Z_0d56b7c5-1b4f-4b9a-9688-5562424e8413",
+    "meta": {
+      "callId": "0d56b7c5-1b4f-4b9a-9688-5562424e8413",
+      "digits": "8666713247",
+      "dialedNumber": "(866) 671-3247",
+      "catalogedName": "emotional-support-animal-housing-ny",
+      "sourceId": "legal-entry:emotional-support-animal-housing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "emotional-support-animal-housing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:07:25.362Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.814Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.496Z",
+  "lastSeededAt": "2026-05-03T19:44:16.496Z"
+}

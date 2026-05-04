@@ -23,7 +23,7 @@ export const VETERANS_HOUSING_ASSISTANCE_NY = {
   },
 
   whatItMeans: {
-    en: "The VA Home Loan (backed by the U.S. Department of Veterans Affairs) is one of the strongest housing benefits available. It allows eligible veterans to buy a home with no down payment, no private mortgage insurance (PMI), and competitive interest rates. The VA does not make the loan — private lenders do — but the VA guarantees a portion, reducing the lender's risk. To qualify, the veteran generally needs a Certificate of Eligibility (COE) based on service history, and must meet the lender's income and credit requirements. For homeless veterans, the VA's HUD-VASH program provides Section 8 housing vouchers specifically for veterans, combined with VA case management. The VA also funds the Supportive Services for Veteran Families (SSVF) program, which provides rapid rehousing, rental assistance, security deposits, and utility payments to veterans at risk of homelessness. In Monroe County, the Veterans Outreach Center at (585) 546-1081 is the primary local organization serving homeless and at-risk veterans. The Monroe County Veterans Service Agency at (585) 753-6040 connects veterans with all VA and local housing programs."
+    en: "The VA Home Loan (backed by the U.S. Department of Veterans Affairs) is one of the strongest housing benefits available. It allows eligible veterans to buy a home with no down payment, no private mortgage insurance (PMI), and competitive interest rates. The VA does not make the loan — private lenders do — but the VA guarantees a portion, reducing the lender's risk. To qualify, the veteran generally needs a Certificate of Eligibility (COE) based on service history, and must meet the lender's income and credit requirements. For homeless veterans, the VA's HUD-VASH program provides Section 8 housing vouchers specifically for veterans, combined with VA case management. The VA also funds the Supportive Services for Veteran Families (SSVF) program, which provides rapid rehousing, rental assistance, security deposits, and utility payments to veterans at risk of homelessness. In Monroe County, the Veterans Outreach Center at [number being verified] is the primary local organization serving homeless and at-risk veterans. The Monroe County Veterans Service Agency at [number being verified] connects veterans with all VA and local housing programs."
   },
 
   yourRights: {
@@ -62,7 +62,7 @@ export const VETERANS_HOUSING_ASSISTANCE_NY = {
       qualifier: "Veterans and their families in Monroe County",
       access: "Phone at (585) 753-6040",
       outcome: "Benefits navigation, housing referrals, VA program enrollment",
-      phone: "(585) 753-6040",
+      phone: "",
       url: "https://www.monroecounty.gov/vet",
       verified: true,
       bilingual: false,
@@ -75,7 +75,7 @@ export const VETERANS_HOUSING_ASSISTANCE_NY = {
       qualifier: "Veterans in the Rochester area",
       access: "Phone at (585) 546-1081",
       outcome: "Emergency shelter, transitional housing, rental assistance, case management",
-      phone: "(585) 546-1081",
+      phone: "",
       url: "https://www.veteransoutreachcenter.org",
       verified: true,
       bilingual: false,

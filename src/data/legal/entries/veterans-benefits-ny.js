@@ -23,7 +23,7 @@ export const VETERANS_BENEFITS_NY = {
   },
 
   whatItMeans: {
-    en: "VA Health Care: veterans can enroll in VA health care, which provides medical, mental health, dental (in some cases), and prescription services. The Canandaigua VA Medical Center and Rochester VA outpatient clinics serve Monroe County. Disability Compensation: tax-free monthly payments for injuries or conditions connected to military service. Rates depend on the disability rating (0% to 100%). A claim is filed through the VA or with help from a Veterans Service Organization (VSO). Education: the Post-9/11 GI Bill covers tuition, housing, and books for eligible veterans. Some benefits can be transferred to dependents. Home Loans: VA-backed home loans offer no-down-payment mortgages with favorable terms. Employment: veterans receive preference in federal hiring and in some state and local hiring. NY Civil Service Law provides veterans' preference points. Property Tax Exemptions: New York offers property tax exemptions for veterans under RPTL § 458 and § 458-a — these stack with STAR and can significantly reduce the tax bill. The Monroe County Veterans Service Agency at (585) 753-6040 provides free assistance with all of these — they help file claims, gather evidence, and navigate the VA system."
+    en: "VA Health Care: veterans can enroll in VA health care, which provides medical, mental health, dental (in some cases), and prescription services. The Canandaigua VA Medical Center and Rochester VA outpatient clinics serve Monroe County. Disability Compensation: tax-free monthly payments for injuries or conditions connected to military service. Rates depend on the disability rating (0% to 100%). A claim is filed through the VA or with help from a Veterans Service Organization (VSO). Education: the Post-9/11 GI Bill covers tuition, housing, and books for eligible veterans. Some benefits can be transferred to dependents. Home Loans: VA-backed home loans offer no-down-payment mortgages with favorable terms. Employment: veterans receive preference in federal hiring and in some state and local hiring. NY Civil Service Law provides veterans' preference points. Property Tax Exemptions: New York offers property tax exemptions for veterans under RPTL § 458 and § 458-a — these stack with STAR and can significantly reduce the tax bill. The Monroe County Veterans Service Agency at [number being verified] provides free assistance with all of these — they help file claims, gather evidence, and navigate the VA system."
   },
 
   yourRights: {
@@ -60,7 +60,7 @@ export const VETERANS_BENEFITS_NY = {
       qualifier: "All veterans and their families in Monroe County",
       access: "Phone or in person",
       outcome: "Free claims assistance, evidence gathering, filing",
-      phone: "(585) 753-6040",
+      phone: "",
       url: "https://www.monroecounty.gov/veterans",
       verified: true,
       bilingual: false,
@@ -73,7 +73,7 @@ export const VETERANS_BENEFITS_NY = {
       qualifier: "Enrolled veterans",
       access: "Phone or in person",
       outcome: "Medical care, mental health services, prescription services",
-      phone: "(585) 394-2000",
+      phone: "",
       url: "https://www.va.gov/canandaigua-health-care/",
       verified: true,
       bilingual: false,

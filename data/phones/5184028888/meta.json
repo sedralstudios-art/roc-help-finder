@@ -1,0 +1,70 @@
+{
+  "digits": "5184028888",
+  "kind": "phone",
+  "primaryName": "entry-callout:boat-operator-safety-certificate-ny",
+  "rawValue": "(518) 402-8888",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "boat-operator-safety-certificate-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "recreational-use-immunity-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-19-05-517Z_ca0ef5eb-c704-6fa5-e21d-da53cdc470f7",
+    "meta": {
+      "callId": "ca0ef5eb-c704-6fa5-e21d-da53cdc470f7",
+      "digits": "5184028888",
+      "dialedNumber": "(518) 402-8888",
+      "catalogedName": "boat-operator-safety-certificate-ny",
+      "sourceId": "legal-entry:boat-operator-safety-certificate-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "boat-operator-safety-certificate-ny"
+        },
+        {
+          "type": "entry",
+          "id": "recreational-use-immunity-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:19:05.517Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.548Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.367Z",
+  "lastSeededAt": "2026-05-03T19:44:16.367Z"
+}

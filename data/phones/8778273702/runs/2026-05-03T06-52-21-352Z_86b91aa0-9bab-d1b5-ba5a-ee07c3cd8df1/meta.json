@@ -1,0 +1,29 @@
+{
+  "callId": "86b91aa0-9bab-d1b5-ba5a-ee07c3cd8df1",
+  "digits": "8778273702",
+  "dialedNumber": "(877) 827-3702",
+  "catalogedName": "veterans-housing-assistance-ny",
+  "sourceId": "legal-entry:veterans-housing-assistance-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "veterans-housing-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:52:21.352Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.142Z"
+  }
+}

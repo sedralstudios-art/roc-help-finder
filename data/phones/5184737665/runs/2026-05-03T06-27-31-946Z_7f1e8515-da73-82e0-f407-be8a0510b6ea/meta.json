@@ -1,0 +1,29 @@
+{
+  "callId": "7f1e8515-da73-82e0-f407-be8a0510b6ea",
+  "digits": "5184737665",
+  "dialedNumber": "(518) 473-7665",
+  "catalogedName": "newborn-screening-ny",
+  "sourceId": "legal-entry:newborn-screening-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "newborn-screening-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:27:31.946Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.953Z"
+  }
+}

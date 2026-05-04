@@ -59,7 +59,7 @@ export const RENTERS_INSURANCE_NY = {
       qualifier: "Any consumer in New York",
       access: "Phone or online",
       outcome: "Information, complaint filing, dispute resolution",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: false,

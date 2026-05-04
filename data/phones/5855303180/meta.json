@@ -1,0 +1,61 @@
+{
+  "digits": "5855303180",
+  "kind": "phone",
+  "primaryName": "entry-callout:attorney-grievance-complaint-ny",
+  "rawValue": "(585) 530-3180",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "attorney-grievance-complaint-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-52-01-854Z_30cdbb47-0b6c-66e5-4ddf-7f253e51b9ae",
+    "meta": {
+      "callId": "30cdbb47-0b6c-66e5-4ddf-7f253e51b9ae",
+      "digits": "5855303180",
+      "dialedNumber": "(585) 530-3180",
+      "catalogedName": "attorney-grievance-complaint-ny",
+      "sourceId": "legal-entry:attorney-grievance-complaint-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "attorney-grievance-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:52:01.854Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.699Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.468Z",
+  "lastSeededAt": "2026-05-03T19:44:16.468Z"
+}

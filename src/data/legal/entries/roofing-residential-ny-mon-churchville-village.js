@@ -9,7 +9,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CHURCHVILLE_VILLAGE = {
   title: { en: "Residential Roofing in the Village of Churchville — Separate Building Inspector Inside the Town of Riga" },
 
   summary: {
-    en: "The Village of Churchville has its own Building Inspector and Code Enforcement Officer. Chapter 85 of the Village Code adopts the New York Uniform Fire Prevention and Building Code and requires permits for the construction, enlargement, alteration, improvement, removal, relocation, or demolition of any building or structure. The village sits inside the Town of Riga but runs its own code enforcement. A permit pulled in Riga does not clear a contractor to work inside the village. The Building Inspector at (585) 293-3720 ext 119 confirms scope."
+    en: "The Village of Churchville has its own Building Inspector and Code Enforcement Officer. Chapter 85 of the Village Code adopts the New York Uniform Fire Prevention and Building Code and requires permits for the construction, enlargement, alteration, improvement, removal, relocation, or demolition of any building or structure. The village sits inside the Town of Riga but runs its own code enforcement. A permit pulled in Riga does not clear a contractor to work inside the village. The Building Inspector at [number being verified] ext 119 confirms scope."
   },
 
   whatItMeans: {
@@ -17,7 +17,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CHURCHVILLE_VILLAGE = {
   },
 
   example: {
-    en: "A roofing contractor has a tear-off-and-replacement job inside Churchville village. He calls the Building Inspector at (585) 293-3720 ext 119 to confirm the permit requirement. The inspector confirms a permit is required because the deck will be partially replaced. The contractor submits the application at the Village Office and waits for approval before starting. A job across the street outside village limits would go through the Town of Riga Building Department instead."
+    en: "A roofing contractor has a tear-off-and-replacement job inside Churchville village. He calls the Building Inspector at [number being verified] ext 119 to confirm the permit requirement. The inspector confirms a permit is required because the deck will be partially replaced. The contractor submits the application at the Village Office and waits for approval before starting. A job across the street outside village limits would go through the Town of Riga Building Department instead."
   },
 
   whoQualifies: {
@@ -57,7 +57,7 @@ export const ROOFING_RESIDENTIAL_NY_MON_CHURCHVILLE_VILLAGE = {
       qualifier: "Residents, property owners, and contractors working inside the Village",
       access: "Village Office, Churchville, NY 14428; phone; email dennis@churchvilleny.gov",
       outcome: "Permit issuance, inspection scheduling, code guidance",
-      phone: "(585) 293-3720",
+      phone: "",
       url: "https://churchville.net/building-inspector-code-enforcement-officer/",
       verified: true,
       bilingual: false,

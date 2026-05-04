@@ -1,0 +1,24 @@
+{
+  "callId": "ecf2949c-f344-9e22-c716-755a65108138",
+  "digits": "5853713412",
+  "dialedNumber": "5853713412",
+  "catalogedName": "Rochester City Court — Civil Division (Habitability)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:06:45.914Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.352Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "4cae813c-64e7-3434-24ca-6682a67388a0",
+  "digits": "2165225301",
+  "dialedNumber": "(216) 522-5301",
+  "catalogedName": "military-divorce-benefits-ny",
+  "sourceId": "legal-entry:military-divorce-benefits-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:24:03.950Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.928Z"
+  }
+}

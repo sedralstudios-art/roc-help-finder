@@ -43,7 +43,7 @@ export const SURROGACY_CHILD_PARENT_SECURITY_ACT_NY = {
 
   legalOptions: {
     en: [
-      "NYS DOH Surrogacy and Assisted Reproduction at (518) 474-2121 — program information and gestational carrier registry.",
+      "NYS DOH Surrogacy and Assisted Reproduction at 1-800-446-9227 — program information and gestational carrier registry.",
       "Academy of Adoption and Assisted Reproduction Attorneys at (410) 730-0126 — attorney directory for CPSA-experienced counsel.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — local CPSA attorneys for intended parents and carriers.",
       "American Society for Reproductive Medicine at (205) 978-5000 — fertility clinic standards and coordination.",
@@ -65,7 +65,7 @@ export const SURROGACY_CHILD_PARENT_SECURITY_ACT_NY = {
       qualifier: "Intended parents or gestational carriers in Monroe County",
       access: "Phone at (585) 546-2130",
       outcome: "30-minute consultation, flat-fee or hourly representation for CPSA matters",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,
@@ -76,9 +76,9 @@ export const SURROGACY_CHILD_PARENT_SECURITY_ACT_NY = {
       name: "NYS Department of Health Surrogacy and Assisted Reproduction",
       focus: "CPSA program administration, gestational carrier registry, parentage resources",
       qualifier: "Any NY resident",
-      access: "Phone (518) 474-2121 or online at health.ny.gov",
+      access: "Phone 1-800-446-9227 or online at health.ny.gov",
       outcome: "Information, referral, know-your-rights materials",
-      phone: "(518) 474-2121",
+      phone: "",
       url: "https://www.health.ny.gov/community/pregnancy/surrogacy/",
       verified: true,
       bilingual: false,

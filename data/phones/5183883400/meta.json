@@ -1,0 +1,61 @@
+{
+  "digits": "5183883400",
+  "kind": "phone",
+  "primaryName": "entry-callout:nonprofit-raffle-bingo-rules-ny",
+  "rawValue": "(518) 388-3400",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "nonprofit-raffle-bingo-rules-ny",
+      "line": 41
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-27-56-904Z_2d5b3733-4e0a-500e-c2c2-170bb3a2785c",
+    "meta": {
+      "callId": "2d5b3733-4e0a-500e-c2c2-170bb3a2785c",
+      "digits": "5183883400",
+      "dialedNumber": "(518) 388-3400",
+      "catalogedName": "nonprofit-raffle-bingo-rules-ny",
+      "sourceId": "legal-entry:nonprofit-raffle-bingo-rules-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "nonprofit-raffle-bingo-rules-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:27:56.904Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.956Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.534Z",
+  "lastSeededAt": "2026-05-03T19:44:16.534Z"
+}

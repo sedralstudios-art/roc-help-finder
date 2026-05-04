@@ -1,0 +1,29 @@
+{
+  "callId": "00b5b007-e2b1-c6e0-ef53-69a78c43dbc5",
+  "digits": "3148010800",
+  "dialedNumber": "(314) 801-0800",
+  "catalogedName": "veterans-property-tax-exemption-ny",
+  "sourceId": "legal-entry:veterans-property-tax-exemption-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "veterans-property-tax-exemption-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:52:38.031Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.144Z"
+  }
+}

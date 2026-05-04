@@ -60,7 +60,7 @@ export const USED_CAR_DEALER_COMPLAINT_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (800) 771-7755 or ag.ny.gov",
       outcome: "Investigation, arbitration, dealer enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau/used-car-lemon-law",
       verified: true,
       bilingual: true,

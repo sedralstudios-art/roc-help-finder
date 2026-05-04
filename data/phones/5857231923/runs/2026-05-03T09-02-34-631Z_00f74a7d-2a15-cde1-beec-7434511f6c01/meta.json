@@ -1,0 +1,33 @@
+{
+  "callId": "00f74a7d-2a15-cde1-beec-7434511f6c01",
+  "digits": "5857231923",
+  "dialedNumber": "(585) 723-1923",
+  "catalogedName": "hvac-residential-ny-mon-greece-town",
+  "sourceId": "legal-entry:hvac-residential-ny-mon-greece-town",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-greece-town"
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-greece-town"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T09:02:34.631Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.761Z"
+  }
+}

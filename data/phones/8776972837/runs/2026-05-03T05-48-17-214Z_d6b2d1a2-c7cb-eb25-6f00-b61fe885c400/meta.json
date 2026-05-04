@@ -1,0 +1,29 @@
+{
+  "callId": "d6b2d1a2-c7cb-eb25-6f00-b61fe885c400",
+  "digits": "8776972837",
+  "dialedNumber": "(877) 697-2837",
+  "catalogedName": "529-college-savings-plan-ny",
+  "sourceId": "legal-entry:529-college-savings-plan-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "529-college-savings-plan-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:48:17.214Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.675Z"
+  }
+}

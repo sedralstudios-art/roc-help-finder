@@ -60,7 +60,7 @@ export const JUNIOR_LICENSE_GDL_RESTRICTIONS_NY = {
       qualifier: "Any NYS resident",
       access: "DMV website or any local office",
       outcome: "Official information on junior license rules and course equivalencies",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/younger-drivers/junior-drivers-permits-licenses",
       verified: true,
       bilingual: true,

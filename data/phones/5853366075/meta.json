@@ -1,0 +1,65 @@
+{
+  "digits": "5853366075",
+  "kind": "phone",
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-06-07-977Z_af9960f5-037d-848e-b6be-49b56f09e34a",
+    "meta": {
+      "callId": "af9960f5-037d-848e-b6be-49b56f09e34a",
+      "digits": "5853366075",
+      "dialedNumber": "(585) 336-6075",
+      "catalogedName": "moving-truck-street-permit-ny",
+      "sourceId": "legal-entry:moving-truck-street-permit-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "moving-truck-street-permit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "sidewalk-repair-who-pays-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-plow-damage-property-ny"
+        },
+        {
+          "type": "entry",
+          "id": "snow-removal-ordinance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "street-light-out-report-ny"
+        },
+        {
+          "type": "entry",
+          "id": "trash-pickup-missed-complaint-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:06:07.977Z",
+      "durationSec": 19,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.221Z"
+      }
+    },
+    "verdict": {
+      "bucket": "disconnected",
+      "confidence": 0.95,
+      "reason": "transcript matches disconnected pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

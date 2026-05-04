@@ -1,0 +1,79 @@
+{
+  "digits": "5184741515",
+  "kind": "phone",
+  "primaryName": "entry-callout:no-smoking-at-work-ny",
+  "rawValue": "(518) 474-1515",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "smoking-policy-disclosure-housing-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny",
+      "line": 27
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-57-15-547Z_82c797df-8003-b373-bc5a-22e258694678",
+    "meta": {
+      "callId": "82c797df-8003-b373-bc5a-22e258694678",
+      "digits": "5184741515",
+      "dialedNumber": "(518) 474-1515",
+      "catalogedName": "no-smoking-at-work-ny",
+      "sourceId": "legal-entry:no-smoking-at-work-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "no-smoking-at-work-ny"
+        },
+        {
+          "type": "entry",
+          "id": "smoking-policy-disclosure-housing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tobacco-retailer-licensing-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:57:15.547Z",
+      "durationSec": 16,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.445Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.351Z",
+  "lastSeededAt": "2026-05-03T19:44:16.351Z"
+}

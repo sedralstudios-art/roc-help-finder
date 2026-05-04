@@ -1,0 +1,42 @@
+{
+  "digits": "5853252800",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-27-00-859Z_e9c41a0a-9ae7-5364-5b87-52f80749105f",
+    "meta": {
+      "callId": "e9c41a0a-9ae7-5364-5b87-52f80749105f",
+      "digits": "5853252800",
+      "dialedNumber": "5853252800",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:27:00.859Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.269Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Monroe County New York Connects",
+      "reason": "transcript-stated name (Monroe County New York Connects) differs from catalogued (null)"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

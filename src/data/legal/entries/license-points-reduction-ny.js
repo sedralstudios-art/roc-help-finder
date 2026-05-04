@@ -60,7 +60,7 @@ export const LICENSE_POINTS_REDUCTION_NY = {
       qualifier: "Any NYS licensed driver",
       access: "Information at dmv.ny.gov or (518) 486-9786",
       outcome: "Up to 4 points removed, 10% insurance discount for 3 years",
-      phone: "(518) 486-9786",
+      phone: "",
       url: "https://dmv.ny.gov/tickets/point-insurance-reduction-program",
       verified: true,
       bilingual: false,

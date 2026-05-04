@@ -1,0 +1,33 @@
+{
+  "callId": "ad6e8aae-481d-44b1-bbf5-219bdafc762c",
+  "digits": "8003043107",
+  "dialedNumber": "(800) 304-3107",
+  "catalogedName": "economic-impact-payment-recovery-ny",
+  "sourceId": "legal-entry:economic-impact-payment-recovery-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "economic-impact-payment-recovery-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tax-refund-garnishment-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:35:31.842Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.592Z"
+  }
+}

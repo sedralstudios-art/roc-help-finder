@@ -1,0 +1,29 @@
+{
+  "callId": "66560d7e-8c7a-5195-6cf6-8afdd60d8a3f",
+  "digits": "5852351300",
+  "dialedNumber": "(585) 235-1300",
+  "catalogedName": "section-8-housing-voucher-walkthrough-ny",
+  "sourceId": "legal-entry:section-8-housing-voucher-walkthrough-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "section-8-housing-voucher-walkthrough-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:43:45.431Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.081Z"
+  }
+}

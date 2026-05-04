@@ -1,0 +1,59 @@
+{
+  "digits": "5852751550",
+  "kind": "phone",
+  "primaryName": "Strong Recovery (URMC)",
+  "rawValue": "585-275-1550",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "strongrec",
+      "name": "Strong Recovery (URMC)",
+      "category": "addiction",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-07-35-661Z_5c6d29e1-8909-bb7d-4991-eaa929326ba6",
+    "meta": {
+      "callId": "5c6d29e1-8909-bb7d-4991-eaa929326ba6",
+      "digits": "5852751550",
+      "dialedNumber": "5852751550",
+      "catalogedName": "Strong Recovery (URMC)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:07:35.661Z",
+      "durationSec": 25,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.227Z"
+      }
+    },
+    "verdict": {
+      "bucket": "voicemail-of-person",
+      "confidence": 0.9,
+      "reason": "matches voicemail-of-person pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.416Z",
+  "lastSeededAt": "2026-05-03T19:44:16.416Z"
+}

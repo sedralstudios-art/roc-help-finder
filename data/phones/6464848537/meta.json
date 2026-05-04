@@ -1,0 +1,61 @@
+{
+  "digits": "6464848537",
+  "kind": "phone",
+  "primaryName": "entry-callout:college-in-state-tuition-residency-ny",
+  "rawValue": "(646) 484-8537",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "college-in-state-tuition-residency-ny",
+      "line": 52
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-58-49-517Z_788962e6-c5d7-73b4-6c9b-97824a57e652",
+    "meta": {
+      "callId": "788962e6-c5d7-73b4-6c9b-97824a57e652",
+      "digits": "6464848537",
+      "dialedNumber": "(646) 484-8537",
+      "catalogedName": "college-in-state-tuition-residency-ny",
+      "sourceId": "legal-entry:college-in-state-tuition-residency-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "college-in-state-tuition-residency-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:58:49.517Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.750Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.481Z",
+  "lastSeededAt": "2026-05-03T19:44:16.481Z"
+}

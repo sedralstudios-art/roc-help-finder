@@ -60,7 +60,7 @@ export const BASEMENT_WATERPROOFING_CONTRACTOR_NY = {
       qualifier: "Any NYS resident",
       access: "Phone at (800) 771-7755",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov/consumer-frauds-bureau",
       verified: true,
       bilingual: true,

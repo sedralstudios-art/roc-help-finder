@@ -58,7 +58,7 @@ export const NEIGHBOR_DISPUTES_NY = {
       qualifier: "Anyone in the Rochester area",
       access: "Phone or walk-in",
       outcome: "Free mediation and conflict resolution",
-      phone: "(585) 546-5110",
+      phone: "",
       url: "https://www.cdsadr.org",
       verified: true,
       bilingual: false,

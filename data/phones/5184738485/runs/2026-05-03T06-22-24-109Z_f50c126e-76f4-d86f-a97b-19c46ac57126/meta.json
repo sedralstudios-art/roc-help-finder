@@ -1,0 +1,29 @@
+{
+  "callId": "f50c126e-76f4-d86f-a97b-19c46ac57126",
+  "digits": "5184738485",
+  "dialedNumber": "(518) 473-8485",
+  "catalogedName": "medicaid-hcbs-waiver-ny",
+  "sourceId": "legal-entry:medicaid-hcbs-waiver-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:22:24.109Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.916Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "7a0646a2-c3e5-4cc0-d6f3-57cf5d27493d",
+  "digits": "5854213207",
+  "dialedNumber": "5854213207",
+  "catalogedName": "entry-callout:electrical-residential-ny-mon-fairport-village",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:23:47.221Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.391Z"
+  }
+}

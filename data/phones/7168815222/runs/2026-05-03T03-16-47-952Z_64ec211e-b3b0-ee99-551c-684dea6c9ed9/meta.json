@@ -1,0 +1,73 @@
+{
+  "callId": "64ec211e-b3b0-ee99-551c-684dea6c9ed9",
+  "digits": "7168815222",
+  "dialedNumber": "(716) 881-5222",
+  "catalogedName": "bait-and-switch-advertising-ny",
+  "sourceId": "legal-entry:bait-and-switch-advertising-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bait-and-switch-advertising-ny"
+    },
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny"
+    },
+    {
+      "type": "entry",
+      "id": "defective-product-ucc-warranty-ny"
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny"
+    },
+    {
+      "type": "entry",
+      "id": "eyeglass-contact-lens-prescription-release-ny"
+    },
+    {
+      "type": "entry",
+      "id": "grocery-item-pricing-accuracy-ny"
+    },
+    {
+      "type": "entry",
+      "id": "home-inspection-contract-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lien-law-77-trust-fund-action-ny"
+    },
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pyramid-scheme-chain-letter-ny"
+    },
+    {
+      "type": "entry",
+      "id": "renters-insurance-basics-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:16:47.952Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.982Z"
+  }
+}

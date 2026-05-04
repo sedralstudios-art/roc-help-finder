@@ -1,0 +1,78 @@
+{
+  "digits": "5852715355",
+  "kind": "phone",
+  "primaryName": "Brighton Food Cupboard (JFS)",
+  "rawValue": "585-271-5355",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonfood",
+      "name": "Brighton Food Cupboard (JFS)",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T06-05-37-526Z_d1d74146-734b-c7de-3c6d-a1fe205816bc",
+    "meta": {
+      "callId": "d1d74146-734b-c7de-3c6d-a1fe205816bc",
+      "digits": "5852715355",
+      "dialedNumber": "5852715355",
+      "catalogedName": "Brighton Food Cupboard (JFS)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:05:37.526Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.222Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.75,
+      "extracted": "Brighton Food Cupboard",
+      "reason": "jaccard 0.75"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.431Z",
+  "lastSeededAt": "2026-05-03T19:44:16.431Z",
+  "verifiedAt": "2026-05-03T20:21:01.697Z",
+  "verifiedRun": "2026-05-02T06-05-37-526Z_d1d74146-734b-c7de-3c6d-a1fe205816bc",
+  "verifiedTranscriptOpening": "Thank you for calling the Brighton Food Cupboard. We serve zip codes 14607, 14607, 14607, 14607, 14607, 14607, 14607, 14607, 14607, 14607, 14607.",
+  "verifiedMatchTokens": [
+    "brighton",
+    "food",
+    "cupboard"
+  ],
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:13:08.945Z",
+      "sourceUrl": "https://jfsrochester.org/brighton-food-cupboard/",
+      "sourceLabel": "JFS Rochester Brighton Food Cupboard page",
+      "notes": "Direct match: web confirms (585) 271-5355 AND tree dialer transcript says \"Brighton Food Cupboard\"."
+    }
+  ]
+}

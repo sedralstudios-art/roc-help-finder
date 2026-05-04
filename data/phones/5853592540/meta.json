@@ -1,0 +1,69 @@
+{
+  "digits": "5853592540",
+  "kind": "phone",
+  "primaryName": "Henrietta Recreation Center",
+  "rawValue": "585-359-2540",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "henriettarec",
+      "name": "Henrietta Recreation Center",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-59-46-375Z_c11ab61a-4227-f303-436b-f2afb821158a",
+    "meta": {
+      "callId": "c11ab61a-4227-f303-436b-f2afb821158a",
+      "digits": "5853592540",
+      "dialedNumber": "5853592540",
+      "catalogedName": "Henrietta Recreation Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:59:46.375Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.338Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.6666666666666666,
+      "extracted": "Henrietta Parks and Recreation Department",
+      "reason": "jaccard 0.67"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.446Z",
+  "lastSeededAt": "2026-05-03T19:44:16.446Z",
+  "verifiedAt": "2026-05-03T20:21:01.724Z",
+  "verifiedRun": "2026-05-02T06-59-46-375Z_c11ab61a-4227-f303-436b-f2afb821158a",
+  "verifiedTranscriptOpening": "You have reached the Henrietta Parks and Recreation Department. If you are calling for weather-related cancellations, please hang up and dial 234-1042. For the Henrietta Senior Center, please press 6.",
+  "verifiedMatchTokens": [
+    "henrietta",
+    "recreation"
+  ],
+  "verifiedRatio": 1
+}

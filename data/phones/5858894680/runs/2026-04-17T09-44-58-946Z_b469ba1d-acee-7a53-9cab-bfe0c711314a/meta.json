@@ -1,0 +1,24 @@
+{
+  "callId": "b469ba1d-acee-7a53-9cab-bfe0c711314a",
+  "digits": "5858894680",
+  "dialedNumber": "(585) 889-4680",
+  "catalogedName": "Chili Recreation",
+  "sourceId": "chilirec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:44:58.946Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.024Z"
+  }
+}

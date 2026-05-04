@@ -24,7 +24,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
   },
 
   whatItMeans: {
-    en: "A fair hearing is a state-level appeal set up by NY Social Services Law § 22. When the local social services district denies an application, takes too long to decide, reduces a grant, or cuts off benefits, the applicant or recipient can appeal to the NY Office of Temporary and Disability Assistance (OTDA). The hearing is run by an OTDA officer, not by the local district that made the decision, so the decision-maker has no prior involvement with the case. The statute lists the grounds that always support an appeal: a denied application, no decision within 30 days of filing (45 days for home relief), payment in the wrong amount or wrong manner, and any reduction or termination of assistance. Certain child-welfare service issues and adoption-assistance decisions can also be appealed. Deadlines vary by program. The general rule is 60 days after the date of the action or the failure to act. SNAP applicants get a longer 90-day window on any food stamp action, including a denied request to restore benefits lost within the prior year. SNAP recipients can also request a hearing at any point during the certification period to challenge the current benefit amount. Aid continuing is a key procedural right. When a recipient files the hearing request before the effective date of a notice that reduces or cuts off benefits, the benefits continue at the current level until the hearing decision issues. The statute specifically recognizes continued-pending-decision benefits and limits when a court can stay a favorable decision. Most hearings are conducted by phone, though either side can ask for an in-person hearing. The recipient can be represented by a lawyer, a relative, a friend, or anyone else — or can appear alone. Before an appeal, the agency must give written notice that explains the right to appeal, how to request a hearing, the right to representation, and the availability of free community legal services. The agency must also pay for legal services in specific situations where federal law requires it, such as some Medicaid appeals. After the hearing, the state commissioner issues a written decision. The local district must follow it. Any party unhappy with the final decision can seek judicial review through an Article 78 proceeding in state Supreme Court within four months. Unemployment insurance appeals are separate — those go to the NY Department of Labor Unemployment Insurance Appeal Board, not to OTDA. Child support, family court, criminal, and housing-court matters are also not fair hearings. A fair hearing request should name the specific notice being appealed. The OTDA online form at otda.ny.gov/hearings/request accepts an upload of the notice. Phone requests to the OTDA line at (800) 342-3334 are logged by date and time, which establishes the request was timely even if paperwork follows. Legal Aid Society of Rochester, LawNY, and Empire Justice Center represent low-income Monroe County households at fair hearings for free."
+    en: "A fair hearing is a state-level appeal set up by NY Social Services Law § 22. When the local social services district denies an application, takes too long to decide, reduces a grant, or cuts off benefits, the applicant or recipient can appeal to the NY Office of Temporary and Disability Assistance (OTDA). The hearing is run by an OTDA officer, not by the local district that made the decision, so the decision-maker has no prior involvement with the case. The statute lists the grounds that always support an appeal: a denied application, no decision within 30 days of filing (45 days for home relief), payment in the wrong amount or wrong manner, and any reduction or termination of assistance. Certain child-welfare service issues and adoption-assistance decisions can also be appealed. Deadlines vary by program. The general rule is 60 days after the date of the action or the failure to act. SNAP applicants get a longer 90-day window on any food stamp action, including a denied request to restore benefits lost within the prior year. SNAP recipients can also request a hearing at any point during the certification period to challenge the current benefit amount. Aid continuing is a key procedural right. When a recipient files the hearing request before the effective date of a notice that reduces or cuts off benefits, the benefits continue at the current level until the hearing decision issues. The statute specifically recognizes continued-pending-decision benefits and limits when a court can stay a favorable decision. Most hearings are conducted by phone, though either side can ask for an in-person hearing. The recipient can be represented by a lawyer, a relative, a friend, or anyone else — or can appear alone. Before an appeal, the agency must give written notice that explains the right to appeal, how to request a hearing, the right to representation, and the availability of free community legal services. The agency must also pay for legal services in specific situations where federal law requires it, such as some Medicaid appeals. After the hearing, the state commissioner issues a written decision. The local district must follow it. Any party unhappy with the final decision can seek judicial review through an Article 78 proceeding in state Supreme Court within four months. Unemployment insurance appeals are separate — those go to the NY Department of Labor Unemployment Insurance Appeal Board, not to OTDA. Child support, family court, criminal, and housing-court matters are also not fair hearings. A fair hearing request should name the specific notice being appealed. The OTDA online form at otda.ny.gov/hearings/request accepts an upload of the notice. Phone requests to the OTDA line at [number being verified] are logged by date and time, which establishes the request was timely even if paperwork follows. Legal Aid Society of Rochester, LawNY, and Empire Justice Center represent low-income Monroe County households at fair hearings for free."
   },
 
   yourRights: {
@@ -63,7 +63,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
       qualifier: "Any applicant or recipient of NY benefits under Social Services Law § 22",
       access: "Phone, online form, mail, fax",
       outcome: "Fair hearing scheduled and decision issued",
-      phone: "(800) 342-3334",
+      phone: "",
       url: "https://otda.ny.gov/hearings/",
       verified: true,
       bilingual: true,
@@ -76,7 +76,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
       qualifier: "Low-income Monroe County resident",
       access: "Phone intake",
       outcome: "Free representation at fair hearings",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
@@ -89,7 +89,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
       qualifier: "Low-income resident in 14 Western NY counties including Monroe",
       access: "Phone intake",
       outcome: "Free representation",
-      phone: "(585) 325-2520",
+      phone: "",
       url: "https://www.lawny.org",
       verified: true,
       bilingual: false,

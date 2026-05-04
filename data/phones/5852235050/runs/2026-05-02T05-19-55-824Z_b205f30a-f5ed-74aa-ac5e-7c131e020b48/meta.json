@@ -1,0 +1,24 @@
+{
+  "callId": "b205f30a-f5ed-74aa-ac5e-7c131e020b48",
+  "digits": "5852235050",
+  "dialedNumber": "5852235050",
+  "catalogedName": "Perinton Community Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T05:19:55.824Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.120Z"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "digits": "5852653770",
+  "kind": "phone",
+  "primaryName": "Webster Village Hall",
+  "rawValue": "585-265-3770",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "webstervillageclerk",
+      "name": "Webster Village Hall",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 3,
+  "mostRecent": {
+    "run": "2026-05-02T05-59-19-186Z_981092d7-c937-0ab4-7b22-b406619f0ff7",
+    "meta": {
+      "callId": "981092d7-c937-0ab4-7b22-b406619f0ff7",
+      "digits": "5852653770",
+      "dialedNumber": "5852653770",
+      "catalogedName": "Webster Village Hall",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:59:19.186Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.209Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 0.5,
+      "extracted": "Village of Webster Government Office",
+      "reason": "jaccard 0.50"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.456Z",
+  "lastSeededAt": "2026-05-03T19:44:16.456Z",
+  "verifiedAt": "2026-05-03T20:21:01.694Z",
+  "verifiedRun": "2026-05-02T05-59-19-186Z_981092d7-c937-0ab4-7b22-b406619f0ff7",
+  "verifiedTranscriptOpening": "Thank you for calling the Village of Webster Government Office. Our office is currently closed. Please listen to the following prompts for assistance. If you require immediate assistance from an on-ca",
+  "verifiedMatchTokens": [
+    "webster",
+    "village"
+  ],
+  "verifiedRatio": 0.6666666666666666
+}

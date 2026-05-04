@@ -1,0 +1,24 @@
+{
+  "callId": "c140ec67-1be6-1270-b0c6-468cca4ba4bc",
+  "digits": "5854257410",
+  "dialedNumber": "(585) 425-7410",
+  "catalogedName": "Perinton Food Shelf",
+  "sourceId": "perintonfood",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:17:55.898Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.831Z"
+  }
+}

@@ -62,7 +62,7 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
       qualifier: "Any U.S. resident",
       access: "Phone at (855) 411-2372, file complaints online",
       outcome: "Investigation, enforcement, complaint resolution",
-      phone: "(855) 411-2372",
+      phone: "",
       url: "https://www.consumerfinance.gov",
       verified: true,
       bilingual: true,

@@ -1,0 +1,61 @@
+{
+  "digits": "5184737665",
+  "kind": "phone",
+  "primaryName": "entry-callout:newborn-screening-ny",
+  "rawValue": "(518) 473-7665",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "newborn-screening-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-27-31-946Z_7f1e8515-da73-82e0-f407-be8a0510b6ea",
+    "meta": {
+      "callId": "7f1e8515-da73-82e0-f407-be8a0510b6ea",
+      "digits": "5184737665",
+      "dialedNumber": "(518) 473-7665",
+      "catalogedName": "newborn-screening-ny",
+      "sourceId": "legal-entry:newborn-screening-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "newborn-screening-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:27:31.946Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.953Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.533Z",
+  "lastSeededAt": "2026-05-03T19:44:16.533Z"
+}

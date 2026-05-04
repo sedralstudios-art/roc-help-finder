@@ -1,0 +1,150 @@
+{
+  "digits": "5857845250",
+  "kind": "phone",
+  "primaryName": "Brighton Building & Planning",
+  "rawValue": "585-784-5250",
+  "blockDial": false,
+  "tags": [
+    "cat:housing",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "brightonbuilding",
+      "name": "Brighton Building & Planning",
+      "category": "housing",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "deck-patio-permit-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-brighton-town",
+      "line": 14
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-brighton-town",
+      "line": 16
+    },
+    {
+      "type": "entry",
+      "id": "junk-vehicle-own-property-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "moving-truck-street-permit-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "nonprofit-raffle-bingo-rules-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-brighton-town",
+      "line": 60
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-brighton-town",
+      "line": 61
+    },
+    {
+      "type": "entry",
+      "id": "sewer-lateral-responsibility-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "tenant-rights-repairs-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-property-tax-exemption-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-18-43-945Z_e839a981-7aab-6112-a8e7-e42d8fa71025",
+    "meta": {
+      "callId": "e839a981-7aab-6112-a8e7-e42d8fa71025",
+      "digits": "5857845250",
+      "dialedNumber": "5857845250",
+      "catalogedName": "Brighton Building & Planning",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:18:43.945Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.637Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.75,
+      "score": 0.25,
+      "extracted": "Town of Brighton",
+      "reason": "jaccard 0.25"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.276Z",
+  "lastSeededAt": "2026-05-03T19:44:16.276Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T22:10:01.972Z",
+      "sourceUrl": "https://www.brightonny.gov/595/Building-and-Planning",
+      "sourceLabel": "Town of Brighton Building and Planning page",
+      "notes": "Web confirms (585) 784-5250 for Brighton Building & Planning. Apr 17 .amr-era audit had flagged this number as ringing to \"Meridian Centre Park\" but that was a known file-misalignment bug; trusting fresh web verification."
+    }
+  ]
+}

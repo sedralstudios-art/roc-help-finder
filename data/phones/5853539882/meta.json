@@ -1,0 +1,59 @@
+{
+  "digits": "5853539882",
+  "kind": "phone",
+  "primaryName": "Rochester Free Store",
+  "rawValue": "585-353-9882",
+  "blockDial": false,
+  "tags": [
+    "cat:clothing",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "freestore",
+      "name": "Rochester Free Store",
+      "category": "clothing",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-58-43-555Z_a55f5a8c-7428-089c-5bec-a78878af6bdc",
+    "meta": {
+      "callId": "a55f5a8c-7428-089c-5bec-a78878af6bdc",
+      "digits": "5853539882",
+      "dialedNumber": "5853539882",
+      "catalogedName": "Rochester Free Store",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:58:43.555Z",
+      "durationSec": 25,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.336Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.423Z",
+  "lastSeededAt": "2026-05-03T19:44:16.423Z"
+}

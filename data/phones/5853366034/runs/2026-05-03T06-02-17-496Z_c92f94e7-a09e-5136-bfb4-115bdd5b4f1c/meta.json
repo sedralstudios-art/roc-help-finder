@@ -1,0 +1,29 @@
+{
+  "callId": "c92f94e7-a09e-5136-bfb4-115bdd5b4f1c",
+  "digits": "5853366034",
+  "dialedNumber": "(585) 336-6034",
+  "catalogedName": "deer-damage-garden-ny",
+  "sourceId": "legal-entry:deer-damage-garden-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "deer-damage-garden-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:02:17.496Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.775Z"
+  }
+}

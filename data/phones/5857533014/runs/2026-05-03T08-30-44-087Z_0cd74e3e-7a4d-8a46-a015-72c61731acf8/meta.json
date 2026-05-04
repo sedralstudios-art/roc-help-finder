@@ -1,0 +1,33 @@
+{
+  "callId": "0cd74e3e-7a4d-8a46-a015-72c61731acf8",
+  "digits": "5857533014",
+  "dialedNumber": "(585) 753-3014",
+  "catalogedName": "concert-ticket-resale-rights-ny",
+  "sourceId": "legal-entry:concert-ticket-resale-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:30:44.087Z",
+  "durationSec": 16,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.604Z"
+  }
+}

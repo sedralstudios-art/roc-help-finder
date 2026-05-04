@@ -1,0 +1,59 @@
+{
+  "digits": "5854295360",
+  "kind": "phone",
+  "primaryName": "St. Theodore's Food Cupboard",
+  "rawValue": "585-429-5360",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "sttheodorefood",
+      "name": "St. Theodore's Food Cupboard",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-35-45-974Z_b087db6b-602f-bf4c-8cce-febd96c7fddd",
+    "meta": {
+      "callId": "b087db6b-602f-bf4c-8cce-febd96c7fddd",
+      "digits": "5854295360",
+      "dialedNumber": "5854295360",
+      "catalogedName": "St. Theodore's Food Cupboard",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:35:45.974Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.417Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.441Z",
+  "lastSeededAt": "2026-05-03T19:44:16.441Z"
+}

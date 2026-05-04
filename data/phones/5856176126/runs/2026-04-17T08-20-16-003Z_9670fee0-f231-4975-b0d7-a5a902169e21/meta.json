@@ -1,0 +1,24 @@
+{
+  "callId": "9670fee0-f231-4975-b0d7-a5a902169e21",
+  "digits": "5856176126",
+  "dialedNumber": "(585) 617-6126",
+  "catalogedName": "Ogden Senior Center",
+  "sourceId": "ogdensenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:20:16.003Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.904Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "9977e7f4-3f93-3da7-e4fe-429c5fcd1645",
+  "digits": "5853344030",
+  "dialedNumber": "(585) 334-4030",
+  "catalogedName": "Henrietta Senior Center",
+  "sourceId": "henriettasenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:39:44.468Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.655Z"
+  }
+}

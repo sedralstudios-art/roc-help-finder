@@ -60,7 +60,7 @@ export const PET_LICENSING_DOG_LICENSE_NY = {
       qualifier: "Rochester city residents",
       access: "30 Church St Room 223A, or online at cityofrochester.gov",
       outcome: "Dog license issued or renewed",
-      phone: "(585) 428-7043",
+      phone: "",
       url: "https://www.cityofrochester.gov/doglicense/",
       verified: true,
       bilingual: false,

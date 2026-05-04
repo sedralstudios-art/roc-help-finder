@@ -60,7 +60,7 @@ export const BED_BUG_HOTEL_AIRBNB_NY = {
       qualifier: "Anyone with a health complaint about a Monroe County business",
       access: "Phone at (585) 753-5555",
       outcome: "Inspection, citation, enforcement",
-      phone: "(585) 753-5555",
+      phone: "",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

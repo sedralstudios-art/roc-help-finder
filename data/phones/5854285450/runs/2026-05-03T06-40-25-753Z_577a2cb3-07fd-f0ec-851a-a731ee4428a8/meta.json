@@ -1,0 +1,29 @@
+{
+  "callId": "577a2cb3-07fd-f0ec-851a-a731ee4428a8",
+  "digits": "5854285450",
+  "dialedNumber": "(585) 428-5450",
+  "catalogedName": "replevin-personal-property-recovery-ny",
+  "sourceId": "legal-entry:replevin-personal-property-recovery-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "replevin-personal-property-recovery-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:40:25.753Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.058Z"
+  }
+}

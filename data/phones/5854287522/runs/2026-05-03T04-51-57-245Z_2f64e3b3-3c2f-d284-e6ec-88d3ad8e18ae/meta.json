@@ -1,0 +1,41 @@
+{
+  "callId": "2f64e3b3-3c2f-d284-e6ec-88d3ad8e18ae",
+  "digits": "5854287522",
+  "dialedNumber": "(585) 428-7522",
+  "catalogedName": "landlord-interference-quiet-enjoyment-ny-cl",
+  "sourceId": "legal-entry:landlord-interference-quiet-enjoyment-ny-cl",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "landlord-interference-quiet-enjoyment-ny-cl"
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny"
+    },
+    {
+      "type": "entry",
+      "id": "pre-eviction-notice-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-eviction-lockout-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:51:57.245Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.459Z"
+  }
+}

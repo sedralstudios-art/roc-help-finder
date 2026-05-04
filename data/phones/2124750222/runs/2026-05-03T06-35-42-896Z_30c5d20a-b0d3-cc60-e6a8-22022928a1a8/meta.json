@@ -1,0 +1,29 @@
+{
+  "callId": "30c5d20a-b0d3-cc60-e6a8-22022928a1a8",
+  "digits": "2124750222",
+  "dialedNumber": "(212) 475-0222",
+  "catalogedName": "post-adoption-contact-agreement-ny",
+  "sourceId": "legal-entry:post-adoption-contact-agreement-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "post-adoption-contact-agreement-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:35:42.896Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.026Z"
+  }
+}

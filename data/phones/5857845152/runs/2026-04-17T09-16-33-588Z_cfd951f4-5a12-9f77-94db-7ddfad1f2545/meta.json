@@ -1,0 +1,24 @@
+{
+  "callId": "cfd951f4-5a12-9f77-94db-7ddfad1f2545",
+  "digits": "5857845152",
+  "dialedNumber": "(585) 784-5152",
+  "catalogedName": "Brighton Town Court",
+  "sourceId": "brightoncourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:16:33.588Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.981Z"
+  }
+}

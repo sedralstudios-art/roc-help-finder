@@ -1,0 +1,59 @@
+{
+  "digits": "5853369107",
+  "kind": "phone",
+  "primaryName": "Irondequoit Community Cupboard",
+  "rawValue": "585-336-9107",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "irondequoitcupboard",
+      "name": "Irondequoit Community Cupboard",
+      "category": "food",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-46-38-468Z_78caa555-e11d-0ba6-a634-69640a10249c",
+    "meta": {
+      "callId": "78caa555-e11d-0ba6-a634-69640a10249c",
+      "digits": "5853369107",
+      "dialedNumber": "5853369107",
+      "catalogedName": "Irondequoit Community Cupboard",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:46:38.468Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.311Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.449Z",
+  "lastSeededAt": "2026-05-03T19:44:16.449Z"
+}

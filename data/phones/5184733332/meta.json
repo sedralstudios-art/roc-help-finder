@@ -1,0 +1,40 @@
+{
+  "digits": "5184733332",
+  "kind": "phone",
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-12-45-995Z_036b59be-9286-a209-36f9-55c97954332e",
+    "meta": {
+      "callId": "036b59be-9286-a209-36f9-55c97954332e",
+      "digits": "5184733332",
+      "dialedNumber": "5184733332",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:12:45.995Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.103Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "ef9785c6-9392-2211-3fa7-62633f23ad21",
+  "digits": "5853348130",
+  "dialedNumber": "5853348130",
+  "catalogedName": "Venture Compassionate Ministries Food Pantry",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T06:40:02.185Z",
+  "durationSec": 17,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.296Z"
+  }
+}

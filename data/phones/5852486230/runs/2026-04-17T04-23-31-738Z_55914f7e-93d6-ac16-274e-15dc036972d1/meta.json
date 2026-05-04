@@ -1,0 +1,24 @@
+{
+  "callId": "55914f7e-93d6-ac16-274e-15dc036972d1",
+  "digits": "5852486230",
+  "dialedNumber": "(585) 248-6230",
+  "catalogedName": "Pittsford Assessor",
+  "sourceId": "pittsfordassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T04:23:31.738Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.554Z"
+  }
+}

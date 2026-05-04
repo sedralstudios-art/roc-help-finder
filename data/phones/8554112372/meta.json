@@ -1,0 +1,327 @@
+{
+  "digits": "8554112372",
+  "kind": "phone",
+  "primaryName": "HOTLINES.cfpb",
+  "rawValue": "855-411-2372",
+  "blockDial": false,
+  "tags": [
+    "entry-callout",
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOTLINES",
+      "slug": "cfpb",
+      "value": "855-411-2372",
+      "blockDial": false
+    },
+    {
+      "type": "entry",
+      "id": "card-act-credit-card-fees-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "concert-ticket-resale-rights-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "consumer-arbitration-clause-ny-cl",
+      "line": 74
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-fairness-act-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "consumer-credit-lawsuit-defense-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "consumer-debt-collector-licensing-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-minimum-purchase-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "credit-card-surcharge-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "debt-collection-harassment-ny",
+      "line": 79
+    },
+    {
+      "type": "entry",
+      "id": "debt-collector-calling-work-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "deceptive-business-practices-ny",
+      "line": 67
+    },
+    {
+      "type": "entry",
+      "id": "door-to-door-sales-cooling-off-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "equal-credit-opportunity-act-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "force-placed-homeowner-insurance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "free-annual-credit-report-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "high-cost-home-loan-banking-6-l-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "home-equity-line-credit-disclosure-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "identity-theft-response-steps-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "joint-account-creditor-levy-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "judgment-enforcement-cplr-52-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "medical-debt-credit-report-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "mortgage-servicer-rules-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "payday-loan-illegal-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "pmi-cancellation-homeowner-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "retail-installment-sales-act-ppl-402-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "shoplifting-civil-recovery-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "stop-payment-order-check-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "tila-mortgage-disclosures-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "unauthorized-charges-bank-ny",
+      "line": 63
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T02-49-58-061Z_a56b904e-e146-53b9-0924-a98502117043",
+    "meta": {
+      "callId": "a56b904e-e146-53b9-0924-a98502117043",
+      "digits": "8554112372",
+      "dialedNumber": "855-411-2372",
+      "catalogedName": "HOTLINES.cfpb",
+      "sourceId": "pole:HOTLINES.cfpb",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "HOTLINES.cfpb"
+        },
+        {
+          "type": "entry",
+          "id": "card-act-credit-card-fees-ny"
+        },
+        {
+          "type": "entry",
+          "id": "concert-ticket-resale-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "consumer-arbitration-clause-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "consumer-credit-fairness-act-ny"
+        },
+        {
+          "type": "entry",
+          "id": "consumer-credit-lawsuit-defense-ny"
+        },
+        {
+          "type": "entry",
+          "id": "consumer-debt-collector-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "credit-card-minimum-purchase-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "credit-card-surcharge-ny"
+        },
+        {
+          "type": "entry",
+          "id": "debt-collection-harassment-ny"
+        },
+        {
+          "type": "entry",
+          "id": "debt-collector-calling-work-ny"
+        },
+        {
+          "type": "entry",
+          "id": "deceptive-business-practices-ny"
+        },
+        {
+          "type": "entry",
+          "id": "door-to-door-sales-cooling-off-ny"
+        },
+        {
+          "type": "entry",
+          "id": "equal-credit-opportunity-act-ny"
+        },
+        {
+          "type": "entry",
+          "id": "force-placed-homeowner-insurance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "free-annual-credit-report-ny"
+        },
+        {
+          "type": "entry",
+          "id": "high-cost-home-loan-banking-6-l-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-equity-line-credit-disclosure-ny"
+        },
+        {
+          "type": "entry",
+          "id": "identity-theft-response-steps-ny"
+        },
+        {
+          "type": "entry",
+          "id": "joint-account-creditor-levy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "judgment-enforcement-cplr-52-ny"
+        },
+        {
+          "type": "entry",
+          "id": "medical-debt-credit-report-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mortgage-servicer-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "payday-loan-illegal-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pmi-cancellation-homeowner-ny"
+        },
+        {
+          "type": "entry",
+          "id": "retail-installment-sales-act-ppl-402-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shoplifting-civil-recovery-ny"
+        },
+        {
+          "type": "entry",
+          "id": "stop-payment-order-check-ny"
+        },
+        {
+          "type": "entry",
+          "id": "tila-mortgage-disclosures-ny"
+        },
+        {
+          "type": "entry",
+          "id": "unauthorized-charges-bank-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T02:49:58.061Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.878Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Consumer Financial Protection Bureau",
+      "reason": "transcript-stated name (Consumer Financial Protection Bureau) differs from catalogued (HOTLINES.cfpb)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.271Z",
+  "lastSeededAt": "2026-05-03T19:44:16.271Z"
+}

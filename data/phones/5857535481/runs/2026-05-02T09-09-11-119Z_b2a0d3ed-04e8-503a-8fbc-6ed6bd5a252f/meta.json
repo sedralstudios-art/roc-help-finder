@@ -1,0 +1,24 @@
+{
+  "callId": "b2a0d3ed-04e8-503a-8fbc-6ed6bd5a252f",
+  "digits": "5857535481",
+  "dialedNumber": "5857535481",
+  "catalogedName": "Monroe County Sexual Health Clinic",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T09:09:11.119Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.616Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "57f5954d-e868-a52f-bbf5-e28e0e5457d5",
+  "digits": "5854235800",
+  "dialedNumber": "5854235800",
+  "catalogedName": "Jordan Health Center",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:25:27.724Z",
+  "durationSec": 18,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.395Z"
+  }
+}

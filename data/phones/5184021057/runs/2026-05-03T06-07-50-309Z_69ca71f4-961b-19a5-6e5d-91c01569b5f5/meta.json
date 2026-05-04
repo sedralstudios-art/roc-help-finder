@@ -1,0 +1,29 @@
+{
+  "callId": "69ca71f4-961b-19a5-6e5d-91c01569b5f5",
+  "digits": "5184021057",
+  "dialedNumber": "(518) 402-1057",
+  "catalogedName": "emtala-emergency-room-stabilization-ny",
+  "sourceId": "legal-entry:emtala-emergency-room-stabilization-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "emtala-emergency-room-stabilization-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:07:50.309Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.817Z"
+  }
+}

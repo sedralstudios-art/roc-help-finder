@@ -1,0 +1,72 @@
+{
+  "digits": "3154225638",
+  "kind": "phone",
+  "primaryName": "entry-callout:background-check-rights-ny",
+  "rawValue": "(315) 422-5638",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "background-check-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "seal-your-record-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-16-08-126Z_4ed8eb7f-bdfd-38db-90a9-ef42c63cbf45",
+    "meta": {
+      "callId": "4ed8eb7f-bdfd-38db-90a9-ef42c63cbf45",
+      "digits": "3154225638",
+      "dialedNumber": "(315) 422-5638",
+      "catalogedName": "background-check-rights-ny",
+      "sourceId": "legal-entry:background-check-rights-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "background-check-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "seal-your-record-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:16:08.126Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.534Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Center for Community Alternatives Syracuse location",
+      "reason": "transcript-stated name (Center for Community Alternatives Syracuse location) differs from catalogued (background-check-rights-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.366Z",
+  "lastSeededAt": "2026-05-03T19:44:16.366Z"
+}

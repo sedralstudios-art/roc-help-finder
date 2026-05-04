@@ -1,0 +1,61 @@
+{
+  "digits": "8887660008",
+  "kind": "phone",
+  "primaryName": "entry-callout:lost-driver-license-replacement-ny",
+  "rawValue": "(888) 766-0008",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "lost-driver-license-replacement-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-21-17-550Z_c3e5ec8b-83e0-0af2-fb69-c1622f565f36",
+    "meta": {
+      "callId": "c3e5ec8b-83e0-0af2-fb69-c1622f565f36",
+      "digits": "8887660008",
+      "dialedNumber": "(888) 766-0008",
+      "catalogedName": "lost-driver-license-replacement-ny",
+      "sourceId": "legal-entry:lost-driver-license-replacement-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "lost-driver-license-replacement-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:21:17.550Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.909Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.522Z",
+  "lastSeededAt": "2026-05-03T19:44:16.522Z"
+}

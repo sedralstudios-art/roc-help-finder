@@ -1,0 +1,24 @@
+{
+  "callId": "7f9f7287-ea73-9e43-07cb-1bdd83476c9d",
+  "digits": "5853366020",
+  "dialedNumber": "(585) 336-6020",
+  "catalogedName": "Irondequoit Building Department",
+  "sourceId": "irondequoitbuilding",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:45:02.577Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.660Z"
+  }
+}

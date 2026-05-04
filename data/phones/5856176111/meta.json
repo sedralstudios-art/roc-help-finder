@@ -1,0 +1,59 @@
+{
+  "digits": "5856176111",
+  "kind": "phone",
+  "primaryName": "Ogden Town Clerk",
+  "rawValue": "585-617-6111",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ogdenclerk",
+      "name": "Ogden Town Clerk",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-21-42-275Z_19e409f6-a468-ada7-db17-acae5bc18941",
+    "meta": {
+      "callId": "19e409f6-a468-ada7-db17-acae5bc18941",
+      "digits": "5856176111",
+      "dialedNumber": "5856176111",
+      "catalogedName": "Ogden Town Clerk",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:21:42.275Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.517Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.450Z",
+  "lastSeededAt": "2026-05-03T19:44:16.450Z"
+}

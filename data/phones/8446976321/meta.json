@@ -1,0 +1,61 @@
+{
+  "digits": "8446976321",
+  "kind": "phone",
+  "primaryName": "entry-callout:long-term-care-insurance-ny",
+  "rawValue": "(844) 697-6321",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "long-term-care-insurance-ny",
+      "line": 46
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-21-00-883Z_8e664658-0a92-38f2-5a43-94a60b67459a",
+    "meta": {
+      "callId": "8e664658-0a92-38f2-5a43-94a60b67459a",
+      "digits": "8446976321",
+      "dialedNumber": "(844) 697-6321",
+      "catalogedName": "long-term-care-insurance-ny",
+      "sourceId": "legal-entry:long-term-care-insurance-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "long-term-care-insurance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:21:00.883Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.907Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.521Z",
+  "lastSeededAt": "2026-05-03T19:44:16.521Z"
+}

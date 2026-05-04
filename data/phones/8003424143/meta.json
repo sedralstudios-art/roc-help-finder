@@ -1,0 +1,70 @@
+{
+  "digits": "8003424143",
+  "kind": "phone",
+  "primaryName": "entry-callout:recreational-use-immunity-ny",
+  "rawValue": "(800) 342-4143",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "recreational-use-immunity-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-43-42-616Z_4e75a854-1ae8-c25e-7888-d97c4e88df83",
+    "meta": {
+      "callId": "4e75a854-1ae8-c25e-7888-d97c4e88df83",
+      "digits": "8003424143",
+      "dialedNumber": "(800) 342-4143",
+      "catalogedName": "recreational-use-immunity-ny",
+      "sourceId": "legal-entry:recreational-use-immunity-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "recreational-use-immunity-ny"
+        },
+        {
+          "type": "entry",
+          "id": "right-to-farm-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:43:42.616Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.644Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.406Z",
+  "lastSeededAt": "2026-05-03T19:44:16.406Z"
+}

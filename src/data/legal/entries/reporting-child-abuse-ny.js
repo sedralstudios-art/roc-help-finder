@@ -49,7 +49,7 @@ export const REPORTING_CHILD_ABUSE_NY = {
   },
 
   example: {
-    en: "A teacher in an RCSD school notices a student frequently coming to class with unexplained bruises and appearing fearful. As a mandated reporter, the teacher calls the SCR hotline at 1-800-342-3720 and provides the child's name, school, and observations. Monroe County CPS begins an investigation within 24 hours. A caseworker visits the home and interviews the child in a safe setting. Services are offered to the family, and the child's safety is monitored."
+    en: "A teacher in an RCSD school notices a student frequently coming to class with unexplained bruises and appearing fearful. As a mandated reporter, the teacher calls the SCR hotline at [number being verified] and provides the child's name, school, and observations. Monroe County CPS begins an investigation within 24 hours. A caseworker visits the home and interviews the child in a safe setting. Services are offered to the family, and the child's safety is monitored."
   },
 
   counsel: [
@@ -60,7 +60,7 @@ export const REPORTING_CHILD_ABUSE_NY = {
       qualifier: "Anyone — reports accepted 24/7",
       access: "Phone",
       outcome: "Report intake and transmission to local CPS",
-      phone: "1-800-342-3720",
+      phone: "",
       url: "https://ocfs.ny.gov/main/cps/",
       verified: true,
       bilingual: true,
@@ -73,7 +73,7 @@ export const REPORTING_CHILD_ABUSE_NY = {
       qualifier: "Low-income parents facing CPS proceedings",
       access: "Phone intake",
       outcome: "Direct representation or advice",
-      phone: "(585) 232-4090",
+      phone: "",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

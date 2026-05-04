@@ -1,0 +1,40 @@
+{
+  "digits": "5858896125",
+  "kind": "phone",
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T09-41-07-898Z_e73eb99c-7e7f-c245-a749-0e682e9beb4f",
+    "meta": {
+      "callId": "e73eb99c-7e7f-c245-a749-0e682e9beb4f",
+      "digits": "5858896125",
+      "dialedNumber": "5858896125",
+      "catalogedName": null,
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T09:41:07.898Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.686Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "replacedBy": null,
+  "replaces": null
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "9930edfa-5439-719c-26c7-a823bd6bd9e8",
+  "digits": "8003462211",
+  "dialedNumber": "(800) 346-2211",
+  "catalogedName": "wic-program-ny-program",
+  "sourceId": "legal-entry:wic-program-ny-program",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "wic-program-ny-program"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:54:51.150Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.158Z"
+  }
+}

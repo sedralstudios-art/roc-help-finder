@@ -1,0 +1,61 @@
+{
+  "digits": "2023663784",
+  "kind": "phone",
+  "primaryName": "entry-callout:drug-testing-work-ny",
+  "rawValue": "(202) 366-3784",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "drug-testing-work-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-03-32-376Z_95a93488-8043-31d0-e286-628f2e3a86f4",
+    "meta": {
+      "callId": "95a93488-8043-31d0-e286-628f2e3a86f4",
+      "digits": "2023663784",
+      "dialedNumber": "(202) 366-3784",
+      "catalogedName": "drug-testing-work-ny",
+      "sourceId": "legal-entry:drug-testing-work-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "drug-testing-work-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:03:32.376Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.784Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.489Z",
+  "lastSeededAt": "2026-05-03T19:44:16.489Z"
+}

@@ -1,0 +1,33 @@
+{
+  "callId": "8977a0d1-2ef4-551b-9f17-afee1b270ea0",
+  "digits": "8666978487",
+  "dialedNumber": "1-866-697-8487",
+  "catalogedName": "no-smoking-at-work-ny",
+  "sourceId": "legal-entry:no-smoking-at-work-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "no-smoking-at-work-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tobacco-retailer-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:42:02.777Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.633Z"
+  }
+}

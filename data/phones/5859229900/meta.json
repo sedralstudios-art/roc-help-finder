@@ -1,0 +1,24 @@
+{
+  "digits": "5859229900",
+  "kind": "phone",
+  "primaryName": "Unity Chemical Dependency Greece",
+  "tags": [
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "unitycd"
+    }
+  ],
+  "callsRecorded": 0,
+  "status": "active",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:33:43.688Z",
+      "sourceUrl": "https://www.rochesterregional.org/Locations/Unity-Hospital/Greece-Chemical-Dependency-Clinic",
+      "sourceLabel": "Rochester Regional Health Unity Chemical Dependency clinic page",
+      "notes": "Web confirms (585) 922-9900 for Unity Chemical Dependency (Long Pond Rd / Greece location)."
+    }
+  ]
+}

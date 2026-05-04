@@ -1,0 +1,87 @@
+{
+  "digits": "5857232425",
+  "kind": "phone",
+  "primaryName": "Greece Community & Senior Center",
+  "rawValue": "585-723-2425",
+  "blockDial": false,
+  "tags": [
+    "cat:seniorSvc",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "greecesenior",
+      "name": "Greece Community & Senior Center",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "sidewalk-repair-who-pays-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "snow-plow-damage-property-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "snow-removal-ordinance-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "street-light-out-report-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "trash-pickup-missed-complaint-ny",
+      "line": 43
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-55-35-049Z_ed0d9052-f643-3b78-ac67-23c5cda52970",
+    "meta": {
+      "callId": "ed0d9052-f643-3b78-ac67-23c5cda52970",
+      "digits": "5857232425",
+      "dialedNumber": "5857232425",
+      "catalogedName": "Greece Community & Senior Center",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:55:35.049Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.588Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0.16666666666666666,
+      "extracted": "Town of Greece Department of Parks and Recreation",
+      "reason": "transcript-stated name (Town of Greece Department of Parks and Recreation) differs from catalogued (Greece Community & Senior Center)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.297Z",
+  "lastSeededAt": "2026-05-03T19:44:16.297Z"
+}

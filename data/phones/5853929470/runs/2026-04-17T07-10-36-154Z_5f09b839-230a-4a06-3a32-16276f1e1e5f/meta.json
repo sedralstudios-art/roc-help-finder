@@ -1,0 +1,24 @@
+{
+  "callId": "5f09b839-230a-4a06-3a32-16276f1e1e5f",
+  "digits": "5853929470",
+  "dialedNumber": "(585) 392-9470",
+  "catalogedName": "Parma Town Court",
+  "sourceId": "parmacourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:10:36.154Z",
+  "durationSec": 29,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.824Z"
+  }
+}

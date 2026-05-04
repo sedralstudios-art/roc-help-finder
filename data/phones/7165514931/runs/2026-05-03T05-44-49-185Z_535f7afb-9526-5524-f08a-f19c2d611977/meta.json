@@ -1,0 +1,33 @@
+{
+  "callId": "535f7afb-9526-5524-f08a-f19c2d611977",
+  "digits": "7165514931",
+  "dialedNumber": "(716) 551-4931",
+  "catalogedName": "social-media-fired-ny",
+  "sourceId": "legal-entry:social-media-fired-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "social-media-fired-ny"
+    },
+    {
+      "type": "entry",
+      "id": "union-basics-organizing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:44:49.185Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.651Z"
+  }
+}

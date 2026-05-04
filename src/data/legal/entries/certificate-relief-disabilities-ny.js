@@ -59,7 +59,7 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
       qualifier: "People with criminal records in the Rochester area",
       access: "Phone or in person",
       outcome: "Legal assistance with certificate applications",
-      phone: "(585) 328-8230",
+      phone: "",
       url: "https://www.communityalternatives.org",
       verified: true,
       bilingual: false,

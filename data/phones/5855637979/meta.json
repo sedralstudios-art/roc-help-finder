@@ -1,0 +1,61 @@
+{
+  "digits": "5855637979",
+  "kind": "phone",
+  "primaryName": "American Legion Post 1151 (+ local DAV office)",
+  "rawValue": "585-563-7979",
+  "blockDial": false,
+  "tags": [
+    "cat:veteranSvc",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "alpost1151",
+      "name": "American Legion Post 1151 (+ local DAV office)",
+      "category": "veteranSvc",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-13-19-963Z_4f850b99-80a0-5359-7f98-84e813a1227c",
+    "meta": {
+      "callId": "4f850b99-80a0-5359-7f98-84e813a1227c",
+      "digits": "5855637979",
+      "dialedNumber": "5855637979",
+      "catalogedName": "American Legion Post 1151 (+ local DAV office)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:13:19.963Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.498Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Most and Leone Medicare Advisors",
+      "reason": "transcript-stated name (Most and Leone Medicare Advisors) differs from catalogued (American Legion Post 1151 (+ local DAV office))"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.422Z",
+  "lastSeededAt": "2026-05-03T19:44:16.422Z"
+}

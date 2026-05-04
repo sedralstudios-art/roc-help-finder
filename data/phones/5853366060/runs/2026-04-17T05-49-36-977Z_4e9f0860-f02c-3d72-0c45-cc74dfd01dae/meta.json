@@ -1,0 +1,24 @@
+{
+  "callId": "4e9f0860-f02c-3d72-0c45-cc74dfd01dae",
+  "digits": "5853366060",
+  "dialedNumber": "(585) 336-6060",
+  "catalogedName": "Irondequoit Public Library",
+  "sourceId": "irondequoitlib",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:49:36.977Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.667Z"
+  }
+}

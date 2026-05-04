@@ -1,0 +1,70 @@
+{
+  "digits": "5852476446",
+  "kind": "phone",
+  "primaryName": "Gates Public Library",
+  "rawValue": "585-247-6446",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "gateslib",
+      "name": "Gates Public Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T05-40-44-087Z_8163e328-a21f-b0d7-ebf0-76eeee75f09d",
+    "meta": {
+      "callId": "8163e328-a21f-b0d7-ebf0-76eeee75f09d",
+      "digits": "5852476446",
+      "dialedNumber": "5852476446",
+      "catalogedName": "Gates Public Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:40:44.087Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.167Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.99,
+      "score": 1,
+      "extracted": "Gates Public Library",
+      "reason": "jaccard 1.00"
+    }
+  },
+  "status": "verified-by-dialer",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.441Z",
+  "lastSeededAt": "2026-05-03T19:44:16.441Z",
+  "verifiedAt": "2026-05-03T20:21:01.685Z",
+  "verifiedRun": "2026-05-02T05-40-44-087Z_8163e328-a21f-b0d7-ebf0-76eeee75f09d",
+  "verifiedTranscriptOpening": "You have reached the Gates Public Library. The library is now closed. Regular library hours are Monday through Thursday from 9 a.m. to 8 p.m., Friday from 9 a.m. to 6 p.m., and Saturday from 9 a.m. to",
+  "verifiedMatchTokens": [
+    "gates",
+    "public",
+    "library"
+  ],
+  "verifiedRatio": 1
+}

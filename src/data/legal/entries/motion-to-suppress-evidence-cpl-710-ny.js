@@ -44,7 +44,7 @@ export const MOTION_TO_SUPPRESS_EVIDENCE_CPL_710_NY = {
   legalOptions: {
     en: [
       "Monroe County Public Defender at (585) 753-4300 — free representation including suppression motion practice.",
-      "Monroe County Assigned Counsel at (585) 428-5425 — appointed private counsel for indigent defendants.",
+      "Monroe County Assigned Counsel at (585) 753-3430 — appointed private counsel for indigent defendants.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — private criminal defense attorneys with suppression experience.",
       "NYCLU Criminal Justice at (212) 607-3300 — civil rights and Fourth Amendment advocacy.",
       "NYS Division of Criminal Justice Services at (518) 485-7644 — police practices data and training.",
@@ -65,7 +65,7 @@ export const MOTION_TO_SUPPRESS_EVIDENCE_CPL_710_NY = {
       qualifier: "Indigent Monroe County defendants",
       access: "Assigned at arraignment or phone (585) 753-4300",
       outcome: "Full representation with pretrial suppression motions",
-      phone: "(585) 753-4300",
+      phone: "",
       url: "https://www.monroecounty.gov/publicdefender",
       verified: true,
       bilingual: true,
@@ -78,7 +78,7 @@ export const MOTION_TO_SUPPRESS_EVIDENCE_CPL_710_NY = {
       qualifier: "Any Monroe County defendant",
       access: "Phone at (585) 546-2130",
       outcome: "30-minute consultation, representation through suppression hearings and trial",
-      phone: "(585) 546-2130",
+      phone: "",
       url: "https://www.mcba.org",
       verified: true,
       bilingual: false,

@@ -1,0 +1,49 @@
+{
+  "callId": "32d7d9bd-e235-8c24-eb78-f307d32ec037",
+  "digits": "8664443272",
+  "dialedNumber": "(866) 444-3272",
+  "catalogedName": "aca-preventive-care-ny",
+  "sourceId": "legal-entry:aca-preventive-care-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "aca-preventive-care-ny"
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cobra-health-insurance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "erisa-pension-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "health-insurance-external-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "mental-health-parity-insurance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:48:49.864Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.136Z"
+  }
+}

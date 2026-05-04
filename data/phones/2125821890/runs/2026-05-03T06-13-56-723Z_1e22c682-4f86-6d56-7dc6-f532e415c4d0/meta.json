@@ -1,0 +1,29 @@
+{
+  "callId": "1e22c682-4f86-6d56-7dc6-f532e415c4d0",
+  "digits": "2125821890",
+  "dialedNumber": "(212) 582-1890",
+  "catalogedName": "home-care-aide-wage-parity-ny",
+  "sourceId": "legal-entry:home-care-aide-wage-parity-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "home-care-aide-wage-parity-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:13:56.723Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.860Z"
+  }
+}

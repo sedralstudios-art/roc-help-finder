@@ -1,0 +1,37 @@
+{
+  "callId": "b00fa3b9-8764-9a86-f4c9-25f9161a43fb",
+  "digits": "5184736735",
+  "dialedNumber": "(518) 473-6735",
+  "catalogedName": "benefits-denial-appeal-ny",
+  "sourceId": "legal-entry:benefits-denial-appeal-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "benefits-denial-appeal-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fair-hearing-request-walkthrough-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:08:30.351Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.498Z"
+  }
+}

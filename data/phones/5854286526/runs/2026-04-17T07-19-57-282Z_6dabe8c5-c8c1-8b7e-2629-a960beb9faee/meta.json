@@ -1,0 +1,24 @@
+{
+  "callId": "6dabe8c5-c8c1-8b7e-2629-a960beb9faee",
+  "digits": "5854286526",
+  "dialedNumber": "(585) 428-6526",
+  "catalogedName": "City of Rochester Building Permit Office",
+  "sourceId": "electrical-residential-ny-mon-rochester-city::City of Rochester Building Permit Office",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:19:57.282Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "pull_failed",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.834Z"
+  }
+}

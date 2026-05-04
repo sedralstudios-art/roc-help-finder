@@ -1,0 +1,73 @@
+{
+  "digits": "5856246150",
+  "kind": "phone",
+  "primaryName": "entry-callout:electrical-residential-ny-mon-honeoye-falls-village",
+  "rawValue": "(585) 624-6150",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "electrical-residential-ny-mon-honeoye-falls-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "hvac-residential-ny-mon-honeoye-falls-village",
+      "line": 18
+    },
+    {
+      "type": "entry",
+      "id": "plumbing-residential-ny-mon-honeoye-falls-village",
+      "line": 12
+    },
+    {
+      "type": "entry",
+      "id": "roofing-residential-ny-mon-honeoye-falls-village",
+      "line": 12
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-31-07-309Z_b66c694e-26c1-585b-d3ff-5429143aea69",
+    "meta": {
+      "callId": "b66c694e-26c1-585b-d3ff-5429143aea69",
+      "digits": "5856246150",
+      "dialedNumber": "5856246150",
+      "catalogedName": "entry-callout:electrical-residential-ny-mon-honeoye-falls-village",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:31:07.309Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.538Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.7222222222222222,
+      "score": 0.2222222222222222,
+      "extracted": "honey falls village office",
+      "reason": "jaccard 0.22"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.327Z",
+  "lastSeededAt": "2026-05-03T19:44:16.327Z"
+}

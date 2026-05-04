@@ -1,0 +1,37 @@
+{
+  "callId": "82c7152e-21c1-c3d4-7130-bf839337bed4",
+  "digits": "5854286907",
+  "dialedNumber": "585-428-6907",
+  "catalogedName": "Rochester Public Market + Double Up",
+  "sourceId": "market",
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "market"
+    },
+    {
+      "type": "entry",
+      "id": "cottage-food-selling-from-home-ny"
+    },
+    {
+      "type": "entry",
+      "id": "outdoor-dining-food-truck-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:01:46.954Z",
+  "durationSec": 6,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": "screenshot.png",
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.485Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "a93124d6-1de3-b2d0-4164-f65258b157b9",
+  "digits": "5853680744",
+  "dialedNumber": "(585) 368-0744",
+  "catalogedName": "Mission Share Outreach Center",
+  "sourceId": "missionshare",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:00:17.970Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.788Z"
+  }
+}

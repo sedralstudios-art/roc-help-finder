@@ -1,0 +1,29 @@
+{
+  "callId": "9032d390-8664-99c6-9a8a-89c897dcfb07",
+  "digits": "5184571255",
+  "dialedNumber": "(518) 457-1255",
+  "catalogedName": "asbestos-home-renovation-ny",
+  "sourceId": "legal-entry:asbestos-home-renovation-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "asbestos-home-renovation-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:51:28.566Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.695Z"
+  }
+}

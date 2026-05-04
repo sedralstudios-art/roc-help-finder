@@ -1,0 +1,41 @@
+{
+  "callId": "7b518124-869c-3898-a2b2-b1365d995a02",
+  "digits": "5184027600",
+  "dialedNumber": "(518) 402-7600",
+  "catalogedName": "federal-lead-paint-disclosure-ny",
+  "sourceId": "legal-entry:federal-lead-paint-disclosure-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "federal-lead-paint-disclosure-ny"
+    },
+    {
+      "type": "entry",
+      "id": "lead-paint-renovation-rule-ny"
+    },
+    {
+      "type": "entry",
+      "id": "restaurant-food-inspection-ny"
+    },
+    {
+      "type": "entry",
+      "id": "summer-camp-licensing-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:48:19.381Z",
+  "durationSec": 12,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.440Z"
+  }
+}

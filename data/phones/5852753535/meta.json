@@ -1,0 +1,63 @@
+{
+  "digits": "5852753535",
+  "kind": "phone",
+  "primaryName": "HOSPITALS.main",
+  "rawValue": "585-275-3535",
+  "blockDial": false,
+  "tags": [
+    "pole"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "HOSPITALS",
+      "slug": "main",
+      "value": "585-275-3535",
+      "blockDial": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T05-45-39-113Z_992e1ad8-4c3a-e159-97a5-89754c6e77d8",
+    "meta": {
+      "callId": "992e1ad8-4c3a-e159-97a5-89754c6e77d8",
+      "digits": "5852753535",
+      "dialedNumber": "585-275-3535",
+      "catalogedName": "HOSPITALS.main",
+      "sourceId": "pole:HOSPITALS.main",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "HOSPITALS.main"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T05:45:39.113Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.657Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.410Z",
+  "lastSeededAt": "2026-05-03T19:44:16.410Z"
+}

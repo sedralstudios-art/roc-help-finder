@@ -1,0 +1,171 @@
+{
+  "digits": "5854287033",
+  "kind": "phone",
+  "primaryName": "entry-callout:abandoned-vehicle-ny",
+  "rawValue": "(585) 428-7033",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "abandoned-vehicle-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "anti-hazing-law-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "contractor-fraud-ny",
+      "line": 42
+    },
+    {
+      "type": "entry",
+      "id": "harassment-cyberstalking-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "license-plate-reader-privacy-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "mail-theft-federal-crime-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "negligent-security-landlord-crime-ny-cl",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "noise-complaint-quiet-hours-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "pawn-shop-rights-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "pawnshops-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "stolen-vehicle-recovery-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "unauthorized-towing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-eviction-lockout-ny",
+      "line": 50
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-11-26-265Z_ca9732d8-1b88-d753-26c2-8c1fa036807f",
+    "meta": {
+      "callId": "ca9732d8-1b88-d753-26c2-8c1fa036807f",
+      "digits": "5854287033",
+      "dialedNumber": "(585) 428-7033",
+      "catalogedName": "abandoned-vehicle-ny",
+      "sourceId": "legal-entry:abandoned-vehicle-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "abandoned-vehicle-ny"
+        },
+        {
+          "type": "entry",
+          "id": "anti-hazing-law-ny"
+        },
+        {
+          "type": "entry",
+          "id": "contractor-fraud-ny"
+        },
+        {
+          "type": "entry",
+          "id": "harassment-cyberstalking-ny"
+        },
+        {
+          "type": "entry",
+          "id": "license-plate-reader-privacy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "mail-theft-federal-crime-ny"
+        },
+        {
+          "type": "entry",
+          "id": "negligent-security-landlord-crime-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "noise-complaint-quiet-hours-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pawn-shop-rights-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pawnshops-ny"
+        },
+        {
+          "type": "entry",
+          "id": "stolen-vehicle-recovery-ny"
+        },
+        {
+          "type": "entry",
+          "id": "unauthorized-towing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-eviction-lockout-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:11:26.265Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.953Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "office of the Chief of Police of the Rochester",
+      "reason": "transcript-stated name (office of the Chief of Police of the Rochester) differs from catalogued (abandoned-vehicle-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.279Z",
+  "lastSeededAt": "2026-05-03T19:44:16.279Z"
+}

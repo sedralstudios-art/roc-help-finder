@@ -58,7 +58,7 @@ export const GET_RAP_SHEET_NY = {
       qualifier: "Any person requesting their own record",
       access: "By mail",
       outcome: "Official criminal history record",
-      phone: "(518) 457-9847",
+      phone: "",
       url: "https://criminaljustice.ny.gov/ojis/recordreview.htm",
       verified: true,
       bilingual: false,

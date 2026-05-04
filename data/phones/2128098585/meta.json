@@ -1,0 +1,61 @@
+{
+  "digits": "2128098585",
+  "kind": "phone",
+  "primaryName": "entry-callout:sexual-orientation-discrimination-ny",
+  "rawValue": "(212) 809-8585",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "sexual-orientation-discrimination-ny",
+      "line": 26
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-45-25-302Z_94359f82-4666-2770-b584-52e34e45c806",
+    "meta": {
+      "callId": "94359f82-4666-2770-b584-52e34e45c806",
+      "digits": "2128098585",
+      "dialedNumber": "(212) 809-8585",
+      "catalogedName": "sexual-orientation-discrimination-ny",
+      "sourceId": "legal-entry:sexual-orientation-discrimination-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "sexual-orientation-discrimination-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:45:25.302Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.092Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.567Z",
+  "lastSeededAt": "2026-05-03T19:44:16.567Z"
+}

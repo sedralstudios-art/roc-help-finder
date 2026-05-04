@@ -1,0 +1,24 @@
+{
+  "callId": "6fa5977e-9d4c-faed-3483-13824d04daca",
+  "digits": "7163324170",
+  "dialedNumber": "7163324170",
+  "catalogedName": "Parent Network of WNY",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:02:55.096Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.732Z"
+  }
+}

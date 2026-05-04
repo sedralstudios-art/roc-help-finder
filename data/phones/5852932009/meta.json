@@ -1,0 +1,59 @@
+{
+  "digits": "5852932009",
+  "kind": "phone",
+  "primaryName": "Newman Riga Library",
+  "rawValue": "585-293-2009",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "newmanrigalib",
+      "name": "Newman Riga Library",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T06-15-45-012Z_68338eab-53d6-1d7f-269e-3aea49c6b656",
+    "meta": {
+      "callId": "68338eab-53d6-1d7f-269e-3aea49c6b656",
+      "digits": "5852932009",
+      "dialedNumber": "5852932009",
+      "catalogedName": "Newman Riga Library",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T06:15:45.012Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.245Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.437Z",
+  "lastSeededAt": "2026-05-03T19:44:16.437Z"
+}

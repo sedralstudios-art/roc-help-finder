@@ -49,7 +49,7 @@ export const CHARITABLE_SOLICITATION_REGISTRATION_NY = {
       "Council of Community Services of New York State at (518) 434-9194 — nonprofit capacity support.",
       "Rochester Area Community Foundation at (585) 271-4100 — local nonprofit sector support.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — nonprofit formation and compliance attorneys.",
-      "Community Law Center at (585) 434-5577 — free legal help for small Monroe County nonprofits."
+      "Monroe County Legal Assistance Center (LawNY) at (585) 325-2520 — free legal help for small Monroe County nonprofits."
     ]
   },
 
@@ -65,7 +65,7 @@ export const CHARITABLE_SOLICITATION_REGISTRATION_NY = {
       qualifier: "Any charity or donor",
       access: "Phone (212) 416-8401 or online at charitiesnys.com",
       outcome: "Registration guidance, compliance support, complaint investigation",
-      phone: "(212) 416-8401",
+      phone: "",
       url: "https://www.charitiesnys.com",
       verified: true,
       bilingual: true,
@@ -76,9 +76,9 @@ export const CHARITABLE_SOLICITATION_REGISTRATION_NY = {
       name: "Community Law Center",
       focus: "Free legal help for small Monroe County nonprofits on formation and compliance",
       qualifier: "Small nonprofits (under 3 full-time staff, under $500k revenue) in Monroe County",
-      access: "Phone at (585) 434-5577",
+      access: "Phone at (585) 325-2520",
       outcome: "Formation, registration, governance, and bylaws assistance",
-      phone: "(585) 434-5577",
+      phone: "",
       url: "https://www.pathstone.org/community-law-center",
       verified: true,
       bilingual: true,

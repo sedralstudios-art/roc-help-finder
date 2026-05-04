@@ -1,0 +1,24 @@
+{
+  "callId": "39249435-c6b3-dce5-b2a0-4c75a10ccc59",
+  "digits": "5858891284",
+  "dialedNumber": "(585) 889-1284",
+  "catalogedName": "Wheatland Senior Center",
+  "sourceId": "wheatlandsenior",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:34:49.791Z",
+  "durationSec": 30,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.008Z"
+  }
+}

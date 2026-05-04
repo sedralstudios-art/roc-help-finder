@@ -1,0 +1,88 @@
+{
+  "digits": "5854287522",
+  "kind": "phone",
+  "primaryName": "entry-callout:landlord-interference-quiet-enjoyment-ny-cl",
+  "rawValue": "(585) 428-7522",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "landlord-interference-quiet-enjoyment-ny-cl",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "late-rent-fee-cap-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "pre-eviction-notice-rules-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "wrongful-eviction-lockout-ny",
+      "line": 28
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T04-51-57-245Z_2f64e3b3-3c2f-d284-e6ec-88d3ad8e18ae",
+    "meta": {
+      "callId": "2f64e3b3-3c2f-d284-e6ec-88d3ad8e18ae",
+      "digits": "5854287522",
+      "dialedNumber": "(585) 428-7522",
+      "catalogedName": "landlord-interference-quiet-enjoyment-ny-cl",
+      "sourceId": "legal-entry:landlord-interference-quiet-enjoyment-ny-cl",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "landlord-interference-quiet-enjoyment-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "late-rent-fee-cap-ny"
+        },
+        {
+          "type": "entry",
+          "id": "pre-eviction-notice-rules-ny"
+        },
+        {
+          "type": "entry",
+          "id": "wrongful-eviction-lockout-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T04:51:57.245Z",
+      "durationSec": 7,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.459Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.329Z",
+  "lastSeededAt": "2026-05-03T19:44:16.329Z"
+}

@@ -1,0 +1,349 @@
+{
+  "digits": "5852448400",
+  "kind": "phone",
+  "primaryName": "Lifespan (Senior Advocacy)",
+  "rawValue": "585-244-8400",
+  "blockDial": false,
+  "tags": [
+    "cat:caregiver",
+    "cat:seniorSvc",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "seniorHEAPViaLifespan",
+      "value": "585-244-8400",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "life",
+      "name": "Lifespan (Senior Advocacy)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "safejrny",
+      "name": "Safe Journey (Elder Abuse)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "hiicap",
+      "name": "HIICAP (Free Medicare Counseling)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "ramp",
+      "name": "Eldersource (Home Modifications)",
+      "category": "seniorSvc",
+      "hidden": false
+    },
+    {
+      "type": "program",
+      "id": "lifespancare",
+      "name": "Lifespan Caregiver Resource Center",
+      "category": "caregiver",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "adult-home-resident-rights-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "adult-protective-services-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "assisted-living-complaint-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "beneficiary-designation-trumps-will-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "caregiver-rights-family-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "cemetery-perpetual-care-trust-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "common-law-marriage-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "contest-will-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "disabled-homeowner-property-tax-exemption-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "disclaim-inheritance-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "diy-will-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "elder-abuse-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "epic-prescription-seniors-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "estate-administrator-commissions-scpa-2307-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "family-health-care-decisions-act-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "grandparent-scam-phone-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "guardianship-article81-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "hospital-discharge-rights-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "joint-tenancy-tenancy-in-common-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "living-will-advance-directive-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "long-term-care-ombudsman-ny",
+      "line": 28
+    },
+    {
+      "type": "entry",
+      "id": "meals-on-wheels-senior-nutrition-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-estate-recovery-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-hcbs-waiver-ny",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "medicaid-home-care-ny",
+      "line": 73
+    },
+    {
+      "type": "entry",
+      "id": "medical-power-of-attorney-disputes-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "medicare-late-enrollment-penalty-ny",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "medicare-vs-medicaid-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "mltc-managed-long-term-care-ny-program",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-bed-hold-readmission-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-complaint-neglect-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-medicaid-asset-protection-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "nursing-home-rights-ny",
+      "line": 25
+    },
+    {
+      "type": "entry",
+      "id": "ny-state-supplementation-program-ssp-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "nyslrs-public-pension-basics-ny",
+      "line": 55
+    },
+    {
+      "type": "entry",
+      "id": "pace-program-all-inclusive-care-elderly-ny-program",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "poa-healthcare-proxy-ny",
+      "line": 66
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-abuse-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-basics-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "power-of-attorney-financial-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "property-tax-sale-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "senior-congregate-meals-ny",
+      "line": 27
+    },
+    {
+      "type": "entry",
+      "id": "senior-disabled-early-lease-termination-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "senior-driver-license-renewal-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "senior-fraud-prevention-ny",
+      "line": 26
+    },
+    {
+      "type": "entry",
+      "id": "star-senior-exemption-ny",
+      "line": 65
+    },
+    {
+      "type": "entry",
+      "id": "transfer-on-death-deed-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "trust-accounting-scpa-2210-ny",
+      "line": 49
+    },
+    {
+      "type": "entry",
+      "id": "trust-vs-will-estate-planning-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "when-someone-dies-ny",
+      "line": 25
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T05-37-29-769Z_0d4261bc-c99c-d57e-d702-6a0adab63d64",
+    "meta": {
+      "callId": "0d4261bc-c99c-d57e-d702-6a0adab63d64",
+      "digits": "5852448400",
+      "dialedNumber": "5852448400",
+      "catalogedName": "Lifespan (Senior Advocacy)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T05:37:29.769Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.161Z"
+      }
+    },
+    "verdict": {
+      "bucket": "clean-match",
+      "confidence": 0.8333333333333333,
+      "score": 0.3333333333333333,
+      "extracted": "Lifespan",
+      "reason": "jaccard 0.33"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.267Z",
+  "lastSeededAt": "2026-05-03T19:44:16.267Z"
+}

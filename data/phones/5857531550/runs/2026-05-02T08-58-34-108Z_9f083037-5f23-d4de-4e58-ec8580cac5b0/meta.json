@@ -1,0 +1,24 @@
+{
+  "callId": "9f083037-5f23-d4de-4e58-ec8580cac5b0",
+  "digits": "5857531550",
+  "dialedNumber": "5857531550",
+  "catalogedName": "Monroe County Board of Elections",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T08:58:34.108Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.594Z"
+  }
+}

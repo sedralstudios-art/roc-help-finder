@@ -1,0 +1,85 @@
+{
+  "digits": "5856338690",
+  "kind": "phone",
+  "primaryName": "Hope Dealers BTC",
+  "rawValue": "585-633-8690",
+  "blockDial": false,
+  "tags": [
+    "cat:addiction",
+    "entry-callout",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "hopedealers",
+      "name": "Hope Dealers BTC",
+      "category": "addiction",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "drug-possession-basics-ny",
+      "line": 107
+    },
+    {
+      "type": "entry",
+      "id": "good-samaritan-law-ny",
+      "line": 103
+    },
+    {
+      "type": "entry",
+      "id": "narcan-access-ny",
+      "line": 45
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-33-01-120Z_8c1cad26-d767-8c0e-47c5-94fc14a91551",
+    "meta": {
+      "callId": "8c1cad26-d767-8c0e-47c5-94fc14a91551",
+      "digits": "5856338690",
+      "dialedNumber": "5856338690",
+      "catalogedName": "Hope Dealers BTC",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:33:01.120Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.542Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "HopeLine",
+      "reason": "transcript-stated name (HopeLine) differs from catalogued (Hope Dealers BTC)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.320Z",
+  "lastSeededAt": "2026-05-03T19:44:16.320Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-03T23:35:05.880Z",
+      "sourceUrl": "https://www.hopedealersbtc.com",
+      "sourceLabel": "Hope Dealers BTC official site",
+      "notes": "Web confirms 585-633-8690 for Hope Dealers BTC peer recovery outreach."
+    }
+  ]
+}

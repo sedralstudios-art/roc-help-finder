@@ -1,0 +1,29 @@
+{
+  "callId": "e759eacc-ac81-b273-83b9-8bb51d27d688",
+  "digits": "8664545110",
+  "dialedNumber": "866-454-5110",
+  "catalogedName": "diy-will-ny",
+  "sourceId": "legal-entry:diy-will-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "diy-will-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:02:42.439Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.778Z"
+  }
+}

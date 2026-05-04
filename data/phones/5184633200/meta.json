@@ -1,0 +1,153 @@
+{
+  "digits": "5184633200",
+  "kind": "phone",
+  "primaryName": "entry-callout:bulk-sale-notice-ny",
+  "rawValue": "(518) 463-3200",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "bulk-sale-notice-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "handwritten-will-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "military-divorce-benefits-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "non-solicitation-agreement-ny-cl",
+      "line": 51
+    },
+    {
+      "type": "entry",
+      "id": "pet-trust-ny",
+      "line": 48
+    },
+    {
+      "type": "entry",
+      "id": "real-estate-broker-commission-dispute-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "right-to-farm-ny",
+      "line": 53
+    },
+    {
+      "type": "entry",
+      "id": "shareholder-derivative-lawsuit-ny",
+      "line": 47
+    },
+    {
+      "type": "entry",
+      "id": "social-host-liability-ny",
+      "line": 52
+    },
+    {
+      "type": "entry",
+      "id": "special-needs-trust-ny",
+      "line": 50
+    },
+    {
+      "type": "entry",
+      "id": "surviving-spouse-elective-share-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-20-16-078Z_3d2aa8f5-8c8a-cef4-7c4c-bbc2243dbe29",
+    "meta": {
+      "callId": "3d2aa8f5-8c8a-cef4-7c4c-bbc2243dbe29",
+      "digits": "5184633200",
+      "dialedNumber": "(518) 463-3200",
+      "catalogedName": "bulk-sale-notice-ny",
+      "sourceId": "legal-entry:bulk-sale-notice-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "bulk-sale-notice-ny"
+        },
+        {
+          "type": "entry",
+          "id": "handwritten-will-ny"
+        },
+        {
+          "type": "entry",
+          "id": "military-divorce-benefits-ny"
+        },
+        {
+          "type": "entry",
+          "id": "non-solicitation-agreement-ny-cl"
+        },
+        {
+          "type": "entry",
+          "id": "pet-trust-ny"
+        },
+        {
+          "type": "entry",
+          "id": "real-estate-broker-commission-dispute-ny"
+        },
+        {
+          "type": "entry",
+          "id": "right-to-farm-ny"
+        },
+        {
+          "type": "entry",
+          "id": "shareholder-derivative-lawsuit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "social-host-liability-ny"
+        },
+        {
+          "type": "entry",
+          "id": "special-needs-trust-ny"
+        },
+        {
+          "type": "entry",
+          "id": "surviving-spouse-elective-share-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:20:16.078Z",
+      "durationSec": 25,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.999Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "New York State Bar Association",
+      "reason": "transcript-stated name (New York State Bar Association) differs from catalogued (bulk-sale-notice-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.282Z",
+  "lastSeededAt": "2026-05-03T19:44:16.282Z"
+}

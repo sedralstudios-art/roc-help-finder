@@ -57,7 +57,7 @@ export const DISABLED_PARKING_PERMIT_NY = {
       qualifier: "Rochester residents",
       access: "In person",
       outcome: "Permit issuance (often same-day)",
-      phone: "(585) 428-6617",
+      phone: "",
       url: "https://www.cityofrochester.gov/clerk/",
       verified: true,
       bilingual: false,

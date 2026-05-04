@@ -1,0 +1,61 @@
+{
+  "digits": "5184652492",
+  "kind": "phone",
+  "primaryName": "entry-callout:new-home-construction-warranty-ny",
+  "rawValue": "(518) 465-2492",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "new-home-construction-warranty-ny",
+      "line": 51
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T06-27-06-969Z_3642c515-d71b-3f37-fcef-59a9c3200398",
+    "meta": {
+      "callId": "3642c515-d71b-3f37-fcef-59a9c3200398",
+      "digits": "5184652492",
+      "dialedNumber": "(518) 465-2492",
+      "catalogedName": "new-home-construction-warranty-ny",
+      "sourceId": "legal-entry:new-home-construction-warranty-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "new-home-construction-warranty-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T06:27:06.969Z",
+      "durationSec": null,
+      "status": "error",
+      "reason": "phonelink-not-running",
+      "endedReason": null,
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": null,
+        "verdict": "verdict.json"
+      },
+      "quality": "unknown",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.949Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-content",
+      "confidence": 0.95,
+      "reason": "empty or too-short transcript"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.532Z",
+  "lastSeededAt": "2026-05-03T19:44:16.532Z"
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "43763fb3-b826-f67c-b7cd-4018a69e4650",
+  "digits": "5855814025",
+  "dialedNumber": "(585) 581-4025",
+  "catalogedName": "Greece Animal Services",
+  "sourceId": "greeceanimal",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T08:07:54.762Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_recording",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.890Z"
+  }
+}

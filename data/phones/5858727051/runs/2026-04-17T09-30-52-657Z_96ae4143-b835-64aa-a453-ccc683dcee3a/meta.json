@@ -1,0 +1,24 @@
+{
+  "callId": "96ae4143-b835-64aa-a453-ccc683dcee3a",
+  "digits": "5858727051",
+  "dialedNumber": "(585) 872-7051",
+  "catalogedName": "Webster Assessor",
+  "sourceId": "websterassessor",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:30:52.657Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.002Z"
+  }
+}

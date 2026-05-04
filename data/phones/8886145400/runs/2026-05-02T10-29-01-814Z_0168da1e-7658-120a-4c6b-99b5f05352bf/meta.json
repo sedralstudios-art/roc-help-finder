@@ -1,0 +1,24 @@
+{
+  "callId": "0168da1e-7658-120a-4c6b-99b5f05352bf",
+  "digits": "8886145400",
+  "dialedNumber": "8886145400",
+  "catalogedName": "Community Health Advocates (Medicaid Help)",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T10:29:01.814Z",
+  "durationSec": 26,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.794Z"
+  }
+}

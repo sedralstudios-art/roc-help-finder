@@ -1,0 +1,131 @@
+{
+  "digits": "5857536316",
+  "kind": "phone",
+  "primaryName": "Child Care Subsidy",
+  "rawValue": "585-753-6316",
+  "blockDial": false,
+  "tags": [
+    "cat:childcare",
+    "entry-callout",
+    "pole",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "pole",
+      "group": "MC",
+      "slug": "childCare",
+      "value": "585-753-6316",
+      "blockDial": false
+    },
+    {
+      "type": "program",
+      "id": "ccsub",
+      "name": "Child Care Subsidy",
+      "category": "childcare",
+      "hidden": false
+    },
+    {
+      "type": "entry",
+      "id": "child-care-licensing-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "child-dependent-care-credit-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "childcare-assistance-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "childcare-subsidy-ny",
+      "line": 41
+    },
+    {
+      "type": "entry",
+      "id": "daycare-complaint-licensing-ny",
+      "line": 44
+    },
+    {
+      "type": "entry",
+      "id": "monroe-county-dss-overview-ny-mon-program",
+      "line": 49
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-03T03-29-50-916Z_a4d4aab2-7c35-57d9-e61c-61560c3c68fb",
+    "meta": {
+      "callId": "a4d4aab2-7c35-57d9-e61c-61560c3c68fb",
+      "digits": "5857536316",
+      "dialedNumber": "585-753-6316",
+      "catalogedName": "Child Care Subsidy",
+      "sourceId": "ccsub",
+      "sourceOwners": [
+        {
+          "type": "pole",
+          "ref": "MC.childCare"
+        },
+        {
+          "type": "program",
+          "id": "ccsub"
+        },
+        {
+          "type": "entry",
+          "id": "child-care-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "child-dependent-care-credit-ny"
+        },
+        {
+          "type": "entry",
+          "id": "childcare-assistance-ny"
+        },
+        {
+          "type": "entry",
+          "id": "childcare-subsidy-ny"
+        },
+        {
+          "type": "entry",
+          "id": "daycare-complaint-licensing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "monroe-county-dss-overview-ny-mon-program"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T03:29:50.916Z",
+      "durationSec": 14,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": "screenshot.png",
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:26.037Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.286Z",
+  "lastSeededAt": "2026-05-03T19:44:16.286Z"
+}

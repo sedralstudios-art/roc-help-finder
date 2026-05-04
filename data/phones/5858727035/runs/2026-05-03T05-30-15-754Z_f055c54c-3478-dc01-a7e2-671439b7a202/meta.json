@@ -1,0 +1,33 @@
+{
+  "callId": "f055c54c-3478-dc01-a7e2-671439b7a202",
+  "digits": "5858727035",
+  "dialedNumber": "(585) 872-7035",
+  "catalogedName": "above-ground-pool-rules-ny",
+  "sourceId": "legal-entry:above-ground-pool-rules-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "above-ground-pool-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "backyard-chicken-laws-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T05:30:15.754Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.557Z"
+  }
+}

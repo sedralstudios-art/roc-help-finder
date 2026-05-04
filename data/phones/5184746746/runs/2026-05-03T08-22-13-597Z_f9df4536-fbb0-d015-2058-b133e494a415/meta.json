@@ -1,0 +1,33 @@
+{
+  "callId": "f9df4536-fbb0-d015-2058-b133e494a415",
+  "digits": "5184746746",
+  "dialedNumber": "(518) 474-6746",
+  "catalogedName": "carbon-monoxide-poisoning-liability-ny",
+  "sourceId": "legal-entry:carbon-monoxide-poisoning-liability-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "carbon-monoxide-poisoning-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "volunteer-firefighter-benefits-vfbl-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T08:22:13.597Z",
+  "durationSec": 24,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.561Z"
+  }
+}

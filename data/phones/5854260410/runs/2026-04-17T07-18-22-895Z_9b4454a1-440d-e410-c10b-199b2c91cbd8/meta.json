@@ -1,0 +1,24 @@
+{
+  "callId": "9b4454a1-440d-e410-c10b-199b2c91cbd8",
+  "digits": "5854260410",
+  "dialedNumber": "(585) 426-0410",
+  "catalogedName": "Gates Town Court",
+  "sourceId": "gatescourt",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T07:18:22.895Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.832Z"
+  }
+}

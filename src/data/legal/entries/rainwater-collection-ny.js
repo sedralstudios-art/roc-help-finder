@@ -59,7 +59,7 @@ export const RAINWATER_COLLECTION_NY = {
       qualifier: "Monroe County residents",
       access: "Phone at (585) 753-7380",
       outcome: "Free or low-cost rain barrels, guidance, conservation programs",
-      phone: "(585) 753-7380",
+      phone: "",
       url: "https://www.monroecountyswcd.org",
       verified: true,
       bilingual: false,

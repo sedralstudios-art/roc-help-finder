@@ -1,0 +1,24 @@
+{
+  "callId": "faad3820-0737-cd45-5059-d20625e3fd52",
+  "digits": "5852751550",
+  "dialedNumber": "(585) 275-1550",
+  "catalogedName": "Strong Recovery (URMC)",
+  "sourceId": "strongrec",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T05:14:47.718Z",
+  "durationSec": 31,
+  "status": "success",
+  "reason": null,
+  "endedReason": null,
+  "artifacts": {
+    "audio": "audio.amr",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "untrusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.624Z"
+  }
+}

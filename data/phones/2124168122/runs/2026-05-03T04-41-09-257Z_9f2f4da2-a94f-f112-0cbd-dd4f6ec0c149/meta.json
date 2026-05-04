@@ -1,0 +1,41 @@
+{
+  "callId": "9f2f4da2-a94f-f112-0cbd-dd4f6ec0c149",
+  "digits": "2124168122",
+  "dialedNumber": "(212) 416-8122",
+  "catalogedName": "co-op-condo-rights-ny",
+  "sourceId": "legal-entry:co-op-condo-rights-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "co-op-condo-rights-ny"
+    },
+    {
+      "type": "entry",
+      "id": "condo-coop-offering-plan-ny"
+    },
+    {
+      "type": "entry",
+      "id": "condo-unit-owner-insurance-ny"
+    },
+    {
+      "type": "entry",
+      "id": "cooperative-apartment-purchase-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:41:09.257Z",
+  "durationSec": 7,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.401Z"
+  }
+}

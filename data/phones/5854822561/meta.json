@@ -1,0 +1,59 @@
+{
+  "digits": "5854822561",
+  "kind": "phone",
+  "primaryName": "Owen's House (Crisis Nursery East)",
+  "rawValue": "585-482-2561",
+  "blockDial": false,
+  "tags": [
+    "cat:crisisChild",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "owenshouse",
+      "name": "Owen's House (Crisis Nursery East)",
+      "category": "crisisChild",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 1,
+  "mostRecent": {
+    "run": "2026-05-02T10-38-38-648Z_5fc7efd2-d76d-d0ca-2ef7-e0b7e45df823",
+    "meta": {
+      "callId": "5fc7efd2-d76d-d0ca-2ef7-e0b7e45df823",
+      "digits": "5854822561",
+      "dialedNumber": "5854822561",
+      "catalogedName": "Owen's House (Crisis Nursery East)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T10:38:38.648Z",
+      "durationSec": 18,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.818Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.426Z",
+  "lastSeededAt": "2026-05-03T19:44:16.426Z"
+}

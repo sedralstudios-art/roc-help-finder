@@ -1,0 +1,24 @@
+{
+  "callId": "feb94b70-84ab-904f-91b6-60caf35d7635",
+  "digits": "5854260410",
+  "dialedNumber": "5854260410",
+  "catalogedName": "Gates Town Court",
+  "sourceId": null,
+  "sourceOwners": [],
+  "dialIntentTs": "2026-05-02T07:27:34.874Z",
+  "durationSec": 25,
+  "status": "success",
+  "reason": null,
+  "endedReason": "max-duration",
+  "artifacts": {
+    "audio": "audio.wav",
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.399Z"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "callId": "4c7bd047-4e6f-8c03-f606-ad15ba97b03a",
+  "digits": "5857534942",
+  "dialedNumber": "(585) 753-4942",
+  "catalogedName": "WIC (Women, Infants & Children)",
+  "sourceId": "wic",
+  "sourceOwners": [],
+  "dialIntentTs": "2026-04-17T09:07:00.487Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "no_connect",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:24.967Z"
+  }
+}

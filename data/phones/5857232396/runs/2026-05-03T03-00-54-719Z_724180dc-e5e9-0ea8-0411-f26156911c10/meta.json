@@ -1,0 +1,89 @@
+{
+  "callId": "724180dc-e5e9-0ea8-0411-f26156911c10",
+  "digits": "5857232396",
+  "dialedNumber": "(585) 723-2396",
+  "catalogedName": "abandoned-house-next-door-ny",
+  "sourceId": "legal-entry:abandoned-house-next-door-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "abandoned-house-next-door-ny"
+    },
+    {
+      "type": "entry",
+      "id": "basketball-hoop-street-driveway-ny"
+    },
+    {
+      "type": "entry",
+      "id": "code-enforcement-complaint-ny"
+    },
+    {
+      "type": "entry",
+      "id": "dumpster-placement-permit-ny"
+    },
+    {
+      "type": "entry",
+      "id": "fence-height-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "gutter-downspout-drainage-ny"
+    },
+    {
+      "type": "entry",
+      "id": "home-business-zoning-ny"
+    },
+    {
+      "type": "entry",
+      "id": "hot-tub-spa-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "leaf-blower-noise-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "neighbor-construction-noise-hours-ny"
+    },
+    {
+      "type": "entry",
+      "id": "rv-parking-street-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "shed-permit-rules-ny"
+    },
+    {
+      "type": "entry",
+      "id": "sump-pump-discharge-ny"
+    },
+    {
+      "type": "entry",
+      "id": "suv-truck-parking-residential-ny"
+    },
+    {
+      "type": "entry",
+      "id": "swimming-pool-liability-ny"
+    },
+    {
+      "type": "entry",
+      "id": "tree-removal-permit-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T03:00:54.719Z",
+  "durationSec": 24,
+  "status": "success",
+  "reason": null,
+  "endedReason": "silence",
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": "transcript.txt",
+    "verdict": "verdict.json"
+  },
+  "quality": "trusted",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:25.926Z"
+  }
+}

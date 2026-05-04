@@ -1,0 +1,99 @@
+{
+  "digits": "5853255116",
+  "kind": "phone",
+  "primaryName": "entry-callout:ged-hse-programs-ny",
+  "rawValue": "(585) 325-5116",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ged-hse-programs-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "home-energy-audit-rebates-ny",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program",
+      "line": 45
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program",
+      "line": 43
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny",
+      "line": 42
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T07-05-05-957Z_1fb9a446-087c-17d6-28ff-d01108d62e3a",
+    "meta": {
+      "callId": "1fb9a446-087c-17d6-28ff-d01108d62e3a",
+      "digits": "5853255116",
+      "dialedNumber": "(585) 325-5116",
+      "catalogedName": "ged-hse-programs-ny",
+      "sourceId": "legal-entry:ged-hse-programs-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "ged-hse-programs-ny"
+        },
+        {
+          "type": "entry",
+          "id": "home-energy-audit-rebates-ny"
+        },
+        {
+          "type": "entry",
+          "id": "reentry-housing-voucher-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "summer-youth-employment-program-ny-program"
+        },
+        {
+          "type": "entry",
+          "id": "weatherization-assistance-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T07:05:05.957Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.202Z"
+      }
+    },
+    "verdict": {
+      "bucket": "drift-candidate",
+      "confidence": 0.7,
+      "score": 0,
+      "extracted": "Action for a Better Community",
+      "reason": "transcript-stated name (Action for a Better Community) differs from catalogued (ged-hse-programs-ny)"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.317Z",
+  "lastSeededAt": "2026-05-03T19:44:16.317Z"
+}

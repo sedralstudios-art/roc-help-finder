@@ -1,0 +1,59 @@
+{
+  "digits": "5854310090",
+  "kind": "phone",
+  "primaryName": "Sweden/Clarkson Recreation",
+  "rawValue": "585-431-0090",
+  "blockDial": false,
+  "tags": [
+    "cat:youth",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "swedenclarksonrec",
+      "name": "Sweden/Clarkson Recreation",
+      "category": "youth",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T07-42-25-675Z_5c971d13-1339-2608-2ba5-4be1d126503b",
+    "meta": {
+      "callId": "5c971d13-1339-2608-2ba5-4be1d126503b",
+      "digits": "5854310090",
+      "dialedNumber": "5854310090",
+      "catalogedName": "Sweden/Clarkson Recreation",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T07:42:25.675Z",
+      "durationSec": 17,
+      "status": "success",
+      "reason": null,
+      "endedReason": "silence",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.432Z"
+      }
+    },
+    "verdict": {
+      "bucket": "hallucination",
+      "confidence": 0.9,
+      "reason": "matches Whisper hallucination signature"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.433Z",
+  "lastSeededAt": "2026-05-03T19:44:16.433Z"
+}

@@ -1,0 +1,29 @@
+{
+  "callId": "d58196e6-6792-c213-9a4e-1afff0a57fe1",
+  "digits": "8776976427",
+  "dialedNumber": "(877) 697-6427",
+  "catalogedName": "utility-cost-history-truth-in-heating-ny",
+  "sourceId": "legal-entry:utility-cost-history-truth-in-heating-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "utility-cost-history-truth-in-heating-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T06:51:23.059Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "phonelink-not-running",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:27.135Z"
+  }
+}

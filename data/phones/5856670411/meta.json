@@ -1,0 +1,59 @@
+{
+  "digits": "5856670411",
+  "kind": "phone",
+  "primaryName": "Gathering Place Webster (Free Meals)",
+  "rawValue": "585-667-0411",
+  "blockDial": false,
+  "tags": [
+    "cat:food",
+    "program"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "webstercommmeals",
+      "name": "Gathering Place Webster (Free Meals)",
+      "category": "food",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-02T08-49-37-792Z_eeaff67d-0262-ae02-3c3f-77af2e38df01",
+    "meta": {
+      "callId": "eeaff67d-0262-ae02-3c3f-77af2e38df01",
+      "digits": "5856670411",
+      "dialedNumber": "5856670411",
+      "catalogedName": "Gathering Place Webster (Free Meals)",
+      "sourceId": null,
+      "sourceOwners": [],
+      "dialIntentTs": "2026-05-02T08:49:37.792Z",
+      "durationSec": 25,
+      "status": "no_audio",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": "audio.wav",
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:25.575Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.457Z",
+  "lastSeededAt": "2026-05-03T19:44:16.457Z"
+}

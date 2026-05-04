@@ -1,0 +1,70 @@
+{
+  "digits": "5852441135",
+  "kind": "phone",
+  "primaryName": "entry-callout:expungement-vs-sealing-ny",
+  "rawValue": "(585) 244-1135",
+  "blockDial": false,
+  "tags": [
+    "entry-callout"
+  ],
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "expungement-vs-sealing-ny",
+      "line": 46
+    },
+    {
+      "type": "entry",
+      "id": "fair-chance-act-ban-the-box-ny",
+      "line": 47
+    }
+  ],
+  "callsRecorded": 2,
+  "mostRecent": {
+    "run": "2026-05-03T08-45-41-333Z_08808db2-b29a-e786-0be9-7ad586cdfb9c",
+    "meta": {
+      "callId": "08808db2-b29a-e786-0be9-7ad586cdfb9c",
+      "digits": "5852441135",
+      "dialedNumber": "(585) 244-1135",
+      "catalogedName": "expungement-vs-sealing-ny",
+      "sourceId": "legal-entry:expungement-vs-sealing-ny",
+      "sourceOwners": [
+        {
+          "type": "entry",
+          "id": "expungement-vs-sealing-ny"
+        },
+        {
+          "type": "entry",
+          "id": "fair-chance-act-ban-the-box-ny"
+        }
+      ],
+      "dialIntentTs": "2026-05-03T08:45:41.333Z",
+      "durationSec": 26,
+      "status": "success",
+      "reason": null,
+      "endedReason": "max-duration",
+      "artifacts": {
+        "audio": null,
+        "screenshot": null,
+        "transcript": "transcript.txt",
+        "verdict": "verdict.json"
+      },
+      "quality": "trusted",
+      "migration": {
+        "sourceFile": "call-data/results.json",
+        "migratedAt": "2026-05-03T19:05:27.671Z"
+      }
+    },
+    "verdict": {
+      "bucket": "no-greeting",
+      "confidence": 0.8,
+      "reason": "no recognizable greeting pattern"
+    }
+  },
+  "status": "active",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-03T19:44:16.390Z",
+  "lastSeededAt": "2026-05-03T19:44:16.390Z"
+}

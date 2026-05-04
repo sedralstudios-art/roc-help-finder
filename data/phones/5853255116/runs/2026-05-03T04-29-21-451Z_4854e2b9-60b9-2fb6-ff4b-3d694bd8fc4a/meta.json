@@ -1,0 +1,45 @@
+{
+  "callId": "4854e2b9-60b9-2fb6-ff4b-3d694bd8fc4a",
+  "digits": "5853255116",
+  "dialedNumber": "(585) 325-5116",
+  "catalogedName": "ged-hse-programs-ny",
+  "sourceId": "legal-entry:ged-hse-programs-ny",
+  "sourceOwners": [
+    {
+      "type": "entry",
+      "id": "ged-hse-programs-ny"
+    },
+    {
+      "type": "entry",
+      "id": "home-energy-audit-rebates-ny"
+    },
+    {
+      "type": "entry",
+      "id": "reentry-housing-voucher-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "summer-youth-employment-program-ny-program"
+    },
+    {
+      "type": "entry",
+      "id": "weatherization-assistance-ny"
+    }
+  ],
+  "dialIntentTs": "2026-05-03T04:29:21.451Z",
+  "durationSec": null,
+  "status": "error",
+  "reason": "dial-connect-timeout",
+  "endedReason": null,
+  "artifacts": {
+    "audio": null,
+    "screenshot": null,
+    "transcript": null,
+    "verdict": "verdict.json"
+  },
+  "quality": "unknown",
+  "migration": {
+    "sourceFile": "call-data/results.json",
+    "migratedAt": "2026-05-03T19:05:26.313Z"
+  }
+}

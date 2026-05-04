@@ -60,7 +60,7 @@ export const TITLE_INSURANCE_WHAT_IT_COVERS_NY = {
       qualifier: "Any NYS home buyer or homeowner",
       access: "Phone at (800) 342-3736",
       outcome: "Complaint investigation, rate review, consumer protection",
-      phone: "(800) 342-3736",
+      phone: "",
       url: "https://www.dfs.ny.gov",
       verified: true,
       bilingual: false,

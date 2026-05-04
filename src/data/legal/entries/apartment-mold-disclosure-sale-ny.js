@@ -60,7 +60,7 @@ export const APARTMENT_MOLD_DISCLOSURE_SALE_NY = {
       qualifier: "Any person buying or selling property in New York",
       access: "Phone at (800) 771-7755",
       outcome: "Investigation, mediation, enforcement",
-      phone: "(800) 771-7755",
+      phone: "",
       url: "https://ag.ny.gov",
       verified: true,
       bilingual: true,
