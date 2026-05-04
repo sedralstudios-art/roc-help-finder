@@ -107,5 +107,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://irondequoitlibrary.org/",
+      "sourceLabel": "Irondequoit Public Library official site",
+      "notes": "Web confirms (585) 336-6060 as Irondequoit Public Library main line. 1290 Titus Ave."
+    }
+  ]
 }

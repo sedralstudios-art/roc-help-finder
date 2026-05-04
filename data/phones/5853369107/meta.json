@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.449Z",
-  "lastSeededAt": "2026-05-03T19:44:16.449Z"
+  "lastSeededAt": "2026-05-03T19:44:16.449Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://www.irondequoitcommunitycupboard.org/",
+      "sourceLabel": "Irondequoit Community Cupboard official site",
+      "notes": "Web confirms (585) 336-9107 as Irondequoit Community Cupboard line. 2841 Culver Rd. Distribution Tu/Sat 9-11am. Voicemail callback M/W 9am-4pm + F 9am-12pm."
+    }
+  ]
 }

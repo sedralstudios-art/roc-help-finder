@@ -1,0 +1,37 @@
+{
+  "digits": "5856176117",
+  "kind": "phone",
+  "primaryName": "Ogden Justice Court (Court Clerks)",
+  "rawValue": "585-617-6117",
+  "blockDial": false,
+  "tags": [
+    "cat:legal",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ogdencourt",
+      "name": "Ogden Justice Court",
+      "category": "legal",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-05T02:08:00.000Z",
+  "lastSeededAt": "2026-05-05T02:08:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T02:08:00.000Z",
+      "sourceUrl": "https://ogdenny.gov/courts/",
+      "sourceLabel": "Town of Ogden Justice Court page",
+      "notes": "Web confirms 585-617-6117 as Ogden Justice Court Court Clerk line (alt 585-617-6115). 269 Ogden Center Rd, Spencerport NY 14559. M-F 9am-3pm. Handles traffic, small claims, misdemeanors, violations, prelim felony hearings."
+    }
+  ]
+}

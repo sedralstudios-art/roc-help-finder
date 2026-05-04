@@ -76,5 +76,13 @@
     "spencerport",
     "village"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://spencerport.gov/village-clerk/",
+      "sourceLabel": "Village of Spencerport Village Clerk page",
+      "notes": "Web confirms (585) 352-4771 as Spencerport Village Clerk's office line. Village Clerk: Jacqueline Sullivan. 27 West Ave."
+    }
+  ]
 }

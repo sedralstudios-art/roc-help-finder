@@ -96,5 +96,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.285Z",
-  "lastSeededAt": "2026-05-03T19:44:16.285Z"
+  "lastSeededAt": "2026-05-03T19:44:16.285Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://ogdenny.gov/building-department/",
+      "sourceLabel": "Town of Ogden Building Department page",
+      "notes": "Web confirms (585) 617-6195 as Ogden Building Department line. Schedule inspections 24hr ahead. Email applications to buildingclerk@ogdenny.com."
+    }
+  ]
 }

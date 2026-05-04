@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.450Z",
-  "lastSeededAt": "2026-05-03T19:44:16.450Z"
+  "lastSeededAt": "2026-05-03T19:44:16.450Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://www.foodpantries.org/li/ny_14559_spencerport-ecumenical-food-shelf",
+      "sourceLabel": "Spencerport Ecumenical Food Shelf foodpantries.org listing (multi-source corroboration)",
+      "notes": "Web search across foodpantries.org, 211lifeline.org, communitywishbook.org, NY Connects all confirm (585) 397-0290 as the Spencerport Ecumenical Food Shelf line. 4997 West Ridge Rd, Spencerport NY 14559. Open Thu 9-11am. Org's only public web presence is a Facebook page so external aggregators are the corroborating sources."
+    }
+  ]
 }

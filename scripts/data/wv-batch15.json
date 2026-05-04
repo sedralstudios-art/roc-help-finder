@@ -1,0 +1,68 @@
+[
+  {
+    "digits": "5853366055",
+    "sourceUrl": "https://www.irondequoit.gov/157/Assessor",
+    "sourceLabel": "Irondequoit Assessor's Office page",
+    "notes": "Web confirms 585-336-6055 as Irondequoit Assessor's Office line. 1280 Titus Ave. M-F 8:30am-4:30pm. Exemption deadline March 1."
+  },
+  {
+    "digits": "5853366026",
+    "sourceUrl": "https://www.irondequoit.gov/180/Building",
+    "sourceLabel": "Irondequoit Building Department page",
+    "notes": "Web confirms 585-336-6026 as Irondequoit Building Department line. Inspection Request Line: 585-336-6072."
+  },
+  {
+    "digits": "5853369107",
+    "sourceUrl": "https://www.irondequoitcommunitycupboard.org/",
+    "sourceLabel": "Irondequoit Community Cupboard official site",
+    "notes": "Web confirms (585) 336-9107 as Irondequoit Community Cupboard line. 2841 Culver Rd. Distribution Tu/Sat 9-11am. Voicemail callback M/W 9am-4pm + F 9am-12pm."
+  },
+  {
+    "digits": "5853366070",
+    "sourceUrl": "https://www.irondequoit.gov/294/Adult-Senior-Services",
+    "sourceLabel": "Irondequoit Adult & Senior Services page",
+    "notes": "Web confirms 585-336-6070 as Irondequoit Adult & Senior Services line. 450 Skyview Centre Pkwy Suite 200. Used by irondequoitlunchclub (Lunch Club 60 reservations), irondequoitsenior (Senior Center programs), and irondequoitrec (Recreation Department) — all share this line."
+  },
+  {
+    "digits": "5853366060",
+    "sourceUrl": "https://irondequoitlibrary.org/",
+    "sourceLabel": "Irondequoit Public Library official site",
+    "notes": "Web confirms (585) 336-6060 as Irondequoit Public Library main line. 1290 Titus Ave."
+  },
+  {
+    "digits": "5853366052",
+    "sourceUrl": "https://www.irondequoit.gov/209/Animal-Control",
+    "sourceLabel": "Irondequoit Animal Control page",
+    "notes": "Web confirms 585-336-6052 as Irondequoit Animal Control line. 1280 Titus Ave. Dog licensing, lost pets, wildlife removal during business hours."
+  },
+  {
+    "digits": "5856176111",
+    "sourceUrl": "https://ogdenny.gov/town-clerk-2/",
+    "sourceLabel": "Town of Ogden Town Clerk page",
+    "notes": "Web confirms (585) 617-6111 as Ogden Town Clerk's Office line. 269 Ogden Center Rd, Spencerport NY 14559. M-F 8:30am-4pm."
+  },
+  {
+    "digits": "5853524771",
+    "sourceUrl": "https://spencerport.gov/village-clerk/",
+    "sourceLabel": "Village of Spencerport Village Clerk page",
+    "notes": "Web confirms (585) 352-4771 as Spencerport Village Clerk's office line. Village Clerk: Jacqueline Sullivan. 27 West Ave."
+  },
+  {
+    "digits": "5856176107",
+    "sourceUrl": "https://ogdenny.gov/assessors/",
+    "sourceLabel": "Town of Ogden Assessor's Office page",
+    "notes": "Web confirms (585) 617-6107 as Ogden Assessor's Office line. M-F 8:30am-4pm."
+  },
+  {
+    "digits": "5856176195",
+    "sourceUrl": "https://ogdenny.gov/building-department/",
+    "sourceLabel": "Town of Ogden Building Department page",
+    "notes": "Web confirms (585) 617-6195 as Ogden Building Department line. Schedule inspections 24hr ahead. Email applications to buildingclerk@ogdenny.com."
+  },
+  {
+    "digits": "5853970290",
+    "sourceUrl": "https://www.foodpantries.org/li/ny_14559_spencerport-ecumenical-food-shelf",
+    "sourceLabel": "Spencerport Ecumenical Food Shelf foodpantries.org listing (multi-source corroboration)",
+    "notes": "Web search across foodpantries.org, 211lifeline.org, communitywishbook.org, NY Connects all confirm (585) 397-0290 as the Spencerport Ecumenical Food Shelf line. 4997 West Ridge Rd, Spencerport NY 14559. Open Thu 9-11am. Org's only public web presence is a Facebook page so external aggregators are the corroborating sources."
+  }
+]

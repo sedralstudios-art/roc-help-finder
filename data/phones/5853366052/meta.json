@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.449Z",
-  "lastSeededAt": "2026-05-03T19:44:16.449Z"
+  "lastSeededAt": "2026-05-03T19:44:16.449Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://www.irondequoit.gov/209/Animal-Control",
+      "sourceLabel": "Irondequoit Animal Control page",
+      "notes": "Web confirms 585-336-6052 as Irondequoit Animal Control line. 1280 Titus Ave. Dog licensing, lost pets, wildlife removal during business hours."
+    }
+  ]
 }

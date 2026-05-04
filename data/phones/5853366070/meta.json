@@ -71,5 +71,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.335Z",
-  "lastSeededAt": "2026-05-03T19:44:16.335Z"
+  "lastSeededAt": "2026-05-03T19:44:16.335Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:42:20.784Z",
+      "sourceUrl": "https://www.irondequoit.gov/294/Adult-Senior-Services",
+      "sourceLabel": "Irondequoit Adult & Senior Services page",
+      "notes": "Web confirms 585-336-6070 as Irondequoit Adult & Senior Services line. 450 Skyview Centre Pkwy Suite 200. Used by irondequoitlunchclub (Lunch Club 60 reservations), irondequoitsenior (Senior Center programs), and irondequoitrec (Recreation Department) — all share this line."
+    }
+  ]
 }
