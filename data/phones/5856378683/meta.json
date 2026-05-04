@@ -65,5 +65,13 @@
     "sweden",
     "assessor"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.townofswedenny.gov/departments/assessor-1743081419",
+      "sourceLabel": "Town of Sweden Assessor's Office page",
+      "notes": "Web confirms (585) 637-8683 as Sweden Assessor's Office line."
+    }
+  ]
 }

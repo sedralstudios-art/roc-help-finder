@@ -63,5 +63,13 @@
     "webster",
     "town"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.websterny.gov/107/Town-Clerk",
+      "sourceLabel": "Town of Webster Town Clerk page",
+      "notes": "Web confirms (585) 872-1000 as Webster Town Clerk's office line. Town Clerk / Tax Receiver: Danene Marr. 1000 Ridge Rd, Webster NY 14580."
+    }
+  ]
 }

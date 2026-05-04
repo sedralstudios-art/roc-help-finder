@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.457Z",
-  "lastSeededAt": "2026-05-03T19:44:16.457Z"
+  "lastSeededAt": "2026-05-03T19:44:16.457Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.websterny.gov/77/Assessment-Office",
+      "sourceLabel": "Town of Webster Assessment Office page",
+      "notes": "Web confirms (585) 872-7051 as Webster Assessment Office line. NYS Certified Assessor: Donna M. Komor."
+    }
+  ]
 }

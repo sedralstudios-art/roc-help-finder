@@ -66,5 +66,13 @@
     "community",
     "chest"
   ],
-  "verifiedRatio": 0.75
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://webcommchest.org/",
+      "sourceLabel": "Webster Community Chest official site",
+      "notes": "Web confirms (585) 671-2060 as Webster Community Chest line. Leave a message; Benefits Counselors return calls quickly. Operates Webster meal program at Immanuel Lutheran Church."
+    }
+  ]
 }

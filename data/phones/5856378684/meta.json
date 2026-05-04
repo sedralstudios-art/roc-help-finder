@@ -76,5 +76,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.309Z",
-  "lastSeededAt": "2026-05-03T19:44:16.309Z"
+  "lastSeededAt": "2026-05-03T19:44:16.309Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.townofswedenny.gov/departments/building-department",
+      "sourceLabel": "Town of Sweden Building Department page",
+      "notes": "Web confirms (585) 637-8684 as Sweden Building Department line. M-F 8:30am-4:30pm."
+    }
+  ]
 }

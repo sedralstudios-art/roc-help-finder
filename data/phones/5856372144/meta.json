@@ -64,5 +64,13 @@
     "town",
     "clerk"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.townofswedenny.gov/departments/town-clerk",
+      "sourceLabel": "Town of Sweden Town Clerk page",
+      "notes": "Web confirms (585) 637-2144 as Sweden Town Clerk line. Town Clerk Karen Sweeting. 18 State St, Brockport NY 14420. Sweden Town Hall main number."
+    }
+  ]
 }

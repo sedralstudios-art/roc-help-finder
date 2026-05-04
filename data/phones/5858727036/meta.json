@@ -76,5 +76,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.309Z",
-  "lastSeededAt": "2026-05-03T19:44:16.309Z"
+  "lastSeededAt": "2026-05-03T19:44:16.309Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.websterny.gov/162/Building-Department",
+      "sourceLabel": "Town of Webster Building Department page",
+      "notes": "Web confirms (585) 872-7036 as Webster Building Department line."
+    }
+  ]
 }

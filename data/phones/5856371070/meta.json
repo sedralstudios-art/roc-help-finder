@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.456Z",
-  "lastSeededAt": "2026-05-03T19:44:16.456Z"
+  "lastSeededAt": "2026-05-03T19:44:16.456Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.townofswedenny.gov/departments/justice-court",
+      "sourceLabel": "Town of Sweden Justice Court page",
+      "notes": "Web confirms (585) 637-1070 as Sweden Justice Court line. Separate from Brockport Village Court."
+    }
+  ]
 }

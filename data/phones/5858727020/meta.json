@@ -63,5 +63,13 @@
     "webster",
     "court"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.websterny.gov/131/Webster-Justice-Court",
+      "sourceLabel": "Webster Justice Court page",
+      "notes": "Web confirms (585) 872-7020 as Webster Justice Court line. 1002 Ridge Rd, Webster NY 14580."
+    }
+  ]
 }

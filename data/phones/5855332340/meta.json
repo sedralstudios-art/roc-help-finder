@@ -63,5 +63,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.362Z",
-  "lastSeededAt": "2026-05-03T19:44:16.362Z"
+  "lastSeededAt": "2026-05-03T19:44:16.362Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.townofrush.com/community/rush-seniors.html",
+      "sourceLabel": "Town of Rush Senior Citizens + Recreation pages",
+      "notes": "Web confirms 585-533-2340 as Rush Recreation Office line. Used by both rushsenior (Senior Citizens program) and rushrec (Recreation Department) — single line for both."
+    }
+  ]
 }

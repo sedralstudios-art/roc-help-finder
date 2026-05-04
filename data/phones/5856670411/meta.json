@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.457Z",
-  "lastSeededAt": "2026-05-03T19:44:16.457Z"
+  "lastSeededAt": "2026-05-03T19:44:16.457Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://gatheringplacewebster.org/contact",
+      "sourceLabel": "Gathering Place Webster contact page",
+      "notes": "Web confirms 585-667-0411 as Gathering Place Webster line. Free home-cooked Sunday supper at Webster UCC, 570 Klem Rd. 2nd Sunday monthly 4:30-5:30pm."
+    }
+  ]
 }

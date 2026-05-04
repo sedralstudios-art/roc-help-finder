@@ -65,5 +65,13 @@
     "webster",
     "village"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.villageofwebsterny.gov/",
+      "sourceLabel": "Village of Webster official site",
+      "notes": "Web confirms (585) 265-3770 as Webster Village Hall main line. 28 West Main St, Webster NY 14580. After-hours emergency street/sewer: press 9."
+    }
+  ]
 }

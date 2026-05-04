@@ -63,5 +63,13 @@
     "webster",
     "hope"
   ],
-  "verifiedRatio": 0.5
+  "verifiedRatio": 0.5,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:10:26.500Z",
+      "sourceUrl": "https://www.websternyhope.org/",
+      "sourceLabel": "Webster HOPE official site (multi-source corroboration)",
+      "notes": "Multi-source web confirms (585) 265-6694 as Webster HOPE food pantry + clothing closet line. 1450 Ridge Rd. Email: websternyhope@gmail.com. Serves zip 14580 only."
+    }
+  ]
 }
