@@ -1,0 +1,37 @@
+{
+  "digits": "8866974372",
+  "kind": "phone",
+  "primaryName": "NY HESC Customer Service (NYSHESC)",
+  "rawValue": "888-697-4372",
+  "blockDial": false,
+  "tags": [
+    "cat:education",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "excelsior",
+      "name": "Excelsior Scholarship (Free SUNY/CUNY Tuition)",
+      "category": "education",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T23:34:00.000Z",
+  "lastSeededAt": "2026-05-04T23:34:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:34:00.000Z",
+      "sourceUrl": "https://hesc.ny.gov/get-help/speak-hesc",
+      "sourceLabel": "HESC Get Help / Speak with HESC page",
+      "notes": "Web confirms 1-888-NYSHESC (888-697-4372) as the NY Higher Education Services Corporation customer service line, which doubles as the Excelsior Scholarship hotline. M-F 8:30am-4:30pm (excluding holidays)."
+    }
+  ]
+}

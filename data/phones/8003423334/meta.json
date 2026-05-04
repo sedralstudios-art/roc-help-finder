@@ -297,5 +297,13 @@
     "disability",
     "hearings"
   ],
-  "verifiedRatio": 0.75
+  "verifiedRatio": 0.75,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:32:00.000Z",
+      "sourceUrl": "https://otda.ny.gov/hearings/request/",
+      "sourceLabel": "NY OTDA Fair Hearings request page",
+      "notes": "Multi-source web confirms 800-342-3334 as the NY State OTDA Fair Hearing request line. M-F 8am-5pm. SNAP appeals: 90 days. Cash assistance/Medicaid: 60 days. NOTE: if last application/recertification was via NY State of Health Marketplace, the fair-hearing request goes through NYSOH instead."
+    }
+  ]
 }

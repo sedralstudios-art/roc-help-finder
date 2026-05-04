@@ -71,5 +71,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.322Z",
-  "lastSeededAt": "2026-05-03T19:44:16.322Z"
+  "lastSeededAt": "2026-05-03T19:44:16.322Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:31:00.000Z",
+      "sourceUrl": "https://nycosh.org",
+      "sourceLabel": "NYCOSH official site",
+      "notes": "Web confirms 212-227-6440 as the NYCOSH (NY Committee for Occupational Safety and Health) main line."
+    }
+  ]
 }

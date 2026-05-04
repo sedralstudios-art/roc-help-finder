@@ -1,0 +1,37 @@
+{
+  "digits": "5859933297",
+  "kind": "phone",
+  "primaryName": "PFLAG Rochester",
+  "rawValue": "585-993-3297",
+  "blockDial": false,
+  "tags": [
+    "cat:lgbtq",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "pflag",
+      "name": "PFLAG Rochester",
+      "category": "lgbtq",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T23:35:00.000Z",
+  "lastSeededAt": "2026-05-04T23:35:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:35:00.000Z",
+      "sourceUrl": "https://pflag.org/chapter/rochester/",
+      "sourceLabel": "PFLAG Rochester chapter page",
+      "notes": "Multi-source web confirms (585) 993-3297 as the PFLAG Rochester chapter contact. 100 College Ave, Rochester NY 14607. Meets virtually via Zoom 2nd Sunday of each month 1-2pm."
+    }
+  ]
+}

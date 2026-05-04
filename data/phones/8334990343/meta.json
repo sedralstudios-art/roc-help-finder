@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.532Z",
-  "lastSeededAt": "2026-05-03T19:44:16.532Z"
+  "lastSeededAt": "2026-05-03T19:44:16.532Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:26:00.000Z",
+      "sourceUrl": "https://hcr.ny.gov/contact-us",
+      "sourceLabel": "NY State Homes & Community Renewal contact page",
+      "notes": "Web confirms 833-499-0343 as the NY State HCR Office of Rent Administration line. NOTE: most rent-regulation rules apply primarily to NYC; for Monroe County eviction help local legal-aid programs are more direct."
+    }
+  ]
 }

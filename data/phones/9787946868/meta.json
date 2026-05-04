@@ -1,0 +1,37 @@
+{
+  "digits": "9787946868",
+  "kind": "phone",
+  "primaryName": "Angel Flight Northeast",
+  "rawValue": "978-794-6868",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "angelflight",
+      "name": "Angel Flight NE (Free Medical Flights)",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T23:33:00.000Z",
+  "lastSeededAt": "2026-05-04T23:33:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:33:00.000Z",
+      "sourceUrl": "https://www.angelflightne.org",
+      "sourceLabel": "Angel Flight NE official site",
+      "notes": "Web confirms (978) 794-6868 as Angel Flight Northeast main line. Volunteer pilots provide free air transport for medical patients in the Northeast US (including NY)."
+    }
+  ]
+}

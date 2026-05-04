@@ -156,5 +156,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.273Z",
-  "lastSeededAt": "2026-05-03T19:44:16.273Z"
+  "lastSeededAt": "2026-05-03T19:44:16.273Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:28:00.000Z",
+      "sourceUrl": "https://www.eeoc.gov/contact-us",
+      "sourceLabel": "EEOC contact page",
+      "notes": "Web confirms 1-800-669-4000 as the EEOC main line. TTY: 800-669-6820. ASL Video Phone: 844-234-5122. Direct match to dialer transcript opening (\"United States Equal Employment Opportunity Commission National Contact Center\")."
+    }
+  ]
 }

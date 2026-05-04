@@ -81,5 +81,13 @@
     "unemployment",
     "insurance"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:30:00.000Z",
+      "sourceUrl": "https://dol.ny.gov/unemployment-insurance-contact",
+      "sourceLabel": "NY DOL Unemployment Insurance contact page",
+      "notes": "Web confirms 888-209-8124 as the NY DOL Unemployment Insurance Telephone Claims Center. M-F 8am-5pm. Press 9 for an interpreter. Direct match to dialer transcript opening (\"New York State Department of Labor's Unemployment Insurance Telephone Claim Center\")."
+    }
+  ]
 }

@@ -65,5 +65,13 @@
     "mercy",
     "medical"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:25:00.000Z",
+      "sourceUrl": "https://www.mercymedical.org/contact",
+      "sourceLabel": "Mercy Medical Angels official contact page",
+      "notes": "Web confirms 757-318-9174 as Mercy Medical Angels (formerly Mercy Medical Airlift) main line. Direct match to dialer transcript opening (\"Mercy Medical Angels\")."
+    }
+  ]
 }

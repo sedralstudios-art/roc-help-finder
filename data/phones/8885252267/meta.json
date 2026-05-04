@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.586Z",
-  "lastSeededAt": "2026-05-03T19:44:16.586Z"
+  "lastSeededAt": "2026-05-03T19:44:16.586Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T23:27:00.000Z",
+      "sourceUrl": "https://dol.ny.gov/location/contact-division-labor-standards",
+      "sourceLabel": "NY DOL Division of Labor Standards contact page",
+      "notes": "Web confirms 888-525-2267 as the NY DOL Division of Labor Standards line for wage-theft claims. Form-completion help: 888-469-7365."
+    }
+  ]
 }
