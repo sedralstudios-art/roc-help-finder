@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.432Z",
-  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+  "lastSeededAt": "2026-05-03T19:44:16.432Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://www.urmc.rochester.edu/locations/strong-ties",
+      "sourceLabel": "URMC Strong Ties location page",
+      "notes": "Web confirms (585) 279-4900 as the Strong Ties Community Support Clinic main line (UR Medicine outpatient mental health). 2613 W Henrietta Rd Suite A, 14623. Access M-F 8am-4:30pm; ACT in-home services 24/7. CCBHC certified."
+    }
+  ]
 }

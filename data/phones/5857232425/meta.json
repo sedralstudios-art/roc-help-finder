@@ -83,5 +83,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.297Z",
-  "lastSeededAt": "2026-05-03T19:44:16.297Z"
+  "lastSeededAt": "2026-05-03T19:44:16.297Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://greeceny.gov/departments/parksandrecreation/community-center/",
+      "sourceLabel": "Greece Community & Senior Center page",
+      "notes": "Web confirms (585) 723-2425 as the Greece Community & Senior Center main line. 3 Vince Tofany Blvd. Programs for 50+; Medical Motors Service partnership for transport (call 24 hours ahead)."
+    }
+  ]
 }

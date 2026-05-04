@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.429Z",
-  "lastSeededAt": "2026-05-03T19:44:16.429Z"
+  "lastSeededAt": "2026-05-03T19:44:16.429Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://greeceny.gov/departments/animal-services/",
+      "sourceLabel": "Greece Animal Services page",
+      "notes": "Web confirms (585) 581-4025 as the Greece Animal Services line. 500 Maiden Lane, Rochester NY 14616. Dog licensing / lost-and-found / adoption / rabies clinics. 911 for emergencies."
+    }
+  ]
 }

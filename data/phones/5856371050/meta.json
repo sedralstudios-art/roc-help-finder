@@ -65,5 +65,13 @@
     "seymour",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://seymourlibraryweb.org",
+      "sourceLabel": "Seymour Library official site",
+      "notes": "Web confirms 585-637-1050 as Seymour Library main line. 161 East Ave, Brockport NY 14420. Books / digital / programs / WiFi. Serves Sweden as well."
+    }
+  ]
 }

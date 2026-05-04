@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.432Z",
-  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+  "lastSeededAt": "2026-05-03T19:44:16.432Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://oakorchardhealth.org",
+      "sourceLabel": "Oak Orchard Health official site",
+      "notes": "Web confirms (585) 637-3905 as the Oak Orchard Health Brockport administrative office line. 300 West Ave, Brockport NY 14420. Primary care + dental + vision + behavioral health. Sliding scale; accepts Medicaid/Medicare/uninsured."
+    }
+  ]
 }

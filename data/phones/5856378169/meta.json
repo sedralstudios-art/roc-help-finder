@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.432Z",
-  "lastSeededAt": "2026-05-03T19:44:16.432Z"
+  "lastSeededAt": "2026-05-03T19:44:16.432Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://www.brockportfoodshelf.org",
+      "sourceLabel": "Brockport Ecumenical Food Shelf official site + SUNY Brockport Pantry page",
+      "notes": "Web confirms 585-637-8169 as the Brockport Ecumenical Food Shelf line. 14 State St, Brockport NY 14420 (St. Luke's Episcopal Church). SAME number serves the SUNY Brockport Pantry program (sunypantry) — campus pantry routes monthly food requests through the food shelf."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.433Z",
-  "lastSeededAt": "2026-05-03T19:44:16.433Z"
+  "lastSeededAt": "2026-05-03T19:44:16.433Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://swedenclarksonrec.recdesk.com/Community/Page?pageId=1839",
+      "sourceLabel": "Sweden/Clarkson Recreation contact page",
+      "notes": "Multi-source web confirms (585) 431-0090 as Sweden/Clarkson Community Center main line. 4927 Lake Rd, Brockport NY 14420. Weather cancellation hotline: 585-431-0085. Fax: 585-431-0052."
+    }
+  ]
 }

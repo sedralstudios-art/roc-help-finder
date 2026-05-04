@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.429Z",
-  "lastSeededAt": "2026-05-03T19:44:16.429Z"
+  "lastSeededAt": "2026-05-03T19:44:16.429Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://greeceny.gov/departments/town-court/",
+      "sourceLabel": "Greece Town Court page",
+      "notes": "Web confirms (585) 227-3110 as the Greece Town Court line. 1 Vince Tofany Blvd, Greece NY 14612. M-F 9am-5pm."
+    }
+  ]
 }

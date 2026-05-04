@@ -24,5 +24,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.434Z",
-  "lastSeededAt": "2026-05-03T19:44:16.434Z"
+  "lastSeededAt": "2026-05-03T19:44:16.434Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://www.chiliny.gov/248/Town-Clerk",
+      "sourceLabel": "Town of Chili Town Clerk page",
+      "notes": "Web confirms 585-889-6127 as Chili Town Clerk's office line. 3333 Chili Ave, Rochester NY 14624. Town Clerk Virginia Ignatowski."
+    }
+  ]
 }

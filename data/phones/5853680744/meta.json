@@ -66,5 +66,13 @@
     "share",
     "outreach"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://missionshareoutreach.org",
+      "sourceLabel": "Mission Share Outreach Center official site",
+      "notes": "Web confirms (585) 368-0744 as Mission Share Outreach Center main line. 10 Cedarfield Commons, Rochester NY 14612. Tu/W/Th 9am-3pm. Serves zips 14468, 14612, 14615, 14616, 14626."
+    }
+  ]
 }

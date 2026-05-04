@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.433Z",
-  "lastSeededAt": "2026-05-03T19:44:16.433Z"
+  "lastSeededAt": "2026-05-03T19:44:16.433Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://www.nyconnects.ny.gov/providers/sweden-senior-center-sofa-li-148651",
+      "sourceLabel": "NY Connects Sweden Senior Center provider listing",
+      "notes": "Multi-source web confirms 585-637-8161 as Sweden Senior Center main line. 133 State St, Brockport NY 14420. M/T/Th/F 9am-3pm; Wed 9am-4pm. Lunch served daily at 12pm with reservation. 60+ and spouse welcome."
+    }
+  ]
 }

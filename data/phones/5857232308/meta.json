@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.429Z",
-  "lastSeededAt": "2026-05-03T19:44:16.429Z"
+  "lastSeededAt": "2026-05-03T19:44:16.429Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:47:06.046Z",
+      "sourceUrl": "https://greeceny.gov/departments/assessor/",
+      "sourceLabel": "Greece Town Assessor page",
+      "notes": "Web confirms (585) 723-2308 as the Greece Town Assessor's office line. 1 Vince Tofany Blvd. Town Assessor: Richard Baart (RBaart@greeceny.gov). Handles STAR / senior / veterans / disability property tax exemptions."
+    }
+  ]
 }
