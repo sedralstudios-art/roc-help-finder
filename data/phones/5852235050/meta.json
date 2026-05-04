@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.440Z",
-  "lastSeededAt": "2026-05-03T19:44:16.440Z"
+  "lastSeededAt": "2026-05-03T19:44:16.440Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:06:03.307Z",
+      "sourceUrl": "https://perinton.gov/departments/randp/perinton-community-aquatic-center/",
+      "sourceLabel": "Perinton Community Center / Aquatic Center page",
+      "notes": "Web confirms (585) 223-5050 as Perinton Community Center main line. Used by perintonrec (Aquatic + fitness + multipurpose) and perintonsenior (55+ Program ext. 1130)."
+    }
+  ]
 }

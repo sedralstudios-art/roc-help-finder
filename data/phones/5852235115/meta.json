@@ -38,5 +38,13 @@
   },
   "status": "active",
   "replacedBy": null,
-  "replaces": null
+  "replaces": null,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:06:03.307Z",
+      "sourceUrl": "https://perinton.gov/departments/public-works/animal-control/",
+      "sourceLabel": "Perinton Animal Control page",
+      "notes": "Web confirms (585) 223-5115 as Perinton Animal Control office line (M-F 7:30am-4pm). After-hours emergencies route through 585-425-7380. Officers available 24/7. Serves Town of Perinton + Village of Fairport."
+    }
+  ]
 }

@@ -84,5 +84,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.327Z",
-  "lastSeededAt": "2026-05-03T19:44:16.327Z"
+  "lastSeededAt": "2026-05-03T19:44:16.327Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:06:03.307Z",
+      "sourceUrl": "https://www.village.fairport.ny.us/departments/clerk-treasurer_s_office/index.php",
+      "sourceLabel": "Village of Fairport Clerk-Treasurer page",
+      "notes": "Web confirms (585) 223-9500 as Fairport Village Clerk-Treasurer's Office. 31 S Main St, Fairport NY 14450. Clerk-Treasurer Megan A. Cook direct: 585-421-3202."
+    }
+  ]
 }

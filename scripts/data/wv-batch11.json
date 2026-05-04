@@ -1,0 +1,56 @@
+[
+  {
+    "digits": "5856371130",
+    "sourceUrl": "https://townofclarksonny.gov/town-clerks-office/",
+    "sourceLabel": "Clarkson Town Clerk page",
+    "notes": "Web confirms (585) 637-1130 as Clarkson Town Clerk's office line. 3710 Lake Rd, Clarkson NY 14430."
+  },
+  {
+    "digits": "5855863553",
+    "sourceUrl": "https://eastrochesterny.gov/Departments/clerks-office",
+    "sourceLabel": "Town/Village of East Rochester Clerk's Office page",
+    "notes": "Web confirms 585-586-3553 as the East Rochester town/village main switchboard (combined Town/Village government). Used by erclerk, ercourt, erresource, erlib, and ersenior — all departments share this line. Secondary number: 585-419-8282."
+  },
+  {
+    "digits": "5852239500",
+    "sourceUrl": "https://www.village.fairport.ny.us/departments/clerk-treasurer_s_office/index.php",
+    "sourceLabel": "Village of Fairport Clerk-Treasurer page",
+    "notes": "Web confirms (585) 223-9500 as Fairport Village Clerk-Treasurer's Office. 31 S Main St, Fairport NY 14450. Clerk-Treasurer Megan A. Cook direct: 585-421-3202."
+  },
+  {
+    "digits": "5852230770",
+    "sourceUrl": "https://perinton.gov/residents/hours-of-operation/",
+    "sourceLabel": "Town of Perinton hours/contact page",
+    "notes": "Web confirms (585) 223-0770 as Perinton Town Hall main switchboard. 1350 Turk Hill Rd, Fairport NY 14450. Used by perintonclerk and perintoncourt. URL update: perinton.org redirects to perinton.gov."
+  },
+  {
+    "digits": "5852239091",
+    "sourceUrl": "https://www.fairportlibrary.org",
+    "sourceLabel": "Fairport Public Library official site",
+    "notes": "Web confirms (585) 223-9091 as Fairport Public Library main line. 1 Fairport Village Landing, Fairport NY 14450."
+  },
+  {
+    "digits": "5852235050",
+    "sourceUrl": "https://perinton.gov/departments/randp/perinton-community-aquatic-center/",
+    "sourceLabel": "Perinton Community Center / Aquatic Center page",
+    "notes": "Web confirms (585) 223-5050 as Perinton Community Center main line. Used by perintonrec (Aquatic + fitness + multipurpose) and perintonsenior (55+ Program ext. 1130)."
+  },
+  {
+    "digits": "5852235115",
+    "sourceUrl": "https://perinton.gov/departments/public-works/animal-control/",
+    "sourceLabel": "Perinton Animal Control page",
+    "notes": "Web confirms (585) 223-5115 as Perinton Animal Control office line (M-F 7:30am-4pm). After-hours emergencies route through 585-425-7380. Officers available 24/7. Serves Town of Perinton + Village of Fairport."
+  },
+  {
+    "digits": "5852476100",
+    "sourceUrl": "https://www.townofgatesny.gov/town-clerk-tax-receiver/",
+    "sourceLabel": "Town of Gates Clerk/Tax Receiver page",
+    "notes": "Web confirms (585) 247-6100 as Gates Town main switchboard. Town Clerk Sarah Lobene reachable at ext 205. 1605 Buffalo Rd, Rochester NY 14624."
+  },
+  {
+    "digits": "5854260410",
+    "sourceUrl": "https://www.townofgatesny.gov/justice-court/",
+    "sourceLabel": "Gates Town Justice Court page",
+    "notes": "Web confirms 585-426-0410 as Gates Town Court direct line. M-F 9am-5pm. Court sessions: Mon 5:30pm jury/bench trials, Tue 5:30pm arraignments, Wed 4pm trials, Thu 5:30pm trials."
+  }
+]

@@ -101,5 +101,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.287Z",
-  "lastSeededAt": "2026-05-03T19:44:16.287Z"
+  "lastSeededAt": "2026-05-03T19:44:16.287Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:06:03.307Z",
+      "sourceUrl": "https://perinton.gov/residents/hours-of-operation/",
+      "sourceLabel": "Town of Perinton hours/contact page",
+      "notes": "Web confirms (585) 223-0770 as Perinton Town Hall main switchboard. 1350 Turk Hill Rd, Fairport NY 14450. Used by perintonclerk and perintoncourt. URL update: perinton.org redirects to perinton.gov."
+    }
+  ]
 }

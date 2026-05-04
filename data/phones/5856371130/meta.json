@@ -64,5 +64,13 @@
     "town",
     "clerk"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:06:03.307Z",
+      "sourceUrl": "https://townofclarksonny.gov/town-clerks-office/",
+      "sourceLabel": "Clarkson Town Clerk page",
+      "notes": "Web confirms (585) 637-1130 as Clarkson Town Clerk's office line. 3710 Lake Rd, Clarkson NY 14430."
+    }
+  ]
 }
