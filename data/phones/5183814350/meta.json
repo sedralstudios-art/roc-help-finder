@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.427Z",
-  "lastSeededAt": "2026-05-03T19:44:16.427Z"
+  "lastSeededAt": "2026-05-03T19:44:16.427Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:39:00.000Z",
+      "sourceUrl": "https://www.ptopnys.org",
+      "sourceLabel": "Parent to Parent of NYS official site",
+      "notes": "Web confirms (518) 381-4350 as Parent to Parent of NYS / Family Voices statewide office in Schenectady NY. Family-of-children-with-special-healthcare-needs support."
+    }
+  ]
 }

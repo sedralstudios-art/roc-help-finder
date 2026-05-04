@@ -65,5 +65,13 @@
     "vital",
     "records"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:00.000Z",
+      "sourceUrl": "https://www.monroecounty.gov/health-vitalrecords",
+      "sourceLabel": "Monroe County Vital Records page",
+      "notes": "Web confirms 585-753-5141 as Monroe County Vital Records main line. 740 E Henrietta Rd 14623. Appointment-only M-F 9am-3pm. Direct match to dialer transcript opening (\"Office of Vital Records for Monroe County\")."
+    }
+  ]
 }

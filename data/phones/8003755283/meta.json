@@ -76,5 +76,13 @@
     "uscis",
     "citizenship"
   ],
-  "verifiedRatio": 0.3333333333333333
+  "verifiedRatio": 0.3333333333333333,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:20:00.000Z",
+      "sourceUrl": "https://www.uscis.gov/contactcenter",
+      "sourceLabel": "USCIS Contact Center page",
+      "notes": "Multi-source web confirms 800-375-5283 as the USCIS Contact Center toll-free line. TTY: 800-767-1833. From outside US: +1 212-620-3418. Hours M-F 8am-8pm ET. Direct match to dialer transcript opening (\"United States Citizenship and Immigration Services, or USCIS\")."
+    }
+  ]
 }

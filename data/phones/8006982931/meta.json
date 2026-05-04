@@ -1,0 +1,37 @@
+{
+  "digits": "8006982931",
+  "kind": "phone",
+  "primaryName": "NY DMV Contact Center",
+  "rawValue": "800-698-2931",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "dmvid",
+      "name": "DMV Non-Driver ID Card",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T22:23:00.000Z",
+  "lastSeededAt": "2026-05-04T22:23:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:23:00.000Z",
+      "sourceUrl": "https://dmv.ny.gov/contact-us/dmv-phone-numbers",
+      "sourceLabel": "NY DMV Phone Numbers page",
+      "notes": "Web confirms 800-698-2931 as the NY DMV Contact Center general assistance line. Alt 1-518-486-9786. M-F 8am-4pm ET (excluding state holidays)."
+    }
+  ]
+}

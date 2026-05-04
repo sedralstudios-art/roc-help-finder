@@ -1,0 +1,37 @@
+{
+  "digits": "8669642045",
+  "kind": "phone",
+  "primaryName": "Social Security Office Rochester (SSA)",
+  "rawValue": "866-964-2045",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "ssaroch",
+      "name": "Social Security Office (Free SSN Card)",
+      "category": "documents",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T22:22:00.000Z",
+  "lastSeededAt": "2026-05-04T22:22:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:22:00.000Z",
+      "sourceUrl": "https://ssofficelocation.com/offices/new-york/rochester/rochester-social-security-office-14604/",
+      "sourceLabel": "Rochester Social Security Office locator listing",
+      "notes": "Multi-source web confirms 866-964-2045 as the Rochester SSA office direct line at 200 E Main St, 2nd Fl, 14604. M-F 9am-4pm. Effective Jan 6 2025, all in-office service requires an appointment (including SSN card requests). National toll-free 800-772-1213 for general SSA questions."
+    }
+  ]
+}

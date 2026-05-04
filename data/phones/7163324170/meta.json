@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.427Z",
-  "lastSeededAt": "2026-05-03T19:44:16.427Z"
+  "lastSeededAt": "2026-05-03T19:44:16.427Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:38:00.000Z",
+      "sourceUrl": "https://parentnetworkwny.org",
+      "sourceLabel": "Parent Network of WNY official site",
+      "notes": "Web confirms 716-332-4170 as Parent Network of WNY English line. Spanish: 716-449-6394. Toll-free: 866-277-4762. Buffalo-based but serves all of WNY including Rochester/Monroe County for parent-to-parent special-needs support."
+    }
+  ]
 }

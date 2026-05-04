@@ -1,0 +1,37 @@
+{
+  "digits": "8008777195",
+  "kind": "phone",
+  "primaryName": "VSP Vision Customer Service (Eyes of Hope)",
+  "rawValue": "800-877-7195",
+  "blockDial": false,
+  "tags": [
+    "cat:vision",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "vsphope",
+      "name": "VSP Eyes of Hope (Free Exam + Glasses)",
+      "category": "vision",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T22:40:00.000Z",
+  "lastSeededAt": "2026-05-04T22:40:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:40:00.000Z",
+      "sourceUrl": "https://www.vspvision.com/eyes-of-hope/contact-eyesofhope.html",
+      "sourceLabel": "VSP Eyes of Hope contact page",
+      "notes": "Web confirms 800-877-7195 as the VSP Vision general customer service line, used for finding participating Eyes of Hope providers. Note: as of 2026 the Eyes of Hope gift certificate distribution is temporarily paused due to demand."
+    }
+  ]
+}

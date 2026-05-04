@@ -1,0 +1,38 @@
+{
+  "digits": "5852444000",
+  "kind": "phone",
+  "primaryName": "New Hope Free Methodist Church (Immigration Legal Services)",
+  "rawValue": "585-244-4000",
+  "blockDial": false,
+  "tags": [
+    "cat:documents",
+    "cat:immigration",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "newhopeilm",
+      "name": "New Hope Immigration Legal Services",
+      "category": "documents",
+      "hidden": true
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T22:24:00.000Z",
+  "lastSeededAt": "2026-05-04T22:24:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:24:00.000Z",
+      "sourceUrl": "https://www.newhopefree.org/ils",
+      "sourceLabel": "New Hope Free Methodist Church Immigration Legal Services page",
+      "notes": "Web confirms (585) 244-4000 as the main church phone for New Hope Free Methodist; the immigration clinic specifically directs new clients to text 585-760-4328 or email immigration@newhopefree.org. The main number is the legitimate fallback for the program."
+    }
+  ]
+}
