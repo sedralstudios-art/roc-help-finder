@@ -12,6 +12,11 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
     en: "A benefits verification letter is an official document from the agency administering a benefit that confirms a person is receiving that benefit — and usually the amount. Many third parties (landlords, courts, schools, utility assistance programs, phone discount programs, other benefit applications) require one. For NY state benefits (SNAP, Temporary Assistance, Medicaid) the myBenefits portal at mybenefits.ny.gov is the fastest path. For Social Security benefits (SSI, SSDI, retirement, Medicare) the SSA my Social Security account generates a letter instantly."
   },
 
+  seo: {
+    title: { en: "NY Benefits Verification Letter: SNAP, Medicaid, SSI, SSDI" },
+    description: { en: "Get proof of NY benefits at mybenefits.ny.gov (SNAP, Medicaid, TA) or my Social Security (SSI, SSDI). Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A NY resident currently receiving SNAP, Temporary Assistance, Safety Net Assistance, HEAP, or Medicaid who needs third-party proof of benefits.",

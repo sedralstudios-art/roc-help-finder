@@ -34,6 +34,11 @@ export const SECURITY_DEPOSIT_NY = {
     en: "NY limits the security deposit a landlord can ask for to one month's rent for most rentals. The full law is General Obligations Law section 7-108. After the renter moves out, the landlord has 14 days to return the remaining deposit AND a written list of anything taken out and why. The only things a landlord can take out are unpaid rent, damage caused by the renter beyond normal wear and tear, unpaid utilities the renter owed the landlord, and the cost of moving or storing things the renter left behind. If the landlord misses the 14-day deadline — even by one day — the landlord loses the right to keep any part of the deposit, even for real damage. If the landlord kept the deposit on purpose, knowing the rule, the renter can also recover up to two times the deposit as an extra penalty (on top of getting the deposit back)."
   },
 
+  seo: {
+    title: { en: "NY Security Deposit Law: 1-Month Cap, 14-Day Return, Forfeiture" },
+    description: { en: "NY GOL §7-108: deposit capped at one month's rent, return within 14 days with itemized list, full forfeiture if late. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A NY residential tenant who paid a security deposit — written lease, oral lease, or month-to-month arrangement.",

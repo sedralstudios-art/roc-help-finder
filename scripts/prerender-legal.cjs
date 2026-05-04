@@ -495,16 +495,28 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
   const sources = Array.isArray(entry.sources) ? entry.sources : [];
   const tags = Array.isArray(entry.tags) ? entry.tags : [];
 
+  // Per-entry SEO overrides take precedence when present. Used by the Layer 2
+  // CTR pass for top-impression entries — full author control over the title
+  // and meta description with no template logic applied. Absence falls back to
+  // the algorithmic template (suffix + smart truncation + auto trust closer).
+  const seoTitleOverride = entry.seo && entry.seo.title ? pick(entry.seo.title, lang) : null;
+  const seoDescOverride = entry.seo && entry.seo.description ? pick(entry.seo.description, lang) : null;
+
   // Title: drop the " | HelpFinder" suffix when the entry title is already
   // long enough to risk SERP truncation (~55 chars). Brand survives via OG
   // tags + structured data. Short titles keep the suffix as a brand signal.
-  const pageTitle = title.length > 55 ? title : title + ' | HelpFinder';
+  const pageTitle = seoTitleOverride || (title.length > 55 ? title : title + ' | HelpFinder');
+  // ogTitle is used for OG/Twitter previews — same SEO override applies; the
+  // " | HelpFinder" suffix is never appended to OG since og:site_name carries
+  // brand separately.
+  const ogTitle = seoTitleOverride || title;
 
   // Meta description: smart truncation that respects sentence/word boundaries,
   // then a trust closer that pulls verified date and (when present) the
   // "free legal help" signal from the counsel block. Searchers in legal-aid
-  // intent click results that promise free help with a fresh date.
-  const metaDesc = (() => {
+  // intent click results that promise free help with a fresh date. Bypassed
+  // when the entry carries an seo.description override (used verbatim).
+  const metaDesc = seoDescOverride || (() => {
     const verifiedISO = entry.lastVerified || entry.lastAudited;
     const verifiedPretty = verifiedISO
       ? new Date(verifiedISO + 'T00:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
@@ -711,7 +723,7 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
     ${robotsMetaForEntry(entry, lang)}
     <link rel="canonical" href="${esc(canonical)}" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="${esc(title)}" />
+    <meta property="og:title" content="${esc(ogTitle)}" />
     <meta property="og:description" content="${esc(metaDesc)}" />
     <meta property="og:url" content="${esc(canonical)}" />
     <meta property="og:site_name" content="HelpFinder" />
@@ -721,7 +733,7 @@ function generateEntryHTML(entry, langMeta, bundleTags, entriesById) {
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="HelpFinder — Rochester, NY community resource and legal rights directory" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="${esc(title)}" />
+    <meta name="twitter:title" content="${esc(ogTitle)}" />
     <meta name="twitter:description" content="${esc(metaDesc)}" />
     <meta name="twitter:image" content="${esc(SITE_URL)}/og-image.png" />
 ${buildHreflang(urlPathForEntry, entry.id, langsForEntry(entry))}

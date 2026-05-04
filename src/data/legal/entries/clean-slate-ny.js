@@ -41,6 +41,11 @@ export const CLEAN_SLATE_NY = {
     en: "The NY Clean Slate Act, at Criminal Procedure Law § 160.57, requires the NY court system to automatically seal most older eligible convictions. The law took effect November 16, 2024. Misdemeanors seal three years after the person was sentenced or released, and most felonies seal eight years after the person was sentenced or released — but the clock does not start until any probation, parole, or post-release supervision is fully done. For convictions entered before the law took effect, the court system has until November 16, 2027 to finish the back-log sealing. Convictions entered after November 16, 2024 follow the running 3-year or 8-year schedule with no parallel 2027 deadline. Nothing to file. Sealing is not expungement."
   },
 
+  seo: {
+    title: { en: "NY Clean Slate Act: Automatic Record Sealing (3-Year & 8-Year)" },
+    description: { en: "CPL §160.57 automatically seals NY misdemeanors after 3 years and felonies after 8. No filing required. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A person with a NY misdemeanor conviction at least three years old, measured from when the person was sentenced or released, who has finished any probation, parole, or post-release supervision for that conviction.",

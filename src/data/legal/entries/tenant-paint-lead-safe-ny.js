@@ -13,6 +13,11 @@ export const TENANT_PAINT_LEAD_SAFE_NY = {
     en: "Any renovation, repair, or painting project that disturbs paint in a home built before 1978 has to follow lead-safe work practices under federal law. The EPA Renovation, Repair, and Painting Rule (40 CFR Part 745) requires the contractor to be EPA-certified, use containment, and clean up with HEPA vacuums and wet wiping. A homeowner doing personal work is exempt from the certification requirement but not from the health risk. Lead paint dust is the leading cause of lead poisoning in Monroe County children, which runs at rates well above the state average."
   },
 
+  seo: {
+    title: { en: "Lead Paint Renovation Rules in NY: What Landlords Must Do" },
+    description: { en: "Federal RRP Rule requires EPA-certified contractors and dust containment for any work disturbing pre-1978 paint. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A homeowner renovating a home built before 1978.",

@@ -13,6 +13,11 @@ export const STUDENT_LOAN_OPTIONS_NY = {
     en: "Student loan debt affects millions of New Yorkers. Federal student loans carry a menu of repayment options, including income-driven plans that cap the monthly payment at a percentage of the borrower's discretionary income, forgiveness programs for public-service workers (PSLF), and structured paths out of default. Private student loans have fewer options, but they are subject to New York's 6-year statute of limitations on contract debt (CPLR 213). Telling the federal and private systems apart is the first step — the wrong assumption costs money."
   },
 
+  seo: {
+    title: { en: "NY Student Loan Forgiveness & Repayment: SAVE, PSLF, IDR, Default" },
+    description: { en: "NY guide to income-driven repayment (SAVE, PAYE, IBR), Public Service Loan Forgiveness, and exit from default. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "Any borrower with federal student loan debt (Direct Loans, FFEL, Perkins) who is struggling to make the standard payment.",

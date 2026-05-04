@@ -13,6 +13,11 @@ export const SNAP_RIGHTS_NY = {
     en: "SNAP places monthly food benefits on an EBT card that works like a debit card at grocery stores, farmers markets, and a growing list of online retailers. NY uses broad-based categorical eligibility (BBCE) to widen the SNAP gross-income test through four buckets: 200 percent of the federal poverty level for a household with an elderly or disabled member, 200 percent for a household with out-of-pocket dependent-care expenses, 150 percent for an earned-income household with neither category, and the federal default of 130 percent for all other households. The asset test is waived for most households under BBCE. Eligibility and program structure live in NY Social Services Law § 95 and federal SNAP rules at 7 USC § 2011 et seq.; fair-hearing rights live in SSL § 22 and 18 NYCRR Part 358."
   },
 
+  seo: {
+    title: { en: "NY Food Stamps (SNAP): Eligibility, Income Limits, How to Apply" },
+    description: { en: "NY SNAP eligibility starts at 130–200% of the federal poverty level depending on household. Apply at mybenefits.ny.gov. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A NY household with a member age 60 or older OR a member with a disability OR out-of-pocket dependent-care expenses — gross income cutoff is 200 percent of the federal poverty level (NY OTDA 09-ADM-06 and 16-ADM-06; 18 NYCRR § 387.14(a)(5)(i)(b)–(c)).",

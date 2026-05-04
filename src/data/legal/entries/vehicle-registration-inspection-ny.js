@@ -13,6 +13,11 @@ export const VEHICLE_REGISTRATION_INSPECTION_NY = {
     en: "Every vehicle driven on public roads in New York has to be registered with the DMV, pass an annual safety and emissions inspection, and carry minimum liability insurance. Vehicle and Traffic Law 401 sets the registration requirement; Vehicle and Traffic Law 301 sets the inspection requirement; Insurance Law 5101 and the DMV insurance rules require continuous coverage. Driving without any of the three is an infraction that escalates to license and registration suspension, a civil penalty, and — in severe cases — impoundment and criminal charges for driving while suspended."
   },
 
+  seo: {
+    title: { en: "NY Vehicle Registration, Inspection & Insurance Rules (2026)" },
+    description: { en: "VTL §401 (registration), §301 (annual inspection), and Insurance Law §5101 (continuous coverage). Penalties + suspension. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A person who owns or operates a motor vehicle on public roads in New York.",

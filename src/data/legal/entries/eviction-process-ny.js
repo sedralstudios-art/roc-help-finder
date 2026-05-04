@@ -36,6 +36,11 @@ export const EVICTION_PROCESS_NY = {
     en: "A NY landlord cannot remove a tenant without a court order. The process is set by Real Property Actions and Proceedings Law Article 7. It has four stages: written notice (14 days for unpaid rent, or 30/60/90 days for non-renewal based on occupancy or lease length under Real Property Law § 226-c); a special proceeding filed in the local court; a judgment; and a warrant executed by the sheriff or marshal with 14 more days of notice. After judgment, tenants can ask for more time — up to a one-year hardship stay under § 753(1), a 30-day window to fix a lease violation under § 753(4), or a statewide payment-or-bond path before the warrant issues under § 751(1). Self-help eviction by the landlord is illegal and exposes the landlord to treble (3×) damages under § 853, restoration of the tenant under § 713(10), and Class A misdemeanor charges + civil penalties under § 768."
   },
 
+  seo: {
+    title: { en: "NY Eviction Process: RPAPL Notice, Court, Warrant, Hardship Stay" },
+    description: { en: "RPAPL Article 7: written notice, court hearing, judgment, sheriff's warrant. One-year hardship stay under §753. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A NY residential tenant under a written lease, an oral lease, or a month-to-month arrangement.",

@@ -13,6 +13,11 @@ export const UNPAID_FINAL_PAYCHECK_NY = {
     en: "When a New York job ends — whether the worker quit, was fired, or was laid off — Labor Law 191 requires the employer to pay the final wages by the next regular payday. Employers sometimes delay, short, or withhold the last check entirely. A missed final paycheck is wage theft under Labor Law 193 and 198, and the worker can recover the full unpaid amount plus an equal amount in liquidated damages plus reasonable attorney fees. There is no two-weeks-notice exception and no forfeiture of earned wages for leaving on bad terms."
   },
 
+  seo: {
+    title: { en: "NY Final Paycheck Law: When It's Due, How to Recover Wages" },
+    description: { en: "Labor Law §191: final wages due by next regular payday. Wage theft = unpaid amount + liquidated damages + fees. Free legal help. Verified May 2026." }
+  },
+
   whoQualifies: {
     en: [
       "A worker whose employer has not paid the final wages on time — whether the worker quit, was fired, or was laid off.",
