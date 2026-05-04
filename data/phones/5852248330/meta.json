@@ -1,0 +1,38 @@
+{
+  "digits": "5852248330",
+  "kind": "phone",
+  "primaryName": "RTS Access (Lift Line Paratransit)",
+  "rawValue": "585-224-8330",
+  "blockDial": false,
+  "tags": [
+    "cat:transport",
+    "cat:disabilitySvc",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "liftline",
+      "name": "RTS Access (Lift Line Paratransit)",
+      "category": "transport",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T21:00:00.000Z",
+  "lastSeededAt": "2026-05-04T21:00:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:00:00.000Z",
+      "sourceUrl": "https://www.myrts.com/RTS-Access/Contacting-RTS-Access",
+      "sourceLabel": "RTS Access Contacting page",
+      "notes": "Web confirms 585-224-8330 as the RTS Access (Lift Line) main number. Press 3 for reservations, press 2 for eligibility. Other RTS Access numbers: general admin 585-426-3520; after-hours dispatch 585-654-0675 (M-F 4am-1am, Sat-Sun 5am-1am). Scheduling office M-F 8am-5pm + Sat-Sun 8am-1pm."
+    }
+  ]
+}

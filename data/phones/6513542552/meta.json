@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.502Z",
-  "lastSeededAt": "2026-05-03T19:44:16.502Z"
+  "lastSeededAt": "2026-05-03T19:44:16.502Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:00.000Z",
+      "sourceUrl": "https://www.pcsforpeople.org",
+      "sourceLabel": "PCs for People official site",
+      "notes": "Web confirms 651-354-2552 as PCs for People general customer service number. National HQ in St. Paul MN; serves NY remotely. Refurbished computers + low-cost internet for households at or below 200% FPL."
+    }
+  ]
 }

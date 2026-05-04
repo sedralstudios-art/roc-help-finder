@@ -83,5 +83,13 @@
     "rts",
     "bus"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T20:58:00.000Z",
+      "sourceUrl": "https://www.myrts.com",
+      "sourceLabel": "MyRTS official site",
+      "notes": "Web confirms 585-288-1700 as RTS Customer Service main line. Spanish service at the same number (\"Para atención en Español, por favor llamar al (585) 288-1700\"). Direct match to dialer transcript opening (\"RTS Customer Service\")."
+    }
+  ]
 }

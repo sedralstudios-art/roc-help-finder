@@ -81,5 +81,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:32:00.000Z",
+      "sourceUrl": "https://roccitylibrary.org/about/contact-us/",
+      "sourceLabel": "Rochester Public Library Contact Us page",
+      "notes": "Web confirms (585) 428-7300 as the Central Library of Rochester & Monroe County main line. Used by libhotspot (WiFi hotspot lending) and other library programs. Direct match to dialer transcript opening (\"Central Library\")."
+    }
+  ]
 }

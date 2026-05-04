@@ -68,5 +68,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.392Z",
-  "lastSeededAt": "2026-05-03T19:44:16.392Z"
+  "lastSeededAt": "2026-05-03T19:44:16.392Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:18:00.000Z",
+      "sourceUrl": "https://www.lifelinesupport.org",
+      "sourceLabel": "USAC Lifeline Support official site",
+      "notes": "Web confirms 800-234-9473 as the Lifeline Support Center toll-free number, administered by USAC under FCC oversight. 7 days/week 9am-9pm ET. Direct match to dialer transcript opening (\"Lifeline Support Center\")."
+    }
+  ]
 }

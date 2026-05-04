@@ -1,0 +1,37 @@
+{
+  "digits": "8338374966",
+  "kind": "phone",
+  "primaryName": "Verizon General Customer Service (Verizon Forward)",
+  "rawValue": "833-837-4966",
+  "blockDial": false,
+  "tags": [
+    "cat:internet",
+    "program",
+    "web-verified"
+  ],
+  "sourceOwners": [
+    {
+      "type": "program",
+      "id": "vzforward",
+      "name": "Verizon Forward (Discounted Internet)",
+      "category": "internet",
+      "hidden": false
+    }
+  ],
+  "callsRecorded": 0,
+  "mostRecent": null,
+  "status": "web-verified",
+  "needsRedial": false,
+  "replacedBy": null,
+  "replaces": null,
+  "seededAt": "2026-05-04T21:23:00.000Z",
+  "lastSeededAt": "2026-05-04T21:23:00.000Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:23:00.000Z",
+      "sourceUrl": "https://www.verizon.com/discounts/verizon-forward/",
+      "sourceLabel": "Verizon Forward program page",
+      "notes": "Web confirms 1-833-VERIZON (833-837-4966) as the general Verizon customer service line listed on the Verizon Forward program page. Sub-program routing: Fios → 1-800-VERIZON; 5G/LTE Home Internet routes through a number partially obscured in fetch output; Frontier Fiber → 1-800-921-8101."
+    }
+  ]
+}

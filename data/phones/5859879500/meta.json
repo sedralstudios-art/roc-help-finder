@@ -84,5 +84,13 @@
     "salvation",
     "army"
   ],
-  "verifiedRatio": 0.4
+  "verifiedRatio": 0.4,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:34:00.000Z",
+      "sourceUrl": "https://easternusa.salvationarmy.org/empire/rochester/",
+      "sourceLabel": "Salvation Army Empire Division Rochester page",
+      "notes": "Web confirms 585-987-9500 as the Salvation Army Rochester Area Services main line at 70 Liberty Pole Way. URL update: rochesterny.salvationarmy.org now redirects to easternusa.salvationarmy.org/empire/rochester/. Direct match to dialer transcript opening (\"Salvation Army of Greater Rochester\")."
+    }
+  ]
 }

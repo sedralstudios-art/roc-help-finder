@@ -12,6 +12,13 @@
     {
       "type": "program",
       "id": "huther"
+    },
+    {
+      "type": "program",
+      "id": "ticket2ride",
+      "name": "Ticket2Ride (Justice-Involved)",
+      "category": "transport",
+      "hidden": false
     }
   ],
   "callsRecorded": 2,
@@ -61,6 +68,12 @@
       "sourceUrl": "https://hutherdoyle.com",
       "sourceLabel": "Huther Doyle official site",
       "notes": "Web confirms phone for this program."
+    },
+    {
+      "verifiedAt": "2026-05-04T21:14:00.000Z",
+      "sourceUrl": "https://www.ticket2riderochester.org/contact",
+      "sourceLabel": "Ticket2Ride Rochester contact page",
+      "notes": "Same number is also listed on Ticket2Ride Rochester contact page for both Karen Morris (Convenor) and Kim Ackerman (Coordinator). Ticket2Ride is a justice-involved transit program operated through Huther Doyle staff."
     }
   ]
 }

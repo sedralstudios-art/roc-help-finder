@@ -65,5 +65,13 @@
     "transportation",
     "medical"
   ],
-  "verifiedRatio": 0.5
+  "verifiedRatio": 0.5,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:08:00.000Z",
+      "sourceUrl": "https://wp2.medanswering.com/contact-center/",
+      "sourceLabel": "MAS Contact Center page (medanswering.com Upstate region)",
+      "notes": "Web confirms 866-932-7740 as the MAS (Medical Answering Services) Upstate region customer service line covering Monroe County for NY Medicaid Transportation. M-F 7am-6pm. Direct match to dialer transcript opening (\"MAS, your connection to non-emergency medical transportation\")."
+    }
+  ]
 }
