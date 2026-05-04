@@ -102,5 +102,13 @@
     "town",
     "clerk"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://www.townofwheatland.org/town-clerks-office",
+      "sourceLabel": "Town of Wheatland Town Clerk + Assessor + Building Department + Recreation pages",
+      "notes": "Web confirms 585-889-1553 as Town of Wheatland main switchboard with extension routing. 22 Main St, Scottsville NY 14546. Used by wheatlandclerk (option 2), wheatlandassessor (ext 105), wheatlandbuilding (option 3), and wheatlandrec (ext 103)."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.457Z",
-  "lastSeededAt": "2026-05-03T19:44:16.457Z"
+  "lastSeededAt": "2026-05-03T19:44:16.457Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://websterlibrary.org/",
+      "sourceLabel": "Webster Public Library official site",
+      "notes": "Web confirms (585) 872-7075 as Webster Public Library main line. 980 Ridge Rd, Webster NY 14580."
+    }
+  ]
 }

@@ -86,5 +86,13 @@
     "scottsville",
     "village"
   ],
-  "verifiedRatio": 0.6666666666666666
+  "verifiedRatio": 0.6666666666666666,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://www.scottsvilleny.gov/office-attorney",
+      "sourceLabel": "Village of Scottsville official site",
+      "notes": "Web confirms 585-889-6050 as Scottsville Village Clerk line. Code Enforcement Office reachable at this number too. 22 Main St Suite 3, Scottsville NY 14546."
+    }
+  ]
 }

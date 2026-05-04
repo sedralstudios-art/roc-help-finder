@@ -1,0 +1,62 @@
+[
+  {
+    "digits": "5858727075",
+    "sourceUrl": "https://websterlibrary.org/",
+    "sourceLabel": "Webster Public Library official site",
+    "notes": "Web confirms (585) 872-7075 as Webster Public Library main line. 980 Ridge Rd, Webster NY 14580."
+  },
+  {
+    "digits": "5858727103",
+    "sourceUrl": "https://www.websterny.gov/449/55-Activities-and-Services",
+    "sourceLabel": "Town of Webster 55+ Activities and Services + Parks & Recreation pages",
+    "notes": "Web confirms 585-872-7103 as Webster Recreation Center main line. Used by webstersenior (55+ Programs ext 7105 for Daphne Geoca, transport ext 7385) and websterrec (Parks & Recreation general)."
+  },
+  {
+    "digits": "5858727009",
+    "sourceUrl": "https://www.websterny.gov/174/Animal-Control",
+    "sourceLabel": "Town of Webster Animal Control page",
+    "notes": "Web confirms (585) 872-7009 as Webster Animal Control line. 911 for emergencies."
+  },
+  {
+    "digits": "5858891553",
+    "sourceUrl": "https://www.townofwheatland.org/town-clerks-office",
+    "sourceLabel": "Town of Wheatland Town Clerk + Assessor + Building Department + Recreation pages",
+    "notes": "Web confirms 585-889-1553 as Town of Wheatland main switchboard with extension routing. 22 Main St, Scottsville NY 14546. Used by wheatlandclerk (option 2), wheatlandassessor (ext 105), wheatlandbuilding (option 3), and wheatlandrec (ext 103)."
+  },
+  {
+    "digits": "5858896050",
+    "sourceUrl": "https://www.scottsvilleny.gov/office-attorney",
+    "sourceLabel": "Village of Scottsville official site",
+    "notes": "Web confirms 585-889-6050 as Scottsville Village Clerk line. Code Enforcement Office reachable at this number too. 22 Main St Suite 3, Scottsville NY 14546."
+  },
+  {
+    "digits": "5858893074",
+    "sourceUrl": "https://www.townofwheatland.org/town-court",
+    "sourceLabel": "Town of Wheatland Town Court page",
+    "notes": "Web confirms (585) 889-3074 as Wheatland Town Court line. 22 Main St (rear entrance). M-Th 10am-2pm. Justices on call 24/7 for arraignments."
+  },
+  {
+    "digits": "5858892028",
+    "sourceUrl": "https://gracechurchscottsville.org/",
+    "sourceLabel": "Grace Episcopal Church Scottsville official site",
+    "notes": "Web confirms 585-889-2028 as Grace Episcopal Church line, host of Grace's Table Food Cupboard (24/7 outdoor food cupboard at 9 Browns Ave). Monthly distribution 4th Thu 4-5:30pm."
+  },
+  {
+    "digits": "5858891604",
+    "sourceUrl": "https://upcscottsville.org/",
+    "sourceLabel": "Union Presbyterian Church Scottsville official site",
+    "notes": "Web confirms 585-889-1604 as Union Presbyterian Church Scottsville line, host of the 24/7 outdoor food cupboard at 1 Browns Ave."
+  },
+  {
+    "digits": "5858892023",
+    "sourceUrl": "https://scottsvillelibrary.org/",
+    "sourceLabel": "Scottsville Free Library official site (multi-source corroboration via Yelp + libraryweb.org + libtech)",
+    "notes": "Multi-source web confirms (585) 889-2023 as Scottsville Free Library main line. 28 Main St, Scottsville NY 14546. Direct fetch returned 403; relied on Yelp + Monroe County Library System."
+  },
+  {
+    "digits": "5858891284",
+    "sourceUrl": "https://www.townofwheatland.org/senior-center",
+    "sourceLabel": "Town of Wheatland Senior Center page",
+    "notes": "Web confirms (585) 889-1284 as Wheatland Senior Center direct line. Coordinator: Shanna Fraser. 22 Main St. M/W/Th 10am-3pm."
+  }
+]

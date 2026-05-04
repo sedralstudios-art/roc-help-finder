@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.459Z",
-  "lastSeededAt": "2026-05-03T19:44:16.459Z"
+  "lastSeededAt": "2026-05-03T19:44:16.459Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://www.townofwheatland.org/senior-center",
+      "sourceLabel": "Town of Wheatland Senior Center page",
+      "notes": "Web confirms (585) 889-1284 as Wheatland Senior Center direct line. Coordinator: Shanna Fraser. 22 Main St. M/W/Th 10am-3pm."
+    }
+  ]
 }

@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.459Z",
-  "lastSeededAt": "2026-05-03T19:44:16.459Z"
+  "lastSeededAt": "2026-05-03T19:44:16.459Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://scottsvillelibrary.org/",
+      "sourceLabel": "Scottsville Free Library official site (multi-source corroboration via Yelp + libraryweb.org + libtech)",
+      "notes": "Multi-source web confirms (585) 889-2023 as Scottsville Free Library main line. 28 Main St, Scottsville NY 14546. Direct fetch returned 403; relied on Yelp + Monroe County Library System."
+    }
+  ]
 }

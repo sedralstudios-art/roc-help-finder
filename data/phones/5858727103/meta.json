@@ -65,5 +65,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.362Z",
-  "lastSeededAt": "2026-05-03T19:44:16.362Z"
+  "lastSeededAt": "2026-05-03T19:44:16.362Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://www.websterny.gov/449/55-Activities-and-Services",
+      "sourceLabel": "Town of Webster 55+ Activities and Services + Parks & Recreation pages",
+      "notes": "Web confirms 585-872-7103 as Webster Recreation Center main line. Used by webstersenior (55+ Programs ext 7105 for Daphne Geoca, transport ext 7385) and websterrec (Parks & Recreation general)."
+    }
+  ]
 }

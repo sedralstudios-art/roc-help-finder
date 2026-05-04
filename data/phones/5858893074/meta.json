@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.458Z",
-  "lastSeededAt": "2026-05-03T19:44:16.458Z"
+  "lastSeededAt": "2026-05-03T19:44:16.458Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://www.townofwheatland.org/town-court",
+      "sourceLabel": "Town of Wheatland Town Court page",
+      "notes": "Web confirms (585) 889-3074 as Wheatland Town Court line. 22 Main St (rear entrance). M-Th 10am-2pm. Justices on call 24/7 for arraignments."
+    }
+  ]
 }

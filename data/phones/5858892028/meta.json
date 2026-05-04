@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.458Z",
-  "lastSeededAt": "2026-05-03T19:44:16.458Z"
+  "lastSeededAt": "2026-05-03T19:44:16.458Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T22:18:51.251Z",
+      "sourceUrl": "https://gracechurchscottsville.org/",
+      "sourceLabel": "Grace Episcopal Church Scottsville official site",
+      "notes": "Web confirms 585-889-2028 as Grace Episcopal Church line, host of Grace's Table Food Cupboard (24/7 outdoor food cupboard at 9 Browns Ave). Monthly distribution 4th Thu 4-5:30pm."
+    }
+  ]
 }
