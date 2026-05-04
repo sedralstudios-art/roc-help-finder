@@ -63,5 +63,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.362Z",
-  "lastSeededAt": "2026-05-03T19:44:16.362Z"
+  "lastSeededAt": "2026-05-03T19:44:16.362Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://hiltonny.myrec.com/info/dept/default.aspx",
+      "sourceLabel": "Hilton-Parma Parks & Recreation MyRec page",
+      "notes": "Web confirms (585) 392-9030 as Hilton-Parma Parks and Recreation main line. 59 Henry St, Hilton NY 14468. Used by hiltonsenior (Senior Center programs) and hiltonrec (general recreation)."
+    }
+  ]
 }

@@ -66,5 +66,13 @@
     "public",
     "library"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://www.parmapubliclibrary.org/",
+      "sourceLabel": "Parma Public Library official site",
+      "notes": "Web confirms 585-392-8350 as Parma Public Library main line. 7 West Ave, Hilton NY 14468. M-Th 10am-8pm."
+    }
+  ]
 }

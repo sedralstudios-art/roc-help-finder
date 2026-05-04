@@ -68,5 +68,13 @@
     "food",
     "shelf"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://hiltonparmacommunitycouncilofchurches.weebly.com/foodshelf.html",
+      "sourceLabel": "Hilton Parma Community Council of Churches food shelf page",
+      "notes": "Web confirms 585-234-2090 as Hilton-Parma Emergency Food Shelf line for appointments. Org main 585-234-2700. By appointment only."
+    }
+  ]
 }

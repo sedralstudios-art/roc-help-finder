@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.447Z",
-  "lastSeededAt": "2026-05-03T19:44:16.447Z"
+  "lastSeededAt": "2026-05-03T19:44:16.447Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://parmany.gov/departments/court/",
+      "sourceLabel": "Parma Town Court page",
+      "notes": "Web confirms (585) 392-9470 as Parma Town Court line. 1300 Hilton Parma Corners Rd. Office M-W 9am-4pm, Th-F 12-4pm."
+    }
+  ]
 }

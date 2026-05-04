@@ -71,5 +71,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.335Z",
-  "lastSeededAt": "2026-05-03T19:44:16.335Z"
+  "lastSeededAt": "2026-05-03T19:44:16.335Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://townofmendonny.gov/departments/town-clerk/",
+      "sourceLabel": "Town of Mendon Town Clerk page",
+      "notes": "Web confirms 585-624-6060 as Town of Mendon Town Hall main switchboard. 16 West Main St, Honeoye Falls NY 14472. Used by mendonclerk (Town Clerk Michelle Booth), mendoncourt, mendonbuilding, and mendonrec — all departments share this line."
+    }
+  ]
 }

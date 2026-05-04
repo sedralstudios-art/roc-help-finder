@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.448Z",
-  "lastSeededAt": "2026-05-03T19:44:16.448Z"
+  "lastSeededAt": "2026-05-03T19:44:16.448Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://www.villageofhoneoyefalls.gov/contacts-directory",
+      "sourceLabel": "Village of Honeoye Falls Contacts Directory",
+      "notes": "Multi-source web confirms (585) 624-1711 as Village of Honeoye Falls main / clerk line. 5 East St, Honeoye Falls NY 14472. Village Clerk Gina Hurley. M-Th 8-4, F 8-12:30. Fax 585-624-2588."
+    }
+  ]
 }

@@ -66,5 +66,13 @@
     "town",
     "court"
   ],
-  "verifiedRatio": 1
+  "verifiedRatio": 1,
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://www.irondequoit.gov/299/Town-Court",
+      "sourceLabel": "Town of Irondequoit Town Court page",
+      "notes": "Web confirms 585-336-6040 as Irondequoit Town Court main line. Direct ext 3332 for court clerk per programs.js. On-call judge 24/7 for arraignments."
+    }
+  ]
 }

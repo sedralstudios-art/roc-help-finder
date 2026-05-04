@@ -55,5 +55,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.448Z",
-  "lastSeededAt": "2026-05-03T19:44:16.448Z"
+  "lastSeededAt": "2026-05-03T19:44:16.448Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-04T21:33:59.690Z",
+      "sourceUrl": "https://mendonlibrary.org/",
+      "sourceLabel": "Mendon Public Library official site",
+      "notes": "Web confirms (585) 624-6067 as Mendon Public Library main line. 22 N Main St, Honeoye Falls NY 14472. Monroe County Library System."
+    }
+  ]
 }
