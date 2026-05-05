@@ -57,5 +57,13 @@
   "replacedBy": null,
   "replaces": null,
   "seededAt": "2026-05-03T19:44:16.439Z",
-  "lastSeededAt": "2026-05-03T19:44:16.439Z"
+  "lastSeededAt": "2026-05-03T19:44:16.439Z",
+  "webVerification": [
+    {
+      "verifiedAt": "2026-05-05T00:00:00.000Z",
+      "sourceUrl": "https://www.nyconnects.ny.gov/services/east-rochester-community-resource-center-2171",
+      "sourceLabel": "NY Connects + 211 Lifeline + GrapElder corroboration",
+      "notes": "Multi-source web confirms 585-586-0525 as the East Rochester Community Resource Center direct line at 333 E Chestnut St. Distinct from the Town/Village Clerk switchboard (585-586-3553) — town's own resource-center page omits the direct line, which is why the prior stamp incorrectly used the clerk number. Alt: 585-264-9027. Hours: M-F 9am-2pm in person, phones monitored until 5pm. Dialer transcript already extracted 'East Rochester' (clean-match, 0.83 confidence) on 2026-05-02."
+    }
+  ]
 }
