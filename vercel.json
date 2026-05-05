@@ -1,6 +1,9 @@
 {
   "trailingSlash": false,
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/((?!maintenance\\.html$|favicon\\.svg$|favicon\\.ico$|apple-touch-icon\\.png$|fonts\\.css$|DMSerifDisplay-Regular\\.woff2$|robots\\.txt$).*)", "destination": "/maintenance.html", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/help", "destination": "/index.html" },
     { "source": "/help/:path*", "destination": "/index.html" }
